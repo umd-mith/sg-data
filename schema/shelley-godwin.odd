@@ -2,7 +2,8 @@
 <?xml-model href="brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,8 +25,7 @@
         <pubPlace>College Park, MD USA</pubPlace>
       </publicationStmt>
       <sourceDesc>
-        <p>Based on <name type="file">tei_lite.odd</name> and <name type="file"
-            >geneticTEI.xml</name>, which can be found <ref
+        <p>Based on <name type="file">geneticTEI.xml</name>, which can be found <ref
             target="http://tei.svn.sourceforge.net/viewvc/tei/trunk/P5/">Sourceforge</ref>.</p>
       </sourceDesc>
     </fileDesc>
@@ -41,15 +41,16 @@
       </div>
       <div>
         <head>Shelley Godwin ODD</head>
-        <p>The prefix in this schema stands for <expan>Shelley Godwin Archive</expan>, the project for which this customization was developed.</p>
+        <p>The prefix in this schema stands for <expan>Shelley Godwin Archive</expan>, the project
+          for which this customization was developed.</p>
         <schemaSpec ident="shelley_godwin_odd" prefix="sga_" start="TEI">
-          
+
           <!-- Required modules -->
           <moduleRef key="tei"/>
           <moduleRef key="header"/>
           <moduleRef key="core"/>
           <moduleRef key="textstructure"/>
-          
+
           <!-- Additional modules following genetic editing ODD -->
           <moduleRef key="certainty"/>
           <moduleRef key="analysis"/>
@@ -59,7 +60,48 @@
           <moduleRef key="textcrit"/>
           <moduleRef key="namesdates"/>
           <moduleRef key="drama"/>
-          
+
+          <!-- Modifications to zone to allow documentary elements (from geneticTEI.xml) -->
+          <classSpec ident="model.zonePart" type="model" mode="add">
+            <desc>elements which can form part of a zone</desc>
+          </classSpec>
+          <classSpec ident="model.linePart" type="model" mode="add">
+            <desc>elements which can form part of a line</desc>
+          </classSpec>
+
+          <!-- Documentary elements (from geneticTEI.xml) -->
+          <elementSpec ident="document" ns="http://www.tei-c.org/ns/geneticEditions" mode="add">
+            <desc>contains a document-centric transcription of a primary source, providing
+              topographical information as well as transcription</desc>
+            <classes mode="change">
+              <memberOf key="model.resourceLike"/>
+              <memberOf key="att.global"/>
+            </classes>
+            <content>
+              <rng:oneOrMore>
+                <rng:ref name="surface"/>
+                <rng:zeroOrMore>
+                  <rng:ref name="model.global.edit"/>
+                </rng:zeroOrMore>
+              </rng:oneOrMore>
+            </content>
+          </elementSpec>
+          <elementSpec ident="surface" module="transcr" mode="change">
+            <classes mode="change">
+              <memberOf key="att.typed" mode="add"/>
+            </classes>
+            <content>
+              <rng:zeroOrMore>
+                <rng:choice>
+                  <rng:ref name="model.global"/>
+                  <rng:ref name="model.glossLike"/>
+                  <rng:ref name="model.graphicLike"/>
+                  <rng:ref name="zone"/>
+                  <rng:ref name="patch"/>
+                </rng:choice>
+              </rng:zeroOrMore>
+            </content>
+          </elementSpec>
         </schemaSpec>
       </div>
     </body>
