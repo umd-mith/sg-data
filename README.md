@@ -2,7 +2,7 @@ Shelley-Godwin Archive
 ======================
 
 Add project description here.
-Test edit.
+Test edit. Phase two.
 
 Directory structure
 -------------------
