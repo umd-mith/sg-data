@@ -29,8 +29,8 @@ Diplomatic Transcription of the Esdaile Notebook
 <lg1 type="poem">[To Harriet]
 
 
-   <hand scribe="HWS">To Harriet</hand>
-<hand scribe="PBS">
+   <handshift scribe="HWS">To Harriet</handshift>
+
 <lg>
 <l>Whose is the love that gleaming thro the world</l>
 <l>Wards off the poisonous arrow of its scorn?</l>
@@ -53,7 +53,7 @@ Diplomatic Transcription of the Esdaile Notebook
 <l>Its bloom may deck their pale &#38; faded prime</l>
 <l rend="indented1">Can they survive without thy love</l> <l rend="indented2">Their wild &#38; moody birth?</l>
 </lg>
-</hand>
+
 </lg1>
 
  
@@ -61,7 +61,7 @@ Diplomatic Transcription of the Esdaile Notebook
                               <> —— <>
 
 
-<>A sabbath Walk<>
+<header>A sabbath Walk</header>
 
 <l>Sweet are the stilly forest glades:</l>
 <l>Imbued with holiest feelings there</l>
@@ -124,7 +124,7 @@ Diplomatic Transcription of the Esdaile Notebook
 <l>Thanks givings, prayers &#38; gold.</l> 
 
 
-     The Crisis
+     <header>The Crisis</header>
 
 <l>When we see Despots prosper in their weakness,</l>
 <l>When we see Falshood triumph in its folly,</l>
