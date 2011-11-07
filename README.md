@@ -7,6 +7,8 @@ Test edit.
 Directory structure
 -------------------
 
+This is a test sentence.
+
 This repository contains (or will contain) the following files and
 directories:
 
