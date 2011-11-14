@@ -48,9 +48,9 @@
 
           <!-- Required modules -->
           <moduleRef key="tei"/>
-          <moduleRef key="header"/>
-          <moduleRef key="core"/>
-          <moduleRef key="textstructure"/>
+          <moduleRef key="core" except="analytic biblStruct binaryObject divGen headItem headLabel label listBibl measure measureGrp meeting monogr postBox postCode series teiCorpus"/>
+          <moduleRef key="header" except="biblFull samplingDecl stdVals"/>
+          <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
           
         </schemaSpec>
       </div>
