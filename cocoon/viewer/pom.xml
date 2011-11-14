@@ -29,7 +29,7 @@
     <version>0.1</version>
   </parent>-->
 
-  <name>ShelleShelley-Godwin Archivee Viewer Block</name>
+  <name>Shelley-Godwin Archive Viewer Block</name>
   <groupId>edu.umd.mith.sga</groupId>
   <artifactId>viewer</artifactId>
   <version>0.1</version>
