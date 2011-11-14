@@ -52,6 +52,11 @@
           <moduleRef key="header" except="biblFull samplingDecl stdVals"/>
           <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
           
+          <!-- Additional elements -->
+          <elementRef key="space"/>
+          <elementRef key="persName"/>
+          <elementRef key="placeName"/>
+          
         </schemaSpec>
       </div>
     </body>
