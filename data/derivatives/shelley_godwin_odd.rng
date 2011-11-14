@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2011-11-14T11:04:46Z. 
+Schema generated from ODD source 2011-11-14T11:16:17Z. 
 Edition: 1.9.1. Last updated on March 5th 2011.
 Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 
@@ -1010,29 +1010,41 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.nameLike.agent">
     <choice>
       <ref name="sga_name"/>
+      <ref name="sga_persName"/>
     </choice>
   </define>
   <define name="sga_model.nameLike.agent_alternation">
     <choice>
       <ref name="sga_name"/>
+      <ref name="sga_persName"/>
     </choice>
   </define>
   <define name="sga_model.nameLike.agent_sequence">
     <ref name="sga_name"/>
+    <ref name="sga_persName"/>
   </define>
   <define name="sga_model.nameLike.agent_sequenceOptional">
     <optional>
       <ref name="sga_name"/>
+    </optional>
+    <optional>
+      <ref name="sga_persName"/>
     </optional>
   </define>
   <define name="sga_model.nameLike.agent_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga_name"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_persName"/>
+    </zeroOrMore>
   </define>
   <define name="sga_model.nameLike.agent_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga_name"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_persName"/>
     </oneOrMore>
   </define>
   <define name="sga_model.segLike">
@@ -1904,29 +1916,41 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.global.edit">
     <choice>
       <ref name="sga_gap"/>
+      <ref name="sga_space"/>
     </choice>
   </define>
   <define name="sga_model.global.edit_alternation">
     <choice>
       <ref name="sga_gap"/>
+      <ref name="sga_space"/>
     </choice>
   </define>
   <define name="sga_model.global.edit_sequence">
     <ref name="sga_gap"/>
+    <ref name="sga_space"/>
   </define>
   <define name="sga_model.global.edit_sequenceOptional">
     <optional>
       <ref name="sga_gap"/>
+    </optional>
+    <optional>
+      <ref name="sga_space"/>
     </optional>
   </define>
   <define name="sga_model.global.edit_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga_gap"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_space"/>
+    </zeroOrMore>
   </define>
   <define name="sga_model.global.edit_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga_gap"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_space"/>
     </oneOrMore>
   </define>
   <define name="sga_model.divPart">
@@ -2003,6 +2027,90 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sga_floatingText"/>
+    </oneOrMore>
+  </define>
+  <define name="sga_model.persStateLike">
+    <choice>
+      <ref name="sga_persName"/>
+    </choice>
+  </define>
+  <define name="sga_model.persStateLike_alternation">
+    <choice>
+      <ref name="sga_persName"/>
+    </choice>
+  </define>
+  <define name="sga_model.persStateLike_sequence">
+    <ref name="sga_persName"/>
+  </define>
+  <define name="sga_model.persStateLike_sequenceOptional">
+    <optional>
+      <ref name="sga_persName"/>
+    </optional>
+  </define>
+  <define name="sga_model.persStateLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="sga_persName"/>
+    </zeroOrMore>
+  </define>
+  <define name="sga_model.persStateLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="sga_persName"/>
+    </oneOrMore>
+  </define>
+  <define name="sga_model.placeNamePart">
+    <choice>
+      <ref name="sga_placeName"/>
+    </choice>
+  </define>
+  <define name="sga_model.placeNamePart_alternation">
+    <choice>
+      <ref name="sga_placeName"/>
+    </choice>
+  </define>
+  <define name="sga_model.placeNamePart_sequence">
+    <ref name="sga_placeName"/>
+  </define>
+  <define name="sga_model.placeNamePart_sequenceOptional">
+    <optional>
+      <ref name="sga_placeName"/>
+    </optional>
+  </define>
+  <define name="sga_model.placeNamePart_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="sga_placeName"/>
+    </zeroOrMore>
+  </define>
+  <define name="sga_model.placeNamePart_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="sga_placeName"/>
+    </oneOrMore>
+  </define>
+  <define name="sga_model.placeStateLike">
+    <choice>
+      <ref name="sga_model.placeNamePart"/>
+    </choice>
+  </define>
+  <define name="sga_model.placeStateLike_alternation">
+    <choice>
+      <ref name="sga_model.placeNamePart_alternation"/>
+    </choice>
+  </define>
+  <define name="sga_model.placeStateLike_sequence">
+    <ref name="sga_model.placeNamePart_sequence"/>
+  </define>
+  <define name="sga_model.placeStateLike_sequenceOptional">
+    <optional>
+      <ref name="sga_model.placeNamePart_sequenceOptional"/>
+    </optional>
+  </define>
+  <define name="sga_model.placeStateLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="sga_model.placeNamePart_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+  </define>
+  <define name="sga_model.placeStateLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="sga_model.placeNamePart_sequenceRepeatable"/>
     </oneOrMore>
   </define>
   <define name="sga_model.publicationStmtPart">
@@ -2603,6 +2711,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.nameLike">
     <choice>
       <ref name="sga_model.nameLike.agent"/>
+      <ref name="sga_model.placeStateLike"/>
       <ref name="sga_rs"/>
       <ref name="sga_idno"/>
     </choice>
@@ -2610,18 +2719,23 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.nameLike_alternation">
     <choice>
       <ref name="sga_model.nameLike.agent_alternation"/>
+      <ref name="sga_model.placeStateLike_alternation"/>
       <ref name="sga_rs"/>
       <ref name="sga_idno"/>
     </choice>
   </define>
   <define name="sga_model.nameLike_sequence">
     <ref name="sga_model.nameLike.agent_sequence"/>
+    <ref name="sga_model.placeStateLike_sequence"/>
     <ref name="sga_rs"/>
     <ref name="sga_idno"/>
   </define>
   <define name="sga_model.nameLike_sequenceOptional">
     <optional>
       <ref name="sga_model.nameLike.agent_sequenceOptional"/>
+    </optional>
+    <optional>
+      <ref name="sga_model.placeStateLike_sequenceOptional"/>
     </optional>
     <optional>
       <ref name="sga_rs"/>
@@ -2635,6 +2749,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_model.nameLike.agent_sequenceOptionalRepeatable"/>
     </zeroOrMore>
     <zeroOrMore>
+      <ref name="sga_model.placeStateLike_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+    <zeroOrMore>
       <ref name="sga_rs"/>
     </zeroOrMore>
     <zeroOrMore>
@@ -2644,6 +2761,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.nameLike_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga_model.nameLike.agent_sequenceRepeatable"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_model.placeStateLike_sequenceRepeatable"/>
     </oneOrMore>
     <oneOrMore>
       <ref name="sga_rs"/>
@@ -2914,6 +3034,37 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga_model.resourceLike">
     <notAllowed/>
+  </define>
+  <define name="sga_att.personal.attributes">
+    <ref name="sga_att.naming.attributes"/>
+    <ref name="sga_att.personal.attribute.full"/>
+    <ref name="sga_att.personal.attribute.sort"/>
+  </define>
+  <define name="sga_att.personal.attribute.full">
+    <optional>
+      <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="full" a:defaultValue="yes">
+        <a:documentation>indicates whether the name component is given in full, as an
+abbreviation or simply as an initial.</a:documentation>
+        <choice>
+          <value>yes</value>
+          <a:documentation>the name component is spelled out in full.</a:documentation>
+          <value>abb</value>
+          <a:documentation>(abbreviated) the name component is given in an abbreviated form.</a:documentation>
+          <value>init</value>
+          <a:documentation>(initial letter) the name component is indicated only by
+one initial.</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.personal.attribute.sort">
+    <optional>
+      <attribute name="sort">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sort order of the name component in relation
+to others within the personal name.</a:documentation>
+        <ref name="sga_data.count"/>
+      </attribute>
+    </optional>
   </define>
   <define name="sga_p">
     <element name="p">
@@ -5877,6 +6028,60 @@ found  at the start of a document, before the main body. 4.6. Title Pages 4. Def
       </group>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.declaring.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_space">
+    <element name="space">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of a significant space in the copy text. 11.6.1. Space</a:documentation>
+      <zeroOrMore>
+        <ref name="sga_model.glossLike"/>
+      </zeroOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.dimensions.attributes"/>
+      <optional>
+        <attribute name="dim">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(dimension) indicates whether the space is horizontal or vertical.</a:documentation>
+          <choice>
+            <value>horizontal</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the space is horizontal.</a:documentation>
+            <value>vertical</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the space is vertical.</a:documentation>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="resp">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsible party) indicates the individual responsible for identifying and measuring
+the space.</a:documentation>
+          <ref name="sga_data.pointer"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_persName">
+    <element name="persName">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including any
+    or all of the person's forenames, surnames, honorifics, added names, etc. 13.2.1. Personal Names</a:documentation>
+      <ref name="sga_macro.phraseSeq"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.datable.attributes"/>
+      <ref name="sga_att.editLike.attributes"/>
+      <ref name="sga_att.personal.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_placeName">
+    <element name="placeName">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an absolute or relative place name.  13.2.3. Place Names</a:documentation>
+      <ref name="sga_macro.phraseSeq"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.naming.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <ref name="sga_att.datable.attributes"/>
+      <ref name="sga_att.editLike.attributes"/>
       <empty/>
     </element>
   </define>

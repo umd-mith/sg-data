@@ -8,7 +8,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2011-11-14T11:04:46Z. 
+# Schema generated from ODD source 2011-11-14T11:16:17Z. 
 # Edition: 1.9.1. Last updated on March 5th 2011.
 # Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 #
@@ -660,12 +660,13 @@ sga_att.translatable.attribute.version =
   ## specifies the version name or number of the source from
   ##	which the translated version was derived
   attribute version { sga_data.word }?
-sga_model.nameLike.agent = sga_name
-sga_model.nameLike.agent_alternation = sga_name
-sga_model.nameLike.agent_sequence = sga_name
-sga_model.nameLike.agent_sequenceOptional = sga_name?
-sga_model.nameLike.agent_sequenceOptionalRepeatable = sga_name*
-sga_model.nameLike.agent_sequenceRepeatable = sga_name+
+sga_model.nameLike.agent = sga_name | sga_persName
+sga_model.nameLike.agent_alternation = sga_name | sga_persName
+sga_model.nameLike.agent_sequence = sga_name, sga_persName
+sga_model.nameLike.agent_sequenceOptional = sga_name?, sga_persName?
+sga_model.nameLike.agent_sequenceOptionalRepeatable =
+  sga_name*, sga_persName*
+sga_model.nameLike.agent_sequenceRepeatable = sga_name+, sga_persName+
 sga_model.segLike = notAllowed
 sga_model.segLike_alternation = notAllowed
 sga_model.segLike_sequence = empty
@@ -911,12 +912,12 @@ sga_model.stageLike_sequenceOptional = sga_stage?
 sga_model.stageLike_sequenceOptionalRepeatable = sga_stage*
 sga_model.stageLike_sequenceRepeatable = sga_stage+
 sga_model.entryPart = notAllowed
-sga_model.global.edit = sga_gap
-sga_model.global.edit_alternation = sga_gap
-sga_model.global.edit_sequence = sga_gap
-sga_model.global.edit_sequenceOptional = sga_gap?
-sga_model.global.edit_sequenceOptionalRepeatable = sga_gap*
-sga_model.global.edit_sequenceRepeatable = sga_gap+
+sga_model.global.edit = sga_gap | sga_space
+sga_model.global.edit_alternation = sga_gap | sga_space
+sga_model.global.edit_sequence = sga_gap, sga_space
+sga_model.global.edit_sequenceOptional = sga_gap?, sga_space?
+sga_model.global.edit_sequenceOptionalRepeatable = sga_gap*, sga_space*
+sga_model.global.edit_sequenceRepeatable = sga_gap+, sga_space+
 sga_model.divPart =
   sga_model.lLike | sga_model.pLike | sga_lg | sga_sp | sga_floatingText
 sga_model.divPart_alternation =
@@ -949,6 +950,28 @@ sga_model.divPart_sequenceRepeatable =
   sga_lg+,
   sga_sp+,
   sga_floatingText+
+sga_model.persStateLike = sga_persName
+sga_model.persStateLike_alternation = sga_persName
+sga_model.persStateLike_sequence = sga_persName
+sga_model.persStateLike_sequenceOptional = sga_persName?
+sga_model.persStateLike_sequenceOptionalRepeatable = sga_persName*
+sga_model.persStateLike_sequenceRepeatable = sga_persName+
+sga_model.placeNamePart = sga_placeName
+sga_model.placeNamePart_alternation = sga_placeName
+sga_model.placeNamePart_sequence = sga_placeName
+sga_model.placeNamePart_sequenceOptional = sga_placeName?
+sga_model.placeNamePart_sequenceOptionalRepeatable = sga_placeName*
+sga_model.placeNamePart_sequenceRepeatable = sga_placeName+
+sga_model.placeStateLike = sga_model.placeNamePart
+sga_model.placeStateLike_alternation =
+  sga_model.placeNamePart_alternation
+sga_model.placeStateLike_sequence = sga_model.placeNamePart_sequence
+sga_model.placeStateLike_sequenceOptional =
+  sga_model.placeNamePart_sequenceOptional?
+sga_model.placeStateLike_sequenceOptionalRepeatable =
+  sga_model.placeNamePart_sequenceOptionalRepeatable*
+sga_model.placeStateLike_sequenceRepeatable =
+  sga_model.placeNamePart_sequenceRepeatable+
 sga_model.publicationStmtPart =
   sga_address
   | sga_date
@@ -1147,19 +1170,36 @@ sga_model.addressLike_sequenceOptional = sga_email?, sga_address?
 sga_model.addressLike_sequenceOptionalRepeatable =
   sga_email*, sga_address*
 sga_model.addressLike_sequenceRepeatable = sga_email+, sga_address+
-sga_model.nameLike = sga_model.nameLike.agent | sga_rs | sga_idno
+sga_model.nameLike =
+  sga_model.nameLike.agent
+  | sga_model.placeStateLike
+  | sga_rs
+  | sga_idno
 sga_model.nameLike_alternation =
-  sga_model.nameLike.agent_alternation | sga_rs | sga_idno
+  sga_model.nameLike.agent_alternation
+  | sga_model.placeStateLike_alternation
+  | sga_rs
+  | sga_idno
 sga_model.nameLike_sequence =
-  sga_model.nameLike.agent_sequence, sga_rs, sga_idno
+  sga_model.nameLike.agent_sequence,
+  sga_model.placeStateLike_sequence,
+  sga_rs,
+  sga_idno
 sga_model.nameLike_sequenceOptional =
-  sga_model.nameLike.agent_sequenceOptional?, sga_rs?, sga_idno?
+  sga_model.nameLike.agent_sequenceOptional?,
+  sga_model.placeStateLike_sequenceOptional?,
+  sga_rs?,
+  sga_idno?
 sga_model.nameLike_sequenceOptionalRepeatable =
   sga_model.nameLike.agent_sequenceOptionalRepeatable*,
+  sga_model.placeStateLike_sequenceOptionalRepeatable*,
   sga_rs*,
   sga_idno*
 sga_model.nameLike_sequenceRepeatable =
-  sga_model.nameLike.agent_sequenceRepeatable+, sga_rs+, sga_idno+
+  sga_model.nameLike.agent_sequenceRepeatable+,
+  sga_model.placeStateLike_sequenceRepeatable+,
+  sga_rs+,
+  sga_idno+
 sga_model.global =
   sga_model.global.meta
   | sga_model.milestoneLike
@@ -1283,6 +1323,32 @@ sga_model.editorialDeclPart =
 sga_model.profileDescPart =
   sga_creation | sga_langUsage | sga_textClass | sga_calendarDesc
 sga_model.resourceLike = notAllowed
+sga_att.personal.attributes =
+  sga_att.naming.attributes,
+  sga_att.personal.attribute.full,
+  sga_att.personal.attribute.sort
+sga_att.personal.attribute.full =
+  
+  ## indicates whether the name component is given in full, as an
+  ## abbreviation or simply as an initial.
+  [ a:defaultValue = "yes" ]
+  attribute full {
+    
+    ## the name component is spelled out in full.
+    "yes"
+    | 
+      ## (abbreviated) the name component is given in an abbreviated form.
+      "abb"
+    | 
+      ## (initial letter) the name component is indicated only by
+      ## one initial.
+      "init"
+  }?
+sga_att.personal.attribute.sort =
+  
+  ## specifies the sort order of the name component in relation
+  ## to others within the personal name.
+  attribute sort { sga_data.count }?
 sga_p =
   
   ## (paragraph) marks paragraphs in prose. 3.1. Paragraphs 7.2.4. Speech Contents
@@ -3419,6 +3485,54 @@ sga_back =
       (sga_model.divBottomPart | sga_model.global)*)?),
     sga_att.global.attributes,
     sga_att.declaring.attributes,
+    empty
+  }
+sga_space =
+  
+  ## indicates the location of a significant space in the copy text. 11.6.1. Space
+  element space {
+    sga_model.glossLike*,
+    sga_att.global.attributes,
+    sga_att.dimensions.attributes,
+    
+    ## (dimension) indicates whether the space is horizontal or vertical.
+    attribute dim {
+      
+      ## the space is horizontal.
+      "horizontal"
+      | 
+        ## the space is vertical.
+        "vertical"
+    }?,
+    
+    ## (responsible party) indicates the individual responsible for identifying and measuring
+    ## the space.
+    attribute resp { sga_data.pointer }?,
+    empty
+  }
+sga_persName =
+  
+  ## (personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including any
+  ##     or all of the person's forenames, surnames, honorifics, added names, etc. 13.2.1. Personal Names
+  element persName {
+    sga_macro.phraseSeq,
+    sga_att.global.attributes,
+    sga_att.datable.attributes,
+    sga_att.editLike.attributes,
+    sga_att.personal.attributes,
+    sga_att.typed.attributes,
+    empty
+  }
+sga_placeName =
+  
+  ## contains an absolute or relative place name.  13.2.3. Place Names
+  element placeName {
+    sga_macro.phraseSeq,
+    sga_att.global.attributes,
+    sga_att.naming.attributes,
+    sga_att.typed.attributes,
+    sga_att.datable.attributes,
+    sga_att.editLike.attributes,
     empty
   }
 start = sga_TEI
