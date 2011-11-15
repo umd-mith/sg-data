@@ -1,4 +1,4 @@
-package edu.umd.mith.mishnah.xml
+package edu.umd.mith.sga.xml
 
 import edu.umd.mith.util.xml.ValidatingTestBase
 
