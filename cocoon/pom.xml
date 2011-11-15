@@ -6,7 +6,7 @@
   <groupId>edu.umd.mith.sga</groupId>
   <artifactId>cocoon</artifactId>
   <version>0.1</version>     
-  <name>Shelley-Godwin Archive</name>
+  <name>Shelley-Godwin Archive Cocoon Application</name>
   <modules>
     <module>text</module>
     <module>viewer</module>
