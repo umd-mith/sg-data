@@ -80,32 +80,13 @@
         <directory>src/main/resources</directory> 
       </resource>
       <resource>
-        <directory>../data/</directory>
+        <directory>${basedir}/../data</directory>
+      </resource>
+      <resource>
+        <directory>${project.build.directory}/generated-resources</directory>
       </resource>
     </resources>
     <plugins>
-      <!--<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-install-plugin</artifactId>
-        <version>2.3.1</version>
-        <executions>
-          <execution>
-            <phase>validate</phase>
-            <id>install-saxon9he</id>
-            <configuration>
-              <file>${basedir}/lib/saxon9he.jar</file>
-              <groupId>net.sf.saxon</groupId>
-              <artifactId>saxon</artifactId>
-              <version>9.2</version>
-              <packaging>jar</packaging>
-              <generatePom>true</generatePom>
-            </configuration>
-            <goals>
-              <goal>install-file</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>-->
       <plugin>
         <groupId>org.scala-tools</groupId>
         <artifactId>maven-scala-plugin</artifactId>
@@ -136,6 +117,55 @@
             <phase>process-resources</phase>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>xml-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>transform</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <transformationSets>
+            <transformationSet>
+              <dir>${basedir}/../data/odd/</dir>
+              <stylesheet>${basedir}/../cocoon/text/src/main/resources/roma/xsl/odds2/odd2odd.xsl</stylesheet>
+              <outputDir>${project.build.directory}/generated-resources/schema/odd</outputDir>
+            </transformationSet>
+            <transformationSet>
+              <dir>${project.build.directory}/generated-resources/schema/odd</dir>
+              <stylesheet>${basedir}/../cocoon/text/src/main/resources/roma/xsl/odds2/odd2relax.xsl</stylesheet>
+              <fileMappers>
+                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+                  <pattern>\.odd$</pattern>
+                  <replacement>.rng</replacement>
+                </fileMapper>
+              </fileMappers>
+              <outputDir>${project.build.directory}/generated-resources/schema/rng</outputDir>
+            </transformationSet>
+            <transformationSet>
+              <dir>${project.build.directory}/generated-resources/schema/odd</dir>
+              <stylesheet>${basedir}/../cocoon/text/src/main/resources/roma/xsl/odds2/extract-isosch.xsl</stylesheet>
+              <fileMappers>
+                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+                  <pattern>\.odd$</pattern>
+                  <replacement>.isosch</replacement>
+                </fileMapper>
+              </fileMappers>
+              <outputDir>${project.build.directory}/generated-resources/schema/isosch</outputDir>
+            </transformationSet>
+          </transformationSets>
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>saxon</artifactId>
+            <version>9.2</version>
+          </dependency>
+        </dependencies>
       </plugin>
     </plugins>
   </build>
