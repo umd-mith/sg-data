@@ -35,7 +35,7 @@
 
   <map:pipelines>
     <map:pipeline id="roma">
-      <map:match pattern="*schema/*.rng">
+      <map:match pattern="schema/*.rng">
         <map:generate src="resource://odd/{1}.odd"/>
         <map:transform src="resource://roma/xsl/odds2/odd2odd.xsl" type="xslt-saxon"/>
         <map:transform src="resource://roma/xsl/odds2/odd2relax.xsl" type="xslt-saxon"/>
