@@ -64,14 +64,12 @@
 	  -->
 	  <elementSpec ident="teiHeader" module="header" mode="change">
 	    <content>
-	      <rng:group>
 	        <rng:ref name="fileDesc"/>
 	        <rng:ref name="encodingDesc"/>
 	        <rng:zeroOrMore>
 	          <rng:ref name="profileDesc"/>
 	        </rng:zeroOrMore>
-	          <rng:ref name="revisionDesc"/>	        
-	      </rng:group>
+	         <rng:ref name="revisionDesc"/>	        
 	    </content>
 	  </elementSpec>
           
