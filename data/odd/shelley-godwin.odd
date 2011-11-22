@@ -60,6 +60,7 @@
 
 	  <!-- Modifications to the content model of  teiHeader:
 	           * encodingDesc and revisionDesc now required
+	           * for the moment, only simple paragraph description is accepted in encoding description
 	  -->
 	  <elementSpec ident="teiHeader" module="header" mode="change">
 	    <content>
@@ -73,6 +74,14 @@
 	      </rng:group>
 	    </content>
 	  </elementSpec>
+          
+          <elementSpec ident="encodingDesc" module="header" mode="change">
+            <content>
+              <rng:oneOrMore>
+                  <rng:ref name="model.pLike"/>
+              </rng:oneOrMore>
+            </content>
+          </elementSpec>
           
         </schemaSpec>
       </div>

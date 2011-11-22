@@ -8,7 +8,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2011-11-21T20:46:18Z. 
+# Schema generated from ODD source 2011-11-21T20:54:57Z. 
 # Edition: 1.9.1. Last updated on March 5th 2011.
 # Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 #
@@ -1304,14 +1304,6 @@ sga_model.divGenLike = notAllowed
 sga_model.div1Like = notAllowed
 sga_model.applicationLike = sga_application
 sga_model.sourceDescPart = notAllowed
-sga_model.encodingDescPart =
-  sga_projectDesc
-  | sga_editorialDecl
-  | sga_tagsDecl
-  | sga_refsDecl
-  | sga_classDecl
-  | sga_appInfo
-  | sga_geoDecl
 sga_model.editorialDeclPart =
   sga_correction
   | sga_normalization
@@ -2607,9 +2599,7 @@ sga_encodingDesc =
   ## (encoding description) documents the relationship between an electronic text and the
   ## source or sources from which it was derived. 2.3. The Encoding Description 2.1.1. The TEI Header and its Components
   element encodingDesc {
-    (sga_model.encodingDescPart | sga_model.pLike)+,
-    sga_att.global.attributes,
-    empty
+    sga_model.pLike+, sga_att.global.attributes, empty
   }
 sga_projectDesc =
   

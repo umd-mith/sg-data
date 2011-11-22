@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2011-11-21T20:46:18Z. 
+Schema generated from ODD source 2011-11-21T20:54:57Z. 
 Edition: 1.9.1. Last updated on March 5th 2011.
 Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 
@@ -2997,17 +2997,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.sourceDescPart">
     <notAllowed/>
   </define>
-  <define name="sga_model.encodingDescPart">
-    <choice>
-      <ref name="sga_projectDesc"/>
-      <ref name="sga_editorialDecl"/>
-      <ref name="sga_tagsDecl"/>
-      <ref name="sga_refsDecl"/>
-      <ref name="sga_classDecl"/>
-      <ref name="sga_appInfo"/>
-      <ref name="sga_geoDecl"/>
-    </choice>
-  </define>
   <define name="sga_model.editorialDeclPart">
     <choice>
       <ref name="sga_correction"/>
@@ -4606,14 +4595,9 @@ Licencing, etc.</a:documentation>
     <element name="encodingDesc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(encoding description) documents the relationship between an electronic text and the
 source or sources from which it was derived. 2.3. The Encoding Description 2.1.1. The TEI Header and its Components</a:documentation>
-      <group>
-        <oneOrMore>
-          <choice>
-            <ref name="sga_model.encodingDescPart"/>
-            <ref name="sga_model.pLike"/>
-          </choice>
-        </oneOrMore>
-      </group>
+      <oneOrMore>
+        <ref name="sga_model.pLike"/>
+      </oneOrMore>
       <ref name="sga_att.global.attributes"/>
       <empty/>
     </element>
