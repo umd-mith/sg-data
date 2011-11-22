@@ -8,7 +8,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2011-11-14T11:16:17Z. 
+# Schema generated from ODD source 2011-11-21T20:46:18Z. 
 # Edition: 1.9.1. Last updated on March 5th 2011.
 # Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 #
@@ -1303,7 +1303,6 @@ sga_model.divLike = sga_div
 sga_model.divGenLike = notAllowed
 sga_model.div1Like = notAllowed
 sga_model.applicationLike = sga_application
-sga_model.teiHeaderPart = sga_encodingDesc | sga_profileDesc
 sga_model.sourceDescPart = notAllowed
 sga_model.encodingDescPart =
   sga_projectDesc
@@ -2418,13 +2417,16 @@ sga_teiHeader =
   ## (TEI Header) supplies the descriptive and declarative information making up an electronic title page
   ##     prefixed to every TEI-conformant text. 2.1.1. The TEI Header and its Components 15.1. Varieties of Composite Text
   element teiHeader {
-    (sga_fileDesc, sga_model.teiHeaderPart*, sga_revisionDesc?),
-    sga_att.global.attributes,
+    (sga_fileDesc,
+     sga_encodingDesc,
+     sga_profileDesc*,
+     sga_revisionDesc),
     
     ## specifies the kind of document to which the header is attached, for example whether it
     ##         is a corpus or individual text.
     ## Sample values include: 1] text; 2] corpus
     [ a:defaultValue = "text" ] attribute type { sga_data.enumerated }?,
+    sga_att.global.attributes,
     empty
   }
 sga_fileDesc =

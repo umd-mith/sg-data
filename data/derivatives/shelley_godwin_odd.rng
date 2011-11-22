@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2011-11-14T11:16:17Z. 
+Schema generated from ODD source 2011-11-21T20:46:18Z. 
 Edition: 1.9.1. Last updated on March 5th 2011.
 Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 
@@ -2994,12 +2994,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_application"/>
     </choice>
   </define>
-  <define name="sga_model.teiHeaderPart">
-    <choice>
-      <ref name="sga_encodingDesc"/>
-      <ref name="sga_profileDesc"/>
-    </choice>
-  </define>
   <define name="sga_model.sourceDescPart">
     <notAllowed/>
   </define>
@@ -4329,14 +4323,12 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
     prefixed to every TEI-conformant text. 2.1.1. The TEI Header and its Components 15.1. Varieties of Composite Text</a:documentation>
       <group>
         <ref name="sga_fileDesc"/>
+        <ref name="sga_encodingDesc"/>
         <zeroOrMore>
-          <ref name="sga_model.teiHeaderPart"/>
+          <ref name="sga_profileDesc"/>
         </zeroOrMore>
-        <optional>
-          <ref name="sga_revisionDesc"/>
-        </optional>
+        <ref name="sga_revisionDesc"/>
       </group>
-      <ref name="sga_att.global.attributes"/>
       <optional>
         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="type" a:defaultValue="text">
           <a:documentation>specifies the kind of document to which the header is attached, for example whether it
@@ -4345,6 +4337,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
           <ref name="sga_data.enumerated"/>
         </attribute>
       </optional>
+      <ref name="sga_att.global.attributes"/>
       <empty/>
     </element>
   </define>

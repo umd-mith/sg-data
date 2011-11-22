@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../derivatives/brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../derivatives/brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions">
@@ -32,6 +32,7 @@
     <revisionDesc>
       <change who="tmunoz" when="2011-10-16">First draft</change>
       <change who="tmunoz" when="2011-11-14">Temporarily removing Genetic Editions stuff</change>
+      <change who="tmunoz" when="2011-11-21">Making additional header elements required</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -56,6 +57,22 @@
           <elementRef key="space"/>
           <elementRef key="persName"/>
           <elementRef key="placeName"/>
+
+	  <!-- Modifications to the content model of  teiHeader:
+	           * encodingDesc and revisionDesc now required
+	  -->
+	  <elementSpec ident="teiHeader" module="header" mode="change">
+	    <content>
+	      <rng:group>
+	        <rng:ref name="fileDesc"/>
+	        <rng:ref name="encodingDesc"/>
+	        <rng:zeroOrMore>
+	          <rng:ref name="profileDesc"/>
+	        </rng:zeroOrMore>
+	          <rng:ref name="revisionDesc"/>	        
+	      </rng:group>
+	    </content>
+	  </elementSpec>
           
         </schemaSpec>
       </div>
