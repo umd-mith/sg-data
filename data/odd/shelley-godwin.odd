@@ -91,6 +91,28 @@
               </rng:oneOrMore>
             </content>
           </elementSpec>
+          
+          <elementSpec ident="editionStmt" module="header" mode="change"></elementSpec>
+          
+          <!-- Require use of specialized elements rather than free text in edition description; eliminate biblScope in favor of idno for series -->
+          <elementSpec ident="seriesStmt" module="core" mode="change">
+            <content>
+              <rng:group>
+                <rng:oneOrMore>
+                  <rng:ref name="title"/>
+                </rng:oneOrMore>
+                <rng:zeroOrMore>
+                  <rng:choice>
+                    <rng:ref name="editor"/>
+                    <rng:ref name="respStmt"/>
+                  </rng:choice>
+                </rng:zeroOrMore>
+                <rng:zeroOrMore>
+                    <rng:ref name="idno"/>
+                </rng:zeroOrMore>
+              </rng:group>
+            </content>
+          </elementSpec>
 
           <!-- for the moment, only simple paragraph description is accepted in encoding description -->
           <elementSpec ident="encodingDesc" module="header" mode="change">
@@ -99,6 +121,13 @@
                 <rng:ref name="model.pLike"/>
               </rng:oneOrMore>
             </content>
+          </elementSpec>
+          
+          <!-- Miscellaneous element changes; this section will be re-organized later -->
+          <elementSpec ident="title" module="core" mode="change">
+            <attList>
+              <attDef ident="level" mode="change" usage="req"/>
+            </attList>  
           </elementSpec>
 
         </schemaSpec>
