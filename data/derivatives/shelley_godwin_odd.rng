@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2011-11-21T20:54:57Z. 
+Schema generated from ODD source 2011-11-26T18:30:24Z. 
 Edition: 1.9.1. Last updated on March 5th 2011.
 Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 
@@ -4009,33 +4009,29 @@ Elements</a:documentation>
     <element name="title">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. 3.11.2.2. Authors, Titles, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement</a:documentation>
       <ref name="sga_macro.paraContent"/>
-      <ref name="sga_att.global.attributes"/>
-      <ref name="sga_att.canonical.attributes"/>
-      <optional>
-        <attribute name="level">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the bibliographic level for a title, that is, whether
+      <attribute name="level">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the bibliographic level for a title, that is, whether
                                         it identifies an article, book, journal, series, or
                                         unpublished material.</a:documentation>
-          <choice>
-            <value>a</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic) analytic title (article, poem, or other item
+        <choice>
+          <value>a</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic) analytic title (article, poem, or other item
                                                   published as part of a larger item) </a:documentation>
-            <value>m</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic) monographic title (book, collection, or
+          <value>m</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic) monographic title (book, collection, or
                                                   other item published as a distinct item,
                                                   including single volumes of multi-volume
                                                   works) </a:documentation>
-            <value>j</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(journal) journal title </a:documentation>
-            <value>s</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series) series title </a:documentation>
-            <value>u</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unpublished) title of unpublished material (including
+          <value>j</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(journal) journal title </a:documentation>
+          <value>s</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series) series title </a:documentation>
+          <value>u</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unpublished) title of unpublished material (including
                                                   theses and dissertations unless
                                                   published by a commercial press)</a:documentation>
-          </choice>
-        </attribute>
-      </optional>
+        </choice>
+      </attribute>
       <optional>
         <attribute name="type">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
@@ -4043,6 +4039,8 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
           <ref name="sga_data.enumerated"/>
         </attribute>
       </optional>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.canonical.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4310,14 +4308,12 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
     <element name="teiHeader">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI Header) supplies the descriptive and declarative information making up an electronic title page
     prefixed to every TEI-conformant text. 2.1.1. The TEI Header and its Components 15.1. Varieties of Composite Text</a:documentation>
-      <group>
-        <ref name="sga_fileDesc"/>
-        <ref name="sga_encodingDesc"/>
-        <zeroOrMore>
-          <ref name="sga_profileDesc"/>
-        </zeroOrMore>
-        <ref name="sga_revisionDesc"/>
-      </group>
+      <ref name="sga_fileDesc"/>
+      <ref name="sga_encodingDesc"/>
+      <zeroOrMore>
+        <ref name="sga_profileDesc"/>
+      </zeroOrMore>
+      <ref name="sga_revisionDesc"/>
       <optional>
         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="type" a:defaultValue="text">
           <a:documentation>specifies the kind of document to which the header is attached, for example whether it
@@ -4334,26 +4330,17 @@ Sample values include: 1] text; 2] corpus</a:documentation>
     <element name="fileDesc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file. 2.2. The File Description 2.1.1. The TEI Header and its Components</a:documentation>
       <group>
-        <group>
-          <ref name="sga_titleStmt"/>
-          <optional>
-            <ref name="sga_editionStmt"/>
-          </optional>
-          <optional>
-            <ref name="sga_extent"/>
-          </optional>
-          <ref name="sga_publicationStmt"/>
-          <optional>
-            <ref name="sga_seriesStmt"/>
-          </optional>
-          <optional>
-            <ref name="sga_notesStmt"/>
-          </optional>
-        </group>
-        <oneOrMore>
-          <ref name="sga_sourceDesc"/>
-        </oneOrMore>
+        <ref name="sga_titleStmt"/>
+        <ref name="sga_editionStmt"/>
+        <optional>
+          <ref name="sga_extent"/>
+        </optional>
+        <ref name="sga_publicationStmt"/>
+        <ref name="sga_seriesStmt"/>
       </group>
+      <oneOrMore>
+        <ref name="sga_sourceDesc"/>
+      </oneOrMore>
       <ref name="sga_att.global.attributes"/>
       <empty/>
     </element>
@@ -4532,39 +4519,20 @@ Licencing, etc.</a:documentation>
   <define name="sga_seriesStmt">
     <element name="seriesStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series statement) groups information about the series, if any, to which a publication belongs. 2.2.5. The Series Statement 2.2. The File Description</a:documentation>
-      <choice>
+      <group>
         <oneOrMore>
-          <ref name="sga_model.pLike"/>
+          <ref name="sga_title"/>
         </oneOrMore>
-        <group>
-          <oneOrMore>
-            <ref name="sga_title"/>
-          </oneOrMore>
-          <zeroOrMore>
-            <choice>
-              <ref name="sga_editor"/>
-              <ref name="sga_respStmt"/>
-            </choice>
-          </zeroOrMore>
-          <zeroOrMore>
-            <choice>
-              <ref name="sga_idno"/>
-              <ref name="sga_biblScope"/>
-            </choice>
-          </zeroOrMore>
-        </group>
-      </choice>
-      <ref name="sga_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga_notesStmt">
-    <element name="notesStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(notes statement) collects together any notes providing information about a text additional to that recorded
-    in other parts of the bibliographic description. 2.2.6. The Notes Statement 2.2. The File Description</a:documentation>
-      <oneOrMore>
-        <ref name="sga_model.noteLike"/>
-      </oneOrMore>
+        <zeroOrMore>
+          <choice>
+            <ref name="sga_editor"/>
+            <ref name="sga_respStmt"/>
+          </choice>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga_idno"/>
+        </zeroOrMore>
+      </group>
       <ref name="sga_att.global.attributes"/>
       <empty/>
     </element>

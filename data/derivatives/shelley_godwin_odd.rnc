@@ -8,7 +8,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2011-11-21T20:54:57Z. 
+# Schema generated from ODD source 2011-11-26T18:30:24Z. 
 # Edition: 1.9.1. Last updated on March 5th 2011.
 # Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 #
@@ -2131,8 +2131,6 @@ sga_title =
   ## contains a title for any kind of work. 3.11.2.2. Authors, Titles, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement
   element title {
     sga_macro.paraContent,
-    sga_att.global.attributes,
-    sga_att.canonical.attributes,
     
     ## indicates the bibliographic level for a title, that is, whether
     ##                                         it identifies an article, book, journal, series, or
@@ -2159,11 +2157,13 @@ sga_title =
         ##                                                   theses and dissertations unless
         ##                                                   published by a commercial press)
         "u"
-    }?,
+    },
     
     ## classifies the title according to some convenient typology.
     ## Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
     attribute type { sga_data.enumerated }?,
+    sga_att.global.attributes,
+    sga_att.canonical.attributes,
     empty
   }
 sga_publisher =
@@ -2409,10 +2409,10 @@ sga_teiHeader =
   ## (TEI Header) supplies the descriptive and declarative information making up an electronic title page
   ##     prefixed to every TEI-conformant text. 2.1.1. The TEI Header and its Components 15.1. Varieties of Composite Text
   element teiHeader {
-    (sga_fileDesc,
-     sga_encodingDesc,
-     sga_profileDesc*,
-     sga_revisionDesc),
+    sga_fileDesc,
+    sga_encodingDesc,
+    sga_profileDesc*,
+    sga_revisionDesc,
     
     ## specifies the kind of document to which the header is attached, for example whether it
     ##         is a corpus or individual text.
@@ -2425,13 +2425,12 @@ sga_fileDesc =
   
   ## (file description) contains a full bibliographic description of an electronic file. 2.2. The File Description 2.1.1. The TEI Header and its Components
   element fileDesc {
-    ((sga_titleStmt,
-      sga_editionStmt?,
-      sga_extent?,
-      sga_publicationStmt,
-      sga_seriesStmt?,
-      sga_notesStmt?),
-     sga_sourceDesc+),
+    (sga_titleStmt,
+     sga_editionStmt,
+     sga_extent?,
+     sga_publicationStmt,
+     sga_seriesStmt),
+    sga_sourceDesc+,
     sga_att.global.attributes,
     empty
   }
@@ -2566,19 +2565,9 @@ sga_seriesStmt =
   
   ## (series statement) groups information about the series, if any, to which a publication belongs. 2.2.5. The Series Statement 2.2. The File Description
   element seriesStmt {
-    (sga_model.pLike+
-     | (sga_title+,
-        (sga_editor | sga_respStmt)*,
-        (sga_idno | sga_biblScope)*)),
+    (sga_title+, (sga_editor | sga_respStmt)*, sga_idno*),
     sga_att.global.attributes,
     empty
-  }
-sga_notesStmt =
-  
-  ## (notes statement) collects together any notes providing information about a text additional to that recorded
-  ##     in other parts of the bibliographic description. 2.2.6. The Notes Statement 2.2. The File Description
-  element notesStmt {
-    sga_model.noteLike+, sga_att.global.attributes, empty
   }
 sga_sourceDesc =
   
