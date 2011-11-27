@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2011-11-26T18:30:24Z. 
+Schema generated from ODD source 2011-11-26T18:54:49Z. 
 Edition: 1.9.1. Last updated on March 5th 2011.
 Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 
@@ -2792,6 +2792,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga_model.frontPart">
     <choice>
+      <ref name="sga_divGen"/>
       <ref name="sga_titlePage"/>
     </choice>
   </define>
@@ -2982,12 +2983,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <choice>
       <ref name="sga_div"/>
     </choice>
-  </define>
-  <define name="sga_model.divGenLike">
-    <notAllowed/>
-  </define>
-  <define name="sga_model.div1Like">
-    <notAllowed/>
   </define>
   <define name="sga_model.applicationLike">
     <choice>
@@ -4009,29 +4004,31 @@ Elements</a:documentation>
     <element name="title">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. 3.11.2.2. Authors, Titles, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement</a:documentation>
       <ref name="sga_macro.paraContent"/>
-      <attribute name="level">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the bibliographic level for a title, that is, whether
+      <optional>
+        <attribute name="level">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the bibliographic level for a title, that is, whether
                                         it identifies an article, book, journal, series, or
                                         unpublished material.</a:documentation>
-        <choice>
-          <value>a</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic) analytic title (article, poem, or other item
+          <choice>
+            <value>a</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic) analytic title (article, poem, or other item
                                                   published as part of a larger item) </a:documentation>
-          <value>m</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic) monographic title (book, collection, or
+            <value>m</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic) monographic title (book, collection, or
                                                   other item published as a distinct item,
                                                   including single volumes of multi-volume
                                                   works) </a:documentation>
-          <value>j</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(journal) journal title </a:documentation>
-          <value>s</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series) series title </a:documentation>
-          <value>u</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unpublished) title of unpublished material (including
+            <value>j</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(journal) journal title </a:documentation>
+            <value>s</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series) series title </a:documentation>
+            <value>u</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unpublished) title of unpublished material (including
                                                   theses and dissertations unless
                                                   published by a commercial press)</a:documentation>
-        </choice>
-      </attribute>
+          </choice>
+        </attribute>
+      </optional>
       <optional>
         <attribute name="type">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
@@ -4299,6 +4296,25 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">more than one of the above</a:documentation>
             <data type="Name"/>
           </choice>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_divGen">
+    <element name="divGen">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(automatically generated text division) indicates the location at which a textual division generated
+        automatically by a text-processing application is to appear. 3.8.2. Index Entries</a:documentation>
+      <zeroOrMore>
+        <ref name="sga_model.headLike"/>
+      </zeroOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <optional>
+        <attribute name="type">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies what type of generated text division (e.g. index,
+                table of contents, etc.) is to appear.
+Sample values include: 1] index; 2] toc; 3] figlist; 4] tablist</a:documentation>
+          <ref name="sga_data.enumerated"/>
         </attribute>
       </optional>
       <empty/>
@@ -5337,19 +5353,11 @@ teiCorpus element. 4. Default Text Structure 15.1. Varieties of Composite Text</
             </zeroOrMore>
           </group>
         </optional>
-        <optional>
-          <group>
-            <group>
-              <ref name="sga_model.divGenLike"/>
-            </group>
-            <zeroOrMore>
-              <choice>
-                <ref name="sga_model.global"/>
-                <ref name="sga_model.divGenLike"/>
-              </choice>
-            </zeroOrMore>
-          </group>
-        </optional>
+        <group>
+          <zeroOrMore>
+            <ref name="sga_model.global"/>
+          </zeroOrMore>
+        </group>
         <group>
           <choice>
             <oneOrMore>
@@ -5358,26 +5366,15 @@ teiCorpus element. 4. Default Text Structure 15.1. Varieties of Composite Text</
                   <ref name="sga_model.divLike"/>
                 </group>
                 <zeroOrMore>
-                  <choice>
-                    <ref name="sga_model.global"/>
-                    <ref name="sga_model.divGenLike"/>
-                  </choice>
+                  <ref name="sga_model.global"/>
                 </zeroOrMore>
               </group>
             </oneOrMore>
-            <oneOrMore>
-              <group>
-                <group>
-                  <ref name="sga_model.div1Like"/>
-                </group>
-                <zeroOrMore>
-                  <choice>
-                    <ref name="sga_model.global"/>
-                    <ref name="sga_model.divGenLike"/>
-                  </choice>
-                </zeroOrMore>
-              </group>
-            </oneOrMore>
+            <group>
+              <zeroOrMore>
+                <ref name="sga_model.global"/>
+              </zeroOrMore>
+            </group>
             <group>
               <oneOrMore>
                 <group>
@@ -5395,26 +5392,15 @@ teiCorpus element. 4. Default Text Structure 15.1. Varieties of Composite Text</
                         <ref name="sga_model.divLike"/>
                       </group>
                       <zeroOrMore>
-                        <choice>
-                          <ref name="sga_model.global"/>
-                          <ref name="sga_model.divGenLike"/>
-                        </choice>
+                        <ref name="sga_model.global"/>
                       </zeroOrMore>
                     </group>
                   </oneOrMore>
-                  <oneOrMore>
-                    <group>
-                      <group>
-                        <ref name="sga_model.div1Like"/>
-                      </group>
-                      <zeroOrMore>
-                        <choice>
-                          <ref name="sga_model.global"/>
-                          <ref name="sga_model.divGenLike"/>
-                        </choice>
-                      </zeroOrMore>
-                    </group>
-                  </oneOrMore>
+                  <group>
+                    <zeroOrMore>
+                      <ref name="sga_model.global"/>
+                    </zeroOrMore>
+                  </group>
                 </choice>
               </optional>
             </group>
@@ -5518,10 +5504,7 @@ teiCorpus element. 4. Default Text Structure 15.1. Varieties of Composite Text</
           <choice>
             <group>
               <oneOrMore>
-                <choice>
-                  <ref name="sga_model.divLike"/>
-                  <ref name="sga_model.divGenLike"/>
-                </choice>
+                <ref name="sga_model.divLike"/>
                 <zeroOrMore>
                   <ref name="sga_model.global"/>
                 </zeroOrMore>
@@ -5537,10 +5520,7 @@ teiCorpus element. 4. Default Text Structure 15.1. Varieties of Composite Text</
                 </zeroOrMore>
               </oneOrMore>
               <zeroOrMore>
-                <choice>
-                  <ref name="sga_model.divLike"/>
-                  <ref name="sga_model.divGenLike"/>
-                </choice>
+                <ref name="sga_model.divLike"/>
                 <zeroOrMore>
                   <ref name="sga_model.global"/>
                 </zeroOrMore>
@@ -5871,13 +5851,9 @@ found  at the start of a document, before the main body. 4.6. Title Pages 4. Def
           <optional>
             <choice>
               <group>
-                <group>
-                  <ref name="sga_model.div1Like"/>
-                </group>
                 <zeroOrMore>
                   <choice>
                     <ref name="sga_model.frontPart"/>
-                    <ref name="sga_model.div1Like"/>
                     <ref name="sga_model.global"/>
                   </choice>
                 </zeroOrMore>
@@ -5931,13 +5907,9 @@ found  at the start of a document, before the main body. 4.6. Title Pages 4. Def
           <optional>
             <choice>
               <group>
-                <group>
-                  <ref name="sga_model.div1Like"/>
-                </group>
                 <zeroOrMore>
                   <choice>
                     <ref name="sga_model.frontPart"/>
-                    <ref name="sga_model.div1Like"/>
                     <ref name="sga_model.global"/>
                   </choice>
                 </zeroOrMore>

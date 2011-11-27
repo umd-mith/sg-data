@@ -8,7 +8,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2011-11-26T18:30:24Z. 
+# Schema generated from ODD source 2011-11-26T18:54:49Z. 
 # Edition: 1.9.1. Last updated on March 5th 2011.
 # Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 #
@@ -1212,7 +1212,7 @@ sga_model.biblPart =
   | sga_relatedItem
   | sga_edition
   | sga_extent
-sga_model.frontPart = sga_titlePage
+sga_model.frontPart = sga_divGen | sga_titlePage
 sga_model.addrPart = sga_model.nameLike | sga_addrLine | sga_street
 sga_model.pPart.data =
   sga_model.dateLike
@@ -1300,8 +1300,6 @@ sga_model.limitedPhrase =
   | sga_model.ptrLike
   | sga_model.pPart.data
 sga_model.divLike = sga_div
-sga_model.divGenLike = notAllowed
-sga_model.div1Like = notAllowed
 sga_model.applicationLike = sga_application
 sga_model.sourceDescPart = notAllowed
 sga_model.editorialDeclPart =
@@ -2157,7 +2155,7 @@ sga_title =
         ##                                                   theses and dissertations unless
         ##                                                   published by a commercial press)
         "u"
-    },
+    }?,
     
     ## classifies the title according to some convenient typology.
     ## Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
@@ -2402,6 +2400,20 @@ sga_stage =
         "mixed"
       | xsd:Name
     }?,
+    empty
+  }
+sga_divGen =
+  
+  ## (automatically generated text division) indicates the location at which a textual division generated
+  ##         automatically by a text-processing application is to appear. 3.8.2. Index Entries
+  element divGen {
+    sga_model.headLike*,
+    sga_att.global.attributes,
+    
+    ## specifies what type of generated text division (e.g. index,
+    ##                 table of contents, etc.) is to appear.
+    ## Sample values include: 1] index; 2] toc; 3] figlist; 4] tablist
+    attribute type { sga_data.enumerated }?,
     empty
   }
 sga_teiHeader =
@@ -3162,16 +3174,12 @@ sga_body =
   element body {
     (sga_model.global*,
      (sga_model.divTop, (sga_model.global | sga_model.divTop)*)?,
-     (sga_model.divGenLike,
-      (sga_model.global | sga_model.divGenLike)*)?,
-     ((sga_model.divLike, (sga_model.global | sga_model.divGenLike)*)+
-      | (sga_model.div1Like,
-         (sga_model.global | sga_model.divGenLike)*)+
+     sga_model.global*,
+     ((sga_model.divLike, sga_model.global*)+
+      | sga_model.global*
       | ((sga_model.common, sga_model.global*)+,
-         ((sga_model.divLike,
-           (sga_model.global | sga_model.divGenLike)*)+
-          | (sga_model.div1Like,
-             (sga_model.global | sga_model.divGenLike)*)+)?)),
+         ((sga_model.divLike, sga_model.global*)+
+          | sga_model.global*)?)),
      (sga_model.divBottom, sga_model.global*)*),
     sga_att.global.attributes,
     sga_att.declaring.attributes,
@@ -3211,10 +3219,9 @@ sga_div =
   ## (text division) contains a subdivision of the front, body, or back of a text. 4.1. Divisions of the Body
   element div {
     ((sga_model.divTop | sga_model.global)*,
-     ((((sga_model.divLike | sga_model.divGenLike), sga_model.global*)+
+     (((sga_model.divLike, sga_model.global*)+
        | ((sga_model.common, sga_model.global*)+,
-          ((sga_model.divLike | sga_model.divGenLike),
-           sga_model.global*)*)),
+          (sga_model.divLike, sga_model.global*)*)),
       (sga_model.divBottom, sga_model.global*)*)?),
     sga_att.global.attributes,
     sga_att.divLike.attributes,
@@ -3439,8 +3446,7 @@ sga_front =
   ## found  at the start of a document, before the main body. 4.6. Title Pages 4. Default Text Structure
   element front {
     ((sga_model.frontPart | sga_model.pLike.front | sga_model.global)*,
-     ((sga_model.div1Like,
-       (sga_model.frontPart | sga_model.div1Like | sga_model.global)*)
+     ((sga_model.frontPart | sga_model.global)*
       | (sga_model.divLike,
          (sga_model.frontPart
           | sga_model.divLike
@@ -3456,8 +3462,7 @@ sga_back =
   ## (back matter) contains any appendixes, etc. following the main part of a text. 4.7. Back Matter 4. Default Text Structure
   element back {
     ((sga_model.frontPart | sga_model.pLike.front | sga_model.global)*,
-     ((sga_model.div1Like,
-       (sga_model.frontPart | sga_model.div1Like | sga_model.global)*)
+     ((sga_model.frontPart | sga_model.global)*
       | (sga_model.divLike,
          (sga_model.frontPart
           | sga_model.divLike
