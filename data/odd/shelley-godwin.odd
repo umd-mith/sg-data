@@ -126,7 +126,7 @@
           <!-- Miscellaneous element changes; this section will be re-organized later -->
           <elementSpec ident="title" module="core" mode="change">
             <attList>
-              <attDef ident="level" mode="change" usage="req"/>
+              <attDef ident="level" mode="change" usage="mwa"/>
             </attList>  
           </elementSpec>
 
