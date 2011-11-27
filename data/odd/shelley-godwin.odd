@@ -49,38 +49,58 @@
 
           <!-- Required modules -->
           <moduleRef key="tei"/>
-          <moduleRef key="core" except="analytic biblStruct binaryObject divGen headItem headLabel label listBibl measure measureGrp meeting monogr postBox postCode series teiCorpus"/>
+          <moduleRef key="core"
+            except="analytic biblStruct binaryObject divGen headItem headLabel label listBibl measure measureGrp meeting monogr postBox postCode series teiCorpus"/>
           <moduleRef key="header" except="biblFull samplingDecl stdVals"/>
           <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
-          
+
           <!-- Additional elements -->
           <elementRef key="space"/>
           <elementRef key="persName"/>
           <elementRef key="placeName"/>
 
-	  <!-- Modifications to the content model of  teiHeader:
-	           * encodingDesc and revisionDesc now required
-	           * for the moment, only simple paragraph description is accepted in encoding description
-	  -->
-	  <elementSpec ident="teiHeader" module="header" mode="change">
-	    <content>
-	        <rng:ref name="fileDesc"/>
-	        <rng:ref name="encodingDesc"/>
-	        <rng:zeroOrMore>
-	          <rng:ref name="profileDesc"/>
-	        </rng:zeroOrMore>
-	         <rng:ref name="revisionDesc"/>	        
-	    </content>
-	  </elementSpec>
-          
-          <elementSpec ident="encodingDesc" module="header" mode="change">
+          <!-- Modifications to the content model of  teiHeader:
+	           * encodingDesc and revisionDesc now required -->
+          <elementSpec ident="teiHeader" module="header" mode="change">
             <content>
+              <rng:ref name="fileDesc"/>
+              <rng:ref name="encodingDesc"/>
+              <rng:zeroOrMore>
+                <rng:ref name="profileDesc"/>
+              </rng:zeroOrMore>
+              <rng:ref name="revisionDesc"/>
+            </content>
+          </elementSpec>
+
+          <!-- Modifications to fileDesc:
+                    * editionStmt, seriesStmt are now required
+                    * notesStmt has been removed -->
+          <elementSpec ident="fileDesc" module="header" mode="change">
+            <content>
+              <rng:group>
+                <rng:ref name="titleStmt"/>
+                <rng:ref name="editionStmt"/><!-- TODO: modify the content model of editionStmt -->
+                <rng:optional>
+                  <rng:ref name="extent"/>
+                </rng:optional>
+                <rng:ref name="publicationStmt"/>
+                <rng:ref name="seriesStmt"/><!-- TODO: modify the content model of seriesStmt -->
+              </rng:group>
               <rng:oneOrMore>
-                  <rng:ref name="model.pLike"/>
+                <rng:ref name="sourceDesc"/>
               </rng:oneOrMore>
             </content>
           </elementSpec>
-          
+
+          <!-- for the moment, only simple paragraph description is accepted in encoding description -->
+          <elementSpec ident="encodingDesc" module="header" mode="change">
+            <content>
+              <rng:oneOrMore>
+                <rng:ref name="model.pLike"/>
+              </rng:oneOrMore>
+            </content>
+          </elementSpec>
+
         </schemaSpec>
       </div>
     </body>
