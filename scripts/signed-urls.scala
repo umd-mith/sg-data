@@ -43,16 +43,17 @@ case class DirectorySigner(
   expires: java.util.Date
 ) extends Signer {
   val req = "GET\n\n\n%d\n/%s".format(this.expires.getTime / 1000, this.loc)
-  def apply(dir: java.io.File) = dir.listFiles.filter { f =>
-    f.isFile && f.getName.endsWith("tif")
-  }.sorted.map { f =>
-    (f.getName, "https://s3.amazonaws.com/" + this.loc + f.getName +
-      Params(
-        "AWSAccessKeyId" -> this.key.id,
-        "Expires" -> this.expires,
-        "Signature" -> this.sign(this.req + f.getName)
+  def apply(dir: java.io.File) = for {
+    f <- dir.listFiles.sorted
+    if f.isFile && f.getName.endsWith("tif")
+  } yield (
+    f.getName, "https://s3.amazonaws.com/" + this.loc + f.getName + Params(
+      "AWSAccessKeyId" -> this.key.id,
+      "Expires" -> this.expires,
+      "Signature" -> this.sign(
+        "GET\n\n\n%s\n/%s%s".format(this.expires: String, this.loc, f.getName)
       )
-    ) 
-  }
+    )
+  ) 
 }
 
