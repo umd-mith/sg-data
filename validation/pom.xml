@@ -27,9 +27,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>net.sf.saxon</groupId>
+      <groupId>net.sourceforge.saxon</groupId>
       <artifactId>saxon</artifactId>
-      <version>9.2</version>
+      <version>9.1.0.8</version>
     </dependency>
     <dependency>
       <groupId>org.scala-lang</groupId>
@@ -132,6 +132,7 @@
           <transformationSets>
             <transformationSet>
               <dir>${basedir}/../data/odd/</dir>
+              <includes><include>*.odd</include></includes>
               <stylesheet>${basedir}/../cocoon/text/src/main/resources/roma/xsl/odds2/odd2odd.xsl</stylesheet>
               <outputDir>${project.build.directory}/generated-resources/schema/odd</outputDir>
             </transformationSet>
@@ -161,9 +162,9 @@
         </configuration>
         <dependencies>
           <dependency>
-            <groupId>net.sf.saxon</groupId>
+            <groupId>net.sourceforge.saxon</groupId>
             <artifactId>saxon</artifactId>
-            <version>9.2</version>
+            <version>9.1.0.8</version>
           </dependency>
         </dependencies>
       </plugin>
