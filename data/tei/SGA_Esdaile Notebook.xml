@@ -6,16 +6,29 @@
       <titleStmt>
         <title>The Esdaile Notebook</title>
       </titleStmt>
+      <editionStmt>
+        <p>Edition Information</p>
+      </editionStmt>
       <publicationStmt>
         <p>Publication Information</p>
       </publicationStmt>
+      <seriesStmt>
+        <title>Series Title</title>
+      </seriesStmt>
       <sourceDesc>
-        <p>This file contains the 58 poems of the Esdaile Notebook.<lb/>
-          The text was imported from the CPPBS II TEXT. It has not yet been corrected to reflect the manuscript.<lb/>
-          Only the basic TEI structure has been encoded.
-        </p>
+        <p>This file contains the 58 poems of the Esdaile Notebook.</p>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <p>
+        The text was imported from the CPPBS II TEXT. It has not yet been
+        corrected to reflect the manuscript.
+        Only the basic TEI structure has been encoded.
+      </p>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="#tbrown" when="2011-12-05">Added stub elements to validate against new ODD.</change>
+    </revisionDesc>
   </teiHeader>      
 
 <text type="manuscript">
