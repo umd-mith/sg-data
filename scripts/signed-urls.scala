@@ -13,7 +13,15 @@ DirectorySigner(
   Key(args(0), args(1)),
   Loc("mith-sga", "/incoming/mh/"),
   "01/01/2015 12:00 AM"
-).apply(args(2)).foreach {
+).apply(new java.io.File(args(2), "mh")).foreach {
+  case (f, s) => println("- [%s](%s)".format(f, s))
+}
+
+DirectorySigner(
+  Key(args(0), args(1)),
+  Loc("mith-sga", "/incoming/ox/"),
+  "01/01/2015 12:00 AM"
+).apply(new java.io.File(args(2), "ox")).foreach {
   case (f, s) => println("- [%s](%s)".format(f, s))
 }
 
