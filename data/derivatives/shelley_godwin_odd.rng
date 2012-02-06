@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2011-11-29T14:08:50Z. 
-Edition: 1.9.0. Last updated on February 25th 2011.
-Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
+Schema generated from ODD source 2012-02-06T16:15:09Z. 
+Edition: 1.9.1. Last updated on March 5th 2011.
+Edition Location: http://www.tei-c.org/Vault/P5/1.9.1/
 
 -->
   <!--
@@ -78,6 +78,12 @@ Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
       <value>unknown</value>
     </choice>
   </define>
+  <define name="sga_data.probability">
+    <data type="double">
+      <param name="minInclusive">0</param>
+      <param name="maxInclusive">1</param>
+    </data>
+  </define>
   <define name="sga_data.numeric">
     <choice>
       <data type="double"/>
@@ -151,27 +157,6 @@ Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
   <define name="sga_data.enumerated">
     <ref name="sga_data.name"/>
   </define>
-  <define name="sga_macro.anyXML">
-    <element>
-      <anyName>
-        <except>
-          <nsName ns="http://www.tei-c.org/ns/1.0"/>
-          <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
-        </except>
-      </anyName>
-      <zeroOrMore>
-        <attribute>
-          <anyName/>
-        </attribute>
-      </zeroOrMore>
-      <zeroOrMore>
-        <choice>
-          <text/>
-          <ref name="sga_macro.anyXML"/>
-        </choice>
-      </zeroOrMore>
-    </element>
-  </define>
   <define name="sga_att.ascribed.attributes">
     <ref name="sga_att.ascribed.attribute.who"/>
   </define>
@@ -220,6 +205,7 @@ Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
     <ref name="sga_att.ranging.attribute.atMost"/>
     <ref name="sga_att.ranging.attribute.min"/>
     <ref name="sga_att.ranging.attribute.max"/>
+    <ref name="sga_att.ranging.attribute.confidence"/>
   </define>
   <define name="sga_att.ranging.attribute.atLeast">
     <optional>
@@ -251,9 +237,18 @@ Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
     <optional>
       <attribute name="max">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation
-      or a range, supplies the maximum value
-      observed.</a:documentation>
+        or a range, supplies the maximum value
+        observed.</a:documentation>
         <ref name="sga_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.ranging.attribute.confidence">
+    <optional>
+      <attribute name="confidence">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The degree of statistical confidence (between zero and one) that a value falls within the range
+        specified by min and max, or the proportion of observed values that fall within that range.</a:documentation>
+        <ref name="sga_data.probability"/>
       </attribute>
     </optional>
   </define>
@@ -2130,6 +2125,12 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_availability"/>
     </choice>
   </define>
+  <define name="sga_model.availabilityPart">
+    <choice>
+      <ref name="sga_p"/>
+      <ref name="sga_licence"/>
+    </choice>
+  </define>
   <define name="sga_model.glossLike">
     <choice>
       <ref name="sga_desc"/>
@@ -2783,6 +2784,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <choice>
       <ref name="sga_model.respLike"/>
       <ref name="sga_model.imprintPart"/>
+      <ref name="sga_bibl"/>
       <ref name="sga_relatedItem"/>
       <ref name="sga_edition"/>
       <ref name="sga_extent"/>
@@ -3005,6 +3007,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_creation"/>
       <ref name="sga_langUsage"/>
       <ref name="sga_textClass"/>
+      <ref name="sga_calendarDesc"/>
     </choice>
   </define>
   <define name="sga_model.resourceLike">
@@ -3043,7 +3046,7 @@ to others within the personal name.</a:documentation>
   </define>
   <define name="sga_p">
     <element name="p">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. 3.1. Paragraphs 7.2.4. Speech Contents</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.declaring.attributes"/>
@@ -3053,7 +3056,7 @@ to others within the personal name.</a:documentation>
   <define name="sga_foreign">
     <element name="foreign">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(foreign) identifies a word or phrase as belonging to some language other than that of the
-                surrounding text.  </a:documentation>
+                surrounding text.  3.3.2.1. Foreign Words or Expressions</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3062,7 +3065,7 @@ to others within the personal name.</a:documentation>
   <define name="sga_emph">
     <element name="emph">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(emphasized) marks words or phrases which are stressed or emphasized for
-        linguistic or rhetorical effect.  </a:documentation>
+        linguistic or rhetorical effect. 3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3072,7 +3075,7 @@ to others within the personal name.</a:documentation>
     <element name="hi">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(highlighted) marks a word or phrase as graphically distinct from the
         surrounding text, for reasons concerning which no claim is
-        made.   </a:documentation>
+        made.  3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3081,7 +3084,7 @@ to others within the personal name.</a:documentation>
   <define name="sga_distinct">
     <element name="distinct">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies any word or phrase which is regarded as linguistically distinct, for example as
-        archaic, technical, dialectal, non-preferred, etc., or as forming part of a sublanguage.  </a:documentation>
+        archaic, technical, dialectal, non-preferred, etc., or as forming part of a sublanguage.  3.3.2.3. Other Linguistically Distinct Material</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -3094,19 +3097,19 @@ to others within the personal name.</a:documentation>
       <optional>
         <attribute name="time">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies how the phrase is distinct diachronically</a:documentation>
-          <ref name="sga_data.code"/>
+          <ref name="sga_data.key"/>
         </attribute>
       </optional>
       <optional>
         <attribute name="space">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies how the phrase is distinct diatopically</a:documentation>
-          <ref name="sga_data.code"/>
+          <ref name="sga_data.key"/>
         </attribute>
       </optional>
       <optional>
         <attribute name="social">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies how the phrase is distinct diastatically</a:documentation>
-          <ref name="sga_data.code"/>
+          <ref name="sga_data.key"/>
         </attribute>
       </optional>
       <empty/>
@@ -3115,7 +3118,7 @@ to others within the personal name.</a:documentation>
   <define name="sga_said">
     <element name="said">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or
-    not, whether directly or indirectly reported, whether by real people or fictional characters. </a:documentation>
+    not, whether directly or indirectly reported, whether by real people or fictional characters. 3.3.3. Quotation</a:documentation>
       <ref name="sga_macro.specialPara"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.ascribed.attributes"/>
@@ -3139,7 +3142,7 @@ to others within the personal name.</a:documentation>
   <define name="sga_quote">
     <element name="quote">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(quotation) contains a phrase or passage attributed by the narrator or author to some agency external
-        to the text.  </a:documentation>
+        to the text. 3.3.3. Quotation 4.3.1. Grouped Texts</a:documentation>
       <ref name="sga_macro.specialPara"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.typed.attributes"/>
@@ -3151,7 +3154,7 @@ to others within the personal name.</a:documentation>
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(separated from the surrounding text with quotation marks) contains material which is marked as (ostensibly) being somehow different than the
     surrounding text, for any one of a variety of reasons including, but not limited to: direct
     speech or thought, technical terms or jargon, authorial distance, quotations from elsewhere, and
-    passages that are mentioned but not used. </a:documentation>
+    passages that are mentioned but not used. 3.3.3. Quotation</a:documentation>
       <ref name="sga_macro.specialPara"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.ascribed.attributes"/>
@@ -3190,7 +3193,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
     <element name="cit">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cited quotation) contains a quotation from some other document, together with a bibliographic reference to
     its source. In a dictionary it may contain an example text with at least one occurrence of the
-    word form, used in the sense being described, or a translation of the headword, or an example.    </a:documentation>
+    word form, used in the sense being described, or a translation of the headword, or an example.  3.3.3. Quotation 4.3.1. Grouped Texts 9.3.5.1. Examples</a:documentation>
       <oneOrMore>
         <choice>
           <ref name="sga_model.qLike"/>
@@ -3208,7 +3211,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   </define>
   <define name="sga_mentioned">
     <element name="mentioned">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks words or phrases mentioned, not used. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks words or phrases mentioned, not used. 3.3.4. Terms, Glosses, Equivalents, and Descriptions</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3217,7 +3220,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   <define name="sga_soCalled">
     <element name="soCalled">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a word or phrase for which the author or narrator indicates a disclaiming of
-    responsibility, for example by the use of scare quotes or italics. </a:documentation>
+    responsibility, for example by the use of scare quotes or italics. 3.3.3. Quotation</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3226,7 +3229,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   <define name="sga_desc">
     <element name="desc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description) contains a brief description of the object documented by its parent element, including its
-    intended usage, purpose, or application where this is appropriate.    </a:documentation>
+    intended usage, purpose, or application where this is appropriate. 22.4.4. Element Specifications 22.4.5. Attribute List Specification 22.4.6. Element Classes 22.4.7. Pattern Documentation</a:documentation>
       <ref name="sga_macro.limitedContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.translatable.attributes"/>
@@ -3236,7 +3239,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   <define name="sga_gloss">
     <element name="gloss">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a phrase or word used to provide a gloss or definition for some other word or
-    phrase. </a:documentation>
+    phrase. 3.3.4. Terms, Glosses, Equivalents, and Descriptions</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.declaring.attributes"/>
@@ -3256,7 +3259,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   <define name="sga_term">
     <element name="term">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single-word, multi-word, or symbolic designation which is regarded as a technical
-    term. </a:documentation>
+    term. 3.3.4. Terms, Glosses, Equivalents, and Descriptions</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.declaring.attributes"/>
@@ -3282,7 +3285,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   <define name="sga_sic">
     <element name="sic">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(latin for thus or so
-  ) contains text reproduced although apparently incorrect or inaccurate. </a:documentation>
+  ) contains text reproduced although apparently incorrect or inaccurate. 3.4.1. Apparent Errors</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.responsibility.attributes"/>
@@ -3291,7 +3294,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   </define>
   <define name="sga_corr">
     <element name="corr">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correction) contains the correct form of a passage apparently erroneous in the copy text. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correction) contains the correct form of a passage apparently erroneous in the copy text. 3.4.1. Apparent Errors</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.editLike.attributes"/>
@@ -3302,7 +3305,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   <define name="sga_choice">
     <element name="choice">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups a number of alternative encodings for the same point in
-        a text. </a:documentation>
+        a text. 3.4. Simple Editorial Changes</a:documentation>
       <zeroOrMore>
         <choice>
           <ref name="sga_model.choicePart"/>
@@ -3315,7 +3318,8 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   </define>
   <define name="sga_reg">
     <element name="reg">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(regularization) contains a reading which has been regularized or normalized in some sense.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(regularization) contains a reading which has been regularized or normalized in some sense. 3.4.2. Regularization and
+Normalization 12. Critical Apparatus</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.editLike.attributes"/>
@@ -3326,7 +3330,8 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
   <define name="sga_orig">
     <element name="orig">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(original form) contains a reading which is marked as following the original, rather than being normalized
-        or corrected.  </a:documentation>
+        or corrected. 3.4.2. Regularization and
+Normalization 12. Critical Apparatus</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.responsibility.attributes"/>
@@ -3337,7 +3342,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
     <element name="gap">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(gap) indicates a point where material has been omitted in a transcription, whether for editorial
     reasons described in the TEI header, as part of sampling practice, or because the material is
-    illegible, invisible, or inaudible. </a:documentation>
+    illegible, invisible, or inaudible. 3.4.3. Additions, Deletions, and Omissions</a:documentation>
       <zeroOrMore>
         <ref name="sga_model.glossLike"/>
       </zeroOrMore>
@@ -3376,7 +3381,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   <define name="sga_add">
     <element name="add">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(addition) contains letters, words, or phrases inserted in the text by an
-        author, scribe, annotator, or corrector. </a:documentation>
+        author, scribe, annotator, or corrector. 3.4.3. Additions, Deletions, and Omissions</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.transcriptional.attributes"/>
@@ -3388,7 +3393,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   <define name="sga_del">
     <element name="del">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as
-    superfluous or spurious in the copy text by an author, scribe, annotator, or corrector. </a:documentation>
+    superfluous or spurious in the copy text by an author, scribe, annotator, or corrector. 3.4.3. Additions, Deletions, and Omissions</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.transcriptional.attributes"/>
@@ -3399,7 +3404,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   <define name="sga_unclear">
     <element name="unclear">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a word, phrase, or passage which cannot be transcribed with certainty because it
-        is illegible or inaudible in the source.  </a:documentation>
+        is illegible or inaudible in the source. 11.5.1. Damage, Illegibility, and Supplied Text 3.4.3. Additions, Deletions, and Omissions</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.editLike.attributes"/>
@@ -3434,7 +3439,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   </define>
   <define name="sga_name">
     <element name="name">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name, proper noun) contains a proper noun or noun phrase. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name, proper noun) contains a proper noun or noun phrase. 3.5.1. Referring Strings</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.naming.attributes"/>
@@ -3444,7 +3449,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   </define>
   <define name="sga_rs">
     <element name="rs">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(referencing string) contains a general purpose name or referring string.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(referencing string) contains a general purpose name or referring string. 13.2.1. Personal Names 3.5.1. Referring Strings</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.naming.attributes"/>
@@ -3463,7 +3468,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
     <element name="email">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(electronic mail address) contains an e-mail address identifying a location to which
         e-mail messages can be delivered.
-     </a:documentation>
+     3.5.2. Addresses</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3472,7 +3477,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   <define name="sga_address">
     <element name="address">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a postal  address, for example of a
-        publisher, an organization, or an individual.   </a:documentation>
+        publisher, an organization, or an individual. 3.5.2. Addresses 2.2.4. Publication, Distribution,
+Licencing, etc. 3.11.2.3. Imprint, Pagination, and Other Details</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.global"/>
@@ -3492,7 +3498,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   </define>
   <define name="sga_addrLine">
     <element name="addrLine">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(address line) contains one line of a postal address.   </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(address line) contains one line of a postal address. 3.5.2. Addresses 2.2.4. Publication, Distribution,
+Licencing, etc. 3.11.2.3. Imprint, Pagination, and Other Details</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3502,7 +3509,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
     <element name="street">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a full street address including any name or number identifying a
         building as well as the name of the street or route on which it is
-        located. </a:documentation>
+        located. 3.5.2. Addresses</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3510,7 +3517,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
   </define>
   <define name="sga_num">
     <element name="num">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) contains a number, written in any form. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) contains a number, written in any form. 3.5.3. Numbers and
+Measures</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.ranging.attributes"/>
@@ -3542,7 +3550,8 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
   </define>
   <define name="sga_date">
     <element name="date">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format.      </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. 3.5.4. Dates and Times 2.2.4. Publication, Distribution,
+Licencing, etc. 2.5. The Revision Description 3.11.2.3. Imprint, Pagination, and Other Details 15.2.3. The Setting Description 13.3.6. Dates and Times</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -3558,27 +3567,8 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
       <optional>
         <attribute name="calendar">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the system or calendar to which the date represented by the content of this
-        element belongs.
-Suggested values include: 1] Gregorian; 2] Julian; 3] Islamic; 4] Hebrew; 5] Revolutionary; 6] Iranian; 7] Coptic; 8] Chinese</a:documentation>
-          <choice>
-            <value>Gregorian</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gregorian calendar</a:documentation>
-            <value>Julian</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Julian calendar</a:documentation>
-            <value>Islamic</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Islamic or Muslim (hijri) lunar calendar</a:documentation>
-            <value>Hebrew</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hebrew or Jewish lunisolar calendar</a:documentation>
-            <value>Revolutionary</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">French Revolutionary calendar</a:documentation>
-            <value>Iranian</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Iranian or Persian (Jalaali) solar calendar</a:documentation>
-            <value>Coptic</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Coptic or Alexandrian calendar</a:documentation>
-            <value>Chinese</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chinese lunisolar calendar</a:documentation>
-            <data type="Name"/>
-          </choice>
+        element belongs.</a:documentation>
+          <ref name="sga_data.pointer"/>
         </attribute>
       </optional>
       <empty/>
@@ -3586,7 +3576,7 @@ Suggested values include: 1] Gregorian; 2] Julian; 3] Islamic; 4] Hebrew; 5] Rev
   </define>
   <define name="sga_time">
     <element name="time">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a phrase defining a time of day in any format. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a phrase defining a time of day in any format. 3.5.4. Dates and Times</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -3604,7 +3594,7 @@ Suggested values include: 1] Gregorian; 2] Julian; 3] Islamic; 4] Hebrew; 5] Rev
   </define>
   <define name="sga_abbr">
     <element name="abbr">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation) contains an abbreviation of any sort. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation) contains an abbreviation of any sort. 3.5.5. Abbreviations and Their Expansions</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.responsibility.attributes"/>
@@ -3621,7 +3611,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
   </define>
   <define name="sga_expan">
     <element name="expan">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(expansion) contains the expansion of an abbreviation. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(expansion) contains the expansion of an abbreviation. 3.5.5. Abbreviations and Their Expansions</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.editLike.attributes"/>
@@ -3630,7 +3620,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
   </define>
   <define name="sga_ptr">
     <element name="ptr">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pointer) defines a pointer to another location.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pointer) defines a pointer to another location. 3.6. Simple Links and Cross-References 16.1. Links</a:documentation>
       <empty/>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="ptr-constraint-ptrAtts">
         <rule context="tei:ptr">
@@ -3640,6 +3630,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
       </pattern>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.pointing.attributes"/>
+      <ref name="sga_att.internetMedia.attributes"/>
       <ref name="sga_att.typed.attributes"/>
       <ref name="sga_att.declaring.attributes"/>
       <optional>
@@ -3659,7 +3650,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
   </define>
   <define name="sga_ref">
     <element name="ref">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment. 3.6. Simple Links and Cross-References 16.1. Links</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="ref-constraint-refAtts">
         <rule context="tei:ref">
@@ -3669,6 +3660,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
       </pattern>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.pointing.attributes"/>
+      <ref name="sga_att.internetMedia.attributes"/>
       <ref name="sga_att.typed.attributes"/>
       <ref name="sga_att.declaring.attributes"/>
       <optional>
@@ -3688,7 +3680,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
   </define>
   <define name="sga_list">
     <element name="list">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list) contains any sequence of items organized as a list. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list) contains any sequence of items organized as a list. 3.7. Lists</a:documentation>
       <group>
         <zeroOrMore>
           <choice>
@@ -3760,7 +3752,7 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
   </define>
   <define name="sga_item">
     <element name="item">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one component of a list.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one component of a list. 3.7. Lists 2.5. The Revision Description</a:documentation>
       <ref name="sga_macro.specialPara"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -3769,7 +3761,7 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
   <define name="sga_head">
     <element name="head">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading) contains any type of heading, for example the title of a section, or the heading of a list,
-    glossary, manuscript description, etc. </a:documentation>
+    glossary, manuscript description, etc. 4.2.1. Headings and Trailers</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.typed.attributes"/>
@@ -3778,7 +3770,7 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
   </define>
   <define name="sga_note">
     <element name="note">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a note or annotation.    </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a note or annotation. 3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.6. Notes and Other Additional Information 9.3.5.4. Notes within Entries</a:documentation>
       <ref name="sga_macro.specialPara"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.placement.attributes"/>
@@ -3808,7 +3800,7 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
   </define>
   <define name="sga_index">
     <element name="index">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(index entry) marks a location to be indexed for whatever purpose. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(index entry) marks a location to be indexed for whatever purpose. 3.8.2. Index Entries</a:documentation>
       <zeroOrMore>
         <group>
           <ref name="sga_term"/>
@@ -3830,7 +3822,7 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
   </define>
   <define name="sga_graphic">
     <element name="graphic">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of an inline graphic, illustration, or figure. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of an inline graphic, illustration, or figure. 3.9. Graphics and other non-textual components</a:documentation>
       <zeroOrMore>
         <ref name="sga_model.glossLike"/>
       </zeroOrMore>
@@ -3866,7 +3858,8 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
     <element name="milestone">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks a boundary point separating any kind of section of a text, typically but not
     necessarily indicating a point at which some part of a standard reference system changes, where
-    the change is not represented by a structural element. </a:documentation>
+    the change is not represented by a structural element. 3.10.3. Milestone
+Elements</a:documentation>
       <empty/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.typed.attributes"/>
@@ -3911,7 +3904,8 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
   </define>
   <define name="sga_pb">
     <element name="pb">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page break) marks the boundary between one page of a text and the next in a standard reference system. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page break) marks the boundary between one page of a text and the next in a standard reference system. 3.10.3. Milestone
+Elements</a:documentation>
       <empty/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.typed.attributes"/>
@@ -3923,7 +3917,8 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
   </define>
   <define name="sga_lb">
     <element name="lb">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line break) marks the start of a new (typographic) line in some edition or version of a text.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line break) marks the start of a new (typographic) line in some edition or version of a text. 3.10.3. Milestone
+Elements 7.2.4. Speech Contents</a:documentation>
       <empty/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.typed.attributes"/>
@@ -3936,7 +3931,8 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
   <define name="sga_cb">
     <element name="cb">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(column break) marks the boundary between one column of a text and the next
-        in a standard reference system. </a:documentation>
+        in a standard reference system. 3.10.3. Milestone
+Elements</a:documentation>
       <empty/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.typed.attributes"/>
@@ -3950,7 +3946,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
     <element name="author">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a bibliographic reference, contains the name(s) of the
   author(s), personal or corporate, of a work; for example in the same
-  form as that provided by a recognized bibliographic name authority.   </a:documentation>
+  form as that provided by a recognized bibliographic name authority.  3.11.2.2. Authors, Titles, and Editors 2.2.1. The Title Statement</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.naming.attributes"/>
@@ -3961,7 +3957,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
     <element name="editor">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">secondary statement of responsibility for a bibliographic item, for example the name of an
     individual, institution or organization, (or of several such) acting as editor, compiler,
-    translator, etc.  </a:documentation>
+    translator, etc.  3.11.2.2. Authors, Titles, and Editors</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.naming.attributes"/>
@@ -3972,7 +3968,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
     <element name="respStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition,
     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
-    or do not apply.    </a:documentation>
+    or do not apply. 3.11.2.2. Authors, Titles, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement</a:documentation>
       <choice>
         <group>
           <oneOrMore>
@@ -3997,7 +3993,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
   </define>
   <define name="sga_resp">
     <element name="resp">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsibility) contains a phrase describing the nature of a person's intellectual responsibility.    </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsibility) contains a phrase describing the nature of a person's intellectual responsibility. 3.11.2.2. Authors, Titles, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.canonical.attributes"/>
@@ -4006,7 +4002,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
   </define>
   <define name="sga_title">
     <element name="title">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work.   </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. 3.11.2.2. Authors, Titles, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <optional>
         <attribute name="level">
@@ -4048,7 +4044,8 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
   <define name="sga_publisher">
     <element name="publisher">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides the name of the organization responsible for the publication or distribution of a
-        bibliographic item.  </a:documentation>
+        bibliographic item. 3.11.2.3. Imprint, Pagination, and Other Details 2.2.4. Publication, Distribution,
+Licencing, etc.</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4057,7 +4054,7 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
   <define name="sga_biblScope">
     <element name="biblScope">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(scope of citation) defines the scope of a bibliographic reference, for example as a
-        list of page numbers, or a named subdivision of a larger work. </a:documentation>
+        list of page numbers, or a named subdivision of a larger work. 3.11.2.3. Imprint, Pagination, and Other Details</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -4101,7 +4098,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   </define>
   <define name="sga_pubPlace">
     <element name="pubPlace">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication place) contains the name of the place where a bibliographic item was published. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication place) contains the name of the place where a bibliographic item was published. 3.11.2.3. Imprint, Pagination, and Other Details</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.naming.attributes"/>
@@ -4111,7 +4108,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   <define name="sga_bibl">
     <element name="bibl">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may
-    not be explicitly tagged.    </a:documentation>
+    not be explicitly tagged.  3.11.1. Elements of Bibliographic References 2.2.7. The Source Description 15.3.2. Declarable Elements</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -4134,7 +4131,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   <define name="sga_relatedItem">
     <element name="relatedItem">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains or references some other bibliographic item which is related to the present one in
-    some specified manner, for example as a constituent or alternative version of it. </a:documentation>
+    some specified manner, for example as a constituent or alternative version of it. 3.11.2.5. Related items</a:documentation>
       <optional>
         <choice>
           <ref name="sga_model.biblLike"/>
@@ -4167,7 +4164,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   </define>
   <define name="sga_l">
     <element name="l">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(verse line) contains a single, possibly incomplete, line of verse.   </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(verse line) contains a single, possibly incomplete, line of verse. 3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.4. Speech Contents</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -4193,7 +4190,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   <define name="sga_lg">
     <element name="lg">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line group) contains a group of verse lines functioning as a formal unit, e.g. a stanza, refrain,
-        verse paragraph, etc.   </a:documentation>
+        verse paragraph, etc. 3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.4. Speech Contents</a:documentation>
       <group>
         <zeroOrMore>
           <choice>
@@ -4231,7 +4228,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   <define name="sga_sp">
     <element name="sp">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech) An individual speech in a performance text, or a passage presented as such in a prose or
-    verse text.   </a:documentation>
+    verse text. 3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.2. Speeches and Speakers</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.global"/>
@@ -4263,7 +4260,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   <define name="sga_speaker">
     <element name="speaker">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A specialized form of heading or label, giving the name of one or more speakers in a
-        dramatic text or fragment. </a:documentation>
+        dramatic text or fragment. 3.12.2. Core Tags for Drama</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4271,7 +4268,7 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
   </define>
   <define name="sga_stage">
     <element name="stage">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(stage direction) contains any kind of stage direction within a dramatic text or fragment.   </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(stage direction) contains any kind of stage direction within a dramatic text or fragment. 3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.3. Stage Directions</a:documentation>
       <ref name="sga_macro.specialPara"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -4307,7 +4304,7 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
   <define name="sga_divGen">
     <element name="divGen">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(automatically generated text division) indicates the location at which a textual division generated
-        automatically by a text-processing application is to appear. </a:documentation>
+        automatically by a text-processing application is to appear. 3.8.2. Index Entries</a:documentation>
       <zeroOrMore>
         <ref name="sga_model.headLike"/>
       </zeroOrMore>
@@ -4326,7 +4323,7 @@ Sample values include: 1] index; 2] toc; 3] figlist; 4] tablist</a:documentation
   <define name="sga_teiHeader">
     <element name="teiHeader">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI Header) supplies the descriptive and declarative information making up an electronic title page
-    prefixed to every TEI-conformant text.  </a:documentation>
+    prefixed to every TEI-conformant text. 2.1.1. The TEI Header and its Components 15.1. Varieties of Composite Text</a:documentation>
       <ref name="sga_fileDesc"/>
       <ref name="sga_encodingDesc"/>
       <zeroOrMore>
@@ -4347,7 +4344,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
   </define>
   <define name="sga_fileDesc">
     <element name="fileDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file. 2.2. The File Description 2.1.1. The TEI Header and its Components</a:documentation>
       <group>
         <ref name="sga_titleStmt"/>
         <ref name="sga_editionStmt"/>
@@ -4367,7 +4364,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
   <define name="sga_titleStmt">
     <element name="titleStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title statement) groups information about the title of a work and those responsible for its intellectual
-    content.  </a:documentation>
+    content. 2.2.1. The Title Statement 2.2. The File Description</a:documentation>
       <group>
         <oneOrMore>
           <ref name="sga_title"/>
@@ -4382,7 +4379,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
   </define>
   <define name="sga_sponsor">
     <element name="sponsor">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the name of a sponsoring organization or institution. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the name of a sponsoring organization or institution. 2.2.1. The Title Statement</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4391,7 +4388,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
   <define name="sga_funder">
     <element name="funder">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(funding body) specifies the name of an individual, institution, or organization responsible for the
-    funding of a project or text. </a:documentation>
+    funding of a project or text. 2.2.1. The Title Statement</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4400,7 +4397,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
   <define name="sga_principal">
     <element name="principal">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(principal researcher) supplies the name of the principal researcher responsible for the
-creation of an electronic text. </a:documentation>
+creation of an electronic text. 2.2.1. The Title Statement</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4408,7 +4405,7 @@ creation of an electronic text. </a:documentation>
   </define>
   <define name="sga_editionStmt">
     <element name="editionStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text. 2.2.2. The Edition Statement 2.2. The File Description</a:documentation>
       <choice>
         <oneOrMore>
           <ref name="sga_model.pLike"/>
@@ -4426,7 +4423,7 @@ creation of an electronic text. </a:documentation>
   </define>
   <define name="sga_edition">
     <element name="edition">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition) describes the particularities of one edition of a text. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition) describes the particularities of one edition of a text. 2.2.2. The Edition Statement</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4435,7 +4432,7 @@ creation of an electronic text. </a:documentation>
   <define name="sga_extent">
     <element name="extent">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the approximate size of a text as stored on some carrier medium, whether digital
-    or non-digital, specified in any convenient units.   </a:documentation>
+    or non-digital, specified in any convenient units. 2.2.3. Type and Extent of File 2.2. The File Description 3.11.2.3. Imprint, Pagination, and Other Details</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4444,7 +4441,8 @@ creation of an electronic text. </a:documentation>
   <define name="sga_publicationStmt">
     <element name="publicationStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other
-    text.   </a:documentation>
+    text.  2.2.4. Publication, Distribution,
+Licencing, etc. 2.2. The File Description</a:documentation>
       <choice>
         <oneOrMore>
           <ref name="sga_model.pLike"/>
@@ -4460,7 +4458,8 @@ creation of an electronic text. </a:documentation>
   <define name="sga_distributor">
     <element name="distributor">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the name of a person or other agency responsible for the
-distribution of a text. </a:documentation>
+distribution of a text. 2.2.4. Publication, Distribution,
+Licencing, etc.</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4470,7 +4469,8 @@ distribution of a text. </a:documentation>
     <element name="authority">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(release authority) supplies the name of a person or other agency responsible for
   making an electronic file available, other than a publisher or
-  distributor. </a:documentation>
+  distributor. 2.2.4. Publication, Distribution,
+Licencing, etc.</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -4480,7 +4480,8 @@ distribution of a text. </a:documentation>
     <element name="idno">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object,
   such as a bibliographic item, a person, a title, an organization,
-  etc. in a standardized way.   </a:documentation>
+  etc. in a standardized way. 2.2.4. Publication, Distribution,
+Licencing, etc. 2.2.5. The Series Statement 3.11.2.3. Imprint, Pagination, and Other Details</a:documentation>
       <ref name="sga_macro.xtext"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -4496,9 +4497,10 @@ distribution of a text. </a:documentation>
   <define name="sga_availability">
     <element name="availability">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the availability of a text, for example any restrictions on its
-    use or distribution, its copyright status, etc. </a:documentation>
+    use or distribution, its copyright status, etc. 2.2.4. Publication, Distribution,
+Licencing, etc.</a:documentation>
       <oneOrMore>
-        <ref name="sga_model.pLike"/>
+        <ref name="sga_model.availabilityPart"/>
       </oneOrMore>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.declarable.attributes"/>
@@ -4518,9 +4520,21 @@ distribution of a text. </a:documentation>
       <empty/>
     </element>
   </define>
+  <define name="sga_licence">
+    <element name="licence">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about a licence or other legal agreement
+  applicable to the text. 2.2.4. Publication, Distribution,
+Licencing, etc.</a:documentation>
+      <ref name="sga_macro.specialPara"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.pointing.attributes"/>
+      <ref name="sga_att.datable.attributes"/>
+      <empty/>
+    </element>
+  </define>
   <define name="sga_seriesStmt">
     <element name="seriesStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series statement) groups information about the series, if any, to which a publication belongs.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series statement) groups information about the series, if any, to which a publication belongs. 2.2.5. The Series Statement 2.2. The File Description</a:documentation>
       <group>
         <oneOrMore>
           <ref name="sga_title"/>
@@ -4543,7 +4557,7 @@ distribution of a text. </a:documentation>
     <element name="sourceDesc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source from which an electronic text was derived or generated, typically a
     bibliographic description in the case of a digitized text, or a phrase such as "born digital"
-    for a text which has no previous existence. </a:documentation>
+    for a text which has no previous existence. 2.2.7. The Source Description</a:documentation>
       <choice>
         <oneOrMore>
           <ref name="sga_model.pLike"/>
@@ -4564,7 +4578,7 @@ distribution of a text. </a:documentation>
   <define name="sga_encodingDesc">
     <element name="encodingDesc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(encoding description) documents the relationship between an electronic text and the
-source or sources from which it was derived.  </a:documentation>
+source or sources from which it was derived. 2.3. The Encoding Description 2.1.1. The TEI Header and its Components</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4576,7 +4590,7 @@ source or sources from which it was derived.  </a:documentation>
     <element name="projectDesc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(project description) describes in detail the aim or purpose for which an electronic file was encoded, together
     with any other relevant information concerning the process by which it was assembled or
-    collected.   </a:documentation>
+    collected. 2.3.1. The Project Description 2.3. The Encoding Description 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4588,7 +4602,7 @@ source or sources from which it was derived.  </a:documentation>
   <define name="sga_editorialDecl">
     <element name="editorialDecl">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(editorial practice declaration) provides details of editorial principles and practices applied
-during the encoding of a text.   </a:documentation>
+during the encoding of a text. 2.3.3. The Editorial Practices Declaration 2.3. The Encoding Description 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <choice>
           <ref name="sga_model.pLike"/>
@@ -4602,7 +4616,7 @@ during the encoding of a text.   </a:documentation>
   </define>
   <define name="sga_correction">
     <element name="correction">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correction principles) states how and under what circumstances corrections have been made in the text.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correction principles) states how and under what circumstances corrections have been made in the text. 2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4640,7 +4654,7 @@ during the encoding of a text.   </a:documentation>
   <define name="sga_normalization">
     <element name="normalization">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the extent of normalization or regularization of the original source carried out
-    in converting it to electronic form.  </a:documentation>
+    in converting it to electronic form. 2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4668,7 +4682,7 @@ during the encoding of a text.   </a:documentation>
   </define>
   <define name="sga_quotation">
     <element name="quotation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies editorial practice adopted with respect to quotation marks in the original.   </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies editorial practice adopted with respect to quotation marks in the original.  2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4699,7 +4713,7 @@ during the encoding of a text.   </a:documentation>
   <define name="sga_hyphenation">
     <element name="hyphenation">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">summarizes the way in which hyphenation in a source text has been treated in an encoded
-    version of it.  </a:documentation>
+    version of it. 2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4729,7 +4743,7 @@ during the encoding of a text.   </a:documentation>
   <define name="sga_segmentation">
     <element name="segmentation">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the principles according to which the text has been segmented, for example into
-    sentences, tone-units, graphemic strata, etc.  </a:documentation>
+    sentences, tone-units, graphemic strata, etc. 2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4741,7 +4755,7 @@ during the encoding of a text.   </a:documentation>
   <define name="sga_interpretation">
     <element name="interpretation">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the scope of any analytic or interpretive information added to the text in
-    addition to the transcription.  </a:documentation>
+    addition to the transcription.  2.3.3. The Editorial Practices Declaration</a:documentation>
       <oneOrMore>
         <ref name="sga_model.pLike"/>
       </oneOrMore>
@@ -4752,7 +4766,7 @@ during the encoding of a text.   </a:documentation>
   </define>
   <define name="sga_tagsDecl">
     <element name="tagsDecl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tagging declaration) provides detailed information about the tagging applied to a document.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tagging declaration) provides detailed information about the tagging applied to a document. 2.3.4. The Tagging Declaration 2.3. The Encoding Description</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_rendition"/>
@@ -4767,7 +4781,7 @@ during the encoding of a text.   </a:documentation>
   </define>
   <define name="sga_tagUsage">
     <element name="tagUsage">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the usage of a specific element within a text.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the usage of a specific element within a text.  2.3.4. The Tagging Declaration</a:documentation>
       <ref name="sga_macro.limitedContent"/>
       <ref name="sga_att.global.attributes"/>
       <attribute name="gi">
@@ -4800,7 +4814,7 @@ during the encoding of a text.   </a:documentation>
   <define name="sga_namespace">
     <element name="namespace">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the formal name of the namespace to which the elements documented by its children
-    belong.  </a:documentation>
+    belong.  2.3.4. The Tagging Declaration</a:documentation>
       <oneOrMore>
         <ref name="sga_tagUsage"/>
       </oneOrMore>
@@ -4815,7 +4829,7 @@ during the encoding of a text.   </a:documentation>
   <define name="sga_rendition">
     <element name="rendition">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the rendition or appearance of one or more elements in the source
-    text. </a:documentation>
+    text. 2.3.4. The Tagging Declaration</a:documentation>
       <ref name="sga_macro.limitedContent"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -4847,7 +4861,7 @@ applicable to specific sub-portions of an element.</a:documentation>
   <define name="sga_refsDecl">
     <element name="refsDecl">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(references declaration) specifies how canonical references are constructed for this
-  text.   </a:documentation>
+  text. 2.3.5.3. Milestone Method 2.3. The Encoding Description 2.3.5. The Reference System Declaration</a:documentation>
       <choice>
         <oneOrMore>
           <ref name="sga_model.pLike"/>
@@ -4867,7 +4881,7 @@ applicable to specific sub-portions of an element.</a:documentation>
   <define name="sga_cRefPattern">
     <element name="cRefPattern">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference pattern) specifies an expression and replacement pattern for transforming a canonical reference into
-    a URI.    </a:documentation>
+    a URI.  2.3.5.3. Milestone Method 2.3.5. The Reference System Declaration 2.3.5.2. Search-and-Replace Method</a:documentation>
       <zeroOrMore>
         <ref name="sga_model.pLike"/>
       </zeroOrMore>
@@ -4887,7 +4901,7 @@ applicable to specific sub-portions of an element.</a:documentation>
   </define>
   <define name="sga_refState">
     <element name="refState">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference state) specifies one component of a canonical reference defined by the milestone method.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference state) specifies one component of a canonical reference defined by the milestone method. 2.3.5.3. Milestone Method 2.3.5. The Reference System Declaration</a:documentation>
       <empty/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.sourced.attributes"/>
@@ -4938,7 +4952,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
   <define name="sga_classDecl">
     <element name="classDecl">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains one or more taxonomies defining any classificatory
-codes used elsewhere in the text.  </a:documentation>
+codes used elsewhere in the text. 2.3.6. The Classification Declaration 2.3. The Encoding Description</a:documentation>
       <oneOrMore>
         <ref name="sga_taxonomy"/>
       </oneOrMore>
@@ -4949,7 +4963,7 @@ codes used elsewhere in the text.  </a:documentation>
   <define name="sga_taxonomy">
     <element name="taxonomy">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines a typology used to classify texts either implicitly, by means of a bibliographic
-    citation, or explicitly by a structured taxonomy. </a:documentation>
+    citation, or explicitly by a structured taxonomy. 2.3.6. The Classification Declaration</a:documentation>
       <choice>
         <zeroOrMore>
           <ref name="sga_model.glossLike"/>
@@ -4973,7 +4987,7 @@ codes used elsewhere in the text.  </a:documentation>
   <define name="sga_category">
     <element name="category">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an individual descriptive category, possibly nested within a superordinate
-    category, within a user-defined taxonomy. </a:documentation>
+    category, within a user-defined taxonomy. 2.3.6. The Classification Declaration</a:documentation>
       <group>
         <choice>
           <oneOrMore>
@@ -4994,7 +5008,7 @@ codes used elsewhere in the text.  </a:documentation>
   <define name="sga_catDesc">
     <element name="catDesc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(category description) describes some category within a taxonomy or text typology, either in the form of a brief
-    prose description or in terms of the situational parameters used by the TEI formal textDesc. </a:documentation>
+    prose description or in terms of the situational parameters used by the TEI formal textDesc. 2.3.6. The Classification Declaration</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -5055,7 +5069,7 @@ codes used elsewhere in the text.  </a:documentation>
     <element name="profileDesc">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the
     languages and sublanguages used, the situation in which it was produced, the participants and
-    their setting.  </a:documentation>
+    their setting. 2.4. The Profile Description 2.1.1. The TEI Header and its Components</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.profileDescPart"/>
@@ -5067,7 +5081,7 @@ codes used elsewhere in the text.  </a:documentation>
   </define>
   <define name="sga_creation">
     <element name="creation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about the creation of a text.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about the creation of a text. 2.4.1. Creation 2.4. The Profile Description</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -5076,7 +5090,7 @@ codes used elsewhere in the text.  </a:documentation>
   <define name="sga_langUsage">
     <element name="langUsage">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language usage) describes the languages, sublanguages, registers, dialects, etc.
-represented within a text.   </a:documentation>
+represented within a text. 2.4.2. Language Usage 2.4. The Profile Description 15.3.2. Declarable Elements</a:documentation>
       <oneOrMore>
         <ref name="sga_language"/>
       </oneOrMore>
@@ -5087,7 +5101,7 @@ represented within a text.   </a:documentation>
   </define>
   <define name="sga_language">
     <element name="language">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes a single language or sublanguage used within a text. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes a single language or sublanguage used within a text. 2.4.2. Language Usage</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <attribute name="ident">
@@ -5110,7 +5124,7 @@ represented within a text.   </a:documentation>
   <define name="sga_textClass">
     <element name="textClass">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text classification) groups information which describes the nature or topic of a text in terms of a standard
-    classification scheme, thesaurus, etc. </a:documentation>
+    classification scheme, thesaurus, etc. 2.4.3. The Text Classification</a:documentation>
       <zeroOrMore>
         <choice>
           <ref name="sga_classCode"/>
@@ -5125,7 +5139,7 @@ represented within a text.   </a:documentation>
   </define>
   <define name="sga_keywords">
     <element name="keywords">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a list of keywords or phrases identifying the topic or nature of a text. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a list of keywords or phrases identifying the topic or nature of a text. 2.4.3. The Text Classification</a:documentation>
       <choice>
         <oneOrMore>
           <ref name="sga_term"/>
@@ -5143,7 +5157,7 @@ represented within a text.   </a:documentation>
   </define>
   <define name="sga_classCode">
     <element name="classCode">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification code) contains the classification code used for this text in some standard classification system. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification code) contains the classification code used for this text in some standard classification system. 2.4.3. The Text Classification</a:documentation>
       <ref name="sga_macro.phraseSeq.limited"/>
       <ref name="sga_att.global.attributes"/>
       <attribute name="scheme">
@@ -5155,7 +5169,7 @@ represented within a text.   </a:documentation>
   </define>
   <define name="sga_catRef">
     <element name="catRef">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(category reference) specifies one or more defined categories within some taxonomy or text typology. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(category reference) specifies one or more defined categories within some taxonomy or text typology. 2.4.3. The Text Classification</a:documentation>
       <empty/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.pointing.attributes"/>
@@ -5169,9 +5183,31 @@ represented within a text.   </a:documentation>
       <empty/>
     </element>
   </define>
+  <define name="sga_calendarDesc">
+    <element name="calendarDesc">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(calendar description) contains a description of the calendar system used in any
+  dating expression found in the text. 2.4. The Profile Description 2.4.4. Calendar Description</a:documentation>
+      <oneOrMore>
+        <ref name="sga_calendar"/>
+      </oneOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_calendar">
+    <element name="calendar">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes a calendar or dating system used in a dating formula in the text. 2.4.4. Calendar Description</a:documentation>
+      <oneOrMore>
+        <ref name="sga_model.pLike"/>
+      </oneOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.pointing.attributes"/>
+      <empty/>
+    </element>
+  </define>
   <define name="sga_revisionDesc">
     <element name="revisionDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file. 2.5. The Revision Description 2.1.1. The TEI Header and its Components</a:documentation>
       <choice>
         <ref name="sga_list"/>
         <oneOrMore>
@@ -5186,7 +5222,7 @@ represented within a text.   </a:documentation>
   <define name="sga_change">
     <element name="change">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">summarizes a particular change or correction made to a particular version of an electronic
-    text which is shared between several researchers. </a:documentation>
+    text which is shared between several researchers. 2.5. The Revision Description</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -5235,7 +5271,7 @@ Suggested values include: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Gri
     <element name="TEI">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document,
 comprising a TEI header and a text, either in isolation or as part of a
-teiCorpus element.  </a:documentation>
+teiCorpus element. 4. Default Text Structure 15.1. Varieties of Composite Text</a:documentation>
       <group>
         <ref name="sga_teiHeader"/>
         <choice>
@@ -5266,7 +5302,7 @@ teiCorpus element.  </a:documentation>
   <define name="sga_text">
     <element name="text">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, for example a poem or
-    drama, a collection of essays, a novel, a dictionary, or a corpus sample.  </a:documentation>
+    drama, a collection of essays, a novel, a dictionary, or a corpus sample. 4. Default Text Structure 15.1. Varieties of Composite Text</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.global"/>
@@ -5299,7 +5335,7 @@ teiCorpus element.  </a:documentation>
   </define>
   <define name="sga_body">
     <element name="body">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. 4. Default Text Structure</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.global"/>
@@ -5390,7 +5426,7 @@ teiCorpus element.  </a:documentation>
     <element name="group">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the body of a composite text, grouping together a sequence of distinct texts (or
     groups of such texts) which are regarded as a unit for some purpose, for example the collected
-    works of an author, a sequence of prose essays, etc.   </a:documentation>
+    works of an author, a sequence of prose essays, etc. 4. Default Text Structure 4.3.1. Grouped Texts 15.1. Varieties of Composite Text</a:documentation>
       <group>
         <zeroOrMore>
           <choice>
@@ -5423,7 +5459,7 @@ teiCorpus element.  </a:documentation>
   <define name="sga_floatingText">
     <element name="floatingText">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, which interrupts the text
-    containing it at any point and after which the surrounding text resumes. </a:documentation>
+    containing it at any point and after which the surrounding text resumes. 4.3.2. Floating Texts</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.global"/>
@@ -5456,7 +5492,7 @@ teiCorpus element.  </a:documentation>
   </define>
   <define name="sga_div">
     <element name="div">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. 4.1. Divisions of the Body</a:documentation>
       <group>
         <zeroOrMore>
           <choice>
@@ -5510,7 +5546,7 @@ teiCorpus element.  </a:documentation>
   </define>
   <define name="sga_trailer">
     <element name="trailer">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a closing title or footer appearing at the end of a division of a text.   </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a closing title or footer appearing at the end of a division of a text.  4.2.4. Content of Textual Divisions 4.2. Elements Common to All Divisions</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -5519,7 +5555,7 @@ teiCorpus element.  </a:documentation>
   <define name="sga_byline">
     <element name="byline">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the primary statement of responsibility given for a work
-on its title page or at the head or end of the work.  </a:documentation>
+on its title page or at the head or end of the work. 4.2.2. Openers and Closers 4.5. Front Matter</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -5536,7 +5572,7 @@ on its title page or at the head or end of the work.  </a:documentation>
   <define name="sga_dateline">
     <element name="dateline">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a brief description of the place, date, time, etc. of production of a letter,
-    newspaper story, or other work, prefixed or suffixed to it as a kind of heading or trailer.   </a:documentation>
+    newspaper story, or other work, prefixed or suffixed to it as a kind of heading or trailer.  4.2.4. Content of Textual Divisions 4.2.2. Openers and Closers</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -5545,7 +5581,7 @@ on its title page or at the head or end of the work.  </a:documentation>
   <define name="sga_argument">
     <element name="argument">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A formal list or prose description of the topics addressed by
-	a subdivision of a text.  </a:documentation>
+	a subdivision of a text. 4.2. Elements Common to All Divisions 4.6. Title Pages</a:documentation>
       <group>
         <zeroOrMore>
           <choice>
@@ -5569,7 +5605,7 @@ on its title page or at the head or end of the work.  </a:documentation>
   <define name="sga_epigraph">
     <element name="epigraph">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a quotation, anonymous or attributed, appearing at the start of a section or
-    chapter, or on a title page.    </a:documentation>
+    chapter, or on a title page.  4.2.3. Arguments, Epigraphs, and Postscripts 4.2. Elements Common to All Divisions 4.6. Title Pages</a:documentation>
       <zeroOrMore>
         <choice>
           <ref name="sga_model.common"/>
@@ -5583,7 +5619,7 @@ on its title page or at the head or end of the work.  </a:documentation>
   <define name="sga_opener">
     <element name="opener">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups together dateline, byline, salutation, and similar phrases appearing as a preliminary
-    group at the start of a division, especially of a letter.  </a:documentation>
+    group at the start of a division, especially of a letter. 4.2.4. Content of Textual Divisions 4.2. Elements Common to All Divisions</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -5605,7 +5641,7 @@ on its title page or at the head or end of the work.  </a:documentation>
   <define name="sga_closer">
     <element name="closer">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups together salutations, datelines, and similar phrases appearing as a final group at
-    the end of a division, especially of a letter.  </a:documentation>
+    the end of a division, especially of a letter. 4.2.2. Openers and Closers 4.2. Elements Common to All Divisions</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -5624,7 +5660,7 @@ on its title page or at the head or end of the work.  </a:documentation>
   <define name="sga_salute">
     <element name="salute">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(salutation) contains a salutation or greeting prefixed to a foreword, dedicatory epistle, or other
-    division of a text, or the salutation in the closing of a letter, preface, etc.  </a:documentation>
+    division of a text, or the salutation in the closing of a letter, preface, etc. 4.2.4. Content of Textual Divisions 4.2.2. Openers and Closers</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -5633,7 +5669,7 @@ on its title page or at the head or end of the work.  </a:documentation>
   <define name="sga_signed">
     <element name="signed">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(signature) contains the closing salutation, etc., appended to a foreword,
-dedicatory epistle, or other division of a text.   </a:documentation>
+dedicatory epistle, or other division of a text.  4.2.4. Content of Textual Divisions 4.2.2. Openers and Closers</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -5641,7 +5677,7 @@ dedicatory epistle, or other division of a text.   </a:documentation>
   </define>
   <define name="sga_postscript">
     <element name="postscript">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a postscript, e.g. to a letter. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a postscript, e.g. to a letter. 4.2. Elements Common to All Divisions</a:documentation>
       <zeroOrMore>
         <choice>
           <group>
@@ -5658,7 +5694,7 @@ dedicatory epistle, or other division of a text.   </a:documentation>
   </define>
   <define name="sga_titlePage">
     <element name="titlePage">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title page) contains the title page of a text, appearing within the front or back matter.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title page) contains the title page of a text, appearing within the front or back matter.  4.6. Title Pages</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.global"/>
@@ -5686,7 +5722,7 @@ dedicatory epistle, or other division of a text.   </a:documentation>
   <define name="sga_docTitle">
     <element name="docTitle">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(document title) contains the title of a document, including all its
-constituents, as given on a title page. </a:documentation>
+constituents, as given on a title page. 4.6. Title Pages</a:documentation>
       <group>
         <zeroOrMore>
           <ref name="sga_model.global"/>
@@ -5706,7 +5742,7 @@ constituents, as given on a title page. </a:documentation>
   <define name="sga_titlePart">
     <element name="titlePart">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a subsection or division of the title of a work, as
-indicated on a title page. </a:documentation>
+indicated on a title page. 4.6. Title Pages</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -5738,7 +5774,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
   <define name="sga_docAuthor">
     <element name="docAuthor">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(document author) contains the name of the author of the document, as given on the
-title page (often but not always contained in a byline). </a:documentation>
+title page (often but not always contained in a byline). 4.6. Title Pages</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.canonical.attributes"/>
@@ -5748,7 +5784,7 @@ title page (often but not always contained in a byline). </a:documentation>
   <define name="sga_imprimatur">
     <element name="imprimatur">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a formal statement authorizing the publication of a work, sometimes required to
-    appear on a title page or its verso. </a:documentation>
+    appear on a title page or its verso. 4.6. Title Pages</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -5757,7 +5793,7 @@ title page (often but not always contained in a byline). </a:documentation>
   <define name="sga_docEdition">
     <element name="docEdition">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(document edition) contains an edition statement as presented on a title page of a
-document. </a:documentation>
+document. 4.6. Title Pages</a:documentation>
       <ref name="sga_macro.paraContent"/>
       <ref name="sga_att.global.attributes"/>
       <empty/>
@@ -5767,7 +5803,7 @@ document. </a:documentation>
     <element name="docImprint">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(document imprint) contains the imprint statement (place and date of publication,
 publisher name), as given
-(usually) at the foot of a title page. </a:documentation>
+(usually) at the foot of a title page. 4.6. Title Pages</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -5786,7 +5822,7 @@ publisher name), as given
   <define name="sga_docDate">
     <element name="docDate">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(document date) contains the date of a document, as given
-(usually) on a title page. </a:documentation>
+(usually) on a title page. 4.6. Title Pages</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <optional>
@@ -5802,7 +5838,7 @@ publisher name), as given
     <element name="front">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(front matter) contains any prefatory matter (headers,
 title page, prefaces, dedications, etc.)
-found  at the start of a document, before the main body.  </a:documentation>
+found  at the start of a document, before the main body. 4.6. Title Pages 4. Default Text Structure</a:documentation>
       <group>
         <zeroOrMore>
           <choice>
@@ -5858,7 +5894,7 @@ found  at the start of a document, before the main body.  </a:documentation>
   </define>
   <define name="sga_back">
     <element name="back">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text. 4.7. Back Matter 4. Default Text Structure</a:documentation>
       <group>
         <zeroOrMore>
           <choice>
@@ -5914,7 +5950,7 @@ found  at the start of a document, before the main body.  </a:documentation>
   </define>
   <define name="sga_space">
     <element name="space">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of a significant space in the copy text. </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of a significant space in the copy text. 11.6.1. Space</a:documentation>
       <zeroOrMore>
         <ref name="sga_model.glossLike"/>
       </zeroOrMore>
@@ -5944,7 +5980,7 @@ the space.</a:documentation>
   <define name="sga_persName">
     <element name="persName">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including any
-    or all of the person's forenames, surnames, honorifics, added names, etc. </a:documentation>
+    or all of the person's forenames, surnames, honorifics, added names, etc. 13.2.1. Personal Names</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.datable.attributes"/>
@@ -5956,7 +5992,7 @@ the space.</a:documentation>
   </define>
   <define name="sga_placeName">
     <element name="placeName">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an absolute or relative place name.  </a:documentation>
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an absolute or relative place name.  13.2.3. Place Names</a:documentation>
       <ref name="sga_macro.phraseSeq"/>
       <ref name="sga_att.global.attributes"/>
       <ref name="sga_att.naming.attributes"/>
