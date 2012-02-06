@@ -37,9 +37,15 @@
             <head/>
             <l>PROMETHEUS UNBOUND ACT 1</l>
             <l>Bodleian MS. Shelley e.1,2,3 </l>
-            <l>&lt;ACT 1&gt; Act 1 Scene--Night A Ravine of Icy Rocks in the Indian Caucasus. Prometheus is discovered bound to the precipice--Panthea &amp; Ione are seated at his feet. {During the scene morning slowly breaks.}</l>
-            <l>  {SD}  PROMETHEUS </l>
-            <l> Mon<p rend="Plain Text">arch of Gods &amp; Dæmons &amp; all Spirits </l>
+<stage>            
+<p>Act 1 Scene--<add place="supralinear">Night</add> A Ravine of Icy Rocks in the 
+<lb/>Indian Caucasus. Prometheus is discovered 
+<lb/>bound to the precipice--  Panthea &amp; Ione 
+<lb/>are seated at his feet.
+</p>
+</stage>
+            <speaker>PROMETHEUS</speaker>
+            <l> Monarch of Gods &amp; Dæmons &amp; all Spirits </l>
             <l> But One, who throng those bright &amp; rolling Worlds </l>
             <l> Which Thou &amp; I alone of living things </l>
             <l> Behold with sleepless eyes{ } regard this Earth</l>
@@ -112,31 +118,36 @@
             <l> Is dead within, although no memory be </l>
             <l> Of what is hate--let them not lose it now! </l>
             <l> What was that curse? for ye all heard me speak {SB}</l>
-            <l> {SD}   FIRST VOICE: from the Mountains</l>
+            
+	<speaker> FIRST VOICE: from the Mountains</speaker>
             <l> Thrice three hundred thousand years</l>
             <l> Oe'r the Earthquakes couch we stood;</l>
             <l> Oft as men convulsed with fears</l>
             <l> We trembled in our multitude. {SB}</l>
-            <l> {SD}   SECOND VOICE: from the Springs</l>
+            <l> <speaker>SECOND VOICE: from the Springs</speaker></l>
             <l> Thunderbolts had parched our water,</l>
             <l> We had been stained with bitter blood</l>
             <l> And had ran mute 'mid shrieks of slaugter</l>
             <l> Thro' a city &amp; a solitude! {SB}</l>
-            <l> {SD}   THIRD VOICE: from the Air</l>
+            
+	<speaker>THIRD VOICE: from the Air</speaker>
             <l> I had clothed since Earth uprose</l>
             <l> Its wastes in colours not their own,</l>
             <l> And oft had my serene repose</l>
             <l> Been cloven by many a rending groan {SB} And silence</l>
-            <l> {SD}   FOURTH VOICE: from the Whirlwinds</l>
+
+        <speaker>FOURTH VOICE: from the Whirlwinds</speaker>
             <l> We had soared beneath these mountains</l>
             <l> Unresting ages;--nor had thunder</l>
             <l> Nor yon Volcano's flaming fountains</l>
             <l> Nor any power above or under,</l>
             <l> Ever made us mute with wonder! {SB}</l>
-            <l> {SD}   FIRST VOICE</l>
+
+        <speaker>FIRST VOICE</speaker>
             <l> But never bowed our snowy crest</l>
             <l> As at the voice of thine unrest-- {SB}</l>
-            <l> {SD}   SECOND VOICE</l>
+            
+	<speaker>SECOND VOICE</speaker>
             <l> Never such a sound before</l>
             <l> To the Indian waves we bore.--</l>
             <l> A pilot asleep on the howling sea</l>
