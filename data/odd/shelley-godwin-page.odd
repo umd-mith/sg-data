@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../derivatives/brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI customization for the Shelley-Godwin Archive page transcriptions</title>
+                <author>
+                    <persName xml:id="tmunoz">Trevor Muñoz</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>The Maryland Institute for Technology in the Humanites
+                    (MITH)</distributor>
+                <address>
+                    <addrLine>mith@umd.edu</addrLine>
+                </address>
+                <date when="2012-02-10">February 10, 2012</date>
+                <availability status="restricted">
+                    <p>This work is copyright Trevor Munoz and Maryland Institute for Technology in
+                        the Humanities and licensed under a <ref
+                            target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                            Attribution 3.0 Unported License</ref>.</p>
+                </availability>
+                <pubPlace>College Park, MD USA</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-02-08" who="tm">Created this separate ODD to govern page-level markup</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="rationale">
+                <head>Shelley-Godwin Archive Encoding Guidelines for Document-centric Markup</head>
+                <p>Coming soon.</p>
+            </div>
+            <div xml:id="spec">
+                <head>Technical specification</head>
+                <p>The prefix <abbr>sga-p</abbr> in this schema stands for <expan>Shelley-Godwin Archive, page-level</expan>.</p>
+                <p>The customization for page-level markup specified herein is NON-CONFORMANT with the TEI abstract
+                    model because the documents governed by this model are fragments and are
+                    not-intended to stand alone.</p>
+                <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="sourceDoc">
+                    
+                    <moduleRef key="tei"/>
+                    <moduleRef key="header"/>
+                    <moduleRef key="core"/>
+                    <moduleRef key="textstructure"/>
+                    
+                    <!-- Additional modules -->
+                    <moduleRef key="transcr"/>
+                    
+                </schemaSpec>
+            </div>
+        </body>
+    </text>
+</TEI>
