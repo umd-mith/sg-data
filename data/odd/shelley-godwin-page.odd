@@ -48,7 +48,7 @@
                 <p>The customization for page-level markup specified herein is NON-CONFORMANT with
                     the TEI abstract model because the documents governed by this model are
                     fragments and are not-intended to stand alone.</p>
-                <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="sourceDoc">
+                <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="surface surfaceGrp">
 
                     <moduleRef key="tei"/>
                     
