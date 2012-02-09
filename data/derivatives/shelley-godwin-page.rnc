@@ -1,11 +1,12 @@
 default namespace = "http://www.tei-c.org/ns/1.0"
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace ns1 = "http://www.shelleygodwinarchive.org/ns/1.0"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-09T16:13:35Z. 
+# Schema generated from ODD source 2012-02-09T16:55:07Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2837,6 +2838,10 @@ sga-psurface =
       | sga-pline
       | sga-psurface
       | sga-psurfaceGrp)*),
+    
+    ## Refers to the id of the sourceDoc element with which this
+    ##                                     surface should be associated. Syntactic sugar.
+    attribute ns1:partOf { sga-pdata.pointer }?,
     
     ## (identifier) provides a unique identifier for the element bearing the attribute.
     attribute xml:id { xsd:ID },

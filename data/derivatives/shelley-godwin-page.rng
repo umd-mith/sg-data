@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-09T16:13:35Z. 
+Schema generated from ODD source 2012-02-09T16:55:07Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5130,6 +5130,13 @@ that space, zones of interest within that space, and transcriptions of the
           </choice>
         </zeroOrMore>
       </group>
+      <optional>
+        <attribute name="partOf" ns="http://www.shelleygodwinarchive.org/ns/1.0">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Refers to the id of the sourceDoc element with which this
+                                    surface should be associated. Syntactic sugar.</a:documentation>
+          <ref name="sga-pdata.pointer"/>
+        </attribute>
+      </optional>
       <attribute name="xml:id">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
         <data type="ID"/>
