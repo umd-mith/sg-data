@@ -140,13 +140,10 @@
 
                             <attDef ident="n" mode="change" usage="rec"/>
 
-                            <attDef ident="partOf" ns="http://www.shelleygodwinarchive.org/ns/1.0"
-                                mode="add">
-                                <desc>Refers to the id of the sourceDoc element with which this
-                                    surface should be associated. Syntactic sugar.</desc>
-                                <datatype>
-                                    <rng:ref name="data.pointer"/>
-                                </datatype>
+                            <attDef ident="corresp" mode="change">
+                                <altIdent>partOf</altIdent>
+                                <desc>Syntactic sugar attribute—should refer to the id of the sourceDoc element with which this
+                                    surface should be associated</desc>
                             </attDef>
 
                             <!-- See note above re: Whitman integration -->
