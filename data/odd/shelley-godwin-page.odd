@@ -126,16 +126,20 @@
                                 <rng:zeroOrMore>
                                     <rng:ref name="model.glossLike"/>
                                 </rng:zeroOrMore>
-                                <rng:zeroOrMore>
+                                <rng:oneOrMore>
                                     <rng:ref name="model.graphicLike"/>
-                                </rng:zeroOrMore>
+                                </rng:oneOrMore>
+                                <rng:oneOrMore>
+                                    <rng:choice>
+                                        <rng:ref name="zone"/>
+                                        <!--<rng:ref name="surface"/>
+                                        <rng:ref name="surfaceGrp"/>--><!-- Temporarily removing the case of paste-ins, etc. -->
+                                    </rng:choice>
+                                </rng:oneOrMore>
                                 <rng:zeroOrMore>
                                     <rng:choice>
-                                        <rng:ref name="model.global"/>
-                                        <rng:ref name="zone"/>
+                                        <rng:ref name="model.global"/>                                       
                                         <rng:ref name="line"/>
-                                        <rng:ref name="surface"/>
-                                        <rng:ref name="surfaceGrp"/>
                                     </rng:choice>
                                 </rng:zeroOrMore>
                             </rng:group>
