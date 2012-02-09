@@ -63,7 +63,7 @@
                         meeting mentioned monogr postBox postCode pubPlace publisher 
                         quote said series soCalled street teiCorpus textLang"/>
                     
-                    <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
+                    <moduleRef key="textstructure" except="TEI div1 div2 div3 div4 div5 div6 div7"/>
 
                     <!-- Additional modules -->
                     <moduleRef key="transcr"/>
@@ -117,7 +117,14 @@
                         </content>
                         <attList>
                             <attDef ident="xml:id" mode="change" usage="req"/>
-                            <attDef ident="n" mode="change" usage="rec"/>
+                            
+                            <!-- Make the attributes to set the coordinate grid of the page required; should be automatically generated -->
+                            <attDef ident="ulx" mode="change" usage="req"/>
+                            <attDef ident="uly" mode="change" usage="req"/>
+                            <attDef ident="lrx" mode="change" usage="req"/>
+                            <attDef ident="lry" mode="change" usage="req"/>
+                            
+                            <attDef ident="n" mode="change" usage="rec"/>                            
                             <!-- See note above re: Whitman integration -->
                             <attDef ident="attachment" mode="delete"/>
                             <attDef ident="flipping" mode="delete"/>
