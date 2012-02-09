@@ -1,12 +1,11 @@
 default namespace = "http://www.tei-c.org/ns/1.0"
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
-namespace ns1 = "http://www.shelleygodwinarchive.org/ns/1.0"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-09T16:55:07Z. 
+# Schema generated from ODD source 2012-02-09T17:29:53Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -53,7 +52,6 @@ sga-pdata.temporal.w3c =
   | xsd:dateTime
 sga-pdata.truthValue = xsd:boolean
 sga-pdata.xTruthValue = xsd:boolean | "unknown" | "inapplicable"
-sga-pdata.language = xsd:language
 sga-pdata.outputMeasurement =
   xsd:token {
     pattern =
@@ -406,11 +404,7 @@ sga-patt.global.attributes =
   sga-patt.global.change.attributes,
   sga-patt.global.attribute.xmlid,
   sga-patt.global.attribute.n,
-  sga-patt.global.attribute.xmllang,
-  sga-patt.global.attribute.rend,
-  sga-patt.global.attribute.rendition,
-  sga-patt.global.attribute.xmlbase,
-  sga-patt.global.attribute.xmlspace
+  sga-patt.global.attribute.rendition
 sga-patt.global.attribute.xmlid =
   
   ## (identifier) provides a unique identifier for the element bearing the attribute.
@@ -422,43 +416,12 @@ sga-patt.global.attribute.n =
   attribute n {
     list { sga-pdata.word, sga-pdata.word* }
   }?
-sga-patt.global.attribute.xmllang =
-  
-  ## (language) indicates the language of the element content using a tag generated
-  ##         according to BCP 47
-  ##          
-  attribute xml:lang { sga-pdata.language }?
-sga-patt.global.attribute.rend =
-  
-  ## (rendition) indicates how the element in question was rendered or presented in the source text.
-  attribute rend {
-    list { sga-pdata.word, sga-pdata.word* }
-  }?
 sga-patt.global.attribute.rendition =
   
   ## points to a description of the rendering or presentation used for this element in the
   ##         source text.
   attribute rendition {
     list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
-sga-patt.global.attribute.xmlbase =
-  
-  ## provides a base URI reference with which applications can resolve relative URI
-  ##         references into absolute URI references.
-  attribute xml:base { sga-pdata.pointer }?
-sga-patt.global.attribute.xmlspace =
-  
-  ## signals an intention about how white space should be 
-  ##       managed by  applications. 
-  attribute xml:space {
-    
-    ## the processor should treat white space according to the
-    ##	default XML white space handling rules
-    "default"
-    | 
-      ## the processor should preserve unchanged any and all
-      ##	white space in the source
-      "preserve"
   }?
 sga-patt.handFeatures.attributes =
   sga-patt.handFeatures.attribute.scribe,
@@ -2839,10 +2802,6 @@ sga-psurface =
       | sga-psurface
       | sga-psurfaceGrp)*),
     
-    ## Refers to the id of the sourceDoc element with which this
-    ##                                     surface should be associated. Syntactic sugar.
-    attribute ns1:partOf { sga-pdata.pointer }?,
-    
     ## (identifier) provides a unique identifier for the element bearing the attribute.
     attribute xml:id { xsd:ID },
     
@@ -2851,12 +2810,15 @@ sga-psurface =
     attribute n {
       list { sga-pdata.word, sga-pdata.word* }
     }?,
-    sga-patt.global.attribute.xmllang,
-    sga-patt.global.attribute.rend,
     sga-patt.global.attribute.rendition,
-    sga-patt.global.attribute.xmlbase,
-    sga-patt.global.attribute.xmlspace,
-    sga-patt.global.linking.attributes,
+    
+    ## (corresponds) Syntactic sugar attribute—should refer to the id of the sourceDoc element with which this
+    ##                                     surface should be associated
+    attribute partOf {
+      list { sga-pdata.pointer, sga-pdata.pointer* }
+    }?,
+    sga-patt.global.linking.attribute.next,
+    sga-patt.global.linking.attribute.prev,
     sga-patt.global.facs.attributes,
     sga-patt.global.change.attributes,
     sga-patt.coordinated.attribute.start,
@@ -3817,13 +3779,8 @@ sga-paltGrp =
   }
 sga-patt.global.linking.attributes =
   sga-patt.global.linking.attribute.corresp,
-  sga-patt.global.linking.attribute.synch,
-  sga-patt.global.linking.attribute.sameAs,
-  sga-patt.global.linking.attribute.copyOf,
   sga-patt.global.linking.attribute.next,
-  sga-patt.global.linking.attribute.prev,
-  sga-patt.global.linking.attribute.exclude,
-  sga-patt.global.linking.attribute.select
+  sga-patt.global.linking.attribute.prev
 sga-patt.global.linking.attribute.corresp =
   
   ## (corresponds) points to elements that correspond to the current
@@ -3831,23 +3788,6 @@ sga-patt.global.linking.attribute.corresp =
   attribute corresp {
     list { sga-pdata.pointer, sga-pdata.pointer* }
   }?
-sga-patt.global.linking.attribute.synch =
-  
-  ## (synchronous) points to elements that are synchronous with the current
-  ##       element.
-  attribute synch {
-    list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
-sga-patt.global.linking.attribute.sameAs =
-  
-  ## points to an element that is the same as the current
-  ##       element.
-  attribute sameAs { sga-pdata.pointer }?
-sga-patt.global.linking.attribute.copyOf =
-  
-  ## points to an element of which the current element is a
-  ##	copy.
-  attribute copyOf { sga-pdata.pointer }?
 sga-patt.global.linking.attribute.next =
   
   ## points to the next element of a virtual aggregate of which
@@ -3858,21 +3798,4 @@ sga-patt.global.linking.attribute.prev =
   ## (previous) points to the previous element of a virtual aggregate of
   ##       which the current element is part.
   attribute prev { sga-pdata.pointer }?
-sga-patt.global.linking.attribute.exclude =
-  
-  ## points to elements that are in exclusive alternation
-  ##       with the current element.
-  attribute exclude {
-    list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
-sga-patt.global.linking.attribute.select =
-  
-  ## selects one or more alternants; if one alternant is
-  ##       selected, the ambiguity or uncertainty is marked as resolved. If
-  ##       more than one alternant is selected, the degree of ambiguity or
-  ##       uncertainty is marked as reduced by the number of alternants not
-  ##       selected.
-  attribute select {
-    list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
 start = sga-psurface | sga-psurfaceGrp
