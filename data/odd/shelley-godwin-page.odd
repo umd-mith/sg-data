@@ -51,18 +51,11 @@
                 <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="surface surfaceGrp">
 
                     <moduleRef key="tei"/>
-                    
-                    <!-- non-conforming customization; not using headers so this is
-                        a hacky way exclude almost all elements while still 
-                        benefiting from schematron validation for the ODD-->
-                    <moduleRef key="header" include="teiheader"/>
-                    
                     <moduleRef key="core"
                         except="addrLine address analytic author biblScope biblStruct 
                         binaryObject divGen editor email gb imprint listBibl measure 
                         meeting mentioned monogr postBox postCode pubPlace publisher 
                         quote said series soCalled street teiCorpus textLang"/>
-                    
                     <moduleRef key="textstructure" except="TEI div1 div2 div3 div4 div5 div6 div7"/>
 
                     <!-- Additional modules -->
