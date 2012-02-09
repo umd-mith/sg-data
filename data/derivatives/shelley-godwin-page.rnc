@@ -5,7 +5,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-09T16:05:15Z. 
+# Schema generated from ODD source 2012-02-09T16:13:35Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -61,7 +61,6 @@ sga-pdata.outputMeasurement =
 sga-pdata.point =
   xsd:token { pattern = "(\-?[0-9]+\.?[0-9]*,\-?[0-9]+\.?[0-9]*)" }
 sga-pdata.pointer = xsd:anyURI
-sga-pdata.version = xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
 sga-pdata.key = xsd:string
 sga-pdata.word = xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
 sga-pdata.code = xsd:anyURI
@@ -1493,7 +1492,6 @@ sga-pmodel.limitedPhrase =
 sga-pmodel.divLike = sga-pdiv
 sga-pmodel.divGenLike = notAllowed
 sga-pmodel.div1Like = notAllowed
-sga-pmodel.resourceLike = sga-pfacsimile | sga-psourceDoc
 sga-pp =
   
   ## (paragraph) marks paragraphs in prose. [3.1.  7.2.5. ]
@@ -2856,7 +2854,23 @@ sga-psurface =
     sga-patt.global.linking.attributes,
     sga-patt.global.facs.attributes,
     sga-patt.global.change.attributes,
-    sga-patt.coordinated.attributes,
+    sga-patt.coordinated.attribute.start,
+    
+    ## gives the x coordinate value for the upper left corner of a
+    ## rectangular space.
+    attribute ulx { sga-pdata.numeric },
+    
+    ## gives the y coordinate value for the upper left corner of a
+    ## rectangular space.
+    attribute uly { sga-pdata.numeric },
+    
+    ## gives the x coordinate value for the lower right corner of a
+    ## rectangular space.
+    attribute lrx { sga-pdata.numeric },
+    
+    ## gives the y coordinate value for the lower right corner of a
+    ## rectangular space.
+    attribute lry { sga-pdata.numeric },
     sga-patt.declaring.attributes,
     sga-patt.typed.attributes,
     empty

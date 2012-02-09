@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-09T16:05:15Z. 
+Schema generated from ODD source 2012-02-09T16:13:35Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -133,11 +133,6 @@ Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
   </define>
   <define name="sga-pdata.pointer">
     <data type="anyURI"/>
-  </define>
-  <define name="sga-pdata.version">
-    <data type="token">
-      <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
-    </data>
   </define>
   <define name="sga-pdata.key">
     <data type="string"/>
@@ -3222,12 +3217,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.div1Like">
     <notAllowed/>
   </define>
-  <define name="sga-pmodel.resourceLike">
-    <choice>
-      <ref name="sga-pfacsimile"/>
-      <ref name="sga-psourceDoc"/>
-    </choice>
-  </define>
   <define name="sga-pp">
     <element name="p">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1.  7.2.5. ]</a:documentation>
@@ -5165,7 +5154,27 @@ that space, zones of interest within that space, and transcriptions of the
       <ref name="sga-patt.global.linking.attributes"/>
       <ref name="sga-patt.global.facs.attributes"/>
       <ref name="sga-patt.global.change.attributes"/>
-      <ref name="sga-patt.coordinated.attributes"/>
+      <ref name="sga-patt.coordinated.attribute.start"/>
+      <attribute name="ulx">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the x coordinate value for the upper left corner of a
+rectangular space.</a:documentation>
+        <ref name="sga-pdata.numeric"/>
+      </attribute>
+      <attribute name="uly">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the y coordinate value for the upper left corner of a
+rectangular space.</a:documentation>
+        <ref name="sga-pdata.numeric"/>
+      </attribute>
+      <attribute name="lrx">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the x coordinate value for the lower right corner of a
+rectangular space.</a:documentation>
+        <ref name="sga-pdata.numeric"/>
+      </attribute>
+      <attribute name="lry">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the y coordinate value for the lower right corner of a
+rectangular space.</a:documentation>
+        <ref name="sga-pdata.numeric"/>
+      </attribute>
       <ref name="sga-patt.declaring.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <empty/>
