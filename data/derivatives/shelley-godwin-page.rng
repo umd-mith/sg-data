@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-08T16:13:48Z. 
+Schema generated from ODD source 2012-02-09T13:43:20Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -121,16 +121,10 @@ Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
   <define name="sga-pdata.language">
     <data type="language"/>
   </define>
-  <define name="sga-pdata.namespace">
-    <data type="anyURI"/>
-  </define>
   <define name="sga-pdata.outputMeasurement">
     <data type="token">
       <param name="pattern">[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|gd|rem|vw|vh|vm)</param>
     </data>
-  </define>
-  <define name="sga-pdata.pattern">
-    <data type="token"/>
   </define>
   <define name="sga-pdata.point">
     <data type="token">
@@ -560,19 +554,6 @@ attribute and its content.</a:documentation>
       </attribute>
     </optional>
   </define>
-  <define name="sga-patt.docStatus.attributes">
-    <ref name="sga-patt.docStatus.attribute.status"/>
-  </define>
-  <define name="sga-patt.docStatus.attribute.status">
-    <optional>
-      <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="status" a:defaultValue="draft">
-        <a:documentation>describes the status of a document either currently or, when
-associated with a dated element, at the time indicated.
-Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn</a:documentation>
-        <ref name="sga-pdata.enumerated"/>
-      </attribute>
-    </optional>
-  </define>
   <define name="sga-patt.responsibility.attributes">
     <ref name="sga-patt.responsibility.attribute.cert"/>
     <ref name="sga-patt.responsibility.attribute.resp"/>
@@ -662,6 +643,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
     </optional>
   </define>
   <define name="sga-patt.global.attributes">
+    <ref name="sga-patt.global.linking.attributes"/>
     <ref name="sga-patt.global.facs.attributes"/>
     <ref name="sga-patt.global.change.attributes"/>
     <ref name="sga-patt.global.attribute.xmlid"/>
@@ -1084,6 +1066,78 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       </attribute>
     </optional>
   </define>
+  <define name="sga-patt.pointing.group.attributes">
+    <ref name="sga-patt.pointing.attributes"/>
+    <ref name="sga-patt.typed.attributes"/>
+    <ref name="sga-patt.pointing.group.attribute.domains"/>
+    <ref name="sga-patt.pointing.group.attribute.targFunc"/>
+  </define>
+  <define name="sga-patt.pointing.group.attribute.domains">
+    <optional>
+      <attribute name="domains">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">optionally specifies the identifiers of the elements
+      within which all elements indicated by the contents of this
+      element lie.</a:documentation>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.pointer"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.pointing.group.attribute.targFunc">
+    <optional>
+      <attribute name="targFunc">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(target function) describes the function of each of the values of the
+      target attribute of the enclosed link,
+      join, or alt tags.</a:documentation>
+        <list>
+          <ref name="sga-pdata.word"/>
+          <ref name="sga-pdata.word"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.word"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.segLike.attributes">
+    <ref name="sga-patt.segLike.attribute.function"/>
+    <ref name="sga-patt.segLike.attribute.part"/>
+  </define>
+  <define name="sga-patt.segLike.attribute.function">
+    <optional>
+      <attribute name="function">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the function of the segment.</a:documentation>
+        <ref name="sga-pdata.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.segLike.attribute.part">
+    <optional>
+      <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="part" a:defaultValue="N">
+        <a:documentation>specifies whether or not the segment is fragmented by some other
+structural element, for example a clause which is divided between two
+or more sentences.</a:documentation>
+        <choice>
+          <value>Y</value>
+          <a:documentation>(yes) the segment is incomplete in some respect</a:documentation>
+          <value>N</value>
+          <a:documentation>(no) either the segment is complete, or no claim is made as to
+its completeness</a:documentation>
+          <value>I</value>
+          <a:documentation>(initial) the initial part of an incomplete segment</a:documentation>
+          <value>M</value>
+          <a:documentation>(medial) a medial part of an incomplete segment</a:documentation>
+          <value>F</value>
+          <a:documentation>(final) the final part of an incomplete segment</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
   <define name="sga-patt.sortable.attributes">
     <ref name="sga-patt.sortable.attribute.sortKey"/>
   </define>
@@ -1217,22 +1271,32 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
   </define>
   <define name="sga-pmodel.segLike">
-    <notAllowed/>
+    <choice>
+      <ref name="sga-pseg"/>
+    </choice>
   </define>
   <define name="sga-pmodel.segLike_alternation">
-    <notAllowed/>
+    <choice>
+      <ref name="sga-pseg"/>
+    </choice>
   </define>
   <define name="sga-pmodel.segLike_sequence">
-    <empty/>
+    <ref name="sga-pseg"/>
   </define>
   <define name="sga-pmodel.segLike_sequenceOptional">
-    <empty/>
+    <optional>
+      <ref name="sga-pseg"/>
+    </optional>
   </define>
   <define name="sga-pmodel.segLike_sequenceOptionalRepeatable">
-    <empty/>
+    <zeroOrMore>
+      <ref name="sga-pseg"/>
+    </zeroOrMore>
   </define>
   <define name="sga-pmodel.segLike_sequenceRepeatable">
-    <notAllowed/>
+    <oneOrMore>
+      <ref name="sga-pseg"/>
+    </oneOrMore>
   </define>
   <define name="sga-pmodel.hiLike">
     <choice>
@@ -1267,8 +1331,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pforeign"/>
       <ref name="sga-pemph"/>
       <ref name="sga-pdistinct"/>
-      <ref name="sga-pmentioned"/>
-      <ref name="sga-psoCalled"/>
       <ref name="sga-pgloss"/>
       <ref name="sga-pterm"/>
       <ref name="sga-ptitle"/>
@@ -1279,8 +1341,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pforeign"/>
       <ref name="sga-pemph"/>
       <ref name="sga-pdistinct"/>
-      <ref name="sga-pmentioned"/>
-      <ref name="sga-psoCalled"/>
       <ref name="sga-pgloss"/>
       <ref name="sga-pterm"/>
       <ref name="sga-ptitle"/>
@@ -1290,8 +1350,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <ref name="sga-pforeign"/>
     <ref name="sga-pemph"/>
     <ref name="sga-pdistinct"/>
-    <ref name="sga-pmentioned"/>
-    <ref name="sga-psoCalled"/>
     <ref name="sga-pgloss"/>
     <ref name="sga-pterm"/>
     <ref name="sga-ptitle"/>
@@ -1305,12 +1363,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga-pdistinct"/>
-    </optional>
-    <optional>
-      <ref name="sga-pmentioned"/>
-    </optional>
-    <optional>
-      <ref name="sga-psoCalled"/>
     </optional>
     <optional>
       <ref name="sga-pgloss"/>
@@ -1333,12 +1385,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pdistinct"/>
     </zeroOrMore>
     <zeroOrMore>
-      <ref name="sga-pmentioned"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-psoCalled"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pgloss"/>
     </zeroOrMore>
     <zeroOrMore>
@@ -1357,12 +1403,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sga-pdistinct"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pmentioned"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-psoCalled"/>
     </oneOrMore>
     <oneOrMore>
       <ref name="sga-pgloss"/>
@@ -1457,28 +1497,22 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.measureLike">
     <choice>
       <ref name="sga-pnum"/>
-      <ref name="sga-pmeasure"/>
       <ref name="sga-pmeasureGrp"/>
     </choice>
   </define>
   <define name="sga-pmodel.measureLike_alternation">
     <choice>
       <ref name="sga-pnum"/>
-      <ref name="sga-pmeasure"/>
       <ref name="sga-pmeasureGrp"/>
     </choice>
   </define>
   <define name="sga-pmodel.measureLike_sequence">
     <ref name="sga-pnum"/>
-    <ref name="sga-pmeasure"/>
     <ref name="sga-pmeasureGrp"/>
   </define>
   <define name="sga-pmodel.measureLike_sequenceOptional">
     <optional>
       <ref name="sga-pnum"/>
-    </optional>
-    <optional>
-      <ref name="sga-pmeasure"/>
     </optional>
     <optional>
       <ref name="sga-pmeasureGrp"/>
@@ -1489,18 +1523,12 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pnum"/>
     </zeroOrMore>
     <zeroOrMore>
-      <ref name="sga-pmeasure"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pmeasureGrp"/>
     </zeroOrMore>
   </define>
   <define name="sga-pmodel.measureLike_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga-pnum"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pmeasure"/>
     </oneOrMore>
     <oneOrMore>
       <ref name="sga-pmeasureGrp"/>
@@ -1527,41 +1555,29 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.graphicLike">
     <choice>
       <ref name="sga-pgraphic"/>
-      <ref name="sga-pbinaryObject"/>
     </choice>
   </define>
   <define name="sga-pmodel.graphicLike_alternation">
     <choice>
       <ref name="sga-pgraphic"/>
-      <ref name="sga-pbinaryObject"/>
     </choice>
   </define>
   <define name="sga-pmodel.graphicLike_sequence">
     <ref name="sga-pgraphic"/>
-    <ref name="sga-pbinaryObject"/>
   </define>
   <define name="sga-pmodel.graphicLike_sequenceOptional">
     <optional>
       <ref name="sga-pgraphic"/>
-    </optional>
-    <optional>
-      <ref name="sga-pbinaryObject"/>
     </optional>
   </define>
   <define name="sga-pmodel.graphicLike_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga-pgraphic"/>
     </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pbinaryObject"/>
-    </zeroOrMore>
   </define>
   <define name="sga-pmodel.graphicLike_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga-pgraphic"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pbinaryObject"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.pPart.editorial">
@@ -1955,6 +1971,13 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pindex"/>
       <ref name="sga-psubstJoin"/>
       <ref name="sga-plistTranspose"/>
+      <ref name="sga-plink"/>
+      <ref name="sga-plinkGrp"/>
+      <ref name="sga-ptimeline"/>
+      <ref name="sga-pjoin"/>
+      <ref name="sga-pjoinGrp"/>
+      <ref name="sga-palt"/>
+      <ref name="sga-paltGrp"/>
     </choice>
   </define>
   <define name="sga-pmodel.global.meta_alternation">
@@ -1962,12 +1985,26 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pindex"/>
       <ref name="sga-psubstJoin"/>
       <ref name="sga-plistTranspose"/>
+      <ref name="sga-plink"/>
+      <ref name="sga-plinkGrp"/>
+      <ref name="sga-ptimeline"/>
+      <ref name="sga-pjoin"/>
+      <ref name="sga-pjoinGrp"/>
+      <ref name="sga-palt"/>
+      <ref name="sga-paltGrp"/>
     </choice>
   </define>
   <define name="sga-pmodel.global.meta_sequence">
     <ref name="sga-pindex"/>
     <ref name="sga-psubstJoin"/>
     <ref name="sga-plistTranspose"/>
+    <ref name="sga-plink"/>
+    <ref name="sga-plinkGrp"/>
+    <ref name="sga-ptimeline"/>
+    <ref name="sga-pjoin"/>
+    <ref name="sga-pjoinGrp"/>
+    <ref name="sga-palt"/>
+    <ref name="sga-paltGrp"/>
   </define>
   <define name="sga-pmodel.global.meta_sequenceOptional">
     <optional>
@@ -1978,6 +2015,27 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga-plistTranspose"/>
+    </optional>
+    <optional>
+      <ref name="sga-plink"/>
+    </optional>
+    <optional>
+      <ref name="sga-plinkGrp"/>
+    </optional>
+    <optional>
+      <ref name="sga-ptimeline"/>
+    </optional>
+    <optional>
+      <ref name="sga-pjoin"/>
+    </optional>
+    <optional>
+      <ref name="sga-pjoinGrp"/>
+    </optional>
+    <optional>
+      <ref name="sga-palt"/>
+    </optional>
+    <optional>
+      <ref name="sga-paltGrp"/>
     </optional>
   </define>
   <define name="sga-pmodel.global.meta_sequenceOptionalRepeatable">
@@ -1990,6 +2048,27 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <zeroOrMore>
       <ref name="sga-plistTranspose"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-plink"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-plinkGrp"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-ptimeline"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-pjoin"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-pjoinGrp"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-palt"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-paltGrp"/>
+    </zeroOrMore>
   </define>
   <define name="sga-pmodel.global.meta_sequenceRepeatable">
     <oneOrMore>
@@ -2001,43 +2080,61 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <oneOrMore>
       <ref name="sga-plistTranspose"/>
     </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-plink"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-plinkGrp"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-ptimeline"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-pjoin"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-pjoinGrp"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-palt"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-paltGrp"/>
+    </oneOrMore>
   </define>
   <define name="sga-pmodel.milestoneLike">
     <choice>
       <ref name="sga-pmilestone"/>
-      <ref name="sga-pgb"/>
       <ref name="sga-ppb"/>
       <ref name="sga-plb"/>
       <ref name="sga-pcb"/>
       <ref name="sga-pfw"/>
+      <ref name="sga-panchor"/>
     </choice>
   </define>
   <define name="sga-pmodel.milestoneLike_alternation">
     <choice>
       <ref name="sga-pmilestone"/>
-      <ref name="sga-pgb"/>
       <ref name="sga-ppb"/>
       <ref name="sga-plb"/>
       <ref name="sga-pcb"/>
       <ref name="sga-pfw"/>
+      <ref name="sga-panchor"/>
     </choice>
   </define>
   <define name="sga-pmodel.milestoneLike_sequence">
     <ref name="sga-pmilestone"/>
-    <ref name="sga-pgb"/>
     <ref name="sga-ppb"/>
     <ref name="sga-plb"/>
     <ref name="sga-pcb"/>
     <ref name="sga-pfw"/>
+    <ref name="sga-panchor"/>
   </define>
   <define name="sga-pmodel.milestoneLike_sequenceOptional">
     <optional>
       <ref name="sga-pmilestone"/>
     </optional>
     <optional>
-      <ref name="sga-pgb"/>
-    </optional>
-    <optional>
       <ref name="sga-ppb"/>
     </optional>
     <optional>
@@ -2048,6 +2145,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga-pfw"/>
+    </optional>
+    <optional>
+      <ref name="sga-panchor"/>
     </optional>
   </define>
   <define name="sga-pmodel.milestoneLike_sequenceOptionalRepeatable">
@@ -2055,9 +2155,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pmilestone"/>
     </zeroOrMore>
     <zeroOrMore>
-      <ref name="sga-pgb"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-ppb"/>
     </zeroOrMore>
     <zeroOrMore>
@@ -2068,6 +2165,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </zeroOrMore>
     <zeroOrMore>
       <ref name="sga-pfw"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-panchor"/>
     </zeroOrMore>
   </define>
   <define name="sga-pmodel.milestoneLike_sequenceRepeatable">
@@ -2075,9 +2175,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pmilestone"/>
     </oneOrMore>
     <oneOrMore>
-      <ref name="sga-pgb"/>
-    </oneOrMore>
-    <oneOrMore>
       <ref name="sga-ppb"/>
     </oneOrMore>
     <oneOrMore>
@@ -2088,6 +2185,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sga-pfw"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-panchor"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.gLike">
@@ -2096,53 +2196,29 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.biblLike">
     <choice>
       <ref name="sga-pbibl"/>
-      <ref name="sga-pbiblStruct"/>
-      <ref name="sga-pbiblFull"/>
     </choice>
   </define>
   <define name="sga-pmodel.biblLike_alternation">
     <choice>
       <ref name="sga-pbibl"/>
-      <ref name="sga-pbiblStruct"/>
-      <ref name="sga-pbiblFull"/>
     </choice>
   </define>
   <define name="sga-pmodel.biblLike_sequence">
     <ref name="sga-pbibl"/>
-    <ref name="sga-pbiblStruct"/>
-    <ref name="sga-pbiblFull"/>
   </define>
   <define name="sga-pmodel.biblLike_sequenceOptional">
     <optional>
       <ref name="sga-pbibl"/>
-    </optional>
-    <optional>
-      <ref name="sga-pbiblStruct"/>
-    </optional>
-    <optional>
-      <ref name="sga-pbiblFull"/>
     </optional>
   </define>
   <define name="sga-pmodel.biblLike_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga-pbibl"/>
     </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pbiblStruct"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pbiblFull"/>
-    </zeroOrMore>
   </define>
   <define name="sga-pmodel.biblLike_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga-pbibl"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pbiblStruct"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pbiblFull"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.headLike">
@@ -2216,41 +2292,29 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.listLike">
     <choice>
       <ref name="sga-plist"/>
-      <ref name="sga-plistBibl"/>
     </choice>
   </define>
   <define name="sga-pmodel.listLike_alternation">
     <choice>
       <ref name="sga-plist"/>
-      <ref name="sga-plistBibl"/>
     </choice>
   </define>
   <define name="sga-pmodel.listLike_sequence">
     <ref name="sga-plist"/>
-    <ref name="sga-plistBibl"/>
   </define>
   <define name="sga-pmodel.listLike_sequenceOptional">
     <optional>
       <ref name="sga-plist"/>
-    </optional>
-    <optional>
-      <ref name="sga-plistBibl"/>
     </optional>
   </define>
   <define name="sga-pmodel.listLike_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga-plist"/>
     </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-plistBibl"/>
-    </zeroOrMore>
   </define>
   <define name="sga-pmodel.listLike_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga-plist"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-plistBibl"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.noteLike">
@@ -2312,29 +2376,41 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.pLike">
     <choice>
       <ref name="sga-pp"/>
+      <ref name="sga-pab"/>
     </choice>
   </define>
   <define name="sga-pmodel.pLike_alternation">
     <choice>
       <ref name="sga-pp"/>
+      <ref name="sga-pab"/>
     </choice>
   </define>
   <define name="sga-pmodel.pLike_sequence">
     <ref name="sga-pp"/>
+    <ref name="sga-pab"/>
   </define>
   <define name="sga-pmodel.pLike_sequenceOptional">
     <optional>
       <ref name="sga-pp"/>
+    </optional>
+    <optional>
+      <ref name="sga-pab"/>
     </optional>
   </define>
   <define name="sga-pmodel.pLike_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga-pp"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-pab"/>
+    </zeroOrMore>
   </define>
   <define name="sga-pmodel.pLike_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga-pp"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-pab"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.stageLike">
@@ -2508,24 +2584,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-psp"/>
     </oneOrMore>
   </define>
-  <define name="sga-pmodel.publicationStmtPart">
-    <choice>
-      <ref name="sga-paddress"/>
-      <ref name="sga-pdate"/>
-      <ref name="sga-ppublisher"/>
-      <ref name="sga-ppubPlace"/>
-      <ref name="sga-pdistributor"/>
-      <ref name="sga-pauthority"/>
-      <ref name="sga-pidno"/>
-      <ref name="sga-pavailability"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.availabilityPart">
-    <choice>
-      <ref name="sga-pp"/>
-      <ref name="sga-plicence"/>
-    </choice>
-  </define>
   <define name="sga-pmodel.glossLike">
     <choice>
       <ref name="sga-pdesc"/>
@@ -2534,40 +2592,28 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga-pmodel.quoteLike">
     <choice>
-      <ref name="sga-pquote"/>
       <ref name="sga-pcit"/>
     </choice>
   </define>
   <define name="sga-pmodel.quoteLike_alternation">
     <choice>
-      <ref name="sga-pquote"/>
       <ref name="sga-pcit"/>
     </choice>
   </define>
   <define name="sga-pmodel.quoteLike_sequence">
-    <ref name="sga-pquote"/>
     <ref name="sga-pcit"/>
   </define>
   <define name="sga-pmodel.quoteLike_sequenceOptional">
-    <optional>
-      <ref name="sga-pquote"/>
-    </optional>
     <optional>
       <ref name="sga-pcit"/>
     </optional>
   </define>
   <define name="sga-pmodel.quoteLike_sequenceOptionalRepeatable">
     <zeroOrMore>
-      <ref name="sga-pquote"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pcit"/>
     </zeroOrMore>
   </define>
   <define name="sga-pmodel.quoteLike_sequenceRepeatable">
-    <oneOrMore>
-      <ref name="sga-pquote"/>
-    </oneOrMore>
     <oneOrMore>
       <ref name="sga-pcit"/>
     </oneOrMore>
@@ -2575,7 +2621,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.qLike">
     <choice>
       <ref name="sga-pmodel.quoteLike"/>
-      <ref name="sga-psaid"/>
       <ref name="sga-pq"/>
       <ref name="sga-pfloatingText"/>
     </choice>
@@ -2583,23 +2628,18 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.qLike_alternation">
     <choice>
       <ref name="sga-pmodel.quoteLike_alternation"/>
-      <ref name="sga-psaid"/>
       <ref name="sga-pq"/>
       <ref name="sga-pfloatingText"/>
     </choice>
   </define>
   <define name="sga-pmodel.qLike_sequence">
     <ref name="sga-pmodel.quoteLike_sequence"/>
-    <ref name="sga-psaid"/>
     <ref name="sga-pq"/>
     <ref name="sga-pfloatingText"/>
   </define>
   <define name="sga-pmodel.qLike_sequenceOptional">
     <optional>
       <ref name="sga-pmodel.quoteLike_sequenceOptional"/>
-    </optional>
-    <optional>
-      <ref name="sga-psaid"/>
     </optional>
     <optional>
       <ref name="sga-pq"/>
@@ -2613,9 +2653,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pmodel.quoteLike_sequenceOptionalRepeatable"/>
     </zeroOrMore>
     <zeroOrMore>
-      <ref name="sga-psaid"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pq"/>
     </zeroOrMore>
     <zeroOrMore>
@@ -2627,9 +2664,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pmodel.quoteLike_sequenceRepeatable"/>
     </oneOrMore>
     <oneOrMore>
-      <ref name="sga-psaid"/>
-    </oneOrMore>
-    <oneOrMore>
       <ref name="sga-pq"/>
     </oneOrMore>
     <oneOrMore>
@@ -2638,107 +2672,34 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga-pmodel.respLike">
     <choice>
-      <ref name="sga-pauthor"/>
-      <ref name="sga-peditor"/>
       <ref name="sga-prespStmt"/>
-      <ref name="sga-pmeeting"/>
-      <ref name="sga-psponsor"/>
-      <ref name="sga-pfunder"/>
-      <ref name="sga-pprincipal"/>
     </choice>
   </define>
   <define name="sga-pmodel.respLike_alternation">
     <choice>
-      <ref name="sga-pauthor"/>
-      <ref name="sga-peditor"/>
       <ref name="sga-prespStmt"/>
-      <ref name="sga-pmeeting"/>
-      <ref name="sga-psponsor"/>
-      <ref name="sga-pfunder"/>
-      <ref name="sga-pprincipal"/>
     </choice>
   </define>
   <define name="sga-pmodel.respLike_sequence">
-    <ref name="sga-pauthor"/>
-    <ref name="sga-peditor"/>
     <ref name="sga-prespStmt"/>
-    <ref name="sga-pmeeting"/>
-    <ref name="sga-psponsor"/>
-    <ref name="sga-pfunder"/>
-    <ref name="sga-pprincipal"/>
   </define>
   <define name="sga-pmodel.respLike_sequenceOptional">
     <optional>
-      <ref name="sga-pauthor"/>
-    </optional>
-    <optional>
-      <ref name="sga-peditor"/>
-    </optional>
-    <optional>
       <ref name="sga-prespStmt"/>
-    </optional>
-    <optional>
-      <ref name="sga-pmeeting"/>
-    </optional>
-    <optional>
-      <ref name="sga-psponsor"/>
-    </optional>
-    <optional>
-      <ref name="sga-pfunder"/>
-    </optional>
-    <optional>
-      <ref name="sga-pprincipal"/>
     </optional>
   </define>
   <define name="sga-pmodel.respLike_sequenceOptionalRepeatable">
     <zeroOrMore>
-      <ref name="sga-pauthor"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-peditor"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-prespStmt"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pmeeting"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-psponsor"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pfunder"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pprincipal"/>
     </zeroOrMore>
   </define>
   <define name="sga-pmodel.respLike_sequenceRepeatable">
     <oneOrMore>
-      <ref name="sga-pauthor"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-peditor"/>
-    </oneOrMore>
-    <oneOrMore>
       <ref name="sga-prespStmt"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pmeeting"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-psponsor"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pfunder"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pprincipal"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.divWrapper">
     <choice>
-      <ref name="sga-pmeeting"/>
       <ref name="sga-pbyline"/>
       <ref name="sga-pdateline"/>
       <ref name="sga-pargument"/>
@@ -2750,7 +2711,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga-pmodel.divWrapper_alternation">
     <choice>
-      <ref name="sga-pmeeting"/>
       <ref name="sga-pbyline"/>
       <ref name="sga-pdateline"/>
       <ref name="sga-pargument"/>
@@ -2761,7 +2721,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </choice>
   </define>
   <define name="sga-pmodel.divWrapper_sequence">
-    <ref name="sga-pmeeting"/>
     <ref name="sga-pbyline"/>
     <ref name="sga-pdateline"/>
     <ref name="sga-pargument"/>
@@ -2771,9 +2730,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <ref name="sga-pdocDate"/>
   </define>
   <define name="sga-pmodel.divWrapper_sequenceOptional">
-    <optional>
-      <ref name="sga-pmeeting"/>
-    </optional>
     <optional>
       <ref name="sga-pbyline"/>
     </optional>
@@ -2798,9 +2754,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga-pmodel.divWrapper_sequenceOptionalRepeatable">
     <zeroOrMore>
-      <ref name="sga-pmeeting"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pbyline"/>
     </zeroOrMore>
     <zeroOrMore>
@@ -2823,9 +2776,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </zeroOrMore>
   </define>
   <define name="sga-pmodel.divWrapper_sequenceRepeatable">
-    <oneOrMore>
-      <ref name="sga-pmeeting"/>
-    </oneOrMore>
     <oneOrMore>
       <ref name="sga-pbyline"/>
     </oneOrMore>
@@ -2981,7 +2931,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.titlepagePart">
     <choice>
       <ref name="sga-pgraphic"/>
-      <ref name="sga-pbinaryObject"/>
       <ref name="sga-pbyline"/>
       <ref name="sga-pargument"/>
       <ref name="sga-pepigraph"/>
@@ -3033,133 +2982,24 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pexpan"/>
       <ref name="sga-pex"/>
       <ref name="sga-pam"/>
+      <ref name="sga-pseg"/>
     </choice>
-  </define>
-  <define name="sga-pmodel.imprintPart">
-    <choice>
-      <ref name="sga-ppublisher"/>
-      <ref name="sga-pbiblScope"/>
-      <ref name="sga-ppubPlace"/>
-      <ref name="sga-pdistributor"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.imprintPart_alternation">
-    <choice>
-      <ref name="sga-ppublisher"/>
-      <ref name="sga-pbiblScope"/>
-      <ref name="sga-ppubPlace"/>
-      <ref name="sga-pdistributor"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.imprintPart_sequence">
-    <ref name="sga-ppublisher"/>
-    <ref name="sga-pbiblScope"/>
-    <ref name="sga-ppubPlace"/>
-    <ref name="sga-pdistributor"/>
-  </define>
-  <define name="sga-pmodel.imprintPart_sequenceOptional">
-    <optional>
-      <ref name="sga-ppublisher"/>
-    </optional>
-    <optional>
-      <ref name="sga-pbiblScope"/>
-    </optional>
-    <optional>
-      <ref name="sga-ppubPlace"/>
-    </optional>
-    <optional>
-      <ref name="sga-pdistributor"/>
-    </optional>
-  </define>
-  <define name="sga-pmodel.imprintPart_sequenceOptionalRepeatable">
-    <zeroOrMore>
-      <ref name="sga-ppublisher"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pbiblScope"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-ppubPlace"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pdistributor"/>
-    </zeroOrMore>
-  </define>
-  <define name="sga-pmodel.imprintPart_sequenceRepeatable">
-    <oneOrMore>
-      <ref name="sga-ppublisher"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pbiblScope"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-ppubPlace"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pdistributor"/>
-    </oneOrMore>
-  </define>
-  <define name="sga-pmodel.catDescPart">
-    <notAllowed/>
-  </define>
-  <define name="sga-pmodel.addressLike">
-    <choice>
-      <ref name="sga-pemail"/>
-      <ref name="sga-paddress"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.addressLike_alternation">
-    <choice>
-      <ref name="sga-pemail"/>
-      <ref name="sga-paddress"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.addressLike_sequence">
-    <ref name="sga-pemail"/>
-    <ref name="sga-paddress"/>
-  </define>
-  <define name="sga-pmodel.addressLike_sequenceOptional">
-    <optional>
-      <ref name="sga-pemail"/>
-    </optional>
-    <optional>
-      <ref name="sga-paddress"/>
-    </optional>
-  </define>
-  <define name="sga-pmodel.addressLike_sequenceOptionalRepeatable">
-    <zeroOrMore>
-      <ref name="sga-pemail"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-paddress"/>
-    </zeroOrMore>
-  </define>
-  <define name="sga-pmodel.addressLike_sequenceRepeatable">
-    <oneOrMore>
-      <ref name="sga-pemail"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-paddress"/>
-    </oneOrMore>
   </define>
   <define name="sga-pmodel.nameLike">
     <choice>
       <ref name="sga-pmodel.nameLike.agent"/>
       <ref name="sga-prs"/>
-      <ref name="sga-pidno"/>
     </choice>
   </define>
   <define name="sga-pmodel.nameLike_alternation">
     <choice>
       <ref name="sga-pmodel.nameLike.agent_alternation"/>
       <ref name="sga-prs"/>
-      <ref name="sga-pidno"/>
     </choice>
   </define>
   <define name="sga-pmodel.nameLike_sequence">
     <ref name="sga-pmodel.nameLike.agent_sequence"/>
     <ref name="sga-prs"/>
-    <ref name="sga-pidno"/>
   </define>
   <define name="sga-pmodel.nameLike_sequenceOptional">
     <optional>
@@ -3167,9 +3007,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga-prs"/>
-    </optional>
-    <optional>
-      <ref name="sga-pidno"/>
     </optional>
   </define>
   <define name="sga-pmodel.nameLike_sequenceOptionalRepeatable">
@@ -3179,9 +3016,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <zeroOrMore>
       <ref name="sga-prs"/>
     </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pidno"/>
-    </zeroOrMore>
   </define>
   <define name="sga-pmodel.nameLike_sequenceRepeatable">
     <oneOrMore>
@@ -3189,9 +3023,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sga-prs"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pidno"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.global">
@@ -3206,35 +3037,19 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.biblPart">
     <choice>
       <ref name="sga-pmodel.respLike"/>
-      <ref name="sga-pmodel.imprintPart"/>
-      <ref name="sga-pseries"/>
       <ref name="sga-pbibl"/>
       <ref name="sga-prelatedItem"/>
-      <ref name="sga-ptextLang"/>
-      <ref name="sga-pedition"/>
-      <ref name="sga-pextent"/>
     </choice>
   </define>
   <define name="sga-pmodel.frontPart">
     <choice>
-      <ref name="sga-pdivGen"/>
       <ref name="sga-ptitlePage"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.addrPart">
-    <choice>
-      <ref name="sga-pmodel.nameLike"/>
-      <ref name="sga-paddrLine"/>
-      <ref name="sga-pstreet"/>
-      <ref name="sga-ppostCode"/>
-      <ref name="sga-ppostBox"/>
     </choice>
   </define>
   <define name="sga-pmodel.pPart.data">
     <choice>
       <ref name="sga-pmodel.dateLike"/>
       <ref name="sga-pmodel.measureLike"/>
-      <ref name="sga-pmodel.addressLike"/>
       <ref name="sga-pmodel.nameLike"/>
     </choice>
   </define>
@@ -3242,14 +3057,12 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <choice>
       <ref name="sga-pmodel.dateLike_alternation"/>
       <ref name="sga-pmodel.measureLike_alternation"/>
-      <ref name="sga-pmodel.addressLike_alternation"/>
       <ref name="sga-pmodel.nameLike_alternation"/>
     </choice>
   </define>
   <define name="sga-pmodel.pPart.data_sequence">
     <ref name="sga-pmodel.dateLike_sequence"/>
     <ref name="sga-pmodel.measureLike_sequence"/>
-    <ref name="sga-pmodel.addressLike_sequence"/>
     <ref name="sga-pmodel.nameLike_sequence"/>
   </define>
   <define name="sga-pmodel.pPart.data_sequenceOptional">
@@ -3258,9 +3071,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga-pmodel.measureLike_sequenceOptional"/>
-    </optional>
-    <optional>
-      <ref name="sga-pmodel.addressLike_sequenceOptional"/>
     </optional>
     <optional>
       <ref name="sga-pmodel.nameLike_sequenceOptional"/>
@@ -3274,9 +3084,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-pmodel.measureLike_sequenceOptionalRepeatable"/>
     </zeroOrMore>
     <zeroOrMore>
-      <ref name="sga-pmodel.addressLike_sequenceOptionalRepeatable"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pmodel.nameLike_sequenceOptionalRepeatable"/>
     </zeroOrMore>
   </define>
@@ -3286,9 +3093,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sga-pmodel.measureLike_sequenceRepeatable"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pmodel.addressLike_sequenceRepeatable"/>
     </oneOrMore>
     <oneOrMore>
       <ref name="sga-pmodel.nameLike_sequenceRepeatable"/>
@@ -3413,91 +3217,10 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </choice>
   </define>
   <define name="sga-pmodel.divGenLike">
-    <choice>
-      <ref name="sga-pdivGen"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.div1Like">
-    <choice>
-      <ref name="sga-pdiv1"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.div2Like">
-    <choice>
-      <ref name="sga-pdiv2"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.div3Like">
-    <choice>
-      <ref name="sga-pdiv3"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.div4Like">
-    <choice>
-      <ref name="sga-pdiv4"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.div5Like">
-    <choice>
-      <ref name="sga-pdiv5"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.div6Like">
-    <choice>
-      <ref name="sga-pdiv6"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.div7Like">
-    <choice>
-      <ref name="sga-pdiv7"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.applicationLike">
-    <choice>
-      <ref name="sga-papplication"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.teiHeaderPart">
-    <choice>
-      <ref name="sga-pencodingDesc"/>
-      <ref name="sga-pprofileDesc"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.sourceDescPart">
     <notAllowed/>
   </define>
-  <define name="sga-pmodel.encodingDescPart">
-    <choice>
-      <ref name="sga-pprojectDesc"/>
-      <ref name="sga-psamplingDecl"/>
-      <ref name="sga-peditorialDecl"/>
-      <ref name="sga-ptagsDecl"/>
-      <ref name="sga-prefsDecl"/>
-      <ref name="sga-pclassDecl"/>
-      <ref name="sga-pappInfo"/>
-      <ref name="sga-pgeoDecl"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.editorialDeclPart">
-    <choice>
-      <ref name="sga-pcorrection"/>
-      <ref name="sga-pnormalization"/>
-      <ref name="sga-pquotation"/>
-      <ref name="sga-phyphenation"/>
-      <ref name="sga-psegmentation"/>
-      <ref name="sga-pstdVals"/>
-      <ref name="sga-pinterpretation"/>
-    </choice>
-  </define>
-  <define name="sga-pmodel.profileDescPart">
-    <choice>
-      <ref name="sga-pcreation"/>
-      <ref name="sga-plangUsage"/>
-      <ref name="sga-ptextClass"/>
-      <ref name="sga-pcalendarDesc"/>
-      <ref name="sga-phandNotes"/>
-      <ref name="sga-plistTranspose"/>
-    </choice>
+  <define name="sga-pmodel.div1Like">
+    <notAllowed/>
   </define>
   <define name="sga-pmodel.resourceLike">
     <choice>
@@ -3576,40 +3299,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <empty/>
     </element>
   </define>
-  <define name="sga-psaid">
-    <element name="said">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or
-    not, whether directly or indirectly reported, whether by real people or fictional characters. [3.3.3. ]</a:documentation>
-      <ref name="sga-pmacro.specialPara"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.ascribed.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="aloud" a:defaultValue="unknown">
-          <a:documentation>may be used to indicate whether the quoted matter is regarded as having been vocalized
-        or signed.</a:documentation>
-          <ref name="sga-pdata.xTruthValue"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="direct" a:defaultValue="true">
-          <a:documentation>may be used to indicate whether the quoted matter is regarded as direct or indirect
-        speech.</a:documentation>
-          <ref name="sga-pdata.xTruthValue"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pquote">
-    <element name="quote">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(quotation) contains a phrase or passage attributed by the narrator or author to some agency external
-        to the text. [3.3.3.  4.3.1. ]</a:documentation>
-      <ref name="sga-pmacro.specialPara"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-pq">
     <element name="q">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(separated from the surrounding text with quotation marks) contains material which is marked as (ostensibly) being somehow different than the
@@ -3667,23 +3356,6 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
       </oneOrMore>
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pmentioned">
-    <element name="mentioned">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks words or phrases mentioned, not used. [3.3.4. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-psoCalled">
-    <element name="soCalled">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a word or phrase for which the author or narrator indicates a disclaiming of
-    responsibility, for example by the use of scare quotes or italics. [3.3.3. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
       <empty/>
     </element>
   </define>
@@ -3917,73 +3589,6 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <empty/>
     </element>
   </define>
-  <define name="sga-pemail">
-    <element name="email">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(electronic mail address) contains an e-mail address identifying a location to which
-        e-mail messages can be delivered.
-     [3.5.2. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-paddress">
-    <element name="address">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a postal  address, for example of a
-        publisher, an organization, or an individual. [3.5.2.  2.2.4.  3.11.2.3. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <ref name="sga-pmodel.global"/>
-        </zeroOrMore>
-        <oneOrMore>
-          <group>
-            <ref name="sga-pmodel.addrPart"/>
-          </group>
-          <zeroOrMore>
-            <ref name="sga-pmodel.global"/>
-          </zeroOrMore>
-        </oneOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-paddrLine">
-    <element name="addrLine">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(address line) contains one line of a postal address. [3.5.2.  2.2.4.  3.11.2.3. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pstreet">
-    <element name="street">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a full street address including any name or number identifying a
-        building as well as the name of the street or route on which it is
-        located. [3.5.2. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ppostCode">
-    <element name="postCode">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(postal code) contains a numerical or alphanumeric code used as part of a postal address to simplify
-        sorting or delivery of mail.  [3.5.2. ]</a:documentation>
-      <text/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ppostBox">
-    <element name="postBox">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(postal box or post office box) contains a number or other identifier for some postal delivery point other than a street
-    address.  [3.5.2. ]</a:documentation>
-      <text/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-pnum">
     <element name="num">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) contains a number, written in any form. [3.5.3. ]</a:documentation>
@@ -4011,22 +3616,6 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
         <attribute name="value">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the number in standard form.</a:documentation>
           <ref name="sga-pdata.numeric"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pmeasure">
-    <element name="measure">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a word or phrase referring to some quantity of an object or commodity, usually
-        comprising a number, a unit, and a commodity name. [3.5.3. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.measurement.attributes"/>
-      <optional>
-        <attribute name="type">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the type of measurement in any convenient typology.</a:documentation>
-          <ref name="sga-pdata.enumerated"/>
         </attribute>
       </optional>
       <empty/>
@@ -4387,45 +3976,6 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
       <empty/>
     </element>
   </define>
-  <define name="sga-pbinaryObject">
-    <element name="binaryObject">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides encoded binary data representing an inline graphic or other object.</a:documentation>
-      <text/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.internetMedia.attributes"/>
-      <optional>
-        <attribute name="width">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The display width of the object</a:documentation>
-          <ref name="sga-pdata.outputMeasurement"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="height">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The display height of the object</a:documentation>
-          <ref name="sga-pdata.outputMeasurement"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="scale">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A scale factor to be applied to the object to make it the desired display size</a:documentation>
-          <ref name="sga-pdata.numeric"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="encoding">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The encoding used to encode the binary data. If not specified, this is assumed to be
-          Base64.</a:documentation>
-          <list>
-            <ref name="sga-pdata.word"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.word"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-pmilestone">
     <element name="milestone">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks a boundary point separating any kind of section of a text, typically but not
@@ -4473,18 +4023,6 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
       <empty/>
     </element>
   </define>
-  <define name="sga-pgb">
-    <element name="gb">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (gathering begins) marks the point in a transcribed codex at which a new
-  gathering or quire begins. [3.10.3. ]</a:documentation>
-      <empty/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.spanning.attributes"/>
-      <ref name="sga-patt.breaking.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-ppb">
     <element name="pb">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page break) marks the boundary between one page of a text and the next in a standard reference system. [3.10.3. ]</a:documentation>
@@ -4519,150 +4057,6 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
       <ref name="sga-patt.sourced.attributes"/>
       <ref name="sga-patt.spanning.attributes"/>
       <ref name="sga-patt.breaking.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-panalytic">
-    <element name="analytic">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic level) contains bibliographic elements describing an item (e.g. an article or poem) published
-    within a monograph or journal and not as an independent publication. [3.11.2.1. ]</a:documentation>
-      <zeroOrMore>
-        <choice>
-          <ref name="sga-pauthor"/>
-          <ref name="sga-peditor"/>
-          <ref name="sga-prespStmt"/>
-          <ref name="sga-ptitle"/>
-          <ref name="sga-pref"/>
-          <ref name="sga-pdate"/>
-          <ref name="sga-ptextLang"/>
-          <ref name="sga-pidno"/>
-        </choice>
-      </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pmonogr">
-    <element name="monogr">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic level) contains bibliographic elements describing an item (e.g. a book or journal) published as an
-    independent item (i.e. as a separate physical object). [3.11.2.1. ]</a:documentation>
-      <group>
-        <optional>
-          <choice>
-            <group>
-              <choice>
-                <ref name="sga-pauthor"/>
-                <ref name="sga-peditor"/>
-                <ref name="sga-prespStmt"/>
-              </choice>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pauthor"/>
-                  <ref name="sga-peditor"/>
-                  <ref name="sga-prespStmt"/>
-                </choice>
-              </zeroOrMore>
-              <oneOrMore>
-                <ref name="sga-ptitle"/>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pidno"/>
-                  <ref name="sga-ptextLang"/>
-                  <ref name="sga-peditor"/>
-                  <ref name="sga-prespStmt"/>
-                </choice>
-              </zeroOrMore>
-            </group>
-            <group>
-              <oneOrMore>
-                <choice>
-                  <ref name="sga-ptitle"/>
-                  <ref name="sga-pref"/>
-                </choice>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pidno"/>
-                  <ref name="sga-ptextLang"/>
-                  <ref name="sga-pauthor"/>
-                  <ref name="sga-peditor"/>
-                  <ref name="sga-prespStmt"/>
-                </choice>
-              </zeroOrMore>
-            </group>
-          </choice>
-        </optional>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.noteLike"/>
-            <ref name="sga-pmeeting"/>
-          </choice>
-        </zeroOrMore>
-        <zeroOrMore>
-          <ref name="sga-pedition"/>
-          <zeroOrMore>
-            <choice>
-              <ref name="sga-pidno"/>
-              <ref name="sga-peditor"/>
-              <ref name="sga-prespStmt"/>
-            </choice>
-          </zeroOrMore>
-        </zeroOrMore>
-        <ref name="sga-pimprint"/>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pimprint"/>
-            <ref name="sga-pextent"/>
-            <ref name="sga-pbiblScope"/>
-          </choice>
-        </zeroOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pseries">
-    <element name="series">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series information) contains information about the series in which a book or other bibliographic item has
-    appeared. [3.11.2.1. ]</a:documentation>
-      <zeroOrMore>
-        <choice>
-          <text/>
-          <ref name="sga-pmodel.gLike"/>
-          <ref name="sga-ptitle"/>
-          <ref name="sga-pref"/>
-          <ref name="sga-peditor"/>
-          <ref name="sga-prespStmt"/>
-          <ref name="sga-pbiblScope"/>
-          <ref name="sga-pidno"/>
-          <ref name="sga-ptextLang"/>
-          <ref name="sga-pmodel.global"/>
-        </choice>
-      </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pauthor">
-    <element name="author">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a bibliographic reference, contains the name(s) of an
-  author, personal or corporate, of a work; for example in the same
-  form as that provided by a recognized bibliographic name authority.  [3.11.2.2.  2.2.1. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.naming.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-peditor">
-    <element name="editor">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">secondary statement of responsibility for a bibliographic item, for example the name of an
-    individual, institution or organization, (or of several such) acting as editor, compiler,
-    translator, etc.  [3.11.2.2. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.naming.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4745,103 +4139,6 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
       <empty/>
     </element>
   </define>
-  <define name="sga-pmeeting">
-    <element name="meeting">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the formalized descriptive title for a meeting or conference, for use in a
-    bibliographic description for an item derived from such a meeting, or as a heading or preamble
-    to publications emanating from it. [3.11.2.2. ]</a:documentation>
-      <ref name="sga-pmacro.limitedContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pimprint">
-    <element name="imprint">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups information relating to the publication or distribution
-        of a bibliographic item. [3.11.2.3. ]</a:documentation>
-      <oneOrMore>
-        <choice>
-          <group>
-            <ref name="sga-pmodel.imprintPart"/>
-          </group>
-          <group>
-            <ref name="sga-pmodel.dateLike"/>
-          </group>
-        </choice>
-        <zeroOrMore>
-          <ref name="sga-prespStmt"/>
-        </zeroOrMore>
-        <zeroOrMore>
-          <ref name="sga-pmodel.global"/>
-        </zeroOrMore>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ppublisher">
-    <element name="publisher">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides the name of the organization responsible for the publication or distribution of a
-        bibliographic item. [3.11.2.3.  2.2.4. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pbiblScope">
-    <element name="biblScope">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(scope of citation) defines the scope of a bibliographic reference, for example as a
-        list of page numbers, or a named subdivision of a larger work. [3.11.2.3. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <optional>
-        <attribute name="type">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the type of information conveyed by the element, e.g.
-                columns, pages, volume.
-Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines) ; 5] chap(chapter) ; 6] part</a:documentation>
-          <choice>
-            <value>vol</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(volume) the element contains a volume number.</a:documentation>
-            <value>issue</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element contains an issue number, or volume and
-                        issue numbers.</a:documentation>
-            <value>pp</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pages) the element contains a page number or page range.</a:documentation>
-            <value>ll</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (lines) the element contains a line number or line range.</a:documentation>
-            <value>chap</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(chapter) the element contains a chapter indication (number
-                        and/or title)</a:documentation>
-            <value>part</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies a part of a book or collection.</a:documentation>
-            <data type="Name"/>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="from">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the starting point of the range of units indicated by the type attribute.</a:documentation>
-          <ref name="sga-pdata.word"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="to">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the end-point of the range of units indicated by the type attribute.</a:documentation>
-          <ref name="sga-pdata.word"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ppubPlace">
-    <element name="pubPlace">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication place) contains the name of the place where a bibliographic item was published. [3.11.2.3. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.naming.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-pbibl">
     <element name="bibl">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may
@@ -4863,57 +4160,6 @@ Suggested values include: 1] vol(volume) ; 2] issue; 3] pp(pages) ; 4] ll (lines
       <ref name="sga-patt.declarable.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <ref name="sga-patt.sortable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pbiblStruct">
-    <element name="biblStruct">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(structured bibliographic citation) contains a structured bibliographic citation, in which only bibliographic sub-elements
-    appear and in a specified order.  [3.11.1.  2.2.7.  15.3.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <ref name="sga-panalytic"/>
-        </zeroOrMore>
-        <oneOrMore>
-          <ref name="sga-pmonogr"/>
-          <zeroOrMore>
-            <ref name="sga-pseries"/>
-          </zeroOrMore>
-        </oneOrMore>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.noteLike"/>
-            <ref name="sga-pidno"/>
-            <ref name="sga-prelatedItem"/>
-          </choice>
-        </zeroOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.sortable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-plistBibl">
-    <element name="listBibl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(citation list) contains a list of bibliographic citations of any kind.  [3.11.1.  2.2.7.  15.3.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <ref name="sga-pmodel.headLike"/>
-        </zeroOrMore>
-        <oneOrMore>
-          <choice>
-            <ref name="sga-pmodel.biblLike"/>
-            <ref name="sga-pmodel.milestoneLike"/>
-            <ref name="sga-plistBibl"/>
-          </choice>
-        </oneOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.sortable.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
   </define>
@@ -5090,1181 +4336,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">more than one of the above</a:documentation>
             <data type="Name"/>
           </choice>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pteiCorpus">
-    <element name="teiCorpus">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the whole of a TEI encoded corpus, comprising a single corpus header and one or
-    more TEI elements, each containing a single text header and a text. [4.  15.1. ]</a:documentation>
-      <group>
-        <ref name="sga-pteiHeader"/>
-        <oneOrMore>
-          <choice>
-            <ref name="sga-pTEI"/>
-            <ref name="sga-pteiCorpus"/>
-          </choice>
-        </oneOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="version" a:defaultValue="5.0">
-          <a:documentation>The version of the TEI scheme</a:documentation>
-          <ref name="sga-pdata.version"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdivGen">
-    <element name="divGen">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(automatically generated text division) indicates the location at which a textual division generated
-        automatically by a text-processing application is to appear. [3.8.2. ]</a:documentation>
-      <zeroOrMore>
-        <ref name="sga-pmodel.headLike"/>
-      </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <optional>
-        <attribute name="type">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies what type of generated text division (e.g. index,
-                table of contents, etc.) is to appear.
-Sample values include: 1] index; 2] toc; 3] figlist; 4] tablist</a:documentation>
-          <ref name="sga-pdata.enumerated"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ptextLang">
-    <element name="textLang">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text language) describes the languages and writing systems identified within the bibliographic work  
-  being described, rather than its description.  [3.11.2.3.  10.6.6. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <optional>
-        <attribute name="mainLang">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(main language) supplies a code which identifies the chief language used in the bibliographic work.</a:documentation>
-          <ref name="sga-pdata.language"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="otherLangs">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(other languages) one or more codes identifying any other languages used in the bibliographic work.</a:documentation>
-          <list>
-            <zeroOrMore>
-              <ref name="sga-pdata.language"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pteiHeader">
-    <element name="teiHeader">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI Header) supplies the descriptive and declarative information making up an electronic title page
-    prefixed to every TEI-conformant text. [2.1.1.  15.1. ]</a:documentation>
-      <group>
-        <ref name="sga-pfileDesc"/>
-        <zeroOrMore>
-          <ref name="sga-pmodel.teiHeaderPart"/>
-        </zeroOrMore>
-        <optional>
-          <ref name="sga-previsionDesc"/>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="type" a:defaultValue="text">
-          <a:documentation>specifies the kind of document to which the header is attached, for example whether it
-        is a corpus or individual text.
-Sample values include: 1] text; 2] corpus</a:documentation>
-          <ref name="sga-pdata.enumerated"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pfileDesc">
-    <element name="fileDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file. [2.2.  2.1.1. ]</a:documentation>
-      <group>
-        <group>
-          <ref name="sga-ptitleStmt"/>
-          <optional>
-            <ref name="sga-peditionStmt"/>
-          </optional>
-          <optional>
-            <ref name="sga-pextent"/>
-          </optional>
-          <ref name="sga-ppublicationStmt"/>
-          <optional>
-            <ref name="sga-pseriesStmt"/>
-          </optional>
-          <optional>
-            <ref name="sga-pnotesStmt"/>
-          </optional>
-        </group>
-        <oneOrMore>
-          <ref name="sga-psourceDesc"/>
-        </oneOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ptitleStmt">
-    <element name="titleStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title statement) groups information about the title of a work and those responsible for its intellectual
-    content. [2.2.1.  2.2. ]</a:documentation>
-      <group>
-        <oneOrMore>
-          <ref name="sga-ptitle"/>
-        </oneOrMore>
-        <zeroOrMore>
-          <ref name="sga-pmodel.respLike"/>
-        </zeroOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-psponsor">
-    <element name="sponsor">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the name of a sponsoring organization or institution. [2.2.1. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq.limited"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pfunder">
-    <element name="funder">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(funding body) specifies the name of an individual, institution, or organization responsible for the
-    funding of a project or text. [2.2.1. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq.limited"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pprincipal">
-    <element name="principal">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(principal researcher) supplies the name of the principal researcher responsible for the
-creation of an electronic text. [2.2.1. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq.limited"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-peditionStmt">
-    <element name="editionStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-pmodel.pLike"/>
-        </oneOrMore>
-        <group>
-          <ref name="sga-pedition"/>
-          <zeroOrMore>
-            <ref name="sga-prespStmt"/>
-          </zeroOrMore>
-        </group>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pedition">
-    <element name="edition">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition) describes the particularities of one edition of a text. [2.2.2. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pextent">
-    <element name="extent">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the approximate size of a text as stored on some carrier medium, whether digital
-    or non-digital, specified in any convenient units. [2.2.3.  2.2.  3.11.2.3. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ppublicationStmt">
-    <element name="publicationStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other
-    text.  [2.2.4.  2.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-pmodel.pLike"/>
-        </oneOrMore>
-        <oneOrMore>
-          <ref name="sga-pmodel.publicationStmtPart"/>
-        </oneOrMore>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdistributor">
-    <element name="distributor">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the name of a person or other agency responsible for the
-distribution of a text. [2.2.4. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pauthority">
-    <element name="authority">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(release authority) supplies the name of a person or other agency responsible for
-  making an electronic file available, other than a publisher or
-  distributor. [2.2.4. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq.limited"/>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pidno">
-    <element name="idno">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object,
-  such as a bibliographic item, a person, a title, an organization,
-  etc. in a standardized way. [2.2.4.  2.2.5.  3.11.2.3. ]</a:documentation>
-      <ref name="sga-pmacro.xtext"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.sortable.attributes"/>
-      <optional>
-        <attribute name="type">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">categorizes the identifier, for example as an ISBN, Social
-      Security number, etc. </a:documentation>
-          <ref name="sga-pdata.enumerated"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pavailability">
-    <element name="availability">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the availability of a text, for example any restrictions on its
-    use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.availabilityPart"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="status" a:defaultValue="unknown">
-          <a:documentation>supplies a code identifying the current availability of the text. </a:documentation>
-          <choice>
-            <value>free</value>
-            <a:documentation>the text is freely available. </a:documentation>
-            <value>unknown</value>
-            <a:documentation>the status of the text is unknown. </a:documentation>
-            <value>restricted</value>
-            <a:documentation>the text is not freely available. </a:documentation>
-          </choice>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-plicence">
-    <element name="licence">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about a licence or other legal agreement
-  applicable to the text. [2.2.4. ]</a:documentation>
-      <ref name="sga-pmacro.specialPara"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <ref name="sga-patt.datable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pseriesStmt">
-    <element name="seriesStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series statement) groups information about the series, if any, to which a publication belongs. [2.2.5.  2.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-pmodel.pLike"/>
-        </oneOrMore>
-        <group>
-          <oneOrMore>
-            <ref name="sga-ptitle"/>
-          </oneOrMore>
-          <zeroOrMore>
-            <choice>
-              <ref name="sga-peditor"/>
-              <ref name="sga-prespStmt"/>
-            </choice>
-          </zeroOrMore>
-          <zeroOrMore>
-            <choice>
-              <ref name="sga-pidno"/>
-              <ref name="sga-pbiblScope"/>
-            </choice>
-          </zeroOrMore>
-        </group>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pnotesStmt">
-    <element name="notesStmt">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(notes statement) collects together any notes providing information about a text additional to that recorded
-    in other parts of the bibliographic description. [2.2.6.  2.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.noteLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-psourceDesc">
-    <element name="sourceDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source from which an electronic text was derived or generated, typically a
-    bibliographic description in the case of a digitized text, or a phrase such as "born digital"
-    for a text which has no previous existence. [2.2.7. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-pmodel.pLike"/>
-        </oneOrMore>
-        <oneOrMore>
-          <choice>
-            <ref name="sga-pmodel.biblLike"/>
-            <ref name="sga-pmodel.sourceDescPart"/>
-            <ref name="sga-pmodel.listLike"/>
-          </choice>
-        </oneOrMore>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pbiblFull">
-    <element name="biblFull">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(fully-structured bibliographic citation) contains a fully-structured bibliographic citation, in which all components of the TEI file
-    description are present. [3.11.1.  2.2.  2.2.7.  15.3.2. ]</a:documentation>
-      <group>
-        <group>
-          <ref name="sga-ptitleStmt"/>
-          <optional>
-            <ref name="sga-peditionStmt"/>
-          </optional>
-          <optional>
-            <ref name="sga-pextent"/>
-          </optional>
-          <ref name="sga-ppublicationStmt"/>
-          <optional>
-            <ref name="sga-pseriesStmt"/>
-          </optional>
-          <optional>
-            <ref name="sga-pnotesStmt"/>
-          </optional>
-        </group>
-        <zeroOrMore>
-          <ref name="sga-psourceDesc"/>
-        </zeroOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <ref name="sga-patt.sortable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pencodingDesc">
-    <element name="encodingDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(encoding description) documents the relationship between an electronic text and the
-source or sources from which it was derived. [2.3.  2.1.1. ]</a:documentation>
-      <group>
-        <oneOrMore>
-          <choice>
-            <ref name="sga-pmodel.encodingDescPart"/>
-            <ref name="sga-pmodel.pLike"/>
-          </choice>
-        </oneOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pprojectDesc">
-    <element name="projectDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(project description) describes in detail the aim or purpose for which an electronic file was encoded, together
-    with any other relevant information concerning the process by which it was assembled or
-    collected. [2.3.1.  2.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-psamplingDecl">
-    <element name="samplingDecl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sampling declaration) contains a prose description of the rationale and methods used in sampling texts in the
-    creation of a corpus or collection. [2.3.2.  2.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-peditorialDecl">
-    <element name="editorialDecl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(editorial practice declaration) provides details of editorial principles and practices applied
-during the encoding of a text. [2.3.3.  2.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <choice>
-          <ref name="sga-pmodel.pLike"/>
-          <ref name="sga-pmodel.editorialDeclPart"/>
-        </choice>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcorrection">
-    <element name="correction">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correction principles) states how and under what circumstances corrections have been made in the text. [2.3.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="status" a:defaultValue="unknown">
-          <a:documentation>indicates the degree of correction applied to the text. </a:documentation>
-          <choice>
-            <value>high</value>
-            <a:documentation>the text has been thoroughly checked and proofread. </a:documentation>
-            <value>medium</value>
-            <a:documentation>the text has been checked at least once. </a:documentation>
-            <value>low</value>
-            <a:documentation>the text has not been checked. </a:documentation>
-            <value>unknown</value>
-            <a:documentation>the correction status of the text is unknown. </a:documentation>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="method" a:defaultValue="silent">
-          <a:documentation>indicates the method adopted to indicate corrections within the text. </a:documentation>
-          <choice>
-            <value>silent</value>
-            <a:documentation>corrections have been made silently </a:documentation>
-            <value>markup</value>
-            <a:documentation>corrections have been represented using markup</a:documentation>
-          </choice>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pnormalization">
-    <element name="normalization">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the extent of normalization or regularization of the original source carried out
-    in converting it to electronic form. [2.3.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <optional>
-        <attribute name="source">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the authority for any normalization carried out. </a:documentation>
-          <ref name="sga-pdata.pointer"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="method" a:defaultValue="silent">
-          <a:documentation>indicates the method adopted to indicate normalizations within the text. </a:documentation>
-          <choice>
-            <value>silent</value>
-            <a:documentation>normalization made silently </a:documentation>
-            <value>markup</value>
-            <a:documentation>normalization represented using markup </a:documentation>
-          </choice>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pquotation">
-    <element name="quotation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies editorial practice adopted with respect to quotation marks in the original.  [2.3.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="marks" a:defaultValue="all">
-          <a:documentation>(quotation marks) indicates whether or not quotation marks have been retained as content within the text. </a:documentation>
-          <choice>
-            <value>none</value>
-            <a:documentation>no quotation marks have been retained </a:documentation>
-            <value>some</value>
-            <a:documentation>some quotation marks have been retained </a:documentation>
-            <value>all</value>
-            <a:documentation>all quotation marks have been retained </a:documentation>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="form" a:defaultValue="unknown">
-          <a:documentation>specifies how quotation marks are indicated within the text.</a:documentation>
-          <text/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-phyphenation">
-    <element name="hyphenation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">summarizes the way in which hyphenation in a source text has been treated in an encoded
-    version of it. [2.3.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="eol" a:defaultValue="some">
-          <a:documentation>(end-of-line) indicates whether or not end-of-line hyphenation has been retained in a text.</a:documentation>
-          <choice>
-            <value>all</value>
-            <a:documentation>all end-of-line hyphenation has been retained, even though the lineation of the
-            original may not have been. </a:documentation>
-            <value>some</value>
-            <a:documentation>end-of-line hyphenation has been retained in some cases. </a:documentation>
-            <value>hard</value>
-            <a:documentation>all soft end-of-line hyphenation has been removed: any remaining end-od-line
-            hyphenation should be retained. </a:documentation>
-            <value>none</value>
-            <a:documentation>all end-of-line hyphenation has been removed: any remaining hyphenation occurred
-            within the line. </a:documentation>
-          </choice>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-psegmentation">
-    <element name="segmentation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the principles according to which the text has been segmented, for example into
-    sentences, tone-units, graphemic strata, etc. [2.3.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pstdVals">
-    <element name="stdVals">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(standard values) specifies the format used when standardized date or number values are supplied. [2.3.3.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pinterpretation">
-    <element name="interpretation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the scope of any analytic or interpretive information added to the text in
-    addition to the transcription.  [2.3.3. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ptagsDecl">
-    <element name="tagsDecl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tagging declaration) provides detailed information about the tagging applied to a document. [2.3.4.  2.3. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <ref name="sga-prendition"/>
-        </zeroOrMore>
-        <zeroOrMore>
-          <ref name="sga-pnamespace"/>
-        </zeroOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ptagUsage">
-    <element name="tagUsage">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the usage of a specific element within a text.  [2.3.4. ]</a:documentation>
-      <ref name="sga-pmacro.limitedContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <attribute name="gi">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(element name) the name (generic identifier) of the element indicated by the tag.</a:documentation>
-        <ref name="sga-pdata.name"/>
-      </attribute>
-      <optional>
-        <attribute name="occurs">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the number of occurrences of this element within the text.</a:documentation>
-          <ref name="sga-pdata.count"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="withId">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with unique identifier) specifies the number of occurrences of this element within the text which bear a
-        distinct value for the global xml:id attribute. </a:documentation>
-          <ref name="sga-pdata.count"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="render">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the identifier of a rendition element which defines how this element
-        is to be rendered.</a:documentation>
-          <ref name="sga-pdata.pointer"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pnamespace">
-    <element name="namespace">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the formal name of the namespace to which the elements documented by its children
-    belong.  [2.3.4. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-ptagUsage"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <attribute name="name">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the full formal name of the namespace concerned.</a:documentation>
-        <ref name="sga-pdata.namespace"/>
-      </attribute>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-prendition">
-    <element name="rendition">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the rendition or appearance of one or more elements in the source
-    text. [2.3.4. ]</a:documentation>
-      <ref name="sga-pmacro.limitedContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <optional>
-        <attribute name="scheme">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the language used to describe the rendition.</a:documentation>
-          <choice>
-            <value>css</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cascading Stylesheet Language</a:documentation>
-            <value>xslfo</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Extensible Stylesheet Language Formatting Objects</a:documentation>
-            <value>free</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Informal free text description</a:documentation>
-            <value>other</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A user-defined rendition description language</a:documentation>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="scope">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where CSS is used, provides a way of defining
-pseudo-elements, that is, styling rules
-applicable to specific sub-portions of an element.</a:documentation>
-          <text/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-prefsDecl">
-    <element name="refsDecl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(references declaration) specifies how canonical references are constructed for this
-  text. [2.3.5.3.  2.3.  2.3.5. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-pmodel.pLike"/>
-        </oneOrMore>
-        <oneOrMore>
-          <ref name="sga-pcRefPattern"/>
-        </oneOrMore>
-        <oneOrMore>
-          <ref name="sga-prefState"/>
-        </oneOrMore>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcRefPattern">
-    <element name="cRefPattern">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference pattern) specifies an expression and replacement pattern for transforming a canonical reference into
-    a URI.  [2.3.5.3.  2.3.5.  2.3.5.2. ]</a:documentation>
-      <zeroOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <attribute name="matchPattern">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a regular expression against which the values of cRef attributes
-        can be matched.</a:documentation>
-        <ref name="sga-pdata.pattern"/>
-      </attribute>
-      <attribute name="replacementPattern">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a replacement pattern which, once subpattern substitution
-        has been performed, provides a URI.</a:documentation>
-        <text/>
-      </attribute>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-prefState">
-    <element name="refState">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference state) specifies one component of a canonical reference defined by the milestone method. [2.3.5.3.  2.3.5. ]</a:documentation>
-      <empty/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.sourced.attributes"/>
-      <attribute name="unit">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates what kind of state is changing at this milestone.
-Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] canto; 7] stanza; 8] act; 9] scene; 10] section; 11] absent</a:documentation>
-        <choice>
-          <value>page</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">page breaks in the reference edition. </a:documentation>
-          <value>column</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">column breaks. </a:documentation>
-          <value>line</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">line breaks. </a:documentation>
-          <value>book</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">any units termed book, liber, etc. </a:documentation>
-          <value>poem</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">individual poems in a collection. </a:documentation>
-          <value>canto</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">cantos or other major sections of a poem. </a:documentation>
-          <value>stanza</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">stanzas within a poem, book, or canto. </a:documentation>
-          <value>act</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">acts within a play. </a:documentation>
-          <value>scene</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">scenes within a play or act. </a:documentation>
-          <value>section</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">sections of any kind. </a:documentation>
-          <value>absent</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">passages not present in the reference edition.</a:documentation>
-          <data type="Name"/>
-        </choice>
-      </attribute>
-      <optional>
-        <attribute name="length">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the fixed length of the reference component.</a:documentation>
-          <ref name="sga-pdata.count"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="delim">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(delimiter) supplies a delimiting string following the reference component.</a:documentation>
-          <text/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pclassDecl">
-    <element name="classDecl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains one or more taxonomies defining any classificatory
-codes used elsewhere in the text. [2.3.6.  2.3. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-ptaxonomy"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ptaxonomy">
-    <element name="taxonomy">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines a typology either implicitly, by means of a bibliographic
-    citation, or explicitly by a structured taxonomy. [2.3.6. ]</a:documentation>
-      <choice>
-        <zeroOrMore>
-          <ref name="sga-pmodel.glossLike"/>
-        </zeroOrMore>
-        <oneOrMore>
-          <ref name="sga-pcategory"/>
-        </oneOrMore>
-        <group>
-          <group>
-            <ref name="sga-pmodel.biblLike"/>
-          </group>
-          <zeroOrMore>
-            <ref name="sga-pcategory"/>
-          </zeroOrMore>
-        </group>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcategory">
-    <element name="category">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an individual descriptive category, possibly nested within a superordinate
-    category, within a user-defined taxonomy. [2.3.6. ]</a:documentation>
-      <group>
-        <choice>
-          <oneOrMore>
-            <ref name="sga-pcatDesc"/>
-          </oneOrMore>
-          <zeroOrMore>
-            <ref name="sga-pmodel.glossLike"/>
-          </zeroOrMore>
-        </choice>
-        <zeroOrMore>
-          <ref name="sga-pcategory"/>
-        </zeroOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcatDesc">
-    <element name="catDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(category description) describes some category within a taxonomy or text typology, either in the form of a brief
-    prose description or in terms of the situational parameters used by the TEI formal textDesc. [2.3.6. ]</a:documentation>
-      <zeroOrMore>
-        <choice>
-          <text/>
-          <ref name="sga-pmodel.limitedPhrase"/>
-          <ref name="sga-pmodel.catDescPart"/>
-        </choice>
-      </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pappInfo">
-    <element name="appInfo">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(application information) records information about an application which has
-  edited the TEI file. </a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.applicationLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-papplication">
-    <element name="application">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about an application which has acted upon the document.</a:documentation>
-      <group>
-        <oneOrMore>
-          <ref name="sga-pmodel.labelLike"/>
-        </oneOrMore>
-        <choice>
-          <zeroOrMore>
-            <ref name="sga-pmodel.ptrLike"/>
-          </zeroOrMore>
-          <zeroOrMore>
-            <ref name="sga-pmodel.pLike"/>
-          </zeroOrMore>
-        </choice>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.datable.attributes"/>
-      <attribute name="ident">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Supplies an identifier for the application, independent of its version number or display
-        name.</a:documentation>
-        <ref name="sga-pdata.name"/>
-      </attribute>
-      <attribute name="version">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Supplies a version number for the application, independent of its identifier or display
-        name.</a:documentation>
-        <data type="token">
-          <param name="pattern">[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}</param>
-        </data>
-      </attribute>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pprofileDesc">
-    <element name="profileDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the
-    languages and sublanguages used, the situation in which it was produced, the participants and
-    their setting. [2.4.  2.1.1. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <ref name="sga-pmodel.profileDescPart"/>
-        </zeroOrMore>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-phandNote">
-    <element name="handNote">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note on hand) describes a particular style or hand distinguished within a manuscript. [10.7.2. ]</a:documentation>
-      <ref name="sga-pmacro.specialPara"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.handFeatures.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcreation">
-    <element name="creation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about the creation of a text. [2.4.1.  2.4. ]</a:documentation>
-      <zeroOrMore>
-        <choice>
-          <text/>
-          <ref name="sga-pmodel.limitedPhrase"/>
-          <ref name="sga-plistChange"/>
-        </choice>
-      </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.datable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-plangUsage">
-    <element name="langUsage">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language usage) describes the languages, sublanguages, registers, dialects, etc.
-represented within a text. [2.4.2.  2.4.  15.3.2. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-planguage"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-planguage">
-    <element name="language">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes a single language or sublanguage used within a text. [2.4.2. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq.limited"/>
-      <ref name="sga-patt.global.attributes"/>
-      <attribute name="ident">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the
-        language documented by this element, and which is referenced by the global
-        xml:lang attribute.</a:documentation>
-        <ref name="sga-pdata.language"/>
-      </attribute>
-      <optional>
-        <attribute name="usage">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the approximate percentage (by volume) of the text which uses this language. </a:documentation>
-          <data type="nonNegativeInteger">
-            <param name="maxInclusive">100</param>
-          </data>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-ptextClass">
-    <element name="textClass">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text classification) groups information which describes the nature or topic of a text in terms of a standard
-    classification scheme, thesaurus, etc. [2.4.3. ]</a:documentation>
-      <zeroOrMore>
-        <choice>
-          <ref name="sga-pclassCode"/>
-          <ref name="sga-pcatRef"/>
-          <ref name="sga-pkeywords"/>
-        </choice>
-      </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pkeywords">
-    <element name="keywords">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-pterm"/>
-        </oneOrMore>
-        <ref name="sga-plist"/>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <attribute name="scheme">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the controlled vocabulary within which the set of keywords concerned is
-        defined. </a:documentation>
-        <ref name="sga-pdata.pointer"/>
-      </attribute>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pclassCode">
-    <element name="classCode">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification code) contains the classification code used for this text in some standard classification system. [2.4.3. ]</a:documentation>
-      <ref name="sga-pmacro.phraseSeq.limited"/>
-      <ref name="sga-patt.global.attributes"/>
-      <attribute name="scheme">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the classification system or taxonomy in use.</a:documentation>
-        <ref name="sga-pdata.pointer"/>
-      </attribute>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcatRef">
-    <element name="catRef">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(category reference) specifies one or more defined categories within some taxonomy or text typology. [2.4.3. ]</a:documentation>
-      <empty/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <optional>
-        <attribute name="scheme">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the classification scheme within which the set of categories concerned is
-        defined </a:documentation>
-          <ref name="sga-pdata.pointer"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcalendarDesc">
-    <element name="calendarDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(calendar description) contains a description of the calendar system used in any
-  dating expression found in the text. [2.4.  2.4.4. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pcalendar"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcalendar">
-    <element name="calendar">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes a calendar or dating system used in a dating formula in the text. [2.4.4. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sga-pmodel.pLike"/>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-previsionDesc">
-    <element name="revisionDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file. [2.5.  2.1.1. ]</a:documentation>
-      <choice>
-        <ref name="sga-plist"/>
-        <ref name="sga-plistChange"/>
-        <oneOrMore>
-          <ref name="sga-pchange"/>
-        </oneOrMore>
-      </choice>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.docStatus.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pchange">
-    <element name="change">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents a change or set of changes made during the production
-  of a source document, or during the revision of an electronic file. [2.5.  2.4.1. ]</a:documentation>
-      <ref name="sga-pmacro.specialPara"/>
-      <ref name="sga-patt.ascribed.attributes"/>
-      <ref name="sga-patt.datable.attributes"/>
-      <ref name="sga-patt.docStatus.attributes"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <optional>
-        <attribute name="target">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more elements that belong to this change.</a:documentation>
-          <list>
-            <ref name="sga-pdata.pointer"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.pointer"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-plistChange">
-    <element name="listChange">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups a number of change descriptions associated 
-with either the creation of a source text or the revision of an encoded text. </a:documentation>
-      <oneOrMore>
-        <choice>
-          <ref name="sga-plistChange"/>
-          <ref name="sga-pchange"/>
-        </choice>
-      </oneOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.sortable.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="ordered" a:defaultValue="true">
-          <a:documentation>indicates whether the ordering of its child change
-elements is to be considered significant or not</a:documentation>
-          <ref name="sga-pdata.truthValue"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pgeoDecl">
-    <element name="geoDecl">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(geographic coordinates declaration) documents the notation and the datum used for geographic coordinates expressed as content of
-    the geo element elsewhere within the document.</a:documentation>
-      <ref name="sga-pmacro.phraseSeq"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declarable.attributes"/>
-      <optional>
-        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="datum" a:defaultValue="WGS84">
-          <a:documentation>supplies a commonly used code name for the datum employed.
-Suggested values include: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Grid Reference System) ; 3] OSGB36(ordnance survey great britain) ; 4] ED50(European Datum coordinate system) </a:documentation>
-          <choice>
-            <value>WGS84</value>
-            <a:documentation>(World Geodetic System) a pair of numbers to be interpreted as latitude followed by longitude according to
-            the World Geodetic System.</a:documentation>
-            <value>MGRS</value>
-            <a:documentation>(Military Grid Reference System) the values supplied are geospatial entity object codes, based on</a:documentation>
-            <value>OSGB36</value>
-            <a:documentation>(ordnance survey great britain) the value supplied is to be interpreted as a British National Grid Reference.</a:documentation>
-            <value>ED50</value>
-            <a:documentation>(European Datum coordinate system) the value supplied is to be interpreted as latitude followed by longitude according
-            to the European Datum coordinate system.</a:documentation>
-            <data type="Name"/>
-          </choice>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pTEI">
-    <element name="TEI">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document,
-comprising a TEI header and a text, either in isolation or as part of a
-teiCorpus element. [4.  15.1. ]</a:documentation>
-      <group>
-        <ref name="sga-pteiHeader"/>
-        <choice>
-          <group>
-            <oneOrMore>
-              <ref name="sga-pmodel.resourceLike"/>
-            </oneOrMore>
-            <optional>
-              <ref name="sga-ptext"/>
-            </optional>
-          </group>
-          <ref name="sga-ptext"/>
-        </choice>
-      </group>
-      <ns xmlns="http://purl.oclc.org/dsdl/schematron" prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
-      <ns xmlns="http://purl.oclc.org/dsdl/schematron" prefix="rng" uri="http://relaxng.org/ns/structure/1.0"/>
-      <ref name="sga-patt.global.attributes"/>
-      <optional>
-        <attribute name="version">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the version number of the TEI Guidelines against
-      which this document is valid.</a:documentation>
-          <ref name="sga-pdata.version"/>
         </attribute>
       </optional>
       <empty/>
@@ -6534,392 +4605,6 @@ teiCorpus element. [4.  15.1. ]</a:documentation>
               </zeroOrMore>
             </group>
           </choice>
-          <zeroOrMore>
-            <group>
-              <ref name="sga-pmodel.divBottom"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </zeroOrMore>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.divLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdiv1">
-    <element name="div1">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-1 text division) contains a first-level subdivision of the front, body, or back of a text. [4.1.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.divTop"/>
-            <ref name="sga-pmodel.global"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <choice>
-            <oneOrMore>
-              <choice>
-                <ref name="sga-pmodel.div2Like"/>
-                <ref name="sga-pmodel.divGenLike"/>
-              </choice>
-              <zeroOrMore>
-                <ref name="sga-pmodel.global"/>
-              </zeroOrMore>
-            </oneOrMore>
-            <group>
-              <oneOrMore>
-                <group>
-                  <ref name="sga-pmodel.common"/>
-                </group>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pmodel.div2Like"/>
-                  <ref name="sga-pmodel.divGenLike"/>
-                </choice>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </zeroOrMore>
-            </group>
-          </choice>
-          <zeroOrMore>
-            <group>
-              <ref name="sga-pmodel.divBottom"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </zeroOrMore>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.divLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdiv2">
-    <element name="div2">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-2 text division) contains a second-level subdivision of the front, body, or back of a
- text. [4.1.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.divTop"/>
-            <ref name="sga-pmodel.global"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <choice>
-            <oneOrMore>
-              <choice>
-                <ref name="sga-pmodel.div3Like"/>
-                <ref name="sga-pmodel.divGenLike"/>
-              </choice>
-              <zeroOrMore>
-                <ref name="sga-pmodel.global"/>
-              </zeroOrMore>
-            </oneOrMore>
-            <group>
-              <oneOrMore>
-                <group>
-                  <ref name="sga-pmodel.common"/>
-                </group>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pmodel.div3Like"/>
-                  <ref name="sga-pmodel.divGenLike"/>
-                </choice>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </zeroOrMore>
-            </group>
-          </choice>
-          <zeroOrMore>
-            <group>
-              <ref name="sga-pmodel.divBottom"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </zeroOrMore>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.divLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdiv3">
-    <element name="div3">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-3 text division) contains a third-level subdivision of the front, body, or back of a text. [4.1.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.divTop"/>
-            <ref name="sga-pmodel.global"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <choice>
-            <oneOrMore>
-              <choice>
-                <ref name="sga-pmodel.div4Like"/>
-                <ref name="sga-pmodel.divGenLike"/>
-              </choice>
-              <zeroOrMore>
-                <ref name="sga-pmodel.global"/>
-              </zeroOrMore>
-            </oneOrMore>
-            <group>
-              <oneOrMore>
-                <group>
-                  <ref name="sga-pmodel.common"/>
-                </group>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pmodel.div4Like"/>
-                  <ref name="sga-pmodel.divGenLike"/>
-                </choice>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </zeroOrMore>
-            </group>
-          </choice>
-          <zeroOrMore>
-            <group>
-              <ref name="sga-pmodel.divBottom"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </zeroOrMore>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.divLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdiv4">
-    <element name="div4">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-4 text division) contains a fourth-level subdivision of the front, body, or back of a text. [4.1.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.divTop"/>
-            <ref name="sga-pmodel.global"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <choice>
-            <oneOrMore>
-              <choice>
-                <ref name="sga-pmodel.div5Like"/>
-                <ref name="sga-pmodel.divGenLike"/>
-              </choice>
-              <zeroOrMore>
-                <ref name="sga-pmodel.global"/>
-              </zeroOrMore>
-            </oneOrMore>
-            <group>
-              <oneOrMore>
-                <group>
-                  <ref name="sga-pmodel.common"/>
-                </group>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pmodel.div5Like"/>
-                  <ref name="sga-pmodel.divGenLike"/>
-                </choice>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </zeroOrMore>
-            </group>
-          </choice>
-          <zeroOrMore>
-            <group>
-              <ref name="sga-pmodel.divBottom"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </zeroOrMore>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.divLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdiv5">
-    <element name="div5">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-5 text division) contains a fifth-level subdivision of the front, body, or back of a text. [4.1.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.divTop"/>
-            <ref name="sga-pmodel.global"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <choice>
-            <oneOrMore>
-              <choice>
-                <ref name="sga-pmodel.div6Like"/>
-                <ref name="sga-pmodel.divGenLike"/>
-              </choice>
-              <zeroOrMore>
-                <ref name="sga-pmodel.global"/>
-              </zeroOrMore>
-            </oneOrMore>
-            <group>
-              <oneOrMore>
-                <group>
-                  <ref name="sga-pmodel.common"/>
-                </group>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pmodel.div6Like"/>
-                  <ref name="sga-pmodel.divGenLike"/>
-                </choice>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </zeroOrMore>
-            </group>
-          </choice>
-          <zeroOrMore>
-            <group>
-              <ref name="sga-pmodel.divBottom"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </zeroOrMore>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.divLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdiv6">
-    <element name="div6">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-6 text division) contains a sixth-level subdivision of the front, body, or back of a text. [4.1.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.divTop"/>
-            <ref name="sga-pmodel.global"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <choice>
-            <oneOrMore>
-              <choice>
-                <ref name="sga-pmodel.div7Like"/>
-                <ref name="sga-pmodel.divGenLike"/>
-              </choice>
-              <zeroOrMore>
-                <ref name="sga-pmodel.global"/>
-              </zeroOrMore>
-            </oneOrMore>
-            <group>
-              <oneOrMore>
-                <group>
-                  <ref name="sga-pmodel.common"/>
-                </group>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </oneOrMore>
-              <zeroOrMore>
-                <choice>
-                  <ref name="sga-pmodel.div7Like"/>
-                  <ref name="sga-pmodel.divGenLike"/>
-                </choice>
-                <zeroOrMore>
-                  <ref name="sga-pmodel.global"/>
-                </zeroOrMore>
-              </zeroOrMore>
-            </group>
-          </choice>
-          <zeroOrMore>
-            <group>
-              <ref name="sga-pmodel.divBottom"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </zeroOrMore>
-        </optional>
-      </group>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.divLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pdiv7">
-    <element name="div7">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-7 text division) contains the smallest possible subdivision of the front, body or back of a text, larger than
-    a paragraph. [4.1.2. ]</a:documentation>
-      <group>
-        <zeroOrMore>
-          <choice>
-            <ref name="sga-pmodel.divTop"/>
-            <ref name="sga-pmodel.global"/>
-          </choice>
-        </zeroOrMore>
-        <optional>
-          <oneOrMore>
-            <group>
-              <ref name="sga-pmodel.common"/>
-            </group>
-            <zeroOrMore>
-              <ref name="sga-pmodel.global"/>
-            </zeroOrMore>
-          </oneOrMore>
           <zeroOrMore>
             <group>
               <ref name="sga-pmodel.divBottom"/>
@@ -7210,9 +4895,7 @@ publisher name), as given
           <text/>
           <ref name="sga-pmodel.gLike"/>
           <ref name="sga-pmodel.phrase"/>
-          <ref name="sga-ppubPlace"/>
           <ref name="sga-pdocDate"/>
-          <ref name="sga-ppublisher"/>
           <ref name="sga-pmodel.global"/>
         </choice>
       </zeroOrMore>
@@ -7711,7 +5394,7 @@ Sample values include: 1] header; 2] footer; 3] pageNum(page number) ; 4] lineNu
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one or more handNote elements documenting the
 different hands identified within the source texts. [11.3.2.1. ]</a:documentation>
       <oneOrMore>
-        <ref name="sga-phandNote"/>
+        <empty/>
       </oneOrMore>
       <ref name="sga-patt.global.attributes"/>
       <empty/>
@@ -8011,6 +5694,490 @@ the space.</a:documentation>
       </optional>
       <empty/>
     </element>
+  </define>
+  <define name="sga-plink">
+    <element name="link">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. ]</a:documentation>
+      <empty/>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="link-constraint-linkTargets1">
+        <rule context="tei:link">
+          <sch:report xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="@target and @targets">You may not supply both 
+	@target and @targets</sch:report>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="link-constraint-linkTargets2">
+        <rule context="tei:link">
+          <sch:report xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="not(@target) and not(@targets)">You must
+	supply either @target or @targets</sch:report>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="link-constraint-linkTargets3">
+        <rule context="tei:link">
+          <sch:assert xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="contains(@target,' ')">You must supply at least two
+values for @target</sch:assert>
+        </rule>
+      </pattern>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <optional>
+        <attribute name="targets">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the identifiers of the elements or passages to be linked or associated. </a:documentation>
+          <list>
+            <ref name="sga-pdata.pointer"/>
+            <ref name="sga-pdata.pointer"/>
+            <zeroOrMore>
+              <ref name="sga-pdata.pointer"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-plinkGrp">
+    <element name="linkGrp">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(link group) defines a collection of associations or hypertextual links. [16.1. ]</a:documentation>
+      <oneOrMore>
+        <choice>
+          <ref name="sga-plink"/>
+          <ref name="sga-pptr"/>
+        </choice>
+      </oneOrMore>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.group.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pab">
+    <element name="ab">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. ]</a:documentation>
+      <ref name="sga-pmacro.paraContent"/>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <ref name="sga-patt.declaring.attributes"/>
+      <optional>
+        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="part" a:defaultValue="N">
+          <a:documentation>specifies whether or not the block is complete. </a:documentation>
+          <choice>
+            <value>Y</value>
+            <a:documentation>(yes) the block is incomplete</a:documentation>
+            <value>N</value>
+            <a:documentation>(no) either the block is complete, or no claim is made as to its completeness</a:documentation>
+            <value>I</value>
+            <a:documentation>(initial) the initial part of an incomplete block</a:documentation>
+            <value>M</value>
+            <a:documentation>(medial) a medial part of an incomplete block</a:documentation>
+            <value>F</value>
+            <a:documentation>(final) the final part of an incomplete block</a:documentation>
+          </choice>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-panchor">
+    <element name="anchor">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anchor point) attaches an identifier to a point within a text, whether or not it corresponds with a textual element. [8.4.2.  16.4. ]</a:documentation>
+      <empty/>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pseg">
+    <element name="seg">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(arbitrary segment) represents any segmentation of text below the chunk level. [16.3.  6.2.  7.2.5. ]</a:documentation>
+      <ref name="sga-pmacro.paraContent"/>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.segLike.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <ref name="sga-patt.responsibility.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pwhen">
+    <element name="when">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates a point in time either relative to other elements in the same timeline tag, or absolutely. [16.5.2. ]</a:documentation>
+      <empty/>
+      <ref name="sga-patt.global.attributes"/>
+      <optional>
+        <attribute name="absolute">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies an absolute value for the time.</a:documentation>
+          <ref name="sga-pdata.temporal.w3c"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="unit">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the unit of time in which the interval value is expressed, if this is not inherited from the parent timeline.
+Suggested values include: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) </a:documentation>
+          <choice>
+            <value>d</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(days) </a:documentation>
+            <value>h</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(hours) </a:documentation>
+            <value>min</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(minutes) </a:documentation>
+            <value>s</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(seconds) </a:documentation>
+            <value>ms</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(milliseconds) </a:documentation>
+            <data type="Name"/>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="interval">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the numeric portion of a time interval</a:documentation>
+          <choice>
+            <data type="float">
+              <param name="minExclusive">0</param>
+            </data>
+            <value>unknown</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="since">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the reference point for determining the time of the current when element, which is obtained by adding the interval to the time of the reference point.</a:documentation>
+          <ref name="sga-pdata.pointer"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-ptimeline">
+    <element name="timeline">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(timeline) provides a set of ordered points in time which can be linked to elements of a spoken text to create a temporal alignment of that text. [16.5.2. ]</a:documentation>
+      <oneOrMore>
+        <ref name="sga-pwhen"/>
+      </oneOrMore>
+      <ref name="sga-patt.global.attributes"/>
+      <optional>
+        <attribute name="origin">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">designates the origin of the timeline, i.e. the time at which it begins.</a:documentation>
+          <ref name="sga-pdata.pointer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="unit">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the unit of time corresponding to the interval value of the timeline or of its constituent points in time.
+Suggested values include: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) </a:documentation>
+          <choice>
+            <value>d</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(days) </a:documentation>
+            <value>h</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(hours) </a:documentation>
+            <value>min</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(minutes) </a:documentation>
+            <value>s</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(seconds) </a:documentation>
+            <value>ms</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(milliseconds) </a:documentation>
+            <data type="Name"/>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="interval">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the numeric portion of a time interval</a:documentation>
+          <choice>
+            <data type="float">
+              <param name="minExclusive">0</param>
+            </data>
+            <value>regular</value>
+            <value>irregular</value>
+          </choice>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pjoin">
+    <element name="join">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a possibly fragmented segment of text, by pointing at the possibly discontiguous elements which compose it. [16.7. ]</a:documentation>
+      <zeroOrMore>
+        <ref name="sga-pmodel.glossLike"/>
+      </zeroOrMore>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="join-constraint-joinTargets1">
+        <rule context="tei:join">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="@target and @targets">You may not supply both 
+	@target and @targets</report>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="join-constraint-joinTargets2">
+        <rule context="tei:join">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="not(@target) and not(@targets)">You must
+	supply either @target or @targets</report>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="join-constraint-joinTargets3">
+        <rule context="tei:join">
+          <assert xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="contains(@target,' ')">You must supply at least two
+values for @target</assert>
+        </rule>
+      </pattern>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <optional>
+        <attribute name="targets">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the identifiers of the elements or passages to be joined into a virtual element.</a:documentation>
+          <list>
+            <ref name="sga-pdata.pointer"/>
+            <ref name="sga-pdata.pointer"/>
+            <zeroOrMore>
+              <ref name="sga-pdata.pointer"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="result">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the name of an element which this aggregation may be understood to represent.</a:documentation>
+          <ref name="sga-pdata.name"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="scope" a:defaultValue="root">
+          <a:documentation>indicates whether the targets to be joined include the entire element indicated (the entire subtree including its root), or just the children of the target (the branches of the subtree).</a:documentation>
+          <choice>
+            <value>root</value>
+            <a:documentation>the rooted subtrees indicated by the targets attribute are joined, each subtree become a child of the virtual element created by the join</a:documentation>
+            <value>branches</value>
+            <a:documentation>the children of the subtrees indicated by the targets attribute become the children of the virtual element (i.e. the roots of the subtrees are discarded)</a:documentation>
+          </choice>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pjoinGrp">
+    <element name="joinGrp">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(join group) groups a collection of join elements and possibly pointers. [16.7. ]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="sga-pmodel.glossLike"/>
+        </zeroOrMore>
+        <oneOrMore>
+          <choice>
+            <ref name="sga-pjoin"/>
+            <ref name="sga-pptr"/>
+          </choice>
+        </oneOrMore>
+      </group>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.group.attributes"/>
+      <optional>
+        <attribute name="result">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the result of the joins gathered in this collection.</a:documentation>
+          <ref name="sga-pdata.name"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-palt">
+    <element name="alt">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(alternation) identifies an alternation or a set of choices among elements or passages. [16.8. ]</a:documentation>
+      <empty/>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="alt-constraint-altTargets1">
+        <rule context="tei:alt">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="@target and @targets">You may not supply both 
+	@target and @targets</report>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="alt-constraint-altTargets2">
+        <rule context="tei:alt">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="not(@target) and not(@targets)">You must
+	supply either @target or @targets</report>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="alt-constraint-altTargets3">
+        <rule context="tei:alt">
+          <assert xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="contains(@target,' ')">You must supply at least two
+values for @target</assert>
+        </rule>
+      </pattern>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <optional>
+        <attribute name="targets">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the identifiers of the alternative elements or passages.</a:documentation>
+          <list>
+            <ref name="sga-pdata.pointer"/>
+            <ref name="sga-pdata.pointer"/>
+            <zeroOrMore>
+              <ref name="sga-pdata.pointer"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="mode">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">states whether the alternations gathered in this collection are exclusive or
+                inclusive.</a:documentation>
+          <choice>
+            <value>excl</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(exclusive) indicates that the alternation is exclusive, i.e. that at most one of the
+                        alternatives occurs.</a:documentation>
+            <value>incl</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inclusive) indicates that the alternation is not exclusive, i.e. that one or more of
+                        the alternatives occur.</a:documentation>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="weights">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">If mode is , each weight states the probability that
+                the corresponding alternative occurs. If mode is incl each
+                weight states the probability that the corresponding alternative occurs given that
+                at least one of the other alternatives occurs.</a:documentation>
+          <list>
+            <ref name="sga-pdata.probability"/>
+            <ref name="sga-pdata.probability"/>
+            <zeroOrMore>
+              <ref name="sga-pdata.probability"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-paltGrp">
+    <element name="altGrp">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(alternation group) groups a collection of alt elements and possibly pointers. [16.8. ]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <ref name="sga-palt"/>
+          <ref name="sga-pptr"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.group.attributes"/>
+      <optional>
+        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="mode" a:defaultValue="excl">
+          <a:documentation>states whether the alternations gathered in this collection are exclusive or
+                inclusive.</a:documentation>
+          <choice>
+            <value>excl</value>
+            <a:documentation>(exclusive) indicates that the alternation is exclusive, i.e. that at most one of the
+                        alternatives occurs.</a:documentation>
+            <value>incl</value>
+            <a:documentation>(inclusive) indicates that the alternation is not exclusive, i.e. that one or more of
+                        the alternatives occur.</a:documentation>
+          </choice>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-patt.global.linking.attributes">
+    <ref name="sga-patt.global.linking.attribute.corresp"/>
+    <ref name="sga-patt.global.linking.attribute.synch"/>
+    <ref name="sga-patt.global.linking.attribute.sameAs"/>
+    <ref name="sga-patt.global.linking.attribute.copyOf"/>
+    <ref name="sga-patt.global.linking.attribute.next"/>
+    <ref name="sga-patt.global.linking.attribute.prev"/>
+    <ref name="sga-patt.global.linking.attribute.exclude"/>
+    <ref name="sga-patt.global.linking.attribute.select"/>
+  </define>
+  <define name="sga-patt.global.linking.attribute.corresp">
+    <optional>
+      <attribute name="corresp">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) points to elements that correspond to the current
+      element in some way.</a:documentation>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.pointer"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.linking.attribute.synch">
+    <optional>
+      <attribute name="synch">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(synchronous) points to elements that are synchronous with the current
+      element.</a:documentation>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.pointer"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.linking.attribute.sameAs">
+    <optional>
+      <attribute name="sameAs">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to an element that is the same as the current
+      element.</a:documentation>
+        <ref name="sga-pdata.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.linking.attribute.copyOf">
+    <optional>
+      <attribute name="copyOf">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to an element of which the current element is a
+	copy.</a:documentation>
+        <ref name="sga-pdata.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.linking.attribute.next">
+    <optional>
+      <attribute name="next">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to the next element of a virtual aggregate of which
+      the current element is part.</a:documentation>
+        <ref name="sga-pdata.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.linking.attribute.prev">
+    <optional>
+      <attribute name="prev">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(previous) points to the previous element of a virtual aggregate of
+      which the current element is part.</a:documentation>
+        <ref name="sga-pdata.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.linking.attribute.exclude">
+    <optional>
+      <attribute name="exclude">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to elements that are in exclusive alternation
+      with the current element.</a:documentation>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.pointer"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.linking.attribute.select">
+    <optional>
+      <attribute name="select">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">selects one or more alternants; if one alternant is
+      selected, the ambiguity or uncertainty is marked as resolved. If
+      more than one alternant is selected, the degree of ambiguity or
+      uncertainty is marked as reduced by the number of alternants not
+      selected.</a:documentation>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.pointer"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
   </define>
   <start>
     <ref name="sga-psourceDoc"/>
