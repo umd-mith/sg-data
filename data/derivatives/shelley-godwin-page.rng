@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-09T17:29:53Z. 
+Schema generated from ODD source 2012-02-09T17:38:51Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -465,24 +465,6 @@ only one of its kind, in which case it is selected if its parent is selected.</a
       </attribute>
     </optional>
   </define>
-  <define name="sga-patt.declaring.attributes">
-    <ref name="sga-patt.declaring.attribute.decls"/>
-  </define>
-  <define name="sga-patt.declaring.attribute.decls">
-    <optional>
-      <attribute name="decls">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies one or more declarable elements within the
-header, which are understood to apply to the element bearing this
-attribute and its content.</a:documentation>
-        <list>
-          <ref name="sga-pdata.pointer"/>
-          <zeroOrMore>
-            <ref name="sga-pdata.pointer"/>
-          </zeroOrMore>
-        </list>
-      </attribute>
-    </optional>
-  </define>
   <define name="sga-patt.divLike.attributes">
     <ref name="sga-patt.divLike.attribute.org"/>
     <ref name="sga-patt.divLike.attribute.sample"/>
@@ -637,7 +619,6 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
   <define name="sga-patt.global.attributes">
     <ref name="sga-patt.global.linking.attributes"/>
     <ref name="sga-patt.global.facs.attributes"/>
-    <ref name="sga-patt.global.change.attributes"/>
     <ref name="sga-patt.global.attribute.xmlid"/>
     <ref name="sga-patt.global.attribute.n"/>
     <ref name="sga-patt.global.attribute.rendition"/>
@@ -948,21 +929,12 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
   </define>
   <define name="sga-patt.typed.attributes">
     <ref name="sga-patt.typed.attribute.type"/>
-    <ref name="sga-patt.typed.attribute.subtype"/>
   </define>
   <define name="sga-patt.typed.attribute.type">
     <optional>
       <attribute name="type">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient
  classification scheme or typology.</a:documentation>
-        <ref name="sga-pdata.enumerated"/>
-      </attribute>
-    </optional>
-  </define>
-  <define name="sga-patt.typed.attribute.subtype">
-    <optional>
-      <attribute name="subtype">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a sub-categorization of the element, if needed</a:documentation>
         <ref name="sga-pdata.enumerated"/>
       </attribute>
     </optional>
@@ -1005,12 +977,6 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
         </choice>
       </attribute>
     </optional>
-  </define>
-  <define name="sga-patt.pointing.group.attributes">
-    <ref name="sga-patt.pointing.attributes"/>
-    <ref name="sga-patt.typed.attributes"/>
-    <ref name="sga-patt.pointing.group.attribute.domains"/>
-    <ref name="sga-patt.pointing.group.attribute.targFunc"/>
   </define>
   <define name="sga-patt.pointing.group.attribute.domains">
     <optional>
@@ -3167,7 +3133,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1.  7.2.5. ]</a:documentation>
       <ref name="sga-pmacro.paraContent"/>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -3309,7 +3274,6 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
     phrase. [3.3.4. ]</a:documentation>
       <ref name="sga-pmacro.phraseSeq"/>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <ref name="sga-patt.translatable.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <ref name="sga-patt.pointing.attributes"/>
@@ -3329,7 +3293,6 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
     term. [3.3.4. ]</a:documentation>
       <ref name="sga-pmacro.phraseSeq"/>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <ref name="sga-patt.pointing.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <ref name="sga-patt.canonical.attributes"/>
@@ -3648,7 +3611,6 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
       <ref name="sga-patt.pointing.attributes"/>
       <ref name="sga-patt.internetMedia.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <optional>
         <attribute name="cRef">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference from a
@@ -3678,7 +3640,6 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
       <ref name="sga-patt.pointing.attributes"/>
       <ref name="sga-patt.internetMedia.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <optional>
         <attribute name="cRef">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the reference by supplying a canonical reference from a
@@ -3884,7 +3845,6 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
       </zeroOrMore>
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.internetMedia.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <optional>
         <attribute name="width">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The display width of the image</a:documentation>
@@ -4194,7 +4154,6 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.divLike.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4304,7 +4263,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
         </optional>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
@@ -4424,7 +4382,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
         </zeroOrMore>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4458,7 +4415,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
         </zeroOrMore>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4491,7 +4447,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
         </optional>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
@@ -4552,7 +4507,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.divLike.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4910,7 +4864,6 @@ found  at the start of a document, before the main body. [4.6.  4. ]</a:document
         </group>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4970,7 +4923,6 @@ found  at the start of a document, before the main body. [4.6.  4. ]</a:document
         </group>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4994,7 +4946,6 @@ a set of images rather than as transcribed or encoded text. [11.1. ]</a:document
         </optional>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -5014,7 +4965,6 @@ a set of images rather than as transcribed or encoded text. [11.1. ]</a:document
         </oneOrMore>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <empty/>
     </element>
   </define>
@@ -5025,24 +4975,6 @@ a set of images rather than as transcribed or encoded text. [11.1. ]</a:document
     <optional>
       <attribute name="facs">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(facsimile) points to all or part of an image which corresponds with the content of the element.</a:documentation>
-        <list>
-          <ref name="sga-pdata.pointer"/>
-          <zeroOrMore>
-            <ref name="sga-pdata.pointer"/>
-          </zeroOrMore>
-        </list>
-      </attribute>
-    </optional>
-  </define>
-  <define name="sga-patt.global.change.attributes">
-    <ref name="sga-patt.global.change.attribute.change"/>
-  </define>
-  <define name="sga-patt.global.change.attribute.change">
-    <optional>
-      <attribute name="change">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more change elements documenting
-      a state or revision campaign to which the element bearing this
-      attribute and its children have been assigned by the encoder.</a:documentation>
         <list>
           <ref name="sga-pdata.pointer"/>
           <zeroOrMore>
@@ -5107,7 +5039,6 @@ that space, zones of interest within that space, and transcriptions of the
       <ref name="sga-patt.global.linking.attribute.next"/>
       <ref name="sga-patt.global.linking.attribute.prev"/>
       <ref name="sga-patt.global.facs.attributes"/>
-      <ref name="sga-patt.global.change.attributes"/>
       <ref name="sga-patt.coordinated.attribute.start"/>
       <attribute name="ulx">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the x coordinate value for the upper left corner of a
@@ -5129,7 +5060,6 @@ rectangular space.</a:documentation>
 rectangular space.</a:documentation>
         <ref name="sga-pdata.numeric"/>
       </attribute>
-      <ref name="sga-patt.declaring.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
@@ -5148,7 +5078,6 @@ rectangular space.</a:documentation>
       </oneOrMore>
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.coordinated.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
@@ -5715,7 +5644,10 @@ values for @target</sch:assert>
         </choice>
       </oneOrMore>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.group.attributes"/>
+      <ref name="sga-patt.pointing.group.attribute.domains"/>
+      <ref name="sga-patt.pointing.group.attribute.targFunc"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
   </define>
@@ -5725,7 +5657,6 @@ values for @target</sch:assert>
       <ref name="sga-pmacro.paraContent"/>
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
-      <ref name="sga-patt.declaring.attributes"/>
       <optional>
         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="part" a:defaultValue="N">
           <a:documentation>specifies whether or not the block is complete. </a:documentation>
@@ -5937,7 +5868,10 @@ values for @target</assert>
         </oneOrMore>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.group.attributes"/>
+      <ref name="sga-patt.pointing.group.attribute.domains"/>
+      <ref name="sga-patt.pointing.group.attribute.targFunc"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
       <optional>
         <attribute name="result">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the result of the joins gathered in this collection.</a:documentation>
@@ -6026,7 +5960,10 @@ values for @target</assert>
         </choice>
       </zeroOrMore>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.group.attributes"/>
+      <ref name="sga-patt.pointing.group.attribute.domains"/>
+      <ref name="sga-patt.pointing.group.attribute.targFunc"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
       <optional>
         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="mode" a:defaultValue="excl">
           <a:documentation>states whether the alternations gathered in this collection are exclusive or

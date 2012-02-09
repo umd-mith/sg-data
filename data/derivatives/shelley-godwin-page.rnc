@@ -5,7 +5,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-09T17:29:53Z. 
+# Schema generated from ODD source 2012-02-09T17:38:51Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -261,15 +261,6 @@ sga-patt.declarable.attribute.default =
       ## only one of its kind, in which case it is selected if its parent is selected.
       "false"
   }?
-sga-patt.declaring.attributes = sga-patt.declaring.attribute.decls
-sga-patt.declaring.attribute.decls =
-  
-  ## identifies one or more declarable elements within the
-  ## header, which are understood to apply to the element bearing this
-  ## attribute and its content.
-  attribute decls {
-    list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
 sga-patt.divLike.attributes =
   sga-patt.divLike.attribute.org,
   sga-patt.divLike.attribute.sample,
@@ -401,7 +392,6 @@ sga-patt.editLike.attribute.instant =
 sga-patt.global.attributes =
   sga-patt.global.linking.attributes,
   sga-patt.global.facs.attributes,
-  sga-patt.global.change.attributes,
   sga-patt.global.attribute.xmlid,
   sga-patt.global.attribute.n,
   sga-patt.global.attribute.rendition
@@ -653,17 +643,12 @@ sga-patt.placement.attribute.place =
        | xsd:Name)*
     }
   }?
-sga-patt.typed.attributes =
-  sga-patt.typed.attribute.type, sga-patt.typed.attribute.subtype
+sga-patt.typed.attributes = sga-patt.typed.attribute.type
 sga-patt.typed.attribute.type =
   
   ## characterizes the element in some sense, using any convenient
   ##  classification scheme or typology.
   attribute type { sga-pdata.enumerated }?
-sga-patt.typed.attribute.subtype =
-  
-  ## provides a sub-categorization of the element, if needed
-  attribute subtype { sga-pdata.enumerated }?
 sga-patt.pointing.attributes =
   sga-patt.pointing.attribute.target,
   sga-patt.pointing.attribute.evaluate
@@ -694,11 +679,6 @@ sga-patt.pointing.attribute.evaluate =
       ##	  pointer's target.
       "none"
   }?
-sga-patt.pointing.group.attributes =
-  sga-patt.pointing.attributes,
-  sga-patt.typed.attributes,
-  sga-patt.pointing.group.attribute.domains,
-  sga-patt.pointing.group.attribute.targFunc
 sga-patt.pointing.group.attribute.domains =
   
   ## optionally specifies the identifiers of the elements
@@ -1460,10 +1440,7 @@ sga-pp =
   
   ## (paragraph) marks paragraphs in prose. [3.1.  7.2.5. ]
   element p {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
-    empty
+    sga-pmacro.paraContent, sga-patt.global.attributes, empty
   }
 sga-pforeign =
   
@@ -1588,7 +1565,6 @@ sga-pgloss =
   element gloss {
     sga-pmacro.phraseSeq,
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     sga-patt.translatable.attributes,
     sga-patt.typed.attributes,
     sga-patt.pointing.attributes,
@@ -1605,7 +1581,6 @@ sga-pterm =
   element term {
     sga-pmacro.phraseSeq,
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     sga-patt.pointing.attributes,
     sga-patt.typed.attributes,
     sga-patt.canonical.attributes,
@@ -1875,7 +1850,6 @@ sga-pptr =
     sga-patt.pointing.attributes,
     sga-patt.internetMedia.attributes,
     sga-patt.typed.attributes,
-    sga-patt.declaring.attributes,
     
     ## (canonical reference) specifies the destination of the pointer by supplying a canonical reference from a
     ##         scheme defined in a refsDecl element in the TEI header
@@ -1912,7 +1886,6 @@ sga-pref =
     sga-patt.pointing.attributes,
     sga-patt.internetMedia.attributes,
     sga-patt.typed.attributes,
-    sga-patt.declaring.attributes,
     
     ## (canonical reference) specifies the destination of the reference by supplying a canonical reference from a
     ##         scheme defined in a refsDecl element in the TEI header
@@ -2045,7 +2018,6 @@ sga-pgraphic =
     sga-pmodel.glossLike*,
     sga-patt.global.attributes,
     sga-patt.internetMedia.attributes,
-    sga-patt.declaring.attributes,
     
     ## The display width of the image
     attribute width { sga-pdata.outputMeasurement }?,
@@ -2337,7 +2309,6 @@ sga-plg =
     sga-patt.global.attributes,
     sga-patt.divLike.attributes,
     sga-patt.typed.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-psp =
@@ -2417,7 +2388,6 @@ sga-ptext =
      sga-pmodel.global*,
      (sga-pback, sga-pmodel.global*)?),
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     sga-patt.typed.attributes,
     empty
   }
@@ -2440,7 +2410,6 @@ sga-pbody =
              (sga-pmodel.global | sga-pmodel.divGenLike)*)+)?)),
      (sga-pmodel.divBottom, sga-pmodel.global*)*),
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-pgroup =
@@ -2454,7 +2423,6 @@ sga-pgroup =
       (sga-ptext | sga-pgroup | sga-pmodel.global)*),
      sga-pmodel.divBottom*),
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-pfloatingText =
@@ -2468,7 +2436,6 @@ sga-pfloatingText =
      sga-pmodel.global*,
      (sga-pback, sga-pmodel.global*)?),
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     sga-patt.typed.attributes,
     empty
   }
@@ -2486,7 +2453,6 @@ sga-pdiv =
     sga-patt.global.attributes,
     sga-patt.divLike.attributes,
     sga-patt.typed.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-ptrailer =
@@ -2720,7 +2686,6 @@ sga-pfront =
      (sga-pmodel.divBottomPart,
       (sga-pmodel.divBottomPart | sga-pmodel.global)*)?),
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-pback =
@@ -2741,7 +2706,6 @@ sga-pback =
      (sga-pmodel.divBottomPart,
       (sga-pmodel.divBottomPart | sga-pmodel.global)*)?),
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-pfacsimile =
@@ -2753,7 +2717,6 @@ sga-pfacsimile =
      (sga-pmodel.graphicLike | sga-psurface | sga-psurfaceGrp)+,
      sga-pback?),
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-psourceDoc =
@@ -2767,7 +2730,6 @@ sga-psourceDoc =
      | sga-psurface
      | sga-psurfaceGrp)+,
     sga-patt.global.attributes,
-    sga-patt.declaring.attributes,
     empty
   }
 sga-patt.global.facs.attributes = sga-patt.global.facs.attribute.facs
@@ -2775,16 +2737,6 @@ sga-patt.global.facs.attribute.facs =
   
   ## (facsimile) points to all or part of an image which corresponds with the content of the element.
   attribute facs {
-    list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
-sga-patt.global.change.attributes =
-  sga-patt.global.change.attribute.change
-sga-patt.global.change.attribute.change =
-  
-  ## points to one or more change elements documenting
-  ##       a state or revision campaign to which the element bearing this
-  ##       attribute and its children have been assigned by the encoder.
-  attribute change {
     list { sga-pdata.pointer, sga-pdata.pointer* }
   }?
 sga-psurface =
@@ -2820,7 +2772,6 @@ sga-psurface =
     sga-patt.global.linking.attribute.next,
     sga-patt.global.linking.attribute.prev,
     sga-patt.global.facs.attributes,
-    sga-patt.global.change.attributes,
     sga-patt.coordinated.attribute.start,
     
     ## gives the x coordinate value for the upper left corner of a
@@ -2838,7 +2789,6 @@ sga-psurface =
     ## gives the y coordinate value for the lower right corner of a
     ## rectangular space.
     attribute lry { sga-pdata.numeric },
-    sga-patt.declaring.attributes,
     sga-patt.typed.attributes,
     empty
   }
@@ -2851,7 +2801,6 @@ sga-psurfaceGrp =
     (sga-pmodel.global | sga-psurface | sga-psurfaceGrp)+,
     sga-patt.global.attributes,
     sga-patt.coordinated.attributes,
-    sga-patt.declaring.attributes,
     sga-patt.typed.attributes,
     empty
   }
@@ -3429,7 +3378,10 @@ sga-plinkGrp =
   element linkGrp {
     (sga-plink | sga-pptr)+,
     sga-patt.global.attributes,
-    sga-patt.pointing.group.attributes,
+    sga-patt.pointing.group.attribute.domains,
+    sga-patt.pointing.group.attribute.targFunc,
+    sga-patt.pointing.attributes,
+    sga-patt.typed.attributes,
     empty
   }
 sga-pab =
@@ -3439,7 +3391,6 @@ sga-pab =
     sga-pmacro.paraContent,
     sga-patt.global.attributes,
     sga-patt.typed.attributes,
-    sga-patt.declaring.attributes,
     
     ## specifies whether or not the block is complete. 
     [ a:defaultValue = "N" ]
@@ -3651,7 +3602,10 @@ sga-pjoinGrp =
   element joinGrp {
     (sga-pmodel.glossLike*, (sga-pjoin | sga-pptr)+),
     sga-patt.global.attributes,
-    sga-patt.pointing.group.attributes,
+    sga-patt.pointing.group.attribute.domains,
+    sga-patt.pointing.group.attribute.targFunc,
+    sga-patt.pointing.attributes,
+    sga-patt.typed.attributes,
     
     ## describes the result of the joins gathered in this collection.
     attribute result { sga-pdata.name }?,
@@ -3760,7 +3714,10 @@ sga-paltGrp =
   element altGrp {
     (sga-palt | sga-pptr)*,
     sga-patt.global.attributes,
-    sga-patt.pointing.group.attributes,
+    sga-patt.pointing.group.attribute.domains,
+    sga-patt.pointing.group.attribute.targFunc,
+    sga-patt.pointing.attributes,
+    sga-patt.typed.attributes,
     
     ## states whether the alternations gathered in this collection are exclusive or
     ##                 inclusive.
