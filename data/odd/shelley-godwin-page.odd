@@ -60,15 +60,16 @@
 
                     <!-- Additional modules -->
                     <moduleRef key="transcr"/>
-                    <moduleRef key="linking"/><!-- included principally for the att.linking class -->
-                    
+                    <moduleRef key="linking"/>
+                    <!-- included principally for the att.linking class -->
+
                     <!-- Class-level modifications -->
                     <classSpec type="atts" ident="att.coordinated.attributes" mode="change">
                         <attList>
                             <attDef ident="start" mode="delete"/>
                         </attList>
                     </classSpec>
-                    
+
                     <elementSpec ident="surface" module="transcr" mode="change">
                         <content>
                             <rng:ref name="att.global.attributes"/>
@@ -110,14 +111,24 @@
                         </content>
                         <attList>
                             <attDef ident="xml:id" mode="change" usage="req"/>
-                            
+
                             <!-- Make the attributes to set the coordinate grid of the page required; should be automatically generated -->
                             <attDef ident="ulx" mode="change" usage="req"/>
                             <attDef ident="uly" mode="change" usage="req"/>
                             <attDef ident="lrx" mode="change" usage="req"/>
                             <attDef ident="lry" mode="change" usage="req"/>
-                            
-                            <attDef ident="n" mode="change" usage="rec"/>                            
+
+                            <attDef ident="n" mode="change" usage="rec"/>
+
+                            <attDef ident="partOf" ns="http://www.shelleygodwinarchive.org/ns/1.0"
+                                mode="add">
+                                <desc>Refers to the id of the sourceDoc element with which this
+                                    surface should be associated. Syntactic sugar.</desc>
+                                <datatype>
+                                    <rng:ref name="data.pointer"/>
+                                </datatype>
+                            </attDef>
+
                             <!-- See note above re: Whitman integration -->
                             <attDef ident="attachment" mode="delete"/>
                             <attDef ident="flipping" mode="delete"/>
