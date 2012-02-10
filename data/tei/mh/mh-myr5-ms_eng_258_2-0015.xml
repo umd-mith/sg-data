@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?>
+<surface
+  xmlns="http://www.tei-c.org/ns/1.0" xml:id="mh-myr5-ms_eng_258_2-0015"
+  ulx="0" uly="0" lrx="3874" lry="5304">
+  <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0015.tif"/>
+    <zone>
+    </zone>
+</surface>
+
