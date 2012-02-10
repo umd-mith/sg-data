@@ -1160,24 +1160,28 @@ An Anticipation<lb/>
 <lg>
 <head>Written at Cwm Ellan  1811</head>
 <lg>
-<l>When the peasant hies him home, and the day-planet reposes,</l>
-<l>Pillowed on the azure peaks that bound the western sight,</l>
+<l>When the peasant hies him home, &#38; the day planet reposes</l>
+<l>Pillowed on the azure peaks that bound the western sight</l>
 <l>When each mountain flower its modest petal tremulously closes</l>
-<l>And sombre, shrouded twilight comes to lead her sister Night.</l>
+<l>And sombre shrouded twilight comes to lead her sister Night.</l>
 <l>Vestal dark! how dear to me are then thy dews of lightness</l>
-<l>That bathe my brow so withering, scorched beneath the daybeam’s brightness:</l>
-<l>More dear to me, tho’ day be robed in vest of dazzling whiteness,</l>
-<l>Is one folding of the garment dusk that wraps thy form, O Night!</l> 
+<l>That bathe my brow so withering scorched beneath the daybeams brightness</l>
+<l>More dear to me, tho’ day be robed in vest of dazzling whiteness</l>
+<l>Is one folding of the garment dusk that wraps thy form O Night!</l> 
 </lg>
   <lg>
-<l>With thee I still delight to sit where dizzy Danger slumbers,</l>
-<l>Where ’mid the rocks the fitful blast hath wak’d its wildest lay</l>
-<l>Till beneath the yellow moonbeam decay the dying numbers,</l>
-<l>And silence, even in fancy’s throne, hath seized again the sway.</l>
+<l>With thee I still delight to sit where dizzy Danger slumbers</l>
+<l>Where mid the rocks the fitful blast hath wakd its wildest lay</l>
+<l>Till beneath the yellow moonbeam decay the dying numbers</l>
+<l>And silence even in fancys throne hath seized again the sway.</l>
 <l>Again she must resign it, hark! for wildest cadence pouring</l>
-<l>Far, far amid the viewless glen beneath, the Ellan roaring</l>
-<l>Mid tongued woods, and shapeless rocks with moonlight summits soaring</l>      
-<l>It mingles its magic murmuring with the blast that floats away.</l>
+<l>Far, far amid the viewless 
+  <subst>
+    <add place="supralinear">glen</add>
+    <del rend="overstrike">rocks</del>
+  </subst> beneath the Ellan roaring</l>
+<l>Mid tangled woods, &#38; shapeless rocks with moonlight summits soaring</l>      
+<l>It mingles its magic murmuring with the blast that floats <add place="sublinear">821</add>away</l>
   </lg>
   </lg>
 
@@ -1185,131 +1189,134 @@ An Anticipation<lb/>
 <head>To Death</head>
 <lg>
 <l>Death, where is thy victory!</l>
-<l>To triumph whilst I die,</l>
+<l>To triumph whilst I die</l>
 <l>To triumph whilst thine ebon wing</l>
-<l>Infolds my shuddering soul,</l>
-<l>O Death, where is thy sting?</l>
-<l>Not when the tides of murder roll,</l>
-<l>When Nations groan that Kings may bask in bliss,</l>
-<l>Death, couldst thou boast a victory such as this,—</l>
-<l>When in his hour</l>
-<l>Of pomp and power</l>
-<l>Thy slave, the mightiest murderer, gave</l> 
+<l>Infolds my shuddering soul</l>
+<l>O Death where is thy sting?</l>
+<l>Not when the tides of murder roll</l>
+<l>When Nations groan that Kings may bask in bliss</l>
+<l>Death couldst thou boast a victory such as this</l>
+<l><del rend="overstrike">When in</del>When in his hour</l>
+<l>Of pomp &#38; power</l>
+<l>Thy slave the mightiest murderer gave</l> 
 <l>Mid nature’s cries</l>
 <l>The sacrifize</l>
-<l>Of myriads to glut the grave,—</l>
-<l>When sunk the tyrant, sensualism’s slave,</l>
-<l>Or Freedom’s life-blood streamed upon thy shrine?</l>
-<l>Stern despot, couldst thou boast a Victory such as mine?—</l> 
+<l>Of myriads to glut the grave</l>
+<l>When sunk the tyrant sensualism’s slave</l>
+<l>Or Freedoms life blood streamed upon thy shrine</l>
+<l>Stern despot couldst thou boast a Victory such as mine</l> 
 </lg>
   <lg>
-<l>To know, in dissolution’s void</l>
-<l>That Earthly hopes and fears decay,</l>
-<l>That every sense but Love, destroyed,</l>
-<l>Must perish with its kindred clay,—</l>
+<l>To know in dissolutions void</l>
+<l>That Earthly hopes &#38; fears decay</l>
+<l>That every sense but Love destroyed,</l>
+<l>Must perish with its kindred clay</l>
 <l>Perish ambition’s crown!</l>
-<l>Perish its sceptered sway;</l>
-<l>From Death’s pale front fade Pride’s fastidious frown</l>
-<l>In death’s damp vault, the lurid fires decay</l>
-<l>Which Envy lights at heaven-born virtue’s beam;</l>
+<l>Perish its sceptered sway</l>
+<l>From Deaths pale front fade Pride’s fastidious frown</l>
+<l>In death’s damp vault the lurid fires decay</l>
+<l>Which Envy lights at heaven born virtue’s beam</l>
 <l>That all the cares subside</l>
 <l>Which lurk beneath the tide</l>
 <l>Of life’s unquiet stream . . . .</l>
 <l>Yes! this were Victory!</l>
 <l>And on some rock whose dark form glooms the sky</l>
-<l>To stretch these pale limbs when the soul is fled,</l> 
-<l>To baffle the lean passions of their prey,</l>
+<l>To stretch these pale limbs when the soul is fled</l> 
+<l>To baffle the lean passions of their prey</l>
 <l>To sleep within the chambers of the dead!—</l>
 <l>Oh! not the Wretch around whose dazzling throne</l>
-<l>His countless courtiers mock the words they say,</l>
-<l>Triumphs amid the bud of glory blown,</l>
-<l>As I on Death’s last pang and faint expiring groan.</l> 
+<l>His countless courtiers mock the words they say</l>
+<l>Triumphs amid the bud of glory blown</l>
+<l>As I on Deaths last pang &#38; faint expiring groan</l> 
   </lg>
   <lg>
-<l>Tremble, ye Kings whose luxury mocks the woe</l>
-<l>That props thy column of unnatural state:</l>
-<l>Ye the curses deep tho’ low</l>
-<l>From misery’s tortured breast that flow</l> 
+<l>Tremble ye Kings whose luxury mocks the woe</l>
+<l>That props thy column of unnatural state</l>
+<l>Ye the curses deep tho low</l>
+<l>From miserys tortured breast that flow</l> 
 <l>Shall usher to your fate.—</l>
-<l>Tremble, ye conquerors at whose fell command</l>
-<l>The War-fiend Riots o’er an happy land—</l>
-<l>Ye, desolation’s gory throng</l>
+<l>Tremble ye conquerors at whose fell command</l>
+<l>The War fiend Riots oer an happy land</l>
+<l>Ye desolations gory throng</l>
 <l>Shall bear from victory along</l>
-<l>To Death’s mysterious strand.</l>
-<l>’Twere Hell that Vice no pain should know</l>
+<l>To Deaths mysterious strand</l>
+<l>Twere Hell that Vice no pain should know</l>
 <l>But every scene that memory gives</l>
-<l>Tho’ from the selfsame fount might flow</l>
+<l>Tho from the selfsame fount might flow</l>
 <l>The joy which Virtue aye receives . . .</l>
-<l>It is the grave—no conqueror triumphs now;</l>
+<l>It is the grave—no conqueror triumphs now</l>
 <l>The wreathes of bay that bound his head</l>
-<l>Wither around his fleshless brow.</l>
+<l>Wither around his fleshless brow</l>
 <l>Where is the mockery fled</l>
-<l>That fired the tyrant’s gaze?</l>
-<l>’Tis like the fitful glare that plays</l>
-<l>On some dark-rolling thunder cloud,</l>
-<l>Plays whilst the thunders roar,</l>
+<l>That fired the tyrants gaze</l>
+<l>Tis like the fitful glare that plays</l>
+<l>On some dark-rolling thunder cloud</l>
+<l>Plays whilst the thunders roar</l>
 <l>But when the storm is past</l>
-<l>Fades like the warrior’s name.</l>
-<l>Death! in thy vault when Kings and peasants lie</l>
-<l>Not power’s stern rod or fame’s most thrilling blasts</l>
-<l>Can liberate thy captives from decay.</l>
-<l>My triumph, their defeat; my joy, their shame.</l>
-<l>Welcome then, peaceful Death, I’ll sleep with thee—</l>
-<l>Mine be thy quiet home, and thine my Victory.</l>
+<l>Fades like the warriors name</l>
+<l>Death! in thy vault when Kings &#38; peasants lie</l>
+<l><subst>
+    <add place="supralinear">Not</add>
+    <del rend="overstrike">Can</del>
+  </subst> powers stern rod or fames most thrilling blasts</l>
+<l>Can liberate thy captives from decay</l>
+<l>My triumph, their defeat; my joy their shame</l>
+<l>Welcome then peaceful Death, I’ll sleep with thee</l>
+<l>Mine be thy quiet home, &#38; thine my Victory.<add place="sublinear">889</add></l>
   </lg>
   </lg>
 
-<lg>
-<head>"Dark Spirit of the desart rude"</head> 
-<lg>
 <l>Dark Spirit of the desart rude</l>
-<l>That o’er this awful solitude,</l>
-<l>Each tangled and untrodden wood,</l>
-<l>Each dark and silent glen below</l>
-<l>Where sunlight’s gleamings never glow,</l>
-<l>Whilst jetty, musical and still,</l>
-<l>In darkness speeds the mountain rill;</l>
-<l>That o’er yon broken peaks sublime,</l>
-<l>Wild shapes that mock the scythe of time,</l>
-<l>And the pure Ellan’s foamy course,</l>
-<l>Wavest thy wand of magic force—</l>
-<l>Art thou yon sooty and fearful fowl</l>
-<l>That flaps its wing o’er the leafless oak</l>
-<l>That o’er the dismal scene doth scowl</l>
+<l>That oer this awful solitude</l>
+<l>Each tangled &#38; untrodden wood.</l>
+<l>Each dark &#38; silent glen below</l>
+<l>Where sunlights gleamings never glow</l>
+<l>Whilst jetty musical &#38; still</l>
+<l>In darkness speeds the mountain rill</l>
+<l>That oer yon broken peaks sublime</l>
+<l>Wild shapes that mock the scythe of time</l>
+<l>And the pure Ellans foamy course</l>
+<l>Wavest thy wand of magic force</l>
+<l>Art thou yon sooty &#38; fearful fowl</l>
+<l>That flaps its wing oer the leafless oak</l>
+<l>That oer the dismal scene doth scowl</l>
 <l>And mocketh music with its croak?</l> 
 </lg>
   <lg>
 <l>I’ve sought thee where day’s beams decay</l>
-<l>On the peak of the lonely hill;</l>
-<l>I’ve sought thee where they melt away</l>
-<l>By the wave of the pebbly rill;</l>
-<l>I’ve strained to catch thy murky form</l>
-<l>Bestride the rapid and gloomy storm:</l>
-<l>Thy red and sullen eyeball’s glare</l>
-<l>Has shot, in a dream thro’ the midnight air</l>
+<l>On the peak of the lonely hill</l>
+<l>Ive sought thee where they melt away</l>
+<l>By the wave of the pebbly rill</l>
+<l>Ive strained to catch thy murky form</l>
+<l>Bestride the rapid &#38; gloomy storm</l>
+<l>Thy red &#38; sullen eyeballs glare</l>
+<l>Has shot, in a dream thro the midnight air</l>
 <l>But never did thy shape express</l>
-<l>Such an emphatic gloominess.</l>
+<l>Such an emphatic gloominess</l>
   </lg>
   <lg>
-<l>And where art thou, O thing of gloom? . .</l>
-<l>On Nature’s unreviving tomb</l>
-<l>Where sapless, blasted and alone</l>
+<l>And where art thou O thing of gloom? . .</l>
+<l>On natures unreviving tomb</l>
+<l>Where sapless blasted &#38; alone</l>
 <l>She mourns her blooming centuries gone!—</l>
-<l>From the fresh sod the Violets peep,</l>
-<l>The buds have burst their frozen sleep,</l>
-<l>Whilst every green and peopled tree</l>
-<l>Is alive with Earth’s sweet melody.</l>
-<l>But thou alone art here,</l>
+<l>From the fresh sod the Violets peep</l>
+<l>The buds have burst their frozen sleep</l>
+<l>Whilst every green &#38; peopled tree</l>
+<l>Is alive with Earths sweet melody.</l>
+<l>But thou alone art here</l>
 <l>Thou desolate Oak, whose scathed head</l>
-<l>For ages has never trembled,</l>
-<l>Whose giant trunk dead lichens bind,</l>
-<l>Moaningly sighing in the wind,</l>
-<l>With huge loose rocks beneath thee spread—</l>
+<l>For ages has never trembled</l>
+<l>Whose giant trunk dead lichens bind</l>
+<l>Moaningly sighing in the wind</l>
+<l>With huge loose rocks beneath thee spread</l>
 <l>Thou, Thou alone art here!</l>  
-<l>Remote from every living thing,</l>
-<l>Tree, shrub or grass or flower,</l>
+<l>Remote from every living thing</l>
+<l>Tree shrub or grass or flower</l>
 <l>Thou seemest of this spot the King</l>
-<l>And with a regal power</l>
+<l><subst>
+  <add place="supralinear"><del rend="strikethough">And</del></add><add place="supralinear">And</add>
+  <del rend="strikethough">That</del>
+</subst> with a regal power</l>
 <l>Suck like that race all sap away</l>
 <l><hi rend="underline">And yet upon the spoil decay</hi></l>
   </lg>
