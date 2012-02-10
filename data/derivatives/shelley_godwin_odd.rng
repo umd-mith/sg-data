@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-10T15:24:49Z. 
+Schema generated from ODD source 2012-02-10T16:00:25Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -131,6 +131,11 @@ Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
   </define>
   <define name="sga_data.pattern">
     <data type="token"/>
+  </define>
+  <define name="sga_data.point">
+    <data type="token">
+      <param name="pattern">(\-?[0-9]+\.?[0-9]*,\-?[0-9]+\.?[0-9]*)</param>
+    </data>
   </define>
   <define name="sga_data.pointer">
     <data type="anyURI"/>
@@ -318,6 +323,53 @@ Suggested values include: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches
         of this measurement.
 Sample values include: 1] all; 2] most; 3] range</a:documentation>
         <ref name="sga_data.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.damaged.attributes">
+    <ref name="sga_att.dimensions.attributes"/>
+    <ref name="sga_att.damaged.attribute.hand"/>
+    <ref name="sga_att.damaged.attribute.agent"/>
+    <ref name="sga_att.damaged.attribute.degree"/>
+    <ref name="sga_att.damaged.attribute.group"/>
+  </define>
+  <define name="sga_att.damaged.attribute.hand">
+    <optional>
+      <attribute name="hand">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">In the case of damage (deliberate defacement, inking out, etc.) assignable to a distinct
+        hand, signifies the hand responsible for the damage.</a:documentation>
+        <ref name="sga_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.damaged.attribute.agent">
+    <optional>
+      <attribute name="agent">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">categorizes the cause of the damage, if it can be identified.
+Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
+        <ref name="sga_data.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.damaged.attribute.degree">
+    <optional>
+      <attribute name="degree">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Signifies the degree of damage according to a convenient scale. The damage tag
+        with the degree attribute should only be used where the text may be read with
+        some confidence; text supplied from other sources should be tagged as supplied.</a:documentation>
+        <choice>
+          <ref name="sga_data.probability"/>
+          <ref name="sga_data.certainty"/>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.damaged.attribute.group">
+    <optional>
+      <attribute name="group">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">assigns an arbitrary number to each stretch of damage regarded as forming part of the
+        same physical phenomenon.</a:documentation>
+        <ref name="sga_data.count"/>
       </attribute>
     </optional>
   </define>
@@ -610,6 +662,8 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
     </optional>
   </define>
   <define name="sga_att.global.attributes">
+    <ref name="sga_att.global.facs.attributes"/>
+    <ref name="sga_att.global.change.attributes"/>
     <ref name="sga_att.global.attribute.xmlid"/>
     <ref name="sga_att.global.attribute.n"/>
     <ref name="sga_att.global.attribute.xmllang"/>
@@ -1414,6 +1468,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_choice"/>
       <ref name="sga_abbr"/>
       <ref name="sga_expan"/>
+      <ref name="sga_ex"/>
+      <ref name="sga_am"/>
+      <ref name="sga_subst"/>
     </choice>
   </define>
   <define name="sga_model.pPart.editorial_alternation">
@@ -1421,12 +1478,18 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_choice"/>
       <ref name="sga_abbr"/>
       <ref name="sga_expan"/>
+      <ref name="sga_ex"/>
+      <ref name="sga_am"/>
+      <ref name="sga_subst"/>
     </choice>
   </define>
   <define name="sga_model.pPart.editorial_sequence">
     <ref name="sga_choice"/>
     <ref name="sga_abbr"/>
     <ref name="sga_expan"/>
+    <ref name="sga_ex"/>
+    <ref name="sga_am"/>
+    <ref name="sga_subst"/>
   </define>
   <define name="sga_model.pPart.editorial_sequenceOptional">
     <optional>
@@ -1437,6 +1500,15 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga_expan"/>
+    </optional>
+    <optional>
+      <ref name="sga_ex"/>
+    </optional>
+    <optional>
+      <ref name="sga_am"/>
+    </optional>
+    <optional>
+      <ref name="sga_subst"/>
     </optional>
   </define>
   <define name="sga_model.pPart.editorial_sequenceOptionalRepeatable">
@@ -1449,6 +1521,15 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <zeroOrMore>
       <ref name="sga_expan"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_ex"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_am"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_subst"/>
+    </zeroOrMore>
   </define>
   <define name="sga_model.pPart.editorial_sequenceRepeatable">
     <oneOrMore>
@@ -1460,6 +1541,15 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <oneOrMore>
       <ref name="sga_expan"/>
     </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_ex"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_am"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_subst"/>
+    </oneOrMore>
   </define>
   <define name="sga_model.pPart.transcriptional">
     <choice>
@@ -1470,6 +1560,15 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_add"/>
       <ref name="sga_del"/>
       <ref name="sga_unclear"/>
+      <ref name="sga_damage"/>
+      <ref name="sga_handShift"/>
+      <ref name="sga_restore"/>
+      <ref name="sga_supplied"/>
+      <ref name="sga_surplus"/>
+      <ref name="sga_mod"/>
+      <ref name="sga_redo"/>
+      <ref name="sga_retrace"/>
+      <ref name="sga_undo"/>
     </choice>
   </define>
   <define name="sga_model.pPart.transcriptional_alternation">
@@ -1481,6 +1580,15 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_add"/>
       <ref name="sga_del"/>
       <ref name="sga_unclear"/>
+      <ref name="sga_damage"/>
+      <ref name="sga_handShift"/>
+      <ref name="sga_restore"/>
+      <ref name="sga_supplied"/>
+      <ref name="sga_surplus"/>
+      <ref name="sga_mod"/>
+      <ref name="sga_redo"/>
+      <ref name="sga_retrace"/>
+      <ref name="sga_undo"/>
     </choice>
   </define>
   <define name="sga_model.pPart.transcriptional_sequence">
@@ -1491,6 +1599,15 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <ref name="sga_add"/>
     <ref name="sga_del"/>
     <ref name="sga_unclear"/>
+    <ref name="sga_damage"/>
+    <ref name="sga_handShift"/>
+    <ref name="sga_restore"/>
+    <ref name="sga_supplied"/>
+    <ref name="sga_surplus"/>
+    <ref name="sga_mod"/>
+    <ref name="sga_redo"/>
+    <ref name="sga_retrace"/>
+    <ref name="sga_undo"/>
   </define>
   <define name="sga_model.pPart.transcriptional_sequenceOptional">
     <optional>
@@ -1513,6 +1630,33 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga_unclear"/>
+    </optional>
+    <optional>
+      <ref name="sga_damage"/>
+    </optional>
+    <optional>
+      <ref name="sga_handShift"/>
+    </optional>
+    <optional>
+      <ref name="sga_restore"/>
+    </optional>
+    <optional>
+      <ref name="sga_supplied"/>
+    </optional>
+    <optional>
+      <ref name="sga_surplus"/>
+    </optional>
+    <optional>
+      <ref name="sga_mod"/>
+    </optional>
+    <optional>
+      <ref name="sga_redo"/>
+    </optional>
+    <optional>
+      <ref name="sga_retrace"/>
+    </optional>
+    <optional>
+      <ref name="sga_undo"/>
     </optional>
   </define>
   <define name="sga_model.pPart.transcriptional_sequenceOptionalRepeatable">
@@ -1537,6 +1681,33 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <zeroOrMore>
       <ref name="sga_unclear"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_damage"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_handShift"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_restore"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_supplied"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_surplus"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_mod"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_redo"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_retrace"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_undo"/>
+    </zeroOrMore>
   </define>
   <define name="sga_model.pPart.transcriptional_sequenceRepeatable">
     <oneOrMore>
@@ -1559,6 +1730,33 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sga_unclear"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_damage"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_handShift"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_restore"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_supplied"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_surplus"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_mod"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_redo"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_retrace"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_undo"/>
     </oneOrMore>
   </define>
   <define name="sga_model.pPart.edit">
@@ -1600,6 +1798,16 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <oneOrMore>
       <ref name="sga_model.pPart.transcriptional_sequenceRepeatable"/>
     </oneOrMore>
+  </define>
+  <define name="sga_model.linePart">
+    <choice>
+      <ref name="sga_model.segLike"/>
+      <ref name="sga_model.hiLike"/>
+      <ref name="sga_model.pPart.transcriptional"/>
+      <ref name="sga_choice"/>
+      <ref name="sga_zone"/>
+      <ref name="sga_line"/>
+    </choice>
   </define>
   <define name="sga_model.ptrLike">
     <choice>
@@ -1644,29 +1852,53 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.global.meta">
     <choice>
       <ref name="sga_index"/>
+      <ref name="sga_substJoin"/>
+      <ref name="sga_listTranspose"/>
     </choice>
   </define>
   <define name="sga_model.global.meta_alternation">
     <choice>
       <ref name="sga_index"/>
+      <ref name="sga_substJoin"/>
+      <ref name="sga_listTranspose"/>
     </choice>
   </define>
   <define name="sga_model.global.meta_sequence">
     <ref name="sga_index"/>
+    <ref name="sga_substJoin"/>
+    <ref name="sga_listTranspose"/>
   </define>
   <define name="sga_model.global.meta_sequenceOptional">
     <optional>
       <ref name="sga_index"/>
+    </optional>
+    <optional>
+      <ref name="sga_substJoin"/>
+    </optional>
+    <optional>
+      <ref name="sga_listTranspose"/>
     </optional>
   </define>
   <define name="sga_model.global.meta_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga_index"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_substJoin"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_listTranspose"/>
+    </zeroOrMore>
   </define>
   <define name="sga_model.global.meta_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga_index"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_substJoin"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_listTranspose"/>
     </oneOrMore>
   </define>
   <define name="sga_model.milestoneLike">
@@ -1676,6 +1908,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_pb"/>
       <ref name="sga_lb"/>
       <ref name="sga_cb"/>
+      <ref name="sga_fw"/>
     </choice>
   </define>
   <define name="sga_model.milestoneLike_alternation">
@@ -1685,6 +1918,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_pb"/>
       <ref name="sga_lb"/>
       <ref name="sga_cb"/>
+      <ref name="sga_fw"/>
     </choice>
   </define>
   <define name="sga_model.milestoneLike_sequence">
@@ -1693,6 +1927,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <ref name="sga_pb"/>
     <ref name="sga_lb"/>
     <ref name="sga_cb"/>
+    <ref name="sga_fw"/>
   </define>
   <define name="sga_model.milestoneLike_sequenceOptional">
     <optional>
@@ -1709,6 +1944,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sga_cb"/>
+    </optional>
+    <optional>
+      <ref name="sga_fw"/>
     </optional>
   </define>
   <define name="sga_model.milestoneLike_sequenceOptionalRepeatable">
@@ -1727,6 +1965,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <zeroOrMore>
       <ref name="sga_cb"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_fw"/>
+    </zeroOrMore>
   </define>
   <define name="sga_model.milestoneLike_sequenceRepeatable">
     <oneOrMore>
@@ -1743,6 +1984,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sga_cb"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_fw"/>
     </oneOrMore>
   </define>
   <define name="sga_model.gLike">
@@ -1978,22 +2222,40 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga_model.global.edit">
     <choice>
       <ref name="sga_gap"/>
+      <ref name="sga_addSpan"/>
+      <ref name="sga_damageSpan"/>
+      <ref name="sga_delSpan"/>
       <ref name="sga_space"/>
     </choice>
   </define>
   <define name="sga_model.global.edit_alternation">
     <choice>
       <ref name="sga_gap"/>
+      <ref name="sga_addSpan"/>
+      <ref name="sga_damageSpan"/>
+      <ref name="sga_delSpan"/>
       <ref name="sga_space"/>
     </choice>
   </define>
   <define name="sga_model.global.edit_sequence">
     <ref name="sga_gap"/>
+    <ref name="sga_addSpan"/>
+    <ref name="sga_damageSpan"/>
+    <ref name="sga_delSpan"/>
     <ref name="sga_space"/>
   </define>
   <define name="sga_model.global.edit_sequenceOptional">
     <optional>
       <ref name="sga_gap"/>
+    </optional>
+    <optional>
+      <ref name="sga_addSpan"/>
+    </optional>
+    <optional>
+      <ref name="sga_damageSpan"/>
+    </optional>
+    <optional>
+      <ref name="sga_delSpan"/>
     </optional>
     <optional>
       <ref name="sga_space"/>
@@ -2004,12 +2266,30 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_gap"/>
     </zeroOrMore>
     <zeroOrMore>
+      <ref name="sga_addSpan"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_damageSpan"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga_delSpan"/>
+    </zeroOrMore>
+    <zeroOrMore>
       <ref name="sga_space"/>
     </zeroOrMore>
   </define>
   <define name="sga_model.global.edit_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga_gap"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_addSpan"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_damageSpan"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga_delSpan"/>
     </oneOrMore>
     <oneOrMore>
       <ref name="sga_space"/>
@@ -2661,6 +2941,8 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_unclear"/>
       <ref name="sga_abbr"/>
       <ref name="sga_expan"/>
+      <ref name="sga_ex"/>
+      <ref name="sga_am"/>
     </choice>
   </define>
   <define name="sga_model.imprintPart">
@@ -2840,6 +3122,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_model.milestoneLike"/>
       <ref name="sga_model.noteLike"/>
       <ref name="sga_model.global.edit"/>
+      <ref name="sga_metamark"/>
     </choice>
   </define>
   <define name="sga_model.biblPart">
@@ -3072,10 +3355,15 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga_langUsage"/>
       <ref name="sga_textClass"/>
       <ref name="sga_calendarDesc"/>
+      <ref name="sga_handNotes"/>
+      <ref name="sga_listTranspose"/>
     </choice>
   </define>
   <define name="sga_model.resourceLike">
-    <notAllowed/>
+    <choice>
+      <ref name="sga_facsimile"/>
+      <ref name="sga_sourceDoc"/>
+    </choice>
   </define>
   <define name="sga_att.personal.attributes">
     <ref name="sga_att.naming.attributes"/>
@@ -5171,6 +5459,15 @@ codes used elsewhere in the text. [2.3.6.  2.3. ]</a:documentation>
       <empty/>
     </element>
   </define>
+  <define name="sga_handNote">
+    <element name="handNote">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note on hand) describes a particular style or hand distinguished within a manuscript. [10.7.2. ]</a:documentation>
+      <ref name="sga_macro.specialPara"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.handFeatures.attributes"/>
+      <empty/>
+    </element>
+  </define>
   <define name="sga_creation">
     <element name="creation">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about the creation of a text. [2.4.1.  2.4. ]</a:documentation>
@@ -6083,6 +6380,411 @@ found  at the start of a document, before the main body. [4.6.  4. ]</a:document
       <empty/>
     </element>
   </define>
+  <define name="sga_facsimile">
+    <element name="facsimile">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a representation of some written source in the form of
+a set of images rather than as transcribed or encoded text. [11.1. ]</a:documentation>
+      <group>
+        <optional>
+          <ref name="sga_front"/>
+        </optional>
+        <oneOrMore>
+          <choice>
+            <ref name="sga_model.graphicLike"/>
+            <ref name="sga_surface"/>
+            <ref name="sga_surfaceGrp"/>
+          </choice>
+        </oneOrMore>
+        <optional>
+          <ref name="sga_back"/>
+        </optional>
+      </group>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.declaring.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_sourceDoc">
+    <element name="sourceDoc">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> contains a transcription or other representation of a single
+ source document potentially forming part of a dossier
+ génétique or collection of sources.</a:documentation>
+      <group>
+        <oneOrMore>
+          <choice>
+            <ref name="sga_model.global"/>
+            <ref name="sga_model.graphicLike"/>
+            <ref name="sga_surface"/>
+            <ref name="sga_surfaceGrp"/>
+          </choice>
+        </oneOrMore>
+      </group>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.declaring.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_att.global.facs.attributes">
+    <ref name="sga_att.global.facs.attribute.facs"/>
+  </define>
+  <define name="sga_att.global.facs.attribute.facs">
+    <optional>
+      <attribute name="facs">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(facsimile) points to all or part of an image which corresponds with the content of the element.</a:documentation>
+        <list>
+          <ref name="sga_data.pointer"/>
+          <zeroOrMore>
+            <ref name="sga_data.pointer"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.global.change.attributes">
+    <ref name="sga_att.global.change.attribute.change"/>
+  </define>
+  <define name="sga_att.global.change.attribute.change">
+    <optional>
+      <attribute name="change">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more change elements documenting
+      a state or revision campaign to which the element bearing this
+      attribute and its children have been assigned by the encoder.</a:documentation>
+        <list>
+          <ref name="sga_data.pointer"/>
+          <zeroOrMore>
+            <ref name="sga_data.pointer"/>
+          </zeroOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_surface">
+    <element name="surface">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines a written surface as a two-dimensional 
+coordinate space, optionally grouping one or more graphic representations of
+that space, zones of interest within that space, and transcriptions of the
+  writing within them.</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="sga_model.glossLike"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga_model.graphicLike"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <choice>
+            <ref name="sga_model.global"/>
+            <ref name="sga_zone"/>
+            <ref name="sga_line"/>
+            <ref name="sga_surface"/>
+            <ref name="sga_surfaceGrp"/>
+          </choice>
+        </zeroOrMore>
+      </group>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.coordinated.attributes"/>
+      <ref name="sga_att.declaring.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <optional>
+        <attribute name="attachment">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the method by which this surface is or was
+         connected to the main surface
+Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
+          <ref name="sga_data.enumerated"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="flipping">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether the
+      surface is attached and folded in such a way as to provide two
+      writing surfaces</a:documentation>
+          <ref name="sga_data.truthValue"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_surfaceGrp">
+    <element name="surfaceGrp">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any kind of useful grouping of written surfaces, for
+  example the recto and verso of a single leaf, which the encoder
+  wishes to treat as a single unit. </a:documentation>
+      <oneOrMore>
+        <choice>
+          <ref name="sga_model.global"/>
+          <ref name="sga_surface"/>
+          <ref name="sga_surfaceGrp"/>
+        </choice>
+      </oneOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.coordinated.attributes"/>
+      <ref name="sga_att.declaring.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_att.coordinated.attributes">
+    <ref name="sga_att.coordinated.attribute.start"/>
+    <ref name="sga_att.coordinated.attribute.ulx"/>
+    <ref name="sga_att.coordinated.attribute.uly"/>
+    <ref name="sga_att.coordinated.attribute.lrx"/>
+    <ref name="sga_att.coordinated.attribute.lry"/>
+  </define>
+  <define name="sga_att.coordinated.attribute.start">
+    <optional>
+      <attribute name="start">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the element within a transcription of the text
+containing at least the start of the writing represented by this zone
+or surface.</a:documentation>
+        <ref name="sga_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.coordinated.attribute.ulx">
+    <optional>
+      <attribute name="ulx">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the x coordinate value for the upper left corner of a
+rectangular space.</a:documentation>
+        <ref name="sga_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.coordinated.attribute.uly">
+    <optional>
+      <attribute name="uly">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the y coordinate value for the upper left corner of a
+rectangular space.</a:documentation>
+        <ref name="sga_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.coordinated.attribute.lrx">
+    <optional>
+      <attribute name="lrx">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the x coordinate value for the lower right corner of a
+rectangular space.</a:documentation>
+        <ref name="sga_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_att.coordinated.attribute.lry">
+    <optional>
+      <attribute name="lry">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the y coordinate value for the lower right corner of a
+rectangular space.</a:documentation>
+        <ref name="sga_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga_zone">
+    <element name="zone">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any two-dimensional area within a surface
+element. </a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="sga_model.graphicLike"/>
+          <ref name="sga_model.global"/>
+          <ref name="sga_surface"/>
+          <ref name="sga_model.linePart"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.coordinated.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <optional>
+        <attribute name="points">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a two dimensional area within the bounding box
+specified by the other attributes by means of
+a series of pairs of numbers, each of which gives the x,y coordinates
+of a point on a line enclosing the area.</a:documentation>
+          <list>
+            <ref name="sga_data.point"/>
+            <ref name="sga_data.point"/>
+            <ref name="sga_data.point"/>
+            <zeroOrMore>
+              <ref name="sga_data.point"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="rotate" a:defaultValue="0">
+          <a:documentation>indicates the amount by which this zone has been
+         rotated clockwise, with respect to the normal orientation of
+         the parent surface element as implied by the
+         dimensions given in the msDesc element or by the
+         coordinates of the surface itself. The orientation
+         is expressed in arc degrees.</a:documentation>
+          <ref name="sga_data.count"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_addSpan">
+    <element name="addSpan">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(added span of text) marks the beginning of a longer sequence of text added by an
+  author, scribe, annotator or corrector (see also add). [11.3.1.4. ]</a:documentation>
+      <empty/>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="addSpan-constraint-spanTo">
+        <rule context="tei:addSpan">
+          <sch:assert xmlns:s="http://www.ascc.net/xml/schematron" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions" test="@spanTo">The spanTo= attribute of <sch:name/> is required.</sch:assert>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="addSpan-constraint-spanTo_fr">
+        <rule context="tei:addSpan">
+          <sch:assert xmlns:s="http://www.ascc.net/xml/schematron" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions" test="@spanTo">L'attribut spanTo est requis.</sch:assert>
+        </rule>
+      </pattern>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <ref name="sga_att.placement.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_damage">
+    <element name="damage">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an area of damage to the text witness. [11.3.3.1. ]</a:documentation>
+      <ref name="sga_macro.paraContent"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <ref name="sga_att.damaged.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_damageSpan">
+    <element name="damageSpan">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(damaged span of text) marks the beginning of a longer sequence of text which is
+  damaged in some way but still legible. [11.3.3.1. ]</a:documentation>
+      <empty/>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="damageSpan-constraint-spanTo">
+        <rule context="tei:damageSpan">
+          <assert xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions" test="@spanTo">The spanTo= attribute of
+	<name/> is required.</assert>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="damageSpan-constraint-spanTo_fr">
+        <rule context="tei:damageSpan">
+          <assert xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions" test="@spanTo">L'attribut spanTo est requis.</assert>
+        </rule>
+      </pattern>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.damaged.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_delSpan">
+    <element name="delSpan">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deleted span of text) marks the beginning of a longer sequence of text deleted,
+marked as deleted, or otherwise signaled as superfluous or spurious by an
+author, scribe, annotator, or corrector. [11.3.1.4. ]</a:documentation>
+      <empty/>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="delSpan-constraint-spanTo">
+        <rule context="tei:delSpan">
+          <assert xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions" test="@spanTo">The spanTo= attribute of <name/>
+      is required.</assert>
+        </rule>
+      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="delSpan-constraint-spanTo_fr">
+        <rule context="tei:delSpan">
+          <assert xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions" test="@spanTo">L'attribut spanTo est requis.</assert>
+        </rule>
+      </pattern>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_ex">
+    <element name="ex">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(editorial expansion) contains a sequence of letters added by an editor or
+  transcriber when expanding an abbreviation. [11.3.1.2. ]</a:documentation>
+      <ref name="sga_macro.xtext"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.editLike.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_fw">
+    <element name="fw">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(forme work) contains a running head (e.g. a header, footer), catchword, or
+  similar material appearing on the current page. [11.6. ]</a:documentation>
+      <ref name="sga_macro.phraseSeq"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.placement.attributes"/>
+      <optional>
+        <attribute name="type">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the material encoded according to some useful typology.
+Sample values include: 1] header; 2] footer; 3] pageNum(page number) ; 4] lineNum(line number) ; 5] sig(signature) ; 6] catch(catchword) </a:documentation>
+          <ref name="sga_data.enumerated"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_handNotes">
+    <element name="handNotes">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one or more handNote elements documenting the
+different hands identified within the source texts. [11.3.2.1. ]</a:documentation>
+      <oneOrMore>
+        <ref name="sga_handNote"/>
+      </oneOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_handShift">
+    <element name="handShift">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks the beginning of a sequence of text written in a new
+hand, or the beginning of a scribal stint. [11.3.2.1. ]</a:documentation>
+      <empty/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.handFeatures.attributes"/>
+      <ref name="sga_att.responsibility.attributes"/>
+      <optional>
+        <attribute name="new">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the new hand.</a:documentation>
+          <ref name="sga_data.pointer"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_am">
+    <element name="am">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation marker) contains a sequence of letters or signs present in an
+  abbreviation which are omitted or replaced in the expanded form of
+  the abbreviation. [11.3.1.2. ]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="sga_model.gLike"/>
+          <ref name="sga_model.pPart.transcriptional"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.editLike.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_restore">
+    <element name="restore">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates restoration of text to an earlier state by
+cancellation of an editorial or authorial marking or instruction. [11.3.1.6. ]</a:documentation>
+      <ref name="sga_macro.paraContent"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
   <define name="sga_space">
     <element name="space">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of a significant space in the copy text. [11.5.1. ]</a:documentation>
@@ -6107,6 +6809,227 @@ found  at the start of a document, before the main body. [4.6.  4. ]</a:document
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsible party) indicates the individual responsible for identifying and measuring
 the space.</a:documentation>
           <ref name="sga_data.pointer"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_subst">
+    <element name="subst">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(substitution) groups one or more deletions with one or more additions when
+  the combination is to be regarded as a single intervention in the text.</a:documentation>
+      <oneOrMore>
+        <choice>
+          <ref name="sga_add"/>
+          <ref name="sga_del"/>
+          <ref name="sga_model.milestoneLike"/>
+        </choice>
+      </oneOrMore>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="subst-constraint-substContents1">
+        <rule context="tei:subst">
+          <assert xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions" test="child::add and child::del">
+        Subst must have at least one child add and at least one child del</assert>
+        </rule>
+      </pattern>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_substJoin">
+    <element name="substJoin">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(substitution join) identifies a series of  possibly fragmented additions, deletions or other revisions on a manuscript that combine to make up a single intervention in the text</a:documentation>
+      <zeroOrMore>
+        <ref name="sga_model.glossLike"/>
+      </zeroOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.pointing.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_supplied">
+    <element name="supplied">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signifies text supplied by the transcriber or editor for any
+  reason, typically because the original cannot be read because of
+  physical damage or loss to the original. [11.3.3.1. ]</a:documentation>
+      <ref name="sga_macro.paraContent"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.editLike.attributes"/>
+      <optional>
+        <attribute name="reason">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates why the text has had to be supplied.</a:documentation>
+          <list>
+            <ref name="sga_data.word"/>
+            <zeroOrMore>
+              <ref name="sga_data.word"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_surplus">
+    <element name="surplus">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks text present in the source which the editor believes to
+  be superfluous or redundant. [11.3.3.1. ]</a:documentation>
+      <ref name="sga_macro.paraContent"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.editLike.attributes"/>
+      <optional>
+        <attribute name="reason">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the grounds for believing this text to be superfluous.</a:documentation>
+          <list>
+            <ref name="sga_data.word"/>
+            <zeroOrMore>
+              <ref name="sga_data.word"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_line">
+    <element name="line">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the transcription of a topographic line in the source
+   document</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="sga_model.global"/>
+          <ref name="sga_model.linePart"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="sga_att.typed.attributes"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.coordinated.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_listTranspose">
+    <element name="listTranspose">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a list of transpositions, each of which is  indicated at some point in
+   a document typically by means of metamarks.</a:documentation>
+      <oneOrMore>
+        <ref name="sga_transpose"/>
+      </oneOrMore>
+      <ref name="sga_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_metamark">
+    <element name="metamark">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains or describes any kind of graphic or written signal
+   within a document the function of which is to determine how it
+   should be read rather than forming part of the actual content of
+   the document.</a:documentation>
+      <ref name="sga_macro.specialPara"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <ref name="sga_att.placement.attributes"/>
+      <ref name="sga_att.global.attributes"/>
+      <optional>
+        <attribute name="function">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the function (for example  status, insertion,
+	 deletion, transposition) of the mark.</a:documentation>
+          <ref name="sga_data.word"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="target">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies one or more elements to which the function
+	 indicated by the metamark applies. </a:documentation>
+          <list>
+            <ref name="sga_data.pointer"/>
+            <zeroOrMore>
+              <ref name="sga_data.pointer"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_mod">
+    <element name="mod">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">represents any kind of modification identified within a single document.</a:documentation>
+      <ref name="sga_macro.paraContent"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <ref name="sga_att.typed.attributes"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_redo">
+    <element name="redo">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more cancelled interventions in a
+		  document which have subsequently been
+		  marked as reaffirmed or repeated.</a:documentation>
+      <empty/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <optional>
+        <attribute name="target">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more elements representing the
+	 interventions which are being reasserted.</a:documentation>
+          <list>
+            <ref name="sga_data.pointer"/>
+            <zeroOrMore>
+              <ref name="sga_data.pointer"/>
+            </zeroOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_retrace">
+    <element name="retrace">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a sequence of writing which has been retraced, for
+      example by over-inking, to clarify or fix it.</a:documentation>
+      <ref name="sga_macro.paraContent"/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_transpose">
+    <element name="transpose">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> describes a single textual transposition as an ordered list
+   of at least two pointers specifying the order in which the elements
+   indicated should be re-combined. </a:documentation>
+      <group>
+        <ref name="sga_ptr"/>
+        <oneOrMore>
+          <ref name="sga_ptr"/>
+        </oneOrMore>
+      </group>
+      <ref name="sga_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga_undo">
+    <element name="undo">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more marked-up interventions in a document
+   which have subsequently been marked for cancellation.</a:documentation>
+      <empty/>
+      <ref name="sga_att.global.attributes"/>
+      <ref name="sga_att.spanning.attributes"/>
+      <ref name="sga_att.transcriptional.attributes"/>
+      <optional>
+        <attribute name="target">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more elements representing the
+	 interventions which are to be reverted or undone.</a:documentation>
+          <list>
+            <ref name="sga_data.pointer"/>
+            <zeroOrMore>
+              <ref name="sga_data.pointer"/>
+            </zeroOrMore>
+          </list>
         </attribute>
       </optional>
       <empty/>
