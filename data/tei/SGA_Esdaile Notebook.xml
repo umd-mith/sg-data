@@ -478,7 +478,7 @@
 <l>No! they would pluck his plumage gay</l>
 <l>Torn from a nations woe</l> 
 <l>And lay him in the oblivious gloom</l>
-<l>Where Freedom now prepares your tomb</l>
+<l>Where Freedom now prepares your tomb<add place="sublinear">306</add></l>
 </lg>
 </lg>
   
@@ -522,7 +522,7 @@
 <l>I fear me sullen Month! thoult burst</l>
 <l>With envy of her charms</l>
 <l>And finding nothings to be done</l>
-<l>Turn to December ere thou’st won.</l>
+<l>Turn to December ere thou’st won.<add place="sublinear">336</add></l>
 </lg>
   </lg>
   <lg>
@@ -545,7 +545,7 @@
 <l>And scattering thro the frame its influence wide</l>   
 <l>Revives the spirits when they droop &#38; die</l>
 <l>The frozen blood with genial beaming warms</l>
-<l>And to a gorgeous fly the sluggish worm transforms</l>
+<l>And to a gorgeous fly the sluggish <add place="sublinear">354</add>worm transforms</l>
     </lg>
     </lg>
 
@@ -637,7 +637,7 @@
 <l>Thier image from the tablet of my soul</l>
 <l>Nor the mad floods of despotism where</l>
 <l>Lashed into desperate furiousness they roll</l>
-<l>Nor passions soothing voice, nor interests cold control</l>
+<l>Nor passions soothing voice, nor interests <add place="sublinear">427</add>cold control</l>
 </lg>
   </lg>
 
@@ -685,7 +685,7 @@
 <l>May bind mine head, or creeping Death</l>
 <l>Steal oer my pulses flow,</l>
 <l>Struggling the wintry winds beneath</l>
-<l>I’ll love thy vernal glow</l>
+<l>I’ll love thy vernal glow<add place="sublinear">461</add></l>
 </lg>
   </lg>
 
@@ -713,56 +713,56 @@
 <l>That dreads not their control</l>
 <l>Sees Paradise &#38; Hell</l>
 <l>Sees the Palace &#38; the cell</l>
-<l>Yet bravely dares prefer the good and true?</l>
+<l>Yet bravely dares prefer the good &#38; true</l>
     </lg>
 <lg>
-<l>Regal pomp and pride</l>
-<l>The Patriot falls in scorning,</l>
+<l>Regal pomp &#38; pride</l>
+<l>The Patriot falls in scorning</l>
 <l>The spot whereon he died</l>
-<l>Should be the despot’s warning:</l>
+<l>Should be the despots warning</l>
 <l>The voice of blood shall on his crimes call down Revenge!</l>
 <l>And the spirits of the brave</l>
 <l>Shall start from every grave</l>
 <l>Whilst from her Atlantic throne</l>
 <l>Freedom sanctifies the groan</l>
-<l>That fans the glorious fires of its change.</l> 
+<l>That fans the glorious fires of its change</l> 
 </lg>
   <lg>
-<l>Monarch! sure employer</l>
-<l>Of vice and want and woe,</l>
-<l>Thou Conscienceless destroyer,</l> 
-<l>Who and what art thou!—</l>           
-<l>The dark prison house that in the dust shall lie,</l>
+<l>Monarch! sure employer<del rend="overstrike">s</del></l>
+<l>Of vice &#38; want &#38; woe</l>
+<l>Thou Conscienceless destroyer</l> 
+<l>Who &#38; what art thou!—</l>           
+<l>The dark prison house that in the dust shall lie</l>
 <l>The pyramid which guilt</l>
-<l>First planned, which man has built,</l>
-<l>At whose footstone want and woe</l>
+<l>First planned. which man has built</l>
+<l>At whose footstone want &#38; woe</l>
 <l>With a ceaseless murmur flow</l>
 <l>And whose peak attracts the tempests of the sky.</l>
     </lg>
 <lg>
 <l>The pyramids shall fall . . . . . . </l>
-<l>And Monarchs! so shall ye!</l>
+<l>And Monarchs! so shall ye</l>
 <l>Thrones shall rust in the hall</l>
 <l>Of forgotten royalty</l>
-<l>Whilst Virtue, Truth and Peace shall arise</l>
+<l>Whilst Virtue Truth &#38; Peace shall arise</l>
 <l>And a Paradise on Earth</l>
-<l>From your fall shall date its birth,</l>
+<l>From your fall shall date its birth</l>
 <l>And human life shall seem</l>
-<l>Like a short and happy dream</l>
-<l>Ere we wake in the daybeam of the skies.</l>
+<l>Like a short &#38; happy dream</l>
+<l>Ere we wake in the daybeam of the <add place="sublinear">511</add>skies.</l>
 </lg>
   </lg>
 <lg>
-<head>On Robert Emmet’s tomb</head>
+<head>On Robert <hi rend="underline">Em</hi>mets tomb</head>
 <lg>
-<l>May the tempests of Winter that sweep o’er thy tomb</l>
-<l>Disturb not a slumber so sacred as thine;</l>
+<l>May the tempests of Winter that sweep oer thy tomb</l>
+<l>Disturb not a slumber so sacred as thine</l>
 <l>May the breezes of summer that breathe of perfume</l>
-<l>Waft their balmiest dews to so hallowed a shrine.</l> 
+<l>Waft their balmiest dews to so hallowed a shine</l> 
 </lg>
   <lg>
-<l>May the foot of the tyrant, the coward, the slave</l>
-<l>Be palsied with dread where thine ashes repose,</l>
+<l>May the foot of the tyrant the coward the slave</l>
+<l>Be palsied with dread where thine ashes repose</l>
 <l>Where that undying shamrock still blooms on thy grave</l>
 <l>Which sprung when the dawnlight of Erin arose.</l> 
   </lg>
@@ -776,169 +776,173 @@
 <l>And how could he not pause if the blood of his sires</l>
 <l>Ever wakened one generous throb in his heart:</l>
 <l>How could he inherit a spark of their fires</l>
-<l>If tearless and frigid he dared to depart?</l>
+<l>If tearless &#38; frigid he dared to depart</l>
   </lg>
   <lg>
-<l>Not the scrolls of a court could emblazon thy fame</l>
-<l>Like the silence that reigns in the palace of thee,</l>
-<l>Like the whispers that pass of thy dearly loved name,</l>
-<l>Like the tears of the good, like the groans of the free.</l> 
+<l>Not the scrolls of a court c<hi rend="superscript">d</hi> emblazon thy fame</l>
+<l>Like the silence that reigns in the palace of thee X</l>
+<l>Like the whispers that pass of thy dearly loved name</l>
+<l>Like the tears of the good, like the groans of the free</l> 
   </lg>
   <lg>
 <l>No trump tells thy virtues—the grave where they rest</l>
 <l>With thy dust shall remain unpolluted by fame</l>
-<l>Till thy foes, by the world and by fortune caresst,</l>
-<l>Shall pass like a mist from the light of thy name.</l> 
+<l>Till thy foes, by the world &#38; by fortune carest</l>
+<l>Shall pass like a mist from the light of thy name</l> 
   </lg>
   <lg>
-<l>When the storm cloud that lowers o’er the daybeam is gone,</l>
-<l>Unchanged, unextinguished its lifespring will shine—</l>
-<l>When Erin has ceased with their memory to groan,</l>
-<l>She will smile thro’ the tears of revival on thine.</l> 
+<l>When the storm cloud that lowers oer the daybeam is gone</l>
+<l>Unchanged, unextinguished its lifespring will shine</l>
+<l>When Erin has ceased with their memory to groan</l>
+<l>She will smile thro the tears of revival on <add place="sublinear">540</add> thine.</l> 
   </lg>
 </lg>
   <lg>
-<head>a Tale of Society as it is<lb/> 
+<head>A Tale of Society as it is<lb/> 
  from facts  1811</head>  
 <lg>
-<l>She was an Aged Woman, and the years</l>
+<l>She was an Aged Woman, &#38; the years</l>
 <l>Which she had numbered on her toilsome way</l>
-<l>Had bowed her natural powers to decay.</l>
-<l>She was an Aged Woman, yet the ray</l>
-<l>Which faintly glimmered thro’ the starting tears,</l>
-<l>Pressed from their beds by silent misery,</l>
-<l>Hath soul’s imperishable energy.</l>
-<l>She was a cripple, and incapable</l>
-<l>To add one mite to golden luxury,</l>
+<l>Had bowed her natural powers to decay</l>
+<l>She was an Aged Woman yet the ray</l>
+<l>Which faintly glimmered thro the starting tears</l>
+<l>Pressed from their beds by silent misery</l>
+<l>Hath souls imperishable energy</l>
+<l>She was a cripple, &#38; incapable</l>
+<l>To add one mite to golden luxury</l>
 <l>And therefore did her spirit clearly feel</l>
-<l>That Poverty—the crime of tainting stain—</l>
-<l>Would merge her in its depths never to rise again.</l> 
+<l>That Poverty the crime of tainting stain</l>
+<l>Would merge her in its depths never to rise again</l> 
 </lg>
     <lg>
-<l>One only son’s love had supported her.</l>
+<l>One only sons love had supported her.</l>
 <l>She long had struggled with infirmity</l>
 <l>Lingering from human lifescenes, for to die</l>
 <l>When fate has spared to rend some mental tie</l>
-<l>Not many wish, and surely fewer dare.</l>
-<l>But when the tyrant’s bloodhounds forced her Child</l>
-<l>For tyrant’s power unhallowed arms to wield,</l>
-<l>Bend to another’s will, become a thing</l>
-<l>More senseless than the sword of battle field,</l>
-<l>Then did she feel keen sorrow’s keenest sting,</l>
-<l>And many years had past ere comfort they would bring.</l> 
+<l>Not many wish, &#38; surely fewer dare.</l>
+<l>But when the tyrants bloodhounds forced her Child</l>
+<l>For tyrants power unhallowed arms to wield</l>
+<l>Bend to anothers will. become a thing</l>
+<l>More senseless than the sword of battle field</l>
+<l>Then did she feel keen sorrows keenest sting</l>
+<l>And many years had past ere comfort they w<hi rend="superscript">d</hi> bring</l> 
     </lg>
     <lg>
 <l>For seven years did this poor woman live</l>
-<l>In unparticipated solitude:</l>
+<l>In unparticipated solitude</l>
 <l>Thou mightst have seen her in the desart rude</l>
-<l>Picking the scattered remnants of its wood;</l>
-<l>If human, thou mightst then have learned to grieve.</l>
+<l>Picking the scattered remnants of its wood</l>
+<l>If human thou mightst then have learned to grieve</l>
 <l>The gleanings of precarious charity</l>
-<l>Her scantiness of food did scarce supply;</l>         
+<l>Her scantiness of food did scarce supply</l>         
 <l>The proofs of an unspeaking sorrow dwelt</l>
 <l>Within her ghastly hollowness of eye:</l>
-<l>Each arrow of the Season’s change she felt,</l>
-<l>Yet still she yearned ere her sad course were run,</l> 
-<l>One only hope it was, once more to see her son.</l> 
+<l>Each arrow of the Seasons change she felt</l>
+<l>Yet still she yearned ere her sad course were run</l> 
+<l>One only hope it was, once more to see her son</l> 
     </lg>
     <lg>
 <l>It was an eve of June, when every star</l>
-<l>Spoke peace from Heaven to those on Earth that live.</l>
+<l>Spoke peace from Heaven to those on Earth that live</l>
 <l>She rested on the moor . . . . ’twas such an eve</l> 
-<l>When first her soul began indeed to grieve—</l>
-<l>Then he was here . . . now he is very far.</l>         
+<l>When first her soul began indeed to grieve</l>
+<l>Then he was here . . . now he is very far</l>         
 <l>The freshness of the balmy evening</l>
-<l>A sorrow o’er her weary soul did fling,</l>
-<l>Yet not devoid of rapture’s mingled tear;</l>
+<l>A sorrow oer her weary soul did fling</l>
+<l>Yet not devoid of raptures mingled tear;</l>
 <l>A balm was in the poison of the sting:</l>
 <l>This aged sufferer for many a year,</l>                   
 <l>Had never felt such comfort . . . . she supprest</l>
-<l>A sigh, and turning round clasp’d William to her breast.</l>
+<l>A sigh, &#38; turning round claspd William to her breast</l>
     </lg>
     <lg>
-<l>And tho’ his form was wasted by the woe</l>
-<l>Which despots on their victims love to wreak—</l>
-<l>Tho’ his sunk eyeball, and his faded cheek,</l>        
-<l>Of slavery, violence and scorn did speak—</l>
-<l>Yet did the aged Woman’s bosom glow;</l>
+<l>And tho his form was wasted by the woe</l>
+<l>Which despots on their victims love to wreak</l>
+<l>Tho his sunk eyeball, &#38; his faded cheek</l>        
+<l>Of slavery violence &#38; scorn did speak</l>
+<l>Yet did the aged Womans bosom glow</l>
 <l>The vital fire seemed reillumed within</l>
 <l>By this sweet unexpected welcoming.</l>
 <l>O! consummation of the fondest hope</l>                  
-<l>That ever soared on Fancy’s dauntless wing!</l>
+<l>That ever soared on Fancys dauntless wing</l>
 <l>O! tenderness that foundst so sweet a scope!</l>
-<l>Prince! who dost swell upon thy mighty sway,</l>
-<l>When thou canst feel such love, thou shalt be great as they!</l> 
+<l>Prince! who dost swell upon thy mighty sway.</l>
+<l>When thou canst feel such love thou shalt be great as they</l> 
     </lg>
     <lg>
-<l>Her son, compelled, the tyrant’s foes had fought,</l>
-<l>Had bled in battle, and the stern control</l>
-<l>That ruled his sinews and coerced his soul</l>
-<l>Utterly poisoned life’s unmingled bowl</l>
-<l>And unsubduable evils on him wrought.</l>
+<l>Her son, compelled the tyrants foes had fought</l>
+<l>Had bled in battle, &#38; the stern control</l>
+<l>That ruled his sinews &#38; coerced his soul</l>
+<l>Utterly poisoned lifes unmingled bowl</l>
+<l>And unsubduable evils on him wrought</l>
 <l>He was the shadow of the lusty child</l> 
-<l>Who, when the time of summer season smiled,</l>
+<l>Who when the time of summer season smiled</l>
 <l>For her did earn a meal of honesty</l>
 <l>And with affectionate discourse beguiled</l>
-<l>The keen attacks of pain and poverty</l>
-<l>Till power as envying this, her only joy,</l>         
-<l>From her maternal bosom tore the unhappy boy.</l> 
+<l>The keen attacks of pain &#38; poverty</l>
+<l>Till power as envying this her only joy</l>         
+<l>From her maternal bosom tore the unhappy boy</l> 
     </lg>
     <lg>
-<l>And now cold charity’s unwelcome dole</l>
-<l>Was insufficient to support the pair,</l>
+<l>And now cold charitys unwelcome dole</l>
+<l>Was insufficient to support the pair</l>
 <l>And they would perish rather than would bear</l>
-<l>The law’s stern slavery and the insolent stare</l> 
-<l>With which law loves to rend the poor man’s soul—</l>
-<l>The bitter scorn, the spirit-sinking noise</l>
-<l>Of heartless mirth which women, men and boy</l>
+<l>The laws stern slavery &#38; the insolent stare</l> 
+<l>With which law loves to rend the poor man’s soul</l>
+<l>The bitter scorn, the spirit sinking noise</l>
+<l>Of heartless mirth which women men &#38; boys</l>
 <l>Wake in this scene of legal misery . . .</l>
-<l>Oh! William’s spirit rather would rejoice</l>
-<l>On some wild heath with his dear charge to die.</l>
+<l>Oh! Williams spirit rather would rejoice</l>
+<l>On some wild heath with his dear charge to die</l>
 <l>The death that keenest penury might give</l>
-<l>Were sweeter far than cramped by slavery to live.</l> 
+<l>Were sweeter far than cramped by slavery to live</l> 
     </lg>
     <lg>
-<l>And they have borne thus long the winter’s cold,</l>
-<l>The driving sleet, the penetrating rain;</l>      
+<l>And they have born thus long the winters cold</l>
+<l>The driving sleet the penetrating rain</l>      
 <l>It seemeth that their element is pain</l>
-<l>And that they never will feel life again,</l>
+<l>And that they never will feel life again</l>
 <l>For is it life to be so deathlike old?—</l>
-<l>The sun’s kind light feeds every living thing</l>
-<l>That spreads its blossoms to the breath of spring,</l>    
-<l>But who feeds thee, unhappy wanderer?</l>
-<l>With the fat slaves who from the rich man’s board</l>   
+<l>The suns kind light feeds every living thing</l>
+<l>That spreads its blossoms to the breath of spring</l>    
+<l>But who feeds thee unhappy wanderer?</l>
+<l>With the fat slaves who
+  <subst>   
+      <add place="supralinear">from</add>
+      <del rend="overstrike">by</del>
+    </subst> the rich mans board</l>
 <l>Lick the fallen crumbs thou scantily dost share</l>
-<l>And mutterest for the gift a heartless prayer:</l>
-<l>The flow’rs fade not thus. Thou must poorly die.</l>
-<l>The changeful year feeds them. The tyrant, man, feeds thee.</l> 
+<l>And mutterest for the gift a heartless prayer</l>
+<l>The flow’rs fade not thus. thou must poorly die</l>
+<l>The changeful year feeds them. the tyrant man feeds thee</l> 
     </lg>
     <lg>
-<l>And is it life that in Youth’s blasted morn</l>
-<l>Not one of youth’s dear raptures are enjoyed—</l> 
-<l>All natural bliss with servitude alloyed,</l>
-<l>The beating heart, the sparkling eye destroyd,</l>  
-<l>And manhood of its brightest glories shorn,</l> 
-<l>Debased by rapine, drunkenness and woe,</l>
-<l>The foeman’s sword, the vulgar tyrant’s blow,</l>
-<l>Ruined in body and soul till Heaven arrive—</l>
-<l>His health and peace insultingly laid low,</l>           
-<l>Without a fear to die or wish to live,</l>
-<l>Withered and sapless, miserably poor,</l>
-<l>Relinquished for his wounds to beg from door to door?</l> 
+<l>And is it life that in youths blasted morn</l>
+<l>Not one of youths dear raptures are enjoyed</l> 
+<l>All natural bliss with servitude alloyed</l>
+<l>The beating heart the sparkling eye destroyd</l>  
+<l>And manhood of its brightest glories shorn</l> 
+<l>Debased by rapine drunkenness &#38; woe,</l>
+<l>The foemans sword the vulgar tyrant’s blow</l>
+<l>Ruined in body &#38; soul till Heaven arrive</l>
+<l>His health &#38; peace insultingly laid low</l>           
+<l>Without a fear to die or wish to live</l>
+<l>Withered &#38; sapless, miserably poor,</l>
+<l>Relinquished for his wounds to beg from door to door</l> 
     </lg>
     <lg>
 <l>Seest thou yon humble sod where oziers bind</l>
 <l>The pillow of the monumentless dead.</l>
 <l>There since her thorny pilgrimage is sped</l>
-<l>The aged Sufferer rests on the cold bed</l>
-<l>Which all who seek or who avoid must find.</l>
-<l>O let her sleep! and there at close of eve</l>
-<l>’Twere holiness in solitude to grieve</l>               
-<l>And ponder on the wretchedness of Earth.</l>
+<l>The aged ufferer rests on the cold bed</l>
+<l>Which all who seek or who avoid must find</l>
+<l>O let her sleep! &#38; there at close of eve</l>
+<l>Twere holiness in solitude to grieve</l>               
+<l>And ponder on the wretchedness of Earth</l>
 <l>With joy of melancholy I would leave</l>
-<l>A spot that to such deep-felt thoughts gives birth,</l>
-<l>And tho’ I could not pour the useless prayer</l>
-<l>Would weep upon the grave and leave a blessing there.</l>
+<l>A spot that to such deep-felt thoughts gives birth</l>
+<l>And tho I could not pour the useless prayer</l>
+<l>Would weep upon the grave &#38; leave a blessing<add place="sublinear">661</add> there</l>
     </lg>
     </lg>
 
@@ -948,67 +952,67 @@
 <l>Darest thou amid this varied multitude</l>     
 <l>To live alone, an isolated thing,</l> 
 <l>To see the busy beings round thee spring</l>
-<l>And care for none?—in thy calm solitude,</l>
+<l>And care for none?—in thy calm solitude</l>
 <l>A flower that scarce breathes in the desart rude</l>
-<l>To Zephyr’s passing wing?</l> 
+<l>To Zephyrs passing wing?</l> 
 </lg>
      <lg>
 <l>Not the swarth Pariah in some Indian Grove</l>
-<l>Lone, lean and hunted by his brothers’ hate,</l>
+<l>Lone, lean &#38; hunted by his brothers’ hate</l>
 <l>Hath drunk so deep the cup of bitter fate</l>
-<l>As that poor wretch who cannot, cannot love.</l>
-<l>He bears a load which nothing can remove—</l>
-<l>A killing, withering weight.</l> 
+<l>As that poor wretch who cannot cannot love</l>
+<l>He bears a load which nothing can remove</l>
+<l>A killing, withering weight</l> 
      </lg>
      <lg>
-<l>He smiles . . . ’tis sorrow’s deadliest mockery;</l>
-<l>He speaks . . . the cold words flow not from his soul;</l>
-<l>He acts like others, drains the genial bowl;</l>
-<l>Yet, yet he longs altho’ he fears to die.</l>
-<l>He pants to reach what yet he seems to fly,</l>
-<l>Dull Life’s extremest goal.</l>
+<l>He smiles . . . tis sorrows deadliest mockery</l>
+<l>He speaks . . . the cold words flow not from his soul</l>
+<l>He acts like others. drains the genial bowl</l>
+<l>Yet, yet he longs altho he fears to die</l>
+<l>He pants to reach what yet he seems to fly</l>
+<l>Dull Lifes extremest<add place="sublinear">679</add> goal</l>
 </lg>
    </lg>
   
   <lg>
-<head>The Monarch’s funeral—<lb/>
+<head>The Monarchs funeral—<lb/>
 An Anticipation<lb/>  
   1810</head>   
 <lg>
 <l>The growing gloom of eventide</l>
-<l>Has quenched the sunbeam’s latest glow</l>
-<l>And lowers upon the woe and pride</l>
-<l>That blasts the city’s peace below.</l> 
+<l>Has quenched the sunbeams latest glow</l>
+<l>And lowers upon the woe &#38; pride</l>
+<l>That blasts the citys peace below</l> 
 </lg>
     <lg>
 <l>At such an hour how sad the sight</l>
-<l>To mark a Monarch’s funeral</l>
+<l>To mark a Monarchs funeral</l>
 <l>When the dim shades of awful night</l>
-<l>Rest on the coffin’s velvet pall;</l> 
+<l>Rest on the coffins velvet pall</l> 
     </lg>
     <lg>
 <l>To see the Gothic Arches shew</l>
-<l>A varied mass of light and shade,</l>
-<l>While to the torches’ crimson glow</l>
-<l>A vast cathedral is displayed;</l>
+<l>A varied mass of light &#38; shade</l>
+<l>While to the torches crimson glow</l>
+<l>A vast cathedral is displayed</l>
     </lg>
     <lg>
 <l>To see with what a silence deep</l>
-<l>The thousands o’er this death-scene brood,</l> 
-<l>As tho’ some wizard’s charm did creep</l>
+<l>The thousands oer this death scene brood</l> 
+<l>As tho some wizards charm did creep</l>
 <l>Upon the countless multitude</l>
     </lg>
     <lg>
 <l>To see this awful pomp of death</l>
-<l>For one frail mass of mouldering clay,</l> 
+<l>For one frail mass of mouldering clay</l> 
 <l>When nobler men the tomb beneath</l>
-<l>Have sunk unwept, unseen away.</l> 
+<l>Have sunk unwept unseen away</l> 
     </lg>
     <lg>
-<l>For who was he, the uncoffined slain,</l>
+<l>For who was he the uncoffined slain</l>
 <l>That fell in Erin’s injured isle</l>
 <l>Because his spirit dared disdain</l>
-<l>To light his country’s funeral pile?</l>
+<l>To light his countrys funeral pile</l>
     </lg>
     <lg>
 <l>Shall he not ever live in lays</l>
@@ -1018,138 +1022,138 @@ An Anticipation<lb/>
     </lg>
     <lg>
 <l>May not the Muse’s darling theme</l>
-<l>Gather its glorious garland thence</l>
-<l>Whilst some frail tombstone’s Dotard dream</l>
-<l>Fades with a monarch’s impotence!</l> 
+<l>Gather<del rend="overstrike">s</del> its glorious garland thence</l>
+<l>Whilst some frail tombstones Dotard dream</l>
+<l>Fades with a monarchs impotence!</l> 
     </lg>
     <lg>
 <l>—Yet, ’tis a scene of wondrous awe</l>
-<l>To see a coffined Monarch lay,</l> 
-<l>That the wide grave’s insatiate maw</l>
+<l>To see a coffined Monarch lay</l> 
+<l>That the wide graves insatiate maw</l>
 <l>Be glutted with a regal prey!</l> 
     </lg>
     <lg>
 <l>Who <hi rend="underline">now</hi> shall public councils guide?</l>
-<l>Who rack the poor on gold to dine?</l>
+<l>Who rack the poor on gold to dine</l>
 <l>Who waste the means of regal pride</l>
 <l>For which a million wretches pine?</l> 
     </lg>
     <lg>
-<l>It is a child of earthly breath,</l>
+<l>It is a child of earthly breath</l>
 <l>A being perishing as he,</l>
 <l>Who throned in yonder pomp of death</l>
-<l>Hath now fulfilled his destiny.</l> 
+<l>Hath now fulfilled his destiny</l> 
     </lg>
     <lg>
-<l>Now dust to dust restore! . . . O Pride,</l>
-<l>Unmindful of thy fleeting power,</l>
+<l>Now dust to dust restore! . . . O Pride</l>
+<l>Unmindful of thy fleeting power</l>
 <l>Whose empty confidence has vied</l>
-<l>With human life’s most treacherous hour,</l> 
+<l>With human life’s most treacherous hour</l> 
     </lg>
     <lg>
 <l>One moment feel that in the breast</l>
-<l>With regal crimes and troubles vext</l>
-<l>The pampered Earthworms soon will rest,</l>
-<l>One moment feel . . . . and die the next.</l> 
+<l>With regal crimes &#38; troubles vext</l>
+<l>The pampered Earthworms soon will rest</l>
+<l>One moment feel . . . . &#38; die the next.</l> 
     </lg>
     <lg>
-<l>Yet deem not in the tomb’s control</l>
-<l>The vital lamp of life can fail—</l>
-<l>Deem not that e’er the Patriot’s soul</l>
-<l>Is wasted by the withering gale.</l> 
+<l>Yet deem not in the tombs control</l>
+<l>The vital lamp of life can fail</l>
+<l>Deem not that e’er the Patriots soul</l>
+<l>Is wasted by the withering gale</l> 
     </lg>
     <lg>
-<l>The dross, which forms the <hi rend="underline">King</hi>, is gone</l>
-<l>And reproductive Earth supplies,</l>
-<l>As senseless as the clay and stone</l>
-<l>In which the kindred body lies:</l> 
+<l>The dross which forms the <hi rend="underline">King</hi> is gone</l>
+<l>And reproductive Earth supplies</l>
+<l>As senseless as the clay &#38; stone</l>
+<l>In which the kindred body lies</l> 
     </lg>
     <lg>
-<l>The soul which makes the <hi rend="underline">Man</hi> doth soar,</l>
+<l>The soul which makes the <hi rend="underline">Man</hi> doth soar</l>
 <l>And love alone survives to shed</l>
 <l>All that its tide of bliss can pour</l>
-<l>Of Heaven upon the blessed dead.</l> 
+<l>Of Heaven upon the blessed dead</l> 
     </lg>
     <lg>
-<l>So shall the Sun forever burn,</l>
-<l>So shall the midnight lightnings die,</l>
-<l>And joy that glows at Nature’s bourn</l>
-<l>Outlive terrestrial misery.</l>
+<l>So shall the Sun forever burn</l>
+<l>So shall the midnight lightnings die</l>
+<l>And joy that glows at Natures bourn</l>
+<l>Outlive terrestrial misery</l>
     </lg>
     <lg>
 <l>And will the crowd who silent stoop</l>
-<l>Around the lifeless Monarch’s bier,</l>
-<l>A mournful and dejected group,</l>
-<l>Breathe not one sigh, or shed one tear?</l> 
+<l>Around the lifeless Monarchs bier</l>
+<l>A mournful &#38; dejected group</l>
+<l>Breathe not one sigh, or shed one tear.</l> 
     </lg>
     <lg>
-<l>Ah! no—’tis wonder, ’tis not woe:</l>
+<l>Ah! no. ’tis wonder, ’tis not woe</l>
 <l>Even royalists might groan to see</l>
 <l>The <hi rend="underline">Father of the People</hi>, so</l>
-<l>Lost in the Sacred Majesty.</l>
+<l>Lost in the Sacred Majesty<add place="sublinear">755</add></l>
     </lg>
     </lg>
 <lg>
 <head>To the Republicans of North America</head>
 <lg>
-<l>Brothers! between you and me</l>
-<l>Whirlwinds sweep and billows roar,</l>
+<l>Brothers! between you &#38; me</l>
+<l>Whirlwinds sweep &#38; billows roar</l>
 <l>Yet in spirit oft I see</l>
-<l>On the wild and winding shore</l>
-<l>Freedom’s bloodless banner wave,</l>
+<l>On the wild &#38; winding shore</l>
+<l>Freedoms bloodless banner wave</l>
 <l>Feel the pulses of the brave</l>
-<l>Unextinguished by the grave,</l>
-<l>See them drenched in sacred gore,</l>
-<l>Catch the patriot’s gasping breath</l>
-<l>Murmuring "Liberty" in death.</l> 
+<l>Unextinguished by the grave</l>
+<l>See them drenched in sacred gore</l>
+<l>Catch the patriots gasping breath</l>
+<l>Murmuring Liberty in death.</l> 
 </lg>
   <lg>
 <l>Shout aloud! let every slave</l>
-<l>Crouching at corruption’s throne</l>
-<l>Start into a man and brave</l>
-<l>Racks and chains without a groan!</l>
-<l>Let the castle’s heartless glow</l>
-<l>And the hovel’s vice and woe</l>
-<l>Fade like gaudy flowers that blow,</l>
-<l>Weeds that peep and then are gone,</l>
-<l>Whilst from misery’s ashes risen</l>
-<l>Love shall burst the Captive’s prison.</l>  
+<l>Crouching at corruptions throne</l>
+<l>Start into a man &#38; brave</l>
+<l>Racks &#38; chains without a groan!.</l>
+<l>Let the castles heartless glow</l>
+<l>And the hovels vice &#38; woe</l>
+<l>Fade like gaudy flowers that blow</l>
+<l>Weeds that peep &#38; then are gone</l>
+<l>Whilst from miserys ashes risen</l>
+<l>Love shall burst the Captives prison</l>  
   </lg>
   <lg>
 <l>Cotopaxi! bid the sound</l>
 <l>Thro’ thy sister mountains ring</l>
 <l>Till each valley smile around</l>
-<l>At the blissful welcoming.</l>
-<l>And o! thou stern Ocean-deep</l> 
+<l>At the blissful welcoming</l>
+<l>And O! thou stern Ocean-deep</l> 
 <l>Whose eternal billows sweep</l>
 <l>Shores where thousands wake to weep</l>
-<l>Whilst they curse some villain King,</l>
+<l>Whilst they curse some villain King</l>
 <l>On the winds that fan thy breast</l>
-<l>Bear thou news of freedom’s rest.</l> 
+<l>Bear thou news of freedoms rest.</l> 
   </lg>
   <lg>
-<l>Earth’s remotest bounds shall start:</l>
-<l>Every despot’s bloated cheek,</l>
-<l>Pallid as his bloodless heart,</l>
-<l>Frenzy, woe and dread shall speak . . . .</l> 
+<l>Earths remotest bounds shall start</l>
+<l>Every despots bloated cheek</l>
+<l>Pallid as his bloodless heart</l>
+<l>Frenzy woe &#38; dread shall speak . . .</l> 
 <l>Blood may fertilize the tree</l>
-<l>Of new bursting Liberty—</l>
+<l>Of new bursting Liberty</l>
 <l>Let the guiltiness then be</l>
-<l>On the slaves that ruin wreak,</l>
-<l>On the unnatural tyrant-brood</l>
-<l>Slow to Peace and swift to blood.</l> 
+<l>On the slaves that ruin wreak</l>
+<l>On the unnatural tyrant brood</l>
+<l>Slow to Peace &#38; swift to blood</l> 
   </lg>
   <lg>
-<l>Can the daystar dawn of love</l>
+<l>Can the<del rend="strikethough">y</del> daystar dawn of love</l>
 <l>Where the flag of war unfurled</l>
 <l>Floats with crimson stain above</l>
-<l>Such a desolated world? . . .</l>
+<l>Such a desolated world . . .</l>
 <l>Never! but to vengeance driven</l>
-<l>When the patriot’s spirit shriven</l>
-<l>Seeks in death its native Heaven—</l>
+<l>When the patriots spirit shriven</l>
+<l>Seeks in death its native Heaven</l>
 <l>Then to speechless horror hurled</l> 
 <l>Widowed Earth may balm the bier</l>
-<l>Of its memory with a tear.</l>
+<l>Of its memory with a tear<add place="sublinear">805</add></l>
   </lg>
   </lg>
 
