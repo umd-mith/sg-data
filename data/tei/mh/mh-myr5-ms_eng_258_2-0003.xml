@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model
-  href="../derivatives/shelley-godwin-page.rnc"
+  href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface
   xmlns="http://www.tei-c.org/ns/1.0" xml:id="mh-myr5-ms_eng_258_2-0003"
