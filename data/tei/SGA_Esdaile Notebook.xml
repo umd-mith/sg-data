@@ -378,7 +378,7 @@
 <l>They think that tyrants goad them there</l>
 <l>With poisonous war to taint the air</l>
     <l><del rend="overstrike">But hired assassins tis not vice</del></l>
-    <l>Tis her sweet sister Cowardice. . .</l>
+    <l><del rend="overstrike">Tis her sweet sister Cowardice</del>. . .</l>
 <l>These tyrants on their beds of thorn</l>
 <l>Swell 
 <subst>
@@ -1320,7 +1320,7 @@ An Anticipation<lb/>
 <l>Suck like that race all sap away</l>
 <l><hi rend="underline">And yet upon the spoil decay</hi></l>
   </lg>
-  </lg>
+  <lg>
 
 <l>The pale, the cold and the moony smile</l>
 <l>Which the meteor beam of a stormy night</l>
@@ -3774,7 +3774,7 @@ The Marsellois Hymn</head>
 <lg>
 <head>To Ianthe. 
   <subst>
-    <add place="interlinear">Sept</add>
+    <add place="interlinear">Sept<hi rend="superscript">r</hi></add>
     <del rend="overstrike">Oct</del>
   </subst> 1813</head>
 <lg>
@@ -4026,7 +4026,7 @@ Febry 28th 1805 To St Irvyne</head>
     </lg>
      <note>To H Grove</note>
 </lg>
-    </lg>
+    
     </body>
   </text>
 </TEI>
