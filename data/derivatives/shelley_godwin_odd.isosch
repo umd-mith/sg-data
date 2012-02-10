@@ -23,4 +23,27 @@
         or a child element to indicate the related bibliographic item</assert>
       </rule>
    </pattern>
+   <pattern id="addSpan-constraint-spanTo">
+      <rule context="tei:addSpan">
+         <assert test="@spanTo">The spanTo= attribute of <name/> is required.</assert>
+      </rule>
+   </pattern>
+   <pattern id="damageSpan-constraint-spanTo">
+      <rule context="tei:damageSpan">
+         <assert test="@spanTo">The spanTo= attribute of
+	<name/> is required.</assert>
+      </rule>
+   </pattern>
+   <pattern id="delSpan-constraint-spanTo">
+      <rule context="tei:delSpan">
+         <assert test="@spanTo">The spanTo= attribute of <name/>
+      is required.</assert>
+      </rule>
+   </pattern>
+   <pattern id="subst-constraint-substContents1">
+      <rule context="tei:subst">
+         <assert test="child::add and child::del">
+        Subst must have at least one child add and at least one child del</assert>
+      </rule>
+   </pattern>
 </schema>
