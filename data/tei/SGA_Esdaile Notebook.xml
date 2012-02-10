@@ -376,8 +376,8 @@
 <l>Ten thousand victims madly bleed</l>
 <l>They think that tyrants goad them there</l>
 <l>With poisonous war to taint the air</l>
-    <l><del rend="overstrike">But hired assassins tis not vice</l>
-    <l>Tis her sweet sister Cowardice</del>. . .</l>
+    <l><del rend="overstrike">But hired assassins tis not vice</del></l>
+    <l>Tis her sweet sister Cowardice. . .</l>
 <l>These tyrants on their beds of thorn</l>
 <l>Swell 
 <subst>
@@ -414,7 +414,7 @@
 <l>It little boots—thy toil &#38; pain</l>
 <l>Without my aid were more than vain</l>
 <l>And but for thee I neer had sate</l>
-<l>The guardian of Heavens palace gate</l><add place="sublinear">256</add>
+<l>The guardian of Heavens palace gate<add place="sublinear">256</add></l>
 </lg>
   </lg>
 
@@ -694,7 +694,7 @@
 <lg>
 <l>O let not Liberty</l>
 <l>Silently perish</l>
-<l>May the groan &38; the sigh</l>
+<l>May the groan &#38; the sigh</l>
 <l>Yet the flame cherish</l>
 <l>Till the voice to Natures bursting heart given</l>
 <l>Ascending loud &#38; high</l>
@@ -907,10 +907,9 @@
 <l>That spreads its blossoms to the breath of spring</l>    
 <l>But who feeds thee unhappy wanderer?</l>
 <l>With the fat slaves who
-  <subst>   
-      <add place="supralinear">from</add>
-      <del rend="overstrike">by</del>
-    </subst> the rich mans board</l>
+  <subst>
+    <add place="supralinear">from</add>
+    <del rend="overstrike">by</del></subst> the rich mans board</l>
 <l>Lick the fallen crumbs thou scantily dost share</l>
 <l>And mutterest for the gift a heartless prayer</l>
 <l>The flow’rs fade not thus. thou must poorly die</l>
@@ -1314,17 +1313,14 @@ An Anticipation<lb/>
 <l>Tree shrub or grass or flower</l>
 <l>Thou seemest of this spot the King</l>
 <l><subst>
-  <add place="supralinear"><del rend="strikethough">And</del></add><add place="supralinear">And</add>
-  <del rend="strikethough">That</del>
+  <del rend="overstrike"><add place="supralinear">And</add></del><add place="supralinear">And</add>
+  <del rend="overstrike">That</del>
 </subst> with a regal power</l>
 <l>Suck like that race all sap away</l>
 <l><hi rend="underline">And yet upon the spoil decay</hi></l>
   </lg>
   </lg>
 
-<lg>
-<head>"The pale, the cold and the moony smile"</head> 
-<lg>
 <l>The pale, the cold and the moony smile</l>
 <l>Which the meteor beam of a stormy night</l>
 <l>Sheds on a lonely and seagirt isle</l>
@@ -1363,7 +1359,6 @@ An Anticipation<lb/>
 <l>The wide-stretching realms of the peopled tomb</l>
 <l>And uniteth the hopes of what shall be</l>
 <l>With the fears and the love for that which we see?</l>
-  </lg>
   </lg>
 
 <lg>
