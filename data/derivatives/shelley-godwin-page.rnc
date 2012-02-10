@@ -5,7 +5,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-09T17:38:51Z. 
+# Schema generated from ODD source 2012-02-09T18:35:08Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2747,12 +2747,9 @@ sga-psurface =
   ##   writing within them.
   element surface {
     (sga-pmodel.glossLike*,
-     sga-pmodel.graphicLike*,
-     (sga-pmodel.global
-      | sga-pzone
-      | sga-pline
-      | sga-psurface
-      | sga-psurfaceGrp)*),
+     sga-pmodel.graphicLike+,
+     sga-pzone+,
+     (sga-pmodel.global | sga-pline)*),
     
     ## (identifier) provides a unique identifier for the element bearing the attribute.
     attribute xml:id { xsd:ID },
