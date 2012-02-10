@@ -1,6 +1,6 @@
 /*
  * #%L
- * MITH Utilities for GitHub
+ * Utilities for the Shelley-Godwin Archive data repository
  * %%
  * Copyright (C) 2011 - 2012 Maryland Institute for Technology in the Humanities
  * %%
@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package edu.umd.mith.github
+package edu.umd.mith.sga.processing
 
 import java.io.File
 import java.io.PrintWriter
