@@ -31,15 +31,32 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2012-02-08" who="tm">Created this separate ODD to govern page-level
+            <change when="2012-02-08" who="tmunoz">Created this separate ODD to govern page-level
                 markup</change>
+            <change when="2012-02-12" who="tmunoz">Began adding prose documentation about workflow</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div xml:id="rationale">
-                <head>Shelley-Godwin Archive Encoding Guidelines for Document-centric Markup</head>
-                <p>Coming soon.</p>
+                <head type="running">The Shelley-Godwin Archive</head>
+                <head type="main">Encoding Guidelines</head>
+                <divGen type="toc"/>
+                <div xml:id="intro">
+                    <head type="section">Introduction</head>
+                    <p>Coming soon.</p>
+                </div>
+                <div xml:id="git-workflow">
+                    <head type="section">Using version control</head>
+                    <p>The Shelley-Godwin Archive (SGA) uses the <ref
+                            target="http://en.wikipedia.org/wiki/Git_(software)">Git</ref> version
+                        control system to manage all files associated with transcriptions created
+                        for the project. Consequently, SGA also uses <ref
+                            target="https://github.com/">Github</ref>, a hosted service for Git
+                        projects that incorporates many useful project management features, in order
+                        to manage the transcription and encoding workflow. The rest of this section
+                        briefly describes how to use Git and Github to prepare transcriptions for the Archive.</p>
+                </div>
             </div>
             <div xml:id="spec">
                 <head>Technical specification</head>
@@ -64,7 +81,7 @@
                     <!-- included principally for the att.linking class -->
 
                     <!-- Class-level modifications -->
-                    <classSpec ident="att.global" type="atts"  mode="change">
+                    <classSpec ident="att.global" type="atts" mode="change">
                         <attList>
                             <attDef ident="xml:lang" mode="delete"/>
                             <attDef ident="xml:base" mode="delete"/>
@@ -73,7 +90,7 @@
                             <attDef ident="rendition " mode="delete"/>
                         </attList>
                     </classSpec>
-                    
+
                     <classSpec ident="att.global.linking" type="atts" mode="change">
                         <attList>
                             <attDef ident="synch" mode="delete"/>
@@ -83,23 +100,23 @@
                             <attDef ident="select" mode="delete"/>
                         </attList>
                     </classSpec>
-                    
-                    <classSpec ident="att.coordinated.attributes"  type="atts" mode="change">
+
+                    <classSpec ident="att.coordinated.attributes" type="atts" mode="change">
                         <attList>
                             <attDef ident="start" mode="delete"/>
                         </attList>
                     </classSpec>
-                    
+
                     <classSpec ident="att.typed" type="atts" mode="change">
                         <attList>
                             <attDef ident="subtype" mode="delete"/>
                         </attList>
                     </classSpec>
-                    
+
                     <!-- Removing entire classes; some of these might be restored later -->
-                    <classSpec ident="att.global.analytic"  type="atts" mode="delete"/>
-                    <classSpec ident="att.global.change"  type="atts" mode="delete"/>
-                    <classSpec ident="att.declaring"  type="atts" mode="delete"/>
+                    <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
+                    <classSpec ident="att.global.change" type="atts" mode="delete"/>
+                    <classSpec ident="att.declaring" type="atts" mode="delete"/>
 
                     <elementSpec ident="surface" module="transcr" mode="change">
                         <content>
@@ -133,12 +150,13 @@
                                     <rng:choice>
                                         <rng:ref name="zone"/>
                                         <!--<rng:ref name="surface"/>
-                                        <rng:ref name="surfaceGrp"/>--><!-- Temporarily removing the case of paste-ins, etc. -->
+                                        <rng:ref name="surfaceGrp"/>-->
+                                        <!-- Temporarily removing the case of paste-ins, etc. -->
                                     </rng:choice>
                                 </rng:oneOrMore>
                                 <rng:zeroOrMore>
                                     <rng:choice>
-                                        <rng:ref name="model.global"/>                                       
+                                        <rng:ref name="model.global"/>
                                         <rng:ref name="line"/>
                                     </rng:choice>
                                 </rng:zeroOrMore>
@@ -157,8 +175,9 @@
 
                             <attDef ident="corresp" mode="change">
                                 <altIdent>partOf</altIdent>
-                                <desc>Syntactic sugar attribute—should refer to the id of the sourceDoc element with which this
-                                    surface should be associated</desc>
+                                <desc>Syntactic sugar attribute—should refer to the id of the
+                                    sourceDoc element with which this surface should be
+                                    associated</desc>
                             </attDef>
 
                             <!-- See note above re: Whitman integration -->
