@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-09T18:35:08Z. 
+Schema generated from ODD source 2012-02-12T15:03:33Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5026,8 +5026,9 @@ that space, zones of interest within that space, and transcriptions of the
       <ref name="sga-patt.global.attribute.rendition"/>
       <optional>
         <attribute name="partOf">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) Syntactic sugar attribute—should refer to the id of the sourceDoc element with which this
-                                    surface should be associated</a:documentation>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) Syntactic sugar attribute—should refer to the id of the
+                                    sourceDoc element with which this surface should be
+                                    associated</a:documentation>
           <list>
             <ref name="sga-pdata.pointer"/>
             <zeroOrMore>

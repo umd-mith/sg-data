@@ -5,8 +5,8 @@
 <surface
   xmlns="http://www.tei-c.org/ns/1.0" xml:id="mh-myr5-ms_eng_258_2-0001"
   ulx="0" uly="0" lrx="3962" lry="5322">
+  <desc>Front cover</desc>
   <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0001.tif"/>
-    <zone>
-    </zone>
+    <zone/>
 </surface>
 
