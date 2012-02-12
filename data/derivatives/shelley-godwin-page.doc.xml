@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>TEI customization for the Shelley-Godwin Archive page transcriptions</title>
+                <title>Encoding Guidelines</title>
                 <author><persName xml:id="tmunoz">Trevor Muñoz</persName></author>
             </titleStmt>
             <publicationStmt>
@@ -26,29 +26,29 @@
         <revisionDesc>
             <change when="2012-02-08" who="tmunoz">Created this separate ODD to govern page-level
                 markup</change>
-            <change when="2012-02-12" who="tmunoz">Began adding prose documentation about workflow</change>
+            <change when="2012-02-12" who="tmunoz">Began adding prose documentation about
+                workflow</change>
         </revisionDesc>
     </teiHeader>
     <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
         <body>
-            <div xml:id="rationale">
-                <head type="running">The Shelley-Godwin Archive</head>
-                <head type="main">Encoding Guidelines</head>
-                <divGen type="toc"/>
-                <div xml:id="intro">
-                    <head type="section">Introduction</head>
-                    <p>Coming soon.</p>
-                </div>
-                <div xml:id="git-workflow">
-                    <head type="section">Using version control</head>
-                    <p>The Shelley-Godwin Archive (SGA) uses the <ref target="http://en.wikipedia.org/wiki/Git_(software)">Git</ref> version
-                        control system to manage all files associated with transcriptions created
-                        for the project. Consequently, SGA also uses <ref target="https://github.com/">Github</ref>, a hosted service for Git
-                        projects that incorporates many useful project management features, in order
-                        to manage the transcription and encoding workflow. The rest of this section
-                        briefly describes how to use Git and Github to prepare transcriptions for the Archive.</p>
-                </div>
+            <div xml:id="intro">
+                <head type="section">Introduction</head>
+                <p>Coming soon.</p>
             </div>
+            <div xml:id="git-workflow">
+                <head type="section">Using version control</head>
+                <p>The Shelley-Godwin Archive (SGA) uses the <ref target="http://en.wikipedia.org/wiki/Git_(software)">Git</ref> version
+                    control system to manage all files associated with transcriptions created for
+                    the project. Consequently, SGA also uses <ref target="https://github.com/">Github</ref>, a hosted service for Git projects that incorporates many
+                    useful project management features, in order to manage the transcription and
+                    encoding workflow. The rest of this section briefly describes how to use Git and
+                    Github to prepare transcriptions for the Archive.</p>
+            </div>
+
             <div xml:id="spec">
                 <head>Technical specification</head>
                 <p>The prefix <abbr>sga-p</abbr> in this schema stands for <expan>Shelley-Godwin
