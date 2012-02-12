@@ -5,7 +5,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-12T13:58:27Z. 
+# Schema generated from ODD source 2012-02-12T15:03:33Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2761,8 +2761,9 @@ sga-psurface =
     }?,
     sga-patt.global.attribute.rendition,
     
-    ## (corresponds) Syntactic sugar attribute—should refer to the id of the sourceDoc element with which this
-    ##                                     surface should be associated
+    ## (corresponds) Syntactic sugar attribute—should refer to the id of the
+    ##                                     sourceDoc element with which this surface should be
+    ##                                     associated
     attribute partOf {
       list { sga-pdata.pointer, sga-pdata.pointer* }
     }?,
