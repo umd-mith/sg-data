@@ -57,10 +57,11 @@
                         the <ref target="../assets/img/issues_tab.png">Issues tab</ref>.</item>
                     <item>Select an open issue from the list to work on. Each ticket represents a
                         page to be transcribed.</item>
-                    <item>Make a comment on the issue to "claim" it (so hopefully we don't duplicate
-                        work). For example <q>Started transcription on 2012-02-13.</q> (Using
-                        machine readable dates is a nice convenience for us scanning the logs so
-                        please try to remember to use them.)</item>
+                    <item>Assign the issue to yourself using the <ref target="../assets/img/assignment_menu.png">small gear icon below the
+                            issue title</ref>. Add a comment to the issue to indicate when you
+                        started working. For example <q>Started transcription on 2012-02-13.</q>
+                        (Using machine readable dates is a nice convenience for us scanning the logs
+                        so please try to remember to use them.)</item>
                     <item>The issue ticket has a link to the page image you can use for
                         transcription and to the stub tei file for that page image that has already
                         been created.</item>
@@ -78,10 +79,11 @@
                         that's the active branch.</item>
                     <item>Create a branch to hold your work. You could name this anything you want,
                         but for convenience, name your branch with your Github username and the
-                        date: e.g., <code>$git branch trevormunoz-2012-02-13</code></item>
+                        date: e.g., <code>$git branch
+                            trevormunoz‑2012‑02‑13</code></item>
                     <item>Switch to working on the branch you just created. In Git terminology this
                         is called a <q>checkout</q>. So, <code>$git checkout
-                            trevormunoz-2012-02-13</code></item>
+                            trevormunoz‑2012‑02‑13</code></item>
                     <item/>
                 </list>
 
@@ -90,10 +92,26 @@
                     take advantage of Git as a version control system to help you. You can (and
                     should) commit frequently and even push to the remote copy of your branch. This
                     is akin to saving your work.</p>
-                
+
                 <list>
                     <head>When you've completed your transcription of a file ...</head>
-                    <item/>
+                    <item>Make sure you have committed and pushed the last of your changes to the
+                        file on your branch. Note: to push to your branch, you will need to modify
+                        the command: e.g., <code>$git push origin
+                            trevormunoz‑2012‑02‑13</code> instead of <code>$git
+                            push origin master</code>.</item>
+                    <item>Using your browser, return to the Shelley-Godwin Archive Github page.
+                        Select your branch from <ref target="../assets/img/branches_menu.png">the
+                            dropdown menu</ref> (this is like doing a checkout in the graphical user
+                        interface.</item>
+                    <item>Issue a pull request by clicking on <ref target="../assets/img/pull_request.png">pull request button</ref>. This
+                        will take you to a new page where you can fill in more information about the
+                        request. You'll see that your last commit message is already pre-populated
+                        as the subject line. Clean up the message if necessary and add any
+                        additional details or questions. Click submit.</item>
+                    <item>You're done! Someone from the editorial team will review your
+                        transcriptions, merge your branch back into the master, and close the
+                        relevant issue.</item>
                 </list>
             </div>
 
