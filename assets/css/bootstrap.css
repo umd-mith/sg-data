@@ -3456,3 +3456,155 @@ td p {
 }
 ul.toc {list-style: none;}
 li.toc {list-style: none;}
+div.cdata {
+    white-space: pre;
+    clear:both;
+}
+/* pretty printing of XML */
+td.classSpec, td.macroSpec {
+    font-weight: bold;
+}
+a.link_odd_element:link,a.link_odd_element:visited {       
+    /*     color: #006400; */
+}
+a.link_odd_macro:link,a.link_odd_macro:visited {
+
+}
+a.link_odd_class:link,a.link_odd_class:visited {
+
+}
+span.element {
+    font-weight: bold;
+    color: black;
+}
+td.elementSpec,span.elementname {
+    font-weight: bold;
+    color: #222288;
+}
+span.highlightelementname {
+    color: red;
+}
+
+span.attribute {
+    color: #222288;
+}
+span.attributevalue {
+    color: black;
+}
+span.comment {
+    color: black;
+    font-style:italic;
+}
+span.namespace {
+    color: #222288;
+}
+/* pretty print rnc */
+span.rnc_nc {
+    color: #006400;
+}
+span.rnc_decl {
+    color: green;
+}
+span.rnc_prefix {
+    color: blue;
+}
+span.rnc_param {
+    color: gray;
+}
+span.rnc_atom {
+    color: yellow;
+}
+span.rnc_annot {
+    color: #FF8040;
+}
+span.rnc_comment {
+    color: #FF00FF;
+}
+span.rnc_annot {
+    color: #00FFFF;
+}
+span.rnc_type {
+    color: purple;
+}
+span.rnc_keyword {
+    color: teal;
+}
+span.defaultVal {
+    font-weight: bold;
+}
+span.required {
+    font-weight: bold;
+}
+div.moduleSpec {
+    padding: 1px;
+    margin: 1px;
+    background-color: #C0C0C0;
+    color:inherit;
+    clear:right;
+}
+span.moduleSpecHead {
+    font-style: italic;
+}
+ul.specList li {
+    list-style: none;
+}
+span.specList-macroSpec {
+    font-weight: bold;
+}
+span.specList-elementSpec {
+    font-weight: bold;
+}
+span.specList-elementSpec:before {
+    content: "<";
+     
+}
+span.specList-elementSpec:after {
+    content: ">";
+     
+}
+span.specList-classSpec {
+    font-weight: bold;
+}
+span.specName {
+    color: #223377;
+    font-weight: bold;
+}
+pre.RNG_XML {
+      display: none;
+      }
+
+span.RNG_XML {
+      display: none;
+      }
+pre,div.pre,div.pre_eg,pre.eg,div.eg {
+    clear:both;
+    margin-top: 1em;
+    margin-bottom:1em;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #000000;
+    line-height: 1.1em;
+    font-family: monospace;
+    font-size: 10pt;
+    white-space: pre;
+}
+
+div.egXML_valid {
+    background-color: #f7f9f6;
+    border-color: #c5d8bb;
+    }
+div.egXML_feasible {
+    background-color: #fff9f3;
+    border-color: #ffe1ad;
+    }
+div.egXML_invalid {
+    border-color: #ffe7e8 ;
+    background-color:  #fdbbac;
+    }
