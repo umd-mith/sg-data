@@ -3363,3 +3363,95 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+
+/* Borrowed from the TEI stylesheets */
+table.wovenodd tr td {
+    border: 1px solid #555;
+    padding:1%;
+}
+table.wovenodd {
+    border-spacing:0px;
+    border-collapse:collapse;
+}
+table.wovenodd tr td {
+    border-spacing:0px;
+}
+table.wovenodd tr {
+    border-spacing:0px;
+    border-collapse:collapse;
+}
+table.wovenodd tr td table.attList {
+    border-spacing:0px;
+    border:none;
+}
+table.wovenodd tr td table.attList tr {
+    border-spacing:0px;
+    border:none;
+}
+table.wovenodd tr td table.attList tr td {
+    border-spacing:0px;
+    border:none;
+}
+table.attList {
+    table-layout: fixed;
+    width: 100%;
+    margin: 0pt;
+    padding: 0pt;
+}
+td.odd_label {
+    vertical-align: top;
+    width: 10%;
+    font-weight: bold;
+}
+td.odd_value {
+    vertical-align: top;
+    width: 90%;
+}
+table.attDef {
+    table-layout: fixed;
+    width: 100%;
+}
+table.attDef td.odd_label {
+    width: 10%;
+    vertical-align: top;
+    font-weight: normal;
+}
+table.attDef td.odd_value {
+    vertical-align: top;
+    width: 90%;
+}
+table.attList  td.odd_label:before {
+    content: "@";
+}
+table.attDef  td.odd_label:before {
+    content: "";
+}
+table.valList  td.odd_label:before {
+    content: "";
+}
+table.valList {
+    table-layout: fixed;
+    width: 100%;
+}
+table.valList td.odd_label {
+    width: 10%;
+    vertical-align: top;
+    font-style: normal;
+    font-weight: normal;
+}
+table.valList td.odd_value {
+    vertical-align: top;
+    width: 90%;
+}
+table.specDesc td.Attribute {
+    font-weight: bold;
+    vertical-align: top;
+}
+table.specDesc {
+    margin-left: 1em;
+}
+td p {
+    margin-top: 0pt;
+    margin-bottom: 2pt;
+}
+
