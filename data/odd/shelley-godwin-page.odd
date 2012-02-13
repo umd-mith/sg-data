@@ -70,6 +70,39 @@
                         work). For example <q>Started transcription on 2012-02-13.</q> (Using
                         machine readable dates is a nice convenience for us scanning the logs so
                         please try to remember to use them.)</item>
+                    <item>The issue ticket has a link to the page image you can use for
+                        transcription and to the stub tei file for that page image that has already
+                        been created.</item>
+                    <item>You may want to open the page image in a browser window but don't open the
+                        TEI file yet.</item>
+                </list>
+
+                <list>
+                    <head>In a terminal session (or using a Git client) ...</head>
+                    <note>(All examples assume you are working on the command line)</note>
+                    <item>Make sure you are in the top-level of the project directory in your local
+                        clone of repository. Make sure you are on the <q>master</q> branch. If
+                        you're not sure you can type: <code>$git branch</code>, which will display a
+                        list of all the branches. There should be an asterisk next to master if
+                        that's the active branch.</item>
+                    <item>Create a branch to hold your work. You could name this anything you want,
+                        but for convenience, name your branch with your Github username and the
+                        date: e.g., <code>$git branch trevormunoz-2012-02-13</code></item>
+                    <item>Switch to working on the branch you just created. In Git terminology this
+                        is called a <q>checkout</q>. So, <code>$git checkout
+                            trevormunoz-2012-02-13</code></item>
+                    <item/>
+                </list>
+
+                <p>Making sure that you are now on the branch you created, open the TEI file and
+                    transcribe what you see on the page (more on that below). As you work, please
+                    take advantage of Git as a version control system to help you. You can (and
+                    should) commit frequently and even push to the remote copy of your branch. This
+                    is akin to saving your work.</p>
+                
+                <list>
+                    <head>When you've completed your transcription of a file ...</head>
+                    <item></item>
                 </list>
             </div>
 
