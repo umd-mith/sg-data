@@ -2332,6 +2332,7 @@ button.btn.small, input[type="submit"].btn.small {
 .navbar {
   overflow: visible;
   margin-bottom: 18px;
+  padding-bottom: 9px;
   background-color: rgba(48,86,135,1);
 }
 .navbar-inner {
