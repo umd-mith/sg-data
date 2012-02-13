@@ -3048,12 +3048,12 @@ a.thumbnail:hover {
   padding: 1px 3px 2px;
   font-size: 9.75px;
   font-weight: bold;
-  color: #ffffff;
+  /*color: #ffffff;*/
   text-transform: uppercase;
-  background-color: #999999;
+ /* background-color: #999999;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 3px;*/
 }
 .label-important {
   background-color: #b94a48;
@@ -3453,7 +3453,4 @@ table.specDesc {
 td p {
     margin-top: 0pt;
     margin-bottom: 2pt;
-}
-span.label {
-    font-weight: bold;
 }
