@@ -252,6 +252,7 @@ a:hover {
   width: 940px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 150px;
   *zoom: 1;
 }
 .container:before, .container:after {
