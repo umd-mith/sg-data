@@ -5,13 +5,13 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-12T17:05:41Z. 
+# Schema generated from ODD source 2012-02-13T15:46:12Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
 
-# This work is copyright Trevor Munoz and Maryland Institute for Technology in
-#     the Humanities and licensed under a Creative Commons
+# This work is copyright Trevor Muñoz and Maryland Institute for
+#     Technology in the Humanities and licensed under a Creative Commons
 #         Attribution 3.0 Unported License.
 sga-pmacro.paraContent =
   (text
