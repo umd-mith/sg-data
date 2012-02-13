@@ -3454,4 +3454,6 @@ td p {
     margin-top: 0pt;
     margin-bottom: 2pt;
 }
-
+span.label {
+    font-weight: bold;
+}
