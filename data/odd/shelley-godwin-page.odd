@@ -8,7 +8,7 @@
             <titleStmt>
                 <title>Encoding Guidelines</title>
                 <author>
-                    <persName xml:id="tmunoz">Trevor Muñoz</persName>
+                    <persName xml:id="tmunoz">Trevor Mu&#241;oz</persName>
                 </author>
             </titleStmt>
             <publicationStmt>
@@ -19,7 +19,7 @@
                 </address>
                 <date when="2012-02-10">February 10, 2012</date>
                 <availability status="restricted">
-                    <p>This work is copyright Trevor Munoz and Maryland Institute for Technology in
+                    <p>This work is copyright Trevor Mu&#241;oz and Maryland Institute for Technology in
                         the Humanities and licensed under a <ref
                             target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
                             Attribution 3.0 Unported License</ref>.</p>
