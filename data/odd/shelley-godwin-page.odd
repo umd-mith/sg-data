@@ -19,8 +19,8 @@
                 </address>
                 <date when="2012-02-10">February 10, 2012</date>
                 <availability status="restricted">
-                    <p>This work is copyright Trevor Mu&#241;oz and Maryland Institute for Technology in
-                        the Humanities and licensed under a <ref
+                    <p>This work is copyright Trevor Mu&#241;oz and Maryland Institute for
+                        Technology in the Humanities and licensed under a <ref
                             target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
                             Attribution 3.0 Unported License</ref>.</p>
                 </availability>
@@ -47,15 +47,30 @@
                 <p>Coming soon.</p>
             </div>
             <div xml:id="git-workflow">
-                <head type="section">Using version control</head>
+                <head type="section">Project mechanics: using version control</head>
                 <p>The Shelley-Godwin Archive (SGA) uses the <ref
                         target="http://en.wikipedia.org/wiki/Git_(software)">Git</ref> version
                     control system to manage all files associated with transcriptions created for
-                    the project. Consequently, SGA also uses <ref target="https://github.com/"
-                        >Github</ref>, a hosted service for Git projects that incorporates many
-                    useful project management features, in order to manage the transcription and
-                    encoding workflow. The rest of this section briefly describes how to use Git and
-                    Github to prepare transcriptions for the Archive.</p>
+                    the project. Since SGA is using Git, we also use <ref
+                        target="https://github.com/">Github</ref>, a hosted service for Git projects
+                    which incorporates many useful project management features, to manage the
+                    transcription and encoding workflow. The rest of this section briefly describes
+                    how to use Git and Github to prepare transcriptions for the Archive.</p>
+
+                <p>You will need: a web browser, the <term>oXygen</term> XML editor, and a Terminal
+                    window or Git client (e.g., <term>Github for Mac</term>)</p>
+
+                <list>
+                    <head>In a web browser ...</head>
+                    <item>Visit the Github page for the Shelley-Godwin Archive data and navigate to
+                        the <ref target="../img/issues_tab.png">Issues tab</ref>.</item>
+                    <item>Select an open issue from the list to work on. Each ticket represents a
+                        page to be transcribed.</item>
+                    <item>Make a comment on the issue to "claim" it (so hopefully we don't duplicate
+                        work). For example <q>Started transcription on 2012-02-13.</q> (Using
+                        machine readable dates is a nice convenience for us scanning the logs so
+                        please try to remember to use them.)</item>
+                </list>
             </div>
 
             <div xml:id="spec">
