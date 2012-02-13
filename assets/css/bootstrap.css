@@ -3454,3 +3454,5 @@ td p {
     margin-top: 0pt;
     margin-bottom: 2pt;
 }
+ul.toc {list-style: none;}
+li.toc {list-style: none;}
