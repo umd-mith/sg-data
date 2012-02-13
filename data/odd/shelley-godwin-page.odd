@@ -63,7 +63,7 @@
                 <list>
                     <head>In a web browser ...</head>
                     <item>Visit the Github page for the Shelley-Godwin Archive data and navigate to
-                        the <ref target="../img/issues_tab.png">Issues tab</ref>.</item>
+                        the <ref target="../assets/img/issues_tab.png">Issues tab</ref>.</item>
                     <item>Select an open issue from the list to work on. Each ticket represents a
                         page to be transcribed.</item>
                     <item>Make a comment on the issue to "claim" it (so hopefully we don't duplicate
