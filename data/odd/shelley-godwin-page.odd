@@ -43,7 +43,7 @@
         </front>
         <body>
             <div xml:id="intro">
-                <head type="section">Introduction</head>
+                <head type="section">General Introduction</head>
                 <p>Coming soon.</p>
             </div>
             <div xml:id="git-workflow">
@@ -77,6 +77,11 @@
                         been created.</item>
                     <item>You may want to open the page image in a browser window but don't open the
                         TEI file yet.</item>
+                    <item>Exception: if the page image contains no text at all (e.g., it's an image
+                        of the cover, or a completely blank page) then you can edit the TEI file
+                        right in the web interface using the <q>Edit this file</q> button. All you
+                        need to do is add a &lt;desc&gt; element describing the content, e.g. "Front
+                        cover." Otherwise, follow the instructions below.</item>
                 </list>
 
                 <list>
@@ -89,11 +94,11 @@
                         that's the active branch.</item>
                     <item>Create a branch to hold your work. You could name this anything you want,
                         but for convenience, name your branch with your Github username and the
-                        date: e.g., <code>$git branch
-                            trevormunoz&#8209;2012&#8209;02&#8209;13</code></item>
+                        number of the image (from the filename): e.g., <code>$git branch
+                            trevormunoz&#8209;0001</code></item>
                     <item>Switch to working on the branch you just created. In Git terminology this
-                        is called a <q>checkout</q>. So, <code>$git checkout
-                            trevormunoz&#8209;2012&#8209;02&#8209;13</code></item>
+                        is called a <q>checkout</q>. So, <code>$git&#xa0; checkout&#xa0;
+                            trevormunoz&#8209;0001</code></item>
                     <item/>
                 </list>
 
@@ -107,9 +112,9 @@
                     <head>When you've completed your transcription of a file ...</head>
                     <item>Make sure you have committed and pushed the last of your changes to the
                         file on your branch. Note: to push to your branch, you will need to modify
-                        the command: e.g., <code>$git push origin
-                            trevormunoz&#8209;2012&#8209;02&#8209;13</code> instead of <code>$git
-                            push origin master</code>.</item>
+                        the command: e.g., <code>$git&#xa0;push&#xa0;origin
+                            trevormunoz&#8209;0001</code> instead of
+                            <code>$git&#xa0;push&#xa0;origin&#xa0;master</code>.</item>
                     <item>Using your browser, return to the Shelley-Godwin Archive Github page.
                         Select your branch from <ref target="../assets/img/branches_menu.png">the
                             dropdown menu</ref> (this is like doing a checkout in the graphical user
@@ -123,6 +128,17 @@
                     <item>You're done! Someone from the editorial team will review your
                         transcriptions, merge your branch back into the master, and close the
                         relevant issue.</item>
+                    <item>Once you've received a message indicating that your transcription has been
+                        merged and the relevant issue closed, you will need to do a little cleanup
+                        in your local copy of the repository. Specifically you will need to delete
+                        the branch you made above. To do this, you will need to be on the master
+                        branch. Then make sure your copy is up-to-date by issuing:
+                            <code>$git&#xa0;pull</code>. Finally, delete the branch both locally and
+                        in the remote copy of the repository:
+                            <code>$git&#xa0;branch&#xa0;-d&#xa0;trevormunoz&#8209;0001</code> (this
+                        takes care of your local version), then
+                            <code>$git&#xa0;push&#xa0;origin&#xa0;&#8209;&#8209;delete&#xa0;trevormunoz&#8209;0001</code>
+                    </item>
                 </list>
             </div>
 
