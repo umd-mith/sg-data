@@ -43,7 +43,7 @@
         </front>
         <body>
             <div xml:id="intro">
-                <head type="section">Introduction</head>
+                <head type="section">General Introduction</head>
                 <p>Coming soon.</p>
             </div>
             <div xml:id="git-workflow">
@@ -63,22 +63,91 @@
                 <list>
                     <head>In a web browser ...</head>
                     <item>Visit the Github page for the Shelley-Godwin Archive data and navigate to
-                        the <ref target="../img/issues_tab.png">Issues tab</ref>.</item>
+                        the <ref target="../assets/img/issues_tab.png">Issues tab</ref>.</item>
                     <item>Select an open issue from the list to work on. Each ticket represents a
                         page to be transcribed.</item>
-                    <item>Make a comment on the issue to "claim" it (so hopefully we don't duplicate
-                        work). For example <q>Started transcription on 2012-02-13.</q> (Using
-                        machine readable dates is a nice convenience for us scanning the logs so
-                        please try to remember to use them.)</item>
+                    <item>Assign the issue to yourself using the <ref
+                            target="../assets/img/assignment_menu.png">small gear icon below the
+                            issue title</ref>. Add a comment to the issue to indicate when you
+                        started working. For example <q>Started transcription on 2012-02-13.</q>
+                        (Using machine readable dates is a nice convenience for us scanning the logs
+                        so please try to remember to use them.)</item>
+                    <item>The issue ticket has a link to the page image you can use for
+                        transcription and to the stub tei file for that page image that has already
+                        been created.</item>
+                    <item>You may want to open the page image in a browser window but don't open the
+                        TEI file yet.</item>
+                    <item>Exception: if the page image contains no text at all (e.g., it's an image
+                        of the cover, or a completely blank page) then you can edit the TEI file
+                        right in the web interface using the <q>Edit this file</q> button. All you
+                        need to do is add a &lt;desc&gt; element describing the content, e.g. "Front
+                        cover." Otherwise, follow the instructions below.</item>
+                </list>
+
+                <list>
+                    <head>In a terminal session (or using a Git client) ...</head>
+                    <note>(All examples assume you are working on the command line)</note>
+                    <item>Make sure you are in the top-level of the project directory in your local
+                        clone of repository. Make sure you are on the <q>master</q> branch. If
+                        you're not sure you can type: <code>$git branch</code>, which will display a
+                        list of all the branches. There should be an asterisk next to master if
+                        that's the active branch.</item>
+                    <item>Create a branch to hold your work. You could name this anything you want,
+                        but for convenience, name your branch with your Github username and the
+                        number of the image (from the filename): e.g., <code>$git branch
+                            trevormunoz&#8209;0001</code></item>
+                    <item>Switch to working on the branch you just created. In Git terminology this
+                        is called a <q>checkout</q>. So, <code>$git&#xa0; checkout&#xa0;
+                            trevormunoz&#8209;0001</code></item>
+                    <item/>
+                </list>
+
+                <p>Making sure that you are now on the branch you created, open the TEI file and
+                    transcribe what you see on the page (more on that below). As you work, please
+                    take advantage of Git as a version control system to help you. You can (and
+                    should) commit frequently and even push to the remote copy of your branch. This
+                    is akin to saving your work.</p>
+
+                <list>
+                    <head>When you've completed your transcription of a file ...</head>
+                    <item>Make sure you have committed and pushed the last of your changes to the
+                        file on your branch. Note: to push to your branch, you will need to modify
+                        the command: e.g., <code>$git&#xa0;push&#xa0;origin
+                            trevormunoz&#8209;0001</code> instead of
+                            <code>$git&#xa0;push&#xa0;origin&#xa0;master</code>.</item>
+                    <item>Using your browser, return to the Shelley-Godwin Archive Github page.
+                        Select your branch from <ref target="../assets/img/branches_menu.png">the
+                            dropdown menu</ref> (this is like doing a checkout in the graphical user
+                        interface.</item>
+                    <item>Issue a pull request by clicking on <ref
+                            target="../assets/img/pull_request.png">pull request button</ref>. This
+                        will take you to a new page where you can fill in more information about the
+                        request. You'll see that your last commit message is already pre-populated
+                        as the subject line. Clean up the message if necessary and add any
+                        additional details or questions. Click submit.</item>
+                    <item>You're done! Someone from the editorial team will review your
+                        transcriptions, merge your branch back into the master, and close the
+                        relevant issue.</item>
+                    <item>Once you've received a message indicating that your transcription has been
+                        merged and the relevant issue closed, you will need to do a little cleanup
+                        in your local copy of the repository. Specifically you will need to delete
+                        the branch you made above. To do this, you will need to be on the master
+                        branch. Then make sure your copy is up-to-date by issuing:
+                            <code>$git&#xa0;pull</code>. Finally, delete the branch both locally and
+                        in the remote copy of the repository:
+                            <code>$git&#xa0;branch&#xa0;-d&#xa0;trevormunoz&#8209;0001</code> (this
+                        takes care of your local version), then
+                            <code>$git&#xa0;push&#xa0;origin&#xa0;&#8209;&#8209;delete&#xa0;trevormunoz&#8209;0001</code>
+                    </item>
                 </list>
             </div>
-
+        </body>
+        <back>
             <div xml:id="spec">
-                <head>Technical specification</head>
-                <p>The prefix <abbr>sga-p</abbr> in this schema stands for <expan>Shelley-Godwin
-                        Archive, page-level</expan>.</p>
-                <p>The customization for page-level markup specified herein is NON-CONFORMANT with
-                    the TEI abstract model because the documents governed by this model are
+                <head>Technical documentation</head>
+                <p>The customization for page-level markup specified herein is provided for the
+                    convenience of Shelley-Godwin Archive project encoders. It is <hi rend="bold">NON-CONFORMANT</hi>
+                    with the TEI abstract model because the documents governed by this model are
                     fragments and are not-intended to stand alone.</p>
                 <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="surface surfaceGrp">
 
@@ -203,6 +272,6 @@
 
                 </schemaSpec>
             </div>
-        </body>
+        </back>
     </text>
 </TEI>
