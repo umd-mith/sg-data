@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://www.tei-c.org/ns/1.0">
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2004/10/xml.xsd"/>
   <!--
-    Schema generated from ODD source 2012-02-13T17:43:58Z. 
+    Schema generated from ODD source 2012-02-14T23:01:01Z. 
     Edition: 2.0.2 Last updated on 2nd February 2012.
     Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
     
