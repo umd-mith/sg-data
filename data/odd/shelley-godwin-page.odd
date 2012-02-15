@@ -111,8 +111,7 @@
                     <head>When you've completed your transcription of a file ...</head>
                     <item>Make sure you have committed and pushed the last of your changes to the
                         file on your branch. Note: to push to your branch, you will need to modify
-                        the command: e.g., <code>$git&#xa0;push&#xa0;origin
-                            trevormunoz&#8209;0001</code> instead of
+                        the command: e.g., <code>$git&#xa0;push&#xa0;origin&#xa0;trevormunoz&#8209;0001</code> instead of
                             <code>$git&#xa0;push&#xa0;origin&#xa0;master</code>.</item>
                     <item>Using your browser, return to the Shelley-Godwin Archive Github page.
                         Select your branch from <ref target="../assets/img/branches_menu.png">the
