@@ -85,8 +85,7 @@
                 </list>
 
                 <list>
-                    <head>In a terminal session (or using a Git client) ...</head>
-                    <note>(All examples assume you are working on the command line)</note>
+                    <head>In a terminal session (or using a Git client—All examples assume you are working on the command line) ...</head>
                     <item>Make sure you are in the top-level of the project directory in your local
                         clone of repository. Make sure you are on the <q>master</q> branch. If
                         you're not sure you can type: <code>$git branch</code>, which will display a
@@ -99,14 +98,14 @@
                     <item>Switch to working on the branch you just created. In Git terminology this
                         is called a <q>checkout</q>. So, <code>$git&#xa0; checkout&#xa0;
                             trevormunoz&#8209;0001</code></item>
+                    <item>Making sure that you are now on the branch you created, open the TEI file and
+                        transcribe what you see on the page (more on that below).</item>
                     <item/>
                 </list>
 
-                <p>Making sure that you are now on the branch you created, open the TEI file and
-                    transcribe what you see on the page (more on that below). As you work, please
-                    take advantage of Git as a version control system to help you. You can (and
-                    should) commit frequently and even push to the remote copy of your branch. This
-                    is akin to saving your work.</p>
+                <p>As you work, please take advantage of Git as a version control system to help
+                    you. You can (and should) commit frequently and even push to the remote copy of
+                    your branch. This is akin to saving your work.</p>
 
                 <list>
                     <head>When you've completed your transcription of a file ...</head>
@@ -141,14 +140,13 @@
                     </item>
                 </list>
             </div>
-        </body>
-        <back>
+        
             <div xml:id="spec">
                 <head>Technical documentation</head>
                 <p>The customization for page-level markup specified herein is provided for the
-                    convenience of Shelley-Godwin Archive project encoders. It is <hi rend="bold">NON-CONFORMANT</hi>
-                    with the TEI abstract model because the documents governed by this model are
-                    fragments and are not-intended to stand alone.</p>
+                    convenience of Shelley-Godwin Archive project encoders. It is <hi rend="bold"
+                        >NON-CONFORMANT</hi> with the TEI abstract model because the documents
+                    governed by this model are fragments and are not-intended to stand alone.</p>
                 <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="surface surfaceGrp">
 
                     <moduleRef key="tei"/>
@@ -272,6 +270,6 @@
 
                 </schemaSpec>
             </div>
-        </back>
+        </body>
     </text>
 </TEI>
