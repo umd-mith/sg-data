@@ -143,11 +143,10 @@
             </div>
 
             <div xml:id="spec">
-                <head>Technical specification</head>
-                <p>The prefix <abbr>sga-p</abbr> in this schema stands for <expan>Shelley-Godwin
-                        Archive, page-level</expan>.</p>
-                <p>The customization for page-level markup specified herein is NON-CONFORMANT with
-                    the TEI abstract model because the documents governed by this model are
+                <head>Technical documentation</head>
+                <p>The customization for page-level markup specified herein is provided for the
+                    convenience of Shelley-Godwin Archive project encoders. It is <hi rendition="bold">NON-CONFORMANT</hi>
+                    with the TEI abstract model because the documents governed by this model are
                     fragments and are not-intended to stand alone.</p>
                 <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="surface surfaceGrp">
 
