@@ -75,8 +75,7 @@
                 </list>
 
                 <list>
-                    <head>In a terminal session (or using a Git client) ...</head>
-                    <note>(All examples assume you are working on the command line)</note>
+                    <head>In a terminal session (or using a Git client—All examples assume you are working on the command line) ...</head>
                     <item>Make sure you are in the top-level of the project directory in your local
                         clone of repository. Make sure you are on the <q>master</q> branch. If
                         you're not sure you can type: <code>$git branch</code>, which will display a
@@ -89,21 +88,20 @@
                     <item>Switch to working on the branch you just created. In Git terminology this
                         is called a <q>checkout</q>. So, <code>$git  checkout 
                             trevormunoz‑0001</code></item>
+                    <item>Making sure that you are now on the branch you created, open the TEI file and
+                        transcribe what you see on the page (more on that below).</item>
                     <item/>
                 </list>
 
-                <p>Making sure that you are now on the branch you created, open the TEI file and
-                    transcribe what you see on the page (more on that below). As you work, please
-                    take advantage of Git as a version control system to help you. You can (and
-                    should) commit frequently and even push to the remote copy of your branch. This
-                    is akin to saving your work.</p>
+                <p>As you work, please take advantage of Git as a version control system to help
+                    you. You can (and should) commit frequently and even push to the remote copy of
+                    your branch. This is akin to saving your work.</p>
 
                 <list>
                     <head>When you've completed your transcription of a file ...</head>
                     <item>Make sure you have committed and pushed the last of your changes to the
                         file on your branch. Note: to push to your branch, you will need to modify
-                        the command: e.g., <code>$git push origin
-                            trevormunoz‑0001</code> instead of
+                        the command: e.g., <code>$git push origin trevormunoz‑0001</code> instead of
                             <code>$git push origin master</code>.</item>
                     <item>Using your browser, return to the Shelley-Godwin Archive Github page.
                         Select your branch from <ref target="../assets/img/branches_menu.png">the
@@ -130,14 +128,12 @@
                     </item>
                 </list>
             </div>
-        </body>
-        <back>
+        
             <div xml:id="spec">
                 <head>Technical documentation</head>
                 <p>The customization for page-level markup specified herein is provided for the
-                    convenience of Shelley-Godwin Archive project encoders. It is <hi rend="bold">NON-CONFORMANT</hi>
-                    with the TEI abstract model because the documents governed by this model are
-                    fragments and are not-intended to stand alone.</p>
+                    convenience of Shelley-Godwin Archive project encoders. It is <hi rend="bold">NON-CONFORMANT</hi> with the TEI abstract model because the documents
+                    governed by this model are fragments and are not-intended to stand alone.</p>
                 <div><head>Elements</head><div type="refdoc" xml:id="TEI.ab"><head>&lt;ab&gt;</head><index indexName="ODDS"><term sortKey="ab">&lt;ab&gt;</term><index indexName="ODDS"><term sortKey="part">@part</term></index></index><table rend="wovenodd"><row><cell cols="2" rend="wovenodd-col2"><hi rend="label">&lt;ab&gt; </hi>(<seg>anonymous block</seg>) <seg>contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph.</seg> [<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASE">16.3. </ref>]</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Module</hi></cell><cell rend="wovenodd-col2">linking</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Attributes</hi></cell><cell rend="wovenodd-col2"><seg xml:lang="en">Attributes </seg><ref target="#TEI.att.global">att.global</ref> (<hi rend="attribute">@xml:id</hi>, <hi rend="attribute">@n</hi>, <hi rend="attribute">@rendition</hi>)<c xml:space="preserve"> </c> (<ref target="#TEI.att.global.linking">att.global.linking</ref> (<hi rend="attribute">@corresp</hi>, <hi rend="attribute">@next</hi>, <hi rend="attribute">@prev</hi>))  (<ref target="#TEI.att.global.facs">att.global.facs</ref> (<hi rend="attribute">@facs</hi>)) <ref target="#TEI.att.typed">att.typed</ref> (<hi rend="attribute">@type</hi>)<c xml:space="preserve"> </c><table rend="attList"><attRef n="5" name="att.global.attributes"/><attRef n="5" name="att.typed.attributes"/><row><cell rend="odd_label">part</cell><cell rend="odd_value"><seg>specifies whether or not the block is complete. </seg><table rend="attDef"><row><cell rend="odd_label"><hi rend="label" xml:lang="en">Status</hi> </cell><cell rend="odd_value"><seg xml:lang="en">Optional</seg></cell></row>
       
       
@@ -6001,6 +5997,6 @@ macro.specialPara =
 macro.xtext = ( text | <ref target="#TEI.model.gLike">model.gLike</ref> )*</eg></cell></row>
 </table></div></div>
             </div>
-        </back>
+        </body>
     </text>
 </TEI>
