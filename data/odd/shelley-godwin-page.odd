@@ -141,7 +141,8 @@
                     </item>
                 </list>
             </div>
-
+        </body>
+        <back>
             <div xml:id="spec">
                 <head>Technical documentation</head>
                 <p>The customization for page-level markup specified herein is provided for the
@@ -271,6 +272,6 @@
 
                 </schemaSpec>
             </div>
-        </body>
+        </back>
     </text>
 </TEI>
