@@ -146,7 +146,7 @@
             <div xml:id="spec">
                 <head>Technical documentation</head>
                 <p>The customization for page-level markup specified herein is provided for the
-                    convenience of Shelley-Godwin Archive project encoders. It is <hi rendition="bold">NON-CONFORMANT</hi>
+                    convenience of Shelley-Godwin Archive project encoders. It is <hi rend="bold">NON-CONFORMANT</hi>
                     with the TEI abstract model because the documents governed by this model are
                     fragments and are not-intended to stand alone.</p>
                 <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="surface surfaceGrp">
