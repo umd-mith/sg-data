@@ -162,6 +162,7 @@
 
                     <!-- Additional modules -->
                     <moduleRef key="transcr"/>
+                    <moduleRef key="gaiji"/>
                     <moduleRef key="linking"/>
                     <!-- included principally for the att.linking class -->
 
@@ -301,7 +302,7 @@
                                 as &lt;sic&gt;, and &lt;reg&gt;</p>
                         </remarks>
                     </elementSpec>
-                    
+
                     <elementSpec ident="hi" module="core" mode="change">
                         <attList>
                             <attDef ident="rend" mode="change">
@@ -316,7 +317,10 @@
                                 </valList>
                             </attDef>
                         </attList>
-                        <remarks><p>Attribute values adapted from the TEI P5 specification for the ENRICH project, http://enrich.manuscriptorium.com/</p></remarks>
+                        <remarks>
+                            <p>Attribute values adapted from the TEI P5 specification for the ENRICH
+                                project, http://enrich.manuscriptorium.com/</p>
+                        </remarks>
                     </elementSpec>
 
                 </schemaSpec>
