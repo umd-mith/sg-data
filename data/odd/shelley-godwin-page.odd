@@ -150,30 +150,30 @@
                             <code>$git&#xa0;push&#xa0;origin&#xa0;&#8209;&#8209;delete&#xa0;trevormunoz&#8209;0001</code>
                     </item>
                 </list>
-                <div xml:id="workflow-schema-warning">
-                    <list>
-                        <head>Warning: while the schemas for the project are still under development
-                            ...</head>
-                        <item>Document analysis and modeling is an ongoing process</item>
-                        <item>During the early stages of encoding, the schemas for the project may
-                            change in a number of ways: elements and attributes might be added or
-                            removed, content models of elements might change, project conventions
-                            for encoding certain features might be updated. Please be patient and
-                            flexible.</item>
-                        <item>Changes may occur while you are working on transcriptions in a
-                            separate branch of the repository. In that case, you will need to apply
-                                <q>patches</q> from the master branch to your branch in order for
-                            your files to validate correctly. Someone from the editorial team will
-                            let you know if you need to do this.</item>
-                        <item>To patch, you will issue the following command (from your branch):
-                                <code>$git&#xa0;checkout&#xa0;master&#xa0;&#8209;&#8209;&#xa0;data/derivatives/shelley&#8209;godwin&#8209;page.rnc</code></item>
-                        <item>This will apply the changes to the schema file that have been
-                            committed on the master branch to your branch. This means your working
-                            copy will have changed and you should commit, indicating that you are
-                            applying a patch from the master branch</item>
-                        <item>Carry on transcribing.</item>
-                    </list>
-                </div>
+
+                <list>
+                    <head>Warning: while the schemas for the project are still under development
+                        ...</head>
+                    <item>Document analysis and modeling is an ongoing process</item>
+                    <item>During the early stages of encoding, the schemas for the project may
+                        change in a number of ways: elements and attributes might be added or
+                        removed, content models of elements might change, project conventions for
+                        encoding certain features might be updated. Please be patient and
+                        flexible.</item>
+                    <item>Changes may occur while you are working on transcriptions in a separate
+                        branch of the repository. In that case, you will need to apply
+                            <q>patches</q> from the master branch to your branch in order for your
+                        files to validate correctly. Someone from the editorial team will let you
+                        know if you need to do this.</item>
+                    <item>To patch, you will issue the following command (from your branch):
+                            <code>$git&#xa0;checkout&#xa0;master&#xa0;&#8209;&#8209;&#xa0;data/derivatives/shelley&#8209;godwin&#8209;page.rnc</code></item>
+                    <item>This will apply the changes to the schema file that have been committed on
+                        the master branch to your branch. This means your working copy will have
+                        changed and you should commit, indicating that you are applying a patch from
+                        the master branch</item>
+                    <item>Carry on transcribing.</item>
+                </list>
+
             </div>
 
             <div xml:id="spec">
