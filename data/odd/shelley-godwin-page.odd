@@ -295,6 +295,7 @@
                                     <rng:ref name="unclear"/>
                                     <rng:ref name="damage"/>
                                     <rng:ref name="handShift"/>
+                                    <rng:ref name="mod"/>
                                     <rng:ref name="retrace"/>
                                 </rng:choice>
                             </rng:zeroOrMore>
