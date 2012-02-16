@@ -3,15 +3,17 @@
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface
-  xmlns="http://www.tei-c.org/ns/1.0" xml:id="mh-myr5-ms_eng_258_2-0003"
+  xmlns="http://www.tei-c.org/ns/1.0" 
+  xmlns:ns1="http://sga.mith.org/ns/1.0"
+  xml:id="mh-myr5-ms_eng_258_2-0003"
   ulx="0" uly="0" lrx="4038" lry="5320" partOf="#mh-myr5-ms_eng_258_2">
   <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0003.tif"/>
   <zone >47)</zone>
   <zone><metamark>+</metamark> (<hi rend="underline">published</hi>)</zone>
   <zone >
-    <milestone unit="tei:div" subtype="xml:id"/>
-    <line type="el.head" subtype="att.main">The Sensitive Plant</line>
-    <line type="header"><c><g ref="#emdash"/></c> Part First.</line>
+    <milestone unit="tei:div" ns1:att-target="xml:id"/>
+    <line ns1:el-target="head" ns1:att-target="type" ns1:att-value="main">The Sensitive Plant</line>
+    <line ns1:el-target="head" ns1:att-target="type" ns1:att-value="sub"><c><g ref="#emdash"/></c> Part First.</line>
   </zone>
   <zone>
     <milestone unit="tei:lg"/>
