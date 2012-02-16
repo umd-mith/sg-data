@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-16T15:37:32Z. 
+Schema generated from ODD source 2012-02-16T15:57:32Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -624,9 +624,43 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
   <define name="sga-patt.global.attributes">
     <ref name="sga-patt.global.linking.attributes"/>
     <ref name="sga-patt.global.facs.attributes"/>
+    <ref name="sga-patt.global.attribute.el-target"/>
+    <ref name="sga-patt.global.attribute.att-target"/>
+    <ref name="sga-patt.global.attribute.att-value"/>
     <ref name="sga-patt.global.attribute.xmlid"/>
     <ref name="sga-patt.global.attribute.n"/>
     <ref name="sga-patt.global.attribute.rend"/>
+  </define>
+  <define name="sga-patt.global.attribute.el-target">
+    <optional>
+      <attribute name="el-target" ns="http://sga.mith.org/ns/1.0">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A convenience attribute for indicating what text-centric
+                                    element a document-centric element should be transformed
+                                    to</a:documentation>
+        <text/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.attribute.att-target">
+    <optional>
+      <attribute name="att-target" ns="http://sga.mith.org/ns/1.0">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A convenience attribute for indicating what attribute should
+                                    be added in transforming from document- to text-centric markup.
+                                    By convention the attribute is placed on the element specified
+                                    in a preceding el-target attribute</a:documentation>
+        <text/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.global.attribute.att-value">
+    <optional>
+      <attribute name="att-value" ns="http://sga.mith.org/ns/1.0">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">If an attribute created during a document- to text-centric
+                                    markup conversion should have a particular value, please
+                                    indicate</a:documentation>
+        <text/>
+      </attribute>
+    </optional>
   </define>
   <define name="sga-patt.global.attribute.xmlid">
     <optional>
@@ -3193,6 +3227,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
         surrounding text, for reasons concerning which no claim is
         made.  [3.3.2.2.  3.3.2. ]</a:documentation>
       <ref name="sga-pmacro.paraContent"/>
+      <ref name="sga-patt.global.attribute.el-target"/>
+      <ref name="sga-patt.global.attribute.att-target"/>
+      <ref name="sga-patt.global.attribute.att-value"/>
       <ref name="sga-patt.global.attribute.xmlid"/>
       <ref name="sga-patt.global.attribute.n"/>
       <optional>
@@ -5054,6 +5091,9 @@ that space, zones of interest within that space, and transcriptions of the
           </choice>
         </zeroOrMore>
       </group>
+      <ref name="sga-patt.global.attribute.el-target"/>
+      <ref name="sga-patt.global.attribute.att-target"/>
+      <ref name="sga-patt.global.attribute.att-value"/>
       <attribute name="xml:id">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
         <data type="ID"/>

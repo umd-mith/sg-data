@@ -1,11 +1,12 @@
 default namespace = "http://www.tei-c.org/ns/1.0"
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace ns1 = "http://sga.mith.org/ns/1.0"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-16T15:37:32Z. 
+# Schema generated from ODD source 2012-02-16T15:57:32Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -393,9 +394,31 @@ sga-patt.editLike.attribute.instant =
 sga-patt.global.attributes =
   sga-patt.global.linking.attributes,
   sga-patt.global.facs.attributes,
+  sga-patt.global.attribute.el-target,
+  sga-patt.global.attribute.att-target,
+  sga-patt.global.attribute.att-value,
   sga-patt.global.attribute.xmlid,
   sga-patt.global.attribute.n,
   sga-patt.global.attribute.rend
+sga-patt.global.attribute.el-target =
+  
+  ## A convenience attribute for indicating what text-centric
+  ##                                     element a document-centric element should be transformed
+  ##                                     to
+  attribute ns1:el-target { text }?
+sga-patt.global.attribute.att-target =
+  
+  ## A convenience attribute for indicating what attribute should
+  ##                                     be added in transforming from document- to text-centric markup.
+  ##                                     By convention the attribute is placed on the element specified
+  ##                                     in a preceding el-target attribute
+  attribute ns1:att-target { text }?
+sga-patt.global.attribute.att-value =
+  
+  ## If an attribute created during a document- to text-centric
+  ##                                     markup conversion should have a particular value, please
+  ##                                     indicate
+  attribute ns1:att-value { text }?
 sga-patt.global.attribute.xmlid =
   
   ## (identifier) provides a unique identifier for the element bearing the attribute.
@@ -1473,6 +1496,9 @@ sga-phi =
   ##         made.  [3.3.2.2.  3.3.2. ]
   element hi {
     sga-pmacro.paraContent,
+    sga-patt.global.attribute.el-target,
+    sga-patt.global.attribute.att-target,
+    sga-patt.global.attribute.att-value,
     sga-patt.global.attribute.xmlid,
     sga-patt.global.attribute.n,
     
@@ -2770,6 +2796,9 @@ sga-psurface =
      sga-pmodel.graphicLike+,
      sga-pzone+,
      (sga-pmodel.global | sga-pline)*),
+    sga-patt.global.attribute.el-target,
+    sga-patt.global.attribute.att-target,
+    sga-patt.global.attribute.att-value,
     
     ## (identifier) provides a unique identifier for the element bearing the attribute.
     attribute xml:id { xsd:ID },
