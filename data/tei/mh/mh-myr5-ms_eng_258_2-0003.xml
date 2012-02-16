@@ -4,7 +4,7 @@
   type="application/relax-ng-compact-syntax"?>
 <surface
   xmlns="http://www.tei-c.org/ns/1.0" xml:id="mh-myr5-ms_eng_258_2-0003"
-  ulx="0" uly="0" lrx="4038" lry="5320">
+  ulx="0" uly="0" lrx="4038" lry="5320" partOf="#mh-myr5-ms_eng_258_2">
   <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0003.tif"/>
   <zone>47)</zone>
   <zone><metamark>+</metamark> (<hi rend="underline">published</hi>)</zone>
