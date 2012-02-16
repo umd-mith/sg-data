@@ -165,6 +165,9 @@
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking"/>
                     <!-- included principally for the att.linking class -->
+                    
+                    <!-- Some specific elements to include-->
+                    <elementRef key="c"/>
 
                     <!-- Class-level modifications -->
                     <classSpec ident="att.global" type="atts" mode="change">
