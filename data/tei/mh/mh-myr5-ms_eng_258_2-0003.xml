@@ -8,8 +8,8 @@
   <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0003.tif"/>
   <zone >47)</zone>
   <zone><metamark>+</metamark> (<hi rend="underline">published</hi>)</zone>
-  <milestone unit="tei:div"/>
   <zone >
+    <milestone unit="tei:div"/>
     <line type="el.head" subtype="att.main">The Sensitive Plant</line>
     <line type="header"><c><g ref="#emdash"/></c> Part First.</line>
   </zone>
