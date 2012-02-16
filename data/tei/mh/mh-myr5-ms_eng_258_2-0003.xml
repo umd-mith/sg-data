@@ -6,7 +6,11 @@
   xmlns="http://www.tei-c.org/ns/1.0" xml:id="mh-myr5-ms_eng_258_2-0003"
   ulx="0" uly="0" lrx="4038" lry="5320">
   <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0003.tif"/>
-    <zone>
-    </zone>
+  <zone>47)</zone>
+  <zone><metamark>+</metamark><line>(<hi rend="underline">published</hi>)</line></zone>
+  <zone>
+    <line>The Sensitive Plant</line>
+    <line><g></line>
+  </zone>
 </surface>
 
