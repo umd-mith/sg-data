@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-16T14:51:03Z. 
+Schema generated from ODD source 2012-02-16T15:37:32Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -933,12 +933,21 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
   </define>
   <define name="sga-patt.typed.attributes">
     <ref name="sga-patt.typed.attribute.type"/>
+    <ref name="sga-patt.typed.attribute.subtype"/>
   </define>
   <define name="sga-patt.typed.attribute.type">
     <optional>
       <attribute name="type">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient
  classification scheme or typology.</a:documentation>
+        <ref name="sga-pdata.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.typed.attribute.subtype">
+    <optional>
+      <attribute name="subtype">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a sub-categorization of the element, if needed</a:documentation>
         <ref name="sga-pdata.enumerated"/>
       </attribute>
     </optional>
@@ -981,6 +990,12 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
         </choice>
       </attribute>
     </optional>
+  </define>
+  <define name="sga-patt.pointing.group.attributes">
+    <ref name="sga-patt.pointing.attributes"/>
+    <ref name="sga-patt.typed.attributes"/>
+    <ref name="sga-patt.pointing.group.attribute.domains"/>
+    <ref name="sga-patt.pointing.group.attribute.targFunc"/>
   </define>
   <define name="sga-patt.pointing.group.attribute.domains">
     <optional>
@@ -5858,10 +5873,7 @@ values for @target</sch:assert>
         </choice>
       </oneOrMore>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.group.attribute.domains"/>
-      <ref name="sga-patt.pointing.group.attribute.targFunc"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
+      <ref name="sga-patt.pointing.group.attributes"/>
       <empty/>
     </element>
   </define>
@@ -6082,10 +6094,7 @@ values for @target</assert>
         </oneOrMore>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.group.attribute.domains"/>
-      <ref name="sga-patt.pointing.group.attribute.targFunc"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
+      <ref name="sga-patt.pointing.group.attributes"/>
       <optional>
         <attribute name="result">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the result of the joins gathered in this collection.</a:documentation>
@@ -6174,10 +6183,7 @@ values for @target</assert>
         </choice>
       </zeroOrMore>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.group.attribute.domains"/>
-      <ref name="sga-patt.pointing.group.attribute.targFunc"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
+      <ref name="sga-patt.pointing.group.attributes"/>
       <optional>
         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="mode" a:defaultValue="excl">
           <a:documentation>states whether the alternations gathered in this collection are exclusive or
