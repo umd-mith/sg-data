@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-16T12:45:44Z. 
+Schema generated from ODD source 2012-02-16T13:10:46Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -1183,29 +1183,41 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   <define name="sga-pmodel.segLike">
     <choice>
       <ref name="sga-pseg"/>
+      <ref name="sga-pc"/>
     </choice>
   </define>
   <define name="sga-pmodel.segLike_alternation">
     <choice>
       <ref name="sga-pseg"/>
+      <ref name="sga-pc"/>
     </choice>
   </define>
   <define name="sga-pmodel.segLike_sequence">
     <ref name="sga-pseg"/>
+    <ref name="sga-pc"/>
   </define>
   <define name="sga-pmodel.segLike_sequenceOptional">
     <optional>
       <ref name="sga-pseg"/>
+    </optional>
+    <optional>
+      <ref name="sga-pc"/>
     </optional>
   </define>
   <define name="sga-pmodel.segLike_sequenceOptionalRepeatable">
     <zeroOrMore>
       <ref name="sga-pseg"/>
     </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sga-pc"/>
+    </zeroOrMore>
   </define>
   <define name="sga-pmodel.segLike_sequenceRepeatable">
     <oneOrMore>
       <ref name="sga-pseg"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sga-pc"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.hiLike">
@@ -6218,6 +6230,16 @@ values for @target</assert>
         <ref name="sga-pdata.pointer"/>
       </attribute>
     </optional>
+  </define>
+  <define name="sga-pc">
+    <element name="c">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character) represents a character. [17.1. ]</a:documentation>
+      <ref name="sga-pmacro.xtext"/>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.segLike.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <empty/>
+    </element>
   </define>
   <start>
     <choice>
