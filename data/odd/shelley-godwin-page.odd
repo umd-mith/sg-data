@@ -195,12 +195,6 @@
                         </attList>
                     </classSpec>
 
-                    <classSpec ident="att.typed" type="atts" mode="change">
-                        <attList>
-                            <attDef ident="subtype" mode="delete"/>
-                        </attList>
-                    </classSpec>
-
                     <!-- Removing entire classes; some of these might be restored later -->
                     <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
                     <classSpec ident="att.global.change" type="atts" mode="delete"/>
