@@ -5,7 +5,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-16T14:51:03Z. 
+# Schema generated from ODD source 2012-02-16T15:37:32Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -643,12 +643,17 @@ sga-patt.placement.attribute.place =
        | xsd:Name)*
     }
   }?
-sga-patt.typed.attributes = sga-patt.typed.attribute.type
+sga-patt.typed.attributes =
+  sga-patt.typed.attribute.type, sga-patt.typed.attribute.subtype
 sga-patt.typed.attribute.type =
   
   ## characterizes the element in some sense, using any convenient
   ##  classification scheme or typology.
   attribute type { sga-pdata.enumerated }?
+sga-patt.typed.attribute.subtype =
+  
+  ## provides a sub-categorization of the element, if needed
+  attribute subtype { sga-pdata.enumerated }?
 sga-patt.pointing.attributes =
   sga-patt.pointing.attribute.target,
   sga-patt.pointing.attribute.evaluate
@@ -679,6 +684,11 @@ sga-patt.pointing.attribute.evaluate =
       ##	  pointer's target.
       "none"
   }?
+sga-patt.pointing.group.attributes =
+  sga-patt.pointing.attributes,
+  sga-patt.typed.attributes,
+  sga-patt.pointing.group.attribute.domains,
+  sga-patt.pointing.group.attribute.targFunc
 sga-patt.pointing.group.attribute.domains =
   
   ## optionally specifies the identifiers of the elements
@@ -3499,10 +3509,7 @@ sga-plinkGrp =
   element linkGrp {
     (sga-plink | sga-pptr)+,
     sga-patt.global.attributes,
-    sga-patt.pointing.group.attribute.domains,
-    sga-patt.pointing.group.attribute.targFunc,
-    sga-patt.pointing.attributes,
-    sga-patt.typed.attributes,
+    sga-patt.pointing.group.attributes,
     empty
   }
 sga-pab =
@@ -3723,10 +3730,7 @@ sga-pjoinGrp =
   element joinGrp {
     (sga-pmodel.glossLike*, (sga-pjoin | sga-pptr)+),
     sga-patt.global.attributes,
-    sga-patt.pointing.group.attribute.domains,
-    sga-patt.pointing.group.attribute.targFunc,
-    sga-patt.pointing.attributes,
-    sga-patt.typed.attributes,
+    sga-patt.pointing.group.attributes,
     
     ## describes the result of the joins gathered in this collection.
     attribute result { sga-pdata.name }?,
@@ -3835,10 +3839,7 @@ sga-paltGrp =
   element altGrp {
     (sga-palt | sga-pptr)*,
     sga-patt.global.attributes,
-    sga-patt.pointing.group.attribute.domains,
-    sga-patt.pointing.group.attribute.targFunc,
-    sga-patt.pointing.attributes,
-    sga-patt.typed.attributes,
+    sga-patt.pointing.group.attributes,
     
     ## states whether the alternations gathered in this collection are exclusive or
     ##                 inclusive.
