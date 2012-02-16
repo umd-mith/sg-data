@@ -109,6 +109,14 @@
                     you. You can (and should) commit frequently and even push to the remote copy of
                     your branch. This is akin to saving your work.</p>
 
+                <p>A note on git commits and commit messages. A commit is like a snapshot of your
+                    working directory. If you can think about your work in relatively atomic kind of
+                    units this will help guide you in understanding when or how often to commit.
+                    When you commit, Git will ask you to supply a short message describing the
+                    changes you're committing. For your own benefit later on as well as for the sake
+                    of everyone else on the project who might be trying to review your work, please
+                    make your commit messages concise but descriptive.</p>
+
                 <list>
                     <head><hi rend="bold">When you've completed your transcription of a file</hi>
                         ...</head>
@@ -142,6 +150,23 @@
                             <code>$git&#xa0;push&#xa0;origin&#xa0;&#8209;&#8209;delete&#xa0;trevormunoz&#8209;0001</code>
                     </item>
                 </list>
+                <div xml:id="workflow-schema-warning">
+                    <list>
+                        <head>Warning: while the schemas for the project are still under development
+                            ...</head>
+                        <item>Document analysis and modeling is an ongoing process</item>
+                        <item>During the early stages of encoding, the schemas for the project may
+                            change in a number of ways: elements and attributes might be added or
+                            removed, content models of elements might change, project conventions
+                            for encoding certain features might be updated. Please be patient and
+                            flexible.</item>
+                        <item>Changes may occur while you are working on transcriptions in a
+                            separate branch of the repository. In that case, you will need to apply
+                                <q>patches</q> from the master branch to your branch in order for
+                            your files to validate correctly.</item>
+                        <item>To patch, you will issue the following command (from your branch): <code>$git&#xa0;checkout&#xa0;master&#xa0;&#8209;&#8209;&#xa0;data/derivatives/shelley-godwin</code></item>
+                    </list>
+                </div>
             </div>
 
             <div xml:id="spec">
