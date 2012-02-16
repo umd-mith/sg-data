@@ -27,18 +27,23 @@ import org.eclipse.egit.github.core.client._
 import org.eclipse.egit.github.core.service._
 
 /**
- * Usage: ImageIntake username password tiffDir teiDir (limit) 
+ * Usage: ImageIntake username password tiffDir teiDir (count) start
  */
 object ImageIntake extends App {
   assert(args.length > 4)
 
-  val limit = if (args.length == 4) Int.MaxValue else args(4).toInt
+  val count = if (args.length <= 4) Int.MaxValue else args(4).toInt
+  val start = if (args.length <= 5) 0 else args(5).toInt 
 
   val client = new GitHubClient
   client.setCredentials(args(0), args(1))
 
   def createImageURL(id: String) =
-    "http://ec2-23-20-49-205.compute-1.amazonaws.com/sga/images/derivatives/%s/%s.jpg".format(id.substring(0, 2), id)
+    "http://sga.mith.org/images/derivatives/%s/%s.jpg".format(id.substring(0, 2), id)
+    //"http://ec2-23-20-49-205.compute-1.amazonaws.com/sga/images/derivatives/%s/%s.jpg".format(id.substring(0, 2), id)
+
+  def createThumbnailURL(id: String) =
+    "http://sga.mith.org/images/thumbnails/%s/%s.jpg".format(id.substring(0, 2), id)
 
   def createStubURL(id: String) =
     "https://github.com/umd-mith/sg-data/blob/master/data/tei/%s/%s.xml".format(id.substring(0, 2), id)
@@ -62,11 +67,18 @@ object ImageIntake extends App {
   def createSGAIssue(id: String) {
     val issue = new Issue
     issue.setTitle("New image: " + id)
-  issue.setBody(
+    issue.setBody(
 """A [new image](%s) is ready to be transcribed, and a [TEI stub file](%s) has been generated
 
+![Image thumbnail](%s)
+
 Please comment on this issue to claim the file before you begin working.
-""".format(this.createImageURL(id), this.createStubURL(id)))
+""".format(
+     this.createImageURL(id),
+     this.createStubURL(id),
+     this.createThumbnailURL(id)
+    ))
+
     val service = new IssueService(client)
     println(service.createIssue("umd-mith", "sg-data", issue))
   }
@@ -77,7 +89,7 @@ Please comment on this issue to claim the file before you begin working.
   val teiDir = new File(args(3))
   assert(teiDir.exists && teiDir.isDirectory)
 
-  tiffDir.listFiles.sorted.take(limit).foreach { file =>
+  tiffDir.listFiles.sorted.drop(start).take(count).foreach { file =>
     val id = file.getName.replaceAll("\\.tif", "")
     println(id)
     val pw = new PrintWriter(new File(teiDir, "%s.xml".format(id)))
