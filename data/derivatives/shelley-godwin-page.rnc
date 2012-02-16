@@ -5,7 +5,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-16T12:45:44Z. 
+# Schema generated from ODD source 2012-02-16T13:10:46Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -795,12 +795,12 @@ sga-pmodel.nameLike.agent_sequence = sga-pname
 sga-pmodel.nameLike.agent_sequenceOptional = sga-pname?
 sga-pmodel.nameLike.agent_sequenceOptionalRepeatable = sga-pname*
 sga-pmodel.nameLike.agent_sequenceRepeatable = sga-pname+
-sga-pmodel.segLike = sga-pseg
-sga-pmodel.segLike_alternation = sga-pseg
-sga-pmodel.segLike_sequence = sga-pseg
-sga-pmodel.segLike_sequenceOptional = sga-pseg?
-sga-pmodel.segLike_sequenceOptionalRepeatable = sga-pseg*
-sga-pmodel.segLike_sequenceRepeatable = sga-pseg+
+sga-pmodel.segLike = sga-pseg | sga-pc
+sga-pmodel.segLike_alternation = sga-pseg | sga-pc
+sga-pmodel.segLike_sequence = sga-pseg, sga-pc
+sga-pmodel.segLike_sequenceOptional = sga-pseg?, sga-pc?
+sga-pmodel.segLike_sequenceOptionalRepeatable = sga-pseg*, sga-pc*
+sga-pmodel.segLike_sequenceRepeatable = sga-pseg+, sga-pc+
 sga-pmodel.hiLike = sga-phi
 sga-pmodel.hiLike_alternation = sga-phi
 sga-pmodel.hiLike_sequence = sga-phi
@@ -3875,4 +3875,14 @@ sga-patt.global.linking.attribute.prev =
   ## (previous) points to the previous element of a virtual aggregate of
   ##       which the current element is part.
   attribute prev { sga-pdata.pointer }?
+sga-pc =
+  
+  ## (character) represents a character. [17.1. ]
+  element c {
+    sga-pmacro.xtext,
+    sga-patt.global.attributes,
+    sga-patt.segLike.attributes,
+    sga-patt.typed.attributes,
+    empty
+  }
 start = sga-psurface | sga-psurfaceGrp
