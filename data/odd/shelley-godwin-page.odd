@@ -274,11 +274,6 @@
                         expect this to be fixed in a future release of the Guidelines, 
                         see http://tei-l.970651.n3.nabble.com/Content-model-of-lt-line-gt-td3647279.html -->
                     <elementSpec ident="line" module="transcr" mode="change">
-                        <remarks>
-                            <p>For the purposes of diplomatic transcriptions, the content model of
-                                line has been restricted to remove more interpretive elements such
-                                as &lt;sic&gt;, and &lt;reg&gt;</p>
-                        </remarks>
                         <content>
                             <rng:zeroOrMore>
                                 <rng:choice>
@@ -300,6 +295,28 @@
                                 </rng:choice>
                             </rng:zeroOrMore>
                         </content>
+                        <remarks>
+                            <p>For the purposes of diplomatic transcriptions, the content model of
+                                line has been restricted to remove more interpretive elements such
+                                as &lt;sic&gt;, and &lt;reg&gt;</p>
+                        </remarks>
+                    </elementSpec>
+                    
+                    <elementSpec ident="hi" module="core" mode="change">
+                        <attList>
+                            <attDef ident="rend" mode="change">
+                                <valList type="closed">
+                                    <valItem ident="hyphenated"/>
+                                    <valItem ident="underline"/>
+                                    <valItem ident="double-underline"/>
+                                    <valItem ident="bold"/>
+                                    <valItem ident="caps"/>
+                                    <valItem ident="italic"/>
+                                    <valItem ident="sup"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                        <remarks><p>Attribute values adapted from the TEI P5 specification for the ENRICH project, http://enrich.manuscriptorium.com/</p></remarks>
                     </elementSpec>
 
                 </schemaSpec>
