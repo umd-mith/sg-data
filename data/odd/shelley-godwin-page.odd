@@ -165,7 +165,7 @@
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking"/>
                     <!-- included principally for the att.linking class -->
-                    
+
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
 
@@ -176,6 +176,22 @@
                             <attDef ident="xml:base" mode="delete"/>
                             <attDef ident="xml:space" mode="delete"/>
                             <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="el-target" mode="add" ns="http://sga.mith.org/ns/1.0">
+                                <desc>A convenience attribute for indicating what text-centric
+                                    element a document-centric element should be transformed
+                                    to</desc>
+                            </attDef>
+                            <attDef ident="att-target" mode="add" ns="http://sga.mith.org/ns/1.0">
+                                <desc>A convenience attribute for indicating what attribute should
+                                    be added in transforming from document- to text-centric markup.
+                                    By convention the attribute is placed on the element specified
+                                    in a preceding el-target attribute</desc>
+                            </attDef>
+                            <attDef ident="att-value" mode="add" ns="http://sga.mith.org/ns/1.0">
+                                <desc>If an attribute created during a document- to text-centric
+                                    markup conversion should have a particular value, please
+                                    indicate</desc>
+                            </attDef>
                         </attList>
                     </classSpec>
 
