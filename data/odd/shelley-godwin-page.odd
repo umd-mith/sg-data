@@ -171,8 +171,7 @@
                             <attDef ident="xml:lang" mode="delete"/>
                             <attDef ident="xml:base" mode="delete"/>
                             <attDef ident="xml:space" mode="delete"/>
-                            <attDef ident="rend" mode="delete"/>
-                            <attDef ident="rendition " mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
                         </attList>
                     </classSpec>
 
@@ -269,6 +268,38 @@
                             <attDef ident="attachment" mode="delete"/>
                             <attDef ident="flipping" mode="delete"/>
                         </attList>
+                    </elementSpec>
+
+                    <!-- Tightening the content model of line to remove more interpretive elements; 
+                        expect this to be fixed in a future release of the Guidelines, 
+                        see http://tei-l.970651.n3.nabble.com/Content-model-of-lt-line-gt-td3647279.html -->
+                    <elementSpec ident="line" module="transcr" mode="change">
+                        <remarks>
+                            <p>For the purposes of diplomatic transcriptions, the content model of
+                                line has been restricted to remove more interpretive elements such
+                                as &lt;sic&gt;, and &lt;reg&gt;</p>
+                        </remarks>
+                        <content>
+                            <rng:zeroOrMore>
+                                <rng:choice>
+                                    <rng:text/>
+                                    <rng:ref name="model.global"/>
+                                    <rng:ref name="model.segLike"/>
+                                    <rng:ref name="model.hiLike"/>
+                                    <rng:ref name="choice"/>
+                                    <rng:ref name="zone"/>
+                                    <rng:ref name="line"/>
+                                    <!-- What follows is only a subset of model.pPart.transcriptional -->
+                                    <rng:ref name="add"/>
+                                    <rng:ref name="del"/>
+                                    <rng:ref name="add"/>
+                                    <rng:ref name="unclear"/>
+                                    <rng:ref name="damage"/>
+                                    <rng:ref name="handShift"/>
+                                    <rng:ref name="retrace"/>
+                                </rng:choice>
+                            </rng:zeroOrMore>
+                        </content>
                     </elementSpec>
 
                 </schemaSpec>
