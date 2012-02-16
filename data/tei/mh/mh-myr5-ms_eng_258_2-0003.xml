@@ -7,7 +7,7 @@
   ulx="0" uly="0" lrx="4038" lry="5320">
   <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0003.tif"/>
   <zone>47)</zone>
-  <zone><metamark>+</metamark><line>(<hi rend="underline">published</hi>)</line></zone>
+  <zone><metamark>+</metamark> (<hi rend="underline">published</hi>)</zone>
   <zone>
     <line>The Sensitive Plant</line>
     <line><c><g ref="#emdash"/></c> Part First.</line>
