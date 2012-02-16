@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://www.tei-c.org/ns/1.0">
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2004/10/xml.xsd"/>
   <!--
-    Schema generated from ODD source 2012-02-16T12:33:12Z. 
+    Schema generated from ODD source 2012-02-16T12:45:44Z. 
     Edition: 2.0.2 Last updated on 2nd February 2012.
     Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
     
@@ -14,6 +14,7 @@
   -->
   <xs:complexType name="sga-pmacro.paraContent" mixed="true">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:group ref="ns1:sga-pmodel.gLike"/>
       <xs:group ref="ns1:sga-pmodel.phrase"/>
       <xs:group ref="ns1:sga-pmodel.inter"/>
       <xs:group ref="ns1:sga-pmodel.global"/>
@@ -27,6 +28,7 @@
   </xs:complexType>
   <xs:complexType name="sga-pmacro.phraseSeq" mixed="true">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:group ref="ns1:sga-pmodel.gLike"/>
       <xs:group ref="ns1:sga-pmodel.phrase"/>
       <xs:group ref="ns1:sga-pmodel.global"/>
     </xs:choice>
@@ -39,11 +41,15 @@
   </xs:complexType>
   <xs:complexType name="sga-pmacro.specialPara" mixed="true">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:group ref="ns1:sga-pmodel.gLike"/>
       <xs:group ref="ns1:sga-pmodel.phrase"/>
       <xs:group ref="ns1:sga-pmodel.inter"/>
       <xs:group ref="ns1:sga-pmodel.divPart"/>
       <xs:group ref="ns1:sga-pmodel.global"/>
     </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="sga-pmacro.xtext" mixed="true">
+    <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.gLike"/>
   </xs:complexType>
   <xs:simpleType name="sga-pdata.certainty">
     <xs:restriction base="xs:token">
@@ -103,6 +109,11 @@
   </xs:simpleType>
   <xs:simpleType name="sga-pdata.pointer">
     <xs:restriction base="xs:anyURI"/>
+  </xs:simpleType>
+  <xs:simpleType name="sga-pdata.version">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="[\d]+(\.[\d]+){0,2}"/>
+    </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="sga-pdata.key">
     <xs:restriction base="xs:string"/>
@@ -2345,6 +2356,11 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <xs:element maxOccurs="unbounded" ref="ns1:anchor"/>
     </xs:sequence>
   </xs:group>
+  <xs:group name="sga-pmodel.gLike">
+    <xs:sequence>
+      <xs:element ref="ns1:g"/>
+    </xs:sequence>
+  </xs:group>
   <xs:group name="sga-pmodel.biblLike">
     <xs:sequence>
       <xs:element ref="ns1:bibl"/>
@@ -3796,7 +3812,10 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</x
     the height and width of a manuscript page. [10.3.4. ]</xs:documentation>
     </xs:annotation>
     <xs:complexType mixed="true">
-      <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.measureLike"/>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
+        <xs:group ref="ns1:sga-pmodel.measureLike"/>
+      </xs:choice>
       <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
       <xs:attributeGroup ref="ns1:sga-patt.measurement.attributes"/>
       <xs:attributeGroup ref="ns1:sga-patt.typed.attributes"/>
@@ -3808,6 +3827,7 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</x
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:group ref="ns1:sga-pmodel.phrase"/>
         <xs:group ref="ns1:sga-pmodel.global"/>
       </xs:choice>
@@ -3823,6 +3843,7 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</x
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:group ref="ns1:sga-pmodel.phrase"/>
         <xs:group ref="ns1:sga-pmodel.global"/>
       </xs:choice>
@@ -4043,6 +4064,7 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</xs:docum
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element ref="ns1:lg"/>
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:group ref="ns1:sga-pmodel.phrase"/>
         <xs:group ref="ns1:sga-pmodel.inter"/>
         <xs:group ref="ns1:sga-pmodel.lLike"/>
@@ -4446,6 +4468,7 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:group ref="ns1:sga-pmodel.highlighted"/>
         <xs:group ref="ns1:sga-pmodel.pPart.data"/>
         <xs:group ref="ns1:sga-pmodel.pPart.edit"/>
@@ -4879,6 +4902,7 @@ on its title page or at the head or end of the work. [4.2.2.  4.5. ]</xs:documen
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:group ref="ns1:sga-pmodel.phrase"/>
         <xs:element ref="ns1:docAuthor"/>
         <xs:group ref="ns1:sga-pmodel.global"/>
@@ -4938,6 +4962,7 @@ on its title page or at the head or end of the work. [4.2.2.  4.5. ]</xs:documen
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:group ref="ns1:sga-pmodel.phrase"/>
         <xs:element ref="ns1:argument"/>
         <xs:element ref="ns1:byline"/>
@@ -4957,6 +4982,7 @@ on its title page or at the head or end of the work. [4.2.2.  4.5. ]</xs:documen
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:element ref="ns1:signed"/>
         <xs:element ref="ns1:dateline"/>
         <xs:element ref="ns1:salute"/>
@@ -5166,6 +5192,7 @@ publisher name), as given
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
         <xs:group ref="ns1:sga-pmodel.phrase"/>
         <xs:element ref="ns1:docDate"/>
         <xs:group ref="ns1:sga-pmodel.global"/>
@@ -5565,9 +5592,13 @@ author, scribe, annotator, or corrector. [11.3.1.4. ]</xs:documentation>
       <xs:documentation>(editorial expansion) contains a sequence of letters added by an editor or
   transcriber when expanding an abbreviation. [11.3.1.2. ]</xs:documentation>
     </xs:annotation>
-    <xs:complexType mixed="true">
-      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
-      <xs:attributeGroup ref="ns1:sga-patt.editLike.attributes"/>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:sga-pmacro.xtext">
+          <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+          <xs:attributeGroup ref="ns1:sga-patt.editLike.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
     </xs:complexType>
   </xs:element>
   <xs:element name="fw">
@@ -5622,7 +5653,10 @@ hand, or the beginning of a scribal stint. [11.3.2.1. ]</xs:documentation>
   the abbreviation. [11.3.1.2. ]</xs:documentation>
     </xs:annotation>
     <xs:complexType mixed="true">
-      <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.pPart.transcriptional"/>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:sga-pmodel.gLike"/>
+        <xs:group ref="ns1:sga-pmodel.pPart.transcriptional"/>
+      </xs:choice>
       <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
       <xs:attributeGroup ref="ns1:sga-patt.editLike.attributes"/>
     </xs:complexType>
@@ -5946,6 +5980,151 @@ the space.</xs:documentation>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="g">
+    <xs:annotation>
+      <xs:documentation>(character or glyph) represents a non-standard character or glyph.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+      <xs:attributeGroup ref="ns1:sga-patt.typed.attributes"/>
+      <xs:attribute name="ref" type="ns1:sga-pdata.pointer">
+        <xs:annotation>
+          <xs:documentation>points to a description of the character or glyph intended.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="char">
+    <xs:annotation>
+      <xs:documentation>(character) provides descriptive information about a character. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="ns1:charName"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.glossLike"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:charProp"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:mapping"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.graphicLike"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.noteLike"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="charName">
+    <xs:annotation>
+      <xs:documentation>(character name) contains the name of a character, expressed following Unicode conventions. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="charProp">
+    <xs:annotation>
+      <xs:documentation>(character property) provides a name and value for some property of the parent character or glyph. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="ns1:unicodeName"/>
+          <xs:element ref="ns1:localName"/>
+        </xs:choice>
+        <xs:element ref="ns1:value"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+      <xs:attributeGroup ref="ns1:sga-patt.typed.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="charDecl">
+    <xs:annotation>
+      <xs:documentation>(character declarations) provides information about nonstandard characters and glyphs. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="ns1:desc"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="ns1:char"/>
+          <xs:element ref="ns1:glyph"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="glyph">
+    <xs:annotation>
+      <xs:documentation>(character glyph) provides descriptive information about a character glyph. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="ns1:glyphName"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.glossLike"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:charProp"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:mapping"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.graphicLike"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:sga-pmodel.noteLike"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="glyphName">
+    <xs:annotation>
+      <xs:documentation>(character glyph name) contains the name of a glyph, expressed following Unicode conventions for character names. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="localName">
+    <xs:annotation>
+      <xs:documentation>(locally-defined property name) contains a locally defined name for some property. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mapping">
+    <xs:annotation>
+      <xs:documentation>(character mapping) contains one or more
+	 characters which are related to the parent character or glyph
+	 in some respect, as specified by the type
+	 attribute.
+</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:sga-pmacro.xtext">
+          <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+          <xs:attributeGroup ref="ns1:sga-patt.typed.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="unicodeName">
+    <xs:annotation>
+      <xs:documentation>(unicode property name) contains the name of a registered Unicode normative or informative property. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+      <xs:attribute name="version" type="ns1:sga-pdata.version">
+        <xs:annotation>
+          <xs:documentation>specifies the version number of the Unicode Standard in which this property name is
+        defined.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="value">
+    <xs:annotation>
+      <xs:documentation>(value) contains a single value for some property, attribute, or other
+  analysis.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:sga-pmacro.xtext">
+          <xs:attributeGroup ref="ns1:sga-patt.global.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
     </xs:complexType>
   </xs:element>
   <xs:element name="link">

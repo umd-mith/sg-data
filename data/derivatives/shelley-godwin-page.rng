@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-16T12:33:12Z. 
+Schema generated from ODD source 2012-02-16T12:45:44Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -130,6 +130,11 @@ Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
   </define>
   <define name="sga-pdata.pointer">
     <data type="anyURI"/>
+  </define>
+  <define name="sga-pdata.version">
+    <data type="token">
+      <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
+    </data>
   </define>
   <define name="sga-pdata.key">
     <data type="string"/>
@@ -2096,7 +2101,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
   </define>
   <define name="sga-pmodel.gLike">
-    <notAllowed/>
+    <choice>
+      <ref name="sga-pg"/>
+    </choice>
   </define>
   <define name="sga-pmodel.biblLike">
     <choice>
@@ -5616,6 +5623,175 @@ the space.</a:documentation>
           </list>
         </attribute>
       </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pg">
+    <element name="g">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character or glyph) represents a non-standard character or glyph.</a:documentation>
+      <text/>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <optional>
+        <attribute name="ref">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a description of the character or glyph intended.</a:documentation>
+          <ref name="sga-pdata.pointer"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pchar">
+    <element name="char">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character) provides descriptive information about a character. </a:documentation>
+      <group>
+        <optional>
+          <ref name="sga-pcharName"/>
+        </optional>
+        <zeroOrMore>
+          <ref name="sga-pmodel.glossLike"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pcharProp"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pmapping"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <empty/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pmodel.graphicLike"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pmodel.noteLike"/>
+        </zeroOrMore>
+      </group>
+      <ref name="sga-patt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pcharName">
+    <element name="charName">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character name) contains the name of a character, expressed following Unicode conventions. </a:documentation>
+      <text/>
+      <ref name="sga-patt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pcharProp">
+    <element name="charProp">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character property) provides a name and value for some property of the parent character or glyph. </a:documentation>
+      <group>
+        <choice>
+          <ref name="sga-punicodeName"/>
+          <ref name="sga-plocalName"/>
+        </choice>
+        <ref name="sga-pvalue"/>
+      </group>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pcharDecl">
+    <element name="charDecl">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character declarations) provides information about nonstandard characters and glyphs. </a:documentation>
+      <group>
+        <optional>
+          <ref name="sga-pdesc"/>
+        </optional>
+        <oneOrMore>
+          <choice>
+            <ref name="sga-pchar"/>
+            <ref name="sga-pglyph"/>
+          </choice>
+        </oneOrMore>
+      </group>
+      <ref name="sga-patt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pglyph">
+    <element name="glyph">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character glyph) provides descriptive information about a character glyph. </a:documentation>
+      <group>
+        <optional>
+          <ref name="sga-pglyphName"/>
+        </optional>
+        <zeroOrMore>
+          <ref name="sga-pmodel.glossLike"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pcharProp"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pmapping"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <empty/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pmodel.graphicLike"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="sga-pmodel.noteLike"/>
+        </zeroOrMore>
+      </group>
+      <ref name="sga-patt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pglyphName">
+    <element name="glyphName">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character glyph name) contains the name of a glyph, expressed following Unicode conventions for character names. </a:documentation>
+      <text/>
+      <ref name="sga-patt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-plocalName">
+    <element name="localName">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(locally-defined property name) contains a locally defined name for some property. </a:documentation>
+      <text/>
+      <ref name="sga-patt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pmapping">
+    <element name="mapping">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(character mapping) contains one or more
+	 characters which are related to the parent character or glyph
+	 in some respect, as specified by the type
+	 attribute.
+</a:documentation>
+      <ref name="sga-pmacro.xtext"/>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-punicodeName">
+    <element name="unicodeName">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unicode property name) contains the name of a registered Unicode normative or informative property. </a:documentation>
+      <text/>
+      <ref name="sga-patt.global.attributes"/>
+      <optional>
+        <attribute name="version">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the version number of the Unicode Standard in which this property name is
+        defined.</a:documentation>
+          <ref name="sga-pdata.version"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pvalue">
+    <element name="value">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(value) contains a single value for some property, attribute, or other
+  analysis.</a:documentation>
+      <ref name="sga-pmacro.xtext"/>
+      <ref name="sga-patt.global.attributes"/>
       <empty/>
     </element>
   </define>

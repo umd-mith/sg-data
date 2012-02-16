@@ -5,7 +5,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-16T12:33:12Z. 
+# Schema generated from ODD source 2012-02-16T12:45:44Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -60,6 +60,7 @@ sga-pdata.outputMeasurement =
 sga-pdata.point =
   xsd:token { pattern = "(\-?[0-9]+\.?[0-9]*,\-?[0-9]+\.?[0-9]*)" }
 sga-pdata.pointer = xsd:anyURI
+sga-pdata.version = xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
 sga-pdata.key = xsd:string
 sga-pdata.word = xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
 sga-pdata.code = xsd:anyURI
@@ -1109,7 +1110,7 @@ sga-pmodel.milestoneLike_sequenceOptionalRepeatable =
   sga-pmilestone*, sga-ppb*, sga-plb*, sga-pcb*, sga-pfw*, sga-panchor*
 sga-pmodel.milestoneLike_sequenceRepeatable =
   sga-pmilestone+, sga-ppb+, sga-plb+, sga-pcb+, sga-pfw+, sga-panchor+
-sga-pmodel.gLike = notAllowed
+sga-pmodel.gLike = sga-pg
 sga-pmodel.biblLike = sga-pbibl
 sga-pmodel.biblLike_alternation = sga-pbibl
 sga-pmodel.biblLike_sequence = sga-pbibl
@@ -3320,6 +3321,105 @@ sga-pundo =
     }?,
     empty
   }
+sga-pg =
+  
+  ## (character or glyph) represents a non-standard character or glyph.
+  element g {
+    text,
+    sga-patt.global.attributes,
+    sga-patt.typed.attributes,
+    
+    ## points to a description of the character or glyph intended.
+    attribute ref { sga-pdata.pointer }?,
+    empty
+  }
+sga-pchar =
+  
+  ## (character) provides descriptive information about a character. 
+  element char {
+    (sga-pcharName?,
+     sga-pmodel.glossLike*,
+     sga-pcharProp*,
+     sga-pmapping*,
+     empty*,
+     sga-pmodel.graphicLike*,
+     sga-pmodel.noteLike*),
+    sga-patt.global.attributes,
+    empty
+  }
+sga-pcharName =
+  
+  ## (character name) contains the name of a character, expressed following Unicode conventions. 
+  element charName { text, sga-patt.global.attributes, empty }
+sga-pcharProp =
+  
+  ## (character property) provides a name and value for some property of the parent character or glyph. 
+  element charProp {
+    ((sga-punicodeName | sga-plocalName), sga-pvalue),
+    sga-patt.global.attributes,
+    sga-patt.typed.attributes,
+    empty
+  }
+sga-pcharDecl =
+  
+  ## (character declarations) provides information about nonstandard characters and glyphs. 
+  element charDecl {
+    (sga-pdesc?, (sga-pchar | sga-pglyph)+),
+    sga-patt.global.attributes,
+    empty
+  }
+sga-pglyph =
+  
+  ## (character glyph) provides descriptive information about a character glyph. 
+  element glyph {
+    (sga-pglyphName?,
+     sga-pmodel.glossLike*,
+     sga-pcharProp*,
+     sga-pmapping*,
+     empty*,
+     sga-pmodel.graphicLike*,
+     sga-pmodel.noteLike*),
+    sga-patt.global.attributes,
+    empty
+  }
+sga-pglyphName =
+  
+  ## (character glyph name) contains the name of a glyph, expressed following Unicode conventions for character names. 
+  element glyphName { text, sga-patt.global.attributes, empty }
+sga-plocalName =
+  
+  ## (locally-defined property name) contains a locally defined name for some property. 
+  element localName { text, sga-patt.global.attributes, empty }
+sga-pmapping =
+  
+  ## (character mapping) contains one or more
+  ##	 characters which are related to the parent character or glyph
+  ##	 in some respect, as specified by the type
+  ##	 attribute.
+  ##
+  element mapping {
+    sga-pmacro.xtext,
+    sga-patt.global.attributes,
+    sga-patt.typed.attributes,
+    empty
+  }
+sga-punicodeName =
+  
+  ## (unicode property name) contains the name of a registered Unicode normative or informative property. 
+  element unicodeName {
+    text,
+    sga-patt.global.attributes,
+    
+    ## specifies the version number of the Unicode Standard in which this property name is
+    ##         defined.
+    attribute version { sga-pdata.version }?,
+    empty
+  }
+sga-pvalue =
+  
+  ## (value) contains a single value for some property, attribute, or other
+  ##   analysis.
+  element value { sga-pmacro.xtext, sga-patt.global.attributes, empty }
 sga-plink =
   
   ## defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. ]
