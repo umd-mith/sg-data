@@ -6,34 +6,41 @@
   xmlns="http://www.tei-c.org/ns/1.0" xml:id="mh-myr5-ms_eng_258_2-0003"
   ulx="0" uly="0" lrx="4038" lry="5320" partOf="#mh-myr5-ms_eng_258_2">
   <graphic url="../../images/mh/mh-myr5-ms_eng_258_2-0003.tif"/>
-  <zone>47)</zone>
+  <zone >47)</zone>
   <zone><metamark>+</metamark> (<hi rend="underline">published</hi>)</zone>
-  <zone>
-    <line>The Sensitive Plant</line>
-    <line><c><g ref="#emdash"/></c> Part First.</line>
+  <milestone unit="tei:div"/>
+  <zone >
+    <line type="el.head" subtype="att.main">The Sensitive Plant</line>
+    <line type="header"><c><g ref="#emdash"/></c> Part First.</line>
   </zone>
   <zone>
+    <milestone unit="tei:lg"/>
     <line>1</line>
     <line>A Sensitive plant in a garden grew,</line>
     <line>And the young winds fed it with silver dew,</line>
     <line>And it opened its fan-like leaves to the light</line>
     <line>And closed them beneath the kisses of night</line>
+    <milestone unit="tei:lg"/>
     <line><hi rend="underline">2</hi></line>
     <line>And the Spring arose on the garden fair</line>
     <line>Like the Spirit of love felt everwhere;</line>
     <line>And each flower &amp; herb on Earth's dark breast</line>
     <line>Rose from the dreams of its wintry rest.</line>
+    <milestone unit="tei:lg"/>
     <line><hi rend="underline">3</hi></line>
     <line>But none ever trembled &amp; panted with bliss</line>
     <line>In the garden, the field or wilderness,</line>
     <line>Like a doe in the noon-tide with love's sweet want</line>
-    <line>As the companionless Sensitive <c><g ref="#ndash"/></c> plant.</line>
+    <line>As the companionless Sensitive-plant.</line>
+    <milestone unit="tei:lg"/>
     <line><hi rend="underline">4</hi></line>
     <line>The snow-drop &amp; then the violet</line>
     <line>Arose from the ground with warm rain wet</line>
     <line>And their breath was mixed with fresh odour, sent</line>
     <line>From the turf, like the voice &amp; the instrument.</line>
+    <milestone unit="tei:lg"/>
     <line><hi rend="underline">5</hi></line>
+    <line><metamark><c><g ref="#dash"/></c></metamark></line>
     <line><mod><del rend="overwritten">T</del><add place="superimposed">Then</add></mod> the pied wind-flowers &amp; the tulip tall,</line>
     <line>And narcisissi, the fairest among them all</line>
     <line>Who gaze on their eyes in the stream's recess</line>
