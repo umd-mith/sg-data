@@ -263,6 +263,7 @@ a:hover {
   clear: both;
 }
 .container-fluid {
+  min-width: 960px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 100px;
