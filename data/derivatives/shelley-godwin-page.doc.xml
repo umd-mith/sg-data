@@ -37,8 +37,12 @@
         </front>
         <body>
             <div xml:id="intro">
-                <head type="section">General Introduction</head>
-                <p>Coming soon.</p>
+                <head type="section">General introduction</head>
+                <p>The encoding model developed for the <expan>Shelley-Godwin Archive</expan>
+                        (<abbr>SGA</abbr>) project and described in this document is intended to
+                    support the creation of diplomatic edition by providing an XML format for
+                    electronic transcriptions which reproduce a set of key characteristics of the
+                    original, physical documents as faithfully as possible.</p>
             </div>
             <div xml:id="git-workflow">
                 <head type="section">Project mechanics: using version control</head>
@@ -76,8 +80,8 @@
                 </list>
 
                 <list>
-                    <head><hi rend="bold">In a terminal session</hi>... (You can also use a git client but all
-                        examples assume you are working on the command line)</head>
+                    <head><hi rend="bold">In a terminal session</hi>... (You can also use a git
+                        client but all examples assume you are working on the command line)</head>
                     <item>Make sure you are in the top-level of the project directory in your local
                         clone of repository. Make sure you are on the <q>master</q> branch. If
                         you're not sure you can type: <code>$git branch</code>, which will display a
@@ -141,8 +145,8 @@
                 </list>
 
                 <list>
-                    <head><hi rend="bold">Warning: while the schemas for the project are still under development</hi>
-                        ...</head>
+                    <head><hi rend="bold">Warning: while the schemas for the project are still under
+                            development</hi> ...</head>
                     <item>Document analysis and modeling is an ongoing process</item>
                     <item>During the early stages of encoding, the schemas for the project may
                         change in a number of ways: elements and attributes might be added or
@@ -162,9 +166,34 @@
                         the master branch</item>
                     <item>Carry on transcribing.</item>
                 </list>
-
             </div>
-
+            <div xml:id="structural_overview">
+                <head>Structural overview</head>
+                <p>The encoding of documents for SGA privileges recording information about the
+                    physical document rather than about a <q> text.</q></p>
+                <p>SGA's model assumes that the transcription of a single physical page of source
+                    material is contained in a separate XML file. The project provides a custom
+                    schema for validating these page-level transcription files for the convenience
+                    of encoders and reviewers.</p>
+                <p>A complete SGA document is a TEI-conformant XML document in which a single
+                        <hi rend="tag">&lt;sourceDoc&gt;</hi> represents a physical item and contains all the
+                    information from transcriptions of pages from that item.</p>
+                <div>
+                    <head>Outline of a page-level transcription</head>
+                    <p>The structure of an XML file containing a transcription of a single page in
+                        accordance with the SGA encoding model can be summarized as follows:</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0" uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
+                            <graphic url="pointer_to_img_url"/>
+                            <zone>
+                                
+                            </zone>
+                            <zone>
+                                <milestone/>
+                                <line/>
+                            </zone>
+                        </surface></egXML>
+                </div>
+            </div>
             <div xml:id="spec">
                 <head>Technical documentation</head>
                 <p>The customization for page-level markup specified herein is provided for the
