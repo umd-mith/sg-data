@@ -194,7 +194,20 @@
                     <p>The structure of an XML file containing a transcription of a single page in
                         accordance with the SGA encoding model can be summarized as follows:</p>
                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                        
+                        <surface 
+                            xmlns="http://www.tei-c.org/ns/1.0" 
+                            xmlns:ns1="http://sga.mith.org/ns/1.0"
+                            xml:id="page_identifier"
+                            ulx="0" uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
+                            <graphic url="pointer_to_img_url"/>
+                            <zone>
+                                <!-- Transcription of one two-dimensional area within a surface -->
+                            </zone>
+                            <zone>
+                                <milestone/><!-- Milestone element to mark logical division in the text -->
+                                <line><!-- Transcription of a physical line of the document --></line>
+                            </zone>
+                        </surface>
                     </egXML>
                 </div>
             </div>
