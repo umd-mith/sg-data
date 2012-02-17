@@ -180,7 +180,23 @@
             </div>
             <div xml:id="structural_overview">
                 <head>Structural overview</head>
-                <p/>
+                <p>The encoding of documents for SGA privileges recording information about the
+                    physical document rather than about a <q> text.</q></p>
+                <p>SGA's model assumes that the transcription of a single physical page of source
+                    material is contained in a separate XML file. The project provides a custom
+                    schema for validating these page-level transcription files for the convenience
+                    of encoders and reviewers.</p>
+                <p>A complete SGA document is a TEI-conformant XML document in which a single
+                        <tag>sourceDoc</tag> represents a physical item and contains all the
+                    information from transcriptions of pages from that item.</p>
+                <div>
+                    <head>Outline of a page-level transcription</head>
+                    <p>The structure of an XML file containing a transcription of a single page in
+                        accordance with the SGA encoding model can be summarized as follows:</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        
+                    </egXML>
+                </div>
             </div>
             <div xml:id="spec">
                 <head>Technical documentation</head>
