@@ -29,6 +29,7 @@
                 workflow</change>
             <change when="2012-02-14" who="tmunoz">Finished section on workflow</change>
             <change when="2012-02-16" who="tmunoz">Revision of workflow section</change>
+            <change when="2012-02-17" who="tmunoz">Finished quick overview of basic principles.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -42,7 +43,9 @@
                         (<abbr>SGA</abbr>) project and described in this document is intended to
                     support the creation of diplomatic edition by providing an XML format for
                     electronic transcriptions which reproduce a set of key characteristics of the
-                    original, physical documents as faithfully as possible.</p>
+                    original, physical documents as faithfully as possible. The goal of
+                    transcription is to accurately describe the state of the physical materials
+                    using the most efficient amount of markup.</p>
             </div>
             <div xml:id="git-workflow">
                 <head type="section">Project mechanics: using version control</head>
@@ -184,7 +187,8 @@
                         accordance with the SGA encoding model can be summarized as follows:</p>
                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0" uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
                             <graphic url="pointer_to_img_url"/>
-                            <zone> [Transcription of one two-dimensional area within a surface] </zone>
+                            <zone>[Transcription of one two-dimensional area within a
+                                surface]</zone>
                             <zone>
                                 <milestone/>
                                 <line>[Transcription of a physical line of the document]</line>
@@ -204,9 +208,39 @@
                     <head>Document-centric markup vs. text-centric markup</head>
                     <p>The SGA project privileges the structures of the physical document as the
                         principal hierarchy to be encoded rather than one related to the logical
-                        hierarchy of <q>a text</q>. The outermost element in a page-level
-                        transcription file is <hi rend="tag">&lt;surface&gt;</hi>, which represents the page being
-                        transcribed.</p>
+                        hierarchy of <q>a text</q>. </p>
+                    <p>The outermost element in a page-level transcription file is
+                            <hi rend="tag">&lt;surface&gt;</hi>, which represents the page being transcribed.</p>
+                    <p>Within <hi rend="tag">&lt;surface&gt;</hi>, if the page is blank (contains no writing or
+                        marking at all), a <hi rend="tag">&lt;desc&gt;</hi> element will be supplied, providing an
+                        alternate description of the page, e.g., <q>Front pastedown.</q> There will
+                        always be at least one <hi rend="tag">&lt;graphic&gt;</hi> element within <hi rend="tag">&lt;surface&gt;</hi>,
+                        which provides a link to the facsimile image of that page.</p>
+                    <p>A surface (presuming it is not blank) will contain one or more
+                            <hi rend="tag">&lt;zone&gt;</hi>s. These elements are used to describe specific regions
+                        within a page. If the writing is not linear within a zone, e.g., a marginal
+                        note or some kind of metamark, the content can be transcribed directly
+                        within zone. For linear blocks of writing, a series of <hi rend="tag">&lt;line&gt;</hi>
+                        elements are to be used to record topographic lines of writing on the
+                        physical document (these are different from verse lines, etc.).</p>
+                    <p>While the project's focus is on representing the physical documents, the
+                        online presentation will also include clean, <q>reading texts</q> so it is
+                        necessary to have mechanisms for reconstructing the hierachy of <q>the
+                            text</q> apart from its physical support. For this purpose, SGA uses
+                            <hi rend="tag">&lt;milestone&gt;</hi> elements as well as several project-specific
+                        attributes.</p>
+                    <p>To record a major structural division in the text, e.g., a line group,
+                        paragraph, or div, the use of <hi rend="tag">&lt;milestone&gt;</hi> is most appropriate. The
+                        value of the <hi rend="att">unit</hi> attribute should be the qualified name of a TEI
+                        element, so tei:div. For phrase-level elements, a number of attributes are
+                        supplied to indicate what textual structure should correspond to lines of
+                        the text. These attributes are: <hi rend="att">el-target</hi>, which stands for
+                            <q>target element</q>; <hi rend="att">att-target</hi>, which stands for
+                            <q>attribute target</q> meaning attributes which should be part of the
+                        target element being created; and <hi rend="att">att-value</hi>, which indicates the
+                        intended value of any attributes supplied. These workarounds are necessary
+                        because XML enforces a single document hierarchy and does not permit
+                        overlap.</p>
                 </div>
             </div>
             <div xml:id="spec">
