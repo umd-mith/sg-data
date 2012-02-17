@@ -3623,9 +3623,11 @@ h1.maintitle {
 .mainAuthor {
   color: #ffffff;
   float: left;
+  padding-top: 15px;
 }
 .mainDate {
   color: #ffffff;
   float: left;
   padding-left: 20px;
+  padding-top: 15px;
 }
