@@ -358,16 +358,12 @@
                                 <rng:oneOrMore>
                                     <rng:ref name="model.graphicLike"/>
                                 </rng:oneOrMore>
-                                <rng:oneOrMore>
+                                <rng:zeroOrMore>
                                     <rng:choice>
                                         <rng:ref name="zone"/>
                                         <!--<rng:ref name="surface"/>
                                         <rng:ref name="surfaceGrp"/>-->
                                         <!-- Temporarily removing the case of paste-ins, etc. -->
-                                    </rng:choice>
-                                </rng:oneOrMore>
-                                <rng:zeroOrMore>
-                                    <rng:choice>
                                         <rng:ref name="model.global"/>
                                         <rng:ref name="line"/>
                                     </rng:choice>
