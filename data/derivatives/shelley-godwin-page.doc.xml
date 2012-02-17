@@ -28,6 +28,7 @@
             <change when="2012-02-12" who="tmunoz">Began adding prose documentation about
                 workflow</change>
             <change when="2012-02-14" who="tmunoz">Finished section on workflow</change>
+            <change when="2012-02-16" who="tmunoz">Revision of workflow section</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -75,8 +76,8 @@
                 </list>
 
                 <list>
-                    <head><hi rend="bold">In a terminal session</hi> (or using a Git client—All
-                        examples assume you are working on the command line) ...</head>
+                    <head><hi rend="bold">In a terminal session</hi>... (You can also use a git client but all
+                        examples assume you are working on the command line)</head>
                     <item>Make sure you are in the top-level of the project directory in your local
                         clone of repository. Make sure you are on the <q>master</q> branch. If
                         you're not sure you can type: <code>$git branch</code>, which will display a
@@ -140,7 +141,7 @@
                 </list>
 
                 <list>
-                    <head>Warning: while the schemas for the project are still under development
+                    <head><hi rend="bold">Warning: while the schemas for the project are still under development</hi>
                         ...</head>
                     <item>Document analysis and modeling is an ongoing process</item>
                     <item>During the early stages of encoding, the schemas for the project may
