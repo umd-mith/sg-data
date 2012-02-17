@@ -42,7 +42,6 @@
     <line>From the turf, like the voice &amp; the instrument.</line>
     <milestone unit="tei:lg"/>
     <line><hi rend="underline">5</hi></line>
-    <line><metamark><c><g ref="#dash"/></c></metamark></line>
     <line><mod><del rend="overwritten">T</del><add place="superimposed">Then</add></mod> the pied wind-flowers &amp; the tulip tall,</line>
     <line>And narcisissi, the fairest among them all</line>
     <line>Who gaze on their eyes in the stream's recess</line>
