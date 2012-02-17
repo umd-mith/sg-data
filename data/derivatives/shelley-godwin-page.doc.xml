@@ -3026,7 +3026,7 @@ element surface
    <ref target="#TEI.att.coordinated">att.coordinated.attributes</ref>,
    <ref target="#TEI.att.declaring">att.declaring.attributes</ref>,
    <ref target="#TEI.att.typed">att.typed.attributes</ref>,
-   ( <ref target="#TEI.model.glossLike">model.glossLike</ref>*, <ref target="#TEI.model.graphicLike">model.graphicLike</ref>+, <ref target="#TEI.zone">zone</ref>+, ( <ref target="#TEI.model.global">model.global</ref> | <ref target="#TEI.line">line</ref> )* )
+   ( <ref target="#TEI.model.glossLike">model.glossLike</ref>*, <ref target="#TEI.model.graphicLike">model.graphicLike</ref>+, ( <ref target="#TEI.zone">zone</ref> | <ref target="#TEI.model.global">model.global</ref> | <ref target="#TEI.line">line</ref> )* )
 }</eg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Example</hi></cell><cell rend="wovenodd-col2">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="und"><facsimile><surface ulx="0" uly="0" lrx="200" lry="300"><graphic url="Bovelles-49r.png"/></surface></facsimile></egXML>
   </cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Note</hi></cell><cell rend="wovenodd-col2"><!-- -->

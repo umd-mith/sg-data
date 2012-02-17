@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-17T02:15:06Z. 
+Schema generated from ODD source 2012-02-17T14:33:37Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5081,11 +5081,9 @@ that space, zones of interest within that space, and transcriptions of the
         <oneOrMore>
           <ref name="sga-pmodel.graphicLike"/>
         </oneOrMore>
-        <oneOrMore>
-          <ref name="sga-pzone"/>
-        </oneOrMore>
         <zeroOrMore>
           <choice>
+            <ref name="sga-pzone"/>
             <ref name="sga-pmodel.global"/>
             <ref name="sga-pline"/>
           </choice>

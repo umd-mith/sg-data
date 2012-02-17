@@ -3,7 +3,7 @@
   <xs:import namespace="http://sga.mith.org/ns/1.0" schemaLocation="ns1.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2004/10/xml.xsd"/>
   <!--
-    Schema generated from ODD source 2012-02-17T02:15:06Z. 
+    Schema generated from ODD source 2012-02-17T14:33:37Z. 
     Edition: 2.0.2 Last updated on 2nd February 2012.
     Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
     
@@ -5383,8 +5383,8 @@ that space, zones of interest within that space, and transcriptions of the
       <xs:sequence>
         <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns2:sga-pmodel.glossLike"/>
         <xs:group maxOccurs="unbounded" ref="ns2:sga-pmodel.graphicLike"/>
-        <xs:element maxOccurs="unbounded" ref="ns2:zone"/>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="ns2:zone"/>
           <xs:group ref="ns2:sga-pmodel.global"/>
           <xs:element ref="ns2:line"/>
         </xs:choice>
