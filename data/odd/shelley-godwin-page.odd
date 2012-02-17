@@ -189,26 +189,39 @@
                 <p>A complete SGA document is a TEI-conformant XML document in which a single
                         <tag>sourceDoc</tag> represents a physical item and contains all the
                     information from transcriptions of pages from that item.</p>
-                <div>
+                <div xml:id="page_outline">
                     <head>Outline of a page-level transcription</head>
                     <p>The structure of an XML file containing a transcription of a single page in
                         accordance with the SGA encoding model can be summarized as follows:</p>
                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                        <surface 
-                            xmlns="http://www.tei-c.org/ns/1.0" 
-                            xmlns:ns1="http://sga.mith.org/ns/1.0"
-                            xml:id="page_identifier"
-                            ulx="0" uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
+                        <surface xmlns="http://www.tei-c.org/ns/1.0"
+                            xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0"
+                            uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
                             <graphic url="pointer_to_img_url"/>
+                            <zone> [Transcription of one two-dimensional area within a surface] </zone>
                             <zone>
-                                <!-- Transcription of one two-dimensional area within a surface -->
-                            </zone>
-                            <zone>
-                                <milestone/><!-- Milestone element to mark logical division in the text -->
-                                <line><!-- Transcription of a physical line of the document --></line>
+                                <milestone/>
+                                <line>[Transcription of a physical line of the document]</line>
                             </zone>
                         </surface>
                     </egXML>
+                    <p>There are a couple high-level features about this document to note. First,
+                        the <att>ulx</att>, <att>uly</att>, <att>lrx</att>, and <att>lry</att>
+                        attributes define the coordinates of the upper-left and lower-right corners
+                        of the surface (in pixels). These values will be supplied when the TEI stub
+                        file is created as part of pre-processing of images before transcription
+                        begins. Second, the <att>partOf</att> attribute is provided to link a
+                        page-level transcription with the item to which it belongs. Supply the value
+                        of the <att>xml:id</att> of the appropriate <tag>sourceDoc</tag> element.
+                        (See project file naming conventions to decide what this is.)</p>
+                </div>
+                <div xml:id="document_vs_text">
+                    <head>Document-centric markup vs. text-centric markup</head>
+                    <p>The SGA project privileges the structures of the physical document as the
+                        principal hierarchy to be encoded rather than one related to the logical
+                        hierarchy of <q>a text</q>. The outermost element in a page-level
+                        transcription file is <tag>surface</tag>, which represents the page being
+                        transcribed.</p>
                 </div>
             </div>
             <div xml:id="spec">
