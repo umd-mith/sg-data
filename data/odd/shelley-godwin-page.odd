@@ -44,8 +44,12 @@
         </front>
         <body>
             <div xml:id="intro">
-                <head type="section">General Introduction</head>
-                <p>Coming soon.</p>
+                <head type="section">General introduction</head>
+                <p>The encoding model developed for the <expan>Shelley-Godwin Archive</expan>
+                        (<abbr>SGA</abbr>) project and described in this document is intended to
+                    support the creation of diplomatic edition by providing an XML format for
+                    electronic transcriptions which reproduce a set of key characteristics of the
+                    original, physical documents as faithfully as possible.</p>
             </div>
             <div xml:id="git-workflow">
                 <head type="section">Project mechanics: using version control</head>
@@ -86,8 +90,8 @@
                 </list>
 
                 <list>
-                    <head><hi rend="bold">In a terminal session</hi>... (You can also use a git client but all
-                        examples assume you are working on the command line)</head>
+                    <head><hi rend="bold">In a terminal session</hi>... (You can also use a git
+                        client but all examples assume you are working on the command line)</head>
                     <item>Make sure you are in the top-level of the project directory in your local
                         clone of repository. Make sure you are on the <q>master</q> branch. If
                         you're not sure you can type: <code>$git branch</code>, which will display a
@@ -152,8 +156,8 @@
                 </list>
 
                 <list>
-                    <head><hi rend="bold">Warning: while the schemas for the project are still under development</hi>
-                        ...</head>
+                    <head><hi rend="bold">Warning: while the schemas for the project are still under
+                            development</hi> ...</head>
                     <item>Document analysis and modeling is an ongoing process</item>
                     <item>During the early stages of encoding, the schemas for the project may
                         change in a number of ways: elements and attributes might be added or
@@ -173,9 +177,11 @@
                         the master branch</item>
                     <item>Carry on transcribing.</item>
                 </list>
-
             </div>
-
+            <div xml:id="structural_overview">
+                <head>Structural overview</head>
+                <p/>
+            </div>
             <div xml:id="spec">
                 <head>Technical documentation</head>
                 <p>The customization for page-level markup specified herein is provided for the
