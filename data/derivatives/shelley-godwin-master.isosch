@@ -46,4 +46,58 @@
         Subst must have at least one child add and at least one child del</assert>
       </rule>
    </pattern>
+   <pattern id="link-constraint-linkTargets1">
+      <rule context="tei:link">
+         <report test="@target and @targets">You may not supply both 
+	@target and @targets</report>
+      </rule>
+   </pattern>
+   <pattern id="link-constraint-linkTargets2">
+      <rule context="tei:link">
+         <report test="not(@target) and not(@targets)">You must
+	supply either @target or @targets</report>
+      </rule>
+   </pattern>
+   <pattern id="link-constraint-linkTargets3">
+      <rule context="tei:link">
+         <assert test="contains(@target,' ')">You must supply at least two
+values for @target</assert>
+      </rule>
+   </pattern>
+   <pattern id="join-constraint-joinTargets1">
+      <rule context="tei:join">
+         <report test="@target and @targets">You may not supply both 
+	@target and @targets</report>
+      </rule>
+   </pattern>
+   <pattern id="join-constraint-joinTargets2">
+      <rule context="tei:join">
+         <report test="not(@target) and not(@targets)">You must
+	supply either @target or @targets</report>
+      </rule>
+   </pattern>
+   <pattern id="join-constraint-joinTargets3">
+      <rule context="tei:join">
+         <assert test="contains(@target,' ')">You must supply at least two
+values for @target</assert>
+      </rule>
+   </pattern>
+   <pattern id="alt-constraint-altTargets1">
+      <rule context="tei:alt">
+         <report test="@target and @targets">You may not supply both 
+	@target and @targets</report>
+      </rule>
+   </pattern>
+   <pattern id="alt-constraint-altTargets2">
+      <rule context="tei:alt">
+         <report test="not(@target) and not(@targets)">You must
+	supply either @target or @targets</report>
+      </rule>
+   </pattern>
+   <pattern id="alt-constraint-altTargets3">
+      <rule context="tei:alt">
+         <assert test="contains(@target,' ')">You must supply at least two
+values for @target</assert>
+      </rule>
+   </pattern>
 </schema>

@@ -1,0 +1,4699 @@
+default namespace = "http://www.tei-c.org/ns/1.0"
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+namespace s = "http://www.ascc.net/xml/schematron"
+namespace sch = "http://purl.oclc.org/dsdl/schematron"
+namespace sga = "http://sga.mith.org/ns/1.0"
+namespace xlink = "http://www.w3.org/1999/xlink"
+
+# Schema generated from ODD source 2012-02-19T17:26:58Z. 
+# Edition: 2.0.2 Last updated on 2nd February 2012.
+# Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
+#
+
+# This work is copyright Trevor Muñoz and the Maryland Institute for
+#     Technology in the Humanities and licensed under a Creative Commons
+#         Attribution 3.0 Unported License.
+sgamacro.paraContent =
+  (text
+   | sgamodel.gLike
+   | sgamodel.phrase
+   | sgamodel.inter
+   | sgamodel.global)*
+sgamacro.limitedContent =
+  (text | sgamodel.limitedPhrase | sgamodel.inter)*
+sgamacro.phraseSeq =
+  (text | sgamodel.gLike | sgamodel.phrase | sgamodel.global)*
+sgamacro.phraseSeq.limited =
+  (text | sgamodel.limitedPhrase | sgamodel.global)*
+sgamacro.specialPara =
+  (text
+   | sgamodel.gLike
+   | sgamodel.phrase
+   | sgamodel.inter
+   | sgamodel.divPart
+   | sgamodel.global)*
+sgamacro.xtext = (text | sgamodel.gLike)*
+sgadata.certainty = "high" | "medium" | "low" | "unknown"
+sgadata.probability =
+  xsd:double { minInclusive = "0" maxInclusive = "1" }
+sgadata.numeric =
+  xsd:double
+  | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+  | xsd:decimal
+sgadata.count = xsd:nonNegativeInteger
+sgadata.temporal.w3c =
+  xsd:date
+  | xsd:gYear
+  | xsd:gMonth
+  | xsd:gDay
+  | xsd:gYearMonth
+  | xsd:gMonthDay
+  | xsd:time
+  | xsd:dateTime
+sgadata.truthValue = xsd:boolean
+sgadata.xTruthValue = xsd:boolean | "unknown" | "inapplicable"
+sgadata.language = xsd:language
+sgadata.namespace = xsd:anyURI
+sgadata.outputMeasurement =
+  xsd:token {
+    pattern =
+      "[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|gd|rem|vw|vh|vm)"
+  }
+sgadata.pattern = xsd:token
+sgadata.point =
+  xsd:token { pattern = "(\-?[0-9]+\.?[0-9]*,\-?[0-9]+\.?[0-9]*)" }
+sgadata.pointer = xsd:anyURI
+sgadata.version = xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
+sgadata.key = xsd:string
+sgadata.word = xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+sgadata.code = xsd:anyURI
+sgadata.name = xsd:Name
+sgadata.enumerated = sgadata.name
+sgaatt.ascribed.attributes = sgaatt.ascribed.attribute.who
+sgaatt.ascribed.attribute.who =
+  
+  ## indicates the person, or group of people, to whom the element content is ascribed.
+  attribute who {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.canonical.attributes =
+  sgaatt.canonical.attribute.key, sgaatt.canonical.attribute.ref
+sgaatt.canonical.attribute.key =
+  
+  ## provides an externally-defined means of identifying the entity (or entities) being
+  ##         named, using a coded value of some kind.
+  attribute key { sgadata.key }?
+sgaatt.canonical.attribute.ref =
+  
+  ## (reference) provides an explicit means of locating a full definition for the entity being named by
+  ##         means of one or more URIs.
+  attribute ref {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.ranging.attributes =
+  sgaatt.ranging.attribute.atLeast,
+  sgaatt.ranging.attribute.atMost,
+  sgaatt.ranging.attribute.min,
+  sgaatt.ranging.attribute.max,
+  sgaatt.ranging.attribute.confidence
+sgaatt.ranging.attribute.atLeast =
+  
+  ## gives a minimum estimated value for the approximate measurement.
+  attribute atLeast { sgadata.numeric }?
+sgaatt.ranging.attribute.atMost =
+  
+  ## gives a maximum estimated value for the approximate measurement.
+  attribute atMost { sgadata.numeric }?
+sgaatt.ranging.attribute.min =
+  
+  ## where the measurement summarizes more than one observation
+  ##       or a range, supplies the minimum value
+  ##         observed.
+  attribute min { sgadata.numeric }?
+sgaatt.ranging.attribute.max =
+  
+  ## where the measurement summarizes more than one observation
+  ##         or a range, supplies the maximum value
+  ##         observed.
+  attribute max { sgadata.numeric }?
+sgaatt.ranging.attribute.confidence =
+  
+  ## The degree of statistical confidence (between zero and one) that a value falls within the range
+  ##         specified by min and max, or the proportion of observed values that fall within that range.
+  attribute confidence { sgadata.probability }?
+sgaatt.dimensions.attributes =
+  sgaatt.ranging.attributes,
+  sgaatt.dimensions.attribute.unit,
+  sgaatt.dimensions.attribute.quantity,
+  sgaatt.dimensions.attribute.extent,
+  sgaatt.dimensions.attribute.precision,
+  sgaatt.dimensions.attribute.scope
+sgaatt.dimensions.attribute.unit =
+  
+  ## names the unit used for the measurement
+  ## Suggested values include: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches) ; 4] lines; 5] chars(characters) 
+  attribute unit {
+    
+    ## (centimetres) 
+    "cm"
+    | 
+      ## (millimetres) 
+      "mm"
+    | 
+      ## (inches) 
+      "in"
+    | 
+      ## lines of text
+      "lines"
+    | 
+      ## (characters) characters of text
+      "chars"
+    | xsd:Name
+  }?
+sgaatt.dimensions.attribute.quantity =
+  
+  ## specifies the length in the units specified
+  attribute quantity { sgadata.numeric }?
+sgaatt.dimensions.attribute.extent =
+  
+  ## indicates the size of the object concerned using a project-specific vocabulary combining
+  ##         quantity and units in a single string of words. 
+  attribute extent {
+    list { sgadata.word, sgadata.word* }
+  }?
+sgaatt.dimensions.attribute.precision =
+  
+  ## characterizes the precision of the values specified by the other attributes.
+  attribute precision { sgadata.certainty }?
+sgaatt.dimensions.attribute.scope =
+  
+  ## where the measurement summarizes more than one observation, specifies the applicability
+  ##         of this measurement.
+  ## Sample values include: 1] all; 2] most; 3] range
+  attribute scope { sgadata.enumerated }?
+sgaatt.damaged.attributes =
+  sgaatt.dimensions.attributes,
+  sgaatt.damaged.attribute.hand,
+  sgaatt.damaged.attribute.agent,
+  sgaatt.damaged.attribute.degree,
+  sgaatt.damaged.attribute.group
+sgaatt.damaged.attribute.hand =
+  
+  ## In the case of damage (deliberate defacement, inking out, etc.) assignable to a distinct
+  ##         hand, signifies the hand responsible for the damage.
+  attribute hand { sgadata.pointer }?
+sgaatt.damaged.attribute.agent =
+  
+  ## categorizes the cause of the damage, if it can be identified.
+  ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
+  attribute agent { sgadata.enumerated }?
+sgaatt.damaged.attribute.degree =
+  
+  ## Signifies the degree of damage according to a convenient scale. The damage tag
+  ##         with the degree attribute should only be used where the text may be read with
+  ##         some confidence; text supplied from other sources should be tagged as supplied.
+  attribute degree { sgadata.probability | sgadata.certainty }?
+sgaatt.damaged.attribute.group =
+  
+  ## assigns an arbitrary number to each stretch of damage regarded as forming part of the
+  ##         same physical phenomenon.
+  attribute group { sgadata.count }?
+sgaatt.breaking.attributes = sgaatt.breaking.attribute.break
+sgaatt.breaking.attribute.break =
+  
+  ## indicates whether or not the  element
+  ##	bearing this attribute should be considered to mark the end of
+  ##	an orthographic token in the same way as whitespace.
+  attribute break { sgadata.enumerated }?
+sgaatt.datable.w3c.attributes =
+  sgaatt.datable.w3c.attribute.when,
+  sgaatt.datable.w3c.attribute.notBefore,
+  sgaatt.datable.w3c.attribute.notAfter,
+  sgaatt.datable.w3c.attribute.from,
+  sgaatt.datable.w3c.attribute.to
+sgaatt.datable.w3c.attribute.when =
+  
+  ## supplies the value of the date or time in a standard form,
+  ##       e.g. yyyy-mm-dd.
+  attribute when { sgadata.temporal.w3c }?
+sgaatt.datable.w3c.attribute.notBefore =
+  
+  ## specifies the earliest possible date for the event in
+  ##	  standard form, e.g. yyyy-mm-dd.
+  attribute notBefore { sgadata.temporal.w3c }?
+sgaatt.datable.w3c.attribute.notAfter =
+  
+  ## specifies the latest possible date for the event in
+  ##	  standard form, e.g. yyyy-mm-dd.
+  attribute notAfter { sgadata.temporal.w3c }?
+sgaatt.datable.w3c.attribute.from =
+  
+  ## indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.
+  attribute from { sgadata.temporal.w3c }?
+sgaatt.datable.w3c.attribute.to =
+  
+  ## indicates the ending point of the period in standard
+  ##	  form, e.g. yyyy-mm-dd.
+  attribute to { sgadata.temporal.w3c }?
+sgaatt.datable.attributes =
+  sgaatt.datable.w3c.attributes,
+  sgaatt.datable.attribute.calendar,
+  sgaatt.datable.attribute.period
+sgaatt.datable.attribute.calendar =
+  
+  ## indicates the system or calendar to which the date represented by the content of this
+  ##         element belongs.
+  attribute calendar { sgadata.pointer }?
+sgaatt.datable.attribute.period =
+  
+  ## supplies a pointer to some location defining a named
+  ##         period of time within which the datable item is understood to
+  ##         have occurred.
+  attribute period { sgadata.pointer }?
+sgaatt.declarable.attributes = sgaatt.declarable.attribute.default
+sgaatt.declarable.attribute.default =
+  
+  ## indicates whether or not this element is selected by default when
+  ## its parent is selected.
+  [ a:defaultValue = "false" ]
+  attribute default {
+    
+    ## This element is selected if its parent is selected
+    "true"
+    | 
+      ## This element can only be selected explicitly, unless it is the
+      ## only one of its kind, in which case it is selected if its parent is selected.
+      "false"
+  }?
+sgaatt.divLike.attributes =
+  sgaatt.divLike.attribute.org,
+  sgaatt.divLike.attribute.sample,
+  sgaatt.divLike.attribute.part
+sgaatt.divLike.attribute.org =
+  
+  ## (organization) specifies how the content of the division is organized.
+  [ a:defaultValue = "uniform" ]
+  attribute org {
+    
+    ## composite content: i.e. no claim is made about the
+    ##		  sequence in which the immediate contents of this division
+    ##		  are to be processed, or their inter-relationships.
+    "composite"
+    | 
+      ## uniform content: i.e. the immediate contents of this
+      ##		  element are regarded as forming a logical unit, to be
+      ##		  processed in sequence.
+      "uniform"
+  }?
+sgaatt.divLike.attribute.sample =
+  
+  ## indicates whether this division is a sample of the
+  ##		original source and if so, from which part.
+  [ a:defaultValue = "complete" ]
+  attribute sample {
+    
+    ## division lacks material present at end in source.
+    "initial"
+    | 
+      ## division lacks material at start and end.
+      "medial"
+    | 
+      ## division lacks material at start.
+      "final"
+    | 
+      ## position of sampled material within original unknown.
+      "unknown"
+    | 
+      ## division is not a sample.
+      "complete"
+  }?
+sgaatt.divLike.attribute.part =
+  
+  ## specifies whether or not the division is fragmented by
+  ##		some other structural element, for example a speech which is
+  ##		divided between two or more verse stanzas.
+  [ a:defaultValue = "N" ]
+  attribute part {
+    
+    ## (yes) the division is incomplete in some respect
+    "Y"
+    | 
+      ## (no) either the division is complete, or no claim is made as to its completeness.
+      "N"
+    | 
+      ## (initial) the initial part of an incomplete division
+      "I"
+    | 
+      ## (medial) a medial part of an incomplete division
+      "M"
+    | 
+      ## (final) the final part of an incomplete division
+      "F"
+  }?
+sgaatt.docStatus.attributes = sgaatt.docStatus.attribute.status
+sgaatt.docStatus.attribute.status =
+  
+  ## describes the status of a document either currently or, when
+  ## associated with a dated element, at the time indicated.
+  ## Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn
+  [ a:defaultValue = "draft" ] attribute status { sgadata.enumerated }?
+sgaatt.responsibility.attributes =
+  sgaatt.responsibility.attribute.cert,
+  sgaatt.responsibility.attribute.resp
+sgaatt.responsibility.attribute.cert =
+  
+  ## (certainty) signifies the degree of certainty associated with the intervention or interpretation.
+  attribute cert { sgadata.certainty }?
+sgaatt.responsibility.attribute.resp =
+  
+  ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an
+  ##         editor or transcriber.
+  attribute resp {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.editLike.attributes =
+  sgaatt.dimensions.attributes,
+  sgaatt.responsibility.attributes,
+  sgaatt.editLike.attribute.evidence,
+  sgaatt.editLike.attribute.source,
+  sgaatt.editLike.attribute.instant
+sgaatt.editLike.attribute.evidence =
+  
+  ## indicates the nature of the evidence supporting the reliability or accuracy of the
+  ##         intervention or interpretation.
+  ## Suggested values include: 1] internal; 2] external; 3] conjecture
+  attribute evidence {
+    list {
+      (
+       ## there is internal evidence to support the intervention.
+       "internal"
+       | 
+         ## there is external evidence to support the intervention.
+         "external"
+       | 
+         ## the intervention or interpretation has been made by the editor, cataloguer, or
+         ##             scholar on the basis of their expertise.
+         "conjecture"
+       | xsd:Name),
+      (
+       ## there is internal evidence to support the intervention.
+       "internal"
+       | 
+         ## there is external evidence to support the intervention.
+         "external"
+       | 
+         ## the intervention or interpretation has been made by the editor, cataloguer, or
+         ##             scholar on the basis of their expertise.
+         "conjecture"
+       | xsd:Name)*
+    }
+  }?
+sgaatt.editLike.attribute.source =
+  
+  ## contains a list of one or more pointers indicating sources
+  ##       supporting the given  intervention or interpretation.
+  attribute source {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.editLike.attribute.instant =
+  
+  ## Is this an instant revision?
+  [ a:defaultValue = "false" ]
+  attribute instant { sgadata.xTruthValue }?
+sgaatt.global.attributes =
+  sgaatt.global.linking.attributes,
+  sgaatt.global.facs.attributes,
+  sgaatt.global.attribute.el-target,
+  sgaatt.global.attribute.att-target,
+  sgaatt.global.attribute.att-value,
+  sgaatt.global.attribute.xmlid,
+  sgaatt.global.attribute.n,
+  sgaatt.global.attribute.rend
+sgaatt.global.attribute.el-target =
+  
+  ## A convenience attribute for indicating what text-centric
+  ##                                     element a document-centric element should be transformed
+  ##                                     to
+  attribute sga:el-target { text }?
+sgaatt.global.attribute.att-target =
+  
+  ## A convenience attribute for indicating what attribute should
+  ##                                     be added in transforming from document- to text-centric markup.
+  ##                                     By convention the attribute is placed on the element specified
+  ##                                     in a preceding el-target attribute
+  attribute sga:att-target { text }?
+sgaatt.global.attribute.att-value =
+  
+  ## If an attribute created during a document- to text-centric
+  ##                                     markup conversion should have a particular value, please
+  ##                                     indicate
+  attribute sga:att-value { text }?
+sgaatt.global.attribute.xmlid =
+  
+  ## (identifier) provides a unique identifier for the element bearing the attribute.
+  attribute xml:id { xsd:ID }?
+sgaatt.global.attribute.n =
+  
+  ## (number) gives a number (or other label) for an element, which is not necessarily unique within
+  ##         the document.
+  attribute n {
+    list { sgadata.word, sgadata.word* }
+  }?
+sgaatt.global.attribute.rend =
+  
+  ## (rendition) indicates how the element in question was rendered or presented in the source text.
+  attribute rend {
+    list { sgadata.word, sgadata.word* }
+  }?
+sgaatt.handFeatures.attributes =
+  sgaatt.handFeatures.attribute.scribe,
+  sgaatt.handFeatures.attribute.scribeRef,
+  sgaatt.handFeatures.attribute.script,
+  sgaatt.handFeatures.attribute.scriptRef,
+  sgaatt.handFeatures.attribute.medium,
+  sgaatt.handFeatures.attribute.scope
+sgaatt.handFeatures.attribute.scribe =
+  
+  ## gives a name or other identifier for the scribe
+  ## believed to be responsible for this hand.
+  attribute scribe { sgadata.name }?
+sgaatt.handFeatures.attribute.scribeRef =
+  
+  ## points to a full description of the scribe concerned, typically supplied by a person element
+  ##       elsewhere in the description.
+  attribute scribeRef {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.handFeatures.attribute.script =
+  
+  ## characterizes the particular script or writing style used by
+  ## this hand, for example secretary, copperplate, Chancery, Italian, etc.
+  attribute script {
+    list { sgadata.name, sgadata.name* }
+  }?
+sgaatt.handFeatures.attribute.scriptRef =
+  
+  ## points to a full description of the script or writing style used by
+  ## this hand, typically supplied by a scriptNote element
+  ##       elsewhere in the description.
+  attribute scriptRef {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.handFeatures.attribute.medium =
+  
+  ## describes the tint or type of ink, e.g. brown, or other
+  ## writing medium, e.g. pencil
+  attribute medium { sgadata.enumerated }?
+sgaatt.handFeatures.attribute.scope =
+  
+  ## specifies how widely this  hand is used in the manuscript.
+  attribute scope {
+    
+    ## only this hand is used throughout the manuscript
+    "sole"
+    | 
+      ## this hand is used through most of the manuscript
+      "major"
+    | 
+      ## this hand is used occasionally in the manuscript
+      "minor"
+  }?
+sgaatt.internetMedia.attributes =
+  sgaatt.internetMedia.attribute.mimeType
+sgaatt.internetMedia.attribute.mimeType =
+  
+  ## (MIME media type) specifies the applicable multimedia internet mail extension (MIME) media type
+  attribute mimeType {
+    list { sgadata.word, sgadata.word* }
+  }?
+sgaatt.measurement.attributes =
+  sgaatt.measurement.attribute.unit,
+  sgaatt.measurement.attribute.quantity,
+  sgaatt.measurement.attribute.commodity
+sgaatt.measurement.attribute.unit =
+  
+  ## indicates the units used for the measurement, usually
+  ##       using the standard symbol for the desired units.
+  ## Suggested values include: 1] m(metre) ; 2] kg(kilogram) ; 3] s(second) ; 4] Hz(hertz) ; 5] Pa(pascal) ; 6] Ω(ohm) ; 7] L(litre) ; 8] t(tonne) ; 9] ha(hectare) ; 10] Å(ångström) ; 11] mL(millilitre) ; 12] cm(centimetre) ; 13] dB(decibel) ; 14] kbit(kilobit) ; 15] Kibit(kibibit) ; 16] kB(kilobyte) ; 17] KiB(kibibyte) ; 18] MB(megabyte) ; 19] MiB(mebibyte) 
+  attribute unit {
+    
+    ## (metre) SI base unit of length
+    "m"
+    | 
+      ## (kilogram) SI base unit of mass
+      "kg"
+    | 
+      ## (second) SI base unit of time
+      "s"
+    | 
+      ## (hertz) SI unit of frequency
+      "Hz"
+    | 
+      ## (pascal) SI unit of pressure or stress
+      "Pa"
+    | 
+      ## (ohm) SI unit of electric resistance
+      "Ω"
+    | 
+      ## (litre) 1 dm³
+      "L"
+    | 
+      ## (tonne) 10³ kg
+      "t"
+    | 
+      ## (hectare) 1 hm²
+      "ha"
+    | 
+      ## (ångström) 10⁻¹⁰ m
+      "Å"
+    | 
+      ## (millilitre) 
+      "mL"
+    | 
+      ## (centimetre) 
+      "cm"
+    | 
+      ## (decibel) see remarks, below
+      "dB"
+    | 
+      ## (kilobit) 10³ or 1000 bits
+      "kbit"
+    | 
+      ## (kibibit) 2¹⁰ or 1024 bits
+      "Kibit"
+    | 
+      ## (kilobyte) 10³ or 1000 bytes
+      "kB"
+    | 
+      ## (kibibyte) 2¹⁰ or 1024 bytes
+      "KiB"
+    | 
+      ## (megabyte) 10⁶ or 1 000 000 bytes
+      "MB"
+    | 
+      ## (mebibyte) 2²⁰ or 1 048 576 bytes
+      "MiB"
+    | xsd:Name
+  }?
+sgaatt.measurement.attribute.quantity =
+  
+  ## specifies the number of the specified units that
+  ##       comprise the measurement
+  attribute quantity { sgadata.numeric }?
+sgaatt.measurement.attribute.commodity =
+  
+  ## indicates the substance that is being measured
+  attribute commodity {
+    list { sgadata.word, sgadata.word* }
+  }?
+sgaatt.naming.attributes =
+  sgaatt.canonical.attributes,
+  sgaatt.naming.attribute.role,
+  sgaatt.naming.attribute.nymRef
+sgaatt.naming.attribute.role =
+  
+  ## may be used to specify further information about the entity referenced by
+  ## this name, for example the occupation of a person, or the status of a place. 
+  attribute role { sgadata.enumerated }?
+sgaatt.naming.attribute.nymRef =
+  
+  ## (reference to the canonical name) provides a means of locating the canonical form
+  ##       (nym) of the names associated with the object
+  ##        named by
+  ##       the element bearing it.
+  attribute nymRef {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.placement.attributes = sgaatt.placement.attribute.place
+sgaatt.placement.attribute.place =
+  
+  ## 
+  ## Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace
+  attribute place {
+    list {
+      (
+       ## below the line
+       "below"
+       | 
+         ## at the foot of the page
+         "bottom"
+       | 
+         ## in the margin (left, right, or both)
+         "margin"
+       | 
+         ## at the top of the page
+         "top"
+       | 
+         ## on the opposite, i.e. facing, page
+         "opposite"
+       | 
+         ## on the other side of the leaf
+         "overleaf"
+       | 
+         ## above the line
+         "above"
+       | 
+         ## at the end of e.g. chapter or volume.
+         "end"
+       | 
+         ## within the body of the text.
+         "inline"
+       | 
+         ##  in a predefined space, for example left by an earlier scribe.
+         "inspace"
+       | xsd:Name),
+      (
+       ## below the line
+       "below"
+       | 
+         ## at the foot of the page
+         "bottom"
+       | 
+         ## in the margin (left, right, or both)
+         "margin"
+       | 
+         ## at the top of the page
+         "top"
+       | 
+         ## on the opposite, i.e. facing, page
+         "opposite"
+       | 
+         ## on the other side of the leaf
+         "overleaf"
+       | 
+         ## above the line
+         "above"
+       | 
+         ## at the end of e.g. chapter or volume.
+         "end"
+       | 
+         ## within the body of the text.
+         "inline"
+       | 
+         ##  in a predefined space, for example left by an earlier scribe.
+         "inspace"
+       | xsd:Name)*
+    }
+  }?
+sgaatt.typed.attributes =
+  sgaatt.typed.attribute.type, sgaatt.typed.attribute.subtype
+sgaatt.typed.attribute.type =
+  
+  ## characterizes the element in some sense, using any convenient
+  ##  classification scheme or typology.
+  attribute type { sgadata.enumerated }?
+sgaatt.typed.attribute.subtype =
+  
+  ## provides a sub-categorization of the element, if needed
+  attribute subtype { sgadata.enumerated }?
+sgaatt.pointing.attributes =
+  sgaatt.pointing.attribute.target, sgaatt.pointing.attribute.evaluate
+sgaatt.pointing.attribute.target =
+  
+  ## specifies the destination of the reference by supplying one or more URI References
+  attribute target {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.pointing.attribute.evaluate =
+  
+  ## specifies the intended meaning when the target of a
+  ##       pointer is itself a pointer.
+  attribute evaluate {
+    
+    ## if the element pointed to is itself a pointer, then
+    ##	  the target of that pointer will be taken, and so on, until
+    ##	  an element is found which is not a pointer.
+    "all"
+    | 
+      ## if the element pointed to is itself a pointer, then
+      ##	  its target (whether a pointer or not) is taken as the target
+      ##	  of this pointer.
+      "one"
+    | 
+      ## no further evaluation of targets is carried out
+      ##	  beyond that needed to find the element specified in the
+      ##	  pointer's target.
+      "none"
+  }?
+sgaatt.pointing.group.attributes =
+  sgaatt.pointing.attributes,
+  sgaatt.typed.attributes,
+  sgaatt.pointing.group.attribute.domains,
+  sgaatt.pointing.group.attribute.targFunc
+sgaatt.pointing.group.attribute.domains =
+  
+  ## optionally specifies the identifiers of the elements
+  ##       within which all elements indicated by the contents of this
+  ##       element lie.
+  attribute domains {
+    list { sgadata.pointer, sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.pointing.group.attribute.targFunc =
+  
+  ## (target function) describes the function of each of the values of the
+  ##       target attribute of the enclosed link,
+  ##       join, or alt tags.
+  attribute targFunc {
+    list { sgadata.word, sgadata.word, sgadata.word* }
+  }?
+sgaatt.segLike.attributes =
+  sgaatt.segLike.attribute.function, sgaatt.segLike.attribute.part
+sgaatt.segLike.attribute.function =
+  
+  ## characterizes the function of the segment.
+  attribute function { sgadata.enumerated }?
+sgaatt.segLike.attribute.part =
+  
+  ## specifies whether or not the segment is fragmented by some other
+  ## structural element, for example a clause which is divided between two
+  ## or more sentences.
+  [ a:defaultValue = "N" ]
+  attribute part {
+    
+    ## (yes) the segment is incomplete in some respect
+    "Y"
+    | 
+      ## (no) either the segment is complete, or no claim is made as to
+      ## its completeness
+      "N"
+    | 
+      ## (initial) the initial part of an incomplete segment
+      "I"
+    | 
+      ## (medial) a medial part of an incomplete segment
+      "M"
+    | 
+      ## (final) the final part of an incomplete segment
+      "F"
+  }?
+sgaatt.sortable.attributes = sgaatt.sortable.attribute.sortKey
+sgaatt.sortable.attribute.sortKey =
+  
+  ## supplies the sort key for this element in an index, list or group which contains it.
+  attribute sortKey { sgadata.word }?
+sgaatt.sourced.attributes = sgaatt.sourced.attribute.ed
+sgaatt.sourced.attribute.ed =
+  
+  ## (edition) supplies an arbitrary identifier for the source edition in which
+  ##       the associated feature (for example, a  page, column, or line
+  ##       break) occurs at this point in the text.
+  attribute ed {
+    list { sgadata.code, sgadata.code* }
+  }?
+sgaatt.spanning.attributes = sgaatt.spanning.attribute.spanTo
+sgaatt.spanning.attribute.spanTo =
+  
+  ## indicates the end of a span initiated by the element
+  ##	bearing this attribute.
+  attribute spanTo { sgadata.pointer }?
+sgaatt.transcriptional.attributes =
+  sgaatt.editLike.attributes,
+  sgaatt.transcriptional.attribute.hand,
+  sgaatt.transcriptional.attribute.status,
+  sgaatt.transcriptional.attribute.cause,
+  sgaatt.transcriptional.attribute.seq
+sgaatt.transcriptional.attribute.hand =
+  
+  ## signifies the hand of the agent which made the intervention.
+  attribute hand { sgadata.pointer }?
+sgaatt.transcriptional.attribute.status =
+  
+  ## indicates the effect of the intervention, for example in
+  ##       the case of a deletion, strikeouts
+  ##       which include too much or too little text, or in the case of an
+  ##       addition, an insertion which duplicates some of the text
+  ##       already present.
+  ## Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] excessEnd; 5] shortStart; 6] shortEnd; 7] partial; 8] unremarkable
+  [ a:defaultValue = "unremarkable" ]
+  attribute status { sgadata.enumerated }?
+sgaatt.transcriptional.attribute.cause =
+  
+  ## documents the presumed cause for the intervention.
+  attribute cause {
+    
+    ## repeated for the purpose of fixation
+    "fix"
+    | 
+      ## repeated to clarify a previously illegible or badly written text
+      ##    or mark
+      "unclear"
+  }?
+sgaatt.transcriptional.attribute.seq =
+  
+  ## (sequence) assigns a sequence number related to the order in which
+  ##       the encoded features carrying this attribute are believed to have occurred.
+  attribute seq { sgadata.count }?
+sgaatt.translatable.attributes = sgaatt.translatable.attribute.version
+sgaatt.translatable.attribute.version =
+  
+  ## specifies the version name or number of the source from
+  ##	which the translated version was derived
+  attribute version { sgadata.word }?
+sgamodel.nameLike.agent = sganame
+sgamodel.nameLike.agent_alternation = sganame
+sgamodel.nameLike.agent_sequence = sganame
+sgamodel.nameLike.agent_sequenceOptional = sganame?
+sgamodel.nameLike.agent_sequenceOptionalRepeatable = sganame*
+sgamodel.nameLike.agent_sequenceRepeatable = sganame+
+sgamodel.segLike = sgaseg | sgac
+sgamodel.segLike_alternation = sgaseg | sgac
+sgamodel.segLike_sequence = sgaseg, sgac
+sgamodel.segLike_sequenceOptional = sgaseg?, sgac?
+sgamodel.segLike_sequenceOptionalRepeatable = sgaseg*, sgac*
+sgamodel.segLike_sequenceRepeatable = sgaseg+, sgac+
+sgamodel.hiLike = sgahi
+sgamodel.hiLike_alternation = sgahi
+sgamodel.hiLike_sequence = sgahi
+sgamodel.hiLike_sequenceOptional = sgahi?
+sgamodel.hiLike_sequenceOptionalRepeatable = sgahi*
+sgamodel.hiLike_sequenceRepeatable = sgahi+
+sgamodel.emphLike =
+  sgaforeign | sgaemph | sgadistinct | sgagloss | sgaterm | sgatitle
+sgamodel.emphLike_alternation =
+  sgaforeign | sgaemph | sgadistinct | sgagloss | sgaterm | sgatitle
+sgamodel.emphLike_sequence =
+  sgaforeign, sgaemph, sgadistinct, sgagloss, sgaterm, sgatitle
+sgamodel.emphLike_sequenceOptional =
+  sgaforeign?, sgaemph?, sgadistinct?, sgagloss?, sgaterm?, sgatitle?
+sgamodel.emphLike_sequenceOptionalRepeatable =
+  sgaforeign*, sgaemph*, sgadistinct*, sgagloss*, sgaterm*, sgatitle*
+sgamodel.emphLike_sequenceRepeatable =
+  sgaforeign+, sgaemph+, sgadistinct+, sgagloss+, sgaterm+, sgatitle+
+sgamodel.highlighted = sgamodel.hiLike | sgamodel.emphLike
+sgamodel.highlighted_alternation =
+  sgamodel.hiLike_alternation | sgamodel.emphLike_alternation
+sgamodel.highlighted_sequence =
+  sgamodel.hiLike_sequence, sgamodel.emphLike_sequence
+sgamodel.highlighted_sequenceOptional =
+  sgamodel.hiLike_sequenceOptional?, sgamodel.emphLike_sequenceOptional?
+sgamodel.highlighted_sequenceOptionalRepeatable =
+  sgamodel.hiLike_sequenceOptionalRepeatable*,
+  sgamodel.emphLike_sequenceOptionalRepeatable*
+sgamodel.highlighted_sequenceRepeatable =
+  sgamodel.hiLike_sequenceRepeatable+,
+  sgamodel.emphLike_sequenceRepeatable+
+sgamodel.dateLike = sgadate | sgatime
+sgamodel.dateLike_alternation = sgadate | sgatime
+sgamodel.dateLike_sequence = sgadate, sgatime
+sgamodel.dateLike_sequenceOptional = sgadate?, sgatime?
+sgamodel.dateLike_sequenceOptionalRepeatable = sgadate*, sgatime*
+sgamodel.dateLike_sequenceRepeatable = sgadate+, sgatime+
+sgamodel.measureLike = sganum | sgameasureGrp
+sgamodel.measureLike_alternation = sganum | sgameasureGrp
+sgamodel.measureLike_sequence = sganum, sgameasureGrp
+sgamodel.measureLike_sequenceOptional = sganum?, sgameasureGrp?
+sgamodel.measureLike_sequenceOptionalRepeatable =
+  sganum*, sgameasureGrp*
+sgamodel.measureLike_sequenceRepeatable = sganum+, sgameasureGrp+
+sgamodel.egLike = notAllowed
+sgamodel.egLike_alternation = notAllowed
+sgamodel.egLike_sequence = empty
+sgamodel.egLike_sequenceOptional = empty
+sgamodel.egLike_sequenceOptionalRepeatable = empty
+sgamodel.egLike_sequenceRepeatable = notAllowed
+sgamodel.graphicLike = sgagraphic
+sgamodel.graphicLike_alternation = sgagraphic
+sgamodel.graphicLike_sequence = sgagraphic
+sgamodel.graphicLike_sequenceOptional = sgagraphic?
+sgamodel.graphicLike_sequenceOptionalRepeatable = sgagraphic*
+sgamodel.graphicLike_sequenceRepeatable = sgagraphic+
+sgamodel.pPart.editorial =
+  sgachoice | sgaabbr | sgaexpan | sgaex | sgaam | sgasubst
+sgamodel.pPart.editorial_alternation =
+  sgachoice | sgaabbr | sgaexpan | sgaex | sgaam | sgasubst
+sgamodel.pPart.editorial_sequence =
+  sgachoice, sgaabbr, sgaexpan, sgaex, sgaam, sgasubst
+sgamodel.pPart.editorial_sequenceOptional =
+  sgachoice?, sgaabbr?, sgaexpan?, sgaex?, sgaam?, sgasubst?
+sgamodel.pPart.editorial_sequenceOptionalRepeatable =
+  sgachoice*, sgaabbr*, sgaexpan*, sgaex*, sgaam*, sgasubst*
+sgamodel.pPart.editorial_sequenceRepeatable =
+  sgachoice+, sgaabbr+, sgaexpan+, sgaex+, sgaam+, sgasubst+
+sgamodel.pPart.transcriptional =
+  sgasic
+  | sgacorr
+  | sgareg
+  | sgaorig
+  | sgaadd
+  | sgadel
+  | sgaunclear
+  | sgadamage
+  | sgahandShift
+  | sgarestore
+  | sgasupplied
+  | sgasurplus
+  | sgamod
+  | sgaredo
+  | sgaretrace
+  | sgaundo
+sgamodel.pPart.transcriptional_alternation =
+  sgasic
+  | sgacorr
+  | sgareg
+  | sgaorig
+  | sgaadd
+  | sgadel
+  | sgaunclear
+  | sgadamage
+  | sgahandShift
+  | sgarestore
+  | sgasupplied
+  | sgasurplus
+  | sgamod
+  | sgaredo
+  | sgaretrace
+  | sgaundo
+sgamodel.pPart.transcriptional_sequence =
+  sgasic,
+  sgacorr,
+  sgareg,
+  sgaorig,
+  sgaadd,
+  sgadel,
+  sgaunclear,
+  sgadamage,
+  sgahandShift,
+  sgarestore,
+  sgasupplied,
+  sgasurplus,
+  sgamod,
+  sgaredo,
+  sgaretrace,
+  sgaundo
+sgamodel.pPart.transcriptional_sequenceOptional =
+  sgasic?,
+  sgacorr?,
+  sgareg?,
+  sgaorig?,
+  sgaadd?,
+  sgadel?,
+  sgaunclear?,
+  sgadamage?,
+  sgahandShift?,
+  sgarestore?,
+  sgasupplied?,
+  sgasurplus?,
+  sgamod?,
+  sgaredo?,
+  sgaretrace?,
+  sgaundo?
+sgamodel.pPart.transcriptional_sequenceOptionalRepeatable =
+  sgasic*,
+  sgacorr*,
+  sgareg*,
+  sgaorig*,
+  sgaadd*,
+  sgadel*,
+  sgaunclear*,
+  sgadamage*,
+  sgahandShift*,
+  sgarestore*,
+  sgasupplied*,
+  sgasurplus*,
+  sgamod*,
+  sgaredo*,
+  sgaretrace*,
+  sgaundo*
+sgamodel.pPart.transcriptional_sequenceRepeatable =
+  sgasic+,
+  sgacorr+,
+  sgareg+,
+  sgaorig+,
+  sgaadd+,
+  sgadel+,
+  sgaunclear+,
+  sgadamage+,
+  sgahandShift+,
+  sgarestore+,
+  sgasupplied+,
+  sgasurplus+,
+  sgamod+,
+  sgaredo+,
+  sgaretrace+,
+  sgaundo+
+sgamodel.pPart.edit =
+  sgamodel.pPart.editorial | sgamodel.pPart.transcriptional
+sgamodel.pPart.edit_alternation =
+  sgamodel.pPart.editorial_alternation
+  | sgamodel.pPart.transcriptional_alternation
+sgamodel.pPart.edit_sequence =
+  sgamodel.pPart.editorial_sequence,
+  sgamodel.pPart.transcriptional_sequence
+sgamodel.pPart.edit_sequenceOptional =
+  sgamodel.pPart.editorial_sequenceOptional?,
+  sgamodel.pPart.transcriptional_sequenceOptional?
+sgamodel.pPart.edit_sequenceOptionalRepeatable =
+  sgamodel.pPart.editorial_sequenceOptionalRepeatable*,
+  sgamodel.pPart.transcriptional_sequenceOptionalRepeatable*
+sgamodel.pPart.edit_sequenceRepeatable =
+  sgamodel.pPart.editorial_sequenceRepeatable+,
+  sgamodel.pPart.transcriptional_sequenceRepeatable+
+sgamodel.linePart =
+  sgamodel.segLike
+  | sgamodel.hiLike
+  | sgamodel.pPart.transcriptional
+  | sgachoice
+  | sgazone
+  | sgaline
+sgamodel.ptrLike = sgaptr | sgaref
+sgamodel.ptrLike_alternation = sgaptr | sgaref
+sgamodel.ptrLike_sequence = sgaptr, sgaref
+sgamodel.ptrLike_sequenceOptional = sgaptr?, sgaref?
+sgamodel.ptrLike_sequenceOptionalRepeatable = sgaptr*, sgaref*
+sgamodel.ptrLike_sequenceRepeatable = sgaptr+, sgaref+
+sgamodel.global.meta =
+  sgaindex
+  | sgasubstJoin
+  | sgalistTranspose
+  | sgalink
+  | sgalinkGrp
+  | sgatimeline
+  | sgajoin
+  | sgajoinGrp
+  | sgaalt
+  | sgaaltGrp
+sgamodel.global.meta_alternation =
+  sgaindex
+  | sgasubstJoin
+  | sgalistTranspose
+  | sgalink
+  | sgalinkGrp
+  | sgatimeline
+  | sgajoin
+  | sgajoinGrp
+  | sgaalt
+  | sgaaltGrp
+sgamodel.global.meta_sequence =
+  sgaindex,
+  sgasubstJoin,
+  sgalistTranspose,
+  sgalink,
+  sgalinkGrp,
+  sgatimeline,
+  sgajoin,
+  sgajoinGrp,
+  sgaalt,
+  sgaaltGrp
+sgamodel.global.meta_sequenceOptional =
+  sgaindex?,
+  sgasubstJoin?,
+  sgalistTranspose?,
+  sgalink?,
+  sgalinkGrp?,
+  sgatimeline?,
+  sgajoin?,
+  sgajoinGrp?,
+  sgaalt?,
+  sgaaltGrp?
+sgamodel.global.meta_sequenceOptionalRepeatable =
+  sgaindex*,
+  sgasubstJoin*,
+  sgalistTranspose*,
+  sgalink*,
+  sgalinkGrp*,
+  sgatimeline*,
+  sgajoin*,
+  sgajoinGrp*,
+  sgaalt*,
+  sgaaltGrp*
+sgamodel.global.meta_sequenceRepeatable =
+  sgaindex+,
+  sgasubstJoin+,
+  sgalistTranspose+,
+  sgalink+,
+  sgalinkGrp+,
+  sgatimeline+,
+  sgajoin+,
+  sgajoinGrp+,
+  sgaalt+,
+  sgaaltGrp+
+sgamodel.milestoneLike =
+  sgamilestone | sgapb | sgalb | sgacb | sgafw | sgaanchor
+sgamodel.milestoneLike_alternation =
+  sgamilestone | sgapb | sgalb | sgacb | sgafw | sgaanchor
+sgamodel.milestoneLike_sequence =
+  sgamilestone, sgapb, sgalb, sgacb, sgafw, sgaanchor
+sgamodel.milestoneLike_sequenceOptional =
+  sgamilestone?, sgapb?, sgalb?, sgacb?, sgafw?, sgaanchor?
+sgamodel.milestoneLike_sequenceOptionalRepeatable =
+  sgamilestone*, sgapb*, sgalb*, sgacb*, sgafw*, sgaanchor*
+sgamodel.milestoneLike_sequenceRepeatable =
+  sgamilestone+, sgapb+, sgalb+, sgacb+, sgafw+, sgaanchor+
+sgamodel.gLike = sgag
+sgamodel.biblLike = sgabibl | sgabiblFull
+sgamodel.biblLike_alternation = sgabibl | sgabiblFull
+sgamodel.biblLike_sequence = sgabibl, sgabiblFull
+sgamodel.biblLike_sequenceOptional = sgabibl?, sgabiblFull?
+sgamodel.biblLike_sequenceOptionalRepeatable = sgabibl*, sgabiblFull*
+sgamodel.biblLike_sequenceRepeatable = sgabibl+, sgabiblFull+
+sgamodel.headLike = sgahead
+sgamodel.headLike_alternation = sgahead
+sgamodel.headLike_sequence = sgahead
+sgamodel.headLike_sequenceOptional = sgahead?
+sgamodel.headLike_sequenceOptionalRepeatable = sgahead*
+sgamodel.headLike_sequenceRepeatable = sgahead+
+sgamodel.labelLike = sgadesc | sgalabel
+sgamodel.labelLike_alternation = sgadesc | sgalabel
+sgamodel.labelLike_sequence = sgadesc, sgalabel
+sgamodel.labelLike_sequenceOptional = sgadesc?, sgalabel?
+sgamodel.labelLike_sequenceOptionalRepeatable = sgadesc*, sgalabel*
+sgamodel.labelLike_sequenceRepeatable = sgadesc+, sgalabel+
+sgamodel.listLike = sgalist
+sgamodel.listLike_alternation = sgalist
+sgamodel.listLike_sequence = sgalist
+sgamodel.listLike_sequenceOptional = sgalist?
+sgamodel.listLike_sequenceOptionalRepeatable = sgalist*
+sgamodel.listLike_sequenceRepeatable = sgalist+
+sgamodel.noteLike = sganote
+sgamodel.noteLike_alternation = sganote
+sgamodel.noteLike_sequence = sganote
+sgamodel.noteLike_sequenceOptional = sganote?
+sgamodel.noteLike_sequenceOptionalRepeatable = sganote*
+sgamodel.noteLike_sequenceRepeatable = sganote+
+sgamodel.lLike = sgal
+sgamodel.lLike_alternation = sgal
+sgamodel.lLike_sequence = sgal
+sgamodel.lLike_sequenceOptional = sgal?
+sgamodel.lLike_sequenceOptionalRepeatable = sgal*
+sgamodel.lLike_sequenceRepeatable = sgal+
+sgamodel.pLike = sgap | sgaab
+sgamodel.pLike_alternation = sgap | sgaab
+sgamodel.pLike_sequence = sgap, sgaab
+sgamodel.pLike_sequenceOptional = sgap?, sgaab?
+sgamodel.pLike_sequenceOptionalRepeatable = sgap*, sgaab*
+sgamodel.pLike_sequenceRepeatable = sgap+, sgaab+
+sgamodel.stageLike = sgastage
+sgamodel.stageLike_alternation = sgastage
+sgamodel.stageLike_sequence = sgastage
+sgamodel.stageLike_sequenceOptional = sgastage?
+sgamodel.stageLike_sequenceOptionalRepeatable = sgastage*
+sgamodel.stageLike_sequenceRepeatable = sgastage+
+sgamodel.entryPart = notAllowed
+sgamodel.global.edit =
+  sgagap | sgaaddSpan | sgadamageSpan | sgadelSpan | sgaspace
+sgamodel.global.edit_alternation =
+  sgagap | sgaaddSpan | sgadamageSpan | sgadelSpan | sgaspace
+sgamodel.global.edit_sequence =
+  sgagap, sgaaddSpan, sgadamageSpan, sgadelSpan, sgaspace
+sgamodel.global.edit_sequenceOptional =
+  sgagap?, sgaaddSpan?, sgadamageSpan?, sgadelSpan?, sgaspace?
+sgamodel.global.edit_sequenceOptionalRepeatable =
+  sgagap*, sgaaddSpan*, sgadamageSpan*, sgadelSpan*, sgaspace*
+sgamodel.global.edit_sequenceRepeatable =
+  sgagap+, sgaaddSpan+, sgadamageSpan+, sgadelSpan+, sgaspace+
+sgamodel.divPart = sgamodel.lLike | sgamodel.pLike | sgalg | sgasp
+sgamodel.divPart_alternation =
+  sgamodel.lLike_alternation
+  | sgamodel.pLike_alternation
+  | sgalg
+  | sgasp
+sgamodel.divPart_sequence =
+  sgamodel.lLike_sequence, sgamodel.pLike_sequence, sgalg, sgasp
+sgamodel.divPart_sequenceOptional =
+  sgamodel.lLike_sequenceOptional?,
+  sgamodel.pLike_sequenceOptional?,
+  sgalg?,
+  sgasp?
+sgamodel.divPart_sequenceOptionalRepeatable =
+  sgamodel.lLike_sequenceOptionalRepeatable*,
+  sgamodel.pLike_sequenceOptionalRepeatable*,
+  sgalg*,
+  sgasp*
+sgamodel.divPart_sequenceRepeatable =
+  sgamodel.lLike_sequenceRepeatable+,
+  sgamodel.pLike_sequenceRepeatable+,
+  sgalg+,
+  sgasp+
+sgamodel.publicationStmtPart =
+  sgadate | sgadistributor | sgaauthority | sgaidno | sgaavailability
+sgamodel.availabilityPart = sgap | sgalicence
+sgamodel.glossLike = sgadesc | sgagloss
+sgamodel.quoteLike = sgacit
+sgamodel.quoteLike_alternation = sgacit
+sgamodel.quoteLike_sequence = sgacit
+sgamodel.quoteLike_sequenceOptional = sgacit?
+sgamodel.quoteLike_sequenceOptionalRepeatable = sgacit*
+sgamodel.quoteLike_sequenceRepeatable = sgacit+
+sgamodel.qLike = sgamodel.quoteLike | sgaq | sgafloatingText
+sgamodel.qLike_alternation =
+  sgamodel.quoteLike_alternation | sgaq | sgafloatingText
+sgamodel.qLike_sequence =
+  sgamodel.quoteLike_sequence, sgaq, sgafloatingText
+sgamodel.qLike_sequenceOptional =
+  sgamodel.quoteLike_sequenceOptional?, sgaq?, sgafloatingText?
+sgamodel.qLike_sequenceOptionalRepeatable =
+  sgamodel.quoteLike_sequenceOptionalRepeatable*,
+  sgaq*,
+  sgafloatingText*
+sgamodel.qLike_sequenceRepeatable =
+  sgamodel.quoteLike_sequenceRepeatable+, sgaq+, sgafloatingText+
+sgamodel.respLike = sgarespStmt | sgasponsor | sgafunder | sgaprincipal
+sgamodel.respLike_alternation =
+  sgarespStmt | sgasponsor | sgafunder | sgaprincipal
+sgamodel.respLike_sequence =
+  sgarespStmt, sgasponsor, sgafunder, sgaprincipal
+sgamodel.respLike_sequenceOptional =
+  sgarespStmt?, sgasponsor?, sgafunder?, sgaprincipal?
+sgamodel.respLike_sequenceOptionalRepeatable =
+  sgarespStmt*, sgasponsor*, sgafunder*, sgaprincipal*
+sgamodel.respLike_sequenceRepeatable =
+  sgarespStmt+, sgasponsor+, sgafunder+, sgaprincipal+
+sgamodel.divWrapper =
+  sgabyline
+  | sgadateline
+  | sgaargument
+  | sgaepigraph
+  | sgasalute
+  | sgadocAuthor
+  | sgadocDate
+sgamodel.divWrapper_alternation =
+  sgabyline
+  | sgadateline
+  | sgaargument
+  | sgaepigraph
+  | sgasalute
+  | sgadocAuthor
+  | sgadocDate
+sgamodel.divWrapper_sequence =
+  sgabyline,
+  sgadateline,
+  sgaargument,
+  sgaepigraph,
+  sgasalute,
+  sgadocAuthor,
+  sgadocDate
+sgamodel.divWrapper_sequenceOptional =
+  sgabyline?,
+  sgadateline?,
+  sgaargument?,
+  sgaepigraph?,
+  sgasalute?,
+  sgadocAuthor?,
+  sgadocDate?
+sgamodel.divWrapper_sequenceOptionalRepeatable =
+  sgabyline*,
+  sgadateline*,
+  sgaargument*,
+  sgaepigraph*,
+  sgasalute*,
+  sgadocAuthor*,
+  sgadocDate*
+sgamodel.divWrapper_sequenceRepeatable =
+  sgabyline+,
+  sgadateline+,
+  sgaargument+,
+  sgaepigraph+,
+  sgasalute+,
+  sgadocAuthor+,
+  sgadocDate+
+sgamodel.divTopPart = sgamodel.headLike | sgaopener
+sgamodel.divTopPart_alternation =
+  sgamodel.headLike_alternation | sgaopener
+sgamodel.divTopPart_sequence = sgamodel.headLike_sequence, sgaopener
+sgamodel.divTopPart_sequenceOptional =
+  sgamodel.headLike_sequenceOptional?, sgaopener?
+sgamodel.divTopPart_sequenceOptionalRepeatable =
+  sgamodel.headLike_sequenceOptionalRepeatable*, sgaopener*
+sgamodel.divTopPart_sequenceRepeatable =
+  sgamodel.headLike_sequenceRepeatable+, sgaopener+
+sgamodel.divTop = sgamodel.divWrapper | sgamodel.divTopPart
+sgamodel.pLike.front =
+  sgahead
+  | sgabyline
+  | sgaargument
+  | sgaepigraph
+  | sgadocTitle
+  | sgatitlePart
+  | sgadocAuthor
+  | sgadocEdition
+  | sgadocImprint
+  | sgadocDate
+sgamodel.divBottomPart =
+  sgatrailer | sgacloser | sgasigned | sgapostscript
+sgamodel.divBottomPart_alternation =
+  sgatrailer | sgacloser | sgasigned | sgapostscript
+sgamodel.divBottomPart_sequence =
+  sgatrailer, sgacloser, sgasigned, sgapostscript
+sgamodel.divBottomPart_sequenceOptional =
+  sgatrailer?, sgacloser?, sgasigned?, sgapostscript?
+sgamodel.divBottomPart_sequenceOptionalRepeatable =
+  sgatrailer*, sgacloser*, sgasigned*, sgapostscript*
+sgamodel.divBottomPart_sequenceRepeatable =
+  sgatrailer+, sgacloser+, sgasigned+, sgapostscript+
+sgamodel.divBottom = sgamodel.divWrapper | sgamodel.divBottomPart
+sgamodel.titlepagePart =
+  sgagraphic
+  | sgabyline
+  | sgaargument
+  | sgaepigraph
+  | sgadocTitle
+  | sgatitlePart
+  | sgadocAuthor
+  | sgaimprimatur
+  | sgadocEdition
+  | sgadocImprint
+  | sgadocDate
+sgamodel.msQuoteLike = sgatitle
+sgamodel.msQuoteLike_alternation = sgatitle
+sgamodel.msQuoteLike_sequence = sgatitle
+sgamodel.msQuoteLike_sequenceOptional = sgatitle?
+sgamodel.msQuoteLike_sequenceOptionalRepeatable = sgatitle*
+sgamodel.msQuoteLike_sequenceRepeatable = sgatitle+
+sgamodel.choicePart =
+  sgasic
+  | sgacorr
+  | sgareg
+  | sgaorig
+  | sgaunclear
+  | sgaabbr
+  | sgaexpan
+  | sgaex
+  | sgaam
+  | sgaseg
+sgamodel.imprintPart = sgadistributor
+sgamodel.imprintPart_alternation = sgadistributor
+sgamodel.imprintPart_sequence = sgadistributor
+sgamodel.imprintPart_sequenceOptional = sgadistributor?
+sgamodel.imprintPart_sequenceOptionalRepeatable = sgadistributor*
+sgamodel.imprintPart_sequenceRepeatable = sgadistributor+
+sgamodel.catDescPart = notAllowed
+sgamodel.nameLike = sgamodel.nameLike.agent | sgars | sgaidno
+sgamodel.nameLike_alternation =
+  sgamodel.nameLike.agent_alternation | sgars | sgaidno
+sgamodel.nameLike_sequence =
+  sgamodel.nameLike.agent_sequence, sgars, sgaidno
+sgamodel.nameLike_sequenceOptional =
+  sgamodel.nameLike.agent_sequenceOptional?, sgars?, sgaidno?
+sgamodel.nameLike_sequenceOptionalRepeatable =
+  sgamodel.nameLike.agent_sequenceOptionalRepeatable*, sgars*, sgaidno*
+sgamodel.nameLike_sequenceRepeatable =
+  sgamodel.nameLike.agent_sequenceRepeatable+, sgars+, sgaidno+
+sgamodel.global =
+  sgamodel.global.meta
+  | sgamodel.milestoneLike
+  | sgamodel.noteLike
+  | sgamodel.global.edit
+  | sgametamark
+sgamodel.biblPart =
+  sgamodel.respLike
+  | sgamodel.imprintPart
+  | sgabibl
+  | sgarelatedItem
+  | sgaedition
+  | sgaextent
+sgamodel.frontPart = sgatitlePage
+sgamodel.pPart.data =
+  sgamodel.dateLike | sgamodel.measureLike | sgamodel.nameLike
+sgamodel.pPart.data_alternation =
+  sgamodel.dateLike_alternation
+  | sgamodel.measureLike_alternation
+  | sgamodel.nameLike_alternation
+sgamodel.pPart.data_sequence =
+  sgamodel.dateLike_sequence,
+  sgamodel.measureLike_sequence,
+  sgamodel.nameLike_sequence
+sgamodel.pPart.data_sequenceOptional =
+  sgamodel.dateLike_sequenceOptional?,
+  sgamodel.measureLike_sequenceOptional?,
+  sgamodel.nameLike_sequenceOptional?
+sgamodel.pPart.data_sequenceOptionalRepeatable =
+  sgamodel.dateLike_sequenceOptionalRepeatable*,
+  sgamodel.measureLike_sequenceOptionalRepeatable*,
+  sgamodel.nameLike_sequenceOptionalRepeatable*
+sgamodel.pPart.data_sequenceRepeatable =
+  sgamodel.dateLike_sequenceRepeatable+,
+  sgamodel.measureLike_sequenceRepeatable+,
+  sgamodel.nameLike_sequenceRepeatable+
+sgamodel.inter =
+  sgamodel.egLike
+  | sgamodel.biblLike
+  | sgamodel.labelLike
+  | sgamodel.listLike
+  | sgamodel.stageLike
+  | sgamodel.qLike
+sgamodel.inter_alternation =
+  sgamodel.egLike_alternation
+  | sgamodel.biblLike_alternation
+  | sgamodel.labelLike_alternation
+  | sgamodel.listLike_alternation
+  | sgamodel.stageLike_alternation
+  | sgamodel.qLike_alternation
+sgamodel.inter_sequence =
+  sgamodel.egLike_sequence,
+  sgamodel.biblLike_sequence,
+  sgamodel.labelLike_sequence,
+  sgamodel.listLike_sequence,
+  sgamodel.stageLike_sequence,
+  sgamodel.qLike_sequence
+sgamodel.inter_sequenceOptional =
+  sgamodel.egLike_sequenceOptional?,
+  sgamodel.biblLike_sequenceOptional?,
+  sgamodel.labelLike_sequenceOptional?,
+  sgamodel.listLike_sequenceOptional?,
+  sgamodel.stageLike_sequenceOptional?,
+  sgamodel.qLike_sequenceOptional?
+sgamodel.inter_sequenceOptionalRepeatable =
+  sgamodel.egLike_sequenceOptionalRepeatable*,
+  sgamodel.biblLike_sequenceOptionalRepeatable*,
+  sgamodel.labelLike_sequenceOptionalRepeatable*,
+  sgamodel.listLike_sequenceOptionalRepeatable*,
+  sgamodel.stageLike_sequenceOptionalRepeatable*,
+  sgamodel.qLike_sequenceOptionalRepeatable*
+sgamodel.inter_sequenceRepeatable =
+  sgamodel.egLike_sequenceRepeatable+,
+  sgamodel.biblLike_sequenceRepeatable+,
+  sgamodel.labelLike_sequenceRepeatable+,
+  sgamodel.listLike_sequenceRepeatable+,
+  sgamodel.stageLike_sequenceRepeatable+,
+  sgamodel.qLike_sequenceRepeatable+
+sgamodel.common = sgamodel.divPart | sgamodel.inter
+sgamodel.phrase =
+  sgamodel.segLike
+  | sgamodel.highlighted
+  | sgamodel.graphicLike
+  | sgamodel.pPart.edit
+  | sgamodel.ptrLike
+  | sgamodel.pPart.data
+sgamodel.limitedPhrase =
+  sgamodel.hiLike
+  | sgamodel.emphLike
+  | sgamodel.pPart.editorial
+  | sgamodel.ptrLike
+  | sgamodel.pPart.data
+sgamodel.divLike = sgadiv
+sgamodel.divGenLike = notAllowed
+sgamodel.div1Like = notAllowed
+sgamodel.applicationLike = sgaapplication
+sgamodel.teiHeaderPart = sgaencodingDesc | sgaprofileDesc
+sgamodel.sourceDescPart = notAllowed
+sgamodel.encodingDescPart =
+  sgaprojectDesc
+  | sgasamplingDecl
+  | sgaeditorialDecl
+  | sgatagsDecl
+  | sgarefsDecl
+  | sgaclassDecl
+  | sgaappInfo
+  | sgageoDecl
+  | sgacharDecl
+sgamodel.editorialDeclPart =
+  sgacorrection
+  | sganormalization
+  | sgaquotation
+  | sgahyphenation
+  | sgasegmentation
+  | sgastdVals
+  | sgainterpretation
+sgamodel.profileDescPart =
+  sgacreation
+  | sgalangUsage
+  | sgatextClass
+  | sgacalendarDesc
+  | sgahandNotes
+  | sgalistTranspose
+sgap =
+  
+  ## (paragraph) marks paragraphs in prose. [3.1.  7.2.5. ]
+  element p { sgamacro.paraContent, sgaatt.global.attributes, empty }
+sgaforeign =
+  
+  ## (foreign) identifies a word or phrase as belonging to some language other than that of the
+  ##                 surrounding text.  [3.3.2.1. ]
+  element foreign {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgaemph =
+  
+  ## (emphasized) marks words or phrases which are stressed or emphasized for
+  ##         linguistic or rhetorical effect. [3.3.2.2.  3.3.2. ]
+  element emph { sgamacro.paraContent, sgaatt.global.attributes, empty }
+sgahi =
+  
+  ## (highlighted) marks a word or phrase as graphically distinct from the
+  ##         surrounding text, for reasons concerning which no claim is
+  ##         made.  [3.3.2.2.  3.3.2. ]
+  element hi {
+    sgamacro.paraContent,
+    sgaatt.global.attribute.el-target,
+    sgaatt.global.attribute.att-target,
+    sgaatt.global.attribute.att-value,
+    sgaatt.global.attribute.xmlid,
+    sgaatt.global.attribute.n,
+    
+    ## (rendition) indicates how the element in question was rendered or presented in the source text.
+    attribute rend {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    sgaatt.global.linking.attributes,
+    sgaatt.global.facs.attributes,
+    empty
+  }
+sgadistinct =
+  
+  ## identifies any word or phrase which is regarded as linguistically distinct, for example as
+  ##         archaic, technical, dialectal, non-preferred, etc., or as forming part of a sublanguage.  [3.3.2.3. ]
+  element distinct {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    
+    ## specifies the sublanguage or register to which the word or phrase is being
+    ##                 assigned
+    attribute type { sgadata.enumerated }?,
+    
+    ## specifies how the phrase is distinct diachronically
+    attribute time { sgadata.key }?,
+    
+    ## specifies how the phrase is distinct diatopically
+    attribute space { sgadata.key }?,
+    
+    ## specifies how the phrase is distinct diastatically
+    attribute social { sgadata.key }?,
+    empty
+  }
+sgaq =
+  
+  ## (separated from the surrounding text with quotation marks) contains material which is marked as (ostensibly) being somehow different than the
+  ##     surrounding text, for any one of a variety of reasons including, but not limited to: direct
+  ##     speech or thought, technical terms or jargon, authorial distance, quotations from elsewhere, and
+  ##     passages that are mentioned but not used. [3.3.3. ]
+  element q {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.ascribed.attributes,
+    
+    ## may be used to indicate whether the offset passage is spoken or thought, or to
+    ##         characterize it more finely.
+    ## Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] foreign(foreign words) ; 6] distinct(linguistically distinct) ; 7] term(technical term) ; 8] emph(rhetorically emphasized) ; 9] mentioned
+    attribute type {
+      
+      ## representation of speech
+      "spoken"
+      | 
+        ## representation of thought, e.g. internal monologue
+        "thought"
+      | 
+        ## quotation from a written source
+        "written"
+      | 
+        ## authorial distance
+        "soCalled"
+      | 
+        ## (foreign words) 
+        "foreign"
+      | 
+        ## (linguistically distinct) 
+        "distinct"
+      | 
+        ## (technical term) 
+        "term"
+      | 
+        ## (rhetorically emphasized) 
+        "emph"
+      | 
+        ## refering to itself, not its normal referant
+        "mentioned"
+      | xsd:Name
+    }?,
+    empty
+  }
+sgacit =
+  
+  ## (cited quotation) contains a quotation from some other document, together with a bibliographic reference to
+  ##     its source. In a dictionary it may contain an example text with at least one occurrence of the
+  ##     word form, used in the sense being described, or a translation of the headword, or an example.  [3.3.3.  4.3.1.  9.3.5.1. ]
+  element cit {
+    (sgamodel.qLike
+     | sgamodel.egLike
+     | sgamodel.biblLike
+     | sgamodel.ptrLike
+     | sgamodel.global
+     | sgamodel.entryPart)+,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgadesc =
+  
+  ## (description) contains a brief description of the object documented by its parent element, including its
+  ##     intended usage, purpose, or application where this is appropriate. [22.4.4.  22.4.5.  22.4.6.  22.4.7. ]
+  element desc {
+    sgamacro.limitedContent,
+    sgaatt.global.attributes,
+    sgaatt.translatable.attributes,
+    empty
+  }
+sgagloss =
+  
+  ## identifies a phrase or word used to provide a gloss or definition for some other word or
+  ##     phrase. [3.3.4. ]
+  element gloss {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.translatable.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.pointing.attributes,
+    
+    ## (canonical reference) identifies the associated term element using a canonical reference from a
+    ##         scheme defined in a refsDecl element in the TEI header
+    attribute cRef { sgadata.pointer }?,
+    empty
+  }
+sgaterm =
+  
+  ## contains a single-word, multi-word, or symbolic designation which is regarded as a technical
+  ##     term. [3.3.4. ]
+  element term {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.canonical.attributes,
+    sgaatt.sortable.attributes,
+    
+    ## identifies the associated gloss element using a canonical reference from a
+    ##           scheme defined in a refsDecl element in the TEI header
+    attribute cRef { sgadata.pointer }?,
+    empty
+  }
+sgasic =
+  
+  ## (latin for thus or so
+  ##   ) contains text reproduced although apparently incorrect or inaccurate. [3.4.1. ]
+  element sic {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.responsibility.attributes,
+    empty
+  }
+sgacorr =
+  
+  ## (correction) contains the correct form of a passage apparently erroneous in the copy text. [3.4.1. ]
+  element corr {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgachoice =
+  
+  ## groups a number of alternative encodings for the same point in
+  ##         a text. [3.4. ]
+  element choice {
+    (sgamodel.choicePart | sgachoice)*, sgaatt.global.attributes, empty
+  }
+sgareg =
+  
+  ## (regularization) contains a reading which has been regularized or normalized in some sense. [3.4.2.  12. ]
+  element reg {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaorig =
+  
+  ## (original form) contains a reading which is marked as following the original, rather than being normalized
+  ##         or corrected. [3.4.2.  12. ]
+  element orig {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.responsibility.attributes,
+    empty
+  }
+sgagap =
+  
+  ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial
+  ##     reasons described in the TEI header, as part of sampling practice, or because the material is
+  ##     illegible, invisible, or inaudible. [3.4.3. ]
+  element gap {
+    sgamodel.glossLike*,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    
+    ## gives the reason for omission. Sample values include sampling,
+    ##         inaudible, irrelevant, cancelled.
+    attribute reason {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    
+    ## in the case of text omitted from the transcription because of deliberate deletion by an
+    ##         identifiable hand, signifies the hand which made the deletion.
+    attribute hand { sgadata.pointer }?,
+    
+    ## In the case of text omitted because of damage, categorizes the cause of the damage, if
+    ##         it can be identified.
+    ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
+    attribute agent { sgadata.enumerated }?,
+    empty
+  }
+sgaadd =
+  
+  ## (addition) contains letters, words, or phrases inserted in the text by an
+  ##         author, scribe, annotator, or corrector. [3.4.3. ]
+  element add {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.transcriptional.attributes,
+    sgaatt.placement.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgadel =
+  
+  ## (deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as
+  ##     superfluous or spurious in the copy text by an author, scribe, annotator, or corrector. [3.4.3. ]
+  element del {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.transcriptional.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaunclear =
+  
+  ## contains a word, phrase, or passage which cannot be transcribed with certainty because it
+  ##         is illegible or inaudible in the source. [11.3.3.1.  3.4.3. ]
+  element unclear {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    
+    ## indicates why the material is hard to transcribe.
+    attribute reason {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    
+    ## Where the difficulty in transcription arises from action (partial deletion, etc.)
+    ##                 assignable to an identifiable hand, signifies the hand responsible for the action.
+    attribute hand { sgadata.pointer }?,
+    
+    ## Where the difficulty in transcription arises from damage, categorizes the cause of
+    ##                 the damage, if it can be identified.
+    ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
+    attribute agent { sgadata.enumerated }?,
+    empty
+  }
+sganame =
+  
+  ## (name, proper noun) contains a proper noun or noun phrase. [3.5.1. ]
+  element name {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.naming.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgars =
+  
+  ## (referencing string) contains a general purpose name or referring string. [13.2.1.  3.5.1. ]
+  element rs {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.naming.attributes,
+    
+    ## indicates more specifically the object referred to by the referencing string.
+    ##         When suitable, values should be drawn from an existing ontology, such as the BBN's proposed answer categories.
+    attribute type { sgadata.enumerated }?,
+    empty
+  }
+sganum =
+  
+  ## (number) contains a number, written in any form. [3.5.3. ]
+  element num {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.ranging.attributes,
+    
+    ## indicates the type of numeric value.
+    ## Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage
+    attribute type {
+      
+      ## absolute number, e.g. 21, 21.5
+      "cardinal"
+      | 
+        ## ordinal number, e.g. 21st
+        "ordinal"
+      | 
+        ## fraction, e.g. one half or three-quarters
+        "fraction"
+      | 
+        ## a percentage
+        "percentage"
+      | xsd:Name
+    }?,
+    
+    ## supplies the value of the number in standard form.
+    attribute value { sgadata.numeric }?,
+    empty
+  }
+sgameasureGrp =
+  
+  ## (measure group) contains a group of dimensional specifications which relate to the same object, for example
+  ##     the height and width of a manuscript page. [10.3.4. ]
+  element measureGrp {
+    (text | sgamodel.gLike | sgamodel.measureLike)*,
+    sgaatt.global.attributes,
+    sgaatt.measurement.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgadate =
+  
+  ## contains a date in any format. [3.5.4.  2.2.4.  2.5.  3.11.2.3.  15.2.3.  13.3.6. ]
+  element date {
+    (text | sgamodel.gLike | sgamodel.phrase | sgamodel.global)*,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    sgaatt.editLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgatime =
+  
+  ## contains a phrase defining a time of day in any format. [3.5.4. ]
+  element time {
+    (text | sgamodel.gLike | sgamodel.phrase | sgamodel.global)*,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    sgaatt.editLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaabbr =
+  
+  ## (abbreviation) contains an abbreviation of any sort. [3.5.5. ]
+  element abbr {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.responsibility.attributes,
+    
+    ## allows the encoder to classify the abbreviation according to some convenient
+    ##                 typology.
+    ## Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic
+    attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgaexpan =
+  
+  ## (expansion) contains the expansion of an abbreviation. [3.5.5. ]
+  element expan {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    empty
+  }
+sgaptr =
+  
+  ## (pointer) defines a pointer to another location. [3.6.  16.1. ]
+  element ptr {
+    empty
+    >> sch:pattern [
+         id = "ptr-constraint-ptrAtts"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:ptr"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and @cRef"
+             "Only one of the\x{a}" ~
+             "	attributes 'target' and 'cRef' may be supplied."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.internetMedia.attributes,
+    sgaatt.typed.attributes,
+    
+    ## (canonical reference) specifies the destination of the pointer by supplying a canonical reference from a
+    ##         scheme defined in a refsDecl element in the TEI header
+    attribute cRef {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    empty
+  }
+sgaref =
+  
+  ## (reference) defines a reference to another location, possibly modified by additional text or comment. [3.6.  16.1. ]
+  element ref {
+    sgamacro.paraContent
+    >> sch:pattern [
+         id = "ref-constraint-refAtts"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:ref"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and @cRef"
+             "Only one of the\x{a}" ~
+             "	attributes 'target' and 'cRef' may be supplied."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.internetMedia.attributes,
+    sgaatt.typed.attributes,
+    
+    ## (canonical reference) specifies the destination of the reference by supplying a canonical reference from a
+    ##         scheme defined in a refsDecl element in the TEI header
+    attribute cRef {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    empty
+  }
+sgalist =
+  
+  ## (list) contains any sequence of items organized as a list. [3.7. ]
+  element list {
+    ((sgamodel.divTop | sgamodel.global)*,
+     ((sgaitem, sgamodel.global*)+
+      | (sgaheadLabel?,
+         sgaheadItem?,
+         (sgalabel, sgamodel.global*, sgaitem, sgamodel.global*)+)),
+     (sgamodel.divBottom, sgamodel.global*)*),
+    sgaatt.global.attributes,
+    sgaatt.sortable.attributes,
+    
+    ## describes the form of the list.
+    ## Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss
+    [ a:defaultValue = "simple" ]
+    attribute type {
+      
+      ## list items are numbered or lettered. 
+      "ordered"
+      | 
+        ## list items are marked with a bullet or other typographic device. 
+        "bulleted"
+      | 
+        ## list items are not numbered or bulleted. 
+        "simple"
+      | 
+        ## each list item glosses some term or concept, which is given by a label element
+        ##             preceding the list item.
+        "gloss"
+      | xsd:Name
+    }?,
+    empty
+  }
+sgaitem =
+  
+  ## contains one component of a list. [3.7.  2.5. ]
+  element item {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.sortable.attributes,
+    empty
+  }
+sgalabel =
+  
+  ## contains any label or heading used to identify part of a text,
+  ##   typically but not exclusively in a list or glossary. [3.7. ]
+  element label { sgamacro.phraseSeq, sgaatt.global.attributes, empty }
+sgahead =
+  
+  ## (heading) contains any type of heading, for example the title of a section, or the heading of a list,
+  ##     glossary, manuscript description, etc. [4.2.1. ]
+  element head {
+    (text
+     | sgalg
+     | sgamodel.gLike
+     | sgamodel.phrase
+     | sgamodel.inter
+     | sgamodel.lLike
+     | sgamodel.global)*,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaheadLabel =
+  
+  ## (heading for list labels) contains the heading for the label or term column in a glossary list or similar structured
+  ##         list. [3.7. ]
+  element headLabel {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgaheadItem =
+  
+  ## (heading for list items) contains the heading for the item or gloss column in a glossary list or similar structured
+  ##         list. [3.7. ]
+  element headItem {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sganote =
+  
+  ## contains a note or annotation. [3.8.1.  2.2.6.  3.11.2.6.  9.3.5.4. ]
+  element note {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.placement.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.responsibility.attributes,
+    sgaatt.typed.attributes,
+    
+    ## indicates whether the copy text shows the exact place of reference for the note.
+    [ a:defaultValue = "true" ]
+    attribute anchored { sgadata.truthValue }?,
+    
+    ## points to the end of the span to which the note is attached, if the note is not embedded
+    ##         in the text at that point.
+    attribute targetEnd {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgaindex =
+  
+  ## (index entry) marks a location to be indexed for whatever purpose. [3.8.2. ]
+  element index {
+    (sgaterm, sgaindex?)*,
+    sgaatt.global.attributes,
+    sgaatt.spanning.attributes,
+    
+    ## supplies a name to specify which index (of several) the index entry belongs to.
+    attribute indexName { sgadata.name }?,
+    empty
+  }
+sgagraphic =
+  
+  ## indicates the location of an inline graphic, illustration, or figure. [3.9. ]
+  element graphic {
+    sgamodel.glossLike*,
+    sgaatt.global.attributes,
+    sgaatt.internetMedia.attributes,
+    
+    ## The display width of the image
+    attribute width { sgadata.outputMeasurement }?,
+    
+    ## The display height of the image
+    attribute height { sgadata.outputMeasurement }?,
+    
+    ## A scale factor to be applied to the image to make it the desired display size
+    attribute scale { sgadata.numeric }?,
+    
+    ## (uniform resource locator) A URL which refers to the image itself.
+    attribute url { sgadata.pointer },
+    empty
+  }
+sgamilestone =
+  
+  ## marks a boundary point separating any kind of section of a text, typically but not
+  ##     necessarily indicating a point at which some part of a standard reference system changes, where
+  ##     the change is not represented by a structural element. [3.10.3. ]
+  element milestone {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.sourced.attributes,
+    sgaatt.spanning.attributes,
+    sgaatt.breaking.attributes,
+    
+    ## provides a conventional name for the kind of section changing at this milestone.
+    ## Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] canto; 7] speaker; 8] stanza; 9] act; 10] scene; 11] section; 12] absent; 13] unnumbered
+    attribute unit {
+      
+      ## physical page breaks (synonymous with the pb element).
+      "page"
+      | 
+        ## column breaks.
+        "column"
+      | 
+        ## line breaks (synonymous with the lb element).
+        "line"
+      | 
+        ## any units termed book, liber, etc.
+        "book"
+      | 
+        ## individual poems in a collection.
+        "poem"
+      | 
+        ## cantos or other major sections of a poem.
+        "canto"
+      | 
+        ## changes of speaker or narrator.
+        "speaker"
+      | 
+        ## stanzas within a poem, book, or canto.
+        "stanza"
+      | 
+        ## acts within a play.
+        "act"
+      | 
+        ## scenes within a play or act.
+        "scene"
+      | 
+        ## sections of any kind.
+        "section"
+      | 
+        ## passages not present in the reference edition.
+        "absent"
+      | 
+        ## passages present in the text, but not to be included as part of the reference.
+        "unnumbered"
+      | xsd:Name
+    },
+    empty
+  }
+sgapb =
+  
+  ## (page break) marks the boundary between one page of a text and the next in a standard reference system. [3.10.3. ]
+  element pb {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.sourced.attributes,
+    sgaatt.spanning.attributes,
+    sgaatt.breaking.attributes,
+    empty
+  }
+sgalb =
+  
+  ## (line break) marks the start of a new (typographic) line in some edition or version of a text. [3.10.3.  7.2.5. ]
+  element lb {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.sourced.attributes,
+    sgaatt.spanning.attributes,
+    sgaatt.breaking.attributes,
+    empty
+  }
+sgacb =
+  
+  ## (column break) marks the boundary between one column of a text and the next
+  ##         in a standard reference system. [3.10.3. ]
+  element cb {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.sourced.attributes,
+    sgaatt.spanning.attributes,
+    sgaatt.breaking.attributes,
+    empty
+  }
+sgarespStmt =
+  
+  ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition,
+  ##     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
+  ##     or do not apply. May also be used to encode information about individuals or organizations 
+  ##     which have played a role in the production or distribution of a bibliographic work. [3.11.2.2.  2.2.1.  2.2.2.  2.2.5. ]
+  element respStmt {
+    ((sgaresp+, sgamodel.nameLike.agent+)
+     | (sgamodel.nameLike.agent+, sgaresp+)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaresp =
+  
+  ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role 
+  ##     in the production or distribution of a work. [3.11.2.2.  2.2.1.  2.2.2.  2.2.5. ]
+  element resp {
+    sgamacro.phraseSeq.limited,
+    sgaatt.global.attributes,
+    sgaatt.canonical.attributes,
+    empty
+  }
+sgatitle =
+  
+  ## contains a title for any kind of work. [3.11.2.2.  2.2.1.  2.2.5. ]
+  element title {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.canonical.attributes,
+    
+    ## indicates the bibliographic level for a title, that is, whether
+    ##                                         it identifies an article, book, journal, series, or
+    ##                                         unpublished material.
+    attribute level {
+      
+      ## (analytic) analytic title (article, poem, or other item
+      ##                                                   published as part of a larger item) 
+      "a"
+      | 
+        ## (monographic) monographic title (book, collection, or
+        ##                                                   other item published as a distinct item,
+        ##                                                   including single volumes of multi-volume
+        ##                                                   works) 
+        "m"
+      | 
+        ## (journal) journal title 
+        "j"
+      | 
+        ## (series) series title 
+        "s"
+      | 
+        ## (unpublished) title of unpublished material (including
+        ##                                                   theses and dissertations unless
+        ##                                                   published by a commercial press)
+        "u"
+    }?,
+    
+    ## classifies the title according to some convenient typology.
+    ## Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
+    attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgabibl =
+  
+  ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may
+  ##     not be explicitly tagged.  [3.11.1.  2.2.7.  15.3.2. ]
+  element bibl {
+    (text
+     | sgamodel.gLike
+     | sgamodel.highlighted
+     | sgamodel.pPart.data
+     | sgamodel.pPart.edit
+     | sgamodel.segLike
+     | sgamodel.ptrLike
+     | sgamodel.biblPart
+     | sgamodel.global)*,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.sortable.attributes,
+    empty
+  }
+sgarelatedItem =
+  
+  ## contains or references some other bibliographic item which is related to the present one in
+  ##     some specified manner, for example as a constituent or alternative version of it. [3.11.2.5. ]
+  element relatedItem {
+    ((sgamodel.biblLike | sgamodel.ptrLike)?)
+    >> sch:pattern [
+         id = "relatedItem-constraint-targetorcontent11"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:relatedItem"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and count( child::* ) > 0"
+             "If the 'target' attribute is used, the\x{a}" ~
+             "        relatedItem element must be empty"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "relatedItem-constraint-targetorcontent11"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:relatedItem"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@target or child::*"
+             "A relatedItem element should have either a 'target' attribute\x{a}" ~
+             "        or a child element to indicate the related bibliographic item"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    
+    ## points to the related bibliographic element by means of an
+    ##       absolute or relative URI reference
+    attribute target { sgadata.pointer }?,
+    empty
+  }
+sgal =
+  
+  ## (verse line) contains a single, possibly incomplete, line of verse. [3.12.1.  3.12.  7.2.5. ]
+  element l {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    
+    ## specifies whether or not the line is metrically complete. 
+    [ a:defaultValue = "N" ]
+    attribute part {
+      
+      ## (yes) the line is metrically incomplete
+      "Y"
+      | 
+        ## (no) either the line is complete, or no claim is made as to its completeness
+        "N"
+      | 
+        ## (initial) the initial part of an incomplete line
+        "I"
+      | 
+        ## (medial) a medial part of an incomplete line
+        "M"
+      | 
+        ## (final) the final part of an incomplete line
+        "F"
+    }?,
+    empty
+  }
+sgalg =
+  
+  ## (line group) contains a group of verse lines functioning as a formal unit, e.g. a stanza, refrain,
+  ##         verse paragraph, etc. [3.12.1.  3.12.  7.2.5. ]
+  element lg {
+    ((sgamodel.divTop | sgamodel.global)*,
+     (sgamodel.lLike | sgamodel.stageLike | sgamodel.labelLike | sgalg),
+     (sgamodel.lLike
+      | sgamodel.stageLike
+      | sgamodel.labelLike
+      | sgamodel.global
+      | sgalg)*,
+     (sgamodel.divBottom, sgamodel.global*)*),
+    sgaatt.global.attributes,
+    sgaatt.divLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgasp =
+  
+  ## (speech) An individual speech in a performance text, or a passage presented as such in a prose or
+  ##     verse text. [3.12.2.  3.12.  7.2.2. ]
+  element sp {
+    (sgamodel.global*,
+     (sgaspeaker, sgamodel.global*)?,
+     ((sgalg
+       | sgamodel.lLike
+       | sgamodel.pLike
+       | sgamodel.listLike
+       | sgamodel.stageLike
+       | sgamodel.qLike),
+      sgamodel.global*)+),
+    sgaatt.global.attributes,
+    sgaatt.ascribed.attributes,
+    empty
+  }
+sgaspeaker =
+  
+  ## A specialized form of heading or label, giving the name of one or more speakers in a
+  ##         dramatic text or fragment. [3.12.2. ]
+  element speaker {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgastage =
+  
+  ## (stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.12.2.  3.12.  7.2.4. ]
+  element stage {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    
+    ## indicates the kind of stage direction.
+    ## Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] novelistic; 6] delivery; 7] modifier; 8] location; 9] mixed
+    attribute type {
+      
+      ## describes a setting.
+      "setting"
+      | 
+        ## describes an entrance.
+        "entrance"
+      | 
+        ## describes an exit.
+        "exit"
+      | 
+        ## describes stage business.
+        "business"
+      | 
+        ## is a narrative, motivating stage direction.
+        "novelistic"
+      | 
+        ## describes how a character speaks.
+        "delivery"
+      | 
+        ## gives some detail about a character.
+        "modifier"
+      | 
+        ## describes a location.
+        "location"
+      | 
+        ## more than one of the above
+        "mixed"
+      | xsd:Name
+    }?,
+    empty
+  }
+sgateiHeader =
+  
+  ## (TEI Header) supplies the descriptive and declarative information making up an electronic title page
+  ##     prefixed to every TEI-conformant text. [2.1.1.  15.1. ]
+  element teiHeader {
+    (sgafileDesc, sgamodel.teiHeaderPart*, sgarevisionDesc?),
+    sgaatt.global.attributes,
+    
+    ## specifies the kind of document to which the header is attached, for example whether it
+    ##         is a corpus or individual text.
+    ## Sample values include: 1] text; 2] corpus
+    [ a:defaultValue = "text" ] attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgafileDesc =
+  
+  ## (file description) contains a full bibliographic description of an electronic file. [2.2.  2.1.1. ]
+  element fileDesc {
+    ((sgatitleStmt,
+      sgaeditionStmt?,
+      sgaextent?,
+      sgapublicationStmt,
+      sgaseriesStmt?,
+      sganotesStmt?),
+     sgasourceDesc+),
+    sgaatt.global.attributes,
+    empty
+  }
+sgatitleStmt =
+  
+  ## (title statement) groups information about the title of a work and those responsible for its intellectual
+  ##     content. [2.2.1.  2.2. ]
+  element titleStmt {
+    (sgatitle+, sgamodel.respLike*), sgaatt.global.attributes, empty
+  }
+sgasponsor =
+  
+  ## specifies the name of a sponsoring organization or institution. [2.2.1. ]
+  element sponsor {
+    sgamacro.phraseSeq.limited, sgaatt.global.attributes, empty
+  }
+sgafunder =
+  
+  ## (funding body) specifies the name of an individual, institution, or organization responsible for the
+  ##     funding of a project or text. [2.2.1. ]
+  element funder {
+    sgamacro.phraseSeq.limited, sgaatt.global.attributes, empty
+  }
+sgaprincipal =
+  
+  ## (principal researcher) supplies the name of the principal researcher responsible for the
+  ## creation of an electronic text. [2.2.1. ]
+  element principal {
+    sgamacro.phraseSeq.limited, sgaatt.global.attributes, empty
+  }
+sgaeditionStmt =
+  
+  ## (edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]
+  element editionStmt {
+    (sgamodel.pLike+ | (sgaedition, sgarespStmt*)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaedition =
+  
+  ## (edition) describes the particularities of one edition of a text. [2.2.2. ]
+  element edition {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgaextent =
+  
+  ## describes the approximate size of a text as stored on some carrier medium, whether digital
+  ##     or non-digital, specified in any convenient units. [2.2.3.  2.2.  3.11.2.3. ]
+  element extent { sgamacro.phraseSeq, sgaatt.global.attributes, empty }
+sgapublicationStmt =
+  
+  ## (publication statement) groups information concerning the publication or distribution of an electronic or other
+  ##     text.  [2.2.4.  2.2. ]
+  element publicationStmt {
+    (sgamodel.pLike+ | sgamodel.publicationStmtPart+),
+    sgaatt.global.attributes,
+    empty
+  }
+sgadistributor =
+  
+  ## supplies the name of a person or other agency responsible for the
+  ## distribution of a text. [2.2.4. ]
+  element distributor {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgaauthority =
+  
+  ## (release authority) supplies the name of a person or other agency responsible for
+  ##   making an electronic file available, other than a publisher or
+  ##   distributor. [2.2.4. ]
+  element authority {
+    sgamacro.phraseSeq.limited, sgaatt.global.attributes, empty
+  }
+sgaidno =
+  
+  ## (identifier) supplies any form of identifier used to identify some object,
+  ##   such as a bibliographic item, a person, a title, an organization,
+  ##   etc. in a standardized way. [2.2.4.  2.2.5.  3.11.2.3. ]
+  element idno {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.sortable.attributes,
+    
+    ## categorizes the identifier, for example as an ISBN, Social
+    ##       Security number, etc. 
+    attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgaavailability =
+  
+  ## supplies information about the availability of a text, for example any restrictions on its
+  ##     use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. ]
+  element availability {
+    sgamodel.availabilityPart+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    
+    ## supplies a code identifying the current availability of the text. 
+    [ a:defaultValue = "unknown" ]
+    attribute status {
+      
+      ## the text is freely available. 
+      "free"
+      | 
+        ## the status of the text is unknown. 
+        "unknown"
+      | 
+        ## the text is not freely available. 
+        "restricted"
+    }?,
+    empty
+  }
+sgalicence =
+  
+  ## contains information about a licence or other legal agreement
+  ##   applicable to the text. [2.2.4. ]
+  element licence {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.datable.attributes,
+    empty
+  }
+sgaseriesStmt =
+  
+  ## (series statement) groups information about the series, if any, to which a publication belongs. [2.2.5.  2.2. ]
+  element seriesStmt {
+    (sgamodel.pLike+
+     | (sgatitle+, (sgarespStmt)*, (sgaidno)*)),
+    sgaatt.global.attributes,
+    empty
+  }
+sganotesStmt =
+  
+  ## (notes statement) collects together any notes providing information about a text additional to that recorded
+  ##     in other parts of the bibliographic description. [2.2.6.  2.2. ]
+  element notesStmt {
+    sgamodel.noteLike+, sgaatt.global.attributes, empty
+  }
+sgasourceDesc =
+  
+  ## (source description) describes the source from which an electronic text was derived or generated, typically a
+  ##     bibliographic description in the case of a digitized text, or a phrase such as "born digital"
+  ##     for a text which has no previous existence. [2.2.7. ]
+  element sourceDesc {
+    (sgamodel.pLike+
+     | (sgamodel.biblLike
+        | sgamodel.sourceDescPart
+        | sgamodel.listLike)+),
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgabiblFull =
+  
+  ## (fully-structured bibliographic citation) contains a fully-structured bibliographic citation, in which all components of the TEI file
+  ##     description are present. [3.11.1.  2.2.  2.2.7.  15.3.2. ]
+  element biblFull {
+    ((sgatitleStmt,
+      sgaeditionStmt?,
+      sgaextent?,
+      sgapublicationStmt,
+      sgaseriesStmt?,
+      sganotesStmt?),
+     sgasourceDesc*),
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    sgaatt.sortable.attributes,
+    empty
+  }
+sgaencodingDesc =
+  
+  ## (encoding description) documents the relationship between an electronic text and the
+  ## source or sources from which it was derived. [2.3.  2.1.1. ]
+  element encodingDesc {
+    (sgamodel.encodingDescPart | sgamodel.pLike)+,
+    sgaatt.global.attributes,
+    empty
+  }
+sgaprojectDesc =
+  
+  ## (project description) describes in detail the aim or purpose for which an electronic file was encoded, together
+  ##     with any other relevant information concerning the process by which it was assembled or
+  ##     collected. [2.3.1.  2.3.  15.3.2. ]
+  element projectDesc {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgasamplingDecl =
+  
+  ## (sampling declaration) contains a prose description of the rationale and methods used in sampling texts in the
+  ##     creation of a corpus or collection. [2.3.2.  2.3.  15.3.2. ]
+  element samplingDecl {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgaeditorialDecl =
+  
+  ## (editorial practice declaration) provides details of editorial principles and practices applied
+  ## during the encoding of a text. [2.3.3.  2.3.  15.3.2. ]
+  element editorialDecl {
+    (sgamodel.pLike | sgamodel.editorialDeclPart)+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgacorrection =
+  
+  ## (correction principles) states how and under what circumstances corrections have been made in the text. [2.3.3.  15.3.2. ]
+  element correction {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    
+    ## indicates the degree of correction applied to the text. 
+    [ a:defaultValue = "unknown" ]
+    attribute status {
+      
+      ## the text has been thoroughly checked and proofread. 
+      "high"
+      | 
+        ## the text has been checked at least once. 
+        "medium"
+      | 
+        ## the text has not been checked. 
+        "low"
+      | 
+        ## the correction status of the text is unknown. 
+        "unknown"
+    }?,
+    
+    ## indicates the method adopted to indicate corrections within the text. 
+    [ a:defaultValue = "silent" ]
+    attribute method {
+      
+      ## corrections have been made silently 
+      "silent"
+      | 
+        ## corrections have been represented using markup
+        "markup"
+    }?,
+    empty
+  }
+sganormalization =
+  
+  ## indicates the extent of normalization or regularization of the original source carried out
+  ##     in converting it to electronic form. [2.3.3.  15.3.2. ]
+  element normalization {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    
+    ## indicates the authority for any normalization carried out. 
+    attribute source { sgadata.pointer }?,
+    
+    ## indicates the method adopted to indicate normalizations within the text. 
+    [ a:defaultValue = "silent" ]
+    attribute method {
+      
+      ## normalization made silently 
+      "silent"
+      | 
+        ## normalization represented using markup 
+        "markup"
+    }?,
+    empty
+  }
+sgaquotation =
+  
+  ## specifies editorial practice adopted with respect to quotation marks in the original.  [2.3.3.  15.3.2. ]
+  element quotation {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    
+    ## (quotation marks) indicates whether or not quotation marks have been retained as content within the text. 
+    [ a:defaultValue = "all" ]
+    attribute marks {
+      
+      ## no quotation marks have been retained 
+      "none"
+      | 
+        ## some quotation marks have been retained 
+        "some"
+      | 
+        ## all quotation marks have been retained 
+        "all"
+    }?,
+    
+    ## specifies how quotation marks are indicated within the text.
+    [ a:defaultValue = "unknown" ] attribute form { text }?,
+    empty
+  }
+sgahyphenation =
+  
+  ## summarizes the way in which hyphenation in a source text has been treated in an encoded
+  ##     version of it. [2.3.3.  15.3.2. ]
+  element hyphenation {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    
+    ## (end-of-line) indicates whether or not end-of-line hyphenation has been retained in a text.
+    [ a:defaultValue = "some" ]
+    attribute eol {
+      
+      ## all end-of-line hyphenation has been retained, even though the lineation of the
+      ##             original may not have been. 
+      "all"
+      | 
+        ## end-of-line hyphenation has been retained in some cases. 
+        "some"
+      | 
+        ## all soft end-of-line hyphenation has been removed: any remaining end-od-line
+        ##             hyphenation should be retained. 
+        "hard"
+      | 
+        ## all end-of-line hyphenation has been removed: any remaining hyphenation occurred
+        ##             within the line. 
+        "none"
+    }?,
+    empty
+  }
+sgasegmentation =
+  
+  ## describes the principles according to which the text has been segmented, for example into
+  ##     sentences, tone-units, graphemic strata, etc. [2.3.3.  15.3.2. ]
+  element segmentation {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgastdVals =
+  
+  ## (standard values) specifies the format used when standardized date or number values are supplied. [2.3.3.  15.3.2. ]
+  element stdVals {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgainterpretation =
+  
+  ## describes the scope of any analytic or interpretive information added to the text in
+  ##     addition to the transcription.  [2.3.3. ]
+  element interpretation {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgatagsDecl =
+  
+  ## (tagging declaration) provides detailed information about the tagging applied to a document. [2.3.4.  2.3. ]
+  element tagsDecl {
+    (sgarendition*, sganamespace*), sgaatt.global.attributes, empty
+  }
+sgatagUsage =
+  
+  ## supplies information about the usage of a specific element within a text.  [2.3.4. ]
+  element tagUsage {
+    sgamacro.limitedContent,
+    sgaatt.global.attributes,
+    
+    ## (element name) the name (generic identifier) of the element indicated by the tag.
+    attribute gi { sgadata.name },
+    
+    ## specifies the number of occurrences of this element within the text.
+    attribute occurs { sgadata.count }?,
+    
+    ## (with unique identifier) specifies the number of occurrences of this element within the text which bear a
+    ##         distinct value for the global xml:id attribute. 
+    attribute withId { sgadata.count }?,
+    
+    ## specifies the identifier of a rendition element which defines how this element
+    ##         is to be rendered.
+    attribute render { sgadata.pointer }?,
+    empty
+  }
+sganamespace =
+  
+  ## supplies the formal name of the namespace to which the elements documented by its children
+  ##     belong.  [2.3.4. ]
+  element namespace {
+    sgatagUsage+,
+    sgaatt.global.attributes,
+    
+    ## the full formal name of the namespace concerned.
+    attribute name { sgadata.namespace },
+    empty
+  }
+sgarendition =
+  
+  ## supplies information about the rendition or appearance of one or more elements in the source
+  ##     text. [2.3.4. ]
+  element rendition {
+    sgamacro.limitedContent,
+    sgaatt.global.attributes,
+    
+    ## identifies the language used to describe the rendition.
+    attribute scheme {
+      
+      ## Cascading Stylesheet Language
+      "css"
+      | 
+        ## Extensible Stylesheet Language Formatting Objects
+        "xslfo"
+      | 
+        ## Informal free text description
+        "free"
+      | 
+        ## A user-defined rendition description language
+        "other"
+    }?,
+    
+    ## where CSS is used, provides a way of defining
+    ## pseudo-elements, that is, styling rules
+    ## applicable to specific sub-portions of an element.
+    attribute scope { text }?,
+    empty
+  }
+sgarefsDecl =
+  
+  ## (references declaration) specifies how canonical references are constructed for this
+  ##   text. [2.3.5.3.  2.3.  2.3.5. ]
+  element refsDecl {
+    (sgamodel.pLike+ | sgacRefPattern+ | sgarefState+),
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgacRefPattern =
+  
+  ## (canonical reference pattern) specifies an expression and replacement pattern for transforming a canonical reference into
+  ##     a URI.  [2.3.5.3.  2.3.5.  2.3.5.2. ]
+  element cRefPattern {
+    sgamodel.pLike*,
+    sgaatt.global.attributes,
+    
+    ## specifies a regular expression against which the values of cRef attributes
+    ##         can be matched.
+    attribute matchPattern { sgadata.pattern },
+    
+    ## specifies a replacement pattern which, once subpattern substitution
+    ##         has been performed, provides a URI.
+    attribute replacementPattern { text },
+    empty
+  }
+sgarefState =
+  
+  ## (reference state) specifies one component of a canonical reference defined by the milestone method. [2.3.5.3.  2.3.5. ]
+  element refState {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.sourced.attributes,
+    
+    ## indicates what kind of state is changing at this milestone.
+    ## Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] canto; 7] stanza; 8] act; 9] scene; 10] section; 11] absent
+    attribute unit {
+      
+      ## page breaks in the reference edition. 
+      "page"
+      | 
+        ## column breaks. 
+        "column"
+      | 
+        ## line breaks. 
+        "line"
+      | 
+        ## any units termed book, liber, etc. 
+        "book"
+      | 
+        ## individual poems in a collection. 
+        "poem"
+      | 
+        ## cantos or other major sections of a poem. 
+        "canto"
+      | 
+        ## stanzas within a poem, book, or canto. 
+        "stanza"
+      | 
+        ## acts within a play. 
+        "act"
+      | 
+        ## scenes within a play or act. 
+        "scene"
+      | 
+        ## sections of any kind. 
+        "section"
+      | 
+        ## passages not present in the reference edition.
+        "absent"
+      | xsd:Name
+    },
+    
+    ## specifies the fixed length of the reference component.
+    attribute length { sgadata.count }?,
+    
+    ## (delimiter) supplies a delimiting string following the reference component.
+    attribute delim { text }?,
+    empty
+  }
+sgaclassDecl =
+  
+  ## (classification declarations) contains one or more taxonomies defining any classificatory
+  ## codes used elsewhere in the text. [2.3.6.  2.3. ]
+  element classDecl { sgataxonomy+, sgaatt.global.attributes, empty }
+sgataxonomy =
+  
+  ## defines a typology either implicitly, by means of a bibliographic
+  ##     citation, or explicitly by a structured taxonomy. [2.3.6. ]
+  element taxonomy {
+    (sgamodel.glossLike*
+     | sgacategory+
+     | (sgamodel.biblLike, sgacategory*)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgacategory =
+  
+  ## contains an individual descriptive category, possibly nested within a superordinate
+  ##     category, within a user-defined taxonomy. [2.3.6. ]
+  element category {
+    ((sgacatDesc+ | sgamodel.glossLike*), sgacategory*),
+    sgaatt.global.attributes,
+    empty
+  }
+sgacatDesc =
+  
+  ## (category description) describes some category within a taxonomy or text typology, either in the form of a brief
+  ##     prose description or in terms of the situational parameters used by the TEI formal textDesc. [2.3.6. ]
+  element catDesc {
+    (text | sgamodel.limitedPhrase | sgamodel.catDescPart)*,
+    sgaatt.global.attributes,
+    empty
+  }
+sgaappInfo =
+  
+  ## (application information) records information about an application which has
+  ##   edited the TEI file. 
+  element appInfo {
+    sgamodel.applicationLike+, sgaatt.global.attributes, empty
+  }
+sgaapplication =
+  
+  ## provides information about an application which has acted upon the document.
+  element application {
+    (sgamodel.labelLike+, (sgamodel.ptrLike* | sgamodel.pLike*)),
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.datable.attributes,
+    
+    ## Supplies an identifier for the application, independent of its version number or display
+    ##         name.
+    attribute ident { sgadata.name },
+    
+    ## Supplies a version number for the application, independent of its identifier or display
+    ##         name.
+    attribute version {
+      xsd:token {
+        pattern = "[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}"
+      }
+    },
+    empty
+  }
+sgaprofileDesc =
+  
+  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the
+  ##     languages and sublanguages used, the situation in which it was produced, the participants and
+  ##     their setting. [2.4.  2.1.1. ]
+  element profileDesc {
+    sgamodel.profileDescPart*, sgaatt.global.attributes, empty
+  }
+sgahandNote =
+  
+  ## (note on hand) describes a particular style or hand distinguished within a manuscript. [10.7.2. ]
+  element handNote {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.handFeatures.attributes,
+    empty
+  }
+sgacreation =
+  
+  ## contains information about the creation of a text. [2.4.1.  2.4. ]
+  element creation {
+    (text | sgamodel.limitedPhrase | sgalistChange)*,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    empty
+  }
+sgalangUsage =
+  
+  ## (language usage) describes the languages, sublanguages, registers, dialects, etc.
+  ## represented within a text. [2.4.2.  2.4.  15.3.2. ]
+  element langUsage {
+    sgalanguage+,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgalanguage =
+  
+  ## characterizes a single language or sublanguage used within a text. [2.4.2. ]
+  element language {
+    sgamacro.phraseSeq.limited,
+    sgaatt.global.attributes,
+    
+    ## (identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the
+    ##         language documented by this element, and which is referenced by the global
+    ##         xml:lang attribute.
+    attribute ident { sgadata.language },
+    
+    ## specifies the approximate percentage (by volume) of the text which uses this language. 
+    attribute usage {
+      xsd:nonNegativeInteger { maxInclusive = "100" }
+    }?,
+    empty
+  }
+sgatextClass =
+  
+  ## (text classification) groups information which describes the nature or topic of a text in terms of a standard
+  ##     classification scheme, thesaurus, etc. [2.4.3. ]
+  element textClass {
+    (sgaclassCode | sgacatRef | sgakeywords)*,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    empty
+  }
+sgakeywords =
+  
+  ## contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3. ]
+  element keywords {
+    (sgaterm+ | sgalist),
+    sgaatt.global.attributes,
+    
+    ## identifies the controlled vocabulary within which the set of keywords concerned is
+    ##         defined. 
+    attribute scheme { sgadata.pointer },
+    empty
+  }
+sgaclassCode =
+  
+  ## (classification code) contains the classification code used for this text in some standard classification system. [2.4.3. ]
+  element classCode {
+    sgamacro.phraseSeq.limited,
+    sgaatt.global.attributes,
+    
+    ## identifies the classification system or taxonomy in use.
+    attribute scheme { sgadata.pointer },
+    empty
+  }
+sgacatRef =
+  
+  ## (category reference) specifies one or more defined categories within some taxonomy or text typology. [2.4.3. ]
+  element catRef {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    
+    ## identifies the classification scheme within which the set of categories concerned is
+    ##         defined 
+    attribute scheme { sgadata.pointer }?,
+    empty
+  }
+sgacalendarDesc =
+  
+  ## (calendar description) contains a description of the calendar system used in any
+  ##   dating expression found in the text. [2.4.  2.4.4. ]
+  element calendarDesc { sgacalendar+, sgaatt.global.attributes, empty }
+sgacalendar =
+  
+  ## describes a calendar or dating system used in a dating formula in the text. [2.4.4. ]
+  element calendar {
+    sgamodel.pLike+,
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    empty
+  }
+sgarevisionDesc =
+  
+  ## (revision description) summarizes the revision history for a file. [2.5.  2.1.1. ]
+  element revisionDesc {
+    (sgalist | sgalistChange | sgachange+),
+    sgaatt.global.attributes,
+    sgaatt.docStatus.attributes,
+    empty
+  }
+sgachange =
+  
+  ## documents a change or set of changes made during the production
+  ##   of a source document, or during the revision of an electronic file. [2.5.  2.4.1. ]
+  element change {
+    sgamacro.specialPara,
+    sgaatt.ascribed.attributes,
+    sgaatt.datable.attributes,
+    sgaatt.docStatus.attributes,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    
+    ## points to one or more elements that belong to this change.
+    attribute target {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgalistChange =
+  
+  ## groups a number of change descriptions associated 
+  ## with either the creation of a source text or the revision of an encoded text. 
+  element listChange {
+    (sgalistChange | sgachange)+,
+    sgaatt.global.attributes,
+    sgaatt.sortable.attributes,
+    
+    ## indicates whether the ordering of its child change
+    ## elements is to be considered significant or not
+    [ a:defaultValue = "true" ]
+    attribute ordered { sgadata.truthValue }?,
+    empty
+  }
+sgageoDecl =
+  
+  ## (geographic coordinates declaration) documents the notation and the datum used for geographic coordinates expressed as content of
+  ##     the geo element elsewhere within the document.
+  element geoDecl {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
+    
+    ## supplies a commonly used code name for the datum employed.
+    ## Suggested values include: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Grid Reference System) ; 3] OSGB36(ordnance survey great britain) ; 4] ED50(European Datum coordinate system) 
+    [ a:defaultValue = "WGS84" ]
+    attribute datum {
+      
+      ## (World Geodetic System) a pair of numbers to be interpreted as latitude followed by longitude according to
+      ##             the World Geodetic System.
+      "WGS84"
+      | 
+        ## (Military Grid Reference System) the values supplied are geospatial entity object codes, based on
+        "MGRS"
+      | 
+        ## (ordnance survey great britain) the value supplied is to be interpreted as a British National Grid Reference.
+        "OSGB36"
+      | 
+        ## (European Datum coordinate system) the value supplied is to be interpreted as latitude followed by longitude according
+        ##             to the European Datum coordinate system.
+        "ED50"
+      | xsd:Name
+    }?,
+    empty
+  }
+sgaTEI =
+  
+  ## (TEI document) contains a single TEI-conformant document,
+  ## comprising a TEI header and a text, either in isolation or as part of a
+  ## teiCorpus element. [4.  15.1. ]
+  element TEI {
+    (sgateiHeader, sgasourceDoc+)
+    >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
+    >> sch:ns [
+         prefix = "rng"
+         uri = "http://relaxng.org/ns/structure/1.0"
+       ],
+    
+    ## specifies the version number of the TEI Guidelines against
+    ##       which this document is valid.
+    attribute version { sgadata.version }?,
+    sgaatt.global.attributes,
+    empty
+  }
+sgatext =
+  
+  ## contains a single text of any kind, whether unitary or composite, for example a poem or
+  ##     drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4.  15.1. ]
+  element text {
+    (sgamodel.global*,
+     (sgafront, sgamodel.global*)?,
+     (sgabody | sgagroup),
+     sgamodel.global*,
+     (sgaback, sgamodel.global*)?),
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgabody =
+  
+  ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. ]
+  element body {
+    (sgamodel.global*,
+     (sgamodel.divTop, (sgamodel.global | sgamodel.divTop)*)?,
+     (sgamodel.divGenLike, (sgamodel.global | sgamodel.divGenLike)*)?,
+     ((sgamodel.divLike, (sgamodel.global | sgamodel.divGenLike)*)+
+      | (sgamodel.div1Like, (sgamodel.global | sgamodel.divGenLike)*)+
+      | ((sgamodel.common, sgamodel.global*)+,
+         ((sgamodel.divLike, (sgamodel.global | sgamodel.divGenLike)*)+
+          | (sgamodel.div1Like,
+             (sgamodel.global | sgamodel.divGenLike)*)+)?)),
+     (sgamodel.divBottom, sgamodel.global*)*),
+    sgaatt.global.attributes,
+    empty
+  }
+sgagroup =
+  
+  ## contains the body of a composite text, grouping together a sequence of distinct texts (or
+  ##     groups of such texts) which are regarded as a unit for some purpose, for example the collected
+  ##     works of an author, a sequence of prose essays, etc. [4.  4.3.1.  15.1. ]
+  element group {
+    ((sgamodel.divTop | sgamodel.global)*,
+     ((sgatext | sgagroup), (sgatext | sgagroup | sgamodel.global)*),
+     sgamodel.divBottom*),
+    sgaatt.global.attributes,
+    empty
+  }
+sgafloatingText =
+  
+  ## contains a single text of any kind, whether unitary or composite, which interrupts the text
+  ##     containing it at any point and after which the surrounding text resumes. [4.3.2. ]
+  element floatingText {
+    (sgamodel.global*,
+     (sgafront, sgamodel.global*)?,
+     (sgabody | sgagroup),
+     sgamodel.global*,
+     (sgaback, sgamodel.global*)?),
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgadiv =
+  
+  ## (text division) contains a subdivision of the front, body, or back of a text. [4.1. ]
+  element div {
+    ((sgamodel.divTop | sgamodel.global)*,
+     ((((sgamodel.divLike | sgamodel.divGenLike), sgamodel.global*)+
+       | ((sgamodel.common, sgamodel.global*)+,
+          ((sgamodel.divLike | sgamodel.divGenLike),
+           sgamodel.global*)*)),
+      (sgamodel.divBottom, sgamodel.global*)*)?),
+    sgaatt.global.attributes,
+    sgaatt.divLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgatrailer =
+  
+  ## contains a closing title or footer appearing at the end of a division of a text.  [4.2.4.  4.2. ]
+  element trailer {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgabyline =
+  
+  ## contains the primary statement of responsibility given for a work
+  ## on its title page or at the head or end of the work. [4.2.2.  4.5. ]
+  element byline {
+    (text
+     | sgamodel.gLike
+     | sgamodel.phrase
+     | sgadocAuthor
+     | sgamodel.global)*,
+    sgaatt.global.attributes,
+    empty
+  }
+sgadateline =
+  
+  ## contains a brief description of the place, date, time, etc. of production of a letter,
+  ##     newspaper story, or other work, prefixed or suffixed to it as a kind of heading or trailer.  [4.2.4.  4.2.2. ]
+  element dateline {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgaargument =
+  
+  ## A formal list or prose description of the topics addressed by
+  ##	a subdivision of a text. [4.2.  4.6. ]
+  element argument {
+    ((sgamodel.global | sgamodel.headLike)*,
+     (sgamodel.common, sgamodel.global*)+),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaepigraph =
+  
+  ## contains a quotation, anonymous or attributed, appearing at
+  ##   the start or end of a section or on a title page.  [4.2.3.  4.2.  4.6. ]
+  element epigraph {
+    (sgamodel.common | sgamodel.global)*,
+    sgaatt.global.attributes,
+    empty
+  }
+sgaopener =
+  
+  ## groups together dateline, byline, salutation, and similar phrases appearing as a preliminary
+  ##     group at the start of a division, especially of a letter. [4.2.4.  4.2. ]
+  element opener {
+    (text
+     | sgamodel.gLike
+     | sgamodel.phrase
+     | sgaargument
+     | sgabyline
+     | sgadateline
+     | sgaepigraph
+     | sgasalute
+     | sgasigned
+     | sgamodel.global)*,
+    sgaatt.global.attributes,
+    empty
+  }
+sgacloser =
+  
+  ## groups together salutations, datelines, and similar phrases appearing as a final group at
+  ##     the end of a division, especially of a letter. [4.2.2.  4.2. ]
+  element closer {
+    (text
+     | sgamodel.gLike
+     | sgasigned
+     | sgadateline
+     | sgasalute
+     | sgamodel.phrase
+     | sgamodel.global)*,
+    sgaatt.global.attributes,
+    empty
+  }
+sgasalute =
+  
+  ## (salutation) contains a salutation or greeting prefixed to a foreword, dedicatory epistle, or other
+  ##     division of a text, or the salutation in the closing of a letter, preface, etc. [4.2.4.  4.2.2. ]
+  element salute { sgamacro.phraseSeq, sgaatt.global.attributes, empty }
+sgasigned =
+  
+  ## (signature) contains the closing salutation, etc., appended to a foreword,
+  ## dedicatory epistle, or other division of a text.  [4.2.4.  4.2.2. ]
+  element signed { sgamacro.phraseSeq, sgaatt.global.attributes, empty }
+sgapostscript =
+  
+  ## contains a postscript, e.g. to a letter. [4.2. ]
+  element postscript {
+    ((sgamodel.divTopPart*, sgamodel.common+, sgamodel.divBottomPart*)
+     | sgamodel.global)*,
+    sgaatt.global.attributes,
+    empty
+  }
+sgatitlePage =
+  
+  ## (title page) contains the title page of a text, appearing within the front or back matter.  [4.6. ]
+  element titlePage {
+    (sgamodel.global*,
+     sgamodel.titlepagePart,
+     (sgamodel.titlepagePart | sgamodel.global)*),
+    sgaatt.global.attributes,
+    
+    ## classifies the title page according to any convenient typology.
+    attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgadocTitle =
+  
+  ## (document title) contains the title of a document, including all its
+  ## constituents, as given on a title page. [4.6. ]
+  element docTitle {
+    (sgamodel.global*, (sgatitlePart, sgamodel.global*)+),
+    sgaatt.global.attributes,
+    sgaatt.canonical.attributes,
+    empty
+  }
+sgatitlePart =
+  
+  ## contains a subsection or division of the title of a work, as
+  ## indicated on a title page. [4.6. ]
+  element titlePart {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    
+    ## specifies the role of this subdivision of the title.
+    ## Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
+    [ a:defaultValue = "main" ]
+    attribute type {
+      
+      ## main title of the work
+      ##         
+      "main"
+      | 
+        ## (subordinate) subtitle  of the work
+        ##         
+        "sub"
+      | 
+        ## (alternate) alternative title  of the work
+        ##         
+        "alt"
+      | 
+        ## abbreviated form of title
+        "short"
+      | 
+        ## (descriptive) descriptive paraphrase of the work 
+        ##    
+        "desc"
+      | xsd:Name
+    }?,
+    empty
+  }
+sgadocAuthor =
+  
+  ## (document author) contains the name of the author of the document, as given on the
+  ## title page (often but not always contained in a byline). [4.6. ]
+  element docAuthor {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.canonical.attributes,
+    empty
+  }
+sgaimprimatur =
+  
+  ## contains a formal statement authorizing the publication of a work, sometimes required to
+  ##     appear on a title page or its verso. [4.6. ]
+  element imprimatur {
+    sgamacro.paraContent, sgaatt.global.attributes, empty
+  }
+sgadocEdition =
+  
+  ## (document edition) contains an edition statement as presented on a title page of a
+  ## document. [4.6. ]
+  element docEdition {
+    sgamacro.paraContent, sgaatt.global.attributes, empty
+  }
+sgadocImprint =
+  
+  ## (document imprint) contains the imprint statement (place and date of publication,
+  ## publisher name), as given
+  ## (usually) at the foot of a title page. [4.6. ]
+  element docImprint {
+    (text
+     | sgamodel.gLike
+     | sgamodel.phrase
+     | sgadocDate
+     | sgamodel.global)*,
+    sgaatt.global.attributes,
+    empty
+  }
+sgadocDate =
+  
+  ## (document date) contains the date of a document, as given
+  ## (usually) on a title page. [4.6. ]
+  element docDate {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    
+    ## gives the value of the date in standard form, i.e. YYYY-MM-DD.
+    attribute when { sgadata.temporal.w3c }?,
+    empty
+  }
+sgafront =
+  
+  ## (front matter) contains any prefatory matter (headers,
+  ## title page, prefaces, dedications, etc.)
+  ## found  at the start of a document, before the main body. [4.6.  4. ]
+  element front {
+    ((sgamodel.frontPart | sgamodel.pLike.front | sgamodel.global)*,
+     ((sgamodel.div1Like,
+       (sgamodel.frontPart | sgamodel.div1Like | sgamodel.global)*)
+      | (sgamodel.divLike,
+         (sgamodel.frontPart | sgamodel.divLike | sgamodel.global)*))?,
+     (sgamodel.divBottomPart,
+      (sgamodel.divBottomPart | sgamodel.global)*)?),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaback =
+  
+  ## (back matter) contains any appendixes, etc. following the main part of a text. [4.7.  4. ]
+  element back {
+    ((sgamodel.frontPart | sgamodel.pLike.front | sgamodel.global)*,
+     ((sgamodel.div1Like,
+       (sgamodel.frontPart | sgamodel.div1Like | sgamodel.global)*)
+      | (sgamodel.divLike,
+         (sgamodel.frontPart | sgamodel.divLike | sgamodel.global)*))?,
+     (sgamodel.divBottomPart,
+      (sgamodel.divBottomPart | sgamodel.global)*)?),
+    sgaatt.global.attributes,
+    empty
+  }
+sgafacsimile =
+  
+  ## contains a representation of some written source in the form of
+  ## a set of images rather than as transcribed or encoded text. [11.1. ]
+  element facsimile {
+    (sgafront?,
+     (sgamodel.graphicLike | sgasurface | sgasurfaceGrp)+,
+     sgaback?),
+    sgaatt.global.attributes,
+    empty
+  }
+sgasourceDoc =
+  
+  ##  contains a transcription or other representation of a single
+  ##  source document potentially forming part of a dossier
+  ##  génétique or collection of sources.
+  element sourceDoc {
+    (sgamodel.global
+     | sgamodel.graphicLike
+     | sgasurface
+     | sgasurfaceGrp)+,
+    sgaatt.global.attributes,
+    empty
+  }
+sgaatt.global.facs.attributes = sgaatt.global.facs.attribute.facs
+sgaatt.global.facs.attribute.facs =
+  
+  ## (facsimile) points to all or part of an image which corresponds with the content of the element.
+  attribute facs {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgasurface =
+  
+  ## defines a written surface as a two-dimensional 
+  ## coordinate space, optionally grouping one or more graphic representations of
+  ## that space, zones of interest within that space, and transcriptions of the
+  ##   writing within them.
+  element surface {
+    (sgamodel.glossLike*,
+     sgamodel.graphicLike+,
+     (sgazone | sgamodel.global | sgaline)*),
+    sgaatt.global.attribute.el-target,
+    sgaatt.global.attribute.att-target,
+    sgaatt.global.attribute.att-value,
+    
+    ## (identifier) provides a unique identifier for the element bearing the attribute.
+    attribute xml:id { xsd:ID },
+    
+    ## (number) gives a number (or other label) for an element, which is not necessarily unique within
+    ##         the document.
+    attribute n {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    sgaatt.global.attribute.rend,
+    
+    ## (corresponds) Syntactic sugar attribute—should refer to the id of the
+    ##                                     sourceDoc element with which this surface should be
+    ##                                     associated
+    attribute partOf {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    sgaatt.global.linking.attribute.next,
+    sgaatt.global.linking.attribute.prev,
+    sgaatt.global.facs.attributes,
+    sgaatt.coordinated.attribute.start,
+    
+    ## gives the x coordinate value for the upper left corner of a
+    ## rectangular space.
+    attribute ulx { sgadata.numeric },
+    
+    ## gives the y coordinate value for the upper left corner of a
+    ## rectangular space.
+    attribute uly { sgadata.numeric },
+    
+    ## gives the x coordinate value for the lower right corner of a
+    ## rectangular space.
+    attribute lrx { sgadata.numeric },
+    
+    ## gives the y coordinate value for the lower right corner of a
+    ## rectangular space.
+    attribute lry { sgadata.numeric },
+    sgaatt.typed.attributes,
+    empty
+  }
+sgasurfaceGrp =
+  
+  ## defines any kind of useful grouping of written surfaces, for
+  ##   example the recto and verso of a single leaf, which the encoder
+  ##   wishes to treat as a single unit. 
+  element surfaceGrp {
+    (sgamodel.global | sgasurface | sgasurfaceGrp)+,
+    sgaatt.global.attributes,
+    sgaatt.coordinated.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaatt.coordinated.attributes =
+  sgaatt.coordinated.attribute.start,
+  sgaatt.coordinated.attribute.ulx,
+  sgaatt.coordinated.attribute.uly,
+  sgaatt.coordinated.attribute.lrx,
+  sgaatt.coordinated.attribute.lry
+sgaatt.coordinated.attribute.start =
+  
+  ## indicates the element within a transcription of the text
+  ## containing at least the start of the writing represented by this zone
+  ## or surface.
+  attribute start { sgadata.pointer }?
+sgaatt.coordinated.attribute.ulx =
+  
+  ## gives the x coordinate value for the upper left corner of a
+  ## rectangular space.
+  attribute ulx { sgadata.numeric }?
+sgaatt.coordinated.attribute.uly =
+  
+  ## gives the y coordinate value for the upper left corner of a
+  ## rectangular space.
+  attribute uly { sgadata.numeric }?
+sgaatt.coordinated.attribute.lrx =
+  
+  ## gives the x coordinate value for the lower right corner of a
+  ## rectangular space.
+  attribute lrx { sgadata.numeric }?
+sgaatt.coordinated.attribute.lry =
+  
+  ## gives the y coordinate value for the lower right corner of a
+  ## rectangular space.
+  attribute lry { sgadata.numeric }?
+sgazone =
+  
+  ## defines any two-dimensional area within a surface
+  ## element. 
+  element zone {
+    (text
+     | sgamodel.graphicLike
+     | sgamodel.global
+     | sgasurface
+     | sgamodel.linePart)*,
+    sgaatt.global.attributes,
+    sgaatt.coordinated.attributes,
+    sgaatt.typed.attributes,
+    
+    ## identifies a two dimensional area within the bounding box
+    ## specified by the other attributes by means of
+    ## a series of pairs of numbers, each of which gives the x,y coordinates
+    ## of a point on a line enclosing the area.
+    attribute points {
+      list {
+        sgadata.point, sgadata.point, sgadata.point, sgadata.point*
+      }
+    }?,
+    
+    ## indicates the amount by which this zone has been
+    ##          rotated clockwise, with respect to the normal orientation of
+    ##          the parent surface element as implied by the
+    ##          dimensions given in the msDesc element or by the
+    ##          coordinates of the surface itself. The orientation
+    ##          is expressed in arc degrees.
+    [ a:defaultValue = "0" ] attribute rotate { sgadata.count }?,
+    empty
+  }
+sgaaddSpan =
+  
+  ## (added span of text) marks the beginning of a longer sequence of text added by an
+  ##   author, scribe, annotator or corrector (see also add). [11.3.1.4. ]
+  element addSpan {
+    empty
+    >> sch:pattern [
+         id = "addSpan-constraint-spanTo"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:addSpan"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@spanTo"
+             "The spanTo= attribute of "
+             sch:name [ ]
+             " is required."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "addSpan-constraint-spanTo_fr"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:addSpan"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@spanTo"
+             "L'attribut spanTo est requis."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.transcriptional.attributes,
+    sgaatt.placement.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.spanning.attributes,
+    empty
+  }
+sgadamage =
+  
+  ## contains an area of damage to the text witness. [11.3.3.1. ]
+  element damage {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.damaged.attributes,
+    empty
+  }
+sgadamageSpan =
+  
+  ## (damaged span of text) marks the beginning of a longer sequence of text which is
+  ##   damaged in some way but still legible. [11.3.3.1. ]
+  element damageSpan {
+    empty
+    >> sch:pattern [
+         id = "damageSpan-constraint-spanTo"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:damageSpan"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@spanTo"
+             "The spanTo= attribute of\x{a}" ~
+             "	"
+             sch:name [ ]
+             " is required."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "damageSpan-constraint-spanTo_fr"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:damageSpan"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@spanTo"
+             "L'attribut spanTo est requis."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.damaged.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.spanning.attributes,
+    empty
+  }
+sgadelSpan =
+  
+  ## (deleted span of text) marks the beginning of a longer sequence of text deleted,
+  ## marked as deleted, or otherwise signaled as superfluous or spurious by an
+  ## author, scribe, annotator, or corrector. [11.3.1.4. ]
+  element delSpan {
+    empty
+    >> sch:pattern [
+         id = "delSpan-constraint-spanTo"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:delSpan"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@spanTo"
+             "The spanTo= attribute of "
+             sch:name [ ]
+             "\x{a}" ~
+             "      is required."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "delSpan-constraint-spanTo_fr"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:delSpan"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@spanTo"
+             "L'attribut spanTo est requis."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.transcriptional.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.spanning.attributes,
+    empty
+  }
+sgaex =
+  
+  ## (editorial expansion) contains a sequence of letters added by an editor or
+  ##   transcriber when expanding an abbreviation. [11.3.1.2. ]
+  element ex {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    empty
+  }
+sgafw =
+  
+  ## (forme work) contains a running head (e.g. a header, footer), catchword, or
+  ##   similar material appearing on the current page. [11.6. ]
+  element fw {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.placement.attributes,
+    
+    ## classifies the material encoded according to some useful typology.
+    ## Sample values include: 1] header; 2] footer; 3] pageNum(page number) ; 4] lineNum(line number) ; 5] sig(signature) ; 6] catch(catchword) 
+    attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgahandNotes =
+  
+  ## contains one or more handNote elements documenting the
+  ## different hands identified within the source texts. [11.3.2.1. ]
+  element handNotes { sgahandNote+, sgaatt.global.attributes, empty }
+sgahandShift =
+  
+  ## marks the beginning of a sequence of text written in a new
+  ## hand, or the beginning of a scribal stint. [11.3.2.1. ]
+  element handShift {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.handFeatures.attributes,
+    sgaatt.responsibility.attributes,
+    
+    ## identifies the new hand.
+    attribute new { sgadata.pointer }?,
+    empty
+  }
+sgaam =
+  
+  ## (abbreviation marker) contains a sequence of letters or signs present in an
+  ##   abbreviation which are omitted or replaced in the expanded form of
+  ##   the abbreviation. [11.3.1.2. ]
+  element am {
+    (text | sgamodel.gLike | sgamodel.pPart.transcriptional)*,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    empty
+  }
+sgarestore =
+  
+  ## indicates restoration of text to an earlier state by
+  ## cancellation of an editorial or authorial marking or instruction. [11.3.1.6. ]
+  element restore {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.transcriptional.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaspace =
+  
+  ## indicates the location of a significant space in the copy text. [11.5.1. ]
+  element space {
+    sgamodel.glossLike*,
+    sgaatt.global.attributes,
+    sgaatt.dimensions.attributes,
+    
+    ## (dimension) indicates whether the space is horizontal or vertical.
+    attribute dim {
+      
+      ## the space is horizontal.
+      "horizontal"
+      | 
+        ## the space is vertical.
+        "vertical"
+    }?,
+    
+    ## (responsible party) indicates the individual responsible for identifying and measuring
+    ## the space.
+    attribute resp { sgadata.pointer }?,
+    empty
+  }
+sgasubst =
+  
+  ## (substitution) groups one or more deletions with one or more additions when
+  ##   the combination is to be regarded as a single intervention in the text.
+  element subst {
+    ((sgaadd | sgadel | sgamodel.milestoneLike)+)
+    >> sch:pattern [
+         id = "subst-constraint-substContents1"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:subst"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "child::add and child::del"
+             "\x{a}" ~
+             "        Subst must have at least one child add and at least one child del"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.transcriptional.attributes,
+    empty
+  }
+sgasubstJoin =
+  
+  ## (substitution join) identifies a series of  possibly fragmented additions, deletions or other revisions on a manuscript that combine to make up a single intervention in the text
+  element substJoin {
+    sgamodel.glossLike*,
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.transcriptional.attributes,
+    empty
+  }
+sgasupplied =
+  
+  ## signifies text supplied by the transcriber or editor for any
+  ##   reason, typically because the original cannot be read because of
+  ##   physical damage or loss to the original. [11.3.3.1. ]
+  element supplied {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    
+    ## indicates why the text has had to be supplied.
+    attribute reason {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    empty
+  }
+sgasurplus =
+  
+  ## marks text present in the source which the editor believes to
+  ##   be superfluous or redundant. [11.3.3.1. ]
+  element surplus {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    
+    ## indicates the grounds for believing this text to be superfluous.
+    attribute reason {
+      list { sgadata.word, sgadata.word* }
+    }?,
+    empty
+  }
+sgaline =
+  
+  ## contains the transcription of a topographic line in the source
+  ##    document
+  element line {
+    (text
+     | sgamodel.global
+     | sgamodel.segLike
+     | sgamodel.hiLike
+     | sgachoice
+     | sgazone
+     | sgaline
+     | sgaadd
+     | sgadel
+     | sgaadd
+     | sgaunclear
+     | sgadamage
+     | sgahandShift
+     | sgamod
+     | sgaretrace)*,
+    sgaatt.typed.attributes,
+    sgaatt.global.attributes,
+    sgaatt.coordinated.attributes,
+    empty
+  }
+sgalistTranspose =
+  
+  ## supplies a list of transpositions, each of which is  indicated at some point in
+  ##    a document typically by means of metamarks.
+  element listTranspose {
+    sgatranspose+, sgaatt.global.attributes, empty
+  }
+sgametamark =
+  
+  ## contains or describes any kind of graphic or written signal
+  ##    within a document the function of which is to determine how it
+  ##    should be read rather than forming part of the actual content of
+  ##    the document.
+  element metamark {
+    sgamacro.specialPara,
+    sgaatt.spanning.attributes,
+    sgaatt.placement.attributes,
+    sgaatt.global.attributes,
+    
+    ## describes the function (for example  status, insertion,
+    ##	 deletion, transposition) of the mark.
+    attribute function { sgadata.word }?,
+    
+    ## identifies one or more elements to which the function
+    ##	 indicated by the metamark applies. 
+    attribute target {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgamod =
+  
+  ## represents any kind of modification identified within a single document.
+  element mod {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.transcriptional.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.spanning.attributes,
+    empty
+  }
+sgaredo =
+  
+  ## indicates one or more cancelled interventions in a
+  ##		  document which have subsequently been
+  ##		  marked as reaffirmed or repeated.
+  element redo {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.spanning.attributes,
+    sgaatt.transcriptional.attributes,
+    
+    ## points to one or more elements representing the
+    ##	 interventions which are being reasserted.
+    attribute target {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgaretrace =
+  
+  ## contains a sequence of writing which has been retraced, for
+  ##       example by over-inking, to clarify or fix it.
+  element retrace {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.spanning.attributes,
+    sgaatt.transcriptional.attributes,
+    empty
+  }
+sgatranspose =
+  
+  ##  describes a single textual transposition as an ordered list
+  ##    of at least two pointers specifying the order in which the elements
+  ##    indicated should be re-combined. 
+  element transpose {
+    (sgaptr, sgaptr+), sgaatt.global.attributes, empty
+  }
+sgaundo =
+  
+  ## indicates one or more marked-up interventions in a document
+  ##    which have subsequently been marked for cancellation.
+  element undo {
+    empty,
+    sgaatt.global.attributes,
+    sgaatt.spanning.attributes,
+    sgaatt.transcriptional.attributes,
+    
+    ## points to one or more elements representing the
+    ##	 interventions which are to be reverted or undone.
+    attribute target {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgag =
+  
+  ## (character or glyph) represents a non-standard character or glyph.
+  element g {
+    text,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    
+    ## points to a description of the character or glyph intended.
+    attribute ref { sgadata.pointer }?,
+    empty
+  }
+sgachar =
+  
+  ## (character) provides descriptive information about a character. 
+  element char {
+    (sgacharName?,
+     sgamodel.glossLike*,
+     sgacharProp*,
+     sgamapping*,
+     empty*,
+     sgamodel.graphicLike*,
+     sgamodel.noteLike*),
+    sgaatt.global.attributes,
+    empty
+  }
+sgacharName =
+  
+  ## (character name) contains the name of a character, expressed following Unicode conventions. 
+  element charName { text, sgaatt.global.attributes, empty }
+sgacharProp =
+  
+  ## (character property) provides a name and value for some property of the parent character or glyph. 
+  element charProp {
+    ((sgaunicodeName | sgalocalName), sgavalue),
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgacharDecl =
+  
+  ## (character declarations) provides information about nonstandard characters and glyphs. 
+  element charDecl {
+    (sgadesc?, (sgachar | sgaglyph)+),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaglyph =
+  
+  ## (character glyph) provides descriptive information about a character glyph. 
+  element glyph {
+    (sgaglyphName?,
+     sgamodel.glossLike*,
+     sgacharProp*,
+     sgamapping*,
+     empty*,
+     sgamodel.graphicLike*,
+     sgamodel.noteLike*),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaglyphName =
+  
+  ## (character glyph name) contains the name of a glyph, expressed following Unicode conventions for character names. 
+  element glyphName { text, sgaatt.global.attributes, empty }
+sgalocalName =
+  
+  ## (locally-defined property name) contains a locally defined name for some property. 
+  element localName { text, sgaatt.global.attributes, empty }
+sgamapping =
+  
+  ## (character mapping) contains one or more
+  ##	 characters which are related to the parent character or glyph
+  ##	 in some respect, as specified by the type
+  ##	 attribute.
+  ##
+  element mapping {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaunicodeName =
+  
+  ## (unicode property name) contains the name of a registered Unicode normative or informative property. 
+  element unicodeName {
+    text,
+    sgaatt.global.attributes,
+    
+    ## specifies the version number of the Unicode Standard in which this property name is
+    ##         defined.
+    attribute version { sgadata.version }?,
+    empty
+  }
+sgavalue =
+  
+  ## (value) contains a single value for some property, attribute, or other
+  ##   analysis.
+  element value { sgamacro.xtext, sgaatt.global.attributes, empty }
+sgalink =
+  
+  ## defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. ]
+  element link {
+    empty
+    >> sch:pattern [
+         id = "link-constraint-linkTargets1"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:link"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and @targets"
+             "You may not supply both \x{a}" ~
+             "	@target and @targets"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "link-constraint-linkTargets2"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:link"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "not(@target) and not(@targets)"
+             "You must\x{a}" ~
+             "	supply either @target or @targets"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "link-constraint-linkTargets3"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:link"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "contains(@target,' ')"
+             "You must supply at least two\x{a}" ~
+             "values for @target"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.typed.attributes,
+    
+    ## specifies the identifiers of the elements or passages to be linked or associated. 
+    attribute targets {
+      list { sgadata.pointer, sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgalinkGrp =
+  
+  ## (link group) defines a collection of associations or hypertextual links. [16.1. ]
+  element linkGrp {
+    (sgalink | sgaptr)+,
+    sgaatt.global.attributes,
+    sgaatt.pointing.group.attributes,
+    empty
+  }
+sgaab =
+  
+  ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. ]
+  element ab {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    
+    ## specifies whether or not the block is complete. 
+    [ a:defaultValue = "N" ]
+    attribute part {
+      
+      ## (yes) the block is incomplete
+      "Y"
+      | 
+        ## (no) either the block is complete, or no claim is made as to its completeness
+        "N"
+      | 
+        ## (initial) the initial part of an incomplete block
+        "I"
+      | 
+        ## (medial) a medial part of an incomplete block
+        "M"
+      | 
+        ## (final) the final part of an incomplete block
+        "F"
+    }?,
+    empty
+  }
+sgaanchor =
+  
+  ## (anchor point) attaches an identifier to a point within a text, whether or not it corresponds with a textual element. [8.4.2.  16.4. ]
+  element anchor {
+    empty, sgaatt.global.attributes, sgaatt.typed.attributes, empty
+  }
+sgaseg =
+  
+  ## (arbitrary segment) represents any segmentation of text below the chunk level. [16.3.  6.2.  7.2.5. ]
+  element seg {
+    sgamacro.paraContent,
+    sgaatt.global.attributes,
+    sgaatt.segLike.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.responsibility.attributes,
+    empty
+  }
+sgawhen =
+  
+  ## indicates a point in time either relative to other elements in the same timeline tag, or absolutely. [16.5.2. ]
+  element when {
+    empty,
+    sgaatt.global.attributes,
+    
+    ## supplies an absolute value for the time.
+    attribute absolute { sgadata.temporal.w3c }?,
+    
+    ## specifies the unit of time in which the interval value is expressed, if this is not inherited from the parent timeline.
+    ## Suggested values include: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) 
+    attribute unit {
+      
+      ## (days) 
+      "d"
+      | 
+        ## (hours) 
+        "h"
+      | 
+        ## (minutes) 
+        "min"
+      | 
+        ## (seconds) 
+        "s"
+      | 
+        ## (milliseconds) 
+        "ms"
+      | xsd:Name
+    }?,
+    
+    ## specifies the numeric portion of a time interval
+    attribute interval {
+      xsd:float { minExclusive = "0" }
+      | "unknown"
+    }?,
+    
+    ## identifies the reference point for determining the time of the current when element, which is obtained by adding the interval to the time of the reference point.
+    attribute since { sgadata.pointer }?,
+    empty
+  }
+sgatimeline =
+  
+  ## (timeline) provides a set of ordered points in time which can be linked to elements of a spoken text to create a temporal alignment of that text. [16.5.2. ]
+  element timeline {
+    sgawhen+,
+    sgaatt.global.attributes,
+    
+    ## designates the origin of the timeline, i.e. the time at which it begins.
+    attribute origin { sgadata.pointer }?,
+    
+    ## specifies the unit of time corresponding to the interval value of the timeline or of its constituent points in time.
+    ## Suggested values include: 1] d(days) ; 2] h(hours) ; 3] min(minutes) ; 4] s(seconds) ; 5] ms(milliseconds) 
+    attribute unit {
+      
+      ## (days) 
+      "d"
+      | 
+        ## (hours) 
+        "h"
+      | 
+        ## (minutes) 
+        "min"
+      | 
+        ## (seconds) 
+        "s"
+      | 
+        ## (milliseconds) 
+        "ms"
+      | xsd:Name
+    }?,
+    
+    ## specifies the numeric portion of a time interval
+    attribute interval {
+      xsd:float { minExclusive = "0" }
+      | "regular"
+      | "irregular"
+    }?,
+    empty
+  }
+sgajoin =
+  
+  ## identifies a possibly fragmented segment of text, by pointing at the possibly discontiguous elements which compose it. [16.7. ]
+  element join {
+    (sgamodel.glossLike*)
+    >> sch:pattern [
+         id = "join-constraint-joinTargets1"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:join"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and @targets"
+             "You may not supply both \x{a}" ~
+             "	@target and @targets"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "join-constraint-joinTargets2"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:join"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "not(@target) and not(@targets)"
+             "You must\x{a}" ~
+             "	supply either @target or @targets"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "join-constraint-joinTargets3"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:join"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "contains(@target,' ')"
+             "You must supply at least two\x{a}" ~
+             "values for @target"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.typed.attributes,
+    
+    ## specifies the identifiers of the elements or passages to be joined into a virtual element.
+    attribute targets {
+      list { sgadata.pointer, sgadata.pointer, sgadata.pointer* }
+    }?,
+    
+    ## specifies the name of an element which this aggregation may be understood to represent.
+    attribute result { sgadata.name }?,
+    
+    ## indicates whether the targets to be joined include the entire element indicated (the entire subtree including its root), or just the children of the target (the branches of the subtree).
+    [ a:defaultValue = "root" ]
+    attribute scope {
+      
+      ## the rooted subtrees indicated by the targets attribute are joined, each subtree become a child of the virtual element created by the join
+      "root"
+      | 
+        ## the children of the subtrees indicated by the targets attribute become the children of the virtual element (i.e. the roots of the subtrees are discarded)
+        "branches"
+    }?,
+    empty
+  }
+sgajoinGrp =
+  
+  ## (join group) groups a collection of join elements and possibly pointers. [16.7. ]
+  element joinGrp {
+    (sgamodel.glossLike*, (sgajoin | sgaptr)+),
+    sgaatt.global.attributes,
+    sgaatt.pointing.group.attributes,
+    
+    ## describes the result of the joins gathered in this collection.
+    attribute result { sgadata.name }?,
+    empty
+  }
+sgaalt =
+  
+  ## (alternation) identifies an alternation or a set of choices among elements or passages. [16.8. ]
+  element alt {
+    empty
+    >> sch:pattern [
+         id = "alt-constraint-altTargets1"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:alt"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and @targets"
+             "You may not supply both \x{a}" ~
+             "	@target and @targets"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "alt-constraint-altTargets2"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:alt"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "not(@target) and not(@targets)"
+             "You must\x{a}" ~
+             "	supply either @target or @targets"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "alt-constraint-altTargets3"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:alt"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "contains(@target,' ')"
+             "You must supply at least two\x{a}" ~
+             "values for @target"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    sgaatt.typed.attributes,
+    
+    ## specifies the identifiers of the alternative elements or passages.
+    attribute targets {
+      list { sgadata.pointer, sgadata.pointer, sgadata.pointer* }
+    }?,
+    
+    ## states whether the alternations gathered in this collection are exclusive or
+    ##                 inclusive.
+    attribute mode {
+      
+      ## (exclusive) indicates that the alternation is exclusive, i.e. that at most one of the
+      ##                         alternatives occurs.
+      "excl"
+      | 
+        ## (inclusive) indicates that the alternation is not exclusive, i.e. that one or more of
+        ##                         the alternatives occur.
+        "incl"
+    }?,
+    
+    ## If mode is , each weight states the probability that
+    ##                 the corresponding alternative occurs. If mode is incl each
+    ##                 weight states the probability that the corresponding alternative occurs given that
+    ##                 at least one of the other alternatives occurs.
+    attribute weights {
+      list {
+        sgadata.probability, sgadata.probability, sgadata.probability*
+      }
+    }?,
+    empty
+  }
+sgaaltGrp =
+  
+  ## (alternation group) groups a collection of alt elements and possibly pointers. [16.8. ]
+  element altGrp {
+    (sgaalt | sgaptr)*,
+    sgaatt.global.attributes,
+    sgaatt.pointing.group.attributes,
+    
+    ## states whether the alternations gathered in this collection are exclusive or
+    ##                 inclusive.
+    [ a:defaultValue = "excl" ]
+    attribute mode {
+      
+      ## (exclusive) indicates that the alternation is exclusive, i.e. that at most one of the
+      ##                         alternatives occurs.
+      "excl"
+      | 
+        ## (inclusive) indicates that the alternation is not exclusive, i.e. that one or more of
+        ##                         the alternatives occur.
+        "incl"
+    }?,
+    empty
+  }
+sgaatt.global.linking.attributes =
+  sgaatt.global.linking.attribute.corresp,
+  sgaatt.global.linking.attribute.next,
+  sgaatt.global.linking.attribute.prev
+sgaatt.global.linking.attribute.corresp =
+  
+  ## (corresponds) points to elements that correspond to the current
+  ##       element in some way.
+  attribute corresp {
+    list { sgadata.pointer, sgadata.pointer* }
+  }?
+sgaatt.global.linking.attribute.next =
+  
+  ## points to the next element of a virtual aggregate of which
+  ##       the current element is part.
+  attribute next { sgadata.pointer }?
+sgaatt.global.linking.attribute.prev =
+  
+  ## (previous) points to the previous element of a virtual aggregate of
+  ##       which the current element is part.
+  attribute prev { sgadata.pointer }?
+sgac =
+  
+  ## (character) represents a character. [17.1. ]
+  element c {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.segLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+start = sgaTEI
