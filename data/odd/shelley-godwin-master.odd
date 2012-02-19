@@ -1,141 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../derivatives/brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../derivatives/brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:ge="http://www.tei-c.org/ns/geneticEditions">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Shelley Godwin Archive Customization</title>
-        <author>Trevor Muñoz</author>
-      </titleStmt>
-      <publicationStmt>
-        <distributor>Shelley Godwin Archive (via website)</distributor>
-        <address>
-          <addrLine>mith@umd.edu</addrLine>
-        </address>
-        <date when="2011-10-17">October 17, 2011</date>
-        <availability status="restricted">
-          <p>This work is copyright Trevor Muñoz and Maryland Institute for Technology in the
-            Humanities and licensed under a <ref
-              target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
-              Unported License</ref>.</p>
-        </availability>
-        <pubPlace>College Park, MD USA</pubPlace>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Based on <name type="file">geneticTEI.xml</name>, which can be found <ref
-            target="http://tei.svn.sourceforge.net/viewvc/tei/trunk/P5/">Sourceforge</ref>.</p>
-      </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-      <change who="tmunoz" when="2011-10-16">First draft</change>
-      <change who="tmunoz" when="2011-11-14">Temporarily removing Genetic Editions stuff</change>
-      <change who="tmunoz" when="2011-11-21">Making additional header elements required</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div>
-        <head>Rationale</head>
-        <p>To be added</p>
-      </div>
-      <div>
-        <head>Shelley Godwin ODD</head>
-        <p>The prefix in this schema stands for <expan>Shelley Godwin Archive</expan>, the project
-          for which this customization was developed.</p>
-        <schemaSpec ident="shelley_godwin_odd" prefix="sga_" start="TEI">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+    xmlns:sga="http://sga.mith.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI Specification for the Shelley-Godwin Archive</title>
+                <author>
+                    <persName xml:id="tmunoz">Trevor Mu&#241;oz</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>The Maryland Institute for Technology in the Humanites
+                    (MITH)</distributor>
+                <address>
+                    <addrLine>mith@umd.edu</addrLine>
+                </address>
+                <availability status="restricted">
+                    <p>This work is copyright Trevor Mu&#241;oz and the Maryland Institute for
+                        Technology in the Humanities and licensed under a <ref
+                            target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                            Attribution 3.0 Unported License</ref>.</p>
+                </availability>
+                <pubPlace>College Park, MD USA</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-02-19" who="tmunoz">Began working on this specification to govern
+                complete SGA files (not transcription fragments)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <div xml:id="summary">
+                <head>Executive Summary</head>
+                <p>This document defines an XML format for the structure of data forming part of the
+                    Shelley-Godwin Archive.</p>
+            </div>
+            <div xml:id="spec">
+                <head>Technical documentation</head>
+                <schemaSpec ident="shelley-godwin-master" prefix="sga" start="TEI">
 
-          <!-- Required modules -->
-          <moduleRef key="tei"/>
-          <moduleRef key="core"
-            except="analytic biblStruct binaryObject headItem headLabel label listBibl measure measureGrp meeting monogr postBox postCode series teiCorpus"/>
-          <moduleRef key="header" except="biblFull samplingDecl stdVals"/>
-          <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
-          <moduleRef key="transcr"/>
+                    <moduleRef key="tei"/>
+                    <moduleRef key="header"/>
+                    <moduleRef key="core"
+                        except="addrLine address analytic author biblScope biblStruct 
+                        binaryObject divGen editor email gb imprint listBibl measure 
+                        meeting mentioned monogr postBox postCode pubPlace publisher 
+                        quote said series soCalled street teiCorpus textLang"/>
+                    <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
 
-          <!-- Additional elements -->
-          <elementRef key="persName"/>
-          <elementRef key="placeName"/>
-          
-          <!-- class-level alterations; generally wholesale deletions or additions -->
-          <classSpec  type="model" ident="model.divGenLike" module="tei" mode="delete"/>
-          <classSpec  type="model" ident="model.div1Like" module="tei" mode="delete"/>
+                    <!-- Additional modules -->
+                    <moduleRef key="transcr"/>
+                    <moduleRef key="gaiji"/>
+                    <moduleRef key="linking"/>
+                    <!-- included principally for the att.linking class -->
 
-          <!-- Modifications to the content model of  teiHeader:
-	           * encodingDesc and revisionDesc now required -->
-          <elementSpec ident="teiHeader" module="header" mode="change">
-            <content>
-              <rng:ref name="fileDesc"/>
-              <rng:ref name="encodingDesc"/>
-              <rng:zeroOrMore>
-                <rng:ref name="profileDesc"/>
-              </rng:zeroOrMore>
-              <rng:ref name="revisionDesc"/>
-            </content>
-          </elementSpec>
+                    <!-- Some specific elements to include-->
+                    <elementRef key="c"/>
 
-          <!-- Modifications to fileDesc:
-                    * editionStmt, seriesStmt are now required
-                    * notesStmt has been removed -->
-          <elementSpec ident="fileDesc" module="header" mode="change">
-            <content>
-              <rng:group>
-                <rng:ref name="titleStmt"/>
-                <rng:ref name="editionStmt"/><!-- TODO: modify the content model of editionStmt -->
-                <rng:optional>
-                  <rng:ref name="extent"/>
-                </rng:optional>
-                <rng:ref name="publicationStmt"/>
-                <rng:ref name="seriesStmt"/><!-- TODO: modify the content model of seriesStmt -->
-              </rng:group>
-              <rng:oneOrMore>
-                <rng:ref name="sourceDesc"/>
-              </rng:oneOrMore>
-            </content>
-          </elementSpec>
-          
-          <elementSpec ident="editionStmt" module="header" mode="change"></elementSpec>
-          
-          <!-- Require use of specialized elements rather than free text in edition description; eliminate biblScope in favor of idno for series -->
-          <elementSpec ident="seriesStmt" module="core" mode="change">
-            <content>
-              <rng:group>
-                <rng:oneOrMore>
-                  <rng:ref name="title"/>
-                </rng:oneOrMore>
-                <rng:zeroOrMore>
-                  <rng:choice>
-                    <rng:ref name="editor"/>
-                    <rng:ref name="respStmt"/>
-                  </rng:choice>
-                </rng:zeroOrMore>
-                <rng:zeroOrMore>
-                    <rng:ref name="idno"/>
-                </rng:zeroOrMore>
-              </rng:group>
-            </content>
-          </elementSpec>
+                    <!-- Class-level modifications -->
+                    <classSpec ident="att.global" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="xml:lang" mode="delete"/>
+                            <attDef ident="xml:base" mode="delete"/>
+                            <attDef ident="xml:space" mode="delete"/>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="el-target" mode="add" ns="http://sga.mith.org/ns/1.0">
+                                <desc>A convenience attribute for indicating what text-centric
+                                    element a document-centric element should be transformed
+                                    to</desc>
+                            </attDef>
+                            <attDef ident="att-target" mode="add" ns="http://sga.mith.org/ns/1.0">
+                                <desc>A convenience attribute for indicating what attribute should
+                                    be added in transforming from document- to text-centric markup.
+                                    By convention the attribute is placed on the element specified
+                                    in a preceding el-target attribute</desc>
+                            </attDef>
+                            <attDef ident="att-value" mode="add" ns="http://sga.mith.org/ns/1.0">
+                                <desc>If an attribute created during a document- to text-centric
+                                    markup conversion should have a particular value, please
+                                    indicate</desc>
+                            </attDef>
+                        </attList>
+                    </classSpec>
 
-          <!-- for the moment, only simple paragraph description is accepted in encoding description -->
-          <elementSpec ident="encodingDesc" module="header" mode="change">
-            <content>
-              <rng:oneOrMore>
-                <rng:ref name="model.pLike"/>
-              </rng:oneOrMore>
-            </content>
-          </elementSpec>
-          
-          <!-- Miscellaneous element changes; this section will be re-organized later -->
-          <elementSpec ident="title" module="core" mode="change">
-            <attList>
-              <attDef ident="level" mode="change" usage="mwa"/>
-            </attList>  
-          </elementSpec>
+                    <classSpec ident="att.global.linking" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                        </attList>
+                    </classSpec>
 
-        </schemaSpec>
-      </div>
-    </body>
-  </text>
+                    <classSpec ident="att.coordinated.attributes" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="start" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <!-- Removing entire classes; some of these might be restored later -->
+                    <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
+                    <classSpec ident="att.global.change" type="atts" mode="delete"/>
+                    <classSpec ident="att.declaring" type="atts" mode="delete"/>
+
+                    <!-- Element-level modifications -->
+                    <elementSpec ident="TEI" module="textstructure" mode="change">
+                        <content>
+                            <rng:group>
+                                <rng:ref name="teiHeader"/>
+                                <rng:oneOrMore>
+                                    <rng:ref name="sourceDoc"/>
+                                </rng:oneOrMore>
+                                <!--<rng:optional>
+                                    <rng:ref name="text"/>
+                                </rng:optional>-->
+                            </rng:group>
+                        </content>
+                    </elementSpec>
+
+                    <elementSpec ident="surface" module="transcr" mode="change">
+                        <content>
+                            <rng:ref name="att.global.attributes"/>
+                            <rng:ref name="att.global.linking.attributes"/>
+                            <rng:ref name="att.global.analytic.attributes"/>
+                            <rng:ref name="att.global.facs.attributes"/>
+                            <rng:ref name="att.global.change.attributes"/>
+                            <rng:ref name="att.coordinated.attributes"/>
+                            <rng:ref name="att.declaring.attributes"/>
+                            <rng:ref name="att.typed.attributes"/>
+                            <!-- Restore when we need the following attributes for Whitman integration -->
+                            <!--<rng:optional>
+                                <rng:attribute name="attachment">
+                                    <rng:ref name="data.enumerated"/>
+                                </rng:attribute>
+                            </rng:optional>
+                            <rng:optional>
+                                <rng:attribute name="flipping">
+                                    <rng:ref name="data.truthValue"/>
+                                </rng:attribute>
+                            </rng:optional>-->
+                            <rng:group>
+                                <rng:zeroOrMore>
+                                    <rng:ref name="model.glossLike"/>
+                                </rng:zeroOrMore>
+                                <rng:oneOrMore>
+                                    <rng:ref name="model.graphicLike"/>
+                                </rng:oneOrMore>
+                                <rng:zeroOrMore>
+                                    <rng:choice>
+                                        <rng:ref name="zone"/>
+                                        <!--<rng:ref name="surface"/>
+                                        <rng:ref name="surfaceGrp"/>-->
+                                        <!-- Temporarily removing the case of paste-ins, etc. -->
+                                        <rng:ref name="model.global"/>
+                                        <rng:ref name="line"/>
+                                    </rng:choice>
+                                </rng:zeroOrMore>
+                            </rng:group>
+                        </content>
+                        <attList>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                            <!-- Make the attributes to set the coordinate grid of the page required; should be automatically generated -->
+                            <attDef ident="ulx" mode="change" usage="req"/>
+                            <attDef ident="uly" mode="change" usage="req"/>
+                            <attDef ident="lrx" mode="change" usage="req"/>
+                            <attDef ident="lry" mode="change" usage="req"/>
+                            <attDef ident="n" mode="change" usage="rec"/>
+                            <attDef ident="corresp" mode="change">
+                                <altIdent>partOf</altIdent>
+                                <desc>Syntactic sugar attribute—should refer to the id of the
+                                    sourceDoc element with which this surface should be
+                                    associated</desc>
+                            </attDef>
+                            <!-- See note above re: Whitman integration -->
+                            <attDef ident="attachment" mode="delete"/>
+                            <attDef ident="flipping" mode="delete"/>
+                        </attList>
+                    </elementSpec>
+
+                    <!-- Tightening the content model of line to remove more interpretive elements; 
+                        expect this to be fixed in a future release of the Guidelines, 
+                        see http://tei-l.970651.n3.nabble.com/Content-model-of-lt-line-gt-td3647279.html -->
+                    <elementSpec ident="line" module="transcr" mode="change">
+                        <content>
+                            <rng:zeroOrMore>
+                                <rng:choice>
+                                    <rng:text/>
+                                    <rng:ref name="model.global"/>
+                                    <rng:ref name="model.segLike"/>
+                                    <rng:ref name="model.hiLike"/>
+                                    <rng:ref name="choice"/>
+                                    <rng:ref name="zone"/>
+                                    <rng:ref name="line"/>
+                                    <!-- What follows is only a subset of model.pPart.transcriptional -->
+                                    <rng:ref name="add"/>
+                                    <rng:ref name="del"/>
+                                    <rng:ref name="add"/>
+                                    <rng:ref name="unclear"/>
+                                    <rng:ref name="damage"/>
+                                    <rng:ref name="handShift"/>
+                                    <rng:ref name="mod"/>
+                                    <rng:ref name="retrace"/>
+                                </rng:choice>
+                            </rng:zeroOrMore>
+                        </content>
+                        <remarks>
+                            <p>For the purposes of diplomatic transcriptions, the content model of
+                                line has been restricted to remove more interpretive elements such
+                                as &lt;sic&gt;, and &lt;reg&gt;</p>
+                        </remarks>
+                    </elementSpec>
+
+                    <elementSpec ident="hi" module="core" mode="change">
+                        <attList>
+                            <attDef ident="rend" mode="change">
+                                <valList type="closed">
+                                    <valItem ident="hyphenated"/>
+                                    <valItem ident="underline"/>
+                                    <valItem ident="double-underline"/>
+                                    <valItem ident="bold"/>
+                                    <valItem ident="caps"/>
+                                    <valItem ident="italic"/>
+                                    <valItem ident="sup"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                        <remarks>
+                            <p>Attribute values adapted from the TEI P5 specification for the ENRICH
+                                project, http://enrich.manuscriptorium.com/</p>
+                        </remarks>
+                    </elementSpec>
+
+                </schemaSpec>
+            </div>
+        </body>
+    </text>
 </TEI>
