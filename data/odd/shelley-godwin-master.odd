@@ -49,7 +49,7 @@
                 <schemaSpec ident="shelley-godwin-master" prefix="sga" start="TEI">
 
                     <moduleRef key="tei"/>
-                    <moduleRef key="header"/>
+                    <moduleRef key="header" except="profileDesc samplingDecl metDecl geoDecl variantEncoding fsdDecl"/>
                     <moduleRef key="core"
                         except="addrLine address analytic author biblScope biblStruct 
                         binaryObject divGen editor email gb imprint listBibl measure 
@@ -147,6 +147,25 @@
                             </rng:group>
                         </content>
                     </elementSpec>
+                    
+                    <!-- Use the structured sub-elements of encodingDesc -->
+                    <elementSpec ident="encodingDesc" module="header" mode="change">
+                        <content>
+                            <rng:oneOrMore>
+                                <rng:ref name="model.encodingDescPart"/><!-- Note: membership of this class has been modified by deletion of elements -->
+                            </rng:oneOrMore>
+                        </content>
+                    </elementSpec>
+                    
+                    <!-- Use change for revision descriptions -->
+                    <elementSpec ident="revisionDesc" module="header" mode="change">
+                        <content>
+                            <rng:oneOrMore>
+                                <rng:ref name="change"/>
+                            </rng:oneOrMore>
+                        </content>
+                    </elementSpec>
+                    
                     <!-- end: Modifications to the header -->
 
                     <elementSpec ident="surface" module="transcr" mode="change">
