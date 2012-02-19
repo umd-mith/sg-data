@@ -63,6 +63,7 @@
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking"/>
                     <!-- included principally for the att.linking class -->
+                    <moduleRef key="msdescription"/>
 
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
@@ -115,6 +116,7 @@
                     <classSpec ident="att.declaring" type="atts" mode="delete"/>
 
                     <!-- Element-level modifications -->
+                    <!-- Basic structural outline -->
                     <elementSpec ident="TEI" module="textstructure" mode="change">
                         <content>
                             <rng:group>
@@ -128,6 +130,10 @@
                             </rng:group>
                         </content>
                     </elementSpec>
+                    
+                    <!-- Modifications to the header -->
+                    
+                    <!-- end: Modifications to the header -->
 
                     <elementSpec ident="surface" module="transcr" mode="change">
                         <content>
@@ -224,8 +230,8 @@
 
                     <elementSpec ident="hi" module="core" mode="change">
                         <attList>
-                            <attDef ident="rend" mode="change">
-                                <valList type="closed">
+                            <attDef ident="rend" mode="change" usage="req">
+                                <valList type="closed" mode="replace">
                                     <valItem ident="hyphenated"/>
                                     <valItem ident="underline"/>
                                     <valItem ident="double-underline"/>
