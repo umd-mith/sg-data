@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-17T14:33:37Z. 
+# Schema generated from ODD source 2012-02-19T17:54:13Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1504,8 +1504,51 @@ sga-phi =
     
     ## (rendition) indicates how the element in question was rendered or presented in the source text.
     attribute rend {
-      list { sga-pdata.word, sga-pdata.word* }
-    }?,
+      list {
+        (
+         ##
+         "hyphenated"
+         | 
+           ##
+           "underline"
+         | 
+           ##
+           "double-underline"
+         | 
+           ##
+           "bold"
+         | 
+           ##
+           "caps"
+         | 
+           ##
+           "italic"
+         | 
+           ##
+           "sup"),
+        (
+         ##
+         "hyphenated"
+         | 
+           ##
+           "underline"
+         | 
+           ##
+           "double-underline"
+         | 
+           ##
+           "bold"
+         | 
+           ##
+           "caps"
+         | 
+           ##
+           "italic"
+         | 
+           ##
+           "sup")*
+      }
+    },
     sga-patt.global.linking.attributes,
     sga-patt.global.facs.attributes,
     empty
