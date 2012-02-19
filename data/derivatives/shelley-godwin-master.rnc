@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace sga = "http://sga.mith.org/ns/1.0"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-19T17:26:58Z. 
+# Schema generated from ODD source 2012-02-19T18:37:08Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -879,13 +879,19 @@ sgamodel.dateLike_sequence = sgadate, sgatime
 sgamodel.dateLike_sequenceOptional = sgadate?, sgatime?
 sgamodel.dateLike_sequenceOptionalRepeatable = sgadate*, sgatime*
 sgamodel.dateLike_sequenceRepeatable = sgadate+, sgatime+
-sgamodel.measureLike = sganum | sgameasureGrp
-sgamodel.measureLike_alternation = sganum | sgameasureGrp
-sgamodel.measureLike_sequence = sganum, sgameasureGrp
-sgamodel.measureLike_sequenceOptional = sganum?, sgameasureGrp?
+sgamodel.dimLike = sgaheight | sgadepth | sgawidth
+sgamodel.measureLike =
+  sganum | sgameasureGrp | sgadim | sgaheight | sgadepth | sgawidth
+sgamodel.measureLike_alternation =
+  sganum | sgameasureGrp | sgadim | sgaheight | sgadepth | sgawidth
+sgamodel.measureLike_sequence =
+  sganum, sgameasureGrp, sgadim, sgaheight, sgadepth, sgawidth
+sgamodel.measureLike_sequenceOptional =
+  sganum?, sgameasureGrp?, sgadim?, sgaheight?, sgadepth?, sgawidth?
 sgamodel.measureLike_sequenceOptionalRepeatable =
-  sganum*, sgameasureGrp*
-sgamodel.measureLike_sequenceRepeatable = sganum+, sgameasureGrp+
+  sganum*, sgameasureGrp*, sgadim*, sgaheight*, sgadepth*, sgawidth*
+sgamodel.measureLike_sequenceRepeatable =
+  sganum+, sgameasureGrp+, sgadim+, sgaheight+, sgadepth+, sgawidth+
 sgamodel.egLike = notAllowed
 sgamodel.egLike_alternation = notAllowed
 sgamodel.egLike_sequence = empty
@@ -898,6 +904,90 @@ sgamodel.graphicLike_sequence = sgagraphic
 sgamodel.graphicLike_sequenceOptional = sgagraphic?
 sgamodel.graphicLike_sequenceOptionalRepeatable = sgagraphic*
 sgamodel.graphicLike_sequenceRepeatable = sgagraphic+
+sgamodel.pPart.msdesc =
+  sgacatchwords
+  | sgadimensions
+  | sgaheraldry
+  | sgalocus
+  | sgalocusGrp
+  | sgamaterial
+  | sgaobjectType
+  | sgaorigDate
+  | sgaorigPlace
+  | sgasecFol
+  | sgasignatures
+  | sgastamp
+  | sgawatermark
+sgamodel.pPart.msdesc_alternation =
+  sgacatchwords
+  | sgadimensions
+  | sgaheraldry
+  | sgalocus
+  | sgalocusGrp
+  | sgamaterial
+  | sgaobjectType
+  | sgaorigDate
+  | sgaorigPlace
+  | sgasecFol
+  | sgasignatures
+  | sgastamp
+  | sgawatermark
+sgamodel.pPart.msdesc_sequence =
+  sgacatchwords,
+  sgadimensions,
+  sgaheraldry,
+  sgalocus,
+  sgalocusGrp,
+  sgamaterial,
+  sgaobjectType,
+  sgaorigDate,
+  sgaorigPlace,
+  sgasecFol,
+  sgasignatures,
+  sgastamp,
+  sgawatermark
+sgamodel.pPart.msdesc_sequenceOptional =
+  sgacatchwords?,
+  sgadimensions?,
+  sgaheraldry?,
+  sgalocus?,
+  sgalocusGrp?,
+  sgamaterial?,
+  sgaobjectType?,
+  sgaorigDate?,
+  sgaorigPlace?,
+  sgasecFol?,
+  sgasignatures?,
+  sgastamp?,
+  sgawatermark?
+sgamodel.pPart.msdesc_sequenceOptionalRepeatable =
+  sgacatchwords*,
+  sgadimensions*,
+  sgaheraldry*,
+  sgalocus*,
+  sgalocusGrp*,
+  sgamaterial*,
+  sgaobjectType*,
+  sgaorigDate*,
+  sgaorigPlace*,
+  sgasecFol*,
+  sgasignatures*,
+  sgastamp*,
+  sgawatermark*
+sgamodel.pPart.msdesc_sequenceRepeatable =
+  sgacatchwords+,
+  sgadimensions+,
+  sgaheraldry+,
+  sgalocus+,
+  sgalocusGrp+,
+  sgamaterial+,
+  sgaobjectType+,
+  sgaorigDate+,
+  sgaorigPlace+,
+  sgasecFol+,
+  sgasignatures+,
+  sgastamp+,
+  sgawatermark+
 sgamodel.pPart.editorial =
   sgachoice | sgaabbr | sgaexpan | sgaex | sgaam | sgasubst
 sgamodel.pPart.editorial_alternation =
@@ -1121,12 +1211,14 @@ sgamodel.milestoneLike_sequenceOptionalRepeatable =
 sgamodel.milestoneLike_sequenceRepeatable =
   sgamilestone+, sgapb+, sgalb+, sgacb+, sgafw+, sgaanchor+
 sgamodel.gLike = sgag
-sgamodel.biblLike = sgabibl | sgabiblFull
-sgamodel.biblLike_alternation = sgabibl | sgabiblFull
-sgamodel.biblLike_sequence = sgabibl, sgabiblFull
-sgamodel.biblLike_sequenceOptional = sgabibl?, sgabiblFull?
-sgamodel.biblLike_sequenceOptionalRepeatable = sgabibl*, sgabiblFull*
-sgamodel.biblLike_sequenceRepeatable = sgabibl+, sgabiblFull+
+sgamodel.biblLike = sgabibl | sgabiblFull | sgamsDesc
+sgamodel.biblLike_alternation = sgabibl | sgabiblFull | sgamsDesc
+sgamodel.biblLike_sequence = sgabibl, sgabiblFull, sgamsDesc
+sgamodel.biblLike_sequenceOptional = sgabibl?, sgabiblFull?, sgamsDesc?
+sgamodel.biblLike_sequenceOptionalRepeatable =
+  sgabibl*, sgabiblFull*, sgamsDesc*
+sgamodel.biblLike_sequenceRepeatable =
+  sgabibl+, sgabiblFull+, sgamsDesc+
 sgamodel.headLike = sgahead
 sgamodel.headLike_alternation = sgahead
 sgamodel.headLike_sequence = sgahead
@@ -1205,6 +1297,21 @@ sgamodel.divPart_sequenceRepeatable =
   sgamodel.pLike_sequenceRepeatable+,
   sgalg+,
   sgasp+
+sgamodel.placeNamePart = notAllowed
+sgamodel.placeNamePart_alternation = notAllowed
+sgamodel.placeNamePart_sequence = empty
+sgamodel.placeNamePart_sequenceOptional = empty
+sgamodel.placeNamePart_sequenceOptionalRepeatable = empty
+sgamodel.placeNamePart_sequenceRepeatable = notAllowed
+sgamodel.placeStateLike = sgamodel.placeNamePart
+sgamodel.placeStateLike_alternation = sgamodel.placeNamePart_alternation
+sgamodel.placeStateLike_sequence = sgamodel.placeNamePart_sequence
+sgamodel.placeStateLike_sequenceOptional =
+  sgamodel.placeNamePart_sequenceOptional?
+sgamodel.placeStateLike_sequenceOptionalRepeatable =
+  sgamodel.placeNamePart_sequenceOptionalRepeatable*
+sgamodel.placeStateLike_sequenceRepeatable =
+  sgamodel.placeNamePart_sequenceRepeatable+
 sgamodel.publicationStmtPart =
   sgadate | sgadistributor | sgaauthority | sgaidno | sgaavailability
 sgamodel.availabilityPart = sgap | sgalicence
@@ -1334,12 +1441,57 @@ sgamodel.titlepagePart =
   | sgadocEdition
   | sgadocImprint
   | sgadocDate
-sgamodel.msQuoteLike = sgatitle
-sgamodel.msQuoteLike_alternation = sgatitle
-sgamodel.msQuoteLike_sequence = sgatitle
-sgamodel.msQuoteLike_sequenceOptional = sgatitle?
-sgamodel.msQuoteLike_sequenceOptionalRepeatable = sgatitle*
-sgamodel.msQuoteLike_sequenceRepeatable = sgatitle+
+sgamodel.msQuoteLike =
+  sgatitle
+  | sgacolophon
+  | sgaexplicit
+  | sgafinalRubric
+  | sgaincipit
+  | sgarubric
+sgamodel.msQuoteLike_alternation =
+  sgatitle
+  | sgacolophon
+  | sgaexplicit
+  | sgafinalRubric
+  | sgaincipit
+  | sgarubric
+sgamodel.msQuoteLike_sequence =
+  sgatitle,
+  sgacolophon,
+  sgaexplicit,
+  sgafinalRubric,
+  sgaincipit,
+  sgarubric
+sgamodel.msQuoteLike_sequenceOptional =
+  sgatitle?,
+  sgacolophon?,
+  sgaexplicit?,
+  sgafinalRubric?,
+  sgaincipit?,
+  sgarubric?
+sgamodel.msQuoteLike_sequenceOptionalRepeatable =
+  sgatitle*,
+  sgacolophon*,
+  sgaexplicit*,
+  sgafinalRubric*,
+  sgaincipit*,
+  sgarubric*
+sgamodel.msQuoteLike_sequenceRepeatable =
+  sgatitle+,
+  sgacolophon+,
+  sgaexplicit+,
+  sgafinalRubric+,
+  sgaincipit+,
+  sgarubric+
+sgamodel.msItemPart =
+  sgamodel.quoteLike
+  | sgamodel.respLike
+  | sgamodel.msQuoteLike
+  | sgabibl
+  | sgafiliation
+  | sgamsItem
+  | sgamsItemStruct
+  | sgadecoNote
 sgamodel.choicePart =
   sgasic
   | sgacorr
@@ -1358,17 +1510,44 @@ sgamodel.imprintPart_sequenceOptional = sgadistributor?
 sgamodel.imprintPart_sequenceOptionalRepeatable = sgadistributor*
 sgamodel.imprintPart_sequenceRepeatable = sgadistributor+
 sgamodel.catDescPart = notAllowed
-sgamodel.nameLike = sgamodel.nameLike.agent | sgars | sgaidno
+sgamodel.physDescPart_sequenceOptional =
+  sgaobjectDesc?,
+  sgahandDesc?,
+  sgatypeDesc?,
+  sgascriptDesc?,
+  sgamusicNotation?,
+  sgadecoDesc?,
+  sgaadditions?,
+  sgabindingDesc?,
+  sgasealDesc?,
+  sgaaccMat?
+sgamodel.nameLike =
+  sgamodel.nameLike.agent | sgamodel.placeStateLike | sgars | sgaidno
 sgamodel.nameLike_alternation =
-  sgamodel.nameLike.agent_alternation | sgars | sgaidno
+  sgamodel.nameLike.agent_alternation
+  | sgamodel.placeStateLike_alternation
+  | sgars
+  | sgaidno
 sgamodel.nameLike_sequence =
-  sgamodel.nameLike.agent_sequence, sgars, sgaidno
+  sgamodel.nameLike.agent_sequence,
+  sgamodel.placeStateLike_sequence,
+  sgars,
+  sgaidno
 sgamodel.nameLike_sequenceOptional =
-  sgamodel.nameLike.agent_sequenceOptional?, sgars?, sgaidno?
+  sgamodel.nameLike.agent_sequenceOptional?,
+  sgamodel.placeStateLike_sequenceOptional?,
+  sgars?,
+  sgaidno?
 sgamodel.nameLike_sequenceOptionalRepeatable =
-  sgamodel.nameLike.agent_sequenceOptionalRepeatable*, sgars*, sgaidno*
+  sgamodel.nameLike.agent_sequenceOptionalRepeatable*,
+  sgamodel.placeStateLike_sequenceOptionalRepeatable*,
+  sgars*,
+  sgaidno*
 sgamodel.nameLike_sequenceRepeatable =
-  sgamodel.nameLike.agent_sequenceRepeatable+, sgars+, sgaidno+
+  sgamodel.nameLike.agent_sequenceRepeatable+,
+  sgamodel.placeStateLike_sequenceRepeatable+,
+  sgars+,
+  sgaidno+
 sgamodel.global =
   sgamodel.global.meta
   | sgamodel.milestoneLike
@@ -1382,6 +1561,7 @@ sgamodel.biblPart =
   | sgarelatedItem
   | sgaedition
   | sgaextent
+  | sgamsIdentifier
 sgamodel.frontPart = sgatitlePage
 sgamodel.pPart.data =
   sgamodel.dateLike | sgamodel.measureLike | sgamodel.nameLike
@@ -1452,12 +1632,14 @@ sgamodel.phrase =
   sgamodel.segLike
   | sgamodel.highlighted
   | sgamodel.graphicLike
+  | sgamodel.pPart.msdesc
   | sgamodel.pPart.edit
   | sgamodel.ptrLike
   | sgamodel.pPart.data
 sgamodel.limitedPhrase =
   sgamodel.hiLike
   | sgamodel.emphLike
+  | sgamodel.pPart.msdesc
   | sgamodel.pPart.editorial
   | sgamodel.ptrLike
   | sgamodel.pPart.data
@@ -1465,17 +1647,13 @@ sgamodel.divLike = sgadiv
 sgamodel.divGenLike = notAllowed
 sgamodel.div1Like = notAllowed
 sgamodel.applicationLike = sgaapplication
-sgamodel.teiHeaderPart = sgaencodingDesc | sgaprofileDesc
-sgamodel.sourceDescPart = notAllowed
 sgamodel.encodingDescPart =
   sgaprojectDesc
-  | sgasamplingDecl
   | sgaeditorialDecl
   | sgatagsDecl
   | sgarefsDecl
   | sgaclassDecl
   | sgaappInfo
-  | sgageoDecl
   | sgacharDecl
 sgamodel.editorialDeclPart =
   sgacorrection
@@ -1485,13 +1663,6 @@ sgamodel.editorialDeclPart =
   | sgasegmentation
   | sgastdVals
   | sgainterpretation
-sgamodel.profileDescPart =
-  sgacreation
-  | sgalangUsage
-  | sgatextClass
-  | sgacalendarDesc
-  | sgahandNotes
-  | sgalistTranspose
 sgap =
   
   ## (paragraph) marks paragraphs in prose. [3.1.  7.2.5. ]
@@ -1523,8 +1694,51 @@ sgahi =
     
     ## (rendition) indicates how the element in question was rendered or presented in the source text.
     attribute rend {
-      list { sgadata.word, sgadata.word* }
-    }?,
+      list {
+        (
+         ##
+         "hyphenated"
+         | 
+           ##
+           "underline"
+         | 
+           ##
+           "double-underline"
+         | 
+           ##
+           "bold"
+         | 
+           ##
+           "caps"
+         | 
+           ##
+           "italic"
+         | 
+           ##
+           "sup"),
+        (
+         ##
+         "hyphenated"
+         | 
+           ##
+           "underline"
+         | 
+           ##
+           "double-underline"
+         | 
+           ##
+           "bold"
+         | 
+           ##
+           "caps"
+         | 
+           ##
+           "italic"
+         | 
+           ##
+           "sup")*
+      }
+    },
     sgaatt.global.linking.attributes,
     sgaatt.global.facs.attributes,
     empty
@@ -2437,13 +2651,13 @@ sgateiHeader =
   ## (TEI Header) supplies the descriptive and declarative information making up an electronic title page
   ##     prefixed to every TEI-conformant text. [2.1.1.  15.1. ]
   element teiHeader {
-    (sgafileDesc, sgamodel.teiHeaderPart*, sgarevisionDesc?),
-    sgaatt.global.attributes,
+    (sgafileDesc, sgaencodingDesc, sgarevisionDesc),
     
     ## specifies the kind of document to which the header is attached, for example whether it
     ##         is a corpus or individual text.
     ## Sample values include: 1] text; 2] corpus
     [ a:defaultValue = "text" ] attribute type { sgadata.enumerated }?,
+    sgaatt.global.attributes,
     empty
   }
 sgafileDesc =
@@ -2454,8 +2668,7 @@ sgafileDesc =
       sgaeditionStmt?,
       sgaextent?,
       sgapublicationStmt,
-      sgaseriesStmt?,
-      sganotesStmt?),
+      sgaseriesStmt?),
      sgasourceDesc+),
     sgaatt.global.attributes,
     empty
@@ -2602,10 +2815,7 @@ sgasourceDesc =
   ##     bibliographic description in the case of a digitized text, or a phrase such as "born digital"
   ##     for a text which has no previous existence. [2.2.7. ]
   element sourceDesc {
-    (sgamodel.pLike+
-     | (sgamodel.biblLike
-        | sgamodel.sourceDescPart
-        | sgamodel.listLike)+),
+    sgamsDesc+,
     sgaatt.global.attributes,
     sgaatt.declarable.attributes,
     empty
@@ -2632,9 +2842,7 @@ sgaencodingDesc =
   ## (encoding description) documents the relationship between an electronic text and the
   ## source or sources from which it was derived. [2.3.  2.1.1. ]
   element encodingDesc {
-    (sgamodel.encodingDescPart | sgamodel.pLike)+,
-    sgaatt.global.attributes,
-    empty
+    sgamodel.encodingDescPart+, sgaatt.global.attributes, empty
   }
 sgaprojectDesc =
   
@@ -2642,16 +2850,6 @@ sgaprojectDesc =
   ##     with any other relevant information concerning the process by which it was assembled or
   ##     collected. [2.3.1.  2.3.  15.3.2. ]
   element projectDesc {
-    sgamodel.pLike+,
-    sgaatt.global.attributes,
-    sgaatt.declarable.attributes,
-    empty
-  }
-sgasamplingDecl =
-  
-  ## (sampling declaration) contains a prose description of the rationale and methods used in sampling texts in the
-  ##     creation of a corpus or collection. [2.3.2.  2.3.  15.3.2. ]
-  element samplingDecl {
     sgamodel.pLike+,
     sgaatt.global.attributes,
     sgaatt.declarable.attributes,
@@ -3027,14 +3225,6 @@ sgaapplication =
     },
     empty
   }
-sgaprofileDesc =
-  
-  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the
-  ##     languages and sublanguages used, the situation in which it was produced, the participants and
-  ##     their setting. [2.4.  2.1.1. ]
-  element profileDesc {
-    sgamodel.profileDescPart*, sgaatt.global.attributes, empty
-  }
 sgahandNote =
   
   ## (note on hand) describes a particular style or hand distinguished within a manuscript. [10.7.2. ]
@@ -3145,7 +3335,7 @@ sgarevisionDesc =
   
   ## (revision description) summarizes the revision history for a file. [2.5.  2.1.1. ]
   element revisionDesc {
-    (sgalist | sgalistChange | sgachange+),
+    sgachange+,
     sgaatt.global.attributes,
     sgaatt.docStatus.attributes,
     empty
@@ -3168,6 +3358,26 @@ sgachange =
     }?,
     empty
   }
+sgatypeNote =
+  
+  ## describes a particular font or other significant typographic feature distinguished within
+  ##     the description of a printed resource. [10.7.2. ]
+  element typeNote {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.handFeatures.attributes,
+    empty
+  }
+sgascriptNote =
+  
+  ## describes a particular script distinguished within
+  ##     the description of a manuscript or similar resource. [10.7.2. ]
+  element scriptNote {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.handFeatures.attributes,
+    empty
+  }
 sgalistChange =
   
   ## groups a number of change descriptions associated 
@@ -3181,37 +3391,6 @@ sgalistChange =
     ## elements is to be considered significant or not
     [ a:defaultValue = "true" ]
     attribute ordered { sgadata.truthValue }?,
-    empty
-  }
-sgageoDecl =
-  
-  ## (geographic coordinates declaration) documents the notation and the datum used for geographic coordinates expressed as content of
-  ##     the geo element elsewhere within the document.
-  element geoDecl {
-    sgamacro.phraseSeq,
-    sgaatt.global.attributes,
-    sgaatt.declarable.attributes,
-    
-    ## supplies a commonly used code name for the datum employed.
-    ## Suggested values include: 1] WGS84(World Geodetic System) ; 2] MGRS(Military Grid Reference System) ; 3] OSGB36(ordnance survey great britain) ; 4] ED50(European Datum coordinate system) 
-    [ a:defaultValue = "WGS84" ]
-    attribute datum {
-      
-      ## (World Geodetic System) a pair of numbers to be interpreted as latitude followed by longitude according to
-      ##             the World Geodetic System.
-      "WGS84"
-      | 
-        ## (Military Grid Reference System) the values supplied are geospatial entity object codes, based on
-        "MGRS"
-      | 
-        ## (ordnance survey great britain) the value supplied is to be interpreted as a British National Grid Reference.
-        "OSGB36"
-      | 
-        ## (European Datum coordinate system) the value supplied is to be interpreted as latitude followed by longitude according
-        ##             to the European Datum coordinate system.
-        "ED50"
-      | xsd:Name
-    }?,
     empty
   }
 sgaTEI =
@@ -4686,6 +4865,869 @@ sgaatt.global.linking.attribute.prev =
   ## (previous) points to the previous element of a virtual aggregate of
   ##       which the current element is part.
   attribute prev { sgadata.pointer }?
+sgamsDesc =
+  
+  ## (manuscript description) contains a description of a single identifiable
+  ## manuscript or other text-bearing object. [10.1. ]
+  element msDesc {
+    (sgamsIdentifier,
+     sgamodel.headLike*,
+     (sgamodel.pLike+
+      | (sgamsContents?,
+         sgaphysDesc?,
+         sgahistory?,
+         sgaadditional?,
+         sgamsPart*))),
+    sgaatt.global.attributes,
+    sgaatt.sortable.attributes,
+    empty
+  }
+sgacatchwords =
+  
+  ## describes the system used to ensure
+  ## correct ordering of the quires making up a codex or incunable,
+  ## typically by means of annotations at the foot of the page. [10.3.7. ]
+  element catchwords {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgadimensions =
+  
+  ## contains a dimensional specification. [10.3.4. ]
+  element dimensions {
+    ((sgadim | sgamodel.dimLike)*)
+    >> sch:pattern [
+         id = "dimensions-constraint-duplicateDim1"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:dimensions"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "count(tei:width)> 1"
+             "\x{a}" ~
+             "	Width element may appear once only\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "dimensions-constraint-duplicateDim2"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:dimensions"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "count(tei:height)> 1"
+             "\x{a}" ~
+             "	Height element may appear once only\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "dimensions-constraint-duplicateDim3"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:dimensions"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "count(tei:depth)> 1"
+             "\x{a}" ~
+             "	Depth element may appear once only\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    sgaatt.dimensions.attributes,
+    
+    ## indicates which aspect of the object is being measured. 
+    ## Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniatures; 6] binding; 7] box
+    attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgadim =
+  
+  ## contains any single measurement forming part of a dimensional
+  ## specification of some sort. [10.3.4. ]
+  element dim {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.dimensions.attributes,
+    empty
+  }
+sgaheight =
+  
+  ## contains a measurement measured along the
+  ##   axis at right angles to the bottom of the written surface,
+  ##   i.e. parallel to the spine for a codex or book.  [10.3.4. ]
+  element height {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.dimensions.attributes,
+    empty
+  }
+sgadepth =
+  
+  ## contains a measurement measured across the
+  ##   spine of a book or codex, or (for other text-bearing objects) perpendicular to the measurement given by the
+  ##   width element.  [10.3.4. ]
+  element depth {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.dimensions.attributes,
+    empty
+  }
+sgawidth =
+  
+  ## contains a measurement measured along the
+  ##   axis parallel to the bottom of the written surface, i.e. 
+  ## perpendicular to the spine of a book or codex.  [10.3.4. ]
+  element width {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.dimensions.attributes,
+    empty
+  }
+sgaheraldry =
+  
+  ## contains a heraldic formula
+  ## or phrase, typically found as part of a blazon, coat of arms, etc. 
+  ##  [10.3.8. ]
+  element heraldry {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgalocus =
+  
+  ## defines a location within a manuscript or manuscript part, usually as a
+  ##     (possibly discontinuous) sequence of folio references.  [10.3.5. ]
+  element locus {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.pointing.attributes,
+    
+    ## identifies the foliation scheme in terms of which the location is being
+    ##         specified.
+    attribute scheme { sgadata.pointer }?,
+    
+    ## specifies the starting point of the location in a normalized form.
+    attribute from { sgadata.word }?,
+    
+    ## specifies the end-point of the location in a normalized form.
+    attribute to { sgadata.word }?,
+    empty
+  }
+sgalocusGrp =
+  
+  ## groups a number of locations which together form a
+  ##   distinct but discontinuous item within a manuscript or manuscript
+  ##   part, according to a specific foliation.
+  ##    [10.3.5. ]
+  element locusGrp {
+    sgalocus+,
+    sgaatt.global.attributes,
+    
+    ## identifies the foliation scheme in terms of which all the
+    ##       locations contained by the group are specified.
+    attribute scheme { sgadata.pointer }?,
+    empty
+  }
+sgamaterial =
+  
+  ## contains a word or phrase describing the
+  ##   material of which  the object being described is composed.
+  ##    [10.3.2. ]
+  element material {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.canonical.attributes,
+    empty
+  }
+sgaobjectType =
+  
+  ## contains a word or phrase describing the type of object being refered to.
+  ##    [10.3.2. ]
+  element objectType {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.canonical.attributes,
+    empty
+  }
+sgaorigDate =
+  
+  ## (origin date) contains any form of date, used to
+  ##   identify the date of origin for a manuscript or manuscript part.
+  ##    [10.3.1. ]
+  element origDate {
+    (text | sgamodel.gLike | sgamodel.phrase | sgamodel.global)*,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    sgaatt.editLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaorigPlace =
+  
+  ## (origin place) contains any form of place name, used to identify the
+  ## place of origin for a manuscript or manuscript part.  [10.3.1. ]
+  element origPlace {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.naming.attributes,
+    sgaatt.datable.attributes,
+    sgaatt.editLike.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgasecFol =
+  
+  ## (second folio) The word or words taken from a fixed point
+  ## in a codex (typically the beginning of the
+  ## second leaf) in order
+  ## to provide a unique identifier for it.
+  ## 
+  ##  [10.3.7. ]
+  element secFol { sgamacro.phraseSeq, sgaatt.global.attributes, empty }
+sgasignatures =
+  
+  ## contains discussion of the leaf or quire signatures found within a codex. [10.3.7. ]
+  element signatures {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgastamp =
+  
+  ## contains a word or phrase describing a
+  ## stamp or similar device. [10.3.3. ]
+  element stamp {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.datable.attributes,
+    empty
+  }
+sgawatermark =
+  
+  ## contains a word or phrase describing a
+  ## watermark or similar device. [10.3.3. ]
+  element watermark {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgamsIdentifier =
+  
+  ## (manuscript identifier) contains the information required to identify
+  ## the  manuscript being described.  [10.4. ]
+  element msIdentifier {
+    ((sgamodel.placeNamePart_sequenceOptional,
+      sgainstitution?,
+      sgarepository?,
+      sgacollection*,
+      sgaidno?),
+     (sgamsName | sgaaltIdentifier)*)
+    >> sch:pattern [
+         id = "msIdentifier-constraint-msId_minimal"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:msIdentifier"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "local-name(*[1])='idno' or                              local-name(*[1])='altIdentifier' or        .='' "
+             "\x{a}" ~
+             "	    You must supply either a locator of some type or a\x{a}" ~
+             "	    name"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    sgaatt.global.attributes,
+    empty
+  }
+sgainstitution =
+  
+  ## contains the name of an organization such as a university or
+  ##   library, with which a manuscript is identified, generally its
+  ##   holding institution. [10.4. ]
+  element institution {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.naming.attributes,
+    empty
+  }
+sgarepository =
+  
+  ## contains the name of a repository within which manuscripts are stored, possibly forming part of an institution. [10.4. ]
+  element repository {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.naming.attributes,
+    empty
+  }
+sgacollection =
+  
+  ## contains the name of a collection of
+  ## manuscripts, not necessarily located within a single repository.  [10.4. ]
+  element collection {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.naming.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaaltIdentifier =
+  
+  ## (alternative identifier) contains an alternative or former structured identifier used for
+  ## a manuscript, such as a former catalogue number. [10.4. ]
+  element altIdentifier {
+    (sgamodel.placeNamePart_sequenceOptional,
+     sgainstitution?,
+     sgarepository?,
+     sgacollection?,
+     sgaidno,
+     sganote?),
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgamsName =
+  
+  ## (alternative name) contains any form of unstructured alternative
+  ## name used for a manuscript, such as an  ocellus
+  ## nominum, or nickname.  [10.4. ]
+  element msName {
+    sgamacro.xtext,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgacolophon =
+  
+  ## contains the  colophon
+  ## of a  manuscript item: that is, a statement providing information regarding the date, place, agency, or reason for production of the manuscript. [10.6.1. ]
+  element colophon {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgaexplicit =
+  
+  ## contains the  explicit of a
+  ## manuscript item, that is, the closing words of the text proper,
+  ## exclusive of any rubric or colophon which might follow it.
+  ##    [10.6.1. ]
+  element explicit {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.msExcerpt.attributes,
+    empty
+  }
+sgafiliation =
+  
+  ## contains information concerning the manuscript's filiation, i.e. its relationship to other surviving manuscripts of the same text, its protographs, antigraphs and apographs. [10.6.1. ]
+  element filiation {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgafinalRubric =
+  
+  ## contains the string of words that denotes the end of a text division, often with an assertion as to its author and title, usually set off from the text itself by red ink, by a different size or type of script, or by some other such visual device. [10.6.1. ]
+  element finalRubric {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaincipit =
+  
+  ## contains the incipit of a manuscript item, that is the opening words of the text proper, exclusive of any rubric which might precede it, of sufficient length to identify the work uniquely; such incipts were, in fomer times, frequently used a means of reference to a work, in place of a title. [10.6.1. ]
+  element incipit {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.msExcerpt.attributes,
+    empty
+  }
+sgamsContents =
+  
+  ## (manuscript contents) describes the intellectual content of a manuscript or manuscript
+  ##     part, either as a series of paragraphs or as a series of structured manuscript items. [10.6. ]
+  element msContents {
+    (sgamodel.pLike+
+     | (sgasummary?,
+        empty?,
+        sgatitlePage?,
+        (sgamsItem | sgamsItemStruct)*)),
+    sgaatt.global.attributes,
+    sgaatt.msExcerpt.attributes,
+    
+    ## identifies the text types or classifications applicable to this object.
+    attribute class {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgamsItem =
+  
+  ## (manuscript item) describes an individual work or item within the intellectual
+  ##   content of a manuscript or manuscript part.  [10.6.1. ]
+  element msItem {
+    ((sgalocus | sgalocusGrp)*,
+     (sgamodel.pLike+
+      | (sgamodel.titlepagePart
+         | sgamodel.msItemPart
+         | sgamodel.global)+)),
+    sgaatt.global.attributes,
+    sgaatt.msExcerpt.attributes,
+    
+    ## identifies the text types or classifications applicable to this
+    ## item
+    attribute class {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgamsItemStruct =
+  
+  ## (structured manuscript item) contains a structured description for an
+  ##   individual work or item within the intellectual content of a
+  ##   manuscript or manuscript part. [10.6.1. ]
+  element msItemStruct {
+    (sgalocus?,
+     (sgamodel.pLike+
+      | (empty*,
+         sgarespStmt*,
+         sgatitle*,
+         sgarubric?,
+         sgaincipit?,
+         sgamsItemStruct*,
+         sgaexplicit?,
+         sgafinalRubric?,
+         sgacolophon*,
+         sgadecoNote*,
+         empty*,
+         sgabibl*,
+         sgafiliation*,
+         sgamodel.noteLike*,
+         empty?))),
+    sgaatt.global.attributes,
+    sgaatt.msExcerpt.attributes,
+    
+    ## identifies the text types or classifications applicable to this
+    ## item
+    attribute class {
+      list { sgadata.pointer, sgadata.pointer* }
+    }?,
+    empty
+  }
+sgarubric =
+  
+  ## contains the text of any rubric or heading attached to a particular manuscript item, that is, a string of words through which a
+  ## manuscript signals the beginning of a text division, often with an assertion as to its author and title, which is in some way set off from the text itself, usually in red ink, or by use of different size or type of script, or some other such visual device. [10.6.1. ]
+  element rubric {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgasummary =
+  
+  ## contains an overview of the available
+  ##   information concerning some aspect of an item (for example, its
+  ## intellectual content, history, layout, typography etc.) as a
+  ## complement or alternative to the  more detailed information  carried by
+  ##   more specific elements.
+  element summary {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgaatt.msExcerpt.attributes = sgaatt.msExcerpt.attribute.defective
+sgaatt.msExcerpt.attribute.defective =
+  
+  ## indicates whether the passage being quoted is defective,
+  ##       i.e. incomplete through loss or damage.
+  [ a:defaultValue = "false" ]
+  attribute defective { sgadata.xTruthValue }?
+sgaphysDesc =
+  
+  ## (physical description) contains a full physical description of a
+  ## manuscript or manuscript part, optionally subdivided using more
+  ## specialised elements from the model.physDescPart class. [10.7. ]
+  element physDesc {
+    (sgamodel.pLike*, sgamodel.physDescPart_sequenceOptional),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaobjectDesc =
+  
+  ## contains a description of the physical
+  ##   components making up the object which is being described. [10.7.1. ]
+  element objectDesc {
+    (sgamodel.pLike+ | (sgasupportDesc?, sgalayoutDesc?)),
+    sgaatt.global.attributes,
+    
+    ## a short  project-specific name identifying the physical form of
+    ##       the carrier, for example as a codex, roll, fragment, partial leaf,
+    ##       cutting etc.
+    attribute form { sgadata.enumerated }?,
+    empty
+  }
+sgasupportDesc =
+  
+  ## (support description) groups elements describing the physical support for the written part of a manuscript. [10.7.1. ]
+  element supportDesc {
+    (sgamodel.pLike+
+     | (sgasupport?,
+        sgaextent?,
+        sgafoliation*,
+        sgacollation?,
+        sgacondition?)),
+    sgaatt.global.attributes,
+    
+    ## a short project-defined name for the material composing
+    ##       the majority of the support
+    ## Suggested values include: 1] paper (paper) ; 2] parch(parchment) ; 3] mixed
+    attribute material {
+      
+      ##  (paper) 
+      "paper"
+      | 
+        ## (parchment) 
+        "parch"
+      | 
+        ##
+        "mixed"
+      | xsd:Name
+    }?,
+    empty
+  }
+sgasupport =
+  
+  ## contains a description of the materials
+  ## etc. which make up the physical support for the written part of a manuscript. [10.7.1. ]
+  element support {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgacollation =
+  
+  ## contains a description of how the leaves or bifolia are physically
+  ## arranged. [10.7.1. ]
+  element collation {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgafoliation =
+  
+  ## describes the numbering system or systems used to 
+  ## count the leaves or pages in a codex. [10.7.1.4. ]
+  element foliation {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgacondition =
+  
+  ## contains a description of the physical
+  ## condition of the manuscript.  [10.7.1.5. ]
+  element condition {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgalayoutDesc =
+  
+  ## (layout description) collects the set of layout descriptions applicable to a manuscript. [10.7.2. ]
+  element layoutDesc {
+    (sgamodel.pLike+ | (sgasummary?, sgalayout+)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgalayout =
+  
+  ## describes how text is laid out on the
+  ##   page, including information about any ruling, pricking, or other
+  ##   evidence of page-preparation techniques. [10.7.2. ]
+  element layout {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    
+    ## specifies the number of columns per page
+    attribute columns {
+      list { sgadata.count, sgadata.count? }
+    }?,
+    
+    ## specifies the number of ruled lines per column
+    attribute ruledLines {
+      list { sgadata.count, sgadata.count? }
+    }?,
+    
+    ## specifies the number of written lines per
+    ##       column
+    attribute writtenLines {
+      list { sgadata.count, sgadata.count? }
+    }?,
+    empty
+  }
+sgahandDesc =
+  
+  ## (description of hands) contains a description of all the different kinds of writing  used in a manuscript. [10.7.2. ]
+  element handDesc {
+    (sgamodel.pLike+ | (sgasummary?, sgahandNote+)),
+    sgaatt.global.attributes,
+    
+    ## specifies the number of distinct hands identified within the manuscript
+    attribute hands { sgadata.count }?,
+    empty
+  }
+sgatypeDesc =
+  
+  ## contains a description of the typefaces or other aspects of
+  ##   the printing of an incunable or other printed source. [10.7.2.1. ]
+  element typeDesc {
+    (sgamodel.pLike+ | (sgasummary?, sgatypeNote+)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgascriptDesc =
+  
+  ## contains a description of the scripts used in a manuscript or similar source. [10.7.2.1. ]
+  element scriptDesc {
+    (sgamodel.pLike+ | (sgasummary?, sgascriptNote+)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgamusicNotation =
+  
+  ## contains description of type of musical notation. [10.7.2. ]
+  element musicNotation {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgadecoDesc =
+  
+  ## (decoration description) contains a description of the decoration of a manuscript, either as a sequence of paragraphs, or as a sequence of topically organised decoNote elements. [10.7.3. ]
+  element decoDesc {
+    (sgamodel.pLike+ | (sgasummary?, sgadecoNote+)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgadecoNote =
+  
+  ## (note on decoration) contains a note describing either a
+  ## decorative component of a manuscript, or a fairly homogenous class of
+  ## such components. [10.7.3. ]
+  element decoNote {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgaadditions =
+  
+  ## contains a description of any significant additions found
+  ## within a manuscript, such as marginalia or other annotations.  [10.7.2. ]
+  element additions {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgabindingDesc =
+  
+  ## (binding description) describes the present and former bindings of a manuscript, either
+  ## as a series of paragraphs or as a series of distinct binding elements,
+  ## one for each binding of the manuscript.  [10.7.3.1. ]
+  element bindingDesc {
+    ((sgamodel.pLike | sgadecoNote | sgacondition)+ | sgabinding+),
+    sgaatt.global.attributes,
+    empty
+  }
+sgabinding =
+  
+  ## contains a description of one binding, i.e. type of covering, boards,
+  ##     etc. applied to a manuscript. [10.7.3.1. ]
+  element binding {
+    (sgamodel.pLike | sgacondition | sgadecoNote)+,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    
+    ## specifies whether or not the binding is contemporary with the majority of its
+    ##         contents
+    attribute contemporary { sgadata.xTruthValue }?,
+    empty
+  }
+sgasealDesc =
+  
+  ## (seal description) describes the seals or other external items attached to a manuscript, either
+  ## as a series of paragraphs or as a series of distinct seal elements,
+  ## possibly with additional decoNotes.  [10.7.3.2. ]
+  element sealDesc {
+    (sgamodel.pLike+ | (sgadecoNote | sgaseal | sgacondition)+),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaseal =
+  
+  ## contains a description of one seal or similar
+  ##   attachment applied to a manuscript. [10.7.3.2. ]
+  element seal {
+    (sgamodel.pLike | sgadecoNote)+,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.datable.attributes,
+    
+    ## specifies whether or not the seal is contemporary with the
+    ##       item to which it is affixed
+    attribute contemporary { sgadata.xTruthValue }?,
+    empty
+  }
+sgaaccMat =
+  
+  ## (accompanying material) contains details of any significant additional
+  ## material which may be closely associated with the manuscript being
+  ## described, such as non-contemporaneous documents or fragments bound in
+  ## with the manuscript at some earlier historical period. [10.7.3.3. ]
+  element accMat {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgahistory =
+  
+  ##  groups elements
+  ## describing the full history of a manuscript or manuscript part. [10.8. ]
+  element history {
+    (sgamodel.pLike+
+     | (sgasummary?, sgaorigin?, sgaprovenance*, sgaacquisition?)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaorigin =
+  
+  ## contains any descriptive or other information
+  ## concerning the origin of  a manuscript or manuscript part.  [10.8. ]
+  element origin {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.editLike.attributes,
+    sgaatt.datable.attributes,
+    empty
+  }
+sgaprovenance =
+  
+  ## contains any descriptive or other information
+  ## concerning a single identifiable episode during the history of a manuscript
+  ## or manuscript part, after its creation but before its acquisition.  [10.8. ]
+  element provenance {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    sgaatt.typed.attributes,
+    sgaatt.responsibility.attributes,
+    empty
+  }
+sgaacquisition =
+  
+  ## contains any descriptive or other information
+  ## concerning the process by which a manuscript or manuscript part entered the holding
+  ## institution.  [10.8. ]
+  element acquisition {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    empty
+  }
+sgaadditional =
+  
+  ## groups additional information, combining
+  ## bibliographic information about a manuscript, or surrogate copies of
+  ## it with  curatorial or administrative information.  [10.9. ]
+  element additional {
+    (sgaadminInfo?, sgasurrogates?, empty?),
+    sgaatt.global.attributes,
+    empty
+  }
+sgaadminInfo =
+  
+  ## (administrative information) contains information about the present
+  ## custody and availability of the manuscript, and also about the record
+  ## description itself.  [10.9.1. ]
+  element adminInfo {
+    (sgarecordHist?,
+     sgaavailability?,
+     sgacustodialHist?,
+     sgamodel.noteLike?),
+    sgaatt.global.attributes,
+    empty
+  }
+sgarecordHist =
+  
+  ## (recorded history) provides information about the source and
+  ## revision status of the parent manuscript description itself.  [10.9.1. ]
+  element recordHist {
+    (sgamodel.pLike+ | (sgasource, sgachange*)),
+    sgaatt.global.attributes,
+    empty
+  }
+sgasource =
+  
+  ## describes the original source for the information contained with a manuscript description.  [10.9.1.1. ]
+  element source {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgacustodialHist =
+  
+  ## (custodial history) contains a description of a manuscript's custodial history, either
+  ## as running prose or as a series of dated custodial events.  [10.9.1.2. ]
+  element custodialHist {
+    (sgamodel.pLike+ | sgacustEvent+), sgaatt.global.attributes, empty
+  }
+sgacustEvent =
+  
+  ## (custodial event) describes a single event during the custodial history of a manuscript. [10.9.1.2. ]
+  element custEvent {
+    sgamacro.specialPara,
+    sgaatt.global.attributes,
+    sgaatt.datable.attributes,
+    sgaatt.typed.attributes,
+    empty
+  }
+sgasurrogates =
+  
+  ## contains information about any representations of the manuscript being described which
+  ## may exist in the holding institution or elsewhere.  [10.9. ]
+  element surrogates {
+    sgamacro.specialPara, sgaatt.global.attributes, empty
+  }
+sgamsPart =
+  
+  ## (manuscript part) contains information about an originally
+  ## distinct manuscript or part of a manuscript, now forming part of a composite manuscript. [10.10. ]
+  element msPart {
+    ((sgaaltIdentifier | sgamsIdentifier),
+     sgamodel.headLike*,
+     (sgamodel.pLike+
+      | (sgamsContents?,
+         sgaphysDesc?,
+         sgahistory?,
+         sgaadditional?,
+         sgamsPart*))),
+    sgaatt.global.attributes,
+    empty
+  }
 sgac =
   
   ## (character) represents a character. [17.1. ]
