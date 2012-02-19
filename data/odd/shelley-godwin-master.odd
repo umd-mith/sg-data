@@ -2,8 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../derivatives/brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
-    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-    xmlns:sga="http://sga.mith.org/ns/1.0">
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:sga="http://sga.mith.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -114,6 +113,7 @@
                     <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
                     <classSpec ident="att.global.change" type="atts" mode="delete"/>
                     <classSpec ident="att.declaring" type="atts" mode="delete"/>
+                    <!-- end:Class-level modifications -->
 
                     <!-- Element-level modifications -->
                     <!-- Basic structural outline -->
@@ -130,9 +130,23 @@
                             </rng:group>
                         </content>
                     </elementSpec>
-                    
+
                     <!-- Modifications to the header -->
-                    
+                    <elementSpec ident="teiHeader" module="header" mode="change">
+                        <content>
+                            <rng:ref name="att.global.attributes"/>
+                            <rng:ref name="att.global.linking.attributes"/>
+                            <rng:ref name="att.global.analytic.attributes"/>
+                            <rng:ref name="att.global.facs.attributes"/>
+                            <rng:ref name="att.global.change.attributes"/>
+                            <rng:group>
+                                <rng:ref name="fileDesc"/>
+                                <rng:ref name="encodingDesc"/>
+                                <!-- profileDesc removed -->
+                                <rng:ref name="revisionDesc"/>
+                            </rng:group>
+                        </content>
+                    </elementSpec>
                     <!-- end: Modifications to the header -->
 
                     <elementSpec ident="surface" module="transcr" mode="change">
