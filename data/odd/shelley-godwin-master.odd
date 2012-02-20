@@ -173,6 +173,8 @@
                         </content>
                     </elementSpec>
                     
+                    <elementSpec ident="publicationStmt" module="header" mode="change"></elementSpec>
+                    
                     <!-- sourceDesc should take the form of a well-structured msDesc entry -->
                     <elementSpec ident="sourceDesc" module="header" mode="change">
                         <content>
