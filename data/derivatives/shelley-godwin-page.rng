@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-17T14:33:37Z. 
+Schema generated from ODD source 2012-02-19T17:54:13Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -3232,17 +3232,45 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-patt.global.attribute.att-value"/>
       <ref name="sga-patt.global.attribute.xmlid"/>
       <ref name="sga-patt.global.attribute.n"/>
-      <optional>
-        <attribute name="rend">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
-          <list>
-            <ref name="sga-pdata.word"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.word"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
+      <attribute name="rend">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
+        <list>
+          <choice>
+            <value>hyphenated</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>underline</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>double-underline</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>bold</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>caps</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>italic</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>sup</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          </choice>
+          <zeroOrMore>
+            <choice>
+              <value>hyphenated</value>
+              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+              <value>underline</value>
+              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+              <value>double-underline</value>
+              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+              <value>bold</value>
+              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+              <value>caps</value>
+              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+              <value>italic</value>
+              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+              <value>sup</value>
+              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+          </zeroOrMore>
+        </list>
+      </attribute>
       <ref name="sga-patt.global.linking.attributes"/>
       <ref name="sga-patt.global.facs.attributes"/>
       <empty/>

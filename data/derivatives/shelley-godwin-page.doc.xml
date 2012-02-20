@@ -1603,10 +1603,10 @@ element headLabel { <ref target="#TEI.sga-patt.global">sga-patt.global.attribute
                 &lt;label&gt;.
   </cell></row></table></div><div type="refdoc" xml:id="TEI.hi"><head>&lt;hi&gt;</head><index indexName="ODDS"><term sortKey="hi">&lt;hi&gt;</term><index indexName="ODDS"><term sortKey="rend">@rend</term></index></index><table rend="wovenodd"><row><cell cols="2" rend="wovenodd-col2"><hi rend="label">&lt;hi&gt; </hi>(<seg>highlighted</seg>) <seg>marks a word or phrase as graphically distinct from the
         surrounding text, for reasons concerning which no claim is
-        made. </seg> [<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQHE">3.3.2.2. </ref> <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQH">3.3.2. </ref>]</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Module</hi></cell><cell rend="wovenodd-col2">core</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Attributes</hi></cell><cell rend="wovenodd-col2"><seg xml:lang="en">Attributes </seg><ref target="#TEI.att.global">att.global</ref> (<hi rend="attribute">@el-target</hi>, <hi rend="attribute">@att-target</hi>, <hi rend="attribute">@att-value</hi>, <hi rend="attribute">@xml:id</hi>, <hi rend="attribute">@n</hi>, <hi rend="attribute">@rend</hi>)<c xml:space="preserve"> </c> (<ref target="#TEI.att.global.linking">att.global.linking</ref> (<hi rend="attribute">@corresp</hi>, <hi rend="attribute">@next</hi>, <hi rend="attribute">@prev</hi>))  (<ref target="#TEI.att.global.facs">att.global.facs</ref> (<hi rend="attribute">@facs</hi>)) <table rend="attList"><attRef n="2" name="att.global.attribute.el-target"/><attRef n="2" name="att.global.attribute.att-target"/><attRef n="2" name="att.global.attribute.att-value"/><attRef n="3-2" name="att.global.attribute.xmlid"/><attRef n="3-2" name="att.global.attribute.n"/><row><cell rend="odd_label">rend</cell><cell rend="odd_value">(<seg>rendition</seg>) <seg>indicates how the element in question was rendered or presented in the source text.</seg><table rend="attDef"><row><cell rend="odd_label"><hi rend="label" xml:lang="en">Status</hi> </cell><cell rend="odd_value"><seg xml:lang="en">Optional</seg></cell></row><row><cell rend="odd_label"><hi xml:lang="en" rend="label">Datatype</hi> </cell><cell rend="odd_value"> 1–∞ <seg xml:lang="en">occurrences of</seg> <eg rend="eg_rnc">
+        made. </seg> [<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQHE">3.3.2.2. </ref> <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQH">3.3.2. </ref>]</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Module</hi></cell><cell rend="wovenodd-col2">core</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Attributes</hi></cell><cell rend="wovenodd-col2"><seg xml:lang="en">Attributes </seg><ref target="#TEI.att.global">att.global</ref> (<hi rend="attribute">@el-target</hi>, <hi rend="attribute">@att-target</hi>, <hi rend="attribute">@att-value</hi>, <hi rend="attribute">@xml:id</hi>, <hi rend="attribute">@n</hi>, <hi rend="attribute">@rend</hi>)<c xml:space="preserve"> </c> (<ref target="#TEI.att.global.linking">att.global.linking</ref> (<hi rend="attribute">@corresp</hi>, <hi rend="attribute">@next</hi>, <hi rend="attribute">@prev</hi>))  (<ref target="#TEI.att.global.facs">att.global.facs</ref> (<hi rend="attribute">@facs</hi>)) <table rend="attList"><attRef n="2" name="att.global.attribute.el-target"/><attRef n="2" name="att.global.attribute.att-target"/><attRef n="2" name="att.global.attribute.att-value"/><attRef n="3-2" name="att.global.attribute.xmlid"/><attRef n="3-2" name="att.global.attribute.n"/><row><cell rend="odd_label">rend</cell><cell rend="odd_value">(<seg>rendition</seg>) <seg>indicates how the element in question was rendered or presented in the source text.</seg><table rend="attDef"><row><cell rend="odd_label"><hi rend="label" xml:lang="en">Status</hi> </cell><cell rend="odd_value"><seg xml:lang="en"><hi rend="required">Required</hi></seg></cell></row><row><cell rend="odd_label"><hi xml:lang="en" rend="label">Datatype</hi> </cell><cell rend="odd_value"> 1–∞ <seg xml:lang="en">occurrences of</seg> <eg rend="eg_rnc">
 <ref target="#TEI.data.word">data.word</ref></eg><seg xml:lang="en">separated by whitespace</seg></cell></row><row><cell rend="odd_label"><hi rend="label" xml:lang="en">Values</hi> </cell><cell rend="attribute">may contain any number of tokens, each of which may
       contain letters, punctuation marks, or symbols, but not
-      word-separating characters.</cell></row><row><cell cols="2">
+      word-separating characters.</cell></row><row><cell rend="odd_label"><hi rend="label" xml:lang="en">Legal values are:</hi></cell><cell rend="odd_value"><list rend="valList"><label rend="odd_label">hyphenated</label><item rend="odd_value"/><label rend="odd_label">underline</label><item rend="odd_value"/><label rend="odd_label">double-underline</label><item rend="odd_value"/><label rend="odd_label">bold</label><item rend="odd_value"/><label rend="odd_label">caps</label><item rend="odd_value"/><label rend="odd_label">italic</label><item rend="odd_value"/><label rend="odd_label">sup</label><item rend="odd_value"/></list></cell></row><row><cell cols="2">
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="en"><head rend="align(center) case(allcaps)"><lb/>To The <lb/>Duchesse <lb/>of <lb/>Newcastle,
             <lb/>On Her <lb/><hi rend="case(mixed)">New Blazing-World</hi>. </head></egXML>
         
@@ -1624,7 +1624,30 @@ element hi
    <ref target="#TEI.sga-patt.global">sga-patt.global.attribute.att-value</ref>,
    <ref target="#TEI.sga-patt.global">sga-patt.global.attribute.xmlid</ref>,
    <ref target="#TEI.sga-patt.global">sga-patt.global.attribute.n</ref>,
-   attribute rend { list { <ref target="#TEI.data.word">data.word</ref>, <ref target="#TEI.data.word">data.word</ref>* } }?,
+   attribute rend
+   {
+      list
+      {
+         (
+            "hyphenated"
+          | "underline"
+          | "double-underline"
+          | "bold"
+          | "caps"
+          | "italic"
+          | "sup"
+         ),
+         (
+            "hyphenated"
+          | "underline"
+          | "double-underline"
+          | "bold"
+          | "caps"
+          | "italic"
+          | "sup"
+         )*
+      }
+   },
    <ref target="#TEI.sga-patt.global.linking">sga-patt.global.linking.attributes</ref>,
    <ref target="#TEI.sga-patt.global.facs">sga-patt.global.facs.attributes</ref>,
    <ref target="#TEI.macro.paraContent">macro.paraContent</ref>

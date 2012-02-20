@@ -429,8 +429,8 @@
 
                     <elementSpec ident="hi" module="core" mode="change">
                         <attList>
-                            <attDef ident="rend" mode="change">
-                                <valList type="closed">
+                            <attDef ident="rend" mode="change" usage="req">
+                                <valList type="closed" mode="replace">
                                     <valItem ident="hyphenated"/>
                                     <valItem ident="underline"/>
                                     <valItem ident="double-underline"/>
