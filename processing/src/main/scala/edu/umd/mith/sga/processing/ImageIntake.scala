@@ -27,7 +27,7 @@ import org.eclipse.egit.github.core.client._
 import org.eclipse.egit.github.core.service._
 
 /**
- * Usage: ImageIntake username password tiffDir teiDir (count) start
+ * Usage: ImageIntake username password tiffDir teiDir (count) (start)
  */
 object ImageIntake extends App {
   assert(args.length > 4)
