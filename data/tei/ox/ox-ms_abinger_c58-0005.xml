@@ -3,70 +3,70 @@
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0005" ulx="0" uly="0" lrx="5088" lry="7082"
-  partOf="#ox-ms_abinger_c58-0005">
+  xml:id="ox-ms_abinger_c58-0005" ulx="0" uly="0" lrx="5088" lry="7082" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0005.tif"/>
   <zone><milestone unit="tei:div"/>
     <line ns1:el-target="head" ns1:att-target="type" ns1:att-value="main">Chapt. 2</line>
     <milestone unit="tei:p"/>
     <line>Those events which materially influence <unclear extent="3" unit="chars">our</unclear>
-      <unclear extent="2" unit="chars" precision="low"/></line>
-    <line>true destinies <del type="strikethrough"><handShift medium="blackInk"/>are</del> often
+      fut</line>
+    <line>ture destinies <del type="strikethrough"><handShift medium="blackInk"/>are</del> often
         <add place="above"><handShift medium="blackInk"/>derive their origin from a <del
           type="strikethrough">caused by</del>
-        <del type="strikethrough">slight as</del></add>
-      <unclear extent="3" unit="chars" precision="low">few</unclear></line>
-    <line>vial occurrence<del type="strikethrough"><handShift medium="blackInk"/>s</del>. <delSpan
-        type="strikethrough" spanTo="#spn1"/>Strange as the <del type="strikethrough">statement of
-        this</del>simple fact</line>
-    <line><del type="strikethrough">may appear my fate had been <unclear extent="6" unit="chars"
-        /></del> later</line>
-    <line><unclear extent="3" unit="chars"/> philosophy <unclear extent="3" unit="chars"
-        >has</unclear>is the genius that <gap reason="invisible"/></line><line>regulated my fate. I
-        <add place="above"><handShift medium="blackInk"/><del type="strikethrough"
-        >want</del>desire</add> the<add place="superimposed"><handShift medium="blackInk"
-        />refore</add> in this account</line>
-    <line>of my early years to state those facts which led to my <del type="strikethrough"
-        >love</del>
-      <mod type="subst"><add place="above"><handShift medium="blackInk"/><del type="strikethrough"
-              ><unclear extent="8" unit="chars" precision="low"/>of that study</del>first <unclear
-            extent="3" unit="chars">age</unclear>predilection for that science</add></mod>
+        <del type="strikethrough">slight as</del></add> tri</line>
+    <line>vial occurence<del type="strikethrough"><handShift medium="blackInk"/>s</del>. <del
+        type="strikethrough"/>Strange as the <del type="strikethrough">statement of this</del>simple
+      fact</line>
+    <line><del type="strikethrough">may appear my fate had been</del>
+      <del type="strikethrough">Chemist</del> Nat</line>
+    <line>ral philosophy <del type="strikethrough">has</del> is the genius that <gap
+        reason="invisible"/></line><line>regulated my fate. I <add place="above"><handShift
+          medium="blackInk"/><del type="strikethrough">wish</del>desire</add> the<add
+        place="superimposed"><handShift medium="blackInk"/>refore</add> in this account</line>
+    <line>of my early years to state those facts which</line>
+    <line>led to my <del type="strikethrough">love</del>
+      <mod type="subst"><handShift medium="blackInk"/><del type="strikethrough">pursuit of that
+          study</del><add place="above">
+          <del type="strikethrough">first aqu</del>predilection for that science</add></mod>
       When</line>
     <line>I was eleven years old we all went on a party</line>
     <line>of pleasure to <mod type="subst"><handShift medium="blackInk"/><del type="strikethrough"
-            ><unclear extent="6" unit="chars" precision="low">Thonon</unclear></del><add
-          place="above">the baths near Thonon</add></mod>
-      <del type="strikethrough">and were confined there</del></line><line><unclear extent="2"
-        unit="chars"/><unclear extent="3" unit="chars"/>
-      <del type="strikethrough">obliged by the rain</del>
-      <del type="strikethrough"><handShift medium="blackInk"/>and</del> the inclemen</line>
-    <line>cy of the weather obliged us to remain a day</line><line>confined to the inn. In this
-      house I chanced</line>
-    <line>to find a <unclear extent="2" unit="chars" precision="low"><del>few</del></unclear>
-        volume<unclear extent="1" unit="chars"><del>s</del></unclear> of the works of Corn</line>
+          >Thonon</del><add place="above">the <add rend="superimposed"
+          >baths</add> <handShift/>ea<handShift medium="blackInk"/>near
+          Thonon</add></mod>
+      <del type="strikethrough">and were confined there</del></line>
+    <line><mod type="subst"><del type="strikethrough">b</del>
+        <del type="strikethrough">obil</del>
+        <del type="strikethrough">obliged by the rain</del></mod>
+      <del type="strikethrough"><handShift medium="blackInk"/>and</del>
+      <add rend="superimposed">T</add>he inclemen</line>
+    <line>cy of the weather obliged us to remain a day</line>
+    <line>confined to the inn. In this house I chanced</line>
+    <line>to find a <del type="strikethrough">fo</del> volume<del type="strikethrough">s</del> of
+      the works of Corn</line>
     <line>elius Agrippa<unclear>.</unclear>
-      <del type="strikethrough">and</del> I opened it with apathy</line>
-    <line><mod type="subst"><handShift medium="blackInk"/><del type="strikethrough">but <unclear
-            extent="10" unit="chars"/></del><add place="above">The theory that he attempted to
-          demonstrate and the wonderful facts <unclear extent="4" unit="chars" precision="low"
-            >that</unclear></add><add place="below">he states <del type="strikethrough"
-          >chan</del>soon changed this feeling into</add></mod> enthusiasm A new</line>
-    <line>light dawned upon my mind and <del type="strikethrough">soon</del></line>
+      <del type="strikethrough">And</del> I opened it with apathy</line>
+    <line><mod type="subst"><del type="strikethrough">but continued <unclear extent="5" unit="chars"
+            precision="low">to re</unclear> with</del><handShift medium="blackInk"/><del
+          type="strikethrough">but</del><add place="above">The theory that he attempted to
+          demonstrate and the wonderful facts that</add></mod> enthusiasm. A new<mod type="subst"
+          ><add place="below">he states <del type="strikethrough">chan</del>soon changed this
+          feeling into</add></mod></line>
+    <line>light dawned upon my mind and <del type="strikethrough">I com</del></line>
     <line>bounding with joy I communicated my</line>
     <line>discovery to my father. I cannot help here remark</line>
-    <line>ing the many opportunities <add place="above"><del type="strikethrough"
-        >parents</del>instructors</add>
-      <mod type="subst"><handShift medium="blackInk"/><add place="above"><del type="strikethrough"
-            >have</del>have to</add></mod></line>
+    <line>ing the many opportunities <mod type="subst"><del type="strikethrough"
+      >parents</del><add place="below">^</add><add place="above">instructors</add></mod>
+      <mod type="subst"><handShift medium="blackInk"/><del type="strikethrough">have</del><add
+          place="above">possess</add></mod></line>
     <line>of directing the attention of their pupils to</line>
     <line>useful knowledge which they utterly neglect.</line>
     <line>My father looked carefully at the title page</line>
-    <line>of my book <del type="strikethrough"><unclear extent="2" unit="chars" precision="low"
-          >as</unclear></del> and said ah! Cornelius</line>
-    <line>Agrippa! My dear Victor do not waste</line>
+    <line>of my book —<del type="strikethrough">Ah</del> and said ah! Cornelius</line>
+    <line>Agrippa!— My dear Victor do not waste</line>
     <line>your time upon this it is sad trash</line>
     <line>If instead of this remark or rather excla</line>
     <line>mation my father had taken the pains to</line>
-    <line>exp<add><del type="strikethrough">ound</del>lain</add> to me that the principles of</line>
+    <line>exp<mod type="subst"><del type="strikethrough">ound</del><add place="above">lain</add></mod> to me that the principles of</line>
   </zone>
 </surface>
