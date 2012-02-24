@@ -36,7 +36,10 @@
     <line>object but what would be the glory</line>
     <line> of the discovery if I could <mod><del rend="overstrike">besto</del> <del rend="overstrike">forever</del></mod></line>
     <line>banish disease from the human frame</line>
-    <line><mod><add place="supralinear">invunerable to</add></mod></line>
-    <line>and render man <mod><del rend="overstrike">unatainable</del> <del rend="overstrike">by</del></mod> any</line>	
+    <line>and render man 
+      <mod type="subst">
+        <del rend="overstrike">unatainable</del><del rend="overstrike">by</del>
+      <add place="supralinear">invunerable to</add>
+      </mod> any</line>	
     </zone>
 </surface>
