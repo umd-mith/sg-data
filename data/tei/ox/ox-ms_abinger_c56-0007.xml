@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0007" ulx="0" uly="0" lrx="5088" lry="7082">
+            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0007" ulx="0" uly="0" lrx="5088" lry="7082">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0007.tif"/>
-  <zone>
-    <line>2</line>
-    <line>definite censure of my favorite Agrippa,</line>
-    <line>always withheld me. <mod><del rend="overstrike">I let</del></mod> I disclosed my secret</line>
-    <line>to Elizabeth therefore, under a strict promise</line>
-    <line>of secrecy; but she did not interest herself</line>	
-    <line>in <mod type="subst">
-      <del rend="overstrike">them</del>
-        <del rend="overstrike"><add hand="PBS" place="supralinear">my</add></del>
-      <add hand="PBS" place="supralinear">the subject,</add>
-    </mod> and I was left by her to pursue</line>
-    <line>my studies alone.–</line>
-    <line>It may appear very strange that a desci</line>
-    <line>ple of Albertus Magnus should arise in the</line>    
-    <line>eighteenth century, but our family was not</line>
-    <line>scientifical, and I <mod type="subst">
-      <del rend="overstrike">did</del>
-    <add hand="PBS" place="supralinear">had</add>
-      </mod>
-     not attend<mod><add hand="PBS" place="intralinear">ed</add></mod> any of the</line>
-    <line> lectures given at Geneva.  My dreams were</line>
-    <line> therefore undisturbed by reality, and I entered</line>	
-    <line>with the greates diligence into the search</line>
-   <line> of the philosophers stone and the <mod type="note"><add hand="PBS" place="supralinear">or if you chose petrum philosophale</add></mod>
-     <mod type="subst">
-       <del rend="overstrike">elizer vi</del>
-       <add hand="PBS" place="supralinear">elixer of life</add>
-     </mod></line>
-    <line><mod><del rend="overstrike">tæ</del></mod>.  But the latter obtained my most undi</line>
-    <line>ved attention; wealth was an inferior</line>
-    <line>object but what would be the glory</line>
-    <line> of the discovery if I could <mod><del rend="overstrike">besto</del> <del rend="overstrike">forever</del></mod></line>
-    <line>banish disease from the human frame</line>
-    <line>and render man 
-      <mod type="subst">
-        <del rend="overstrike">unatainable</del><del rend="overstrike">by</del>
-      <add place="supralinear">invunerable to</add>
-      </mod> any</line>	
+    <zone>
     </zone>
 </surface>
