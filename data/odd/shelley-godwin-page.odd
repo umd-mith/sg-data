@@ -36,7 +36,8 @@
                 workflow</change>
             <change when="2012-02-14" who="tmunoz">Finished section on workflow</change>
             <change when="2012-02-16" who="tmunoz">Revision of workflow section</change>
-            <change when="2012-02-17" who="tmunoz">Finished quick overview of basic principles.</change>
+            <change when="2012-02-17" who="tmunoz">Finished quick overview of basic
+                principles.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -196,12 +197,14 @@
                     <head>Outline of a page-level transcription</head>
                     <p>The structure of an XML file containing a transcription of a single page in
                         accordance with the SGA encoding model can be summarized as follows:</p>
-                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:tei="http://www.tei-c.org/ns/1.0">
-                        <surface
-                            xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0"
-                            uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"
+                        xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <surface xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier"
+                            ulx="0" uly="0" lrx="4038" lry="5320"
+                            partOf="pointer_to_item_identifier">
                             <graphic url="pointer_to_img_url"/>
-                            <zone>[Transcription of one two-dimensional area within a surface]</zone>
+                            <zone>[Transcription of one two-dimensional area within a
+                                surface]</zone>
                             <zone>
                                 <milestone/>
                                 <line>[Transcription of a physical line of the document]</line>
@@ -258,7 +261,12 @@
                 </div>
             </div>
             <div xml:id="diplomatic_transcriptions">
-                
+                <head>Diplomatic Transcriptions</head>
+                <p>As noted above, the primary goal of the encoding for this project is to produce
+                    high-quality diplomatic transcriptions to accompany the new high-resolution page
+                    images produced for the Archive. It is therefore worth saying a little more
+                    about diplomatic transcriptions.</p>
+                <!-- Goal is to accurately record what is on the page while adding information beyond what could be discerned from the image alone -->
             </div>
             <div xml:id="spec">
                 <head>Technical documentation</head>
