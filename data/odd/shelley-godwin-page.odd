@@ -201,7 +201,7 @@
                             xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0"
                             uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
                             <graphic url="pointer_to_img_url"/>
-                            <zone>[Transcription of one two-dimensional area]</zone>
+                            <zone>[Transcription of one two-dimensional area within a surface]</zone>
                             <zone>
                                 <milestone/>
                                 <line>[Transcription of a physical line of the document]</line>
