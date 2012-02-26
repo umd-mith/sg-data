@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-02-19T18:37:08Z. 
+Schema generated from ODD source 2012-02-25T19:56:56Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -2876,21 +2876,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sgamodel.placeNamePart_sequenceRepeatable"/>
     </oneOrMore>
   </define>
-  <define name="sgamodel.publicationStmtPart">
-    <choice>
-      <ref name="sgadate"/>
-      <ref name="sgadistributor"/>
-      <ref name="sgaauthority"/>
-      <ref name="sgaidno"/>
-      <ref name="sgaavailability"/>
-    </choice>
-  </define>
-  <define name="sgamodel.availabilityPart">
-    <choice>
-      <ref name="sgap"/>
-      <ref name="sgalicence"/>
-    </choice>
-  </define>
   <define name="sgamodel.glossLike">
     <choice>
       <ref name="sgadesc"/>
@@ -3402,28 +3387,52 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sgamodel.imprintPart">
     <choice>
+      <ref name="sgapublisher"/>
+      <ref name="sgapubPlace"/>
       <ref name="sgadistributor"/>
     </choice>
   </define>
   <define name="sgamodel.imprintPart_alternation">
     <choice>
+      <ref name="sgapublisher"/>
+      <ref name="sgapubPlace"/>
       <ref name="sgadistributor"/>
     </choice>
   </define>
   <define name="sgamodel.imprintPart_sequence">
+    <ref name="sgapublisher"/>
+    <ref name="sgapubPlace"/>
     <ref name="sgadistributor"/>
   </define>
   <define name="sgamodel.imprintPart_sequenceOptional">
+    <optional>
+      <ref name="sgapublisher"/>
+    </optional>
+    <optional>
+      <ref name="sgapubPlace"/>
+    </optional>
     <optional>
       <ref name="sgadistributor"/>
     </optional>
   </define>
   <define name="sgamodel.imprintPart_sequenceOptionalRepeatable">
     <zeroOrMore>
+      <ref name="sgapublisher"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="sgapubPlace"/>
+    </zeroOrMore>
+    <zeroOrMore>
       <ref name="sgadistributor"/>
     </zeroOrMore>
   </define>
   <define name="sgamodel.imprintPart_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="sgapublisher"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sgapubPlace"/>
+    </oneOrMore>
     <oneOrMore>
       <ref name="sgadistributor"/>
     </oneOrMore>
@@ -3462,6 +3471,34 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <optional>
       <ref name="sgaaccMat"/>
     </optional>
+  </define>
+  <define name="sgamodel.addressLike">
+    <choice>
+      <ref name="sgaaddress"/>
+    </choice>
+  </define>
+  <define name="sgamodel.addressLike_alternation">
+    <choice>
+      <ref name="sgaaddress"/>
+    </choice>
+  </define>
+  <define name="sgamodel.addressLike_sequence">
+    <ref name="sgaaddress"/>
+  </define>
+  <define name="sgamodel.addressLike_sequenceOptional">
+    <optional>
+      <ref name="sgaaddress"/>
+    </optional>
+  </define>
+  <define name="sgamodel.addressLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="sgaaddress"/>
+    </zeroOrMore>
+  </define>
+  <define name="sgamodel.addressLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="sgaaddress"/>
+    </oneOrMore>
   </define>
   <define name="sgamodel.nameLike">
     <choice>
@@ -3556,6 +3593,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <choice>
       <ref name="sgamodel.dateLike"/>
       <ref name="sgamodel.measureLike"/>
+      <ref name="sgamodel.addressLike"/>
       <ref name="sgamodel.nameLike"/>
     </choice>
   </define>
@@ -3563,12 +3601,14 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <choice>
       <ref name="sgamodel.dateLike_alternation"/>
       <ref name="sgamodel.measureLike_alternation"/>
+      <ref name="sgamodel.addressLike_alternation"/>
       <ref name="sgamodel.nameLike_alternation"/>
     </choice>
   </define>
   <define name="sgamodel.pPart.data_sequence">
     <ref name="sgamodel.dateLike_sequence"/>
     <ref name="sgamodel.measureLike_sequence"/>
+    <ref name="sgamodel.addressLike_sequence"/>
     <ref name="sgamodel.nameLike_sequence"/>
   </define>
   <define name="sgamodel.pPart.data_sequenceOptional">
@@ -3577,6 +3617,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </optional>
     <optional>
       <ref name="sgamodel.measureLike_sequenceOptional"/>
+    </optional>
+    <optional>
+      <ref name="sgamodel.addressLike_sequenceOptional"/>
     </optional>
     <optional>
       <ref name="sgamodel.nameLike_sequenceOptional"/>
@@ -3590,6 +3633,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sgamodel.measureLike_sequenceOptionalRepeatable"/>
     </zeroOrMore>
     <zeroOrMore>
+      <ref name="sgamodel.addressLike_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+    <zeroOrMore>
       <ref name="sgamodel.nameLike_sequenceOptionalRepeatable"/>
     </zeroOrMore>
   </define>
@@ -3599,6 +3645,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </oneOrMore>
     <oneOrMore>
       <ref name="sgamodel.measureLike_sequenceRepeatable"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="sgamodel.addressLike_sequenceRepeatable"/>
     </oneOrMore>
     <oneOrMore>
       <ref name="sgamodel.nameLike_sequenceRepeatable"/>
@@ -4160,6 +4209,44 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <empty/>
     </element>
   </define>
+  <define name="sgaaddress">
+    <element name="address">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a postal  address, for example of a
+        publisher, an organization, or an individual. [3.5.2.  2.2.4.  3.11.2.3. ]</a:documentation>
+      <oneOrMore>
+        <ref name="sgaaddrLine"/>
+      </oneOrMore>
+      <ref name="sgaatt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sgaaddrLine">
+    <element name="addrLine">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(address line) contains one line of a postal address. [3.5.2.  2.2.4.  3.11.2.3. ]</a:documentation>
+      <ref name="sgamacro.phraseSeq"/>
+      <ref name="sgaatt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sgastreet">
+    <element name="street">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a full street address including any name or number identifying a
+        building as well as the name of the street or route on which it is
+        located. [3.5.2. ]</a:documentation>
+      <ref name="sgamacro.phraseSeq"/>
+      <ref name="sgaatt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sgapostCode">
+    <element name="postCode">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(postal code) contains a numerical or alphanumeric code used as part of a postal address to simplify
+        sorting or delivery of mail.  [3.5.2. ]</a:documentation>
+      <text/>
+      <ref name="sgaatt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
   <define name="sganum">
     <element name="num">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) contains a number, written in any form. [3.5.3. ]</a:documentation>
@@ -4634,24 +4721,14 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
     or do not apply. May also be used to encode information about individuals or organizations 
     which have played a role in the production or distribution of a bibliographic work. [3.11.2.2.  2.2.1.  2.2.2.  2.2.5. ]</a:documentation>
-      <choice>
-        <group>
-          <oneOrMore>
-            <ref name="sgaresp"/>
-          </oneOrMore>
-          <oneOrMore>
-            <ref name="sgamodel.nameLike.agent"/>
-          </oneOrMore>
-        </group>
-        <group>
-          <oneOrMore>
-            <ref name="sgamodel.nameLike.agent"/>
-          </oneOrMore>
-          <oneOrMore>
-            <ref name="sgaresp"/>
-          </oneOrMore>
-        </group>
-      </choice>
+      <group>
+        <oneOrMore>
+          <ref name="sgaresp"/>
+        </oneOrMore>
+        <oneOrMore>
+          <ref name="sgamodel.nameLike.agent"/>
+        </oneOrMore>
+      </group>
       <ref name="sgaatt.global.attributes"/>
       <empty/>
     </element>
@@ -4704,6 +4781,24 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
           <ref name="sgadata.enumerated"/>
         </attribute>
       </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="sgapublisher">
+    <element name="publisher">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides the name of the organization responsible for the publication or distribution of a
+        bibliographic item. [3.11.2.3.  2.2.4. ]</a:documentation>
+      <ref name="sgamacro.phraseSeq"/>
+      <ref name="sgaatt.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sgapubPlace">
+    <element name="pubPlace">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication place) contains the name of the place where a bibliographic item was published. [3.11.2.3. ]</a:documentation>
+      <ref name="sgamacro.phraseSeq"/>
+      <ref name="sgaatt.global.attributes"/>
+      <ref name="sgaatt.naming.attributes"/>
       <empty/>
     </element>
   </define>
@@ -4942,9 +5037,6 @@ Sample values include: 1] text; 2] corpus</a:documentation>
             <ref name="sgaextent"/>
           </optional>
           <ref name="sgapublicationStmt"/>
-          <optional>
-            <ref name="sgaseriesStmt"/>
-          </optional>
         </group>
         <oneOrMore>
           <ref name="sgasourceDesc"/>
@@ -4962,9 +5054,9 @@ Sample values include: 1] text; 2] corpus</a:documentation>
         <oneOrMore>
           <ref name="sgatitle"/>
         </oneOrMore>
-        <zeroOrMore>
-          <ref name="sgamodel.respLike"/>
-        </zeroOrMore>
+        <oneOrMore>
+          <ref name="sgarespStmt"/>
+        </oneOrMore>
       </group>
       <ref name="sgaatt.global.attributes"/>
       <empty/>
@@ -4999,17 +5091,7 @@ creation of an electronic text. [2.2.1. ]</a:documentation>
   <define name="sgaeditionStmt">
     <element name="editionStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sgamodel.pLike"/>
-        </oneOrMore>
-        <group>
-          <ref name="sgaedition"/>
-          <zeroOrMore>
-            <ref name="sgarespStmt"/>
-          </zeroOrMore>
-        </group>
-      </choice>
+      <ref name="sgaedition"/>
       <ref name="sgaatt.global.attributes"/>
       <empty/>
     </element>
@@ -5035,14 +5117,15 @@ creation of an electronic text. [2.2.1. ]</a:documentation>
     <element name="publicationStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other
     text.  [2.2.4.  2.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sgamodel.pLike"/>
-        </oneOrMore>
-        <oneOrMore>
-          <ref name="sgamodel.publicationStmtPart"/>
-        </oneOrMore>
-      </choice>
+      <ref name="sgapublisher"/>
+      <ref name="sgadistributor"/>
+      <ref name="sgapubPlace"/>
+      <ref name="sgaaddress"/>
+      <oneOrMore>
+        <ref name="sgaidno"/>
+      </oneOrMore>
+      <ref name="sgaavailability"/>
+      <ref name="sgadate"/>
       <ref name="sgaatt.global.attributes"/>
       <empty/>
     </element>
@@ -5088,11 +5171,7 @@ distribution of a text. [2.2.4. ]</a:documentation>
     <element name="availability">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the availability of a text, for example any restrictions on its
     use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. ]</a:documentation>
-      <oneOrMore>
-        <ref name="sgamodel.availabilityPart"/>
-      </oneOrMore>
-      <ref name="sgaatt.global.attributes"/>
-      <ref name="sgaatt.declarable.attributes"/>
+      <ref name="sgalicence"/>
       <optional>
         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="status" a:defaultValue="unknown">
           <a:documentation>supplies a code identifying the current availability of the text. </a:documentation>
@@ -5106,6 +5185,8 @@ distribution of a text. [2.2.4. ]</a:documentation>
           </choice>
         </attribute>
       </optional>
+      <ref name="sgaatt.global.attributes"/>
+      <ref name="sgaatt.declarable.attributes"/>
       <empty/>
     </element>
   </define>
@@ -6495,7 +6576,9 @@ publisher name), as given
           <text/>
           <ref name="sgamodel.gLike"/>
           <ref name="sgamodel.phrase"/>
+          <ref name="sgapubPlace"/>
           <ref name="sgadocDate"/>
+          <ref name="sgapublisher"/>
           <ref name="sgamodel.global"/>
         </choice>
       </zeroOrMore>

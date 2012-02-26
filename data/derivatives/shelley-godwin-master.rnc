@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace sga = "http://sga.mith.org/ns/1.0"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-19T18:37:08Z. 
+# Schema generated from ODD source 2012-02-25T19:56:56Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1312,9 +1312,6 @@ sgamodel.placeStateLike_sequenceOptionalRepeatable =
   sgamodel.placeNamePart_sequenceOptionalRepeatable*
 sgamodel.placeStateLike_sequenceRepeatable =
   sgamodel.placeNamePart_sequenceRepeatable+
-sgamodel.publicationStmtPart =
-  sgadate | sgadistributor | sgaauthority | sgaidno | sgaavailability
-sgamodel.availabilityPart = sgap | sgalicence
 sgamodel.glossLike = sgadesc | sgagloss
 sgamodel.quoteLike = sgacit
 sgamodel.quoteLike_alternation = sgacit
@@ -1503,12 +1500,17 @@ sgamodel.choicePart =
   | sgaex
   | sgaam
   | sgaseg
-sgamodel.imprintPart = sgadistributor
-sgamodel.imprintPart_alternation = sgadistributor
-sgamodel.imprintPart_sequence = sgadistributor
-sgamodel.imprintPart_sequenceOptional = sgadistributor?
-sgamodel.imprintPart_sequenceOptionalRepeatable = sgadistributor*
-sgamodel.imprintPart_sequenceRepeatable = sgadistributor+
+sgamodel.imprintPart = sgapublisher | sgapubPlace | sgadistributor
+sgamodel.imprintPart_alternation =
+  sgapublisher | sgapubPlace | sgadistributor
+sgamodel.imprintPart_sequence =
+  sgapublisher, sgapubPlace, sgadistributor
+sgamodel.imprintPart_sequenceOptional =
+  sgapublisher?, sgapubPlace?, sgadistributor?
+sgamodel.imprintPart_sequenceOptionalRepeatable =
+  sgapublisher*, sgapubPlace*, sgadistributor*
+sgamodel.imprintPart_sequenceRepeatable =
+  sgapublisher+, sgapubPlace+, sgadistributor+
 sgamodel.catDescPart = notAllowed
 sgamodel.physDescPart_sequenceOptional =
   sgaobjectDesc?,
@@ -1521,6 +1523,12 @@ sgamodel.physDescPart_sequenceOptional =
   sgabindingDesc?,
   sgasealDesc?,
   sgaaccMat?
+sgamodel.addressLike = sgaaddress
+sgamodel.addressLike_alternation = sgaaddress
+sgamodel.addressLike_sequence = sgaaddress
+sgamodel.addressLike_sequenceOptional = sgaaddress?
+sgamodel.addressLike_sequenceOptionalRepeatable = sgaaddress*
+sgamodel.addressLike_sequenceRepeatable = sgaaddress+
 sgamodel.nameLike =
   sgamodel.nameLike.agent | sgamodel.placeStateLike | sgars | sgaidno
 sgamodel.nameLike_alternation =
@@ -1564,26 +1572,34 @@ sgamodel.biblPart =
   | sgamsIdentifier
 sgamodel.frontPart = sgatitlePage
 sgamodel.pPart.data =
-  sgamodel.dateLike | sgamodel.measureLike | sgamodel.nameLike
+  sgamodel.dateLike
+  | sgamodel.measureLike
+  | sgamodel.addressLike
+  | sgamodel.nameLike
 sgamodel.pPart.data_alternation =
   sgamodel.dateLike_alternation
   | sgamodel.measureLike_alternation
+  | sgamodel.addressLike_alternation
   | sgamodel.nameLike_alternation
 sgamodel.pPart.data_sequence =
   sgamodel.dateLike_sequence,
   sgamodel.measureLike_sequence,
+  sgamodel.addressLike_sequence,
   sgamodel.nameLike_sequence
 sgamodel.pPart.data_sequenceOptional =
   sgamodel.dateLike_sequenceOptional?,
   sgamodel.measureLike_sequenceOptional?,
+  sgamodel.addressLike_sequenceOptional?,
   sgamodel.nameLike_sequenceOptional?
 sgamodel.pPart.data_sequenceOptionalRepeatable =
   sgamodel.dateLike_sequenceOptionalRepeatable*,
   sgamodel.measureLike_sequenceOptionalRepeatable*,
+  sgamodel.addressLike_sequenceOptionalRepeatable*,
   sgamodel.nameLike_sequenceOptionalRepeatable*
 sgamodel.pPart.data_sequenceRepeatable =
   sgamodel.dateLike_sequenceRepeatable+,
   sgamodel.measureLike_sequenceRepeatable+,
+  sgamodel.addressLike_sequenceRepeatable+,
   sgamodel.nameLike_sequenceRepeatable+
 sgamodel.inter =
   sgamodel.egLike
@@ -2013,6 +2029,28 @@ sgars =
     attribute type { sgadata.enumerated }?,
     empty
   }
+sgaaddress =
+  
+  ## contains a postal  address, for example of a
+  ##         publisher, an organization, or an individual. [3.5.2.  2.2.4.  3.11.2.3. ]
+  element address { sgaaddrLine+, sgaatt.global.attributes, empty }
+sgaaddrLine =
+  
+  ## (address line) contains one line of a postal address. [3.5.2.  2.2.4.  3.11.2.3. ]
+  element addrLine {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgastreet =
+  
+  ## a full street address including any name or number identifying a
+  ##         building as well as the name of the street or route on which it is
+  ##         located. [3.5.2. ]
+  element street { sgamacro.phraseSeq, sgaatt.global.attributes, empty }
+sgapostCode =
+  
+  ## (postal code) contains a numerical or alphanumeric code used as part of a postal address to simplify
+  ##         sorting or delivery of mail.  [3.5.2. ]
+  element postCode { text, sgaatt.global.attributes, empty }
 sganum =
   
   ## (number) contains a number, written in any form. [3.5.3. ]
@@ -2407,8 +2445,7 @@ sgarespStmt =
   ##     or do not apply. May also be used to encode information about individuals or organizations 
   ##     which have played a role in the production or distribution of a bibliographic work. [3.11.2.2.  2.2.1.  2.2.2.  2.2.5. ]
   element respStmt {
-    ((sgaresp+, sgamodel.nameLike.agent+)
-     | (sgamodel.nameLike.agent+, sgaresp+)),
+    (sgaresp+, sgamodel.nameLike.agent+),
     sgaatt.global.attributes,
     empty
   }
@@ -2460,6 +2497,22 @@ sgatitle =
     ## classifies the title according to some convenient typology.
     ## Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
     attribute type { sgadata.enumerated }?,
+    empty
+  }
+sgapublisher =
+  
+  ## provides the name of the organization responsible for the publication or distribution of a
+  ##         bibliographic item. [3.11.2.3.  2.2.4. ]
+  element publisher {
+    sgamacro.phraseSeq, sgaatt.global.attributes, empty
+  }
+sgapubPlace =
+  
+  ## (publication place) contains the name of the place where a bibliographic item was published. [3.11.2.3. ]
+  element pubPlace {
+    sgamacro.phraseSeq,
+    sgaatt.global.attributes,
+    sgaatt.naming.attributes,
     empty
   }
 sgabibl =
@@ -2664,11 +2717,7 @@ sgafileDesc =
   
   ## (file description) contains a full bibliographic description of an electronic file. [2.2.  2.1.1. ]
   element fileDesc {
-    ((sgatitleStmt,
-      sgaeditionStmt?,
-      sgaextent?,
-      sgapublicationStmt,
-      sgaseriesStmt?),
+    ((sgatitleStmt, sgaeditionStmt?, sgaextent?, sgapublicationStmt),
      sgasourceDesc+),
     sgaatt.global.attributes,
     empty
@@ -2678,7 +2727,7 @@ sgatitleStmt =
   ## (title statement) groups information about the title of a work and those responsible for its intellectual
   ##     content. [2.2.1.  2.2. ]
   element titleStmt {
-    (sgatitle+, sgamodel.respLike*), sgaatt.global.attributes, empty
+    (sgatitle+, sgarespStmt+), sgaatt.global.attributes, empty
   }
 sgasponsor =
   
@@ -2703,11 +2752,7 @@ sgaprincipal =
 sgaeditionStmt =
   
   ## (edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]
-  element editionStmt {
-    (sgamodel.pLike+ | (sgaedition, sgarespStmt*)),
-    sgaatt.global.attributes,
-    empty
-  }
+  element editionStmt { sgaedition, sgaatt.global.attributes, empty }
 sgaedition =
   
   ## (edition) describes the particularities of one edition of a text. [2.2.2. ]
@@ -2724,7 +2769,13 @@ sgapublicationStmt =
   ## (publication statement) groups information concerning the publication or distribution of an electronic or other
   ##     text.  [2.2.4.  2.2. ]
   element publicationStmt {
-    (sgamodel.pLike+ | sgamodel.publicationStmtPart+),
+    sgapublisher,
+    sgadistributor,
+    sgapubPlace,
+    sgaaddress,
+    sgaidno+,
+    sgaavailability,
+    sgadate,
     sgaatt.global.attributes,
     empty
   }
@@ -2763,9 +2814,7 @@ sgaavailability =
   ## supplies information about the availability of a text, for example any restrictions on its
   ##     use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. ]
   element availability {
-    sgamodel.availabilityPart+,
-    sgaatt.global.attributes,
-    sgaatt.declarable.attributes,
+    sgalicence,
     
     ## supplies a code identifying the current availability of the text. 
     [ a:defaultValue = "unknown" ]
@@ -2780,6 +2829,8 @@ sgaavailability =
         ## the text is not freely available. 
         "restricted"
     }?,
+    sgaatt.global.attributes,
+    sgaatt.declarable.attributes,
     empty
   }
 sgalicence =
@@ -3672,7 +3723,9 @@ sgadocImprint =
     (text
      | sgamodel.gLike
      | sgamodel.phrase
+     | sgapubPlace
      | sgadocDate
+     | sgapublisher
      | sgamodel.global)*,
     sgaatt.global.attributes,
     empty

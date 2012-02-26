@@ -3,7 +3,7 @@
   <xs:import namespace="http://sga.mith.org/ns/1.0" schemaLocation="ns1.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2004/10/xml.xsd"/>
   <!--
-    Schema generated from ODD source 2012-02-19T18:37:08Z. 
+    Schema generated from ODD source 2012-02-25T19:56:56Z. 
     Edition: 2.0.2 Last updated on 2nd February 2012.
     Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
     
@@ -2914,21 +2914,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <xs:element maxOccurs="unbounded" ref="ns2:sp"/>
     </xs:sequence>
   </xs:group>
-  <xs:group name="sgamodel.publicationStmtPart">
-    <xs:choice>
-      <xs:element ref="ns2:date"/>
-      <xs:element ref="ns2:distributor"/>
-      <xs:element ref="ns2:authority"/>
-      <xs:element ref="ns2:idno"/>
-      <xs:element ref="ns2:availability"/>
-    </xs:choice>
-  </xs:group>
-  <xs:group name="sgamodel.availabilityPart">
-    <xs:choice>
-      <xs:element ref="ns2:p"/>
-      <xs:element ref="ns2:licence"/>
-    </xs:choice>
-  </xs:group>
   <xs:group name="sgamodel.glossLike">
     <xs:choice>
       <xs:element ref="ns2:desc"/>
@@ -3333,32 +3318,44 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     </xs:choice>
   </xs:group>
   <xs:group name="sgamodel.imprintPart">
-    <xs:sequence>
+    <xs:choice>
+      <xs:element ref="ns2:publisher"/>
+      <xs:element ref="ns2:pubPlace"/>
       <xs:element ref="ns2:distributor"/>
-    </xs:sequence>
+    </xs:choice>
   </xs:group>
   <xs:group name="sgamodel.imprintPart_alternation">
-    <xs:sequence>
+    <xs:choice>
+      <xs:element ref="ns2:publisher"/>
+      <xs:element ref="ns2:pubPlace"/>
       <xs:element ref="ns2:distributor"/>
-    </xs:sequence>
+    </xs:choice>
   </xs:group>
   <xs:group name="sgamodel.imprintPart_sequence">
     <xs:sequence>
+      <xs:element ref="ns2:publisher"/>
+      <xs:element ref="ns2:pubPlace"/>
       <xs:element ref="ns2:distributor"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="sgamodel.imprintPart_sequenceOptional">
     <xs:sequence>
+      <xs:element minOccurs="0" ref="ns2:publisher"/>
+      <xs:element minOccurs="0" ref="ns2:pubPlace"/>
       <xs:element minOccurs="0" ref="ns2:distributor"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="sgamodel.imprintPart_sequenceOptionalRepeatable">
     <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns2:publisher"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns2:pubPlace"/>
       <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns2:distributor"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="sgamodel.imprintPart_sequenceRepeatable">
     <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="ns2:publisher"/>
+      <xs:element maxOccurs="unbounded" ref="ns2:pubPlace"/>
       <xs:element maxOccurs="unbounded" ref="ns2:distributor"/>
     </xs:sequence>
   </xs:group>
@@ -3374,6 +3371,36 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <xs:element minOccurs="0" ref="ns2:bindingDesc"/>
       <xs:element minOccurs="0" ref="ns2:sealDesc"/>
       <xs:element minOccurs="0" ref="ns2:accMat"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sgamodel.addressLike">
+    <xs:sequence>
+      <xs:element ref="ns2:address"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sgamodel.addressLike_alternation">
+    <xs:sequence>
+      <xs:element ref="ns2:address"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sgamodel.addressLike_sequence">
+    <xs:sequence>
+      <xs:element ref="ns2:address"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sgamodel.addressLike_sequenceOptional">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="ns2:address"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sgamodel.addressLike_sequenceOptionalRepeatable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns2:address"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="sgamodel.addressLike_sequenceRepeatable">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="ns2:address"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="sgamodel.nameLike">
@@ -3440,6 +3467,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <xs:choice>
       <xs:group ref="ns2:sgamodel.dateLike"/>
       <xs:group ref="ns2:sgamodel.measureLike"/>
+      <xs:group ref="ns2:sgamodel.addressLike"/>
       <xs:group ref="ns2:sgamodel.nameLike"/>
     </xs:choice>
   </xs:group>
@@ -3447,6 +3475,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <xs:choice>
       <xs:group ref="ns2:sgamodel.dateLike_alternation"/>
       <xs:group ref="ns2:sgamodel.measureLike_alternation"/>
+      <xs:group ref="ns2:sgamodel.addressLike_alternation"/>
       <xs:group ref="ns2:sgamodel.nameLike_alternation"/>
     </xs:choice>
   </xs:group>
@@ -3454,6 +3483,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <xs:sequence>
       <xs:group ref="ns2:sgamodel.dateLike_sequence"/>
       <xs:group ref="ns2:sgamodel.measureLike_sequence"/>
+      <xs:group ref="ns2:sgamodel.addressLike_sequence"/>
       <xs:group ref="ns2:sgamodel.nameLike_sequence"/>
     </xs:sequence>
   </xs:group>
@@ -3461,6 +3491,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <xs:sequence>
       <xs:group minOccurs="0" ref="ns2:sgamodel.dateLike_sequenceOptional"/>
       <xs:group minOccurs="0" ref="ns2:sgamodel.measureLike_sequenceOptional"/>
+      <xs:group minOccurs="0" ref="ns2:sgamodel.addressLike_sequenceOptional"/>
       <xs:group minOccurs="0" ref="ns2:sgamodel.nameLike_sequenceOptional"/>
     </xs:sequence>
   </xs:group>
@@ -3468,6 +3499,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
     <xs:sequence>
       <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns2:sgamodel.dateLike_sequenceOptionalRepeatable"/>
       <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns2:sgamodel.measureLike_sequenceOptionalRepeatable"/>
+      <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns2:sgamodel.addressLike_sequenceOptionalRepeatable"/>
       <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns2:sgamodel.nameLike_sequenceOptionalRepeatable"/>
     </xs:sequence>
   </xs:group>
@@ -4159,6 +4191,53 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</xs:documentation>
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
+  <xs:element name="address">
+    <xs:annotation>
+      <xs:documentation>contains a postal  address, for example of a
+        publisher, an organization, or an individual. [3.5.2.  2.2.4.  3.11.2.3. ]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns2:addrLine"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addrLine">
+    <xs:annotation>
+      <xs:documentation>(address line) contains one line of a postal address. [3.5.2.  2.2.4.  3.11.2.3. ]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns2:sgamacro.phraseSeq">
+          <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="street">
+    <xs:annotation>
+      <xs:documentation>a full street address including any name or number identifying a
+        building as well as the name of the street or route on which it is
+        located. [3.5.2. ]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns2:sgamacro.phraseSeq">
+          <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="postCode">
+    <xs:annotation>
+      <xs:documentation>(postal code) contains a numerical or alphanumeric code used as part of a postal address to simplify
+        sorting or delivery of mail.  [3.5.2. ]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="num">
     <xs:annotation>
       <xs:documentation>(number) contains a number, written in any form. [3.5.3. ]</xs:documentation>
@@ -4790,16 +4869,10 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
     which have played a role in the production or distribution of a bibliographic work. [3.11.2.2.  2.2.1.  2.2.2.  2.2.5. ]</xs:documentation>
     </xs:annotation>
     <xs:complexType>
-      <xs:choice>
-        <xs:sequence>
-          <xs:element maxOccurs="unbounded" ref="ns2:resp"/>
-          <xs:group maxOccurs="unbounded" ref="ns2:sgamodel.nameLike.agent"/>
-        </xs:sequence>
-        <xs:sequence>
-          <xs:group maxOccurs="unbounded" ref="ns2:sgamodel.nameLike.agent"/>
-          <xs:element maxOccurs="unbounded" ref="ns2:resp"/>
-        </xs:sequence>
-      </xs:choice>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns2:resp"/>
+        <xs:group maxOccurs="unbounded" ref="ns2:sgamodel.nameLike.agent"/>
+      </xs:sequence>
       <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
     </xs:complexType>
   </xs:element>
@@ -4874,6 +4947,32 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
 Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) </xs:documentation>
             </xs:annotation>
           </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publisher">
+    <xs:annotation>
+      <xs:documentation>provides the name of the organization responsible for the publication or distribution of a
+        bibliographic item. [3.11.2.3.  2.2.4. ]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns2:sgamacro.phraseSeq">
+          <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pubPlace">
+    <xs:annotation>
+      <xs:documentation>(publication place) contains the name of the place where a bibliographic item was published. [3.11.2.3. ]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns2:sgamacro.phraseSeq">
+          <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
+          <xs:attributeGroup ref="ns2:sgaatt.naming.attributes"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -5176,7 +5275,6 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
           <xs:element minOccurs="0" ref="ns2:editionStmt"/>
           <xs:element minOccurs="0" ref="ns2:extent"/>
           <xs:element ref="ns2:publicationStmt"/>
-          <xs:element minOccurs="0" ref="ns2:seriesStmt"/>
         </xs:sequence>
         <xs:element maxOccurs="unbounded" ref="ns2:sourceDesc"/>
       </xs:sequence>
@@ -5191,7 +5289,7 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
     <xs:complexType>
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="ns2:title"/>
-        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns2:sgamodel.respLike"/>
+        <xs:element maxOccurs="unbounded" ref="ns2:respStmt"/>
       </xs:sequence>
       <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
     </xs:complexType>
@@ -5239,13 +5337,9 @@ creation of an electronic text. [2.2.1. ]</xs:documentation>
       <xs:documentation>(edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]</xs:documentation>
     </xs:annotation>
     <xs:complexType>
-      <xs:choice>
-        <xs:group maxOccurs="unbounded" ref="ns2:sgamodel.pLike"/>
-        <xs:sequence>
-          <xs:element ref="ns2:edition"/>
-          <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns2:respStmt"/>
-        </xs:sequence>
-      </xs:choice>
+      <xs:sequence>
+        <xs:element ref="ns2:edition"/>
+      </xs:sequence>
       <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
     </xs:complexType>
   </xs:element>
@@ -5280,10 +5374,15 @@ creation of an electronic text. [2.2.1. ]</xs:documentation>
     text.  [2.2.4.  2.2. ]</xs:documentation>
     </xs:annotation>
     <xs:complexType>
-      <xs:choice>
-        <xs:group maxOccurs="unbounded" ref="ns2:sgamodel.pLike"/>
-        <xs:group maxOccurs="unbounded" ref="ns2:sgamodel.publicationStmtPart"/>
-      </xs:choice>
+      <xs:sequence>
+        <xs:element ref="ns2:publisher"/>
+        <xs:element ref="ns2:distributor"/>
+        <xs:element ref="ns2:pubPlace"/>
+        <xs:element ref="ns2:address"/>
+        <xs:element maxOccurs="unbounded" ref="ns2:idno"/>
+        <xs:element ref="ns2:availability"/>
+        <xs:element ref="ns2:date"/>
+      </xs:sequence>
       <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
     </xs:complexType>
   </xs:element>
@@ -5341,35 +5440,43 @@ distribution of a text. [2.2.4. ]</xs:documentation>
     use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. ]</xs:documentation>
     </xs:annotation>
     <xs:complexType>
-      <xs:group maxOccurs="unbounded" ref="ns2:sgamodel.availabilityPart"/>
-      <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
-      <xs:attributeGroup ref="ns2:sgaatt.declarable.attributes"/>
-      <xs:attribute name="status" default="unknown">
-        <xs:annotation>
-          <xs:documentation>supplies a code identifying the current availability of the text. </xs:documentation>
-        </xs:annotation>
-        <xs:simpleType>
-          <xs:restriction base="xs:token">
-            <xs:enumeration value="free">
-              <xs:annotation>
-                <xs:documentation>the text is freely available. </xs:documentation>
-              </xs:annotation>
-            </xs:enumeration>
-            <xs:enumeration value="unknown">
-              <xs:annotation>
-                <xs:documentation>the status of the text is unknown. </xs:documentation>
-              </xs:annotation>
-            </xs:enumeration>
-            <xs:enumeration value="restricted">
-              <xs:annotation>
-                <xs:documentation>the text is not freely available. </xs:documentation>
-              </xs:annotation>
-            </xs:enumeration>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:attribute>
+      <xs:complexContent>
+        <xs:extension base="ns2:sgalicence">
+          <xs:attribute name="status" default="unknown">
+            <xs:annotation>
+              <xs:documentation>supplies a code identifying the current availability of the text. </xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="free">
+                  <xs:annotation>
+                    <xs:documentation>the text is freely available. </xs:documentation>
+                  </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="unknown">
+                  <xs:annotation>
+                    <xs:documentation>the status of the text is unknown. </xs:documentation>
+                  </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="restricted">
+                  <xs:annotation>
+                    <xs:documentation>the text is not freely available. </xs:documentation>
+                  </xs:annotation>
+                </xs:enumeration>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
+          <xs:attributeGroup ref="ns2:sgaatt.declarable.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
     </xs:complexType>
   </xs:element>
+  <xs:complexType name="sgalicence">
+    <xs:sequence>
+      <xs:element ref="ns2:licence"/>
+    </xs:sequence>
+  </xs:complexType>
   <xs:element name="licence">
     <xs:annotation>
       <xs:documentation>contains information about a licence or other legal agreement
@@ -6802,7 +6909,9 @@ publisher name), as given
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:group ref="ns2:sgamodel.gLike"/>
         <xs:group ref="ns2:sgamodel.phrase"/>
+        <xs:element ref="ns2:pubPlace"/>
         <xs:element ref="ns2:docDate"/>
+        <xs:element ref="ns2:publisher"/>
         <xs:group ref="ns2:sgamodel.global"/>
       </xs:choice>
       <xs:attributeGroup ref="ns2:sgaatt.global.attributes"/>
