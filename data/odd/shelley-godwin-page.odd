@@ -196,13 +196,12 @@
                     <head>Outline of a page-level transcription</head>
                     <p>The structure of an XML file containing a transcription of a single page in
                         accordance with the SGA encoding model can be summarized as follows:</p>
-                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                        <surface xmlns="http://www.tei-c.org/ns/1.0"
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <surface
                             xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0"
                             uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
                             <graphic url="pointer_to_img_url"/>
-                            <zone>[Transcription of one two-dimensional area within a
-                                surface]</zone>
+                            <zone>[Transcription of one two-dimensional area]</zone>
                             <zone>
                                 <milestone/>
                                 <line>[Transcription of a physical line of the document]</line>
@@ -257,6 +256,9 @@
                         because XML enforces a single document hierarchy and does not permit
                         overlap.</p>
                 </div>
+            </div>
+            <div xml:id="diplomatic_transcriptions">
+                
             </div>
             <div xml:id="spec">
                 <head>Technical documentation</head>
