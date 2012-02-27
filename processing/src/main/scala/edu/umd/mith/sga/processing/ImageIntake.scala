@@ -40,7 +40,6 @@ object ImageIntake extends App {
 
   def createImageURL(id: String) =
     "http://sga.mith.org/images/derivatives/%s/%s.jpg".format(id.substring(0, 2), id)
-    //"http://ec2-23-20-49-205.compute-1.amazonaws.com/sga/images/derivatives/%s/%s.jpg".format(id.substring(0, 2), id)
 
   def createThumbnailURL(id: String) =
     "http://sga.mith.org/images/thumbnails/%s/%s.jpg".format(id.substring(0, 2), id)
@@ -55,7 +54,9 @@ object ImageIntake extends App {
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface
-  xmlns="http://www.tei-c.org/ns/1.0" xml:id="%s"
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="%s"
   ulx="0" uly="0" lrx="%d" lry="%d">
   <graphic url="../../images/%s/%s.tif"/>
     <zone>
