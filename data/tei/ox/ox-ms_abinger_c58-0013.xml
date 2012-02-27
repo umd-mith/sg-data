@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?>
+<surface
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0013"
+  ulx="0" uly="0" lrx="5410" lry="6660">
+  <graphic url="../../images/ox/ox-ms_abinger_c58-0013.tif"/>
+    <zone>
+    </zone>
+</surface>
+
