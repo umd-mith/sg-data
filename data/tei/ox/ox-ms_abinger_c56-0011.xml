@@ -1,6 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0011" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0011" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0011.tif"/>
+  <zone>
+    <line><del rend="overstrike">sevr</del> servants had any request to make
+        <metamark>(41</metamark></line>
+    <line>it always through <mod>
+        <add place="supralinear">her</add>
+        <del rend="overstrike">the</del>
+      </mod> intercession <del rend="overstrike">of</del></line>
+    <line><del rend="overstrike">Elizabeth</del><del rend="overstrike"> For me I loved he</del>
+      <del rend="overstrike">We agre</del>ed</line>
+    <line>pe<del rend="overstrike">rfectly although there were many</del></line>
+    <line><del rend="overstrike"><add place="supalinear" hand="PBS">There</add></del>
+      <add place="supralinear" hand="PBS">For, although</add>was a great dissimilitude in our</line>
+    <line>characters.<metamark>X</metamark> I was more calm and phi</line>
+    <line>losphical than my companion</line>
+    <line>Yet I was not <del rend="overstrike">n</del> so mild or yielding.</line>
+    <line>My application was of longer endurance</line>
+    <line><del rend="overstrike">than hers</del> but it was not so severe</line>
+    <line><del rend="overstrike">as hers</del> whil<del>e</del><add type="overwrite" hand="PBS"
+        >st</add> it <mod>
+        <add place="supralinear" hand="PBS">endured</add>
+        <del rend="overstrike">lasted</del>
+      </mod>
+      <delSpan rend="overstrike" resp="PBS" spanTo="#f4del1"/>my amusements</line>
+    <line>were studying old books of chemistry</line>
+    <line>and natural magic those of Elizabeth were</line>
+    <line>dra wing &#38; music. <anchor xml:id="f4del1"/><metamark>X</metamark></line>
+    <line><del rend="overstrike">When I</del>
+      <del rend="overstrike">I had</del> My brothers were consi</line>
+    <line>derably younger than myself but I had</line>
+    <line>a friend <del rend="overstrike">who</del>
+      <del rend="overstrike">who</del> in one of my school</line>
+    <line>fellows who compensated for this. <add place="surpalinear" hand="PBS">deficiency.</add>
+      Henry</line>
+    <line><mod>
+        <add place="suparlinear">Clerval</add>
+        <del rend="overstrike">Carignan</del>
+      </mod> was the son<del rend="overstrike">s</del> of a merchant</line>
+    <line><del rend="overstrike">an</del> of Geneva <del rend="overstrike">and</del> an intimate
+      friend</line>
+    <line>of my father<del rend="overstrike">'s</del> – he was a boy of singu</line>
+    <line>lar talent &#38; <del rend="overstrike">fancy</del> fancy I remember</line>
+    <line>when he was only nine years old he</line>
+    <line>wrote a fairy tale which was the</line>
+    <line>delight and amazement of all his</line>
+    <line>companions. <del rend="overstrike">Like Don Quixote</del> his</line>
+    <line>favourite study <mod>
+        <add place="supralinear" hand="PBS">consisted in</add>
+        <del rend="overstrike">was</del>
+      </mod> books of chi</line>
+    <line>valry &#38; romance and <metamark>^</metamark>
+      <add place="supralinear" hand="PBS">when very young, I can</add>
+      <add place="sublinear" hand="PBS">remember that</add> we used to</line>
+    <line>act plays composed by him out of</line>
+    <line>th<del>is</del><add type="overwrite" hand="PBS">ese</add>
+      <del rend="overstrike">favourite</del> books, the principal</line>
+    <line><del rend="overstrike">car</del>characters of which were Orlando</line>
+    <line>Robin Hood, Amadis and St. George–</line>
+    <line>No youth could could be more happy</line>
+  </zone>
+  
+  <zone>
     <zone>
+      <addSpan place="leftmargin" hand="PBS" spanTo="#f4add2"/>
+      yet
+      <line>there was an</line>
+      <line>harmony in</line>
+      <line>that very diss</line>
+      <line>imilitude–</line><anchor xml:id="f4add2"/>
     </zone>
+    <zone>
+      <addSpan place="leftmargin" hand="PBS" spanTo="#f4add1"/>
+      <line>We were strangers</line>
+      <line>to any species</line>
+      <line>of disunion</line>
+      <line>or dispute</line>
+      <anchor xml:id="f4add1"/>
+     </zone>
+    <zone>
+      <metamark>X</metamark>
+      <addSpan place="leftmargin" hand="PBS" spanTo="#f4add3"/>
+        <line>I delighted in</line>
+        <line>investigating</line>
+        <line>the facts relating</line>
+        <line>to the actual</line>
+        <line>world, she</line>
+        <line>busied herself</line>
+        <line>in <metamark>^</metamark><add place="supralinear" hand="PBS">following</add> the aerial</line>
+        <line>creations of the</line>
+        <line>poets.– The</line>
+        <line>world was to me</line>
+        <line>a secret which</line>
+        <line>I desired to disco</line>
+        <line>-ver,–to her it</line>
+        <line>was a <del rend="overstrike">haven</del></line>
+        <line>vacancy which</line>
+        <line>she sought to</line>
+        <line>people with</line>
+        <line>imaginations of</line>
+        <line>her own.</line>
+        <anchor xml:id="f4add3"/>
+          
+    </zone>
+  </zone>
 </surface>
