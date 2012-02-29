@@ -11,7 +11,7 @@
     <line>of secrecy; but she did not interest herself</line>	
     <line>in <mod type="subst">
       <del rend="overstrike">them</del>
-        <del rend="overstrike"><add hand="PBS" place="supralinear">my</add></del>
+      <del rend="overstrike"><add hand="PBS" place="supralinear">my</add></del>
       <add hand="PBS" place="supralinear">the subject,</add>
     </mod> and I was left by her to pursue</line>
     <line>my studies alone.–</line>
@@ -20,7 +20,7 @@
     <line>eighteenth century, but our family was not</line>
     <line>scientifical, and I <mod type="subst">
       <del rend="overstrike">did</del>
-    <add hand="PBS" place="supralinear">had</add>
+      <add hand="PBS" place="supralinear">had</add>
       </mod>
      not attend<mod><add hand="PBS" place="intralinear">ed</add></mod> any of the</line>
     <line> lectures given at Geneva.  My dreams were</line>
@@ -38,8 +38,8 @@
     <line>banish disease from the human frame</line>
     <line>and render man 
       <mod type="subst">
-        <del rend="overstrike">unatainable</del><del rend="overstrike">by</del>
-      <add place="supralinear">invunerable to</add>
+        <del rend="overstrike">unatainable</del> <del rend="overstrike">by</del>
+        <add place="supralinear">invunerable to</add>
       </mod> any</line>	
     </zone>
 </surface>
