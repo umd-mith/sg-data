@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0024.tif"/>
-    <zone>
-    </zone>
+  <zone>
+    <line>Chap. 4</line>
+    <line>The next morning I delivered my</line>
+    <line>letters of introduction and paid a</line>
+    <line>visit to some of the principal</line>
+    <line> professors. and among others to M. K </line>
+    <line>Krempe Professor of <del rend="overstrike">&#38; Lecturer</del>
+      <del rend="overstrike">upon</del> Natural</line>
+    <line>philosophy. He received me with</line>
+    <line>politeness, and asked me several</line>
+    <line>questions concerning my progress</line>
+    <line>in the <del rend="overstrike">sciences</del> different branches</line>
+    <line>of science appertaining to natural</line>
+    <line>philosophy. I mentioned, it is true</line>
+    <line>with fear and trembling, the only</line> ever 
+    <line>authors I had
+        <metamark>^</metamark><add place="supralinear" hand="PBS">ever</add> read upon those</line>
+    <line>subjects. The professor stared. <del rend="strikethrough">I said</del></line>
+    <line><del rend="strikethrough">that I did not mention these</del></line>
+    <line>"Have you really" said" he "spent</line>
+    <line>"your time in studying such</line>
+    <line>"nonsence?" I replied in the affir</line>
+    <line>mative.</line>
+    <line>"Every minute"– continued M. K -</line>
+    <line>with warmth," every instant that</line>
+    <line>"you have wasted upon those</line>
+    <line>"books is utterly and entirely lost.</line>
+    <line>"You have burdened your <del rend="strikethrough">bur</del></line>
+    <line>"<del rend="strikethrough">memor</del> memory with exploded</line>
+    <line>"systems and useless names. Good </line>
+    <line>in what desart land</line>
+    <line>"God <mod>
+        <add place="supralinear" hand="PBS">in what desart land</add>
+        <del rend="overstrike">where must you</del>
+      </mod> have you</line>
+    <line>"lived where no one was kind</line>
+    <line>"enough to <del rend="overstrike">enfor</del> inform you</line> you <line>"that these
+      fancies which <metamark>^</metamark><add place="supralinear">you</add> have</line>
+  </zone>
+  <zone>55)</zone>
+  <zone>
+    <mod>
+      <add place="supralinear">Krempe</add>
+      <del rend="strikethrough">Krempe</del>    
+    </mod>
+  </zone>
+  <zone>Krempe</zone>
 </surface>
