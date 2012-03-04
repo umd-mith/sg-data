@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0013" ulx="0" uly="0" lrx="5364" lry="7104">
+  xml:id="ox-ms_abinger_c56-0013" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0013.tif"/>
+  <zone>(43</zone>
   <zone>
-    <line>being an only child, and desti (43</line>
-    <line>tute of companions at home, h<add resp="pbs" place="intralinear">is</add></line>
-    <line><unclear unit="chars" extent="2"><del resp="mws">to</del></unclear> father was pleased
-      that he 5</line>
+    <line>being an only child, and desti</line>
+    <line>tute of companions at home, h<mod resp="pbs"><add place="intralinear">is</add><del
+          rend="overwritten"><unclear unit="chars" extent="2"/></del></mod></line>
+    <line><del rend="strikethrough">to</del> father was pleased that he<zone> 5</zone></line>
     <line>should find associates at our</line>
     <line>house and we were never com</line>
     <line>pletely happy when Clerval was</line>
     <line>absent.</line>
-    <line><add resp="mws"><ptr target="#c56-0013.01"
-        /><!--graphical line dragged from this point all the way through center of proceeding text to the location of addSpan below--></add><del
-        resp="mws" rend="strikethrough">In this account of my early</del></line>
+    <delSpan spanTo="#c56-0013.01"/><metamark rend="vertical line" function="cancellation"
+      spanTo="#c56-0013.01"/><line><del resp="mws" rend="strikethrough">In this account of my
+        early</del></line>
     <line><del resp="mws" rend="strikethrough">youth I wish particularly to men</del></line>
     <line><del resp="mws" rend="strikethrough">tion those circumstances</del> which</line>
     <line>led to and nourished my taste</line>
@@ -33,16 +34,15 @@
     <line>given in Geneva and athough</line>
     <line>I did not understand them the</line>
     <line>experiments never failed to</line>
-    <line>attract my attention. <mod type="subst" resp="pbs"><del rend="strikethrough">I reme<add
-            place="superlinear">m</add>ber</del><add place="sublinear">^</add></mod></line>
-    <line><del resp="mws" rend="strikethrough">also</del>
-      <addSpan hand="mws" xml:id="c56-0013.01" spanTo="#c56-0013.01m"/>[When I was about <mod
-        type="subst"><del resp="mws" rend="strikethrough">twelve</del><add>fourteen</add></mod>
+    <line>attract my attention. <anchor xml:id="c56-0013.01"/><del resp="mws"
+          rend="strikethrough">I reme<mod resp="pbs" type="correction"><add  place="sublinear"
+          >^</add><add place="superlinear">m</add></mod>ber</del></line>
+    <line><del resp="mws" rend="strikethrough">also</del><metamark> [</metamark>When I was about <mod
+        type="subst" resp="mws"><del rend="strikethrough">twelve</del><add>fourteen</add></mod>
       years</line>
     <line>old we were at our house near</line>
-    <line>Belrive when we witnessed the t a</line>
+    <line>Belrive when we witnessed <del rend="strikethrough">the</del> <metamark rend="cross-hatch"/> a</line>
     <line>violent <mod type="subst" resp="pbs"><del rend="strikethrough">at</del><add
-          place="superlinear">and</add></mod> terrible thunder storm</line><anchor
-      xml:id="c56-0013.01m"/>
+          place="superlinear">and</add></mod> terrible thunder storm</line>
   </zone>
 </surface>
