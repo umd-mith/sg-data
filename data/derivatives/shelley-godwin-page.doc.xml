@@ -31,7 +31,8 @@
             <change when="2012-02-16" who="tmunoz">Revision of workflow section</change>
             <change when="2012-02-17" who="tmunoz">Finished quick overview of basic
                 principles.</change>
-            <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into zones</change>
+            <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into
+                zones</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -204,18 +205,22 @@
                     <p>The SGA project privileges the structures of the physical document as the
                         principal hierarchy to be encoded rather than one related to the logical
                         hierarchy of <q>a text</q>. </p>
-                    <p>The outermost element in a page-level transcription file is
-                            <hi rend="tag">&lt;surface&gt;</hi>, which represents the page being transcribed.</p>
-                    <p>Within <hi rend="tag">&lt;surface&gt;</hi>, if the page is blank (contains no writing or
-                        marking at all), a <hi rend="tag">&lt;desc&gt;</hi> element will be supplied, providing an
-                        alternate description of the page, e.g., <q>Front pastedown.</q> There will
-                        always be at least one <hi rend="tag">&lt;graphic&gt;</hi> element within <hi rend="tag">&lt;surface&gt;</hi>,
-                        which provides a link to the facsimile image of that page.</p>
-                    <p>A surface (presuming it is not blank) will contain one or more
-                            <hi rend="tag">&lt;zone&gt;</hi>s. These elements are used to describe specific regions
-                        within a page. If the writing is not linear within a zone, e.g., a marginal
-                        note or some kind of metamark, the content can be transcribed directly
-                        within zone.</p>
+                    <div xml:id="surfaces">
+                        <head>The <hi rend="tag">&lt;surface&gt;</hi> element</head>
+                        <p>The outermost element in a page-level transcription file is
+                                <hi rend="tag">&lt;surface&gt;</hi>, which represents the page being transcribed.</p>
+                        <p>Within <hi rend="tag">&lt;surface&gt;</hi>, if the page is blank (contains no writing or
+                            marking at all), a <hi rend="tag">&lt;desc&gt;</hi> element will be supplied, providing
+                            an alternate description of the page, e.g., <q>Front pastedown.</q>
+                            There will always be at least one <hi rend="tag">&lt;graphic&gt;</hi> element within
+                                <hi rend="tag">&lt;surface&gt;</hi>, which provides a link to the facsimile image of
+                            that page.</p>
+                        <p>A surface (presuming it is not blank) will contain one or more
+                                <hi rend="tag">&lt;zone&gt;</hi>s. These elements are used to describe specific
+                            regions within a page. If the writing is not linear within a zone, e.g.,
+                            a marginal note or some kind of metamark, the content can be transcribed
+                            directly within zone.</p>
+                    </div>
                     <div xml:id="zones">
                         <head>Dividing a page into zones</head>
                         <p>There are a couple of project-specific conventions for dividing pages
@@ -231,27 +236,33 @@
                             information will be supplied by coordinates when the transcriptions and
                             page images are linked.</p>
                     </div>
-                    <p>For linear blocks of writing, a series of <hi rend="tag">&lt;line&gt;</hi> elements are to be
-                        used to record topographic lines of writing on the physical document (these
-                        are different from verse lines, etc.).</p>
-                    <p>While the project's focus is on representing the physical documents, the
-                        online presentation will also include clean, <q>reading texts</q> so it is
-                        necessary to have mechanisms for reconstructing the hierachy of <q>the
-                            text</q> apart from its physical support. For this purpose, SGA uses
-                            <hi rend="tag">&lt;milestone&gt;</hi> elements as well as several project-specific
-                        attributes.</p>
-                    <p>To record a major structural division in the text, e.g., a line group,
-                        paragraph, or div, the use of <hi rend="tag">&lt;milestone&gt;</hi> is most appropriate. The
-                        value of the <hi rend="att">unit</hi> attribute should be the qualified name of a TEI
-                        element, so tei:div. For phrase-level elements, a number of attributes are
-                        supplied to indicate what textual structure should correspond to lines of
-                        the text. These attributes are: <hi rend="att">el-target</hi>, which stands for
-                            <q>target element</q>; <hi rend="att">att-target</hi>, which stands for
-                            <q>attribute target</q> meaning attributes which should be part of the
-                        target element being created; and <hi rend="att">att-value</hi>, which indicates the
-                        intended value of any attributes supplied. These workarounds are necessary
-                        because XML enforces a single document hierarchy and does not permit
-                        overlap.</p>
+                    <div xml:id="lines">
+                        <head>Transcribing lines</head>
+                        <p>For linear blocks of writing, a series of <hi rend="tag">&lt;line&gt;</hi> elements are to
+                            be used to record topographic lines of writing on the physical document
+                            (these are different from verse lines, etc.).</p>
+                    </div>
+                    <div>
+                        <head>Elements for reconstructing a <q>text-centric</q> hierarchy</head>
+                        <p>While the project's focus is on representing the physical documents, the
+                            online presentation will also include clean, <q>reading texts</q> so it
+                            is necessary to have mechanisms for reconstructing the hierachy of
+                                <q>the text</q> apart from its physical support. For this purpose,
+                            SGA uses <hi rend="tag">&lt;milestone&gt;</hi> elements as well as several
+                            project-specific attributes.</p>
+                        <p>To record a major structural division in the text, e.g., a line group,
+                            paragraph, or div, the use of <hi rend="tag">&lt;milestone&gt;</hi> is most appropriate.
+                            The value of the <hi rend="att">unit</hi> attribute should be the qualified name
+                            of a TEI element, so tei:div. For phrase-level elements, a number of
+                            attributes are supplied to indicate what textual structure should
+                            correspond to lines of the text. These attributes are:
+                                <hi rend="att">el-target</hi>, which stands for <q>target element</q>;
+                                <hi rend="att">att-target</hi>, which stands for <q>attribute target</q>
+                            meaning attributes which should be part of the target element being
+                            created; and <hi rend="att">att-value</hi>, which indicates the intended value of
+                            any attributes supplied. These workarounds are necessary because XML
+                            enforces a single document hierarchy and does not permit overlap.</p>
+                    </div>
                 </div>
             </div>
             <div xml:id="diplomatic_transcriptions">
