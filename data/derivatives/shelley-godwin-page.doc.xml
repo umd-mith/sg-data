@@ -31,8 +31,6 @@
             <change when="2012-02-16" who="tmunoz">Revision of workflow section</change>
             <change when="2012-02-17" who="tmunoz">Finished quick overview of basic
                 principles.</change>
-            <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into
-                zones</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -132,8 +130,14 @@
                     <item>Issue a pull request by clicking on <ref target="../assets/img/pull_request.png">pull request button</ref>. This
                         will take you to a new page where you can fill in more information about the
                         request. You'll see that your last commit message is already pre-populated
-                        as the subject line. Clean up the message if necessary and add any
-                        additional details or questions. Click submit.</item>
+                        as the subject line.</item>
+                    <item>Please make sure the sequence number for the page is included in the title
+                        of pull request so that requests related to different pages are easier to
+                        distinguish from each other. In the body of the message for the pull
+                        request, please reference the issue number relating to this page, e.g.
+                            <q>This request relates to Issue #50</q>. Feel free to add any other details
+                        or questions about the encoding to the body of the message as well.</item>
+                    <item>Click submit.</item>
                     <item>You're done! Someone from the editorial team will review your
                         transcriptions, merge your branch back into the master, and close the
                         relevant issue.</item>
@@ -205,64 +209,38 @@
                     <p>The SGA project privileges the structures of the physical document as the
                         principal hierarchy to be encoded rather than one related to the logical
                         hierarchy of <q>a text</q>. </p>
-                    <div xml:id="surfaces">
-                        <head>The <hi rend="tag">&lt;surface&gt;</hi> element</head>
-                        <p>The outermost element in a page-level transcription file is
-                                <hi rend="tag">&lt;surface&gt;</hi>, which represents the page being transcribed.</p>
-                        <p>Within <hi rend="tag">&lt;surface&gt;</hi>, if the page is blank (contains no writing or
-                            marking at all), a <hi rend="tag">&lt;desc&gt;</hi> element will be supplied, providing
-                            an alternate description of the page, e.g., <q>Front pastedown.</q>
-                            There will always be at least one <hi rend="tag">&lt;graphic&gt;</hi> element within
-                                <hi rend="tag">&lt;surface&gt;</hi>, which provides a link to the facsimile image of
-                            that page.</p>
-                        <p>A surface (presuming it is not blank) will contain one or more
-                                <hi rend="tag">&lt;zone&gt;</hi>s. These elements are used to describe specific
-                            regions within a page. If the writing is not linear within a zone, e.g.,
-                            a marginal note or some kind of metamark, the content can be transcribed
-                            directly within zone.</p>
-                    </div>
-                    <div xml:id="zones">
-                        <head>Dividing a page into zones</head>
-                        <p>There are a couple of project-specific conventions for dividing pages
-                            into zones. By convention, page numbering or similar kinds of notes
-                            occurring at the top of a page should be placed within their own zone,
-                            and this should be the first zone on the page. If the content is not
-                            linear, then transcribe directly inside the <hi rend="tag">&lt;zone&gt;</hi> element.</p>
-                        <p>Also by convention, <hi rend="tag">&lt;zone&gt;</hi> containing the main block of text on
-                            a page should precede any <hi rend="tag">&lt;zone&gt;</hi>s used to transcribe content in
-                            page margins or other distinct regions.</p>
-                        <p>You do not need to worry about creating identifiers for zones or adding
-                            descriptive attributes to record their placement on the page. This
-                            information will be supplied by coordinates when the transcriptions and
-                            page images are linked.</p>
-                    </div>
-                    <div xml:id="lines">
-                        <head>Transcribing lines</head>
-                        <p>For linear blocks of writing, a series of <hi rend="tag">&lt;line&gt;</hi> elements are to
-                            be used to record topographic lines of writing on the physical document
-                            (these are different from verse lines, etc.).</p>
-                    </div>
-                    <div>
-                        <head>Elements for reconstructing a <q>text-centric</q> hierarchy</head>
-                        <p>While the project's focus is on representing the physical documents, the
-                            online presentation will also include clean, <q>reading texts</q> so it
-                            is necessary to have mechanisms for reconstructing the hierachy of
-                                <q>the text</q> apart from its physical support. For this purpose,
-                            SGA uses <hi rend="tag">&lt;milestone&gt;</hi> elements as well as several
-                            project-specific attributes.</p>
-                        <p>To record a major structural division in the text, e.g., a line group,
-                            paragraph, or div, the use of <hi rend="tag">&lt;milestone&gt;</hi> is most appropriate.
-                            The value of the <hi rend="att">unit</hi> attribute should be the qualified name
-                            of a TEI element, so tei:div. For phrase-level elements, a number of
-                            attributes are supplied to indicate what textual structure should
-                            correspond to lines of the text. These attributes are:
-                                <hi rend="att">el-target</hi>, which stands for <q>target element</q>;
-                                <hi rend="att">att-target</hi>, which stands for <q>attribute target</q>
-                            meaning attributes which should be part of the target element being
-                            created; and <hi rend="att">att-value</hi>, which indicates the intended value of
-                            any attributes supplied. These workarounds are necessary because XML
-                            enforces a single document hierarchy and does not permit overlap.</p>
-                    </div>
+                    <p>The outermost element in a page-level transcription file is
+                            <hi rend="tag">&lt;surface&gt;</hi>, which represents the page being transcribed.</p>
+                    <p>Within <hi rend="tag">&lt;surface&gt;</hi>, if the page is blank (contains no writing or
+                        marking at all), a <hi rend="tag">&lt;desc&gt;</hi> element will be supplied, providing an
+                        alternate description of the page, e.g., <q>Front pastedown.</q> There will
+                        always be at least one <hi rend="tag">&lt;graphic&gt;</hi> element within <hi rend="tag">&lt;surface&gt;</hi>,
+                        which provides a link to the facsimile image of that page.</p>
+                    <p>A surface (presuming it is not blank) will contain one or more
+                            <hi rend="tag">&lt;zone&gt;</hi>s. These elements are used to describe specific regions
+                        within a page. If the writing is not linear within a zone, e.g., a marginal
+                        note or some kind of metamark, the content can be transcribed directly
+                        within zone. For linear blocks of writing, a series of <hi rend="tag">&lt;line&gt;</hi>
+                        elements are to be used to record topographic lines of writing on the
+                        physical document (these are different from verse lines, etc.).</p>
+                    <p>While the project's focus is on representing the physical documents, the
+                        online presentation will also include clean, <q>reading texts</q> so it is
+                        necessary to have mechanisms for reconstructing the hierachy of <q>the
+                            text</q> apart from its physical support. For this purpose, SGA uses
+                            <hi rend="tag">&lt;milestone&gt;</hi> elements as well as several project-specific
+                        attributes.</p>
+                    <p>To record a major structural division in the text, e.g., a line group,
+                        paragraph, or div, the use of <hi rend="tag">&lt;milestone&gt;</hi> is most appropriate. The
+                        value of the <hi rend="att">unit</hi> attribute should be the qualified name of a TEI
+                        element, so tei:div. For phrase-level elements, a number of attributes are
+                        supplied to indicate what textual structure should correspond to lines of
+                        the text. These attributes are: <hi rend="att">el-target</hi>, which stands for
+                            <q>target element</q>; <hi rend="att">att-target</hi>, which stands for
+                            <q>attribute target</q> meaning attributes which should be part of the
+                        target element being created; and <hi rend="att">att-value</hi>, which indicates the
+                        intended value of any attributes supplied. These workarounds are necessary
+                        because XML enforces a single document hierarchy and does not permit
+                        overlap.</p>
                 </div>
             </div>
             <div xml:id="diplomatic_transcriptions">
@@ -2257,12 +2235,7 @@ element mod
    <ref target="#TEI.sga-patt.typed">sga-patt.typed.attributes</ref>,
    <ref target="#TEI.sga-patt.spanning">sga-patt.spanning.attributes</ref>,
    <ref target="#TEI.macro.paraContent">macro.paraContent</ref>
-}</eg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Schematron</hi></cell><cell rend="wovenodd-col2"><ab rend="pre">
-&lt;sch:rule context="tei:mod"&gt;
-&lt;sch:report test="if count(child::*) lt 2"&gt;The mod element
- should be used to group two or more interventions (add, del,
- etc.). If only one such intervention has occurred, you may
- not need mod.&lt;/sch:report&gt;&lt;/sch:rule&gt;</ab></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Example</hi></cell><cell rend="wovenodd-col2">
+}</eg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Example</hi></cell><cell rend="wovenodd-col2">
 <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="en"><mod type="subst"><add>pleasing</add><del>agreable</del></mod></egXML>
 </cell></row></table></div><div type="refdoc" xml:id="TEI.name"><head>&lt;name&gt;</head><index indexName="ODDS"><term sortKey="name">&lt;name&gt;</term></index><table rend="wovenodd"><row><cell cols="2" rend="wovenodd-col2"><hi rend="label">&lt;name&gt; </hi>(<seg>name, proper noun</seg>) <seg>contains a proper noun or noun phrase.</seg> [<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">3.5.1. </ref>]</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Module</hi></cell><cell rend="wovenodd-col2">core</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Attributes</hi></cell><cell rend="wovenodd-col2"><seg xml:lang="en">Attributes </seg><ref target="#TEI.att.global">att.global</ref> (<hi rend="attribute">@el-target</hi>, <hi rend="attribute">@att-target</hi>, <hi rend="attribute">@att-value</hi>, <hi rend="attribute">@xml:id</hi>, <hi rend="attribute">@n</hi>, <hi rend="attribute">@rend</hi>)<c xml:space="preserve"> </c> (<ref target="#TEI.att.global.linking">att.global.linking</ref> (<hi rend="attribute">@corresp</hi>, <hi rend="attribute">@next</hi>, <hi rend="attribute">@prev</hi>))  (<ref target="#TEI.att.global.facs">att.global.facs</ref> (<hi rend="attribute">@facs</hi>)) <ref target="#TEI.att.naming">att.naming</ref> (<hi rend="attribute">@role</hi>, <hi rend="attribute">@nymRef</hi>)<c xml:space="preserve"> </c> (<ref target="#TEI.att.canonical">att.canonical</ref> (<hi rend="attribute">@key</hi>, <hi rend="attribute">@ref</hi>)) <ref target="#TEI.att.typed">att.typed</ref> (<hi rend="attribute">@type</hi>, <hi rend="attribute">@subtype</hi>)<c xml:space="preserve"> </c></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Used by</hi></cell><cell rend="wovenodd-col2"><ab rend="parent"><ref target="#TEI.model.nameLike.agent" rend="link_odd_classSpec">model.nameLike.agent</ref></ab></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Contained by</hi></cell><cell rend="wovenodd-col2"><ab rend="parent"><ab rend="specChildren"><ab rend="specChild"><seg rend="specChildModule">core: </seg><seg rend="specChildElements"><ref target="#TEI.abbr" rend="link_odd_elementSpec">abbr</ref><c xml:space="preserve"> </c><ref target="#TEI.add" rend="link_odd_elementSpec">add</ref><c xml:space="preserve"> </c><ref target="#TEI.bibl" rend="link_odd_elementSpec">bibl</ref><c xml:space="preserve"> </c><ref target="#TEI.corr" rend="link_odd_elementSpec">corr</ref><c xml:space="preserve"> </c><ref target="#TEI.date" rend="link_odd_elementSpec">date</ref><c xml:space="preserve"> </c><ref target="#TEI.del" rend="link_odd_elementSpec">del</ref><c xml:space="preserve"> </c><ref target="#TEI.desc" rend="link_odd_elementSpec">desc</ref><c xml:space="preserve"> </c><ref target="#TEI.distinct" rend="link_odd_elementSpec">distinct</ref><c xml:space="preserve"> </c><ref target="#TEI.emph" rend="link_odd_elementSpec">emph</ref><c xml:space="preserve"> </c><ref target="#TEI.expan" rend="link_odd_elementSpec">expan</ref><c xml:space="preserve"> </c><ref target="#TEI.foreign" rend="link_odd_elementSpec">foreign</ref><c xml:space="preserve"> </c><ref target="#TEI.gloss" rend="link_odd_elementSpec">gloss</ref><c xml:space="preserve"> </c><ref target="#TEI.head" rend="link_odd_elementSpec">head</ref><c xml:space="preserve"> </c><ref target="#TEI.headItem" rend="link_odd_elementSpec">headItem</ref><c xml:space="preserve"> </c><ref target="#TEI.headLabel" rend="link_odd_elementSpec">headLabel</ref><c xml:space="preserve"> </c><ref target="#TEI.hi" rend="link_odd_elementSpec">hi</ref><c xml:space="preserve"> </c><ref target="#TEI.item" rend="link_odd_elementSpec">item</ref><c xml:space="preserve"> </c><ref target="#TEI.l" rend="link_odd_elementSpec">l</ref><c xml:space="preserve"> </c><ref target="#TEI.label" rend="link_odd_elementSpec">label</ref><c xml:space="preserve"> </c><ref target="#TEI.name" rend="link_odd_elementSpec">name</ref><c xml:space="preserve"> </c><ref target="#TEI.note" rend="link_odd_elementSpec">note</ref><c xml:space="preserve"> </c><ref target="#TEI.num" rend="link_odd_elementSpec">num</ref><c xml:space="preserve"> </c><ref target="#TEI.orig" rend="link_odd_elementSpec">orig</ref><c xml:space="preserve"> </c><ref target="#TEI.p" rend="link_odd_elementSpec">p</ref><c xml:space="preserve"> </c><ref target="#TEI.q" rend="link_odd_elementSpec">q</ref><c xml:space="preserve"> </c><ref target="#TEI.ref" rend="link_odd_elementSpec">ref</ref><c xml:space="preserve"> </c><ref target="#TEI.reg" rend="link_odd_elementSpec">reg</ref><c xml:space="preserve"> </c><ref target="#TEI.resp" rend="link_odd_elementSpec">resp</ref><c xml:space="preserve"> </c><ref target="#TEI.respStmt" rend="link_odd_elementSpec">respStmt</ref><c xml:space="preserve"> </c><ref target="#TEI.rs" rend="link_odd_elementSpec">rs</ref><c xml:space="preserve"> </c><ref target="#TEI.sic" rend="link_odd_elementSpec">sic</ref><c xml:space="preserve"> </c><ref target="#TEI.speaker" rend="link_odd_elementSpec">speaker</ref><c xml:space="preserve"> </c><ref target="#TEI.stage" rend="link_odd_elementSpec">stage</ref><c xml:space="preserve"> </c><ref target="#TEI.term" rend="link_odd_elementSpec">term</ref><c xml:space="preserve"> </c><ref target="#TEI.time" rend="link_odd_elementSpec">time</ref><c xml:space="preserve"> </c><ref target="#TEI.title" rend="link_odd_elementSpec">title</ref><c xml:space="preserve"> </c><ref target="#TEI.unclear" rend="link_odd_elementSpec">unclear</ref></seg></ab><ab rend="specChild"><seg rend="specChildModule">linking: </seg><seg rend="specChildElements"><ref target="#TEI.ab" rend="link_odd_elementSpec">ab</ref><c xml:space="preserve"> </c><ref target="#TEI.seg" rend="link_odd_elementSpec">seg</ref></seg></ab><ab rend="specChild"><seg rend="specChildModule">textstructure: </seg><seg rend="specChildElements"><ref target="#TEI.byline" rend="link_odd_elementSpec">byline</ref><c xml:space="preserve"> </c><ref target="#TEI.closer" rend="link_odd_elementSpec">closer</ref><c xml:space="preserve"> </c><ref target="#TEI.dateline" rend="link_odd_elementSpec">dateline</ref><c xml:space="preserve"> </c><ref target="#TEI.docAuthor" rend="link_odd_elementSpec">docAuthor</ref><c xml:space="preserve"> </c><ref target="#TEI.docDate" rend="link_odd_elementSpec">docDate</ref><c xml:space="preserve"> </c><ref target="#TEI.docEdition" rend="link_odd_elementSpec">docEdition</ref><c xml:space="preserve"> </c><ref target="#TEI.docImprint" rend="link_odd_elementSpec">docImprint</ref><c xml:space="preserve"> </c><ref target="#TEI.imprimatur" rend="link_odd_elementSpec">imprimatur</ref><c xml:space="preserve"> </c><ref target="#TEI.opener" rend="link_odd_elementSpec">opener</ref><c xml:space="preserve"> </c><ref target="#TEI.salute" rend="link_odd_elementSpec">salute</ref><c xml:space="preserve"> </c><ref target="#TEI.signed" rend="link_odd_elementSpec">signed</ref><c xml:space="preserve"> </c><ref target="#TEI.titlePart" rend="link_odd_elementSpec">titlePart</ref><c xml:space="preserve"> </c><ref target="#TEI.trailer" rend="link_odd_elementSpec">trailer</ref></seg></ab><ab rend="specChild"><seg rend="specChildModule">transcr: </seg><seg rend="specChildElements"><ref target="#TEI.damage" rend="link_odd_elementSpec">damage</ref><c xml:space="preserve"> </c><ref target="#TEI.fw" rend="link_odd_elementSpec">fw</ref><c xml:space="preserve"> </c><ref target="#TEI.metamark" rend="link_odd_elementSpec">metamark</ref><c xml:space="preserve"> </c><ref target="#TEI.mod" rend="link_odd_elementSpec">mod</ref><c xml:space="preserve"> </c><ref target="#TEI.restore" rend="link_odd_elementSpec">restore</ref><c xml:space="preserve"> </c><ref target="#TEI.retrace" rend="link_odd_elementSpec">retrace</ref><c xml:space="preserve"> </c><ref target="#TEI.supplied" rend="link_odd_elementSpec">supplied</ref><c xml:space="preserve"> </c><ref target="#TEI.surplus" rend="link_odd_elementSpec">surplus</ref></seg></ab></ab></ab></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">May contain</hi></cell><cell rend="wovenodd-col2"><ab rend="specChildren"><ab rend="specChild"><seg rend="specChildModule">analysis: </seg><seg rend="specChildElements"><ref target="#TEI.c" rend="link_odd_elementSpec">c</ref></seg></ab><ab rend="specChild"><seg rend="specChildModule">core: </seg><seg rend="specChildElements"><ref target="#TEI.abbr" rend="link_odd_elementSpec">abbr</ref><c xml:space="preserve"> </c><ref target="#TEI.add" rend="link_odd_elementSpec">add</ref><c xml:space="preserve"> </c><ref target="#TEI.cb" rend="link_odd_elementSpec">cb</ref><c xml:space="preserve"> </c><ref target="#TEI.choice" rend="link_odd_elementSpec">choice</ref><c xml:space="preserve"> </c><ref target="#TEI.corr" rend="link_odd_elementSpec">corr</ref><c xml:space="preserve"> </c><ref target="#TEI.date" rend="link_odd_elementSpec">date</ref><c xml:space="preserve"> </c><ref target="#TEI.del" rend="link_odd_elementSpec">del</ref><c xml:space="preserve"> </c><ref target="#TEI.distinct" rend="link_odd_elementSpec">distinct</ref><c xml:space="preserve"> </c><ref target="#TEI.emph" rend="link_odd_elementSpec">emph</ref><c xml:space="preserve"> </c><ref target="#TEI.expan" rend="link_odd_elementSpec">expan</ref><c xml:space="preserve"> </c><ref target="#TEI.foreign" rend="link_odd_elementSpec">foreign</ref><c xml:space="preserve"> </c><ref target="#TEI.gap" rend="link_odd_elementSpec">gap</ref><c xml:space="preserve"> </c><ref target="#TEI.gloss" rend="link_odd_elementSpec">gloss</ref><c xml:space="preserve"> </c><ref target="#TEI.graphic" rend="link_odd_elementSpec">graphic</ref><c xml:space="preserve"> </c><ref target="#TEI.hi" rend="link_odd_elementSpec">hi</ref><c xml:space="preserve"> </c><ref target="#TEI.index" rend="link_odd_elementSpec">index</ref><c xml:space="preserve"> </c><ref target="#TEI.lb" rend="link_odd_elementSpec">lb</ref><c xml:space="preserve"> </c><ref target="#TEI.measureGrp" rend="link_odd_elementSpec">measureGrp</ref><c xml:space="preserve"> </c><ref target="#TEI.milestone" rend="link_odd_elementSpec">milestone</ref><c xml:space="preserve"> </c><ref target="#TEI.name" rend="link_odd_elementSpec">name</ref><c xml:space="preserve"> </c><ref target="#TEI.note" rend="link_odd_elementSpec">note</ref><c xml:space="preserve"> </c><ref target="#TEI.num" rend="link_odd_elementSpec">num</ref><c xml:space="preserve"> </c><ref target="#TEI.orig" rend="link_odd_elementSpec">orig</ref><c xml:space="preserve"> </c><ref target="#TEI.pb" rend="link_odd_elementSpec">pb</ref><c xml:space="preserve"> </c><ref target="#TEI.ptr" rend="link_odd_elementSpec">ptr</ref><c xml:space="preserve"> </c><ref target="#TEI.ref" rend="link_odd_elementSpec">ref</ref><c xml:space="preserve"> </c><ref target="#TEI.reg" rend="link_odd_elementSpec">reg</ref><c xml:space="preserve"> </c><ref target="#TEI.rs" rend="link_odd_elementSpec">rs</ref><c xml:space="preserve"> </c><ref target="#TEI.sic" rend="link_odd_elementSpec">sic</ref><c xml:space="preserve"> </c><ref target="#TEI.term" rend="link_odd_elementSpec">term</ref><c xml:space="preserve"> </c><ref target="#TEI.time" rend="link_odd_elementSpec">time</ref><c xml:space="preserve"> </c><ref target="#TEI.title" rend="link_odd_elementSpec">title</ref><c xml:space="preserve"> </c><ref target="#TEI.unclear" rend="link_odd_elementSpec">unclear</ref></seg></ab><ab rend="specChild"><seg rend="specChildModule">gaiji: </seg><seg rend="specChildElements"><ref target="#TEI.g" rend="link_odd_elementSpec">g</ref></seg></ab><ab rend="specChild"><seg rend="specChildModule">linking: </seg><seg rend="specChildElements"><ref target="#TEI.alt" rend="link_odd_elementSpec">alt</ref><c xml:space="preserve"> </c><ref target="#TEI.altGrp" rend="link_odd_elementSpec">altGrp</ref><c xml:space="preserve"> </c><ref target="#TEI.anchor" rend="link_odd_elementSpec">anchor</ref><c xml:space="preserve"> </c><ref target="#TEI.join" rend="link_odd_elementSpec">join</ref><c xml:space="preserve"> </c><ref target="#TEI.joinGrp" rend="link_odd_elementSpec">joinGrp</ref><c xml:space="preserve"> </c><ref target="#TEI.link" rend="link_odd_elementSpec">link</ref><c xml:space="preserve"> </c><ref target="#TEI.linkGrp" rend="link_odd_elementSpec">linkGrp</ref><c xml:space="preserve"> </c><ref target="#TEI.seg" rend="link_odd_elementSpec">seg</ref><c xml:space="preserve"> </c><ref target="#TEI.timeline" rend="link_odd_elementSpec">timeline</ref></seg></ab><ab rend="specChild"><seg rend="specChildModule">transcr: </seg><seg rend="specChildElements"><ref target="#TEI.addSpan" rend="link_odd_elementSpec">addSpan</ref><c xml:space="preserve"> </c><ref target="#TEI.am" rend="link_odd_elementSpec">am</ref><c xml:space="preserve"> </c><ref target="#TEI.damage" rend="link_odd_elementSpec">damage</ref><c xml:space="preserve"> </c><ref target="#TEI.damageSpan" rend="link_odd_elementSpec">damageSpan</ref><c xml:space="preserve"> </c><ref target="#TEI.delSpan" rend="link_odd_elementSpec">delSpan</ref><c xml:space="preserve"> </c><ref target="#TEI.ex" rend="link_odd_elementSpec">ex</ref><c xml:space="preserve"> </c><ref target="#TEI.fw" rend="link_odd_elementSpec">fw</ref><c xml:space="preserve"> </c><ref target="#TEI.handShift" rend="link_odd_elementSpec">handShift</ref><c xml:space="preserve"> </c><ref target="#TEI.listTranspose" rend="link_odd_elementSpec">listTranspose</ref><c xml:space="preserve"> </c><ref target="#TEI.metamark" rend="link_odd_elementSpec">metamark</ref><c xml:space="preserve"> </c><ref target="#TEI.mod" rend="link_odd_elementSpec">mod</ref><c xml:space="preserve"> </c><ref target="#TEI.redo" rend="link_odd_elementSpec">redo</ref><c xml:space="preserve"> </c><ref target="#TEI.restore" rend="link_odd_elementSpec">restore</ref><c xml:space="preserve"> </c><ref target="#TEI.retrace" rend="link_odd_elementSpec">retrace</ref><c xml:space="preserve"> </c><ref target="#TEI.space" rend="link_odd_elementSpec">space</ref><c xml:space="preserve"> </c><ref target="#TEI.subst" rend="link_odd_elementSpec">subst</ref><c xml:space="preserve"> </c><ref target="#TEI.substJoin" rend="link_odd_elementSpec">substJoin</ref><c xml:space="preserve"> </c><ref target="#TEI.supplied" rend="link_odd_elementSpec">supplied</ref><c xml:space="preserve"> </c><ref target="#TEI.surplus" rend="link_odd_elementSpec">surplus</ref><c xml:space="preserve"> </c><ref target="#TEI.undo" rend="link_odd_elementSpec">undo</ref></seg></ab></ab></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Declaration</hi></cell><cell rend="wovenodd-col2"><eg rend="eg_rnc">
 element name

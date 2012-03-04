@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-04T17:58:12Z. 
+# Schema generated from ODD source 2012-03-04T18:56:18Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -3342,28 +3342,7 @@ sga-pmod =
   
   ## represents any kind of modification identified within a single document.
   element mod {
-    sga-pmacro.paraContent
-    >> sch:pattern [
-         id = "mod-constraint-use-mod-for-grouping"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:mod"
-           "\x{a}" ~
-           "                                    "
-           sch:report [
-             test = "if count(child::*) lt 2"
-             "The mod element\x{a}" ~
-             "                                        should be used to group two or more interventions (add, del,\x{a}" ~
-             "                                        etc.). If only one such intervention has occurred, you may\x{a}" ~
-             "                                        not need mod."
-           ]
-           "\x{a}" ~
-           "                                "
-         ]
-         "\x{a}" ~
-         "         "
-       ],
+    sga-pmacro.paraContent,
     sga-patt.global.attributes,
     sga-patt.transcriptional.attributes,
     sga-patt.typed.attributes,

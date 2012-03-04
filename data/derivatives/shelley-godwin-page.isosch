@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:tei="http://www.tei-c.org/ns/1.0" queryBinding="xslt2">
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
    <title>ISO Schematron rules</title>
    <pattern id="ptr-constraint-ptrAtts">
       <rule context="tei:ptr">
@@ -43,14 +43,6 @@
          <assert test="child::add and child::del">
         Subst must have at least one child add and at least one child del</assert>
       </rule>
-   </pattern>
-   <pattern id="mod-constraint-use-mod-for-grouping">
-      <rule context="tei:mod">
-                                    <report test="if count(child::*) lt 2">The mod element
-                                        should be used to group two or more interventions (add, del,
-                                        etc.). If only one such intervention has occurred, you may
-                                        not need mod.</report>
-                                </rule>
    </pattern>
    <pattern id="link-constraint-linkTargets1">
       <rule context="tei:link">
