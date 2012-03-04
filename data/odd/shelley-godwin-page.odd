@@ -237,9 +237,25 @@
                             <tag>zone</tag>s. These elements are used to describe specific regions
                         within a page. If the writing is not linear within a zone, e.g., a marginal
                         note or some kind of metamark, the content can be transcribed directly
-                        within zone. For linear blocks of writing, a series of <tag>line</tag>
-                        elements are to be used to record topographic lines of writing on the
-                        physical document (these are different from verse lines, etc.).</p>
+                        within zone.</p>
+                    <div xml:id="zones">
+                        <head>Dividing a page into zones</head>
+                        <p>There are a couple of project-specific conventions for dividing pages
+                            into zones. By convention, page numbering or similar kinds of notes
+                            occurring at the top of a page should be placed within their own zone,
+                            and this should be the first zone on the page. If the content is not
+                            linear, then transcribe directly inside the <tag>zone</tag> element.</p>
+                        <p>Also by convention, <tag>zone</tag> containing the main block of text on
+                            a page should precede any <tag>zone</tag>s used to transcribe content in
+                            page margins or other distinct regions.</p>
+                        <p>You do not need to worry about creating identifiers for zones or adding
+                            descriptive attributes to record their placement on the page. This
+                            information will be supplied by coordinates when the transcriptions and
+                            page images are linked.</p>
+                    </div>
+                    <p>For linear blocks of writing, a series of <tag>line</tag> elements are to be
+                        used to record topographic lines of writing on the physical document (these
+                        are different from verse lines, etc.).</p>
                     <p>While the project's focus is on representing the physical documents, the
                         online presentation will also include clean, <q>reading texts</q> so it is
                         necessary to have mechanisms for reconstructing the hierachy of <q>the
