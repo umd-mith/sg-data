@@ -13,6 +13,7 @@
     <line>house and we were never com</line>
     <line>pletely happy when Clerval was</line>
     <line>absent.</line>
+    <milestone unit="tei:p"/>
     <delSpan spanTo="#c56-0013.01"/><metamark rend="vertical line" function="cancellation"
       spanTo="#c56-0013.01"/><line><del resp="mws" rend="strikethrough">In this account of my
         early</del></line>
