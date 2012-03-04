@@ -465,6 +465,19 @@
                         </remarks>
                     </elementSpec>
 
+                    <elementSpec ident="mod" module="transcr" mode="change">
+                        <constraintSpec scheme="isoschematron" ident="use-mod-for-grouping">
+                            <constraint>
+                                <sch:rule context="tei:mod">
+                                    <sch:report test="if count(child::*) lt 2">The mod element
+                                        should be used to group two or more interventions (add, del,
+                                        etc.). If only one such intervention has occurred, you may
+                                        not need mod.</sch:report>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
+                    </elementSpec>
+
                     <elementSpec ident="hi" module="core" mode="change">
                         <attList>
                             <attDef ident="rend" mode="change" usage="req">
