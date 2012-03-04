@@ -29,7 +29,8 @@
                 workflow</change>
             <change when="2012-02-14" who="tmunoz">Finished section on workflow</change>
             <change when="2012-02-16" who="tmunoz">Revision of workflow section</change>
-            <change when="2012-02-17" who="tmunoz">Finished quick overview of basic principles.</change>
+            <change when="2012-02-17" who="tmunoz">Finished quick overview of basic
+                principles.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -185,15 +186,8 @@
                     <head>Outline of a page-level transcription</head>
                     <p>The structure of an XML file containing a transcription of a single page in
                         accordance with the SGA encoding model can be summarized as follows:</p>
-                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0" uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier">
-                            <graphic url="pointer_to_img_url"/>
-                            <zone>[Transcription of one two-dimensional area within a
-                                surface]</zone>
-                            <zone>
-                                <milestone/>
-                                <line>[Transcription of a physical line of the document]</line>
-                            </zone>
-                        </surface></egXML>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:tei="http://www.tei-c.org/ns/1.0"><surface xmlns:ns1="http://sga.mith.org/ns/1.0" xml:id="page_identifier" ulx="0" uly="0" lrx="4038" lry="5320" partOf="pointer_to_item_identifier"><graphic url="pointer_to_img_url"/><zone>[Transcription of one two-dimensional area within a
+                                surface]</zone><zone><milestone/><line>[Transcription of a physical line of the document]</line></zone></surface></egXML>
                     <p>There are a couple high-level features about this document to note. First,
                         the <hi rend="att">ulx</hi>, <hi rend="att">uly</hi>, <hi rend="att">lrx</hi>, and <hi rend="att">lry</hi>
                         attributes define the coordinates of the upper-left and lower-right corners
@@ -220,9 +214,25 @@
                             <hi rend="tag">&lt;zone&gt;</hi>s. These elements are used to describe specific regions
                         within a page. If the writing is not linear within a zone, e.g., a marginal
                         note or some kind of metamark, the content can be transcribed directly
-                        within zone. For linear blocks of writing, a series of <hi rend="tag">&lt;line&gt;</hi>
-                        elements are to be used to record topographic lines of writing on the
-                        physical document (these are different from verse lines, etc.).</p>
+                        within zone.</p>
+                    <div xml:id="zones">
+                        <head>Dividing a page into zones</head>
+                        <p>There are a couple of project-specific conventions for dividing pages
+                            into zones. By convention, page numbering or similar kinds of notes
+                            occurring at the top of a page should be placed within their own zone,
+                            and this should be the first zone on the page. If the content is not
+                            linear, then transcribe directly inside the <hi rend="tag">&lt;zone&gt;</hi> element.</p>
+                        <p>Also by convention, <hi rend="tag">&lt;zone&gt;</hi> containing the main block of text on
+                            a page should precede any <hi rend="tag">&lt;zone&gt;</hi>s used to transcribe content in
+                            page margins or other distinct regions.</p>
+                        <p>You do not need to worry about creating identifiers for zones or adding
+                            descriptive attributes to record their placement on the page. This
+                            information will be supplied by coordinates when the transcriptions and
+                            page images are linked.</p>
+                    </div>
+                    <p>For linear blocks of writing, a series of <hi rend="tag">&lt;line&gt;</hi> elements are to be
+                        used to record topographic lines of writing on the physical document (these
+                        are different from verse lines, etc.).</p>
                     <p>While the project's focus is on representing the physical documents, the
                         online presentation will also include clean, <q>reading texts</q> so it is
                         necessary to have mechanisms for reconstructing the hierachy of <q>the
@@ -242,6 +252,14 @@
                         because XML enforces a single document hierarchy and does not permit
                         overlap.</p>
                 </div>
+            </div>
+            <div xml:id="diplomatic_transcriptions">
+                <head>Diplomatic Transcriptions</head>
+                <p>As noted above, the primary goal of the encoding for this project is to produce
+                    high-quality diplomatic transcriptions to accompany the new high-resolution page
+                    images produced for the Archive. It is therefore worth saying a little more
+                    about diplomatic transcriptions.</p>
+                
             </div>
             <div xml:id="spec">
                 <head>Technical documentation</head>
