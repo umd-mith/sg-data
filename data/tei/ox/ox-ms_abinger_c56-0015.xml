@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0015" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0015" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0015.tif"/>
-    <zone>
-    </zone>
+  <zone>(45</zone>
+  <zone>
+    <delSpan resp="mws" spanTo="#c56-0015.01"/>
+    <line>phænonema. <metamark rend="vertical_line" function="deletion" spanTo="#c56-0015.01"/>
+      On Elizabeth and</line>
+    <zone>6.</zone>
+    <line>Clerval it produced a <del resp="mws" rend="strikethrough">di</del> very different</line>
+    <line>effect. They admired the beauty</line>
+    <line>of the storm without wishing to</line>
+    <line>analyze its causes. Henry said that</line>
+    <line>the Fairies and giants were at</line>
+    <line>war and Elizabeth attempted</line>
+    <line>a picture of it.</line><anchor xml:id="c56-0015.01"/>
+    <delSpan resp="mws" spanTo="#c56-0015.02"/><line>As I grew<metamark rend="vertical_line"
+        function="deletion" spanTo="#c56-0015.02"/> older my attempts</line>
+    <line>in science were of a higher nature.</line>
+    <line>I <del resp="mws" rend="strikethrough">endeavou</del> produced little earthquakes</line>
+    <line>and tried every kind of combination</line>
+    <line>of gasses <del resp="mws" rend="strikethrough">to</del> and elements to ascertain</line>
+    <line>the results.</line><anchor xml:id="c56-0015.02"/>
+    <delSpan resp="mws" spanTo="#c56-0015.03" rend="strikethrough"/><line>As I before mentioned my brothers</line>
+    <line>were much younger than myself.</line>
+    <line>Ernest the second of our family was five</line><anchor xml:id="c56-0015.03"/>
+    <line>Another task <mod type="subst" resp="mws"><del rend="strikethrough">soon</del><mod><add
+          place="sublinear">^</add><add place="superlinear">also</add></mod></mod> devolved upon</line>
+    <line>me when I became the instructor</line>
+    <line>of my brothers. Ernest was five years</line>
+    <line>younger than myself, and was my</line>
+    <line>principal pupil. He had been aflicted</line>
+    <line>with ill health from his infancy <mod type="subst" resp="pbs"><del rend="strikethrough"
+          >&amp;</del><add place="superlinear">thro which</add></mod></line>
+    <line>Elizabeth and I had been his constant</line>
+    <line><del resp="mws" rend="strikethrough">m</del> nurses <del resp="mws" rend="strikethrough"
+        >I</del> his disposition was gentle but</line>
+    <line>he was incapable any severe appli</line>
+    <line>cation. William the younge<mod><add resp="pbs" place="intralinear">st</add><del rend="overwritten">er</del></mod> of our</line>
+    <line>family was quite a child and the</line>
+    <line>most beautiful little fellow in the</line>
+    <line>world<add>,</add> his lively blue eyes dimpled cheeks</line>
+  </zone>
 </surface>
