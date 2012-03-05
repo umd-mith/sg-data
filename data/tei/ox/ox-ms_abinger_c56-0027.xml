@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0027" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0027" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0027.tif"/>
-    <zone>
-    </zone>
+  <zone>
+    <line>but those at the back of his head <zone>(58</zone></line>
+    <line>were nearly black. He was short in <zone>12</zone></line>
+    <line>person but remarkably erect <del resp="mws" rend="strikethrough">ha</del> and</line>
+    <line>his voice the sweetest I had ever</line>
+    <line>heard. He began his lecture<add resp="pbs"><ptr target="#c56-0027.01"/></add> with
+      a</line>
+    <line><!--this appears to be pbs, different from the indication in scholar's Word file--><mod resp="pbs" type="subst"><del rend="strikethrough">kind</del>
+        <del rend="strikethrough">of</del></mod> history of chemistry and <del resp="pbs"
+        rend="strikethrough">remark-</del></line>
+    <line><del resp="pbs" rend="strikethrough">ed</del> the various improvements <mod resp="mws"
+        type="subst"><add place="sublinear"><metamark>^</metamark></add><del rend="strikethrough"
+            ><add place="superlinear">&amp; discoveries</add></del></mod>
+      <del resp="pbs" rend="strikethrough">diffe</del></line>
+    <line><del rend="strikethrough">rent</del><add><ptr target="#c56-0027.02"/></add> men <mod><del
+          rend="strikethrough">had made</del><add place="superlinear">of learning</add></mod>
+      pronoucing</line>
+    <line>the names of the greatest discoverers</line>
+    <line><mod resp="mws" type="subst"><add><ptr target="#c56-0027.03"/></add><del resp="mws"
+          rend="strikethrough">with great warmth</del></mod>. He then took</line>
+    <line>a cursory view of the present state</line>
+    <line>of <mod resp="pbs" type="subst"><del rend="strikethrough">chemistry</del><add
+          place="superlinear">the science,</add></mod> and explained many</line>
+    <line>of its <del resp="mws" rend="strikethrough">termes</del> terms. <mod resp="pbs"
+        type="subst"><del rend="strikethrough">made</del><add place="superlinear">After
+        making</add></mod> a few</line>
+    <line>preparatory experiments <mod resp="pbs" type="subst"><del rend="strikethrough"
+          >and</del><add place="superlinear">he</add></mod> conclu</line>
+    <line>ded with a panegyric upon <mod type="subst" resp="mws"><add place="sublinear">^</add><add
+          place="superlinear">modern</add></mod> chemist</line>
+    <line>ry the words of which I shall never</line>
+    <line>forget.</line>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q"/>
+    <line><metamark>"</metamark>The ancient teachers of this science<metamark>"</metamark></line>
+    <line>said he, <metamark>"</metamark>promised impossibilities</line>
+    <line><metamark>"</metamark>and performed nothing. The modern</line>
+    <line><metamark>"</metamark>masters promise very little. They</line>
+    <line><metamark>"</metamark>no know that metals cannot be</line>
+    <line><metamark>"</metamark>transmuted and that the elixir</line>
+    <line><metamark>"</metamark><mod resp="mws" type="subst"><add><ptr target="#c56-0027.04"
+          /></add><del rend="strikethrough">vitæ</del> is a <del rend="strikethrough"
+        >mere</del></mod> chimæra. But</line>
+    <line><metamark>"</metamark>these philosophers whose <del rend="strikethrough" resp="mws"
+        >eyes</del> hands</line>
+    <line><metamark>"</metamark>appear only made to dabble in</line>
+    <line><metamark>"</metamark>dirt and their eyes to pore over</line>
+    <line><metamark>"</metamark>the microscope or cruscible,</line>
+    <line><metamark>"</metamark>have indeed performed miracles.</line>
+    <line><metamark>"</metamark>They penetrate into the recesses of</line>
+    <line><metamark>"</metamark>nature and show how she works</line>
+  </zone>
+  <zone>
+    <addSpan hand="pbs" xml:id="c56-0027.01" spanTo="#c56-0027.01m"/><line>by a recapitu</line>
+    <line>lation of the</line><anchor xml:id="c56-0027.01m"/>
+    <addSpan hand="pbs" xml:id="c56-0027.02" spanTo="#c56-0027.02m"/><line>made by
+      various</line><anchor xml:id="c56-0027.02m"/>
+    <addSpan hand="pbs" xml:id="c56-0027.03" spanTo="#c56-0027.03m"/>
+    <line>with fervour</line><anchor xml:id="c56-0027.03m"/>
+    <addSpan hand="pbs" xml:id="c56-0027.04" spanTo="#c56-0027.04m"/>
+    <line>of life</line><anchor xml:id="c56-0027.04m"/>
+  </zone>
 </surface>
