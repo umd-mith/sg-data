@@ -1,26 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0005" ulx="0" uly="0" lrx="5088" lry="7082">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0005" ulx="0" uly="0" lrx="5088" lry="7082">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0005.tif"/>
-  <zone><line>Chapt. 2</line><line>Those events which materially influence our fu</line><line>ture
-    destinies are often unused by slight an derive their origin from a tri</line><line>vial
-      occurences. Strange as the statement of this simple fact</line>
-    <line>may appear my fate had been Chemist Natu</line><line>ral Philosophy has is the genius that
-      has</line><line> regulated my fate I wish desire therefore in this account</line><line>of my
-        early years to state those facts which</line><line>led to my love foremost of that study first
-          aqu predeliction for that science. When</line> I was eleven years old We all went on a party
-    of pleasure to Thonan the baths near Thonan and were confined there<line/><line>to abrt obliged
-      by the rain and The inclemen</line><line>cy of th eweather obliged us to remain a
-        day</line><line> confined to the inn. In this house I chancd to find a fo volumes of the Works
-          of Corne</line><line>lius Agrippa. And I opened it with apathy</line><line>but continued with
-            enthusiasm. the theory that he attempted to demonstrate and the wonderful facts
-            that</line><line>he relates chan soon changed this feeling into A new</line><line>light dawned
-              upon my mind and I com</line><line>bounding with joy I communicated my discovery to my father.
-                I cannot help here remark</line><line>ing the many opportunities parents have instructors
-                  posess</line><line>of directing the attention of their pupils to</line><line>useful knowledge,
-                    which they utterly neglect.</line><line>My father looked carefully at the title
-                      page</line><line>of my book- Ah and said Ah! Cornelius</line><line> Agrippa!- My dear Victor
-                        do not waste</line><line>your time upon this- it is sad trash.</line><line>If instead of this
-                          remark or rather excla</line><line>mation my father had taken the pains to</line> expound lain
-    to that the principles of
-    </zone>
+  <zone><line>Chapt. 2</line></zone>
+  <zone><line>Those events which materially influence our fu</line><line>ture destinies <del
+        rend="strikethrough">are</del> often <mod type="subst"><del rend="strikethrough">caused by slight
+          or</del>
+        <add resp="pbs" place="superlinear">derive thier origin from a</add></mod>
+      tri</line><line>vial occurence<del rend="strikethrough">s</del>. <del rend="strikethrough"
+        >Strange as the <metamark>^</metamark> statement of this simple fact</del></line>
+    <line><del rend="strikethrough">may appear my fate had been Chemist</del> Natu</line><line>ral
+      Philosophy <del rend="strikethrough">has</del> is the genius that has</line><line> regulated
+      my fate I <mod>
+        <del rend="strikethrough">wish</del>
+        <add resp="pbs" place="superlinear">desire</add>
+      </mod>
+      <mod resp="mws"><del>their</del><add type="intralinear">therefore</add></mod> in this
+      account</line><line>of my early years to state those facts which</line><line>led to my<mod
+        resp="mws"><del rend="strikethrough">love pursuit of that study</del>
+        <add><del rend="strikethrough">first aqu</del> predeliction for that science.</add></mod>
+      When</line> I was eleven years old We all went on a party of pleasure to <mod type="subst"
+        ><del rend="strikethrough">Thonan</del>
+      <add place="suplerlinear" resp="pbs">the baths</add><add place="suplerlinear" resp="mws"> near
+        Thonan</add></mod>
+    <del rend="strikethrough">and were confined there</del><line/><line><del rend="strikethrough">b
+        obil obliged by the rain and</del> The inclemen</line><line>cy of the weather obliged us to
+      remain a day</line><line> confined to the inn. In this house I chancd to find a <del
+        rend="strikethrough">fo</del> volumes of the Works of Corne</line><line>lius Agrippa. <del
+        rend="strikethrough">And</del> I opened it with apathy</line><line>
+      <mod type="subst" resp="mws"><del rend="strikethrough">but continued with</del>
+        <add place="superlinear">the theory that he attempted to <del rend="overwritten"
+          >d</del>emonstrate and the wonderful facts that</add></mod></line><line><mod type="subst"
+        resp="mws"><add place="sublinear"><metamark>^</metamark>he relates <del rend="strikethrough"
+            >chan</del> soon changed this feeling into</add></mod> enthusiasm. A
+      new</line><line>light dawned upon my mind and <del rend="strikethrough">I
+      com</del></line><line>bounding with joy I communicated my discovery to my father. I cannot
+      help here remark</line><line>ing the many opportunities <mod type="subst"
+          ><metamark>^</metamark><del rend="strikethrough">parents</del>
+        <add place="superlinear">instructors</add></mod>
+      <mod type="subst" resp="psb"><del rend="strikethrough">have</del>
+        <add place="superlinear">posess</add></mod></line><line>of directing the attention of their
+      pupils to</line><line>useful knowledge, which they utterly neglect.</line><line>My father
+      looked carelessly at the tit<del rend="strikethrough">t</del>le page</line><line>of my book -
+        <del rend="strikethrough">Ah</del> and said Ah! Cornelius</line><line> Agrippa! - My dear
+      Victor do not waste</line><line>your time upon this- it is sad trash.</line><line>If instead
+      of this remark or rather excla</line><line>mation my father had taken the pains to</line>
+      ex<mod type="subst"><del rend="strikethrough">pound</del><add place="superlinear"
+      >lain</add></mod> to that the principles of </zone>
 </surface>
