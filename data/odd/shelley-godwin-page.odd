@@ -474,7 +474,7 @@
 
                     <elementSpec ident="hi" module="core" mode="change">
                         <attList>
-                            <attDef ident="rend" mode="change" usage="req">
+                            <attDef ident="rend" mode="replace" usage="req">
                                 <valList type="closed" mode="replace">
                                     <valItem ident="hyphenated"/>
                                     <valItem ident="underline"/>
@@ -490,6 +490,18 @@
                             <p>Attribute values adapted from the TEI P5 specification for the ENRICH
                                 project, http://enrich.manuscriptorium.com/</p>
                         </remarks>
+                    </elementSpec>
+                    
+                    <elementSpec ident="add" module="core" mode="change">
+                        <attList>
+                            <attDef ident="place" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="superlinear"/>
+                                    <valItem ident="intralinear"/>
+                                    <valItem ident="sublinear"/>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
 
                 </schemaSpec>
