@@ -503,6 +503,18 @@
                             </attDef>
                         </attList>
                     </elementSpec>
+                    
+                    <elementSpec ident="zone" module="transcr" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="replace" usage="req">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="top"/>
+                                    <valItem ident="left margin"/>
+                                    <valItem ident="main"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
 
                 </schemaSpec>
             </div>
