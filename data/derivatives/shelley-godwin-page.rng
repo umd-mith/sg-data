@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-07T10:25:59Z. 
+Schema generated from ODD source 2012-03-07T10:37:12Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5254,9 +5254,17 @@ element. </a:documentation>
           <ref name="sga-pmodel.linePart"/>
         </choice>
       </zeroOrMore>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.coordinated.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
+      <attribute name="type">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+        <choice>
+          <value>top</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <value>left margin</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <value>main</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+        </choice>
+      </attribute>
       <optional>
         <attribute name="points">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a two dimensional area within the bounding box
@@ -5284,6 +5292,9 @@ of a point on a line enclosing the area.</a:documentation>
           <ref name="sga-pdata.count"/>
         </attribute>
       </optional>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.coordinated.attributes"/>
+      <ref name="sga-patt.typed.attribute.subtype"/>
       <empty/>
     </element>
   </define>

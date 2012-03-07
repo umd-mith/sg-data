@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-07T10:25:59Z. 
+# Schema generated from ODD source 2012-03-07T10:37:12Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2924,9 +2924,19 @@ sga-pzone =
      | sga-pmodel.global
      | sga-psurface
      | sga-pmodel.linePart)*,
-    sga-patt.global.attributes,
-    sga-patt.coordinated.attributes,
-    sga-patt.typed.attributes,
+    
+    ##
+    attribute type {
+      
+      ##
+      "top"
+      | 
+        ##
+        "left margin"
+      | 
+        ##
+        "main"
+    },
     
     ## identifies a two dimensional area within the bounding box
     ## specified by the other attributes by means of
@@ -2948,6 +2958,9 @@ sga-pzone =
     ##          coordinates of the surface itself. The orientation
     ##          is expressed in arc degrees.
     [ a:defaultValue = "0" ] attribute rotate { sga-pdata.count }?,
+    sga-patt.global.attributes,
+    sga-patt.coordinated.attributes,
+    sga-patt.typed.attribute.subtype,
     empty
   }
 sga-paddSpan =
