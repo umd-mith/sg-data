@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0022" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0022" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0022.tif"/>
   <zone>
     <line>I threw myself into the chaise</line>
@@ -14,9 +12,9 @@
     <line>In the university <del rend="overstrike">wi</del> whither I was</line>
     <line>going I must form my own friends</line>
     <line>and be my own <mod>
-        <add place="supralinear" hand="PBS">protector.</add>
-        <del rend="overstrike">introduction</del>
-      </mod>. My</line>
+      <add place="supralinear" hand="PBS">protector.</add>
+      <del rend="overstrike">introduction</del>
+    </mod>. My</line>
     <line>life had hitherto been remarkably retired</line>
     <line>and domestic and this had given me</line>
     <line>an invincible repugnance to new <del rend="overstrike">faces</del></line>
@@ -30,9 +28,9 @@
     <line>rose. I ardently desired knowledge</line>
     <line><del rend="overstrike">and I</del> often when at home</line>
     <line>thought<mod>
-        <add place="supralinear" hand="PBS">it</add>
-        <del rend="overstrike">how</del>
-      </mod> hard <del rend="overstrike">it was</del> to remain</line>
+      <add place="supralinear" hand="PBS">it</add>
+      <del rend="overstrike">how</del>
+    </mod> hard <del rend="overstrike">it was</del> to remain</line>
     <line>cooped up in one place <del rend="overstrike">all my</del></line>
     <line><del rend="overstrike">life</del> and <add place="supralinear" hand="PBS">had</add> longed
       to enter into the</line>
@@ -54,9 +52,9 @@
       </mod> be<add place="intralinear">en</add> folly to</line>
     <line>repent.</line>
     <line>I had <mod>
-        <add place="supralinear" hand="PBS">sufficient</add>
-        <del rend="overwrite">plenty of</del>
-      </mod> leisure for these</line>
+      <add place="supralinear" hand="PBS">sufficient</add>
+      <del rend="overwrite">plenty of</del>
+    </mod> leisure for these</line>
   </zone>
   <zone>
     <line>I had</line>
