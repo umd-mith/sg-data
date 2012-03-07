@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-07T10:37:12Z. 
+Schema generated from ODD source 2012-03-07T11:16:19Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5248,10 +5248,12 @@ element. </a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
-          <ref name="sga-pmodel.graphicLike"/>
-          <ref name="sga-pmodel.global"/>
-          <ref name="sga-psurface"/>
           <ref name="sga-pmodel.linePart"/>
+          <ref name="sga-pmodel.graphicLike"/>
+          <ref name="sga-pmodel.milestoneLike"/>
+          <ref name="sga-pmodel.noteLike"/>
+          <ref name="sga-pmodel.global.edit"/>
+          <ref name="sga-pmetamark"/>
         </choice>
       </zeroOrMore>
       <attribute name="type">
