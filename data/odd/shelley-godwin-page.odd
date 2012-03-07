@@ -505,6 +505,21 @@
                     </elementSpec>
                     
                     <elementSpec ident="zone" module="transcr" mode="change">
+                        <content>
+                            <rng:zeroOrMore>
+                                <rng:choice>
+                                    <rng:text/>
+                                    <!--<rng:ref name="surface"/>--><!-- Temporarily removing this option pre-Whitman -->
+                                    <rng:ref name="model.linePart"/>
+                                    <rng:ref name="model.graphicLike"/>
+                                    <!-- The following represent only a subset of model.global -->
+                                    <rng:ref name="model.milestoneLike"/>
+                                    <rng:ref name="model.noteLike"/>
+                                    <rng:ref name="model.global.edit"/>
+                                    <rng:ref name="metamark"/>
+                                </rng:choice>
+                            </rng:zeroOrMore>
+                        </content>
                         <attList>
                             <attDef ident="type" mode="replace" usage="req">
                                 <valList type="closed" mode="replace">
