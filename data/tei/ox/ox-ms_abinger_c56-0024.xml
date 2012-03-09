@@ -9,7 +9,7 @@
     <line>The next morning I delivered my</line>
     <line>letters of introduction and paid a</line>
     <line>visit to some of the principal</line>
-    <line> professors. and among others to M. K </line>
+    <line> professors. and among others to M. <del rend="overstrike">K</del></line>
     <line>Krempe Professor of <del rend="overstrike">&#38; Lecturer</del>
       <del rend="overstrike">upon</del> Natural</line>
     <line>philosophy. He received me with</line>
@@ -21,13 +21,13 @@
     <line>with fear and trembling, the only</line> ever 
     <line>authors I had
         <add place="sublinear">^</add><add place="supralinear" resp="PBS">ever</add> read upon those</line>
-    <line>subjects. The professor stared. <del rend="strikethrough">I said</del></line>
-    <line><del rend="strikethrough">that I did not mention these</del></line>
+    <line>subjects. The professor stared. <delSpan spanTo="#f10vdel1"/>I said</line>
+    <line>that I did not mention these<anchor xml:id="f10vdel1"/></line>
     <line>"Have you really" said" he "spent</line>
     <line>"your time in studying such</line>
     <line>"nonsence?" I replied in the affir</line>
     <line>mative.</line>
-    <line>"Every minute"– continued M. K -</line>
+    <line>"Every minute"– continued M. <del rend="overstrike">K</del> -</line>
     <line>with warmth," every instant that</line>
     <line>"you have wasted upon those</line>
     <line>"books is utterly and entirely lost.</line>
@@ -40,10 +40,9 @@
         <del rend="overstrike">where must you</del>
       </mod> have you</line>
     <line>"lived where no one was kind</line>
-    <line>"enough to <del rend="overstrike">enfor</del> inform you</line> you <line>"that these
-      fancies which <metamark>^</metamark><add place="supralinear">you</add> have</line>
+    <line>"enough to <del rend="overstrike">enfor</del> inform you</line> you <line>
+      "that these fancies which <add place="sublinear">^</add><add place="supralinear">you</add> have</line>
   </zone>
-  
   <zone>
     <mod>
       <add place="supralinear">Krempe</add>
