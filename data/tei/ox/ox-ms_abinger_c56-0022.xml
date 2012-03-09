@@ -12,7 +12,7 @@
     <line>In the university <del rend="overstrike">wi</del> whither I was</line>
     <line>going I must form my own friends</line>
     <line>and be my own <mod>
-      <add place="supralinear" hand="PBS">protector.</add>
+      <add place="supralinear" resp="PBS">protector.</add>
       <del rend="overstrike">introduction</del>
     </mod>. My</line>
     <line>life had hitherto been remarkably retired</line>
@@ -28,11 +28,11 @@
     <line>rose. I ardently desired knowledge</line>
     <line><del rend="overstrike">and I</del> often when at home</line>
     <line>thought<mod>
-      <add place="supralinear" hand="PBS">it</add>
+      <add place="supralinear" resp="PBS">it</add>
       <del rend="overstrike">how</del>
     </mod> hard <del rend="overstrike">it was</del> to remain</line>
     <line>cooped up in one place <del rend="overstrike">all my</del></line>
-    <line><del rend="overstrike">life</del> and <add place="supralinear" hand="PBS">had</add> longed
+    <line><del rend="overstrike">life</del> and <add place="supralinear" resp="PBS">had</add> longed
       to enter into the</line>
     <line><del rend="overstrike">worth</del> world and take my <del rend="overstrike">place</del></line>
     <line>
@@ -47,12 +47,12 @@
         <del rend="overstrike">be</del>
       </mod> 
       <mod>
-        <add place="supralinear" hand="PBS">have</add>
+        <add place="supralinear" resp="PBS">have</add>
         <del rend="overstrike">indeed</del>
       </mod> be<add place="intralinear">en</add> folly to</line>
     <line>repent.</line>
     <line>I had <mod>
-      <add place="supralinear" hand="PBS">sufficient</add>
+      <add place="supralinear" resp="PBS">sufficient</add>
       <del rend="overwrite">plenty of</del>
     </mod> leisure for these</line>
   </zone>
