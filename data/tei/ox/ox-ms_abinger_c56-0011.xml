@@ -11,18 +11,18 @@
     <line><metamark>X</metamark>
       <del rend="strikethrough" resp="mws">sevr</del> servants had any request to make</line>
     <line>it always through <del rend="strikethrough" resp="mws">the</del>
-      <add place="superlinear">her</add> intercession<del rend="strikethrough" resp="mws">of</del>
+      <add place="superlinear">her</add> intercession <add><ptr/></add><del rend="strikethrough" resp="mws">of</del>
       <add rend="marginal"><metamark>X</metamark></add> yet</line>
     <line><del rend="strikethrough">Elizabeth For me I loved he We agreed</del></line>
     <line><del rend="strikethrough">perfectly although there were many</del></line>
     <line>was a great dissimilitude <mod resp="pbs"><add rend="superlinear"><del
             rend="strikethrough">There</del> For, although</add></mod> in our</line>
-    <line>characters.- I was more calm and phi</line><line>lophical than my companion</line>
+    <line>characters<add><ptr/></add>.- I was more calm and phi</line><line>lophical than my companion</line>
     <line>Yet I was not <del rend="strikethrough" resp="mws">n</del> so mild or yielding.</line>
     <line>My application was of longer endurance</line><line><del rend="strikethrough" resp="mws"
         >than hers</del> but it was not so severe</line><line><del rend="strikethrough">as
         hers</del> whil<add rend="interlinear" resp="pbs">st</add> it <del rend="strikethrough"
-        >lasted</del><add rend="superlinear" resp="pbs">endured</add><del rend="strikethrough"
+        >lasted</del><add rend="superlinear" resp="pbs">endured</add><add><ptr/></add><del rend="strikethrough"
         resp="mws"> my amusements</del></line><line><del rend="strikethrough" resp="mws">were
         studying old books of chemistry</del></line><line><del rend="strikethrough" resp="mws">and natural magic those of Elizabeth
         were</del></line><line><del rend="strikethrough" resp="mws">drawing &amp; music. </del></line>
@@ -46,10 +46,13 @@
     <line><del rend="strikethrough" resp="mws">car</del> characters of which were Orlando</line><line> Robin
       Hood, Amadis and St George-</line><line>No youth could could be more happy</line>
   </zone>
+  
+    <zone><metamark>X</metamark>
+    <add place="marginal"> We were strangers to any speceis of disunion or dispute</add></zone>
+  
   <zone><add place="marginal"><metamark>X</metamark> there was an harmony in that very
       dissimilition</add></zone>
-  <zone><metamark>X</metamark>
-    <add place="marginal"> We were strangers to any speceis of disunion or dispute</add></zone>
+
   <zone><add place="marginal"><metamark>X</metamark> I delighted in investigating the facts relating to the actual
       world, she busied herself in<metamark>^</metamark><add rend="superlinear" resp="pbs">following</add>the
       aerial creations of the poets.- The world was to me a secret which I desired to discover,- to
