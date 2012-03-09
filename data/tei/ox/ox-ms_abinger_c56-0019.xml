@@ -42,8 +42,8 @@
       <mod>
         <add place="supralinear" resp="PBS">Yet, from whom</add>
         <del rend="overstrike">But</del>
-      </mod> who has not <del rend="overstrike">had some dear</del></line>
-    <line><del rend="overstrike">connection rent away by</del> that rude hand</line>
+      </mod> who has not <delSpan rend="overstrike" spanTo="#f8rdel1"/>had some dear</line>
+      <line>connection rent away by<anchor xml:id="f8rdel1"/> that rude hand</line>
     <line>and why 
       <mod>
         <add place="supralinear" resp="PBS">should</add>
@@ -69,7 +69,7 @@
     </mod>taken away but we had still</line>
   </zone>
   <zone>
-    <line>rent away some</line>
-    <line>dear connection</line>
+    <addSpan resp="PBS" spanTo="#f8radd1"/><line>rent away some</line>
+      <line>dear connection,</line><anchor xml:id="f8radd1"/>
   </zone>
 </surface>
