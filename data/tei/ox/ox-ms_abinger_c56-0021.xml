@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0021" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0021.tif"/>
-    <zone>
-    </zone>
+    <zone>(51</zone>
+      <zone>
+      <line>of hels herself.<zone>9</zone></line>
+      <line>The day of my departure at lenghth</line>
+      <line>arrived – I had taken leave of all</line>
+      <line>my friends excepting Clerval, who spent</line>
+      <line>the last evening with us.  He bitterly la</line>
+      <line>mented that he was 
+        <mod>
+          <add place="supralinear" resp="PBS">unable</add>
+          <del rend="overstrike">not able</del>
+        </mod> to</line>
+      <line>accompany me  But his father</line>  
+      be persuaded
+      <line>could not 
+        <mod>
+          <add place="supralinear" resp="PBS">be persuaded</add>
+          <del rend="overstrike">bear</del>
+        </mod> to part with him</line>                   
+      <line><del rend="overstrike">besides</del> <del rend="overstrike">as</del> <del rend="overstrike">he</del> intend
+        <mod type="overwritten">
+          <add place="intralinear">ing</add>
+          <del>ed</del>
+        </mod>
+        <mod>
+          <add place="supralinear">that he should</add>
+          <del rend="overstrike">him to</del>
+        </mod> be-</line>
+      <line>come a partner with him in</line>
+      <line>his business, and he said he did not</line>
+      of                         could be 
+      <line>see what use learning was to a</line>
+      ^                       ^ 
+      <line>merchant.  Henry had a refined mind </line> 
+      had no desire
+      <line>and a he did not wish to be idle</line>
+      
+      <line>and was well pleased to become the</line>
+      partner
+      <line>partner of his father's but he believed</line>
+      ^
+      <line>that a man might be a very good</line>
+      posess
+      <line>trader and yet have a cultivated</line>
+      <line>mind.  understanding.</line>
+      <line>We sate late listening to his com</line> 
+      <line>plaints, and l making many little</line>
+      <line>arrangements for the future. and The</line>
+      <line>next morning early I departed.  Tears</line>
+      <line>gushed from the eyes of Elizabeth</line>
+      <line>they proceeded partly from sorrow</line>
+      <line>at my departure, and partly because</line>
+      <line>she reflected that the same journey</line>
+      <line> was to have taken place three</line>
+      <line>months before when a mothers </line>
+      <line>blessing would have accompanied me</line>
+      </zone>
 </surface>
