@@ -302,7 +302,7 @@
                     images produced for the Archive. It is therefore worth saying a little more
                     about diplomatic transcriptions.</p>
                 <!-- Goal is to accurately record what is on the page while adding information beyond what could be discerned from the image alone -->
-                <div>
+                <div xml:id="hands">
                     <head>A note about hands</head>
                     <p>Deciphering the different hands present in the <emph>Frankenstein</emph>
                         manuscripts is a challenging problem and notable Shelley scholars have
