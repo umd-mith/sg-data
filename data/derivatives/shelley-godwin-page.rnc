@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-02-19T17:54:13Z. 
+# Schema generated from ODD source 2012-03-07T11:16:19Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1496,59 +1496,36 @@ sga-phi =
   ##         made.  [3.3.2.2.  3.3.2. ]
   element hi {
     sga-pmacro.paraContent,
+    
+    ##
+    attribute rend {
+      
+      ##
+      "hyphenated"
+      | 
+        ##
+        "underline"
+      | 
+        ##
+        "double-underline"
+      | 
+        ##
+        "bold"
+      | 
+        ##
+        "caps"
+      | 
+        ##
+        "italic"
+      | 
+        ##
+        "sup"
+    },
     sga-patt.global.attribute.el-target,
     sga-patt.global.attribute.att-target,
     sga-patt.global.attribute.att-value,
     sga-patt.global.attribute.xmlid,
     sga-patt.global.attribute.n,
-    
-    ## (rendition) indicates how the element in question was rendered or presented in the source text.
-    attribute rend {
-      list {
-        (
-         ##
-         "hyphenated"
-         | 
-           ##
-           "underline"
-         | 
-           ##
-           "double-underline"
-         | 
-           ##
-           "bold"
-         | 
-           ##
-           "caps"
-         | 
-           ##
-           "italic"
-         | 
-           ##
-           "sup"),
-        (
-         ##
-         "hyphenated"
-         | 
-           ##
-           "underline"
-         | 
-           ##
-           "double-underline"
-         | 
-           ##
-           "bold"
-         | 
-           ##
-           "caps"
-         | 
-           ##
-           "italic"
-         | 
-           ##
-           "sup")*
-      }
-    },
     sga-patt.global.linking.attributes,
     sga-patt.global.facs.attributes,
     empty
@@ -1761,9 +1738,21 @@ sga-padd =
   ##         author, scribe, annotator, or corrector. [3.4.3. ]
   element add {
     sga-pmacro.paraContent,
+    
+    ##
+    attribute place {
+      
+      ##
+      "superlinear"
+      | 
+        ##
+        "intralinear"
+      | 
+        ##
+        "sublinear"
+    }?,
     sga-patt.global.attributes,
     sga-patt.transcriptional.attributes,
-    sga-patt.placement.attributes,
     sga-patt.typed.attributes,
     empty
   }
@@ -2931,13 +2920,25 @@ sga-pzone =
   ## element. 
   element zone {
     (text
+     | sga-pmodel.linePart
      | sga-pmodel.graphicLike
-     | sga-pmodel.global
-     | sga-psurface
-     | sga-pmodel.linePart)*,
-    sga-patt.global.attributes,
-    sga-patt.coordinated.attributes,
-    sga-patt.typed.attributes,
+     | sga-pmodel.milestoneLike
+     | sga-pmodel.noteLike
+     | sga-pmodel.global.edit
+     | sga-pmetamark)*,
+    
+    ##
+    attribute type {
+      
+      ##
+      "top"
+      | 
+        ##
+        "left margin"
+      | 
+        ##
+        "main"
+    },
     
     ## identifies a two dimensional area within the bounding box
     ## specified by the other attributes by means of
@@ -2959,6 +2960,9 @@ sga-pzone =
     ##          coordinates of the surface itself. The orientation
     ##          is expressed in arc degrees.
     [ a:defaultValue = "0" ] attribute rotate { sga-pdata.count }?,
+    sga-patt.global.attributes,
+    sga-patt.coordinated.attributes,
+    sga-patt.typed.attribute.subtype,
     empty
   }
 sga-paddSpan =
