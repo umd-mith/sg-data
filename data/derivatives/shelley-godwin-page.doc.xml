@@ -285,11 +285,11 @@
                         manuscripts is a challenging problem and notable Shelley scholars have
                         struggled with correct identifications in the past.</p>
                     <p>For this project, we will be using the identifications provided in the Word
-                        files or in the scans of the Shelley &amp; his Circle volumes. Only
-                        interventions by Percy Shelley need to be recorded with a <hi rend="att">resp</hi>
-                        attribute (these are marked in blue in the editors' Word files). Neither the
-                        darkness/lightness of the ink nor ink color is a reliable indicator of a
-                        change in hands.</p>
+                        files or in the scans of the Shelley &amp; his Circle volumes. <hi rend="bold">Only interventions by Percy Shelley need to be recorded in
+                            transcriptions</hi> (these are marked in blue in the editors' Word
+                        files). To record responsibility, use a <hi rend="att">resp</hi> attribute on the
+                        appropriate element. Neither the darkness/lightness of the ink nor ink color
+                        is a reliable indicator of a change in hands.</p>
                     <p>Determination of hand shifts will be reviewed by subject experts after the
                         initial transcription has been completed. Please feel free to note any
                         questions or problems in your commit notes or pull requests.</p>
