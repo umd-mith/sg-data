@@ -18,9 +18,9 @@
     <line>in the <del rend="overstrike">sciences</del> different branches</line>
     <line>of science appertaining to natural</line>
     <line>philosophy. I mentioned, it is true</line>
-    <line>with fear and trembling, the only</line> ever 
+    <line>with fear and trembling, the only</line>
     <line>authors I had
-        <add place="sublinear">^</add><add place="supralinear" resp="PBS">ever</add> read upon those</line>
+        <add place="sublinear">^</add><add place="supralinear">ever</add> read upon those</line>
     <line>subjects. The professor stared. <delSpan spanTo="#f10vdel1"/>I said</line>
     <line>that I did not mention these<anchor xml:id="f10vdel1"/></line>
     <line>"Have you really" said" he "spent</line>
@@ -33,10 +33,9 @@
     <line>"books is utterly and entirely lost.</line>
     <line>"You have burdened your <del rend="strikethrough">bur</del></line>
     <line>"<del rend="strikethrough">memor</del> memory with exploded</line>
-    <line>"systems and useless names. Good </line>
-    <line>in what desart land</line>
+    <line>"systems and useless names. Good</line>
     <line>"God <mod>
-        <add place="supralinear" resp="PBS">in what desart land</add>
+        <add place="supralinear">in what desart land</add>
         <del rend="overstrike">where must you</del>
       </mod> have you</line>
     <line>"lived where no one was kind</line>
