@@ -51,7 +51,7 @@
     <line>the study not to des der derange</line>
   </zone>
   <zone>
-    <line>in ultimately</line>
+    <addSpan xml:id="c56-0028.01b" spanTo="#c56-0029.01m"/>   <line>in ultimately</line>
     <line>turning to the</line>
     <line>solid advantage of</line>
     <line>mankind. I listen</line>
@@ -60,9 +60,9 @@
     <line>was delivered</line>
     <line>without any</line>
     <line>presumption</line>
-    <line>&amp; then added</line>
+    <line>&amp; then added</line><anchor xml:id="c56-0029.01m"/>
   </zone>
-  <zone><addSpan xml:id="c56-0029.01" spanTo="#c56-0029.01m"/> <line>including</line></zone><anchor xml:id="c56-0029.01m"/>
+  <zone><addSpan xml:id="c56-0029.02" spanTo="#c56-0029.02m"/> <line>including</line></zone><anchor xml:id="c56-0029.02m"/>
 
   <zone><addSpan xml:id="c56-0029.04" spanTo="#c56-0029.04m"/><line>instructing me as to</line><anchor xml:id="c56-0029.04m"/></zone>
 
