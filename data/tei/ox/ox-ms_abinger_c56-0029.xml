@@ -14,7 +14,7 @@
     <line><metamark>"</metamark>mistry is that branch of natural</line>
     <line><metamark>"</metamark>philosophy in which the greatest im-</line>
     <line><metamark>"</metamark>provements have <mod type="subst" resp="pbs"><add place="sublinear"
-          >^</add><add place="superlinear">been</add></mod>&amp; may be made.</line>
+          >^</add><add place="superlinear">been</add></mod> &amp; may be made.</line>
     <line><metamark>"</metamark>It is on that accounts that I <unclear extent="2" unit="chars"
         reason="illegible" precision="low">sl</unclear></line>
     <line><metamark>"</metamark>chose it for my peculiar study. But</line>
@@ -45,25 +45,26 @@
           >ling</del><add><ptr
             target="#c56-0029.03"/></add> me what I <mod type="subst"><del rend="strikethrough">should procure</del><add place="superlinear">ought to procure</add></mod></line>
     <line>for my priva and promising me</line>
-    <line><del rend="strikethrough">a lone</del> the use of his <add place="superlinear">own</add>
+    <line><del rend="strikethrough">a lone</del> the use of his <add place="superlinear" resp="pbs">own</add>
       when I should</line>
     <line>have advanced fare enough in</line>
     <line>the study not to des der derange</line>
   </zone>
   <zone>
-    <addSpan xml:id="c56-0028.01b" spanTo="#c56-0029.01m"/>   <line>in ultimately</line>
+    <addSpan xml:id="c56-0028.01" resp="pbs" spanTo="#c56-0028.01m"/><!--this addSpan is identical in all code with that for first addSpan in file c56-0028. The problem is that the intervention crosses pages, while the scholar indicates content should solely intervene within c56-0028-->
+    <line>in ultimately</line>
     <line>turning to the</line>
     <line>solid advantage of</line>
-    <line>mankind. I listen</line>
+    <line>mankind.<!--unclear on whether to encode partial or entire addSpan in dual hands (i.e. MWS's ink-over in addition to PBS's pencil-->I listen</line>
     <line>ed to his state</line>
     <line>ment which</line>
     <line>was delivered</line>
     <line>without any</line>
     <line>presumption</line>
-    <line>&amp; then added</line><anchor xml:id="c56-0029.01m"/>
+    <line>&amp; then added</line><anchor xml:id="c56-0028.01m"/>!<!--first addSpan from c56-0028 terminates with this anchor-->
   </zone>
-  <zone><addSpan xml:id="c56-0029.02" spanTo="#c56-0029.02m"/> <line>including</line></zone><anchor xml:id="c56-0029.02m"/>
+  <zone><addSpan resp="pbs" xml:id="c56-0029.01" spanTo="#c56-0029.01m"/> <line>including</line></zone><anchor xml:id="c56-0029.01m"/>
 
-  <zone><addSpan xml:id="c56-0029.04" spanTo="#c56-0029.04m"/><line>instructing me as to</line><anchor xml:id="c56-0029.04m"/></zone>
+  <zone><addSpan resp="pbs" xml:id="c56-0029.03" spanTo="#c56-0029.03m"/><line>instructing me as to</line><line><metamark>—</metamark></line><anchor xml:id="c56-0029.03m"/></zone>
 
 </surface>
