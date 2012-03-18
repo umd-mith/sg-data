@@ -6,7 +6,11 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
+<<<<<<< HEAD
 # Schema generated from ODD source 2012-02-19T17:54:13Z. 
+=======
+# Schema generated from ODD source 2012-03-18T12:15:23Z. 
+>>>>>>> 3690f4a... Committing rnc by itself to make cherry-picking easier
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -329,19 +333,20 @@ sga-patt.divLike.attribute.part =
       "F"
   }?
 sga-patt.responsibility.attributes =
-  sga-patt.responsibility.attribute.cert,
-  sga-patt.responsibility.attribute.resp
+  sga-patt.responsibility.attribute.resp,
+  sga-patt.responsibility.attribute.cert
+sga-patt.responsibility.attribute.resp =
+  
+  ##
+  attribute resp {
+    
+    ##
+    "#pbs"
+  }?
 sga-patt.responsibility.attribute.cert =
   
   ## (certainty) signifies the degree of certainty associated with the intervention or interpretation.
   attribute cert { sga-pdata.certainty }?
-sga-patt.responsibility.attribute.resp =
-  
-  ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an
-  ##         editor or transcriber.
-  attribute resp {
-    list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
 sga-patt.editLike.attributes =
   sga-patt.dimensions.attributes,
   sga-patt.responsibility.attributes,
