@@ -385,6 +385,16 @@
                             <attDef ident="start" mode="delete"/>
                         </attList>
                     </classSpec>
+                    
+                    <classSpec ident="att.responsibility" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="resp" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="#pbs"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </classSpec>
 
                     <!-- Removing entire classes; some of these might be restored later -->
                     <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
