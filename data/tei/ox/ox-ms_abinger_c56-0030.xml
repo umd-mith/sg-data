@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0030" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0030" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0030.tif"/>
-    <zone>
-    </zone>
+  <zone><line>60)</line></zone>
+  <zone>
+    <line>the<mod type="subst"><add place="intralinear">ir</add>.<add place="sublinear">^</add><add
+          place="superlinear">mechanism.</add></mod> He also gave me the list of</line>
+    <line>books which I had requested and</line>
+    <line>I took my leave.</line>
+    <line>Thus ended a day memorable</line>
+    <line><mod><del rend="strikethrough">in a my life</del><add place="superlinear">to
+        me</add></mod> for it decided my</line>
+    <line>destiny.</line>
+  </zone>
+
 </surface>
