@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0034" ulx="0" uly="0" lrx="5364" lry="7104">
+  xml:id="ox-ms_abinger_c56-0034" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0034.tif"/>
   <zone type="pagination" rend="#bordered">
     <line>64)</line></zone>
@@ -23,17 +23,17 @@
     <line>bodies deprived of life and <mod type="subst" resp="#pbs"><del rend="strikethrough"
           >becoming</del><add place="superlinear">which</add></mod></line>
     <line>from being the seat of beauty &amp;</line>
-    <!--what other values can mod take? how about mod @type="addition"?--><line>strength <mod
-        resp="#pbs" type="subst"><add place="sublinear">^</add><add place="superlinear" resp="#pbs"
-          >become</add></mod> food for the worm. <mod spanTo="#c56-0034.01m"/><del
-        rend="strikethrough">But</del></line>
+    <line>strength <mod resp="#pbs" type="addition"><add place="sublinear">^</add><add
+          place="superlinear" resp="#pbs">become</add></mod> food for the worm. <mod
+        spanTo="#c56-0034.01m"/><del rend="strikethrough">But</del></line>
     <line><del rend="cross-hatch">I</del>
       <del rend="strikethrough">A loathsome</del>
       <unclear unit="chars" extent="1" precision="low">c</unclear>
       <del rend="strikethrough">But</del><anchor xml:id="c56-0034.01m"/> now I was</line>
     <line><mod type="subst" resp="#pbs"><del rend="strikethrough">obliged</del><add
-          place="superlinear">led</add></mod> to examine the <mod type="subst"><del rend="strikethrough"
-        >cause</del><add place="superlinear">cause</add></mod> &amp; progress</line>
+          place="superlinear">led</add></mod> to examine the <mod type="subst"><del
+          rend="strikethrough">cause</del><add place="superlinear">cause</add></mod> &amp;
+      progress</line>
     <line>of this decay and forced to spend days</line>
     <line>and nights in vau<add place="intralinear" resp="#pbs">l</add>ts and Charnel</line>
     <line>houses. I <del rend="strikethrough">was obliged</del> My attention was</line>
@@ -44,7 +44,7 @@
           delicacy of</add> the human feelings. <del rend="strikethrough">are
       suscept</del></mod>able–</line>
     <line>I saw how the fine form of <del rend="cross-hatch">a</del> man</line>
-    <line><mod resp="pbs" type="subst"><del rend="strikethrough">was</del><add><ptr
+    <line><mod resp="#pbs" type="subst"><del rend="strikethrough">was</del><add><ptr
             target="#c56-0034.02"/></add><add place="superlinear"><del rend="strikethrough"
             >became</del></add></mod> degraded and wasted. I beheld the</line>
     <line>corruption of death succeed to the bloom</line>
@@ -52,8 +52,8 @@
       the worm <del rend="strikethrough">suc</del></line>
     <line><del rend="strikethrough">ceeded to</del><add place="superlinear">inherited</add><anchor
         xml:id="c56-0034.03"/> the wonders of the eye and</line>
-    <line>brain. I paused, examin<mod type="subst" resp="pbs"><add place="intralinear">ing</add> and
-          anal<add place="intralinear">yzing</add></mod></line>
+    <line>brain. I paused, examin<mod type="subst" resp="#pbs"><add place="intralinear">ing</add>
+        and anal<add place="intralinear">yzing</add></mod></line>
     <line><mod type="subst"><add><ptr target="#c56-0034.04"/></add><del rend="strikethrough"
           >every</del>
         <del rend="strikethrough">minutiæ</del> of <del rend="strikethrough">causation</del></mod>
@@ -62,7 +62,7 @@
     <line>a sudden light broke in upon me.</line>
     <line>A light so brilliant &amp; wondrous yet</line>
   </zone>
-  <zone type="left margin">
+  <zone type="left_margin">
     <line><add resp="#pbs" xml:id="c56-0034.02">was</add></line>
     <addSpan hand="#pbs" spanTo="#c56-0034.04"/><line>all the minutiæ</line>
     <line>of causation</line>
