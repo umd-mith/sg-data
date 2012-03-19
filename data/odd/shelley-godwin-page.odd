@@ -265,6 +265,11 @@
                             descriptive attributes to record their placement on the page. This
                             information will be supplied by coordinates when the transcriptions and
                             page images are linked.</p>
+                        <p>SGA does use <att>@type</att> on <tag>zone</tag> with a controlled list
+                            of descriptive values such as <q>top</q>, <q>pagination</q>,
+                            <q>main</q>, etc. These are most for the benefit of processing tools and
+                            are secondary to the coordinates for positioning a zone with respect to
+                            the page it appears on.</p>
                     </div>
                     <div xml:id="lines">
                         <head>Transcribing lines</head>
@@ -385,7 +390,7 @@
                             <attDef ident="start" mode="delete"/>
                         </attList>
                     </classSpec>
-                    
+
                     <classSpec ident="att.responsibility" type="atts" mode="change">
                         <attList>
                             <attDef ident="resp" mode="replace">
