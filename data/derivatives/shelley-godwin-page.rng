@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-18T12:15:23Z. 
+Schema generated from ODD source 2012-03-19T12:31:59Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5126,19 +5126,17 @@ that space, zones of interest within that space, and transcriptions of the
         </attribute>
       </optional>
       <ref name="sga-patt.global.attribute.rend"/>
-      <optional>
-        <attribute name="partOf">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) Syntactic sugar attribute—should refer to the id of the
+      <attribute name="partOf">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) Syntactic sugar attribute—should refer to the id of the
                                     sourceDoc element with which this surface should be
                                     associated</a:documentation>
-          <list>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
             <ref name="sga-pdata.pointer"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.pointer"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
+          </zeroOrMore>
+        </list>
+      </attribute>
       <ref name="sga-patt.global.linking.attribute.next"/>
       <ref name="sga-patt.global.linking.attribute.prev"/>
       <ref name="sga-patt.global.facs.attributes"/>
@@ -5258,9 +5256,13 @@ element. </a:documentation>
         <choice>
           <value>top</value>
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-          <value>left margin</value>
+          <value>left_margin</value>
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
           <value>main</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <value>pagination</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <value>library</value>
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
         </choice>
       </attribute>
