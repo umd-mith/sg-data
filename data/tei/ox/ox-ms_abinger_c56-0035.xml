@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0035" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0035" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0035.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="#bordered">
+    <line>(65</line>
+  </zone>
+  <zone type="main">
+    <line>so simple that while <mod type="subst" spanTo="#c56-0035.01"/><del rend="strikethrough">it
+        intoxica</del><add><ptr target="#c56-0035.02"/></add></line>
+    <line><del rend="strikethrough">ted me</del><anchor xml:id="c56-0035.01"/> I was surprised that
+      I 16</line>
+    <line><del rend="strikethrough">was</del> among so many men of genius</line>
+    <line>who had applied to the same science</line>
+    <line>that I alone should discover</line>
+    <line>this astonishing secret.</line>
+    <milestone unit="tei:p"/>
+    <line>Remember I am <mod type="addition"><add place="sublinear">^</add><add place="superlinear"
+          >not</add></mod> recording the</line>
+    <line><del rend="strikethrough">no</del> vision <del rend="multistrike">of</del> of a madman –
+      the</line>
+    <line>sun does not more certainly shine</line>
+    <line>in the heavens than that wh<mod spanTo="#c56-0035.03" resp="#pbs" type="subst"/><add
+        place="intralinear">ich</add></line>
+    <line>I now <del rend="strikethrough">record</del><add place="superlinear">affirm,</add><anchor
+        xml:id="c56-0035.03"/> is true. Some miracle</line>
+    <line>might have produced it. But the</line>
+    <line>stages of discovery were distinct</line>
+    <line>and probable. After days and nights</line>
+    <line>of incredible <mod resp="#pbs" type="subst"><del rend="strikethrough">toil</del><add
+          place="superlinear">labour</add></mod> and fatigue</line>
+    <line>I succeeded in discovering the</line>
+    <line>cause of generation &amp; life. Nay</line>
+    <line>more, I <mod resp="#pbs" type="subst"><del rend="strikethrough">was</del><add
+          place="superlinear">became</add></mod> myself capable of</line>
+    <line>bestowing animation upon lifeless</line>
+    <line>matter.</line>
+    <milestone unit="tei:p"/>
+    <line><del rend="strikethrough">My</del> The surprise <mod type="subst"><del
+          rend="strikethrough">that</del><add place="superlinear">which</add></mod> I <mod
+        type="addition"><add place="sublinear">^</add><add place="superlinear">at
+      first</add></mod>experienced</line>  <line>on this discovery soon gave place to</line>
+    <line>delight and rapture. <mod spanTo="#c56-0035.04"/><del rend="strikethrough">After
+        such</del><add><ptr target="#c56-0035.05"/></add></line>
+    <line><del rend="strikethrough">painful labour</del><anchor xml:id="c56-0035.04"/>
+      <mod type="subst"><del rend="strikethrough">come</del><add place="superlinear">to
+        arrive</add></mod> at onece</line>
+    <line>at the <mod type="subst"><del rend="strikethrough">obj ect</del>
+        <del rend="strikethrough">object</del><add place="sublinear">^</add><add place="superlinear"
+          >summit</add></mod> of my desires</line>
+    <line>was the most gratifying circumstance</line>
+    <line>that could have occurred. But this</line>
+    <line>discovery was so great and overwhelm</line>
+    <line>ing that <mod type="deletion" rend="strikethrough"><del>the</del>
+        <del>reflection</del></mod> all the</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0035.02" spanTo="#c56-0035.02m"/>
+    <line>I became dizzy</line>
+    <line>with the immen</line>
+    <line>sity of the prospect</line>
+    <line>which it illus</line>
+    <line>trated,</line><anchor xml:id="c56-0035.02m"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0035.05" spanTo="#c56-0035.05m"/>
+    <line>After so much</line>
+    <line><metamark>^</metamark>time spent in</line>
+    <line>painful labour</line><anchor xml:id="c56-0035.05m"/>
+  </zone>
 </surface>
