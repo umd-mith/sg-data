@@ -555,11 +555,29 @@
                         <attList>
                             <attDef ident="type" mode="replace" usage="req">
                                 <valList type="closed" mode="replace">
-                                    <valItem ident="top"/>
-                                    <valItem ident="left_margin"/>
-                                    <valItem ident="main"/>
-                                    <valItem ident="pagination"/>
-                                    <valItem ident="library"/>
+                                    <valItem ident="top">
+                                        <desc>Material that can appear at the top of a manuscript
+                                            page—like headings or notes</desc>
+                                    </valItem>
+                                    <valItem ident="left_margin">
+                                        <desc>Zone for marginal additions, deletions, and other
+                                            modifications. More than one zone with this type may
+                                            appear in a document if marginal zones are distinct
+                                            interventions.</desc>
+                                    </valItem>
+                                    <valItem ident="main">
+                                        <desc>The main block of text on a page</desc>
+                                    </valItem>
+                                    <valItem ident="pagination">
+                                        <desc>For segments of a page where page numbers have been
+                                            added in one or more original hands; distinct from later
+                                            additions by librarians/collectors</desc>
+                                    </valItem>
+                                    <valItem ident="library">
+                                        <desc>A zone of writing which appears to have been added by
+                                            librarians/collectors at a later date—often page
+                                            numbers</desc>
+                                    </valItem>
                                 </valList>
                             </attDef>
                         </attList>
