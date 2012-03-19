@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0031" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0031" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0031.tif"/>
-    <zone>
-    </zone>
+  <zone type="top">
+    <line>Chap. 5</line>
+  </zone>
+  <zone type="top">
+    <line>(61</line>
+    <line>14</line>
+  </zone>
+  <zone type="main">
+    <line>From this day natural philosophy and parti</line>
+    <line>cularly chemistry became <mod type="subst"><add place="sublinear">^</add><add
+      place="superlinear">nearly</add> my sole <del rend="strikethrough">appli</del></mod></line>
+    <line>study. I read with ardour <del rend="strikethrough">m</del> those books</line>
+    <line>so full of genius and discrimination</line>
+    <line><mod type="subst"><del rend="strikethrough">that have been written</del><add><ptr
+            target="#c56-0031.01"/></add></mod> on these sub-</line>
+    <line>jects. I attended the lectures, and culti</line>
+    <line>vated the acquaintance of the men</line>
+    <line>of science of the university; and I found</line>
+    <line>even in Mr Krempe a great deal</line>
+    <line>of sound sense &amp; real information</line>
+    <line>combined it is true with a repulsive</line>
+    <line>phisiognomy &amp; manners, but not on</line>
+    <line>that account the less valuable.</line>
+    <line>In M. Waldman I found a true friend.</line>
+    <line>His gentleness was never tinged by <del rend="strikethrough">dg</del></line>
+    <line>dogmatism and his instructions were</line>
+    <line>given with an air of frankness and</line>
+    <line>good nature that banished ever<add resp="pbs" place="intralinear">y</add> idea</line>
+    <line>of <del rend="strikethrough">pedantl</del> pedantry. It was perhaps the</line>
+    <line>amiable character of this man that</line>
+    <line>enclined me more to the study of that</line>
+    <line>branch of <mod type="subst"><del rend="strikethrough">science</del><add place="sublinear"
+          >^</add><add place="superlinear">natural philosophy which he professed</add></mod> than an
+      intrinsic</line>
+    <line>love for the science itself. But this</line>
+    <line><mod type="subst" resp="pbs"><del rend="strikethrough">was</del><add><ptr
+            target="#c56-0031.02"/></add></mod> only in the first steps towards</line> the
+      <line>knowledge; <mod type="subst" resp="pbs"><del rend="strikethrough">as</del><add
+          place="superlinear">the more fully</add> I entered <del rend="strikethrough">more
+        fully</del></mod> into</line>
+    <line><mod type="subst" resp="pbs"><del rend="strikethrough">the philosophy</del><add
+          place="superlinear">science </add> the more I <del rend="strikethrough"
+            >studied</del><add><del rend="cross-hatch">s</del> pursued</add></mod> it</line>
+    <line>for its own sake. That application</line>
+    <line>which at first had been a matter</line>
+    <line>of <mod resp="pbs" type="subst"><del rend="strikethrough">ch</del> duty <add place="superlinear">^</add><add
+          place="superlinear">&amp; resolution,</add></mod> now became so ardent</line>
+    <line>and eager that the stars often</line>
+    <line>dissapeared <mod resp="pbs" type="subst"><add place="sublinear">^<ptr target="c56-0031.03"
+          /></add> while I was yet <del rend="strikethrough">labouring</del><add place="sublinear"
+          >engaged</add></mod></line>
+    <line>in my labrotary.</line>
+  </zone>
+  <zone type="left margin">
+    <addSpan resp="pbs" xml:id="c56-0031.01" spanTo="#c56-0031.01m"/>
+    <line>which modern</line>
+    <line>enquirers</line><anchor xml:id="c56-0031.01m"/>
+  </zone>
+
+  <zone type="left margin">
+    <addSpan resp="pbs" xml:id="c56-0031.02" spanTo="#c56-0031.02m"/><line/>
+    <line>circumstance <metamark>✗</metamark></line>
+    <line><unclear precision="low" extent="2" unit="chars">of</unclear>
+      <del rend="strikethrough">was had</del></line>
+    <line>state of mind had</line>
+    <line>place <metamark>✗</metamark></line><anchor xml:id="c56-0031.02m"/>
+  </zone>
+
+  <zone type="left margin">
+    <addSpan resp="pbs" xml:id="c56-0031.03" spanTo="#c56-0031.03m"/><line>in the light of</line>
+    <line>morning</line><anchor xml:id="c56-0031.03m"/>
+  </zone>
 </surface>
