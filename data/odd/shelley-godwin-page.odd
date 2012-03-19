@@ -396,6 +396,7 @@
                             <attDef ident="resp" mode="replace">
                                 <valList type="closed" mode="replace">
                                     <valItem ident="#pbs"/>
+                                    <valItem ident="http://viaf.org/viaf/95159449"/>
                                 </valList>
                             </attDef>
                         </attList>
