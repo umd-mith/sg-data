@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-18T12:15:23Z. 
+# Schema generated from ODD source 2012-03-19T12:31:59Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2847,7 +2847,7 @@ sga-psurface =
     ##                                     associated
     attribute partOf {
       list { sga-pdata.pointer, sga-pdata.pointer* }
-    }?,
+    },
     sga-patt.global.linking.attribute.next,
     sga-patt.global.linking.attribute.prev,
     sga-patt.global.facs.attributes,
@@ -2935,10 +2935,16 @@ sga-pzone =
       "top"
       | 
         ##
-        "left margin"
+        "left_margin"
       | 
         ##
         "main"
+      | 
+        ##
+        "pagination"
+      | 
+        ##
+        "library"
     },
     
     ## identifies a two dimensional area within the bounding box
