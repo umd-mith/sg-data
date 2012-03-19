@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-    xml:id="ox-ms_abinger_c56-0017" ulx="0" uly="0" lrx="5364" lry="7104">
+    xml:id="ox-ms_abinger_c56-0017" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
     <graphic url="../../images/ox/ox-ms_abinger_c56-0017.tif"/>
     <zone type="pagination" rend="#bordered">47</zone>
-    <zone>Chapter 3</zone>
-    <zone>7</zone>
-    <zone><line>When I had attained the age of</line>
+    <zone type="top">Chapter 3</zone>
+    <zone type="library">7</zone>
+    <zone type="main"><line>When I had attained the age of</line>
         <line>seventeen my <mod type="subst"><del rend="strikethrough">father</del><add
                     place="superlinear">parents</add></mod> resolved that</line>
         <line>I should <mod resp="#pbs" type="subst"><del rend="strikethrough">go</del><del
@@ -55,7 +55,7 @@
                     safe</del><add place="superlinear">the danger of infection was past</add></mod>.
             The</line>
     </zone>
-    <zone>
+    <zone type="left_margin">
         <addSpan hand="mws" xml:id="c56-0017.01" spanTo="#c56-0017.01m"/><line>becom a
             student</line><anchor xml:id="c56-0017.01m"/>
         <addSpan hand="mws" xml:id="c56-0017.02" spanTo="#c56-0017.02m"/><line>made</line><anchor
