@@ -452,7 +452,7 @@
 
                             <attDef ident="n" mode="change" usage="rec"/>
 
-                            <attDef ident="corresp" mode="change">
+                            <attDef ident="corresp" mode="change" usage="req">
                                 <altIdent>partOf</altIdent>
                                 <desc>Syntactic sugar attribute—should refer to the id of the
                                     sourceDoc element with which this surface should be
@@ -551,8 +551,10 @@
                             <attDef ident="type" mode="replace" usage="req">
                                 <valList type="closed" mode="replace">
                                     <valItem ident="top"/>
-                                    <valItem ident="left margin"/>
+                                    <valItem ident="left_margin"/>
                                     <valItem ident="main"/>
+                                    <valItem ident="pagination"/>
+                                    <valItem ident="library"/>
                                 </valList>
                             </attDef>
                         </attList>
