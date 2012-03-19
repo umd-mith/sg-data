@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-19T13:42:23Z. 
+Schema generated from ODD source 2012-03-19T14:22:45Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5654,9 +5654,22 @@ the space.</a:documentation>
     <element name="mod">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">represents any kind of modification identified within a single document.</a:documentation>
       <ref name="sga-pmacro.paraContent"/>
+      <optional>
+        <attribute name="type">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <choice>
+            <value>subst</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>additions</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>deletions</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          </choice>
+        </attribute>
+      </optional>
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.transcriptional.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
+      <ref name="sga-patt.typed.attribute.subtype"/>
       <ref name="sga-patt.spanning.attributes"/>
       <empty/>
     </element>
