@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-19T12:42:22Z. 
+# Schema generated from ODD source 2012-03-19T13:13:08Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2931,19 +2931,27 @@ sga-pzone =
     ##
     attribute type {
       
-      ##
+      ## Material that can appear at the top of a manuscript
+      ##                                             page—like headings or notes
       "top"
       | 
-        ##
+        ## Zone for marginal additions, deletions, and other
+        ##                                             modifications. More than one zone with this type may
+        ##                                             appear in a document if marginal zones are distinct
+        ##                                             interventions.
         "left_margin"
       | 
-        ##
+        ## The main block of text on a page
         "main"
       | 
-        ##
+        ## For segments of a page where page numbers have been
+        ##                                             added in one or more original hands; distinct from later
+        ##                                             additions by librarians/collectors
         "pagination"
       | 
-        ##
+        ## A zone of writing which appears to have been added by
+        ##                                             librarians/collectors at a later date—often page
+        ##                                             numbers
         "library"
     },
     

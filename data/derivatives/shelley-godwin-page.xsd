@@ -3,7 +3,7 @@
   <xs:import namespace="http://sga.mith.org/ns/1.0" schemaLocation="ns1.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2004/10/xml.xsd"/>
   <!--
-    Schema generated from ODD source 2012-03-19T12:42:22Z. 
+    Schema generated from ODD source 2012-03-19T13:13:08Z. 
     Edition: 2.0.2 Last updated on 2nd February 2012.
     Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
     
@@ -5595,27 +5595,35 @@ element. </xs:documentation>
           <xs:restriction base="xs:token">
             <xs:enumeration value="top">
               <xs:annotation>
-                <xs:documentation/>
+                <xs:documentation>Material that can appear at the top of a manuscript
+                                            page—like headings or notes</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
             <xs:enumeration value="left_margin">
               <xs:annotation>
-                <xs:documentation/>
+                <xs:documentation>Zone for marginal additions, deletions, and other
+                                            modifications. More than one zone with this type may
+                                            appear in a document if marginal zones are distinct
+                                            interventions.</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
             <xs:enumeration value="main">
               <xs:annotation>
-                <xs:documentation/>
+                <xs:documentation>The main block of text on a page</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
             <xs:enumeration value="pagination">
               <xs:annotation>
-                <xs:documentation/>
+                <xs:documentation>For segments of a page where page numbers have been
+                                            added in one or more original hands; distinct from later
+                                            additions by librarians/collectors</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
             <xs:enumeration value="library">
               <xs:annotation>
-                <xs:documentation/>
+                <xs:documentation>A zone of writing which appears to have been added by
+                                            librarians/collectors at a later date—often page
+                                            numbers</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
           </xs:restriction>

@@ -242,6 +242,11 @@
                             descriptive attributes to record their placement on the page. This
                             information will be supplied by coordinates when the transcriptions and
                             page images are linked.</p>
+                        <p>SGA does use <hi rend="att">@type</hi> on <hi rend="tag">&lt;zone&gt;</hi> with a controlled list
+                            of descriptive values such as <q>top</q>, <q>pagination</q>,
+                            <q>main</q>, etc. These are most for the benefit of processing tools and
+                            are secondary to the coordinates for positioning a zone with respect to
+                            the page it appears on.</p>
                     </div>
                     <div xml:id="lines">
                         <head>Transcribing lines</head>
@@ -3647,7 +3652,15 @@ element when
     On this element, the global <hi rend="att">xml:id</hi> attribute must be supplied to specify an identifier for this point in time. The value used may be chosen freely provided that it is unique within the document and is a syntactically valid name. There is no requirement for values containing numbers to be in sequence.
   </cell></row></table></div><div type="refdoc" xml:id="TEI.zone"><head>&lt;zone&gt;</head><index indexName="ODDS"><term sortKey="zone">&lt;zone&gt;</term><index indexName="ODDS"><term sortKey="type">@type</term></index><index indexName="ODDS"><term sortKey="points">@points</term></index><index indexName="ODDS"><term sortKey="rotate">@rotate</term></index></index><table rend="wovenodd"><row><cell cols="2" rend="wovenodd-col2"><hi rend="label">&lt;zone&gt; </hi><seg>defines any two-dimensional area within a &lt;surface&gt;
 element. </seg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Module</hi></cell><cell rend="wovenodd-col2">transcr</cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Attributes</hi></cell><cell rend="wovenodd-col2"><seg xml:lang="en">Attributes </seg><ref target="#TEI.att.global">att.global</ref> (<hi rend="attribute">@el-target</hi>, <hi rend="attribute">@att-target</hi>, <hi rend="attribute">@att-value</hi>, <hi rend="attribute">@xml:id</hi>, <hi rend="attribute">@n</hi>, <hi rend="attribute">@rend</hi>)<c xml:space="preserve"> </c> (<ref target="#TEI.att.global.linking">att.global.linking</ref> (<hi rend="attribute">@corresp</hi>, <hi rend="attribute">@next</hi>, <hi rend="attribute">@prev</hi>))  (<ref target="#TEI.att.global.facs">att.global.facs</ref> (<hi rend="attribute">@facs</hi>)) <ref target="#TEI.att.coordinated">att.coordinated</ref> (<hi rend="attribute">@start</hi>, <hi rend="attribute">@ulx</hi>, <hi rend="attribute">@uly</hi>, <hi rend="attribute">@lrx</hi>, <hi rend="attribute">@lry</hi>)<c xml:space="preserve"> </c><ref target="#TEI.att.typed">att.typed</ref> (<hi rend="attribute">@type</hi>, <hi rend="attribute">@subtype</hi>)<c xml:space="preserve"> </c><table rend="attList"><row><cell rend="odd_label">type</cell><cell rend="odd_value"><table rend="attDef"><row><cell rend="odd_label"><hi rend="label" xml:lang="en">Status</hi> </cell><cell rend="odd_value"><seg xml:lang="en"><hi rend="required">Required</hi></seg></cell></row>
-                                <row><cell rend="odd_label"><hi rend="label" xml:lang="en">Legal values are:</hi></cell><cell rend="odd_value"><list rend="valList"><label rend="odd_label">top</label><item rend="odd_value"/><label rend="odd_label">left_margin</label><item rend="odd_value"/><label rend="odd_label">main</label><item rend="odd_value"/><label rend="odd_label">pagination</label><item rend="odd_value"/><label rend="odd_label">library</label><item rend="odd_value"/></list></cell></row>
+                                <row><cell rend="odd_label"><hi rend="label" xml:lang="en">Legal values are:</hi></cell><cell rend="odd_value"><list rend="valList"><label rend="odd_label">top</label><item rend="odd_value"><seg>Material that can appear at the top of a manuscript
+                                            page—like headings or notes</seg></item><label rend="odd_label">left_margin</label><item rend="odd_value"><seg>Zone for marginal additions, deletions, and other
+                                            modifications. More than one zone with this type may
+                                            appear in a document if marginal zones are distinct
+                                            interventions.</seg></item><label rend="odd_label">main</label><item rend="odd_value"><seg>The main block of text on a page</seg></item><label rend="odd_label">pagination</label><item rend="odd_value"><seg>For segments of a page where page numbers have been
+                                            added in one or more original hands; distinct from later
+                                            additions by librarians/collectors</seg></item><label rend="odd_label">library</label><item rend="odd_value"><seg>A zone of writing which appears to have been added by
+                                            librarians/collectors at a later date—often page
+                                            numbers</seg></item></list></cell></row>
                             </table></cell></row><row><cell rend="odd_label">points</cell><cell rend="odd_value"><seg>identifies a two dimensional area within the bounding box
 specified by the other attributes by means of
 a series of pairs of numbers, each of which gives the x,y coordinates

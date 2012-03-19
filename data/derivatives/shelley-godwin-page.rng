@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-19T12:42:22Z. 
+Schema generated from ODD source 2012-03-19T13:13:08Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5255,15 +5255,23 @@ element. </a:documentation>
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
         <choice>
           <value>top</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Material that can appear at the top of a manuscript
+                                            page—like headings or notes</a:documentation>
           <value>left_margin</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Zone for marginal additions, deletions, and other
+                                            modifications. More than one zone with this type may
+                                            appear in a document if marginal zones are distinct
+                                            interventions.</a:documentation>
           <value>main</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The main block of text on a page</a:documentation>
           <value>pagination</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">For segments of a page where page numbers have been
+                                            added in one or more original hands; distinct from later
+                                            additions by librarians/collectors</a:documentation>
           <value>library</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A zone of writing which appears to have been added by
+                                            librarians/collectors at a later date—often page
+                                            numbers</a:documentation>
         </choice>
       </attribute>
       <optional>
