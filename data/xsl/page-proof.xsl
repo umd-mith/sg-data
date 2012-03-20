@@ -78,6 +78,10 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template match="tei:add">
+    <xsl:apply-templates/>
+  </xsl:template>
+
   <xsl:variable name="bootstrap-css">/*! * Bootstrap v2.0.2 * * Copyright 2012 Twitter, Inc *
     Licensed under the Apache License v2.0 * http://www.apache.org/licenses/LICENSE-2.0 * * Designed
     and built with all the love in the world @twitter by @mdo and @fat. */ .clearfix { *zoom: 1; }
