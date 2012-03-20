@@ -3,27 +3,27 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0013" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0013.tif"/>
-  <zone>(43</zone>
-  <zone>
+  <zone type="pagination">43</zone>
+  <zone type="main">
     <line>being an only child, and desti</line>
-    <line>tute of companions at home, h<mod resp="pbs"><add place="intralinear">is</add><del
+    <line>tute of companions at home, h<mod resp="#pbs"><add place="intralinear">is</add><del
           rend="overwritten"><unclear unit="chars" extent="2"/></del></mod></line>
-    <line><del rend="strikethrough">to</del> father was pleased that he<zone> 5</zone></line>
+    <line><del rend="strikethrough">to</del> father was pleased that he<zone type="library"> 5</zone></line>
     <line>should find associates at our</line>
     <line>house and we were never com</line>
     <line>pletely happy when Clerval was</line>
     <line>absent.</line>
     <milestone unit="tei:p"/>
     <delSpan spanTo="#c56-0013.01"/><metamark rend="vertical line" function="cancellation"
-      spanTo="#c56-0013.01"/><line><del resp="mws" rend="strikethrough">In this account of my
+      spanTo="#c56-0013.01"/><line><del rend="strikethrough">In this account of my
         early</del></line>
-    <line><del resp="mws" rend="strikethrough">youth I wish particularly to men</del></line>
-    <line><del resp="mws" rend="strikethrough">tion those circumstances</del> which</line>
+    <line><del rend="strikethrough">youth I wish particularly to men</del></line>
+    <line><del rend="strikethrough">tion those circumstances</del> which</line>
     <line>led to and nourished my taste</line>
     <line>for that science which was</line>
     <line>the principal amusement of my</line>
-    <line>boyish days and in <del resp="mws" rend="strikethrough">the end deci</del></line>
-    <line><del resp="mws" rend="strikethrough">ded my destiny</del>. I mentioned before</line>
+    <line>boyish days and in <del rend="strikethrough">the end deci</del></line>
+    <line><del rend="strikethrough">ded my destiny</del>. I mentioned before</line>
     <line>my taste for old books of chemist</line>
     <line>ry and natural magic and I remem</line>
     <line>ber very well that I learned latin</line>
@@ -35,15 +35,14 @@
     <line>given in Geneva and athough</line>
     <line>I did not understand them the</line>
     <line>experiments never failed to</line>
-    <line>attract my attention. <anchor xml:id="c56-0013.01"/><del resp="mws"
-          rend="strikethrough">I reme<mod resp="pbs" type="correction"><add  place="sublinear"
+    <line>attract my attention. <anchor xml:id="c56-0013.01"/><del rend="strikethrough">I reme<mod resp="#pbs" type="correction"><add  place="sublinear"
           >^</add><add place="superlinear">m</add></mod>ber</del></line>
-    <line><del resp="mws" rend="strikethrough">also</del><metamark> [</metamark>When I was about <mod
-        type="subst" resp="mws"><del rend="strikethrough">twelve</del><add>fourteen</add></mod>
+    <line><del rend="strikethrough">also</del><metamark> [</metamark>When I was about <mod
+        type="subst"><del rend="strikethrough">twelve</del><add>fourteen</add></mod>
       years</line>
     <line>old we were at our house near</line>
     <line>Belrive when we witnessed <del rend="strikethrough">the</del> <metamark rend="cross-hatch"/> a</line>
-    <line>violent <mod type="subst" resp="pbs"><del rend="strikethrough">at</del><add
+    <line>violent <mod type="subst" resp="#pbs"><del rend="strikethrough">at</del><add
           place="superlinear">and</add></mod> terrible thunder storm</line>
   </zone>
 </surface>
