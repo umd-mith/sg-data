@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-12T17:37:56Z. 
+# Schema generated from ODD source 2012-03-19T14:22:45Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -329,19 +329,23 @@ sga-patt.divLike.attribute.part =
       "F"
   }?
 sga-patt.responsibility.attributes =
-  sga-patt.responsibility.attribute.cert,
-  sga-patt.responsibility.attribute.resp
+  sga-patt.responsibility.attribute.resp,
+  sga-patt.responsibility.attribute.cert
+sga-patt.responsibility.attribute.resp =
+  
+  ##
+  attribute resp {
+    
+    ##
+    "#pbs"
+    | 
+      ##
+      "http://viaf.org/viaf/95159449"
+  }?
 sga-patt.responsibility.attribute.cert =
   
   ## (certainty) signifies the degree of certainty associated with the intervention or interpretation.
   attribute cert { sga-pdata.certainty }?
-sga-patt.responsibility.attribute.resp =
-  
-  ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an
-  ##         editor or transcriber.
-  attribute resp {
-    list { sga-pdata.pointer, sga-pdata.pointer* }
-  }?
 sga-patt.editLike.attributes =
   sga-patt.dimensions.attributes,
   sga-patt.responsibility.attributes,
@@ -2846,7 +2850,7 @@ sga-psurface =
     ##                                     associated
     attribute partOf {
       list { sga-pdata.pointer, sga-pdata.pointer* }
-    }?,
+    },
     sga-patt.global.linking.attribute.next,
     sga-patt.global.linking.attribute.prev,
     sga-patt.global.facs.attributes,
@@ -2930,14 +2934,28 @@ sga-pzone =
     ##
     attribute type {
       
-      ##
+      ## Material that can appear at the top of a manuscript
+      ##                                             page—like headings or notes
       "top"
       | 
-        ##
-        "left margin"
+        ## Zone for marginal additions, deletions, and other
+        ##                                             modifications. More than one zone with this type may
+        ##                                             appear in a document if marginal zones are distinct
+        ##                                             interventions.
+        "left_margin"
       | 
-        ##
+        ## The main block of text on a page
         "main"
+      | 
+        ## For segments of a page where page numbers have been
+        ##                                             added in one or more original hands; distinct from later
+        ##                                             additions by librarians/collectors
+        "pagination"
+      | 
+        ## A zone of writing which appears to have been added by
+        ##                                             librarians/collectors at a later date—often page
+        ##                                             numbers
+        "library"
     },
     
     ## identifies a two dimensional area within the bounding box
@@ -3347,9 +3365,22 @@ sga-pmod =
   ## represents any kind of modification identified within a single document.
   element mod {
     sga-pmacro.paraContent,
+    
+    ##
+    attribute type {
+      
+      ##
+      "subst"
+      | 
+        ##
+        "additions"
+      | 
+        ##
+        "deletions"
+    }?,
     sga-patt.global.attributes,
     sga-patt.transcriptional.attributes,
-    sga-patt.typed.attributes,
+    sga-patt.typed.attribute.subtype,
     sga-patt.spanning.attributes,
     empty
   }
