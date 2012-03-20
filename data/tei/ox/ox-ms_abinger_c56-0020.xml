@@ -24,8 +24,9 @@
           ><add>.</add>
         <del rend="strikethrough">and all that</del></mod></line>
     <line>I <mod xml:id="c56-0020.07" next="#c56-0020.08" prev="#c56-0020.06"><del
-      rend="strikethrough">could</del></mod> obtain<mod xml:id="c56-0020.08" resp="#pbs" next="#c56-0020.09" prev="#c56-0020.07"><add
-        place="intralinear" resp="#pbs">ed</add></mod> from my father <mod xml:id="c56-0020.09" prev="#c56-0020.08"><del rend="strikethrough"
+          rend="strikethrough">could</del></mod> obtain<mod xml:id="c56-0020.08" resp="#pbs"
+        next="#c56-0020.09" prev="#c56-0020.07"><add place="intralinear" resp="#pbs">ed</add></mod>
+      from my father <mod xml:id="c56-0020.09" prev="#c56-0020.08"><del rend="strikethrough"
           >was</del><add place="superlinear">a</add></mod></line>
     <line>respite of some weeks. This time</line>
     <line>was spent sadly. My mothers death</line>
@@ -53,9 +54,9 @@
     <line>beheld her so enchanting as at this</line>
     <line>time when she <del rend="strikethrough">sar sacrifised every</del></line>
     <line><del rend="strikethrough">minute</del>
-        <del rend="strikethrough">of her time</del>
-        <del rend="strikethrough">to others </del><add place="sublinear"
-            >^</add><add place="superlinear">was</add> continual</line>
+      <del rend="strikethrough">of her time</del>
+      <del rend="strikethrough">to others </del><add place="sublinear">^</add><add
+        place="superlinear">was</add> continual</line>
     <line>ly endeavouring to contribute to the</line>
     <line>happiness of others entirely forgetful</line>
   </zone>
@@ -70,9 +71,14 @@
     <line>whom the</line>
     <line>spoiler has</line>
     <line>not seized.</line><anchor xml:id="c56-0020.12"/>
+  </zone>
+  <zone type="left_margin">
     <add xml:id="c56-0020.10">had</add>
+  </zone>
+  <zone type="left_margin">
     <addSpan xml:id="c56-0020.11" spanTo="#c56-0020.13"/>
     <line>had devolved</line>
-    <line>on her.</line><anchor xml:id="c56-0020.13"/>
+    <line>on her.</line>
+    <anchor xml:id="c56-0020.13"/>
   </zone>
 </surface>
