@@ -75,11 +75,10 @@
           <xsl:apply-templates/>
         </sub>
       </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>
-
-  <xsl:template match="tei:add">
-    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:variable name="bootstrap-css">/*! * Bootstrap v2.0.2 * * Copyright 2012 Twitter, Inc *
