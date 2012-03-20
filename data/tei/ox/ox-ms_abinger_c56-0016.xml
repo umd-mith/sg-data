@@ -20,7 +20,7 @@
     <line>other.</line>
   </zone>
   <zone type="left_margin"><addSpan xml:id="c56-0016.01" spanTo="#c56-0016.02"/>
-    <line><mod type="subst"><del>we none</del><add place="superlinear">neither</add></mod> of</line>
+    <line><mod type="subst"><del rend="strikethrough">we none</del><add place="superlinear">neither</add></mod> of</line>
     <line>us possessed</line>
     <line>an envied</line>
     <line>preheminence</line>
