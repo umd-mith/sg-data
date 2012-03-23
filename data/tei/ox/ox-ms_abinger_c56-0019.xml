@@ -6,12 +6,12 @@
   <zone type="pagination" rend="#bordered">49</zone>
     <zone type="main">
     <line>whose dearest ties are rent by that</line>
-    <line>most irreperable evil; the <del rend="overstrike">bla</del><zone type="library">8</zone> void</line>
+    <line>most irreperable evil; the <del rend="strikethrough">bla</del><zone type="library">8</zone> void</line>
     <line>that every where presents itself to</line>
     <line>
       <mod><add place="sublinear">^</add>
         <add place="superlinear">the soul</add>
-        <del rend="overstrike">their </del><del rend="overstrike">minds</del>
+        <del rend="strikethrough">their </del><del rend="strikethrough">minds</del>
       </mod> and the despair that</line>
     <line>is exhibited on the countenance.</line>
     <line>It is so long before the mind can</line>
@@ -24,8 +24,8 @@
     <line>
       <mod>
         <add place="superlinear" resp="#pbs">been extinguished</add>
-        <del rend="overstrike">faded</del>
-      </mod> and the sound of a voice <del rend="overstrike">never</del></line>
+        <del rend="strikethrough">faded</del>
+      </mod> and the sound of a voice <del rend="strikethrough">never</del></line>
     <line>so familiar and dear to the ear</line>
     <line>can be hushed, never more to be</line>
     <line>heard. These are the reflections of the</line>
@@ -34,23 +34,23 @@
     <line>then the 
       <mod>
         <add place="superlinear">bitterness of grief</add>
-        <del rend="overstrike">true</del>
-        <del rend="overstrike">despair</del>
+        <del rend="strikethrough">true</del>
+        <del rend="strikethrough">despair</del>
       </mod> commences,</line>
-    <line><del rend="overstrike">Then the survivors dare not turn</del></line>
+    <line><del rend="strikethrough">Then the survivors dare not turn</del></line>
     <line>
       <mod>
         <add place="superlinear" resp="#pbs">Yet, from whom</add>
-        <del rend="overstrike">But</del>
-      </mod> who has not <delSpan rend="overstrike" spanTo="#f8rdel1"/>had some dear</line>
+        <del rend="strikethrough">But</del>
+      </mod> who has not <delSpan rend="strikethrough" spanTo="#f8rdel1"/>had some dear</line>
       <line>connection rent away by<anchor xml:id="f8rdel1"/> that rude hand</line>
     <line>and why 
       <mod>
         <add place="superlinear" resp="#pbs">should</add>
-        <del rend="overstrike">need</del>
+        <del rend="strikethrough">need</del>
       </mod> I describe a sorrow </line>
     <line>which all have felt, and must</line>
-    <line>feel? <del rend="overstrike">But</del>
+    <line>feel? <del rend="strikethrough">But</del>
       <del rend="overwrite">t</del><add type="overwrite" resp="#pbs">T</add>he time at length
       arrives</line>
     <line>when grief is rather an indulgence</line>
@@ -60,12 +60,12 @@
     <line>nished.– My mother 
       <mod>
         <add place="superlinear">lost</add><add place="sublinear">^</add>
-        <del rend="overstrike">was gone</del><del rend="overstrike">had be</del>
+        <del rend="strikethrough">was gone</del><del rend="strikethrough">had be</del>
       </mod>en</line>
     <line>
       <mod>
       <add place="superlinear">was dead</add>
-      <del rend="overstrike">taken</del> <del rend="overstrike">away</del>
+      <del rend="strikethrough">taken</del> <del rend="strikethrough">away</del>
     </mod>taken away but we had still</line>
   </zone>
   <zone type="left_margin">
