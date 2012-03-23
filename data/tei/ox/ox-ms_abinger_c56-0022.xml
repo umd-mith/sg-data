@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0022" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0022.tif"/>
-    <zone>
-    </zone>
+  <zone>
+    <line>I threw myself into the chaise</line>
+    <line>that was to convey me away and in</line>
+    <line>dulged in the most melancholy reflec</line>
+    <line>tions. I who had ever been surrounded</line>
+    <line>by amiable companions, continually</line>
+    <line>engaged in <del rend="overstrike">ed</del> endeavouring to give</line>
+    <line>mutual pleasure; I was now alone.</line>
+    <line>In the university <del rend="overstrike">wi</del> whither I was</line>
+    <line>going I must form my own friends</line>
+    <line>and be my own <mod>
+      <add place="supralinear" resp="PBS">protector.</add>
+      <del rend="overstrike">introduction</del>
+    </mod>. My</line>
+    <line>life had hitherto been remarkably retired</line>
+    <line>and domestic and this had given me</line>
+    <line>an invincible repugnance to new <del rend="overstrike">faces</del></line>
+    <line>countenances. I loved my brothers Eliza-</line>
+    <line>beth and Clerval these were "old</line>
+    <line>familiar faces" but I believed my</line>
+    <line>self totally unfitted for the compa-</line>
+    <line>ny of strangers. Such were my reflec-</line>
+    <line>tions as I commenced my journey But</line>
+    <line>as I proceeded my spirits and hopes</line>
+    <line>rose. I ardently desired knowledge</line>
+    <line><del rend="overstrike">and I</del> often when at home</line>
+    <line>thought<mod>
+      <add place="supralinear" resp="PBS">it</add>
+      <del rend="overstrike">how</del>
+    </mod> hard <del rend="overstrike">it was</del> to remain</line>
+    <line>cooped up in one place <del rend="overstrike">all my</del></line>
+    <line><del rend="overstrike">life</del> and <add place="supralinear" resp="PBS">had</add> longed
+      to enter into the</line>
+    <line><del rend="overstrike">worth</del> world and take my <del rend="overstrike">place</del></line>
+    <line>
+      <mod>
+        <add place="supralinear">among</add>
+        <del rend="overstrike">with</del>
+      </mod> other human beings. <del rend="overstrike">And</del></line>
+    <line>now my desires were <del rend="overstrike">cop</del> complyed</line>
+    <line>with &#38; it would <add place="sublinear">^</add>
+      <mod>
+        <add place="supralinear">indeed</add>
+        <del rend="overstrike">be</del>
+      </mod> 
+      <mod>
+        <add place="supralinear" resp="PBS">have</add>
+        <del rend="overstrike">indeed</del>
+      </mod> be<add place="intralinear">en</add> folly to</line>
+    <line>repent.</line>
+    <line>I had <mod>
+      <add place="supralinear" resp="PBS">sufficient</add>
+      <del rend="overwrite">plenty of</del>
+    </mod> leisure for these</line>
+  </zone>
+  <zone>
+    <line>I had</line>
+  </zone>
+  <zone>
+    <line>during my youth</line>
+  </zone>
+  <zone>
+    <line>station</line>
+  </zone>
 </surface>
