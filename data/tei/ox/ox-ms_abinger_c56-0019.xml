@@ -45,23 +45,23 @@
         <add place="superlinear" resp="#pbs">should</add>
       </mod> I describe a sorrow </line>
     <line>which all have felt, and must</line>
-    <line>feel<mod type="subst"><del>.</del><add>?</add></mod> <mod><del rend="strikethrough">But</del>
-      <del rend="overwritten">t</del><add type="overwrite" resp="#pbs">T</add></mod>he time at length
-      arrives</line>
+    <line>feel<mod type="subst"><del>.</del><add>?</add></mod>
+      <mod><del rend="strikethrough">But</del>
+        <del rend="overwritten">t</del><add type="overwrite" resp="#pbs">T</add></mod>he time at
+      length arrives</line>
     <line>when grief is rather an indulgence</line>
     <line><del rend="strikethrough">a</del> than a necessity and the smile</line>
     <line>that plays on the lips, although</line>
     <line>it is deemed sacriledge, is not Ba</line>
     <line>nished.– My mother <mod><del rend="strikethrough">was gone</del>
-      <!--<add place="sublinear">^</add><del rend="strikethrough">was gone</del>--><!-- I don't see this in the image -->
-        <del rend="strikethrough">had be</del>
-      </mod>en</line>
+        <!--<add place="superlinear">lost</add>--><!-- I don't see this in the image -->
+        <del rend="strikethrough">had been</del>
+      </mod></line>
     <line>
       <mod>
-        <add place="superlinear">was dead</add>
-        <del rend="strikethrough">taken</del>
-        <del rend="strikethrough">away</del>
-      </mod>taken away but we had still</line>
+        <del rend="strikethrough">taken </del><add place="sublinear">^</add><add place="superlinear"
+          >was dead</add><del rend="strikethrough">away</del>
+      </mod></line>
   </zone>
   <zone type="left_margin">
     <addSpan xml:id="c56-0019.02" resp="#pbs" spanTo="#c56-0019.03"/><line>rent away some</line>
