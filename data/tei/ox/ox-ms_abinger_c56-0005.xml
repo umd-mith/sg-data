@@ -39,23 +39,31 @@
     <line>to find a<del rend="strikethrough">fo </del> volume<del rend="strikethrough">s</del> of
       the Works of Corne</line>
     <line>lius Agrippa. <del rend="strikethrough">And</del> I opened it with apathy</line>
-    <line><mod type="subst"><del rend="strikethrough">but <add place="sublinear"><metamark>^</metamark></add> continued with</del>
-      <add place="superlinear">the theory that he attempted to demonstrate and the wonderful facts that </add></mod>enthusiasm. A
-      new</line>
-    <line><mod type="subst"
-          ><add>he relates <del rend="strikethrough"
-            >chan</del> soon changed this feeling into</add></mod> <line>light dawned upon my mind and <del rend="strikethrough">I
-      com</del></line><line>bounding with joy I communicated my discovery to my father. I cannot
-      help here remark</line><line>ing the many opportunities <mod type="subst"
-          ><metamark>^</metamark><del rend="strikethrough">parents</del>
-        <add place="superlinear">instructors</add></mod>
-      <mod type="subst" resp="#pbs"><del rend="strikethrough">have</del>
-        <add place="superlinear">posess</add></mod></line><line>of directing the attention of their
-      pupils to</line><line>useful knowledge, which they utterly neglect.</line><line>My father
-      looked carelessly at the tit<del rend="strikethrough">t</del>le page</line><line>of my book -
-        <del rend="strikethrough">Ah</del> and said Ah! Cornelius</line><line> Agrippa! - My dear
-      Victor do not waste</line><line>your time upon this- it is sad trash.</line><line>If instead
-      of this remark or rather excla</line><line>mation my father had taken the pains to</line>
-      ex<mod type="subst"><del rend="strikethrough">pound</del><add place="superlinear"
-      >lain</add></mod> to that the principles of </zone>
+    <line><del rend="strikethrough">but <add place="sublinear"><metamark>^</metamark></add>
+        continued with </del><add><ptr target="#c56-0005.01"/></add>enthusiasm. A new <addSpan
+        xml:id="c56-0005.01" spanTo="#c56-0005.02"/>
+      <line><add place="superlinear">the theory that he attempted to demonstrate and the wonderful
+          facts that </add></line>
+      <line><add place="sublinear">he relates <del rend="strikethrough">chan</del> soon changed this
+          feeling into</add></line><anchor xml:id="c56-0005.02"/>
+    </line>
+    <line>light dawned upon my mind and <del rend="strikethrough">I com</del></line>
+    <line>bounding with joy I communicated my discovery to my father. I cannot help here
+      remark</line>
+    <line>ing the many opportunities <mod type="subst"><del rend="strikethrough">parents </del><add
+          place="sublinear"><metamark>^</metamark></add>
+        <add place="superlinear">instructors </add></mod>
+      <mod type="subst" resp="#pbs"><del rend="strikethrough">have </del>
+        <add place="superlinear">posess</add></mod></line>
+    <line>of directing the attention of their pupils to</line>
+    <line>useful knowledge, which they utterly neglect.</line>
+    <line>My father looked carelessly at the tit<del rend="strikethrough">t</del>le page</line>
+    <line>of my book -<del rend="strikethrough">Ah</del> and said Ah! Cornelius</line><line>
+      Agrippa! - My dear Victor do not waste</line>
+    <line>your time upon this- it is sad trash.</line>
+    <line>If instead of this remark or rather excla</line>
+    <line>mation my father had taken the pains to</line>
+    <line>exp<mod type="subst"><del rend="strikethrough">ound </del><add place="superlinear"
+          >lain</add></mod> to me that the principles of</line>
+  </zone>
 </surface>
