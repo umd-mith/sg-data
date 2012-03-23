@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0019" ulx="0" uly="0" lrx="5364" lry="7104">
+  xml:id="ox-ms_abinger_c56-0019" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0019.tif"/>
-  <zone>(49</zone>
-    <zone>
+  <zone type="pagination" rend="#bordered">49</zone>
+    <zone type="main">
     <line>whose dearest ties are rent by that</line>
-    <line>most irreperable evil; the <del rend="overstrike">bla</del><zone>8</zone> void</line>
+    <line>most irreperable evil; the <del rend="overstrike">bla</del><zone type="library">8</zone> void</line>
     <line>that every where presents itself to</line>
     <line>
       <mod><add place="sublinear">^</add>
-        <add place="supralinear">the soul</add>
+        <add place="superlinear">the soul</add>
         <del rend="overstrike">their </del><del rend="overstrike">minds</del>
       </mod> and the despair that</line>
     <line>is exhibited on the countenance.</line>
@@ -23,7 +23,7 @@
     <line>been extinguished,</line>
     <line>
       <mod>
-        <add place="supralinear" resp="PBS">been extinguished</add>
+        <add place="superlinear" resp="#pbs">been extinguished</add>
         <del rend="overstrike">faded</del>
       </mod> and the sound of a voice <del rend="overstrike">never</del></line>
     <line>so familiar and dear to the ear</line>
@@ -33,25 +33,25 @@
     <line>time proves the reality of the evil</line>
     <line>then the 
       <mod>
-        <add place="supralinear">bitterness of grief</add>
+        <add place="superlinear">bitterness of grief</add>
         <del rend="overstrike">true</del>
         <del rend="overstrike">despair</del>
       </mod> commences,</line>
     <line><del rend="overstrike">Then the survivors dare not turn</del></line>
     <line>
       <mod>
-        <add place="supralinear" resp="PBS">Yet, from whom</add>
+        <add place="superlinear" resp="#pbs">Yet, from whom</add>
         <del rend="overstrike">But</del>
       </mod> who has not <delSpan rend="overstrike" spanTo="#f8rdel1"/>had some dear</line>
       <line>connection rent away by<anchor xml:id="f8rdel1"/> that rude hand</line>
     <line>and why 
       <mod>
-        <add place="supralinear" resp="PBS">should</add>
+        <add place="superlinear" resp="#pbs">should</add>
         <del rend="overstrike">need</del>
       </mod> I describe a sorrow </line>
     <line>which all have felt, and must</line>
     <line>feel? <del rend="overstrike">But</del>
-      <del rend="overwrite">t</del><add type="overwrite" resp="PBS">T</add>he time at length
+      <del rend="overwrite">t</del><add type="overwrite" resp="#pbs">T</add>he time at length
       arrives</line>
     <line>when grief is rather an indulgence</line>
     <line>a than a necessity and the smile</line>
@@ -59,17 +59,17 @@
     <line>it is deemed sacriledge, is not Ba</line>
     <line>nished.– My mother 
       <mod>
-        <add place="supralinear">lost</add><add place="sublinear">^</add>
+        <add place="superlinear">lost</add><add place="sublinear">^</add>
         <del rend="overstrike">was gone</del><del rend="overstrike">had be</del>
       </mod>en</line>
     <line>
       <mod>
-      <add place="supralinear">was dead</add>
+      <add place="superlinear">was dead</add>
       <del rend="overstrike">taken</del> <del rend="overstrike">away</del>
     </mod>taken away but we had still</line>
   </zone>
-  <zone>
-    <addSpan resp="PBS" spanTo="#f8radd1"/><line>rent away some</line>
+  <zone type="left_margin">
+    <addSpan resp="#pbs" spanTo="#f8radd1"/><line>rent away some</line>
       <line>dear connection,</line><anchor xml:id="f8radd1"/>
   </zone>
 </surface>
