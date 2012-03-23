@@ -53,13 +53,13 @@
     <line><del rend="strikethrough">a</del> than a necessity and the smile</line>
     <line>that plays on the lips, although</line>
     <line>it is deemed sacriledge, is not Ba</line>
-    <line>nished.– My mother <mod><del rend="strikethrough">was gone</del>
+    <line>nished.– My mother <del rend="strikethrough">was gone</del>
         <!--<add place="superlinear">lost</add>--><!-- I don't see this in the image -->
-        <del rend="strikethrough">had been</del>
-      </mod></line>
+      <mod xml:id="c56-0019.04" type="deletions" next="#c56-0019.05"><del rend="strikethrough">had been</del></mod>
+      </line>
     <line>
       <mod>
-        <del rend="strikethrough">taken </del><add place="sublinear">^</add><add place="superlinear"
+        <mod xml:id="c56-0019.05" prev="#c56-0019.04" type="deletions"><del rend="strikethrough">taken </del></mod><add place="sublinear">^</add><add place="superlinear"
           >was dead</add><del rend="strikethrough">away</del>
       </mod></line>
   </zone>
