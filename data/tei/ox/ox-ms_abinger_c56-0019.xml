@@ -39,17 +39,17 @@
       <mod><del rend="strikethrough">But</del>
         <add place="superlinear" resp="#pbs">Yet, from whom</add>
       </mod> who has not <delSpan rend="strikethrough" spanTo="#c56-0019.01"/>had some dear</line>
-    <line>connection rent away by<anchor xml:id="c56-0019.01"/><add><ptr target="#c56-0019.02"/></add> that rude hand</line>
-    <line>and why <mod>
+    <line>connection rent away by<anchor xml:id="c56-0019.01"/><add><ptr target="#c56-0019.02"
+        /></add> that rude hand</line>
+    <line>and why <mod><del rend="strikethrough">need</del>
         <add place="superlinear" resp="#pbs">should</add>
-        <del rend="strikethrough">need</del>
       </mod> I describe a sorrow </line>
     <line>which all have felt, and must</line>
-    <line>feel? <del rend="strikethrough">But</del>
-      <del rend="overwrite">t</del><add type="overwrite" resp="#pbs">T</add>he time at length
+    <line>feel<mod type="subst"><del>.</del><add>?</add></mod> <mod><del rend="strikethrough">But</del>
+      <del rend="overwritten">t</del><add type="overwrite" resp="#pbs">T</add></mod>he time at length
       arrives</line>
     <line>when grief is rather an indulgence</line>
-    <line>a than a necessity and the smile</line>
+    <line><del rend="strikethrough">a</del> than a necessity and the smile</line>
     <line>that plays on the lips, although</line>
     <line>it is deemed sacriledge, is not Ba</line>
     <line>nished.– My mother <mod>
