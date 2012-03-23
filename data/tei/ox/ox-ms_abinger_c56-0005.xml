@@ -10,14 +10,14 @@
   <zone type="main">
     <line>Those events which materially influence our fu</line>
     <line>ture destinies <del rend="strikethrough">are</del> often <mod type="subst"><del
-          rend="strikethrough">caused </del><del>by </del><del>slight or </del>
+          rend="strikethrough">caused </del><del rend="strikethrough">by </del><del rend="strikethrough">slight or </del>
         <add resp="#pbs" place="superlinear">derive thier origin from a</add></mod> tri</line>
     <line>vial occurence<del rend="strikethrough">s</del>. <del rend="strikethrough">Strange as the
           <add place="sublinear"><metamark>^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">statement of this</add></del> simple
         fact</del></line>
     <line><del rend="strikethrough">may appear my fate had been</del>
-      <del>Chemist</del> Natu</line>
+      <del rend="strikethrough">Chemist</del> Natu</line>
     <line>ral Philosophy <del rend="strikethrough">has</del> is the genius that has</line>
     <line> regulated my fate I <mod type="subst"><del rend="strikethrough">wish </del><add
           resp="#pbs" place="superlinear">desire </add></mod> the<mod><del rend="overwritten"
@@ -32,11 +32,11 @@
         <add place="superlinear" resp="#pbs">the baths near Thonon</add></mod>
       <del rend="strikethrough">and were confined there</del></line>
     <line><del rend="strikethrough">b </del>
-      <del rend="strikethrough">obil </del><del>obliged by the rain </del><del>and </del><mod><del
+      <del rend="strikethrough">obil </del><del rend="strikethrough">obliged by the rain </del><del rend="strikethrough">and </del><mod><del
           rend="overwritten">t</del><add>T</add></mod>he inclemen</line>
     <line>cy of the weather obliged us to remain a day</line><line> confined to the inn. In this
-      house I chancd</line>
-    <line>to find a<del rend="strikethrough">fo </del> volume<del rend="strikethrough">s</del> of
+      house I chancd </line>
+    <line>to find a <del rend="strikethrough">fo </del> volume<del rend="strikethrough">s</del> of
       the Works of Corne</line>
     <line>lius Agrippa. <del rend="strikethrough">And</del> I opened it with apathy</line>
     <line><del rend="strikethrough">but <add place="sublinear"><metamark>^</metamark></add>
