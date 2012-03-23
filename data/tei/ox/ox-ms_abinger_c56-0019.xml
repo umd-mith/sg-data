@@ -38,8 +38,8 @@
     <line>
       <mod><del rend="strikethrough">But</del>
         <add place="superlinear" resp="#pbs">Yet, from whom</add>
-      </mod> who has not <delSpan rend="strikethrough" spanTo="#f8rdel1"/>had some dear</line>
-    <line>connection rent away by<anchor xml:id="f8rdel1"/> that rude hand</line>
+      </mod> who has not <delSpan rend="strikethrough" spanTo="#c56-0019.01"/>had some dear</line>
+    <line>connection rent away by<anchor xml:id="c56-0019.01"/> that rude hand</line>
     <line>and why <mod>
         <add place="superlinear" resp="#pbs">should</add>
         <del rend="strikethrough">need</del>
