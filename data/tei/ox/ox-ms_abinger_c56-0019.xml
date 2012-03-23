@@ -31,15 +31,13 @@
     <line>first days. But when the lapse of</line>
     <line>time proves the reality of the evil</line>
     <line>then the <mod>
-        <add place="superlinear">bitterness of grief</add>
-        <del rend="strikethrough">true</del>
-        <del rend="strikethrough">despair</del>
+        <del rend="strikethrough">true </del>
+        <del rend="strikethrough">despair </del><add place="superlinear">bitterness of grief</add>
       </mod> commences,</line>
     <line><del rend="strikethrough">Then the survivors dare not turn</del></line>
     <line>
-      <mod>
+      <mod><del rend="strikethrough">But</del>
         <add place="superlinear" resp="#pbs">Yet, from whom</add>
-        <del rend="strikethrough">But</del>
       </mod> who has not <delSpan rend="strikethrough" spanTo="#f8rdel1"/>had some dear</line>
     <line>connection rent away by<anchor xml:id="f8rdel1"/> that rude hand</line>
     <line>and why <mod>
