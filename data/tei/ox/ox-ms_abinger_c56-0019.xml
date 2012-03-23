@@ -39,7 +39,7 @@
       <mod><del rend="strikethrough">But</del>
         <add place="superlinear" resp="#pbs">Yet, from whom</add>
       </mod> who has not <delSpan rend="strikethrough" spanTo="#c56-0019.01"/>had some dear</line>
-    <line>connection rent away by<anchor xml:id="c56-0019.01"/> that rude hand</line>
+    <line>connection rent away by<anchor xml:id="c56-0019.01"/><add><ptr target="#c56-0019.02"/></add> that rude hand</line>
     <line>and why <mod>
         <add place="superlinear" resp="#pbs">should</add>
         <del rend="strikethrough">need</del>
@@ -64,7 +64,7 @@
       </mod>taken away but we had still</line>
   </zone>
   <zone type="left_margin">
-    <addSpan resp="#pbs" spanTo="#f8radd1"/><line>rent away some</line>
-    <line>dear connection,</line><anchor xml:id="f8radd1"/>
+    <addSpan xml:id="c56-0019.02" resp="#pbs" spanTo="#c56-0019.03"/><line>rent away some</line>
+    <line>dear connection,</line><anchor xml:id="c56-0019.03"/>
   </zone>
 </surface>
