@@ -4,21 +4,21 @@
   xml:id="ox-ms_abinger_c56-0019" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0019.tif"/>
   <zone type="pagination" rend="#bordered">49</zone>
-    <zone type="main">
+  <zone type="main">
     <line>whose dearest ties are rent by that</line>
-    <line>most irreperable evil; the <del rend="strikethrough">bla</del><zone type="library">8</zone> void</line>
+    <line>most irreperable evil; the <del rend="strikethrough">bla</del><zone type="library"
+        >8</zone> void</line>
     <line>that every where presents itself to</line>
     <line>
-      <mod><add place="sublinear">^</add>
-        <add place="superlinear">the soul</add>
-        <del rend="strikethrough">their </del><del rend="strikethrough">minds</del>
-      </mod> and the despair that</line>
+      <mod><del rend="strikethrough">their </del><add place="sublinear">^</add><del
+          rend="strikethrough">minds </del>
+        <add place="superlinear">the soul</add></mod> and the despair that</line>
     <line>is exhibited on the countenance.</line>
     <line>It is so long before the mind can</line>
     <line>persuade itself that she, whom</line>
     <line>they saw every day, and whose very</line>
     <line>existence appeared a part of theirs,</line>
-    <line>can have departed for ever: that</line>
+    <line>can have departed for ever<mod><del rend="overwritten">.</del><add>: </add><del rend="overwritten">T</del><add>t</add></mod>hat</line>
     <line>the brightness of a loved eye can have</line>
     <line>been extinguished,</line>
     <line>
