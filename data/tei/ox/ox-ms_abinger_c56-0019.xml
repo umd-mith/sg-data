@@ -52,9 +52,9 @@
     <line><del rend="strikethrough">a</del> than a necessity and the smile</line>
     <line>that plays on the lips, although</line>
     <line>it is deemed sacriledge, is not Ba</line>
-    <line>nished.– My mother <mod>
-        <add place="superlinear">lost</add><add place="sublinear">^</add>
-        <del rend="strikethrough">was gone</del><del rend="strikethrough">had be</del>
+    <line>nished.– My mother <mod><del rend="strikethrough">was gone</del>
+      <!--<add place="sublinear">^</add><del rend="strikethrough">was gone</del>--><!-- I don't see this in the image -->
+        <del rend="strikethrough">had be</del>
       </mod>en</line>
     <line>
       <mod>
