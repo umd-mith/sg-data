@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0009" ulx="0" uly="0" lrx="5088" lry="7082">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0009" ulx="0" uly="0" lrx="5088" lry="7082">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0009.tif"/>
-    <zone>
-    </zone>
+  <zone type="main">
+    <line><mod resp="pbs"><add place="suplerlinear">hier</add>credit with <add place="superlinear"
+          >me</add></mod> - but I could not entirely throw</line>
+    <line>them aside before <mod resp="pbs"><del rend="strikethrough">any</del><add
+          place="superlinear"><del rend="strikethrough">some</del></add>some</mod> other system<del
+        rend="strikethrough">cocc</del><add resp="pbs" place="suplerlinear">should</add></line>
+    <line>occup<mod resp="pbs"><del rend="overwritten">ie</del><add place="interlinear"
+        >y</add></mod>d their place.
+      <!-- following phrase 'in my mind' appears to be intervention by PBS. Recommend changing it to add element with resp to PBS --><unclear/>
+      in my mind-</line>
+    <line><add resp="pbs" place="superlinear">Among other questions suggested by natural
+        objects</add></line>
+    <line><del rend="strikethrough">And</del><add resp="pbs" place="sublinear">&amp; the origin
+        of</add> I <del rend="strikethrough">as</del> eagerly enquired of my father</line>
+    <line><del rend="strikethrough">what</del> thunder and lightening. <del rend="strikethrough"
+        >was.</del> He</line>
+    <line>replied, electricity; describing at the same</line>
+    <line>time the effect of that power. He <del rend="strikethrough">made</del><add resp="pbs"
+        place="superlinear">constructed</add></line>
+    <line>a small electrical machine and exhi</line>
+    <line>bited a few experiments and made a</line>
+    <line>kite with a wire <add resp="psb" place="interlinear">&amp;</add> string <add resp="psb"
+        place="superlinear">which</add><del rend="strikethrough">and</del> drew down</line>
+    <line>that fluid from the clouds.</line>
+    <line>This last <del rend="strikethrough">blow st</del> stroke compleated the overthrow of
+      Cornelius Agrippa, Albertus</line>
+    <line>Magnus and Paracelsus, who had so long</line>
+    <line>reigned the lords of my imagination. But</line>
+    <line>by some fatality I did not feel enclined to</line>
+    <line>commence any modern system and this</line>
+    <line><del rend="strikethrough">inclination</del><add resp="pbs" place="superlinear">disinclination</add> was influenced by the
+      following</line>
+    <line>circumstance.</line>
+    <line>My father expressed a wish that I</line>
+    <line>should attend a course of lectures upon</line>
+    <line>natural philosophy, to which I <add resp="pbs" place="superlinear">cheerfully</add>consented
+      <del rend="strikethrough">and</del></line>
+    <line><del rend="strikethrough">one evening</del> that I spent in town at the</line>
+    <line>house of Clerval's father I <del rend="strikethrough">heard that</del></line>
+    <line><del rend="strikethrough">Mr -- was lef at</del> met M. <del rend="strikethrough">O P</del> a proficient</line>
+    <line>in Chemistry who left the company at</line>
+    <line>an early hour to <del rend="strkethrough">h</del> give his lecture upon</line>
+    <line>that science enquiring as he went out</line>
+  </zone>
+  <zone type="library">3</zone>
 </surface>
