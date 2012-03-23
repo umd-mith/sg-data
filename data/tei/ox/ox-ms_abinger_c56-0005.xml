@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0005" ulx="0" uly="0" lrx="5088" lry="7082">
+  xml:id="ox-ms_abinger_c56-0005" ulx="0" uly="0" lrx="5088" lry="7082" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0005.tif"/>
-  <zone><line>Chapt. 2</line></zone>
-  <zone><line>Those events which materially influence our fu</line><line>ture destinies <del
-        rend="strikethrough">are</del> often <mod type="subst"><del rend="strikethrough">caused by slight
-          or</del>
-        <add resp="pbs" place="superlinear">derive thier origin from a</add></mod>
+  <zone type="top"><line>Chapt. 2</line></zone>
+  <zone type="main"><line>Those events which materially influence our fu</line><line>ture destinies <del
+        rend="strikethrough">are</del> often <mod type="subst"><del rend="strikethrough">caused by
+          slight or</del>
+        <add resp="#pbs" place="superlinear">derive thier origin from a</add></mod>
       tri</line><line>vial occurence<del rend="strikethrough">s</del>. <del rend="strikethrough"
         >Strange as the <metamark>^</metamark> statement of this simple fact</del></line>
     <line><del rend="strikethrough">may appear my fate had been Chemist</del> Natu</line><line>ral
       Philosophy <del rend="strikethrough">has</del> is the genius that has</line><line> regulated
       my fate I <mod>
         <del rend="strikethrough">wish</del>
-        <add resp="pbs" place="superlinear">desire</add>
+        <add resp="#pbs" place="superlinear">desire</add>
       </mod>
-      <mod resp="mws"><del>their</del><add type="intralinear">therefore</add></mod> in this
+      <mod><del>their</del><add type="intralinear">therefore</add></mod> in this
       account</line><line>of my early years to state those facts which</line><line>led to my<mod
         resp="mws"><del rend="strikethrough">love pursuit of that study</del>
         <add><del rend="strikethrough">first aqu</del> predeliction for that science.</add></mod>
       When</line> I was eleven years old We all went on a party of pleasure to <mod type="subst"
         ><del rend="strikethrough">Thonan</del>
-      <add place="suplerlinear" resp="pbs">the baths</add><add place="suplerlinear" resp="mws"> near
+      <add place="superlinear" resp="#pbs">the baths</add><add place="superlinear"> near
         Thonan</add></mod>
     <del rend="strikethrough">and were confined there</del><line/><line><del rend="strikethrough">b
         obil obliged by the rain and</del> The inclemen</line><line>cy of the weather obliged us to
