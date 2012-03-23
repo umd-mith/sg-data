@@ -31,8 +31,7 @@
     <line>heard. These are the reflections of the</line>
     <line>first days. But when the lapse of</line>
     <line>time proves the reality of the evil</line>
-    <line>then the 
-      <mod>
+    <line>then the <mod>
         <add place="superlinear">bitterness of grief</add>
         <del rend="strikethrough">true</del>
         <del rend="strikethrough">despair</del>
@@ -43,9 +42,8 @@
         <add place="superlinear" resp="#pbs">Yet, from whom</add>
         <del rend="strikethrough">But</del>
       </mod> who has not <delSpan rend="strikethrough" spanTo="#f8rdel1"/>had some dear</line>
-      <line>connection rent away by<anchor xml:id="f8rdel1"/> that rude hand</line>
-    <line>and why 
-      <mod>
+    <line>connection rent away by<anchor xml:id="f8rdel1"/> that rude hand</line>
+    <line>and why <mod>
         <add place="superlinear" resp="#pbs">should</add>
         <del rend="strikethrough">need</del>
       </mod> I describe a sorrow </line>
@@ -57,19 +55,19 @@
     <line>a than a necessity and the smile</line>
     <line>that plays on the lips, although</line>
     <line>it is deemed sacriledge, is not Ba</line>
-    <line>nished.– My mother 
-      <mod>
+    <line>nished.– My mother <mod>
         <add place="superlinear">lost</add><add place="sublinear">^</add>
         <del rend="strikethrough">was gone</del><del rend="strikethrough">had be</del>
       </mod>en</line>
     <line>
       <mod>
-      <add place="superlinear">was dead</add>
-      <del rend="strikethrough">taken</del> <del rend="strikethrough">away</del>
-    </mod>taken away but we had still</line>
+        <add place="superlinear">was dead</add>
+        <del rend="strikethrough">taken</del>
+        <del rend="strikethrough">away</del>
+      </mod>taken away but we had still</line>
   </zone>
   <zone type="left_margin">
     <addSpan resp="#pbs" spanTo="#f8radd1"/><line>rent away some</line>
-      <line>dear connection,</line><anchor xml:id="f8radd1"/>
+    <line>dear connection,</line><anchor xml:id="f8radd1"/>
   </zone>
 </surface>
