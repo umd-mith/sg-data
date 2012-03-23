@@ -18,13 +18,12 @@
     <line>persuade itself that she, whom</line>
     <line>they saw every day, and whose very</line>
     <line>existence appeared a part of theirs,</line>
-    <line>can have departed for ever<mod><del rend="overwritten">.</del><add>: </add><del rend="overwritten">T</del><add>t</add></mod>hat</line>
+    <line>can have departed for ever<mod><del rend="overwritten">.</del><add>: </add><del
+          rend="overwritten">T</del><add>t</add></mod>hat</line>
     <line>the brightness of a loved eye can have</line>
-    <line>been extinguished,</line>
     <line>
-      <mod>
-        <add place="superlinear" resp="#pbs">been extinguished</add>
-        <del rend="strikethrough">faded</del>
+      <mod><del rend="strikethrough">faded</del>
+        <add place="superlinear" resp="#pbs">been extinguished, </add>
       </mod> and the sound of a voice <del rend="strikethrough">never</del></line>
     <line>so familiar and dear to the ear</line>
     <line>can be hushed, never more to be</line>
