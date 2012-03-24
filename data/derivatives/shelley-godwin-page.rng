@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-19T14:22:45Z. 
+Schema generated from ODD source 2012-03-24T14:25:40Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -5324,8 +5324,8 @@ of a point on a line enclosing the area.</a:documentation>
           <sch:assert xmlns:s="http://www.ascc.net/xml/schematron" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="@spanTo">L'attribut spanTo est requis.</sch:assert>
         </rule>
       </pattern>
+      <ref name="sga-patt.responsibility.attributes"/>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.transcriptional.attributes"/>
       <ref name="sga-patt.placement.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <ref name="sga-patt.spanning.attributes"/>
@@ -5382,8 +5382,8 @@ author, scribe, annotator, or corrector. [11.3.1.4. ]</a:documentation>
           <assert xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="@spanTo">L'attribut spanTo est requis.</assert>
         </rule>
       </pattern>
+      <ref name="sga-patt.responsibility.attributes"/>
       <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.transcriptional.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <ref name="sga-patt.spanning.attributes"/>
       <empty/>

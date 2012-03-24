@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-19T14:22:45Z. 
+# Schema generated from ODD source 2012-03-24T14:25:40Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -3027,8 +3027,8 @@ sga-paddSpan =
          "\x{a}" ~
          "         "
        ],
+    sga-patt.responsibility.attributes,
     sga-patt.global.attributes,
-    sga-patt.transcriptional.attributes,
     sga-patt.placement.attributes,
     sga-patt.typed.attributes,
     sga-patt.spanning.attributes,
@@ -3141,8 +3141,8 @@ sga-pdelSpan =
          "\x{a}" ~
          "         "
        ],
+    sga-patt.responsibility.attributes,
     sga-patt.global.attributes,
-    sga-patt.transcriptional.attributes,
     sga-patt.typed.attributes,
     sga-patt.spanning.attributes,
     empty
