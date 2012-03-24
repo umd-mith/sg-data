@@ -553,7 +553,7 @@
                     <elementSpec ident="del" module="core" mode="change">
                         <attList>
                             <attDef ident="rend" mode="replace">
-                                <valList type="open" mode="replace">
+                                <valList type="semi" mode="replace">
                                     <valItem ident="strikethrough"/>
                                     <valItem ident="overwritten"/>
                                 </valList>
