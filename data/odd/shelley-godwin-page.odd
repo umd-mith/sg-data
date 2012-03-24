@@ -535,6 +535,20 @@
                             </attDef>
                         </attList>
                     </elementSpec>
+                    
+                    <elementSpec ident="addSpan" module="transcr" mode="change">
+                        <classes mode="change">
+                            <memberOf key="att.transcriptional" mode="delete"/>
+                            <memberOf key="att.responsibility" mode="add"/>
+                        </classes>
+                    </elementSpec>
+                    
+                    <elementSpec ident="delSpan" module="transcr" mode="change">
+                        <classes mode="change">
+                            <memberOf key="att.transcriptional" mode="delete"/>
+                            <memberOf key="att.responsibility" mode="add"/>
+                        </classes>
+                    </elementSpec>
 
                     <elementSpec ident="zone" module="transcr" mode="change">
                         <content>
