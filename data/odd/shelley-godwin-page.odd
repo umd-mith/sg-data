@@ -549,6 +549,17 @@
                             <memberOf key="att.responsibility" mode="add"/>
                         </classes>
                     </elementSpec>
+                    
+                    <elementSpec ident="del" module="core" mode="change">
+                        <attList>
+                            <attDef ident="rend" mode="replace">
+                                <valList type="open" mode="replace">
+                                    <valItem ident="strikethrough"/>
+                                    <valItem ident="overwritten"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
 
                     <elementSpec ident="zone" module="transcr" mode="change">
                         <content>
