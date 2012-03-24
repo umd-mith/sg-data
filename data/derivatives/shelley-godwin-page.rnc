@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-24T16:02:52Z. 
+# Schema generated from ODD source 2012-03-24T19:23:47Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -938,107 +938,53 @@ sga-pmodel.pPart.editorial_sequenceOptionalRepeatable =
 sga-pmodel.pPart.editorial_sequenceRepeatable =
   sga-pchoice+, sga-pabbr+, sga-pexpan+, sga-pex+, sga-pam+, sga-psubst+
 sga-pmodel.pPart.transcriptional =
-  sga-psic
-  | sga-pcorr
-  | sga-preg
-  | sga-porig
-  | sga-padd
+  sga-padd
   | sga-pdel
   | sga-punclear
   | sga-pdamage
   | sga-phandShift
-  | sga-prestore
-  | sga-psupplied
-  | sga-psurplus
   | sga-pmod
-  | sga-predo
   | sga-pretrace
-  | sga-pundo
 sga-pmodel.pPart.transcriptional_alternation =
-  sga-psic
-  | sga-pcorr
-  | sga-preg
-  | sga-porig
-  | sga-padd
+  sga-padd
   | sga-pdel
   | sga-punclear
   | sga-pdamage
   | sga-phandShift
-  | sga-prestore
-  | sga-psupplied
-  | sga-psurplus
   | sga-pmod
-  | sga-predo
   | sga-pretrace
-  | sga-pundo
 sga-pmodel.pPart.transcriptional_sequence =
-  sga-psic,
-  sga-pcorr,
-  sga-preg,
-  sga-porig,
   sga-padd,
   sga-pdel,
   sga-punclear,
   sga-pdamage,
   sga-phandShift,
-  sga-prestore,
-  sga-psupplied,
-  sga-psurplus,
   sga-pmod,
-  sga-predo,
-  sga-pretrace,
-  sga-pundo
+  sga-pretrace
 sga-pmodel.pPart.transcriptional_sequenceOptional =
-  sga-psic?,
-  sga-pcorr?,
-  sga-preg?,
-  sga-porig?,
   sga-padd?,
   sga-pdel?,
   sga-punclear?,
   sga-pdamage?,
   sga-phandShift?,
-  sga-prestore?,
-  sga-psupplied?,
-  sga-psurplus?,
   sga-pmod?,
-  sga-predo?,
-  sga-pretrace?,
-  sga-pundo?
+  sga-pretrace?
 sga-pmodel.pPart.transcriptional_sequenceOptionalRepeatable =
-  sga-psic*,
-  sga-pcorr*,
-  sga-preg*,
-  sga-porig*,
   sga-padd*,
   sga-pdel*,
   sga-punclear*,
   sga-pdamage*,
   sga-phandShift*,
-  sga-prestore*,
-  sga-psupplied*,
-  sga-psurplus*,
   sga-pmod*,
-  sga-predo*,
-  sga-pretrace*,
-  sga-pundo*
+  sga-pretrace*
 sga-pmodel.pPart.transcriptional_sequenceRepeatable =
-  sga-psic+,
-  sga-pcorr+,
-  sga-preg+,
-  sga-porig+,
   sga-padd+,
   sga-pdel+,
   sga-punclear+,
   sga-pdamage+,
   sga-phandShift+,
-  sga-prestore+,
-  sga-psupplied+,
-  sga-psurplus+,
   sga-pmod+,
-  sga-predo+,
-  sga-pretrace+,
-  sga-pundo+
+  sga-pretrace+
 sga-pmodel.pPart.edit =
   sga-pmodel.pPart.editorial | sga-pmodel.pPart.transcriptional
 sga-pmodel.pPart.edit_alternation =
@@ -1363,16 +1309,7 @@ sga-pmodel.msQuoteLike_sequenceOptional = sga-ptitle?
 sga-pmodel.msQuoteLike_sequenceOptionalRepeatable = sga-ptitle*
 sga-pmodel.msQuoteLike_sequenceRepeatable = sga-ptitle+
 sga-pmodel.choicePart =
-  sga-psic
-  | sga-pcorr
-  | sga-preg
-  | sga-porig
-  | sga-punclear
-  | sga-pabbr
-  | sga-pexpan
-  | sga-pex
-  | sga-pam
-  | sga-pseg
+  sga-punclear | sga-pabbr | sga-pexpan | sga-pex | sga-pam | sga-pseg
 sga-pmodel.nameLike = sga-pmodel.nameLike.agent | sga-prs
 sga-pmodel.nameLike_alternation =
   sga-pmodel.nameLike.agent_alternation | sga-prs
@@ -1661,26 +1598,6 @@ sga-pterm =
     attribute cRef { sga-pdata.pointer }?,
     empty
   }
-sga-psic =
-  
-  ## (latin for thus or so
-  ##   ) contains text reproduced although apparently incorrect or inaccurate. [3.4.1. ]
-  element sic {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.responsibility.attributes,
-    empty
-  }
-sga-pcorr =
-  
-  ## (correction) contains the correct form of a passage apparently erroneous in the copy text. [3.4.1. ]
-  element corr {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.editLike.attributes,
-    sga-patt.typed.attributes,
-    empty
-  }
 sga-pchoice =
   
   ## groups a number of alternative encodings for the same point in
@@ -1688,26 +1605,6 @@ sga-pchoice =
   element choice {
     (sga-pmodel.choicePart | sga-pchoice)*,
     sga-patt.global.attributes,
-    empty
-  }
-sga-preg =
-  
-  ## (regularization) contains a reading which has been regularized or normalized in some sense. [3.4.2.  12. ]
-  element reg {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.editLike.attributes,
-    sga-patt.typed.attributes,
-    empty
-  }
-sga-porig =
-  
-  ## (original form) contains a reading which is marked as following the original, rather than being normalized
-  ##         or corrected. [3.4.2.  12. ]
-  element orig {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.responsibility.attributes,
     empty
   }
 sga-pgap =
@@ -3219,17 +3116,6 @@ sga-pam =
     sga-patt.editLike.attributes,
     empty
   }
-sga-prestore =
-  
-  ## indicates restoration of text to an earlier state by
-  ## cancellation of an editorial or authorial marking or instruction. [11.3.1.6. ]
-  element restore {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.transcriptional.attributes,
-    sga-patt.typed.attributes,
-    empty
-  }
 sga-pspace =
   
   ## indicates the location of a significant space in the copy text. [11.5.1. ]
@@ -3290,37 +3176,6 @@ sga-psubstJoin =
     sga-patt.global.attributes,
     sga-patt.pointing.attributes,
     sga-patt.transcriptional.attributes,
-    empty
-  }
-sga-psupplied =
-  
-  ## signifies text supplied by the transcriber or editor for any
-  ##   reason, typically because the original cannot be read because of
-  ##   physical damage or loss to the original. [11.3.3.1. ]
-  element supplied {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.editLike.attributes,
-    
-    ## indicates why the text has had to be supplied.
-    attribute reason {
-      list { sga-pdata.word, sga-pdata.word* }
-    }?,
-    empty
-  }
-sga-psurplus =
-  
-  ## marks text present in the source which the editor believes to
-  ##   be superfluous or redundant. [11.3.3.1. ]
-  element surplus {
-    sga-pmacro.paraContent,
-    sga-patt.global.attributes,
-    sga-patt.editLike.attributes,
-    
-    ## indicates the grounds for believing this text to be superfluous.
-    attribute reason {
-      list { sga-pdata.word, sga-pdata.word* }
-    }?,
     empty
   }
 sga-pline =
@@ -3402,24 +3257,6 @@ sga-pmod =
     sga-patt.spanning.attributes,
     empty
   }
-sga-predo =
-  
-  ## indicates one or more cancelled interventions in a
-  ##		  document which have subsequently been
-  ##		  marked as reaffirmed or repeated.
-  element redo {
-    empty,
-    sga-patt.global.attributes,
-    sga-patt.spanning.attributes,
-    sga-patt.transcriptional.attributes,
-    
-    ## points to one or more elements representing the
-    ##	 interventions which are being reasserted.
-    attribute target {
-      list { sga-pdata.pointer, sga-pdata.pointer* }
-    }?,
-    empty
-  }
 sga-pretrace =
   
   ## contains a sequence of writing which has been retraced, for
@@ -3438,23 +3275,6 @@ sga-ptranspose =
   ##    indicated should be re-combined. 
   element transpose {
     (sga-pptr, sga-pptr+), sga-patt.global.attributes, empty
-  }
-sga-pundo =
-  
-  ## indicates one or more marked-up interventions in a document
-  ##    which have subsequently been marked for cancellation.
-  element undo {
-    empty,
-    sga-patt.global.attributes,
-    sga-patt.spanning.attributes,
-    sga-patt.transcriptional.attributes,
-    
-    ## points to one or more elements representing the
-    ##	 interventions which are to be reverted or undone.
-    attribute target {
-      list { sga-pdata.pointer, sga-pdata.pointer* }
-    }?,
-    empty
   }
 sga-pg =
   

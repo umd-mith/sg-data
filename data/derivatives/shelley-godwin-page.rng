@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-24T16:02:52Z. 
+Schema generated from ODD source 2012-03-24T19:23:47Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -1640,75 +1640,36 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga-pmodel.pPart.transcriptional">
     <choice>
-      <ref name="sga-psic"/>
-      <ref name="sga-pcorr"/>
-      <ref name="sga-preg"/>
-      <ref name="sga-porig"/>
       <ref name="sga-padd"/>
       <ref name="sga-pdel"/>
       <ref name="sga-punclear"/>
       <ref name="sga-pdamage"/>
       <ref name="sga-phandShift"/>
-      <ref name="sga-prestore"/>
-      <ref name="sga-psupplied"/>
-      <ref name="sga-psurplus"/>
       <ref name="sga-pmod"/>
-      <ref name="sga-predo"/>
       <ref name="sga-pretrace"/>
-      <ref name="sga-pundo"/>
     </choice>
   </define>
   <define name="sga-pmodel.pPart.transcriptional_alternation">
     <choice>
-      <ref name="sga-psic"/>
-      <ref name="sga-pcorr"/>
-      <ref name="sga-preg"/>
-      <ref name="sga-porig"/>
       <ref name="sga-padd"/>
       <ref name="sga-pdel"/>
       <ref name="sga-punclear"/>
       <ref name="sga-pdamage"/>
       <ref name="sga-phandShift"/>
-      <ref name="sga-prestore"/>
-      <ref name="sga-psupplied"/>
-      <ref name="sga-psurplus"/>
       <ref name="sga-pmod"/>
-      <ref name="sga-predo"/>
       <ref name="sga-pretrace"/>
-      <ref name="sga-pundo"/>
     </choice>
   </define>
   <define name="sga-pmodel.pPart.transcriptional_sequence">
-    <ref name="sga-psic"/>
-    <ref name="sga-pcorr"/>
-    <ref name="sga-preg"/>
-    <ref name="sga-porig"/>
     <ref name="sga-padd"/>
     <ref name="sga-pdel"/>
     <ref name="sga-punclear"/>
     <ref name="sga-pdamage"/>
     <ref name="sga-phandShift"/>
-    <ref name="sga-prestore"/>
-    <ref name="sga-psupplied"/>
-    <ref name="sga-psurplus"/>
     <ref name="sga-pmod"/>
-    <ref name="sga-predo"/>
     <ref name="sga-pretrace"/>
-    <ref name="sga-pundo"/>
   </define>
   <define name="sga-pmodel.pPart.transcriptional_sequenceOptional">
-    <optional>
-      <ref name="sga-psic"/>
-    </optional>
-    <optional>
-      <ref name="sga-pcorr"/>
-    </optional>
-    <optional>
-      <ref name="sga-preg"/>
-    </optional>
-    <optional>
-      <ref name="sga-porig"/>
-    </optional>
     <optional>
       <ref name="sga-padd"/>
     </optional>
@@ -1725,41 +1686,14 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-phandShift"/>
     </optional>
     <optional>
-      <ref name="sga-prestore"/>
-    </optional>
-    <optional>
-      <ref name="sga-psupplied"/>
-    </optional>
-    <optional>
-      <ref name="sga-psurplus"/>
-    </optional>
-    <optional>
       <ref name="sga-pmod"/>
     </optional>
     <optional>
-      <ref name="sga-predo"/>
-    </optional>
-    <optional>
       <ref name="sga-pretrace"/>
-    </optional>
-    <optional>
-      <ref name="sga-pundo"/>
     </optional>
   </define>
   <define name="sga-pmodel.pPart.transcriptional_sequenceOptionalRepeatable">
     <zeroOrMore>
-      <ref name="sga-psic"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pcorr"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-preg"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-porig"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-padd"/>
     </zeroOrMore>
     <zeroOrMore>
@@ -1775,41 +1709,14 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-phandShift"/>
     </zeroOrMore>
     <zeroOrMore>
-      <ref name="sga-prestore"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-psupplied"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-psurplus"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pmod"/>
     </zeroOrMore>
     <zeroOrMore>
-      <ref name="sga-predo"/>
-    </zeroOrMore>
-    <zeroOrMore>
       <ref name="sga-pretrace"/>
-    </zeroOrMore>
-    <zeroOrMore>
-      <ref name="sga-pundo"/>
     </zeroOrMore>
   </define>
   <define name="sga-pmodel.pPart.transcriptional_sequenceRepeatable">
     <oneOrMore>
-      <ref name="sga-psic"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pcorr"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-preg"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-porig"/>
-    </oneOrMore>
-    <oneOrMore>
       <ref name="sga-padd"/>
     </oneOrMore>
     <oneOrMore>
@@ -1825,25 +1732,10 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="sga-phandShift"/>
     </oneOrMore>
     <oneOrMore>
-      <ref name="sga-prestore"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-psupplied"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-psurplus"/>
-    </oneOrMore>
-    <oneOrMore>
       <ref name="sga-pmod"/>
     </oneOrMore>
     <oneOrMore>
-      <ref name="sga-predo"/>
-    </oneOrMore>
-    <oneOrMore>
       <ref name="sga-pretrace"/>
-    </oneOrMore>
-    <oneOrMore>
-      <ref name="sga-pundo"/>
     </oneOrMore>
   </define>
   <define name="sga-pmodel.pPart.edit">
@@ -2945,10 +2837,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
   </define>
   <define name="sga-pmodel.choicePart">
     <choice>
-      <ref name="sga-psic"/>
-      <ref name="sga-pcorr"/>
-      <ref name="sga-preg"/>
-      <ref name="sga-porig"/>
       <ref name="sga-punclear"/>
       <ref name="sga-pabbr"/>
       <ref name="sga-pexpan"/>
@@ -3398,26 +3286,6 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
       <empty/>
     </element>
   </define>
-  <define name="sga-psic">
-    <element name="sic">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(latin for thus or so
-  ) contains text reproduced although apparently incorrect or inaccurate. [3.4.1. ]</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.responsibility.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pcorr">
-    <element name="corr">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correction) contains the correct form of a passage apparently erroneous in the copy text. [3.4.1. ]</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.editLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-pchoice">
     <element name="choice">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups a number of alternative encodings for the same point in
@@ -3429,26 +3297,6 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
         </choice>
       </zeroOrMore>
       <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-preg">
-    <element name="reg">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(regularization) contains a reading which has been regularized or normalized in some sense. [3.4.2.  12. ]</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.editLike.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-porig">
-    <element name="orig">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(original form) contains a reading which is marked as following the original, rather than being normalized
-        or corrected. [3.4.2.  12. ]</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.responsibility.attributes"/>
       <empty/>
     </element>
   </define>
@@ -5480,17 +5328,6 @@ hand, or the beginning of a scribal stint. [11.3.2.1. ]</a:documentation>
       <empty/>
     </element>
   </define>
-  <define name="sga-prestore">
-    <element name="restore">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates restoration of text to an earlier state by
-cancellation of an editorial or authorial marking or instruction. [11.3.1.6. ]</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.transcriptional.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-pspace">
     <element name="space">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of a significant space in the copy text. [11.5.1. ]</a:documentation>
@@ -5551,49 +5388,6 @@ the space.</a:documentation>
       <ref name="sga-patt.global.attributes"/>
       <ref name="sga-patt.pointing.attributes"/>
       <ref name="sga-patt.transcriptional.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-psupplied">
-    <element name="supplied">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signifies text supplied by the transcriber or editor for any
-  reason, typically because the original cannot be read because of
-  physical damage or loss to the original. [11.3.3.1. ]</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.editLike.attributes"/>
-      <optional>
-        <attribute name="reason">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates why the text has had to be supplied.</a:documentation>
-          <list>
-            <ref name="sga-pdata.word"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.word"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-psurplus">
-    <element name="surplus">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks text present in the source which the editor believes to
-  be superfluous or redundant. [11.3.3.1. ]</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.editLike.attributes"/>
-      <optional>
-        <attribute name="reason">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the grounds for believing this text to be superfluous.</a:documentation>
-          <list>
-            <ref name="sga-pdata.word"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.word"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
       <empty/>
     </element>
   </define>
@@ -5693,30 +5487,6 @@ the space.</a:documentation>
       <empty/>
     </element>
   </define>
-  <define name="sga-predo">
-    <element name="redo">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more cancelled interventions in a
-		  document which have subsequently been
-		  marked as reaffirmed or repeated.</a:documentation>
-      <empty/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.spanning.attributes"/>
-      <ref name="sga-patt.transcriptional.attributes"/>
-      <optional>
-        <attribute name="target">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more elements representing the
-	 interventions which are being reasserted.</a:documentation>
-          <list>
-            <ref name="sga-pdata.pointer"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.pointer"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-pretrace">
     <element name="retrace">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a sequence of writing which has been retraced, for
@@ -5740,29 +5510,6 @@ the space.</a:documentation>
         </oneOrMore>
       </group>
       <ref name="sga-patt.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-pundo">
-    <element name="undo">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more marked-up interventions in a document
-   which have subsequently been marked for cancellation.</a:documentation>
-      <empty/>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.spanning.attributes"/>
-      <ref name="sga-patt.transcriptional.attributes"/>
-      <optional>
-        <attribute name="target">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more elements representing the
-	 interventions which are to be reverted or undone.</a:documentation>
-          <list>
-            <ref name="sga-pdata.pointer"/>
-            <zeroOrMore>
-              <ref name="sga-pdata.pointer"/>
-            </zeroOrMore>
-          </list>
-        </attribute>
-      </optional>
       <empty/>
     </element>
   </define>
