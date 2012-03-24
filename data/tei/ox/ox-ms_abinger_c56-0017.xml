@@ -35,7 +35,7 @@
                     xml:id="c56-0017.7"/></mod></line>
         <milestone unit="tei:p"/>
         <line>Elizabeth had caught the scar</line>
-        <line>let fever but <del rend="strikethrough"><unclear extent="1" unit="chars"/></del> her
+        <line>let fever but <del rend="strikethrough">o</del> her
             illness was</line>
         <line>not severe and she quickly recovered.</line>
         <line>During her confinement <mod type="subst"><del rend="strikethrough">mady</del><add
