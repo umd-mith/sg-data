@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0010" ulx="0" uly="0" lrx="5088" lry="7082">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0010" ulx="0" uly="0" lrx="5088" lry="7082"
+  partOf="#ox-ms_abinger_c56-0010">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0010.tif"/>
-    <zone>
-    </zone>
+  <zone type="library">3v</zone>
+  <zone type="main">
+    <line><mod rend="pbs"><del rend="strikethrough">if any one would <unclear>follow him.</unclear>
+          I went but</del><add place="superlinear">Some accident prevented my attending the <del
+            rend="strikethrough">series of</del> these lectures</add></mod></line>
+    <line><mod resp="pbs"><del rend="strikethrough">this lecture was unfortunately nearly
+          the</del><add place="superlinear">until <del rend="stikethrough">they were nearly over
+            they</del> it was nearly finihsed. The</add></mod></line>
+    <line><mod resp="pbs"><del rend="strikethrough">last</del> in his course-<metamark>^</metamark><add resp="pbs"
+          type="sublinear">was intirely incomprehensible to me.</add> the professor talked<add
+          place="superlinear">lecture which I attended being thus <del rend="strikethrough"
+            >the</del> almost the last <del rend="strikethrough">in his</del></add></mod></line>
+    <line>with the greatest fluency of potassium &amp;</line>
+    <line>Boron <del>zinc bismuth-</del> of sulphats and oxids</line>
+    <line><del>and displayed so many words</del>
+      <add resp="pbs">terms</add> to which</line>
+    <line>I could <del>not</del> affix <del>any</del><add resp="pbs">no</add> idea<add resp="pbs"
+        >:</add>
+      <del>that</del> I was </line>
+    <line>disgusted with <del>the appearance of</del> a science</line>
+    <line>that appeared to me to contain only words.</line>
+    <line>From this time untill I went to</line>
+    <line>Colledge I entirely neglected my formerly</line>
+    <line>adored study of <del rend="strikethough"
+        >chemistry</del><!-- The Word file give PBS resp for the phrase 'natural philosophy but not for 'the science of'. 
+          Encoder believes this should be reversed given ink color and shape of letter 'Y' in philosophy- it matches MWS. --><add
+        resp="pbs" place="superlinear">the science of</add><add place="superlinear"> natural
+        philosophy</add> although I still</line>
+    <line>read with delight Pliny and Buffons</line>
+    <line>authors <del rend="strikethrough">that stood about on a par</del><add resp="pbs"
+        place="superlinear"><del>ar of</del></add></line>
+    <line>in my estimation <add resp="pbs" place="interlinear">of nearly equal interest &amp;
+        utility</add></line>
+    <line>My <del rend="strikethrough">studies</del>
+      <add resp="pbs" place="superlinear">occupations</add> at this age were <del
+        rend="strikethrough">th</del> principally the</line>
+    <line>mathematics, <del rend="strikethrough">which I delighted in an</del> and most</line>
+    <line>of the branches of study appertaining <del rend="strikethrough">th</del> to that</line>
+    <line>science. I was also busily employed in learning</line>
+    <line>languages Latin was <metamark >^</metamark><add resp="pbs"
+        rend="superlinear">already</add> familiar to me and I began to</line>
+    <line>read without the help of the <del rend="strikethrough">dictionary</del>
+      <add resp="pbs" place="superlinear">lexicon</add> some of the</line>
+    <line>easiest greek authors. I <add place="superlinear">also</add> understood English
+      &amp;</line>
+    <line>german perfectly. th<del rend="overwritten">ese</del><add>is</add>
+      <del rend="strikethrough">are</del>
+      <add place="superlinear">is</add> list of my accom</line>
+    <line>plishments at<del rend="strikethrough"> that time </del><add resp="pbs"
+        place="superlinear"><del rend="strikethrough">the period</del> the age of</add> and you
+      may</line>
+    <line>conceive that my hours were fully employd</line>
+    <line>in acquiring and maintaining a knowledge</line> 
+    <line> of this various literature.</line>
+  </zone>
+
 </surface>
