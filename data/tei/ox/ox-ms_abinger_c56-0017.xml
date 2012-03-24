@@ -57,7 +57,7 @@
             The</line>
     </zone>
     <zone type="left_margin">
-        <addSpan hand="mws" xml:id="c56-0017.01" spanTo="#c56-0017.08"/><line>becom a
+        <addSpan xml:id="c56-0017.01" spanTo="#c56-0017.08"/><line>becom a
             student</line><anchor xml:id="c56-0017.08"/>
     </zone>
     <zone type="left_margin">
