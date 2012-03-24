@@ -337,11 +337,11 @@
                         except="addrLine address analytic author biblScope biblStruct 
                         binaryObject divGen editor email gb imprint listBibl measure 
                         meeting mentioned monogr postBox postCode pubPlace publisher 
-                        quote said series soCalled street teiCorpus textLang"/>
+                        quote said series soCalled street teiCorpus textLang sic corr reg orig"/>
                     <moduleRef key="textstructure" except="TEI div1 div2 div3 div4 div5 div6 div7"/>
 
                     <!-- Additional modules -->
-                    <moduleRef key="transcr"/>
+                    <moduleRef key="transcr" except="restore supplied surplus redo undo"/>
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking"/>
                     <!-- included principally for the att.linking class -->
