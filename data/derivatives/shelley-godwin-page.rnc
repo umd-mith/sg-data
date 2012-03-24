@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-24T14:25:40Z. 
+# Schema generated from ODD source 2012-03-24T15:59:14Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1766,7 +1766,17 @@ sga-pdel =
   ##     superfluous or spurious in the copy text by an author, scribe, annotator, or corrector. [3.4.3. ]
   element del {
     sga-pmacro.paraContent,
-    sga-patt.global.attributes,
+    
+    ## 
+    ## Sample values include: 1] strikethrough; 2] overwritten
+    attribute rend { text }?,
+    sga-patt.global.attribute.el-target,
+    sga-patt.global.attribute.att-target,
+    sga-patt.global.attribute.att-value,
+    sga-patt.global.attribute.xmlid,
+    sga-patt.global.attribute.n,
+    sga-patt.global.linking.attributes,
+    sga-patt.global.facs.attributes,
     sga-patt.transcriptional.attributes,
     sga-patt.typed.attributes,
     empty

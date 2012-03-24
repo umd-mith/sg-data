@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-24T14:25:40Z. 
+Schema generated from ODD source 2012-03-24T15:59:14Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -3521,7 +3521,20 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as
     superfluous or spurious in the copy text by an author, scribe, annotator, or corrector. [3.4.3. ]</a:documentation>
       <ref name="sga-pmacro.paraContent"/>
-      <ref name="sga-patt.global.attributes"/>
+      <optional>
+        <attribute name="rend">
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+Sample values include: 1] strikethrough; 2] overwritten</a:documentation>
+          <text/>
+        </attribute>
+      </optional>
+      <ref name="sga-patt.global.attribute.el-target"/>
+      <ref name="sga-patt.global.attribute.att-target"/>
+      <ref name="sga-patt.global.attribute.att-value"/>
+      <ref name="sga-patt.global.attribute.xmlid"/>
+      <ref name="sga-patt.global.attribute.n"/>
+      <ref name="sga-patt.global.linking.attributes"/>
+      <ref name="sga-patt.global.facs.attributes"/>
       <ref name="sga-patt.transcriptional.attributes"/>
       <ref name="sga-patt.typed.attributes"/>
       <empty/>
