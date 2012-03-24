@@ -6,13 +6,13 @@
   <zone type="pagination" rend="#bordered">56</zone>
   <zone type="main">
     <!--<milestone unit="tei:q" type="spoken"/>--><!-- tabling this issue for the moment -->
-    <line>so greedily imbibed are <del  rend="strikethrough">at le</del> a <zone type="library">11</zone></line>
-    <line>thousand years old and as musty as</line>
-    <line><del  rend="strikethrough">your</del> they are ancient. I little expected</line>
-    <line>in this enlightened and scientific age</line>
-    <line>to find a disciple of Albertus Mag</line>
-    <line>nus and Paracelsus. My dear sir</line>
-    <line>you must begin your studies entire</line>
+    <line>"so greedily imbibed are <del  rend="strikethrough">at le</del> a <zone type="library">11</zone></line>
+    <line>"thousand years old and as musty as</line>
+    <line>"<del  rend="strikethrough">your</del> they are ancient. I little expected</line>
+    <line>"in this enlightened and scientific age</line>
+    <line>"to find a disciple of Albertus Mag</line>
+    <line>"nus and Paracelsus. My dear sir</line>
+    <line>"you must begin your studies entire</line>
     <line>"ly anew." So saying he ste<mod type="subst" resp="#pbs"><del rend="overwritten"><unclear unit="chars" extent="1" precision="low"/></del><add place="intralinear">pp</add></mod>ed aside, and</line>
     <line><del  rend="strikethrough">wh</del> wrote down a list of several</line>
     <line>books <del rend="strikethrough" ><unclear unit="chars" extent="1">u</unclear></del> upon natural philosophy</line>
