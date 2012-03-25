@@ -6,11 +6,11 @@
   <zone type="pagination" rend="bordered">57</zone>
   <zone type="main">
     <line>of his <mod resp="#pbs" type="subst"><del rend="strikethrough">science</del><add
-          place="superlinear">doctrine.</add></mod>. But when the ne Be-</line>
+          place="superlinear">doctrine.</add></mod>. <del rend="strikethrough">But when the ne</del> Be-</line>
     <line>sides I had a contempt for the uses</line>
     <line>of modern <mod type="subst"><del rend="strikethrough">chemistry</del><add
           place="superlinear">natural philosophy</add></mod>. It was very</line>
-    <line>when different when then masters</line>
+    <line><del rend="strikethrough">when</del> different when then masters</line>
     <line>of the science sought immortality</line>
     <line>and <mod type="subst" resp="#pbs"><del rend="strikethrough">wealth</del><add
           place="superlinear">power</add><add place="intralinear">;</add></mod>– such views
