@@ -14,9 +14,8 @@
     <line>mutual pleasure; I was now alone.</line>
     <line>In the university <del rend="strikethrough">wi</del> whither I was</line>
     <line>going I must form my own friends</line>
-    <line>and be my own <mod>
-        <add place="superlinear" resp="#pbs">protector.</add>
-        <del rend="strikethrough">introduction</del>
+    <line>and be my own <mod type="subst" resp="#pbs"><del rend="strikethrough">introduction </del>
+        <add place="superlinear">protector.</add>
       </mod>. My</line>
     <line>life had hitherto been remarkably retired</line>
     <line>and domestic and this had given me</line>
@@ -35,10 +34,10 @@
         <del rend="strikethrough">how</del>
       </mod> hard <del rend="strikethrough">it was</del> to remain</line>
     <line>cooped up in one place <del rend="strikethrough">all my</del></line>
-    <line><del rend="strikethrough">life</del> and <add place="superlinear" resp="#pbs">had</add> longed
-      to enter into the</line>
+    <line><del rend="strikethrough">life</del> and <add place="superlinear" resp="#pbs">had</add>
+      longed to enter into the</line>
     <line><del rend="strikethrough">worth</del> world and take my <del rend="strikethrough"
-      >place</del></line>
+        >place</del></line>
     <line>
       <mod>
         <add place="superlinear">among</add>
