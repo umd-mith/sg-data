@@ -35,19 +35,23 @@
       <mod type="additions"><add place="superlinear"><metamark>X</metamark></add><add><ptr
             target="#c56-0011.09"/></add></mod></line>
     <milestone unit="tei:p"/>
-    <line><del rend="strikethrough">When I</del> <del rend="strikethrough">I had</del> My brothers were consi</line>
-    <line>derably
-      younger than myself but I had</line><line>a friend <del rend="strikethrough">who who</del> in
-      one of my school</line><line> fellows who compensated for this <add rend="superlinear"
-        resp="#pbs">deficiency.</add>Henry</line><line><del rend="strikethrough">Carignan</del>
-      Clerval was the son<del rend="strikethrough">s</del> of a merchant</line><line><del
-        rend="strikethrough">an</del> of Geneva <del rend="strikethrough">and</del> and intimate
-      friend</line><line>of my father<del rend="strikethrough">'s</del>- he was a boy of
-      singu</line>
-    <line>lar talent &amp; <del rend="strikethrough">fancy</del>fancy I remember</line><line>when he
-      was only nine years old he</line>
-    <line>wrote a fairy tale which was the</line><line>delight and amazement of all
-      his</line><line>companions.</line>
+    <line><del rend="strikethrough">When I</del>
+      <del rend="strikethrough">I had</del> My brothers were consi</line>
+    <line>derably younger than myself but I had</line>
+    <line>a friend <del rend="strikethrough">who</del><del rend="strikethrough"> who</del> in one of
+      my school</line>
+    <line> fellows who compensated for this <add rend="superlinear" resp="#pbs"
+      >deficiency.</add>Henry</line>
+    <line><mod type="subst"><del rend="strikethrough">Carignan</del>
+        <add place="superlinear">Clerval</add></mod> was the son<del rend="strikethrough">s</del> of
+      a merchant</line>
+    <line><del rend="strikethrough">an</del> of Geneva <del rend="strikethrough">and</del> and intimate friend</line>
+    <line>of my father<del rend="strikethrough">'s</del>- he was a boy of singu</line>
+    <line>lar talent &amp; <del rend="strikethrough">fancy</del>fancy I remember</line>
+    <line>when he was only nine years old he</line>
+    <line>wrote a fairy tale which was the</line>
+    <line>delight and amazement of all his</line>
+    <line>companions.</line>
     <line><del rend="strikethrough">Like Don Quixote</del> his</line><line>favourite study <del
         rend="strikethrough">was</del><add rend="superlinear" resp="#pbs">consisted in</add> books
       of chi</line><line>valry &amp; romance and <add rend="sublinear"
@@ -79,25 +83,26 @@
   </zone>
   <zone type="left_margin">
     <addSpan xml:id="c56-0011.09" spanTo="#c56-0011.10"/>
-    <line>I delighted in</line> 
+    <line>I delighted in</line>
     <line>investigating</line>
     <line>the facts relating</line>
     <line>to the actual</line>
-    <line>world, she</line> 
-    <line>busied herself</line> 
-    <line>in <mod type="additions" resp="#pbs"><add place="sublinear"><metamark>^</metamark></add><add
-        place="superlinear">following</add></mod>the aerial</line> 
-    <line>creations of the</line> 
-    <line>poets. The</line> 
-    <line>world was to me</line> 
-    <line>a secret which</line> 
+    <line>world, she</line>
+    <line>busied herself</line>
+    <line>in <mod type="additions" resp="#pbs"><add place="sublinear"
+          ><metamark>^</metamark></add><add place="superlinear">following</add></mod>the
+      aerial</line>
+    <line>creations of the</line>
+    <line>poets. The</line>
+    <line>world was to me</line>
+    <line>a secret which</line>
     <line>I desired to disco</line>
-    <line>-ver,- to her it</line> 
-    <line>was a <del rend="strikethrough">haven</del></line> 
-    <line>vacancy which</line> 
-    <line>she sought to</line> 
-    <line>people with</line> 
-    <line>imaginations of</line> 
+    <line>-ver,- to her it</line>
+    <line>was a <del rend="strikethrough">haven</del></line>
+    <line>vacancy which</line>
+    <line>she sought to</line>
+    <line>people with</line>
+    <line>imaginations of</line>
     <line>her own.</line></zone>
   <anchor xml:id="c56-0011.10"/>
 </surface>
