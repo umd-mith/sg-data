@@ -15,9 +15,9 @@
       <del rend="strikethrough">We agreed</del></line>
     <line><del rend="strikethrough">perfectly although there were many</del><add><ptr
           target="#c56-0011.03"/></add></line>
-    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod type="additions" resp="#pbs"><add
-          rend="superlinear"><del rend="strikethrough">There</del></add> <add place="superlinear">For, although</add></mod> in
-      our</line>
+    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod type="additions"
+        resp="#pbs"><add rend="superlinear"><del rend="strikethrough">There</del></add>
+        <add place="superlinear">For, although</add></mod> in our</line>
     <line>characters <mod type="additions"><add place="superlinear"
             ><metamark>X</metamark></add><add><ptr target="#c56-0011.06"/></add></mod>. I was more
       calm and phi</line>
@@ -40,8 +40,8 @@
     <line>derably younger than myself but I had</line>
     <line>a friend <del rend="strikethrough">who</del><del rend="strikethrough"> who</del> in one of
       my school</line>
-    <line> fellows who compensated for this <add rend="superlinear" resp="#pbs"
-      >deficiency.</add> Henry</line>
+    <line> fellows who compensated for this <add place="superlinear" resp="#pbs">deficiency.</add>
+      Henry</line>
     <line><mod type="subst"><del rend="strikethrough">Carignan</del>
         <add place="superlinear">Clerval</add></mod> was the son<del rend="strikethrough">s</del> of
       a merchant</line>
@@ -54,13 +54,14 @@
     <line>delight and amazement of all his</line>
     <line>companions. <del rend="strikethrough">Like Don Quixote</del> his</line>
     <line>favourite study <mod type="subst"><del rend="strikethrough">was</del><add
-          rend="superlinear" resp="#pbs">consisted in</add></mod> books of chi</line>
+          place="superlinear" resp="#pbs">consisted in</add></mod> books of chi</line>
     <line>valry &amp; romance and <add rend="sublinear"><metamark>^</metamark></add><mod
         xml:id="c56-0011.11" type="additions" next="#c56-0011.12"><add place="superlinear"
           resp="#pbs">when very young, I can</add></mod> we used to</line>
-    <line><mod xml:id="c56-0011.12" prev="#c56-0011.11"><add place="superlinear">remember that</add></mod>act plays composed by him out
-        of</line>
-    <line><mod resp="#pbs"><del rend="overwritten">his</del><add place="intralinear">these</add></mod>
+    <line><mod xml:id="c56-0011.12" prev="#c56-0011.11"><add place="superlinear">remember
+        that</add></mod>act plays composed by him out of</line>
+    <line><mod resp="#pbs"><del rend="overwritten">his</del><add place="intralinear"
+        >these</add></mod>
       <del rend="strikethrough">favourite</del> books, the principal</line>
     <line><del rend="strikethrough">car</del> characters of which were Orlando</line>
     <line> Robin Hood, Amadis and St George-</line>
