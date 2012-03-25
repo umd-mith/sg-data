@@ -403,6 +403,8 @@
                                     <valItem ident="http://viaf.org/viaf/95159449"/>
                                 </valList>
                             </attDef>
+                            <attDef ident="precision" mode="delete"/>
+                            <attDef ident="scope" mode="delete"/>
                         </attList>
                     </classSpec>
 
