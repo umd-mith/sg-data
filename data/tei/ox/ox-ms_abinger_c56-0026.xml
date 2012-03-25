@@ -21,15 +21,17 @@
     <line><del rend="strikethrough">all</del> changed.<mod resp="#pbs" type="subst"><del
           rend="strikethrough">t and the expulsion</del><add resp="#pbs"><ptr target="#c56-0026.01"
           /></add></mod></line>
-    <line><delSpan resp="#pbs" rend="zigzag" spanTo="#c56-0026.02"/>of chimera overthrew at the same</line>
+    <line><delSpan resp="#pbs" rend="zigzag" spanTo="#c56-0026.02"/>of chimera overthrew at the
+      same</line>
     <line>time all <anchor xml:id="c56-0026.02"/>
-      <mod type="subst" resp="#pbs"><del rend="strikethrough">greatness in the science</del><del rend="strikethrough"><add
-          place="superlinear">those</add></del></mod></line>
-    <milestone unit="tei:p"/><line>Such were my reflections during</line>
-    <line>tw two or three days <mod resp="#pbs" type="subst"><add place="sublinear"
-            ><metamark>^</metamark></add><add place="superlinear">spent</add></mod> almost in <del
-        rend="strikethrough">solitary</del></line>
-    <line><add><ptr target="#c56-0026.02"/></add>but at as the ensueing week</line>
+      <mod type="subst" resp="#pbs"><del rend="strikethrough">greatness in the science</del><del
+          rend="strikethrough"><add place="superlinear">those</add></del></mod></line>
+    <milestone unit="tei:p"/>
+    <line>Such were my reflections during</line>
+    <line><del rend="strikethrough">tw</del> two or three days <mod resp="#pbs" type="additions"
+          ><add place="sublinear"><metamark>^</metamark></add><add place="superlinear"
+        >spent</add></mod> almost in <del rend="strikethrough">solitary</del></line>
+    <line><add><ptr target="#c56-0026.03"/></add>but at as the ensueing week</line>
     <line>commenced I thought of the infor</line>
     <line>mation Mr. K.<mod type="subst">—<add place="superlinear">rempe</add></mod> had given
       me</line>
@@ -75,7 +77,7 @@
     <line>little worth.</line>
     <anchor xml:id="c56-0026.02"/>
   </zone>
-  <addSpan xml:id="c56-0026.02" spanTo="#c56-0026.02m"/>
-  <line>solitude:</line>
-  <anchor xml:id="c56-0026.02m"/>
+  <zone type="left_margin">
+    <add xml:id="c56-0026.03">solitude:</add>
+  </zone>
 </surface>
