@@ -44,14 +44,8 @@
         <add place="superlinear">among</add>
         </mod> other human beings. <del rend="strikethrough">And</del></line>
     <line>now my desires were <del rend="strikethrough">cop</del> complyed</line>
-    <line>with &amp; it would <add place="sublinear">^</add>
-      <mod>
-        <add place="superlinear">indeed</add>
-        <del rend="strikethrough">be</del>
-      </mod>
-      <mod>
-        <add place="superlinear" resp="#pbs">have</add>
-        <del rend="strikethrough">indeed</del>
+    <line>with &amp; it would <mod><add place="sublinear">^</add><add place="superlinear">indeed have</add>
+        <del rend="strikethrough">be</del><del rend="strikethrough">indeed</del>
       </mod> be<add place="intralinear">en</add> folly to</line>
     <line>repent.</line>
     <line>I had <mod>
