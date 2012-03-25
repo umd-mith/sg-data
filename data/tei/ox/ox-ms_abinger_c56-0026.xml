@@ -38,12 +38,13 @@
     <line>concerning the lectures, and although</line>
     <line>I could not consent to go and hear</line>
     <line>that little conceited fellow deliver</line>
-    <line>sentences <mod type="subst"><add place="sublinear">^</add><add place="superlinear">out of
+    <line>sentences <mod type="additions"><add place="sublinear">^</add><add place="superlinear">out of
           a pulpit</add></mod> I recollected what he had</line>
     <line>said of Mr. Waldham, whom I had</line>
     <line>never seen <del rend="strikethrough">and</del> as he had been</line>
     <line>hitherto out of town.</line>
-    <milestone unit="tei:p"/><line><mod type="subst"><add place="intralinear">Partly</add><del
+    <milestone unit="tei:p"/>
+    <line><mod type="subst"><add place="intralinear">Partly</add><del
           rend="strikethrough">Half</del></mod>
       <!--I'm differing from the scholar here who did not indicate in the Word file an interventional shift to pbs--><mod
         resp="#pbs" type="subst"><del rend="strikethrough">out of</del><add place="superlinear"
