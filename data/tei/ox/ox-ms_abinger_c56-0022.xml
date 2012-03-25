@@ -28,7 +28,7 @@
     <line>tions as I commenced my journey But</line>
     <line>as I proceeded my spirits and hopes</line>
     <line>rose. I ardently desired knowledge</line>
-    <line><del rend="strikethrough">and I</del> often when at home</line>
+    <line><del rend="strikethrough">and I</del><add><ptr target="#c56-0022.01"/></add> often when at home</line>
     <line>thought<mod>
         <add place="superlinear" resp="#pbs">it</add>
         <del rend="strikethrough">how</del>
@@ -60,7 +60,7 @@
       </mod> leisure for these</line>
   </zone>
   <zone type="left_margin">
-    <line>I had</line>
+    <add xml:id="c56-0022.01">I had</add>
   </zone>
   <zone type="left_margin">
     <line>during my youth</line>
