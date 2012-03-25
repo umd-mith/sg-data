@@ -539,6 +539,7 @@
                                     <valItem ident="sublinear"/>
                                 </valList>
                             </attDef>
+                            <attDef ident="rend" mode="delete"/>
                         </attList>
                     </elementSpec>
 
