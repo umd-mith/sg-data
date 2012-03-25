@@ -33,16 +33,16 @@
     <line>thought <mod type="subst" resp="#pbs"><del rend="strikethrough">how</del><add
           place="superlinear">it</add></mod> hard <del rend="strikethrough">it was</del> to
       remain</line>
-    <line>cooped up in one place <del rend="strikethrough">all my</del></line>
+    <line><add><ptr target="#c56-0022.02"/></add> cooped up in one place <del rend="strikethrough">all my</del></line>
     <line><del rend="strikethrough">life</del> and <add place="superlinear" resp="#pbs">had</add>
       longed to enter into the</line>
     <line><del rend="strikethrough">worth</del> world and take my <del rend="strikethrough"
         >place</del></line>
     <line>
       <mod>
-        <add place="superlinear">among</add>
         <del rend="strikethrough">with</del>
-      </mod> other human beings. <del rend="strikethrough">And</del></line>
+        <add place="superlinear">among</add>
+        </mod> other human beings. <del rend="strikethrough">And</del></line>
     <line>now my desires were <del rend="strikethrough">cop</del> complyed</line>
     <line>with &#38; it would <add place="sublinear">^</add>
       <mod>
@@ -63,7 +63,7 @@
     <add xml:id="c56-0022.01">I had</add>
   </zone>
   <zone type="left_margin">
-    <line>during my youth</line>
+    <add xml:id="c56-0022.02">during my youth</add>
   </zone>
   <zone type="left_margin">
     <line>station</line>
