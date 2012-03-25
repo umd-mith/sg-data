@@ -48,6 +48,7 @@
         <del rend="strikethrough">be</del><del rend="strikethrough">indeed</del>
       </mod> be<add place="intralinear">en</add> folly to</line>
     <line>repent.</line>
+    <milestone unit="tei:p"/>
     <line>I had <mod>
         <add place="superlinear" resp="#pbs">sufficient</add>
         <del rend="overwrite">plenty of</del>
