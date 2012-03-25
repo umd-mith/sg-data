@@ -3,54 +3,52 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xml:id="ox-ms_abinger_c56-0011" ulx="0" uly="0"
   lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0011.tif"/>
-  <zone>
-    <line>41</line>
-  </zone>
-  <zone>
+  <zone type="pagination">41</zone>
+  <zone type="main">
     <line><metamark>X</metamark>
-      <del rend="strikethrough" resp="mws">sevr</del> servants had any request to make</line>
-    <line>it always through <del rend="strikethrough" resp="mws">the</del>
-      <add place="superlinear">her</add> intercession <add><ptr/></add><del rend="strikethrough" resp="mws">of</del>
+      <del rend="strikethrough" >sevr</del> servants had any request to make</line>
+    <line>it always through <del rend="strikethrough" >the</del>
+      <add place="superlinear">her</add> intercession <add><ptr/></add><del rend="strikethrough" >of</del>
       <add rend="marginal"><metamark>X</metamark></add> yet</line>
     <line><del rend="strikethrough">Elizabeth For me I loved he We agreed</del></line>
     <line><del rend="strikethrough">perfectly although there were many</del></line>
-    <line>was a great dissimilitude <mod resp="pbs"><add rend="superlinear"><del
+    <line>was a great dissimilitude <mod resp="#pbs"><add rend="superlinear"><del
             rend="strikethrough">There</del> For, although</add></mod> in our</line>
     <line>characters<add><ptr/></add>.- I was more calm and phi</line><line>lophical than my companion</line>
-    <line>Yet I was not <del rend="strikethrough" resp="mws">n</del> so mild or yielding.</line>
-    <line>My application was of longer endurance</line><line><del rend="strikethrough" resp="mws"
+    <line>Yet I was not <del rend="strikethrough" >n</del> so mild or yielding.</line>
+    <line>My application was of longer endurance</line><line><del rend="strikethrough" 
         >than hers</del> but it was not so severe</line><line><del rend="strikethrough">as
-        hers</del> whil<add rend="interlinear" resp="pbs">st</add> it <del rend="strikethrough"
-        >lasted</del><add rend="superlinear" resp="pbs">endured</add><add><ptr/></add><del rend="strikethrough"
-        resp="mws"> my amusements</del></line><line><del rend="strikethrough" resp="mws">were
-        studying old books of chemistry</del></line><line><del rend="strikethrough" resp="mws">and natural magic those of Elizabeth
-        were</del></line><line><del rend="strikethrough" resp="mws">drawing &amp; music. </del></line>
+        hers</del> whil<add rend="interlinear" resp="#pbs">st</add> it <del rend="strikethrough"
+        >lasted</del><add rend="superlinear" resp="#pbs">endured</add><add><ptr/></add><del rend="strikethrough"
+        > my amusements</del></line><line><del rend="strikethrough" >were
+        studying old books of chemistry</del></line><line><del rend="strikethrough" >and natural magic those of Elizabeth
+        were</del></line><line><del rend="strikethrough" >drawing &amp; music. </del></line>
     
     
-    <line><del rend="strikethrough" resp="mws">When I I had</del> My brothers were consi</line><line>derably
-      younger than myself but I had</line><line>a friend <del rend="strikethrough" resp="mws">who who</del> in one of
-      my school</line><line> fellows who compensated for this <add rend="superlinear" resp="pbs"
-        >deficiency.</add>Henry</line><line><del rend="strikethrough" resp="mws">Carignan</del> Clerval was the
-        son<del rend="strikethrough">s</del> of a merchant</line><line><del rend="strikethrough" resp="mws"
-        >an</del> of Geneva <del rend="strikethrough" resp="mws">and</del> and intimate friend</line><line>of
-      my father<del rend="strikethrough" resp="mws">'s</del>- he was a boy of singu</line>
-    <line>lar talent &amp; <del rend="strikethrough" resp="mws">fancy</del>fancy I remember</line><line>when he
+    <line><del rend="strikethrough" >When I I had</del> My brothers were consi</line><line>derably
+      younger than myself but I had</line><line>a friend <del rend="strikethrough" >who who</del> in one of
+      my school</line><line> fellows who compensated for this <add rend="superlinear" resp="#pbs"
+        >deficiency.</add>Henry</line><line><del rend="strikethrough" >Carignan</del> Clerval was the
+        son<del rend="strikethrough">s</del> of a merchant</line><line><del rend="strikethrough" 
+        >an</del> of Geneva <del rend="strikethrough" >and</del> and intimate friend</line><line>of
+      my father<del rend="strikethrough" >'s</del>- he was a boy of singu</line>
+    <line>lar talent &amp; <del rend="strikethrough" >fancy</del>fancy I remember</line><line>when he
       was only nine years old he</line> <line>wrote a fairy tale which was the</line><line>delight and amazement of all
       his</line><line>companions.</line>
-    <line><del rend="strikethrough" resp="mws">Like Don Quixote</del> his</line><line>favourite study <del
-        rend="strikethrough" resp="mws">was</del><add rend="superlinear" resp="pbs">consisted in</add> books of chi</line><line>valry &amp; romance and
-        <add rend="sublinear"><metamark>^</metamark></add><add rend="superlinear" resp="pbs">when very young, I
+    <line><del rend="strikethrough" >Like Don Quixote</del> his</line><line>favourite study <del
+        rend="strikethrough" >was</del><add rend="superlinear" resp="#pbs">consisted in</add> books of chi</line><line>valry &amp; romance and
+        <add rend="sublinear"><metamark>^</metamark></add><add rend="superlinear" resp="#pbs">when very young, I
         can remember that</add> we used to</line><line>act plays composed by him out
-      of</line><line>th<add place="interlinear" resp="pbs">ese</add> <del rend="strikethrough" resp="mws">favourite</del> books, the principal</line>
-    <line><del rend="strikethrough" resp="mws">car</del> characters of which were Orlando</line><line> Robin
+      of</line><line>th<add place="intralinear" resp="#pbs">ese</add> <del rend="strikethrough" >favourite</del> books, the principal</line>
+    <line><del rend="strikethrough" >car</del> characters of which were Orlando</line><line> Robin
       Hood, Amadis and St George-</line><line>No youth could could be more happy</line>
   </zone>
-    <zone><metamark>X</metamark>
-    <add place="marginal"> We were strangers to any speceis of disunion or dispute</add></zone>
-  <zone><add place="marginal"><metamark>X</metamark> there was an harmony in that very
+    <zone type="left_margin"><metamark>X</metamark>
+    <add> We were strangers to any speceis of disunion or dispute</add></zone>
+  <zone type="left_margin"><add><metamark>X</metamark> there was an harmony in that very
       dissimilition</add></zone>
-  <zone><add place="marginal"><metamark>X</metamark> I delighted in investigating the facts relating to the actual
-      world, she busied herself in<metamark>^</metamark><add rend="superlinear" resp="pbs">following</add>the
+  <zone type="left_margin"><add><metamark>X</metamark> I delighted in investigating the facts relating to the actual
+      world, she busied herself in<metamark>^</metamark><add rend="superlinear" resp="#pbs">following</add>the
       aerial creations of the poets.- The world was to me a secret which I desired to discover,- to
       her it was a <del rend="strikethrough">haven</del> vacancy which she sought to people with
       imaginations of her own.</add></zone>
