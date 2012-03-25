@@ -49,10 +49,7 @@
       </mod> be<add place="intralinear">en</add> folly to</line>
     <line>repent.</line>
     <milestone unit="tei:p"/>
-    <line>I had <mod>
-        <add place="superlinear" resp="#pbs">sufficient</add>
-        <del rend="overwrite">plenty of</del>
-      </mod> leisure for these</line>
+    <line>I had <mod resp="#pbs"><del rend="overwrite">plenty of</del><add place="superlinear">sufficient</add></mod> leisure for these</line>
   </zone>
   <zone type="left_margin">
     <add xml:id="c56-0022.01">I had</add>
