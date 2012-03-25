@@ -1,6 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0011" ulx="0" uly="0" lrx="5364" lry="7104">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../derivatives/shelley-godwin-page.rnc" type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xml:id="ox-ms_abinger_c56-0011" ulx="0" uly="0"
+  lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0011.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">41</zone>
+  <zone type="library">4</zone>
+  <zone type="main">
+    <line><add><ptr target="#c56-0011.01"/></add><del rend="strikethrough">sevr</del> servants had
+      any request to make</line>
+    <line>it always through <del rend="strikethrough">the</del>
+      <add place="superlinear">her</add> intercession <del rend="strikethrough">of</del></line>
+    <line><add><ptr target="#c56-0011.02"/></add><del rend="strikethrough">Elizabeth</del><del
+        rend="strikethrough"> For me I loved he</del>
+      <del rend="strikethrough">We agreed</del></line>
+    <line><del rend="strikethrough">perfectly although there were many</del><add><ptr
+          target="#c56-0011.03"/></add></line>
+    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod type="additions"
+        resp="#pbs"><add rend="superlinear"><del rend="strikethrough">There</del></add>
+        <add place="superlinear">For, although</add></mod> in our</line>
+    <line>characters <mod type="additions"><add place="superlinear"
+            ><metamark>X</metamark></add><add><ptr target="#c56-0011.06"/></add></mod>. I was more
+      calm and phi</line>
+    <line>lophical than my companion</line>
+    <line>Yet I was not <del rend="strikethrough">n</del> so mild or yielding.</line>
+    <line>My application was of longer endurance</line>
+    <line><del rend="strikethrough">than hers</del> but it was not so severe</line>
+    <line><del rend="strikethrough">as hers</del> whil<mod resp="#pbs"><del rend="overwritten"
+          >e</del><add rend="intralinear">st</add></mod> it <mod type="subst" resp="#pbs"><del
+          rend="strikethrough">lasted</del><add place="superlinear">endured</add></mod><del
+        rend="strikethrough"> my amusements</del></line>
+    <line><delSpan spanTo="#c56-0011.08"/>were studying old books of chemistry</line>
+    <line>and natural magic those of Elizabeth were</line>
+    <line>drawing &amp; music.<anchor xml:id="c56-0011.08"/>
+      <mod type="additions"><add place="superlinear"><metamark>X</metamark></add><add><ptr
+            target="#c56-0011.09"/></add></mod></line>
+    <milestone unit="tei:p"/>
+    <line><del rend="strikethrough">When I</del>
+      <del rend="strikethrough">I had</del> My brothers were consi</line>
+    <line>derably younger than myself but I had</line>
+    <line>a friend <del rend="strikethrough">who</del><del rend="strikethrough"> who</del> in one of
+      my school</line>
+    <line> fellows who compensated for this <add place="superlinear" resp="#pbs">deficiency.</add>
+      Henry</line>
+    <line><mod type="subst"><del rend="strikethrough">Carignan</del>
+        <add place="superlinear">Clerval</add></mod> was the son<del rend="strikethrough">s</del> of
+      a merchant</line>
+    <line><del rend="strikethrough">an</del> of Geneva <del rend="strikethrough">and</del> and
+      intimate friend</line>
+    <line>of my father<del rend="strikethrough">'s</del>- he was a boy of singu</line>
+    <line>lar talent &amp; <del rend="strikethrough">fancy</del>fancy I remember</line>
+    <line>when he was only nine years old he</line>
+    <line>wrote a fairy tale which was the</line>
+    <line>delight and amazement of all his</line>
+    <line>companions. <del rend="strikethrough">Like Don Quixote</del> his</line>
+    <line>favourite study <mod type="subst"><del rend="strikethrough">was</del><add
+          place="superlinear" resp="#pbs">consisted in</add></mod> books of chi</line>
+    <line>valry &amp; romance and <add rend="sublinear"><metamark>^</metamark></add><mod
+        xml:id="c56-0011.11" type="additions" next="#c56-0011.12"><add place="superlinear"
+          resp="#pbs">when very young, I can</add></mod> we used to</line>
+    <line><mod xml:id="c56-0011.12" prev="#c56-0011.11"><add place="superlinear">remember
+        that</add></mod>act plays composed by him out of</line>
+    <line><mod resp="#pbs"><del rend="overwritten">his</del><add place="intralinear"
+        >these</add></mod>
+      <del rend="strikethrough">favourite</del> books, the principal</line>
+    <line><del rend="strikethrough">car</del> characters of which were Orlando</line>
+    <line> Robin Hood, Amadis and St George-</line>
+    <line>No youth could could be more happy</line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c56-0011.01"><metamark>X</metamark></add></zone>
+  <zone type="left_margin"><add xml:id="c56-0011.02"><metamark>X</metamark></add></zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0011.03" spanTo="#c56-0011.04"/>
+    <line>We were strangers</line>
+    <line><metamark>X</metamark> to any speceis</line>
+    <line><metamark>X</metamark> of disunion</line>
+    <line>or dispute</line>
+    <anchor xml:id="c56-0011.04"/>
+  </zone>
+  <zone type="left_margin"><add xml:id="c56-0011.05"><metamark>X</metamark> yet</add></zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0011.06" spanTo="#c56-0011.07"/>
+    <line>there was an</line>
+    <line>harmony in</line>
+    <line>that very diss</line>
+    <line>imilitude -</line>
+    <anchor xml:id="c56-0011.07"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0011.09" spanTo="#c56-0011.10"/>
+    <line>I delighted in</line>
+    <line>investigating</line>
+    <line>the facts relating</line>
+    <line>to the actual</line>
+    <line>world, she</line>
+    <line>busied herself</line>
+    <line>in <mod type="additions" resp="#pbs"><add place="sublinear"
+          ><metamark>^</metamark></add><add place="superlinear">following</add></mod>the
+      aerial</line>
+    <line>creations of the</line>
+    <line>poets. The</line>
+    <line>world was to me</line>
+    <line>a secret which</line>
+    <line>I desired to disco</line>
+    <line>-ver,- to her it</line>
+    <line>was a <del rend="strikethrough">haven</del></line>
+    <line>vacancy which</line>
+    <line>she sought to</line>
+    <line>people with</line>
+    <line>imaginations of</line>
+    <line>her own.</line></zone>
+  <anchor xml:id="c56-0011.10"/>
 </surface>
