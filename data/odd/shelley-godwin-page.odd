@@ -334,16 +334,19 @@
 
                     <moduleRef key="tei"/>
                     <moduleRef key="core"
-                        except="addrLine address analytic author biblScope biblStruct 
-                        binaryObject divGen editor email gb imprint listBibl measure 
-                        meeting mentioned monogr postBox postCode pubPlace publisher 
-                        quote said series soCalled street teiCorpus textLang sic corr reg orig"/>
-                    <moduleRef key="textstructure" except="TEI div1 div2 div3 div4 div5 div6 div7"/>
+                        except="abbr addrLine address analytic author biblScope biblStruct 
+                        binaryObject cb choice cit distinct divGen editor email expan gb gloss 
+                        head headItem headLabel imprint l label lb listBibl lg measure 
+                        meeting mentioned monogr p pb postBox postCode pubPlace publisher 
+                        q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig"/>
+                    <moduleRef key="textstructure"
+                        except="argument back byline TEI div1 div2 div3 div4 div5 div6 div7 docAuthor docDate 
+                        docEdition docImprint docTitle epigraph floatingText front group imprimatur titlePage titlePart"/>
 
                     <!-- Additional modules -->
-                    <moduleRef key="transcr" except="restore supplied surplus redo undo"/>
+                    <moduleRef key="transcr" except="am ex fw restore supplied surplus redo undo"/>
                     <moduleRef key="gaiji"/>
-                    <moduleRef key="linking"/>
+                    <moduleRef key="linking" except="ab alt altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
 
                     <!-- Some specific elements to include-->
@@ -535,21 +538,21 @@
                             </attDef>
                         </attList>
                     </elementSpec>
-                    
+
                     <elementSpec ident="addSpan" module="transcr" mode="change">
                         <classes mode="change">
                             <memberOf key="att.transcriptional" mode="delete"/>
                             <memberOf key="att.responsibility" mode="add"/>
                         </classes>
                     </elementSpec>
-                    
+
                     <elementSpec ident="delSpan" module="transcr" mode="change">
                         <classes mode="change">
                             <memberOf key="att.transcriptional" mode="delete"/>
                             <memberOf key="att.responsibility" mode="add"/>
                         </classes>
                     </elementSpec>
-                    
+
                     <elementSpec ident="del" module="core" mode="change">
                         <attList>
                             <attDef ident="rend" mode="replace">
@@ -608,7 +611,7 @@
                             </attDef>
                         </attList>
                     </elementSpec>
-                    
+
                     <elementSpec ident="mod" module="transcr" mode="change">
                         <attList>
                             <attDef ident="type" mode="replace" usage="opt">
