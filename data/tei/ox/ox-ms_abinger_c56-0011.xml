@@ -34,7 +34,9 @@
     <line>drawing &amp; music.<anchor xml:id="c56-0011.08"/>
       <mod type="additions"><add place="superlinear"><metamark>X</metamark></add><add><ptr
             target="#c56-0011.09"/></add></mod></line>
-    <line><del rend="strikethrough">When I I had</del> My brothers were consi</line><line>derably
+    <milestone unit="tei:p"/>
+    <line><del rend="strikethrough">When I</del> <del rend="strikethrough">I had</del> My brothers were consi</line>
+    <line>derably
       younger than myself but I had</line><line>a friend <del rend="strikethrough">who who</del> in
       one of my school</line><line> fellows who compensated for this <add rend="superlinear"
         resp="#pbs">deficiency.</add>Henry</line><line><del rend="strikethrough">Carignan</del>
