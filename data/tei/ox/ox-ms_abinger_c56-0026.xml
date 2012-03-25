@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0026" ulx="0" uly="0" lrx="5364" lry="7104">
+  xml:id="ox-ms_abinger_c56-0026" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0026.tif"/>
-  <zone>57)</zone>
-  <zone>
-    <line>of his <mod resp="pbs" type="subst"><del rend="strikethrough">science</del><add
+  <zone type="pagination" rend="bordered">57</zone>
+  <zone type="main">
+    <line>of his <mod resp="#pbs" type="subst"><del rend="strikethrough">science</del><add
           place="superlinear">doctrine.</add></mod>. But when the ne Be-</line>
     <line>sides I had a contempt for the uses</line>
-    <line>of modern <mod resp="mws" type="subst"><del rend="strikethrough">chemistry</del><add
+    <line>of modern <mod type="subst"><del rend="strikethrough">chemistry</del><add
           place="superlinear">natural philosophy</add></mod>. It was very</line>
     <line>when different when then masters</line>
     <line>of the science sought immortality</line>
-    <line>and <mod type="subst" resp="pbs"><del rend="strikethrough">wealth</del><add
+    <line>and <mod type="subst" resp="#pbs"><del rend="strikethrough">wealth</del><add
           place="superlinear">power</add><add place="intralinear">;</add></mod>– such views
       although</line>
-    <line>futile were grand; but now <mod resp="pbs" type="subst"><del rend="strikethrough"
+    <line>futile were grand; but now <mod resp="#pbs" type="subst"><del rend="strikethrough"
           >it</del><add place="superlinear">the scene</add></mod> was</line>
-    <line><del rend="strikethrough" resp="mws">all</del> changed.<mod resp="pbs" type="subst"><del
-          rend="strikethrough">t and the expulsion</del><add resp="pbs"><ptr target="#c56-0026.01"/></add><add
-          resp="pbs"><ptr target="#c56-0026.03"/></add></mod></line>
-    <line><del resp="pbs" rend="zigzag">of chimera overthrew at the same</del></line>
-    <line><del resp="pbs" rend="zigzag">time all</del>
-      <mod type="subst" resp="pbs"><del rend="strikethrough">greatness in the science</del><add
+    <line><del rend="strikethrough" >all</del> changed.<mod resp="#pbs" type="subst"><del
+          rend="strikethrough">t and the expulsion</del><add resp="#pbs"><ptr target="#c56-0026.01"/></add><add
+          resp="#pbs"><ptr target="#c56-0026.03"/></add></mod></line>
+    <line><del resp="#pbs" rend="zigzag">of chimera overthrew at the same</del></line>
+    <line><del resp="#pbs" rend="zigzag">time all</del>
+      <mod type="subst" resp="#pbs"><del rend="strikethrough">greatness in the science</del><add
           place="superlinear">those</add></mod></line>
     <milestone unit="tei:p"/><line>Such were my reflections during</line>
-    <line>tw two or three days <mod resp="pbs" type="subst"><add place="sublinear"
+    <line>tw two or three days <mod resp="#pbs" type="subst"><add place="sublinear"
             ><metamark>^</metamark></add><add place="superlinear">spent</add></mod> almost in <del
-        resp="mws" rend="strikethrough">solitary</del></line>
-    <line><add resp="mws"><ptr target="#c56-0026.02"/></add>but at as the ensueing week</line>
+         rend="strikethrough">solitary</del></line>
+    <line><add ><ptr target="#c56-0026.02"/></add>but at as the ensueing week</line>
     <line>commenced I thought of the infor</line>
-    <line>mation Mr. K.<mod type="subst" resp="mws">—<add place="superlinear">rempe</add></mod> had
+    <line>mation Mr. K.<mod type="subst" >—<add place="superlinear">rempe</add></mod> had
       given me</line>
     <line>concerning the lectures, and although</line>
     <line>I could not consent to go and hear</line>
     <line>that little conceited fellow deliver</line>
-    <line>sentences <mod resp="mws" type="subst"><add place="sublinear">^</add><add
+    <line>sentences <mod  type="subst"><add place="sublinear">^</add><add
           place="superlinear">out of a pulpit</add></mod> I recollected what he had</line>
     <line>said of Mr. Waldham, whom I had</line>
-    <line>never seen <del resp="mws" rend="strikethrough">and</del> as he had been</line>
+    <line>never seen <del  rend="strikethrough">and</del> as he had been</line>
     <line>hitherto out of town.</line>
-    <milestone unit="tei:p"/><line><mod resp="mws" type="subst"><add place="intralinear"
+    <milestone unit="tei:p"/><line><mod  type="subst"><add place="intralinear"
           >Partly</add><del rend="strikethrough">Half</del></mod>
       <!--I'm differing from the scholar here who did not indicate in the Word file an interventional shift to pbs--><mod
-        resp="pbs" type="subst"><del rend="strikethrough">out of</del><add place="superlinear"
+        resp="#pbs" type="subst"><del rend="strikethrough">out of</del><add place="superlinear"
           >from</add></mod> curiosity and partly from</line>
     <line>idleness I went into the lecturing room</line>
     <line>which Mr. Waldham entered shortly</line>
     <line>after. This Professor was a very dif</line>
     <line>ferent man from
         <!--here too the ink seems to indicate pbs's hand rather than mws, which is what is indicated in Word file--><mod
-        resp="pbs" type="subst"><del rend="strikethrough">the other</del><add place="superlinear"
+        resp="#pbs" type="subst"><del rend="strikethrough">the other</del><add place="superlinear"
           >his colleague</add></mod>. He</line>
     <line>was about fifty but with aspect ex-</line>
     <line>pressive of the greatest benevolence</line>
-    <line>a few grey <del resp="mws" rend="strikethrough">hars</del> hairs covered his
+    <line>a few grey <del  rend="strikethrough">hars</del> hairs covered his
       temples</line>
   </zone>
-  <zone>
-    <addSpan hand="pbs" xml:id="c56-0026.01" spanTo="#c56-0026.01m"/><line><del rend="strikethrough"
+  <zone type="left_margin">
+    <addSpan resp="#pbs" xml:id="c56-0026.01" spanTo="#c56-0026.01m"/><line><del rend="strikethrough"
         >the utmost</del></line><line>ambition of</line>
     <line>enquirer seemed</line>
     <line>to limit itself</line>
@@ -66,9 +66,9 @@
     <line>lation of those</line>
     <line>visions on which</line>
     <anchor xml:id="c56-0026.01m"/>
-    <addSpan hand="mws" xml:id="c56-0026.02" spanTo="#c56-0026.02m"/><line>solitude:</line>
+    <addSpan xml:id="c56-0026.02" spanTo="#c56-0026.02m"/><line>solitude:</line>
     <anchor xml:id="c56-0026.02m"/>
-    <addSpan hand="pbs" xml:id="c56-0026.03" spanTo="#c56-0026.03m"/>
+    <addSpan resp="#pbs" xml:id="c56-0026.03" spanTo="#c56-0026.03m"/>
     <line>my interest in science</line>
     <line>was chiefly founded.</line>
     <line>I was required</line>
