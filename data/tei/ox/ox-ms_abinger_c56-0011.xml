@@ -45,17 +45,20 @@
     <line><mod type="subst"><del rend="strikethrough">Carignan</del>
         <add place="superlinear">Clerval</add></mod> was the son<del rend="strikethrough">s</del> of
       a merchant</line>
-    <line><del rend="strikethrough">an</del> of Geneva <del rend="strikethrough">and</del> and intimate friend</line>
+    <line><del rend="strikethrough">an</del> of Geneva <del rend="strikethrough">and</del> and
+      intimate friend</line>
     <line>of my father<del rend="strikethrough">'s</del>- he was a boy of singu</line>
     <line>lar talent &amp; <del rend="strikethrough">fancy</del>fancy I remember</line>
     <line>when he was only nine years old he</line>
     <line>wrote a fairy tale which was the</line>
     <line>delight and amazement of all his</line>
     <line>companions. <del rend="strikethrough">Like Don Quixote</del> his</line>
-    <line>favourite study <mod type="subst"><del rend="strikethrough">was</del><add rend="superlinear" resp="#pbs">consisted in</add></mod> books
-      of chi</line><line>valry &amp; romance and <add rend="sublinear"
-        ><metamark>^</metamark></add><add rend="superlinear" resp="#pbs">when very young, I can
-        remember that</add> we used to</line><line>act plays composed by him out
+    <line>favourite study <mod type="subst"><del rend="strikethrough">was</del><add
+          rend="superlinear" resp="#pbs">consisted in</add></mod> books of chi</line>
+    <line>valry &amp; romance and <add rend="sublinear"><metamark>^</metamark></add><mod
+        xml:id="c56-0011.11" type="additions" next="#c56-0011.12"><add place="superlinear"
+          resp="#pbs">when very young, I can</add></mod> we used to</line>
+    <line><mod xml:id="c56-0011.12" prev="#c56-0011.11"><add place="superlinear">remember that</add></mod>act plays composed by him out
         of</line><line>th<add place="intralinear" resp="#pbs">ese</add>
       <del rend="strikethrough">favourite</del> books, the principal</line>
     <line><del rend="strikethrough">car</del> characters of which were Orlando</line><line> Robin
