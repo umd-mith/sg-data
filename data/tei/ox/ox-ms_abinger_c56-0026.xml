@@ -21,10 +21,10 @@
     <line><del rend="strikethrough">all</del> changed.<mod resp="#pbs" type="subst"><del
           rend="strikethrough">t and the expulsion</del><add resp="#pbs"><ptr target="#c56-0026.01"
           /></add></mod></line>
-    <line><del resp="#pbs" rend="zigzag">of chimera overthrew at the same</del></line>
-    <line><del resp="#pbs" rend="zigzag">time all</del>
-      <mod type="subst" resp="#pbs"><del rend="strikethrough">greatness in the science</del><add
-          place="superlinear">those</add></mod></line>
+    <line><delSpan resp="#pbs" rend="zigzag" spanTo="#c56-0026.02"/>of chimera overthrew at the same</line>
+    <line>time all <anchor xml:id="c56-0026.02"/>
+      <mod type="subst" resp="#pbs"><del rend="strikethrough">greatness in the science</del><del rend="strikethrough"><add
+          place="superlinear">those</add></del></mod></line>
     <milestone unit="tei:p"/><line>Such were my reflections during</line>
     <line>tw two or three days <mod resp="#pbs" type="subst"><add place="sublinear"
             ><metamark>^</metamark></add><add place="superlinear">spent</add></mod> almost in <del
