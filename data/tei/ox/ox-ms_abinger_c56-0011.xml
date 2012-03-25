@@ -52,8 +52,7 @@
     <line>wrote a fairy tale which was the</line>
     <line>delight and amazement of all his</line>
     <line>companions. <del rend="strikethrough">Like Don Quixote</del> his</line>
-    <line>favourite study <del
-        rend="strikethrough">was</del><add rend="superlinear" resp="#pbs">consisted in</add> books
+    <line>favourite study <mod type="subst"><del rend="strikethrough">was</del><add rend="superlinear" resp="#pbs">consisted in</add></mod> books
       of chi</line><line>valry &amp; romance and <add rend="sublinear"
         ><metamark>^</metamark></add><add rend="superlinear" resp="#pbs">when very young, I can
         remember that</add> we used to</line><line>act plays composed by him out
