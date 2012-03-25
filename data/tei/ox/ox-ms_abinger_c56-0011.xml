@@ -6,13 +6,14 @@
   <zone type="pagination">41</zone>
   <zone type="library">4</zone>
   <zone type="main">
-    <line><add><ptr target="#c56-0011.01"/></add><del rend="strikethrough">sevr</del> servants had any request to make</line>
+    <line><add><ptr target="#c56-0011.01"/></add><del rend="strikethrough">sevr</del> servants had
+      any request to make</line>
     <line>it always through <del rend="strikethrough">the</del>
       <add place="superlinear">her</add> intercession <del rend="strikethrough">of</del></line>
-    <line><add><ptr target="#c56-0011.02"/></add><del rend="strikethrough">Elizabeth</del><del rend="strikethrough"> For me I loved
-        he</del>
+    <line><add><ptr target="#c56-0011.02"/></add><del rend="strikethrough">Elizabeth</del><del
+        rend="strikethrough"> For me I loved he</del>
       <del rend="strikethrough">We agreed</del></line>
-    <line><del rend="strikethrough">perfectly although there were many</del></line>
+    <line><del rend="strikethrough">perfectly although there were many</del><add><ptr target="#c56-0011.03"/></add></line>
     <line>was a great dissimilitude <mod resp="#pbs"><add rend="superlinear"><del
             rend="strikethrough">There</del> For, although</add></mod> in our</line>
     <line>characters<add><ptr/></add>.- I was more calm and phi</line><line>lophical than my
@@ -50,8 +51,14 @@
   </zone>
   <zone type="left_margin"><add xml:id="c56-0011.01"><metamark>X</metamark></add></zone>
   <zone type="left_margin"><add xml:id="c56-0011.02"><metamark>X</metamark></add></zone>
-  <zone type="left_margin"><add> We were strangers to any speceis of disunion or
-    dispute</add></zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0011.03" spanTo="#c56-0011.04"/> 
+    <line>We were strangers</line> 
+    <line><metamark>X</metamark> to any speceis</line> 
+    <line><metamark>X</metamark> of disunion</line>
+    <line>or dispute</line>
+    <anchor xml:id="c56-0011.04"/>
+  </zone>
   <zone type="left_margin"><add><metamark>X</metamark> there was an harmony in that very
       dissimilition</add></zone>
   <zone type="left_margin"><add><metamark>X</metamark> I delighted in investigating the facts
