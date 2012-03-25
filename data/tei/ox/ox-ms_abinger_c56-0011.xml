@@ -6,10 +6,10 @@
   <zone type="pagination">41</zone>
   <zone type="library">4</zone>
   <zone type="main">
-    <line><del rend="strikethrough">sevr</del> servants had any request to make</line>
+    <line><add><ptr target="#c56-0011.01"/></add><del rend="strikethrough">sevr</del> servants had any request to make</line>
     <line>it always through <del rend="strikethrough">the</del>
       <add place="superlinear">her</add> intercession <del rend="strikethrough">of</del></line>
-    <line><del rend="strikethrough">Elizabeth</del><del rend="strikethrough"> For me I loved
+    <line><add><ptr target="#c56-0011.02"/></add><del rend="strikethrough">Elizabeth</del><del rend="strikethrough"> For me I loved
         he</del>
       <del rend="strikethrough">We agreed</del></line>
     <line><del rend="strikethrough">perfectly although there were many</del></line>
@@ -48,8 +48,8 @@
     <line><del rend="strikethrough">car</del> characters of which were Orlando</line><line> Robin
       Hood, Amadis and St George-</line><line>No youth could could be more happy</line>
   </zone>
-  <zone type="left_margin"><add><metamark>X</metamark></add></zone>
-  <zone type="left_margin"><add><metamark>X</metamark></add></zone>
+  <zone type="left_margin"><add xml:id="c56-0011.01"><metamark>X</metamark></add></zone>
+  <zone type="left_margin"><add xml:id="c56-0011.02"><metamark>X</metamark></add></zone>
   <zone type="left_margin"><add> We were strangers to any speceis of disunion or
     dispute</add></zone>
   <zone type="left_margin"><add><metamark>X</metamark> there was an harmony in that very
