@@ -14,9 +14,9 @@
         rend="strikethrough"> For me I loved he</del>
       <del rend="strikethrough">We agreed</del></line>
     <line><del rend="strikethrough">perfectly although there were many</del><add><ptr target="#c56-0011.03"/></add></line>
-    <line>was a great dissimilitude <mod resp="#pbs"><add rend="superlinear"><del
+    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod resp="#pbs"><add rend="superlinear"><del
             rend="strikethrough">There</del> For, although</add></mod> in our</line>
-    <line>characters<add><ptr/></add>.- I was more calm and phi</line><line>lophical than my
+    <line>characters<add><ptr target="#c56-0011.06"/></add>.- I was more calm and phi</line><line>lophical than my
       companion</line>
     <line>Yet I was not <del rend="strikethrough">n</del> so mild or yielding.</line>
     <line>My application was of longer endurance</line><line><del rend="strikethrough">than
@@ -59,8 +59,15 @@
     <line>or dispute</line>
     <anchor xml:id="c56-0011.04"/>
   </zone>
-  <zone type="left_margin"><add><metamark>X</metamark> there was an harmony in that very
-      dissimilition</add></zone>
+  <zone type="left_margin"><add xml:id="c56-0011.05"><metamark>X</metamark> yet</add></zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0011.06" spanTo="#c56-0011.07"/>
+      <line>there was an</line>
+      <line>harmony in</line>
+      <line>that very diss</line>
+      <line>imilitude -</line>
+    <anchor xml:id="c56-0011.07"/>
+  </zone>
   <zone type="left_margin"><add><metamark>X</metamark> I delighted in investigating the facts
       relating to the actual world, she busied herself in<metamark>^</metamark><add
         rend="superlinear" resp="#pbs">following</add>the aerial creations of the poets.- The world
