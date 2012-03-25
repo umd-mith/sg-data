@@ -28,11 +28,11 @@
     <line>tions as I commenced my journey But</line>
     <line>as I proceeded my spirits and hopes</line>
     <line>rose. I ardently desired knowledge</line>
-    <line><del rend="strikethrough">and I</del><add><ptr target="#c56-0022.01"/></add> often when at home</line>
-    <line>thought<mod>
-        <add place="superlinear" resp="#pbs">it</add>
-        <del rend="strikethrough">how</del>
-      </mod> hard <del rend="strikethrough">it was</del> to remain</line>
+    <line><del rend="strikethrough">and I</del><add><ptr target="#c56-0022.01"/></add> often when at
+      home</line>
+    <line>thought <mod type="subst" resp="#pbs"><del rend="strikethrough">how</del><add
+          place="superlinear">it</add></mod> hard <del rend="strikethrough">it was</del> to
+      remain</line>
     <line>cooped up in one place <del rend="strikethrough">all my</del></line>
     <line><del rend="strikethrough">life</del> and <add place="superlinear" resp="#pbs">had</add>
       longed to enter into the</line>
