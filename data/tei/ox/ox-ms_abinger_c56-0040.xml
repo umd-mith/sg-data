@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0040" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0040" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0040.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">
+    <line>70</line>
+  </zone>
+  <zone type="main">
+    <line>it impossible<metamark>)</metamark> renew life where</line>
+    <line>death had apparently devoted the</line>
+    <line>body to corruption.</line>
+    <milestone unit="tei:p"/>
+    <line>These thoughts supported my</line>
+    <line>spirits while I pursued my <mod type="subst"><del rend="strikethrough">labours</del><add
+          place="sublinear"><metamark>^</metamark></add><add place="superlinear"
+        >undertaking</add></mod></line>
+    <line>with unremitting <mod type="subst"><del rend="strikethrough">eagerness</del><add
+          place="sublinear"><metamark>^</metamark></add><add place="superlinear">ardour</add></mod>.
+      My cheek</line>
+    <line><mod type="subst" resp="#pbs"><del rend="strikethrough">was</del> <add><ptr
+            target="#ox-ms_abinger_c56-0040.01"/></add></mod> pale with study, and <del
+        rend="strikethrough">pe</del> my person</line>
+    <line><add><ptr target="#ox-ms_abinger_c56-0040.02"/></add> emaciated by confinement.
+      sometimes</line>
+    <line>on the very brink of certainty I faild</line>
+    <line>yet I still clung to the hope which</line>
+    <line>the next day or the <del rend="strikethrough">nexhour</del> next</line>
+    <line>hour might realize. One secret</line>
+    <line>which I alone <mod type="subst"><del rend="strikethrough">knew</del><add
+          place="superlinear">possessed</add></mod> was the hope</line>
+    <line>to which I clung and the moon</line>
+    <line>gazed on my midnight labours</line>
+    <line>while with unrelaxed &amp; breathless</line>
+    <line>eagerness I pursued nature to her</line>
+    <line>most secret hiding places. But</line>
+    <line>who shall <mod type="subst" resp="#pbs"><del rend="strikethrough">know</del>
+        <del rend="strikethrough">my</del><add place="sublinear"><metamark>^</metamark></add><add
+          place="superlinear">concieve the horrors of my</add> secret <del rend="strikethrough"
+          >operations</del><add place="superlinear">toil</add></mod></line>
+    <line>as I dabbled among the unhallowed</line>
+    <line>damps of the grave, or tortured the</line>
+    <line>living <del rend="strikethrough">animate to ani</del> animal to</line>
+    <line>animate <mod type="subst" resp="#pbs"><del rend="strikethrough">my</del><add
+          place="superlinear">the</add> lifeless clay? <del rend="strikethrough">Now</del></mod> my
+      limbs</line>
+    <line><add><ptr target="#ox-ms_abinger_c56-0040.03"/></add> tremble and my eyes swim with
+      the</line>
+    <line>rememberance, but then a resistless</line>
+    <line>and <mod type="additions" resp="#pbs"><del rend="strikethrough">all</del> almost frantic
+          <add place="sublinear"><metamark>^</metamark></add><add place="superlinear"
+        >impulse</add></mod> urged me</line>
+    <line><mod type="subst" resp="#pbs"><del rend="strikethrough">on</del>
+        <add><ptr target="#ox-ms_abinger_c56-0040.04"/></add></mod>; I seemed to have lost
+      all</line>
+    <line>soul or sensation but for one</line>
+    <line>pursuit. It was indeed a passing trance</line>
+    <line>that only made me feel with renew</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="ox-ms_abinger_c56-0040.01">had grown</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="ox-ms_abinger_c56-0040.02">became</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="ox-ms_abinger_c56-0040.03">now</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="ox-ms_abinger_c56-0040.04">forward</add></line>
+  </zone>
 </surface>
