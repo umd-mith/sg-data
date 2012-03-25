@@ -23,14 +23,16 @@
       calm and phi</line>
     <line>lophical than my companion</line>
     <line>Yet I was not <del rend="strikethrough">n</del> so mild or yielding.</line>
-    <line>My application was of longer endurance</line><line><del rend="strikethrough">than
-        hers</del> but it was not so severe</line><line><del rend="strikethrough">as hers</del>
-        whil<add rend="interlinear" resp="#pbs">st</add> it <del rend="strikethrough"
-        >lasted</del><add rend="superlinear" resp="#pbs">endured</add><add><ptr/></add><del
-        rend="strikethrough"> my amusements</del></line><line><del rend="strikethrough">were
-        studying old books of chemistry</del></line><line><del rend="strikethrough">and natural
-        magic those of Elizabeth were</del></line><line><del rend="strikethrough">drawing &amp;
-        music. </del></line>
+    <line>My application was of longer endurance</line>
+    <line><del rend="strikethrough">than hers</del> but it was not so severe</line>
+    <line><del rend="strikethrough">as hers</del> whil<mod resp="#pbs"><del rend="overwritten"
+          >e</del><add rend="intralinear">st</add></mod> it <mod type="subst" resp="#pbs"><del
+          rend="strikethrough">lasted</del><add rend="superlinear"
+        >endured</add></mod><del rend="strikethrough"> my
+        amusements</del></line>
+    <line><del rend="strikethrough">were studying old books of
+        chemistry</del></line><line><del rend="strikethrough">and natural magic those of Elizabeth
+        were</del></line><line><del rend="strikethrough">drawing &amp; music. </del></line>
     <line><del rend="strikethrough">When I I had</del> My brothers were consi</line><line>derably
       younger than myself but I had</line><line>a friend <del rend="strikethrough">who who</del> in
       one of my school</line><line> fellows who compensated for this <add rend="superlinear"
