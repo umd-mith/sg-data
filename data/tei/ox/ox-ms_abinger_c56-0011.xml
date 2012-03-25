@@ -15,8 +15,8 @@
       <del rend="strikethrough">We agreed</del></line>
     <line><del rend="strikethrough">perfectly although there were many</del><add><ptr
           target="#c56-0011.03"/></add></line>
-    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod resp="#pbs"><add
-          rend="superlinear"><del rend="strikethrough">There</del> For, although</add></mod> in
+    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod type="additions" resp="#pbs"><add
+          rend="superlinear"><del rend="strikethrough">There</del></add> <add place="superlinear">For, although</add></mod> in
       our</line>
     <line>characters <mod type="additions"><add place="superlinear"
             ><metamark>X</metamark></add><add><ptr target="#c56-0011.06"/></add></mod>. I was more
@@ -27,7 +27,7 @@
     <line><del rend="strikethrough">than hers</del> but it was not so severe</line>
     <line><del rend="strikethrough">as hers</del> whil<mod resp="#pbs"><del rend="overwritten"
           >e</del><add rend="intralinear">st</add></mod> it <mod type="subst" resp="#pbs"><del
-          rend="strikethrough">lasted</del><add rend="superlinear">endured</add></mod><del
+          rend="strikethrough">lasted</del><add place="superlinear">endured</add></mod><del
         rend="strikethrough"> my amusements</del></line>
     <line><delSpan spanTo="#c56-0011.08"/>were studying old books of chemistry</line>
     <line>and natural magic those of Elizabeth were</line>
@@ -41,7 +41,7 @@
     <line>a friend <del rend="strikethrough">who</del><del rend="strikethrough"> who</del> in one of
       my school</line>
     <line> fellows who compensated for this <add rend="superlinear" resp="#pbs"
-      >deficiency.</add>Henry</line>
+      >deficiency.</add> Henry</line>
     <line><mod type="subst"><del rend="strikethrough">Carignan</del>
         <add place="superlinear">Clerval</add></mod> was the son<del rend="strikethrough">s</del> of
       a merchant</line>
