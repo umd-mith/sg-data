@@ -13,11 +13,15 @@
     <line><add><ptr target="#c56-0011.02"/></add><del rend="strikethrough">Elizabeth</del><del
         rend="strikethrough"> For me I loved he</del>
       <del rend="strikethrough">We agreed</del></line>
-    <line><del rend="strikethrough">perfectly although there were many</del><add><ptr target="#c56-0011.03"/></add></line>
-    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod resp="#pbs"><add rend="superlinear"><del
-            rend="strikethrough">There</del> For, although</add></mod> in our</line>
-    <line>characters<add><ptr target="#c56-0011.06"/></add>.- I was more calm and phi</line><line>lophical than my
-      companion</line>
+    <line><del rend="strikethrough">perfectly although there were many</del><add><ptr
+          target="#c56-0011.03"/></add></line>
+    <line><add><ptr target="#c56-0011.05"/></add>was a great dissimilitude <mod resp="#pbs"><add
+          rend="superlinear"><del rend="strikethrough">There</del> For, although</add></mod> in
+      our</line>
+    <line>characters <mod type="additions"><add place="superlinear"
+            ><metamark>X</metamark></add><add><ptr target="#c56-0011.06"/></add></mod>. I was more
+      calm and phi</line>
+    <line>lophical than my companion</line>
     <line>Yet I was not <del rend="strikethrough">n</del> so mild or yielding.</line>
     <line>My application was of longer endurance</line><line><del rend="strikethrough">than
         hers</del> but it was not so severe</line><line><del rend="strikethrough">as hers</del>
@@ -52,9 +56,9 @@
   <zone type="left_margin"><add xml:id="c56-0011.01"><metamark>X</metamark></add></zone>
   <zone type="left_margin"><add xml:id="c56-0011.02"><metamark>X</metamark></add></zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0011.03" spanTo="#c56-0011.04"/> 
-    <line>We were strangers</line> 
-    <line><metamark>X</metamark> to any speceis</line> 
+    <addSpan xml:id="c56-0011.03" spanTo="#c56-0011.04"/>
+    <line>We were strangers</line>
+    <line><metamark>X</metamark> to any speceis</line>
     <line><metamark>X</metamark> of disunion</line>
     <line>or dispute</line>
     <anchor xml:id="c56-0011.04"/>
@@ -62,10 +66,10 @@
   <zone type="left_margin"><add xml:id="c56-0011.05"><metamark>X</metamark> yet</add></zone>
   <zone type="left_margin">
     <addSpan xml:id="c56-0011.06" spanTo="#c56-0011.07"/>
-      <line>there was an</line>
-      <line>harmony in</line>
-      <line>that very diss</line>
-      <line>imilitude -</line>
+    <line>there was an</line>
+    <line>harmony in</line>
+    <line>that very diss</line>
+    <line>imilitude -</line>
     <anchor xml:id="c56-0011.07"/>
   </zone>
   <zone type="left_margin"><add><metamark>X</metamark> I delighted in investigating the facts
