@@ -1,63 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0014" ulx="0" uly="0" lrx="5364" lry="7104">
-  <graphic url="../../images/ox/ox-ms_abinger_c56-0014.tif"/>
-  <zone>
-    <line><add resp="mws"><ptr target="#c56-0014.01"/></add>it advanced from behind Jura <del
-        resp="mws" rend="strikethrough">and</del></line>
-    <line><del resp="mws" rend="strikethrough">the</del> and the thunder <del resp="mws"
-        rend="strikethrough">was heard at</del></line>
-    <line><del resp="mws" rend="strikethrough">once from the {?d} several quarters</del></line>
-    <line><del resp="mws" rend="strikethrough">of the heavens and</del> burst <add
-        place="superlinear" resp="mws">at once</add> with <del resp="mws" rend="strikethrough"
-        >and</del></line>
-    <line>frightful loudness.<mod resp="mws" type="subst"><add place="sublinear">^</add><add
-          place="superlinear">from various quarters of the heavens</add></mod> I <del resp="mws"
-        rend="strikethrough">witnessed the</del></line>
-    <line><del resp="mws" rend="strikethrough">elemental storm with pleasure</del></line>
-    <line>and remained while <mod type="subst" resp="pbs"><del rend="strikethrough">it</del><add
-          place="superlinear">the storm</add></mod> lasted <mod type="subst" resp="mws"><del
-          rend="strikethrough">at</del><add place="superlinear">watching its<ptr
-            target="#c56-0014.02"/></add></mod></line>
-    <line>the door watching. <mod type="subst" resp="pbs"><del rend="strikethrough">When it was
-          most</del><add place="superlinear">As I stood at the door</add></mod></line>
-    <line><mod type="subst" resp="pbs"><del rend="strikethrough">violent</del><add
-          place="superlinear">on a sudden</add></mod>, I beheld <mod type="subst" resp="pbs"><del
-          rend="strikethrough">the</del><add place="sublinear">^</add><add place="superlinear">a
-          stream of</add></mod> fire issue</line>
-    <line>from an old <del resp="mws" rend="strikethrough">be</del> and beautiful</line>
-    <line>oak about <del resp="mws" rend="strikethrough">wh</del> twenty yards from</line>
-    <line>our house and <mod type="subst" resp="pbs"><del rend="strikethrough">when</del><add
-          place="superlinear">so soon as</add></mod> the dazz</line>
-    <line>dazzling light <del resp="mws" rend="strikethrough">had dissa dissappeared</del></line>
-    <line><del resp="mws" rend="strikethrough">the <unclear unit="chars" extent="2"
-        >pa</unclear></del> vanished, the oak <del resp="mws" rend="strikethrough">hand</del></line>
-    <line>had dissappeared <mod resp="pbs" type="subst"><del rend="strikethrough">an</del><add
-          place="superlinear">&amp;</add></mod> nothing <add resp="mws" place="superlinear"
-        >remained</add> but a</line>
-    <line><mod type="subst" resp="mws"><del rend="strikethrough">rent</del><add place="sublinear"
-          >^</add><add place="superlinear">blasted</add> stump. <del rend="strikethrough"
-          >remained</del></mod>. When we</line>
-    <line>visited it the next morning we found</line>
-    <line>the <del resp="mws" rend="strikethrough">trea</del> tree shattered in a</line>
-    <line>singular manner. It was not splin</line>
-    <line>tered by the shock, but entirely</line>
-    <line>reduced to thin ribands of wood. <del resp="mws" rend="strikethrough">The</del></line>
-    <line><del rend="strikethrough" resp="mws">C</del> I never saw any thing so utterly</line>
-    <line>destroyed. The catastrophe of the</line>
-    <line>tree excited my extreme astonish</line>
-    <line>ment <del rend="strikethrough">and caused me to aply with</del><add place="sublinear"
-        >^</add><add place="superlinear">induced</add></line>
-    <line>fresh diligence to the study of</line>
-    <line><mod resp="mws" type="subst"><del rend="strikethrough">chemistry</del><add
-          place="superlinear">natural philosophy</add> which promised an ex-</mod>
-    </line>
-    <line><del resp="mws" rend="strikethrough">clamatio</del> planation of thise sort of</line>
-  </zone>
-  <zone><line><addSpan hand="mws" xml:id="c56-0014.01" spanTo="#c56-0014.01m"/>44)<anchor
-        xml:id="c56-0014.01m"/></line><line><addSpan hand="mws" xml:id="c56-0014.02"
-        spanTo="#c56-0014.02m"/>its progress with curiosity &amp; delight<anchor
-        xml:id="c56-0014.02m"/></line>
-  </zone>
+    xml:id="ox-ms_abinger_c56-0014" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+    <graphic url="../../images/ox/ox-ms_abinger_c56-0014.tif"/>
+    <zone type="pagination" rend="bordered">44</zone>
+    <zone type="main">
+        <line>it advanced from behind Jura <del rend="strikethrough">and</del></line>
+        <line><del rend="strikethrough">the</del> and the thunder <delSpan rend="strikethrough"
+                spanTo="#c56-0014.01"/>was heard at</line>
+        <line>once from<anchor xml:id="c56-0014.01"/>
+            <del rend="strikethrough">the <unclear unit="chars" extent="1">d</unclear></del>
+            <del rend="strikethrough">several quarters</del></line>
+        <line><del rend="strikethrough">of the heavens and</del> burst <add place="superlinear">at
+                once</add> with <del rend="strikethrough">and</del></line>
+        <line>frightful loudness.<mod type="subst"><add place="sublinear">^</add><add
+                    place="superlinear">from various quarters of the heavens</add></mod> I <del
+                rend="strikethrough">witnessed the</del></line>
+        <line><del rend="strikethrough">elemental storm with pleasure</del></line>
+        <line>and remained while <mod type="subst" resp="#pbs"><del rend="strikethrough"
+                    >it</del><add place="superlinear">the storm</add></mod> lasted <mod type="subst"
+                    ><del rend="strikethrough">at</del><add place="superlinear">watching its<ptr
+                        target="#c56-0014.02"/></add></mod></line>
+        <line><del rend="strikethrough">the door</del>
+            <del rend="strikethrough">watching</del>. <mod type="subst" resp="#pbs"><del
+                    rend="strikethrough">When it was most</del><add place="superlinear">As I stood
+                    at the door</add></mod></line>
+        <line><mod type="subst" resp="#pbs"><del rend="strikethrough">violent</del><add
+                    place="superlinear">on a sudden</add></mod>, I beheld <mod type="subst"
+                resp="#pbs"><del rend="strikethrough">the</del><add place="sublinear">^</add><add
+                    place="superlinear">a stream of</add></mod> fire issue</line>
+        <line>from an old <del rend="strikethrough">be</del> and beautiful</line>
+        <line>oak about <del rend="strikethrough">wh</del> twenty yards from</line>
+        <line>our house and <mod type="subst" resp="#pbs"><del rend="strikethrough">when</del><add
+                    place="superlinear">so soon as</add></mod> the <del rend="strikethrough"
+                >dazz</del></line>
+        <line>dazzling light <del rend="strikethrough">had </del><del rend="strikethrough"
+                >dissa</del>
+            <del rend="strikethrough">dissappeared</del></line>
+        <line><del rend="strikethrough">the</del> <del rend="strikethrough"><unclear unit="chars" extent="2">pa</unclear></del>
+            vanished, the oak <del rend="strikethrough">hand</del></line>
+        <line>had dissappeared <mod resp="#pbs" type="subst"><del rend="strikethrough">an</del><add
+                    place="superlinear">&amp;</add></mod> nothing <add place="superlinear"
+                >remained</add> but a</line>
+        <line><mod type="subst"><del rend="strikethrough">rent</del><add place="sublinear"
+                    >^</add><add place="superlinear">blasted</add> stump. <del rend="strikethrough"
+                    >remained</del></mod>. When we</line>
+        <line>visited it the next morning we found</line>
+        <line>the <del rend="strikethrough">trea</del> tree shattered in a</line>
+        <line>singular manner. It was not splin</line>
+        <line>tered by the shock, but entirely</line>
+        <line>reduced to thin ribands of wood. <del rend="strikethrough">The</del></line>
+        <line><del rend="strikethrough">C</del> I never saw any thing so utterly</line>
+        <line>destroyed. The catastrophe of the</line>
+        <line>tree excited my extreme astonish</line>
+        <line>ment <delSpan spanTo="#c56-0014.04"/><del rend="strikethrough">and caused me to aply with</del><add place="superlinear">induced</add></line>
+        <line><del rend="strikethrough">fresh</del> diligence to the study of</line>
+        <line><mod type="subst"><del rend="strikethrough">chemistry</del><add place="superlinear"
+                    >natural philosophy</add> which promised an ex-</mod>
+        </line>
+        <line><del rend="strikethrough">clamatio</del> planation of thise sort of<anchor xml:id="c56-0014.04"/></line>
+    </zone>
+    <zone type="left_margin">
+        <addSpan xml:id="c56-0014.02" spanTo="#c56-0014.03"/>
+        <line>its progress</line>
+        <line>with curiosity</line>
+        <line> &amp; delight</line>
+        <anchor xml:id="c56-0014.03"/>
+    </zone>
 </surface>
