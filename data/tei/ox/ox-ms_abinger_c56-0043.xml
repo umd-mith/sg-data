@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0043" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0043" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0043.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>73</line>
+  </zone>
+  <zone type="library"><line>20</line>
+  </zone>
+  <zone type="main">
+    <line>or <mod type="additions"><add place="sublinear">^</add><add place="superlinear"
+        >a</add></mod> transitory desire to disturb his</line>
+    <line>tranquillity. I do not think that the pursuit</line>
+    <line>of knowledge is any exception to this rule.</line>
+    <line>If the study to which you apply yourself</line>
+    <line>has a <del rend="cross-hatch">d</del> tendency to weaken your affections</line>
+    <line>and to destroy your taste for those simple</line>
+    <line>pleasures in which no alloy can possibly</line>
+    <line>mix then that study is certainly unlawful</line>
+    <line>that it is to say <del rend="strikethrough">on that</del> not befitting <del
+        rend="cross-hatch">to</del> the</line>
+    <line>human mind. If this <del rend="strikethrough">rul</del> rule <mod type="subst" resp="#pbs"
+          ><del rend="strikethrough">was</del><add place="superlinear">were</add></mod> al</line>
+    <line>ways observed; if no man allowed any</line>
+    <line>pursuit whatsoever to interfere with</line>
+    <line>his tranquillity and <add place="superlinear" resp="#pbs">his</add> domestic
+      affections</line>
+    <line>Greece had never been enslaved, Cæsar</line>
+    <line>would have spared his country, America</line>
+    <line>would have been discovered more gradual</line>
+    <line>ly, and the Empires of Mexico &amp; Peru had</line>
+    <line>not been destroyed.</line>
+    <milestone unit="tei:p"/>
+    <line>But I forget that I am moralizing</line>
+    <line>in the most interresting part of my</line>
+    <line>tale; and your looks remind me to</line>
+    <line>proceed.</line>
+    <milestone unit="tei:p"/>
+    <line>My father made no reproach in his</line>
+    <line>letters, <del rend="strikethrough">an</del> and only took notice of my</line>
+    <line>silence by enquiring more particularly</line>
+    <line>than before what my <del rend="cross-hatch">co</del> occupations</line>
+    <line><del rend="strikethrough">wer</del> were. Winter spring and summer</line>
+    <line>passed away during my labours but</line>
+    <line>I did not watch the blossom or the</line>
+    <line>expanding leaves <metamark>–</metamark> sights which before</line>
+    <line>had alway yeilded me supreme delight.</line>
+    <line>so <mod type="subst" resp="#pbs"><del rend="strikethrough">much</del><add
+          place="superlinear">deeply</add> was I <del rend="strikethrough">taken up with</del><add
+          place="superlinear">engrossed in</add></mod> my</line>
+  </zone>
 </surface>
