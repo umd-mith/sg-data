@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0024.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">55</zone>
+  <zone type="top">Chap. 4</zone>
+  <zone type="main">
+    <line>The next morning I delivered my</line>
+    <line>letters of introduction and paid a</line>
+    <line>visit to some of the principal</line>
+    <line> professors. and among others to M. <del rend="strikethrough">K</del><add><ptr
+          target="#c56-0024.01"/></add></line>
+    <line>Professor of <mod type="deletions"><del rend="strikethrough">&amp; Lecturer</del><del
+          rend="strikethrough">upon</del></mod> Natural</line>
+    <line>philosophy. He received me with</line>
+    <line>politeness, and asked me several</line>
+    <line>questions concerning my progress</line>
+    <line>in the <del rend="strikethrough">sciences</del> different branches</line>
+    <line>of science appertaining to natural</line>
+    <line>philosophy. I mentioned, it is true</line>
+    <line>with fear and trembling, the only</line>
+    <line>authors I had <mod type="additions"><add place="sublinear">^</add><add place="superlinear"
+          >ever</add></mod> read upon those</line>
+    <line>subjects. The professor stared. <delSpan spanTo="#c56-0024.02"/>I said</line>
+    <line>that I did not mention these<anchor xml:id="c56-0024.02"/></line>
+    <line>"Have you really" said" he "spent</line>
+    <line>"your time in studying such</line>
+    <line>"nonsence?" I replied in the affir</line>
+    <line>mative.</line>
+    <milestone unit="tei:p"/>
+    <line>"Every minute"– continued M. <del rend="strikethrough">K</del><add><ptr
+          target="#c56-0024.03"/></add> -,</line>
+    <line>with warmth," every instant that</line>
+    <line>"you have wasted upon those</line>
+    <line>"books is utterly and entirely lost.</line>
+    <line>"You have burdened your <del rend="strikethrough">bur</del></line>
+    <line>"<del rend="strikethrough">memor</del> memory with exploded</line>
+    <line>"systems and useless names. Good</line>
+    <line>"God <mod><del rend="strikethrough">where must you</del><add place="superlinear">in what
+          desart land</add></mod> have you</line>
+    <line>"lived where no one was kind</line>
+    <line>"enough to <del rend="strikethrough">enfor</del> inform you</line>
+    <line>"that these fancies which <mod type="additions"><add place="sublinear">^</add><add
+          place="superlinear">you</add></mod> have</line>
+  </zone>
+  <zone type="left_margin">
+    <mod xml:id="c56-0024.01">
+      <del rend="strikethrough">Krempe</del>
+      <add place="superlinear">Krempe</add>
+    </mod>
+  </zone>
+  <zone type="left_margin">
+    <add xml:id="c56-0024.03">Krempe</add>
+  </zone>
 </surface>
