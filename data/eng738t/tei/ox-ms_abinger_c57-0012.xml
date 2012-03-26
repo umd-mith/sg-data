@@ -2,13 +2,53 @@
 <?xml-model
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../../Desktop/GitHub/shelley-godwin-page.rnc" type="application/relax-ng-compact-syntax"?>
 <surface
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0012"
   ulx="0" uly="0" lrx="5368" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0012.tif"/>
-    <zone>
+    <zone type="top">11)</zone>
+    <zone type="main">
+      <line>a young man met her whose countenance</line>
+      <line><choice><sic>expreped</sic><corr>expressed</corr></choice> a deeper <choice><sic>desponcenscesly</sic><corr>despondence</corr></choice>; <del rend="overstrike">than her</del></line>
+      <line>uttering a few <mod type="subst"><del rend="overstrike">words</del><add rend="superlinear">sounds</add></mod> with <del rend="overstrike">ain</del> an air of</line>
+      <line>melancholy he took the pail from her head</line>
+      <line>and bore it into the cottage himself.  She</line>
+      <line>followed <del rend="overstrike">wiping</del> <mod><del rend="overstrike">dry my her tears whi</del></mod> and they</line>
+      <line>diasppeared - Presently I saw the young man</line>
+      <line>again with some tools in his hand cross the</line>
+      <line>field opposite the cottage and the girl was</line>
+      <line>also busied sometimes in <del rend="overstrike">and som</del> the cottage</line>
+      <line>and sometimes in the yard where she fed</line>
+      <line>some <del rend="overstrike">ck</del> chickens.  <del rend="overstrike">and after some hours</del> While</line>
+      <line>I examined my dwelling I discovered that part</line>
+      <line>of the cottage window had formerly occupied</line>
+      <line>a corner of it <del rend="overstrike">pu</del> but the panes had <del rend="overstrike">n</del> been</line>
+      <line>filled up with wood.  In one of these was</line>
+      <line>a small + allmost imperceptible <del rend="overstrike">h</del> chink,</line>
+      <line>through which <del rend="overstrike">howev</del> the eye could just</line>
+      <line>penetrate; <mod hand="PBS"><del rend="overstrike">and looking in I behe</del><add>thro this chink</add></mod> <del rend="overstrike">sa</del>w a</line>
+      <line>small room <mod hand="PBS"><add rend="superlinear">was visible,</add></mod>  whitewashed <add rend="sublinear">^</add><add rend="superlinear">+</add> clean but very</line>
+      <line>bare of furniture <del rend="overstrike">+</del> in <del rend="overstrike">co</del> one corner near</line>
+      <line>a smal fire <mod type="subst"><add rend="sublinear">^</add><del rend="overstrike">I saw</del><add rend="superlinear"><del rend="overstrike">beheld</del></add><mod hand="PBS"><add rend="superlinear">sate</add></mod></mod> an old man <del rend="overstrike">sitting</del> leaning</line>
+      <line>his head on his hand - in a disconslate atti</line>
+      <line>tude<add rend="superlinear">x</add> -  The young girl was <del rend="overstrike">co</del> occupied in</line>
+      <line>arranging the cottage <mod hand="PBS"><add rend="superlinear">but presently</add><del rend="overstrike">and</del> <del rend="overstrike">when that was</del></mod></line>
+      <line><del rend="overstrike">done</del> she took something out of <del rend="overstrike">the</del> a drawer</line>
+      <line>which employed her hands <mod><del rend="overstrike">and</del><add rend="sublinear">^</add><add rend="superlinear">+ sat down beside<del rend="overstrike">the o</del></add></mod> the old</line>
+      <line>man <add rend="superlinear">who</add> taking up an <del rend="overstrike">instur</del> instrument began</line>
+      <line>to play and to produce sounds sweeter than</line>
+      <line>the voice of the thrush or nightingale.</line>
+    </zone>
+    <zone type="left margin">
+      <line><del rend="overstrike"></del>his hair</line>
+      <line><del rend="overstrike">was grey</del></line>
+      <line>This</line>
+      <line>chap</line>
+      <line>Too</line>
+      <line>short</line>
     </zone>
 </surface>
 
