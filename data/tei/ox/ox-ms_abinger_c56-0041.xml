@@ -39,7 +39,7 @@
         <del rend="strikethrough">was</del></mod> still urged</line>
     <line>on by an eagerness which <add place="superlinear" resp="#pbs">perpetually</add>
       encreased,</line>
-    <line><del rend="strikethrough">as</del><add><ptr target="#ox-ms_abinger_c56-0041.01"/></add> my
+    <line><del rend="strikethrough">as</del><add><ptr target="#c56-0041.01"/></add> my
       work <mod type="subst" resp="#pbs"><del rend="strikethrough">drew</del> near <add
           place="sublinear"><metamark>^</metamark></add><add place="superlinear">to</add></mod> a
       conclusion.</line>
@@ -52,7 +52,7 @@
     <line>did the fields bestow a more plentiful</line>
     <line>harvest, or the vines yeild a more</line>
     <line>luxuriant vintage. But my eyes were</line>
-    <line><del rend="strikethrough">shut</del><add><ptr target="#ox-ms_abinger_c56-0041.02"/></add>
+    <line><del rend="strikethrough">shut</del><add><ptr target="#c56-0041.02"/></add>
       to the charms of nature &amp; the</line>
     <line>same feelings which <del rend="strikethrough">caused</del><add place="sublinear"
           ><metamark>^</metamark></add><add place="superlinear">made</add> me <del rend="cross-hatch">to</del></line>
@@ -62,9 +62,9 @@
     <line>I had not seen for so long a time.</line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="ox-ms_abinger_c56-0041.01">I brought</add></line>
+    <line><add xml:id="c56-0041.01">I brought</add></line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="ox-ms_abinger_c56-0041.02">insensible</add></line>
+    <line><add xml:id="c56-0041.02">insensible</add></line>
   </zone>
 </surface>
