@@ -4,16 +4,18 @@
   xml:id="ox-ms_abinger_c56-0036" ulx="0" uly="0" lrx="5364" lry="7104"
   partOf="#ox-ms_abinger_c56-0036">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0036.tif"/>
+  
   <zone type="pagination">66</zone>
+  
   <zone>
-    <line>steps <del rend="strikethrough">that</del>
-      <add rend="superlinear" resp="#pbs">by which I had been</add>progressively led to it were </line>
+    <line>steps <mod resp="#pbs" type="subst"><del rend="strikethrough">that</del>
+      <add rend="superlinear">by which I had been</add></mod>progressively led to it were </line>
     <line>obliterated. <add rend="sublinear"><metamark>^</metamark></add><add rend="superlinear"
         >and</add>I <del rend="strikethrough">saw</del><add rend="sublinear"
         ><metamark>^</metamark></add><add rend="superlinear">beheld</add> only the result.
       What</line>
     <line>had been the study and desire of the </line>
-    <line><del rend="strikethrough">m</del> wisest men once the creation of</line>
+    <line><del rend="strikethrough">m</del> wisest men since the creation of</line>
     <line>the world was now <del rend="strikethrough">in</del><add resp="#pbs" rend="superlinear"
         >within</add> my <del rend="strikethrough">hands.</del><add rend="superlinear">grasp;</add>
       Not</line>
@@ -24,6 +26,31 @@
     <line>I had obtained was <add rend="sublinear"><metamark>^</metamark></add><add resp="#pbs"
         rend="superlinear">of a nature</add> rather <del rend="strikethrough">one that</del></line>
     <line><del rend="strikethrough">would</del><add rend="sublinear"
-        ><metamark>^</metamark></add><add resp="#pbs" rend="superlinear">to</add></line>
+        ><metamark>^</metamark></add><add resp="#pbs" rend="superlinear">to</add> direct my
+      endeavours, <add><metamark>^</metamark><ptr target="#c56-0036.01"/></add>
+      <add rend="sublinear"><metamark>^</metamark></add><del rend="strikethough">that</del></line>
+    <line><del rend="strikethrough">than show me the prospect with</del></line>
+    <line><del rend="strikethrough">any precise certainty.</del> I was like the</line>
+    <line>Arabian<del rend="strikethrough">,</del> who had been buried with</line>
+    <line>the dead, and found a passage to life</line>
+    <line>aided only by one glimmering and seem</line>
+    <line>ingly ineffectual light.</line>
+    <line>I see by your eargerness and the</line>
+    <line>wonder and hope which your eyes</line>
+    <line>express, my friend, that you expect to</line>
+    <line>be informed of the <del rend="strikethrough">scret</del> secret with</line>
+    <line>which I am acquainted; <del rend="strikethrough">that you are</del><add resp="#pbs"
+        rend="superlinear">that cannot be.</add></line>
+    <line><del rend="strikethrough">mistaken.</del>Listen patiently to the end</line>
+    <line>of my story and you will easily</line>
+    <line>perceive why <add rend="superlinear">I</add> am reserved upon that</line>
+    <line>subject.- <del rend="strikethrough">For why should</del> I <add rend="superlinear">will not</add> lead you</line>
+    <line>on, <del rend="strikethrough">as</del> unguarded and ardent as I then</line>
+    <line>was, to your <del rend="strikethrough">destruc</del> destruction &amp;</line>
   </zone>
+  
+  <zone type="left-margin"><add xml:id="c56-0036.01"><metamark>^</metamark>so soon as I should point
+      them towards the object of my search, than th exhibit that object already
+    accomplished</add></zone>
+
 </surface>
