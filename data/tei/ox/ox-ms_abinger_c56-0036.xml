@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0036" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0036" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0036">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0036.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">66</zone>
+  <zone>
+    <line>steps <del rend="strikethrough">that</del>
+      <add rend="superlinear" resp="#pbs">by which I had been</add>progressively led to it were </line>
+    <line>obliterated. <add rend="sublinear"><metamark>^</metamark></add><add rend="superlinear"
+        >and</add>I <del rend="strikethrough">saw</del><add rend="sublinear"
+        ><metamark>^</metamark></add><add rend="superlinear">beheld</add> only the result.
+      What</line>
+    <line>had been the study and desire of the </line>
+    <line><del rend="strikethrough">m</del> wisest men once the creation of</line>
+    <line>the world was now <del rend="strikethrough">in</del><add resp="#pbs" rend="superlinear"
+        >within</add> my <del rend="strikethrough">hands.</del><add rend="superlinear">grasp;</add>
+      Not</line>
+    <line>that, like a magic <del rend="strikethrough">sceen</del> scene it</line>
+    <line>all opened upon me at once. <del rend="strikethrough">on</del></line>
+    <line><del rend="strikethrough">the contrary</del><add rend="overwritten">T</add>he <del
+        rend="strikethrough">big</del> information</line>
+    <line>I had obtained was <add rend="sublinear"><metamark>^</metamark></add><add resp="#pbs"
+        rend="superlinear">of a nature</add> rather <del rend="strikethrough">one that</del></line>
+    <line><del rend="strikethrough">would</del><add rend="sublinear"
+        ><metamark>^</metamark></add><add resp="#pbs" rend="superlinear">to</add></line>
+  </zone>
 </surface>
