@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0048" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0048" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0048">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0048.tif"/>
-    <zone>
-    </zone>
+
+  <zone type="pagination">78</zone>
+
+  <zone type="main">
+    <line>so hideous as <hi rend="double-underline">He</hi>. I had gazed on him</line>
+    <line>while unfinished; <del rend="strikethrough">and I thought</del> he</line>
+    <line>was ugly then. But when those muscles</line>
+    <line>and joints were endued with motion</line>
+    <line>it became a thing <del rend="strikethrough">to</del> such as even Dante</line>
+    <line>could never have conceived.</line>
+    <line>I passed the night wretchedly-</line>
+    <line>sometimes my pulses beat so quickly and</line>
+    <line>ha<mod type="additions"><add><metamark>^</metamark></add><add place="superlinear"
+        >r</add></mod>dly that I felt the palpitation of</line>
+    <line>every artery: at others I nearly sunk</line>
+    <line>to the ground <mod resp="#pbs" type="subst"><del rend="strikethrough">with</del><add place="superlinear">
+        thro</add></mod> languor and ex-</line>
+    <line>treme weakness. <del rend="strikethrough">Surely so wretched a</del></line>
+    <line><add place="sublinear"><metamark>X</metamark><ptr target="c56-0048.01"/></add><del
+        rend="strikethrough">creature as I never before existed.</del></line>
+    <line>dreams that had been my food and</line>
+    <line>rest for so long a space were now</line>
+    <line>become a hell to me- <del rend="strikethrough">I</del> and the </line>
+    <line>change was so rapid, the overthrow</line>
+    <line>so complete.</line>
+    <line>Morning- dismal and wet- at length</line>
+    <line>dawned, and <del rend="strikethrough">to</del> discovered to my sleepless</line>
+    <line>and aching eyes the church of Ingols-</line>
+    <line>stadt its white steeple &amp; <mod type="subst" resp="#pbs"><add place="superlinear"><del
+            rend="strikethrough">the</del> its</add></mod> clock which</line>
+    <line>pointed to the sixth<del rend="strikethrough">e</del> hour. The porter</line>
+    <line>opened the gates of the court which had</line>
+    <line>that night been my assylum and I</line>
+    <line>issued into the streets, pacing <add resp="#pbs" place="superlinear">them</add> with</line>
+    <line>quick steps as if I <del rend="strikethrough">ough</del> sought to</line>
+    <line><add><ptr target="#c56-0048.02"/></add>the wretch whom I feared every turn-</line>
+    <line>ing in the street would present to</line>
+  </zone>
+
+  <zone type="left_margin"><add xml:id="c56-0048.01">and mingled with this horror I felt the
+      bitterness of <del rend="strikethrough">disapp</del> disappointment:</add></zone>
+  <zone type="left_margin"><add xml:id="c56-0048.02">avoid</add></zone>
+  
 </surface>
