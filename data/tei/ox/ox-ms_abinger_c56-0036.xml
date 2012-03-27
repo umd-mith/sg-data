@@ -20,8 +20,8 @@
         >within</add> my <del rend="strikethrough">hands.</del><add place="superlinear">grasp;</add>
       Not</line>
     <line>that, like a magic <del rend="strikethrough">sceen</del> scene it</line>
-    <line>all opened upon me at once. <del rend="strikethrough">on</del></line>
-    <line><del rend="strikethrough">the contrary</del><del rend="overwritten">T</del>he <del
+    <line>all opened upon me at once<add place="intralinear">.</add> <del rend="strikethrough">on</del></line>
+    <line><del rend="strikethrough">the contrary</del><mod><del rend="overwritten">t</del><add place="intralinear">T</add></mod>he <del
         rend="strikethrough">big</del> information</line>
     <line>I had obtained was <add place="sublinear"><metamark>^</metamark></add><add resp="#pbs"
         place="superlinear">of a nature</add> rather <del rend="strikethrough">one that</del></line>
