@@ -378,6 +378,14 @@
                             </attDef>
                         </attList>
                     </classSpec>
+                    
+                    <classSpec ident="att.transcriptional" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="hand" mode="delete"/>
+                            <attDef ident="status" mode="delete"/>
+                            <attDef ident="cause" mode="delete"/>
+                        </attList>
+                    </classSpec>
 
                     <classSpec ident="att.global.linking" type="atts" mode="change">
                         <attList>
