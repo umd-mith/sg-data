@@ -20,7 +20,7 @@
     <line>agreable to me in particular. The</line>
     <line>shutting of the gates of the town regularly</line>
     <line>at ten o'clock and the impo&#xDF;ibility of</line>
-    <line><del rend="overstrike">stay<metamark place="sub">&#x2038;</metamark><add place="superlinear">ing</add></del> on the lake after that hour</line>
+    <line><del rend="overstrike">stay<metamark place="sub">&#x2038;</metamark><add place="superlinear">ing</add></del><add><ptr target="#c56-0110.01"/></add> on the lake after that hour</line>
     <line>rendered our residence within the</line>
     <line>walls of Geneva very irksome to me.</line>
     <line>I was now free: often, after the rest of</line>
@@ -31,13 +31,13 @@
     <line>wind and sometimes after <del>wo</del> rowing</line>
     <line>into the middle of the lake I left the</line>
     <line>boat to <del>take</del><metamark place="sub">&#x2038;</metamark> <add place="superlinear">pursue</add> its own course and</line>
-    <line><del rend="overstrike">followed</del><metamark place="sublinear">&#x2038;</metamark><add place="superlinear"">to</add> my own miserable reflections.</line>
+    <line><del rend="overstrike">followed</del><metamark place="sublinear">&#x2038;</metamark><add><ptr target="#c56-0110.02"/></add><add place="superlinear">to</add> my own miserable reflections.</line>
     <line>I was often tempted <del>w</del> when all was <del>quiet</del><metamark>&#x2038;</metamark><add place="superlinear">at peace</add></line>
     <line>around me and I the only unquiet</line>
     <line>thing that wandered restle&#xDF; in a scene</line>
   </zone>
   <zone type="left_margin">
-    <line>remaining</line>
-    <line>gave way</line>
+    <line><mod xml:id="c56-0110.01" type="subst"><add>remaining</add></mod></line>
+    <line><mod xml:id="c56-0110.02" type="subst"><add>gave way</add></mod></line>
   </zone>
 </surface>
