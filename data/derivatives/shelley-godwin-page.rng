@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-25T18:32:45Z. 
+Schema generated from ODD source 2012-03-28T16:29:17Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -1123,45 +1123,7 @@ its completeness</a:documentation>
   </define>
   <define name="sga-patt.transcriptional.attributes">
     <ref name="sga-patt.editLike.attributes"/>
-    <ref name="sga-patt.transcriptional.attribute.hand"/>
-    <ref name="sga-patt.transcriptional.attribute.status"/>
-    <ref name="sga-patt.transcriptional.attribute.cause"/>
     <ref name="sga-patt.transcriptional.attribute.seq"/>
-  </define>
-  <define name="sga-patt.transcriptional.attribute.hand">
-    <optional>
-      <attribute name="hand">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">signifies the hand of the agent which made the intervention.</a:documentation>
-        <ref name="sga-pdata.pointer"/>
-      </attribute>
-    </optional>
-  </define>
-  <define name="sga-patt.transcriptional.attribute.status">
-    <optional>
-      <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="status" a:defaultValue="unremarkable">
-        <a:documentation>indicates the effect of the intervention, for example in
-      the case of a deletion, strikeouts
-      which include too much or too little text, or in the case of an
-      addition, an insertion which duplicates some of the text
-      already present.
-Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] excessEnd; 5] shortStart; 6] shortEnd; 7] partial; 8] unremarkable</a:documentation>
-        <ref name="sga-pdata.enumerated"/>
-      </attribute>
-    </optional>
-  </define>
-  <define name="sga-patt.transcriptional.attribute.cause">
-    <optional>
-      <attribute name="cause">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents the presumed cause for the intervention.</a:documentation>
-        <choice>
-          <value>fix</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">repeated for the purpose of fixation</a:documentation>
-          <value>unclear</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">repeated to clarify a previously illegible or badly written text
-   or mark</a:documentation>
-        </choice>
-      </attribute>
-    </optional>
   </define>
   <define name="sga-patt.transcriptional.attribute.seq">
     <optional>

@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-25T18:32:45Z. 
+# Schema generated from ODD source 2012-03-28T16:29:17Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -776,37 +776,7 @@ sga-patt.spanning.attribute.spanTo =
   ##	bearing this attribute.
   attribute spanTo { sga-pdata.pointer }?
 sga-patt.transcriptional.attributes =
-  sga-patt.editLike.attributes,
-  sga-patt.transcriptional.attribute.hand,
-  sga-patt.transcriptional.attribute.status,
-  sga-patt.transcriptional.attribute.cause,
-  sga-patt.transcriptional.attribute.seq
-sga-patt.transcriptional.attribute.hand =
-  
-  ## signifies the hand of the agent which made the intervention.
-  attribute hand { sga-pdata.pointer }?
-sga-patt.transcriptional.attribute.status =
-  
-  ## indicates the effect of the intervention, for example in
-  ##       the case of a deletion, strikeouts
-  ##       which include too much or too little text, or in the case of an
-  ##       addition, an insertion which duplicates some of the text
-  ##       already present.
-  ## Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] excessEnd; 5] shortStart; 6] shortEnd; 7] partial; 8] unremarkable
-  [ a:defaultValue = "unremarkable" ]
-  attribute status { sga-pdata.enumerated }?
-sga-patt.transcriptional.attribute.cause =
-  
-  ## documents the presumed cause for the intervention.
-  attribute cause {
-    
-    ## repeated for the purpose of fixation
-    "fix"
-    | 
-      ## repeated to clarify a previously illegible or badly written text
-      ##    or mark
-      "unclear"
-  }?
+  sga-patt.editLike.attributes, sga-patt.transcriptional.attribute.seq
 sga-patt.transcriptional.attribute.seq =
   
   ## (sequence) assigns a sequence number related to the order in which
