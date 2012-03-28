@@ -2,7 +2,7 @@
 <?xml-model
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
-<surface
+<surface partOf="ox-ms_abinger_c57"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0072"
