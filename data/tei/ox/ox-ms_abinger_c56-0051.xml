@@ -12,7 +12,7 @@
     <line>"was the same as <add place="sublinear"><metamark>^</metamark></add><add place="superlinear" resp="#pbs">that of</add>the dutch school</line>
     <line>"master in the Vicar of Wakefield–</line>
     <line><delSpan rend="strikethrough" spanTo="#c56-0051.01"/>'I live very well yet I do not know</line>
-    <line>"Greek<anchor xml:id="c56-0051.01"/> " I have ten thousand florins–</line>
+    <line>"Greek<anchor xml:id="c56-0051.01"/> " I have ten thousand florins–<add><ptr target="#c56-0051.02"/></add></line>
     <line>"But his affection for me at</line>
     <line>"length overcame his dislike for </line>
     <line>"learning, and he permitted me</line>
@@ -39,19 +39,33 @@
        <del rend="strikethrough"><add place="superlinear">studious</add></del>
        <add place="superlinear">one</add>
       </mod>
-      occupation<del rend="strikethrough">s</del> that I <del rend="strikethrough">did</del></line>
+      occupation<del rend="strikethrough">s</del> that I <del rend="strikethrough">did</del><add><ptr target="#c56-0051.04"/></add></line>
     <line>"not allow
       <mod>
-        <add resp="#pbs">ed</add>
+        <add place="intralinear" resp="#pbs">ed</add>
       </mod><add place="superlinear">myself</add> sufficient rest as you</line>
   </zone>
-  <zone type="left_margin">
+  <zone type="left_margin">    
+    <addSpan xml:id="c56-0051.02" spanTo="#c56-0051.03"/>
     <line>"a year with</line>
     <line>"out greek –I</line>
     <line>"eat heartily</line>
     <line>"without greek</line>
+    <anchor xml:id="c56-0051.03"/>    
   </zone>
   <zone type="left_margin">
-    <line>have</line>
+    <line><add xml:id="c56-0051.04">have</add></line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan spanTo="#c56-0051.05"/>
+    <line><unclear>4</unclear></line>              
+    <line>52</line>
+    <line><hi rend="underline">180</hi></line>
+    <line>104</line>
+    <line>52</line>
+    <line><hi rend="underline">24</hi><gap unit="chars" extent="5"></gap>17</line>
+    <line>180</line>
+    <line><del rend="strikethrough">156</del></line>
+    <anchor xml:id="c56-0051.05"/>
   </zone>
 </surface>
