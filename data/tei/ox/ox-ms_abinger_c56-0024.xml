@@ -9,10 +9,10 @@
     <line>The next morning I delivered my</line>
     <line>letters of introduction and paid a</line>
     <line>visit to some of the principal</line>
-    <line> professors. and among others to M. <del rend="strikethrough">K</del><add><ptr
-          target="#c56-0024.01"/></add></line>
-    <line>Professor of <mod type="deletions"><del rend="strikethrough">&amp; Lecturer</del><del
-          rend="strikethrough">upon</del></mod> Natural</line>
+    <line> professors. and among others to M. <mod type="subst"><del rend="strikethrough">K</del><add><ptr
+          target="#c56-0024.01"/></add></mod>--</line>
+    <line>Professor of <del rend="strikethrough">&amp; Lecturer</del><del
+          rend="strikethrough">upon</del> Natural</line>
     <line>philosophy. He received me with</line>
     <line>politeness, and asked me several</line>
     <line>questions concerning my progress</line>
@@ -24,20 +24,20 @@
           >ever</add></mod> read upon those</line>
     <line>subjects. The professor stared. <delSpan spanTo="#c56-0024.02"/>I said</line>
     <line>that I did not mention these<anchor xml:id="c56-0024.02"/></line>
-    <line>"Have you really" said" he "spent</line>
+    <line>"Have you really" said<del rend="smear">"</del> he "spent</line>
     <line>"your time in studying such</line>
     <line>"nonsence?" I replied in the affir</line>
     <line>mative.</line>
     <milestone unit="tei:p"/>
-    <line>"Every minute"– continued M. <del rend="strikethrough">K</del><add><ptr
-          target="#c56-0024.03"/></add> -,</line>
+    <line>"Every minute"– continued M. <mod type="subst"><del rend="strikethrough">K</del><add><ptr
+          target="#c56-0024.03"/></add></mod> --</line>
     <line>with warmth," every instant that</line>
     <line>"you have wasted upon those</line>
     <line>"books is utterly and entirely lost.</line>
     <line>"You have burdened your <del rend="strikethrough">bur</del></line>
     <line>"<del rend="strikethrough">memor</del> memory with exploded</line>
     <line>"systems and useless names. Good</line>
-    <line>"God <mod><del rend="strikethrough">where must you</del><add place="superlinear">in what
+    <line>"God <mod type="subst"><del rend="strikethrough">where must you</del><add place="superlinear">in what
           desart land</add></mod> have you</line>
     <line>"lived where no one was kind</line>
     <line>"enough to <del rend="strikethrough">enfor</del> inform you</line>
@@ -47,7 +47,7 @@
   <zone type="left_margin">
     <mod xml:id="c56-0024.01">
       <del rend="strikethrough">Krempe</del>
-      <add place="superlinear">Krempe</add>
+      <add place="sublinear">Krempe</add>
     </mod>
   </zone>
   <zone type="left_margin">
