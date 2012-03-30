@@ -20,7 +20,7 @@
     <line>who have experienced it can conceive</line>
     <line>of the enticements of science – <del rend="strikethrough">especially</del> In</line>
     <line>other studies you go as far as others have</line>
-    <line><mod type="overwritten" resp="#pbs"><add place="interlinear">g</add></mod>one before you
+    <line><mod type="overwritten" resp="#pbs"><add place="intralinear">g</add></mod>one before you
       and there is nothing</line>
     <line>more to <mod>
         <add place="superlinear" resp="#pbs">know,</add>
@@ -39,13 +39,12 @@
       </mod> one</line>
     <line>
       <mod>
-        <add place="suraplinear" resp="#pbs">object</add>
+        <add place="superlinear" resp="#pbs">object</add>
         <del rend="strikethrough">thing</del>
-      </mod> and <add place="superlinear" resp="#pbs">was</add> wra<add place="interliner" resp="#pbs">pt</add> up <del rend="strikethrough">as I was</del> in this <add place="interlinear" resp="#pbs"
-        >sole</add></line>
+      </mod> and <add place="superlinear" resp="#pbs">was</add> wra<add place="intraliner" resp="#pbs">pt</add> up <del rend="strikethrough">as I was</del> in this <add place="interlinear" resp="#pbs">sole</add></line>
     <line><del rend="strikethrough">I</del> improved so rapidly that at the end</line>
     <line>of the two years I made <del rend="strikethrough">one or two</del>
-      <add place="interlinear" resp="#pbs">some</add></line>
+      <add place="intralinear" resp="#pbs">some</add></line>
     <line><del rend="strikethrough">trifling</del> discoveries in the improvement</line>
     <line>of some chemical <mod>
         <add place="superlinear" resp="#pbs">instruments</add>
