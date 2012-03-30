@@ -13,7 +13,7 @@
   </zone>
   <zone type="main">
     <line>dormant state and I ate some berries</line>
-    <line>which I found <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">hanging</add> on the trees or lying on</line>
+    <line><add><ptr target="c57-0002.01"/></add>which I found <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">hanging</add> on the trees or lying on</line>
     <line>the ground &mdash; I slaked my thirst by the</line>
     <line>brook and then again lying down I was</line>
     <line>overcome by sleep It was dark when I</line>
@@ -44,6 +44,9 @@
     <line>sounds rung in my ears and on all sides</line>
     <line>various scents saluted me; the only object</line>
     <line>that I could distinguish was the bright</line>
+  </zone>
+  <zone type="left_margin">
+    <line><figure><figureDesc>PBS doodle or sketch</figureDesc></figure><anchor xml:id="c57-0002.01"/></line>
   </zone>
 </surface>
 
