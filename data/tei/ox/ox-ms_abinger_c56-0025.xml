@@ -17,6 +17,7 @@
     <line>"ly anew." So saying he ste<mod type="subst" resp="#pbs"><del rend="overwritten"><unclear
             unit="chars" extent="1">&#xa0;</unclear></del><add place="intralinear">pp</add></mod>ed
       aside, and</line>
+    <!--PBS writes "pp" over MWS's ligatured ss-->
     <line><del rend="strikethrough">wh</del> wrote down a list of several</line>
     <line>books <del rend="strikethrough"><unclear>u</unclear></del> upon
       natural philosophy</line>
@@ -26,9 +27,9 @@
         <del rend="strikethrough">to commen</del> in</line>
     <line>the beginning of the next week</line>
     <line>he intended to commence a course</line>
-    <line>of lectures upon natural philosophy</line>
+    <line>of lectures upon natural philosophy <add><metamark>X</metamark></add></line>
     <line><add resp="#pbs"><ptr target="#c56-0025.01"/></add>and that M. W.<mod type="subst"
-          >—<add place="sublinear">^</add><add place="superlinear"
+          ><del rend="unmarked">—</del><add place="sublinear">^</add><add place="superlinear"
         >aldham</add></mod> a fellow professor</line>
     <line>would lecture upon chemistry</line>
     <line>the alternate days which he missed.</line>
@@ -40,13 +41,13 @@
     <line>did not feel very much enclined</line>
     <line>to <del rend="strikethrough">bu</del> study those books which at</line>
     <line>his <del rend="strikethrough">recon</del> recommondation I had</line>
-    <line>procured. M. K<mod type="subst"><metamark>—</metamark><add place="superlinear"
+    <line>procured. M. K<mod type="subst"><del rend="unmarked">—</del><add place="superlinear"
         >rempe</add></mod> was a little squat</line>
     <line>man with a gruff voice and repul</line>
     <line>sive countenance and the teacher</line>
     <line>did not prepossess me in favour</line>
   </zone>
   <zone type="left_margin"><addSpan resp="#pbs" xml:id="c56-0014.01" spanTo="#c56-0014.01m"/>
-    <line><metamark>✗</metamark> in its general relations;</line><anchor xml:id="c56-0025.01m"/>
+    <line><metamark>X</metamark> in its general relations;</line><anchor xml:id="c56-0025.01m"/>
   </zone>
 </surface>
