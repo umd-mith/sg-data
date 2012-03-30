@@ -36,8 +36,8 @@
     <line>"
       <mod>
        <del rend="strikethrough">several</del>
-       <del rend="strikethrough"><add place="superlinear">studious</add></del>
-       <add place="superlinear">one</add>
+       <del rend="strikethrough"><add place="superlinear" resp="#pbs">studious</add></del>
+       <add place="superlinear" resp="#pbs">one</add>
       </mod>
       occupation<del rend="strikethrough">s</del> that I <del rend="strikethrough">did</del><add><ptr target="#c56-0051.04"/></add></line>
     <line>"not allow
@@ -54,10 +54,10 @@
     <anchor xml:id="c56-0051.03"/>    
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0051.04">have</add></line>
+    <line><add resp="#pbs" xml:id="c56-0051.04">have</add></line>
   </zone>
   <zone type="left_margin">
-    <addSpan spanTo="#c56-0051.05"/>
+    <addSpan resp="#pbs" spanTo="#c56-0051.05"/>
     <line><unclear>4</unclear></line>              
     <line>52</line>
     <line><hi rend="underline">180</hi></line>
