@@ -8,7 +8,46 @@
   xml:id="ox-ms_abinger_c57-0004"
   ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0004.tif"/>
-    <zone>
+  <zone type="pagination">
+    <line>3</line> 
+  </zone>
+  <zone type="main"
+      <line>moon and fixed my eyes on th that with</line>
+      <line>pleasure.  Several changes of day and night</line>
+      <line>passed and the orb of night had greatly</line> 
+      <line>lessened when I began to distinguish my</line>
+      <line><add><ptr target="c57-0002.01"/></add>sensations^<add>from each other–   dis  gradually saw plainly</add>.  I first saw the clear stream</line>
+      <line>that supplied me with drink and the {?gre}</line> 
+      <line>trees the ^shaded covered me with their foliage.</line>
+      <line>I was delighted when I first discovered</line>
+      <line><add><ptr target="c57-0002.02"/></add>that a pleasant sound that which often</line>
+      <line>delighte saluted my ears proceeded</line>
+      <line>from the throats of son the little winged anih</line>
+      <line>animals who often intercepted the light</line>
+      <line>from my eyes.  I began also to see an</line>
+      <line>with forms greater accuracy the forms</line>
+      <line>that surrounded me and to perceive</line>
+      <line>the boundaries of the radiant light which</line>
+      <line>overspead my dwelling canopied me.some</line>
+      <line>times I tried to imitate the pleasant songs of</line>
+      <line>the birds but was unable— Sometimes I</line>
+      <line>also wished to express my sensations in</line>
+      <line>my own mode but the u uncoth and innarticu</line>
+      <line>late sound which broke from me which frightened</line>
+      <line>me into silence again.</line>
+      <line>The moon had dissapeared from the night, &amp; </line>
+      <line>again with a lessened form it shewed itself</line>
+      <line>again while I still remained in the forest.</line>
+      <line>my mind^ My sensations ideas were by this time become distinct</line>                         
+      <line>&amp; {?c} ^ received every day aditional ^ideas. ones  My eyes</line>
+      <line>became accustomed to the light and to</line>
+      <line>perceive objects in their right forms; I distin</line>
     </zone>
+  <zone type="left_margin">
+    <line><figure><figureDesc>PBS doodle or sketch</figureDesc></figure><anchor xml:id="c57-0002.01"/></line>
+  </zone>
+  <zone type="left_margin">
+    <line><figure><figureDesc>PBS doodle or sketch; looks like a cylinder with a cap on top</figureDesc></figure><anchor xml:id="c57-0002.02"/></line>
+  </zone>
 </surface>
 
