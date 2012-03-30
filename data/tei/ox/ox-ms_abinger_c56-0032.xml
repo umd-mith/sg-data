@@ -30,7 +30,8 @@
     <line>food for discovery and wonder. A mind</line>
     <line>of <del rend="strikethrough">even</del> moderate capacity who closely pursues</line>
     <line>one study must infallibly arrive at</line>
-    <line>great proficiency in that study—And I</line> sought the attainment of <line>who <del
+    <line>great proficiency in that study—And I</line>
+    <line>who <del
         rend="strikethrough">was</del> continually <mod>
         <add place="superlinear" resp="#pbs">sought <gap extent="3" unit="chars"/> the attainment
           of </add>
@@ -40,9 +41,7 @@
       <mod>
         <add place="suraplinear" resp="#pbs">object</add>
         <del rend="strikethrough">thing</del>
-      </mod> and <add place="superlinear">was</add> wra <mod type="overwritten">
-        <add place="interliner" resp="#pbs">pt</add>
-      </mod> up <del rend="strikethrough">as I was</del> in this <add place="interlinear" resp="#pbs"
+      </mod> and <add place="superlinear" resp="#pbs">was</add> wra<add place="interliner" resp="#pbs">pt</add> up <del rend="strikethrough">as I was</del> in this <add place="interlinear" resp="#pbs"
         >sole</add></line>
     <line><del rend="strikethrough">I</del> improved so rapidly that at the end</line>
     <line>of the two years I made <del rend="strikethrough">one or two</del>
@@ -67,7 +66,7 @@
   </zone>
   <zone type="left_margin">
     <add><ptr target="#c-56.0032.03"/></add>
-    <addSpan xml:id="c-56.0032.03" type="left_margin"/>
+    <add xml:id="c-56.0032.03" resp="#pbs"/>
     <line>pursuit</line>
   </zone>
   <zone type="left_margin">
