@@ -8,9 +8,7 @@
   xml:id="ox-ms_abinger_c57-0003"
   ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0003.tif"/>
-  <zone type="pagination">
-    <line>2</line> 
-  </zone>
+  <zone type="pagination" rend="bordered">2</zone>
   <zone type="main">
     <line>dormant state and I ate some berries</line>
     <line><add><ptr target="c57-0002.01"/></add>which I found <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">hanging</add> on the trees or lying on</line>

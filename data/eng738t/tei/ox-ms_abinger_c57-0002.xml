@@ -8,9 +8,7 @@ xmlns="http://www.tei-c.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0002"
   ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0002.tif"/>
-  <zone type="pagination">
-    <line>1</line> 
-  </zone>
+  <zone type="pagination" rend="bordered">1</zone>
   <zone type="top">
     <line>Vol. II</line>
     <line>Chap I</line>
@@ -49,7 +47,7 @@ xmlns="http://www.tei-c.org/ns/1.0"
     <line><del rend="overstrike">various</del><anchor xml:id="c57-0002.01"/></line>
   </zone>
   <zone type="left_margin">
-    <line>or<anchor xml:id="c57-0002.02"/></line>
+    <line rend="bordered">or<anchor xml:id="c57-0002.02"/></line>
   </zone>
 </surface>
 
