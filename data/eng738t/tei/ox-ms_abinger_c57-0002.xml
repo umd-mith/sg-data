@@ -47,7 +47,7 @@ xmlns="http://www.tei-c.org/ns/1.0"
     <line><del rend="overstrike">various</del><anchor xml:id="c57-0002.01"/></line>
   </zone>
   <zone type="left_margin">
-    <line rend="bordered">or<anchor xml:id="c57-0002.02"/></line>
+    <line><mod rend="PBS" rend="bordered">or</mod><anchor xml:id="c57-0002.02"/></line>
   </zone>
 </surface>
 

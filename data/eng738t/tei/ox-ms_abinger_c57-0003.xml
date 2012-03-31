@@ -11,12 +11,12 @@
   <zone type="pagination" rend="bordered">2</zone>
   <zone type="main">
     <line>dormant state and I ate some berries</line>
-    <line><add><ptr target="c57-0002.01"/></add>which I found <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">hanging</add> on the trees or lying on</line>
+    <line><add><ptr target="c57-0002.01"/></add>which I found <mod rend="PBS"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">hanging</add></mod> on the trees or lying on</line>
     <line>the ground &mdash; I slaked my thirst by the</line>
     <line>brook and then again lying down I was</line>
     <line>overcome by sleep It was dark when I</line>
     <line>awoke, I felt cold also and half frightened</line>
-    <line><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">as it were instinctively</add> on <del rend="overstrike">seein</del> finding myself so desolate.</line>
+    <line><add place="sublinear"><mod rend="PBS"><metamark>^</metamark></add><add place="superlinear">as it were instinctively</add></mod> on <del rend="overstrike">seein</del> finding myself so desolate.</line>
     <line>Before I had quitted your appartment</line>
     <line>on a sensation of cold I had covered my</line>
     <line>self with some clothes, but these were</line>
