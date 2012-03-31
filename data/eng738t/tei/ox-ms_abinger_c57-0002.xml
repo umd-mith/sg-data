@@ -38,7 +38,7 @@ xmlns="http://www.tei-c.org/ns/1.0"
     <line>surmount or avoid&mdash; The light <del rend="overstrike">be</del> became <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">more</add> &amp;</line>
     <line>more opressive to me and the heat wearying</line>
     <line>me as I walked I sought a place where I could</line>
-    <line><add><ptr target="c57-0002.02"/></add>perceive <mod rend="PBS"><add place="superlinear">receive</add></mod> shade. This was the forest near Ingolstadt,</line>
+    <line><add><ptr target="c57-0002.02"/></add>perceive <mod resp="PBS"><add place="superlinear">receive</add></mod> shade. This was the forest near Ingolstadt,</line>
     <line>and here by the side of a brook I lay <del rend="overstrike">weary</del></line>
     <line>for some hours <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">resting from my fatigue</add> untill I felt tormented by</line>
     <line>hunger and thirst. This roused me from my nearly</line> 
@@ -47,7 +47,7 @@ xmlns="http://www.tei-c.org/ns/1.0"
     <line><del rend="overstrike">various</del><anchor xml:id="c57-0002.01"/></line>
   </zone>
   <zone type="left_margin">
-    <line><mod rend="PBS" rend="bordered">or</mod><anchor xml:id="c57-0002.02"/></line>
+    <line><mod resp="PBS" rend="bordered">or</mod><anchor xml:id="c57-0002.02"/></line>
   </zone>
 </surface>
 
