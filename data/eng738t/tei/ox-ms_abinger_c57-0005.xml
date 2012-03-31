@@ -6,9 +6,57 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0005"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+  ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0005.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>4</line> 
+  </zone>
+  <zone type="main">
+    <line>insect insect from the herb, and by de</line>
+    <line> grees one herb from a another – I found</line>
+    <line>that the sparrow uttered none but harsh</line>
+    <line> notes ^ but whilst those of and that  the blackbird were sweet</line>
+    <line>and enticing. I had {?le} one day when I was</line>
+    <line>oppressed by cold I found a fire that</line>
+    <line><add><ptr target="c57-0002.01"/></add>had been left by some wandering beg</line>
+    <line>gars and was over come with delight.</line>
+    <line>In my joy I thrust my hand into the</line>
+    <line>live embers but quickly drew it away with a cry in</line>
+    <line>pain– How strange, I thought, that the</line>
+    <line>same cause should at once produce</line>
+    <line>such delicious and such {?u} opp opposite</line>
+    <line>effects –I examined the materials of the</line>
+    <line>fire, &amp; to my joy found it to be wood –</line>
+    <line><add><ptr target="c57-0002.01"/></add>I quickly collected some branches but</line>
+    <line>they were wet and would not burn.</line>
+    <line>I was pained at this and sat still</line>
+    <line>watching the opperation of the fire.</line>
+    <line>The wet wood I had placed near the heat</line>
+    <line>became dy dry dried, and itself became became</line>
+    <line>ed. hot  I reflected on this, and by touching</line>
+    <line>the various branches I discovered the cause</line>
+    <line>and busied myself in collecting a great</line>
+    <line>deal quantity of wood that I might dry it and</line>
+    <line>have a pel plentiful supply <mod resp="PBS"><add place="superlinear">o</add> of fire.</mod> When night</line>
+    <line>came on and ^ brought with it</line>
+    <line>sleep, I was in the greatest</line>
+    <line>fear lest my fire should be extinguished</line>
+    <line>I covered it carefully with try dry wood</line>
+    <line>and leaves &amp; then placed upon that wet</line>
+    <line>branches and then spreading my cloak I la</line>
+  </zone>
+  <zone type="left_margin">
+    <line><figure resp="PBS"><figureDesc>PBS insert mark ✗</figureDesc></figure></line>               
+    <line>at the warmth</line>
+    <line>which I ex-</line>
+    <line>-perienced from</line>
+    <line>it.<anchor xml:id="c57-0002.01"/></line>                  
+  </zone>
+  <zone type="left_margin">
+    <line><figure><figureDesc>PBS doodle or sketch</figureDesc></figure><anchor xml:id="c57-0002.01"/></line>
+  </zone>
+  <zone type="left_margin">
+    <line><figure><figureDesc>stray ink strokes (resembling double quotation marks)</figureDesc></figure><anchor xml:id="c57-0002.02"/></line>
+  </zone>
 </surface>
 
