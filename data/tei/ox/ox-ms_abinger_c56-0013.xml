@@ -4,26 +4,30 @@
   xml:id="ox-ms_abinger_c56-0013" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0013.tif"/>
   <zone type="pagination">43</zone>
+  <zone type="library">5</zone>
   <zone type="main">
     <line>being an only child, and desti</line>
-    <line>tute of companions at home, h<mod resp="#pbs"><add place="intralinear">is</add><del
-          rend="overwritten"><unclear unit="chars" extent="2"/></del></mod></line>
-    <line><del rend="strikethrough">to</del> father was pleased that he<zone type="library"> 5</zone></line>
+    <line>tute of companions at home, h<mod><del rend="overwritten"><unclear>is</unclear></del><add
+          place="intralinear" resp="#pbs">is</add></mod></line>
+    <!--PBS overwrites MWS's ?is to clarify. We should consider adding a "clar" attribute to our mod list-->
+    <line><del rend="strikethrough"><unclear>to</unclear></del> father was pleased that he</line>
     <line>should find associates at our</line>
     <line>house and we were never com</line>
     <line>pletely happy when Clerval was</line>
     <line>absent.</line>
     <milestone unit="tei:p"/>
-    <delSpan spanTo="#c56-0013.01"/><metamark rend="vertical line" function="cancellation"
-      spanTo="#c56-0013.01"/><line><del rend="strikethrough">In this account of my
-        early</del></line>
-    <line><del rend="strikethrough">youth I wish particularly to men</del></line>
-    <line><del rend="strikethrough">tion those circumstances</del> which</line>
+    <delSpan spanTo="#c56-0013.01" rend="vertical_line"/>
+    <delSpan spanTo="#c56-0013.02" rend="strikethrough"/>
+    <line>In this account of my early</line>
+    <line>youth I wish particularly to men</line>
+    <line>tion <add><ptr target="#c56-0013.04"/></add> those circumstances<anchor
+        xml:id="c56-0013.02"/> which</line>
     <line>led to and nourished my taste</line>
     <line>for that science which was</line>
     <line>the principal amusement of my</line>
-    <line>boyish days and in <del rend="strikethrough">the end deci</del></line>
-    <line><del rend="strikethrough">ded my destiny</del>. I mentioned before</line>
+    <line>boyish days and in <delSpan spanTo="#c56-0013.03" rend="strikethrough"/>the end
+      deci</line>
+    <line>ded my destiny<anchor xml:id="c56-0013.03"/>. I mentioned before</line>
     <line>my taste for old books of chemist</line>
     <line>ry and natural magic and I remem</line>
     <line>ber very well that I learned latin</line>
@@ -35,14 +39,18 @@
     <line>given in Geneva and athough</line>
     <line>I did not understand them the</line>
     <line>experiments never failed to</line>
-    <line>attract my attention. <anchor xml:id="c56-0013.01"/><del rend="strikethrough">I reme<mod type="correction"><add  place="sublinear"
-          >^</add><add place="superlinear" resp="#pbs">m</add></mod>ber</del></line>
+    <line>attract my attention.<anchor xml:id="c56-0013.01"/><del rend="strikethrough">I
+        reme</del><add place="sublinear">^</add><add place="superlinear" resp="#pbs">m</add><del
+        rend="strikethrough">ber</del></line>
     <line><del rend="strikethrough">also</del><metamark> [</metamark>When I was about <mod
-        type="subst"><del rend="strikethrough">twelve</del><add place="superlinear">fourteen</add></mod>
-      years</line>
+        type="subst"><del rend="strikethrough">twelve</del><add place="superlinear"
+        >fourteen</add></mod> years</line>
+    <!--The bracket indicates a new paragraph.-->
     <line>old we were at our house near</line>
     <line>Belrive when we witnessed the <metamark rend="cross-hatch"/> a</line>
-    <line>violent <mod type="subst"><del rend="strikethrough">at</del><add
-          place="superlinear" resp="#pbs">and</add></mod> terrible thunder storm</line>
+    <line>violent <mod type="subst"><del rend="strikethrough">at</del><add place="superlinear"
+          resp="#pbs">and</add></mod> terrible thunder storm</line>
   </zone>
+  <zone type="left_margin"><del rend="strikethrough"><add xml:id="c56-0013.04"
+    >record</add></del></zone>
 </surface>
