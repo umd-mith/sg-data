@@ -28,7 +28,7 @@
     <line>I took the boat and passed the</line>
     <line>night upon the water: sometimes</line>
     <line>with my sails set I was carried by the</line>
-    <line>wind and sometimes after <del>wo</del> rowing</line>
+    <line>wind and sometimes after <del rend="strikethrough">wo</del> rowing</line>
     <line>into the middle of the lake I left the</line>
     <line>boat to <del>take</del><metamark place="sub">&#x2038;</metamark> <add place="superlinear">pursue</add> its own course and</line>
     <line><del rend="overstrike">followed</del><metamark place="sublinear">&#x2038;</metamark><add><ptr target="#c56-0110.02"/></add><add place="superlinear">to</add> my own miserable reflections.</line>
