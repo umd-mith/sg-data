@@ -38,6 +38,8 @@
   </zone>
   <zone type="left_margin">
     <line><add xml:id="c56-0110.01" >remaining</add></line>
-    <line><add xml:id="c56-0110.02">gave way</add></line>
+  </zone>
+    <zone type="left_margin">
+      <line><add xml:id="c56-0110.02">gave way</add></line>
   </zone>
 </surface>
