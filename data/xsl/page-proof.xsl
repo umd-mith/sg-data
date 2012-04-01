@@ -20,41 +20,55 @@
         <style type="text/css"><xsl:value-of select="$bootstrap-css"/></style>
       </head>
       <body>
-        <div class="navbar navbar-fixed-top page_head">
-          <h3>Page Proof: <xsl:value-of select="tei:surface/@xml:id"/></h3>
-          <p>Generated at <xsl:value-of select="current-dateTime()"/></p>
-        </div>
         <div class="container-fluid">
-          <xsl:apply-templates/>
-        </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="navbar navbar-fixed-top page_head">
+                <h3>Page Proof: <xsl:value-of select="tei:surface/@xml:id"/></h3>
+                <p>Generated at <xsl:value-of select="current-dateTime()"/></p>
+              </div>
+              <div class="row-fluid">
+                <xsl:apply-templates/>
+              </div>
+            </div><!-- end: span12 -->
+          </div><!-- end: row-fluid-outer -->
+        </div><!-- end: container fluid -->
       </body>
     </html>
   </xsl:template>
-
   <xsl:template match="tei:zone">
     <xsl:choose>
       <xsl:when test="@type='main'">
-        <div id="{@type}" class="span8">
-          <xsl:apply-templates/>
+        <div class="{@type} span8">
+          <xsl:call-template name="graphs"/>
         </div>
       </xsl:when>
       <xsl:when test="@type='left_margin'">
-        <div id="{@type}" class="span4">
+        <div class="{@type} span4">
           <xsl:apply-templates/>
         </div>
       </xsl:when>
       <xsl:otherwise>
-        <div id="{@type}">
+        <div class="{@type}">
           <xsl:apply-templates/>
         </div>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="tei:line">
-    <p>
-      <xsl:apply-templates/>
-    </p>
+  <xsl:template name="graphs">
+    <xsl:for-each-group select="child::*" group-ending-with="tei:milestone[@unit='tei:p']">
+      <p>
+        <xsl:for-each select="current-group()">
+          <xsl:call-template name="lb"/>
+        </xsl:for-each>
+      </p>
+    </xsl:for-each-group>
+  </xsl:template>
+
+  <xsl:template name="lb" match="tei:line">
+    <xsl:apply-templates/>
+    <br/>
   </xsl:template>
 
   <xsl:template match="tei:del[@rend='strikethrough']">
@@ -132,7 +146,7 @@
     both; } .container-fluid { margin-top: 40px; padding-left: 20px; padding-right: 20px; *zoom: 1;
     min-width: 1000px; } .container-fluid:before, .container-fluid:after { display: table; content:
     ""; } .container-fluid:after { clear: both; } .del { text-decoration: line-through; }
-    #pagination { float: right; } #left_margin { padding-top: 100px; } .page_head { color: #ffffff;
+    .pagination { float: right; } .left_margin { float: left; } .page_head { color: #ffffff;
     background-color: rgb(48,86,135); } .page_head h3, p { padding-left: 40px; }</xsl:variable>
 
 </xsl:stylesheet>
