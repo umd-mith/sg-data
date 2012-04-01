@@ -32,7 +32,7 @@
     <line>into the middle of the lake I left the</line>
     <line>boat to <del rend="strikethrough">take</del><add place="sublinear"><metamark>&#x2038;</metamark></add> <add place="superlinear">pursue</add> its own course and</line>
     <line><del rend="overstrike">followed</del><add><ptr target="#c56-0110.02"/></add><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">to</add> my own miserable reflections.</line>
-    <line>I was often tempted <del>w</del> when all was <del>quiet</del><metamark>&#x2038;</metamark><add place="superlinear">at peace</add></line>
+    <line>I was often tempted <del rend="strikethrough">w</del> when all was <del rend="strikethrough">quiet</del><metamark>&#x2038;</metamark><add place="superlinear">at peace</add></line>
     <line>around me and I the only unquiet</line>
     <line>thing that wandered restless in a scene</line>
   </zone>
