@@ -20,7 +20,7 @@
     <line>agreable to me in particular. The</line>
     <line>shutting of the gates of the town regularly</line>
     <line>at ten o'clock and the impossibility of</line>
-    <line><del rend="strikethrough">stay</del><add place="sublinear"><metamark>&#x2038;</metamark></add><del rend="strikethrough"><add place="superlinear">ing</add></del><add><ptr target="#c56-0110.01"/></add> on the lake after that hour</line>
+    <line><mod type="subst"><del rend="strikethrough">stay</del><add place="sublinear"><metamark>&#x2038;</metamark></add><del rend="strikethrough"><add place="superlinear">ing</add></del><add><ptr target="#c56-0110.01"/></add></mod> on the lake after that hour</line>
     <line>rendered our residence within the</line>
     <line>walls of Geneva very irksome to me.</line>
     <line>I was now free: often, after the rest of</line>
@@ -31,13 +31,13 @@
     <line>wind and sometimes after <del rend="strikethrough">wo</del> rowing</line>
     <line>into the middle of the lake I left the</line>
     <line>boat to <del rend="strikethrough">take</del><add place="sublinear"><metamark>&#x2038;</metamark></add> <add place="superlinear">pursue</add> its own course and</line>
-    <line><del rend="overstrike">followed</del><add><ptr target="#c56-0110.02"/></add><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">to</add> my own miserable reflections.</line>
-    <line>I was often tempted <del rend="strikethrough">w</del> when all was <del rend="strikethrough">quiet</del><metamark>&#x2038;</metamark><add place="superlinear">at peace</add></line>
+    <line><mod type="subst"><del rend="overstrike">followed</del><add><ptr target="#c56-0110.02"/></add></mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">to</add> my own miserable reflections.</line>
+    <line>I was often tempted <del rend="strikethrough">w</del> when all was <del rend="strikethrough">quiet</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">at peace</add></line>
     <line>around me and I the only unquiet</line>
     <line>thing that wandered restless in a scene</line>
   </zone>
   <zone type="left_margin">
-    <line><mod xml:id="c56-0110.01" type="subst"><add>remaining</add></mod></line>
-    <line><mod xml:id="c56-0110.02" type="subst"><add>gave way</add></mod></line>
+    <line><add xml:id="c56-0110.01" >remaining</add></line>
+    <line><add xml:id="c56-0110.02">gave way</add></line>
   </zone>
 </surface>
