@@ -20,7 +20,7 @@
     <line>agreable to me in particular. The</line>
     <line>shutting of the gates of the town regularly</line>
     <line>at ten o'clock and the impossibility of</line>
-    <line><del rend="overstrike">stay<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">ing</add></del><add><ptr target="#c56-0110.01"/></add> on the lake after that hour</line>
+    <line><del rend="strikethrough">stay</del><add place="sublinear"><metamark>&#x2038;</metamark></add><del rend="strikethrough"><add place="superlinear">ing</add></del><add><ptr target="#c56-0110.01"/></add> on the lake after that hour</line>
     <line>rendered our residence within the</line>
     <line>walls of Geneva very irksome to me.</line>
     <line>I was now free: often, after the rest of</line>
