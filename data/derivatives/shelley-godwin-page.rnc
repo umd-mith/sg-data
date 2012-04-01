@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-28T16:29:17Z. 
+# Schema generated from ODD source 2012-04-01T16:06:20Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1313,7 +1313,7 @@ sga-pdel =
     sga-pmacro.paraContent,
     
     ## 
-    ## Suggested values include: 1] strikethrough; 2] overwritten
+    ## Suggested values include: 1] strikethrough; 2] overwritten; 3] smear
     attribute rend {
       
       ##
@@ -1321,6 +1321,9 @@ sga-pdel =
       | 
         ##
         "overwritten"
+      | 
+        ##
+        "smear"
       | xsd:Name
     }?,
     sga-patt.global.attribute.el-target,
