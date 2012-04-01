@@ -571,6 +571,7 @@
                                 <valList type="semi" mode="replace">
                                     <valItem ident="strikethrough"/>
                                     <valItem ident="overwritten"/>
+                                    <valItem ident="smear"/>
                                 </valList>
                             </attDef>
                         </attList>
