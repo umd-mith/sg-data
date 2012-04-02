@@ -10,6 +10,41 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0011.tif"/>
   <zone type="pagination" rend="bordered">10</zone>
   <zone type="main">
-    </zone>
+    <line>hand <del rend="overstrike">and</del> <add place="superlinear">of</add> <add place="superlinear"><mod resp="PBS">the</mod></add> pure water <add place="superlinear">which</add> flowed by my </line> 
+    <line><mod type="subst"><del rend="overstrike">house</del> <add place="superlinear"><mod resp="PBS">retreat</mod></add></mod>&mdash;  <del rend="overstrike">but</del> The floor <del rend="overstrike">of that</del> <del rend="overstrike">being</del></line>
+    <line><add><ptr target="c57-0002.01"/></add>a little raised <mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">so that it</add></mod><del rend="overstrike">&amp;</del> it was kept <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">perfectly</add>dry and by</line>
+    <line>its vicinity to the chimney of the</line>
+    <line>kitchen fire of the cottage it was</line>
+    <line>tolerably warm. <del rend="overstrike">And</del> Being thus provided</line>
+    <line>I determined to reside in this hovel</line>
+    <line>untill <del rend="overstrike">o</del> something should occur which</line>
+    <line> might alter my determination. It</line>  
+    <line>was indeed a paradise compared to</line>
+    <line>the blea<del rend="overstrike">c</del>k forest, my former residence,</line>
+    <line><del rend="overstrike">and</del> the<del rend="overstrike">ir</del> rain dropping <mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">branches</add></mod><mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">&amp; the dank earth</add></mod> <del rend="overstrike">leaves</del>. I ate</line>
+    <line>my breakfast with pleasure and was</line>
+    <line>about to remove a plank to procure</line>
+    <line>myself a little water when I heard</line>
+    <line>a step and looking through a small</line>
+    <line>chink a beheld a young creature</line>
+    <line>with a pail on her head passing</line>
+    <line>before my hovel. The girl was young</line>
+    <line>and of gentle demænour unlike what</line>
+    <line>I have since found Cottagers and farm</line>
+    <line>house servants to be &mdash; Yet she was mean</line>
+    <line>ly dressed &mdash;  a <del rend="overstrike">blue</del> coarse <mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">blue</add></mod>petticoat and a</line>
+    <line><add><ptr target="c57-0002.02"/></add>jacket being her only garb <del rend="overstrike">on</del> her fair hair</line>
+    <line>was plaited but not adorned; she looked patient</line>
+    <line>yet sad.  She passed <del rend="overstrike">aw</del> away but in a quarter</line>
+    <line>of an hour returned, <del rend="overstrike">be</del> bearing the pail which</line>
+    <line>was now partly filled with milk.  As she walked</line>
+    <line>along seemingly incommoded by the burthen</line>
+  </zone>
+  <zone type="left_margin">
+    <line>was<anchor xml:id="c57&mdash;0002.01"/></line>     
+  </zone>
+  <zone type="left_margin">
+    <line>linen<anchor xml:id="c57&mdash;0002.02"/></line>    
+  </zone>
 </surface>
 
