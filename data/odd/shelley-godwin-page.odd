@@ -349,6 +349,7 @@
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking" except="ab alt altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
+                    <moduleRef key="figures" include="figure figDesc"></moduleRef>
 
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
