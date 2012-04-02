@@ -11,14 +11,14 @@
   <zone type="pagination" rend="bordered">8</zone>
   <zone type="main">
     <line>escaped to the open country and fear</line>
-    <line>fully took refuge in a low <mod type="subst"><del rend="overstrike">hut</del><add place="superlinear"><mod resp="PBS">hovel</mod></add></mod> &amp;quite</line>
+    <line>fully took refuge in a low <mod type="subst"><del rend="overstrike">hut</del><add place="superlinear"><mod resp="#pbs">hovel</mod></add></mod> &amp;quite</line>
     <line>bare and making a wretched appearance</line>
     <line>after the pal<del rend="overstrike">l</del>aces I had beheld in the</line>
-    <line>village.&amp; This <mod type="subst"><del rend="overstrike">hut</del><add place="superlinear"><mod resp="PSB">hovel</mod></add></mod> however adjoined a</line>
+    <line>village.&amp; This <mod type="subst"><del rend="overstrike">hut</del><add place="superlinear"><mod resp="#pbs">hovel</mod></add></mod> however adjoined a</line>
     <line>cottage of a neat &amp; pleasant appearance,</line>
-    <line>but after my late <add place="sublinear"><mod resp="PBS"><metamark>^</metamark></mod></add><add place="superlinear"><mod resp="PBS">dearly</mod></add> bought experience</line>
+    <line>but after my late <add place="sublinear"><mod resp="#pbs"><metamark>^</metamark></mod></add><add place="superlinear"><mod resp="#pbs">dearly</mod></add> bought experience</line>
     <line>I dared not enter it.  My place of refuge <figure><figureDesc>insert mark X</figureDesc></figure></line>
-    <line><delSpan spanTo="c57-0002.01"/><del rend="overstrike">was the tool house and had not been</del></line>     
+    <line><delSpan spanTo="c57-0002.01"/><del rend="overstrike">was the tool house</del> <del rend="overstrike">and had not been</del></line>     
     <line><add><ptr target="c57-0002.02"/></add>used <del rend="overstrike">for</del> by the inhabitants of the ad</line>
     <line>joining dwelling and was entirely shut</line>
     <line>out from view by a pigstye on one</line>
@@ -29,7 +29,7 @@
     <line>found a shelter from the inclemency</line>
     <line>of the season &amp; still more from the</line>
     <line>barbarity of man</line>
-    <line><figure><figureDesc>Dividing horizintal pen line across 3/4 of main page area</figureDesc></figure></line>             
+    <line><metamark rend="horizontal line"></metamark></line>             
     <line>was constructed of wood, <mod type="subst"><del rend="overstrike">&amp;</del><add place="superlinear">but</add></mod> so low that	</line>
     <line>I could with difficulty sit upright in</line>
     <line>it. <del rend="overstrike">The</del> <del rend="overstrike">f</del> <del rend="overstrike">earth</del> No wood however</line>
