@@ -14,7 +14,7 @@
     <line>guished the <del rend="overstrike">insect</del> insect from the herb, and by de</line>
     <line>grees one herb from a another &#8212; I found</line>
     <line>that the sparrow uttered none but harsh</line>
-    <line>notes <add place="superlinear"><del rend="overstrike">but</del> <mod resp="PBS">whilst</mod></add> <del rend="overstrike">and that</del> <add place="sublinear"><metamark>^</metamark></add> <add place="superlinear">those of</add> the blackbird were sweet</line>
+    <line>notes <add place="superlinear"><del rend="overstrike">but</del> <mod resp="#pbs">whilst</mod></add> <del rend="overstrike">and that</del> <add place="sublinear"><metamark>^</metamark></add> <add place="superlinear">those of</add> the blackbird were sweet</line>
     <line>and enticing. <del rend="overstrike">I had <unclear reason="illegible">le</unclear></del> one day when I was</line>
     <line>oppressed by cold I found a fire that</line>
     <line><add><ptr target="c57-0002.01"/></add>had been left by some wandering beg</line>
@@ -32,19 +32,19 @@
     <line>watching the op<del rend="overstrike">p</del>eration of the fire.</line>
     <line>The wet wood I had placed near the heat</line>
     <line><del rend="overstrike">became dy dry</del> <add place="superlinear">dried,</add> and itself <del rend="overstrike">became</del> became</line>
-    <line><mod resp="PBS">inflamed.</mod> <del rend="overstrike">hot</del>  I reflected on this, and by touching</line>
+    <line><mod resp="#pbs">inflamed.</mod> <del rend="overstrike">hot</del>  I reflected on this, and by touching</line>
     <line>the various branches I discovered the cause</line>
     <line>and busied myself in collecting a great</line>
-    <line><mod type="subst"><del rend="overstrike">deal</del> <add place="superlinear"><mod resp="PBS">quantity</mod></add></mod> of wood that I might dry it and</line>
-    <line>have a <del rend="overstrike">pel</del> plentiful supply <mod resp="PBS"><add place="superlinear">o</add> of fire.</mod> When night</line>
-    <line>came on and <mod type="subst"><add place="sublinear"><metamark>^</metamark></add> <add place="superlinear"><mod resp="PBS">brought with it</mod></add></mod> sleep, I was in the greatest</line>
+    <line><mod type="subst"><del rend="overstrike">deal</del> <add place="superlinear"><mod resp="#pbs">quantity</mod></add></mod> of wood that I might dry it and</line>
+    <line>have a <del rend="overstrike">pel</del> plentiful supply <mod resp="#pbs"><add place="superlinear">o</add> of fire.</mod> When night</line>
+    <line>came on and <mod type="subst"><add place="sublinear"><metamark>^</metamark></add> <add place="superlinear"><mod resp="#pbs">brought with it</mod></add></mod> sleep, I was in the greatest</line>
     <line>fear lest my fire should be extinguished</line>
     <line>I covered it carefully with <del rend="overstrike">try</del> dry wood</line>
     <line>and leaves &amp; then placed upon that wet</line>
     <line>branches and then spreading my cloak I <del rend="overstrike">la</del></line>
   </zone>
   <zone type="left_margin">
-    <line><figure resp="PBS"><figureDesc>PBS insert mark ✗</figureDesc></figure></line>               
+    <line><figure><figureDesc><mod resp="#pbs">PBS insert mark X</mod></figureDesc></figure></line>               
     <line>at the warmth</line>
     <line>which I ex-</line>
     <line>-perienced from</line>

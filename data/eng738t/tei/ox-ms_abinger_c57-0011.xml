@@ -10,8 +10,8 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0011.tif"/>
   <zone type="pagination" rend="bordered">10</zone>
   <zone type="main">
-    <line>hand <del rend="overstrike">and</del> <add place="superlinear">of</add> <add place="superlinear"><mod resp="PBS">the</mod></add> pure water <add place="superlinear">which</add> flowed by my </line> 
-    <line><mod type="subst"><del rend="overstrike">house</del> <add place="superlinear"><mod resp="PBS">retreat</mod></add></mod>&#8212;  <del rend="overstrike">but</del> The floor <del rend="overstrike">of that</del> <del rend="overstrike">being</del></line>
+    <line>hand <del rend="overstrike">and</del> <add place="superlinear">of</add> <add place="superlinear"><mod resp="#pbs">the</mod></add> pure water <add place="superlinear">which</add> flowed by my </line> 
+    <line><mod type="subst"><del rend="overstrike">house</del> <add place="superlinear"><mod resp="#pbs">retreat</mod></add></mod>&#8212;  <del rend="overstrike">but</del> The floor <del rend="overstrike">of that</del> <del rend="overstrike">being</del></line>
     <line><add><ptr target="c57-0002.01"/></add>a little raised <mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">so that it</add></mod><del rend="overstrike">&amp;</del> it was kept <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">perfectly</add>dry and by</line>
     <line>its vicinity to the chimney of the</line>
     <line>kitchen fire of the cottage it was</line>
