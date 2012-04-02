@@ -32,19 +32,15 @@
       if eyes</line>
     <line>they may be called,<add place="superlinear"><metamark>—</metamark></add>were fixed on
         me<metamark>–</metamark>His</line>
-    <line>jaws opened and he muttered <add place="superlinear" xml:id="c56-0047.01" resp="#pbs"
-        >in</add> some <del rend="strikethrough">words</del></line>
-    <undo target="#c56-0047.01" rend="strikethrough"/><!--see earlier comment on <undo/>-->
+    <line>jaws opened and he muttered <mod resp="#pbs"><del rend="strikethrough"><add place="superlinear">in</add></del></mod> some <del rend="strikethrough">words</del></line>
     <line><add><ptr target="#c56-0047.02"/></add> while a grin wrinkled his cheeks. He</line>
     <line>might have spoken but I did not</line>
     <line>hear <metamark>—</metamark> one <del rend="strikethrough">had</del> hand was stretched
       out</line>
     <line>to detain me but I escaped and ran</line>
-    <line>rushed down <mod type="additions" resp="#pbs"><add place="superlinear"
-          xml:id="c56-0047.03">the</add> stair<add place="intralinear">s</add><add
+    <line>rushed down <mod type="additions" resp="#pbs"><del rend="strikethrough"><add place="superlinear">the</add></del> stair<add place="intralinear">s</add><add
           xml:id="c56-0047.04" place="intralinear"><unclear extent="4" unit="chars" precision="low"
             reason="overwritten">case</unclear></add></mod> I took refuge in</line>
-    <undo target="#c56-0047.03 #c56-0047.04" rend="strikethrough"/>
     <line>a court-yard belonging to the house</line>
     <line>which I inhabited; where I remained</line>
     <line><add><ptr target="#c56-0047.05"/></add>the rest of the night walking up and</line>
