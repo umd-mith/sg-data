@@ -16,7 +16,7 @@ xmlns="http://www.tei-c.org/ns/1.0"
   <zone type="main">
     <line>"It is with difficulty that i remember</line>
     <line>the aera of my <del rend="overstrike">cr</del> being. All the events of</line>
-    <line>that period appear confused &#x26; indistinct.</line>
+    <line>that period appear confused &amp; indistinct.</line>
     <line><del rend="overstrike">I know only that I felt a strang<unclear reason="deletion" cert="high">e</unclear></del> A strange</line>
     <line>sensation <del rend="overstrike">sea</del> seized me <del rend="overstrike">and a it</del> <del rend="overstrike">appeared</del></line>
     <line>I saw, felt heard and smelt at the same</line>
@@ -26,16 +26,16 @@ xmlns="http://www.tei-c.org/ns/1.0"
     <line>I remember a stronger light pressed upon</line>
     <line>my nerves <del rend="overstrike">and</del> so that I was obliged to close</line>
     <line>my eyes. Darkness then came over me</line>
-    <line>and troubled me.&#x2038; But hardly had I felt</line>
+    <line>and troubled me.&#8212; But hardly had I felt</line>
     <line>this when (by opening my eyes as I now suppose)</line>
-    <line>the light poured in upon me again&#x2038; I walked</line>
+    <line>the light poured in upon me again&#8212; I walked</line>
     <line>and I believe descended; but presently I found</line>
     <line>a great <mod type="subst"><del rend="overstrike">difference</del><add place="superlinear">alteration</add></mod> in my sensations; before</line>
     <line>dark opaque bodies had surrounded me<add place="superlinear">,</add></line>
-    <line>impervious to my touch or sight&#x2038; and I</line>
+    <line>impervious to my touch or sight&#8212; and I</line>
     <line>now found that I could wander on at liberty</line>
     <line>with no obstacles which I could not either</line>
-    <line>surmount or avoid&#x2038; The light <del rend="overstrike">be</del> became <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">more</add> &#x26;</line>
+    <line>surmount or avoid&#8212; The light <del rend="overstrike">be</del> became <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">more</add> &amp;</line>
     <line>more opressive to me and the heat wearying</line>
     <line>me as I walked I sought a place where I could</line>
     <line><add><ptr target="c57-0002.02"/></add>perceive <mod resp="#pbs"><add place="superlinear">receive</add></mod> shade. This was the forest near Ingolstadt,</line>

@@ -30,7 +30,7 @@
     <line>finding the door open I entered.  An old</line>
     <line>man sat <del rend="overstrike">it</del> in it, near a <add place="superlinear"><mod resp="#pbs">over</mod> <del rend="overstrike">by</del></add> fire on</line>
     <line>which he was preparing his breakfast</line>
-    <line>he turned <del rend="overstrike">of</del> on hearing a noise <del rend="overstrike">&#x26;</del> <del rend="overstrike">on</del></line>
+    <line>he turned <del rend="overstrike">of</del> on hearing a noise <del rend="overstrike">&amp;</del> <del rend="overstrike">on</del></line>
     <line><add><ptr target="c57-0002.02"/></add>perceiving <add place="superlinear">me</add> shrieked loudly and quiting</line>
     <line>the hut ran across the fields with</line>
     <line>a speed <del rend="overstrike">little</del> of which his debilitated form</line>
@@ -40,7 +40,7 @@
     <line>hut.  Here the snow and rain could not</line>
     <line>penetrate &#8212; the ground was dry <del rend="overstrike">and wind</del></line>
     <line><del rend="overstrike">expelled</del> and it <mod type="subst"><add place="superlinear">presented</add> <del rend="overstrike">appeared</del> </mod>to me then</line>
-    <line>as <del rend="overstrike">heavenly and divine</del> exquisite &#x26; di</line>
+    <line>as <del rend="overstrike">heavenly and divine</del> exquisite &amp; di</line>
   </zone>
   <zone type="left_margin">
     <line>relinquish all</line>
