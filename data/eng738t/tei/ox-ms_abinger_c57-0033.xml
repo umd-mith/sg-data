@@ -2,13 +2,47 @@
 <?xml-model
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
+<surface 
+  xmlns="http://www.tei-c.org/ns/1.0" 
   xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0033"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+  xml:id="ox-ms_abinger_c57-0033" 
+  ulx="0" uly="0" lrx="5368" lry="7104"
+  partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0033.tif"/>
-    <zone>
-    </zone>
+<zone type="main">
+  <line><add><ptr target="c57-0033.01"/></add>heart of Felix <del rend="overstrike">and resolved to obtain his</del></line>
+  <line><del rend="overstrike">at any price the full zeal</del> and <del rend="overstrike">resolved</del></line>
+  <line>endeavored to secure <del rend="overstrike">the interest</del> him <add place="superlinear">more entirely</add><del rend="overstrike">at any pr by</del></line>
+  <line>the promise of her hand in marriage;</line>
+  <line>Felix was too delicate to accept <add place="superlinear"><del rend="overstrike">offers</del></add> this <add place="superlinear">offer</add> yet</line> 
+  <line>he looked forward to the probability of</line>
+  <line>that event as the consummation of</line> 
+  <line>his happiness.<milestone unit="paragraph"/></line>
+  <line><add><ptr target="c57-0033.02"/></add>The Turk informed Safie of his</line>
+  <line>intentions and</line> 
+  <line><metamark rend="horizontal line"></metamark></line>
+  <line>and rank <del rend="overstrike">her father</del> <add place="superlinear">the merchant</add> commander</line>
+  <line><del rend="overstrike">her</del><add place="superlinear">his daughter</add> to think no more of <del rend="overstrike">him</del> <add place="superlinear">her lover</add> but to</line>
+  <line>repare to return to her native country</line>
+  <line>with him. The generous nature of Safie</line>
+  <line>was outraged by this command. She attempt</line>
+  <line>ed to expostulate with her father but</line>
+  <line>he left<del rend="overstrike">er</del> her angrily <del rend="overstrike">re</del> reiterating his</line>
+  <line>tyrannical <del rend="overstrike"><seg rend="underline">command</seg></del> <del rend="overstrike">orders.</del> <milestone unit="paragraph"/></line>
+  <line>A few days after the Turk entered</line>
+  <line>his daughts appartment and told her</line>
+  <line>hastily that he had reason to believe</line>
+  <line>that his residence in Leghorn had been</line>
+  <line>divulged and that he <del rend="overstrike">would</del> <add place="superlinear"><del rend="overstrike">was</del> should</add> <del rend="overstrike">b</del> speedily</line>
+  <line>be delivered <metamark> ^</metamark><add place="superlinear">up</add> to the French Government.</line>
+  <line><del rend="overstrike">He had just heard of ta small vessel</del></line>
+  <line><del rend="overstrike">bound for Constantinople which</del> He had</line>
+  <line>consequently hired a vessel to convey him</line>
+</zone>
+  <zone type="left_margin">
+    <line>59<anchor xml:id="c57-0033.01"/></line>
+  </zone>
+  <zone type="left_margin">
+    <line>64<anchor xml:id="c57-0033.02"/></line>
+  </zone>
 </surface>
-
