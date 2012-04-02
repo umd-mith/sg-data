@@ -26,7 +26,7 @@
     <line>across the fields for several hours, untill</line>
     <line>at sunset I <del rend="overstrike">came to</del> <add place="superlinear"><mod resp="#pbs">arrived at</mod></add> a village.  How mira</line>
     <line>culous did this appear. The huts the neater</line>
-    <line>cottages &amp; stat<mod type="additions"><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">e</add></mod>lier houses engaged my</line>
+    <line>cottages &amp; stat<mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">e</add></mod>lier houses engaged my</line>
     <line>admiration by turns&#8212; The vegetables in the</line>
     <line>garden<add place="superlinear"><mod resp="#pbs">s</mod></add> <del rend="overstrike">allured me</del> and the milk and</line>
     <line>cheese that I saw placed at <del rend="overstrike">s</del> the windows</line>
@@ -36,7 +36,7 @@
     <line>children shrieked and one of the <del rend="overstrike">child</del></line>
     <line><del rend="overstrike">ren</del> women fainted, the village was roused</line>
     <line>some fled,&#8212;some attacked me untill</line> 
-    <line>grievously bruised by <mod type="subst"><del rend="overstrike">sticks</del> <add place="sublinear"><metamark>&#x2038;</metamark></add> <add place="superlinear">stones</add></mod> and <del rend="overstrike">all</del></line> 
+    <line>grievously bruised by <mod type="subst"><del rend="overstrike">sticks</del> <add place="sublinear"><metamark>^</metamark></add> <add place="superlinear">stones</add></mod> and <del rend="overstrike">all</del></line> 
     <line>many other kinds of missile weapon I</line>
     </zone>
   <zone type="left_margin">

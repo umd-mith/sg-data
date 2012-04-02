@@ -12,7 +12,7 @@
   <zone type="main">
     <line>hand <del rend="overstrike">and</del> <add place="superlinear">of</add> <add place="superlinear"><mod resp="#pbs">the</mod></add> pure water <add place="superlinear">which</add> flowed by my </line> 
     <line><mod type="subst"><del rend="overstrike">house</del> <add place="superlinear"><mod resp="#pbs">retreat</mod></add></mod>&#8212;  <del rend="overstrike">but</del> The floor <del rend="overstrike">of that</del> <del rend="overstrike">being</del></line>
-    <line><add><ptr target="c57-0002.01"/></add>a little raised <mod type="additions"><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">so that it</add></mod><del rend="overstrike">&amp;</del> it was kept <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">perfectly</add>dry and by</line>
+    <line><add><ptr target="c57-0002.01"/></add>a little raised <mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">so that it</add></mod><del rend="overstrike">&amp;</del> it was kept <add place="sublinear"><metamark>^</metamark></add><add place="superlinear">perfectly</add>dry and by</line>
     <line>its vicinity to the chimney of the</line>
     <line>kitchen fire of the cottage it was</line>
     <line>tolerably warm. <del rend="overstrike">And</del> Being thus provided</line>
@@ -21,7 +21,7 @@
     <line> might alter my determination. It</line>  
     <line>was indeed a paradise compared to</line>
     <line>the blea<del rend="overstrike">c</del>k forest, my former residence,</line>
-    <line><del rend="overstrike">and</del> the<del rend="overstrike">ir</del> rain dropping <mod type="additions"><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">branches</add></mod><mod type="additions"><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">&amp; the dank earth</add></mod> <del rend="overstrike">leaves</del>. I ate</line>
+    <line><del rend="overstrike">and</del> the<del rend="overstrike">ir</del> rain dropping <mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">branches</add></mod><mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">&amp; the dank earth</add></mod> <del rend="overstrike">leaves</del>. I ate</line>
     <line>my breakfast with pleasure and was</line>
     <line>about to remove a plank to procure</line>
     <line>myself a little water when I heard</line>
@@ -32,7 +32,7 @@
     <line>and of gentle demænour unlike what</line>
     <line>I have since found Cottagers and farm</line>
     <line>house servants to be &#8212; Yet she was mean</line>
-    <line>ly dressed &#8212;  a <del rend="overstrike">blue</del> coarse <mod type="additions"><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">blue</add></mod>petticoat and a</line>
+    <line>ly dressed &#8212;  a <del rend="overstrike">blue</del> coarse <mod type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">blue</add></mod>petticoat and a</line>
     <line><add><ptr target="c57-0002.02"/></add>jacket being her only garb <del rend="overstrike">on</del> her fair hair</line>
     <line>was plaited but not adorned; she looked patient</line>
     <line>yet sad.  She passed <del rend="overstrike">aw</del> away but in a quarter</line>
