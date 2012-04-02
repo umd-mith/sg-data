@@ -9,7 +9,6 @@
     <line>being an only child, and desti</line>
     <line>tute of companions at home, h<mod><del rend="overwritten"><unclear>is</unclear></del><add
           place="intralinear" resp="#pbs">is</add></mod></line>
-    <!--PBS overwrites MWS's ?is to clarify. We should consider adding a "clar" attribute to our mod list-->
     <line><del rend="strikethrough"><unclear>to</unclear></del> father was pleased that he</line>
     <line>should find associates at our</line>
     <line>house and we were never com</line>
@@ -40,8 +39,7 @@
     <line>I did not understand them the</line>
     <line>experiments never failed to</line>
     <line>attract my attention.<anchor xml:id="c56-0013.01"/><del rend="strikethrough">I
-        reme</del><add place="sublinear"><metamark>^</metamark></add><add place="superlinear" resp="#pbs">m</add><del
-        rend="strikethrough">ber</del></line>
+        reme<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">m</add>ber</del></line>
     <line><del rend="strikethrough">also</del><metamark> [</metamark>When I was about <mod
         type="subst"><del rend="strikethrough">twelve</del><add place="superlinear"
         >fourteen</add></mod> years</line>
