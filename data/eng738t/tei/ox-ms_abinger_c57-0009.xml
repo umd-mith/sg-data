@@ -3,11 +3,11 @@
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface
-  xmlns="http://www.tei&#8212;c.org/ns/1.0"
+  xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox&#8212;ms_abinger_c57&#8212;0009"
-  ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox&#8212;ms_abinger_c57">
-  <graphic url="../../images/ox/ox&#8212;ms_abinger_c57&#8212;0009.tif"/>
+  xml:id="ox-ms_abinger_c57-0009"
+  ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  <graphic url="../../images/ox/ox-ms_abinger_c57-0009.tif"/>
   <zone type="pagination" rend="bordered">8</zone>
   <zone type="main">
     <line>escaped to the open country and fear</line>
@@ -18,13 +18,13 @@
     <line>cottage of a neat &amp; pleasant appearance,</line>
     <line>but after my late <add place="sublinear"><mod resp="PBS"><metamark>^</metamark></mod></add><add place="superlinear"><mod resp="PBS">dearly</mod></add> bought experience</line>
     <line>I dared not enter it.  My place of refuge <figure><figureDesc>insert mark X</figureDesc></figure></line>
-    <line><delspan spanTo="c57-0002.01"/><del rend="overstrike">was the tool house and had not been</del></line>     
+    <line><delSpan spanTo="c57-0002.01"/><del rend="overstrike">was the tool house and had not been</del></line>     
     <line><add><ptr target="c57-0002.02"/></add>used <del rend="overstrike">for</del> by the inhabitants of the ad</line>
     <line>joining dwelling and was entirely shut</line>
     <line>out from view by a pigstye on one</line>
     <line>side and a dunghill &amp; small spool</line>
     <line>on <del rend="overstrike">the</del> another &amp; the two others were</line>
-    <line>formed by the wall of the cottage. Here<anchor xml:id="c57&#8212;0002.01"></line>
+    <line>formed by the wall of the cottage. Here<anchor xml:id="c57-0002.01"></anchor></line>
     <line><add><ptr target="c57-0002.03"/></add>I retreated and lay down happy to have</line>	
     <line>found a shelter from the inclemency</line>
     <line>of the season &amp; still more from the</line>
@@ -41,10 +41,10 @@
     <line>&amp; rain</line>
 </zone>
   <zone type="left_margin">
-    <line>was not<anchor xml:id="c57&#8212;0002.02"/></line>     
+    <line>was not<anchor xml:id="c57-0002.02"/></line>     
   </zone>
   <zone type="left_margin">
-    <line>then<anchor xml:id="c57&#8212;0002.03"/></line>    
+    <line>then<anchor xml:id="c57-0002.03"/></line>    
   </zone>
 </surface>
 
