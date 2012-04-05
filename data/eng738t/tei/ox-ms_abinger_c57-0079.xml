@@ -8,40 +8,41 @@
   xml:id="ox-ms_abinger_c57-0079"
   ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0079.tif"/>
+    <zone type="pagination"><unclear>101</unclear></zone>
     <zone type="main">
       <delSpan spanTo="page79"/>
-      <line>to my slavery.<add place="superlinear">X</add> <del rend="strikethrough">But <gap /></del> <del rend="strikethrough">But <add place="superlinear"><del rend="strikethrough">should</del></add>could</del> I <add place="superlinear">should</add>leave</line>
-      <line><del rend="strikethrough">Geneva &amp; the fiend beli</del> &amp; my friends</line>
+      <line><add><ptr target="c57-0079.01"/></add>to my slavery.<add place="superlinear">X</add> <del rend="strikethrough">But <gap /></del> <del rend="strikethrough">But</del> <add place="superlinear"><del rend="strikethrough">should</del></add> <del rend="strikethrough">could</del> I <metamark>&#x2038;</metamark><add place="superlinear">should</add>leave</line>
+      <line><del rend="strikethrough">Geneva &#x0026; the fiend beli</del> <del rend="strikethrough">&#x0026;</del> my friends</line>
       <line>unconscious of the existence of their</line>
-      <line>enemy &amp; unprotected from his attacks</line>
+      <line>enemy &#x0026; unprotected from his attacks</line>
       <line>exasperated as he might be by my depar</line>
-      <line>ture - But then he had promised to</line>
-      <line>follow me every where &amp; might</line>
-      <line>he not accompany me to England - the</line>
+      <line>ture &#x2014; But then he had promised to</line>
+      <line><add><ptr target="c57-0079.02"/></add>follow me every where &#x0026; might</line>
+      <line>he not accompany me to England&#x2014;the</line>
       <line>thought was dreadful in itself but</line>
-      <line>soothing inasmuch as my friends would</line>
-      <line>be in safety. <add place="superlinear">X</add>The thoughts occurred</line>
-      <line>rapidly to me &amp; I answered my fa</line>
-      <line>ther with eagerness that I should</line>
-      <line>be delighted to visit <del rend="strikethrough">Engl</del> England</line>
+      <line><add><ptr target="c57-0079.03"/></add>soothing inasmuch as my friends would</line>
+      <line><add><ptr target="c57-0079.04"/></add>be in safety. <add place="superlinear">X</add>The thoughts occurred</line>
+      <line><add><ptr target="c57-0079.05"/></add>rapidly to me &#x0026; I answered my fa</line>
+      <line><add><ptr target="c57-0079.06"/></add>ther with eagerness that I should</line>
+      <line><add><ptr target="c57-0079.07"/></add>be delighted to visit <del rend="strikethrough">Engl</del> England</line>
       <line>with Clerval and that <del rend="strikethrough">travel</del> the</line>
-      <line>idea of traveling was inchanting to</line>
+      <line>idea of travelling was inchanting to</line>
       <line>me.</line>
       <milestone unit="paragraph"/>
       <line>Your <del rend="strikethrough">journey</del> travels, said my</line>
       <line>father, will occupy the space of</line>
-      <line>two years - on your return you</line>
+      <line>two years&#x2014; on your return you</line>
       <line><del rend="strikethrough">shall be united to your cousin</del></line>
       <milestone unit="paragraph"/>
       <line>Our plan was soon arranged.</line>
       <line>I should travel to Strasburgh where</line>
-      <line>Clerval would join me &amp; we</line>
+      <line>Clerval would join me &#x0026; we</line>
       <line>should proceed down the Rhine</line>
-      <line>together.<add place="superlinear">tow</add> Some short time would</line>
+      <line>together.<add place="superlinear"><del rend="strikethrough"><unclear>tow</unclear></del></add> Some short time would</line>
       <line>be spent in the towns of Holland</line>
-      <line>&amp; many months in England. We were</line>
-      <line>to return by france &amp; it was sup</line>
-      <line>posed that this tour woudl occupy</line>
+      <line>&#x0026; many months in England. We were</line>
+      <line>to return by france &#x0026; it was sup</line>
+      <line>posed that this tour would occupy</line>
       <line>the space of two years. My father</line>
       <line>pleased himself with the reflection</line>
       <line>that I should be united to Eliza</line>
@@ -49,12 +50,13 @@
       <anchor xml:id="page79"/>
     </zone>
   <zone type="left_margin">
-    <line>X</line>
-    <line><mod hand="PBS">the thought of</mod></line>
-    <line><mod hand="PBS">the possibility</mod></line>
-    <line><mod hand="PBS">of the reverse</mod></line>
-    <line><mod hand="PBS">must have</mod></line>
-    <line><mod hand="PBS">been dreadful</mod></line>
+    <line>3<anchor xml:id="c57-0079.01"/></line>
+    <line>X<anchor xml:id="c57-0079.02"/></line>
+    <line><mod resp="#pbs">the thought of</mod><anchor xml:id="c57-0079.03"/></line>
+    <line><mod resp="#pbs">the possibi<del rend="overwritten">lity</del></mod><add>5</add><anchor xml:id="c57-0079.04"/></line>
+    <line><mod resp="#pbs">of the reverse</mod><anchor xml:id="c57-0079.05"/></line>
+    <line><mod resp="#pbs">must have</mod><anchor xml:id="c57-0079.06"/></line>
+    <line><mod resp="#pbs">been dreadful</mod><anchor xml:id="c57-0079.07"/></line>
   </zone>
 </surface>
 
