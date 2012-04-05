@@ -8,7 +8,7 @@
   xml:id="ox-ms_abinger_c57-0073"
   ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0073.tif"/>
-    <zone type="pagination">100</zone>
+    <zone type="pagination" rend="bordered">100</zone>
     <zone type="library">37</zone>
     <zone type="main">
       <line>coming had been to divert my mind &#x0026; to restore</line>
