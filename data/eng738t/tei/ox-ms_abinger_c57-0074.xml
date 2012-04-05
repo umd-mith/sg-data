@@ -2,13 +2,53 @@
 <?xml-model
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
-<surface
+<surface partOf="#ox-ms_abinger_c57-0074"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0074"
   ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0074.tif"/>
-    <zone>
+    <zone type="pagination">98
     </zone>
+  <zone type="top">Chap. 10th</zone>
+  <zone type="main">
+    <line>Day after day, week after week passed <add place="superlinear">away</add> on</line>
+    <line>my return to Geneva and I had not the</line>
+    <line>courage to commence my work. I feared the</line>
+    <line>vengeance of the disappointed fiend yet</line>
+    <line>I <del rend="strikethrough">could not</del> <add place="superlinear"><mod resp="#pbs">I was unable to</mod></add> overcome my repugnance <add place="superlinear"><mod resp="#pbs">to the task</mod></add> <metamark>&#x2038;</metamark><add place="superlinear"><metamark>X</metamark></add><metamark>I</metamark></line>
+    <line>My health <del rend="strikethrough">also</del> which had hitherto declined</line>
+    <line>was now much restored, &#x0026; my spirits when</line>
+    <line>unchecked by the memory of my unhappy</line>
+    <line>promise, rose proportionably. My father</line>
+    <line>saw this with pleasure and he turned his</line>
+    <line>thoughts towards the best method of</line>
+    <line>eradicating the remains of my melancholy &#x2014;</line>
+    <line>which every now and then would return</line>
+    <line>by fits &#x0026; with a devouring blackness over</line>
+    <line>cast the approaching <del rend="strikethrough">day</del> <metamark>&#x2038;</metamark><add place="superlinear">sunshine</add>. At these</line>
+    <line>moments I took refuge in the most</line>
+    <line>perfect solitude: <del rend="strikethrough">my deli</del> <del rend="strikethrough">I used to</del> <mod rend="bordered">Alone</mod></line>
+    <line>in a little boat <mod rend="bordered">I passed whole</mod> days on</line>
+    <line><mod rend="bordered">the lake watching</mod>the clouds &#x0026; <metamark>&#x2038;</metamark> <add place="superlinear"><mod resp="#pbs">listening to</mod></add> the ripp<add place="intralinear"></add>ling</line>
+    <line>of the waves, silent &#x0026; listless. But the fresh</line>
+    <line>air and bright sun seldom failed <add place="intralinear"><mod resp="#pbs">to</mod></add></line>
+    <line>restore me to some degree of compo&#x2014;</line>
+    <line>sure &#x0026; <del rend="strikethrough">I</del> on my return I met the</line>
+    <line><del rend="strikethough">smi</del> salutations of my friends with a</line>
+    <line>readier smile, &#x0026; <metamark>&#x2038;</metamark> <add place="superlinear"><mod resp="#pbs">a</mod></add> more cheerful heart</line>
+    <milestone unit="paragraph"/>
+    <line>It was after my return from one</line>
+    <line>of these rambles that my father calling</line>
+    <line>me aside thus a<metamark>&#x2038;</metamark><add place="superlinear">d</add>dressed me.</line>
+    <milestone unit="paragraph"/>
+    <line>I am happy to remark, my dear</line>
+    <line>son, that <del rend="strikethrough">lately</del> you have <del rend="strikethrough">acqu</del></line>
+    <line>resumed your former pleasures &#x0026; seem</line>
+    <line>to be returning to yourself. And yet</line>
+    <line><del rend="strikethrough"><unclear>so</unclear></del> you are still unhappy &#x0026; still avoid</line>
+    <line>our society. <del rend="strikethrough">When I consider</del> For some time</line>
+  
+  </zone>
 </surface>
 
