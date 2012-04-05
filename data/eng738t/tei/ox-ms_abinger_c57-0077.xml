@@ -8,50 +8,47 @@
   xml:id="ox-ms_abinger_c57-0077"
   ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0077.tif"/>
-  <zone type="pagination">(99
-  </zone>  
+  <zone type="pagination" rend="bordered">99
+  </zone>
+  <zone type="library">39</zone>
   <zone type="main">
     <line>I was lost in conjecture as to the cause</line>
     <line>of this but yesterday <del rend="strikethrough">t</del> an idea struck</line>
     <line>me and if it is well founded I conjure</line>
     <line>you to avow it <del rend="strikethrough">to me. For</del> secresy on</line>
-    <line>such a point would <add place="superlinear"><mod hand="PBS">not only</mod></add>be useless<add place="superlinear"><mod hand="PBS">but</mod></add><del rend="strikethrough">&amp; only</del></line>
-  </zone>
-  <zone type="left_margin"><mod hand="unknown">but</mod></zone>
-  <zone type="main">
-    <line><del rend="strikethrough">bring</del><add place="superlinear"><mod hand="PBS">&amp; draw</mod></add> down <del rend="strikethrough">trem</del> treble misery on us</line>
+    <line>such a point would <add place="superlinear"><mod resp="#pbs">not only</mod></add>be useless<add place="superlinear"><mod resp="#pbs">but</mod></add><del rend="strikethrough">&#x0026; only</del></line>
+    <line><add><ptr target="c57-0077.01"/></add><del rend="strikethrough">bring</del><add place="superlinear"><mod resp="#pbs">&#x0026; draw</mod></add> down <del rend="strikethrough">trem</del> treble misery on us</line>
     <line>all.</line>
     <milestone unit="paragraph"/>
     <line>I trembled violently at this exordium,</line>
-    <line>and my father continued. <del rend="strikethrough">It is true, my</del><add place="superlinear">I confess</add> my</line>
+    <line>and my father continued. <del rend="strikethrough">It is true, my</del><metamark>&#x2038;</metamark><add place="superlinear">I confess</add> my</line>
     <line>son, that I have always looked forward</line>
     <line>to your marriage with your cousin</line>
-    <line>as the tie of our domestic comfort &amp;</line>
+    <line>as the tie of our domestic comfort &#x0026;</line>
     <line>the stay of my declining years. You<del rend="strikethrough">r</del> were</line>
     <line>attached to <del rend="strikethrough">y</del> each other from your</line>
     <line>earliest infancy; You studied together</line>
-    <line>and appeared in dispositions &amp; <del rend="strikethrough">in</del> tastes</line>
+    <line>and appeared in dispositions &#x0026; <del rend="strikethrough">in</del> tastes</line>
     <line>entirely suited for one another. But</line>
     <line>so blind is the<del rend="strikethrough">best</del> experience of man</line>
     <line>that what I conceived to be the best</line>
     <line>assistants to my plan may have</line>
-    <line>entirely destroyed it, you <del rend="strikethrough">may</del><add place="superlinear">perhaps</add> regard</line>
+    <line>entirely destroyed it, you <del rend="strikethrough">may</del><metamark>&#x2038;</metamark><add place="superlinear">perhaps</add> regard</line>
     <line>her as your sister without any wish</line>
     <line>that she might become your wife.</line>
     <line>Nay you may have met with another</line>
-    <line>whom you may love<add place="superlinear"><mod hand="PBS">and</mod></add><del rend="strikethrough">but</del> considering</line>
+    <line>whom you may love<metamark>&#x2038;</metamark><add place="superlinear"><mod resp="#pbs">and</mod></add><del rend="strikethrough">but</del> considering</line>
     <line>yourself as bound in honor to your</line>
     <line>cousin, this feeling may occasion the</line>
-    <line>poignant misery<del rend="strikethrough">that</del><add place="superlinear"><mod hand="PBS">which</mod></add> you<del rend="strikethrough">r</del> appear to</line>
+    <line>poignant misery<del rend="strikethrough">that</del><add place="superlinear"><mod resp="#pbs">which</mod></add> you<del rend="strikethrough">r</del> appear to</line>
     <milestone unit="paragraph"/>
     <line>My dear father,<del rend="strikethrough">replied I,</del> reassure</line>
     <line>yourself. I love my cousin tenderly</line>
-    <line>&amp; sincerely. I never saw any woman</line>
+    <line>&#x0026; sincerely. I never saw any woman</line>
     <line>who excited as Elizabeth does my warmest</line>
-    <line>admiration &amp; affection. My future hopes</line>
+    <line>admiration &#x0026; affection. My future hopes</line>
     <line>and prospects are entirely bound up in</line>
-    
   </zone>
-  
+  <zone type="left_margin">
+    <line>but<anchor xml:id="c57-0077.01"/></line></zone>
 </surface>
-
