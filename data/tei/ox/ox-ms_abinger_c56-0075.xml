@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0075" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0075" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0075.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">105</zone>
+  <zone type="library" rend="bordered">35</zone>
+  <zone type="main">
+    <line>blooming &#38; active in health stretch</line>
+    <line>ed on the grass livid and motionless–</line>
+    <line>the print of the murderers finger was</line>
+    <line>on his neck.</line>
+    <milestone unit="tei:p"/><line>He was conveyed home and the</line>
+    <line>extreme wh misery agony that was</line>
+    <line>visible in my countenance revealed</line>
+    <line>the secret to Elizabeth. She was extreme</line>
+    <line>ly earnest to see the corpse. which for a</line>
+    <line>long time refused but {?} she persisted,</line>
+    <line>and entering the room where it lay</line>
+    <line>quickly hastily examined the neck of</line>
+    <line>the victim and clasping her hads</line>
+    <line>hands exclaimed— Go Oh God! I have</line>
+    <line>murdered this sweet babe. my darling</line>
+    <line>infant.</line>
+    <milestone unit="tei:p"/><line>She fainted and was retored with</line>
+    <line>extreme difficulty; and when she again</line>
+    <line>lived it was only to weep and sigh–</line>
+    <line>She told me that that same evening</line>
+    <line>William had teazed her to let him</line>
+    <line>we we wear a very valuable miniature</line>
+    <line>she possessed of your Mother. This</line>
+    <line>picture is gone and was doubtless</line>
+    <line>the temptation which urged the mur</line>
+    <line>derer to the deed. We have no trace</line>
+    <line>of Come my dear Victor him at</line>
+    <line>present of him, but our exertions are</line>
+    <line>are unremitted; but they will not restore</line>
+    <line>my beloved William.</line>
+    <milestone unit="tei:p"/><line>Come, dearest Victor, you alone can </line>
+  </zone>
 </surface>
