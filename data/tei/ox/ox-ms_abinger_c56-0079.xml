@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0079" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0079" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0079.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">109</zone>
+  <zone type="library">37</zone>
+  <zone type="main">
+    <line>define them.</line>
+    <milestone unit="tei:p"/><line>I remained <del rend="strikethrough">thus</del> at Lausanne for</line>
+    <line>two days not daring to proceed. I contem</line>
+    <line>plated the lake – the waters were</line>
+    <line>placid – all around was calm and the</line>
+    <line>Snowy mountains the "Palaces of Nature"<add place="superlinear"><metamark>X</metamark></add><add><ptr target="#c56-0079.01"/></add></line>
+    <line>were not changed. By degrees, this calm</line>
+    <line>and heavenly scene restored me, and I</line>
+    <line><del rend="strikethrough">proceeded</del><add><ptr target="#c56-0079.02"/></add> towards Geneva. The road</line>
+    <line>ran by the side of the lake which</line>
+    <line>became narrower as I approached</line>
+    <line>my native town – I discovered more </line>
+    <line>distinctly the black sides of Jura;</line>
+    <line>and the <add place="sublinear">&#x2038;</add><add place="superlinear" resp="#pbs">bright</add>summit of Mount Blanc–</line>
+    <line>I wept like a child– Dear mountains</line>
+    <line>my own beautiful lake how do you</line>
+    <line>welcome your wanderer Your sum</line>
+    <line>mits are clear the sky and lake</line>
+    <line>are blue is this <add place="sublinear">&#x2038;</add><add place="superlinear" resp="#pbs">to</add>prognosticate peace</line>
+    <line>or to mock <add place="superlinear" resp="#pbs">at</add>my unhappiness?</line>
+    <milestone unit="tei:p"/><line>I fear, my friend 
+      <mod>
+        <del rend="strikethrough">to</del>
+        <add place="sublinear">&#x2038;</add><add place="superlinear">that I shall</add>
+      </mod> render myself</line>
+    <line>tedious by dwelling on these preliminary</line>
+    <line>circumstances but they were days of</line>
+    <line>comparative happiness and I 
+      <mod>
+        <del rend="strikethrough">dwell</del>
+        <add place="sublinear">&#x2038;</add><add place="superlinear">think</add>
+      </mod></line>
+    <line>of them with pleasure – My Country</line>
+    <line>my beloved country Who <add place="sublinear">&#x2038;</add><add place="superlinear">but a native</add>can tell the</line>
+    <line>delight I took in again beholding thy</line>
+    <line>st<add place="sublinear">&#x2038;</add><add place="superlinear">r</add>eams thy mountains and more than</line>
+    <line>all thy lovely lake <del rend="strikethrough">and</del></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0079.01"/><del rend="strikethrough">Lo<hi rend="underline">rd Byron</hi></del></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add  resp="#pbs" xml:id="c56-0079.02"/>continued my journey</line>
+  </zone>
 </surface>
