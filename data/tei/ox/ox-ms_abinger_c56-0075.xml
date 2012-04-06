@@ -14,7 +14,7 @@
     <line><del rend="strikethrough">extreme</del> <del rend="strikethrough">wh</del> <del rend="strikethrough">misery</del><add place="superlinear">anguish</add> <del rend="strikethrough">agony</del> that was</line>
     <line>visible in my countenance revealed</line>
     <line>the secret to Elizabeth. She was <delSpan rend="strikethrough" spanTo="#c56-0075.01"/>extreme</line>
-    <line>ly <anchor xml:id="c56-0075.01"/>earnest to see the corpse. 
+    <line>ly <anchor xml:id="c56-0075.01"/><add><ptr target="#c56-0075.03"/></add> earnest to see the corpse. 
       <mod next="#c56-0075.02">
           <del rend="strikethrough">which</del><del rend="strikethrough">for a</del>
           <add place="sublinear">&#x2038; </add><add place="superlinear" resp="#pbs"><del rend="strikethrough">I</del></add>
@@ -22,7 +22,7 @@
     <line>
       <mod xml:id="c56-0075.02">
         <del rend="strikethrough">long time</del><del rend="strikethrough">refused</del>
-        <add place="superlinear" resp="#pbs">attempted to prevent her</add>
+        <add><ptr target="#c56-0075.04"/></add><add place="superlinear" resp="#pbs">attempted to prevent her</add>
       </mod> but <del rend="strikethrough"><unclear>?</unclear></del> she persisted,</line>
     <line>and entering the room where it lay</line>
     <line><del rend="strikethrough">quickly</del> hastily examined the neck of</line>
@@ -53,5 +53,13 @@
     <line>are unremitted; but they will not restore</line>
     <line>my beloved William.</line>
     <milestone unit="tei:p"/><line>Come, dearest Victor, you alone can </line>
+  </zone>
+  <zone type="left_margin">
+    <add xml:id="c56-0075.03"/>
+    <line>very</line>
+  </zone>
+  <zone type="left_margin">
+    <add resp="#pbs" xml:id="c56-0075.04"/>
+    <line>At first I</line>
   </zone>
 </surface>
