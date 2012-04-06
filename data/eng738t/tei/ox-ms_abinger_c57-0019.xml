@@ -6,39 +6,53 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0019"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+  ulx="0" uly="0" lrx="5368" lry="7104"
+  partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0019.tif"/>
-    <zone type="top">(18</zone>
+  <zone type="pagination" rend="bordered">18</zone>
+  <zone type="library">10</zone>
     <zone type="main">
       <line>youth spent a great part of each</line>
-      <line>day in <del rend="overstrike">felling</del> collecting wood for the</line>
-      <line>family fire - and during the night I often</line>
-      <line>took his tools the <del rend="overstrike">com</del> use of which I</line>
+      <line>day in <del rend="strikethrough">felling</del> collecting wood for the</line>
+      <line>family fire <metamark>&#x2014;</metamark> and during the night I often</line>
+      <line>took his tools the <del rend="strikethrough">com</del> use of which I</line>
       <line>quickly discovered and brought home</line>
-      <line><del rend="overstrike">for them</del> firing sufficient <mod><add rend="sublinear">^</add><add rend="superlinear">for the consumption</add></mod> <del rend="overstrike">fo</del>f seve</line>
-      <line>ral days - [I remember the first time<add rend="superlinear">that</add> I</line>
+      <line><del rend="strikethrough">for them</del> firing sufficient <mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">for the consumption</add></mod> <del rend="strikethrough">fo</del>f seve</line>
+      <line>ral days <metamark>&#x2014;</metamark> [I remember the first time<add place="superlinear">that</add> I</line>
       <line>did this, the young woman who opened</line>
-      <line>the door in the morning <mod hand="PBS" type="subst"><del rend="overstrike">was</del><add rend="superlinear">appeared</add></mod> greatly <del rend="overstrike">sur</del></line>
-      <line><del rend="overstrike">prised</del><add rend="superlinear">astonished</add> to see a great pile of wood on</line>
-      <line>the outside - she said some words in a</line>
-      <line>loud voice, + presently the youth joined</line>
-      <line>her <del rend="overstrike">who</del> also appeared astonished.  <del rend="overstrike">and</del></line>
-      <line>I observed <del rend="overstrike">th</del> with pleasure that he</line>
-      <line>did not go to the <del rend="overstrike">wood</del><mod><add rend="sublinear">^</add><add rend="superlinear">forest</add></mod> that day but</line>
-      <line>spent it in repairing the cottage + in</line>
-      <line>cultivating the garden. - </line>
-      <line><milestone unit="section"/><mod type="subst"><del rend="overstrike">Soon after</del><add rend="superlinear">By degrees also</add></mod> I made another discovery</line>
-      <line><del rend="overstrike">to me</del> if still greater moment <add rend="sublinear">^</add><add rend="superlinear">to me</add> I found <mod hand="PBS" type="subst"><del rend="overstrike">means</del><add rend="superlinear">method</add></mod> of communicating their <del rend="overstrike">ideas</del><add rend="superlinear">experience +</add> to</line>
-      <line>one <add rend="superlinear">feelings</add> another by articulate sounds which</line>
-      <line>they uttered <add rend="superlinear"><del rend="overstrike">som</del></add>-  I <del rend="overstrike">often</del> percieved that</line>
-      <line>the words they spoke <mod><add rend="sublinear">^</add><add rend="superlinear">sometimes</add></mod> produced plea</line>
-      <line>sure pain, smiles or <choice><sic>sadnep</sic><corr>sadness</corr></choice> in the</line>
-      <line>minds + countenances of the hearers - This was</line>
+      <line>the door in the morning <mod type="subst"><del rend="strikethrough">was</del><add resp="#pbs" place="superlinear">appeared</add></mod> greatly <del rend="strikethrough">sur</del></line>
+      <line><del rend="strikethrough">prised</del><add place="superlinear">astonished</add> to see a great pile of wood on</line>
+      <line>the outside <metamark>&#x2014;</metamark> she said some words in a</line>
+      <line>loud voice, <metamark>&#x0026;</metamark> presently the youth joined</line>
+      <line>her <del rend="strikethrough">who</del> also appeared astonished.  <del rend="strikethrough">and</del></line>
+      <line>I observed <del rend="strikethrough">th</del> with pleasure that he</line>
+      <line>did not go to the <del rend="strikethrough">wood</del><mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">forest</add></mod> that day but</line>
+      <line>spent it in repairing the cottage <metamark>&#x0026;</metamark> in</line>
+      <line>cultivating the garden. <metamark>&#x2014;</metamark> <milestone unit="paragraph"/></line>
+      <line><mod type="subst"><del rend="strikethrough">Soon after</del><add place="superlinear">By degrees also</add></mod> I made another discovery</line>
+      <line><add><ptr target="#c57-0019.01"/></add><mod type="subst"><del rend="strikethrough">means</del><add resp="#pbs" place="superlinear">method</add></mod> of communicating their <del rend="strikethrough">ideas</del><add place="superlinear">experience <metamark>&#x0026;</metamark></add> to</line>
+      <line>one <add place="superlinear">feelings</add> another by articulate sounds which</line>
+      <line>they uttered <add place="superlinear"><del rend="strikethrough">som</del></add><metamark>&#x2014;</metamark>  I <del rend="strikethrough">often</del> percieved that</line>
+      <line>the words they spoke <mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">sometimes</add></mod> produced plea</line>
+      <line>sure pain, smiles or sadness in the</line>
+      <line><add><ptr target="#c57-0019.03"/></add>countenances of the hearers <metamark>&#x2014;</metamark> This was</line>
       <line>indeed a Godlike science and I ardently</line>
-      <line><mod type="subst"><del rend="overstrike">wished</del><add>desired</add></mod> to become acquainted with it - But</line>
-      <line>I was baffled in every attempt <mod type="subst"><del rend="overstrike">they</del><add rend="superlinear">I</add></mod> made <add rend="superlinear">for this purpose</add></line>
-      <line>Their pronunciation was quick + the</line>
-      <line>words they uttered <del rend="overstrike">seemed</del> <del rend="overstrike">had</del> not having</line>
+      <line><mod type="subst"><del rend="strikethrough">wished</del><add><ptr target="#c57-0019.05"/></add></mod> to become acquainted with it <metamark>&#x2014;</metamark> But</line>
+      <line>I was baffled in every attempt <mod type="subst"><del rend="strikethrough">they</del><add place="superlinear">I</add></mod> made <add place="superlinear">for this purpose</add></line>
+      <line>Their pronunciation was quick <metamark>&#x0026;</metamark> the</line>
+      <line>words they uttered <del rend="strikethrough">seemed</del> <del rend="strikethrough">had</del> not having</line>
     </zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0019.01" spanTo="#c57-0019.02"/>
+      <line><del rend="strikethrough">to me</del> of still</line>
+      <line>greater</line>
+      <line>moment <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">to me</add> I</line>
+      <line>found</line>
+    <anchor xml:id="c57-0019.02"/></zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0019.03" spanTo="#c57-0019.04"/>
+    <line>minds <metamark>&#x0026;</metamark></line>
+  <anchor xml:id="c57-0019.04"/></zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0019.05" spanTo="#c57-0019.06"/>
+    <line>desired</line>
+  <anchor xml:id="c57-0019.06"/></zone>
 </surface>
 

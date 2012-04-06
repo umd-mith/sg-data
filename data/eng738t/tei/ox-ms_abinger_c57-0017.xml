@@ -6,27 +6,32 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0017"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+  ulx="0" uly="0" lrx="5368" lry="7104"
+  partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0017.tif"/>
-    <zone type="top">(16</zone>
+  <zone type="pagination" rend="bordered">16</zone>
+  <zone type="library">9</zone>
     <zone type="main">
       <line>yet why were these gentle beings un</line>
-      <line>happy - they <choice><sic>pop</sic><corr>poss</corr></choice><mod><add rend="sublinear">^</add><add rend="superlinear"><choice><sic>ep</sic><corr>ess</corr></choice></add></mod>ed a delightful home</line>
-      <line>for such <mod><add rend="sublinear">^</add><add rend="superlinear">it</add></mod> was <del rend="overstrike">it</del><del rend="overstrike">to</del><add rend="superlinear">in</add> my eyes) and every</line>
+      <line>happy <metamark>&#x2014;</metamark> they poss<mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">ess</add></mod>ed a delightful home</line>
+      <line>for such <mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">it</add></mod> was <del rend="strikethrough">it</del><del rend="strikethrough">to</del><add place="superlinear">in</add> my eyes) and every</line>
       <line>luxury.  they had a fire to warm</line>
       <line>them when chill and delicious viands</line>
-      <line>when hungry - they were dressed</line>
-      <line><del rend="overstrike">in clothes that kept t</del> in excel</line>
+      <line>when hungry <metamark>&#x2014;</metamark> they were dressed</line>
+      <line><del rend="strikethrough">in clothes that kept t</del> in excel</line>
       <line>lent clothes and still more they enjoy</line>
-      <line>ed one anothers company<add rend="superlinear">+ such</add> - and <del rend="overstrike">saw</del></line>
-      <line>interchanged each day looks of affection + kindness -</line>
+      <line>ed one anothers company<add place="superlinear"><metamark>&#x0026;</metamark> such</add> <metamark>&#x2014;</metamark> and <del rend="strikethrough">saw</del></line>
+      <line><add><ptr target="#c57-0017.01"/></add> each day looks of affection <metamark>&#x0026;</metamark> kindness <metamark>&#x2014;</metamark></line>
       <line>What did their tears mean?  Did they</line>
-      <line>really <choice><sic>exprep</sic><corr>express</corr></choice> pain?  I was at first</line>
+      <line>really express pain?  I was at first</line>
       <line>unable to solve these questions but</line>
       <line>perpetual attention and time</line>
       <line>explained to me many of the appear</line>
       <line>ances which at first seemed</line>
-      <line><mod hand="PBS" type="subst"><del rend="overstrike">igmmatic</del><add rend="superlinear">enigmatic</add></mod> <mod hand="PBS">O you pretty Pecksie!</mod></line>
+      <line><mod type="subst"><del rend="strikethrough">igmmatic</del><add resp="#pbs" place="superlinear">enigmatic</add></mod> <add resp="#pbs">O you pretty Pecksie!</add></line>
     </zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0017.01" spanTo="#c57-0013.02"/>
+      <line>interchanged</line>
+    <anchor xml:id="c57-0017.02"/></zone>
 </surface>
 
