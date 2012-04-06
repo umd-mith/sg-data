@@ -45,7 +45,7 @@
     <line>all thy lovely lake <del rend="strikethrough">and</del></line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0079.01"/><del rend="strikethrough">Lo<hi rend="underline">rd Byron</hi></del></line>
+    <line><add xml:id="c56-0079.01"/><del rend="strikethrough"><metamark>X</metamark>Lo<hi rend="underline">rd Byron</hi></del></line>
   </zone>
   <zone type="left_margin">
     <line><add  resp="#pbs" xml:id="c56-0079.02"/>continued my journey</line>
