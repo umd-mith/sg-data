@@ -20,9 +20,10 @@
                 spanTo="#c56-0014.03"/><del rend="strikethrough">witnessed the</del></line>
         <line><del rend="strikethrough">elemental</del>
             <del rend="strikethrough">storm with pleasure</del><anchor xml:id="c56-0014.03"/></line>
-        <line>and remained while <mod><del rend="strikethrough">it</del><add place="superlinear"
-                    resp="#pbs">the storm</add></mod> lasted <mod><mod next="#c56-0014.04"><del
-                        rend="strikethrough">at</del><add place="superlinear">watching its</add>
+        <line>and remain<add place="intralinear">ed</add> while <mod><del rend="strikethrough"
+                    >it</del><add place="superlinear" resp="#pbs">the storm</add></mod> lasted
+                    <mod><mod next="#c56-0014.04"><del rend="strikethrough">at</del><add
+                        place="superlinear">watching its</add>
                     <ptr target="#c56-0014.05"/></mod></mod></line>
         <line><mod><mod xml:id="c56-0014.07"><del rend="strikethrough">the door</del>
                     <del rend="strikethrough">watchin</del><del rend="unmarked">g.</del></mod></mod>
@@ -68,7 +69,8 @@
         <line><mod><del rend="strikethrough">chemistry</del><add place="superlinear" resp="#pbs"
                     >natural philosophy</add> which promised an ex-</mod>
         </line>
-        <line><del rend="strikethrough">clamatio</del> planation of thise sort of<anchor
+        <line><del rend="strikethrough">clamatio</del> planation of th<mod><del rend="overwritten"
+                    >e</del><add place="intralinear">i</add></mod>se sort of<anchor
                 xml:id="c56-0014.09"/></line>
     </zone>
 
