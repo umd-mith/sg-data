@@ -9,6 +9,7 @@
   ulx="0" uly="0" lrx="5368" lry="7104"
   partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0039.tif"/>
+  <zone type="pagination" rend="bordered">64</zone>
   <zone type="main">
     <line><add><ptr target="c57-0039.01"/></add>These questions continually recurred but I </line>
     <line>was unable to solve them.<milestone unit="paragraph"/></line> 

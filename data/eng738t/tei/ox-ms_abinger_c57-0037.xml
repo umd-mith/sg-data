@@ -9,7 +9,8 @@
   ulx="0" uly="0" lrx="5368" lry="7104"
   partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0037.tif"/>
-  <zone type="main">
+    <zone type="pagination" rend="bordered"><unclear>62</unclear></zone>
+    <zone type="main">
     <line><del rend="overstrike">having overcome many difficulties succeeded</del></line>
     <line><del rend="overstrike">at length in joining her lover in his retreat</del><milestone unit="paragraph"/></line>
     <line>Such was the history of my beloved cotta</line>
