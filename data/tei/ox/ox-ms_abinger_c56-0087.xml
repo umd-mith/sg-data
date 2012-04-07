@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0087" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0087" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0087.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>117</line>
+  </zone>
+  <zone type="library">
+    <line>41</line>
+  </zone>
+  <zone type="main">
+    <milestone unit="tei:q" spanTo="#c56-0087.01"/>
+    <line><mod type="subst"><del rend="strikethrough">Myrtella will</del><del rend="strikethrough"
+            ><add place="sublinear">&#x2038;</add><add resp="#pbs" place="superlinear"
+          >can</add></del><mod type="additions" resp="#pbs"><add place="sublinear"
+              >&#x2038;</add><add><ptr target="#c56-0087.02"/></add></mod></mod> not be convinced
+      notwith</line>
+    <line>standing all the evidence. Indeed who</line>
+    <line>could have believed that Justine Moritz,</line>
+    <line>who was so amiable and fond of all the</line>
+    <line>family could all at once become so</line>
+    <line>extremely wicked.<metamark>"</metamark></line><anchor xml:id="c56-0087.01"/>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0087.03"/>
+    <line><metamark>"</metamark>Justine Moritz!<metamark>"</metamark> cried I,<del
+        rend="strikethrough"><metamark>"</metamark></del><del rend="strikethrough">im</del>
+      <metamark>"</metamark>poor, poor</line>
+    <line>girl is she then accused – but it is</line>
+    <line>wrongfully every one knows that. No one</line>
+    <line><del rend="strikethrough">bell</del> believes it surely,
+      Ernest?<metamark>"</metamark></line><anchor xml:id="c56-0087.03"/>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0087.04"/>
+    <line><metamark>"</metamark>No one did at first," said my brother,</line>
+    <line><metamark>"</metamark>but several <mod type="subst"><del rend="strikethrough"
+          >things</del><add place="sublinear">&#x2038;</add><add place="superlinear"
+          >circumstances</add></mod> came
+          out,<!--even with scholar's Word file, the margin text pointed to here does not read well in this context: thoughts?--><add><ptr
+          target="#c56-0087.05"/></add> and her</line>
+    <line><metamark>"</metamark>own behaviour <mod type="subst"><del rend="strikethrough">was
+          so</del><add resp="#pbs" place="sublinear">&#x2038;</add><add place="superlinear"
+          resp="#pbs">has been <del rend="strikethrough">such</del> so</add> confused <add
+          resp="#pbs" place="sublinear">&#x2038;<ptr target="#c56-0087.06"/></add></mod> but
+      she</line>
+    <line><metamark>"</metamark>will tried today and you will then hear</line>
+    <line><metamark>"</metamark>all?<metamark>"</metamark></line><anchor xml:id="c56-0087.04"/>
+    <milestone unit="tei:p"/>
+    <delSpan rend="four-vertical-slashes" spanTo="#c56-0087.07"/>
+    <line>He then related that after some</line>
+    <line>days of useless <del rend="cross-hatch">e</del> search <del rend="cross-hatch">t</del> one
+      of the magis</line>
+    <line>trates <del rend="strikethrough">opened</del> waited on my father and</line>
+    <line>informed of his desire to <del rend="strikethrough">search &amp;</del> examine</line>
+    <line>the servants of the house –To this my fa-</line>
+    <line>ther readily agreed being persuaded that</line>
+    <line><del rend="strikethrough">nothing</del>
+      <del rend="strikethrough">cou</del> all his domestics were per</line>
+    <line>fectly innocent. Justine had been</line>
+    <line>taken very ill the <del rend="strikethrough">day after</del> morning that</line>
+    <line>the murder of William had been discovered</line>
+    <line>and been obliged to confine herself to</line>
+    <line><del rend="strikethrough">her bed— Her apparel was exami</del></line>
+    <anchor xml:id="c56-0087.07"/>
+    <milestone unit="tei:p"/>
+    <line>He then related that the morning</line>
+    <line><mod type="subst"><del rend="strikethrough">after</del><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">on which</add></mod> the murder of poor
+      William</line>
+    <line><mod type="deletions" xml:id="c56-0087.08" next="#c56-0087.09"><del rend="strikethrough"
+          >h</del>ad been discovered <del rend="strikethrough">Justine o</del>
+        <del rend="strikethrough">on the</del></mod></line>
+    <line><mod type="deletions" xml:id="c56-0087.09" prev="#c56-0087.08"><del rend="strikethrough"
+          >bod</del></mod> Justine had been taken ill and</line>
+    <line>confined to her bed, and after several</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0087.02" spanTo="#c56-0087.10"/>
+    <line>Elizabeth</line>
+    <line>will</line><anchor xml:id="c56-0087.10"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0087.05" spanTo="#c56-0087.11"/><line>will</line>
+    <line>forced</line>
+    <line>conviction</line>
+    <line>upon us</line>
+    <anchor xml:id="c56-0087.11"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0087.06" spanTo="#c56-0087.12"/>
+    <line>&#x2038; <del rend="strikethrough">and</del> as</line>
+    <line>to add</line>
+    <line>to the evidence</line>
+    <line>of facts</line>
+    <line>a weight</line>
+    <line>that I</line>
+    <line>fear leaves</line>
+    <line>no hope</line>
+    <line>for doubt:</line>
+    <anchor xml:id="c56-0087.12"/>
+  </zone>
 </surface>
