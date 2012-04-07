@@ -6,9 +6,59 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0059"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0059.tif"/>
-    <zone>
+  <zone type="pagination" rend="bordered">84</zone>
+    <zone type="main">
+      <line>Snow fell around me and the waters</line>
+      <line>were hardened, but I rested not&#x2014; A few</line>
+      <line>incidents now and then directed me</line>
+      <zone type="left_margin">
+        <line>X</line>
+        <line>The agony of</line>
+        <line>my grief</line>
+        <line>allowed me no</line>
+        <line>respite, <del rend="strikethrough">N</del></line>
+        <line><del rend="strikethrough">No event of my</del></line>
+        <line>No incident</line>
+        <line>occurred from</line>
+        <line>which my rage</line>
+        <line>&#x0026; misery could</line>
+        <line>not extract its</line>
+        <line>food.</line>
+      </zone>
+      <line>right but I often <del rend="strikethrough">de</del> wandered wide from</line>
+      <line>my path.<add place="superlinear">X</add> <del rend="strikethrough">An incident</del><add place="superlinear" resp="#pbs">but a circumstance</add> that happened</line>
+      <line>when I arrived on the confines of Swit</line>
+      <line>zerland &#x2014; when the sun had recovered</line>
+      <line>a part of its heat &#x0026; the earth again</line>
+      <line>began to look green confirmed in a<add place="intralinear" resp="#pbs">n</add></line>
+      <line><del rend="strikethrough">dreadful</del><add place="superlinear" resp="#pbs">especial</add> manner the bitterness &#x0026;</line>
+      <line>horror of my feelings.<milestone unit="paragraph"/></line>
+      <line>I generally rested <del rend="strikethrough">through</del><add place="superlinear" resp="#pbs">during</add> the</line>
+      <line>day, and travelled only when I was se</line>
+      <line>cured by night from the view of man.</line>
+      <line><unclear reason="deletion"><del rend="strikethrough">til</del></unclear> one morning however finding</line>
+      <line>that my path lay through a deep</line>
+      <line>wood I ventured to continue my <del rend="strikethrough">way</del></line>
+      <zone type="left_margin">journey</zone>
+      <line>after the sun had risen <del rend="strikethrough">high in</del></line>
+      <line><del rend="strikethrough">the heavens</del>. The day which was one</line>
+      <line>of the first of spring <del rend="strikethrough">and even</del> cheered</line>
+      <zone type="left_margin">even</zone>
+      <line>me by the loveliness of its sun<metamark>&#x2038;</metamark><add place="superlinear" resp="#pbs">shine</add> &#x0026;</line>
+      <line>the gentleness of the breeze. &#x2014; I felt <del rend="strikethrough">feelings</del></line>
+      <zone type="left_margin">emotions</zone>
+      <line>of softness and pleasure that had</line>
+      <line>long appeared dead, revive within me;</line>
+      <line>half surprized with these new sensa</line>
+      <line>tions I allowed myself to be borne</line>
+      <line>away by them &#x0026; <del rend="strikethrough">forg</del> forgetting my</line>
+      <line>solitude &#x0026; deformity dared to be happy</line>
+      <line>tears of gentleness again bedewed my</line>
+      <line>cheeks and I<metamark>&#x2038;</metamark><add place="superlinear">even</add> raised my humid eyes</line>
+      <line>with thankfullness towards the blessed</line>
+      <line>sun which bestowed <del rend="strikethrough">on me</del> such joy <metamark>&#x2038;</metamark><add place="intralinear">upon me</add></line>
     </zone>
 </surface>
 

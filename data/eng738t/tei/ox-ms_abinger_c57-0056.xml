@@ -6,9 +6,40 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0056"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0056.tif"/>
-    <zone>
+  <zone type="pagination" rend="bordered">81</zone>
+    <zone type="main">
+      <line>exquisite beauty of the Arabian &#x2014; these thoughts</line>
+      <line>vanish<del rend="strikethrough"><mod resp="#pbs">ed</mod></del> &#x0026; a gush of tears somewhat soothed</line>
+      <line>me&#x2014;But again <metamark>&#x2038;</metamark><add place="superlinear">when</add>I reflected that they had</line>
+      <line>spurned &#x0026; deserted me, anger returned</line>
+      <line>and unable to <del rend="strikethrough">hurt</del> injure anything</line>
+      <line>human I turned my fury towards</line>
+      <line>inanimate objects.&#x2014; As night advanced</line>
+      <line>I placed a variety of combustibles <add place="superlinear">a</add>round</line>
+      <line>the cottage, and after having destroyed</line>
+      <line>every vestige of cultivation in the</line>
+      <line>garden &#x2014; <del rend="strikethrough">when the sun h the</del></line>
+      <line><del rend="strikethrough">moon had </del>I waited with forced pa</line>
+      <line>tience untill the moon had sunk</line>
+      <line><del rend="strikethrough">and</del> to commence my operations. As</line>
+      <line>the night advanced a fierce wind</line>
+      <line>arose from the woods and quickly</line>
+      <line><del rend="strikethrough">covered the heavens wit </del>dispersed</line>
+      <line>the clouds that had loitered in the</line>
+      <line>heavens&#x2014;  <mod rend="bordered">Like a mighty avelanche</mod></line>
+      <line><zone type="left_margin"><mod resp="#pbs">the blast</mod></zone><del rend="strikethrough">it</del> tore a long and filled with</line>
+      <line>produced <mod rend="bordered">in my spirits</mod> a kind</line>
+      <line>of insanity  that burst all bounds</line>
+      <line>of reason or reflection &#x2014; I lighted</line>
+      <line>a dry branch of tree and danced</line>
+      <line>with <del rend="strikethrough">wild</del> fury around the devoted</line>
+      <line>cottage, my eyes still fixed on the</line>
+      <line>western horizon, <del rend="strikethrough">towards</del> the edge</line>
+      <line>of which the moon nearly touched.</line>
+      <line>part of it orb was <del rend="strikethrough">h</del> at length</line>
+      <line>hid and I waved my brand &#x2014; it sunk</line>
     </zone>
 </surface>
 

@@ -6,9 +6,42 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0057"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0057.tif"/>
-    <zone>
+  <zone type="pagination" rend="bordered">82</zone>
+    <zone type="main">
+      <line>and with a loud scream I fird</line>
+      <line>the straw and hay <del rend="strikethrough">of my bon</del> that</line>
+      <line>I had collected. The wind <del rend="strikethrough">blew</del><add place="superlinear">fanned</add> the <del rend="strikethrough">flame</del><add place="superlinear">fire</add></line>
+      <line>and the cottage was quickly enveloped</line>
+      <line>by the flames which clung to it</line>
+      <line>and <del rend="strikethrough">liked</del> licked it with <del rend="strikethrough">th with</del></line>
+      <line>their forked <del rend="strikethrough">ton</del><add place="superlinear" resp="#pbs">&#x0026; destroying</add> tongues, <del rend="strikethrough">to destroy</del></line>
+      <line><del rend="strikethrough">it&#x2014;</del>. As soon as I was convinced that</line>
+      <line>no <del rend="strikethrough">hu</del> assistance could save any</line>
+      <line>part of the habitation I quitted</line>
+      <line>the scene and sought for refuge</line>
+      <line>in the wood.<milestone unit="paragraph"/></line>
+      <line>And now <del rend="strikethrough">it</del> with the world before</line>
+      <line>me <metamark>&#x2038;</metamark>w<add place="superlinear">h</add>ither should I bend my steps?</line>
+      <line>I resolved to fly far from the scene</line>
+      <line>of my misfortunes &#x2014; <add place="superlinear" resp="#pbs">But</add><del rend="strikethrough">And</del> to me, hated</line>
+      <line>and despised, every country <del rend="strikethrough">And</del></line>
+      <line>must be equally horrible At length</line>
+      <line>the thought of you crossed my</line>
+      <line>mind &#x2014; I learned from your papers</line>
+      <line>that you <add place="superlinear">were my</add><del rend="strikethrough">was I</del> creator &#x0026; to whom</line>
+      <line><del rend="strikethrough">w</del> could I apply with more fitness</line>
+      <line>than to h<del rend="overwritten">e</del><add place="intralinear" resp="#pbs">im</add> who had given<metamark>&#x2038;</metamark><add place="superlinear">me</add> life.</line>
+      <line>Among the lessons that Felix had</line>
+      <line>bestowed on <del rend="strikethrough">Maimouna</del><add place="superlinear">Safie</add> geography</line>
+      <line>had not been ommitted. From</line>
+      <line>these I had learned the relative</line>
+      <line>situations of the different countries</line>
+      <line><zone type="left_margin"><line>of the earth;</line></zone>You had mentioned Geneva as</line>
+      <line>the name of your native town</line>
+      <line>&#x0026; <del rend="strikethrough">towards</del> this place I resolved to</line>
+      <line>proceed.</line>
     </zone>
 </surface>
 
