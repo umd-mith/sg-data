@@ -2,13 +2,53 @@
 <?xml-model
   href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
-<surface
+<surface partOf="ox-ms_abinger_c57"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0047"
   ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0047.tif"/>
-    <zone>
-    </zone>
+    <zone type="pagination"> 
+      <line>72</line>
+    </zone> 
+  <zone type="main">  
+  <line>"Do not trouble yourself, my kind</line> 
+    <line>host," I replied, I have food, it is warmth</line>  
+    <line>and rest only that I need.&#x2014;I sat down</line> 
+    <line>and a silence ensued; I knew very</line> 
+    <line>well that every minute was precious</line> 
+    <line>to me yet I remained irresolute <add place="superlinear">in</add>what</line> 
+    <line><del rend="strikethrough">to say</del> when the old man <add place="superlinear">addressed me</add><del rend="strikethrough">began</del> &#x2014;"By</line> 
+    <line>your language St<add place ="superlinear">r</add>anger, I suppose you</line> 
+    <line>are my countryman, are you french?"</line> 
+    <line>"No," replied I  but I was educated by a</line> 
+    <line>french family and understand that</line> 
+    <line>language only. <del rend="strikethrough">I am unfortunate and</del> </line> 
+    <line> <del rend="strikethrough">a Str</del>I am now going to claim the </line> 
+    <line>protection of some friends, whom I sincerely</line> 
+    <line>love <add place="superlinear">and</add> <del rend="strikethrough">but</del>of whose favour I have</line> 
+    <line>some hopes." "Are these Germans" [strange mark] Asked</line> 
+    <line>De Lacey &#x2014; <del rend="strikethrough">know</del>"No &#x2014; They are french &#x2014; But let</line> 
+    <line>us change the subject &#x2014; I am an unfortu</line> 
+    <line>nate &#x0026; deserted creature.  I look around and</line> 
+    <line>I have no relation or friend <add place="superlinear">on earth &#x2014;</add>The <add place="sublinear">se</add> <add place="superlinear">amiable</add><del rend="strikethrough">kind</del></line> 
+    <line>people to whom I go, have never seem</line> 
+    <line>me and know little of me. I am full</line> 
+    <line>of fears, for if I fail there, I am an</line> 
+    <line>outcast in the world for ever."<milestone unit="paragraph"/></line> 
+    <line>Do not despair, said the old man.</line> 
+    <line>To be friendless is indeed to be unfortu</line> 
+    <line>nate: but <add place="superlinear">the hearts of</add>men <del rend="strikethrough">are</del>when unpre</line> 
+    <line>judiced by obvious self interrest, are full</line> 
+    <line>of brotherly love and charity.  Rely therefore</line> 
+    <line>on your hopes and if <del rend="strikethrough">these dispositions</del></line> 
+    <line><del rend="strikethrough">of your friends are kind </del>these friends</line> 
+    <line>are good and amiable &#x2014; do not <add place="superlinear">despair</add><del rend="strikethrough">fear</del><del rend="strikethrough">for your</del> </line>
+  </zone> 
+  <zone type="left_margin"> 
+    <line>manner to</line> 
+    <line>commence</line> 
+    <line>the interview</line>
+  </zone>
 </surface>
 
