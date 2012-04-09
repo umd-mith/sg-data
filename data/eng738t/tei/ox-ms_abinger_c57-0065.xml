@@ -6,7 +6,7 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0065"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0065.tif"/>
   <zone type="pagination" rend="bordered">90</zone>
   <zone type="library">33</zone>
@@ -23,7 +23,7 @@
     <line>smiles are bestowed on all but me</line>
     <line><del rend="strikethrough">but</del> She shall not escape my vengeance</line>
     <line>thanks to the lessons of Felix &#x0026; the</line>
-    <line>sanguinary laws of man, I <add place="superlinear">have learned</add><del rend="strikethrough">know</del> how</line>
+    <line>sanguinary laws of man, I <add place="superlinear"><mod resp="#pbs">have learned</mod></add><del rend="strikethrough">know</del> how</line>
     <line>to work mischief.  I approached her</line>
     <line>unpeceived, and placed the portrait</line>
     <line>securely in one of the folds of her</line>
