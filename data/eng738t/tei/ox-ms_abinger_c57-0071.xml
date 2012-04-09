@@ -6,7 +6,7 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0071"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0071.tif"/>
   <zone type="pagination" rend="bordered"><line>96<add place="intralinear">A</add></line></zone>
   <zone type="library">36</zone>
@@ -31,7 +31,7 @@
     <line>your labours.  I shall <del rend="strikethrough">th</del> watch</line>  
     <line>their progress with <del rend="strikethrough">utt</del> unutterable</line>
     <line>anxiety and fear not but that when</line>
-    <line>you are ready for me <add place="superlinear">but that</add>I shall appear.<milestone unit="paragraph"/></line>
+    <line>you are ready for me <add place="superlinear"><mod resp="#pbs">but that</mod></add>I shall appear.<milestone unit="paragraph"/></line>
     <line>Saying this he suddenly quitted me</line>
     <line>fearful perhaps of any change in</line> 
     <line>my sentiments.  I saw him descend</line>
