@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0089" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0089" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0089.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>119</line>
+  </zone>
+  <zone type="library">
+    <line>42</line>
+  </zone>
+  <zone type="main">
+    <line>that she should suffer as <del rend="strikethrough">innocent</del></line>
+    <line>guilty – She is to be tried today and I hope I</line>
+    <line>sincerely hope that she will be acquitted</line>
+    <milestone unit="tei:p"/>
+    <line>This speech calmed me. I was firmly con</line>
+    <line>vinced in my own mind that Justine and</line>
+    <line>indeed every human being was guiltless of</line>
+    <line>this murder. I had no fear therefore</line>
+    <line>that any circumstantial evidence could</line>
+    <line>be brought forward strong enough to</line>
+    <line>convict her and in this assurance I calmed</line>
+    <line>myself expecting the trial with eagerness</line>
+    <line>but without prognosticating an evil</line>
+    <line>result.</line>
+  </zone>
+  <zone type="main">
+    <metamark>——————————————</metamark>
+  <!--ID from issue #119, file c56-0088. Reasoning in scholar's note on Word file page for that issue-->  <addSpan xml:id="c56-0088.03" spanTo="#c56-0089.01"/>  <line><metamark>✗</metamark>I saw unhappiness deeply impressed</line>
+    <line>co on his countenance but he endea</line>
+    <line>voured to welcome me cheerfully</line>
+    <line>and <mod type="additions" resp="#pbs"><add place="sublinear"
+          >&#x2038;</add><!--unclear of insertion point of following marginal text "he"--><mod
+          type="subst"><del rend="unmarked"><add><ptr target="#c56-0089.02"/></add></del></mod><add
+          place="superlinear">after <mod type="subst"><del rend="strikethrough">our</del>
+            <del rend="strikethrough">mournful</del><add place="superlinear">we</add></mod> had
+          exchanged our mournful greetings</add></mod>would have spoken on some</line>
+    <line>other topic than that of our disaster</line>
+    <line>had not</line><anchor xml:id="c56-0089.01"/>
+  </zone>
+
+  <zone type="left_margin">
+    <line><add xml:id="c56-0089.02">he</add></line>
+  </zone>
 </surface>
