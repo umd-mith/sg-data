@@ -6,7 +6,7 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0070"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0070.tif"/>
   <zone type="pagination" rend="bordered"><line>95</line></zone>
   <zone type="main"><line>thize with him I had no right to refuse him</line>
@@ -16,10 +16,10 @@
   <line>a degree of malise that would reasonably</line>
   <line>make me distrust you?  May not even this</line>
   <line>be a feint that will encrease your triumph</line>
-  <line><del rend="strikethrough">&#x0026; desire of revenge</del><add place="superlinear">by affording a wider scope to your revenge.</add></line>
+    <line><del rend="strikethrough">&#x0026; desire of revenge</del><add place="superlinear"><mod resp="#pbs">by affording a wider scope to your revenge.</mod></add></line>
   <line>How is this, cried he; I thought I had moved</line>
     <line>your compassion, and yet you still refuse to</line>
-    <line><add place="intralinear">bestow on</add><del rend="strikethrough">give</del> me the only benefit that <add place="superlinear">can</add>soften my</line>
+    <line><add place="intralinear">bestow on</add><del rend="strikethrough">give</del> me the only benefit that <add place="superlinear"><mod resp="#pbs">can</mod></add>soften my</line>
     <line>heart and render me harmless.  If I</line>
     <line>have no ties &#x0026; no affections hatred &#x0026; vice</line>
     <line>must be my portion.  The love of another</line>
@@ -28,17 +28,17 @@
     <line>one will be ignorant.  My vices are</line>
     <line><del rend="strikethrough">ch</del> the children of <metamark>&#x2038;</metamark><add place="superscript">a</add>forced solitude that I</line>
     <line>abhor and my virtues will necessarily arise</line>
-    <line>when <add place="superlinear"><del rend="strikethrough">sh</del></add>I <add place="superlinear">shall</add>receive the sympathy of an equal.</line>
-    <line>I shall feel <del rend="strikethrough">human</del><add place="superlinear">the</add> <del rend="strikethrough">sy</del> <del rend="strikethrough">f</del> affections <metamark>&#x2038;</metamark> <add place="superlinear">of a living being</add> &#x0026;</line>
+    <line>when <add place="superlinear"><del rend="strikethrough"><mod resp="#pbs">sh</mod></del></add> I <add place="superlinear"><mod resp="#pbs">shall</mod></add>receive the sympathy of an equal.</line>
+    <line>I shall feel <del rend="strikethrough">human</del><add place="superlinear"><mod resp="#pbs">the</mod></add> <del rend="strikethrough">sy</del> <del rend="strikethrough">f</del> affections <metamark>&#x2038;</metamark> <add place="superlinear"><mod resp="#pbs">of a living being</mod></add> &#x0026;</line>
     <line>become linked to the chain of existence</line>
     <line>&#x0026; events from which I am now excluded <milestone unit="paragraph"/></line>
     <line>I paused some time <metamark>&#x2038;</metamark><add place="superlinear">to</add>reflect on all</line>
     <line>he had related and the various arguments</line>
-    <line><add place="intralinear">which</add><del rend="strikethrough">that</del> he had <del rend="strikethrough">used</del><add place="superlinear">employed</add>.  I thought of his <del rend="strikethrough">pro&#x2014;</del></line>
-    <line><del rend="strikethrough">mises &#x0026; threats</del> the <del rend="strikethrough">various</del> <add place="superlinear">promise of</add> virtues <add place="superlinear">which</add>he</line>
+    <line><add place="intralinear"><mod resp="#pbs">which</mod></add><del rend="strikethrough">that</del> he had <del rend="strikethrough">used</del><add place="superlinear"><mod resp="#pbs">employed</mod></add>.  I thought of his <del rend="strikethrough">pro&#x2014;</del></line>
+    <line><del rend="strikethrough">mises &#x0026; threats</del> the <del rend="strikethrough">various</del> <add place="superlinear"><mod resp="#pbs">promise of</mod></add> virtues <add place="superlinear"><mod resp="#pbs">which</mod></add>he</line>
     <line>had displayed on the opening of his exis</line>
-    <line><add place="intralinear">tence;</add>and the subsequent blight <add place="superlinear">of all</add><del rend="strikethrough">caused by</del></line>
-    <line>the <add place="superlinear>kindly feelings by</add>detestation &#x0026; horror  <add place="superlinear">inspired by</add><del rend="strikethrough">that his</del></line>
+    <line><add place="intralinear">tence;</add>and the subsequent blight <add place="superlinear"><mod resp="#pbs">of all</mod></add><del rend="strikethrough">caused by</del></line>
+    <line>the <add place="superlinear"><mod resp="#pbs">kindly feelings by</mod></add>detestation &#x0026; horror  <add place="superlinear"><mod resp="#pbs">inspired by</mod></add><del rend="strikethrough">that his</del></line>
     <line>protectors had manifested towards</line>
     <line>him.  His power &#x0026; threats were not</line>
     <line>ommitted in my calculations; a crea</line>
