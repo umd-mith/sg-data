@@ -62,6 +62,6 @@
     <addSpan xml:id="c56-0093.03" spanTo="#c56-0093.05"/>
     <line>&#x2038; unin-</line>
     <line>telligible</line>
-    <line>&#x2038;</line><anchor xml:id="c56-0093.05"/>
+    <line><unclear unit="chars" extent="2"/></line><anchor xml:id="c56-0093.05"/>
   </zone>
 </surface>
