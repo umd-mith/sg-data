@@ -6,11 +6,11 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0067"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0067.tif"/>
   <zone type="pagination" rend="bordered"><line>92</line></zone>
   <zone type="library">34</zone>
-  <zone type="main"><line>injury I would bestow every benefit <add place="superlinear">upon him</add> with</line>
+  <zone type="main"><line>injury I would bestow every benefit <add place="superlinear"><mod resp="#pbs">upon him</mod></add> with</line>
     <line>tears of gratitude at his acceptance.  But</line>
     <line>that cannot be; the human senses are <del rend="strikethrough">an</del></line>
     <line>insurmountable barriers to our union.</line>
@@ -18,7 +18,7 @@
     <line>slavery. I will revenge my injuries <del rend="strikethrough">&#x0026;</del> if I</line>
     <line>cannot inspire love I will cause fear</line>
     <line>and chiefly <add place="superlinear">towards</add> you my arch-enemy because</line>
-    <line>my creator; <del rend="strikethrough">I w</del> do I swear <del rend="strikethrough">unutterable</del><add place="superlinear">inextinguishable</add></line>
+    <line>my creator; <del rend="strikethrough">I w</del> do I swear <del rend="strikethrough">unutterable</del><add place="superlinear"><mod resp="#pbs">inextinguishable</mod></add></line>
     <line>hatred&#x2014; I will work &#x0026; destroy nor finish</line>
     <line>untill I desolate your heart so that you</line>
     <line>curse the hour of your birth."  A fiend</line>
@@ -29,7 +29,7 @@
     <line>proceeded.<milestone unit="paragraph"/></line>
     <line>I intended to reason. This passion</line>
     <line>is detrimental to me, for you do not</line>
-    <line>reflect that you are the <metamark>&#x2038;</metamark><add place="superlinear">sole</add> cause<metamark>&#x2038;</metamark><add place="superlinear">of its excesses.</add>. If</line>
+    <line>reflect that you are the <metamark>&#x2038;</metamark><add place="superlinear"><mod resp="#pbs">sole</mod></add> cause<metamark>&#x2038;</metamark><add place="superlinear"><mod resp="#pbs">of its excesses.</mod></add>. If</line>
     <line>any being felt emotions of benevolence</line>
     <line>towards me I should return then an</line>
     <line>hundred &#x0026; a hundred fold; for that</line>
@@ -45,7 +45,7 @@
     <line>the world but on that account we</line>
     <line>shall be more attached to one another</line>
     <line>Our lives will not be happy but they</line>
-    <line>will be harmless &#x0026; free from <add place="superlinear">the</add> misery</line>
+    <line>will be harmless &#x0026; free from <add place="superlinear"><mod resp="#pbs">the</mod></add> misery</line>
     <line><add place="intralinear">which</add><del rend="strikethrough">that</del> I now feel.  Oh! my creator make</line>
     </zone>
 </surface>
