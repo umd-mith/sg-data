@@ -39,7 +39,7 @@
         <del rend="strikethrough">for</del>
       </mod>for she looked</line>
     <line>very <del rend="strikethrough">stang</del> strangely and only returned a</line>
-    <line>confused<add place="sublinear">&#x2038;</add> answer<del rend="strikethrough">e</del>. <add place="sublinear">&#x2038;</add><add place="superlinear">She</add><del rend="strikethrough">S</del> <del rend="strikethrough">came</del> returned to </line>
+    <line>confused<add place="sublinear">&#x2038;</add><add><ptr target="#c56-0093.03"/></add> answer<del rend="strikethrough">e</del>. <add place="sublinear">&#x2038;</add><add place="superlinear">She</add><del rend="strikethrough">S</del> <del rend="strikethrough">came</del> returned to </line>
     <line>the house about eight o'clock and when</line>
     <line>some one enquired where she had</line>
     <line>passed the night she replied that she</line>
