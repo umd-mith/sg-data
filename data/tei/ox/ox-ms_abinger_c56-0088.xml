@@ -32,41 +32,41 @@
     <line>innocent."</line><anchor xml:id="c56-0088.01"/>
     <milestone unit="tei:p"/>
     <line>At that instant my father en-</line>
-    <line>tered<add resp="#pbs"><metamark>✗</metamark><ptr target="#c56-0088.02"/></add><del
+    <line>tered<add resp="#pbs"><metamark>✗</metamark><ptr target="#c56-0088.02"/><ptr target="#c56-0088.03"/></add><del
         rend="strikethrough">and</del> Ernest exclaimed <milestone unit="tei:q"
-        spanTo="#c56-0088.03"/>Good God, Pa</line>
+        spanTo="#c56-0088.04"/>Good God, Pa</line>
     <line>pa! Victor says that he <mod type="deletions"><del rend="strikethrough">has</del>
         <del rend="strikethrough">k</del></mod> knows</line>
     <line>the murderer of poor William.</line>
-    <anchor xml:id="c56-0088.03"/><milestone unit="tei:p"/>
-    <milestone unit="tei:q" spanTo="#c56-0088.04"/>
+    <anchor xml:id="c56-0088.04"/><milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0088.05"/>
     <line>"<del rend="strikethrough">And</del> We do also, unfortunately,"<anchor
-        xml:id="c56-0088.04"/> replied my</line>
-    <line>father <milestone unit="tei:q" spanTo="#c56-0088.05"/>for indeed I had rather have</line>
+        xml:id="c56-0088.05"/> replied my</line>
+    <line>father <milestone unit="tei:q" spanTo="#c56-0088.06"/>for indeed I had rather have</line>
     <line>been <mod type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear"
           >for ever</add></mod> ignorant than, have discovered so</line>
     <line>much depravity &amp; ingratitude in one whom</line>
-    <line>I valued so highly.</line><anchor xml:id="c56-0088.05"/>
-    <milestone unit="tei:p"/>
-    <milestone unit="tei:q" spanTo="#c56-0088.06"/>
-    <line>"My dear father" exclaimed I–"You are</line>
-    <line>mistaken<unclear precision="unknown" unit="chars" extent="1" reason="possibly-uniliteral"
-        >.</unclear> Justine is innocent."</line><anchor xml:id="c56-0088.06"/>
+    <line>I valued so highly.</line><anchor xml:id="c56-0088.06"/>
     <milestone unit="tei:p"/>
     <milestone unit="tei:q" spanTo="#c56-0088.07"/>
+    <line>"My dear father" exclaimed I–"You are</line>
+    <line>mistaken<unclear precision="unknown" unit="chars" extent="1" reason="possibly-uniliteral"
+        >.</unclear> Justine is innocent."</line><anchor xml:id="c56-0088.07"/>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0088.08"/>
     <line>"If she is" replied my father "God forbid</line>
-    <anchor xml:id="c56-0088.07"/>
+    <anchor xml:id="c56-0088.08"/>
   </zone>
   <zone type="left_margin">
-    <delSpan rend="giant-ex" spanTo="#c56-0088.08"/>
-    <addSpan xml:id="c56-0088.02" spanTo="#c56-0088.09"/>
+    <delSpan rend="giant-ex" spanTo="#c56-0088.09"/>
+    <addSpan xml:id="c56-0088.02" spanTo="#c56-0088.10"/>
     <line>After our</line>
     <line>first</line>
     <line>mournful</line>
     <line>greetings</line>
     <line>had past</line>
     <line>I</line>
+    <anchor xml:id="c56-0088.10"/>
     <anchor xml:id="c56-0088.09"/>
-    <anchor xml:id="c56-0088.08"/>
   </zone>
 </surface>
