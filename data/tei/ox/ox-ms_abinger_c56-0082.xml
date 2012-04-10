@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56-0082">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0082.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">112</zone>
+  <zone type="main">
+ 
+    <line>Switzerland that country appeared at once in various</line>
+    <line>parts of the heavens. THe most violent</line>
+    <line>storm was hung exactly noth north of the town</line>
+    <line>and at over that part where of the lake which turns at</line>
+    <line>the promontory lies between of Belrive and the changing</line>
+    <line>its course from South to north which village of Copet</line>
+    <line>it before pursuesd proceeds from west</line>
+    <line>to east- another storm enlightened</line>
+    <line>Jura with faint flashes and another</line>
+    <line>appeared darkened and sometimes</line>
+    <line>disclosed the Mole. the name of</line>
+    <line>a peaked mountain to the east of </line>
+    <line>the lake.</line>
+    <line>While I watched the storm- so beauti</line>
+    <line>ful yet terrific I wandered listlessly</line>
+    <line>on with a hasty step- I felt that</line>
+    <line>this noble war in the sky elevated</line>
+    <line>my spirits; I clasped my hands &amp; ex</line>
+    <line>claimed aloud "William, dear angel,</line>
+    <line>this is thy funeral, this thy dirge!"-</line>
+    <line>As I said these words a flash of lightning I perceived in the gloom</line>
+    <line>discovered to me a figure which stole from</line>
+    <line>behind a clump of trees near me- I stood</line>
+    <line>ghast its gigantc stanture, its &amp; the deformity</line>
+    <line>of its aspect more hideous than a man couild be belongs to humanity</line>
+    <line>explain instantly informed me who it</line>
+    <line>was. I was the wretch, the filthy daemon to</line>
+    <line>whom I had given life. What did he there?</line>
+    <line>Could he be (I shuddered at the conception</line>
+  </zone>
+  <zone type="left_margin">
+    <line>I stood fixed gazing intently, I could not mistaken a flash of lightning illumined teh object and discovered to me</line>
+  </zone>
 </surface>
