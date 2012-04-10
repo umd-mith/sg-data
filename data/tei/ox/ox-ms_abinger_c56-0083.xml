@@ -1,55 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0083">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0083.tif"/>
-  <zone type="library"> 42 <note>position is in upper right corner of page</note>
-  </zone>
-  <zone type="main">
-    <note>zone is empty excluding seep-through of ink from reverse (or washed-out writing, as in
-      palimpsest?), and over-writing from previous page (image ox-Ms_abinger_c57-0082.jpg, the page
-      marked "102")</note>
-    <line> ing <note>this is run-on from opposite page, ox-ms_abinger_c57-0083.jpg in surrogate
-        (p.102 marked @ top)--line 10 in Robinson transcript</note>
-    </line>
-  </zone>
   <zone type="pagination">113</zone>
   <zone type="library">39</zone>
   <zone type="main">
+    <line> the murderer of my brother. No sooner</line>
+    <line>did that idea cross my imagination than</line>
+    <line>I became convinced <mod type="additions"><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">of its truth</add></mod>-
+      my teeth chattered</line>
+    <line>and I was forced to lean against <del rend="strikethrough">th</del> a </line>
+    <line>tree for suport- The figure quickly passed</line>
+    <line>me and I lost it in the gloom.<del rend="strikethrough">And</del>
+      <del rend="overwritten">h</del>He</line>
+    <line>was the murderer! <add><ptr target="#c56-0083.01"/></add><mod type="deletions">
+        <del rend="strikethrough">I doubted </del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear"><del rend="strikethrough"
+            >could not</del></add>
+        <del rend="strikethrough">it not my</del></mod></line>
+    <line><del rend="strikethrough">the thought was agony</del><del rend="strikethrough"><add
+          place="superlinear"> I was agonized by the bare probability</add></del>.- I thought of
+      pur</line>
+    <line>sueing the devil, but <mod type="additions"><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear"> it would have
+        been</add></mod> in vain for another</line>
+    <line>flash discovered him to me <del rend="strikethrough">climbing</del></line>
+    <line><mod type="subst"><del rend="strikethrough">up the steep and</del>
+        <add place="superlinear" resp="#pbs">hanging among the rocks of the</add></mod> nearly
+      perpendicular</line>
+    <line>ascent of the Mont-Sal&#234;ve; he soon reached</line>
+    <line>the summit and dissapeared.</line>
+    <line>I remained motionless the thunder</line>
+    <line> ceased but the rain still continued &amp;</line>
+    <line>the scene was inveloped in a<add place="intralinear">n</add>
+      <mod type="subst"><del rend="strikethrough">pitchy</del>
+        <add place="superlinear">impenetrable</add></mod> dark-</line>
+    <line>ness. I revolved in my mind <del rend="strikethrough"> I revolved in</del></line>
     <line>
-      <line> the murderer of my brother. No sooner</line>
-      <line>did tat idea crop my imagination than</line>
-      <line>I became convinced <add place="superlinear">of its truth</add> my teeth chattered</line>
-      <line>and I was forced to lean against th a </line>
-      <line> tree for suport- The figure quickly passed</line>
-      <line> me and I lost it in the gloom. <del rend="strikethrough">And</del>
-        <del rend="overwritten">h</del>He</line>
-      <line>was the murderer!<mod type="deletions">
-          <del rend="strikethrough">I doubted </del><add place="superlinear"><del
-              rend="strikethrough">could not</del></add>
-          <del rend="strikethrough">it not my</del></mod></line>
-      <line>the thought was agony I was agonized by the bare probability.- I thought of pur</line>
-      <line>sueing the devil, but it would have been in vain for another</line>
-      <line>flash discovered him to me climbing</line>
-      <line>up the steep and hanging among the rocks of the nearly perpendicular</line>
-      <line> ascent of the Mont-Saleve; he soon reached</line>
-      <line>the summit and dissapeared.</line>
-      <line>I remained motionless the thunder</line>
-      <line> ceased but the rain still continued &amp;</line>
-      <line>The scene was inveloped impenetrable in an pitchy dark-</line>
-      <line>ness. I revolved in my mind I revolved in</line>
-      <line> my mind the events which I u had,</line>
-      <line> untill now, sought to forget &#x2038; The appearance</line>
-      <line> of the creature the work of my own hands, alive at my bed side- &amp; its
-        departure</line>
-      <line>Its It was now nearly two years had now nearly elapsed since the </line>
-      <line> night of on which he first recieved </line>
-      <line>life, and was this his first crime- &amp; Alas!</line>
-      <line>I had turned loose in the world a depraved</line>
-      <line>wretch whose delight was in deat</line>
-      <line>murder &amp; wretchedness; For for had he not murdered my brother?</line>
-      <line>No one can conceive of the anguish I </line>
-      <line> suffered during the remainder of the</line>
-    </line>
+      <del rend="strikethrough">my mind</del> the events which I <del rend="strikethrough">u</del>
+      had,</line>
+    <line> untill now, sought to forget <add><metamark>&#x2038;</metamark></add><add><ptr
+          target="#c56-0083.02"/></add> The appearance</line>
+    <line> of <mod type="subst"><del rend="strikethrough">the
+            creature</del><add><metamark>&#x2038;</metamark></add>
+        <add place="superlinear" resp="#pbs">the work of my own hands, alive</add></mod> at my bed
+      side- <add place="superlinear" resp="#pbs"> &amp;</add> its departure.</line>
+    <line><del rend="strikethrough">Its</del>
+      <del rend="strikethrough">It was now nearly</del> two years <mod type="additions"
+            ><add><metamark>&#x2038;</metamark></add><add place="superlinear">had now nearly
+          elapsed</add></mod> since the </line>
+    <line> night <del rend="strikethrough">of</del> on which he first received </line>
+    <line>life, and was this his first crime- <del rend="strikethrough"><unclear/></del>Alas!</line>
+    <line>I <mod type="additions"><add><metamark>&#x2038;</metamark></add><add>had</add></mod>
+      turned loose in the world a depraved</line>
+    <line>wretch whose delight was in <del rend="strikethrough">deat</del></line>
+    <line>murder &amp; wretchedness; <del rend="strikethrough">For</del> for had he not murdered my
+      brother?</line>
+    <line>No one can conceive of the anguish I </line>
+    <line> suffered during the remainder of the</line>
   </zone>
+  <zone type="left_margin"><add>therefore</add><!-- It is not clear where this word should be inserted 
+      and the Word Files seem to have eliminated it. --></zone>
+  <zone type="left_margin"><add xml:id="c56-0083.01">Nothing <add place="superlinear" resp="#pbs"
+        >in</add> human shape could have destroyed that fair child. He was the murderer! I could not
+      doubt it. The mere presence of the idea was an irresistible proof of the fact</add></zone>
+  <zone type="left_margin"><add>I revolved in my mind</add><!-- This phrase appears three times in the document. Twice in main body, one is cancelled. 
+      This marginal occurrence does not appear to have a logical place for insertion --></zone>
+  <zone type="left_margin"><add xml:id="c56-0083.02">The whole train of my progress towards my
+      <unclear/>creation</add></zone>
 </surface>
