@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0083.tif"/>
-    <zone type="library">
-      42 <note>position is in upper right corner of page</note>
-    </zone>
+  <zone type="library"> 42 <note>position is in upper right corner of page</note>
+  </zone>
   <zone type="main">
-    <note>zone is empty excluding seep-through of ink from reverse (or washed-out writing, as in palimpsest?), and over-writing from previous page (image ox-Ms_abinger_c57-0082.jpg, the page marked "102")</note>
-<line>
-  ing <note>this is run-on from opposite page, ox-ms_abinger_c57-0083.jpg in surrogate (p.102 marked @ top)--line 10 in Robinson transcript</note>
-</line>  
+    <note>zone is empty excluding seep-through of ink from reverse (or washed-out writing, as in
+      palimpsest?), and over-writing from previous page (image ox-Ms_abinger_c57-0082.jpg, the page
+      marked "102")</note>
+    <line> ing <note>this is run-on from opposite page, ox-ms_abinger_c57-0083.jpg in surrogate
+        (p.102 marked @ top)--line 10 in Robinson transcript</note>
+    </line>
+  </zone>
+  <zone type="pagination">113</zone>
+  <zone type="library">39</zone>
+  <zone type="main">
+    <line>
+      <line> the murderer of my brother. No sooner</line>
+      <line>did tat idea crop my imagination than</line>
+      <line>I became convinced <add place="superlinear">of its truth</add> my teeth chattered</line>
+      <line>and I was forced to lean against th a </line>
+      <line> tree for suport- The figure quickly passed</line>
+      <line> me and I lost it in the gloom. <del rend="strikethrough">And</del>
+        <del rend="overwritten">h</del>He</line>
+      <line>was the murderer!<mod type="deletions">
+          <del rend="strikethrough">I doubted </del><add place="superlinear"><del
+              rend="strikethrough">could not</del></add>
+          <del rend="strikethrough">it not my</del></mod></line>
+      <line>the thought was agony I was agonized by the bare probability.- I thought of pur</line>
+      <line>sueing the devil, but it would have been in vain for another</line>
+      <line>flash discovered him to me climbing</line>
+      <line>up the steep and hanging among the rocks of the nearly perpendicular</line>
+      <line> ascent of the Mont-Saleve; he soon reached</line>
+      <line>the summit and dissapeared.</line>
+      <line>I remained motionless the thunder</line>
+      <line> ceased but the rain still continued &amp;</line>
+      <line>The scene was inveloped impenetrable in an pitchy dark-</line>
+      <line>ness. I revolved in my mind I revolved in</line>
+      <line> my mind the events which I u had,</line>
+      <line> untill now, sought to forget &#x2038; The appearance</line>
+      <line> of the creature the work of my own hands, alive at my bed side- &amp; its
+        departure</line>
+      <line>Its It was now nearly two years had now nearly elapsed since the </line>
+      <line> night of on which he first recieved </line>
+      <line>life, and was this his first crime- &amp; Alas!</line>
+      <line>I had turned loose in the world a depraved</line>
+      <line>wretch whose delight was in deat</line>
+      <line>murder &amp; wretchedness; For for had he not murdered my brother?</line>
+      <line>No one can conceive of the anguish I </line>
+      <line> suffered during the remainder of the</line>
+    </line>
   </zone>
 </surface>
