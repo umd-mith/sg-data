@@ -1,42 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56-0082">
+  xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0082">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0082.tif"/>
   <zone type="pagination">112</zone>
   <zone type="main">
- 
-    <line>Switzerland that country appeared at once in various</line>
-    <line>parts of the heavens. THe most violent</line>
-    <line>storm was hung exactly noth north of the town</line>
-    <line>and at over that part where of the lake which turns at</line>
-    <line>the promontory lies between of Belrive and the changing</line>
-    <line>its course from South to north which village of Copet</line>
-    <line>it before pursuesd proceeds from west</line>
-    <line>to east- another storm enlightened</line>
+    <line><mod type="subst"><add place="superlinear">Switzerland</add>
+        <del rend="strikethrough">that country</del></mod> appeared at once in various</line>
+    <line>parts of the heavens. The most violent</line>
+    <line>storm <mod type="subst"><del rend="strikethrough">was</del>
+        <add place="superlinear" resp="#pbs">hung</add></mod> exactly <del rend="strikethrough"
+        >noth</del> north of the town</line>
+    <line><mod type="subst"><del rend="strikethrough">and at</del>
+        <add place="superlinear" resp="#pbs">over</add></mod> that part <mod type="subst"><del
+          rend="strikethrough">where</del>
+        <add place="superlinear" resp="#pbs">of the</add></mod> lake <add place="superlinear"
+        resp="#pbs">which</add>
+      <del rend="strikethrough">turns</del>
+      <del rend="strikethrough"><add place="superlinear" resp="#pbs">at</add></del></line>
+    <line><add place="superlinear" resp="#pbs">lies between</add> the promontory of Belrive and <del
+        rend="strikethrough">changing</del>
+      <add place="superlinear" resp="#pbs">the</add>
+    </line>
+    <line><mod type="subst"><del rend="strikethrough">its course from South to north which</del>
+        <add place="superlinear" resp="#pbs">village of Copet</add></mod></line>
+    <line><del rend="strikethrough">it before pursues<del rend="strikethrough">d</del> proceeds from
+        west</del></line>
+    <line><del rend="strikethrough">to east</del>- another storm enlightened</line>
     <line>Jura with faint flashes and another</line>
-    <line>appeared darkened and sometimes</line>
-    <line>disclosed the Mole. the name of</line>
+    <line><del rend="strikethrough">appeared</del> darkened and sometimes</line>
+    <line>disclosed the Mole- <del rend="strikethrough">the name of</del></line>
     <line>a peaked mountain to the east of </line>
     <line>the lake.</line>
     <line>While I watched the storm- so beauti</line>
-    <line>ful yet terrific I wandered listlessly</line>
-    <line>on with a hasty step- I felt that</line>
-    <line>this noble war in the sky elevated</line>
+    <line>ful yet terrific I wandered <del rend="strikethrough">listlessly</del></line>
+    <line>on with a hasty step- <del rend="strikethrough">I felt that</del></line>
+    <line>th<del rend="overwritten">e</del><add place="intralinear">i</add>s noble war in the sky
+      elevated</line>
     <line>my spirits; I clasped my hands &amp; ex</line>
     <line>claimed aloud "William, dear angel,</line>
     <line>this is thy funeral, this thy dirge!"-</line>
-    <line>As I said these words a flash of lightning I perceived in the gloom</line>
-    <line>discovered to me a figure which stole from</line>
-    <line>behind a clump of trees near me- I stood</line>
-    <line>ghast its gigantc stanture, its &amp; the deformity</line>
-    <line>of its aspect more hideous than a man couild be belongs to humanity</line>
-    <line>explain instantly informed me who it</line>
-    <line>was. I was the wretch, the filthy daemon to</line>
+    <line>As I said these words <mod type="subst"><del rend="overwritten">a flash of lightning</del>
+        <add place="superlinear">I perceived in the gloom</add></mod></line>
+    <line><del rend="strikethrough">discovered to me</del> a figure which stole from</line>
+    <line>behind a clump of trees near me- <metamark>x</metamark><add><ptr target="#c56-0082.01"
+        /></add>
+      <del rend="strikethrough">I stood</del></line>
+    <line><del rend="strikethrough">aghast</del> its gigantc sta<del rend="strikethrough"
+        >n</del>ture<mod type="subst"><del rend="strikethrough">, its</del>
+        <add place="superlinear" resp="#pbs">&amp; the</add></mod> deformity</line>
+    <line><add place="superlinear" resp="#pbs">of its aspect</add> more hideous than <mod
+        type="subst"><del rend="strikethrough">a man could be</del>
+        <add place="superlinear">belongs to humanity</add></mod></line>
+    <line><del rend="strikethrough">explain</del> instantly informed me who it</line>
+    <line>was. I was the wretch, the filthy d&#230;mon to</line>
     <line>whom I had given life. What did he there?</line>
     <line>Could he be (I shuddered at the conception</line>
   </zone>
   <zone type="left_margin">
-    <line>I stood fixed gazing intently, I could not mistaken a flash of lightning illumined teh object and discovered to me</line>
+    <add xml:id="c56-0082.01">I stood fixed gazing intently, I could not be mistaken a flash of
+      lightning illumined the object and discovered to me</add>
   </zone>
 </surface>
