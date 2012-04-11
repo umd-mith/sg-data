@@ -12,7 +12,7 @@
     <line>But she will not I am sure she will</line>
     <line>not and then I shall be happy again even</line>
     <line>after the <del rend="strikethrough">d</del> sad death of my little William."</line>
-    <line>"She is innocent, my Elizabeth," said I and </line>
+    <milestone unit="tei:p"/><line>"She is innocent, my Elizabeth," said I and </line>
     <line>that shall be proved- fear nothing but let </line>
     <line>your spirits be cheered by the assurance </line>
     <line>of her aquittal.</line>
@@ -28,11 +28,12 @@
     <line>me hopeless and despairing." She wept-</line>
     <line>"Sweet niece" said my father dry your</line>
     <line><del rend="strikethrough">eyes</del> tears <del rend="strikethrough">and do not give so
-        sad <add place="superlinear">sorrowful</add> a wel-</del></line>
+        sad <del rend="strikethrough"><add place="superlinear">sorrowful</add></del> a
+      wel-</del></line>
     <line><del rend="strikethrough">come to Victor who has been so long</del></line>
     <line><del rend="strikethrough">absent</del>.<add><ptr target="#c56-0091.01"/></add></line>
     <milestone unit="tei:p"/><line>We passed a few sad hours untill eleven</line>
-    <line>o'clock when the tiral was to <mod type="subst"><del rend="strikethrough">begin and</del>
+    <line>o'clock when the trial was to <mod type="subst"><del rend="strikethrough">begin and</del>
         <add place="superlinear">commence</add></mod>
       <del rend="overwritten">m</del><add place="intralinear">M</add>y <del rend="strikethrough"
         >father</del></line>
@@ -40,7 +41,7 @@
       obliged</line>
     <line>to attend as witnesses <del rend="strikethrough">Iac</del> I accompanied them to</line>
     <line>the court. During the whole of this wretched</line>
-    <line>mockery of justice I suffred living torture.</line>
+    <line>mockery of justice I sufferred living torture.</line>
     <line>It was to be decided whether the result of</line>
     <line>my curiosity and lawless <mod type="subst"><del rend="strikethrough">desires</del>
         <add place="superlinear" resp="#pbs">devices</add></mod> would cause</line>
