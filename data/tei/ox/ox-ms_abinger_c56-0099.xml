@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0099" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0099" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0099.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">129</zone>
+  <zone type="library">47</zone>
+  <zone type="main">
+    <line>Judges had already condemned <add place="superlinear"><metamark>X</metamark></add><add><ptr target="c56-0099.04"/></add> <del rend="strikethrough">her</del></line>
+    <line>I rushed out of the court in agony. The</line>
+    <line>tortures of the accused did not equal</line>
+    <line>mine she was sustained by innocence</line>
+    <line>but the fangs of remorse tore my bosom–</line>
+    <line>I passed a night of unmingled wretched</line>
+    <line>ness. In the morning I went to the</line>
+    <line>court; my lips and throat were</line>
+    <line>parched. I dared not ask the fatal</line>
+    <line>question – but I was known and the</line>
+    <line>officer guessed <mod>
+        <mod next="#c56-0099.01">
+          <del rend="strikethrough">what I came to en</del>
+          <add place="sublinear">&#x2038;</add><add place="superlinear">the cause of my visit</add>
+        </mod></mod>
+    </line>
+    <line>
+      <mod>
+        <mod xml:id="c56-0099.01">
+          <del rend="strikethrough">quire;</del>
+        </mod></mod>— the ballots had been thrown </line>
+    <line>they were all 
+      <mod>
+        <del rend="strikethrough">blak</del>
+        <add place="sublinear">&#x2038;</add><add place="superlinear">black</add>
+      </mod> &#38; Justine was</line>
+    <line>condemned<!--JNW: The manuscript has a very obvious period at the end of this sentence, yet the Word File has no record of it--></line>
+  </zone>
+  <zone type="left_margin">
+    <line><addSpan spanTo="#c56-0099.02" resp="#pbs" xml:id="c56-0099.04"/><delSpan spanTo="#c56-0099.03"/>the accu</line>
+    <line>sed<anchor xml:id="c56-0099.03"/></line>
+    <line><metamark>X</metamark> my un</line>
+    <line>happy</line>
+    <line>victim</line>
+    <anchor xml:id="c56-0099.02"/>
+  </zone>
 </surface>
