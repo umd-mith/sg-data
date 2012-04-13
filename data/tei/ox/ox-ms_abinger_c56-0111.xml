@@ -43,7 +43,8 @@
         <del rend="strikethrough">cause</del>
         <add place="superlinear" resp="#pbs">author</add>
       </mod> of unalterable</line>
-    <line>evil, and I lived in daily fear <delSpan rend="strikethrough" spanTo="#c56-0111.02"/>that</line>
+    <line>evil, and I lived in daily fear 
+      <!-- Beginning of a delSpan which runs into a Cross-linear Mod --><delSpan rend="strikethrough" spanTo="#c56-0111.02"/>that</line>
     <line>the dæmon<anchor xml:id="c56-0111.02"/>
       <mod>
         <mod next="#c56-0111.03">
@@ -55,7 +56,7 @@
         <mod xml:id="c56-0111.03">
           <del rend="strikethrough">which</del>
           <add place="superlinear">let</add>
-        </mod></mod> the monster whom I had</line>
+         </mod></mod>the monster whom I had</line>
     <line>created might <mod>
         <del rend="strikethrough">commit</del>
         <add place="superlinear">perpetrate</add><add place="superlinear" resp="#pbs">some new wickedness.</add>
