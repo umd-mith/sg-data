@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0104" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0104" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0104.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">134 </zone>
+  <zone type="main">
+    <line>but this I fear is an evil too deep and poignant</line>
+    <line>to admit of consolation <del rend="strikethrough">or</del> for there is no hope</line>
+    <line>yet heaven bless thee, my dearest Justine,</line>
+    <line>with resignation and <mod type="subst"><del rend="strikethrough">a hope</del><add
+          place="superlinear"> a confidence</add></mod> elevated</line>
+    <line>beyond this world. Oh how I hate all its shews</line>
+    <line>and mockeries.- When one creature is </line>
+    <line><mod type="subst"><del rend="strikethrough">deprived of life</del>
+        <add place="superlinear">murdered</add></mod>
+      <mod type="subst"><del rend="strikethrough">they bel</del>
+        <add place="superlinear">another is</add></mod> immediately <del rend="strikethrough"
+        >mur</del></line>
+    <line><del rend="strikethrough">der another</del><add><ptr target="#c56-0104.01"/></add> of life
+      in a slow torturing</line>
+    <line>manner &amp; <mod type="additions"><add place="sublinear"
+          ><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">then the executioners their hands yet reeking with the blood of
+          innocence</add></mod> believe that they have done</line>
+    <line><add><ptr target="#c56-0104.02"/></add> great <mod type="subst"><del rend="strikethrough"
+          >things</del>
+        <add place="superlinear">deed</add></mod>. The<add place="intralinear" resp="#pbs">y</add>
+      call this retribution; hate</line>
+    <line>ful name! When that <mod type="additions"><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">word</add></mod> is
+      pronounced</line>
+    <line>I know that greater and more horrid</line>
+    <line>punishments are going to be inflicted</line>
+    <line>than the gloomiest tyrant has <mod type="additions"><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">ever</add></mod> in</line>
+    <line>vented to satiate<add place="superlinear"> his utmost</add> revenge. Yet this</line>
+    <line>is not consolation <mod type="subst"><del rend="strikethrough">to</del><add
+          place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">for</add></mod> you, my Justine,</line>
+    <line>unless indeed that you may glory</line>
+    <line>in escaping so miserable a den. Alas!</line>
+    <line>I would I were <mod type="additions"><add place="sublinear"
+          ><metamark>&#x2038;</metamark></add><add place="superlinear">in peace</add></mod> with my
+      aunt &amp; my</line>
+    <line>sweet William; <del rend="strikethrough">in peace</del> escaped</line>
+    <line>from light which <mod type="subst"><del rend="strikethrough">I abhor</del>
+        <add place="superlinear">is hateful to me</add></mod> and the </line>
+    <line>visages of men which <del rend="strikethrough">are hateful to </del></line>
+    <line><del rend="strikethrough">me."</del> I abhor.</line>
+    <milestone unit="tei:p"/><line>Justine smiled languidly. "This, dear Lady</line>
+    <line>said she is despair and not resignation.</line>
+    <line>I must not learn the lesson that you</line>
+    <line>would teach me- talk of something else</line>
+    <line><del rend="strikethrough">of fields s </del>of something that will <del
+        rend="strikethrough">brig jo</del></line>
+    <line>bring joy and not encrease of misery."</line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c56-0104.01">deprive</add></zone>
+  <zone type="left_margin"><add xml:id="c56-0104.02">a</add></zone>
+  <zone type="left_margin"><add><figure>
+        <graphic url="#c56-0104.03"/>
+        <!-- appears to be a drawing of a tree in the margin. Unsure how to encode this. -->
+      </figure></add></zone>
 </surface>
