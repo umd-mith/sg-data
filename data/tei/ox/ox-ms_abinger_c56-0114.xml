@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0114" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0114" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0114.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">144</zone>
+  <zone type="main">
+    <line><add><ptr target="#c56-0114.01"/></add>so like the truth, who can assure them</line>
+    <line>selves of certain happiness? I feel as if I</line>
+    <line>were walking on the edge of precipiece</line>
+    <line>towards which thousands are crowding &#38;</line>
+    <line>endeavouring to plunge me into the</line>
+    <line>abyss. William &#38; Justine were assassi</line>
+    <line>nated and the murderer
+      escapes<!-- It looks like PBS corrected spelling with an overwrite here, but there is no record of it in the Word file -->,
+      wearing</line>
+    <line>human lineaments; he walks about<del rend="strikethrough">d</del></line>
+    <line>the world free &#38; perhaps respected.</line>
+    <line>But <del rend="strikethrough">if</del> even if <del rend="strikethrough">tomo</del> I were
+      condemmed</line>
+    <line>to suffer on the scaffold for the same</line>
+    <line>crimes I would not change places with</line>
+    <line>such a wretch."</line>
+    <milestone unit="tei:p"/><line>I listened to this discourse with the</line>
+    <line>extremest agony – I – not <mod>
+        <del rend="strikethrough"><unclear unit="chars" extent="2"/></del><del rend="strikethrough"
+          >ind</del>
+        <add place="sublinear">&#x2038;</add><add place="superlinear">in</add>
+      </mod> deed</line>
+    <line>but in effect was the true murderer.&#8212;</line>
+    <line>Elizabeth read my anguish in my counte</line>
+    <line>nance, and kindly taking my hand</line>
+    <line>said–"My dearest cousin, you must</line>
+    <line>calm yourself; these events have affect</line>
+    <line>ed me God knows how deeply! but I am</line>
+    <line>not so wretched as you are. There is an</line>
+    <line>expression of misery and sometimes of</line>
+    <line>revenge in your countenance that</line>
+    <line>makes me tremble; be calm, my <mod>
+        <del rend="stikethrough"><hi rend="underline">beloved</hi></del><!-- This underline is not a line, but a series of dots -->
+        <add place="sublinear">&#x2038;</add><add place="superlinear"><del rend="strikethrough">
+              <unclear unit="chars" extent="4"/></del></add>
+      </mod></line>
+    <line>Victor, I would sacrifice my life to your</line>
+    <line>peace. We surely shall be happy; <del rend="strikethrough">quite</del></line>
+    <line>quiet in our native country and not</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0114.01"/>can look</line>
+  </zone>
 </surface>
