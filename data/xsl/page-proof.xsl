@@ -99,16 +99,6 @@
             </footer>
             
         </div><!--/.fluid-container-->
-<!--        
-        <div class="container">
-          
-          <h1>Page Proof: <xsl:value-of select="tei:surface/@xml:id"/></h1>
-          <p>Generated at <xsl:value-of select="current-dateTime()"/></p>
-          
-          <xsl:apply-templates/>
-          
-        </div> <!-\- /container -\->-->
-
       </body>
     </html>
   </xsl:template>
