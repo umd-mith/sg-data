@@ -81,10 +81,12 @@
                   <p>Generated at <xsl:value-of select="current-dateTime()"/></p>
                 </div><!--/span-->
                 <div class="span7">
-                  <div class="row-fluid">
+                  <!-- need to work through lines. every time a marginal insertion comes up, create a row-fluid split 3:9 -->
+                  <xsl:apply-templates/>
+                  <!--<div class="row-fluid">                   
                     <div class="span3"><p>This is a placeholder for marginal notes</p></div>
                   <div class="span9"><xsl:apply-templates/></div>
-                  </div><!--/row-->
+                  </div><!-\-/row-\->-->
                 </div><!--/span--> 
               </div><!--/row-->
             </div><!--/span-->
@@ -92,9 +94,9 @@
           
           <hr/>
             
-           <!-- <footer>
-              <p>Company 2012</p>
-            </footer>-->
+            <footer>
+              <p>Shelley-Godwin Archive: For Internal Use Only</p>
+            </footer>
             
         </div><!--/.fluid-container-->
 <!--        
