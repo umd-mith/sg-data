@@ -9,34 +9,73 @@
   <xsl:strip-space elements="*"/>
 
   <xsl:template match="/">
-    <html>
+    <html lang="en">
       <head>
-        <title>
-          <xsl:text>Page proof for </xsl:text>
-          <xsl:value-of select="tei:surface/@xml:id"/>
-        </title>
-        <link href="http://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet"
-          type="text/css"/>
-        <style type="text/css"><xsl:value-of select="$bootstrap-css"/></style>
+        <meta charset="utf-8"/>
+          <title>
+            <xsl:text>Page proof: </xsl:text>
+            <xsl:value-of select="tei:surface/@xml:id"/>
+          </title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <meta name="description" content="HTML rendering of a page from the Shelley-Godwin Archive project—for proofreading purposes only"/>
+              <meta name="author" content="Shelley-Godwin Archive"/>
+                
+                <!-- Le styles -->
+                <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+                  <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+                  <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+                    
+                    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+                    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+                    
+                    <!-- Le fav and touch icons -->
+                    <link href="http://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet"
+                      type="text/css"/>
+                      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png"/>
+                        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png"/>
+                          <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"/>
       </head>
       <body>
-        <div class="container-fluid">
-          <div class="row-fluid">
-            <div class="span12">
-              <div class="navbar navbar-fixed-top page_head">
-                <h3>Page Proof: <xsl:value-of select="tei:surface/@xml:id"/></h3>
-                <p>Generated at <xsl:value-of select="current-dateTime()"/></p>
-              </div>
-              <div class="row-fluid">
-                <xsl:apply-templates/>
-              </div>
-            </div><!-- end: span12 -->
-          </div><!-- end: row-fluid-outer -->
-        </div><!-- end: container fluid -->
+        
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand" href="#">Shelley-Godwin Archive</a>
+              <div class="nav-collapse">
+                <ul class="nav">
+                  <li class="active"><a href="http://umd-mith.github.com/sg-data/docs/">Home</a></li>
+                  <li><a href="https://github.com/umd-mith/sg-data">Github</a></li>
+                  <li><a href="mailto:mith@umd.edu">Contact</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+        
+        <div class="container">
+          
+          <h1>Page Proof: <xsl:value-of select="tei:surface/@xml:id"/></h1>
+          <p>Generated at <xsl:value-of select="current-dateTime()"/></p>
+          
+          <xsl:apply-templates/>
+          
+        </div> <!-- /container -->
+
       </body>
     </html>
   </xsl:template>
-  <xsl:template match="tei:zone">
+  <!--<xsl:template match="tei:zone">
     <xsl:choose>
       <xsl:when test="@type='main'">
         <div class="{@type} span8">
@@ -147,6 +186,6 @@
     min-width: 1000px; } .container-fluid:before, .container-fluid:after { display: table; content:
     ""; } .container-fluid:after { clear: both; } .del { text-decoration: line-through; }
     .pagination { float: right; } .left_margin { float: left; } .page_head { color: #ffffff;
-    background-color: rgb(48,86,135); } .page_head h3, p { padding-left: 40px; }</xsl:variable>
+    background-color: rgb(48,86,135); } .page_head h3, p { padding-left: 40px; }</xsl:variable>-->
 
 </xsl:stylesheet>
