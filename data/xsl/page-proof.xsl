@@ -191,7 +191,7 @@
             <div class="span8">
               <span>
                 <xsl:for-each select="current-group()">
-                  <xsl:apply-templates/>
+                  <span class="margin_anchor_shim"><xsl:apply-templates/></span>
                   <br/>
                 </xsl:for-each>
               </span>
@@ -207,7 +207,7 @@
   <xsl:variable name="target">
     <xsl:value-of select="substring-after(descendant::tei:ptr/@target, '#')"/>
   </xsl:variable>
-  <xsl:apply-templates select="//node()[@xml:id=$target] | //node()[@xml:id=$target]/following-sibling::tei:line"/>
+  <span class="left_margin"><xsl:apply-templates select="//node()[@xml:id=$target] | //node()[@xml:id=$target]/following-sibling::tei:line"/></span>
 </xsl:template>
 
   <xsl:template name="lb" match="tei:line">
