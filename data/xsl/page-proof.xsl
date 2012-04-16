@@ -34,6 +34,9 @@
           .del {
               text-decoration: line-through;
           }
+          .margin_shim {
+              background-color: yellow;
+          }
         </style>
         <link href="../../derivatives/assets/css/bootstrap-responsive.css" rel="stylesheet"/>
 
