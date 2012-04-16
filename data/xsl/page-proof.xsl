@@ -179,8 +179,8 @@
             <xsl:value-of select="substring-after(descendant::tei:ptr/@target, '#')"/>
           </xsl:variable>
           <xsl:variable name="margin_content">
-            <xsl:apply-templates select="//node()[@xml:id=$target]"/>
-            <!--<xsl:copy-of select="//node()[@xml:id=$target]"/>-->
+            <!--<xsl:apply-templates select="//node()[@xml:id=$target]"/>-->
+            <xsl:copy-of select="//node()[@xml:id=$target]"/><!-- Makes a copy of whatever element it is that the ptr is targeting -->
           </xsl:variable>
           
           <!-- Actual work of the template starts here -->
