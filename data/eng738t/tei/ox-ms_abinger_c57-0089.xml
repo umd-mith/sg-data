@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0089"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0089" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0089.tif"/>
     <zone type="pagination" rend="bordered">
       105
@@ -29,7 +24,7 @@
     </line>
     
     <line>
-      have been on the lakes of Lucerne &#x0026; Uri
+      have been on the lakes of Lucerne &amp; Uri
     </line>
     
     <line>
@@ -41,11 +36,11 @@
     </line>
     
     <line>
-      casting black &#x0026; impenetrable shades
+      casting black &amp; impenetrable shades
     </line>
     would cause
     <line>
-      which <metamark>&#x2038;</metamark><add place="superlinear">would cause<del rend="strikethrough">cast</del></add> a gloomy &#x0026; mournful
+      which <metamark>‸</metamark><add place="superlinear">would cause<del rend="strikethrough">cast</del></add> a gloomy &amp; mournful
     </line>
     
     <line>
@@ -77,7 +72,7 @@
     </line>
     
     <line>
-      the great ocean&#x2014;and the waves dash
+      the great ocean—and the waves dash
     </line>
           
     <line>
@@ -85,7 +80,7 @@
     </line>
     
     <line>
-      where the priest &#x0026; his mistress
+      where the priest &amp; his mistress
     </line>
     
     <line>
@@ -93,7 +88,7 @@
     </line>
     
     <line>
-      &#x0026; where their dying voices are still
+      &amp; where their dying voices are still
     </line>
     
     <line>
@@ -105,7 +100,7 @@
     </line>
     
     <line>
-      <del rend="strikethrough">lovely</del> mountains of la Valais &#x0026; the
+      <del rend="strikethrough">lovely</del> mountains of la Valais &amp; the
     </line>
     
     <line>
@@ -121,7 +116,7 @@
     </line>
     
     <line>
-      more majestic &#x0026; strange but there
+      more majestic &amp; strange but there
     </line>
     
     <line>
@@ -145,7 +140,7 @@
     </line>
     
     <line>
-      the foliage of those lovely trees&#x2014;and now
+      the foliage of those lovely trees—and now
     </line>
     
     
@@ -155,4 +150,3 @@
   
   
 </surface>
-

@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0061"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0061" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0061.tif"/>
     <zone type="pagination" rend="bordered">86</zone>
   <zone type="main">
@@ -14,15 +9,15 @@
     <line><del rend="strikethrough">her</del> when I was suddenly interrupted by</line>
     <line>the approach of a rustic who was probably</line>
     <line><del rend="strikethrough">her</del> the person from whom she had</line>
-    <line>playfully fled &#x2014; On seeing me he darted</line>
-    <line>towards me and <metamark>&#x2038;</metamark><add place="superlinear">tearing</add><del rend="strikethrough">tore</del> the girl from</line>
+    <line>playfully fled — On seeing me he darted</line>
+    <line>towards me and <metamark>‸</metamark><add place="superlinear">tearing</add><del rend="strikethrough">tore</del> the girl from</line>
     <line>my arms hastened towards the deeper</line>
-    <line>parts of the forest &#x2014; <del rend="strikethrough">I know not by</del></line>
+    <line>parts of the forest — <del rend="strikethrough">I know not by</del></line>
     <line><del rend="strikethrough">what</del> I followed speedily I hardly knew</line>
     <line>why but when the man saw me</line>
     <line>draw near he aimed a gun which</line>
-    <line>he carried, at my body &#x0026; fired. I</line>
-    <line>sunk to the ground &#x0026; with encreased</line>
+    <line>he carried, at my body &amp; fired. I</line>
+    <line>sunk to the ground &amp; with encreased</line>
     <line>swiftness He escaped into the wood.<milestone unit="paragraph"/></line>
     <line>This then was the reward of my</line>
     <line>benevolence I <del rend="strikethrough">writhed under the</del></line>
@@ -32,19 +27,19 @@
     <zone type="left_margin">
       <line><mod resp="#pbs">A wound which</mod></line>
       <line><mod resp="#pbs">shattered the</mod></line>
-      <line><mod resp="#pbs">flesh &#x0026; bone</mod></line>
+      <line><mod resp="#pbs">flesh &amp; bone</mod></line>
     </zone>
     <line>the miserable pain of <add place="superlinear" resp="#pbs">a multitude of</add><del rend="strikethrough">my wound</del></line>
     <zone type="left_margin"><del rend="strikethrough">One</del></zone>
-    <line><del rend="strikethrough">The ball had grazed my neck</del> &#x0026; <del rend="strikethrough">the</del></line>
+    <line><del rend="strikethrough">The ball had grazed my neck</del> &amp; <del rend="strikethrough">the</del></line>
     <zone type="left_margin"><del rend="strikethrough">an</del></zone>
     <line><del rend="strikethrough">other entered my shoulder.</del> The feelings</line>
     <line>of kindness and <add place="superlinear">gentleness</add><del rend="strikethrough">softness</del> which I had</line>
     <line>entertained but a few moments before</line>
-    <line>gave place to hellish rage &#x0026; gnashing</line>
-    <line>of teeth &#x2014; inflamed by pain I vowed</line>
-    <line>eternal hatred &#x0026; vengeance to all</line>
-    <line>mankind &#x2014; But <del rend="strikethrough">pain</del><metamark>&#x2038;</metamark><add place="superlinear">the agony of my wound</add> overcame me</line>
+    <line>gave place to hellish rage &amp; gnashing</line>
+    <line>of teeth — inflamed by pain I vowed</line>
+    <line>eternal hatred &amp; vengeance to all</line>
+    <line>mankind — But <del rend="strikethrough">pain</del><metamark>‸</metamark><add place="superlinear">the agony of my wound</add> overcame me</line>
     <line><del rend="strikethrough">sens</del> my pulses paused and I fainted.<milestone unit="paragraph"/></line>
     <line>For some weeks I led a miserable</line>
     <line>life in these woods endeavouring to</line>
@@ -52,7 +47,6 @@
     <zone type="left_margin">ball</zone>
     <line>had entered my shoulder and I knew</line>
     <line>not whether it had remained there</line>
-    <line>or passed through&#x2014;at any rate I had</line>
+    <line>or passed through—at any rate I had</line>
     </zone>
 </surface>
-
