@@ -174,6 +174,7 @@
 
         <!-- lines with marginal additions -->
         <xsl:if test="descendant::tei:ptr">
+          <!-- There's a whole chunk of business logic trapped in here -->
           <xsl:variable name="target">
             <xsl:value-of select="substring-after(descendant::tei:ptr/@target, '#')"/>
           </xsl:variable>
@@ -181,13 +182,16 @@
             <xsl:apply-templates select="//node()[@xml:id=$target]"/>
             <!--<xsl:copy-of select="//node()[@xml:id=$target]"/>-->
           </xsl:variable>
+          
+          <!-- Actual work of the template starts here -->
           <div class="row-fluid">
             <div class="span5">
+              <!-- This is a hack to keep the left div from collapsing if the above logic is failing -->
               <xsl:if test="$margin_content != '' ">
                 <xsl:copy-of select="$margin_content"/>
               </xsl:if>
               <xsl:if test="$margin_content = '' ">
-                <xsl:text>&#xa0;</xsl:text>
+                <xsl:text>{Placeholder}</xsl:text>
               </xsl:if>
             </div>
             <div class="span7">
