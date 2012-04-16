@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0026" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0026" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0026.tif"/>
   <zone type="pagination" rend="bordered">57</zone>
   <zone type="main">
-    <line>of his <mod resp="#pbs" type="subst"><del rend="strikethrough">science</del><add
-          place="superlinear">doctrine.</add></mod>. <del rend="strikethrough">But when the ne</del>
+    <line>of his <mod resp="#pbs" type="subst"><del rend="strikethrough">science</del><add place="superlinear">doctrine.</add></mod>. <del rend="strikethrough">But when the ne</del>
       Be-</line>
     <line>sides I had a contempt for the uses</line>
-    <line>of modern <mod type="subst"><del rend="strikethrough">chemistry</del><add
-          place="superlinear">natural philosophy</add></mod>. It was very</line>
+    <line>of modern <mod type="subst"><del rend="strikethrough">chemistry</del><add place="superlinear">natural philosophy</add></mod>. It was very</line>
     <line><del rend="strikethrough">when</del> different when then masters</line>
     <line>of the science sought immortality</line>
-    <line>and <mod type="subst" resp="#pbs"><del rend="strikethrough">wealth</del><add
-          place="superlinear">power</add><add place="intralinear">;</add></mod>– such views
+    <line>and <mod type="subst" resp="#pbs"><del rend="strikethrough">wealth</del><add place="superlinear">power</add><add place="intralinear">;</add></mod>– such views
       although</line>
-    <line>futile were grand; but now <mod resp="#pbs" type="subst"><del rend="strikethrough"
-          >it</del><add place="superlinear">the scene</add></mod> was</line>
-    <line><del rend="strikethrough">all</del> changed.<mod resp="#pbs" type="subst"><del
-          rend="strikethrough">t and the expulsion</del><add resp="#pbs"><ptr target="#c56-0026.01"
-          /></add></mod></line>
+    <line>futile were grand; but now <mod resp="#pbs" type="subst"><del rend="strikethrough">it</del><add place="superlinear">the scene</add></mod> was</line>
+    <line><del rend="strikethrough">all</del> changed.<mod resp="#pbs" type="subst"><del rend="strikethrough">t and the expulsion</del><add resp="#pbs"><ptr target="#c56-0026.01"/></add></mod></line>
     <line><delSpan resp="#pbs" rend="zigzag" spanTo="#c56-0026.02"/>of chimera overthrew at the
       same</line>
     <line>time all <anchor xml:id="c56-0026.02"/>
-      <mod type="subst" resp="#pbs"><del rend="strikethrough">greatness in the science</del><del
-          rend="strikethrough"><add place="superlinear">those</add></del></mod></line>
+      <mod type="subst" resp="#pbs"><del rend="strikethrough">greatness in the science</del><del rend="strikethrough"><add place="superlinear">those</add></del></mod></line>
     <milestone unit="tei:p"/>
     <line>Such were my reflections during</line>
-    <line><del rend="strikethrough">tw</del> two or three days <mod resp="#pbs" type="additions"
-          ><add place="sublinear"><metamark>^</metamark></add><add place="superlinear"
-        >spent</add></mod> almost in <del rend="strikethrough">solitary</del></line>
+    <line><del rend="strikethrough">tw</del> two or three days <mod resp="#pbs" type="additions"><add place="sublinear"><metamark>^</metamark></add><add place="superlinear">spent</add></mod> almost in <del rend="strikethrough">solitary</del></line>
     <line><add><ptr target="#c56-0026.03"/></add>but <del rend="strikethrough">at</del> as the ensueing week</line>
     <line>commenced I thought of the infor</line>
     <line>mation Mr. K.<mod type="subst">—<add place="superlinear">rempe</add></mod> had given
@@ -44,18 +35,13 @@
     <line>never seen <del rend="strikethrough">and</del> as he had been</line>
     <line>hitherto out of town.</line>
     <milestone unit="tei:p"/>
-    <line><mod type="subst"><add place="intralinear">Partly</add><del
-          rend="strikethrough">Half</del></mod>
-      <!--I'm differing from the scholar here who did not indicate in the Word file an interventional shift to pbs--><mod
-        resp="#pbs" type="subst"><del rend="strikethrough">out of</del><add place="superlinear"
-          >from</add></mod> curiosity and partly from</line>
+    <line><mod type="subst"><add place="intralinear">Partly</add><del rend="strikethrough">Half</del></mod>
+      <!--I'm differing from the scholar here who did not indicate in the Word file an interventional shift to pbs--><mod resp="#pbs" type="subst"><del rend="strikethrough">out of</del><add place="superlinear">from</add></mod> curiosity and partly from</line>
     <line>idleness I went into the lecturing room</line>
     <line>which Mr. Waldham entered shortly</line>
     <line>after. This Professor was a very dif</line>
     <line>ferent man from
-        <!--here too the ink seems to indicate pbs's hand rather than mws, which is what is indicated in Word file--><mod
-        resp="#pbs" type="subst"><del rend="strikethrough">the other</del><add place="superlinear"
-          >his colleague</add></mod>. He</line>
+        <!--here too the ink seems to indicate pbs's hand rather than mws, which is what is indicated in Word file--><mod resp="#pbs" type="subst"><del rend="strikethrough">the other</del><add place="superlinear">his colleague</add></mod>. He</line>
     <line>was about fifty but with aspect ex-</line>
     <line>pressive of the greatest benevolence</line>
     <line>a few grey <del rend="strikethrough">hars</del> hairs covered his temples</line>
