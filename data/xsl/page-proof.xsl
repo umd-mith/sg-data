@@ -154,35 +154,51 @@
   <!-- Handle paragraph breaks in the outer for-each group, placement of marginal additions handled in the inner for-each-group -->
   <xsl:template match="tei:zone[@type='main']">
     <xsl:for-each-group select="child::*" group-ending-with="tei:milestone[@unit='tei:p']">
-      
+
       <xsl:for-each-group select="current-group()" group-adjacent="not(descendant::tei:ptr)">
-        
+
         <!-- lines with no marginal additions -->
         <xsl:if test="not(descendant::tei:ptr)">
           <div class="row-fluid">
             <div class="span5">&#xa0;</div>
             <div class="span7">
-              <p>
+              <span>
                 <xsl:for-each select="current-group()">
                   <xsl:apply-templates/>
                   <br/>
                 </xsl:for-each>
-              </p>
+              </span>
             </div>
           </div>
         </xsl:if>
-        
+
         <!-- lines with marginal additions -->
         <xsl:if test="descendant::tei:ptr">
           <xsl:variable name="target">
             <xsl:value-of select="substring-after(descendant::tei:ptr/@target, '#')"/>
           </xsl:variable>
           <xsl:variable name="margin_content">
-            <xsl:value-of select="//node()[@xml:id=$target]"/>
+            <xsl:apply-templates select="//node()[@xml:id=$target]"/>
+            <!--<xsl:copy-of select="//node()[@xml:id=$target]"/>-->
           </xsl:variable>
           <div class="row-fluid">
-            <div class="span5"><xsl:value-of select="$margin_content"/></div>
-            <div class="span7"><xsl:value-of select="current-group()"/></div><!-- The line that has a marginal addition next to it -->
+            <div class="span5">
+              <xsl:if test="$margin_content != '' ">
+                <xsl:copy-of select="$margin_content"/>
+              </xsl:if>
+              <xsl:if test="$margin_content = '' ">
+                <xsl:text>&#xa0;</xsl:text>
+              </xsl:if>
+            </div>
+            <div class="span7">
+              <span>
+                <xsl:for-each select="current-group()">
+                  <xsl:apply-templates/>
+                  <br/>
+                </xsl:for-each>
+              </span>
+            </div>
+            <!-- The line that has a marginal addition next to it -->
           </div>
         </xsl:if>
       </xsl:for-each-group>
@@ -193,7 +209,13 @@
     <xsl:apply-templates/>
     <br/>
   </xsl:template>
-  
+
+  <xsl:template match="tei:del[@rend='strikethrough']">
+    <span class="del">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+
   <xsl:template match="tei:zone[@type='left_margin']"/>
 
   <!--<xsl:template name="graphs">
