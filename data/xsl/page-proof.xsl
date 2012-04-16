@@ -152,11 +152,10 @@
   </xsl:template>
 
   <!-- Handle paragraph breaks in the outer for-each group, placement of marginal additions handled in the inner for-each-group -->
-  <xsl:template match="tei:zone[@type='main']">
+  <xsl:template match="tei:zone[@type='main']">    
     <xsl:for-each-group select="child::*" group-ending-with="tei:milestone[@unit='tei:p']">
 
       <xsl:for-each-group select="current-group()" group-adjacent="not(descendant::tei:ptr)">
-
         <!-- lines with no marginal additions -->
         <xsl:if test="not(descendant::tei:ptr)">
           <div class="row-fluid">
@@ -174,25 +173,16 @@
 
         <!-- lines with marginal additions -->
         <xsl:if test="descendant::tei:ptr">
-          <!-- There's a whole chunk of business logic trapped in here -->
-          <xsl:variable name="target">
-            <xsl:value-of select="substring-after(descendant::tei:ptr/@target, '#')"/>
-          </xsl:variable>
-          <xsl:variable name="margin_content">
-            <!--<xsl:apply-templates select="//node()[@xml:id=$target]"/>-->
-            <xsl:copy-of select="//node()[@xml:id=$target]"/><!-- Makes a copy of whatever element it is that the ptr is targeting -->
-          </xsl:variable>
-          
-          <!-- Actual work of the template starts here -->
           <div class="row-fluid">
             <div class="span5">
               <!-- This is a hack to keep the left div from collapsing if the above logic is failing -->
-              <xsl:if test="$margin_content != '' ">
+              <!--<xsl:if test="$margin_content != '' ">
                 <xsl:copy-of select="$margin_content"/>
               </xsl:if>
               <xsl:if test="$margin_content = '' ">
                 <xsl:text>{Placeholder}</xsl:text>
-              </xsl:if>
+              </xsl:if>-->
+              <xsl:call-template name="process_margin"/>             
             </div>
             <div class="span7">
               <span>
@@ -208,6 +198,13 @@
       </xsl:for-each-group>
     </xsl:for-each-group>
   </xsl:template>
+
+<xsl:template name="process_margin">
+  <xsl:variable name="target">
+    <xsl:value-of select="substring-after(descendant::tei:ptr/@target, '#')"/>
+  </xsl:variable>
+  <xsl:apply-templates select="//node()[@xml:id=$target] | //node()[@xml:id=$target]/following-sibling::tei:line"/>
+</xsl:template>
 
   <xsl:template name="lb" match="tei:line">
     <xsl:apply-templates/>
