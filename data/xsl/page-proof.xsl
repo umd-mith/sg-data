@@ -12,74 +12,88 @@
     <html lang="en">
       <head>
         <meta charset="utf-8"/>
-          <title>
-            <xsl:text>Page proof: </xsl:text>
-            <xsl:value-of select="tei:surface/@xml:id"/>
-          </title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <meta name="description" content="HTML rendering of a page from the Shelley-Godwin Archive project—for proofreading purposes only"/>
-              <meta name="author" content="Shelley-Godwin Archive"/>
-                
+        <title>
+          <xsl:text>Page proof: </xsl:text>
+          <xsl:value-of select="tei:surface/@xml:id"/>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description"
+          content="HTML rendering of a page from the Shelley-Godwin Archive project—for proofreading purposes only"/>
+        <meta name="author" content="Shelley-Godwin Archive"/>
+
         <!-- Le styles -->
         <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
-          <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-    </style>
-                  <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
-                    
-                    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-                    <!--[if lt IE 9]>
+        <style type="text/css">
+          body{
+              padding-top:60px;
+              padding-bottom:40px;
+          }
+          .sidebar-nav{
+              padding:9px 0;
+          }</style>
+        <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-                    
-                    <!-- Le fav and touch icons -->
-                    <link href="http://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet"
-                      type="text/css"/>
-                      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png"/>
-                        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png"/>
-                          <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"/>
+
+        <!-- Le fav and touch icons -->
+        <link href="http://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet"
+          type="text/css"/>
+        <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="../assets/ico/apple-touch-icon-114-precomposed.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="../assets/ico/apple-touch-icon-72-precomposed.png"/>
+        <link rel="apple-touch-icon-precomposed"
+          href="../assets/ico/apple-touch-icon-57-precomposed.png"/>
       </head>
       <body>
-        
+
         <div class="navbar navbar-fixed-top">
           <div class="navbar-inner">
             <div class="container">
               <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
               </a>
               <a class="brand" href="#">Shelley-Godwin Archive</a>
               <div class="nav-collapse">
                 <ul class="nav">
-                  <li class="active"><a href="http://umd-mith.github.com/sg-data/docs/">Docs</a></li>
-                  <li><a href="https://github.com/umd-mith/sg-data">Github</a></li>
-                  <li><a href="mailto:mith@umd.edu">Contact</a></li>
+                  <li>
+                    <a href="http://umd-mith.github.com/sg-data/docs/">Docs</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/umd-mith/sg-data">Github</a>
+                  </li>
+                  <li>
+                    <a href="mailto:mith@umd.edu">Contact</a>
+                  </li>
                 </ul>
-              </div><!--/.nav-collapse -->
+              </div>
+              <!--/.nav-collapse -->
             </div>
           </div>
         </div>
-        
+
         <div class="container-fluid">
           <div class="row-fluid">
             <div class="span5">
               <div class="sidebar-nav">
-                <img src="http://sga.mith.org/images/derivatives/ox/{tei:surface/@xml:id}.jpg" alt="placeholder" style="max-width:100%"/>
-              </div><!--/.well -->
-            </div><!--/span-->
+                <img src="http://sga.mith.org/images/derivatives/ox/{tei:surface/@xml:id}.jpg"
+                  alt="placeholder" style="max-width:100%"/>
+              </div>
+              <!--/.well -->
+            </div>
+            <!--/span-->
             <div class="span7">
               <div class="row-fluid">
                 <div class="span7">
                   <h3>Page Proof: <xsl:value-of select="tei:surface/@xml:id"/></h3>
                   <p>Generated at <xsl:value-of select="current-dateTime()"/></p>
-                </div><!--/span-->
+                </div>
+                <!--/span-->
                 <div class="span7">
                   <!-- need to work through lines. every time a marginal insertion comes up, create a row-fluid split 3:9 -->
                   <xsl:apply-templates/>
@@ -87,23 +101,78 @@
                     <div class="span3"><p>This is a placeholder for marginal notes</p></div>
                   <div class="span9"><xsl:apply-templates/></div>
                   </div><!-\-/row-\->-->
-                </div><!--/span--> 
-              </div><!--/row-->
-            </div><!--/span-->
-          </div><!--/row-->
-          
+                </div>
+                <!--/span-->
+              </div>
+              <!--/row-->
+            </div>
+            <!--/span-->
+          </div>
+          <!--/row-->
+
           <hr/>
-            
-            <footer>
-              <p>Shelley-Godwin Archive: For Internal Use Only</p>
-            </footer>
-            
-        </div><!--/.fluid-container-->
+
+          <footer>
+            <p>Shelley-Godwin Archive: For Internal Use Only</p>
+          </footer>
+
+        </div>
+        <!--/.fluid-container-->
       </body>
     </html>
   </xsl:template>
-  
-  <xsl:template name="graphs">
+
+  <xsl:template match="tei:zone[@type='pagination']">
+    <div class="row-fluid">
+      <div class="span11">&#xa0;</div>
+      <div class="span1">
+        <xsl:value-of select="."/>
+      </div>
+      <!-- not dealing with recto/verso yet -->
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tei:zone[@type='library']">
+    <div class="row-fluid">
+      <div class="span11">&#xa0;</div>
+      <div class="span1">
+        <xsl:value-of select="."/>
+      </div>
+      <!-- not dealing with recto/verso yet -->
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tei:zone[@type='top']">
+    <div class="row-fluid">
+      <div class="span5">&#xa0;</div>
+      <div class="span7">
+        <xsl:value-of select="."/>
+      </div>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tei:zone[@type='main']">
+    <xsl:for-each-group select="child::*" group-ending-with="tei:milestone[@unit='tei:p']">
+      <div class="row-fluid">
+        <div class="span5">&#xa0;</div>
+        <div class="span7">
+          <p>
+            <xsl:for-each select="current-group()">
+              <xsl:apply-templates/>
+              <br/>
+            </xsl:for-each>
+          </p>
+        </div>
+      </div>
+    </xsl:for-each-group>
+  </xsl:template>
+
+  <xsl:template name="lb" match="tei:line">
+    <xsl:apply-templates/>
+    <br/>
+  </xsl:template>
+
+  <!--<xsl:template name="graphs">
     <xsl:for-each-group select="child::*" group-ending-with="tei:milestone[@unit='tei:p']">
       <p>
         <xsl:for-each select="current-group()">
@@ -113,27 +182,33 @@
     </xsl:for-each-group>
   </xsl:template>
   
-  <xsl:template name="lb" match="tei:line">
-    <xsl:apply-templates/>
-    <br/>
-  </xsl:template>
-  <!--<xsl:template match="tei:zone">
+  <xsl:template match="tei:zone">
     <xsl:choose>
-      <xsl:when test="@type='main'">
-        <div class="{@type} span8">
+      <xsl:when test="@type='pagination'">
+        <div class="row-fluid">
+          <div class="{@type} span3">
+          <xsl:value-of select="."/>
+        </div>
+         <div class="span9">
+           <xsl:apply-templates/>
+         </div> 
+        </div><!-\- /row -\->
+      </xsl:when>
+     <!-\- <xsl:when test="@type='main'">
+        <div class="{@type} span9">
           <xsl:call-template name="graphs"/>
         </div>
       </xsl:when>
       <xsl:when test="@type='left_margin'">
-        <div class="{@type} span4">
+        <div class="{@type} span3">
           <xsl:apply-templates/>
         </div>
-      </xsl:when>
-      <xsl:otherwise>
+      </xsl:when>-\->
+      <!-\-<xsl:otherwise>
         <div class="{@type}">
           <xsl:apply-templates/>
         </div>
-      </xsl:otherwise>
+      </xsl:otherwise>-\->
     </xsl:choose>
   </xsl:template>
 
@@ -159,7 +234,7 @@
         <xsl:apply-templates/>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>
--->
+  </xsl:template>-->
+
 
 </xsl:stylesheet>
