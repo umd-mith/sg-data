@@ -168,7 +168,8 @@
           <div class="row-fluid">
             <div class="span4">&#xa0;</div>
             <div class="span8">
-              <span class="margin_shim"><xsl:apply-templates select="current()[1]"/></span>
+                <div class="shim" style="background-color: red; height: 0; margin-top: -5.0em;">&#xa0;</div>
+                <xsl:apply-templates select="current-group()[1]"/>
               <span>
                 <xsl:for-each select="subsequence(current-group(), 2)">
                   <xsl:apply-templates/>
