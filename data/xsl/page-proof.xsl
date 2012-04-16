@@ -168,8 +168,9 @@
           <div class="row-fluid">
             <div class="span4">&#xa0;</div>
             <div class="span8">
-              <span><!-- Think about doing something to distinguish the first line of paragraphs -->
-                <xsl:for-each select="current-group()">
+              <span class="margin_shim"><xsl:apply-templates select="current()[1]"/></span>
+              <span>
+                <xsl:for-each select="subsequence(current-group(), 2)">
                   <xsl:apply-templates/>
                   <br/>
                 </xsl:for-each>
