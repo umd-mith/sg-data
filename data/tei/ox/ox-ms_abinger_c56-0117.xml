@@ -3,6 +3,73 @@
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0117" ulx="0" uly="0" lrx="5428" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0117.tif"/>
-    <zone>
+    <zone type="pagination">
+      <line>147</line>
     </zone>
+  <zone type="library">
+    <line>56</line>
+  </zone>
+  <zone type="main">
+      <line>habitations of another race of beings</line> 
+       
+     <delSpan rend="seven-vertical-lines" spanTo="#c56-0117.01"/> <line>Soone after we entered the valley of</line>
+      
+      <line>Chamounix. This valley is more beauti</line>
+      
+      <line>wondeful ful and sublime but not so beau</line>	
+    <anchor xml:id="c56-0117.01"/>
+      <line>We passed the bridge of Pellisier</line>
+      
+      <line>Pellissier, where the ravine which the</line>
+      
+      <line>river forms opened before us and</line>
+      
+      <line>we began to ascend the mountain</line>
+      
+      <line>which over hung it–. Soon after we</line>	
+      
+      <line>entered the Valley of Chamounix. This</line>
+      
+      <line>valley is more wonderful and sublime</line>
+      
+      <line>but not so beautiful &amp; picturesque</line>
+      
+      <line>as that of Servox; through which we</line>
+      
+      <line>had just passed.  The high &amp; snowy</line>	
+      
+      <line>mountains where its boundaries</line>
+      
+      <line>but t we saw no more ruined castles</line>
+      
+      <line>or fertile fields.  Immense glaciers</line>
+      
+      <line>approached the road, and we heard</line>
+      
+      <line>the rumbling thunder of the falling</line>	
+      
+      <line>Avelanche and marked the smoke</line>
+      
+      <line>of its passage.–Mont Blanc, the <delSpan spanTo="#c56-0117.02"/>beau -</line>
+      
+    <line>tiful<anchor xml:id="c56-0117.02"/><add><ptr target="#c56-0117.03"/></add> Mont Blanc raised itself from</line>
+      
+      <line>the surrounding aiguilles and its tremen</line>	
+      
+      <line>dous dome overlooked the valley.</line>
+    <milestone unit="tei:p"/>
+      <line>During this journey I sometimes joined</line>
+      
+      <line>Elizabeth and exerted myself to point</line>
+      
+      <line>out to her the various beauties of the</line>
+      
+      <line>scene.— And often I let my suffered</line>	
+      
+      <line>my mule to lag behind &amp; indulged</line>
+      
+    </zone>
+  <zone type="left_margin">
+    <line>supreme &amp; magnificent</line>
+  </zone>
 </surface>
