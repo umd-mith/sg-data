@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0021"
-  ulx="0" uly="0" lrx="5368" lry="7104"
-  partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0021" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0021.tif"/>
   <zone type="pagination" rend="bordered">20</zone>
   <zone type="library">11</zone>
@@ -15,16 +9,16 @@
       <line>I sympathized in their joys.  I saw few</line>
       <line>human beings besides them, and if</line>
       <line>any other happened to enter the cottage</line>
-      <line>their harsh <del rend="strikethrough">and rud</del> manners <metamark>&#x0026;</metamark> rude</line>
+      <line>their harsh <del rend="strikethrough">and rud</del> manners <metamark>&amp;</metamark> rude</line>
       <line>gait only enhanced to me <del rend="strikethrough">th</del> <del rend="strikethrough">my friends</del></line>
       <line><add><ptr target="#c57-0021.a"/></add>the superior advantages of m<add resp="#pbs">y</add> friends.</line>
       <line>The <del rend="strikethrough">Father</del> old man, I could percieve,</line>
       <line>often endeavoured to encourage his</line>
       <line>children as I sometimes found that</line>
-      <line>he called them <mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add resp="#pbs" place="superlinear">to case off their melancholy.</add></mod>  He would talk in</line>
+      <line>he called them <mod><add place="sublinear"><metamark>‸</metamark></add><add resp="#pbs" place="superlinear">to case off their melancholy.</add></mod>  He would talk in</line>
       <line>a cheerful accent with an <del rend="strikethrough">aspect</del><add place="superlinear">expression of</add></line>
-      <line><del rend="strikethrough">godn</del> goodness that <del rend="strikethrough">even</del> <del rend="strikethrough">gave</del><mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">bestowed pleasure</add></mod> <del rend="strikethrough">me</del> <del rend="strikethrough">delight.</del></line>
-      <line><add><ptr target="#c57-0021.01"/></add>Agatha listened with respect<metamark>&#x2014;</metamark>her eyes</line>
+      <line><del rend="strikethrough">godn</del> goodness that <del rend="strikethrough">even</del> <del rend="strikethrough">gave</del><mod><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">bestowed pleasure</add></mod> <del rend="strikethrough">me</del> <del rend="strikethrough">delight.</del></line>
+      <line><add><ptr target="#c57-0021.01"/></add>Agatha listened with respect<metamark>—</metamark>her eyes</line>
       <line><del rend="strikethrough">f</del> somethimes filled with tears which</line>
       <line><add><ptr target="#c57-0021.03"/></add> wipe<del rend="strikethrough">d</del> away unpercieved but I general</line>
       <line>ly found that her manners and tone</line>
@@ -38,7 +32,7 @@
       <line>countenance was more sorrowful</line>
       <line>his voice was more cheerful than</line>
       <line><add><ptr target="#c57-0021.05"/></add> his sister<del rend="strikethrough">es</del> expecially when he</line>
-      <line>addressed the old man <metamark>&#x2014;</metamark></line>
+      <line>addressed the old man <metamark>—</metamark></line>
     </zone>
   <zone type="left_margin"><addSpan xml:id="c57-0021.a" spanTo="#c57-0021.b"/>
     <add><figure><desc>faint PBS pencil sketch of trees</desc></figure></add>
@@ -53,4 +47,3 @@
     <line>that of</line>
     <anchor xml:id="c57-0021.06"/></zone>
 </surface>
-

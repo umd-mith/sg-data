@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0090"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0090" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0090.tif"/>
     <zone type="pagination" rend="bordered">
       106
@@ -18,7 +13,7 @@
     </line>
     
     <line>
-      their vines; &#x0026; that village half hid in the
+      their vines; &amp; that village half hid in the
     </line>
     
     <line>
@@ -26,11 +21,11 @@
     </line>
     
     <line>
-      rit that inhabits &#x0026; guards this place
+      rit that inhabits &amp; guards this place
     </line>
     harmony 	[5]
     <line>
-      has a soul more in <add place="superlinear">harmony<del rend="strikethrough">sympathy</del><metamark>&#x2038;</metamark></add> with
+      has a soul more in <add place="superlinear">harmony<del rend="strikethrough">sympathy</del><metamark>‸</metamark></add> with
     </line>
     ^
     <line>
@@ -70,7 +65,7 @@
     </line>
     
     <line>
-      thought to enjoy tranquillity, &#x0026; that
+      thought to enjoy tranquillity, &amp; that
     </line>
     
     <line>
@@ -82,7 +77,7 @@
     </line>
     
     <line>
-      to the plains of Holland &#x0026; we resolved to
+      to the plains of Holland &amp; we resolved to
     </line>
     
     <line>
@@ -90,7 +85,7 @@
     </line>
     
     <line>
-      the wind was contrary &#x0026; the stream of
+      the wind was contrary &amp; the stream of
     </line>
     
     <line>
@@ -134,7 +129,7 @@
     </line>
     
     <line>
-      postillion was obliged to guide the car&#x2014;
+      postillion was obliged to guide the car—
     </line>
     
     <line>
@@ -146,7 +141,7 @@
     </line>
     
     <line>
-      sails. The way often led between two ca&#x2014;
+      sails. The way often led between two ca—
     </line>
     
     <line>
@@ -158,4 +153,3 @@
     
   </zone>
 </surface>
-

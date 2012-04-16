@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface partOf="ox-ms_abinger_c57"
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0072"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0072" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0072.tif"/>
     <zone type="pagination" rend="bordered">96</zone>
     <zone type="library">B</zone>
@@ -15,22 +10,22 @@
       <line>mys steps slow.  The labour of winding a</line>
       <line>mong the little paths and fixing my feet</line>
       <line>firmly <del rend="strikethrough">a</del> as I advanced teazed me occupied</line>
-      <line>as I was by the feelings <metamark>&#x2038;</metamark><add place="superlinear"><del rend="strikethrough">that</del> <mod resp="#pbs">which</mod></add>the occurences of the</line>
+      <line>as I was by the feelings <metamark>‸</metamark><add place="superlinear"><del rend="strikethrough">that</del> <mod resp="#pbs">which</mod></add>the occurences of the</line>
       <line>day had produced.  It had long been night</line>
       <line>when I came to the half way resting place</line>
-      <line>&#x0026; seated myself beside the fountain.  The stars</line>
+      <line>&amp; seated myself beside the fountain.  The stars</line>
       <line>shone at intervals as the <del rend="strikethrough">dark</del> clouds passed</line>
-      <line>from over them &#x2014; The dark pines rose</line>
-      <line>before me &#x0026; every here and there a broken</line>
-      <line>tree lay <del rend="strikethrough">listless</del> <del rend="strikethrough">of</del> <metamark>&#x2038;</metamark><add place="superlinear">on</add> the ground; it was</line>
-      <line>a scene of wonderful solemnity &#x0026; <del rend="strikethrough">moved</del></line>
+      <line>from over them — The dark pines rose</line>
+      <line>before me &amp; every here and there a broken</line>
+      <line>tree lay <del rend="strikethrough">listless</del> <del rend="strikethrough">of</del> <metamark>‸</metamark><add place="superlinear">on</add> the ground; it was</line>
+      <line>a scene of wonderful solemnity &amp; <del rend="strikethrough">moved</del></line>
       <line><del rend="strikethrough">me</del> stirred strange thoughts within</line>
       <line>me.  I wept bitterly and clasping my</line>
-      <line>hands in agony I exclaimed&#x2014; Oh stars,</line>
+      <line>hands in agony I exclaimed— Oh stars,</line>
       <line><add><ptr target="c57-0072.01"/></add>and wind ye are all about <del rend="strikethrough">ye</del> to mock</line>
-      <line>me &#x2014; If ye really pity crush me but if</line>
-      <line>not depart depart &#x2014; leave <metamark>&#x2038;</metamark><add place="superlinear"><mod resp="#pbs">me</mod></add> to darkness</line>
-      <line><del rend="strikethrough">Wild</del> These were wild &#x0026; miserable thoughts</line>
+      <line>me — If ye really pity crush me but if</line>
+      <line>not depart depart — leave <metamark>‸</metamark><add place="superlinear"><mod resp="#pbs">me</mod></add> to darkness</line>
+      <line><del rend="strikethrough">Wild</del> These were wild &amp; miserable thoughts</line>
       <line>but I cannot describe to you how the</line>
       <line>eternal twinkling of stars weighed upon</line>
       <line>me, and I listened to every blast of wind</line>
@@ -38,8 +33,8 @@
       <line>to consume me.</line>
       <milestone unit="paragraph"/>
       <line>It was morning before I arrived at</line>
-      <line>the village of Chamounix &#x2014; but my presence</line>
-      <line>so haggard &#x0026; strange hardly calmed the</line>
+      <line>the village of Chamounix — but my presence</line>
+      <line>so haggard &amp; strange hardly calmed the</line>
       <line>fears of my family who had waited the</line>
       <line>whole night in anxious expectation of</line>
       <line>my return.  <delSpan spanTo="page72"/>What could I say to them</line>
@@ -50,7 +45,6 @@
       <line>The <del rend="strikethrough">purpos</del> intention of my father in</line>
     </zone>
   <zone type="left_margin">
-    <line>&#x0026; clouds,<anchor xml:id="c57-0072.01"/></line>
+    <line>&amp; clouds,<anchor xml:id="c57-0072.01"/></line>
   </zone>
 </surface>
-

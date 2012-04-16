@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface partOf="ox-ms_abinger_c57"
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0078"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0078" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0078.tif"/>
   <zone type="pagination" rend="bordered">100</zone>
   <zone type="main">
-    <line>the expectation of our union.&#x2014;</line>
-    <line><add><ptr target="c57-0078.01"/></add>pression of your sentiments,<metamark>&#x2038;</metamark><add place="superlinear">on this subject</add> my dear Victor,</line>
+    <line>the expectation of our union.—</line>
+    <line><add><ptr target="c57-0078.01"/></add>pression of your sentiments,<metamark>‸</metamark><add place="superlinear">on this subject</add> my dear Victor,</line>
     <line><del rend="strikethrough">rejoined my father,</del> <del rend="strikethrough">have restored</del> gives</line>
     <line>me more pleasure than I have <del rend="strikethrough">known</del></line>
-    <line>for some time<metamark>&#x2038;</metamark>.<add place="superlinear">experienced</add> If you feel thus we</line>
+    <line>for some time<metamark>‸</metamark>.<add place="superlinear">experienced</add> If you feel thus we</line>
     <line>shall assuredly be happy however pre</line>
     <line>sent events may cast a gloom over us<add place="superlinear"><metamark>x</metamark></add></line>
     <line><add><ptr target="c57-0078.02"/></add><delSpan spanTo="page78"/><del rend="strikethrough">But tell me then what it is that occa</del></line>
     <line>sions your present discomfort. Are</line>
-    <line>you<del rend="strikethrough">r</del> weary of your slothful life &#x0026;</line>
+    <line>you<del rend="strikethrough">r</del> weary of your slothful life &amp;</line>
     <line>do you wish while you are yet young</line>
-    <line><add><ptr target="c57-0078.03"/></add>to travel &#x0026; treasure recollections &#x0026;</line>
+    <line><add><ptr target="c57-0078.03"/></add>to travel &amp; treasure recollections &amp;</line>
     <line>pleasures for your future years? I</line>
     <line>have thought much of this and am</line>
     <line>come to a resolution that <del rend="strikethrough">y</del> if your</line>
@@ -39,10 +34,10 @@
     <line>from my family during which time</line>
     <line>some event might happen which</line>
     <line>would restore me to them in peace</line>
-    <line>&#x0026; happiness. My promise might</line>
+    <line>&amp; happiness. My promise might</line>
     <line>be fulfilled the monster depart or</line>
     <line>some <del rend="strikethrough">other</del> event <unclear>p</unclear> might take</line>
-    <line>place to destroy him &#x0026; put an end<anchor xml:id="page78"/></line>
+    <line>place to destroy him &amp; put an end<anchor xml:id="page78"/></line>
   </zone>
   
   <zone type="left_margin">
@@ -59,7 +54,7 @@
     <line><mod resp="#pbs">to England</mod></line>
     <line><mod resp="#pbs">ought to be</mod></line>
     <line><mod resp="#pbs"><seg rend="underline">Victor's</seg> propo</mod></line>
-    <line><mod resp="#pbs">-sal.&#x2014; that he</mod></line>
+    <line><mod resp="#pbs">-sal.— that he</mod></line>
     <line><mod resp="#pbs">ought to go</mod></line>
     <line><mod resp="#pbs">for the purpose of</mod></line>
     <line><mod resp="#pbs">collecting</mod></line>
@@ -70,7 +65,7 @@
     <line><mod resp="#pbs">lead his father to</mod></line>
     <line><mod resp="#pbs">this in</mod></line>
     <line><mod resp="#pbs">the conversa</mod></line>
-    <line><mod resp="#pbs">tions&#x2014;the</mod></line>
+    <line><mod resp="#pbs">tions—the</mod></line>
     <line><mod resp="#pbs">conversation</mod></line>
     <line><mod resp="#pbs"><seg rend="underline">commences</seg></mod></line>
     <line><mod resp="#pbs">right enough</mod> <anchor xml:id="page78marginal"/><anchor xml:id="c57-0078.03"/></line>

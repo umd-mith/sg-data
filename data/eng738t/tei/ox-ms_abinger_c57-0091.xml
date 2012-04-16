@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0091"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0091" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0091.tif"/>
     
   <zone type="pagination">
@@ -76,7 +71,7 @@
     </line>
     
     <line>
-      <del rend="strikethrough">good</del> excellent &#x0026; the verdure beautiful<milestone unit="paragraph"/>
+      <del rend="strikethrough">good</del> excellent &amp; the verdure beautiful<milestone unit="paragraph"/>
     </line>
     
     <line>
@@ -96,7 +91,7 @@
     </line>
     
     <line>
-      Britain. The banks <add place="superlinear">of the</add><metamark>&#x2038;</metamark>Thames presented
+      Britain. The banks <add place="superlinear">of the</add><metamark>‸</metamark>Thames presented
     </line>
     
     <line>
@@ -104,11 +99,11 @@
     </line>
     
     <line>
-      &#x0026; almost every town was marked by
+      &amp; almost every town was marked by
     </line>
     
     <line>
-      some story.  <del rend="strikethrough">Th</del>  We saw Tilbury Fort &#x0026;
+      some story.  <del rend="strikethrough">Th</del>  We saw Tilbury Fort &amp;
     </line>
     
     <line>
@@ -128,11 +123,11 @@
     </line>
     
     <line>
-      rous steeples of London; <del rend="strikethrough">&#x0026;</del> St Pauls
+      rous steeples of London; <del rend="strikethrough">&amp;</del> St Pauls
     </line>
     
     <line>
-      towerering above all &#x0026; the Tower famed
+      towerering above all &amp; the Tower famed
     </line>
     
     <line>
@@ -142,4 +137,3 @@
     
     </zone>
 </surface>
-

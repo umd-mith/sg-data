@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../../../Desktop/GitHub/shelley-godwin-page.rnc" type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0012"
-  ulx="0" uly="0" lrx="5368" lry="7104"
-  partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0012" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0012.tif"/>
   <zone type="pagination" rend="bordered">11</zone>
     <zone type="main">
@@ -18,7 +12,7 @@
       <line>melancholy he took the pail from her head</line>
       <line>and bore it into the cottage himself.  She</line>
       <line>followed <del rend="strikethrough">wiping</del> <mod><del rend="strikethrough">dry my her tears whi</del></mod> and they</line>
-      <line>diasppeared <metamark>&#x2014;</metamark> Presently I saw the young man</line>
+      <line>diasppeared <metamark>—</metamark> Presently I saw the young man</line>
       <line>again with some tools in his hand cross the</line>
       <line>field opposite the cottage and the girl was</line>
       <line>also busied sometimes in <del rend="strikethrough">and som</del> the cottage</line>
@@ -28,27 +22,26 @@
       <line>of the cottage window had formerly occupied</line>
       <line>a corner of it <del rend="strikethrough">pu</del> but the panes had <del rend="strikethrough">n</del> been</line>
       <line>filled up with wood.  In one of these was</line>
-      <line>a small <metamark>&#x0026;</metamark> allmost imperceptible <del rend="strikethrough">h</del> chink,</line>
+      <line>a small <metamark>&amp;</metamark> allmost imperceptible <del rend="strikethrough">h</del> chink,</line>
       <line>through which <del rend="strikethrough">howev</del> the eye could just</line>
       <line>penetrate; <mod><del rend="strikethrough">and looking in I behe</del><add resp="#pbs">thro this chink</add></mod> <del rend="strikethrough">sa</del>w a</line>
-      <line>small room <add resp="#pbs" place="superlinear">was visible,</add>  whitewashed <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"><metamark>&#x0026;</metamark></add> clean but very</line>
-      <line>bare of furniture <del rend="strikethrough"><metamark>&#x0026;</metamark></del> in <del rend="strikethrough">co</del> one corner near</line>
-      <line>a small fire <mod type="subst"><add place="sublinear"><metamark>&#x2038;</metamark></add><del rend="strikethrough">I saw</del><add place="superlinear"><del rend="strikethrough">beheld</del></add><add resp="#pbs" place="superlinear">sate</add></mod> an old man <del rend="strikethrough">sitting</del> leaning</line>
-      <line>his head on his hand <metamark>&#x2014;</metamark> in a disconslate atti</line>
-      <line>tude<add place="superlinear">x</add><add><ptr target="#c57-0012.01"/></add> <metamark>&#x2014;</metamark>  The young girl was <del rend="strikethrough">co</del> occupied in</line>
+      <line>small room <add resp="#pbs" place="superlinear">was visible,</add>  whitewashed <add place="sublinear"><metamark>‸</metamark></add><add place="superlinear"><metamark>&amp;</metamark></add> clean but very</line>
+      <line>bare of furniture <del rend="strikethrough"><metamark>&amp;</metamark></del> in <del rend="strikethrough">co</del> one corner near</line>
+      <line>a small fire <mod type="subst"><add place="sublinear"><metamark>‸</metamark></add><del rend="strikethrough">I saw</del><add place="superlinear"><del rend="strikethrough">beheld</del></add><add resp="#pbs" place="superlinear">sate</add></mod> an old man <del rend="strikethrough">sitting</del> leaning</line>
+      <line>his head on his hand <metamark>—</metamark> in a disconslate atti</line>
+      <line>tude<add place="superlinear">x</add><add><ptr target="#c57-0012.01"/></add> <metamark>—</metamark>  The young girl was <del rend="strikethrough">co</del> occupied in</line>
       <line>arranging the cottage <mod><add resp="#pbs" place="superlinear">but presently</add><del rend="strikethrough">and</del> <del rend="strikethrough">when that was</del></mod></line>
       <line><del rend="strikethrough">done</del> she took something out of <del rend="strikethrough">the</del> a drawer</line>
-      <line>which employed her hands <mod><del rend="strikethrough">and</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"><metamark>&#x0026;</metamark> sat down beside<del rend="strikethrough">the o</del></add></mod> the old</line>
+      <line>which employed her hands <mod><del rend="strikethrough">and</del><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear"><metamark>&amp;</metamark> sat down beside<del rend="strikethrough">the o</del></add></mod> the old</line>
       <line>man <add place="superlinear">who</add> taking up an <del rend="strikethrough">instur</del> instrument began</line>
       <line>to play and to produce sounds sweeter than</line>
       <line>the voice of the thrush or nightingale.</line>
     </zone>
   <zone type="left_margin"><addSpan xml:id="c57-0012.01" spanTo="#c57-0012.02"/>
-      <line><del rend="strikethrough"></del>his hair</line>
+      <line><del rend="strikethrough"/>his hair</line>
       <line><del rend="strikethrough">was grey</del></line>
       <line>This chapter</line>
       <line>Too</line>
       <line>short</line>
     <anchor xml:id="c57-0012.02"/></zone>
 </surface>
-

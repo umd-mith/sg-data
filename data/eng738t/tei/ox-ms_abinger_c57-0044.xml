@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface partOf="ox-ms_abinger_c57"
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0044"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0044" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0044.tif"/>
     <zone type="pagination"> 
       <line>69</line>
@@ -14,28 +9,28 @@
  <zone type="main">  
 <line>were the sight of flowers and birds</line> 
 <line>and all the gay apparel of summer</line> 
-<line><del rend="overstrike">but</del> when those deserted me<del rend="overstrike"> &#x0026; the</del></line> 
+<line><del rend="overstrike">but</del> when those deserted me<del rend="overstrike"> &amp; the</del></line> 
 <line><del rend="overstrike"> days became shorter</del>I turned with</line> 
 <line>more attention towards the cottagers</line> 
- <line>the absence of summer &#x2014; They loved</line> 
+ <line>the absence of summer — They loved</line> 
 <line>and sympathized with one another </line> 
 <line>and their <mod><del rend="overstrike">happiness</del><add place="superlinear">joys</add></mod>depending on</line> 
 <line>each other were not<mod resp="#pbs"><del rend="overstrike">hurt</del><add place="superlinear">interrupted</add></mod>by the</line> 
 <line>casualties that took place around</line> 
-<line>them &#x2014; The more I saw of them</line> 
+<line>them — The more I saw of them</line> 
 <line>the greater became my desire to</line> 
-<line>claim their protection &#x0026; kindness.</line> 
+<line>claim their protection &amp; kindness.</line> 
 <line>My heart yearned to <del rend="overstrike">beco</del>be <add place="superlinear">known and</add>loved</line> 
 <line>by these amiable creatures to see</line> 
 <line>their sweet looks directed towards</line> 
-<line>me in kindness &#x2014; I dared not think</line> 
+<line>me in kindness — I dared not think</line> 
 <line>that they would turn <mod resp="#pbs"><add place="superlinear">them</add></mod> from me</line> 
-<line>with disdain or horror &#x2014; The poor</line> 
+<line>with disdain or horror — The poor</line> 
 <line>that stopt at their door were</line> 
 <line>never driven away <del rend="overstrike">And I</del> I asked</line> 
 <line>it is true for greater treasures</line> 
 <line>that a little food or rest I required</line> 
-<line>kindness &#x0026; sympathy but I <add place="superlinear">did</add> not</line> 
+<line>kindness &amp; sympathy but I <add place="superlinear">did</add> not</line> 
 <line>believe my self utterly unworthy</line> 
 <line>of it</line> 
 </zone> 
@@ -44,4 +39,3 @@
 <line> their happiness was <add place="superlinear">not decreased</add>by</line>
 </zone> 
 </surface>
-

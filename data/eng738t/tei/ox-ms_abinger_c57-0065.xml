@@ -1,28 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0065"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0065" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0065.tif"/>
   <zone type="pagination" rend="bordered">90</zone>
   <zone type="library">33</zone>
-  <zone type="main"><line>While I <metamark>&#x2038;</metamark><add place="superlinear">was</add>overcome by these feelings I</line>
+  <zone type="main"><line>While I <metamark>‸</metamark><add place="superlinear">was</add>overcome by these feelings I</line>
     <line>left the spot where I had committed the</line>
     <line>murder and sought a more secluded</line>
     <line>hiding place.  At that moment I peceiv</line>
-    <line>ing a woman passing near me,&#x2014; she</line>
+    <line>ing a woman passing near me,— she</line>
     <line>was young; not indeed so beautiful as</line>
     <line>her who portrait I held but of an</line>
-    <line>agreable <del rend="strikethrough">in</del> aspect &#x0026; blooming in the</line>
-    <line>loveliness of health &#x0026; youth. And here</line>
+    <line>agreable <del rend="strikethrough">in</del> aspect &amp; blooming in the</line>
+    <line>loveliness of health &amp; youth. And here</line>
     <line>I thought is one <del rend="strikethrough">one</del> of those whose</line>
     <line>smiles are bestowed on all but me</line>
     <line><del rend="strikethrough">but</del> She shall not escape my vengeance</line>
-    <line>thanks to the lessons of Felix &#x0026; the</line>
+    <line>thanks to the lessons of Felix &amp; the</line>
     <line>sanguinary laws of man, I <add place="superlinear"><mod resp="#pbs">have learned</mod></add><del rend="strikethrough">know</del> how</line>
     <line>to work mischief.  I approached her</line>
     <line>unpeceived, and placed the portrait</line>
@@ -31,19 +26,18 @@
     <line>For some day I haunted the spot</line>
     <line>where these scenes had taken place</line>
     <line>sometimes wishing to see you some</line>
-    <line>times resolved to quit the world &#x0026; it</line>
+    <line>times resolved to quit the world &amp; it</line>
     <line>miseries for ever.  <add place="superlinear">at length I</add><del rend="strikethrough">I have</del> wandered</line>
     <line><add place="intralinear">towards</add> <del rend="strikethrough">to</del> these mountains and have ranged</line>
     <line><add place="intralinear">through</add><del rend="strikethrough">in</del> their immense recesses consumed</line>
     <line>by a burning passion which you</line>
-    <line>alone can gratify&#x2014;And we may not</line>
+    <line>alone can gratify—And we may not</line>
     <line>part untill you have promised</line>
     <line>to comply with my requisitions.  I am</line>
-    <line>alone &#x0026; miserable.  Man will not</line>
+    <line>alone &amp; miserable.  Man will not</line>
     <line>associate with but one as deformed</line>
     <line>and horrible as my self would not</line>
     <line>deny herself to me.  This being you</line>
     <line>must create.<del rend="strikethrough">for me.</del></line>
     </zone>
 </surface>
-
