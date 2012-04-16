@@ -151,21 +151,31 @@
     </div>
   </xsl:template>
 
-<!-- Handle paragraph breaks in this template -->
+  <!-- Handle paragraph breaks in this template -->
   <xsl:template match="tei:zone[@type='main']">
     <xsl:for-each-group select="child::*" group-ending-with="tei:milestone[@unit='tei:p']">
       <xsl:for-each-group select="current-group()" group-adjacent="not(descendant::tei:ptr)">
-        <div class="row-fluid">
-          <div class="span5">&#xa0;</div>
-          <div class="span7">
-            <p>
-              <xsl:for-each select="current-group()">
-                <xsl:apply-templates/>
-                <br/>
-              </xsl:for-each>
-            </p>
+        <!-- lines with no marginal additions -->
+        <xsl:if test="not(descendant::tei:ptr)">
+          <div class="row-fluid">
+            <div class="span5">&#xa0;</div>
+            <div class="span7">
+              <p>
+                <xsl:for-each select="current-group()">
+                  <xsl:apply-templates/>
+                  <br/>
+                </xsl:for-each>
+              </p>
+            </div>
           </div>
-        </div>
+        </xsl:if>
+        <!-- lines with marginal additions -->
+        <xsl:if test="descendant::tei:ptr">
+          <div class="row-fluid">
+            <div class="span5">Marginal text</div>
+            <div class="span7"><xsl:value-of select="current-group()"/></div>
+          </div>
+        </xsl:if>
       </xsl:for-each-group>
       <!--<div class="row-fluid">
         <div class="span5">&#xa0;</div>
