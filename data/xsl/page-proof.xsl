@@ -151,9 +151,23 @@
     </div>
   </xsl:template>
 
+<!-- Handle paragraph breaks in this template -->
   <xsl:template match="tei:zone[@type='main']">
     <xsl:for-each-group select="child::*" group-ending-with="tei:milestone[@unit='tei:p']">
-      <div class="row-fluid">
+      <xsl:for-each-group select="current-group()" group-adjacent="not(descendant::tei:ptr)">
+        <div class="row-fluid">
+          <div class="span5">&#xa0;</div>
+          <div class="span7">
+            <p>
+              <xsl:for-each select="current-group()">
+                <xsl:apply-templates/>
+                <br/>
+              </xsl:for-each>
+            </p>
+          </div>
+        </div>
+      </xsl:for-each-group>
+      <!--<div class="row-fluid">
         <div class="span5">&#xa0;</div>
         <div class="span7">
           <p>
@@ -163,7 +177,7 @@
             </xsl:for-each>
           </p>
         </div>
-      </div>
+      </div>-->
     </xsl:for-each-group>
   </xsl:template>
 
