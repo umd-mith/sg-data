@@ -191,7 +191,7 @@
             <div class="span8">
               <span>
                 <xsl:for-each select="current-group()">
-                  <span class="margin_anchor_shim"><xsl:apply-templates/></span>
+                  <xsl:apply-templates/>
                   <br/>
                 </xsl:for-each>
               </span>
