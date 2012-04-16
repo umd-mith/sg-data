@@ -30,7 +30,11 @@
           }
           .sidebar-nav{
               padding:9px 0;
-          }</style>
+          }
+          .del {
+              text-decoration: line-through;
+          }
+        </style>
         <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -144,8 +148,8 @@
 
   <xsl:template match="tei:zone[@type='top']">
     <div class="row-fluid">
-      <div class="span5">&#xa0;</div>
-      <div class="span7">
+      <div class="span4">&#xa0;</div>
+      <div class="span8">
         <xsl:value-of select="."/>
       </div>
     </div>
@@ -159,8 +163,8 @@
         <!-- lines with no marginal additions -->
         <xsl:if test="not(descendant::tei:ptr)">
           <div class="row-fluid">
-            <div class="span5">&#xa0;</div>
-            <div class="span7">
+            <div class="span4">&#xa0;</div>
+            <div class="span8">
               <span>
                 <xsl:for-each select="current-group()">
                   <xsl:apply-templates/>
@@ -174,7 +178,7 @@
         <!-- lines with marginal additions -->
         <xsl:if test="descendant::tei:ptr">
           <div class="row-fluid">
-            <div class="span5">
+            <div class="span4">
               <!-- This is a hack to keep the left div from collapsing if the above logic is failing -->
               <!--<xsl:if test="$margin_content != '' ">
                 <xsl:copy-of select="$margin_content"/>
@@ -184,7 +188,7 @@
               </xsl:if>-->
               <xsl:call-template name="process_margin"/>             
             </div>
-            <div class="span7">
+            <div class="span8">
               <span>
                 <xsl:for-each select="current-group()">
                   <xsl:apply-templates/>
@@ -215,6 +219,24 @@
     <span class="del">
       <xsl:apply-templates/>
     </span>
+  </xsl:template>
+  
+  <xsl:template match="tei:add">
+    <xsl:choose>
+      <xsl:when test="@place='superlinear'">
+        <sup>
+          <xsl:apply-templates/>
+        </sup>
+      </xsl:when>
+      <xsl:when test="@place='sublinear'">
+        <sub>
+          <xsl:apply-templates/>
+        </sub>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="tei:zone[@type='left_margin']"/>
@@ -265,23 +287,7 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="tei:add">
-    <xsl:choose>
-      <xsl:when test="@place='superlinear'">
-        <sup>
-          <xsl:apply-templates/>
-        </sup>
-      </xsl:when>
-      <xsl:when test="@place='sublinear'">
-        <sub>
-          <xsl:apply-templates/>
-        </sub>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>-->
+  -->
 
 
 </xsl:stylesheet>
