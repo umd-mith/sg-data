@@ -22,7 +22,7 @@
         <meta name="author" content="Shelley-Godwin Archive"/>
 
         <!-- Le styles -->
-        <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+        <link href="../../assets/css/bootstrap.css" rel="stylesheet"/>
         <style type="text/css">
           body{
               padding-top:60px;
@@ -35,7 +35,7 @@
               text-decoration: line-through;
           }
         </style>
-        <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+        <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
