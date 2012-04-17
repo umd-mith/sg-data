@@ -9,7 +9,7 @@
     <line>mingling in the world what can dis</line>
     <line>-turb our tranquillity?"</line>
     <milestone unit="tei:p"/><line>She shed tears as she said this<add place="sublinear"
-        >&#x2038;</add><add><ptr target="#c56-0115.01"/></add></line>
+        ><metamark>&#x2038;</metamark></add><add><ptr target="#c56-0115.01"/></add></line>
     <line><del rend="strikethrough">bu</del><add place="intralinear" resp="#pbs">but</add> at the
       same time <add place="intralinear" resp="#pbs">s</add>miled, that</line>
     <line>she might chase away the fiend that</line>
@@ -26,7 +26,7 @@
     <line><add><ptr target="#c56-0115.03"/></add>the same reasons he now proposed</line>
     <line>that <del rend="strikethrough">I</del> we should all <del rend="strikethrough">tak</del>
       take a</line>
-    <line>journey to the Valley of C<add place="sublinear">&#x2038;</add><add place="superlinear"
+    <line>journey to the Valley of C<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
         >h</add>amounix. I had</line>
     <line>been there before but Elizabeth &#38; Ernest</line>
     <line>never had, and both had often ex</line>
