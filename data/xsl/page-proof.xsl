@@ -8,6 +8,12 @@
 
   <xsl:strip-space elements="*"/>
 
+  <xsl:variable name="lines_in_margin" select="count(//tei:zone[@type='left_margin']/tei:line)"/>
+
+  <!--<xsl:variable name="margin_ids" as="item()*">
+    <xsl:value-of select="tei:zone[@type='left_margin']//*[@xml:id]"></xsl:value-of>
+  </xsl:variable>-->
+
   <xsl:template match="/">
     <html lang="en">
       <head>
