@@ -190,6 +190,7 @@
         <xsl:if test="descendant::tei:ptr">
           <div class="row-fluid">
             <div class="span4">
+              
               <!-- This is a hack to keep the left div from collapsing if the above logic is failing -->
               <!--<xsl:if test="$margin_content != '' ">
                 <xsl:copy-of select="$margin_content"/>
@@ -197,6 +198,7 @@
               <xsl:if test="$margin_content = '' ">
                 <xsl:text>{Placeholder}</xsl:text>
               </xsl:if>-->
+              
               <xsl:call-template name="process_margin"/>             
             </div>
             <div class="span8">
