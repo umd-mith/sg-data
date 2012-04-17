@@ -249,6 +249,10 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
+  <xsl:template match="tei:unclear">
+    <xsl:text>&#xa0;</xsl:text>
+  </xsl:template>
 
   <xsl:template match="tei:zone[@type='left_margin']"/>
 
