@@ -10,10 +10,6 @@
 
   <xsl:variable name="lines_in_margin" select="count(//tei:zone[@type='left_margin']/tei:line)"/>
 
-  <!--<xsl:variable name="margin_ids" as="item()*">
-    <xsl:value-of select="tei:zone[@type='left_margin']//*[@xml:id]"></xsl:value-of>
-  </xsl:variable>-->
-
   <xsl:template match="/">
     <html lang="en">
       <head>
@@ -39,9 +35,6 @@
           }
           .del {
               text-decoration: line-through;
-          }
-          .margin_shim {
-              background-color: yellow;
           }
         </style>
         <link href="../../derivatives/assets/css/bootstrap-responsive.css" rel="stylesheet"/>
@@ -174,8 +167,7 @@
           <div class="row-fluid">
             <div class="span4">&#xa0;</div>
             <div class="span8">
-                <div class="shim" style="background-color: red; height: 0; margin-top: -5.0em;">&#xa0;</div>
-                <xsl:apply-templates select="current-group()[1]"/>
+                <span><xsl:apply-templates select="current-group()[1]"/></span>
               <span>
                 <xsl:for-each select="subsequence(current-group(), 2)">
                   <xsl:apply-templates/>
@@ -189,16 +181,7 @@
         <!-- lines with marginal additions -->
         <xsl:if test="descendant::tei:ptr">
           <div class="row-fluid">
-            <div class="span4">
-              
-              <!-- This is a hack to keep the left div from collapsing if the above logic is failing -->
-              <!--<xsl:if test="$margin_content != '' ">
-                <xsl:copy-of select="$margin_content"/>
-              </xsl:if>
-              <xsl:if test="$margin_content = '' ">
-                <xsl:text>{Placeholder}</xsl:text>
-              </xsl:if>-->
-              
+            <div class="span4" style="margin-bottom: -{$lines_in_margin -0.7}em"> <!-- Styling hack here to compensate for multi-line marginal additions -->
               <xsl:call-template name="process_margin"/>             
             </div>
             <div class="span8">
