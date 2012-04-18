@@ -183,7 +183,7 @@
           <div class="row-fluid">
             <!--<div class="span4" style="margin-bottom: -{$lines_in_margin - 0.65}em">--> <!-- Styling hack here to compensate for multi-line marginal additions -->
               <div class="span4"><xsl:call-template name="process_margin"/></div>             
-            </div>
+            <!--</div>-->
             <div class="span8">
               <span>
                 <xsl:for-each select="current-group()">
@@ -193,7 +193,7 @@
               </span>
             </div>
             <!-- The line that has a marginal addition next to it -->
-          <!--</div>--><!-- /end margin styling hack -->
+          </div>
         </xsl:if>
       </xsl:for-each-group>
     </xsl:for-each-group>
