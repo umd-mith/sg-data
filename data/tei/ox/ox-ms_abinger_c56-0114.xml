@@ -22,7 +22,7 @@
     <milestone unit="tei:p"/><line>I listened to this discourse with the</line>
     <line>extremest agony – I – not <mod>
         <del rend="strikethrough"><unclear unit="chars" extent="2"/></del><del rend="strikethrough">ind</del>
-        <add place="sublinear">&#x2038;</add><add place="superlinear">in</add>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">in</add>
       </mod> deed</line>
     <line>but in effect was the true murderer.&#8212;</line>
     <line>Elizabeth read my anguish in my counte</line>
@@ -35,7 +35,7 @@
     <line>revenge in your countenance that</line>
     <line>makes me tremble; be calm, my <mod>
         <del rend="stikethrough"><hi rend="underline">beloved</hi></del><!-- This underline is not a line, but a series of dots -->
-        <add place="sublinear">&#x2038;</add><add place="superlinear"><del rend="strikethrough">
+        <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"><del rend="strikethrough">
               <unclear unit="chars" extent="4"/></del></add>
       </mod></line>
     <line>Victor, I would sacrifice my life to your</line>
