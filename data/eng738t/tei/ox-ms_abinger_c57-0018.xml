@@ -6,23 +6,23 @@
   <zone type="pagination" rend="bordered">17</zone>
   <zone type="top">Chap. 3</zone>
     <zone type="main">
-      <line><del rend="strikethrough">It was some time</del><mod><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">A considerable period elapsed</add></mod> before I discovered one</line>
+      <line><del rend="strikethrough">It was some time</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">A considerable period elapsed</add> before I discovered one</line>
       <line><add><ptr target="#c57-0018.01"/></add> cause<add resp="#pbs">s</add> of the uneasiness of this amiable</line>
-      <line>family <metamark>—</metamark> <del rend="strikethrough">It</del> <del rend="strikethrough">Itw</del><mod><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">It</add></mod> was poverty <metamark>—</metamark> and they suffered</line>
-      <line>that evil in a very distressing degree <metamark>—</metamark> <del rend="strikethrough">Dur</del></line>
+      <line>family &#x2014; <del rend="strikethrough">It</del> <del rend="strikethrough">Itw</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">It</add> was poverty &#x2014; and they suffered</line>
+      <line>that evil in a very distressing degree &#x2014; <del rend="strikethrough">Dur</del></line>
       <line><del rend="strikethrough">ring the winter</del><del rend="strikethrough">They often had hardly any</del></line>
       <line>their nourishment consisted entirey of bread</line>
-      <line><del rend="strikethrough">and <metamark>—</metamark></del> the vegetables of their garden and the</line>
+      <line><del rend="strikethrough">and &#x2014;</del> the vegetables of their garden and the</line>
       <line>milk of one cow which gave very little</line>
       <line>during the <del rend="strikethrough">hard</del> <del rend="strikethrough">monthes</del> winter when</line>
       <line><del rend="strikethrough">the</del> its masters could <del rend="strikethrough">spare</del><add place="superlinear">scarcely</add><del rend="strikethrough">very little</del></line>
-      <line><del rend="strikethrough">money toward the</del> procur<del rend="strikethrough">ing</del><mod><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">any</add></mod> <del rend="strikethrough">of</del> food for it.</line>
+      <line><del rend="strikethrough">money toward the</del> procur<del rend="strikethrough">ing</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">any</add> <del rend="strikethrough">of</del> food for it.</line>
       <line><del rend="strikethrough">This state of poverty</del>  They often I believe<del rend="strikethrough">d</del></line>
       <line>suffering the pangs of hunger very poi</line>
       <line>gnantly especially the <add resp="#pbs" place="superlinear">two</add> young<add place="sublinear">er</add><del rend="strikethrough">er part</del></line>
-      <line>for <mod><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">several times</add></mod> they <del rend="strikethrough">often</del> placed food before the old</line>
-      <line>man when <del rend="strikethrough">they</del><mod><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear"><del rend="strikethrough">were</del></add></mod> <del rend="strikethrough">themselves in want of it</del></line>
-      <line>they had none for <del rend="strikethrough">their</del> themselves <metamark>—</metamark> This</line>
+      <line>for <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">several times</add> they <del rend="strikethrough">often</del> placed food before the old</line>
+      <line>man when <del rend="strikethrough">they</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"><del rend="strikethrough">were</del></add> <del rend="strikethrough">themselves in want of it</del></line>
+      <line>they had none for <del rend="strikethrough">their</del> themselves &#x2014; This</line>
       <line>trait of kindness moved me sensibly.</line>
       <line>I had been accustomed during the night</line>
       <line>to steal a part of their store for my</line>
@@ -30,7 +30,7 @@
       <line>that in doing this I inflicted pain on the</line>
       <line>cottagers, I abstained, and satisfied my</line>
       <line>self with berries nuts and roots which</line>
-      <line>I <mod type="subst"><del rend="strikethrough">found in</del><add place="superlinear">gathered from</add></mod> a neighbouring <add place="superlinear">wood.</add>  I <del rend="strikethrough">found</del><mod><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">discovered</add></mod> also</line>
+      <line>I <del rend="strikethrough">found in</del><add place="superlinear">gathered from</add> a neighbouring <add place="superlinear">wood.</add>  I <del rend="strikethrough">found</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">discovered</add> also</line>
       <line>another means by which I was able</line>
       <line>to assist their labours.  I found that the</line>
     </zone>
