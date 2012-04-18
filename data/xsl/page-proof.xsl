@@ -182,7 +182,7 @@
         <xsl:if test="descendant::tei:ptr">
           <div class="row-fluid">
             <!--<div class="span4" style="margin-bottom: -{$lines_in_margin - 0.65}em">--> <!-- Styling hack here to compensate for multi-line marginal additions -->
-              <xsl:call-template name="process_margin"/>             
+              <div class="span4"><xsl:call-template name="process_margin"/></div>             
             </div>
             <div class="span8">
               <span>
