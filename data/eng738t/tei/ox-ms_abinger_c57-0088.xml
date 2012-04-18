@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0088"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0088" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0088.tif"/>
     <zone type="pagination">
       104
@@ -22,11 +17,11 @@
       </line>
       
       <line>
-        many willowy islands &#x0026; saw several beautiful
+        many willowy islands &amp; saw several beautiful
       </line>
 
       <line>
-        towns.  We staid a day at Manheim,<add place="superlinear">&#x0026;<del rend="strikethrough">on</del></add> on
+        towns.  We staid a day at Manheim,<add place="superlinear">&amp;<del rend="strikethrough">on</del></add> on
       </line>
       
       <line>
@@ -58,7 +53,7 @@
       </line>
       
       <line>
-        of preci<del rend="strikethrough">s</del>pieces <delSpan spanTo="#afterhills"/>&#x0026; the sl green slopes of
+        of preci<del rend="strikethrough">s</del>pieces <delSpan spanTo="#afterhills"/>&amp; the sl green slopes of
       </line>
       
       <line>
@@ -66,7 +61,7 @@
       </line>
       
       <line>
-        high &#x0026; inaccessible.  This part of the Rhine
+        high &amp; inaccessible.  This part of the Rhine
       </line>
       
       <line>
@@ -94,15 +89,15 @@
       </line>
       
       <line>
-        rishing vineyards &#x0026; populous towns
+        rishing vineyards &amp; populous towns
       </line>
       
       <line>
-        <seg rend="bordered">with green sloping <del rend="strikethrough">me</del> banks</seg> &#x0026; a 
+        <seg rend="bordered">with green sloping <del rend="strikethrough">me</del> banks</seg> &amp; a 
       </line>
       
       <line>
-        <seg rend="bordered">meandering river</seg><note>The two bordered (semi-circled) segments on the present and immediate previous line appear actually to be enclosed in a transposition mark -- one that results in an illogical transposition unless "&#x0026; a" is moved--but it looks like an intended transposition here has NOT been applied at the time of publication: Transposed lines as I interpret them would read "&#x0026; a meandering river with green sloping banks" --contrast "flourishing vineyards with green sloping banks and a meandering river" (Source: Project Gutenberg E-book of _Frankenstein_)-- not illogical, but "river" selects for "banks" more strongly than "vineyards" do. </note>  occupy the scene.
+        <seg rend="bordered">meandering river</seg><note>The two bordered (semi-circled) segments on the present and immediate previous line appear actually to be enclosed in a transposition mark -- one that results in an illogical transposition unless "&amp; a" is moved--but it looks like an intended transposition here has NOT been applied at the time of publication: Transposed lines as I interpret them would read "&amp; a meandering river with green sloping banks" --contrast "flourishing vineyards with green sloping banks and a meandering river" (Source: Project Gutenberg E-book of _Frankenstein_)-- not illogical, but "river" selects for "banks" more strongly than "vineyards" do. </note>  occupy the scene.
       </line>
       
       <line>
@@ -118,7 +113,7 @@
       </line>
       
       <line>
-        depressed in mind, &#x0026; my spirits conti
+        depressed in mind, &amp; my spirits conti
       </line>
       
       <line>
@@ -134,7 +129,7 @@
       </line>
       
       <line>
-        blue sky I<metamark>&#x2038;</metamark><add place="superlinear">seemed to</add> dr<add>i<del rend="overwritten">a</del></add><note>this overwritten deletion/replacement is not noted in Robinson transcript</note>nk in a tranquillity to
+        blue sky I<metamark>‸</metamark><add place="superlinear">seemed to</add> dr<add>i<del rend="overwritten">a</del></add><note>this overwritten deletion/replacement is not noted in Robinson transcript</note>nk in a tranquillity to
       </line>
       
       <line>
@@ -160,4 +155,3 @@
   
   
 </surface>
-

@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface 
-  xmlns="http://www.tei-c.org/ns/1.0" 
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0033" 
-  ulx="0" uly="0" lrx="5368" lry="7104"
-  partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0033" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0033.tif"/>
 <zone type="main">
   <line><add><ptr target="c57-0033.01"/></add>heart of Felix <del rend="overstrike">and resolved to obtain his</del></line>
@@ -20,7 +14,7 @@
   <line>his happiness.<milestone unit="paragraph"/></line>
   <line><add><ptr target="c57-0033.02"/></add>The Turk informed Safie of his</line>
   <line>intentions and</line> 
-  <line><metamark rend="horizontal line"></metamark></line>
+  <line><metamark rend="horizontal line"/></line>
   <line>and rank <del rend="overstrike">her father</del> <add place="superlinear">the merchant</add> commander</line>
   <line><del rend="overstrike">her</del><add place="superlinear">his daughter</add> to think no more of <del rend="overstrike">him</del> <add place="superlinear">her lover</add> but to</line>
   <line>repare to return to her native country</line>
@@ -34,7 +28,7 @@
   <line>hastily that he had reason to believe</line>
   <line>that his residence in Leghorn had been</line>
   <line>divulged and that he <del rend="overstrike">would</del> <add place="superlinear"><del rend="overstrike">was</del> should</add> <del rend="overstrike">b</del> speedily</line>
-  <line>be delivered <metamark>&#x2038;</metamark><add place="superlinear">up</add> to the French Government.</line>
+  <line>be delivered <metamark>‸</metamark><add place="superlinear">up</add> to the French Government.</line>
   <line><del rend="overstrike">He had just heard of ta small vessel</del></line>
   <line><del rend="overstrike">bound for Constantinople which</del> He had</line>
   <line>consequently hired a vessel to convey him</line>

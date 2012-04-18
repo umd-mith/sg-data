@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0022" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0022" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0022.tif"/>
   <zone type="pagination" rend="bordered">53</zone>
   <zone type="main">
@@ -30,14 +30,12 @@
     <line>rose. I ardently desired knowledge</line>
     <line><del rend="strikethrough">and I</del><add><ptr target="#c56-0022.01"/></add> often when at
       home</line>
-    <line>thought <mod type="subst" resp="#pbs"><del rend="strikethrough">how</del><add
-          place="superlinear">it</add></mod> hard <del rend="strikethrough">it was</del> to
+    <line>thought <mod type="subst" resp="#pbs"><del rend="strikethrough">how</del><add place="superlinear">it</add></mod> hard <del rend="strikethrough">it was</del> to
       remain</line>
     <line><add><ptr target="#c56-0022.02"/></add> cooped up in one place <del rend="strikethrough">all my</del></line>
     <line><del rend="strikethrough">life</del> and <add place="superlinear" resp="#pbs">had</add>
       longed to enter into the</line>
-    <line><del rend="strikethrough">worth</del> world and take my <del rend="strikethrough"
-        >place</del></line>
+    <line><del rend="strikethrough">worth</del> world and take my <del rend="strikethrough">place</del></line>
     <line>
       <mod>
         <del rend="strikethrough">with</del>

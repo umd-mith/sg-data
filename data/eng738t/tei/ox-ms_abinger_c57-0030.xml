@@ -6,11 +6,12 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0030"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+  ulx="0" uly="0" lrx="5368" lry="7104"
+  partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0030.tif"/>
   <zone type="library">63</zone>
   <zone type="main">
-    <milestone type="paragraph">
+    <milestone unit="paragraph">
       <line>of their fortune and <mod><del rend="strikethrough">exiled them for ever</del><add resp=”#pbs” place=”superlinear”>condemned them to a</></mod></line>
         <line><mod><del rend="strikethrough">from</del><add resp=”#pbs” place=”superlinear”>perpetual exile from</add></mod> their native country.
     </milestone></line>

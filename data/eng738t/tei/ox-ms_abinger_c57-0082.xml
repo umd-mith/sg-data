@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0082.tif"/>
   <zone type="pagination">
     102             
@@ -22,7 +23,7 @@
       <add resp="#pbs" place="superlinear">philosophers</add><del rend="strikethrough">men</del> of that country whose knowledge and discove
     </line>
     <line>
-      ries <del rend="strikethrough">might</del><add resp="#pbs" place="superlinear">were of</add> be of <del rend="strikethrough">inestimable</del><add resp="#pbs" place="superlinear">indispensable</add><add place="superlinear"><unclear reason="illegible">map? reap? apparently incomplete word</unclear></add><note>Robinson transcription of superlinear insertion here (above "use") APPEARS TO BE INCORRECT -- see transcript footnotes for lines 10,11. Smudged out writing does not appear to be "necess" </note><del rend="strikethrough">use</del><add place="intralinear">use</add> to me<metamark>&#x2038;</metamark> <add place="superlinear">in my persent undertaking</add>. The latter
+      ries <del rend="strikethrough">might</del><add resp="#pbs" place="superlinear">were of</add> be of <del rend="strikethrough">inestimable</del><add resp="#pbs" place="superlinear">indispensable</add><add place="superlinear"><unclear reason="illegible">map? reap? apparently incomplete word</unclear></add><note>Robinson transcription of superlinear insertion here (above "use") APPEARS TO BE INCORRECT -- see transcript footnotes for lines 10,11. Smudged out writing does not appear to be "necess" </note><del rend="strikethrough">use</del><add place="intralinear">use</add> to me<metamark>‸</metamark> <add place="superlinear">in my persent undertaking</add>. The latter
     </line>
     <line>
       method of obtaining the desired intelligence was dilato
@@ -34,7 +35,7 @@
       was agreable to me and I was delighted with the
     </line>
     <line>
-      idea of spending a year or two <del rend="strikethrough">away from</del><del rend="strikethrough"><add resp="#pbs" place="superlinear">in absence from</add></del> <del rend="strikethrough">my fami</del><add resp="#pbs" place="sublinear">in change of scene &#x26; variety of occupation in absence from my family</add>
+      idea of spending a year or two <del rend="strikethrough">away from</del><del rend="strikethrough"><add resp="#pbs" place="superlinear">in absence from</add></del> <del rend="strikethrough">my fami</del><add resp="#pbs" place="sublinear">in change of scene &amp; variety of occupation in absence from my family</add>
     </line>
     <line>
       <del rend="strikethrough">ly</del> during which time <del rend="strikethrough">during this time which</del>
@@ -55,7 +56,7 @@
       occur to destroy him and put a<add place="sublinear">n</add><note>insertion of "n" is rendered as _subscript_</note> <del rend="strikethrough">f</del> end to my
     </line>
     <line>
-      slavery for ever<metamark>&#x2014;</metamark>These feelings dictated my an
+      slavery for ever<metamark>—</metamark>These feelings dictated my an
     </line>
     <line>
       swer to my father. I <del rend="strikethrough">said I</del><add place="superlinear">expressed <del rend="strikethrough">my</del>a </add>wish<del rend="strikethrough">ed</del> to visit England
@@ -68,7 +69,7 @@
     </line>
     <line>
       travel and see the world before I sat down
-    </line>line>
+    </line>line&gt;
     <line>
       for life within the walls of my native town. 
       <milestone unit="paragraph"/>

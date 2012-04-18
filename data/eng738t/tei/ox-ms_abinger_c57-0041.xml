@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface 
-  xmlns="http://www.tei-c.org/ns/1.0" 
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0041" 
-  ulx="0" uly="0" lrx="5368" lry="7104"
-  partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0041" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0041.tif"/>
   <zone type="pagination" rend="bordered">66</zone>
   <zone type="main">
@@ -15,33 +9,33 @@
     <line>pockets of the dress that which I had taken</line>
     <line>from your study. At had first I had despised</line>
     <line><add><ptr target="c57-0041.01"/></add>them but now that I was able to decypher</line>
-    <line>the characters in them <metamark>&#x2038;</metamark> which they were written I began to decypher study them</line>
+    <line>the characters in them <metamark>‸</metamark> which they were written I began to decypher study them</line>
     <line>with diligence. It was your journal of</line>
     <line>the four la months that preceeded</line>
     <line>my creation. It In you minutely des</line>
-    <line>cribed <metamark>&#x2038;</metamark> in it these papers every step you took in the</line>
-    <line>progress of your work; <metamark>&#x2038;</metamark> history this was</line>
+    <line>cribed <metamark>‸</metamark> in it these papers every step you took in the</line>
+    <line>progress of your work; <metamark>‸</metamark> history this was</line>
     <line>mingled with accounts of domestic</line>
     <line>occurences. You doubtless well recollect</line>
-    <line>these papers &#x2014; Here they are &#x2014; Every</line>
-    <line>thing is told related <unclear>i</unclear> in them<add><ptr target="c57-0041.02"/></add> &#x0026; every the whole detail of that disgus</line>
+    <line>these papers — Here they are — Every</line>
+    <line>thing is told related <unclear>i</unclear> in them<add><ptr target="c57-0041.02"/></add> &amp; every the whole detail of that disgus</line>
     <line>ting circumstance horrors series of disgusting ircumstances which produced it is set in view;</line>
     <line>the minutest description is given is <add><ptr target="c57-0041.03"/></add> of my</line>
-    <line>odious &#x0026; loathsome person. I</line>
-    <line>sickened as I read &#x2014; the papers.  One</line>
+    <line>odious &amp; loathsome person. I</line>
+    <line>sickened as I read — the papers.  One</line>
     <line>Hateful day when I received life, I</line>
-    <line>exclaimed in agony &#x2014; Cursed Creator</line>
+    <line>exclaimed in agony — Cursed Creator</line>
     <line>Why did you form a monster</line>
     <line>so hideous that even you turned</line>
     <line>from me in disgust. God in pity made</line>
-    <line>man beautiful &#x0026; alluring &#x2014; I am</line>
+    <line>man beautiful &amp; alluring — I am</line>
     <line>more hateful to the sight than</line>
     <line>the bitter apples of Hell to the taste</line>
     <line>Satan has his companions, fellow</line>
     <line>devils, to admire and encourage</line>
-    <line>him. but I am solitary &#x0026; detested <milestone unit="paragraph"/></line>
-    <line>Such <metamark>&#x2038;</metamark> These were my reflections in my</line>
-    <line>hours of despondency &#x0026; solitude but</line>
+    <line>him. but I am solitary &amp; detested <milestone unit="paragraph"/></line>
+    <line>Such <metamark>‸</metamark> These were my reflections in my</line>
+    <line>hours of despondency &amp; solitude but</line>
     <line>when I contemplated the virtues of</line>
   </zone>
   <zone type="left_margin">
@@ -49,18 +43,17 @@
   </zone>
   <zone type="left_margin">
     <line>which bears<anchor xml:id="c57-0041.02"/></line>
-    <line><metamark>&#x2038;</metamark> reference to</line>
+    <line><metamark>‸</metamark> reference to</line>
     <line>my accursed ori</line>
     <line>-gin</line>
   </zone>
   <zone type="left_margin">
     <line>given in language<anchor xml:id="c57-0041.03"/></line>
     <line>which painted your</line>
-    <line>own horrors, &#x0026; <del rend="overstrike">has</del></line>
+    <line>own horrors, &amp; <del rend="overstrike">has</del></line>
     <line><del rend="overstrike">traced conveyed them</del></line>
     <line><del rend="overstrike">to</del></line>
     <line>has rendered mine</line>
     <line>ineffaceable.</line>
   </zone>
 </surface>
-

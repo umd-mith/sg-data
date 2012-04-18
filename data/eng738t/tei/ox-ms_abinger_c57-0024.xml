@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0024"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0024" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0024.tif"/>
     <zone type="top">
         <line><del rend="strikethrough">chains expected in despair the execution of</del> </line>     
@@ -18,7 +13,7 @@
         <line><del rend="strikethrough">For</del>During the ensueing days<add place="superlinear">while the</add>preparations were</line>
         <line><mod type="subst"><del rend="strikethrough">made</del><add place="superlinear">going forward</add></mod>for the escape of the merchant. And the</line>
         <line>zeal of Felix was warmed by several letters</line>
-        <line>that he received from this lovely <metamark>&#x2038;</metamark><add place="superlinear">girl</add><del rend="strikethrough">Amina</del>Who</line>
+        <line>that he received from this lovely <metamark>‸</metamark><add place="superlinear">girl</add><del rend="strikethrough">Amina</del>Who</line>
         <line><del rend="strikethrough">ardently thanked him for the</del>found means</line>
         <line>to express her thoughts in <mod type="subst"><del rend="strikethrough">writing his</del><add place="superlinear">the</add></mod> lang</line>
         <line>uage of her lover by the aid of he an old man</line>
@@ -27,23 +22,22 @@
         <line>ardent terms for his intended kindness,</line>
         <line>and at the same time she gently deplored</line>
         <line>her own fate.  I have copies of these letters</line>
-        <line>for I found means during <metamark>&#x2038;</metamark><add place="superlinear">my</add> residence in the</line>
+        <line>for I found means during <metamark>‸</metamark><add place="superlinear">my</add> residence in the</line>
         <line>hovel to procure the <mod type="subst"><del rend="strikethrough">means</del><add place="superlinear">implements</add></mod>  of writing</line>
         <line>and they<del rend="strikethrough">e letters</del> were often in the hands of</line>
         <line><del rend="strikethrough">A</del> Felix or Agatha. <mod type="subst"><del rend="strikethrough">Amina</del><add place="superlinear"><metamark>X</metamark>Safie</add></mod> related that her</line>
         <line>Mother was a Christian Arab seized and</line>
-        <line>made a slave by the Turks. <del>&#x0026;</del> recommended by</line>
+        <line>made a slave by the Turks. <del>&amp;</del> recommended by</line>
         <line>her beauty she had won the heart of</line>
         <line>the <del>pr</del>father of <mod type="subst"><del rend="strikethrough">Amina</del><add place="superlinear">Safie</add></mod> who married her.</line>
-        <line>The young girl spoke in high &#x0026; enthusiastic</line>
+        <line>The young girl spoke in high &amp; enthusiastic</line>
       </zone>
       <zone type="left_margin">
-        <metamark rend="horizontal line"></metamark>
+        <metamark rend="horizontal line"/>
         <line><metamark>✗</metamark>before I depart I will give them to you they</line>
-        <line>will prove to you the truth of my tale <del rend="strikethrough">&#x0026;</del>but at</line>
+        <line>will prove to you the truth of my tale <del rend="strikethrough">&amp;</del>but at</line>
         <line>present as the sun already begins to decline I shall only have</line>
         <line>time to repeat the substance to you</line>
       </zone>
     </zone>
 </surface>
-

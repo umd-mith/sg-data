@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0013" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0013" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0013.tif"/>
   <zone type="pagination">43</zone>
   <zone type="library">5</zone>
   <zone type="main">
     <line>being an only child, and desti</line>
-    <line>tute of companions at home, h<mod><del rend="overwritten"><unclear>is</unclear></del><add
-          place="intralinear" resp="#pbs">is</add></mod></line>
+    <line>tute of companions at home, h<mod><del rend="overwritten"><unclear>is</unclear></del><add place="intralinear" resp="#pbs">is</add></mod></line>
     <line><del rend="strikethrough"><unclear>to</unclear></del> father was pleased that he</line>
     <line>should find associates at our</line>
     <line>house and we were never com</line>
@@ -19,8 +18,7 @@
     <delSpan spanTo="#c56-0013.02" rend="strikethrough"/>
     <line>In this account of my early</line>
     <line>youth I wish particularly to men</line>
-    <line>tion <add><ptr target="#c56-0013.04"/></add> those circumstances<anchor
-        xml:id="c56-0013.02"/> which</line>
+    <line>tion <add><ptr target="#c56-0013.04"/></add> those circumstances<anchor xml:id="c56-0013.02"/> which</line>
     <line>led to and nourished my taste</line>
     <line>for that science which was</line>
     <line>the principal amusement of my</line>
@@ -39,16 +37,12 @@
     <line>I did not understand them the</line>
     <line>experiments never failed to</line>
     <line>attract my attention.<anchor xml:id="c56-0013.01"/><del rend="strikethrough">I
-        reme<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">m</add>ber</del></line>
-    <line><del rend="strikethrough">also</del><metamark> [</metamark>When I was about <mod
-        type="subst"><del rend="strikethrough">twelve</del><add place="superlinear"
-        >fourteen</add></mod> years</line>
+        reme<add place="sublinear"><metamark>‸</metamark></add><add place="superlinear" resp="#pbs">m</add>ber</del></line>
+    <line><del rend="strikethrough">also</del><metamark> [</metamark>When I was about <mod type="subst"><del rend="strikethrough">twelve</del><add place="superlinear">fourteen</add></mod> years</line>
     <!--The bracket indicates a new paragraph.-->
     <line>old we were at our house near</line>
     <line>Belrive when we witnessed the <metamark rend="cross-hatch"/> a</line>
-    <line>violent <mod type="subst"><del rend="strikethrough">at</del><add place="superlinear"
-          resp="#pbs">and</add></mod> terrible thunder storm</line>
+    <line>violent <mod type="subst"><del rend="strikethrough">at</del><add place="superlinear" resp="#pbs">and</add></mod> terrible thunder storm</line>
   </zone>
-  <zone type="left_margin"><del rend="strikethrough"><add xml:id="c56-0013.04"
-    >record</add></del></zone>
+  <zone type="left_margin"><del rend="strikethrough"><add xml:id="c56-0013.04">record</add></del></zone>
 </surface>
