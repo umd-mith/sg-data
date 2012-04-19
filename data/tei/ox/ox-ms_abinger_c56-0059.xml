@@ -3,23 +3,72 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0059" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0059.tif"/>
-  <zone type="pagination"></zone>
-  <zone type="library"></zone>
+  <zone type="pagination" rend="bordered">89</zone>
+  <zone type="library">28</zone>
   <zone type="main">
-    <line></line>
-  <line></line>
-  <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
-    <line></line>
+    <line>sickly appearance that he had</line>
+  <line>some years ago - he is quite well &amp; <hi rend="underline">hearty</hi></line>
+  <line>if I <del rend="strikethrough">y</del> may use that term for it is</line>
+    <line>very expressive</line>
+    <line><milestone unit="tei:p"/>"My uncle and I conversed <del rend="strikethrough">the</del></line>
+    <line>last night a long time about what</line>
+    <line><add><ptr target="#c56-0059.02"/></add>Ernest 
+    <mod>
+      <del rend="strikethrough"><hi rend="underline">should be</hi></del>
+      <add place="superlinear">should follow</add>
+    </mod>.  His 
+      <!-- I have a note here from the book that says the c is crossed out, but I do not see it on the manuscript -->
+    <del rend="strikethrough">c</del>onstant</line>
+    <line>ill health when young has deprived</line>
+    <line><add><ptr target="#c56-0059.03"/></add>of the habit of application and now</line>
+    <line>that he enjoys good health <del rend="strikethrough">we</del> he</line>
+    <line>is continually in the open air <del rend="strikethrough">on</del></line>
+    <line>climbing the hills or rowing on the</line>
+    <line>lake.  I, therefore, proposed that</line>
+    <line>he should <add place="superlinear" resp="#pbs">be</add> a farmer which you</line>
+    <line>know cousin is a favourite scheme</line>
+    <line>of mine -A farmer's is a very healthy</line>
+    <line><del rend="strikethrough">&amp;</del> happy life; and the least hurtful</line>
+    <line>or rather the most benificial <del rend="strikethrough">of any</del></line>
+    <line>profession<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">of any.</add>. My <del rend="strikethrough">father</del> uncle had an</line>
+    <line>idea of his being<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">educated as</add> an advocate, <add place="intralinear">that</add> through</line>
+    <line>his interrest <add place="superlinear">he might become</add>a judege. But besides that</line>
+    <line>he is not at all fit for such an</line>
+    <line>occupation, it is certainly 
+    <mod>
+      <del rend="strikethrough">better</del>
+      <add place="sublinear">creditable</add><add place="superlinear">more <del rend="strikethrough">honourable</del></add>
+    </mod> to</line>
+    <line><del rend="strikethrough">to</del> cultivate the earth for the suste</line>
+    <line>nance of man than <del rend="strikethrough">it</del> to be the</line>
+    <line>confid<add place="intralinear">a</add>nt &amp; sometimes 
+    <mod>
+      <del rend="strikethrough">a helpmate</del>
+      <add place="superlinear">the accomplice</add>
+    </mod> of</line>
+    <line>
+      <mod>
+      <del rend="strikethrough">their</del>
+      <add place="superlinear" resp="#pbs">his</add>
+      </mod> vices; which is the employment<add place="sublinear"><metamark>&#x2038;</metamark></add><add><ptr target="#c56-0059.04"/></add></line>
+    <line>of a Lawyer.  <delSpan spanTo="#c56-0059.01"/>And if he should become</line>
+    <line>a judge<anchor xml:id="c56-0059.01"/> I said that 
+    <mod>
+      <del rend="strikethrough">a</del><del rend="strikethrough">rich</del>
+      <add place="superlinear" resp="#pbs">the occupation of a prosperous</add>
+    </mod> farmer</line>
+    <line>if it were not a more honourable</line>
+  </zone>
+  <zone type="left_margin">
+    
+    <line><add xml:id="c56-0059.02"/>profession</line>
+  </zone>
+  <zone type="left_margin">
+    
+    <line><add xml:id="c56-0059.03"/>him</line>
+  </zone>
+  <zone type="left_margin">
+    
+    <line><add xml:id="c56-0059.04" resp="#pbs"/><unclear unit="chars" extent="6"/></line>
   </zone>
 </surface>
