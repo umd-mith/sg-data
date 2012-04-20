@@ -9,7 +9,7 @@
     <line>sickly appearance that he had</line>
   <line>some years ago - he is quite well &amp; <hi rend="underline">hearty</hi></line>
   <line>if I <del rend="strikethrough">y</del> may use that term for it is</line>
-    <line>very expressive</line>
+    <line>very expressive.</line>
     <line><milestone unit="tei:p"/>"My uncle and I conversed <del rend="strikethrough">the</del></line>
     <line>last night a long time about what</line>
     <line><add><ptr target="#c56-0059.02"/></add>Ernest 
@@ -31,17 +31,17 @@
     <line><del rend="strikethrough">&amp;</del> happy life; and the least hurtful</line>
     <line>or rather the most benificial <del rend="strikethrough">of any</del></line>
     <line>profession<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">of any.</add>. My <del rend="strikethrough">father</del> uncle had an</line>
-    <line>idea of his being<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">educated as</add> an advocate, <add place="intralinear">that</add> through</line>
-    <line>his interrest <add place="superlinear">he might become</add>a judege. But besides that</line>
+    <line>idea of his being<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">educated as</add> an advocate, <add place="intralinear" resp="#pbs">that</add> through</line>
+    <line>his interrest <add place="superlinear" resp="#pbs">he might become</add>a judge. But besides that</line>
     <line>he is not at all fit for such an</line>
     <line>occupation, it is certainly 
     <mod>
       <del rend="strikethrough">better</del>
-      <add place="sublinear">creditable</add><add place="superlinear">more <del rend="strikethrough">honourable</del></add>
+      <add place="sublinear" resp="#pbs">creditable</add><add place="superlinear" resp="#pbs">more <del rend="strikethrough">honourable</del></add>
     </mod> to</line>
     <line><del rend="strikethrough">to</del> cultivate the earth for the suste</line>
     <line>nance of man than <del rend="strikethrough">it</del> to be the</line>
-    <line>confid<add place="intralinear">a</add>nt &amp; sometimes 
+    <line>confid<add place="intralinear" resp="#pbs">a</add>nt &amp; sometimes 
     <mod>
       <del rend="strikethrough">a helpmate</del>
       <add place="superlinear">the accomplice</add>
@@ -60,15 +60,12 @@
     <line>if it were not a more honourable</line>
   </zone>
   <zone type="left_margin">
-    
     <line><add xml:id="c56-0059.02"/>profession</line>
   </zone>
   <zone type="left_margin">
-    
     <line><add xml:id="c56-0059.03"/>him</line>
   </zone>
   <zone type="left_margin">
-    
-    <line><add xml:id="c56-0059.04" resp="#pbs"/><unclear unit="chars" extent="6"/></line>
+    <line><add xml:id="c56-0059.04" resp="#pbs"/>&amp; <unclear unit="chars" extent="6"/></line>
   </zone>
 </surface>
