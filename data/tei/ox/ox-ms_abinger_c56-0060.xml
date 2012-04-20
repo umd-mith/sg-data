@@ -15,14 +15,14 @@
     <line>on that subject</line>
     <line><milestone unit="tei:p"/>And now I must tell you a little</line>
     <line>story that will please you. Do you</line>
-    <line>not remember <del rend="strikethrough">Ju</del> Justine <del rend="strikethrough">Martin</del>?</line>
+    <line>not remember <del rend="strikethrough">Ju</del> Justine <del rend="strikethrough">Martin</del>?<add><ptr target="#c56-0060.02"/></add></line>
     <line>Perhaps you do not I will therefore</line>
     <line>tell you her story in a few words. Mad.</line>
     <line>Martin her Mother was a widow with</line>
     <line>four children of whom <del rend="strikethrough">this</del> Justine</line>
     <line>was the third. This girl had always been</line>
     <line>the <del rend="strikethrough">favou</del> favourite of her father</line>
-    <line><mod>
+    <line><add><ptr target="#c56-0060.03"/></add><mod>
       <del rend="strikethrough">and</del><del rend="strikethrough">by</del>
       <add place="superlinear" resp="#pbs">thro</add>
     </mod> an odd perversity her Mother</line>
@@ -48,11 +48,11 @@
     </mod> you once said, that</line>
     </zone>
   <zone type="left_margin">
-    <add><ptr target="#c56-0060.02"/></add>
+    
     <line><add xml:id="c56-0060.02"/>Moritz?</line>
   </zone>
   <zone type="left_margin">
-    <add><ptr target="#c56-0060.03"/></add>
+    
     <line><add xml:id="c56-0060.03" resp="#pbs"/>but</line>
   </zone>
   <zone type="left_margin">
