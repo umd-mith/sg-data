@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0061" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0061" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0061.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">91</zone>
+  <zone type="main"></zone>
+  <zone type="left_margin">
+    <line>-tinction<del rend="strikethrough">s</del> between</line>
+    <line>the classes into</line>
+    <line>which human</line>
+    <line>beings have</line>
+    <line>been divided,</line>
+    <line>&amp; the lower</line>
+    <line>orders being</line>
+    <line>neither so poor</line>
+    <line>nor so despised</line>
+    <line>are more</line>
+    <line>refined &amp; moral.</line>
+    <line>A servant at</line>
+    <line>Geneva does</line>
+    <line>not mean the</line>
+    <line>same thing as</line>
+    <line>a servant in</line>
+    <line>France or England</line>
+    <line>-Justine <del rend="strikethrough"><hi rend="underline">was</hi></del></line>
+    <line>thus recieved into</line>
+    <line>our family to</line>
+    <line>learn the duties</line>
+    <line>of a servant, which</line>
+    <line>in our fortunate</line>
+    <line>country does not</line>
+    <line>include a sacri</line>
+    <line>-fize of the digni</line>
+    <line>-ty of a human</line>
+    <line>being.<anchor xml:id="c56-0060.05"/></line>
+  </zone>
 </surface>
