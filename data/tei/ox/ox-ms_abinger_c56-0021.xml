@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0021" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0021" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0021.tif"/>
   <zone type="pagination" rend="bordered">51</zone>
   <zone type="library">9</zone>
@@ -12,32 +14,40 @@
     <line>arrived – I had taken leave of all</line>
     <line>my friends excepting Clerval, who spent</line>
     <line>the last evening with us. He bitterly la</line>
-    <line>mented that he was <mod><del rend="strikethrough">not able</del><add place="superlinear" resp="#pbs">unable</add></mod> to</line>
+    <line>mented that he was <mod><del rend="strikethrough">not able</del><add place="superlinear"
+          resp="#pbs">unable</add></mod> to</line>
     <line>accompany me But his father</line>
     <line>could not <mod><del rend="strikethrough">bear</del><add place="superlinear" resp="#pbs">be
           persuaded</add></mod> to part with him</line>
-    <line><del rend="strikethrough">besides </del><del rend="strikethrough">as </del><del rend="strikethrough">he </del>intend<mod><del rend="overwritten">ed</del><add place="intralinear" resp="#pbs">ing</add></mod>
-      <mod type="subst" resp="#pbs">
-        <del rend="strikethrough">him to</del>
-        <add place="superlinear">that he should</add></mod> be-</line>
+    <line><del rend="strikethrough">besides </del><del rend="strikethrough">as </del><del
+        rend="strikethrough">he </del>intend<mod><del rend="overwritten">ed</del><add
+          place="intralinear" resp="#pbs">ing</add></mod>
+      <mod><del rend="strikethrough">him to </del><add place="superlinear" resp="#pbs">that he should</add></mod>be-</line>
     <line>come a partner with him in</line>
-    <line>his business, and <delSpan spanTo="#c56-0021.01"/>he said he did not</line>
-    <line>see <add place="sublinear">^</add><add place="superlinear">of</add> what use learning
-          <mod><add place="sublinear">^</add><del rend="strikethrough"><add place="superlinear">could be</add></del></mod> to a</line>
-    <line>merchant.<anchor xml:id="c56-0021.01"/> Henry had a refined mind</line>
+    
+    <!--create a sequential mod for this bit -->
+    <line>his business, <add><ptr target="#c56-0021.01"/></add> and <delSpan spanTo="#c56-0021.02"/>he said he did not</line>
+    <line>see <add place="sublinear">&#x2038;</add><add place="superlinear">of</add> what use learning
+      <mod><add place="sublinear">&#x2038;</add><del rend="strikethrough"><add place="superlinear"
+            >could be</add></del></mod> to a</line>
+    <line>merchant.<anchor xml:id="c56-0021.02"/> Henry had a refined mind</line>
+    
     <line><del rend="strikethrough">and a</del> he <mod><del rend="strikethrough">did not
           wish</del><add place="superlinear" resp="#pbs">had no desire</add></mod> to be idle</line>
     <line>and was well pleased to become <del rend="strikethrough">the</del></line>
     <line><del rend="strikethrough">partner</del>
-      <del rend="strikethrough">of</del> his father's <mod type="additions"><add place="sublinear">^</add><add place="superlinear">partner</add></mod>but he believed</line>
+      <del rend="strikethrough">of</del> his father's <mod><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">partner</add></mod>but he believed</line>
     <line>that a man might be a very good</line>
-    <line>trader and yet <mod><del rend="strikethrough">have</del><add place="superlinear" resp="#pbs">posess</add></mod> a cultivated</line>
+    <line>trader and yet <mod><del rend="strikethrough">have</del><add place="superlinear"
+          resp="#pbs">posess</add></mod> a cultivated</line>
     <line><del rend="strikethrough">mind.</del>
       <add place="intralinear">understanding.</add></line>
     <milestone unit="tei:p"/>
     <line>We sate late listening to his com</line>
     <line>plaints, and <del rend="strikethrough">I</del> making many little</line>
-    <line>arrangements for the future. <mod><del rend="strikethrough">and</del><mod><del rend="overwritten">t</del><add place="intralinear">T</add></mod></mod>he</line>
+    <line>arrangements for the future. <mod><del rend="strikethrough">and</del><mod><del
+            rend="overwritten">t</del><add place="intralinear">T</add></mod></mod>he</line>
     <line>next morning early I departed. Tears</line>
     <line>gushed from the eyes of Elizabeth</line>
     <line>they proceeded partly from sorrow</line>
@@ -47,9 +57,9 @@
     <line>months before when a mothers </line>
     <line>blessing would have accompanied me</line>
   </zone>
-  <!-- I can't figure out the insertion point for this addition -->
+  
   <zone type="left_margin">
-    <addSpan resp="#pbs" spanTo="#c56-0021.02"/>
+    <addSpan resp="#pbs" spanTo="#c56-0021.03"/>
     <line><del rend="strikethrough">and</del> in</line>
     <line>compliance</line>
     <line>with his favou</line>
@@ -59,6 +69,6 @@
     <line>in the com-</line>
     <line>-merce of ordi</line>
     <line>nary life.</line>
-    <anchor xml:id="c56-0021.02"/>
+    <anchor xml:id="c56-0021.03"/>
   </zone>
 </surface>
