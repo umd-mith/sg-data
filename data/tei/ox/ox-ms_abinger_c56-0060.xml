@@ -54,7 +54,6 @@
     <line><add xml:id="c56-0060.03" resp="#pbs"/>but</line>
   </zone>
   <zone type="left_margin">
-    
     <line><addSpan resp="#pbs" spanTo="c56-0060.05" xml:id="c56-0060.04"/><metamark>X</metamark></line>
     <line>The republican</line>
     <line>institutions of our</line>
@@ -68,35 +67,5 @@
     <line><del rend="strikethrough">Ju Whilst</del></line>
     <line>Hence there</line>
     <line>is less dis-</line>
-  </zone>
-  <zone type="left_margin">
-    <line>-tinction<del rend="strikethrough">s</del> between</line>
-    <line>the classes into</line>
-    <line>which human</line>
-    <line>beings have</line>
-    <line>been divided,</line>
-    <line>&amp; the lower</line>
-    <line>orders being</line>
-    <line>neither so poor</line>
-    <line>nor so despised</line>
-    <line>are more</line>
-    <line>refined &amp; moral.</line>
-    <line>A servant at</line>
-    <line>Geneva does</line>
-    <line>not mean the</line>
-    <line>same thing as</line>
-    <line>a servant in</line>
-    <line>France or England</line>
-    <line>-Justine <del rend="strikethrough"><hi rend="underline">was</hi></del></line>
-    <line>thus recieved into</line>
-    <line>our family to</line>
-    <line>learn the duties</line>
-    <line>of a servant, which</line>
-    <line>in our fortunate</line>
-    <line>country does not</line>
-    <line>include a sacri</line>
-    <line>-fize of the digni</line>
-    <line>-ty of a human</line>
-    <line>being.<anchor xml:id="c56-0060.05"/></line>
   </zone>
 </surface>
