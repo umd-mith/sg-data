@@ -3,6 +3,72 @@
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0060" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0060.tif"/>
-    <zone>
+    <zone type="pagination" rend="bordered">90</zone>
+  <zone type="main">
+    <line>it was at least a happier employ</line>
+    <line>ment than that of a judge, whose</line>
+    <line>misfortune it was always to meddle</line>
+    <line>with the dark side of human nature</line>
+    <line>My uncle smiled and said that I</line>
+    <line><del rend="strikethrough">ougt</del> ought to be an advocate myself;</line>
+    <line>which put an end to the conversation</line>
+    <line>on that subject</line>
+    <line><milestone unit="tei:p"/>And now I must tell you a little</line>
+    <line>story that will please you. Do you</line>
+    <line>not remember <del rend="strikethrough">Ju</del> Justine <del rend="strikethrough">Martin</del>?</line>
+    <line>Perhaps you do not I will therefore</line>
+    <line>tell you her story in a few words. Mad.</line>
+    <line>Martin her Mother was a widow with</line>
+    <line>four children of whom <del rend="strikethrough">this</del> Justine</line>
+    <line>was the third. This girl had always been</line>
+    <line>the <del rend="strikethrough">favou</del> favourite of her father</line>
+    <line><mod>
+      <del rend="strikethrough">and</del><del rend="strikethrough">by</del>
+      <add place="superlinear" resp="#pbs">thro</add>
+    </mod> an odd perversity her Mother</line>
+    <line><del rend="strikethrough">never</del> could <mod>
+      <del rend="strikethrough">bear</del>
+      <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">not endure</add>
+      </mod> her and after the</line>
+    <line>death of M. <mod>
+      <del rend="strikethrough">Martin</del>
+      <add place="superlinear">Moritz</add>
+    </mod> treated her very ill.</line>
+    <line>My aunt observed this, and when Justine</line>
+    <line>was <del rend="strikethrough">ten</del> twelve years old <unclear unit="chars" extent="3"/> prevailed</line>
+    <line>on her mother to allow her to live</line>
+    <line>at our house. <add place="superlinear"><metamark>X</metamark></add> <del rend="strikethrough">Where</del> <delSpan rend="strikethrough" spanTo="#c56-0060.01"/>she was taught</line>
+    <line>all the duties of servant &amp; was very</line>
+    <line>kindly treated.<anchor xml:id="c56-0060.01"/> I dare say that you now</line>
+    <line>remember all about it, for Justine</line>
+    <line>was a great favourite of yours, &amp; I</line>
+    <line><mod>
+      <del rend="strikethrough">remember</del>
+      <add place="superlinear" resp="#pbs">recollect</add>
+    </mod> you once said, that</line>
     </zone>
+  <zone type="left_margin">
+    <add><ptr target="#c56-0060.02"/></add>
+    <line><add xml:id="c56-0060.02"/>Moritz?</line>
+  </zone>
+  <zone type="left_margin">
+    <add><ptr target="#c56-0060.03"/></add>
+    <line><add xml:id="c56-0060.03" resp="#pbs"/>but</line>
+  </zone>
+  <zone type="left_margin">
+    <add><ptr target="#c56-0060.04"/></add>
+    <line><addSpan resp="#pbs" spanTo="c56-0060.05" xml:id="c56-0060.04"/><metamark>X</metamark></line>
+    <line>The republican</line>
+    <line>institutions of our</line>
+    <line><del rend="strikethrough">state</del> country, have</line>
+    <line>produced simpler</line>
+    <line>&amp; happier manners</line>
+    <line>than those which</line>
+    <line>prevail in the</line>
+    <line>great monarchies</line>
+    <line>that surround it.</line>
+    <line><del rend="strikethrough">Ju Whilst</del></line>
+    <line>Hence there</line>
+    <line>is less dis-</line>
+  </zone>
 </surface>
