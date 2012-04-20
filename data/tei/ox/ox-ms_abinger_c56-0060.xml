@@ -53,6 +53,7 @@
   <zone type="left_margin">
     <line><add xml:id="c56-0060.03" resp="#pbs"/>but</line>
   </zone>
+  <!-- This is the beginning of a left-margin zone that crosses two pages; the spanTo never reaches its anchor -->
   <zone type="left_margin">
     <line><addSpan resp="#pbs" spanTo="c56-0060.05" xml:id="c56-0060.04"/><metamark>X</metamark></line>
     <line>The republican</line>
