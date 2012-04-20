@@ -31,13 +31,10 @@
     <line>and my speedy departure depressed</line>
     <line>our spirits but Elizabeth endeavour</line>
     <line>ed to <mod>
-<<<<<<< HEAD
-        <del rend="strikethrough">spr</del>
-        <del rend="strikethrough">renew</del>
-=======
+
         <del rend="strikethrough">spr </del>
         <del rend="strikethrough">renew </del>
->>>>>>> Final Review, Issue #54, c56-0020, DJB
+
         <del rend="strikethrough">the spirit</del>
         <del rend="strikethrough"><add place="superlinear">cast a<space unit="chars" extent="5"/>a
             gleam</add></del>
@@ -59,13 +56,10 @@
     <line>beheld her so enchanting as at this</line>
     <line>time when she <delSpan spanTo="#c56-0020.11"/><del rend="strikethrough">sar sacrifised
         every</del></line>
-<<<<<<< HEAD
-    <line><del rend="strikethrough">minut</del><del rend="unmarked">e</del>
-      <del rend="strikethrough">of her time</del>
-=======
+
     <line><del rend="strikethrough">minut</del><del rend="unmarked">e </del>
       <del rend="strikethrough">of her time </del>
->>>>>>> Final Review, Issue #54, c56-0020, DJB
+
       <del rend="strikethrough">to others </del><anchor xml:id="c56-0020.11"/><add place="sublinear"
         >&#x2038;</add><add place="superlinear">was</add> continual</line>
     <line>ly endeavouring to contribute to the</line>
