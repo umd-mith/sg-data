@@ -71,7 +71,7 @@
     </line>
     
     <line>
-      <del rend="strikethrough">good</del> excellent &amp; the verdure beautiful<milestone unit="paragraph"/>
+      <del rend="strikethrough">good</del> excellent &#x0026; the verdure beautiful<milestone unit="paragraph"/>
     </line>
     
     <line>
@@ -99,11 +99,11 @@
     </line>
     
     <line>
-      &amp; almost every town was marked by
+      &#x0026; almost every town was marked by
     </line>
     
     <line>
-      some story.  <del rend="strikethrough">Th</del>  We saw Tilbury Fort &amp;
+      some story.  <del rend="strikethrough">Th</del>  We saw Tilbury Fort &#x0026;
     </line>
     
     <line>
@@ -123,11 +123,11 @@
     </line>
     
     <line>
-      rous steeples of London; <del rend="strikethrough">&amp;</del> St Pauls
+      rous steeples of London; <del rend="strikethrough">&#x0026;</del> St Pauls
     </line>
     
     <line>
-      towerering above all &amp; the Tower famed
+      towerering above all &#x0026; the Tower famed
     </line>
     
     <line>

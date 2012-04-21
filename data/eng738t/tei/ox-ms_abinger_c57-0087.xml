@@ -13,19 +13,19 @@
     
     
     <line>
-      dreary imaginations I passed th<metamark>‸</metamark><add place="superlinear">r</add>ough many
+      dreary imaginations I passed th<metamark>&#x2038;</metamark><add place="superlinear">r</add>ough many
     </line>
     
     <line>
-      beautiful &amp; majestic scenes but my eyes
+      beautiful &#x0026; majestic scenes but my eyes
     </line>
     
     <line>
-      were fixed &amp; unobserving; I <del rend="strikethrough">co</del> could only
+      were fixed &#x0026; unobserving; I <del rend="strikethrough">co</del> could only
     </line>
     
     <line>
-      think of the bourne of my travels &amp; the
+      think of the bourne of my travels &#x0026; the
     </line>
     
     <line>
@@ -49,7 +49,7 @@
     </line>
     
     <line>
-      for Clerval.  He came; &amp; alas, how great
+      for Clerval.  He came; &#x0026; alas, how great
     </line>
     
     <line>
@@ -61,12 +61,12 @@
     </line>
     
     <line>
-      he saw the beauties of <add place="superlinear">the <del rend="strikethrough">sun</del></add>set<add place="intralinear">ting</add><metamark>߶</metamark><add place="superlinear">sun</add>and
+      he saw the beauties of <add place="superlinear">the <del rend="strikethrough">sun</del></add>set<add place="intralinear">ting</add><metamark>&#x2038;</metamark><add place="superlinear">sun</add>and
     </line>
     
     
     <line>
-      more happy when he saw it rise &amp;
+      more happy when he saw it rise &#x0026;
     </line>
     
     <line>
@@ -78,7 +78,7 @@
     </line>
     
     <line>
-      landscape &amp; the appearances of the
+      landscape &#x0026; the appearances of the
     </line>
     
     <line>
@@ -89,9 +89,8 @@
       now I enjoy existence.  But you, my     
     </line>
     
-    wherefore are you
     <line>
-      dear Frankenstein, <add place="superlinear" resp="#pbs">wherefore are you <del rend="strikethrough">are</del></add> desponding &amp;
+      dear Frankenstein, <mod><add place="superlinear" resp="#pbs">wherefore are you</add><del rend="strikethrough">are</del></mod> desponding &#x0026;
     </line>
     
     <line>
@@ -101,7 +100,7 @@
     <line>
       gloomy thoughts and neither saw
     </line>
-    descent
+    
     <line>
       the <add place="superlinear">descent<del rend="strikethrough">rise</del></add> of the evening star nor the
     </line>
@@ -123,7 +122,7 @@
     </line>
     
     <line>
-      eye of feeling &amp; delight, than to listen
+      eye of feeling &#x0026; delight, than to listen
     </line>
     
     <line>
@@ -136,6 +135,7 @@
     
     <line>
       avenue to enjoyment.
+      <milestone unit="paragraph"/>
     </line>
     
     <line>

@@ -9,7 +9,7 @@
       </line>
       
       <line>
-        <del rend="strikethrough">to me que</del><note>del is in 2 strokes, apparently, one only spanning "to me"</note> question me <add place="superlinear" resp="#pbs">further</add> concerning the
+        <del rend="strikethrough">to me que</del><note>del is in 2 strokes, apparently, one only spanning "to me"</note> question me <mod><add place="superlinear" resp="#pbs">further</add></mod> concerning the
       </line>
       
       <line>
@@ -22,10 +22,11 @@
       
       <line>
         velling would restore my tranquillity
+        <milestone unit="paragraph"/>
       </line>
       
       <line>
-        I now <add place="superlinear" resp="#pbs">made arrangements<del rend="strikethrough">arranged</del></add> for my journey
+        I now <mod><add place="superlinear" resp="#pbs">made arrangements</add><del rend="strikethrough">arranged</del></mod> for my journey
       </line>
       
       <line>
@@ -65,7 +66,7 @@
       </line>
       
       <line>
-        pany me to England? This <add place="superlinear" resp="#pbs">imagination <del rend="strikethrough">idea</del></add> was
+        pany me to England? This <mod><add place="superlinear" resp="#pbs">imagination</add><del rend="strikethrough">idea</del></mod> was
       </line>
       
       <line>
@@ -73,7 +74,7 @@
       </line>
       
       <line>
-        as much as<metamark>‸</metamark><add place="superlinear" resp="#pbs">it supposed the safety of</add> my friends <delSpan spanTo="#nextline"/>would be
+        as much as<mod><metamark>&#x2038;</metamark><add place="superlinear" resp="#pbs">it supposed the safety of</add></mod> my friends <delSpan spanTo="#nextline"/>would be
       </line>
       
       <line>
@@ -81,7 +82,7 @@
       </line>
       
       <line>
-        the <add place="superlinear" resp="#pbs">idea of a</add> possibility that the reverse
+        the <mod><add place="superlinear" resp="#pbs">idea of a</add></mod> possibility that the reverse
       </line>
       
       
