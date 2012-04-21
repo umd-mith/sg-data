@@ -76,7 +76,7 @@
     </line>
           
     <line>
-      with fury <add place="superlinear" resp="#pbs">on</add>the <del rend="strikethrough">th</del> <add place="superlinear" resp="#pbs"><unclear reason="illegible" confidence="0.4">base</unclear><del rend="strikethrough">foot</del></add> of the mountain
+      with fury <mod><add place="superlinear" resp="#pbs">on</add></mod>the <del rend="strikethrough">th</del> <mod><add place="superlinear" resp="#pbs"><unclear reason="illegible" confidence="0.4">base</unclear></add><del rend="strikethrough">foot</del></mod> of the mountain
     </line>
     
     <line>
@@ -130,9 +130,9 @@
     <line>
       Look at that castle which overhangs
     </line>
-    yon
+    
     <line>
-      <add place="superlinear" resp="#pbs">yon<del rend="strikethrough">that</del></add> precipiece; and that also on
+      <mod><add place="superlinear" resp="#pbs">yon</add><del rend="strikethrough">that</del></mod> precipiece; and that also on
     </line>
     
     <line>

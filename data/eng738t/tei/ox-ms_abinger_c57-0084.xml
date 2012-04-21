@@ -20,7 +20,7 @@
       
       <line>but our principal stay would be in England.</line>
       
-      <line>We should return by France &amp; <del rend="strikethrough">and</del> it</line>
+      <line>We should return by France &#x0026; <del rend="strikethrough">and</del> it</line>
       
       <line>was agreed that this tour should occu</line>
       
@@ -54,7 +54,7 @@
       
       <line>your arrangement. By that time</line>
       
-      <line>we<metamark>‸</metamark><add place="superlinear">both</add> shall have <del rend="strikethrough">both</del> become wiser</line>
+      <line>we<metamark>&#x2038;</metamark><add place="superlinear">both</add> shall have <del rend="strikethrough">both</del> become wiser</line>
                           
       <line>and I hope happier than we<metamark>‸</metamark> <add>at present</add> are <del rend="strikethrough">now</del></line> 
       

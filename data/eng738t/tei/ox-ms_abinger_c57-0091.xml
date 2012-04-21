@@ -63,7 +63,7 @@
     </line>
     which
     <line>
-      scent <add place="superlinear" resp="#pbs">which<del rend="strikethrough">that</del></add>  this exhales is not very
+      scent <mod><add place="superlinear" resp="#pbs">which</add><del rend="strikethrough">that</del></mod>  this exhales is not very
     </line>
     
     <line>
@@ -91,7 +91,7 @@
     </line>
     
     <line>
-      Britain. The banks <add place="superlinear">of the</add><metamark>‸</metamark>Thames presented
+      Britain. The banks <add place="superlinear">of the</add><metamark>&#x2038;</metamark>Thames presented
     </line>
     
     <line>
