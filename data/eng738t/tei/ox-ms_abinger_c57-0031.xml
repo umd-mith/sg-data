@@ -10,16 +10,16 @@
   partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0031.tif"/>
   <zone type="pagination" rend="bordered">57</zone>
+  <zone type="library">16</zone>
   <zone type="main">
     <line> <add resp="#pbs" place="superlinear">another Chapter</add></line>
     <line>Sometime elapsed before I <del rend="strikethrough">became informed </del> </line>
-    <line><add><ptr target="#c57-0031.a"/></add><del rend="strikethrough">of</del><metamark>&#x2038;</metamark><add place="superlinear">learned</add>the history of my friends. It was one  <del rend="strikethrough">that</del></line>
-    <line><add><ptr target="#c57-0031.1"/></add> could not fail to impress itself deeply <del rend="strikethrough">in</del><add>on</add> my</line>
+    <line><add><ptr target="#c57-0031.a"/></add><del rend="strikethrough">of</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">learned</add>the history of my friends. It was one  <del rend="strikethrough">that</del></line>
+    <line><add><ptr target="#c57-0031.1"/></add> could not fail to impress itself deeply <del rend="strikethrough">in</del><add place="sublinear">on</add> my</line>
     <line>mind unfolding as it did a number of</line>
     <line>circumstances each inter<del rend="strikethrough">r</del>esting &#x0026; wonder</line>
     <line>ful to one so utterly inexperienced as I</line>
-    <line>was. <unclear>{?2}</unclear> <milestone unit="paragraph"/></line>
-    <milestone unit="paragraph">
+    <line>was.<milestone unit="paragraph"/></line>
     <line>The name of the old man was De Lacey.</line>
     <line>He was decended from a good family in France <del rend="strikethrough">&#x0026;</del></line>
     <line><del rend="strikethrough">untill very lately had lived</del> where for many years</line>
@@ -27,17 +27,16 @@
     <line>&#x0026; beloved by his equals.  <del rend="strikethrough">His two children Felix &#x0026; Aga</del></line>
     <line><del rend="strikethrough">tha</del>  His son was bred in the service of his country</line>
     <line>&#x0026; Agatha had <del rend="strikethrough">been woed by gentlemen</del><add place="superlinear"> ranked with  ladies</add> of the</line>
-    <line>highest distinction.  A few months <mod><del>previous</del><add resp=”#pbs” place=”superlinear”>before</add></mod></line>
+    <line>highest distinction.  A few months <del>previous</del><add resp="#pbs" place="superlinear">before</add></line>
     <line><del rend="strikethrough">to</del> my arrival they had lived in a large &#x0026; lux</line>
     <line>urious city called Paris, surrounded by friends</line>
-    <line>&#x0026; possessed of every enjoyment that<mod><del>that</del><add resp=”#pbs” place=”superlinear”>which</add> </mod>virtue<mod><metamark>&#x2038;</metamark><add resp=”#pbs” place=”superlinear”>&#x0026; refin</add> virtue ac</line>
-    <line><mod><add resp=”#pbs” place=”superlinear”>ement of intellect &#x0026; taste,</add></mod> companied with a competent fortune could</line>
+    <line>&#x0026; possessed of every enjoyment that<del rend="strikethrough">that</del><add resp="#pbs" place="superlinear">which</add> virtue<metamark>&#x2038;</metamark><add resp="#pbs" place="superlinear">&#x0026; refin</add> virtue ac</line>
+    <line><mod><add resp="#pbs" place="superlinear">ement of intellect &#x0026; taste,</add></mod> companied with a competent fortune could</line>
     <line>afford. <milestone unit="paragraph"/></line>
-    <milestone type="paragraph">
     <line>The father of Safie <del rend="strikethrough">was</del><add place="superlinear">had been</add> the cause of their</line>
-    <line> <mod><del rend="strikethrough">fall</del><add resp=”#pbs” place=”superlinear”>ruin</add></mod>  He was a Turkish Merchant and had</line>
-    <line> <del rend="strikethrough">li</del> inhabited Paris for many years.  When his person</line>
-    <line>became <mod><del rend="strikethrough">for some</del><metamark>&#x2038;</metamark><add resp=”#pbs” place=”superlinear”>for some reason which I could not learn</add></mod>  obnoxious to the govern</line>
+    <line><del rend="strikethrough">fall</del><add resp="#pbs" place="superlinear">ruin</add>He was a Turkish Merchant and had</line>
+    <line><del rend="strikethrough">li</del> inhabited Paris for many years.  When his person</line>
+    <line>became <mod><del rend="strikethrough">for some</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add resp="#pbs" place="superlinear">for some reason which I could not learn</add></mod>  obnoxious to the govern</line>
     <line>ment– He was seized and cast into prison	</line>
     <line>the very day that Safie arrived from Constan</line>
     <line>tinople to join him. He was tried &#x0026; condemned </line>
@@ -46,10 +45,10 @@
     <line>was judged that his relig<del rend="strikethrough">i</del>ion and wealth	</line>
     <line><del rend="strikethrough">had been the causes of his condemnation rather</del> </line> 
   </zone>
-  <zone type="left margin"><addSpan xml:id="c57-0031.a" spanTo="#c57-0031.b"/>
+  <zone type="left_margin"><addSpan xml:id="c57-0031.a" spanTo="#c57-0031.b"/>
     <line><del rend="strikethrough">of t</del></line>
-      <anchor xml:id="c57-0022.b"/></zone>
-  <zone type="left margin"><addSpan xml:id="c57-0031.1" spanTo="#c57-0031.2"/>
+      <anchor xml:id="#c57-0031.b"/></zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0031.1" spanTo="#c57-0031.2"/>
   <line><add>which</add></line>
-  <anchor xml:id="c57-0031.2/></zone>
+  <anchor xml:id="#c57-0031.2"/></zone>
 </surface>
