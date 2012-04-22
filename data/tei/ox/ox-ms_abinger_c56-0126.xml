@@ -1,8 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0126" ulx="0" uly="0" lrx="5368" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0126" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0126.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>156</line>
+  </zone>
+  <zone type="main">
+    <line>powe<mod type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear"
+          >r</add></mod>ful than thyself my height is superior</line>
+    <line>to yours my joints more supple. But I</line>
+    <line><mod type="subst"><del rend="strikethrough">do not wish to <unclear unit="chars"
+            precision="low" reason="overwritten" extent="5">trave</unclear></del>
+        <del rend="strikethrough">you</del><add place="superlinear" resp="#pbs">will no t be tempted
+          to set myself in opposition to thee,</add></mod> I am thy</line>
+    <line>creature and <del rend="scribble">I</del> will <add place="superlinear" resp="#pbs"
+        >even</add> be mild and docile</line>
+    <line><mod type="subst"><del rend="strikethrough">to you</del>, <del rend="strikethrough">my
+          gentle master</del><add resp="#pbs"><ptr target="#c56-0126.01"/></add><add resp="#pbs"
+          place="superlinear">natural master &amp; king</add></mod>, – if <mod type="subst"><del
+          rend="strikethrough">you</del><add resp="#pbs" place="superlinear">thou</add></mod>
+      will</line>
+    <line>perform <mod type="subst"><del rend="strikethrough">your</del><add place="sublinear"
+          >&#x2038;</add><add place="superlinear" resp="#pbs">thy part also, the which thou owest
+          me</add></mod> duties <del rend="strikethrough">towards</del> me. Oh Fran</line>
+    <line>kenstein, do not <add place="intralinear" resp="#pbs">be</add> equitable to every
+      other</line>
+    <line>and trample upon me <add place="superlinear" resp="#pbs">alone</add> to whom thy</line>
+    <line>justice &amp; even <mod type="subst"><del rend="strikethrough">mere</del>
+        <del rend="strikethrough">charity</del><add place="superlinear" resp="#pbs">they clemency,
+          thy affection</add></mod> is most</line>
+    <line>due. <del rend="strikethrough">Remb</del> Remember that I am</line>
+    <line>thy creature – <add place="superlinear" resp="#pbs">I ought to be</add> Thy Adam – <mod
+        type="subst"><del rend="double-strike">or</del><add place="sublinear">&#x2038;</add><add
+          place="superlinear" resp="#pbs">but I am</add></mod> rather the</line>
+    <line>fallen angel <del rend="strikethrough">for</del><add place="superlinear" resp="#pbs">whom
+        thou driven from joy for no misdeed;</add> every where I see</line>
+    <line>bliss <mod type="additions" resp="#pbs"><add place="superlinear">from</add> whi<add
+          place="intralinear">ch</add></mod> I alome am irrecoverably</line>
+    <line><mod type="subst"><del rend="strikethrough">wretched</del><add><ptr target="#c56-0126.02"
+          /></add></mod>. I was benevolent and good:</line>
+    <line>misery made me a fiend. Make me</line>
+    <line>happy and I shall again be virtuous<anchor xml:id="c56-0125.08"
+      /><!--closes speech begun at end of previous file, c56-0125.08--></line>
+    <milestone unit="tei:p"/>
+    <line><milestone unit="tei:q" spanTo="#c56-0126.03"/>Begone<anchor xml:id="c56-0126.03"/>
+      replied I – <milestone unit="tei:q" spanTo="#c56-0126.04"/><del rend="strikethrough">I cannot
+        and</del></line>
+    <line>will not hear you. there can be no</line>
+    <line>community between you and I– We are</line>
+    <line>enemies – Begone or <del rend="strikethrough">allhow</del> let us try</line>
+    <line>our streng<del rend="cross-hatch">h</del>th in a fight in which</line>
+    <line>one must fall.<metamark>"</metamark><anchor xml:id="c56-0126.04"/></line>
+    <milestone unit="tei:p"/>
+    <line><milestone unit="tei:q" spanTo="#c56-0126.05"/><del rend="strikethrough">How</del> How can
+      I move you?<anchor xml:id="c56-0126.05"/> said the</line>
+    <line>fiend– <milestone unit="tei:q" spanTo="#c56-0126.07"/>Will no entreaties cause you</line>
+    <line>to turn a favourable eye upon thy</line>
+    <line>creature who implores thy goodness and</line>
+    <line>compassion – Believe me, Frankenstien</line>
+    <line>I was benevolent –my soul glowed
+    with</line><!--close speech in c56-0127 w/<anchor xml:id="c56-0126.07"/>-->
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0126.01" spanTo="#c56-0126.08"/><line>thee</line>
+    <line>to my</line>
+    <anchor xml:id="c56-0126.08"/>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0126.02">excluded</add></line>
+  </zone>
 </surface>
