@@ -1,8 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0123" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0123" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0123.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>153</line>
+  </zone>
+  <zone type="library">
+    <line>59</line>
+  </zone>
+  <zone type="main">
+    <delSpan spanTo="#c56-0123.01" rend="three-vertical lines"/><line>I should listen to the dæmon –
+      my</line>
+    <line>feelings were <hi rend="underline">against</hi> it but the</line>
+    <line>misery he expressed had al<del rend="cross-hatch">l</del>ready</line>
+    <line>moved m<del rend="blot">y</del> compassion and I thought</line>
+    <line>the least justice I could shew would</line>
+    <line>be to listen to to his tale.</line>
+    <milestone unit="tei:p"/>
+    <line>We entered the hut – the monster</line>
+    <line>lighted a fire and sitting by it he</line>
+    <line>began thus.</line><anchor xml:id="c56-0123.01"/>
+    <milestone unit="tei:p"/>
+    <line>it rose Mont Blanc in awful majesty. I re</line>
+    <line>mained in a recess of the rock gazing on</line>
+    <line>this wonderful &amp; stupedous scene –<add><ptr target="#c56-0123.02"/></add>My
+      heart</line>
+    <line>before <mod type="subst" resp="#pbs"><del rend="strikethrough">sad</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">which was sorrowfully,
+        now</add></mod> swelled with somthing like</line>
+    <line>joy <del rend="strikethrough">I clas</del> I exclaimed – Wandering spirits,</line>
+    <line>if indeed ye wander and do not rest in</line>
+    <line>your narrow beds, allow me this faint</line>
+    <line>happiness or take me as your compa</line>
+    <line>nion away from the joys of life." As I</line>
+    <line>said this I suddenly beheld <mod type="subst"><del rend="strikethrough">a</del>
+        <del rend="strikethrough">human</del><add place="superlinear">the</add></mod></line>
+    <line>figure <add place="superlinear">of a man</add> at some distance advancing</line>
+    <line>towards me with superhuman speed–</line>
+    <line>He bounded over the crevices in the</line>
+    <line>ice <mod type="subst"><del rend="double-strike">by</del><add resp="#pbs"
+          place="superlinear">among</add></mod> which I had walked with caution,</line>
+    <line>his stature also as he approached seem</line>
+    <line>ed to exceed that of man –I was</line>
+    <line>troubled — a mist covered my eyes and</line>
+    <line>I felt <mod type="subst"><del rend="strikethrough">ready to <del rend="double-strike"
+            >pa</del> faint</del><add resp="#pbs" place="superlinear">faintness seize
+        me.</add></mod> – The cold breeze</line>
+    <line>of the mountains quickly restored me.</line>
+    <line><del rend="strikethrough">But</del> I perceived as <mod type="subst"><del
+          rend="strikethrough">he</del><add place="superlinear" resp="#pbs">the shape</add></mod>
+      came nearer</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0123.02" spanTo="#c56-0123.03"/><line>the sea or</line>
+    <line>rather <add resp="#pbs" place="superlinear">the vast</add> river of</line>
+    <line>ice, wound among</line>
+    <line><del rend="strikethrough">the</del> its dependant</line>
+    <line>mountains whose</line>
+    <line>aerial summits</line>
+    <line>hung over its</line>
+    <line>recesses. Thier</line>
+    <line>icy &amp; glittering</line>
+    <line>peaks shone</line>
+    <line>in sunlight</line>
+    <line>over the clouds.</line>
+    <anchor xml:id="c56-0123.03"/>
+  </zone>
 </surface>
