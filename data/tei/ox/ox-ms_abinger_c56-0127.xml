@@ -1,8 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0127" ulx="0" uly="0" lrx="5368" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0127" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0127.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>157</line>
+  </zone>
+  <zone type="library">
+    <line>61</line>
+  </zone>
+  <zone type="main">
+    <line>love and humanity but am I not alone</line>
+    <line>miserably alone – <delSpan spanTo="#c56-0127.01"/>None to love me but</line>
+    <line>all fly and<anchor xml:id="c56-0127.01"/> You, my creator abhor me</line>
+    <line>What hope <mod type="subst"><del rend="strikethrough">have I then from your</del><add
+          resp="#pbs" place="superlinear">can I gather from</add></mod></line>
+    <line>fellow creatures <mod type="additions" resp="#pbs"><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">who owe me nothing.</add></mod>—They spurn and
+        <mod type="subst"><del rend="strikethrough">abhor</del><add resp="#pbs" place="sublinear"
+          >&#x2038;</add><add resp="#pbs" place="superlinear">hate</add></mod></line>
+    <line>me. The desart mountains and mourful</line>
+    <line>glaciers are my refuge—I have wandered</line>
+    <line>here many days– The caves of ice <mod type="subst"><del rend="strikethrough">are
+          my</del><add place="superlinear">which <unclear unit="chars" extent="1" precision="low"
+            reason="illegible"><metamark/></unclear></add></mod></line>
+    <line>I only do not fear are a dwelling to me and</line>
+    <line>the only one which man does not grudge</line>
+    <line><mod type="deletions"><del rend="strikethrough">to me</del> – <del rend="strikethrough"
+          >And food </del></mod>— These bleak skies I </line>
+    <line>hail for they are kinder <add place="superlinear">to me</add> than <mod type="subst"
+        xml:id="c56-0127.02" next="#c56-0127.03"><del rend="strikethrough">man</del><add
+          place="superlinear">your fellow <mod type="subst"><del>creatures</del><add
+              place="sublinear">&#x2038;</add><add place="superlinear">beings</add><add><ptr
+                target="#c56-0127.04"/></add></mod></add></mod></line>
+    <line><mod type="deletions" xml:id="c56-0127.03" prev="#c56-0127.02" next="#c56-0127.05"><del
+          rend="triple-strike">and</del>
+        <del rend="strikethrough">But I no</del><del rend="strikethrough"><add place="sublinear"
+            >&#x2038;</add><add place="superlinear">Man</add></del>
+        <del rend="strikethrough">They</del>
+        <del rend="strikethrough">hates me and if</del></mod></line>
+    <line><mod type="subst" prev="#c56-0127.03" xml:id="c56-0127.05"><del rend="strikethrough"
+          >they</del><del rend="strikethrough"><add place="superlinear">he</add></del></mod> knew of
+      my existence <mod type="additions"><add place="sublinear" resp="#pbs">&#x2038;</add><add
+          place="superlinear" resp="#pbs">they</add> would <add place="sublinear">&#x2038;</add><add
+          place="superlinear">do</add></mod> as you</line>
+    <line>arm themselves for my destruction – <del rend="strikethrough">And</del></line>
+    <line>Shall I not <add place="superlinear">then</add> hate them who abhor me</line> my <line>I
+        <mod type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear"
+          >will</add></mod> keep no <del rend="strikethrough">temm</del> terms with <mod
+        type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear"
+        >my</add></mod> enemies <del rend="strikethrough">and</del></line>
+    <line>I am miserable &amp; they shall share my</line>
+    <line>wretchedness– Yet it is in your power</line>
+    <line>to recompense me and deliver them from</line>
+    <line>an evil which <mod type="subst"><del rend="strikethrough">you</del><add resp="#pbs"
+          place="sublinear">&#x2038;</add><add place="superlinear" resp="#pbs">it</add><add><ptr
+            target="#c56-0127.06"/></add></mod>
+      <del rend="strikethrough">have bestowed on them</del>.</line>
+    <line>Let your compassion and justice be</line>
+    <line>moved and do not disdain me. Listen</line>
+    <line>to my tale ! when you have heard that</line>
+    <line>deny or comiserate<del rend="cross-hatch">d</del> me as you shall</line>
+    <line>judge <add place="superlinear" resp="#pbs">that</add> I deserve. But <mod type="subst"
+          ><del rend="strikethrough">here</del><add place="sublinear">&#x2038;</add><add
+          place="superlinear">hear</add></mod> me –The</line>
+    <line>guilty <del rend="strikethrough">may</del> are allowed by human laws,</line>
+    <line>bloody as they <mod type="subst"><del rend="strikethrough">are</del><add
+          place="superlinear" resp="#pbs">may be</add></mod>, to speak in their <add resp="#pbs"
+        place="superlinear">own</add> defence</line>
+    <line><add resp="#pbs" place="superlinear">before they are condemned</add> Listen to me
+      Frankenstein <del rend="strikethrough">for you are</del></line>
+    <!--c56-0126 ending speech closes in c56-0128, not this file-->
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0127.04" spanTo="#c56-0127.07"/><line>If the</line>
+    <line>multitude</line>
+    <line>of mankind</line><anchor xml:id="c56-0127.07"/></zone>
+
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0127.06" spanTo="#c56-0127.08"/>
+    <line>only remains</line>
+    <line>for you to</line>
+    <line>make so</line>
+    <line>great, that</line>
+    <line>not only you</line>
+    <line>&amp; your family</line>
+    <line>but thousands</line>
+    <line>of others shall</line>
+    <line>be swallowed</line>
+    <line>up in the</line>
+    <line>whirlwinds of</line>
+    <line>its rage.</line><anchor xml:id="c56-0127.08"/>
+  </zone>
 </surface>
