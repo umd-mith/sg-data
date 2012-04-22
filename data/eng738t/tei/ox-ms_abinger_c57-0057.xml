@@ -33,9 +33,10 @@
       <line>had not been ommitted. From</line>
       <line>these I had learned the relative</line>
       <line>situations of the different countries</line>
-      <line><zone type="left_margin"><line>of the earth;</line></zone>You had mentioned Geneva as</line>
+      <line><add><ptr target="#c57-0057.01"/></add>You had mentioned Geneva as</line>
       <line>the name of your native town</line>
       <line>&amp; <del rend="strikethrough">towards</del> this place I resolved to</line>
       <line>proceed.</line>
     </zone>
+  <zone type="left_margin"><line>of the earth;<anchor xml:id="c57-0057.01"/></line></zone>
 </surface>
