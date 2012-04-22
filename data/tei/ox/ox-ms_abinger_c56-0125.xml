@@ -44,14 +44,14 @@
     <line>extinguish the spark that I so negli</line>
     <line>gently bestowed.<metamark>"</metamark><anchor xml:id="c56-0125.04"/> My rage was
       without</line>
-    <line>bounds I sprung on him <mod xml:id="c56-0125.06" next="#c56-0124.07" type="deletions"><del
+    <line>bounds I sprung on him <mod xml:id="c56-0125.06" next="#c56-0125.07" type="deletions"><del
           rend="strikethrough">that I</del><del rend="strikethrough"><add place="superlinear"
             >and</add></del></mod></line>
-    <line><mod type="subst" xml:id="c56-0124.07" prev="#c56-0124.06"><del rend="strikethrough">might
+    <line><mod type="subst" xml:id="c56-0125.07" prev="#c56-0125.06"><del rend="strikethrough">might
           destroy so hateful a monster –</del><add place="superlinear" resp="#pbs">and impelled by
           all the feelings which can arm one</add></mod></line>
     <line>He eluded <add place="superlinear" resp="#pbs">me easily,</add> and said – <milestone
-        unit="tei:q" spanTo="#c56-0124.08"/>Be calm! I entreat</line>
+        unit="tei:q" spanTo="#c56-0125.08"/>Be calm! I entreat</line>
     <line><del rend="triple-strike">h</del> you to hear me, before you give vent</line>
     <line>to your hatred <add resp="#pbs" place="intralinear">up</add>on my devoted head.
       Have</line>
@@ -65,11 +65,11 @@
     <line><add xml:id="c56-0125.02">but if you refuse</add></line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0125.05" spanTo="#c56-0124.09"/>
+    <addSpan xml:id="c56-0125.05" spanTo="#c56-0125.09"/>
     <line>mild a</line>
     <line>vengeance for</line>
     <line>thy crimes.</line>
-    <anchor xml:id="c56-0124.09"/>
+    <anchor xml:id="c56-0125.09"/>
   </zone>
   <zone type="left_margin">
     <line>being against</line>
