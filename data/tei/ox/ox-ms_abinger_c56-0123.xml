@@ -31,11 +31,11 @@
     <line>before <mod type="subst" resp="#pbs"><del rend="strikethrough">sad</del><add
           place="sublinear">&#x2038;</add><add place="superlinear">which was sorrowfully,
         now</add></mod> swelled with somthing like</line>
-    <line>joy <del rend="strikethrough">I clas</del> I exclaimed – Wandering spirits,</line>
+    <line>joy <del rend="strikethrough">I clas</del> I exclaimed – <milestone unit="tei:q" spanTo="#c56-0123.03"/>Wandering spirits,</line>
     <line>if indeed ye wander and do not rest in</line>
     <line>your narrow beds, allow me this faint</line>
     <line>happiness or take me as your compa</line>
-    <line>nion away from the joys of life." As I</line>
+    <line>nion away from the joys of life.<metamark>"</metamark><anchor xml:id="c56-0123.03"/> As I</line>
     <line>said this I suddenly beheld <mod type="subst"><del rend="strikethrough">a</del>
         <del rend="strikethrough">human</del><add place="superlinear">the</add></mod></line>
     <line>figure <add place="superlinear">of a man</add> at some distance advancing</line>
@@ -55,7 +55,7 @@
       came nearer</line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0123.02" spanTo="#c56-0123.03"/><line>the sea or</line>
+    <addSpan xml:id="c56-0123.02" spanTo="#c56-0123.04"/><line>the sea or</line>
     <line>rather <add resp="#pbs" place="superlinear">the vast</add> river of</line>
     <line>ice, wound among</line>
     <line><del rend="strikethrough">the</del> its dependant</line>
@@ -67,6 +67,6 @@
     <line>peaks shone</line>
     <line>in sunlight</line>
     <line>over the clouds.</line>
-    <anchor xml:id="c56-0123.03"/>
+    <anchor xml:id="c56-0123.04"/>
   </zone>
 </surface>
