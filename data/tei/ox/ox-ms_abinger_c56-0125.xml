@@ -1,8 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0125" ulx="0" uly="0" lrx="5368" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0125" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0125.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>155</line>
+  </zone>
+  <zone type="library">
+    <line>60</line>
+  </zone>
+  <zone type="main">
+    <line><del rend="strikethrough">me</del> thy creature to whom thou art</line>
+    <line>bound with ties only dissoluble by the</line>
+    <line>death of one of us. <del rend="strikethrough">And</del> You <mod type="subst"><del
+          rend="strikethrough">wish</del><add resp="#pbs" place="superlinear">purpose</add></mod> to
+      kill</line>
+    <line>me. <del rend="strikethrough">And</del> How dare you sport thus</line>
+    <line>with life? Do your duty towards me</line>
+    <line>and I will do mine towards you &amp;</line>
+    <line>the rest of mankind. <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">If you comply with my conditions</add></mod> –I will leave them</line>
+    <line>and you at peace – <delSpan spanTo="#c56-0125.01"/>but as I am if</line>
+    <line>you do not comply with my conti condi</line>
+    <line>tions<anchor xml:id="c56-0125.01"/><add><ptr target="#c56-0125.02"/></add> I <mod
+        type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear"
+        >will</add></mod> glut the <del rend="triple-strike">t</del> maw of death untill</line>
+    <line><mod type="subst"><del rend="strikethrough">he</del><add place="superlinear"
+        >it</add></mod> be <del rend="strikethrough">satiate</del> satiated even with your</line>
+    <line>dearest friends.<metamark>"</metamark></line><anchor xml:id="c56-0124.05"/>
+    <milestone unit="tei:p"/>
+    <line><milestone unit="tei:q" spanTo="#c56-0125.03"/><metamark>"</metamark><mod type="deletions"
+          ><del rend="strikethrough">Miserable</del>
+        <del rend="strikethrough">wretch</del></mod> Abhorred monster,<anchor xml:id="c56-0125.03"
+      /></line>
+    <line>cried I furiously, <milestone unit="tei:q" spanTo="#c56-0125.04"/>fiend that thou
+      art</line>
+    <line>the tortures of Hell are too <del rend="strikethrough">soft for thee</del><add><ptr
+          target="#c56-0125.05"/></add></line>
+    <line>wretched devil! you reproach me</line>
+    <line>with your creation; come, that I may</line>
+    <line>extinguish the spark that I so negli</line>
+    <line>gently bestowed.<metamark>"</metamark><anchor xml:id="c56-0125.04"/> My rage was
+      without</line>
+    <line>bounds I sprung on him <mod xml:id="c56-0125.06" next="#c56-0124.07" type="deletions"><del
+          rend="strikethrough">that I</del><del rend="strikethrough"><add place="superlinear"
+            >and</add></del></mod></line>
+    <line><mod type="subst" xml:id="c56-0124.07" prev="#c56-0124.06"><del rend="strikethrough">might
+          destroy so hateful a monster –</del><add place="superlinear" resp="#pbs">and impelled by
+          all the feelings which can arm one</add></mod></line>
+    <line>He eluded <add place="superlinear" resp="#pbs">me easily,</add> and said – <milestone
+        unit="tei:q" spanTo="#c56-0124.08"/>Be calm! I entreat</line>
+    <line><del rend="triple-strike">h</del> you to hear me, before you give vent</line>
+    <line>to your hatred <add resp="#pbs" place="intralinear">up</add>on my devoted head.
+      Have</line>
+    <line>I not suffer<del rend="cross-hatch">r</del>ed enough that you</line>
+    <line><del rend="strikethrough">should</del> wish to encrease my misery–Life</line>
+    <line>although it be only an accumulation</line>
+    <line>of anguish is dear to me and I will defend</line>
+    <line>it remember thou hast made me more</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0125.02">but if you refuse</add></line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0125.05" spanTo="#c56-0124.09"/>
+    <line>mild a</line>
+    <line>vengeance for</line>
+    <line>thy crimes.</line>
+    <anchor xml:id="c56-0124.09"/>
+  </zone>
+  <zone type="left_margin">
+    <line>being against</line>
+    <line>the existence</line>
+    <line>of another.</line>
+  </zone>
+
+
 </surface>
