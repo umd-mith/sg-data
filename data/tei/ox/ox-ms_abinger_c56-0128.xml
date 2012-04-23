@@ -46,8 +46,8 @@
           rend="strikethrough">Thus will I relieve you</del> – <del rend="strikethrough"
           >Creator</del><add place="superlinear">which I flung from me with
       violence</add></mod></line>
-    <line><del prev="#c56-0128.04" xml:id="c56-0128.05" rend="strikethrough">he replied</del> –from
-      the sight of one whom</line>
+    <line><del prev="#c56-0128.04" xml:id="c56-0128.05" rend="strikethrough">he replied</del>
+      <milestone unit="tei:q" spanTo="#c56-0128.06"/>–from the sight of one whom</line>
     <line>you abhor.–still you can listen to me</line>
     <line>and grant me your compassion –By the</line>
     <line>the virtues I <del rend="cross-hatch">c</del>once possessed I demand this</line>
@@ -56,20 +56,21 @@
     <line>long and strange <del rend="strikethrough">but</del> and the temperature</line>
     <line>of this place is not fitting <del rend="triple-strike">y</del> to your</line>
     <line>fine sensations; come to <add place="superlinear">the</add> hut on <mod type="subst"
-          ><delSpan rend="strikethrough" spanTo="#c56-0128.06"/>Motan<add place="superlinear">the
+          ><delSpan rend="strikethrough" spanTo="#c56-0128.07"/>Motan<add place="superlinear">the
           mountain</add></mod></line>
-    <line>vert<anchor xml:id="c56-0128.06"/> – The sun is yet high in the</line>
+    <line>vert<anchor xml:id="c56-0128.07"/> – The sun is yet high in the</line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0128.02" spanTo="#c56-0128.07"/>
+    <addSpan xml:id="c56-0128.02" spanTo="#c56-0128.08"/>
     <line>miserable</line>
     <line>origin</line>
     <line>&amp; author</line>
-    <anchor xml:id="c56-0128.07"/>
+    <anchor xml:id="c56-0128.08"/>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0128.03" spanTo="#c56-0128.08"/>
-    <line>Thus I relieve you, Creator</line>
-    <line>he replied</line><anchor xml:id="c56-0128.08"/>
+    <addSpan xml:id="c56-0128.03" spanTo="#c56-0128.09"/>
+    <line><milestone unit="tei:q" spanTo="#c56-0128.10"/>Thus I relieve you, Creator<anchor
+        xml:id="c56.0128.10"/></line>
+    <line>he replied</line><anchor xml:id="c56-0128.09"/>
   </zone>
 </surface>
