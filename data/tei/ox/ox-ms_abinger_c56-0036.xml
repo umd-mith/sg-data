@@ -9,9 +9,9 @@
   <zone type="main">
     <line>steps <mod resp="#pbs" type="subst"><del rend="strikethrough">that</del>
       <add place="superlinear">by which I had been</add></mod>progressively led to it were </line>
-    <line>obliterated. <add place="sublinear"><metamark>^</metamark></add><add place="superlinear"
+    <line>obliterated. <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
         >and</add>I <del rend="strikethrough">saw</del><add place="sublinear"
-        ><metamark>^</metamark></add><add place="superlinear">beheld</add> only the result.
+          ><metamark>&#x2038;</metamark></add><add place="superlinear">beheld</add> only the result.
       What</line>
     <line>had been the study and desire of the </line>
     <line><del rend="strikethrough">m</del> wisest men since the creation of</line>
@@ -22,10 +22,10 @@
     <line>all opened upon me at once<add place="intralinear">.</add> <del rend="strikethrough">on</del></line>
     <line><del rend="strikethrough">the contrary</del><mod><del rend="overwritten">t</del><add place="intralinear">T</add></mod>he <del
         rend="strikethrough">big</del> information</line>
-    <line>I had obtained was <add place="sublinear"><metamark>^</metamark></add><add resp="#pbs"
+    <line>I had obtained was <add place="sublinear"><metamark>&#x2038;</metamark></add><add resp="#pbs"
         place="superlinear">of a nature</add> rather <del rend="strikethrough">one that</del></line>
     <line><del rend="strikethrough">would</del><add place="sublinear"
-        ><metamark>^</metamark></add><add resp="#pbs" place="superlinear">to</add> direct my
+      ><metamark>&#x2038;</metamark></add><add resp="#pbs" place="superlinear">to</add> direct my
       endeavours, <add><metamark>^</metamark><ptr target="#c56-0036.01"/></add>
       <add place="sublinear"><metamark>^</metamark></add><del rend="strikethough">that</del></line>
     <line><del rend="strikethrough">than show me the prospect with</del></line>
