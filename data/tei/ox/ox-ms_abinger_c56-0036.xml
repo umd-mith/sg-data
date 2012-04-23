@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0036" ulx="0" uly="0" lrx="5364" lry="7104"
-  partOf="#ox-ms_abinger_c56-0036">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0036" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56-0036">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0036.tif"/>
   
   <zone type="pagination">66</zone>
@@ -10,7 +9,7 @@
   <zone type="main">
     <line>steps <mod resp="#pbs" type="subst"><del rend="strikethrough">that</del>
       <add place="superlinear">by which I had been</add></mod>progressively led to it were </line>
-    <line>obliterated. <add rend="sublinear"><metamark>^</metamark></add><add place="superlinear"
+    <line>obliterated. <add place="sublinear"><metamark>^</metamark></add><add place="superlinear"
         >and</add>I <del rend="strikethrough">saw</del><add place="sublinear"
         ><metamark>^</metamark></add><add place="superlinear">beheld</add> only the result.
       What</line>
@@ -49,7 +48,7 @@
     <line>was, to your <del rend="strikethrough">destruc</del> destruction &amp;</line>
   </zone>
   
-  <zone type="left-margin"><add xml:id="c56-0036.01"><metamark>^</metamark>so soon as I should point
+  <zone type="left_margin"><add xml:id="c56-0036.01"><metamark>^</metamark>so soon as I should point
       them towards the object of my search, than th exhibit that object already
     accomplished</add></zone>
 

@@ -40,6 +40,7 @@
                 principles.</change>
             <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into
                 zones</change>
+            <change when="2012-03-24" who="tmunoz">Removed about 40 unused elements</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -265,6 +266,11 @@
                             descriptive attributes to record their placement on the page. This
                             information will be supplied by coordinates when the transcriptions and
                             page images are linked.</p>
+                        <p>SGA does use <att>@type</att> on <tag>zone</tag> with a controlled list
+                            of descriptive values such as <q>top</q>, <q>pagination</q>,
+                            <q>main</q>, etc. These are most for the benefit of processing tools and
+                            are secondary to the coordinates for positioning a zone with respect to
+                            the page it appears on.</p>
                     </div>
                     <div xml:id="lines">
                         <head>Transcribing lines</head>
@@ -302,6 +308,22 @@
                     images produced for the Archive. It is therefore worth saying a little more
                     about diplomatic transcriptions.</p>
                 <!-- Goal is to accurately record what is on the page while adding information beyond what could be discerned from the image alone -->
+                <div xml:id="hands">
+                    <head>A note about hands</head>
+                    <p>Deciphering the different hands present in the <emph>Frankenstein</emph>
+                        manuscripts is a challenging problem and notable Shelley scholars have
+                        struggled with correct identifications in the past.</p>
+                    <p>For this project, we will be using the identifications provided in the Word
+                        files or in the scans of the Shelley &amp; his Circle volumes. <hi
+                            rend="bold">Only interventions by Percy Shelley need to be recorded in
+                            transcriptions</hi> (these are marked in blue in the editors' Word
+                        files). To record responsibility, use a <att>resp</att> attribute on the
+                        appropriate element. Neither the darkness/lightness of the ink nor ink color
+                        is a reliable indicator of a change in hands.</p>
+                    <p>Determination of hand shifts will be reviewed by subject experts after the
+                        initial transcription has been completed. Please feel free to note any
+                        questions or problems in your commit notes or pull requests.</p>
+                </div>
             </div>
             <div xml:id="spec">
                 <head>Technical documentation</head>
@@ -313,17 +335,21 @@
 
                     <moduleRef key="tei"/>
                     <moduleRef key="core"
-                        except="addrLine address analytic author biblScope biblStruct 
-                        binaryObject divGen editor email gb imprint listBibl measure 
-                        meeting mentioned monogr postBox postCode pubPlace publisher 
-                        quote said series soCalled street teiCorpus textLang"/>
-                    <moduleRef key="textstructure" except="TEI div1 div2 div3 div4 div5 div6 div7"/>
+                        except="abbr addrLine address analytic author biblScope biblStruct 
+                        binaryObject cb choice cit distinct divGen editor email expan gb gloss 
+                        head headItem headLabel imprint l label lb listBibl lg measure 
+                        meeting mentioned monogr p pb postBox postCode pubPlace publisher 
+                        q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig"/>
+                    <moduleRef key="textstructure"
+                        except="argument back byline TEI div1 div2 div3 div4 div5 div6 div7 docAuthor docDate 
+                        docEdition docImprint docTitle epigraph floatingText front group imprimatur titlePage titlePart"/>
 
                     <!-- Additional modules -->
-                    <moduleRef key="transcr"/>
+                    <moduleRef key="transcr" except="am ex fw restore supplied surplus redo undo"/>
                     <moduleRef key="gaiji"/>
-                    <moduleRef key="linking"/>
+                    <moduleRef key="linking" except="ab alt altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
+                    <moduleRef key="figures" include="figure figDesc"></moduleRef>
 
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
@@ -353,6 +379,14 @@
                             </attDef>
                         </attList>
                     </classSpec>
+                    
+                    <classSpec ident="att.transcriptional" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="hand" mode="delete"/>
+                            <attDef ident="status" mode="delete"/>
+                            <attDef ident="cause" mode="delete"/>
+                        </attList>
+                    </classSpec>
 
                     <classSpec ident="att.global.linking" type="atts" mode="change">
                         <attList>
@@ -367,6 +401,19 @@
                     <classSpec ident="att.coordinated.attributes" type="atts" mode="change">
                         <attList>
                             <attDef ident="start" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <classSpec ident="att.responsibility" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="resp" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="#pbs"/>
+                                    <valItem ident="http://viaf.org/viaf/95159449"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="precision" mode="delete"/>
+                            <attDef ident="scope" mode="delete"/>
                         </attList>
                     </classSpec>
 
@@ -426,7 +473,7 @@
 
                             <attDef ident="n" mode="change" usage="rec"/>
 
-                            <attDef ident="corresp" mode="change">
+                            <attDef ident="corresp" mode="change" usage="req">
                                 <altIdent>partOf</altIdent>
                                 <desc>Syntactic sugar attribute—should refer to the id of the
                                     sourceDoc element with which this surface should be
@@ -474,7 +521,7 @@
 
                     <elementSpec ident="hi" module="core" mode="change">
                         <attList>
-                            <attDef ident="rend" mode="change" usage="req">
+                            <attDef ident="rend" mode="replace" usage="req">
                                 <valList type="closed" mode="replace">
                                     <valItem ident="hyphenated"/>
                                     <valItem ident="underline"/>
@@ -490,6 +537,105 @@
                             <p>Attribute values adapted from the TEI P5 specification for the ENRICH
                                 project, http://enrich.manuscriptorium.com/</p>
                         </remarks>
+                    </elementSpec>
+
+                    <elementSpec ident="add" module="core" mode="change">
+                        <attList>
+                            <attDef ident="place" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="superlinear"/>
+                                    <valItem ident="intralinear"/>
+                                    <valItem ident="sublinear"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="rend" mode="delete"/>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="addSpan" module="transcr" mode="change">
+                        <classes mode="change">
+                            <memberOf key="att.transcriptional" mode="delete"/>
+                            <memberOf key="att.responsibility" mode="add"/>
+                        </classes>
+                    </elementSpec>
+
+                    <elementSpec ident="delSpan" module="transcr" mode="change">
+                        <classes mode="change">
+                            <memberOf key="att.transcriptional" mode="delete"/>
+                            <memberOf key="att.responsibility" mode="add"/>
+                        </classes>
+                    </elementSpec>
+
+                    <elementSpec ident="del" module="core" mode="change">
+                        <attList>
+                            <attDef ident="rend" mode="replace">
+                                <valList type="semi" mode="replace">
+                                    <valItem ident="strikethrough"/>
+                                    <valItem ident="overwritten"/>
+                                    <valItem ident="smear"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="zone" module="transcr" mode="change">
+                        <content>
+                            <rng:zeroOrMore>
+                                <rng:choice>
+                                    <rng:text/>
+                                    <!--<rng:ref name="surface"/>-->
+                                    <!-- Temporarily removing this option pre-Whitman -->
+                                    <rng:ref name="model.linePart"/>
+                                    <rng:ref name="model.graphicLike"/>
+                                    <!-- The following represent only a subset of model.global -->
+                                    <rng:ref name="model.milestoneLike"/>
+                                    <rng:ref name="model.noteLike"/>
+                                    <rng:ref name="model.global.edit"/>
+                                    <rng:ref name="metamark"/>
+                                </rng:choice>
+                            </rng:zeroOrMore>
+                        </content>
+                        <attList>
+                            <attDef ident="type" mode="replace" usage="req">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="top">
+                                        <desc>Material that can appear at the top of a manuscript
+                                            page—like headings or notes</desc>
+                                    </valItem>
+                                    <valItem ident="left_margin">
+                                        <desc>Zone for marginal additions, deletions, and other
+                                            modifications. More than one zone with this type may
+                                            appear in a document if marginal zones are distinct
+                                            interventions.</desc>
+                                    </valItem>
+                                    <valItem ident="main">
+                                        <desc>The main block of text on a page</desc>
+                                    </valItem>
+                                    <valItem ident="pagination">
+                                        <desc>For segments of a page where page numbers have been
+                                            added in one or more original hands; distinct from later
+                                            additions by librarians/collectors</desc>
+                                    </valItem>
+                                    <valItem ident="library">
+                                        <desc>A zone of writing which appears to have been added by
+                                            librarians/collectors at a later date—often page
+                                            numbers</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="mod" module="transcr" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="subst"/>
+                                    <valItem ident="additions"/>
+                                    <valItem ident="deletions"/>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
 
                 </schemaSpec>

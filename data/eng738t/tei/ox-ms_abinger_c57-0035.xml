@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0035" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  <graphic url="../../images/ox/ox-ms_abinger_c57-0035.tif"/>
+    <zone type="main">
+      <line>guage of the country and utterly ignorant of</line>
+      <line>the customs of the world. — She fell <del rend="overstrike">hover</del> however</line>
+      <line>in to good hands — <del rend="overstrike">The hostess of the Inn was in</del></line>
+      <line><del rend="overstrike">terested in her fate</del> <del rend="overstrike">And</del> <del rend="overstrike">and</del> The Italian</line>
+      <line><del rend="overstrike">before her death</del> <add place="superlinear">had</add> mentioned the name of the</line>
+      <line>spot for which they were bound and after</line>
+      <line>her death the woman of the house in which</line>
+      <line>they had lived took care that Safie should</line>
+      <line>arrive safely at the cottage of her lover.</line>
+    </zone>
+</surface>

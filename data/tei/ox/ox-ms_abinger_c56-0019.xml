@@ -1,6 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0019" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0019" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0019.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="#bordered">49</zone>
+  <zone type="library">8</zone>
+  <zone type="main">
+    <line>whose dearest ties are rent by that</line>
+<<<<<<< HEAD
+    <line>most irreperable evil; the <del rend="strikethrough">bla</del><zone type="library">8</zone> void</line>
+    <line>that every where presents itself to</line>
+    <line>
+      <mod><del rend="strikethrough">their </del><add place="sublinear">^</add><del rend="strikethrough">minds </del>
+=======
+    <line>most irreperable evil; the <del rend="strikethrough">bla</del> void</line>
+    <line>that every where presents itself to</line>
+    <line>
+      <mod><del rend="strikethrough">their </del><add place="sublinear">&#x2038;</add><del
+          rend="strikethrough">minds </del>
+>>>>>>> Final Review, Issue #53, c56-0019, DJB
+        <add place="superlinear">the soul</add></mod> and the despair that</line>
+    <line>is exhibited on the countenance.</line>
+    <line>It is so long before the mind can</line>
+    <line>persuade itself that she, whom</line>
+    <line>they saw every day, and whose very</line>
+    <line>existence appeared a part of theirs,</line>
+<<<<<<< HEAD
+    <line>can have departed for ever<mod><del rend="overwritten">.</del><add>: </add><del rend="overwritten">T</del><add>t</add></mod>hat</line>
+=======
+    <line>can have departed for ever: <mod><del rend="overwritten"
+      >T</del><add>t</add></mod>hat</line>
+    <!--ever: ] colon appears to be written over a comma or perod, 
+      possibly by PBS. In these situations, where we disagree with 
+      Charlie's transcription, let's mark it as a note that we can 
+      correct later after getting a list of corrections from Charlie.
+    It's important that we know exactly where and when we deviate from
+    the transcription in MYR-->
+>>>>>>> Final Review, Issue #53, c56-0019, DJB
+    <line>the brightness of a loved eye can have</line>
+    <line><mod><del rend="strikethrough">faded</del><add place="superlinear" resp="#pbs">been
+          extinguished,</add>
+      </mod> and the sound of a voice <del rend="strikethrough">never</del></line>
+    <line>so familiar and dear to the ear</line>
+    <line>can be hushed, never more to be</line>
+    <line>heard. These are the reflections of the</line>
+    <line>first days. But when the lapse of</line>
+    <line>time proves the reality of the evil</line>
+    <line>then the <mod><del rend="strikethrough">true </del><del rend="strikethrough">despair
+          </del><add place="superlinear">bitterness of grief</add>
+      </mod> commences<add place="intralinear" resp="#pbs"><unclear>,</unclear></add></line>
+    <line><del rend="strikethrough">Then the survivors dare not turn</del></line>
+    <line><mod><del rend="strikethrough">But</del><add place="superlinear" resp="#pbs">Yet, from
+          whom</add>
+      </mod> who has not <delSpan rend="strikethrough" spanTo="#c56-0019.01"/>had some dear</line>
+<<<<<<< HEAD
+    <line>connection rent away by<anchor xml:id="c56-0019.01"/><add><ptr target="#c56-0019.02"/></add> that rude hand</line>
+    <line>and why <mod><del rend="strikethrough">need</del>
+        <add place="superlinear" resp="http://viaf.org/viaf/95159449">should</add>
+      </mod> I describe a sorrow </line>
+    <line>which all have felt, and must</line>
+    <line>feel<mod type="subst"><del>.</del><add>?</add></mod>
+      <mod><del rend="strikethrough">But</del>
+        <del rend="overwritten">t</del><add type="overwrite" resp="http://viaf.org/viaf/95159449">T</add></mod>he time at length arrives</line>
+=======
+    <line>connection rent away by<anchor xml:id="c56-0019.01"/> that rude hand <add><ptr
+          target="#c56-0019.02"/></add></line>
+    <line><unclear unit="chars" extent="2"/> and why <mod><del rend="strikethrough">need</del>
+        <add place="superlinear" resp="#pbs">should</add></mod> I describe a sorrow</line>
+    <line>which all have felt, and must</line>
+    <line>feel? <del rend="strikethrough">But</del><mod><del rend="overwritten">t</del><add
+          resp="#pbs">T</add></mod>he time at length arrives</line>
+>>>>>>> Final Review, Issue #53, c56-0019, DJB
+    <line>when grief is rather an indulgence</line>
+    <line><del rend="strikethrough">a</del> than a necessity and the smile</line>
+    <line>that plays on the lips, although</line>
+    <line>it is deemed sacriledge, is not Ba</line>
+<<<<<<< HEAD
+    <line>nished.– My mother <del rend="strikethrough">was gone</del>
+      <!--<add place="superlinear">lost</add>--><!-- I don't see this in the image -->
+      <mod xml:id="c56-0019.04" type="deletions" next="#c56-0019.05"><del rend="strikethrough">had
+          been</del></mod>
+    </line>
+    <line>
+      <mod>
+        <mod xml:id="c56-0019.05" prev="#c56-0019.04" type="deletions"><del rend="strikethrough">taken </del></mod><add place="sublinear">^</add><add place="superlinear">was
+          dead</add><del rend="strikethrough">away</del>
+      </mod></line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0019.02" resp="http://viaf.org/viaf/95159449" spanTo="#c56-0019.03"/><line>rent away some</line>
+=======
+    <line>nished.– My mother <mod><del rend="strikethrough">was gone</del>
+        <add place="superlinear"><unclear>lost</unclear></add></mod>
+      <mod><mod next="#c56-0019.05"><del rend="strikethrough">had be</del><del rend="unmarked"
+            >en</del></mod></mod></line>
+    <line><mod><mod xml:id="c56-0019.05"><del rend="strikethrough">taken </del><add
+            place="sublinear">&#x2038;</add><del rend="strikethrough">away</del><add
+            place="superlinear">was dead</add>
+        </mod></mod> but we had still</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0019.02" resp="#pbs" spanTo="#c56-0019.03"/><line>rent away some</line>
+>>>>>>> Final Review, Issue #53, c56-0019, DJB
+    <line>dear connection,</line><anchor xml:id="c56-0019.03"/>
+  </zone>
 </surface>

@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0018" ulx="0" uly="0" lrx="5364" lry="7104"
-  partOf="#ox-ms_abinger_c56-0018">
-  <graphic url="../../images/ox/ox-ms_abinger_c56-0018.tif"> </graphic>
-  <zone type="pagination">48</zone>
-  <zone type="main">
-    <line>consequences of this impudence were</line>
-    <line>fatal: on the third day my mother</line>
-    <line>sickened. Her fever was <del rend="strikethrough">very</del> malig-</line>
-    <line>nant, <del rend="strikethrough">tr</del> and the looks of her atten</line>
-    <line>dants prognosticated the <del rend="strikethrough">wort</del> worst</line>
-    <line>evil. On her death bed the forti</line>
-    <line>tude and benignity <del rend="strikethrough">di</del> of <del rend="strikethrough">my
-        mother</del><add place="superlinear"> this admirable woman</add></line>
-  </zone>
-
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0018" ulx="0" uly="0" lrx="5364" lry="7104">
+  <graphic url="../../images/ox/ox-ms_abinger_c56-0018.tif"/>
+    <zone>
+    </zone>
 </surface>
