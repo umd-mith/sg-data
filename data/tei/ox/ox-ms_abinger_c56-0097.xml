@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0097" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0097" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0097.tif"/>
   <zone type="pagination">127</zone>
   <zone type="library">46</zone>
@@ -22,26 +23,25 @@ type="application/relax-ng-compact-syntax"?>
     <line>lived in the same house with her at</line>
     <line>one time for five and afterwards for</line>
     <line>nearly two years.  During all that <mod type="subst"><del rend="strikethrough">time</del><add place="superlinear">period</add></mod></line>
-    <line>she <mod type="deletions"><del rend="strikethrough"><unclear/></del></mod> appeared to me a most amiable</line>
+    <line>she <mod type="deletions"><del rend="strikethrough"><unclear unit="chars" quantity="1"/></del></mod> appeared to me a most amiable</line>
     <line>and benevolent creature.  She nurst</line>
-    <line>my aunt in her last illne&#xDF; with the</line>
+    <line>my aunt in her last illness with the</line>
     <line>greatest affection and care and after</line>
     <line>terwards attended her <mod type="additions"><add place="sublinear">^</add><add place="superlinear">own</add></mod> mother during a</line>
-    <line>long &amp; tedious illne&#xDF; <mod type="deletions"><del rend="strikethrough">w</del></mod> in a manner</line>
+    <line>long &amp; tedious illness <mod type="deletions"><del rend="strikethrough">w</del></mod> in a manner</line>
     <line>that excited the admiration of all</line>
     <line>who knew her.  After which she again</line>
     <line>lived in my uncle's house where she</line>
-    <line><mod type="subst"><del rend="strikethrough">was always a favourite</del><add place="superlinear">beloved by all the family</add>.<del rend="strikethrough">Of the deceased</del></mod> </line>
+    <line>was <mod type="subst"><del rend="strikethrough">always a favourite</del><add place="superlinear">beloved by all the family</add>.<del rend="strikethrough">Of the deceased</del></mod> </line>
     <line>she was <mod type="subst"><del rend="strikethrough">very</del> <del rend="strikethrough">fond</del><add place="sublinear">^</add><add place="superlinear">warmly attached to <mod type="deletions"><del rend="strikethrough">of</del></mod> the child who has been murdered</add></mod> and acted towards him</line>
     <line><mod type="deletions"><del rend="strikethrough">in</del></mod> like a most affectionate Mother.</line>
     <line>for my own part I do not hesitate to</line>
     <line>say that not withstanding <mod type="additions"><add place="sublinear">^</add><add place="superlinear">all</add></mod> the evidence</line>
   </zone>
   <zone type="left_margin">
-    <mod type="additions" xml:id="c56-0097.01">
-      <add>violently</add>
-      <!-- How to indicate that these two words are on written one above the other? -->
-      <add>agitated</add>
-    </mod>
+    <addSpan xml:id="c56-0097.01" spanTo="#c56-0097.02" />
+      <line>violently</line>
+      <line>agitated</line>
+    <anchor xml:id="c56-0097.02"/>
   </zone>
 </surface>

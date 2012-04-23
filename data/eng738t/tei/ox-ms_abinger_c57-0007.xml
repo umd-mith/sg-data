@@ -1,46 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0007"
-  ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0007" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0007.tif"/>
   <zone type="pagination" rend="bordered">6</zone>
   <zone type="main">
     <line><add><ptr target="c57-0002.01"/></add>and wrapping myself up in my cloak </line>
     <line>I struck across the wood towards the</line>
-    <line>setting sun &mdash; I passed three days in these</line>
+    <line>setting sun — I passed three days in these</line>
     <line>rambles and at length discovered the</line>
-    <line>open country &mdash; A great fall of snow had</line>
+    <line>open country — A great fall of snow had</line>
     <line>taken place the night before and the</line>
-    <line>fields were of one uni<del rend="overstrike">n</del>form white the</line>
+    <line>fields were of one uni<del rend="strikethrough">n</del>form white the</line>
     <line>appearrance was disconsolate and I</line>
-    <line>found my feet chilled by the cold <del rend="overstrike">dab</del></line>
-    <line>damp <add place="sublinear""><metamark>^</metamark></add><add place="superlinear">substance that covered the</add> ground &mdash; It was about seven in</line>
+    <line>found my feet chilled by the cold <del rend="strikethrough">dab</del></line>
+    <line>damp <add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">substance that covered the</add> ground — It was about seven in</line>
     <line>the morning and I longed to obtain food</line>
     <line>and shelter.  At length I perceived in a</line>
     <line>small hut which had <unclear reason="illegible">b</unclear> doubtless been</line>
-    <line>built for the convenience of <del rend="overstrike">the</del></line>
+    <line>built for the convenience of <del rend="strikethrough">the</del></line>
     <line>some shepheard.  This was a new sight</line>
-    <line>to me and I examined the <del rend="overstrike">stu</del> struc</line>
-    <line>ture of it with great curiosity. <del rend="overstrike">and</del></line>
+    <line>to me and I examined the <del rend="strikethrough">stu</del> struc</line>
+    <line>ture of it with great curiosity. <del rend="strikethrough">and</del></line>
     <line>finding the door open I entered.  An old</line>
-    <line>man sat <del rend="overstrike">it</del> in it, near a <add place="superlinear"><mod resp="PBS">over</mod> <del rend="overstrike">by</del></add> fire on</line>
+    <line>man sat <del rend="strikethrough">it</del> in it, near a <add place="superlinear"><mod resp="#pbs">over</mod> <del rend="strikethrough">by</del></add> fire on</line>
     <line>which he was preparing his breakfast</line>
-    <line>he turned <del rend="overstrike">of</del> on hearing a noise <del rend="overstrike">&amp;</del> <del rend="overstrike">on</del></line>
+    <line>he turned <del rend="strikethrough">of</del> on hearing a noise <del rend="strikethrough">&amp;</del> <del rend="strikethrough">on</del></line>
     <line><add><ptr target="c57-0002.02"/></add>perceiving <add place="superlinear">me</add> shrieked loudly and quiting</line>
     <line>the hut ran across the fields with</line>
-    <line>a speed <del rend="overstrike">little</del> of which his debilitated form</line>
-    <line>hardly appeared capable. <del rend="overstrike">of</del> His flight</line>
-    <line>somewhat surprised me &mdash; but I was</line>
+    <line>a speed <del rend="strikethrough">little</del> of which his debilitated form</line>
+    <line>hardly appeared capable. <del rend="strikethrough">of</del> His flight</line>
+    <line>somewhat surprised me — but I was</line>
     <line>inchanted with the appearance of the</line>
     <line>hut.  Here the snow and rain could not</line>
-    <line>penetrate &mdash; the ground was dry <del rend="overstrike">and wind</del></line>
-    <line><del rend="overstrike">expelled</del> and it <mod type="subst"><add place="superlinear">presented</add> <del rend="overstrike">appeared</del> </mod>to me then</line>
-    <line>as <del rend="overstrike">heavenly and divine</del> exquisite &amp; di</line>
+    <line>penetrate — the ground was dry <del rend="strikethrough">and wind</del></line>
+    <line><del rend="strikethrough">expelled</del> and it <add place="superlinear">presented</add> <del rend="strikethrough">appeared</del> to me then</line>
+    <line>as <del rend="strikethrough">heavenly and divine</del> exquisite &amp; di</line>
   </zone>
   <zone type="left_margin">
     <line>relinquish all</line>
@@ -51,4 +46,3 @@
     <line>and<anchor xml:id="c57-0002.02"/></line>
   </zone>
 </surface>
-

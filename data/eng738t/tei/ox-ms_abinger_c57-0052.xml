@@ -1,53 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0052"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0052" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0052.tif"/>
-  <zone type="left_margin"> 77)</zone>  
-  <zone type="main"><mod hand="MS">
-    <line><mod hand="dark ink">and destruction and then have</line>
-    <line>sat down &amp; enjoyed the ruin–</line>
-    <line><milestone unit="paragraph"/>But this was a luxury of</line>
-    <line>sensation that could not <del rend="overstrike">last</del></line>
-    <line><mod="leftmargin">endure</mod> I <add place="supralinear">became fatigued</add><del rend="overstrike">grew tired</del> with excess of bodily</line>
+  <zone type="pagination" rend="bordered"> 77</zone>  
+  <zone type="main">
+    <line>and destruction and then have</line>
+    <line>sat down &amp; enjoyed the ruin—<milestone unit="paragraph"/></line>
+    <line>But this was a luxury of</line>
+    <line>sensation that could not <del rend="strikethrough">last</del></line>
+    <line><add><ptr target="#c57-0052.01"/></add>I <add place="superlinear">became fatigued</add><del rend="strikethrough">grew tired</del> with excess of bodily</line>
     <line>exertion; and sank on the</line>
-    <line><del mod="hashmarks" rend="overstrike">g</del> damp grass in the despondency</line>
-    <line>of despair. There was no one <del rend="overstrike">in</del></line>
-    <line>amo<del rend="overtrike">u</del>ng the myriads of men that</line>
-    <line>existed that <del rend="overstrike">could</del> would pity</line>
-    <line>or assist me – and should I feel</line>
+    <line><del rend="strikethrough">g</del> damp grass in the despondency</line>
+    <line>of despair. There was no one <del rend="strikethrough">in</del></line>
+    <line>amo<del rend="strikethrough">u</del>ng the myriads of men that</line>
+    <line>existed that <del rend="strikethrough">could</del> would pity</line>
+    <line>or assist me — and should I feel</line>
     <line>kindness towards my enemies?</line>
     <line>No! from that moment I de</line>
     <line>clared everlasting war against</line>
-    <line>the <del rend="overstrike">m</del> <add place="sublinear">^</add><add place="supralinear">species</add> and more than all against</line>
+    <line><add><ptr target="#c57-0052.02"/></add> and more than all against</line>
     <line>h<del rend="overwritten">e</del><add>im</add> who had formed me &amp; sent</line>
-    <line>me forth to <del rend="overstrike">pain &amp;</del><add place="supralinear">this insupportable</add> misery.</mod></line>
-    <line ><milestone unit="paragraph"/><mod hand="light ink">The sun rose – I heard the</line>
+    <line>me forth to <del rend="strikethrough">pain &amp;</del><add place="superlinear">this insupportable</add> misery.<milestone unit="paragraph"/></line>
+    <line>The sun rose — I heard the</line>
     <line>voices of men and knew that it</line>
     <line>was impossible to return to my retreat</line>
-    <line><add place="left margin">during</add> that day; accordingly, I hid myself</line>
-    <line>in some thick underwood <del rend="overstrike">determine</del></line>
-    <line>determin<del rend="overwritten">ed</del><add>ing</add> to devote the <sic>ensueing</sic></line>
-    <line>hours to reflection on my situation–</line>
-    <zone type="left_margin">
-      <line><mod hand="dark ink">The pleasant sunshine</line>
-      <line>and pure air of day</line>
-      <line>restored me to some</line>
-      <line>degree of tranquillity &amp;</mod></line>
-    </zone>
-    <line>When I considered what had passed</line>
+    <line><add><ptr target="#c57-0052.03"/></add> that day; accordingly, I hid myself</line>
+    <line>in some thick underwood <del rend="strikethrough">determine</del></line>
+    <line>determin<del rend="overwritten">ed</del><add>ing</add> to devote the ensueing</line>
+    <line>hours to reflection on my situation—</line>
+    <line><add><ptr target="#c57-0052.04"/></add>When I considered what had passed</line>
     <line>at the cottage I could not help</line>
     <line>believing that I was too hasty in</line>
-    <line>my conclusions – <del rend="overstrike" mod="double lines"><sic>Ther</sic></del> I had certain</line>
-    <line>ly acted imprudently. <del rend="overstrike">My con</del> It was</line>
+    <line>my conclusions — <del rend="strikethrough">Ther</del> I had certain</line>
+    <line>ly acted imprudently. <del rend="strikethrough">My con</del> It was</line>
     <line>apparent that my conversation</line>
-    <line><add place="left margin">h</add>ad softened the father and I was a</line>
-    <line>fool <add place="superlinear">for</add><del rend="overstrike">to</del><add place="superlinear">having</add> exposed my person to the</line>
-    <line>horror of his children. I ought to</mod></line>
-    </mod></zone>
+    <line><add><ptr target="#c57-0052.05"/></add>ad softened the father and I was a</line>
+    <line>fool <add place="superlinear">for</add><del rend="strikethrough">to</del><add place="superlinear">having</add> exposed my person to the</line>
+    <line>horror of his children. I ought to</line>
+  </zone>
+  <zone type="left_margin"><line>endure<anchor xml:id="c57-0052.01"/></line></zone>
+  <zone type="left_margin"><line>the<del rend="strikethrough">m</del> <metamark>‸</metamark><add place="superlinear">species</add><anchor xml:id="c57-0052.02"/></line></zone>
+  <zone type="left_margin"><line>during<anchor xml:id="c57-0052.03"/></line></zone>
+  <zone type="left_margin">
+    <line>he pleasant sunshine</line>
+    <line>and pure air of day</line>
+    <line>restored me to some</line>
+    <line>degree of tranquillity &amp;<anchor xml:id="c57-0052.04"/></line>
+  </zone>
+  <zone type="left_margin"><line>h<anchor xml:id="c57-0052.05"/></line></zone>
 </surface>
-
