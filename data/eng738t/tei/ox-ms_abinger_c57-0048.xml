@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface partOf="ox-ms_abinger_c57"
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0048"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0048" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0048.tif"/>
     <zone type="pagination"> 
       <line>73</line>
@@ -15,15 +10,15 @@
     <line>They are kind &#x2014; I answered &#x2014; They are the most</line> 
     <line><add place="superlinear">excellent</add><del rend="strikethrough">amiable</del>creatures in the world but unfortu</line> 
     <line>nately they are prejudiced against me. I </line> 
-    <line>have good dispositions &#x2014; I love virtue and</line> 
-    <line><del rend="strikethrough">detest</del> knowledge, &#x2014; my life has been hitherto</line> 
-    <line>harmless &#x0026; in some degree beneficial</line> 
+    <line>have good dispositions — I love virtue and</line> 
+    <line><del rend="strikethrough">detest</del> knowledge, — my life has been hitherto</line> 
+    <line>harmless &amp; in some degree beneficial</line> 
     <line>but a fatal prejudice clouds their eyes</line> 
     <line>and where they ought to see a feeling</line> 
     <line>and kind friend, they behold only a detes</line> 
-    <line>table monster. &#x2014; <milestone unit="paragraph"/></line> 
+    <line>table monster. — <milestone unit="paragraph"/></line> 
     <line>That is indeed unfortunate, replied</line> 
-    <line>De Lacey &#x2014; but if you are really blameless can</line> 
+    <line>De Lacey — but if you are really blameless can</line> 
     <line>not you undeceive them?<milestone unit="paragraph"/></line> 
     <line><del rend="strikethrough">This is</del><del rend="strikethrough">That is</del><add place="superlinear">the task</add><del rend="strikethrough">the task</del><add place="superlinear">that</add><del rend="strikethrough">that</del><del rend="strikethrough">what</del>I<del rend="strikethrough">am</del><add place="superlinear">shall</add><del rend="strikethrough">shall</del><add place="superlinear"><metamark>&#x2038;</metamark>am about</add><del rend="strikethrough">goin</del></line> 
     <line><add><ptr target="c57-0002.01"/></add><del rend="strikethrough">endeavouring</del><add place="superlinear">that task</add> &#x2014; <del rend="strikethrough">said I</del>"And it is on that</line> 
@@ -52,4 +47,3 @@
     <line>for many months<anchor xml:id="c57-0002.02"/></line>
   </zone>
 </surface>
-
