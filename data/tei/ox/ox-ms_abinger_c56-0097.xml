@@ -39,10 +39,9 @@
     <line>say that not withstanding <mod type="additions"><add place="sublinear">^</add><add place="superlinear">all</add></mod> the evidence</line>
   </zone>
   <zone type="left_margin">
-    <mod type="additions" xml:id="c56-0097.01">
-      <add>violently</add>
-      <!-- How to indicate that these two words are on written one above the other? -->
-      <add>agitated</add>
-    </mod>
+    <addSpan xml:id="c56-0097.01" spanTo="#c56-0097.02" />
+      <line>violently</line>
+      <line>agitated</line>
+    <anchor xml:id="c56-0097.02"/>
   </zone>
 </surface>
