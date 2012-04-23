@@ -9,15 +9,15 @@
   ulx="0" uly="0" lrx="5368" lry="7104"
   partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0026.tif"/>
-  <zone type="library">61</zone>
+  <zone type="pagination">61</zone>
   <zone type="main">
     <line>deceit by quitting his house under the pretence</line>  
     <line>of a journey &#x0026; concealed<del rend="strikethrough">g</del>himself with his daughter</line>
-    <line>in an obscure part of Paris. <unclear>?</unclear>Felix conducted</line>
-    <line> the fugitives <del rend="strikethrough">across</del><metamark>&#x2038;</metamark><add place="superlinear">through</add>France to Lyons &#x0026; <add place="superlinear">across</add> Mount Cenis</line>
+    <line>in an obscure part of Paris. <unclear reason="illegible">L</unclear>Felix conducted</line>
+    <line> the fugitives <del rend="strikethrough">across</del><add place="superlinear"><metamark>&#x2038;</metamark></add><add place="superlinear">through</add>France to Lyons &#x0026; <add place="superlinear">across</add> Mount Cenis</line>
     <line>when he arrived at Leghorn where the merchant</line>
-    <line><mod><del rend="strikethrough">was to</del><add resp=”#pbs” place=”superlinear”>had decided to</add></mod>was to wait a favourable opportunity of passing</line>
-      <line>over to Africa <del rend="strikethrough">The H</del>He could not deny<add place="superlinear">61</add> him</line>
+    <line><del rend="strikethrough">was to</del><add resp="#pbs" place="superlinear">had decided to</add>was to wait a favourable opportunity of passing</line>
+      <line>over to Africa <del rend="strikethrough">The H</del>He could not deny<add type="pagination" place="superlinear">61</add> him</line>
       <line>self the pleasure of remaining a <del rend="strikethrough">short</del>few</line>
       <line>days in the <del rend="strikethrough">company</del><add place="superlinear">society</add>of the Arabian who exhi</line>
       <line>bited towards him the simplest &#x0026; tenderest</line>
@@ -33,12 +33,12 @@
       <line>feared the resentment of Felix if he should</line>
       <line>appear lukewarm  for he<del rend="strikethrough">w</del> knew that he</line>
       <line> was still in <del rend="strikethrough">his</del><add place="superlinear">the</add> power of his <del rend="strikethrough">former</del> deli</line>
-      <line>ver<add resp=”#pbs”>er</add> if he should <del rend="strikethrough">deliver</del><add place="superlinear">choose to betray</add>him <del rend="strikethrough">up</del>to the</line>
+      <line>ver<add resp="#pbs">er</add> if he should <del rend="strikethrough">deliver</del><add place="superlinear">choose to betray</add>him <del rend="strikethrough">up</del>to the</line>
         <line>Italian state which they at</line>
-        <line>that time imhabited.</line>
-        <line> He revolved a thou</line>
-        <line>sand plans by</line>
-        <line>should</line>
-        <line>which he<metamark>&#x2038;</metamark><add place="superlinear">should</add></line> 
+        <line><damage></damage>that time imhabited.</line>
+        <line><damage></damage>He revolved a thou</line>
+        <line><damage></damage>sand plans by</line>
+        <line><damage></damage>should</line>
+        <line><damage></damage>which he<metamark>&#x2038;</metamark><add place="superlinear">should</add></line> 
   </zone>
 </surface>
