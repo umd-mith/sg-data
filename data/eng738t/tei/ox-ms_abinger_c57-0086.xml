@@ -1,14 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0086"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0086" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0086.tif"/>
-    <zone>
+    <zone type="main">
+      
+      
+      <line>
+        by the impulses of the moment and my
+      </line>
+      
+      <line>
+        <del rend="strikethrough">sensa</del> present sensations strongly
+      </line>
+      
+      <line>
+        intimated that the fiend would follow
+      </line>
+      
+           family 
+      <line>me and <add place="superlinear" resp="#pbs">exempt<del rend="strikethrough">free</del></add> my <add place="superlinear" resp="#pbs">family<del rend="strikethrough">friends</del></add> from the</line>
+      
+      
+      <line>
+        <del rend="strikethrough">possibility of</del> danger<add place="superlinear" resp="#pbs"> of his machinations</add>. <delSpan spanTo="#endofpage"/>Thinking thus
+      </line>
+      
+      <line>
+        I prepared for my journey with
+      </line>
+        
+      
+      <line>
+        alarcrity.<anchor xml:id="endofpage"/>
+      </line>
+      
+      
     </zone>
 </surface>
-

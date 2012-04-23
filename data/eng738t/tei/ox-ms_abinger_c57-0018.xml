@@ -1,32 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0018"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0018" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0018.tif"/>
-    <zone type="top">17)  Chap. 3</zone>
+  <zone type="pagination" rend="bordered">17</zone>
+  <zone type="top">Chap. 3</zone>
     <zone type="main">
-      <line><del rend="overstrike">It was some time</del><mod><add rend="sublinear">^</add><add rend="superlinear">A considerable period elapsed</add></mod> before I discovered one</line>
-      <line><mod hand="PBS">of the</mod> cause<mod hand="PBS">s</mod> of the uneasiness of this amiable</line>
-      <line>family - <del rend="overstrike">It</del> <del rend="overstrike">Itw</del><mod><add rend="sublinear">^</add><add rend="superlinear">It</add></mod> was poverty - and they suffered</line>
-      <line>that evil in a very <choice><sic>distreping</sic><corr>distressing</corr></choice> degree - <del rend="overstrike">Dur</del></line>
-      <line><del rend="overstrike">ring the winter</del><del rend="overstrike">They often had hardly any</del></line>
+      <line><del rend="strikethrough">It was some time</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">A considerable period elapsed</add> before I discovered one</line>
+      <line><add><ptr target="#c57-0018.01"/></add> cause<add resp="#pbs">s</add> of the uneasiness of this amiable</line>
+      <line>family &#x2014; <del rend="strikethrough">It</del> <del rend="strikethrough">Itw</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">It</add> was poverty &#x2014; and they suffered</line>
+      <line>that evil in a very distressing degree &#x2014; <del rend="strikethrough">Dur</del></line>
+      <line><del rend="strikethrough">ring the winter</del><del rend="strikethrough">They often had hardly any</del></line>
       <line>their nourishment consisted entirey of bread</line>
-      <line><del rend="overstrike">and -</del> the vegetables of their garden and the</line>
+      <line><del rend="strikethrough">and &#x2014;</del> the vegetables of their garden and the</line>
       <line>milk of one cow which gave very little</line>
-      <line>during the <del rend="overstrike">hard</del> <del rend="overstrike">monthes</del> winter when</line>
-      <line><del rend="overstrike">the</del> its masters could <del rend="overstrike">spare</del><add rend="superlinear">scarcely</add><del rend="overstrike">very little</del></line>
-      <line><del rend="overstrike">money toward the</del> procur<del rend="overstrike">ing</del><mod><add rend="sublinear">^</add><add rend="superlinear">any</add></mod> <del rend="overstrike">of</del> food for it.</line>
-      <line><del rend="overstrike">This state of poverty</del>  They often I believe<del rend="overstrike">d</del></line>
+      <line>during the <del rend="strikethrough">hard</del> <del rend="strikethrough">monthes</del> winter when</line>
+      <line><del rend="strikethrough">the</del> its masters could <del rend="strikethrough">spare</del><add place="superlinear">scarcely</add><del rend="strikethrough">very little</del></line>
+      <line><del rend="strikethrough">money toward the</del> procur<del rend="strikethrough">ing</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">any</add> <del rend="strikethrough">of</del> food for it.</line>
+      <line><del rend="strikethrough">This state of poverty</del>  They often I believe<del rend="strikethrough">d</del></line>
       <line>suffering the pangs of hunger very poi</line>
-      <line>gnantly especially the <mod hand="PBS"><add rend="superlinear">two</add></mod> young<add rend="sublinear">er</add><del rend="overstrike">er part</del></line>
-      <line>for <mod><add rend="sublinear">^</add><add rend="superlinear">several times</add></mod> they <del rend="overstrike">often</del> placed food before the old</line>
-      <line>man when <del rend="overstrike">they</del><mod><add rend="sublinear">^</add><add rend="superlinear"><del rend="overstrike">were</del></add></mod> <del rend="overstrike">themselves in want of it</del></line>
-      <line>they had none for <del rend="overstrike">their</del> themselves - This</line>
+      <line>gnantly especially the <add resp="#pbs" place="superlinear">two</add> young<add place="sublinear">er</add><del rend="strikethrough">er part</del></line>
+      <line>for <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">several times</add> they <del rend="strikethrough">often</del> placed food before the old</line>
+      <line>man when <del rend="strikethrough">they</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"><del rend="strikethrough">were</del></add> <del rend="strikethrough">themselves in want of it</del></line>
+      <line>they had none for <del rend="strikethrough">their</del> themselves &#x2014; This</line>
       <line>trait of kindness moved me sensibly.</line>
       <line>I had been accustomed during the night</line>
       <line>to steal a part of their store for my</line>
@@ -34,9 +30,11 @@
       <line>that in doing this I inflicted pain on the</line>
       <line>cottagers, I abstained, and satisfied my</line>
       <line>self with berries nuts and roots which</line>
-      <line>I <mod type="subst"><del rend="overstrike">found in</del><add rend="superlinear">gathered from</add></mod> a neighbouring <add rend="superlinear">wood.</add>  I <del rend="overstrike">found</del><mod><add rend="sublinear">^</add><add rend="superlinear">discovered</add></mod> also</line>
+      <line>I <del rend="strikethrough">found in</del><add place="superlinear">gathered from</add> a neighbouring <add place="superlinear">wood.</add>  I <del rend="strikethrough">found</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">discovered</add> also</line>
       <line>another means by which I was able</line>
       <line>to assist their labours.  I found that the</line>
     </zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0018.01" spanTo="#c57-0018.02"/>
+    <line><add resp="#pbs">of the</add></line>
+    <anchor xml:id="c57-0018.02"/></zone>
 </surface>
-

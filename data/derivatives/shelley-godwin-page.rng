@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-03-28T16:29:17Z. 
+Schema generated from ODD source 2012-04-02T15:00:30Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -1832,6 +1832,24 @@ its completeness</a:documentation>
       <ref name="sga-pbibl"/>
     </oneOrMore>
   </define>
+  <define name="sga-pmodel.headLike">
+    <notAllowed/>
+  </define>
+  <define name="sga-pmodel.headLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="sga-pmodel.headLike_sequence">
+    <empty/>
+  </define>
+  <define name="sga-pmodel.headLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="sga-pmodel.headLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="sga-pmodel.headLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
   <define name="sga-pmodel.labelLike">
     <choice>
       <ref name="sga-pdesc"/>
@@ -2113,28 +2131,40 @@ its completeness</a:documentation>
   </define>
   <define name="sga-pmodel.divTopPart">
     <choice>
+      <ref name="sga-pmodel.headLike"/>
       <ref name="sga-popener"/>
     </choice>
   </define>
   <define name="sga-pmodel.divTopPart_alternation">
     <choice>
+      <ref name="sga-pmodel.headLike_alternation"/>
       <ref name="sga-popener"/>
     </choice>
   </define>
   <define name="sga-pmodel.divTopPart_sequence">
+    <ref name="sga-pmodel.headLike_sequence"/>
     <ref name="sga-popener"/>
   </define>
   <define name="sga-pmodel.divTopPart_sequenceOptional">
+    <optional>
+      <ref name="sga-pmodel.headLike_sequenceOptional"/>
+    </optional>
     <optional>
       <ref name="sga-popener"/>
     </optional>
   </define>
   <define name="sga-pmodel.divTopPart_sequenceOptionalRepeatable">
     <zeroOrMore>
+      <ref name="sga-pmodel.headLike_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+    <zeroOrMore>
       <ref name="sga-popener"/>
     </zeroOrMore>
   </define>
   <define name="sga-pmodel.divTopPart_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="sga-pmodel.headLike_sequenceRepeatable"/>
+    </oneOrMore>
     <oneOrMore>
       <ref name="sga-popener"/>
     </oneOrMore>
@@ -2290,6 +2320,7 @@ its completeness</a:documentation>
       <ref name="sga-pmodel.noteLike"/>
       <ref name="sga-pmodel.global.edit"/>
       <ref name="sga-pmetamark"/>
+      <ref name="sga-pfigure"/>
     </choice>
   </define>
   <define name="sga-pmodel.biblPart">
@@ -2612,11 +2643,13 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <optional>
         <attribute name="rend">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
-Suggested values include: 1] strikethrough; 2] overwritten</a:documentation>
+Suggested values include: 1] strikethrough; 2] overwritten; 3] smear</a:documentation>
           <choice>
             <value>strikethrough</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>overwritten</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>smear</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <data type="Name"/>
           </choice>
@@ -4086,7 +4119,7 @@ the space.</a:documentation>
           <ref name="sga-pmapping"/>
         </zeroOrMore>
         <zeroOrMore>
-          <empty/>
+          <ref name="sga-pfigure"/>
         </zeroOrMore>
         <zeroOrMore>
           <ref name="sga-pmodel.graphicLike"/>
@@ -4157,7 +4190,7 @@ the space.</a:documentation>
           <ref name="sga-pmapping"/>
         </zeroOrMore>
         <zeroOrMore>
-          <empty/>
+          <ref name="sga-pfigure"/>
         </zeroOrMore>
         <zeroOrMore>
           <ref name="sga-pmodel.graphicLike"/>
@@ -4417,6 +4450,36 @@ values for @target</assert>
         <ref name="sga-pdata.pointer"/>
       </attribute>
     </optional>
+  </define>
+  <define name="sga-pfigure">
+    <element name="figure">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups elements representing or containing graphic information
+  such as an illustration, formula,  or    figure. [14.4. ]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <ref name="sga-pmodel.headLike"/>
+          <ref name="sga-pmodel.common"/>
+          <ref name="sga-pfigDesc"/>
+          <ref name="sga-pmodel.graphicLike"/>
+          <ref name="sga-pmodel.global"/>
+          <ref name="sga-pmodel.divBottomPart"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.placement.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="sga-pfigDesc">
+    <element name="figDesc">
+      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description of figure) contains a brief prose description of the appearance or content
+of a graphic figure, for use when documenting an image without
+displaying it. [14.4. ]</a:documentation>
+      <ref name="sga-pmacro.limitedContent"/>
+      <ref name="sga-patt.global.attributes"/>
+      <empty/>
+    </element>
   </define>
   <define name="sga-pc">
     <element name="c">

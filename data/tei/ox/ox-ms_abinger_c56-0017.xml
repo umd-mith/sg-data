@@ -1,66 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-    xml:id="ox-ms_abinger_c56-0017" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0017" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
     <graphic url="../../images/ox/ox-ms_abinger_c56-0017.tif"/>
     <zone type="pagination" rend="#bordered">47</zone>
     <zone type="top">Chapter 3</zone>
     <zone type="library">7</zone>
     <zone type="main">
         <line>When I had attained the age of</line>
-        <line>seventeen my <mod type="subst"><del rend="strikethrough">father</del><add
-                    place="superlinear">parents</add></mod> resolved that</line>
-        <line>I should <mod resp="#pbs" type="subst"><del rend="strikethrough">go</del><del
-                    rend="strikethrough"> to</del><add><ptr target="#c56-0017.01"/></add>
-                <add place="superlinear">at</add></mod> the university of In-</line>
+        <line>seventeen my <mod><del rend="strikethrough">father</del><add place="superlinear">parents</add></mod> resolved that</line>
+        <line>I should <mod><del rend="strikethrough">go</del><del rend="strikethrough">
+                        to</del><add><ptr target="#c56-0017.01"/></add>
+                <add place="superlinear" resp="#pbs">at</add></mod> the university of In-</line>
         <line>golstadt. I had hitherto attended the</line>
         <line>schools of Geneva, but my father thought</line>
         <line>it necessary for the completion of my</line>
         <line>education <del rend="strikethrough">that</del> that I should be</line>
-        <line><add><ptr target="#c56-0017.02"/></add> acquainted with other customs <mod
-                type="subst" resp="#pbs"><del rend="strikethrough">besides</del><add
-                    place="superlinear">than</add></mod></line>
+        <line><add><ptr target="#c56-0017.02"/></add> acquainted with other customs <mod><del rend="strikethrough">besides</del><add place="superlinear" resp="#pbs">than</add></mod></line>
         <line>those of my native country. My depar</line>
         <line>ture was therefore fixed <del rend="strikethrough">for</del> at an</line>
         <line>early <add place="intralinear">^</add><add place="superlinear">date.</add> But before
             the day resolved</line>
         <line>upon could arrive the first mis</line>
-        <line>fortune of my life occurred: <mod xml:id="c56-0017.3" next="#c56-0017.4"><del
-                    rend="strikethrough">as if</del></mod> an</line>
-        <line>omen <mod xml:id="c56-0017.4" next="#c56-0017.5" prev="#c56-0017.3"><add resp="#pbs"
-                    place="superlinear">as it were</add></mod> of my future misery<mod
-                xml:id="c56-0017.5" next="#c56-0017.6" prev="#c56-0017.4"><add>. </add><delSpan
-                    rend="strikethrough" spanTo="#c56-0017.7"/>if</mod></line>
-        <line><mod xml:id="c56-0017.6" prev="#c56-0017.5">I should prosecute my journey.<anchor
-                    xml:id="c56-0017.7"/></mod></line>
+        <line>fortune of my life occurred: <del rend="strikethrough">as if</del> an</line>
+        <line>omen <add place="superlinear" resp="#pbs">as it were</add> of my future misery
+                <delSpan rend="strikethrough" spanTo="#c56-0017.03"/>if</line>
+        <line>I should prosecute my journey.<anchor xml:id="c56-0017.03"/></line>
         <milestone unit="tei:p"/>
         <line>Elizabeth had caught the scar</line>
-        <line>let fever but <del rend="strikethrough">o</del> her
+        <line>let fever but <del rend="strikethrough"><unclear unit="chars" extent="1"/></del> her
             illness was</line>
         <line>not severe and she quickly recovered.</line>
-        <line>During her confinement <mod type="subst"><del rend="strikethrough">mady</del><add
-                    place="superlinear"><del rend="strikethrough"><unclear unit="chars" extent="4"
-                            >made</unclear></del> many</add></mod> ar</line>
+        <line>During her confinement <mod><del rend="strikethrough">mady</del><add place="sublinear">‸</add>
+                <del rend="strikethrough"><unclear>made</unclear></del>
+                <add place="superlinear">many</add></mod> ar</line>
         <line>guments had been urged to persuade</line>
-        <line>my mother <mod resp="#pbs" type="subst"><del rend="strikethrough">not </del><del>a
-                    </del><add place="superlinear">to refrain from</add></mod> to attend upon</line>
-        <line>her. She had yielded <mod type="subst" resp="#pbs"><del rend="strikethrough">the</del>
-                <del rend="strikethrough">to these</del><add place="superlinear">to our
+        <line>my mother <mod><del rend="strikethrough">not </del><del rend="strikethrough">a
+                    </del><add place="superlinear" resp="#pbs">to refrain from</add></mod> to attend
+            upon</line>
+        <line>her. She had yielded <mod><del rend="strikethrough">the</del>
+                <del rend="strikethrough">to these</del><add place="superlinear" resp="#pbs">to our
                     entreaties,</add></mod> but</line>
         <line>when she <del rend="strikethrough">ha</del> heard that her</line>
-        <line>favourite was recovering, she <mod resp="#pbs" type="subst"><del rend="overwritten"
-                    >w</del><add place="intralinear">c</add></mod>ould</line>
+        <line>favourite was recovering, she <mod><del rend="overwritten">w</del><add place="intralinear" resp="#pbs">c</add></mod>ould</line>
         <line>no longer debar herself from her</line>
         <line>society, and entered her sick cham</line>
-        <line>ber long before <mod type="subst" resp="#pbs"><del rend="strikethrough">it was
-                    safe</del><add place="superlinear">the danger of infection was past</add></mod>.
+        <line>ber long before <mod><del rend="strikethrough">it was safe</del><add place="superlinear" resp="#pbs">the danger of infection was past</add></mod>.
             The</line>
     </zone>
     <zone type="left_margin">
-        <addSpan xml:id="c56-0017.01" spanTo="#c56-0017.08"/><line>becom a
-            student</line><anchor xml:id="c56-0017.08"/>
+        <line><add xml:id="c56-0017.01" resp="#pbs">becom a student</add></line>
     </zone>
     <zone type="left_margin">
-        <add xml:id="c56-0017.02">made</add>
+        <line><add xml:id="c56-0017.02" resp="#pbs">made</add></line>
     </zone>
 </surface>

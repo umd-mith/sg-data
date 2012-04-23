@@ -1,14 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0008"
-  ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0008" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0008.tif"/>
-    <zone>
+  <zone type="pagination" rend="bordered">7</zone>
+  <zone type="main">
+    <line>vine a retreat as Pandemonium appeared</line>
+    <line>to the <del rend="strikethrough"><unclear reason="illegible">tr</unclear></del> dominions of <mod resp="#pbs"><add place="superlinear">after thier suffocation in the</add></mod> Hell. I greedily</line>
+    <line><add><ptr target="c57-0002.01"/></add>devoured the remnants of the shepherds</line>
+    <line>breakfast which consisted of bread, cheese,</line>	
+    <line>milk &amp; rhenish wine; the latter of which</line>
+    <line>however I did not like.  Then overcome</line>
+    <line>by fatigue I lay down among some straw</line>
+    <line>&amp; fell asleep.<milestone unit="paragraph"/></line>
+    <line>It was noon when I awoke and allured</line>
+    <line>by the <del rend="strikethrough">warth</del> warmth of the sun I deter</line>
+    <line>mined to recommence my travels—&amp; <add place="superlinear"><del rend="strikethrough">dep</del></add> <del rend="strikethrough">wrapping</del></line>                                                
+    <line><add><ptr target="c57-0002.02"/></add>the <add place="superlinear">remains</add> <del rend="strikethrough">rest</del> of the <del rend="strikethrough">herds bre</del> peasants break</line> 
+    <line>fast in a wallet I found, I proceeded</line>
+    <line>across the fields for several hours, untill</line>
+    <line>at sunset I <del rend="strikethrough">came to</del> <add place="superlinear"><mod resp="#pbs">arrived at</mod></add> a village.  How mira</line>
+    <line>culous did this appear. The huts the neater</line>
+    <line>cottages &amp; stat<add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">e</add>lier houses engaged my</line>
+    <line>admiration by turns— The vegetables in the</line>
+    <line>garden<add place="superlinear"><mod resp="#pbs">s</mod></add> <del rend="strikethrough">allured me</del> and the milk and</line>
+    <line>cheese that I saw placed at <del rend="strikethrough">s</del> the windows</line>
+    <line>of some of the cottages <add place="superlinear"><mod resp="#pbs">allured me—</mod></add><gap atLeast="1" atMost="3" unit="chars" reason="illegible"/> One of the best of</line>   
+    <line>these I entered— but I had hardly placed</line>
+    <line>my foot <add place="superlinear"><mod resp="#pbs">within</mod></add><del rend="strikethrough">inside</del> the door before the</line>
+    <line>children shrieked and one of the <del rend="strikethrough">child</del></line>
+    <line><del rend="strikethrough">ren</del> women fainted, the village was roused</line>
+    <line>some fled,—some attacked me untill</line> 
+    <line>grievously bruised by <del rend="strikethrough">sticks</del> <add place="sublinear"><metamark>‸</metamark></add> <add place="superlinear">stones</add> and <del rend="strikethrough">all</del></line> 
+    <line>many other kinds of missile weapon I</line>
     </zone>
+  <zone type="left_margin">
+    <line>lake of</line>
+    <line>fire.<anchor xml:id="c57-0002.01"/></line>     
+  </zone>
+  <zone type="left_margin">
+    <line>depositing<anchor xml:id="c57-0002.02"/></line>    
+  </zone>
 </surface>
-
