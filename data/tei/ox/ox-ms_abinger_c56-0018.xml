@@ -38,6 +38,7 @@
     <line>"death and will indulge a hope <del rend="strikethrough">my</del></line>
     <line>"<del rend="strikethrough">beloved creatures</del> of meeting you</line>
     <line>"in another world."</line>
+    <milestone unit="tei:p"/>
     <line>She died calmly and her features</line>
     <line>expressed <del rend="strikethrough">lo</del> affection even in death.</line>
     <line>I need not describe the feelings of those</line>
