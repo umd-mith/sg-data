@@ -10,8 +10,8 @@
   </zone>
   <zone type="main">
     <line>heart and depressed spirits – But I consented</line>
-    <line>to listen and <mod type="subst"><del rend="strikethrough">sitting</del><add resp="#pbs"
+    <line>to listen and <mod><del rend="strikethrough">sitting</del><add resp="#pbs"
           place="superlinear">seating myself</add></mod> by the fire which he</line>
-    <line>lighted he thus began began his tale.</line>
+    <line>lighted he thus <del rend="strikethrough">began</del> began his tale.</line>
   </zone>
 </surface>
