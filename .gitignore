@@ -15,3 +15,5 @@ cocoon/viewer/target/
 cocoon/viewer/tmp/
 validation/target/
 
+data/tei/*/*.html
+

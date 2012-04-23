@@ -1,14 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0004"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0004" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0004.tif"/>
-    <zone>
+  <zone type="pagination" rend="bordered">3</zone>
+  <zone type="main">
+      <line>moon and fixed my eyes on <del rend="strikethrough">th</del> that with</line>
+      <line>pleasure.  Several changes of day and night</line>
+      <line>passed and the orb of night had greatly</line> 
+      <line>lessened when I began to distinguish my</line>
+      <line><add><ptr target="c57-0002.01"/></add>sensations <mod resp="#pbs"><metamark>‸</metamark> <add place="superlinear">from each other—</add></mod> I <del rend="strikethrough">first saw</del> <mod resp="#pbs"><add place="superlinear"><del rend="strikethrough">dis</del> gradually saw plainly</add></mod> the clear stream</line>
+      <line>that supplied me with drink and the <del rend="strikethrough"><unclear reason="illegible">gre</unclear></del></line> 
+      <line>trees that <del rend="strikethrough">covered</del> <add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">shaded</add> me with their foliage.</line>
+      <line>I was delighted when I first discovered</line>
+      <line><add><ptr target="c57-0002.02"/></add>that a pleasant sound <del rend="strikethrough">that</del> <add place="superlinear"><mod resp="#pbs">which</mod></add> often</line>
+      <line><del rend="strikethrough">delighte</del> saluted my ears proceeded</line>
+      <line>from the throats of <del rend="strikethrough">son</del> the little <del rend="strikethrough"><mod resp="#pbs">winged</mod></del> <add place="superlinear">anih</add></line>
+      <line>animals who often intercepted the light</line>
+      <line>from my eyes.  I began also to see <del rend="strikethrough">an</del></line>
+      <line>with <del rend="strikethrough">forms</del> greater accuracy the forms</line>
+      <line>that surrounded me and to perceive</line>
+      <line>the boundaries of the radiant light which</line>
+      <line><del rend="strikethrough">overspead my dwelling</del> canopied me.some</line>
+      <line>times I tried to imitate <add place="superlinear">the</add> pleasant songs of</line>
+      <line>the birds but was unable— Sometimes I</line>
+      <line><del rend="strikethrough">also</del> wished to express my sensations in</line>
+      <line>my own mode but <add place="superlinear"><mod resp="#pbs">the</mod></add> uncoth <add place="superlinear"><mod resp="#pbs">u</mod></add> and innarticu</line>
+      <line>late sound <add place="superlinear">which</add> broke from me which frightened</line>
+      <line>me into silence again.<milestone unit="paragraph"/></line>
+      <line>The moon had dissapeared from the night, &amp; </line>
+      <line>again with a lessened form it shewed itself</line>
+      <line><del rend="strikethrough">again</del> while I still remained in the forest.</line>
+      <line>My <del rend="strikethrough">ideas</del> <add place="superlinear">sensations</add> were by this time become distinct</line>                         
+      <line>&amp; <add place="sublinear"><metamark>‸</metamark></add> <add place="superlinear">my mind</add> <unclear reason="illegible">e</unclear> received every day aditional <del rend="ovestrike">ones</del> <add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">ideas.</add> My eyes</line>
+      <line>became accustomed to the light and to</line>
+      <line>perceive objects in their right forms; I distin</line>
     </zone>
+  <zone type="left_margin">
+    <line><figure><desc>PBS doodle or sketch</desc></figure><anchor xml:id="c57-0002.01"/></line>
+  </zone>
+  <zone type="left_margin">
+    <line><figure><desc>PBS doodle or sketch; looks like a cylinder with a cap on top</desc></figure><anchor xml:id="c57-0002.02"/></line>
+  </zone>
 </surface>
-

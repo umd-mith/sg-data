@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-03-25T18:32:45Z. 
+# Schema generated from ODD source 2012-04-02T15:00:30Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -776,37 +776,7 @@ sga-patt.spanning.attribute.spanTo =
   ##	bearing this attribute.
   attribute spanTo { sga-pdata.pointer }?
 sga-patt.transcriptional.attributes =
-  sga-patt.editLike.attributes,
-  sga-patt.transcriptional.attribute.hand,
-  sga-patt.transcriptional.attribute.status,
-  sga-patt.transcriptional.attribute.cause,
-  sga-patt.transcriptional.attribute.seq
-sga-patt.transcriptional.attribute.hand =
-  
-  ## signifies the hand of the agent which made the intervention.
-  attribute hand { sga-pdata.pointer }?
-sga-patt.transcriptional.attribute.status =
-  
-  ## indicates the effect of the intervention, for example in
-  ##       the case of a deletion, strikeouts
-  ##       which include too much or too little text, or in the case of an
-  ##       addition, an insertion which duplicates some of the text
-  ##       already present.
-  ## Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] excessEnd; 5] shortStart; 6] shortEnd; 7] partial; 8] unremarkable
-  [ a:defaultValue = "unremarkable" ]
-  attribute status { sga-pdata.enumerated }?
-sga-patt.transcriptional.attribute.cause =
-  
-  ## documents the presumed cause for the intervention.
-  attribute cause {
-    
-    ## repeated for the purpose of fixation
-    "fix"
-    | 
-      ## repeated to clarify a previously illegible or badly written text
-      ##    or mark
-      "unclear"
-  }?
+  sga-patt.editLike.attributes, sga-patt.transcriptional.attribute.seq
 sga-patt.transcriptional.attribute.seq =
   
   ## (sequence) assigns a sequence number related to the order in which
@@ -1028,6 +998,12 @@ sga-pmodel.biblLike_sequence = sga-pbibl
 sga-pmodel.biblLike_sequenceOptional = sga-pbibl?
 sga-pmodel.biblLike_sequenceOptionalRepeatable = sga-pbibl*
 sga-pmodel.biblLike_sequenceRepeatable = sga-pbibl+
+sga-pmodel.headLike = notAllowed
+sga-pmodel.headLike_alternation = notAllowed
+sga-pmodel.headLike_sequence = empty
+sga-pmodel.headLike_sequenceOptional = empty
+sga-pmodel.headLike_sequenceOptionalRepeatable = empty
+sga-pmodel.headLike_sequenceRepeatable = notAllowed
 sga-pmodel.labelLike = sga-pdesc
 sga-pmodel.labelLike_alternation = sga-pdesc
 sga-pmodel.labelLike_sequence = sga-pdesc
@@ -1084,12 +1060,17 @@ sga-pmodel.divWrapper_sequenceOptional = sga-pdateline?, sga-psalute?
 sga-pmodel.divWrapper_sequenceOptionalRepeatable =
   sga-pdateline*, sga-psalute*
 sga-pmodel.divWrapper_sequenceRepeatable = sga-pdateline+, sga-psalute+
-sga-pmodel.divTopPart = sga-popener
-sga-pmodel.divTopPart_alternation = sga-popener
-sga-pmodel.divTopPart_sequence = sga-popener
-sga-pmodel.divTopPart_sequenceOptional = sga-popener?
-sga-pmodel.divTopPart_sequenceOptionalRepeatable = sga-popener*
-sga-pmodel.divTopPart_sequenceRepeatable = sga-popener+
+sga-pmodel.divTopPart = sga-pmodel.headLike | sga-popener
+sga-pmodel.divTopPart_alternation =
+  sga-pmodel.headLike_alternation | sga-popener
+sga-pmodel.divTopPart_sequence =
+  sga-pmodel.headLike_sequence, sga-popener
+sga-pmodel.divTopPart_sequenceOptional =
+  sga-pmodel.headLike_sequenceOptional?, sga-popener?
+sga-pmodel.divTopPart_sequenceOptionalRepeatable =
+  sga-pmodel.headLike_sequenceOptionalRepeatable*, sga-popener*
+sga-pmodel.divTopPart_sequenceRepeatable =
+  sga-pmodel.headLike_sequenceRepeatable+, sga-popener+
 sga-pmodel.divTop = sga-pmodel.divWrapper | sga-pmodel.divTopPart
 sga-pmodel.divBottomPart =
   sga-ptrailer | sga-pcloser | sga-psigned | sga-ppostscript
@@ -1127,6 +1108,7 @@ sga-pmodel.global =
   | sga-pmodel.noteLike
   | sga-pmodel.global.edit
   | sga-pmetamark
+  | sga-pfigure
 sga-pmodel.biblPart = sga-pmodel.respLike | sga-pbibl | sga-prelatedItem
 sga-pmodel.pPart.data =
   sga-pmodel.dateLike | sga-pmodel.measureLike | sga-pmodel.nameLike
@@ -1343,7 +1325,7 @@ sga-pdel =
     sga-pmacro.paraContent,
     
     ## 
-    ## Suggested values include: 1] strikethrough; 2] overwritten
+    ## Suggested values include: 1] strikethrough; 2] overwritten; 3] smear
     attribute rend {
       
       ##
@@ -1351,6 +1333,9 @@ sga-pdel =
       | 
         ##
         "overwritten"
+      | 
+        ##
+        "smear"
       | xsd:Name
     }?,
     sga-patt.global.attribute.el-target,
@@ -2527,7 +2512,7 @@ sga-pchar =
      sga-pmodel.glossLike*,
      sga-pcharProp*,
      sga-pmapping*,
-     empty*,
+     sga-pfigure*,
      sga-pmodel.graphicLike*,
      sga-pmodel.noteLike*),
     sga-patt.global.attributes,
@@ -2562,7 +2547,7 @@ sga-pglyph =
      sga-pmodel.glossLike*,
      sga-pcharProp*,
      sga-pmapping*,
-     empty*,
+     sga-pfigure*,
      sga-pmodel.graphicLike*,
      sga-pmodel.noteLike*),
     sga-patt.global.attributes,
@@ -2823,6 +2808,30 @@ sga-patt.global.linking.attribute.prev =
   ## (previous) points to the previous element of a virtual aggregate of
   ##       which the current element is part.
   attribute prev { sga-pdata.pointer }?
+sga-pfigure =
+  
+  ## groups elements representing or containing graphic information
+  ##   such as an illustration, formula,  or    figure. [14.4. ]
+  element figure {
+    (sga-pmodel.headLike
+     | sga-pmodel.common
+     | sga-pfigDesc
+     | sga-pmodel.graphicLike
+     | sga-pmodel.global
+     | sga-pmodel.divBottomPart)*,
+    sga-patt.global.attributes,
+    sga-patt.placement.attributes,
+    sga-patt.typed.attributes,
+    empty
+  }
+sga-pfigDesc =
+  
+  ## (description of figure) contains a brief prose description of the appearance or content
+  ## of a graphic figure, for use when documenting an image without
+  ## displaying it. [14.4. ]
+  element figDesc {
+    sga-pmacro.limitedContent, sga-patt.global.attributes, empty
+  }
 sga-pc =
   
   ## (character) represents a character. [17.1. ]

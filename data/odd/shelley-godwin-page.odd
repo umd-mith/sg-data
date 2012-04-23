@@ -349,6 +349,7 @@
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking" except="ab alt altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
+                    <moduleRef key="figures" include="figure figDesc"></moduleRef>
 
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
@@ -376,6 +377,14 @@
                                     markup conversion should have a particular value, please
                                     indicate</desc>
                             </attDef>
+                        </attList>
+                    </classSpec>
+                    
+                    <classSpec ident="att.transcriptional" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="hand" mode="delete"/>
+                            <attDef ident="status" mode="delete"/>
+                            <attDef ident="cause" mode="delete"/>
                         </attList>
                     </classSpec>
 
@@ -563,6 +572,7 @@
                                 <valList type="semi" mode="replace">
                                     <valItem ident="strikethrough"/>
                                     <valItem ident="overwritten"/>
+                                    <valItem ident="smear"/>
                                 </valList>
                             </attDef>
                         </attList>
