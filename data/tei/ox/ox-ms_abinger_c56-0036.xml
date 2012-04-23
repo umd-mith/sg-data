@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0036" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56-0036">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0036" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0036">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0036.tif"/>
-  
+
   <zone type="pagination">66</zone>
-  
+
   <zone type="main">
     <line>steps <mod resp="#pbs" type="subst"><del rend="strikethrough">that</del>
-      <add place="superlinear">by which I had been</add></mod>progressively led to it were </line>
-    <line>obliterated. <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
-        >and</add>I <del rend="strikethrough">saw</del><add place="sublinear"
+        <add place="superlinear">by which I had been</add></mod>progressively led to it were </line>
+    <line>obliterated. <add place="sublinear"><metamark>&#x2038;</metamark></add><add
+        place="superlinear">and</add>I <del rend="strikethrough">saw</del><add place="sublinear"
           ><metamark>&#x2038;</metamark></add><add place="superlinear">beheld</add> only the result.
       What</line>
     <line>had been the study and desire of the </line>
@@ -19,37 +22,47 @@
         >within</add> my <del rend="strikethrough">hands.</del><add place="superlinear">grasp;</add>
       Not</line>
     <line>that, like a magic <del rend="strikethrough">sceen</del> scene it</line>
-    <line>all opened upon me at once<add place="intralinear">.</add> <del rend="strikethrough">on</del></line>
-    <line><del rend="strikethrough">the contrary</del><mod><del rend="overwritten">t</del><add place="intralinear">T</add></mod>he <del
-        rend="strikethrough">big</del> information</line>
-    <line>I had obtained was <add place="sublinear"><metamark>&#x2038;</metamark></add><add resp="#pbs"
-        place="superlinear">of a nature</add> rather <del rend="strikethrough">one that</del></line>
+    <line>all opened upon me at once <add place="intralinear">.</add>
+      <del rend="strikethrough">on</del></line>
+    <line><del rend="strikethrough">the contrary </del><mod><del rend="overwritten">t</del><add
+          place="intralinear">T</add></mod>he <del rend="strikethrough">big</del> information</line>
+    <line>I had obtained was <add place="sublinear"><metamark>&#x2038;</metamark></add><add
+        resp="#pbs" place="superlinear">of a nature</add> rather <del rend="strikethrough">one
+        that</del></line>
     <line><del rend="strikethrough">would</del><add place="sublinear"
-      ><metamark>&#x2038;</metamark></add><add resp="#pbs" place="superlinear">to</add> direct my
-      endeavours, <add><metamark>^</metamark><ptr target="#c56-0036.01"/></add>
-      <add place="sublinear"><metamark>^</metamark></add><del rend="strikethough">that</del></line>
-    <line><del rend="strikethrough">than show me the prospect with</del></line>
-    <line><del rend="strikethrough">any precise certainty.</del> I was like the</line>
+        ><metamark>&#x2038;</metamark></add><add resp="#pbs" place="superlinear">to</add> direct my
+      endeavours, <add place="sublinear"><metamark>&#x2038;</metamark></add><add><ptr
+          target="#c56-0036.01"/></add>
+      <delSpan spanTo="#c56-0036.03"/><del rend="strikethough">that</del></line>
+    <line>than show me the prospect with</line>
+    <line>any precise certainty.<anchor xml:id="c56-0036.03"/> I was like the</line>
     <line>Arabian<del rend="strikethrough">,</del> who had been buried with</line>
     <line>the dead, and found a passage to life</line>
     <line>aided only by one glimmering and seem</line>
     <line>ingly ineffectual light.</line>
+    <milestone unit="tei:p"/>
     <line>I see by your eargerness and the</line>
     <line>wonder and hope which your eyes</line>
     <line>express, my friend, that you expect to</line>
     <line>be informed of the <del rend="strikethrough">scret</del> secret with</line>
     <line>which I am acquainted; <del rend="strikethrough">that you are</del><add resp="#pbs"
         place="superlinear">that cannot be.</add></line>
-    <line><del rend="strikethrough">mistaken.</del>Listen patiently to the end</line>
+    <line><del rend="strikethrough">mistaken. </del>Listen patiently to the end</line>
     <line>of my story and you will easily</line>
     <line>perceive why <add place="superlinear">I</add> am reserved upon that</line>
-    <line>subject.- <del rend="strikethrough">For why should</del> I <add place="superlinear">will not</add> lead you</line>
+    <line>subject.- <del rend="strikethrough">For why should</del> I <add place="superlinear">will
+        not</add> lead you</line>
     <line>on, <del rend="strikethrough">as</del> unguarded and ardent as I then</line>
     <line>was, to your <del rend="strikethrough">destruc</del> destruction &amp;</line>
   </zone>
-  
-  <zone type="left_margin"><add xml:id="c56-0036.01"><metamark>^</metamark>so soon as I should point
-      them towards the object of my search, than th exhibit that object already
-    accomplished</add></zone>
-
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0036.01" spanTo="#c56-0036.02"/><line><metamark>&#x2038;</metamark>so soon
+      as I</line>
+    <line>should point</line>
+    <line> them towards</line>
+    <line>the object of</line>
+    <line>my search,</line>
+    <line>than th exhi</line><line>bit that ob-</line><line>ject already</line>
+    <line>accomplished</line><anchor xml:id="c56-0036.02"/>
+  </zone>
 </surface>
