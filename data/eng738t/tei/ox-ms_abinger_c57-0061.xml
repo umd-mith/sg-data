@@ -5,8 +5,7 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0061.tif"/>
     <zone type="pagination" rend="bordered">86</zone>
   <zone type="main">
-    <zone type="left_margin">animation</zone>
-    <line><del rend="strikethrough">her</del> when I was suddenly interrupted by</line>
+    <line><add><ptr target="c57-0061.01"/></add><del rend="strikethrough">her</del> when I was suddenly interrupted by</line>
     <line>the approach of a rustic who was probably</line>
     <line><del rend="strikethrough">her</del> the person from whom she had</line>
     <line>playfully fled — On seeing me he darted</line>
@@ -24,16 +23,9 @@
     <line><del rend="strikethrough">wound. w</del> had saved a human</line>
     <line>being from destruction and as a</line>
     <line>recompence I now writhed <del rend="strikethrough">un</del> under</line>
-    <zone type="left_margin">
-      <line><mod resp="#pbs">A wound which</mod></line>
-      <line><mod resp="#pbs">shattered the</mod></line>
-      <line><mod resp="#pbs">flesh &amp; bone</mod></line>
-    </zone>
-    <line>the miserable pain of <add place="superlinear" resp="#pbs">a multitude of</add><del rend="strikethrough">my wound</del></line>
-    <zone type="left_margin"><del rend="strikethrough">One</del></zone>
-    <line><del rend="strikethrough">The ball had grazed my neck</del> &amp; <del rend="strikethrough">the</del></line>
-    <zone type="left_margin"><del rend="strikethrough">an</del></zone>
-    <line><del rend="strikethrough">other entered my shoulder.</del> The feelings</line>
+    <line><add><ptr target="c57-0061.02"/></add>the miserable pain of <add place="superlinear" resp="#pbs">a multitude of</add><del rend="strikethrough">my wound</del></line>
+    <line><add><ptr target="c57-0061.03"/></add><del rend="strikethrough">The ball had grazed my neck</del> &amp; <del rend="strikethrough">the</del></line>
+    <line><add><ptr target="c57-0061.04"/></add><del rend="strikethrough">other entered my shoulder.</del> The feelings</line>
     <line>of kindness and <add place="superlinear">gentleness</add><del rend="strikethrough">softness</del> which I had</line>
     <line>entertained but a few moments before</line>
     <line>gave place to hellish rage &amp; gnashing</line>
@@ -44,9 +36,17 @@
     <line>For some weeks I led a miserable</line>
     <line>life in these woods endeavouring to</line>
     <line>cure the wound <add place="superlinear" resp="#pbs">which</add> I had received. The</line>
-    <zone type="left_margin">ball</zone>
-    <line>had entered my shoulder and I knew</line>
+    <line><add><ptr target="c57-0061.05"/></add>had entered my shoulder and I knew</line>
     <line>not whether it had remained there</line>
     <line>or passed through—at any rate I had</line>
     </zone>
+  <zone type="left_margin"><line>animation<anchor xml:id="c57-0061.01"/></line></zone>
+  <zone type="left_margin">
+    <line><mod resp="#pbs">A wound which</mod></line>
+    <line><mod resp="#pbs">shattered the</mod></line>
+    <line><mod resp="#pbs">flesh &amp; bone</mod><anchor xml:id="c57-0061.02"/></line>
+  </zone>
+  <zone type="left_margin"><line><del rend="strikethrough">One</del><anchor xml:id="c57-0061.03"/></line></zone>
+  <zone type="left_margin"><line><del rend="strikethrough">an</del><anchor xml:id="c57-0061.04"/></line></zone>
+  <zone type="left_margin"><line>ball<anchor xml:id="c57-0061.05"/></line></zone>
 </surface>

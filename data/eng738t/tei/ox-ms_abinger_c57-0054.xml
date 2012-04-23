@@ -8,7 +8,7 @@
     <zone type="main">
       <line>When my hunger was appeased I directed</line>
       <line>my steps towards the well known path</line>
-      <line>that conducted to the cottage — All there,</line>
+      <line><add><ptr target="#c57-0054.01"/></add>that conducted to the cottage — All there,</line>
       <line>was at peace — <del rend="strikethrough">I</del> I crept into my hovel</line>
       <line>and remained in silent expectation of</line>
       <line>the accustomed hour when the family</line>
@@ -36,4 +36,5 @@
       <line>"&amp; to lose the produce of your garden.</line>
       <line>"<del rend="strikethrough">Cons</del> I do not wish to take any <add place="superlinear">unfair</add> advantage</line>
     </zone>
+  <zone type="left_margin"><figure><desc>Large Z</desc></figure><anchor xml:id="c57-0054.01"/></zone>
 </surface>

@@ -9,7 +9,7 @@
     <line>sat down &amp; enjoyed the ruin—<milestone unit="paragraph"/></line>
     <line>But this was a luxury of</line>
     <line>sensation that could not <del rend="strikethrough">last</del></line>
-    <line><mod rend="left_margin">endure</mod> I <add place="superlinear">became fatigued</add><del rend="strikethrough">grew tired</del> with excess of bodily</line>
+    <line><add><ptr target="#c57-0052.01"/></add>I <add place="superlinear">became fatigued</add><del rend="strikethrough">grew tired</del> with excess of bodily</line>
     <line>exertion; and sank on the</line>
     <line><del rend="strikethrough">g</del> damp grass in the despondency</line>
     <line>of despair. There was no one <del rend="strikethrough">in</del></line>
@@ -19,30 +19,34 @@
     <line>kindness towards my enemies?</line>
     <line>No! from that moment I de</line>
     <line>clared everlasting war against</line>
-    <line>the <del rend="strikethrough">m</del> <metamark>‸</metamark><add place="superlinear">species</add> and more than all against</line>
+    <line><add><ptr target="#c57-0052.02"/></add> and more than all against</line>
     <line>h<del rend="overwritten">e</del><add>im</add> who had formed me &amp; sent</line>
     <line>me forth to <del rend="strikethrough">pain &amp;</del><add place="superlinear">this insupportable</add> misery.<milestone unit="paragraph"/></line>
     <line>The sun rose — I heard the</line>
     <line>voices of men and knew that it</line>
     <line>was impossible to return to my retreat</line>
-    <line><zone type="left_margin">during</zone> that day; accordingly, I hid myself</line>
+    <line><add><ptr target="#c57-0052.03"/></add> that day; accordingly, I hid myself</line>
     <line>in some thick underwood <del rend="strikethrough">determine</del></line>
     <line>determin<del rend="overwritten">ed</del><add>ing</add> to devote the ensueing</line>
     <line>hours to reflection on my situation—</line>
-    <zone type="left_margin">
-      <line>he pleasant sunshine</line>
-      <line>and pure air of day</line>
-      <line>restored me to some</line>
-      <line>degree of tranquillity &amp;</line>
-    </zone>
-    <line>When I considered what had passed</line>
+    <line><add><ptr target="#c57-0052.04"/></add>When I considered what had passed</line>
     <line>at the cottage I could not help</line>
     <line>believing that I was too hasty in</line>
     <line>my conclusions — <del rend="strikethrough">Ther</del> I had certain</line>
     <line>ly acted imprudently. <del rend="strikethrough">My con</del> It was</line>
     <line>apparent that my conversation</line>
-    <line><zone type="left_margin">h</zone>ad softened the father and I was a</line>
+    <line><add><ptr target="#c57-0052.05"/></add>ad softened the father and I was a</line>
     <line>fool <add place="superlinear">for</add><del rend="strikethrough">to</del><add place="superlinear">having</add> exposed my person to the</line>
     <line>horror of his children. I ought to</line>
-    </zone>
+  </zone>
+  <zone type="left_margin"><line>endure<anchor xml:id="c57-0052.01"/></line></zone>
+  <zone type="left_margin"><line>the<del rend="strikethrough">m</del> <metamark>‸</metamark><add place="superlinear">species</add><anchor xml:id="c57-0052.02"/></line></zone>
+  <zone type="left_margin"><line>during<anchor xml:id="c57-0052.03"/></line></zone>
+  <zone type="left_margin">
+    <line>he pleasant sunshine</line>
+    <line>and pure air of day</line>
+    <line>restored me to some</line>
+    <line>degree of tranquillity &amp;<anchor xml:id="c57-0052.04"/></line>
+  </zone>
+  <zone type="left_margin"><line>h<anchor xml:id="c57-0052.05"/></line></zone>
 </surface>
