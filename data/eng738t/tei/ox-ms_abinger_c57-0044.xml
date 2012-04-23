@@ -14,18 +14,18 @@
  <zone type="main">  
 <line>were the sight of flowers and birds</line> 
 <line>and all the gay apparel of summer</line> 
-<line><del rend="overstrike">but</del> when those deserted me<del rend="overstrike"> &#x0026; the</del></line> 
+<line><add><ptr target="c57-0002.01"/></add><del rend="overstrike">but</del> when those deserted me<del rend="overstrike"> &#x0026; the</del></line> 
 <line><del rend="overstrike"> days became shorter</del>I turned with</line> 
 <line>more attention towards the cottagers</line> 
- <line>the absence of summer &#x2014; They loved</line> 
+<line><add><ptr target="c57-0002.02"/></add>the absence of summer &#x2014; They loved</line> 
 <line>and sympathized with one another </line> 
-<line>and their <mod><del rend="overstrike">happiness</del><add place="superlinear">joys</add></mod>depending on</line> 
+<line>and their <mod><del rend="overstrike">happiness</del><add place="superlinear"><metamark>&#x2038;</metamark>joys</add></mod>depending on</line> 
 <line>each other were not<mod resp="#pbs"><del rend="overstrike">hurt</del><add place="superlinear">interrupted</add></mod>by the</line> 
 <line>casualties that took place around</line> 
 <line>them &#x2014; The more I saw of them</line> 
 <line>the greater became my desire to</line> 
 <line>claim their protection &#x0026; kindness.</line> 
-<line>My heart yearned to <del rend="overstrike">beco</del>be <add place="superlinear">known and</add>loved</line> 
+<line>My heart yearned to <del rend="overstrike">beco</del>be <add place="superlinear"><metamark>&#x2038;</metamark>known and</add>loved</line> 
 <line>by these amiable creatures to see</line> 
 <line>their sweet looks directed towards</line> 
 <line>me in kindness &#x2014; I dared not think</line> 
@@ -35,13 +35,15 @@
 <line>never driven away <del rend="overstrike">And I</del> I asked</line> 
 <line>it is true for greater treasures</line> 
 <line>that a little food or rest I required</line> 
-<line>kindness &#x0026; sympathy but I <add place="superlinear">did</add> not</line> 
+<line>kindness &#x0026; sympathy but I <add place="superlinear"><metamark>&#x2038;</metamark>did</add> not</line> 
 <line>believe my self utterly unworthy</line> 
 <line>of it</line> 
 </zone> 
 <zone type="left_margin">  
-<line> <del rend="overstrike">and</del></line> 
-<line> their happiness was <add place="superlinear">not decreased</add>by</line>
+  <line> <del rend="overstrike">and</del><anchor xml:id="c57-0002.01"/></line>  
+</zone> 
+<zone type="left_margin">
+  <line> their happiness was <add place="superlinear"><metamark>&#x2038;</metamark>not decreased by</add><anchor xml:id="c57-0002.02"/></line>
 </zone> 
 </surface>
 

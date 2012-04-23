@@ -12,12 +12,12 @@
 <line>67</line> 
 </zone> 
 <zone type="main"> 
-<line>dispositions I persuaded myself that</line> 
+  <line><add><ptr target="c57-0002.01"/></add>dispositions I persuaded myself that</line> 
 <line> with they would pity me and overlook</line> 
 <line> their my personal deformity<del rend="overstrike">when they</del></line>
 <line><del rend="overstrike">should know my admiration of</del></line> 
-<line><del rend="overstrike">virtues.</del> <del rend="overstrike">Yes I <add place="superlinear">was</add> mad enough to <add place="superlinear">put</add></del> my</line> 
-<line><del rend="overstrike">trust in my own intentions and to</del></line> 
+<line><del rend="overstrike">virtues.</del> <del rend="overstrike">Yes I <add place="superlinear"><metamark>&#x2038;</metamark>was</add> mad enough to <add place="superlinear"><metamark>&#x2038;</metamark>put</add></del> my</line> 
+<line><add><ptr target="c57-0002.02"/></add><del rend="overstrike">trust in my own intentions and to</del></line> 
 <line>Could they turn from their door</line> 
 <line>one however monstrous, who solici</line> 
 <line>ted their compassion &#x0026; friendship?</line> 
@@ -25,9 +25,9 @@
 <line>but in every way to fit myself</line> 
 <line>for an interview which would</line> 
 <line>descide my fate.<del rend="overstrike">I wish</del>I postponed</line> 
-<line>for some months longer; for the</line> 
+<line><add><ptr target="c57-0002.03"/></add>for some months longer; for the</line> 
 <line>importance attached to it <mod resp="#pbs">'s</mod><mod resp="#pbs"><add place="superlinear">success</add></mod> inspired</line> 
-<line>me with a <del rend="overstrike">fear for it's success</del> <mod resp="#pbs"><add place="superlinear">dread lest it should not succeed</add></mod></line> 
+<line>me with a <del rend="overstrike">fear for it's success</del> <mod resp="#pbs"><add place="superlinear"><metamark>&#x2038;</metamark>dread lest it should not succeed</add></mod></line> 
 <line><del rend="overstrike">that I in vain endeavoured to</del></line> 
 <line><del rend="overstrike"> surmount.</del>Besides I found that</line> 
 <line>my understanding improved so much</line> 
@@ -44,17 +44,22 @@
 <line>and I also found that a greater<del rend="overstrike">g</del>degree</line> 
 <line>of plenty<del rend="overstrike"> &#x0026; en</del>reigned there-Felix &#x0026; </line> 
 <line>and Agatha spent more time</line> 
-<line>in amusement <add place="superlinear"> &#x0026; conversation</add><del rend="overstrike">they</del>and <del rend="overstrike">and</del>were<del rend="overstrike">now also</del></line> 
+<line>in amusement <add place="superlinear"><metamark>&#x2038;</metamark> &#x0026; conversation</add><del rend="overstrike">they</del>and <del rend="overstrike">and</del>were<del rend="overstrike">now also</del></line> 
 <line>assisted in their labours by servants</line> 
 <line>They <del rend="overstrike">were not</del><add place="superlinear">did not appear</add> rich but they were</line>  
 </zone> 
 <zone type="left_margin"> 
-<line>When they should be</line>  
-<line>come acquainted with</line> 
-<line>my admiration of</line> 
-<line>virtues</line> 
-<line>this attempt</line>
+  <line>When they <add place="superlinear"><metamark>&#x2038;</metamark>should</add>be</line>  
+  <line>come acquainted with</line> 
+  <line>my admiration of</line> 
+  <line>virtues<anchor xml:id="c57-0002.01"/></line> 
 </zone> 
+<zone type="left_margin">
+  <line><figure><desc>PBS doodle or sketch</desc></figure><anchor xml:id="c57-0002.02"/></line>
+</zone> 
+<zone type="left_margin"> 
+  <line>this attempt<anchor xml:id="c57-0002.03"/></line>
+</zone>
 </surface> 
 
 
