@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0070" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0070" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0070.tif"/>
-    <zone>
-    </zone>
+
+  <zone type="pagination">
+    <line>100</line>
+  </zone>
+  <zone type="main">
+    <line>being delayed by several accidents winter</line>
+    <line>&amp; snow arrived, <del rend="strikethrough">and</del> the roads were</line>
+    <line>deemed impassable and my <del>return</del><add place="sublinear">&#x2038;</add><add
+        place="superlinear">journey</add></line>
+    <line><add><ptr target="#c56-0070.01"/></add>delayed untill the <mod type="additions"
+        resp="#pbs"><add place="sublinear">&#x2038;</add><add place="superlinear"
+        >ensuing</add></mod>spring. I felt this</line>
+    <line>delay very bitterly <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">for</add></mod> I longed to see my</line>
+    <line>native town and my beloved friends</line>
+    <line><del rend="strikethrough">and</del> my return had only been delayed</line>
+    <line>so long from an unwillingness to leave</line>
+    <line>Clerval in a strange town before he</line>
+    <line>had become acquainted with its in</line>
+    <line>habitants. The winter <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">however</add></mod> was <mod type="subst"><del rend="strikethrough"
+          >however</del><add place="superlinear"><del type="cross-hatch">s</del>
+      spent</add></mod></line>
+    <line><mod type="deletions"><del rend="strikethrough">a</del> cheerfully <del
+          rend="strikethrough">one</del></mod> and although the</line>
+    <line>spring was uncommonly late when</line>
+    <line>it came its beauty compensated</line>
+    <line><del rend="strikethrough">for</del> its dilatoriness. <del rend="double-strike">Ma</del>
+      The month</line>
+    <line>of May was already <del rend="strikethrough">finis</del>
+      <del rend="strikethrough">end</del> com-</line>
+    <line>pleated, and I expected daily the</line>
+    <line>letter that was to fix the date of</line>
+    <line>my <mod type="subst"><del rend="strikethrough">return</del><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">departure</add></mod>, When Henry proposed</line>
+    <line>a pedestrian tour in environs of</line>
+    <line>Ingolstadt that I might bid farewell</line>
+    <line>to the country I had so long in</line>
+    <line>habited.– I acceeded with pleasure to</line>
+    <line>this <mod type="subst"><del rend="strikethrough">proposal</del><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">ition</add></mod>– I was fond of Exercise</line>
+    <line>and Clerval had always been my</line>
+    <line>favourite companion in <mod type="subst"><del rend="cross-hatch">j</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">the</add></mod> rambles</line>
+    <line>of this nature that I had taken</line>
+    <line>among the scenes of my native coun</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0070.01" spanTo="#c56-0070.02"/>
+    <line>was</line>
+    <line>retarted</line>
+    <anchor xml:id="c56-0070.02"/></zone>
+
 </surface>
