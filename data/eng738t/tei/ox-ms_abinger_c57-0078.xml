@@ -47,7 +47,13 @@
   
   <zone type="left_margin">
     <line>the ex<anchor xml:id="c57-0078.01"/></line>
+  </zone>
+  
+  <zone type="left_margin">
     <line>2<anchor xml:id="c57-0078.02"/></line>
+  </zone>
+  
+  <zone type="left_margin">
     <line><delSpan spanTo="page78marginal"/><mod resp="#pbs">I think</mod></line>
     <line><mod resp="#pbs">the journey</mod></line>
     <line><mod resp="#pbs">to England</mod></line>
