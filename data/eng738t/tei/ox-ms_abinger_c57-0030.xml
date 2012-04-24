@@ -6,42 +6,38 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0030"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+  ulx="0" uly="0" lrx="5368" lry="7104"
+  partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0030.tif"/>
-  <zone type="library">63</zone>
+  <zone type="pagination">63</zone>
   <zone type="main">
-    <milestone type="paragraph">
-      <line>of their fortune and <mod><del rend="strikethrough">exiled them for ever</del><add resp=”#pbs” place=”superlinear”>condemned them to a</></mod></line>
-        <line><mod><del rend="strikethrough">from</del><add resp=”#pbs” place=”superlinear”>perpetual exile from</add></mod> their native country.
-    </milestone></line>
-    <milestone type="paragraph">
+      <line>of their fortune and <mod><del rend="strikethrough">exiled them for ever</del><add resp="#pbs" place="superlinear">condemned them to a</add></mod></line>
+        <line><del rend="strikethrough">from</del><add resp="#pbs" place="superlinear">perpetual exile from</add>their native country.</line><milestone unit="paragraph"/>
       <line>They found a miserable assylum in</line> 
       <line>the cottage in Germany where I found them</line>
-      <line>Felix <del rend="strikethrough">heard</del><metamark>&#x2038;</metamark><add place="superlinear">learned</add> that the treacherous Turk for whom</line>
+      <line>Felix <del rend="strikethrough">heard</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">learned</add> that the treacherous Turk for whom</line>
       <line>he and his family <del rend="strikethrough">suf</del> endured such unheard</line>
-      <line>of oppression, on <mod resp="pbs"><del rend="strikethrough">hearing that he was a </del><add resp=”#pbs” place=”superlinear”>discovering was thus</add></mod></line>
-        <line><del rend="strikethrough">beggar had w</del> that his deliverer <del rend="strikethrough">was poor</del><del resp="#pbs" place="superlinear">had been</del><add resp=”#pbs” place=”superlinear”>reduced to</add></mod>&#x0026;</line>  	
-          <line><mod resp="pbs"><del rend="strikethrough">harmless forgot {?his} prom</del><add resp=”#pbs” place=”superlinear”>poverty &#x0026; impotence</add> beca<del rend="strikethrough">ming</del><add>me</add></mod> a traitor</line>
-            <mod><del>something crossed out</del><add resp=”#pbs” place=”superlinear”>something inserted in Percy’s hand</add></mod>
-              <line> to good feeling &#x0026; honour <metamark>&#x2038;</metamark><add place="superlinear">&#x0026; had</add>quitted <del rend="strikethrough">his</del> Italy with</line>
+      <line>of oppression, on <del rend="strikethrough">hearing that he was a </del><add resp="#pbs" place="superlinear">discovering was thus</add></line>
+    <line><del rend="strikethrough">beggar had w</del> that his deliverer <del rend="strikethrough">was poor</del> <add resp="#pbs" place="superlinear">had been</add> <del rend="strikethrough">had been</del> <add resp="#pbs" place="superlinear">reduced to</add>&#x0026;</line>  	
+          <line><del rend="strikethrough">harmless forgot <unclear reason="illegible">his</unclear> prom</del><add resp="#pbs" place="superlinear">poverty &#x0026; impotence</add> beca<del rend="strikethrough">ming</del><add>me</add> a traitor</line>
+              <line> to good feeling &#x0026; honour <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">&#x0026; had</add>quitted <del rend="strikethrough">his</del> Italy with</line>
               <line>his daughter insultingly sending Felix a</line>
               <line><del rend="strikethrough">miserable</del> pittance of money to aid him,</line>
               <line>as he said, in some plan of future main</line>
               <line> tenance.<milestone unit="paragraph"/></line>
-              <milestone type="paragraph">
                 <line>Such were the events that <del rend="strikethrough">sprea</del>preyed</line>
                 <line>on the heart of Felix and rendered him when</line>
                 <line>I first saw him, the most miserable	</line>
-                <line>of his family.  He could have endured poverty</line>
-                <line>and when <del rend="strikethrough">it had been</del><del place="superlinear">this</del>this distress had</line>
-                <line>been the meed of <metamark>&#x2038;</metamark><add place="superlinear">his</add> virtue he would have</line>
+                <line>of his family.  He could have endured poverty</line>his
+                <line>and when <del rend="strikethrough">it had been</del><add place="superlinear"><del rend="strikethrough">this</del></add>this distress had</line>
+                <line>been the meed of <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">his</add> virtue he would have</line>
                 <line> gloried in it.  But the ingratitude of the</line>
                 <line> Turk &#x0026; the loss of his beloved Safie <del rend="strikethrough">preyed on</del></line>
                 <line> <del rend="strikethrough">his heart were misfortunes</del> were misfor</line>
                 <line> tunes more bitter &#x0026; irreperable.</line>
                 <line> <del rend="strikethrough">But</del>The arrival of the Arrabian</line>
-                <line><mod resp="pbs"><metamark>&#x2038;</metamark><del place="superlinear">had</del><add resp=”#pbs” place=”superlinear”>now</add></mod>infused new life into his soul.</line>
-                  <line>[When the news <del rend="strikethrough">had arrived</del><add resp=”#pbs” place=”superlinear”>reached her</add> that</line>
-                    <line>Felix was deprived of his wealth<milestone unit="paragraph"/></line>
+    <line><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"><del rend="strikethrough">had</del></add><add resp="#pbs" place="superlinear">now</add>infused new life into his soul.</line>
+                  <line>[When the news <del rend="strikethrough">had arrived</del><add resp="#pbs" place="superlinear">reached her</add> that</line>
+                    <line>Felix was deprived of his wealth</line>
   </zone>
 </surface>

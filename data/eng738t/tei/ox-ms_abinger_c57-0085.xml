@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0085"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0085" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0085.tif"/>
     <zone type="main">
       <line>
@@ -14,11 +9,11 @@
       </line>
       
       <line>
-        <del rend="strikethrough">to me que</del><note>del is in 2 strokes, apparently, one only spanning "to me"</note> question me <add place="superlinear" resp="#pbs">further</add> concerning the
+        <del rend="strikethrough">to me que</del><note>del is in 2 strokes, apparently, one only spanning "to me"; ALSO "to" does not logically warrant deletion--appears mistakenly deleted</note> question me <mod><add place="superlinear" resp="#pbs">further</add></mod> concerning the
       </line>
       
       <line>
-        cause of my dejection &#x2014; He hoped that
+        cause of my dejection — He hoped that
       </line>
       
       <line>
@@ -27,10 +22,11 @@
       
       <line>
         velling would restore my tranquillity
+        <milestone unit="paragraph"/>
       </line>
       
       <line>
-        I now <add place="superlinear" resp="#pbs">made arrangements<del rend="strikethrough">arranged</del></add> for my journey
+        I now <mod><add place="superlinear" resp="#pbs">made arrangements</add><del rend="strikethrough">arranged</del></mod> for my journey
       </line>
       
       <line>
@@ -70,7 +66,7 @@
       </line>
       
       <line>
-        pany me to England? This <add place="superlinear" resp="#pbs">imagination <del rend="strikethrough">idea</del></add> was
+        pany me to England? This <mod><add place="superlinear" resp="#pbs">imagination</add><del rend="strikethrough">idea</del></mod> was
       </line>
       
       <line>
@@ -78,7 +74,7 @@
       </line>
       
       <line>
-        as much as<metamark>&#x2038;</metamark><add place="superlinear" resp="#pbs">it supposed the safety of</add> my friends <delSpan spanTo="#nextline"/>would be
+        as much as<mod><metamark>&#x2038;</metamark><add place="superlinear" resp="#pbs">it supposed the safety of</add></mod> my friends <delSpan spanTo="#nextline"/>would be
       </line>
       
       <line>
@@ -86,7 +82,7 @@
       </line>
       
       <line>
-        the <add place="superlinear" resp="#pbs">idea of a</add> possibility that the reverse
+        the <mod><add place="superlinear" resp="#pbs">idea of a</add></mod> possibility that the reverse
       </line>
       
       
@@ -109,4 +105,3 @@
       
     </zone>
 </surface>
-

@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0089"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0089" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0089.tif"/>
     <zone type="pagination" rend="bordered">
       105
@@ -77,11 +72,11 @@
     </line>
     
     <line>
-      the great ocean&#x2014;and the waves dash
+      the great ocean—and the waves dash
     </line>
           
     <line>
-      with fury <add place="superlinear" resp="#pbs">on</add>the <del rend="strikethrough">th</del> <add place="superlinear" resp="#pbs"><unclear reason="illegible" confidence="0.4">base</unclear><del rend="strikethrough">foot</del></add> of the mountain
+      with fury <mod><add place="superlinear" resp="#pbs">on</add></mod>the <del rend="strikethrough">th</del> <mod><add place="superlinear" resp="#pbs"><unclear reason="illegible" confidence="0.4">base</unclear></add><del rend="strikethrough">foot</del></mod> of the mountain
     </line>
     
     <line>
@@ -135,9 +130,9 @@
     <line>
       Look at that castle which overhangs
     </line>
-    yon
+    
     <line>
-      <add place="superlinear" resp="#pbs">yon<del rend="strikethrough">that</del></add> precipiece; and that also on
+      <mod><add place="superlinear" resp="#pbs">yon</add><del rend="strikethrough">that</del></mod> precipiece; and that also on
     </line>
     
     <line>
@@ -145,7 +140,7 @@
     </line>
     
     <line>
-      the foliage of those lovely trees&#x2014;and now
+      the foliage of those lovely trees—and now
     </line>
     
     
@@ -155,4 +150,3 @@
   
   
 </surface>
-

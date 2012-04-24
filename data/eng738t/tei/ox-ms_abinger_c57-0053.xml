@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0053"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0053" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0053.tif"/>
   <zone type="pagination" rend="bordered">78</zone>  
   <zone type="main">
@@ -14,25 +9,24 @@
     <line>to me and by degrees have discovered</line>
     <line>myself to the rest of the family when</line>
     <line>they should have been prepared for</line>
-    <line>my approach &#x2014; But I did not believe</line>
-    <line>my errors irretrievable &#x2014; and after</line>
+    <line>my approach — But I did not believe</line>
+    <line>my errors irretrievable — and after</line>
     <line>much consideration I resolved to</line>
-    <line>return to the cottage &#x2014; seek the</line>
+    <line>return to the cottage — seek the</line>
     <line>old man and by my representa</line>
-    <line>tions win him to my party.&#x2014;<milestone unit="paragraph"/></line>
+    <line>tions win him to my party.—<milestone unit="paragraph"/></line>
     <line>These thoughts calmed me &amp;</line>
     <line>in the afternoon I sunk into a</line>
-    <line>profound sleep&#x2014; but the fever</line>
+    <line>profound sleep— but the fever</line>
     <line>of my blood did not <del rend="strikethrough">pe</del> allow of</line>
     <line>peaceful dreams <del rend="strikethrough">for ever</del> the hor</line>
-    <line>ri<del rend="overwritten">d</del><add resp="#pbs">ble</add> scene of the <metamark>&#x2038;</metamark><add place="superlinear">preceeding</add> day <del rend="strikethrough">before was</del><add place="superlinear">was for ever</add></line>
-    <line>acting before my eyes &#x2014; The females</line>
+    <line>ri<del rend="overwritten">d</del><add resp="#pbs">ble</add> scene of the <metamark>‸</metamark><add place="superlinear">preceeding</add> day <del rend="strikethrough">before was</del><add place="superlinear">was for ever</add></line>
+    <line>acting before my eyes — The females</line>
     <line>were flying and the eraged Felix</line>
-    <line>tearing me from his fathers feet&#x2014; I</line>
+    <line>tearing me from his fathers feet— I</line>
     <line>awoke exhausted, and finding that</line>
     <line>it was already night I crept from</line>
-    <line>my hiding place &#x0026; went in search</line>
+    <line>my hiding place &amp; went in search</line>
     <line>of food.<milestone unit="section"/></line>
     </zone>
 </surface>
-

@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0087"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0087" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0087.tif"/>
     <zone type="pagination" rend="bordered">
       103
@@ -66,7 +61,7 @@
     </line>
     
     <line>
-      he saw the beauties of <add place="superlinear">the <del rend="strikethrough">sun</del></add>set<add place="intralinear">ting</add><metamark>&#2038;</metamark><add place="superlinear">sun</add>and
+      he saw the beauties of <add place="superlinear">the <del rend="strikethrough">sun</del></add>set<add place="intralinear">ting</add><metamark>&#x2038;</metamark><add place="superlinear">sun</add>and
     </line>
     
     
@@ -94,9 +89,8 @@
       now I enjoy existence.  But you, my     
     </line>
     
-    wherefore are you
     <line>
-      dear Frankenstein, <add place="superlinear" resp="#pbs">wherefore are you <del rend="strikethrough">are</del></add> desponding &#x0026;
+      dear Frankenstein, <mod><add place="superlinear" resp="#pbs">wherefore are you</add><del rend="strikethrough">are</del></mod> desponding &#x0026;
     </line>
     
     <line>
@@ -106,7 +100,7 @@
     <line>
       gloomy thoughts and neither saw
     </line>
-    descent
+    
     <line>
       the <add place="superlinear">descent<del rend="strikethrough">rise</del></add> of the evening star nor the
     </line>
@@ -141,6 +135,7 @@
     
     <line>
       avenue to enjoyment.
+      <milestone unit="paragraph"/>
     </line>
     
     <line>
@@ -154,4 +149,3 @@
     
   </zone>
 </surface>
-
