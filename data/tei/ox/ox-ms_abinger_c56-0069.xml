@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0069" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0069" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0069.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>99</line>
+  </zone>
+  <zone type="library">
+    <line>32</line>
+  </zone>
+  <zone type="main">
+    <line>the minutiæ of science. <del rend="double-strike">La</del> Lan</line>
+    <line>guages were his <mod type="subst"><del rend="strikethrough">chief</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">principal</add></mod> study for
+      he</line>
+    <line>wished to open a field for <mod type="additions"><add place="sublinear">&#x2038;</add><del
+          rend="strikethrough"><add place="superlinear">him</add></del></mod>self-instruc</line> ^
+      <line>tion on his return – <del rend="strikethrough">Greek</del> Persian</line>
+    <line>&amp; Arabic &amp; Hebrew gained his atten</line>
+    <line>tion <mod type="subst"><del rend="strikethrough">when</del><add><ptr target="#c56-0069.01"
+            /><metamark>✗</metamark></add></mod> he had become perfect</line>
+    <line>ly master of the Greek &amp; Latin langua</line>
+    <line>ges. For my own part idleness had</line>
+    <line>ever been irksome to me and</line>
+    <line>now that I wished to fly from reflec</line>
+    <line>tion and hated my former studies</line>
+    <line><del rend="triple-strike"><unclear unit="chars" extent="1" precision="low"
+          reason="overwritten">a</unclear></del> I found great relief in being the</line>
+    <line>fellow pupil <mod type="subst"><del rend="double-strike">of</del><add place="superlinear"
+          >with</add></mod> my <del rend="double-strike">fr</del> friend and</line>
+    <line><del rend="strikethrough">I not <del rend="double-strike">a</del> only</del> found <mod
+        type="subst"><del rend="strikethrough">instruct</del><add place="superlinear">not
+        only</add></mod> instruc</line>
+    <line>tion but consolation in the works of</line>
+    <line>the orientalists. <del rend="strikethrough">There is something soothing</del></line>
+    <line>Their melancholy is soothing and their</line>
+    <line>joy elevating to a degree I never before</line>
+    <line>experienced in <mod type="subst"><del rend="strikethrough">reading</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">studying</add>
+        <del rend="strikethrough">any</del><add place="sublinear">&#x2038;</add><add
+          place="superlinear">the authors of any</add> other <del rend="strikethrough"
+          >books.</del><add place="sublinear">&#x2038;</add><add place="superlinear"
+        >country.</add></mod></line>
+    <line>When you read<del rend="cross-hatch">s</del> their <del rend="double-strike">li</del>
+      writings life</line>
+    <line>appears to consist in a warm sun</line>
+    <line>and gardens of roses – in the smiles &amp;</line>
+    <line><del rend="strikethrough">tears</del><add><ptr target="#c56-0069.02"/></add> of a fair
+      enemy and the fire</line>
+    <line>that consumes your own heart</line>
+    <line>How different from the man<mod type="subst"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">l</add></mod>y &amp; <del rend="strikethrough">warlike</del></line>
+    <line><add><ptr target="#c56-0069.03"/></add> poet<add place="intralinear" resp="#pbs">ry</add>
+      of Greece &amp; Rome.</line>
+    <milestone unit="tei:p"/>
+    <line>Summer passed away in these</line>
+    <line><del rend="strikethrough">studies</del><add><ptr target="#c56-0069.04"/></add> &amp; my
+      return to Geneva was</line>
+    <line>fixed for the latter end of Autumn but</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0069.01">so soon as
+      <metamark>✗</metamark></add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0069.02">frowns</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0069.03">heroical</add></line>
+  </zone>
+  <zone type="left_margin">'
+    <line><add xml:id="c56-0069.04">occupations</add></line>
+  </zone>
 </surface>
