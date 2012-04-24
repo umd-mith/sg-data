@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0066" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0066" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0066.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>6</line>
+  </zone>
+  <zone type="top">
+    <line>Chap. 8th</line>
+  </zone>
+  <zone type="main">
+    <line>one of my first duties on my recovery was</line>
+    <line>to introduce Clerval to the <mod type="additions"><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">several</add></mod> professors of</line>
+    <line>the university. And in doing this I under</line>
+    <line>went <del rend="strikethrough">torments</del> a kind of rough usage</line>
+    <line><del rend="strikethrough">that</del> ill <del rend="strikethrough">befitten</del>
+        befitt<add resp="#pbs" place="intralinear">ing</add> the wounds that</line>
+    <line>my mind had sustained. Ever since the</line>
+    <line>fatal night – the end of my labours &amp;</line>
+    <line>the beginning of my misfortunes <del rend="cross-hatch"><metamark>(</metamark></del> I
+      had</line>
+    <line>conceived a violent antipathy even to</line>
+    <line>the name of <mod type="subst"><del rend="cross-hatch">Ch</del>
+        <del rend="strikethrough">Chemistry</del><add place="superlinear">Natural
+        Philosophy</add></mod>. When I was other</line>
+    <line>wise quite restored to health the sight of <add resp="#pbs" place="intralinear"
+      >a</add></line>
+    <line>Chemical instrument <del rend="strikethrough">brought on</del></line>
+    <line><mod type="subst"><del rend="strikethrough">again</del><add resp="#pbs"
+          place="superlinear">renewed</add></mod> all <mod resp="#pbs" type="additions"><add
+          place="sublinear">&#x2038;</add><add place="superlinear">the</add> my <add
+          place="sublinear">&#x2038;</add><add place="superlinear">agony of my</add></mod> nervous
+      symtoms. <del rend="cross-hatch">Lo</del></line>
+    <line>Henry saw this and had <mod type="subst"><del rend="cross-hatch">p</del>
+        <del rend="strikethrough">packed up</del><add place="superlinear">removed</add></mod></line>
+    <line>all my <mod type="subst"><del rend="strikethrough">machines</del>
+        <del rend="strikethrough">in a chest</del><add place="superlinear">apparatus from my <del
+            rend="strikethrough">che</del> view</add></mod> he had also</line>
+    <line>changed my <del rend="strikethrough">room</del><add>ap<del rend="vertical-strike"
+        >p</del>artment,</add> for he perceived that</line>
+    <line>I had <mod type="subst"><del rend="strikethrough">a</del><add resp="#pbs"
+          place="superlinear">acquired</add></mod> dislike to the room which had</line>
+    <line>previously been my workshop. But these</line>
+    <line>cares of Clerval were <mod type="subst"><del rend="strikethrough">thrown away</del><add
+          resp="#pbs" place="superlinear">made of no avail</add></mod> when</line>
+    <line>I visited the professors. even my excellent</line>
+    <line>M. Waldman inflicted torture when</line>
+    <line>he praised with <del rend="triple-strike">the</del> kindness and warmth,</line>
+    <line>the astonishing progress that I had made</line>
+    <line>in the sciences. He soon perceived my</line>
+    <line><add><ptr target="#c56-0066.01"/></add> dislike<add place="intralinear" resp="#pbs"
+        >d</add>
+      <del rend="strikethrough">of</del> the subject, but not guessing</line>
+    <line>the real cause he attributed <del rend="cross-hatch">to</del>
+      <del rend="strikethrough">it</del></line>
+    <line><add><ptr target="#c56-0066.02"/></add> to modesty <del rend="strikethrough">on hearing
+        myself prais</del>ed</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0066.01">that I</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0066.02">my feelings</add></line>
+  </zone>
 </surface>
