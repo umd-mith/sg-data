@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0056" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0056" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0056">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0056.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">86 </zone>
+  <zone type="main">
+    <line><del rend="strikethrough">astonished him.</del><add resp="#pbs" place="superlinear"><del
+          rend="strikethrough">I ha</del> persuaded him that my</add><add><ptr target="#c56-0056.01"
+        /></add></line>
+    <line><del rend="strikethrough">It was</del> by very slow degrees and with</line>
+    <line>frequent relapses that alarmed &amp;</line>
+    <line>grieved my friend <del rend="overwritten">that</del> I recovered. I remember</line>
+    <line>that the first time I was capable of</line>
+    <line>observing outward objects with any kind</line>
+    <line>of pleasure, I perceived that the</line>
+    <line>fallen leaves had disappeared and that</line>
+    <line>young buds were shooting forth from</line>
+    <line>the trees. It was a divine spring &amp; the</line>
+    <line>season no doubt contributed greatly</line>
+    <line>to my convalescence. I felt also senti</line>
+    <line>ments of joy and affection revive</line>
+    <line>in <add resp="#pbs" place="superlinear">my</add> bosom, my gloom disappeared and</line>
+    <line>in a short time I became as cheerful</line>
+    <line>as before I was attacked by the fatal</line>
+    <line>passion <del rend="strikethrough">that consumed me</del>.</line>
+    <line>"Dearest Clerval," said I "How kind,</line>
+    <line>"how very good you are to me. This</line>
+    <line>"whole winter instead of spending it</line>
+    <line>"<del rend="strikethrough">at</del> in study as you promised yourself,</line>
+    <line>"has been consumed in my sick room:</line>
+    <line>"how shall I ever repay you? I feel</line>
+    <line>"the greatest remorse for the disap</line>
+    <line>"pointment I have been the <del rend="strikethrough">c</del>occa</line>
+    <line>"sion of- But you will forgive me."</line>
+    <line>"You will repay me," replied Henry</line>
+    <line>"if you do not dis compose yourself;</line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c56-0056.01"/>disorder owed its origin to some uncommon
+    &amp; terrible event</zone>
 </surface>
