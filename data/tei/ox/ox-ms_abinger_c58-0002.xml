@@ -11,7 +11,8 @@
     <line>
       <line>sentence, and on that night would the d&#230;mon employ</line>
       <line>every art to destroy me and tear me from the</line>
-      <line><mod type="subst"><add><metamark>&#x2038;</metamark></add><del rend="strikethrough">p</del>
+      <line><mod type="subst"><del rend="strikethrough"
+            >p</del><add><metamark>&#x2038;</metamark></add>
           <add place="superlinear">glimse of </add></mod>happiness which promised <del
           rend="strikethrough">to</del> partly to <del rend="strikethrough">so</del> console</line>
       <line>my sufferings. On that night he had determined</line>
@@ -19,17 +20,18 @@
       <line>a deadly strugle would then assuredly take place</line>
       <line>where if he <del rend="strikethrough">wer</del>
         <mod type="subst"><del rend="strikethrough">should be</del>
-          <add place="superlinear">was</add></mod> victorious I shoudl be at</line>
+          <add place="superlinear">was</add></mod> victorious I should be at</line>
       <line>peace and his power over me be at an end. If </line>
       <line>he were vanquished I should <mod type="additions"><add place="sublinear"
-            ><metamark>&#x2038;</metamark></add><add place="superlinear">be</add></mod> a free man. Alas!</line>
+              ><metamark>&#x2038;</metamark></add><add place="superlinear">be</add></mod> a free
+        man. Alas!</line>
       <line>What freedom; such as the peasant enjoys when </line>
       <line>his family have been massacred before his</line>
       <line>eyes, his cottage burnt, his lands <add place="superlinear">laid</add> waste, and he
         is</line>
       <line>turned adrift homeless pennyless and alone, but </line>
       <line> free. Luck would be my liberty except that in</line>
-      <line> my <del rend="strikethrough">Albert</del> Elizabeth I possessed a treasuer,
+      <line> my <del rend="strikethrough">Albert</del> Elizabeth I possessed a treasure,
         alas!</line>
       <line>balanced by the horrows of remorse and guilt</line>
       <line>which would pursue me untill death.</line>
