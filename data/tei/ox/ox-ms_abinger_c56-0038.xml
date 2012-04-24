@@ -1,6 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0038" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0038" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0038.tif"/>
-    <zone>
-    </zone>
+  <zone type="top">
+    <line>Chapter 6.</line>
+  </zone>
+  <zone type="main">
+    <line>When I found <mod resp="pbs" type="subst"><del rend="strikethrough">this</del><add
+          place="superlinear">so</add><add place="superlinear">a</add></mod> astonishing
+      power</line>
+    <line>placed <mod resp="pbs" type="subst"><del rend="strikethrough">in</del><add
+          place="superlinear">within</add></mod> my hands, I hesitated a long time</line>
+    <line>concerning the <mod resp="pbs" type="subst"><del rend="strikethrough">use</del><add
+          place="superlinear">manner in which</add></mod> I should <mod resp="pbs" type="subst"><del
+          rend="strikethrough">make of it</del><add place="superlinear">employ</add></mod>.</line>
+    <line>Although I <del rend="strikethrough">conceived myself capable of</del> possessed</line>
+    <line>the capacity of bestowing animation yet</line>
+    <line><mod type="subst"><del rend="strikethrough">my</del> to <del rend="strikethrough"
+          >create</del><add place="sublinear"><metamark>^</metamark></add><add place="superlinear"
+          >prepare</add> a <del rend="strikethrough">creature</del><add place="sublinear"
+            ><metamark>^</metamark></add><add resp="pbs" place="superlinear">frame</add>
+        <add place="superlinear">for the <del rend="strikethrough">receiving i</del><add
+            place="superlinear">reception of</add>it</add></mod> with all its intri</line>
+    <line>cacies of fibres muscles &amp; veins <del rend="strikethrough">must be</del></line>
+    <line><add><ptr target="#c56-0038.01"/></add>a work of inconceivable <mod resp="pbs"
+        type="subst">labour<add place="superlinear">2</add> &amp; diffi<add place="superlinear"
+          >1</add></mod></line>
+    <line>culty. I doubted at first whether I should</line>
+    <line>attempt the creation of a <mod type="subst" resp="pbs"><del rend="strikethrough"
+          >creature</del><add place="superlinear">being</add></mod></line>
+    <line>like <del rend="strikethrough">unto</del> myself or one of simpler</line>
+    <line>organization; <del rend="strikethrough">b</del> but my imagination</line>
+    <line>was too much exalted by my first success</line>
+    <line>to permit me to doubt of my capacity</line>
+    <line>ability to <mod type="subst"><del rend="strikethrough">create</del><add resp="pbs"
+          place="superlinear">give life</add>
+        <del rend="strikethrough">a</del><add place="superlinear" resp="pbs">to</add>
+        <del rend="strikethrough">creature</del><add place="superlinear"><del rend="strikethrough"
+            >being</del></add><add place="sublinear"><metamark>^</metamark></add><add
+          place="superlinear">an animal</add></mod> as complex</line>
+    <line>and wonderful as man. <del rend="strikethrough"><add place="intralinear"
+        >Yet</add></del><add place="superlinear"><del rend="strikethrough">But</del></add>
+      <del rend="strikethrough">when I</del></line>
+    <line><add resp="pbs"><ptr target="#c56-0038.02"/></add><del rend="strikethrough">when</del>
+      <del rend="cross-hatch">I</del>
+      <del rend="strikethrough">looked around for</del><add place="superlinear"><del
+          rend="strikethrough">considered</del></add>
+      <del rend="strikethrough">my</del>
+      <del rend="strikethrough">materials</del></line>
+    <line><del rend="strikethrough">they</del> hardly appeared adequate to so ardous</line>
+    <line>an undertaking; <mod type="subst" resp="pbs"><del rend="strikthrough">but I did not
+          despair.</del><add place="superlinear">but I doubted not that I should ul</add><add
+          place="sublinear">-timately succeed.</add></mod></line>
+    <line><add><ptr target="#c56-0038.03"/></add><delSpan rend="zigzag" spanTo="#c56-0038.04"/>I
+      allowed that my first attempts might</line>
+    <line>be futile, my operations fail or my work</line>
+    <line>be imperfect,<anchor xml:id="c56-0038.04"/>
+      <del rend="strikethrough">but I looked around on</del></line>
+    <line>the improvement <del rend="strikethrough">that</del><add place="superlinear">which</add>
+      every day</line>
+    <line>takes place in science and <add resp="pbs" place="intralinear">mechanics</add></line>
+    <line><mod type="subst" resp="pbs"><del rend="strikethrough">and m my attempt was so much
+          grander</del><add place="superlinear">I was encouraged to hope</add></mod></line>
+    <line>and And altho although I could not hope</line>
+    <line>that my <add resp="pbs" place="superlinear">present</add> attempts would<add
+        place="superlinear" resp="pbs"><del rend="strikethrough">at le</del></add>
+      <del rend="strikethrough">s</del> be in every</line>
+    <line><mod type="addition" resp="pbs"><add rend="intralinear">at least <add place="sublinear"
+              ><metamark>^</metamark></add><add place="superlinear">lay</add> the foundations of
+          future success</add></mod></line>
+  </zone>
+
+
+  <zone type="left margin" rend="bordered">
+    <line>68</line>
+  </zone>
+
+
+  <zone type="left margin">
+    <line><add xml:id="c56-0038.01">still remained</add></line>
+  </zone>
+
+  <zone type="left margin">
+    <addSpan xml:id="c56-0038.02" spanTo="#c56-0038.05"/>
+    <line>The materials</line>
+    <line>at present within my command</line><anchor xml:id="c56-0038.05"/>
+  </zone>
+
+  <zone type="left margin">
+    <addSpan xml:id="c56-0038.03" spanTo="#c56-0038.06"/>
+    <line>I prepared myself</line>
+    <line>for a multitude</line>
+    <line>of reverses, my</line>
+    <line>operations <del rend="strikethrough">might</del></line>
+    <line>be baffled <del rend="strikethrough">ever</del></line>
+    <line>incessantly, &amp; at</line>
+    <line>last my work be</line>
+    <line>but imperfect,</line>
+    <line>yet, when I con</line>
+    <line>sidered</line>
+    <anchor xml:id="c56-0038.06"/>
+  </zone>
 </surface>
