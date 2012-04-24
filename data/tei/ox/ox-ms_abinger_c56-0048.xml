@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0048" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0048" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0048.tif"/>
-    <zone>
+    <zone type="pagination">176</zone>
+    <zone type="main">
+      <line>he pressed my hand feebly and his eyes</line>
+      <line>closed forever while the irradiation of a gentle</line>
+      <line>smile past away from his lips.</line>
+      <milestone unit="tei:p"/>
+      <line><space/>Margaret, what comment can I make on the</line>
+      <line>untimely extinction of this glorious sprit? What</line>
+      <line>can I say that will make you understand</line>
+      <line>the depth of my sorrow? <unclear/> that I should ex</line>
+      <line>press would be inadequate &amp; feeble. My tears</line>
+      <line>flow. My life is overshadowed with a cloud</line>
+      <line>of dis <unclear/> appointment.<space/> But I journey towards</line>
+      <line>England, &amp; I may there find consolation.</line>
+      <milestone unit="tei:p"/>
+      <line><space/> I am interrupted&#x2014; what do these sounds</line>
+      <line>portend ? It is midnight. The breeze blows</line>
+      <line>fairly, &amp; the watch on deck scarcely stir&#x2014;</line>
+      <line>again there is a sound as of a human voice</line>
+      <line>but hoarser&#x2014; it comes from the cabin where the</line>
+      <line>remains of Frankenstein still lie.  I must</line>
+      <line>arise<c/> &amp; examine&#x2014; Good night my sister. &#x2014;</line>
+      <milestone unit="tei:p"/>
+      <line><space/>Great God! What a scene has just taken</line>
+      <line>place- I am yet dizzy with the remem</line>
+      <line>-brance of it. I hardly know whether I</line>
+      <line>shall have the power to detail it; yet the</line>
     </zone>
 </surface>
