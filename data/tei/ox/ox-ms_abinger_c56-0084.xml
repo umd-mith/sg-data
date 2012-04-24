@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0084" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0084" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0084.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>114</line>
+  </zone>
+  <zone type="main">
+    <line>night which I spent <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">cold &amp; wet</add></mod> in the open</line>
+    <line>air. <del rend="strikethrough">cold and wet</del>. But I did not</line>
+    <line>feel the<del rend="cross-hatch">s</del>
+      <mod type="subst"><add place="sublinear">&#x2038;</add><add place="superlinear">incovenience
+          of the weather.</add></mod> my imagination was busy in</line>
+    <line>in <del rend="strikethrough">scene</del> scenes of evil and despair</line>
+    <line>I considered the <mod type="subst"><del rend="double-strike">wh</del>
+        <del rend="strikethrough">wretch</del><add resp="#pbs" place="superlinear">being</add></mod>
+      whom I</line>
+    <line>had cast in among mankind <del rend="strikethrough">for pu</del><add precision="unknown"
+          ><ptr target="#c56-0084.01"/></add></line>
+    <line>purposes of <mod type="subst"><del rend="strikethrough">mischief</del><add resp="#pbs"
+          xml:id="c56-0084.02" next="#c56-0084.03" place="superlinear">horror such as <del
+            rend="strikethrough">this</del> the deed which he had</add></mod> nearly in the
+      light</line>
+    <line><add resp="#pbs" prev="#c56-0084.02" xml:id="c56-0084.03">now done,</add> of my <del
+        rend="double-strike">ow</del> vampire; my own spirit let</line>
+    <line>loose from the grave and forced to</line>
+    <line>destroy all who were dear to me.</line>
+    <milestone unit="tei:p"/>
+    <line>Day dawned and I directed my</line>
+    <line>steps towards the town – the gates were</line>
+    <line>open and I hastened to my father's</line>
+    <line>house<del rend="cross-hatch">s</del>.–My <del rend="double-strike">n</del> first thought
+      was to disco-</line>
+    <line>ver what I knew of the murderer &amp;</line>
+    <line>cause instant <del rend="strikethrough">search</del> pursuit to</line>
+    <line>be made. But I paused when I reflect-</line>
+    <line>ed what the story was that I had</line>
+    <line>to tell. A <mod type="subst"><del rend="strikethrough">creature</del><add resp="#pbs"
+          place="superlinear">being</add></mod> whom I myself</line>
+    <line>had created and endued with life, <add precision="unknown"><ptr target="#c56-0084.04"
+        /></add> The</line>
+    <line><del rend="strikethrough">story</del><add><ptr target="#c56-0084.05"/></add> was utterly
+      improbable and I knew</line>
+    <line>well that if any other had <mod type="subst"><del rend="strikethrough">related</del><add
+          place="superlinear">communicated</add></mod> such</line>
+    <line>a <mod type="subst"><del rend="strikethrough">tale</del><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">relation</add></mod> to me I should have
+      looked</line>
+    <line>upon it as the ravings of delirium</line>
+    <line>Besides the strange nature of the</line>
+    <line>animal would <del rend="strikethrough">elude all the <unclear reason="illegible"
+          unit="chars" extent="2" precision="low">us</unclear></del></line>
+    <line>elude pursuit, even if I were <del rend="strikethrough">believed</del><add
+        place="superlinear">so far</add></line>
+    <line><add><ptr target="#c56-0084.06"/></add><mod type="subst"><del rend="strikethrough">which
+          was utterly impossible</del> – <del rend="strikethrough">the com</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">as to persuade <del
+            rend="strikethrough">its</del>my relatives to commence it</add></mod></line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0084.01" spanTo="#c56-0084.07"/><line>and</line>
+    <line>endowed with</line>
+    <line>the will &amp;</line>
+    <line>the power</line>
+    <line>to effect</line><anchor xml:id="c56-0084.07"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0084.04" spanTo="#c56-0084.08"/>
+    <line>had met</line>
+    <line>me at mid</line>
+    <line>night among</line>
+    <line>the</line>
+    <line>precipices of</line>
+    <line>an inaccessi</line>
+    <line>ble mountain</line>
+    <anchor xml:id="c56-0084.08"/>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0084.05">tale</add></line>
+  </zone>
+
 </surface>
