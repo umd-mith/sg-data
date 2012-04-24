@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0086" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0086" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0086.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>116</line>
+  </zone>
+  <zone type="main">
+    <milestone unit="tei:q" spanTo="#c56-0086.01"/><line>months ago and then you would have <delSpan
+        spanTo="#c56-0086.02"/>been</line>
+    <line>welcomed as you ought<anchor xml:id="c56-0086.02"/><add><ptr target="#c56-0086.03"/></add>
+      – But we are now</line>
+    <line>all of us so unhappy that I am afraid</line>
+    <line>tears instead of smiles <mod type="subst"><del rend="strikethrough">for</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">will be</add></mod> your
+      welcome</line>
+    <line><mod type="subst"><del rend="strikethrough">my</del><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">our</add></mod> father looks so sorrowful and it
+      seems</line>
+    <line>to have revived in his mind his sorrow</line>
+    <line>for the death of Mamma and poor Eliza</line>
+    <line>beth is quite inconsolable.<metamark>"</metamark><anchor xml:id="c56-0086.01"/> Ernest
+      began</line>
+    <line>to weep as he said these words.</line>
+    <!--capture all quotation marks in <metamark> tags-->
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0086.04"/>
+    <line><metamark>"</metamark>Do not <mod type="additions"><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">you<metamark>"</metamark></add></mod> said
+        I,<metamark>"</metamark> welcome me thus; try</line>
+    <line>to be more calm <mod type="deletions"><del rend="strikethrough">and</del>
+        <del rend="strikethrough">not let</del><add place="superlinear">preveng</add>
+        <del rend="strikethrough">my being</del></mod></line>
+    <line><add resp="#pbs"><ptr target="#c56-0086.05"/></add>absolutely miserable the moment I
+      enter</line>
+    <line>my fathers house after so long an absence.</line>
+    <line>But tell me, How <add place="superlinear" resp="#pbs">does</add> my father support<delSpan
+        spanTo="#c56-0086.06"/>s it</line>
+    <line>and if Elizabeth<anchor xml:id="c56-0086.06"/> his <del rend="four-strike">f</del>
+      misfortunes; and how</line>
+    <line>is my poor Elizabeth?<metamark>"</metamark></line><anchor xml:id="c56-0086.04"/>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0086.07"/>
+    <line>She indeed requires consolation,<metamark>"</metamark> replied</line>
+    <line>Ernest" She accused herself of having caused</line>
+    <line>the death of my brother and that made</line>
+    <line>her very, very wretched; but since the</line>
+    <line>murderer has been discovered
+        <metamark>"</metamark><metamark>——————</metamark><metamark>"</metamark></line><anchor
+      xml:id="c56-0086.07"/>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0086.08"/>
+    <line><metamark>"</metamark>The murderer discovered!"<anchor xml:id="c56-0086.08"/> Exclaimed
+      I–</line>
+    <milestone unit="tei:q" spanTo="#c56-0086.09"/>
+    <line><metamark>"</metamark>Good God how can that be? Who could</line>
+    <line>attempt to pursue him? It is im </line>
+    <line>possible, one might as well try to</line>
+    <line>overtake the winds or confine a</line>
+    <line>mountain stream with a straw!<metamark>'</metamark></line>
+    <anchor xml:id="c56-0086.09"/>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0086.10"/>
+    <line><metamark>"</metamark>I do not know what you mean"<anchor xml:id="c56-0086.10"/>
+      replied</line>
+    <line>Ernest, <milestone unit="tei:q" spanTo="#c56-0086.11"/>But we were all very unhappy</line>
+    <line>when she was discovered–No one would</line>
+    <line><del rend="strikethrough">one</del> believe it at first and even now</line>
+    <anchor xml:id="c56-0086.11"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0086.03" spanTo="#c56-0086.12"/>
+    <line>found</line>
+    <line>us all joy</line>
+    <line>ous &amp; de</line>
+    <line>lighted</line>
+    <anchor xml:id="c56-0086.12"/>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0086.05">that I may not be</add></line>
+  </zone>
 </surface>
