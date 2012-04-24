@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0028" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0028" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0028.tif"/>
-    <zone>
-    </zone>
-</surface>
+  <zone>58)</zone>
+  <zone>
+    <milestone unit="tei:q"/>
+    <line><metamark>"</metamark>in her hiding places. They ascend into</line>
+    <line><metamark>"</metamark>the heavens;– they have discoverd how</line>
+    <line><metamark>"</metamark>the blood circulates, and the nature</line>
+    <line><metamark>"</metamark>of the air we breathe. <del resp="mws" rend="strikethrough"
+        >New</del> They have</line>
+    <line><metamark>"</metamark>acquired new and almost unlimi</line>
+    <line>ted powers;– They can command the</line>
+    <line><metamark>"</metamark>thunders of heaven, mimick the</line>
+    <line><metamark>"</metamark>earthquake, and even mock the</line>
+    <line><metamark>"</metamark>invisible world with its own</line>
+    <line><metamark>"</metamark>shadows.<metamark>"</metamark></line>
+    <milestone unit="tei:p"/>
+    <line>I departed highly pleased with</line>
+    <line>the professor and his lecture &amp;</line>
+    <line>paid him a visit the same evening.</line>
+    <line>His manners in private were even</line>
+    <line>more mild <mod type="subst" resp="mws"><add place="sublinear">^</add><add
+          place="superlinear">&amp; attractive</add></mod> than in public. For</line>
+    <line>there was a certain dignity in his</line>
+    <line>manner during his lectures which</line>
+    <line>was replaced by the greatest <del resp="mws" rend="strikethrough">affabity</del></line>
+    <line>affability and kindness in his own</line>
+    <line>house. He heard <mod resp="mws" type="subst"><del rend="strikethrough">by</del><add
+          place="superlinear">my</add></mod> little narration</line>
+    <line>concerning my studies with attention</line>
+    <line>smiled at the names of Cornelius</line>
+    <line>Agrippa and Paracelsus<add place="superlinear" resp="mws"><metamark>✗</metamark></add> but
+      without</line>
+    <line>the contempt that Mr Krempe had</line>
+    <line><del resp="mws" rend="strikethrough">Ex</del> exhibited <mod type="subst" resp="mws"><add
+          place="sublinear">^</add><add place="superlinear">expressed to them</add>. <add
+          resp="pbs mws">
+          <ptr target="#c56-0028.01"/>
+        </add></mod>
+      <del resp="mws" rend="strikethrough">I ended by saying</del> that</line>
+    <line>his lecture had removed my prejudice</line>
+    <line>against modern chemists and I request-</line>
+    <line>ed at the same time his advice</line>
+    <line>concerning the books I ought to procure</line>
+  </zone>
+
+  <zone>
+    <addSpan hand="pbs" xml:id="c56-0028.01" spanTo="#c56-0028.01m"/>
+    <line><addSpan hand="mws" xml:id="c56-0028.02" spanTo="#c56-0028.02m"
+      /><!--second addSpan indicates mws's ink over pbs's pencil--><metamark>^</metamark></line>
+    <line>He said that</line>
+    <line>these were</line>
+    <line>men to whose</line>
+    <line>indefatigable zeal</line>
+    <line>modern <mod type="subst" resp="pbs"><del rend="strikethrough">chem</del><add
+          place="superlinear">natural</add></mod></line>
+    <line>philosophers were</line>
+    <line>indebted for most</line>
+    <line>of the foundations</line>
+    <line>of their knowledge</line>
+    <line><del rend="strikethrough">it is not a meaner</del></line>
+    <line><del rend="strikethrough">task</del><anchor xml:id="c56-0028.02m"/> <addSpan hand="mws" xml:id="c56-0028.03" spanTo="#c56-0028.02m"
+    />They <add place="superlinear">had</add> left
+      to</line>
+    <line>us, as an^easier</line>
+    <line>task to give new</line>
+    <line>names, &amp; arrange</line>
+    <line>in conected classi</line>
+    <line>fications the</line>
+    <line>facts which they</line>
+    <line>to a great degree</line>
+    <line>hade been the</line>
+    <line>instruments of</line>
+    <line>bringing to light.</line>
+    <line>The labours of</line>
+    <line>men of genius</line>
+    <line>however erroneously</line>
+    <line>directed scarce</line>
+    <line>ly ever
+      failed.</line><anchor xml:id="c56-0028.03m"/><!--@xml:id="c56-0028.01m" encoded in ox-ms_abinger_c56-0029.xml--></zone>
+  </surface>
