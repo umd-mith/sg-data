@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0077" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0077" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0077.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>107</line>
+  </zone>
+  <zone type="library">
+    <line>36</line>
+  </zone>
+  <zone type="main">
+    <line>bitterness <milestone spanTo="#c56-0077.01" unit="tei:q"/><metamark>"</metamark>are you
+      always to be unhappy?</line>
+    <line><metamark>"</metamark>my dear friend, what has
+      happened?<metamark>"</metamark></line><anchor xml:id="c56-0077.01"/>
+    <milestone unit="tei:p"/>
+    <line>I motioned to him to <del rend="strikethrough">read</del><add place="superlinear">take
+        up</add> the letter</line>
+    <line>while I walked up &amp; down the room</line>
+    <line>in the most extreme agitation. <mod xml:id="c56-0077.02"
+      next="#c56-0077.03">Clerval</mod></line>
+    <line><mod type="deletions" xml:id="c56-0077.03"
+      prev="#c56-0077.02" next="#c56-0077.04">read the letter – an<del rend="unmarked">d</del> tears also <del rend="strikethrough">gush</del></mod></line>
+    <line>gushed <mod xml:id="c56-0077.04" prev="#c56-0077.03" type="subst"><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">also</add>from <mod type="subst"><del
+            rend="strikethrough">his</del><add place="sublinear">&#x2038;</add><add
+            place="superlinear">the</add></mod> eyes–<add place="superlinear">✗<ptr
+            target="#c56-0077.05"/></add></mod><milestone unit="tei:q" spanTo="#c56-0077.06"
+        /><metamark>"</metamark>I can offer you</line>
+    <line><metamark>"</metamark>no consolation, my friend,<metamark>"</metamark> said he <del
+        rend="strikethrough">my</del></line>
+    <line><metamark>"</metamark>your <mod type="subst"><del rend="strikethrough"
+          >misfortune</del><add place="superlinear">disaster</add></mod> is irreperable.<del
+        rend="strikethrough"><metamark>"</metamark></del> What</line>
+    <line><metamark>"</metamark>do you intend to do<metamark>"</metamark>?</line>
+    <anchor xml:id="c56-0077.06"/>
+    <milestone unit="tei:p"/>
+    <milestone unit="tei:q" spanTo="#c56-0077.07"/>
+    <line><metamark>"</metamark>To go instantly to Geneva<del rend="strikethrough"
+          ><metamark>"</metamark>
+      </del>come</line>
+    <line>with me, Clerval, to order the horses<metamark>"</metamark></line><anchor
+      xml:id="c56-0077.07"/>
+    <milestone unit="tei:p"/>
+    <line>During our walk <del rend="cross-hatch">C</del> Henry endeav-</line>
+    <line>oured to raise my spirits– He did not</line>
+    <line>do this by the common topics of <del rend="strikethrough">conversatio</del></line>
+    <line>consolation but<del rend="cross-hatch">t</del> by shewing the truest</line>
+    <line>sympathy. <milestone unit="tei:q" spanTo="#c56-0077.08"/>"Poor William"<anchor
+        xml:id="c56-0077.08"/> said <milestone unit="tei:q" spanTo="#c56-0077.09"/>"that dear</line>
+    <line><metamark>"</metamark>child he now sleeps with his angel</line>
+    <line><metamark>"</metamark>mother. His friends mourn and weep but</line>
+    <line><metamark>"</metamark>he is at rest he does not now feel the</line>
+    <line><metamark>"</metamark>murderers grasp – a <del rend="strikethrough">green</del> sod covers
+      his</line>
+    <line><metamark>"</metamark>gentle form and he knows no pain–He</line>
+    <line><metamark>"</metamark>can no longer be a subject for pity his</line>
+    <line><metamark>"</metamark>survivors are the greatest sufferers and</line>
+    <line><metamark>"</metamark>for them time is the<del rend="triple-strike-vertical">ir</del> only
+      consolation.</line>
+    <line><metamark>"</metamark>Those maxims of the stoics that death</line>
+    <line><metamark>"</metamark>was no evil and that the mind of man</line>
+    <line><metamark>"</metamark>ought to be superior to <del rend="strikethrough">that</del>
+      despair</line>
+    <line><metamark>"</metamark>on the eternal absence of a beloved</line>
+    <line><metamark>"</metamark>object ought not to be urged – even</line>
+    <line><metamark>"</metamark>Cato wept over the dead body of his</line>
+    <line><metamark>"</metamark>brother.<metamark>"</metamark></line><anchor xml:id="c56-0077.09"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0077.05" spanTo="#c56-0077.10"/>
+    <line><metamark>✗</metamark> of Clerval</line>
+    <line>as he read the</line>
+    <line>account of my</line>
+    <line>misfortune</line><anchor xml:id="c56-0077.10"/>
+  </zone>
 </surface>
