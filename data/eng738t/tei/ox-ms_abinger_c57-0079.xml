@@ -21,10 +21,10 @@
       <line>he not accompany me to England&#x2014;the</line>
       <line>thought was dreadful in itself but</line>
       <line><add><ptr target="c57-0079.03"/></add>soothing inasmuch as my friends would</line>
-      <line><add><ptr target="c57-0079.04"/></add>be in safety.  <add place="superlinear"><metamark>X</metamark></add>The thoughts occurred</line>
-      <line><add><ptr target="c57-0079.05"/></add>rapidly to me &#x0026; I answered my fa</line>
-      <line><add><ptr target="c57-0079.06"/></add>ther with eagerness that I should</line>
-      <line><add><ptr target="c57-0079.07"/></add>be delighted to visit <del rend="strikethrough">Engl</del> England</line>
+      <line>be in safety.  <add place="superlinear"><metamark>X</metamark></add>The thoughts occurred</line>
+      <line>rapidly to me &#x0026; I answered my fa</line>
+      <line>ther with eagerness that I should</line>
+      <line>be delighted to visit <del rend="strikethrough">Engl</del> England</line>
       <line>with Clerval and that <del rend="strikethrough">travel</del> the</line>
       <line>idea of travelling was inchanting to</line>
       <line>me.</line>
@@ -51,12 +51,16 @@
     </zone>
   <zone type="left_margin">
     <line>3<anchor xml:id="c57-0079.01"/></line>
-    <line>X<anchor xml:id="c57-0079.02"/></line>
+  </zone>
+  <zone type="left_margin">  
+    <line><figure><desc>X mark</desc></figure><anchor xml:id="c57-0079.02"/></line>
+  </zone>
+  <zone type="left_margin">
     <line><mod resp="#pbs">the thought of</mod><anchor xml:id="c57-0079.03"/></line>
-    <line><mod resp="#pbs">the possibi<del rend="overwritten">lity</del></mod><add>5</add><anchor xml:id="c57-0079.04"/></line>
-    <line><mod resp="#pbs">of the reverse</mod><anchor xml:id="c57-0079.05"/></line>
-    <line><mod resp="#pbs">must have</mod><anchor xml:id="c57-0079.06"/></line>
-    <line><mod resp="#pbs">been dreadful</mod><anchor xml:id="c57-0079.07"/></line>
+    <line><mod resp="#pbs">the possibi<del rend="overwritten">lity</del></mod><add>5</add></line>
+    <line><mod resp="#pbs">of the reverse</mod></line>
+    <line><mod resp="#pbs">must have</mod></line>
+    <line><mod resp="#pbs">been dreadful</mod></line>
   </zone>
 </surface>
 
