@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0049" ulx="0" uly="0" lrx="5364" lry="7104">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0049" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0049">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0049.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">79 </zone>
+  <zone type="library"> 23</zone>
+  <zone type="main">
+    <line>my view. I did not dare <del rend="strikethrough">to</del> return</line>
+    <line>to the appartment <mod resp="#pbs"><add place="sublinear"><metamark>^</metamark></add>
+        <add place="superlinear">which</add></mod> I inhabited but</line>
+    <line>felt impelled to hurry on although</line>
+    <line>wetted by the <del rend="strikethrough">drizzling</del> rain which pourd</line>
+    <line>from a black and comfortless sky</line>
+    <line>I continued walking in this manner</line>
+    <line>for some time endeavouring by bodily</line>
+    <line>exercise to ease the load that weighed</line>
+    <line>upon my mind. I traversed the streets</line>
+    <line>without any clear conception of where</line>
+    <line>I was or what I was doing: my heart</line>
+    <line>palpitated <mod resp="#pbs" type="subst"><del rend="strikethrough">with</del>
+        <add place="superlinear">in the sickness of fear</add></mod> and I hurried</line>
+    <line>on with irregular steps: not daring</line>
+    <line>to look about me,</line>
+    <milestone unit="tei:q" spanTo="#c56-0049.01"
+        /><!-- using coding recommended in issue #76 but ending with milestone tag rather than anchor --><line><metamark>"</metamark>Like
+      one who on a lonesome road</line>
+    <line><metamark>"</metamark>doth walk in fear and dread</line>
+    <line><metamark>"</metamark>and having once turned round <add place="sublinear"
+          ><metamark>/</metamark>walks on</add></line>
+    <line><metamark>"</metamark><del rend="overwritten">wal</del>And turns no more his head</line>
+    <line><metamark>"</metamark>Because he knows a frightful <add place="sublinear"
+          ><metamark>/</metamark>fiend</add></line>
+    <line><metamark>"</metamark>doth close behind him tread.<metamark>"</metamark>
+      <milestone unit="tei-q" xml:id="c56-0049.01"/>
+      <metamark>*</metamark><add><ptr target="#c56-0049.02"/></add></line>
+    <line>Continuing thus, I came at length</line>
+    <line><mod resp="#pbs" type="subst"><del rend="strikethrough">opposite</del><add
+          place="sublinear">opposite to</add></mod> the Inn at which the dili</line>
+    <line>-gences and carriages usually stopped. Here</line>
+    <line>I paused I knew not why but remained</line>
+    <line>some minutes with my eyes fixed on</line>
+    <line>a coach that was coming toward me</line>
+    <line>from the other end of the street:</line>
+    <line>As <mod type="subst"><del rend="strikethrough">I</del><add place="sublinear"
+            ><metamark>^</metamark></add>
+        <add place="superlinear">it</add></mod> drew nearer I observed that it</line>
+    <line>was the Swiss diligence; it stopped</line>
+    <line>just where I was standing, and on</line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c56-0049.02"/>
+    <line>* Coleridge's</line>
+    <line><metamark>"</metamark>Ancient
+    Mariner.<metamark>"</metamark></line><!-- should this line be considered a marginal addition or a footnote? -->
+  </zone>
 </surface>
