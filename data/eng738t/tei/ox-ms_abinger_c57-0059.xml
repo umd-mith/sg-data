@@ -26,8 +26,13 @@
       <line><del rend="strikethrough">the heavens</del>. The day which was one</line>
       <line>of the first of spring <del rend="strikethrough">and even</del> cheered</line>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <line><add><ptr target="c57-0002.03"/></add>me by the loveliness of its sun<metamark>&#x2038;</metamark><add place="superlinear" resp="#pbs">shine</add> &#x0026;</line>
       <line>the gentleness of the breeze. &#x2014; I felt <del rend="strikethrough">feelings</del></line>
+=======
+      <line><add><ptr target="c57-0002.03"/></add>me by the loveliness of its sun<metamark>‸</metamark><add place="superlinear" resp="#pbs">shine</add> &amp;</line>
+      <line>the gentleness of the breeze. — I felt <del rend="strikethrough">feelings</del></line>
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
 =======
       <line><add><ptr target="c57-0002.03"/></add>me by the loveliness of its sun<metamark>‸</metamark><add place="superlinear" resp="#pbs">shine</add> &amp;</line>
       <line>the gentleness of the breeze. — I felt <del rend="strikethrough">feelings</del></line>
@@ -54,7 +59,11 @@
     <line>occurred from</line>
     <line>which my rage</line>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <line>&#x0026; misery could</line>
+=======
+    <line>&amp; misery could</line>
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
 =======
     <line>&amp; misery could</line>
 >>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
@@ -65,8 +74,12 @@
   <zone type="left_margin"><line>even<anchor xml:id="c57-0002.03"/></line></zone>
   <zone type="left_margin"><line>emotions<anchor xml:id="c57-0002.04"/></line></zone>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </surface>
 
+=======
+</surface>
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
 =======
 </surface>
 >>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa

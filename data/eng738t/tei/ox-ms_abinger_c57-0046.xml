@@ -36,12 +36,21 @@
 <line>remain a few minutes before</line> 
 <line>your fire." "Enter" said De Lacey &amp;</line> 
 <line>I will try in what manner I can re</line> 
+<<<<<<< HEAD
 <line>lieve your wants &#x2014; but unfortunately</line> 
 <line>my children are <mod resp="#pbs"> <del rend="overstrike">out</del><add place="superlinear">from home</add></mod>and <add place="superlinear"><metamark>&#x2038;</metamark>as</add>I am blind</line> 
+=======
+<line>lieve your wants — but unfortunately</line> 
+<line>my children are <mod resp="#pbs"> <del rend="overstrike">out</del><add place="superlinear">from home</add></mod>and <add place="superlinear">as</add>I am blind</line> 
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
 <line>I am afraid <del rend="overstrike">therefore</del>I shall find it</line> 
 <line>difficult to procure food for you"</line>
 </zone> 
 <zone type="left_margin"> 
 <line>exerting<anchor xml:id="c57-0002.01"/></line> 
 </zone> 
+<<<<<<< HEAD
 </surface>
+=======
+</surface>
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa

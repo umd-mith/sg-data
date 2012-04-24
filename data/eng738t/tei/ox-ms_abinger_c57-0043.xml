@@ -7,6 +7,7 @@
       <line>68</line>
     </zone>
 <zone type="main"> 
+<<<<<<< HEAD
 <line> contented &#x0026; happy. <del rend="overstike">Such were</del>their fee</line>  
 <line>lings<mod resp="#pbs"><add place ="superlinear"><metamark>&#x2038;</metamark>were serene &#x0026; peaceful,</add></mod> while <del rend="overstike">I</del>became every day more</line> 
 <line><add><ptr target="c57-0002.01"/></add><del rend="overstrike">unhappy</del><mod resp="#pbs">mine</mod>encrease of knowledge only <del rend="overstrike">shewed</del></line> 
@@ -16,6 +17,17 @@
 <line>flected <del rend="overstrike">by</del><add place="superlinear">in</add> <del rend="ovesrtike">the</del>water or even my shadow</line> 
 <line>in the moonshine &#x2014; I endeavoured to <del rend="overstrike">hush</del></line>   
 <line><add><ptr target="c57-0002.02"/></add>these fears and to fortify myself for the</line>   
+=======
+<line> contented &amp; happy. <del rend="overstike">Such were</del>their fee</line>  
+<line>lings<mod resp="#pbs">were serene &amp; peaceful,</mod> while <del rend="overstike">I</del>became every day more</line> 
+<line><del rend="overstrike">unhappy</del><mod resp="#pbs">mine</mod>encrease of knowledge only <del rend="overstrike">shewed</del></line> 
+<line>me more<del rend="overstike">plainly</del><add place="superlinear">clearly</add> what a wretched outcast</line> 
+<line>I was. I cherished hope it is true but</line>  
+<line>it vanished when I beheld my person re</line> 
+<line>flected <del rend="overstrike">by</del><add place="superlinear">in</add> <del rend="ovesrtike">the</del>water or even my shadow</line> 
+<line>in the moonshine — I endeavoured to <del rend="overstrike">hush</del></line>   
+<line>these fears and to fortify myself for the</line>   
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
 <line>trial which in a few months I resolved</line>   
 <line>to undergo; and sometimes I allowed my</line> 
 <line>thoughts unchecked by reason to ramble</line> 
@@ -45,6 +57,7 @@
   <line>miserable</line> 
   <line>discovered to<anchor xml:id="c57-0002.01"/></line> 
 </zone> 
+<<<<<<< HEAD
  <zone type="left_margin">
   <line>crush<anchor xml:id="c57-0002.02"/></line> 
  </zone> 
@@ -52,3 +65,6 @@
   <line>of cold<anchor xml:id="c57-0002.03"/></line> 
 </zone> 
 </surface>
+=======
+</surface>
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa

@@ -37,9 +37,14 @@
 <line>happiness among its inhabitants<del rend="overstrike">and</del></line> 
 <line><del rend="overstrike">also as I soon perceived more plenty</del></line> 
 <line>and I also found that a greater<del rend="overstrike">g</del>degree</line> 
+<<<<<<< HEAD
   <line>of plenty<del rend="overstrike"> &amp; en</del>reigned there &amp;Felix  </line> 
 <line>and Agatha spent more time</line> 
 <line>in amusement <add place="superlinear"><metamark>&#x2038;</metamark> &#x0026; conversation</add><del rend="overstrike">they</del>and <del rend="overstrike">and</del>were<del rend="overstrike">now also</del></line> 
+=======
+<line>of plenty<del rend="overstrike"> &amp; en</del>reigned there-Felix &amp; </line> 
+<line>and Agatha spent more time</line> 
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
 <line>in amusement <add place="superlinear"> &amp; conversation</add><del rend="overstrike">they</del>and <del rend="overstrike">and</del>were<del rend="overstrike">now also</del></line> 
 <line>assisted in their labours by servants</line> 
 <line>They <del rend="overstrike">were not</del><add place="superlinear">did not appear</add> rich but they were</line>  
@@ -50,6 +55,7 @@
   <line>my admiration of</line> 
   <line>virtues<anchor xml:id="c57-0002.01"/></line> 
 </zone> 
+<<<<<<< HEAD
 <zone type="left_margin">
   <line><figure><desc>PBS doodle or sketch</desc></figure><anchor xml:id="c57-0002.02"/></line>
 </zone> 
@@ -58,3 +64,6 @@
 </zone>
 </surface> 
 
+=======
+</surface>
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa

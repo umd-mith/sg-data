@@ -32,7 +32,11 @@
     <line>the bare trees waved their branches</line> 
     <line>above <add place="superlinear">me</add> and now and then the sweet</line> 
     <line>voice of a bird burst forth anidst</line> 
+<<<<<<< HEAD
     <line>the universal stillness. &#x2014; All <add place="superlinear"><metamark>&#x2038;</metamark>save I</add>were</line> 
+=======
+    <line>the universal stillness. — All <add place="superlinear">save I</add>were</line> 
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
     <line>at rest or in enjoyment <del rend="strikethrough">but I.</del> <del rend="strikethrough"> And</del></line> 
     <line>I like the <add place="superlinear">arch</add> fiend bore <del rend="strikethrough">bo</del> a hell</line> 
     <line>within me and, finding <del rend="strikethrough">the</del> my</line> 
@@ -42,4 +46,8 @@
   <zone type="left_margin">  
     <line>destroying<anchor xml:id="c57-0002.01"/></line>
   </zone>
+<<<<<<< HEAD
 </surface>
+=======
+</surface>
+>>>>>>> 87997420fb09408d0ce3612dbbbe3a20a90323fa
