@@ -26,11 +26,11 @@
     <line>come a partner with him in</line>
     
     <!--create a sequential mod for this bit -->
-    <line>his business, <add><ptr target="#c56-0021.01"/></add> and <delSpan spanTo="#c56-0021.02"/>he said he did not</line>
-    <line>see <add place="sublinear">&#x2038;</add><add place="superlinear">of</add> what use learning
-      <mod><add place="sublinear">&#x2038;</add><del rend="strikethrough"><add place="superlinear"
-            >could be</add></del></mod> to a</line>
-    <line>merchant.<anchor xml:id="c56-0021.02"/> Henry had a refined mind</line>
+    <line>his business, <add><ptr target="#c56-0021.01"/></add> and <mod><mod next="#c56-0021.02"><del rend="strikethrough">he said he did not</del></mod></mod></line>
+    <line><mod><mod xml:id="c56-0021.02" next="#c56-0021.03"><del rend="strikethrough">see</del> <add place="sublinear">&#x2038;</add><add place="superlinear">of</add></mod> <del rend="strikethrough">what use learning was</del>
+      <add place="sublinear">&#x2038;</add><del rend="strikethrough"><add place="superlinear"
+            >could be</add></del> <del rend="strikethrough">to a</del></mod></mod></line>
+    <line>merchant. Henry had a refined mind</line>
     
     <line><del rend="strikethrough">and a</del> he <mod><del rend="strikethrough">did not
           wish</del><add place="superlinear" resp="#pbs">had no desire</add></mod> to be idle</line>
