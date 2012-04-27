@@ -6,13 +6,72 @@
   xml:id="ox-ms_abinger_c56-0061" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0061.tif"/>
   <zone type="pagination" rend="bordered">91</zone>
-  <zone type="main"></zone>
+  <zone type="main">
+   <line>if you were <del rend="strikethrough">a</del> in an ill humour</line>
+    <line>one glance from Justine, could dissi</line>
+    <line>pate it <mod>
+      <del rend="strikethrough">from</del>
+      <add place="superlinear" resp="#pbs">for</add>
+     </mod> the same reason</line>
+    <line>that Ariosto gave concerning the</line>
+    <line>beauty of Angelica:- she looked so</line>
+    <line>frank hearted and happy. My Aunt</line>
+    <line>
+      <!-- Complex, especially the ^ and superlinear addition within a superlinear addition; also the books says that all words except "induced" are pbs -->
+      <mod>
+      <mod next="#c56-0061.01">
+        <del>was very fond of her which <delSpan spanTo="#c56-061.02"/>caused</del>
+        <add place="superlinear" resp="#pbs">concieved an attachment for her, by which she <add place="sublinear"><metamark>&#x2038;</metamark></add>
+          <add place="superlinear" resp="#pbs">was</add></add> <add place="intralinear">induced</add>
+      </mod></mod>
+    </line>
+    <line>
+      <mod>
+        <mod xml:id="c56-0061.01">
+          <del>her to<anchor xml:id="c56-0061.02"/></del>
+          </mod></mod><add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear" resp="#pbs">to</add> give her an<del rend="strikethrough">d</del> education</line>
+    <line>superior to that which she <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">had</add> at</line>
+    <line>first intended. 
+      <mod>
+       <del rend="strikethrough">and she</del>
+        <add place="superlinear" resp="#pbs">This benefit</add>
+      </mod> was fully</line>
+    <line>repaid; <del rend="strikethrough">for</del> Justine was the most</line>
+    <line>grateful little creature in the</line>
+    <line>world. I do not mean that she</line>
+    <line>made any professions-I never</line>
+    <line>heard on pass her lips <del rend="strikethrough">w</del> but</line>
+    <line>you could see by her eye that</line>
+    <line>she almost adored her protectress.</line>
+    <line>Although very gay, and in many respects</line>
+    <line>inconsiderate, yet she paid the greatest</line>
+    <line>attention to every gesture of my Aunt-</line>
+    <line>she though her the
+    <mod>
+      <del rend="strikethrough">miracle</del>
+      <add place="superlinear" resp="#pbs">model</add>
+    </mod> of <add place="intralinear" resp="#pbs">all</add></line>
+    <line><mod>
+      <del rend="strikethrough">perfection</del>
+      <add place="superlinear" resp="#pbs">excellence,</add>
+    </mod> and endeavoured to imi-</line>
+    <line>tate her words and even her man</line>
+    <line>ners, so that <add place="sublinear"><metamark>&#x2038;</metamark></add>
+    <add place="superlinear" resp="#pbs">even</add> now she <del rend="strikethrough">very</del> often <del rend="strikethrough">puts</del></line>
+    <line><add><ptr target="#c56-0061.03"/></add>me <del rend="strikethrough">in mind</del> of her. <delSpan rend="vertical_line" spanTo="c56-0061.04"/>
+      <del rend="strikethrough">You did not</del> observe</line>
+    <line>all this, nor did I at the time but</line>
+    <line>it struck me afterwards when I</line>
+    <line>reflected on the subject.<anchor xml:id="c56-0061"/></line>
+    <milestone unit="tei:p"/><line>When my dearest Aunt died every</line>
+    <line>one was too much occupied in their</line>
+  </zone>
   <zone type="left_margin">
     <line>-tinction<del rend="strikethrough">s</del> between</line>
     <line>the classes into</line>
     <line>which human</line>
-    <line>beings have</line>
-    <line>been divided,</line>
+    <line>beings have</line>04/
     <line>&amp; the lower</line>
     <line>orders being</line>
     <line>neither so poor</line>
@@ -36,5 +95,8 @@
     <line>-fize of the digni</line>
     <line>-ty of a human</line>
     <line>being.<anchor xml:id="c56-0060.05"/></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0061.03"/>reminds</line>
   </zone>
 </surface>
