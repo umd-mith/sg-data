@@ -20,7 +20,7 @@
 <line>yet when I <mod resp="#pbs"> <del rend="overstrike">rose</del><add place="superlinear">proceeded</add></mod>to execute my plan</line> 
 <line>my limbs failed me, and I sunk</line> 
 <line>to the ground. Again I rose and</line> 
-<line><del rend="overstrike">with which</del>all of the firmness<add place="superlinear">of which</add>I</line> 
+<line><add><ptr target="c57-0002.01"/></add><del rend="overstrike">with which</del>all of the firmness<add place="superlinear"><metamark>&#x2038;</metamark>of which</add>I</line> 
 <line>was master <del rend="overstrike">of</del>removed the planks</line> 
 <line>which I had placed before my</line> 
  <line>hovel to conceal my retreat — The</line> 
@@ -36,12 +36,12 @@
 <line>remain a few minutes before</line> 
 <line>your fire." "Enter" said De Lacey &amp;</line> 
 <line>I will try in what manner I can re</line> 
-<line>lieve your wants — but unfortunately</line> 
-<line>my children are <mod resp="#pbs"> <del rend="overstrike">out</del><add place="superlinear">from home</add></mod>and <add place="superlinear">as</add>I am blind</line> 
+<line>lieve your wants &#x2014; but unfortunately</line> 
+<line>my children are <mod resp="#pbs"> <del rend="overstrike">out</del><add place="superlinear">from home</add></mod>and <add place="superlinear"><metamark>&#x2038;</metamark>as</add>I am blind</line> 
 <line>I am afraid <del rend="overstrike">therefore</del>I shall find it</line> 
 <line>difficult to procure food for you"</line>
 </zone> 
 <zone type="left_margin"> 
-<line>exerting</line> 
+<line>exerting<anchor xml:id="c57-0002.01"/></line> 
 </zone> 
 </surface>

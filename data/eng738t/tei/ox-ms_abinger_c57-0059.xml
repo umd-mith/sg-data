@@ -25,8 +25,8 @@
       <line><add><ptr target="c57-0002.02"/></add>after the sun had risen <del rend="strikethrough">high in</del></line>
       <line><del rend="strikethrough">the heavens</del>. The day which was one</line>
       <line>of the first of spring <del rend="strikethrough">and even</del> cheered</line>
-      <line><add><ptr target="c57-0002.03"/></add>me by the loveliness of its sun<metamark>‸</metamark><add place="superlinear" resp="#pbs">shine</add> &amp;</line>
-      <line>the gentleness of the breeze. — I felt <del rend="strikethrough">feelings</del></line>
+      <line><add><ptr target="c57-0002.03"/></add>me by the loveliness of its sun<metamark>&#x2038;</metamark><add place="superlinear" resp="#pbs">shine</add> &#x0026;</line>
+      <line>the gentleness of the breeze. &#x2014; I felt <del rend="strikethrough">feelings</del></line>
       <line><add><ptr target="c57-0002.04"/></add>of softness and pleasure that had</line>
       <line>long appeared dead, revive within me;</line>
       <line>half surprized with these new sensa</line>
@@ -48,7 +48,7 @@
     <line>No incident</line>
     <line>occurred from</line>
     <line>which my rage</line>
-    <line>&amp; misery could</line>
+    <line>&#x0026; misery could</line>
     <line>not extract its</line>
     <line>food.<anchor xml:id="c57-0002.01"/></line>
   </zone>

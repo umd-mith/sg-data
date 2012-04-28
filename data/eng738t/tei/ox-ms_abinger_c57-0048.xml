@@ -7,7 +7,7 @@
       <line>73</line>
     </zone> 
   <zone type="main"> 
-    <line>They are kind — I answered — They are the most</line> 
+    <line>They are kind &#x2014; I answered &#x2014; They are the most</line> 
     <line><add place="superlinear">excellent</add><del rend="strikethrough">amiable</del>creatures in the world but unfortu</line> 
     <line>nately they are prejudiced against me. I </line> 
     <line>have good dispositions — I love virtue and</line> 
@@ -20,18 +20,18 @@
     <line>That is indeed unfortunate, replied</line> 
     <line>De Lacey — but if you are really blameless can</line> 
     <line>not you undeceive them?<milestone unit="paragraph"/></line> 
-    <line><del rend="strikethrough">This is</del><del rend="strikethrough">That is</del><add place="superlinear">the task</add><del rend="strikethrough">the task</del><add place="superlinear">that</add><del rend="strikethrough">that</del><del rend="strikethrough">what</del>I<del rend="strikethrough">am</del><add place="superlinear">shall</add><del rend="strikethrough">shall</del><add place="superlinear">am about</add><del rend="strikethrough">goin</del></line> 
-    <line><add><ptr target="c57-0002.01"/></add><del rend="strikethrough">endeavouring</del><add place="superlinear">that task</add> — <del rend="strikethrough">said I</del>"And it is on that</line> 
+    <line><del rend="strikethrough">This is</del><del rend="strikethrough">That is</del><add place="superlinear">the task</add><del rend="strikethrough">the task</del><add place="superlinear">that</add><del rend="strikethrough">that</del><del rend="strikethrough">what</del>I<del rend="strikethrough">am</del><add place="superlinear">shall</add><del rend="strikethrough">shall</del><add place="superlinear"><metamark>&#x2038;</metamark>am about</add><del rend="strikethrough">goin</del></line> 
+    <line><add><ptr target="c57-0002.01"/></add><del rend="strikethrough">endeavouring</del><add place="superlinear">that task</add> &#x2014; <del rend="strikethrough">said I</del>"And it is on that</line> 
     <line>account that I feel so many overwhelming</line> 
-    <line>terrors —I love these friends tenderly;<del rend="strikethrough">for many</del></line> 
-    <line><del rend="strikethrough">months</del> I have <add place="superlinear">for many months</add><del rend="strikethrough">for many months</del>unknown to them been</line> 
+    <line>terrors &#x2014;I love these friends tenderly;<del rend="strikethrough">for many</del></line> 
+    <line><del rend="strikethrough">months</del> I have <add place="superlinear"><metamark>&#x2038;</metamark>for many months</add><del rend="strikethrough">for many months</del>unknown to them been</line> 
     <line><add><ptr target="c57-0002.02"/></add>in the habits of daily kindness towards them,</line> 
     <line>but they believe that I wish to injure</line> 
     <line>them  and it is that prejudice which</line> 
     <line>I wish to over come. <milestone unit="paragraph"/> </line> 
     <line>Where do these friends reside, said de</line> 
-    <line>Lacey — <del rend="strikethrough">N</del><milestone unit="paragraph"/></line> 
-    <line>Near here. <mod resp="#pbs"> <add place="superlinear">on</add></mod> <add place="superlinear">this spot.</add> <del rend="strikethrough">I replied</del> [ The old man</line> 
+    <line>Lacey &#x2014; <del rend="strikethrough">N</del><milestone unit="paragraph"/></line> 
+    <line>Near here. <mod resp="#pbs"> <add place="superlinear">on</add></mod> <add place="superlinear"><metamark>&#x2038;</metamark>this spot.</add> <del rend="strikethrough">I replied</del> &#x005B; The old man</line> 
     <line>paused a moment  and then continued</line> 
     <line>If you will unreservedly confide to me</line> 
     <line>the particulars  I perhaps may be of use</line> 

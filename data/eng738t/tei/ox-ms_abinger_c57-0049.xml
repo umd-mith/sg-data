@@ -9,16 +9,16 @@
   <zone type="main"> 
     <line>I am poor and an exile, but it </line> 
     <line>will afford me true pleasure to <del rend="strikethrough">of</del> be</line> 
-    <line>erviceable to a <del rend="strikethrough">fellow</del> <mod resp="#pbs"><add place="superlinear">human</add></mod>creature. — <milestone unit="paragraph"/></line> 
-    <line>Excellent man — exclaimed I, I</line> 
-    <line>thank you and accept your <add place="superlinear">generous</add> offer</line> 
-    <line>trust <del rend="strikethrough">now</del> that I shall not be driven</line> 
-    <line>from the society &amp; sympathy of my</line> 
+    <line><add><ptr target="c57-0002.01"/></add>serviceable to a <del rend="strikethrough">fellow</del> <mod resp="#pbs"><add place="superlinear">human</add></mod>creature. &#x2014; <milestone unit="paragraph"/></line> 
+    <line>Excellent man &#x2014; exclaimed I, I</line> 
+    <line>thank you and accept your <add place="superlinear"><metamark>&#x2038;</metamark>generous</add> offer</line> 
+    <line><add><ptr target="c57-0002.02"/></add>I trust <del rend="strikethrough">now</del> that I shall not be driven</line> 
+    <line>from the society &#x0026; sympathy of my</line> 
     <line>fellow creatures <milestone unit="paragraph"/> </line> 
     <line>Heaven forbid! even if you <del rend="strikethrough">are</del><add place="superlinear">were</add>really</line> 
     <line>criminal for that <add place="superlinear">not in</add><del rend="strikethrough">not in</del> can only drive you</line> 
-    <line>to desperation and not <add place="superlinear">instigate</add><del rend="strikethrough">reform</del><add place="superlinear">to virtue</add>you —</line> 
-    <line>I also am unfortunate.— I {?} and my</line> 
+    <line>to desperation and not <add place="superlinear"><metamark>&#x2038;</metamark>instigate</add><del rend="strikethrough">reform</del><add place="superlinear"><metamark>&#x2038;</metamark>to virtue</add>you &#x2014;</line> 
+    <line>I also am unfortunate.&#x2014; I and my</line> 
     <line>family have been condemned <del rend="strikethrough">when</del> </line> 
     <line>although innocent judge therefore</line> 
     <line>if I do not <del rend="strikethrough">sympath</del> feel for your</line> 
@@ -33,18 +33,23 @@
     <line>point of meeting <milestone unit="paragraph"/> </line> 
     <line>May I know the names <del rend="strikethrough">of</del> and residence</line> 
     <line>of those friends? asked De Lacey. <milestone unit="paragraph"/> </line> 
-    <line> I paused — This was the moment</line> 
-    <line>of decision which was to rob me <add place="superlinear"> of</add> or</line> 
-    <line>bestow happiness <add place="superlinear">on me</add> for ever — I {?sum}</line>  
+    <line>I paused &#x2014; This was the moment</line> 
+    <line>of decision which was to rob me <add place ="superlinear"> of</add> or</line> 
+    <line>bestow happiness <add place="superlinear"><metamark>&#x2038;</metamark>on me</add> for ever &#x2014; I {?sum}</line>  
     <line>I struggled vainly <del rend="strikethrough">to find</del> for firmness</line> 
-    <line><del rend="strikethrough">enough</del> to answer him — <del rend="strikethrough">but</del>the effort</line> 
+    <line><add><ptr target="c57-0002.03"/></add><del rend="strikethrough">enough</del> to answer him &#x2014; <del rend="strikethrough">but</del>the effort</line> 
     <line>destroyed all my remaining stren <del rend="strikethrough">t</del>gth</line> 
-    <line>sank on <del rend="strikethrough">the</del> a chair &amp; sobbed aloud</line> 
+    <line>I sank on <del rend="strikethrough">the</del> a chair &#x0026; sobbed aloud</line> 
     </zone> 
   <zone type="left_margin"> 
-    <line>in any way s</line> 
+    <line>in any way <anchor xml:id="c57-0002.01"/></line>  
+  </zone> 
+<zone type ="left_margin">
     <line>you raise me</line> 
-    <line>by this [illegible word]</line> 
-    <line>sufficient</line>
+    <line>from the dust</line>
+    <line>by this kindess and<anchor xml:id="c57-0002.02"/></line> 
+</zone>  
+  <zone type= "left_margin">
+    <line>sufficient<anchor xml:id="c57-0002.03"/></line>
   </zone>
 </surface>
