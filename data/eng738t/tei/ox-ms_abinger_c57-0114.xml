@@ -1,8 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0114" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0114" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0114.tif"/>
-    <zone>
+    <zone type="pagination">130)</zone>
+    <zone type="main">
+<line>appearance but as I approached nearer I</line>
+
+<line>easily perceived the traces of cultivation –I saw</line>
+
+<line>vessels near the shore &amp; found myself sud-</line>
+
+<line>denly transported back to the neighborhood</line>
+                                   
+<line>of civilized man – I eagerly <mod type="subst"><del rend="strikethrough">viewed</del><add place="superlinear">traced</add></mod> the windings</line>
+
+<line>of the <mod type="subst"><del rend="strikethrough">shore</del><add place="superlinear">land</add></mod> &amp; hailed a steeple which <mod type="deletions"><delSpan  spanTo="#a01" rend="strikethrough" />after</mod></line>
+
+<line>sailing<anchor xml:id="a01"/> I at length saw issueing from <mod type="deletions"><del rend="strikethrough">an</del></mod> behind</line>
+                                  
+<line>a small promontory – As I was <del rend="strikethrough">fainting</del> in</line>
+
+<line>a st<del rend="strikethrough">r</del>ate of extreme debility from fasting</line>
+
+<line>I resolved to go directly towards the town</line>
+
+<line>as a place where could most easily pro</line>
+
+<line>cure <del rend="strikethrough">f</del> nourishment– Fortunately I <mod type="subst"><del rend="overwritten"><unclear/></del><add place="intralinear">h</add></mod>ad</line>
+
+<line>money with me.</line>
+<milestone unit="tei:p"/>
+
+<line><space/>As I turned the promontory I discovered</line>
+
+<line>a small neat town – <mod type="deletions"><del rend="strikethrough">a</del></mod> and a good harbour</line>
+
+<line>which I entered, my heart bounding with</line>
+
+<line>joy at my unexpected escape. [As I <mod type="deletions"><del rend="strikethrough">fi</del></mod> was</line>
+
+<line>occupied in fixing the boat and ar arranging</line>
+
+<line>the sails several people crowded towards </line>
+
+<line>the spot – They appeared very much much</line>
+
+<line>surprised at my appearance <mod type="subst"><del rend="strikethrough">and</del> <add place="intralinear">but</add></mod></line>
+
+<line>instead of offering me any assistance</line>
+
+<line>whispered together <mod type="subst"><del rend="strikethrough">in</del> <add place="intralinear">with</add></mod> gestures that</line>
+
+<line>at any other time might have produced</line>
+
+<line>in me a slight sensation of alarm –as it</line>
+
+<line>was I merely remarked th that it was</line>
+
+<line>English, that they spoke and therefore</line>
+
+<line>addressed them; My Good Friends, said I, Will you</line>
+
+<line>be<del rend="strikethrough">so</del> so kind as to tell me what the name</line>
+
+<line>of this <mod type="subst"><del rend="strikethrough">place</del><add place="superlinear">town</add></mod> is; &amp; where I am.</line>
+
+<milestone unit="tei:p"/>
+
+<line><space/> You will know that soon enough, re-</line>
+
+<line>plied a<del rend="strikethrough">n</del> man with a gruff voice; May be</line>
+
+<line>you are come to a place that will</line>
+
+<line>not prove much to your taste – But</line>
+
     </zone>
 </surface>
