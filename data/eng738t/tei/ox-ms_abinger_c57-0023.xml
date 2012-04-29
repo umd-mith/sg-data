@@ -6,9 +6,41 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0023"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+  ulx="0" uly="0" lrx="5368" lry="7104"
+  partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0023.tif"/>
-    <zone>
-    </zone>
+      <zone type="pagination" rend="bordered">57</zone>
+      <zone type="main">
+          <line><del rend="overstrike">It</del> Some time elapsed before I learned the</line>
+          <line>history of my friends. It was one that could not fail</line>
+          <line>to impress itself on my mind unfolding as it did</line>
+          <line>a number of circumstances each interresting</line>
+          <line>&#x0026; wonderful to one so utterly inexperienced as</line>
+          <line>I was.<milestone unit="paragraph"/></line>
+          <line>The name of the old man was De Lacey,<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">he was</add> descended</line>
+          <line>of a good family in France and had but recently</line>
+          <line>left his country when he been deprived of</line>
+        <line>a competent fortune which he<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">had</add> before enjoyed</line>
+          <line><del rend="overstrike">They had</del>But a few months before my arrival<metamark>^</metamark><add place="superlinear">they had</add> </line>
+          <line>resided in a large &#x0026; luxurious city called Paris</line>
+          <line>surrounded by friends &#x0026; possessed of every comfort</line>
+          <line>that could add to their happiness.  The father</line>
+          <line>of the Arabian had been the cause of their</line>
+          <line>misfortunes.  He had been unjustly imprisoned</line>
+          <line>and sentenced to die. The cause I understood was</line>
+          <line>very flagrant and it was visible to every impartial</line>
+        <line>spectator that he had been <add place="superlinear">rather</add>condemned<delSpan spanTo="abc"/>more</line>
+        <line>on account of<anchor xml:id="abc"/><add place="superlinear">for</add>his religion &#x0026; wealth than for</line>
+          <line>the crime of which he was accused.  All the</line>
+          <line>spectators of the trial were shocked at the</line>
+          <line>injustice<del rend="overstrike">th</del> of the court but the indignation</line>
+          <line>of Felix was uncontrolable.  He made a solemn </line>	
+          <line>vow to deliver him &#x0026; then looked around for the</line>
+          <line>means.  After many fruitless attempts to gain</line>
+        <line>admittance into the prison &#x2014; he found a strongly</line>
+          <line>grated window in an unguarded part of the</line>
+          <line>prison which lighted the dungeon of the</line>
+          <line>unfortunate Mahometan who loaded with</line>
+      </zone>
 </surface>
 

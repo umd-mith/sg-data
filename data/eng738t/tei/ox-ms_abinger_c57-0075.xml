@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0075"
-  ulx="0" uly="0" lrx="7230" lry="5034">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0075" ulx="0" uly="0" lrx="7230" lry="5034">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0075.tif"/>
-    <zone>
+    <zone type="top"><line>also 1</line>
     </zone>
+  <zone type="left_margin">
+    <line>my repugnance)</line>
+  </zone>
+  <zone type="main">
+    <line>I found that I was unable to compose</line>
+    <line>a female without <del rend="strikethrough">fresh</del> again devoting <metamark>‸</metamark><add place="superlinear">several&gt;</add> months</line>
+    <line>to study &amp; laborious disquisition. I had heard <del rend="strikethrough">also</del></line>
+    <line>of some discoveries having been made by</line>
+    <line>an English philosopher the knowledge of which</line>
+    <line>was material <del rend="strikethrough">w</del> my <metamark>‸</metamark><add place="superlinear">success</add> <del rend="strikethrough">work</del> <metamark>‸</metamark><add place="superlinear">and</add> <del rend="strikethrough">I thought of writing</del></line>
+    <line><del rend="strikethrough">some</del>times <metamark>‸</metamark><add place="superlinear">thought</add> of obtainting my fathers consent</line>
+    <line>to visit England for this purpose but</line>
+    <line>I clung to <del rend="strikethrough">this</del><add place="superlinear"><mod resp="#pbs">every</mod></add>pretence of delay &amp; could</line>
+    <line>I clung to <del rend="strikethrough">this</del><add place="superlinear"><mod resp="#pbs">every</mod></add>pretence of delay &amp; could</line>
+    <line>not resolve to interrupt my return</line>
+    <line>ing tranquility</line>
+  </zone>
 </surface>
-
