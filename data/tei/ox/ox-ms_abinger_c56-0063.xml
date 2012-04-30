@@ -34,7 +34,7 @@
     <milestone unit="tei:p"/><line><del rend="strikethrough">And</del> I must say a few words
       to</line>
     <line>you also, My dear Victor, of little darling</line>
-    <line>william. I wish you could see him. He</line>
+    <line>William. I wish you could see him. He</line>
     <line>is very tall of his age with sweet laughing</line>
     <line>blue eyes <del rend="strikethrough">and</del> dark eyelashes and curling</line>
     <line>hair When he smiles two little dimples</line>
@@ -43,7 +43,7 @@
     <line>a beautiful oval <del rend="strikethrough">a</del> After this descrip</line>
     <line>tion I can only say what our visitors</line>
     <line>say a thousand times a day-'He is too</line>
-    <line>pretty for a boy'.<add place="superlinear"><metamark>X</metamark></add></line>
+    <line>pretty for a boy'.<add place="superlinear"><metamark>X</metamark></add></line><add><ptr target="#c56-0063.03"/></add>
     <milestone unit="tei:p"/><line><del rend="strikethrough">Miss Mansfeld</del> Now, dear Victor I
       dare</line>
   </zone>
@@ -51,17 +51,15 @@
     <line><add xml:id="c56-0063.02" resp="#pbs"/>her</line>
   </zone>
   <zone type="left_margin">
-    <add><ptr target="#c56-0063.03"/></add>
     <line><add xml:id="c56-0063.03"/>He has already</line>
     <line>had one or two</line>
     <line>little <hi rend="underline">wives</hi></line>
     <line>but Louisa</line>
-    <line><del rend="strikethrough">M</del> <del rend="strikethrough"><unclear unit="chars" extent="4"/> Biron</del></line>
+    <line><del rend="strikethrough">M</del> <del rend="strikethrough"><unclear unit="chars" extent="4"/></del> Biron</line>
     <line><add place="intralinear" resp="#pbs">is</add> his favourite-</line>
     <line>a pretty little</line>
     <line>girl of five years old <del rend="strikethrough">to</del></line>
     <!-- Here there is a line to differentiate between left margin zone and 
       main zone since the "years old to" crosses into the main zone -->
    </zone>
-
 </surface>
