@@ -47,7 +47,7 @@
     <line>Although very gay, and in many respects</line>
     <line>inconsiderate, yet she paid the greatest</line>
     <line>attention to every gesture of my Aunt-</line>
-    <line>she though her the
+    <line>she thought her the
     <mod>
       <del rend="strikethrough">miracle</del>
       <add place="superlinear" resp="#pbs">model</add>
@@ -72,7 +72,8 @@
     <line>-tinction<del rend="strikethrough">s</del> between</line>
     <line>the classes into</line>
     <line>which human</line>
-    <line>beings have</line>04/
+    <line>beings have</line>
+    <line>been divided,</line>
     <line>&amp; the lower</line>
     <line>orders being</line>
     <line>neither so poor</line>
@@ -98,6 +99,6 @@
     <line>being.<anchor xml:id="c56-0060.05"/></line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0061.03"/>reminds</line>
+    <line><add xml:id="c56-0061.03" resp="#pbs"/>reminds</line>
   </zone>
 </surface>
