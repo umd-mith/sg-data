@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0009" ulx="0" uly="0" lrx="5410" lry="6660">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0009" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0009.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>111</line>
+  </zone>
+  <zone type="library">
+    <line>5</line>
+  </zone>
+  <zone type="main">
+    <line>one side ofthe lake where we saw Mont Salêve,</line>
+    <line>the pleasant banks of Montalêgre and at a dis</line>
+    <line>tance surmounting all the beautiful Mont</line>
+    <line>Blânc and the assemblage of snowy mountains</line>
+    <line>that <mod type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear"
+          >in vain</add><!--unknown attribution of hand of intervention--></mod> endeavour <del
+        rend="strikethrough">in re</del> to emulate her; sometimes</line>
+    <line>coasting the opposite banks we saw the might Jura</line>
+    <line>opposing its darker side to the ambition that would</line>
+    <line>quit its native country and an almost insurmount</line>
+    <line>able barrier to the invade who should wish to</line>
+    <line>enslave it.</line>
+    <milestone unit="tei:p"/>
+    <line>I took the hand of Elizabeth, "You are sorrow</line>
+    <line>ful, my love. ah! if you knew what I have suffered</line>
+    <line>and what I may yet endure you would endeavour</line>
+    <line>to let me taste the quiet, and freedom from despair</line>
+  </zone>
 </surface>
