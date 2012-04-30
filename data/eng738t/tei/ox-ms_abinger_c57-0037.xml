@@ -1,15 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface 
-  xmlns="http://www.tei-c.org/ns/1.0" 
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0037" 
-  ulx="0" uly="0" lrx="5368" lry="7104"
-  partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0037" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0037.tif"/>
-  <zone type="main">
-  </zone>
+    <zone type="pagination" rend="bordered"><unclear>62</unclear></zone>
+    <zone type="main">
+    <line><del rend="overstrike">having overcome many difficulties succeeded</del></line>
+    <line><del rend="overstrike">at length in joining her lover in his retreat</del><milestone unit="paragraph"/></line>
+    <line>Such was the history of my beloved cotta</line>
+    <line>gers. It <del rend="overstrike">struck</del> <metamark>‸</metamark> <add place="superlinear">impressed</add> me deeply, <metamark>‸</metamark><del rend="overstrike">and</del> <add place="superlinear"><del rend="overstrike">?prom it fr</del></add> I learned <metamark>‸</metamark> from it to admire</line>
+      <line>their virtues <metamark>‸</metamark> to deprecate the vices of mankind.</line>
+    <line><add><ptr target="c57-0037.01"/></add><del rend="overstrike">But crimes were distant But</del> As yet I looked</line> 
+    <line>upon crime as a distant evil; <del rend="overstrike">but</del> <add place="superlinear"><del rend="overstrike">for</del></add> bene</line>
+      <line>volence &amp; generosity were ever present</line>
+    <line>before me — and <metamark>‸</metamark> I <del rend="overstrike">longed</del> <add place="superlinear"><del rend="overstrike">ardently desired</del></add> <del rend="overstrike">to make one</del> <metamark>‸</metamark> <add place="superlinear">inciting in me to desire to become an actor</add> in the</line>
+    <line>busy scene where so many admirable</line> 
+    <line>qualities were called forth and displayed.</line> 
+    <line><add><ptr target="c57-0037.02"/></add>But <del rend="overstrike">I</del> in giving <del rend="overstrike">the histor</del> an account</line>
+    <line>of the progress of my intellects, I must not</line>
+    <line>omit a circumstance <del rend="overstrike">that took</del> <add place="superlinear">which occurred</add></line>
+    <line><del rend="overstrike">place</del> in the beginning of the month</line>
+    <line>of August of <del rend="overstrike">that</del> <add place="superlinear">the same</add> year.<milestone unit="paragraph"/></line> 
+    <line><add><ptr target="c57-0037.03"/></add>One night during my accustomed</line>
+    <line>visit to the neighbouring wood where</line>
+    <line>I collected my own food and brought</line>
+    <line>home firing for <del rend="overstrike">p</del> my protectors, I found</line>
+    <line>on the ground a leathern portmanteau</line>
+      <line>containing several articles of dress &amp; some</line> 
+      <line>books. I <del rend="overstrike">se</del> eagerly seized the prize &amp;</line>
+    <line>returned with it to my hovel. The books</line>
+    <line>were fortunately written in the language</line>
+    <line><add><ptr target="c57-0037.04"/></add>I had learned at the cottage; they consisted</line>
+    <line>of "Paradise Lost" — a volume of Plutarchs</line>
+    <line>lives and the Sorrows of Werter — <del rend="overstrike">And these</del></line> 
+    <line><add><ptr target="c57-0037.05"/></add><del rend="overstrike">I</del> <add place="superlinear"><del rend="overstrike">was</del></add> <del rend="overstrike">delighted</del> <add place="superlinear"><del rend="overstrike">to</del> the</add> <del rend="overstrike">in</del> possession<del rend="overstrike">g</del> <add place="superlinear">of</add> these treasures</line>
+    <line><del rend="overstrike">which</del> X I could <del rend="overstrike">now</del> continually study</line>
+    <line>and <metamark>‸</metamark> <del rend="overstrike">occupy</del> <add place="superlinear">exercise</add> my mind upon <add place="superlinear">these histories</add> when my</line> 
+    <line>friends were employed in their ordinary</line> 
+    <line><del rend="overstrike">concerns</del> <add place="superlinear">occupations</add>. I can hardly describe to you the</line> 
+</zone>
+<zone type="left_margin">
+    <line>the views<anchor xml:id="c57-0037.01"/></line>
+    <line>of social</line>
+    <line>life which</line>
+    <line>it developed</line>
+</zone>
+<zone type="left_margin">
+    <line>MATH<anchor xml:id="c57-0037.02"/></line>
+</zone>
+<zone type="left_margin">
+    <line>MATH2<anchor xml:id="c57-0037.03"/></line>
+</zone>
+<zone type="left_margin">
+    <line>the elements<anchor xml:id="c57-0037.04"/></line>
+    <line>of which</line>
+</zone>
+<zone type="left_margin">
+    <line>gave me<anchor xml:id="c57-0037.05"/></line>
+    <line><del rend="overstrike">infinite</del> <add place="superlinear">extreme</add></line>
+    <line>delight</line>
+</zone>
 </surface>
-

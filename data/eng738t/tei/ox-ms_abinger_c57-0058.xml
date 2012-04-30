@@ -1,14 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0058"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0058" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0058.tif"/>
-    <zone>
+  <zone type="pagination" rend="bordered">83</zone>
+  <zone type="main">
+    <line>But how was I to direct myself ?—<metamark>‸</metamark><add place="superlinear">I knew that</add> I must travel</line>
+    <line><add><ptr target="#c57-0058.01"/></add>South wester<add place="intralinear" resp="#pbs">ly</add><add place="superlinear" resp="#pbs">direction</add> <del rend="strikethrough">I knew</del> to reach my destination but</line>
+    <line><del rend="strikethrough">in this</del> the sun was my only guide — I did not</line>
+    <line>know the names of the towns I was to pass</line>
+    <line>through, nor could I ask information from</line>
+    <line>a single human being — But I did not despair</line>
+    <line>From you only could I hope for succour</line>
+    <line>although towards you I felt <del rend="strikethrough">only the</del><add place="superlinear" resp="#pbs">no</add> senti</line>
+    <line>ment<add place="superlinear" resp="#pbs">that that of hate</add><del rend="strikethrough">s of detestation</del> — Unfeeling heartless</line>
+    <line>creator! You had endowed me with percep</line>
+    <line>tions and passions and then cast me</line>
+    <line>abroard for the scorn &amp; horror of man</line>
+    <line>kind — <del rend="strikethrough">On</del> But on you only had I any</line>
+    <line>claim &amp; from you I determined <add place="superlinear">to seek</add><del rend="strikethrough">to</del> that</line>
+    <line>justice <del rend="strikethrough">&amp; for</del> which I <del rend="strikethrough">w</del> vainly attempted</line>
+    <line><add><ptr target="#c57-0058.02"/></add>to gain from <del rend="strikethrough">your fellow creatures</del>.<milestone unit="paragraph"/></line>
+    <line>My travels were long and <del rend="strikethrough">the</del> the</line>
+    <line><del rend="strikethrough">suff</del> suffering<add place="intralinear" resp="#pbs">s</add> I endured intense —It was</line>
+    <line>late in autumn when I quitted the</line>
+    <line>district where I had so long resided — <del rend="strikethrough">Months</del></line>
+    <line><del rend="strikethrough">passed and I knew not how near I</del> I tra</line>
+    <line>velled only at night, fearful of meeting</line>
+    <line>the visage of a human being.—Nature</line>
+    <line>decayed around me and the sun became</line>
+    <line>co heatless,—rain <add place="superlinear" resp="#pbs">&amp; snow</add> poured around me and I</line>
+    <line>found no shelter — Oh Earth how often</line>
+    <line>did I imprecate curses on the cause of</line>
+    <line>my being— The mildness of <del rend="strikethrough">the</del> my nature</line>
+    <line>had fled &amp; all within me was turned to gall</line>
+    <line>&amp; bitterness — <del rend="strikethrough">I hated De Lacey and his family</del></line>
+    <line><del rend="strikethrough">and</del> the nearer I approached to your habi</line>
+    <line>tation the more deeply did I feel the spirit</line>
+    <line>of revenge <del rend="strikethrough">imprint itself on</del><add place="sublinear" resp="#pbs">become kindled in</add> my heart—</line>
     </zone>
+  <zone type="left_margin"><line><mod resp="#pbs">in a</mod><anchor xml:id="c57-0058.01"/></line></zone>
+  <zone type="left_margin">
+    <line><mod resp="#pbs">any other being</mod></line>
+    <line><mod resp="#pbs">that wore the human</mod></line>
+    <line><mod resp="#pbs">form</mod><anchor xml:id="c57-0058.02"/></line>
+  </zone>
 </surface>
-
