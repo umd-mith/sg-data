@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0054" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+  <graphic url="../../images/ox/ox-ms_abinger_c57-0054.tif"/>
+  <zone type="pagination" rend="bordered">79</zone>
+    <zone type="top">Chapter 8</zone>
+    <zone type="main">
+      <line>When my hunger was appeased I directed</line>
+      <line>my steps towards the well known path</line>
+      <line><add><ptr target="#c57-0054.01"/></add>that conducted to the cottage — All there,</line>
+      <line>was at peace — <del rend="strikethrough">I</del> I crept into my hovel</line>
+      <line>and remained in silent expectation of</line>
+      <line>the accustomed hour when the family</line>
+      <line>arose. That <add place="superlinear"><mod resp="#pbs">hour <unclear reason="deletion"><del rend="strikethrough">a</del></unclear></mod></add> past, and the sun mounted</line>
+      <line>high in the heavens but the cottagers</line>
+      <line>did not appear — I trembled violently,</line>
+      <line>apprehending some dreadful misfortune.</line>
+      <line>The inside of the cottage was dark &amp; I</line>
+      <line>heard no motion. I cannot describe the</line>
+      <line>agony I felt during this suspense.<milestone unit="paragraph"/></line>
+      <line>Presently two countrymen past by</line>
+      <line>but pausing near the cottage they enterred</line>
+      <line>into conversation using violent gestures</line>
+      <line>I did not understand what they said for</line>
+      <line><del rend="strikethrough">they</del> their language differred from that</line>
+      <line>of my <del rend="strikethrough">frien</del> protectors — Soon After, however,</line>
+      <line>Felix approached with another man</line>
+      <line>I was surprised as I knew that <del rend="strikethrough">H</del> he</line>
+      <line>had not quitted the cottage that morning</line>
+      <line>and waited anxiously to discover by</line>
+      <line>his discourse the meaning of these</line>
+      <line>unusual appearances. "Do you consider,</line>
+      <line>"said his companion to him — that you</line>
+      <line>"will be obliged to pay three months rent</line>
+      <line>"&amp; to lose the produce of your garden.</line>
+      <line>"<del rend="strikethrough">Cons</del> I do not wish to take any <add place="superlinear">unfair</add> advantage</line>
+    </zone>
+  <zone type="left_margin"><figure><desc>Large Z</desc></figure><anchor xml:id="c57-0054.01"/></zone>
+</surface>
