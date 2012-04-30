@@ -5,20 +5,21 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0009.tif"/>
   <zone type="library">3</zone>
   <zone type="main">
-    <line><mod resp="#pbs"><add place="superlinear">hier</add>credit with <add place="superlinear"
-          >me</add></mod> - but I could not entirely throw</line>
-    <line>them aside before <mod resp="#pbs"><del rend="strikethrough">any</del><add
-          place="superlinear"><del rend="strikethrough">some</del></add>some</mod> other system<del
-        rend="strikethrough">cocc</del><add resp="#pbs" place="superlinear">should</add></line>
+    <line><add place="superlinear" resp="#pbs">hier</add>credit with <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">me</add> - but I could not entirely throw</line>
+    <line>them aside before <del rend="strikethrough">any</del><del rend="strikethrough"><add
+      place="superlinear" resp="#pbs">some </add></del><add
+        place="superlinear" resp="#pbs">some </add> other system <add resp="#pbs" place="superlinear">should </add><del
+        rend="strikethrough">cocc</del></line>
     <line>occup<mod resp="#pbs"><del rend="overwritten">ie</del><add place="intralinear"
         >y</add></mod>d their place.
-      <!-- following phrase 'in my mind' appears to be intervention by PBS. Recommend changing it to add element with resp to PBS --><unclear/>
+      <!-- following phrase 'in my mind' appears to be intervention by PBS. Recommend changing it to add element with resp to PBS --><unclear unit="chars" extent="1"/>
       in my mind-</line>
+    <milestone unit="tei:p"/>
     <line><add resp="#pbs" place="superlinear">Among other questions suggested by natural
         objects</add></line>
-    <line><del rend="strikethrough">And</del><add resp="#pbs" place="sublinear">&amp; the origin
-        of</add> I <del rend="strikethrough">as</del> eagerly enquired of my father</line>
-    <line><del rend="strikethrough">what</del> thunder and lightening. <del rend="strikethrough"
+    <line><del rend="strikethrough">And</del><add place="sublinear"><metamark>&#x2038; </metamark></add> I <del rend="strikethrough">as</del> eagerly enquired of my father</line>
+    <line><del rend="strikethrough">what</del><add place="sublinear"><metamark>&#x2038; </metamark></add><add resp="#pbs" place="sublinear">the nature &amp; the origin
+      of</add> thunder and lightening. <del rend="strikethrough"
         >was.</del> He</line>
     <line>replied, electricity; describing at the same</line>
     <line>time the effect of that power. He <del rend="strikethrough">made</del><add resp="#pbs"
@@ -28,7 +29,8 @@
     <line>kite with a wire <add resp="#pbs" place="intralinear">&amp;</add> string <add resp="#pbs"
         place="superlinear">which</add><del rend="strikethrough">and</del> drew down</line>
     <line>that fluid from the clouds.</line>
-    <line>This last <del rend="strikethrough">blow st</del> stroke compleated the overthrow of
+    <milestone unit="tei:p"/>
+    <line>This last <del rend="strikethrough">blow</del><del rend="strikethrough"> st</del> stroke compleated the overthrow of
       Cornelius Agrippa, Albertus</line>
     <line>Magnus and Paracelsus, who had so long</line>
     <line>reigned the lords of my imagination. But</line>
@@ -37,6 +39,7 @@
     <line><del rend="strikethrough">inclination</del><add resp="#pbs" place="superlinear">disinclination</add> was influenced by the
       following</line>
     <line>circumstance.</line>
+    <milestone unit="tei:p"/>
     <line>My father expressed a wish that I</line>
     <line>should attend a course of lectures upon</line>
     <line>natural philosophy, to which I <add resp="#pbs" place="superlinear">cheerfully</add>consented
