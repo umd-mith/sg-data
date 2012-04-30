@@ -28,23 +28,24 @@
     <line>concerning your health&#8212; Dear Victor, if</line>
     <line>you are not very ill write yourself</line>
     <line>and make your father and all</line>
-    <line>of us happy or&#8212; I cannot bear to</line>
+    <line>of us happy or&#8212; I cannot bear to<add><ptr target="#c56-0064.02"/></add></line>
     <milestone unit="tei:p"/><line>Your very affectionate Cousin</line>
-    <line>Elizabeth Lavenza</line>
+    <line><add><ptr target="#c56-0064.03"/></add>Elizabeth Lavenza</line>
   </zone>
+  <!-- The following zones are a mess: (1) I created another "main" zone for a line that is in the main zone, but not a 
+  part of the rest of the zone, (2) the word "write" is just floating around, (3) there needs to be a huge parentheses 
+  added, (4) I am not sure where to place the pointer -->
     <zone type="left_margin">
-    <line>think <mod>
+      
+    <line><addSpan xml:id="c56-0064.02" spanTo="#c56-0064.01"/>think <mod>
       <del rend="strikethrough">of</del>
       <add place="sublinear">&#x2038;</add><add place="superlinear">on</add>
     </mod> the</line>
     <line>other side</line>
     <line>of the question</line>
     <line>my tears al-</line>
-    <line>ready flow</line>
+    <line>ready flow<anchor xml:id="c56-0064.01"/></line>
     </zone>
-  <!-- Super huge parantheses here to differentiate between zones-->
-  <zone type="main">
-      <line><del rend="strikethrough">dearrest</del> - dearest Victor</line>
-    <line>write-</line>
-    </zone>
+    <line><addSpan xml:id="c56-0064.03" spanTo="#c56-0064.04"/><del rend="strikethrough">dearrest</del> - dearest Victor</line>
+    <line>write-<anchor xml:id="c56-0064.04"/></line>
 </surface>
