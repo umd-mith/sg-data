@@ -56,12 +56,14 @@
         <del rend="strikethrough">woman</del>
         <add place="superlinear" resp="#pbs">being</add>
       </mod></line>
+    <!-- There is a vertical line deletion here that might have been intended as a deletion, but it looks like they
+    ended up keeping that chunk anyway, so should this be a deletion? It is the delSpan after "unworthy of" -->
     <line><mod>
-        <del rend="strikethrough">unworthy of life</del>
+        <del rend="strikethrough">unworthy of <delSpan rend="vertical_line" spanTo="#c56-0113.05"/>life</del>
         <add place="superlinear" resp="#pbs"><del rend="strikethrough">as</del> unfit to remain in the society of men.</add>
       </mod> – Yet she <del rend="strikethrough">she</del> was inno</line>
     <line>cent–I know–I feel she was innocent You</line>
-    <line>are of the same opinion and that</line>
+    <line>are of the same <anchor xml:id="c56-0113.05"/>opinion and that</line>
     <line>confirms me. Alas, Victor! when <mod>
         <del rend="strikethrough">lies</del><del rend="strikethrough">appear</del>
         <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">falsehood
