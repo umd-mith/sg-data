@@ -3,13 +3,10 @@
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0033" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0033.tif"/>
-  <zone type="top">
-    <line>(63</line>
-  </zone>
-
+  <zone type="pagination">63</zone>
   <zone type="main">
-    <line><mod resp="#pbs" type="subst"><del rend="strikethrough">golstadt was</del><add><ptr
-            target="c56-0033.01"/></add></mod> no longer conducive to </line>
+    <line><del rend="strikethrough">golstadt was </del><add><ptr
+            target="#c56-0033.01"/></add> no longer conducive to </line>
     <line>my improvement, I thought of returning</line>
     <line>to my friends and to my native town<add place="superlinear">15</add>,</line>
     <line>when an incident happened that</line>
@@ -22,7 +19,7 @@
     <line>endued with life. Whence I often asked</line>
     <line>myself did this principle of life proceed.</line>
     <line>It was a bold question, and one <del rend="strikethrough">that</del></line>
-    <line><add><ptr target="c56-0033.02"/></add> has ever been considered as a mystery.</line>
+    <line><add><ptr target="#c56-0033.02"/></add> has ever been considered as a mystery.</line>
     <line>Yet how many things are we on the</line>
     <line>brink of becoming acquainted with</line>
     <line>if cowardice or carelessness did</line>
@@ -38,8 +35,7 @@
     <line>most supernatural enthusiasm, my</line>
     <line>application to this study would have</line>
     <line>been irksome and almost intolerable.</line>
-    <line>To examine the causes of life <del rend="strikethrough"><unclear extent="2" unit="chars" precision="low"
-        >de</unclear></del> we must</line>
+    <line>To examine the causes of life <del rend="strikethrough"><unclear extent="2" unit="chars">de</unclear></del> we must</line>
     <line>first have <del rend="strikethrough">recou</del> recourse to death.</line>
     <line><del rend="strikethrough">No is ano anatomy</del> I became acquainted</line>
     <line>with the science of anatomy but this</line>
