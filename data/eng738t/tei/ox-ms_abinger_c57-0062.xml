@@ -11,7 +11,7 @@
   <zone type="pagination" rend="bordered">87</zone>
   <zone type="main">
     <line>no means of extracting it. <del rend="strikethrough">a</del> My suffering were</line>
-    <line>augmented also by the oppressive sense <del rend="strikethrough">I had</del><line>
+    <line>augmented also by the oppressive sense <del rend="strikethrough">I had</del></line>
     <line>of <add place="superlinear"><mod resp="#pbs">the</mod></add> injustice &#x0026; ingratitude <metamark>&#x2038;</metamark><add place="superlinear"><mod resp="#pbs">of their infliction</mod></add> My daily <add place="superlinear"><mod resp="#pbs">vows</mod></add> <del rend="strikethrough">prayers</del></line>
     <line>rose for revenge – a deep &#x0026; deadly revenge</line>
     <line>such as would alone compensate for the</line>
@@ -30,8 +30,11 @@
       <line>chapter</line>
       <line>continued</line>
     </zone>
-  <zone type="left_margin"><line><mod resp="#pbs">which insul</mod></line>
+  
+  <zone type="left_margin">
+    <line><mod resp="#pbs">which insul</mod></line>
     <line><mod resp="#pbs">ted my desolate</mod></line>
-    <line><mod resp="#pbs">state, &#x0026;</mod></line></zone>
+    <line><mod resp="#pbs">state, &#x0026;</mod></line>
+  </zone>
 </surface>
 
