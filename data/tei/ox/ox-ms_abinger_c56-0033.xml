@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0033" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0033" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0033.tif"/>
   <zone type="top">
     <line>(63</line>
   </zone>
 
   <zone type="main">
-    <line><mod resp="pbs" type="subst"><del rend="strikethrough">golstadt was</del><add><ptr
+    <line><mod resp="#pbs" type="subst"><del rend="strikethrough">golstadt was</del><add><ptr
             target="c56-0033.01"/></add></mod> no longer conducive to </line>
     <line>my improvement, I thought of returning</line>
     <line>to my friends and to my native town<add place="superlinear">15</add>,</line>
@@ -26,13 +26,13 @@
     <line>Yet how many things are we on the</line>
     <line>brink of becoming acquainted with</line>
     <line>if cowardice or carelessness did</line>
-    <line>not restrain <mod type="subst" resp="pbs"><del rend="strikethrough">us</del><add
+    <line>not restrain <mod type="subst" resp="#pbs"><del rend="strikethrough">us</del><add
           place="superlinear">our enquiries?</add></mod>. I revolved these circum</line>
     <line>stances in my mind and determined</line>
     <line>from thenceforth to apply myself more</line>
-    <line>particularly to th<mod resp="pbs" type="subst"><add place="intralinear">ose</add>
+    <line>particularly to th<mod resp="#pbs" type="subst"><add place="intralinear">ose</add>
           branch<add place="intralinear">es</add></mod> of natural</line>
-    <line>philosophy which <mod type="subst" resp="pbs"><del rend="strikethrough">treats
+    <line>philosophy which <mod type="subst" resp="#pbs"><del rend="strikethrough">treats
           of</del><add place="superlinear">relate to</add></mod> phisiology.</line>
     <line>Unless I had been animated by an al-</line>
     <line>most supernatural enthusiasm, my</line>
@@ -47,10 +47,10 @@
     <line>the natural decay &amp; corruption of the</line>
     <line>human body. In my education</line>
   </zone>
-  <zone type="left margin">
-    <line><add hand="pbs" xml:id="c56-0033.01">there being</add></line>
+  <zone type="left_margin">
+    <add resp="#pbs" xml:id="c56-0033.01">there being</add>
   </zone>
-  <zone type="left margin">
-    <line><add hand="pbs" xml:id="c56-0033.02">which</add></line>
+  <zone type="left_margin">
+    <add resp="#pbs" xml:id="c56-0033.02">which</add>
   </zone>
 </surface>
