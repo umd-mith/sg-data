@@ -1,8 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0124" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0124" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0124.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>154</line>
+  </zone>
+  <zone type="main">
+    <line>(<del rend="triple-strike">oh</del> sight tremendous and abhorred) that it</line>
+    <line>was the wretch whom I had <del rend="double-strike">cr</del> created <del
+        rend="strikethrough">and</del></line>
+    <line><del rend="strikethrough">who had caused me such deep misery.</del> I</line> I
+      <line>trembled with rage <del rend="strikethrough">an</del> and horror <mod type="subst"><del
+          rend="strikethrough">determin</del><add place="superlinear" resp="#pbs"
+      >I</add></mod></line>
+    <line><del rend="strikethrough">ing</del><add><ptr target="#c56-0124.01"/></add> to wait his
+      approach &amp; then close</line>
+    <line>with him in mortal combat. He ap-</line>
+    <line>proached; I <del rend="strikethrough">saw again that form from which</del></line>
+    <line><del rend="triple-strike">I</del> His countenance bespoke bitter anguish</line>
+    <line>combined with disdain and malignancy.</line>
+    <line>But I <mod type="subst"><del rend="strikethrough">hardly</del><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">scarcely</add></mod> observed this–anger and
+      hatred</line>
+    <line><del rend="strikethrough">at f</del> had at first deprived me of utterance</line>
+    <line>and I recovered only to overwhelm him</line>
+    <line>with <del rend="strikethrough">express</del> words expressive of utter</line>
+    <line>detestation <del rend="strikethrough">and</del>
+      <del rend="double-strike">re</del> and contempt – <milestone unit="tei:q"
+        spanTo="#c56-0124.02"/><metamark>"</metamark>Devil<metamark>"</metamark><anchor
+        xml:id="c56-0124.02"/></line>
+    <line>I exclaimed – <milestone unit="tei:q" spanTo="#c56-0124.03"/><metamark>"</metamark>do you
+      dare approach me</line>
+    <line>and do not <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">you</add></mod> dread the fierce vengeance</line>
+    <line>of my arm wreaked on your miserable</line>
+    <line>head – Begone vile insect or <mod type="additions"><add place="sublinear"
+          >&#x2038;</add><add place="superlinear">rather</add></mod> Stay that</line>
+    <line>I may trample you to dust and oh that</line>
+    <line>I could with <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">the <del rend="strikethrough">end</del></add>
+        <add place="superlinear" resp="#pbs">extinction of</add></mod> your miserable
+      existence</line>
+    <line>restore those creatures whom you</line>
+    <line>have diabollicaly murdered<metamark>"</metamark><anchor xml:id="c56-0124.03"/></line>
+    <milestone unit="tei:p"/>
+    <line><milestone unit="tei:q" spanTo="#c56-0124.04"/><metamark>"</metamark>I expect<add
+        resp="#pbs" place="intralinear">ed</add> this reception<metamark>"</metamark><anchor
+        xml:id="c56-0124.04"/> said the dæmon</line>
+    <line><milestone unit="tei:q" spanTo="#c56-0124.05"/>all men hate <mod type="additions"><add
+          place="sublinear">&#x2038;</add><add place="superlinear">the</add></mod> wretched – how
+      then</line>
+    <line>must <mod type="subst"><del rend="double-strike">O</del><add place="superlinear"
+        >I</add></mod> be hated who am miserable</line>
+    <line>beyond <mod type="subst"><del rend="strikethrough">conception or</del>
+        <del rend="strikethrough">idea</del><add place="superlinear" resp="#pbs">all living
+          things.</add></mod> – Yet you</line>
+    <line><del rend="strikethrough">my</del> my creator hate me and spurn
+    me</line><!--continue span c56-0124.05 in next file ...c56-0125-->
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0124.01">resolvedg</add></line>
+  </zone>
 </surface>
