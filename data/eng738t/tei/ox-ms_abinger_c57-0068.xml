@@ -4,9 +4,9 @@
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0068" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0068.tif"/>
   <zone type="pagination" rend="bordered"><line>93</line></zone>
-  <zone type="main"><line><add place="intralinear">me happy; let</add> me feel gratitude towards you for one</line>
+  <zone type="main"><line><add place="intralinear">me happy; let</add><note>QC: Robinson transcript appears to leave out the ";" after "happy"</note> me feel gratitude towards you for one</line>
     <line>benefit; Let me see that I excite the</line>
-    <line>sympathy of <metamark>‸</metamark><add place="superlinear">one</add>creature.  Do not deny me my</line>
+    <line>sympathy of <metamark>&#x2038;</metamark><add place="superlinear">one</add>creature.  Do not deny me my</line>
     <line>request.<milestone unit="paragraph"/></line>
     <line>I was moved.  I shuddered when I thought</line>
     <line>of the possible consequences of my consent</line>
@@ -14,15 +14,15 @@
     <line>in his argument.  His tale and the fee</line>
     <line>lings he now expressed <del rend="strikethrough">ap</del>proved him to</line>
     <line>be a creature of fine sensations and</line>
-    <line>did not I <metamark>‸</metamark><add place="superlinear">as</add>his <del rend="strikethrough">creator</del> maker owe him</line>
+    <line>did not I <metamark>&#x2038;</metamark><add place="superlinear">as</add>his <del rend="strikethrough">creator</del> maker owe him</line>
     <line>all the portion of happiness that it</line>
-    <line>was in <del rend="strikethrough">pw</del><metamark>‸</metamark><add place="superlinear">my</add> power to bestow? He saw my</line>
+    <line>was in <del rend="strikethrough">pw</del><metamark>&#x2038;</metamark><add place="superlinear">my</add> power to bestow? He saw my</line>
     <line>change of feeling &amp; continued.<milestone unit="paragraph"/></line>
     <line>If you consent neither you or</line>
     <line>any human <del rend="strikethrough">being</del> creature shall ever see</line>
     <line>us again. I will go to the vast wilds of</line>
     <line>America.  My food is not that of man; I</line>
-    <line>o not destroy the lamb or the kid to</line>
+    <line>do not destroy the lamb or the kid to</line>
     <line>glut my appetite.  Acorns &amp; berries afford</line>
     <line>me sufficient nourishment.  My com</line>
     <line>panion will be of the same nature</line>
