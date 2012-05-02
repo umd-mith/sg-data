@@ -1,14 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0040"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0040" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0040.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">65</zone>
+  <zone type="main">
+    <line>for glory and slaughter I should have</line>
+    <line>been imbued with different sensations.<milestone unit="paragraph"/></line>
+    <line>But Paradise Lost excited</line>
+    <line><del rend="overstrike">in me</del> different and far deeper</line>
+    <line><add><ptr target="c57-0040.01"/></add><del rend="overstrike">sensations</del> <add place="superlinear">emotions</add> — I read it as I <del rend="overstrike">did</del> <add place="superlinear">had read</add> the</line>
+    <line>other volumes which had fallen in</line>
+    <line>to my hands, as a true history. <del rend="overstrike">and</del> It</line>
+    <line><add><ptr target="c57-0040.02"/></add><del rend="overstrike">excited</del> every <del rend="overstrike">feeling</del> <add place="superlinear">feeling</add> of wonder and</line>
+    <line>awe. <del rend="overstrike">I deeply lamented the fall</del></line>
+    <line><del rend="overstrike">of Adam</del> <add place="superlinear">that</add> the picture of an omni</line>
+    <line>potent God warring with his crea</line>
+    <line>tures was capable of exciting — <del rend="overstrike">often</del></line>
+    <line>I <metamark>‸</metamark><add place="superlinear">often</add> referred the several situations</line>
+    <line>as their simularity struck me to</line>
+    <line>my own. Like Adam I <del rend="overstrike">felt my</del> <add place="superlinear">was</add></line>
+    <line><del rend="overstrike">self</del> created <del rend="overstrike">but I w</del> apparently</line>
+    <line><del rend="overstrike">desolate in my situation</del> but</line>
+    <line><add><ptr target="c57-0040.03"/></add>his state was different from</line>
+    <line>mine in every other respect.</line>
+    <line>He had come forth from the</line> 
+    <line>hands of God a perfect creature</line>
+    <line>happy <del rend="overstrike">&amp;</del> prosperous — <add><ptr target="c57-0040.04"/></add>but I was</line>
+    <line>wretched helpless and alone. <del rend="overstrike">Oft</del></line>
+    <line>Many times I considered Satan</line>
+    <line>as my fitter mate for often</line>
+    <line> like him when I viewed the</line>
+    <line>bliss of y protectors the bitter</line>
+    <line>gall of envy rose within me.</line> 
+    <line><del rend="overstrike">But I would not distrub their</del><milestone unit="paragraph"/></line>
+    <line><del rend="overstrike"><unclear>he</unclear></del> Another circumstance</line>
+    <line>strengthened and confirmed these</line>
+    <line>feelings. <del rend="overstrike">I had soon a</del> Soon <del rend="overstrike">affe</del> af</line>
+    <line>ter my arrival in the hovel I dis</line>
+</zone>
+<zone type="left_margin">
+    <line><del rend="overstrike">feelings</del><anchor xml:id="c57-0040.01"/></line>
+</zone>
+<zone type="left_margin">
+    <line>moved<anchor xml:id="c57-0040.02"/></line>
+</zone>
+<zone type="left_margin">
+    <line>as I <del rend="overstrike">had been</del> had been<anchor xml:id="c57-0040.03"/></line>
+    <line>united by no link to any</line>
+    <line>other being of <del rend="overstrike">the</del></line>
+    <line><del rend="overstrike">creation</del> in existence</line>
+</zone>
+<zone type="left_margin">
+    <line>guarded by the <del rend="overstrike">spe</del> es<anchor xml:id="c57-0040.04"/></line>
+    <line>pecial care of his</line>
+    <line>creator <del rend="overstrike">and</del> <add place="superlinear"> —he was</add> allow</line>
+    <line>ed to converse &amp;</line>
+    <line>acquire knowledge</line> 
+    <line>from beings of a</line> 
+    <line>superior nature</line>
+</zone>
 </surface>
-

@@ -1,14 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0039"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0039" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0039.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">64</zone>
+  <zone type="main">
+    <line><add><ptr target="c57-0039.01"/></add>These questions continually recurred but I </line>
+    <line>was unable to solve them.<milestone unit="paragraph"/></line> 
+    <line>The volume of Plutarchs lives which I</line> 
+    <line>possessed contained the histories of the first</line>
+    <line>founders of the ancient republics — This book</line>
+    <line>had a far different effect upon me from</line>
+    <line><del rend="overstrike">the letters Sorrows</del> the letters of Werter. I lea<add place="superlinear">r</add>ned</line>
+    <line>from <del rend="overstrike">that</del> <add place="superlinear"><del rend="overstrke">his</del> Werter's <del rend="overstrike">g</del> imaginations</add> despondency &amp; gloom; but Plutarch</line>
+    <line>taught me high thoughts — he elevated me abov</line>e
+    <line><del rend="overstrike">m</del> the wretched sphere of my own reflections</line>
+    <line>to admire &amp; love the heroes of past ages. <del rend="overstrike">Yet</del></line> 
+    <line>Many things I read surpassed my unterstanding</line>
+    <line>and <del rend="overstrike">knowledge</del> <metamark>‸</metamark> <add place="superlinear">experience</add> I had a very <del rend="overstrike">t</del> confused know</line>
+    <line>ledge of kingdoms &amp; wide extents of country</line>
+    <line>mighty river and boundless seas! But I <add place="sublinear"><del rend="overstrike">was</del> <del rend="overstrike">had been</del></add></line>
+    <line>was perfectly unacquainted with towns &amp;</line> 
+    <line>large <del rend="overstrike">assemblegs</del> <add place="superlinear">assemblages</add> of men. The cottage<del rend="overstrike">rs were</del> <add place="superlinear">of my protectors <del rend="overstrike">was</del></add></line>
+    <line>the <del rend="overstrike">o</del> only school <add>in</add> <del rend="overstrike">where</del> <add place="superlinear">which</add> I <add place="superlinear">had</add> studied human</line> 
+    <line>nature — But this book <del rend="overstrike">threw a new light upon</del> <metamark>‸</metamark> <add place="superlinear">developed new &amp; mightier scenes of action</add></line> 
+    <line><del rend="overstrike">it</del> I read of men concerned in public</line>
+    <line>affairs governing <del rend="overstrike">their species — an</del> or masser</line>
+    <line>cering their speceis. I felt the greatest ardour</line>
+    <line>for virtue rise within me and abhor</line>
+    <line>rence for vice <unclear>f</unclear> as far as I understood <del rend="overstrike">it</del> the</line>
+    <line>signification of those terms relative as they</line>
+    <line>were <del rend="overstrike">only</del>, as I applied them, to pleasure</line>
+    <line>and pain <metamark>‸</metamark> <add place="superlinear">alone. Induced by</add> <del rend="overstrike">with</del> these feelings <del rend="overstrike">it may be</del></line>
+    <line>I was of course led to admire peacable</line>
+    <line>lawgivers Numa, Solon &amp; Lycurgus more than</line>
+    <line>Romulus and Theseus. The patriarchal lives</line> 
+    <line>of my protectors <add place="superlinear"><del rend="overstrike">im</del> caused</add> <del rend="overstrike">induced to a greater degree</del></line>
+    <line>these impressions <metamark>‸</metamark> <add place="superlinear">to take a firm hold on my mind</add> — perhaps if my first <del rend="overstrike">resid</del></line>
+    <line><add><ptr target="c57-0039.02"/></add><del rend="overstrike">ence</del> had been <metamark>‸</metamark> <add place="superlinear">made</add> <del rend="overstrike">with</del> <add place="superlinear">by</add> a young soldier burning</line>
+  </zone>
+  <zone type="left_margin">
+    <line>Whence<anchor xml:id="c57-0039.01"/></line>
+    <line>did I come?</line>
+    <line>What was</line>
+    <line>my destination?</line>
+  </zone>
+  <zone type="left_margin">
+    <line><del rend="overstrike">human</del> <add place="superlinear">introduction</add><anchor xml:id="c57-0039.02"/></line>
+    <line><del rend="overstrike">intercourse</del> <add place="superlinear">to</add> </line>
+    <line><del rend="overstrike">with</del> <add place="superlinear">humanity</add></line>
+  </zone>
 </surface>
-

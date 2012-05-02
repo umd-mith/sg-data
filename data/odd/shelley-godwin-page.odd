@@ -40,6 +40,7 @@
                 principles.</change>
             <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into
                 zones</change>
+            <change when="2012-03-24" who="tmunoz">Removed about 40 unused elements</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -265,6 +266,11 @@
                             descriptive attributes to record their placement on the page. This
                             information will be supplied by coordinates when the transcriptions and
                             page images are linked.</p>
+                        <p>SGA does use <att>@type</att> on <tag>zone</tag> with a controlled list
+                            of descriptive values such as <q>top</q>, <q>pagination</q>,
+                            <q>main</q>, etc. These are most for the benefit of processing tools and
+                            are secondary to the coordinates for positioning a zone with respect to
+                            the page it appears on.</p>
                     </div>
                     <div xml:id="lines">
                         <head>Transcribing lines</head>
@@ -329,17 +335,21 @@
 
                     <moduleRef key="tei"/>
                     <moduleRef key="core"
-                        except="addrLine address analytic author biblScope biblStruct 
-                        binaryObject divGen editor email gb imprint listBibl measure 
-                        meeting mentioned monogr postBox postCode pubPlace publisher 
-                        quote said series soCalled street teiCorpus textLang"/>
-                    <moduleRef key="textstructure" except="TEI div1 div2 div3 div4 div5 div6 div7"/>
+                        except="abbr addrLine address analytic author biblScope biblStruct 
+                        binaryObject cb choice cit distinct divGen editor email expan gb gloss 
+                        head headItem headLabel imprint l label lb listBibl lg measure 
+                        meeting mentioned monogr p pb postBox postCode pubPlace publisher 
+                        q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig"/>
+                    <moduleRef key="textstructure"
+                        except="argument back byline TEI div1 div2 div3 div4 div5 div6 div7 docAuthor docDate 
+                        docEdition docImprint docTitle epigraph floatingText front group imprimatur titlePage titlePart"/>
 
                     <!-- Additional modules -->
-                    <moduleRef key="transcr"/>
+                    <moduleRef key="transcr" except="am ex fw restore supplied surplus redo undo"/>
                     <moduleRef key="gaiji"/>
-                    <moduleRef key="linking"/>
+                    <moduleRef key="linking" except="ab alt altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
+                    <moduleRef key="figures" include="figure figDesc"></moduleRef>
 
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
@@ -369,6 +379,14 @@
                             </attDef>
                         </attList>
                     </classSpec>
+                    
+                    <classSpec ident="att.transcriptional" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="hand" mode="delete"/>
+                            <attDef ident="status" mode="delete"/>
+                            <attDef ident="cause" mode="delete"/>
+                        </attList>
+                    </classSpec>
 
                     <classSpec ident="att.global.linking" type="atts" mode="change">
                         <attList>
@@ -383,6 +401,19 @@
                     <classSpec ident="att.coordinated.attributes" type="atts" mode="change">
                         <attList>
                             <attDef ident="start" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <classSpec ident="att.responsibility" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="resp" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="#pbs"/>
+                                    <valItem ident="http://viaf.org/viaf/95159449"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="precision" mode="delete"/>
+                            <attDef ident="scope" mode="delete"/>
                         </attList>
                     </classSpec>
 
@@ -442,7 +473,7 @@
 
                             <attDef ident="n" mode="change" usage="rec"/>
 
-                            <attDef ident="corresp" mode="change">
+                            <attDef ident="corresp" mode="change" usage="req">
                                 <altIdent>partOf</altIdent>
                                 <desc>Syntactic sugar attribute—should refer to the id of the
                                     sourceDoc element with which this surface should be
@@ -517,6 +548,33 @@
                                     <valItem ident="sublinear"/>
                                 </valList>
                             </attDef>
+                            <attDef ident="rend" mode="delete"/>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="addSpan" module="transcr" mode="change">
+                        <classes mode="change">
+                            <memberOf key="att.transcriptional" mode="delete"/>
+                            <memberOf key="att.responsibility" mode="add"/>
+                        </classes>
+                    </elementSpec>
+
+                    <elementSpec ident="delSpan" module="transcr" mode="change">
+                        <classes mode="change">
+                            <memberOf key="att.transcriptional" mode="delete"/>
+                            <memberOf key="att.responsibility" mode="add"/>
+                        </classes>
+                    </elementSpec>
+
+                    <elementSpec ident="del" module="core" mode="change">
+                        <attList>
+                            <attDef ident="rend" mode="replace">
+                                <valList type="semi" mode="replace">
+                                    <valItem ident="strikethrough"/>
+                                    <valItem ident="overwritten"/>
+                                    <valItem ident="smear"/>
+                                </valList>
+                            </attDef>
                         </attList>
                     </elementSpec>
 
@@ -540,9 +598,41 @@
                         <attList>
                             <attDef ident="type" mode="replace" usage="req">
                                 <valList type="closed" mode="replace">
-                                    <valItem ident="top"/>
-                                    <valItem ident="left margin"/>
-                                    <valItem ident="main"/>
+                                    <valItem ident="top">
+                                        <desc>Material that can appear at the top of a manuscript
+                                            page—like headings or notes</desc>
+                                    </valItem>
+                                    <valItem ident="left_margin">
+                                        <desc>Zone for marginal additions, deletions, and other
+                                            modifications. More than one zone with this type may
+                                            appear in a document if marginal zones are distinct
+                                            interventions.</desc>
+                                    </valItem>
+                                    <valItem ident="main">
+                                        <desc>The main block of text on a page</desc>
+                                    </valItem>
+                                    <valItem ident="pagination">
+                                        <desc>For segments of a page where page numbers have been
+                                            added in one or more original hands; distinct from later
+                                            additions by librarians/collectors</desc>
+                                    </valItem>
+                                    <valItem ident="library">
+                                        <desc>A zone of writing which appears to have been added by
+                                            librarians/collectors at a later date—often page
+                                            numbers</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="mod" module="transcr" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="subst"/>
+                                    <valItem ident="additions"/>
+                                    <valItem ident="deletions"/>
                                 </valList>
                             </attDef>
                         </attList>
