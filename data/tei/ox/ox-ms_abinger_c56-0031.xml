@@ -6,10 +6,8 @@
   <zone type="top">
     <line>Chap. 5</line>
   </zone>
-  <zone type="top">
-    <line>(61</line>
-    <line>14</line>
-  </zone>
+  <zone type="pagination">61</zone>
+  <zone type="library">14</zone>
   <zone type="main">
     <line>From this day natural philosophy and parti</line>
     <line>cularly chemistry became <mod type="subst"><add place="sublinear">^</add><add
