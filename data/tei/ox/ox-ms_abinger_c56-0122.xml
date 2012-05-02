@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0122" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0122" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0122.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">152</zone>
+
+
+  <zone type="main">
+    <line>scene that that wind may convey to</line> us <milestone unit="tei:lg"
+      spanTo="#c56-0122.01"/>
+    <line>We rest, A dream has power to poison</line>
+    <line>/sleep</line>
+    <line>We rise one wandering thought pollutes</line>
+    <line>the day</line>
+    <anchor xml:id="c56-0122.01"/>
+    <milestone unit="tei:lg" spanTo="#c56-0122.02"/><line>We feel conceive, or reason – laugh or
+      weep</line>
+    <line>Embrace fond woe or cast our cares</line>
+    <line>away</line>
+    <anchor xml:id="c56-0122.02"/>
+    <milestone unit="tei:lg" spanTo="#c56-0122.03"/>
+    <line>It is the same –for be it joy or sorrow</line>
+    <line>The path of its departure still is free</line>
+    <line>Mans yesterday may ne'er be like</line>
+    <line><add place="intralinear" resp="#pbs">h</add>is morrow</line>
+    <line>Nought may endure but mutability.</line>
+    <anchor xml:id="c56-0122.03"/>
+    <milestone unit="tei:p"/>
+    <line>It was noon when I arrived at the</line>
+    <line>top of the <mod type="subst"><del rend="strikethrough">mountain</del><add resp="#pbs"
+          place="superlinear">ascent</add></mod>. For some time I</line>
+    <line>sat upon the <del rend="double-strike">the</del> rock that overlooks</line>
+    <line>the sea of ice. A mist covered both</line>
+    <line>that and the surrounding mountains</line>
+    <line>Presently a breeze dissipated the mist</line>
+    <line>and I descended on the <mod type="subst"><del rend="strikethrough">ice</del><add
+          place="superlinear">glacier</add></mod>. <delSpan spanTo="#c56-0122.04"/>It is
+      instersper</line>
+    <line>sed with rifts<anchor xml:id="c56-0122.04"/> – The surface is very uneven</line>
+    <line>rising like the waves of a troubled sea,</line>
+    <line>decending tow low, &amp; interspered by rifts</line>
+    <line>that sink deep— The <del rend="strikethrough">width of the</del> field of</line>
+    <line>ice is <del rend="double-strike">nearly</del> a <del rend="strikethrough">lege</del>
+        league,<mod type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear"
+          >in width,</add></mod> but I was</line>
+    <line>nearly two hours <add place="superlinear">in</add> crossing it – The oppo</line>
+    <line>site <del rend="double-strike">t</del> mountain is a bare perpendicu</line>
+    <line>lar rock.–From that side where I now</line>
+    <line>stood Montanvert was exactly opposite</line>
+    <line>at the distance of a league and above</line>
+  </zone>
+  <zone type="left_margin">
+    <line><del rend="double-strike">120</del></line>
+    <line>130</line>
+  </zone>
+  <zone type="left_margin">
+    <!--scholar's note indicates these are "numbers that apparently calculate number of fair-copy pages". I interpret this not to require any pointing from any text in the main section-->
+    <line>100</line>
+    <line>130</line>
+    <line>40</line>
+    <line>5</line>
+    <line>75</line>
+    <line>130</line>
+    <line>75</line>
+    <line>205</line>
+  </zone>
+
 </surface>
