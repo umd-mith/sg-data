@@ -10,7 +10,7 @@
   <zone type="library">14</zone>
   <zone type="main">
     <line>From this day natural philosophy and parti</line>
-    <line>cularly chemistry became <mod type="subst"><add place="sublinear">^</add><add
+    <line>cularly chemistry became <mod type="subst"><add place="sublinear">&#x2038;</add><add
       place="superlinear">nearly</add> my sole <del rend="strikethrough">appli</del></mod></line>
     <line>study. I read with ardour <del rend="strikethrough">m</del> those books</line>
     <line>so full of genius and discrimination</line>
@@ -49,7 +49,7 @@
     <line>of <mod resp="#pbs" type="subst"><del rend="strikethrough">ch</del> duty <add place="superlinear">^</add><add
           place="superlinear">&amp; resolution,</add></mod> now became so ardent</line>
     <line>and eager that the stars often</line>
-    <line>dissapeared <mod resp="#pbs" type="subst"><add place="sublinear">^<ptr target="c56-0031.03"
+    <line>dissapeared <mod resp="#pbs" type="subst"><add place="sublinear">&#x2038;<ptr target="c56-0031.03"
           /></add> while I was yet <del rend="strikethrough">labouring</del><add place="sublinear"
           >engaged</add></mod></line>
     <line>in my labrotary.</line>
