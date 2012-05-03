@@ -10,21 +10,26 @@
   <zone type="main">
     <line>satisfied that nothing on earth will have the power</line>
     <line>to interrupt my tranquility.</line>
-    <milestone unit="tei:p"/><line>do not let this letter disturb you; do not</line>
-    <line>answer it tomorrow or the next day or even until</line>
+    <milestone unit="tei:p"/>
+    <line>Do not let this letter disturb you; do not</line>
+    <line>answer it tomorrow or the next day or even untill</line>
     <line>you come if it will give you pain. My uncle will</line>
-    <line>send me news of our health and if I see but</line>
-    <line>one smile on your lips When we meet occasioned</line>
+    <line>send me news of your health and if I see but</line>
+    <line>one smile on your lips when we meet occasioned</line>
     <line>by this or any other <del rend="strikethrough">happ</del> exertion of mine I</line>
     <line>shall need no other happiness;</line>
     <line><hi rend="double-underline">Elizabeth Lavenza</hi></line>
-    <milestone unit="tei:p"/><line>Geneva</line>
-    <milestone unit="tei:p"/><line><del rend="strikethrough">April</del> May 18<hi rend="underline"
+    <!--underscore does not span entire first or last names. should we standardize encoding practice
+    to that of encoding strikethroughs?-->
+    <line>Geneva</line>
+    <line><del rend="strikethrough">April</del> May 18<hi rend="underline"
           ><hi rend="sup">th</hi></hi>
-      <hi rend="underline">17--</hi></line>
-    <milestone unit="tei:p"/><line>This letter revived in my memory what I had</line>
-    <line>before forgotten, the <del rend="strikethrough">tr</del> threat of the fiend- <hi
+      <hi rend="underline">17--     </hi></line>
+    <milestone unit="tei:p"/>
+    <line>This letter revived in my memory what I had</line>
+    <line>before forgotten, the <del rend="strikethrough">tr</del> threat of the fiend.- <hi
         rend="underline">I will be</hi></line>
+    <!--as above, the underline does not span to the end of "be"-->
     <line><hi rend="underline">with you on your wedding night!</hi> Such was my</line>
   </zone>
 </surface>
