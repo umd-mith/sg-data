@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0017" ulx="0" uly="0" lrx="5410" lry="6660">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0017" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0017.tif"/>
-    <zone>
+    <zone type="pagination">
+      <line>119</line>
+    </zone>
+  <zone type="main">
+    <line>a breathless <!--might the author be inscribing a "sharp S" (ß-Unicode U+00DF) in place of our modern "SS" throughout this manuscript? We could go back and change these for diplomatic reasons-->terror but the horror of others appear</line>
+    <line>ed only as a mockery, a shadow of the feelings that op-</line>
+    <line>pressed me. I escaped from them to the room where</line>
+    <line>lay the body of Elizabeth, my love, my wife; so lately</line>
+    <line>living, so dear, so worthy. She had been moved from</line>
+    <line>the posture in which I had first beheld her and</line>
+    <line>now as she lay her head upon her arm, and a</line>
+    <line>handkerchief thrown across her face and neck I</line>
+    <line>mighthave supposed her asleep. I rushed towards</line>
+    <line>her, and embraced her with adrour but the <del rend="strikethrough">deathly</del></line>
+    <line>deathly languour of the limbs told me that what</line>
+    <line>I now held in my arms had ceased to be the Eliza</line>
+    <line>beth whom I had loved and cherished. <add place="superlinear">[Vol III-<!--unclear character. Also, might this intervention be an in-line pagination zone?--><metamark/>120]</add><metamark>[</metamark>Murder</line>
+    <line>ous mark of the fiend's grasp was on her neck,</line>
+    <line>and the breath had ceased to issue from her lips.</line>
+    <milestone unit="tei:p"/>
+    <line>While I still hung over her in the agony of</line>
+    <line>despair, I happened to look up. The <add place="superlinear">windows of the</add> room had</line>
+    <line>before been darkened, and I felt a kind of panic on</line>
+    <line>seeing the pale yellow light of the moon illumnate</line>
     </zone>
 </surface>
