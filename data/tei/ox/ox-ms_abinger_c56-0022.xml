@@ -5,6 +5,7 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0022.tif"/>
   <zone type="pagination" rend="bordered">53</zone>
   <zone type="main">
+    <milestone unit="tei:p"/>
     <line>I threw myself into the chaise</line>
     <line>that was to convey me away and in</line>
     <line>dulged in the most melancholy reflec</line>
@@ -14,9 +15,8 @@
     <line>mutual pleasure; I was now alone.</line>
     <line>In the university <del rend="strikethrough">wi</del> whither I was</line>
     <line>going I must form my own friends</line>
-    <line>and be my own <mod type="subst" resp="#pbs"><del rend="strikethrough">introduction </del>
-        <add place="superlinear">protector.</add>
-      </mod>. My</line>
+    <line>and be my own <mod><del rend="strikethrough">introduction</del><del rend="unmarked">.</del>
+        <add place="superlinear" resp="#pbs">protector.</add></mod> My</line>
     <line>life had hitherto been remarkably retired</line>
     <line>and domestic and this had given me</line>
     <line>an invincible repugnance to new <del rend="strikethrough">faces</del></line>
@@ -30,19 +30,22 @@
     <line>rose. I ardently desired knowledge</line>
     <line><del rend="strikethrough">and I</del><add><ptr target="#c56-0022.01"/></add> often when at
       home</line>
-    <line>thought <mod type="subst" resp="#pbs"><del rend="strikethrough">how</del><add place="superlinear">it</add></mod> hard <del rend="strikethrough">it was</del> to
+    <line>thought <mod><del rend="strikethrough">how</del><add place="superlinear" resp="#pbs">it</add></mod> hard <del rend="strikethrough">it was</del> to
       remain</line>
-    <line><add><ptr target="#c56-0022.02"/></add> cooped up in one place <del rend="strikethrough">all my</del></line>
-    <line><del rend="strikethrough">life</del> and <add place="superlinear" resp="#pbs">had</add>
+    <line><add><ptr target="#c56-0022.02"/></add> cooped up in one place <delSpan spanTo="#c56-0022.03" rend="strikethrough"/>all my</line>
+    <line>life<anchor xml:id="c56-0022.03"/> and <add place="superlinear" resp="#pbs">had</add>
       longed to enter into the</line>
-    <line><del rend="strikethrough">worth</del> world and take my <del rend="strikethrough">place</del></line>
+    <line><del rend="strikethrough">worth</del> world and take my 
+      
+      <!--introduce mod element. "station among" replaces "place with" -->
+      <del rend="strikethrough">place</del></line>
     <line>
       <mod>
         <del rend="strikethrough">with</del>
         <add place="superlinear">among</add>
         </mod> other human beings. <del rend="strikethrough">And</del></line>
     <line>now my desires were <del rend="strikethrough">cop</del> complyed</line>
-    <line>with &amp; it would <mod><add place="sublinear">^</add><add place="superlinear">indeed have</add>
+    <line>with <add place="intralinear">&amp;</add> it would <mod><add place="sublinear">^</add><add place="superlinear">indeed have</add>
         <del rend="strikethrough">be</del><del rend="strikethrough">indeed</del>
       </mod> be<add place="intralinear">en</add> folly to</line>
     <line>repent.</line>
