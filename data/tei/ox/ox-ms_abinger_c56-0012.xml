@@ -1,66 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0012" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0012.tif"/>
-  <zone>
-    <line>than mine. – <mod>
-        <del rend="overstrike">Our</del>
-        <add place="supralinear" hand="PBS">My</add>
-      </mod> parents were indul</line>
+  <zone type="pagination">42</zone>
+  <zone type="main">
+    <line>than mine. – <mod><del rend="strikethrough">Our</del> <add place="superlinear" resp="#pbs">My</add></mod> parents were indul</line>
     <line>gent, and my companions amiable.</line>
-    <line><del rend="overstrike">and our stud</del> Our studies were never</line>
+    <line><del rend="strikethrough">and our stud</del> Our studies were never</line>
     <line>forced, and by some means we al-</line>
     <line>ways had an end placed in view which</line>
-    <line>excited us to ardour. <add place="supralinear" hand="PBS">in the prosecution of
-        them.</add> It was by this <mod>
-        <del rend="overstrike">&#38;</del>
-        <add place="supralinear" hand="PBS">method</add>
-      </mod></line>
+    <line>excited us to ardour<add place="sublinear"><metamark>^</metamark></add>. <add
+        place="superlinear" resp="#pbs">in the prosecution of them.</add> It was by this <mod><del
+          rend="overstrike">&#38;</del>
+        <add place="superlinear" resp="#pbs">method</add></mod></line>
     <line>not by emulation that we were</line>
     <line>urged. Elizabeth was not told to apply</line>
-    <line>herself to drawing <mod>
-        <del rend="overstrike">or</del>
-        <add place="supralinear" hand="PBS">that</add>
-      </mod> her companions</line>
-    <line><mod>
-        <del rend="overstrike">would</del>
-        <add place="supralinear" hand="PBS">might not</add>
-      </mod> outstrip her, but <mod>
-        <del type="overwrite">she</del>
-        <add type="overwrite" hand="PBS">by</add>
-        <add place="supralinear" hand="PBS">the</add>
+    <line>herself to drawing <mod><del rend="overstrike">or</del>
+        <add place="supralinear" resp="PBS">that</add></mod> her companions</line>
+    <line><mod><del rend="overstrike">would</del>
+        <add place="supralinear" resp="PBS">might not</add></mod> outstrip her, but <mod><del
+          type="overwritten">she</del>
+        <add type="overwrite" resp="PBS">by</add>
+        <add place="supralinear" resp="PBS">the</add>
+        <add resp="PBS"><ptr target="#leftmargin_add1"/></add>
       </mod>
       <del rend="overstrike">was</del></line>
     <line><del rend="overstrike">knew how</del> pleas <mod>
         <del type="overwrite">ed</del>
-        <add type="overwrite" hand="PBS">ing</add>
+        <add type="overwrite" resp="PBS">ing</add>
       </mod> her Aunt <del rend="overstrike">would</del></line>
     <line><del rend="overstrike">be</del> by <mod>
         <del rend="overstrike">a painting</del>
-        <add place="supralinear" hand="PBS">the representation</add>
+        <add place="supralinear" resp="PBS">the representation</add>
       </mod> of some <del rend="overstrike">of her</del></line>
     <line>favourite scene<del rend="overstrike">s</del> done by her own</line>
     <line>hand. <del rend="overstrike">Latin</del> We learned Latin &#38;</line>
     <line>English <mod>
         <del rend="overstrike">to</del>
-        <add place="supralinear" hand="PBS">that we might</add>
+        <add place="supralinear" resp="PBS">that we might</add>
       </mod> read the writ<mod><del type="overwrite">ers</del>
-        <add type="overwrite" hand="PBS">ings</add></mod>
+        <add type="overwrite" resp="PBS">ings</add></mod>
       <mod>
         <del rend="overstrike">of</del>
-        <add place="supralinear" hand="PBS">in</add>
+        <add place="supralinear" resp="PBS">in</add>
       </mod> those</line>
     <line>languages and so far from study</line>
-    <add place="supralinear">r</add> begin rendered odious <del rend="overstrike">by</del> to us
-    though ^ punishment, we loved application <add place="supralinaer" hand="PBS">would have
-      been</add> and our amusements <del>were</del> the labours of other children. perhaps we did
-    not read so many books or learn a languages so quickly <add place="supralinear" hand="PBS">those
-      who are disciplined according to the ordinary</add> as <del>another child</del> but what we
-      <add place="sublinear" hand="PBS">method,</add>
-    <add place="sublinear" hand="PBS">the more deeply</add> learned was impressed on our ✗ <add
-      place="supralinear">Clerval,</add> memory. <del rend="overstrike">I include Hen</del> Henry
+    <line>begin rendered odious <del rend="overstrike">by</del> to us th<add place="sublinear"><metamark>^</metamark></add><add place="supralinear">r</add>ough</line>
+     <line>punishment, we loved application</line>
+   <line>and our amusements <mod><del rend="overstrike">were</del><add place="supralinear" resp="PBS">would have been</add></mod> the</line>
+     <line>labours of other children. perhaps</line> 
+       
+       we did not read so many books or
+    learn a languages so quickly <add place="supralinear" resp="PBS">those who are disciplined
+      according to the ordinary</add> as <del>another child</del> but what we <add place="sublinear"
+      resp="PBS">method,</add>
+    <add place="sublinear" resp="PBS">the more deeply</add> learned was impressed on our
+      <metamark>X</metamark>
+    <add place="supralinear">Clerval,</add> memory. <del rend="overstrike">I include Hen</del> Henry
       <del rend="overstrike">Carignan</del> he <del rend="overstrike">in this account</del> for
       was<del rend="overstrike">con</del> constantly ^ with us. he went to <del rend="overstrike"
       >sho</del> school with me and generally passed the afternoon at our house for </zone>
+  <zone>
+    <line><add resp="PBS">desire of</add></line>
+  </zone>
+  <zone><line><metamark>X</metamark>In <mod><del rend="overstrike">this</del><add
+          place="supralinear" resp="PBS">the</add></mod> descrip</line>
+    <line>tion of our do</line>
+    <line>mestic circle</line>
+    <line>I include</line>
+  </zone>
 </surface>
