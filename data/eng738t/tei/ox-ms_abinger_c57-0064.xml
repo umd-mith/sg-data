@@ -9,25 +9,25 @@
     <line>&amp; loaded me with<del rend="strikethrough">e</del> epithets which carried</line>
     <line>despair to my heart — I grasped his throat</line>
     <line>to silence him &amp; in a moment he lay</line>
-    <line>dead at my feet.&gt;<milestone unit="paragraph"/></line>
+    <line>dead at my feet.<milestone unit="paragraph"/></line>
     <line>I gazed on my victim and my heart</line>
     <line>swelled with exultation and hellish</line>
     <line>triumph — <del rend="strikethrough">I</del> clapping my hands <del rend="strikethrough">&amp;</del> I exclaimed</line>
-    <line>I <del rend="strikethrough">too</del><add place="superlinear"><mod resp="#pbs">too</mod></add> can <del rend="strikethrough">destroy</del><add place="superlinear"><mod resp="#pbs">make desolate</mod></add> — My enemy is not impreg</line>
+    <line>I <del rend="strikethrough">too</del><mod><add place="superlinear" resp="#pbs">too</add></mod> can <mod><del rend="strikethrough">destroy</del><add place="superlinear" resp="#pbs">make desolate</add></mod> — My enemy is not impreg</line>
     <line>nable; this death will carry despair to</line>
     <line>him &amp; a thousand thousand others<metamark>‸</metamark><add place="superlinear">miseries</add></line>
     <line><del rend="strikethrough">will d</del> shall torment &amp; destroy him.</line>
     <line>As I fixed my eyes on the child I saw</line>
-    <line>something glittering on his breast — I took it</line>
+    <line><add place="intralinear">some</add><note>'some' prepended to 'thing' in left margin in script somewhat differing from line, suggesting it is correction after 1st writing of line</note>thing glittering on his breast — I took it</line>
     <line>I was the portrait of a most lovely woman.</line>
     <line>In spite of my malignity <del rend="strikethrough">and horro</del> it</line>
     <line>softened and attracted me. for a few</line>
     <line>moments I gazed with delight on her</line>
-    <line>dark <add place="superlinear"><mod resp="#pbs">deep</mod></add><del rend="strikethrough">black</del> eyes &amp; lovely lips but</line>
+    <line>dark <mod><add place="superlinear" resp="#pbs">deep</add><del rend="strikethrough">black</del></mod> eyes &amp; lovely lips but</line>
     <line>presently my rage returned: I remembered</line>
     <line>that I was for ever deprived of the</line>
-    <line>delights such <unclear><del rend="strikethrough">ba</del></unclear> beautiful creatures</line>
-    <line>could bestow — and that <add place="superlinear"><del rend="strikethrough">the cont</del></add> she whose</line>
+    <line>delights such <del rend="strikethrough"><unclear reason="illegible without longer-word context to disambiguate characters by inference">ba</unclear></del> beautiful creatures</line>
+    <line>could bestow — and that <del rend="strikethrough"><add place="superlinear">the cont</add></del> she whose</line>
     <line>resemblance I contemplated <del rend="strikethrough">wh</del> would, </line>
     <line><del rend="strikethrough">have</del> <del rend="strikethrough">ch</del> in regarding me have, changed</line>
     <line>that air of divine benignity to one of</line>

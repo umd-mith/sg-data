@@ -9,36 +9,36 @@
   <line>in my power to bestow.  You swear, I said, to</line>
   <line>be harmless but have you not already shown</line>
   <line>a degree of malise that would reasonably</line>
-  <line>make me distrust you?  May not even this</line>
+    <line>make me distrust you?  May not eve<add place="sublinear">n</add> this</line>
   <line>be a feint that will encrease your triumph</line>
-    <line><del rend="strikethrough">&amp; desire of revenge</del><add place="superlinear"><mod resp="#pbs">by affording a wider scope to your revenge.</mod></add></line>
+    <line><mod><del rend="strikethrough">&#x0026; desire of revenge</del><add place="sublinear">resp="#pbs">by affording a wider scope to your revenge.</add></mod></line>
   <line>How is this, cried he; I thought I had moved</line>
     <line>your compassion, and yet you still refuse to</line>
-    <line><add place="intralinear">bestow on</add><del rend="strikethrough">give</del> me the only benefit that <add place="superlinear"><mod resp="#pbs">can</mod></add>soften my</line>
+    <line><add place="intralinear">bestow on</add><del rend="strikethrough">give</del> me the only benefit that <mod><add place="superlinear" resp="#pbs">can</add></mod>soften my</line>
     <line>heart and render me harmless.  If I</line>
-    <line>have no ties &amp; no affections hatred &amp; vice</line>
+    <line>have no ties &#x0026; no affections hatred &#x0026; vice</line>
     <line>must be my portion.  The love of another</line>
-    <line>will destroy the cause of my crimes &amp; I shall</line>
+    <line>will destroy the cause of my crimes &#x0026; I shall</line>
     <line>become a thing of whose existence every</line>
     <line>one will be ignorant.  My vices are</line>
     <line><del rend="strikethrough">ch</del> the children of <metamark>&#x2038;</metamark><add place="superlinear">a</add>forced solitude that I</line>
     <line>abhor and my virtues will necessarily arise</line>
-    <line>when <add place="superlinear"><del rend="strikethrough"><mod resp="#pbs">sh</mod></del></add> I <add place="superlinear"><mod resp="#pbs">shall</mod></add>receive the sympathy of an equal.</line>
-    <line>I shall feel <del rend="strikethrough">human</del><add place="superlinear"><mod resp="#pbs">the</mod></add> <del rend="strikethrough">sy</del> <del rend="strikethrough">f</del> affections <metamark>‸</metamark> <add place="superlinear"><mod resp="#pbs">of a living being</mod></add> &amp;</line>
+    <line>when <mod><del rend="strikethrough"><add place="superlinear" resp="#pbs">sh</add></del></mod> I <mod><add place="superlinear" resp="#pbs">shall</add></mod>receive the sympathy of an equal.</line>
+    <line>I shall feel <del rend="strikethrough">human</del><mod><add place="superlinear" resp="#pbs">the</add></mod> <del rend="strikethrough">sy</del> <del rend="strikethrough">f</del> affections <metamark>&#x2038;</metamark> <mod><add place="superlinear" resp="#pbs">of a living being</add></mod> &#x0026;</line>
     <line>become linked to the chain of existence</line>
-    <line>&amp; events from which I am now excluded <milestone unit="paragraph"/></line>
-    <line>I paused some time <metamark>‸</metamark><add place="superlinear">to</add>reflect on all</line>
+    <line>&#x0026; events from which I am now excluded <milestone unit="paragraph"/></line>
+    <line>I paused some time <metamark>&#x2038;</metamark><add place="superlinear">to</add>reflect on all</line>
     <line>he had related and the various arguments</line>
-    <line><add place="intralinear"><mod resp="#pbs">which</mod></add><del rend="strikethrough">that</del> he had <del rend="strikethrough">used</del><add place="superlinear"><mod resp="#pbs">employed</mod></add>.  I thought of his <del rend="strikethrough">pro—</del></line>
-    <line><del rend="strikethrough">mises &amp; threats</del> the <del rend="strikethrough">various</del> <add place="superlinear"><mod resp="#pbs">promise of</mod></add> virtues <add place="superlinear"><mod resp="#pbs">which</mod></add>he</line>
+    <line><mod><add place="intralinear" resp="#pbs">which</add><note>Transcriber Robinson has "which" as marginal not intralinear -- LT and I (QC/PGS) have been systematically marking these marginal additions of single words as intralinear (files 0062-0071)--CLEANUP NEEDED?</note><del rend="strikethrough">that</del></mod> he had <mod><del rend="strikethrough">used</del><add place="superlinear" resp="#pbs">employed</add></mod>.  I thought of his <delSpan rend="strikethrough" spanTo="#threats_deleted"/>pro—</line>
+    <line>mises &#x0026; threats<anchor xml:id="threats_deleted"/> the <mod><del rend="strikethrough">various</del> <add place="superlinear" resp="#pbs">promise of</add></mod> virtues <mod><add place="superlinear" resp="#pbs">which</add></mod> he</line>
     <line>had displayed on the opening of his exis</line>
-    <line><add place="intralinear">tence;</add>and the subsequent blight <add place="superlinear"><mod resp="#pbs">of all</mod></add><del rend="strikethrough">caused by</del></line>
-    <line>the <add place="superlinear"><mod resp="#pbs">kindly feelings by</mod></add>detestation &amp; horror  <add place="superlinear"><mod resp="#pbs">inspired by</mod></add><del rend="strikethrough">that his</del></line>
+    <line><add place="intralinear">tence;</add> and the subsequent blight <mod><add place="superlinear" resp="#pbs">of all </add><del rend="strikethrough">caused by</del></mod></line>
+    <line>the <mod><add place="superlinear" resp="#pbs">kindly feelings by</add></mod> detestation &#x0026; horror  <mod><add place="superlinear" resp="#pbs">inspired by</add><del rend="strikethrough">that his</del></mod><note> this "inspired by" doesn't make much sense--mistake by PBS?--placement in ms looks correctly transcri</note></line>
     <line>protectors had manifested towards</line>
-    <line>him.  His power &amp; threats were not</line>
+    <line>him.  His power &#x0026; threats were not</line>
     <line>ommitted in my calculations; a crea</line>
     <line>ture who could exist among the ice caves</line>
-    <line>of the glaciers &amp; hide himself from per</line>
+    <line>of the glaciers &#x0026; hide himself from per</line>
     <line>suit in <add place="superlinear">the ridges</add>inaccessible precepieces was</line>
     </zone>
 </surface>
