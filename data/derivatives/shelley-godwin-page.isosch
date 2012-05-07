@@ -80,22 +80,4 @@ values for @target</assert>
 values for @target</assert>
       </rule>
    </pattern>
-   <pattern id="alt-constraint-altTargets1">
-      <rule context="tei:alt">
-         <report test="@target and @targets">You may not supply both 
-	@target and @targets</report>
-      </rule>
-   </pattern>
-   <pattern id="alt-constraint-altTargets2">
-      <rule context="tei:alt">
-         <report test="not(@target) and not(@targets)">You must
-	supply either @target or @targets</report>
-      </rule>
-   </pattern>
-   <pattern id="alt-constraint-altTargets3">
-      <rule context="tei:alt">
-         <assert test="contains(@target,' ')">You must supply at least two
-values for @target</assert>
-      </rule>
-   </pattern>
 </schema>

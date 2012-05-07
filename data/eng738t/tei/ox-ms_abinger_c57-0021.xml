@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0021" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  <graphic url="../../images/ox/ox-ms_abinger_c57-0021.tif"/>
+  <zone type="pagination" rend="bordered">20</zone>
+  <zone type="library">11</zone>
+    <zone type="main">
+      <line>I sympathized in their joys.  I saw few</line>
+      <line>human beings besides them, and if</line>
+      <line>any other happened to enter the cottage</line>
+      <line>their harsh <del rend="strikethrough">and rud</del> manners &#x0026; rude</line>
+      <line>gait only enhanced to me <del rend="strikethrough">th</del> <del rend="strikethrough">my friends</del></line>
+      <line><add><ptr target="#c57-0021.a"/></add>the superior advantages of m<add resp="#pbs">y</add> friends.</line>
+      <line>The <del rend="strikethrough">Father</del> old man, I could percieve,</line>
+      <line>often endeavoured to encourage his</line>
+      <line>children as I sometimes found that</line>
+      <line>he called them <add place="sublinear"><metamark>&#x2038;</metamark></add><add resp="#pbs" place="superlinear">to case off their melancholy.</add>  He would talk in</line>
+      <line>a cheerful accent with an <del rend="strikethrough">aspect</del><add place="superlinear">expression of</add></line>
+      <line><del rend="strikethrough">godn</del> goodness that <del rend="strikethrough">even</del> <del rend="strikethrough">gave</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">bestowed pleasure</add> <del rend="strikethrough">me</del> <del rend="strikethrough">delight.</del></line>
+      <line><add><ptr target="#c57-0021.01"/></add>Agatha listened with respect&#x2014;her eyes</line>
+      <line><del rend="strikethrough">f</del> somethimes filled with tears which</line>
+      <line><add><ptr target="#c57-0021.03"/></add> wipe<del rend="strikethrough">d</del> away unpercieved but I general</line>
+      <line>ly found that her manners and tone</line>
+      <line>were more cheerful after having listen</line>
+      <line>end to <del rend="strikethrough">the</del> the exhortations of her father</line>
+      <line>It was not thus with Felix.  He was</line>
+      <line>always the saddest of the groupe and</line>
+      <line>even to my unpractised senses he</line>
+      <line>appeared to have suffered more</line>
+      <line>deeply than his friends.  But if his</line>
+      <line>countenance was more sorrowful</line>
+      <line>his voice was more cheerful than</line>
+      <line><add><ptr target="#c57-0021.05"/></add> his sister<del rend="strikethrough">es</del> expecially when he</line>
+      <line>addressed the old man &#x2014;</line>
+    </zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0021.a" spanTo="#c57-0021.b"/>
+    <add><figure><desc>faint PBS pencil sketch of trees</desc></figure></add>
+    <anchor xml:id="c57-0021.b"/></zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0021.01" spanTo="#c57-0021.02"/>
+    <line>even on me;</line>
+    <anchor xml:id="c57-0021.02"/></zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0021.03" spanTo="#c57-0021.04"/>
+    <line>she endeavoured to</line>
+    <anchor xml:id="c57-0021.04"/></zone>
+  <zone type="left_margin"><addSpan xml:id="c57-0021.05" spanTo="#c57-0021.06"/>
+    <line>that of</line>
+    <anchor xml:id="c57-0021.06"/></zone>
+</surface>
