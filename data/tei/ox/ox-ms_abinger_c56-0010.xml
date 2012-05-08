@@ -6,7 +6,7 @@
   <zone type="library">3v</zone>
   <zone type="main">
     <line><del rend="strikethrough">if any one would <unclear>follow him.</unclear>
-          I went </del>but<add resp="#pbs" place="superlinear">Some accident prevented my attending the <del
+          I went </del>but <add resp="#pbs" place="superlinear">Some accident prevented my attending the <del
             rend="strikethrough">series of</del> these lectures</add></line>
     <line><del rend="strikethrough">this lecture was unfortunately nearly
       the</del><add place="superlinear" resp="#pbs">until <del rend="strikethrough">they were nearly over </del>
@@ -19,40 +19,42 @@
     <line>Boron <del rend="strikethrough">zinc bismuth-</del> of sulphats and oxids</line>
     <line><del rend="strikethrough">and displayed</del> <del rend="strikethrough">so many</del> <del rend="strikethrough">words</del>
       <add resp="#pbs" place="superlinear">terms</add> to which</line>
-    <line>I could <del rend="strikethrough">not</del> affix <del rend="strikethrough">any</del><add resp="#pbs" place="superlinear">no</add> idea<add resp="#pbs"
+    <line>I could <del rend="strikethrough">not</del> affix <del rend="strikethrough">any</del><add resp="#pbs" place="superlinear">no</add> idea<add resp="#pbs" place="intralinear"
         >:</add>
       <del rend="strikethrough">that</del> I was </line>
-    <line>disgusted with <del rend="strikethrough">the appearance of</del> a science</line>
+    <line>disgusted with <del rend="strikethrough">the appearance </del> <del rend="strikethrough">of</del> a science</line>
     <line>that appeared to me to contain only words.</line>
+    <milestone unit="tei:p"/>
     <line>From this time untill I went to</line>
     <line>Colledge I entirely neglected my formerly</line>
-    <line>adored study of <del rend="strikethough"
+    <line>adored study of <del rend="strikethrough"
         >chemistry</del><!-- The Word file give PBS resp for the phrase 'natural philosophy but not for 'the science of'. 
           Encoder believes this should be reversed given ink color and shape of letter 'Y' in philosophy- it matches MWS. --><add
         resp="#pbs" place="superlinear">the science of</add><add place="superlinear"> natural
         philosophy</add> although I still</line>
     <line>read with delight Pliny and Buffons</line>
-    <line>authors <del rend="strikethrough">that stood about on a par</del><add resp="#pbs"
-        place="superlinear"><del>ar of</del></add></line>
+    <line>authors <del rend="strikethrough">that stood</del><add resp="#pbs"
+      place="superlinear"><del rend="strikethrough">ar of</del></add> <del rend="strikethrough">about on</del> <del rend="strikethrough">a par</del></line>
     <line>in my estimation <add resp="#pbs" place="intralinear">of nearly equal interest &amp;
         utility</add></line>
+    <milestone unit="tei:p"/>
     <line>My <del rend="strikethrough">studies</del>
       <add resp="#pbs" place="superlinear">occupations</add> at this age were <del
         rend="strikethrough">th</del> principally the</line>
-    <line>mathematics, <del rend="strikethrough">which I delighted in an</del> and most</line>
+    <line>mathematics, <del rend="strikethrough">which I delighted</del><del rend="strikethrough"> in an</del> and most</line>
     <line>of the branches of study appertaining <del rend="strikethrough">th</del> to that</line>
     <line>science. I was also busily employed in learning</line>
-    <line>languages Latin was <metamark >^</metamark><add resp="#pbs"
+    <line>languages Latin was <metamark >&#x2038;</metamark><add resp="#pbs"
         place="superlinear">already</add> familiar to me and I began to</line>
     <line>read without the help of the <del rend="strikethrough">dictionary</del>
       <add resp="#pbs" place="superlinear">lexicon</add> some of the</line>
     <line>easiest greek authors. I <add place="superlinear">also</add> understood English
       &amp;</line>
-    <line>german perfectly. th<del rend="overwritten">ese</del><add>is</add>
+    <line>german perfectly. th<del rend="overwritten">ese</del><add place="intralinear">is</add>
       <del rend="strikethrough">are</del>
       <add place="superlinear">is</add> list of my accom</line>
-    <line>plishments at<del rend="strikethrough"> that time </del><add resp="#pbs"
-        place="superlinear"><del rend="strikethrough">the period</del> the age of</add> and you
+    <line>plishments at<del rend="strikethrough"> that </del><add resp="#pbs"
+      place="superlinear"><del rend="strikethrough">the period</del> the age of</add><del rend="strikethrough">time </del> and you
       may</line>
     <line>conceive that my hours were fully employd</line>
     <line>in acquiring and maintaining a knowledge</line> 
