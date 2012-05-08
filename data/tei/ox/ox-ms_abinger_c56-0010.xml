@@ -6,15 +6,15 @@
   <zone type="library">3v</zone>
   <zone type="main">
     <line><del rend="strikethrough">if any one would <unclear>follow him.</unclear>
-          I went but</del><add resp="#pbs" place="superlinear">Some accident prevented my attending the <del
+          I went </del>but<add resp="#pbs" place="superlinear">Some accident prevented my attending the <del
             rend="strikethrough">series of</del> these lectures</add></line>
     <line><del rend="strikethrough">this lecture was unfortunately nearly
-      the</del><add place="superlinear" resp="#pbs">until <del rend="stikethrough">they were nearly over
-            they</del> it was nearly finihsed. The</add></line>
-    <line><del rend="strikethrough">last</del> in his course-<metamark>&#x2038;</metamark><add resp="#pbs"
-          place="sublinear">was intirely incomprehensible to me.</add> the professor talked<add
-          place="superlinear">lecture which I attended being thus <del rend="strikethrough"
-            >the</del> almost the last <del rend="strikethrough">in his</del></add></line>
+      the</del><add place="superlinear" resp="#pbs">until <del rend="strikethrough">they were nearly over </del>
+            <del rend="strikethrough">they</del> it was nearly finihsed. The</add></line>
+    <line><add
+      place="superlinear">lecture which I attended being thus <del rend="strikethrough"
+        >the</del> almost the last <del rend="strikethrough">in his </del></add><del rend="strikethrough">last</del> in his course-<metamark>&#x2038;</metamark><add resp="#pbs"
+          place="sublinear">was intirely incomprehensible to me.</add> the professor talked</line>
     <line>with the greatest fluency of potassium &amp;</line>
     <line>Boron <del rend="strikethrough">zinc bismuth-</del> of sulphats and oxids</line>
     <line><del>and displayed so many words</del>
