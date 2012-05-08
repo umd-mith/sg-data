@@ -5,24 +5,6 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0132" ulx="0" uly="0" lrx="5078" lry="7304" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0132.tif"/>
-  <zone type="pagination">128</zone>
-  <zone type="main">
-    <line>with accuracy, and never deviating into invective or</line>
-    <line>exclamation.</line>
-    <line><milestone unit="tei:p"/><metamark>[</metamark>The magistrate appeared at first
-      per-</line>
-    <line>fectly incredulous but as I continued he became more</line>
-    <line>attentive and interrested; I saw him sometimes shud</line>
-    <line>der with horror, at others a lively surprise unmin</line>
-    <line>gled with disbelief was painted on his countenance.</line>
-    <line><milestone unit="tei:p"/><metamark>[</metamark>When I had concluded my narration I said:<metamark>&#8213;</metamark></line>
-    <!-- There is no quotation mark int the manuscript, but there is an end quotation mark, so I assume this should be here? -->
-    <line><milestone unit="tei:p"/><metamark>&#8213;</metamark><milestone unit="tei:q" spanTo="#c56.0132.01"/>This is the being whom I accuse and for whose</line>
-    <line>detection and punishment I call upon you to exert</line>
-    <line>your whole power. It is your duty as a magistrate</line>
-    <line>and I believe and hope that your feelings as a</line>
-    <line>man will not <del rend="strikethrough">revold</del> revolt from the execution of</line>
-    <line>those functions on this occasion."<anchor xml:id="c56.0132.01"/></line>
-    <line><milestone unit="tei:p"/>This address caused a considerable change in the</line>
+  <zone>
   </zone>
 </surface>
