@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0042" ulx="0" uly="0" lrx="5410" lry="6660">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0042" ulx="0" uly="0" lrx="5410" lry="6660"
+  partOf="#ox-ms_abinger_c58-0042">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0042.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">154</zone>
+  <zone type="main">
+    <line>suddenly change to an expression of the wildest</line>
+    <line>rage as he shrieked out <del rend="strikethrough">his</del> imprecations on his per</line>
+    <line>-secutor</line>
+    <line>His tale is connected and told with an appearance</line>
+    <line>of <del rend="strikethrough">truth</del> the simplest truth, yet I own to you that</line>
+    <line>the letters of Felix and Safie which he shewed me,</line>
+    <line>and the apparition of the monster seen from our ship</line>
+    <line>brought to me a greater conviction of the truth of </line>
+    <line>his narrative than his asservations however earnest </line>
+    <line>and connected. Such a monster has then really existence;</line>
+    <line>I cannot doubt it, yet I am lost in surprise and </line>
+    <line>admiration. Sometimes I endeavoured to gain from Fran-</line>
+    <line>kenstein the particulars of his creature's formation, but </line>
+    <line>on this point he was impenetrable. Are you mad, my</line>
+    <line>friend? said he, or whither does your senseless curiosity</line>
+    <line>lead you? Would you also create for yourself and the</line>
+    <line>world a d&#xe6;moniac&#xe6;<del rend="strikethrough">l</del> enemy? or to what do your
+      questions</line>
+    <line>lend? Peace, peace! learn my miseries and do not seek</line>
+    <!-- encoder changed "tend" at this beginning of this line, as transcribed in Word docs, to "lend" after comparison with "lead" two lines up -->
+  </zone>
 </surface>
