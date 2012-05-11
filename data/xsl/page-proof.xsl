@@ -199,6 +199,7 @@
     </xsl:for-each-group>
   </xsl:template>
 
+<!-- FIXME: If more than one ptr in a line, need to process all of them -->
 <xsl:template name="process_margin">
   <xsl:variable name="target">
     <xsl:value-of select="substring-after(descendant::tei:ptr/@target, '#')"/>
