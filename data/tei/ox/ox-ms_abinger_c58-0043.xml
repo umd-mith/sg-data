@@ -9,6 +9,7 @@
   <zone type="library">22</zone>
   <zone type="main">
     <line>to encrease your own.</line>
+    <!-- "or" does not look crossed out to me, but here we are since the Word document says so -->
     <milestone unit="tei:p"/><line>Frankenstein discovered <mod>
         <del rend="strikethrough">or</del>
         <add place="sublinear">&#x2038;</add><add place="superlinear">that I</add>
