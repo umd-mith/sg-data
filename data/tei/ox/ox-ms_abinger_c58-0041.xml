@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0041" ulx="0" uly="0" lrx="5410" lry="6660">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0041" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58-0041">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0041.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">153</zone>
+  <zone type="top">Walton, in continuation</zone>
+  <zone type="main">
+    <line>August 26- 17&#x2014;</line>
+    <line>You have read this strange and terrific story Mar</line>
+    <line>geret, and do you not feel your blood congealed with</line>
+    <line>horror like that which even now curdles mine. Some</line>
+    <line>times seized with sudden agony he could not continue</line>
+    <line>his tale, at others his voice broken yet piercing uttered</line>
+    <line>with difficulty the words so replete with agony.</line>
+    <line>His fine and lovely eyes were now lighted up with indignation,</line>
+    <line>now subdued to downcast sorrow and infinite wretch</line>
+    <line>edness. Sometimes he commanded his countenance and </line>
+    <line>tones and related the most horrible incidents with a</line>
+    <line>tranquil voice suppressing every mark of agitation,</line>
+    <line>then like a volcano bursting forth his face would</line>
+  </zone>
 </surface>
