@@ -1,65 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0075" ulx="0" uly="0" lrx="5364" lry="7104">
+  xml:id="ox-ms_abinger_c56-0075" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0075.tif"/>
-  <zone type="pagination">105</zone>
-  <zone type="library" rend="bordered">35</zone>
+  <zone type="pagination" rend="bordered">105</zone>
+  <zone type="library">35</zone>
   <zone type="main">
     <line>blooming &#38; active in health stretch</line>
     <line>ed on the grass livid and motionless–</line>
     <line>the print of the murderers finger was</line>
     <line>on his neck.</line>
     <milestone unit="tei:p"/><line>He was conveyed home and the</line>
-    <line><del rend="strikethrough">extreme</del> <del rend="strikethrough">wh</del> <del rend="strikethrough">misery</del><add place="superlinear">anguish</add> <del rend="strikethrough">agony</del> that was</line>
+    <line><del rend="strikethrough">extreme</del>
+      <del rend="strikethrough">wh</del>
+      <mod><del rend="strikethrough">misery</del><add place="superlinear">anguish</add></mod>
+      <del rend="strikethrough">agony</del> that was</line>
     <line>visible in my countenance revealed</line>
-    <line>the secret to Elizabeth. She was <delSpan rend="strikethrough" spanTo="#c56-0075.01"/>extreme</line>
-    <line>ly <anchor xml:id="c56-0075.01"/><add><ptr target="#c56-0075.03"/></add> earnest to see the corpse. 
-      <mod next="#c56-0075.02">
-          <del rend="strikethrough">which</del><del rend="strikethrough">for a</del>
-          <add place="sublinear">&#x2038; </add><add place="superlinear" resp="#pbs"><del rend="strikethrough">I</del></add>
-      </mod></line>
-    <line>
-      <mod xml:id="c56-0075.02">
-        <del rend="strikethrough">long time</del><del rend="strikethrough">refused</del>
-        <add><ptr target="#c56-0075.04"/></add><add place="superlinear" resp="#pbs">attempted to prevent her</add>
-      </mod> but <del rend="strikethrough"><unclear>?</unclear></del> she persisted,</line>
+    <line>the secret to Elizabeth. She was <delSpan rend="strikethrough" spanTo="#c56-0075.01"
+      />extreme</line>
+    <line>ly <anchor xml:id="c56-0075.01"/><add><ptr target="#c56-0075.03"/></add> earnest to see
+      the corpse. <mod><mod next="#c56-0075.02">
+          <del rend="strikethrough">which</del><add place="sublinear">&#x2038;</add><del
+            rend="strikethrough"><add place="superlinear" resp="#pbs">I</add></del>
+          <delSpan spanTo="#c56-0075.05" rend="strikethrough"/>for a</mod></mod></line>
+    <line><mod><mod xml:id="c56-0075.02">long time<anchor xml:id="c56-0075.05"/>
+          <del rend="strikethrough">refused</del>
+          <add><ptr target="#c56-0075.04"/></add><add place="superlinear" resp="#pbs">attempted to
+            prevent her</add></mod></mod> but <del rend="strikethrough"><unclear unit="chars"
+          extent="1"/></del> she persisted,</line>
     <line>and entering the room where it lay</line>
     <line><del rend="strikethrough">quickly</del> hastily examined the neck of</line>
     <line>the victim and clasping her <del rend="strikethrough">hads</del></line>
     <line>hands exclaimed— <del rend="strikethrough">Go</del> Oh God! I have</line>
-    <line>murdered <del rend="strikethrough">this sweet</del> <del rend="strikethrough">babe</del>. my darling</line>
+    <line>murdered <del rend="strikethrough">this sweet</del>
+      <del rend="strikethrough">babe</del>. my darling</line>
     <line>infant.</line>
     <milestone unit="tei:p"/><line>She fainted and was retored with</line>
     <line>extreme difficulty; <del rend="strikethrough">and</del> when she again</line>
     <line>lived it was only to weep and sigh–</line>
     <line>She told me that that same evening</line>
     <line>William had teazed her to let him</line>
-    <line><del rend="strikethrough">we</del> <del rend="strikethrough">we</del> wear a very valuable miniature</line>
+    <line><del rend="strikethrough">we</del>
+      <del rend="strikethrough">we</del> wear a very valuable miniature</line>
     <line>she possessed of your Mother. This</line>
     <line>picture is gone and was doubtless</line>
     <line>the temptation which urged the mur</line>
     <line>derer to the deed. We have no trace</line>
-    <line><del rend="strikethrough">of</del> <del rend="strikethrough">Come my dear Victor</del> <del rend="strikethrough">him</del> at</line>
-    <line>present of him, 
-      <mod>
-        <del rend="strikethrough">but</del>
-        <add place="superlinear" resp="#pbs">altho</add>
-      </mod> our exertions 
-      <mod>
+    <line><del rend="strikethrough">of</del>
+      <del rend="strikethrough">Come my dear Victor</del>
+      <del rend="strikethrough">him</del> at</line>
+    <line>present of him, <mod><del rend="strikethrough">but</del><add place="superlinear"
+          resp="#pbs">altho</add></mod> our exertions <mod>
         <del rend="strikethrough">are</del>
-        <add place="superlinear" resp="#pbs">to discover him</add>
-      </mod></line>
+        <add place="superlinear" resp="#pbs">to discover him</add></mod></line>
     <line>are unremitted; but they will not restore</line>
     <line>my beloved William.</line>
-    <milestone unit="tei:p"/><line>Come, dearest Victor, you alone can </line>
+    <milestone unit="tei:p"/><line>Come, dearest Victor, you alone can</line>
   </zone>
   <zone type="left_margin">
-    <add xml:id="c56-0075.03"/>
-    <line>very</line>
+    <line><add xml:id="c56-0075.03">very</add></line>
   </zone>
   <zone type="left_margin">
-    <add resp="#pbs" xml:id="c56-0075.04"/>
-    <line>At first I</line>
+    <line><add resp="#pbs" xml:id="c56-0075.04">At first I</add></line>
   </zone>
 </surface>
