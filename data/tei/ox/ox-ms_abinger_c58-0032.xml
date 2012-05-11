@@ -17,11 +17,11 @@
     <line>were dead and I lived; their murderer also lived and to </line>
     <line>destroy him I must drag out my weary existence. I </line>
     <line>knelt on the earth and with quivering lips exclaimed;</line>
-    <milestone unit="tei:q" spanTo="#c58-0032.1"/><line><metamark>"</metamark>By the sacred earth on which I kneel, by the</line>
+    <milestone unit="tei:q" spanTo="#c58-0032.01"/><line><metamark>"</metamark>By the sacred earth on which I kneel, by the</line>
     <line>shades that wander near me, by the deep and eternal</line>
     <line>grief that I feel, I swear; And by thee, <del rend="strikethrough">oh</del> O night, and</line>
     <line>by the spirits that preside over thee, I swear to</line> 
-    <line>pursue the d&#xe6;mon who caused this misery untill</line><anchor xml:id="c58-0032.1"/>
+    <line>pursue the d&#xe6;mon who caused this misery untill</line><anchor xml:id="c58-0032.01"/>
   </line>
   </zone>
 </surface>
