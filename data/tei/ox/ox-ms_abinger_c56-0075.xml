@@ -24,7 +24,7 @@
             rend="strikethrough"><add place="superlinear" resp="#pbs">I</add></del>
           <delSpan spanTo="#c56-0075.05" rend="strikethrough"/>for a</mod></mod></line>
     <line><mod><mod xml:id="c56-0075.02">long time<anchor xml:id="c56-0075.05"/>
-          <del rend="strikethrough">refused</del>
+          <del rend="strikethrough"> refused</del>
           <add><ptr target="#c56-0075.04"/></add><add place="superlinear" resp="#pbs">attempted to
             prevent her</add></mod></mod> but <del rend="strikethrough"><unclear unit="chars"
           extent="1"/></del> she persisted,</line>
@@ -61,6 +61,6 @@
     <line><add xml:id="c56-0075.03">very</add></line>
   </zone>
   <zone type="left_margin">
-    <line><add resp="#pbs" xml:id="c56-0075.04">At first I</add></line>
+    <line><add xml:id="c56-0075.04" resp="#pbs">At first I</add></line>
   </zone>
 </surface>
