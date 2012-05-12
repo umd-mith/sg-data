@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0107" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0107" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56-0107">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0107.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">137</zone>
+  <zone type="library">51</zone>
+  <zone type="main">
+    May this be the last misfortune that 
+    you will ever suffer- live &#x26; be happy
+    to make of others so.
+    As We returned Elizabeth said, You
+    do not know, my dear Victor, w how
+    much I am relieved now that I trust
+    in the innocence of this unfortunate
+    girl. I never could again have
+    known peace if I had been deceived
+    in my reliance on her. For the mo
+    ment that I did believe it I felt
+    such anguish that I could not have
+    long sustained how my heart is light
+    ened. The innocent suffers- but she
+    whom I thought amiable and good
+    is not wicked and I am consoled."
+    Amiable Sweet Cousin! Such were your 
+    thoughts mild and gentle as your 
+    dear eyes &#x26; gentle tone and voice
+    but I. 
+    
+  </zone>
 </surface>
