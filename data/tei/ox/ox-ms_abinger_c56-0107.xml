@@ -8,26 +8,32 @@
   <zone type="pagination">137</zone>
   <zone type="library">51</zone>
   <zone type="main">
-    May this be the last misfortune that 
-    you will ever suffer- live &#x26; be happy
-    to make of others so.
-    As We returned Elizabeth said, You
-    do not know, my dear Victor, w how
-    much I am relieved now that I trust
-    in the innocence of this unfortunate
-    girl. I never could again have
-    known peace if I had been deceived
-    in my reliance on her. For the mo
-    ment that I did believe it I felt
-    such anguish that I could not have
-    long sustained how my heart is light
-    ened. The innocent suffers- but she
-    whom I thought amiable and good
-    is not wicked and I am consoled."
-    Amiable Sweet Cousin! Such were your 
-    thoughts mild and gentle as your 
-    dear eyes &#x26; gentle tone and voice
-    but I. 
-    
+    <line>May this be the last misfortune that</line> 
+    <line>you will ever suffer&#x2013; live &#x26; be happy</line>
+    <line>to make <del rend="strikethrough">of</del> others so.</line>
+    <milestone unit="tei:p"/><line>As We returned Elizabeth said, <milestone unit="tei:q" spanTo="#c56-0107.01"/>You</line>
+    <line>do not know, my dear Victor, <del rend="strikethrough">w</del> how</line>
+    <line>much I am relieved now that I trust</line>
+    <line>in the innocence of this unfortunate</line>
+    <line>girl. I never could again have</line>
+    <line>known peace if I had been deceived</line>
+    <line>in my reliance on her. For the mo</line>
+    <line>ment that I did believe it I felt</line>
+    <line><del rend="strikethrough">such</del> anguish that I could not have</line>
+    <line>long sustained. Now my heart is light</line>
+    <line>ened. The innocent suffers&#x2013; but she</line>
+    <line>whom I thought amiable and good</line>
+    <line>is not wicked and I am consoled.<metamark>"</metamark><anchor xml:id="c56-0107.01"/></line>
+    <milestone unit="tei:p"/><line><mod><add place="intralinear">Amiable</add> <del rend="strikethrough">Sweet</del></mod> Cousin! Such were your</line> 
+    <line>thoughts mild and gentle as your</line> 
+    <line>dear eyes <del rend="strikethrough">&#x26; gentle tone</del> and voice</line>
+    <line>but I.&#x2014; I was a wretch <del rend="strikethrough">none</del> &#x26;</line>
+    <line>none ever conceived <del rend="strikethrough">of</del> the misery</line>
+    <line>that I then suffered</line>
+  </zone>
+  <zone type="main">
+    <line>20</line>
+    <line><hi rend="underline">37</hi></line>
+    <line>57</line>
   </zone>
 </surface>
