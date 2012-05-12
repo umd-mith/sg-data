@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0057" ulx="0" uly="0" lrx="5410" lry="6660">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0057" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0057.tif"/>
-    <zone>
-    </zone>
+  <zone type="main">
+    <line><add resp="#sk"><supplied reason="cut-away">in</supplied></add> death. You hate me but your
+      abhorrence cannot</line>
+    <line><add resp="#sk"><supplied reason="cut-away">equ</supplied></add>al that with which I regard
+      myself. I look</line>
+    <line><add resp="#sk"><supplied reason="cut-away">on</supplied></add> the hands which executed
+      that deed, I think</line>
+    <line><add resp="#sk"><supplied reason="cut-away">of</supplied></add> the heart in which the
+      imagination of it was</line>
+    <line><add resp="#sk"><supplied reason="cut-away">co</supplied></add>ncieved, &amp; long for the
+      moment when they will</line>
+    <line><add resp="#sk"><supplied reason="cut-away">m</supplied></add>eet my eyes, when it will
+      haunt my thoughts</line>
+    <line><add resp="#sk"><supplied reason="cut-away">n</supplied></add>o more.</line>
+    <milestone unit="tei:p"/>
+    <line>Fear not that I shall be the instrument of</line>
+    <line><add resp="#sk"><supplied reason="cut-away">f</supplied></add>uture mischief. My work is
+      nearly complete. Neither</line>
+    <line><add resp="#sk"><supplied reason="cut-away">y</supplied></add>ours nor any mans death is
+      needed to consum-</line>
+    <line><add resp="#sk"><supplied reason="cut-away"><gap reason="damaged"/></supplied></add>mate the series of my being,
+      &amp; accomplish that</line>
+    <line>which must be done; but it requires my own.</line>
+    <line>Do not fear that I shall be slow to perform</line>
+    <line>this sacrifize. I shall quit your vessel on the</line>
+    <line>ice-raft which brought me hither; &amp; shall</line>
+    <line>seek with rapid steps, the most northern ex-</line>
+    <line>-tremity of the globe. I shall collect my funeral</line>
+    <line>pile, &amp; consume to ashes this miserable frame,</line>
+    <line>that its remains may afford no light to any</line>
+    <line>curious &amp; unhallowed <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">wretch</add></mod> who would create such</line>
+    <line>another as I have been. I shall die. I shall</line>
+    <line>no longer feel the agonies which now consume</line>
+  </zone>
 </surface>
