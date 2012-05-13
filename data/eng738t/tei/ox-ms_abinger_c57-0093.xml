@@ -1,8 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0093" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0093" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0093.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>109</line>
+  </zone>
+  <zone type="library">
+    <line>47</line>
+  </zone>
+  <zone type="main">
+    <line>to gain experience &amp; instruction; The</line>
+    <line>difference of manners <mod type="subst"><del rend="strikethrough">that</del><add
+          resp="#pbs" place="superlinear">which</add></mod> he observed</line>
+    <line>was to him &amp; an inexhaustible source of</line>
+    <line><add><ptr target="#c57-0093.01"/></add>amusement. He was for ever busy &amp; the</line>
+    <line>only check to his enjoyments was my sor-</line>
+    <line>rowful &amp; dejected mien. I tried to conceal</line>
+    <line>this as much as possible that I might not</line>
+    <line>debar him from the pleasures natural</line>
+    <line>to one who was entering on a new scene</line>
+    <line>of life, undisturbed by any care or <add resp="#pbs"><del rend="smear"
+      >the</del></add>bitter</line>
+    <line><add><ptr target="#c57-0093.02"/></add>recollection. I often refused to accompany</line>
+    <line>him alledging another engagement that</line>
+    <line>I might remain a alone; I now also</line>
+    <line>began to collect the materials necessary</line>
+    <line>for my <del rend="strikethrough">work</del> new creation &amp; this was <del
+        rend="strikethrough">a</del> to</line>
+    <line>me like the torture of single drops of</line>
+    <line>water continually falling on the head;</line>
+    <line>Every thought that was devoted to it</line>
+    <line>was <del rend="triple-strike">th</del> an extreme anguish, and every</line>
+    <line>word that I spoke in allusion to it caused</line>
+    <line>my lips to quiver &amp; my heart to palpitate.</line>
+    <line><mod type="deletions"><del rend="strikethrough">in a most painful degre</del><del
+          rend="unmarked">e</del></mod>.</line>
+    <milestone unit="tei:p"/>
+    <line>After passing some months in</line>
+    <line>London we received a letter from a</line>
+    <line>person in Scotland who had formerly</line>
+    <line>been an our visitor at Geneva. He</line>
+    <line>mentioned the beauties of his native coun</line>
+    <line>try &amp; asked us if those were not sufficient</line>
+    <line>allurements to induce us to prolong our</line>
+    <line>journey as far <del rend="strikethrough">noth</del> north as Perth</line>
+    <line>where he resided. Cl<mod type="subst"><del rend="strikethrough">ai</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">e</add></mod>rval eagerly
+      desired</line>
+    <line>to accept this invitation, and I, although</line>
+    <line>I abhorred society, wished to view again</line>
+    <line>mountains &amp; streams &amp; all the <del rend="triple-strike">the</del> wondrous</line>
+    <line>works of nature in her chosen dwelling places</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0093.01">observation &amp;</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0093.02" resp="#pbs"><del rend="smear">ness of</del></add></line>
+  </zone>
 </surface>
