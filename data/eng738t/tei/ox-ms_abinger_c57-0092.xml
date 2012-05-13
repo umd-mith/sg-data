@@ -1,8 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0092" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0092" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0092.tif"/>
-    <zone>
-    </zone>
+  <!--file will not validate without addition of <supplied> to schema-->
+  <zone type="pagination">
+    <line>108</line>
+  </zone>
+  <zone type="top">
+    <line>Chap <del rend="double-strike">11</del> 2.</line>
+  </zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line>London was <del rend="strikethrough">the</del> our present point</line>
+    <line>of rest; we determined to remain several</line>
+    <line>months in this wonderful &amp; celebrated city.</line>
+    <line>Cl<mod type="subst"><del rend="strikethrough">ai</del><add place="superlinear"
+        >e</add></mod>rval <mod type="subst"><del rend="strikethrough">wished</del><add
+          place="sublinear">&#x2038;</add><add place="superlinear">desired</add></mod> for the
+      intercourse of</line>
+    <line>the men of genius &amp; talent who flou</line>
+    <line>rished at that time; but this was, with</line>
+    <line>me, a secondary <del rend="strikethrough">consideration</del><add place="superlinear"
+        resp="#pbs">object</add>; I was princi</line>
+    <line>pally occupied with the means of obtaining</line>
+    <line>the information necessary for the comple</line>
+    <line>tion of my promise and quickly availed</line>
+    <line>myself of the letters of introduction that</line>
+    <line>I had brought with me addressed to</line>
+    <line>the <mod type="subst"><del rend="strikethrough">various</del>
+        <del rend="strikethrough">men of sci</del><add place="sublinear">&#x2038;</add><add
+          place="superlinear">most</add></mod> distinguished</line>
+    <line>natural philosophers. If this journey had</line>
+    <line>taken place during my days of study &amp;</line>
+    <line>happiness it would have afforded me</line>
+    <line>inexpressible <del rend="strikethrough">delight</del> pleasure. But a</line>
+    <line>blight had come over my existence &amp; I only</line>
+    <line>visited these people for the sake of the</line>
+    <line>information they might give<del rend="tetra-strike">d</del> me on</line>
+    <line>the subject in which I was so deeply</line>
+    <line>interrested. Company was irksome to me;</line>
+    <line>when alone I could fill my mind with the</line>
+    <line>sights of heaven &amp; earth; the voice of <del rend="strikethrough">He</del><add
+        resp="ed"><!--ed=editor; can't determine identity of scholar--><supplied reason="cut-away"
+          >nry</supplied></add></line>
+    <line><add><ptr target="#c57-0092.01"/></add>soothed me &amp; I could cheat myself into a</line>
+    <line>transitory peace. But busy, uninterresting,</line>
+    <line>joyous faces brought back despair to my</line>
+    <line>heart. I saw an insurmountable barrie<add resp="ed"><supplied reason="cut-away"
+          >r</supplied></add></line>
+    <line>placed between me &amp; my fellow men; thi<add resp="ed"><supplied reason="cut-away"
+          >s</supplied></add></line>
+    <line>barrier was sealed with the blood of</line>
+    <line>William and Justine, and to reflect on</line>
+    <line>those events filled my soul with anguish<add resp="ed"><supplied reason="cut-away"
+          >.</supplied></add></line>
+    <line>But in Cl<mod type="subst"><del rend="smear">ai</del><add place="superlinear"
+        >e</add></mod>rval I saw the image of my</line>
+    <line>former self; he was inquisitive &amp; anxious</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0092.01">Henry</add></line>
+  </zone>
 </surface>
