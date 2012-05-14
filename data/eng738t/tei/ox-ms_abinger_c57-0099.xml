@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0099" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0099" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0099.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>115</line>
+  </zone>
+  <zone type="library">
+    <line>50</line>
+  </zone>
+  <zone type="main">
+    <line>with <mod type="subst"><add place="sublinear">&#x2038;</add><add place="superlinear"
+          >the</add></mod> good humour expected from a</line>
+    <line>guest and accordingly I told Cl<mod type="subst"><del rend="smear">ai</del><add
+          place="superlinear">e</add></mod>rval</line>
+    <line>that I wished to make the tour of</line>
+    <line>Scotland <mod type="subst"><del rend="strikethrough">by myself</del><add
+          place="superlinear" resp="#pbs">alone</add></mod>. Do you, said I, enjoy</line>
+    <line>yourself and let this be our rendezvous–</line>
+    <line>I may be absent a month or two, but do</line>
+    <line>not interfere with my motions I entreat</line>
+    <line>you; leave <mod type="additions"><add place="sublinear">&#x2038;</add><add
+          place="superlinear">me</add></mod> to peace &amp; solitude for</line>
+    <line>a short time &amp; when I return I</line>
+    <line>hope it will be with a lighter heart</line>
+    <line><del rend="strikethrough">fitter for your friend &amp;</del> more congenial</line>
+    <line>to your own temper." Henry wished</line>
+    <line>to dissuade me but seeing me bent</line>
+    <line>on this plan <mod type="subst"><del rend="strikethrough">consented.</del><add
+          place="superlinear" resp="#pbs">ceased to remonstrate.</add>
+        <del rend="strikethrough">but</del><add place="superlinear" resp="#pbs">he</add></mod>
+      entreated</line>
+    <line>me to write often. I had rather be</line>
+    <line>with you, he said, In your solitary</line>
+    <line>rambles than with these scotch people</line>
+    <line>whom I do not know; hasten then</line>
+    <line>my dear friend to return that I may</line>
+    <line>again feel myself <del rend="strikethrough">at</del> somewhat at</line>
+    <line>home which I cannot do in your</line>
+    <line>absence.</line>
+  </zone>
 </surface>
