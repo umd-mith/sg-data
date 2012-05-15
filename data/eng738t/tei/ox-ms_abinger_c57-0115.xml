@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0115" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0115" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0115">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0115.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">131</zone>
+  <zone type="library">58</zone>
+  <zone type="main">
+    <line>you will not be consulted as to your</line>
+    <line>quarters, I promise you&#x2014;</line>
+    <milestone unit="tei:p"/><line><del rend="strikethrough">My</del> I was exceedingly surprized at
+      receiv</line>
+    <line>ing so rude an answer from a stranger</line>
+    <line>and I was also disconcerted on perceiving the</line>
+    <line><del rend="strikethrough">the countenance of this man an his</del></line>
+    <line><del rend="strikethrough">companions</del>
+        frow<add><metamark>&#x2038;</metamark></add><add place="superlinear">n</add>ing and angry
+      countenances</line>
+    <line>of his companions&#x2013; <del rend="strikethrough">Why</del> Why do you answer</line>
+    <line>me so roughly, I replied Surely <del rend="strikethrough">as En</del> it</line>
+    <line>is not the custom of Englishmen to receive</line>
+    <line>strangers <del rend="strikethrough"><add place="superlinear">in</add></del> so inhospitably.</line>
+    <milestone unit="tei:p"/><line>I do not know, said the man, What</line>
+    <line>the custom of the English may be but</line>
+    <line>it is the custom of the Irish to hate</line>
+    <line>villains. &#x5b;While this strange dialogue</line>
+    <line>continued I perceived the croud <del rend="strikethrough">en</del> rapidly</line>
+    <line>encrease. Their <del rend="strikethrough">countenances</del> <add place="superlinear">faces</add> expressed</line>
+    <line>a mixture of <del rend="strikethrough">ang</del> curiousity &#x26; anger</line>
+    <line><del rend="strikethrough">wh</del> which annoyed &#x26; in some degree</line>
+    <line>alarmed me. I enquired the way to the inn</line>
+    <line>but no one replied. I then moved foward</line>
+    <line>and <del rend="strikethrough">a buz arose</del> a murmuring noise</line>
+    <line>rose from the croud <del rend="strikethrough">the</del> as they followed</line>
+    <line>&#x26; surrounded me&#x2013; When an ill looking</line>
+    <line>Man comming forward- tapped me on</line>
+    <line>the shoulder &#x26; said Come, <del rend="strikethrough">yo</del> Sir, You</line>
+    <line>must follow me to Mr. Kirwins to give</line>
+    <line>an account of yourself.</line>
+    <line>Who is Mr. Kirwin, said I, &#x26; why am</line>
+    <line>I to give an account of myself.&#x2013; is not</line>
+    <line>this a free country?</line>
+    <line>Aye, Sir, replied the man, free enough</line>
+    <line>for honest folks. Mr. Kirwin is a magis</line>
+    <line>trate &#x26; you are to give an account of</line>
+  </zone>
 </surface>
