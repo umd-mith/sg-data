@@ -575,6 +575,8 @@
                                     <valItem ident="smear"/>
                                 </valList>
                             </attDef>
+                            <attDef ident="resp" mode="delete"/>
+                            <attDef ident="hand" mode="delete"/>
                         </attList>
                     </elementSpec>
 
