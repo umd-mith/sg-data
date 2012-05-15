@@ -627,6 +627,17 @@
                     </elementSpec>
 
                     <elementSpec ident="mod" module="transcr" mode="change">
+                        <content>
+                            <!-- mod must have only element children so the below is a subset of macro.paraContent -->
+                            <rng:zeroOrMore>
+                                <rng:choice>
+                                    <rng:ref name="model.gLike"/>
+                                    <rng:ref name="model.phrase"/>
+                                    <rng:ref name="model.inter"/>
+                                    <rng:ref name="model.global"/>
+                                </rng:choice>
+                            </rng:zeroOrMore>
+                        </content>
                         <attList>
                             <attDef ident="type" mode="replace" usage="opt">
                                 <valList mode="replace" type="closed">
@@ -634,7 +645,7 @@
                                     <valItem ident="deletions"/>
                                 </valList>
                             </attDef>
-                        </attList>
+                        </attList>  
                     </elementSpec>
 
                 </schemaSpec>
