@@ -3,7 +3,7 @@
   <xs:import namespace="http://sga.mith.org/ns/1.0" schemaLocation="ns1.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2004/10/xml.xsd"/>
   <!--
-    Schema generated from ODD source 2012-05-03T08:15:16Z. 
+    Schema generated from ODD source 2012-05-15T14:41:48Z. 
     Edition: 2.0.2 Last updated on 2nd February 2012.
     Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
     
@@ -4508,38 +4508,35 @@ the space.</xs:documentation>
       <xs:documentation>represents any kind of modification identified within a single document.</xs:documentation>
     </xs:annotation>
     <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="ns2:sga-pmacro.paraContent">
-          <xs:attribute name="type">
-            <xs:annotation>
-              <xs:documentation/>
-            </xs:annotation>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="subst">
-                  <xs:annotation>
-                    <xs:documentation/>
-                  </xs:annotation>
-                </xs:enumeration>
-                <xs:enumeration value="additions">
-                  <xs:annotation>
-                    <xs:documentation/>
-                  </xs:annotation>
-                </xs:enumeration>
-                <xs:enumeration value="deletions">
-                  <xs:annotation>
-                    <xs:documentation/>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attributeGroup ref="ns2:sga-patt.global.attributes"/>
-          <xs:attributeGroup ref="ns2:sga-patt.transcriptional.attributes"/>
-          <xs:attributeGroup ref="ns2:sga-patt.typed.attribute.subtype"/>
-          <xs:attributeGroup ref="ns2:sga-patt.spanning.attributes"/>
-        </xs:extension>
-      </xs:complexContent>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns2:sga-pmodel.gLike"/>
+        <xs:group ref="ns2:sga-pmodel.phrase"/>
+        <xs:group ref="ns2:sga-pmodel.inter"/>
+        <xs:group ref="ns2:sga-pmodel.global"/>
+      </xs:choice>
+      <xs:attribute name="type">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="additions">
+              <xs:annotation>
+                <xs:documentation/>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="deletions">
+              <xs:annotation>
+                <xs:documentation/>
+              </xs:annotation>
+            </xs:enumeration>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attributeGroup ref="ns2:sga-patt.global.attributes"/>
+      <xs:attributeGroup ref="ns2:sga-patt.transcriptional.attributes"/>
+      <xs:attributeGroup ref="ns2:sga-patt.typed.attribute.subtype"/>
+      <xs:attributeGroup ref="ns2:sga-patt.spanning.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="retrace">

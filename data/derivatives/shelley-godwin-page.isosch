@@ -44,6 +44,15 @@
         Subst must have at least one child add and at least one child del</assert>
       </rule>
    </pattern>
+   <pattern id="mod-constraint-modContents">
+      <rule context="tei:mod">
+                                    <assert test="count(node()) gt 1">The &lt;mod&gt; element is
+                                        intended to group a series of related changes to the
+                                        manuscript. Thus, &lt;mod&gt; must have more than one child
+                                        element. If only a single addition or deletion is being
+                                        encoded, &lt;mod&gt; is not required.</assert>
+                                </rule>
+   </pattern>
    <pattern id="link-constraint-linkTargets1">
       <rule context="tei:link">
          <report test="@target and @targets">You may not supply both 

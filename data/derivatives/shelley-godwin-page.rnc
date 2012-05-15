@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-05-03T08:15:16Z. 
+# Schema generated from ODD source 2012-05-15T14:41:48Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2453,16 +2453,38 @@ sga-pmod =
   
   ## represents any kind of modification identified within a single document.
   element mod {
-    sga-pmacro.paraContent,
+    ((sga-pmodel.gLike
+      | sga-pmodel.phrase
+      | sga-pmodel.inter
+      | sga-pmodel.global)*)
+    >> sch:pattern [
+         id = "mod-constraint-modContents"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:mod"
+           "\x{a}" ~
+           "                                    "
+           sch:assert [
+             test = "count(node()) gt 1"
+             "The <mod> element is\x{a}" ~
+             "                                        intended to group a series of related changes to the\x{a}" ~
+             "                                        manuscript. Thus, <mod> must have more than one child\x{a}" ~
+             "                                        element. If only a single addition or deletion is being\x{a}" ~
+             "                                        encoded, <mod> is not required."
+           ]
+           "\x{a}" ~
+           "                                "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     
     ##
     attribute type {
       
       ##
-      "subst"
-      | 
-        ##
-        "additions"
+      "additions"
       | 
         ##
         "deletions"

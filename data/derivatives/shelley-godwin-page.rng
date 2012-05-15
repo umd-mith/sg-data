@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-05-03T08:15:16Z. 
+Schema generated from ODD source 2012-05-15T14:41:48Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -4040,13 +4040,27 @@ the space.</a:documentation>
   <define name="sga-pmod">
     <element name="mod">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">represents any kind of modification identified within a single document.</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
+      <zeroOrMore>
+        <choice>
+          <ref name="sga-pmodel.gLike"/>
+          <ref name="sga-pmodel.phrase"/>
+          <ref name="sga-pmodel.inter"/>
+          <ref name="sga-pmodel.global"/>
+        </choice>
+      </zeroOrMore>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="mod-constraint-modContents">
+        <sch:rule xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:mod">
+          <sch:assert test="count(node()) gt 1">The &lt;mod&gt; element is
+                                        intended to group a series of related changes to the
+                                        manuscript. Thus, &lt;mod&gt; must have more than one child
+                                        element. If only a single addition or deletion is being
+                                        encoded, &lt;mod&gt; is not required.</sch:assert>
+        </sch:rule>
+      </pattern>
       <optional>
         <attribute name="type">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
           <choice>
-            <value>subst</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>additions</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>deletions</value>
