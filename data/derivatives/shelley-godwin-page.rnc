@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-05-15T14:41:48Z. 
+# Schema generated from ODD source 2012-05-15T16:49:43Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1345,7 +1345,12 @@ sga-pdel =
     sga-patt.global.attribute.n,
     sga-patt.global.linking.attributes,
     sga-patt.global.facs.attributes,
-    sga-patt.transcriptional.attributes,
+    sga-patt.transcriptional.attribute.seq,
+    sga-patt.editLike.attribute.evidence,
+    sga-patt.editLike.attribute.source,
+    sga-patt.editLike.attribute.instant,
+    sga-patt.dimensions.attributes,
+    sga-patt.responsibility.attribute.cert,
     sga-patt.typed.attributes,
     empty
   }
@@ -2467,11 +2472,11 @@ sga-pmod =
            "                                    "
            sch:assert [
              test = "count(node()) gt 1"
-             "The <mod> element is\x{a}" ~
+             "The mod element is\x{a}" ~
              "                                        intended to group a series of related changes to the\x{a}" ~
-             "                                        manuscript. Thus, <mod> must have more than one child\x{a}" ~
+             "                                        manuscript. Thus, mod must have more than one child\x{a}" ~
              "                                        element. If only a single addition or deletion is being\x{a}" ~
-             "                                        encoded, <mod> is not required."
+             "                                        encoded, mod is not required."
            ]
            "\x{a}" ~
            "                                "
