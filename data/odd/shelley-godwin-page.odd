@@ -349,7 +349,7 @@
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking" except="ab alt altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
-                    <moduleRef key="figures" include="figure figDesc"></moduleRef>
+                    <moduleRef key="figures" include="figure figDesc"/>
 
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
@@ -379,7 +379,7 @@
                             </attDef>
                         </attList>
                     </classSpec>
-                    
+
                     <classSpec ident="att.transcriptional" type="atts" mode="change">
                         <attList>
                             <attDef ident="hand" mode="delete"/>
@@ -638,6 +638,17 @@
                                 </rng:choice>
                             </rng:zeroOrMore>
                         </content>
+                        <constraintSpec scheme="isoschematron" ident="modContents">
+                            <constraint>
+                                <sch:rule context="tei:mod">
+                                    <sch:assert test="count(node()) gt 1">The &lt;mod&gt; element is
+                                        intended to group a series of related changes to the
+                                        manuscript. Thus, &lt;mod&gt; must have more than one child
+                                        element. If only a single addition or deletion is being
+                                        encoded, &lt;mod&gt; is not required.</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
                         <attList>
                             <attDef ident="type" mode="replace" usage="opt">
                                 <valList mode="replace" type="closed">
@@ -645,7 +656,7 @@
                                     <valItem ident="deletions"/>
                                 </valList>
                             </attDef>
-                        </attList>  
+                        </attList>
                     </elementSpec>
 
                 </schemaSpec>
