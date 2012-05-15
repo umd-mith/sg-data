@@ -41,6 +41,7 @@
             <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into
                 zones</change>
             <change when="2012-03-24" who="tmunoz">Removed about 40 unused elements</change>
+            <change when="2012-05-15" who="tmunoz">Added some schematron tests</change>
         </revisionDesc>
     </teiHeader>
     <text>
