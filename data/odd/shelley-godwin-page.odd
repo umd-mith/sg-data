@@ -630,7 +630,6 @@
                         <attList>
                             <attDef ident="type" mode="replace" usage="opt">
                                 <valList mode="replace" type="closed">
-                                    <valItem ident="subst"/>
                                     <valItem ident="additions"/>
                                     <valItem ident="deletions"/>
                                 </valList>
