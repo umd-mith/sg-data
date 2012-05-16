@@ -2,7 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs" version="2.0">
-
+    
+    <xsl:output encoding="ISO-8859-1"/>
+    
     <xsl:template match="/*">
         
         <xsl:processing-instruction name="xml-model">href="../../derivatives/shelley-godwin-page.rnc" type="application/relax-ng-compact-syntax"
