@@ -666,6 +666,19 @@
                             </attDef>
                         </attList>
                     </elementSpec>
+                    
+                    <elementSpec ident="ptr" module="core" mode="change">
+                        <constraintSpec scheme="isoschematron" ident="verify-ptr-targets">
+                            <constraint>
+                                <sch:rule context="*[@target]">
+                                    <sch:assert test="//*[@xml:id=substring-after(@target, '#')">This pointer has
+                                        no target in this document. The value of the target attribute on ptr must be
+                                        a valid xml:id for an element in this document. Without this, there is no
+                                        linkage!</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
+                    </elementSpec>
 
                 </schemaSpec>
             </div>
