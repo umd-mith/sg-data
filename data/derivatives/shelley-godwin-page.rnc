@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-05-16T10:11:13Z. 
+# Schema generated from ODD source 2012-05-16T11:04:04Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1459,6 +1459,27 @@ sga-pptr =
   element ptr {
     empty
     >> sch:pattern [
+         id = "ptr-constraint-verify-ptr-targets"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "*[@target]"
+           "\x{a}" ~
+           "                                    "
+           sch:assert [
+             test = "//*[@xml:id=substring-after(@target, '#')"
+             "This pointer has\x{a}" ~
+             "                                        no target in this document. The value of the target attribute on ptr must be\x{a}" ~
+             "                                        a valid xml:id for an element in this document. Without this, there is no\x{a}" ~
+             "                                        linkage!"
+           ]
+           "\x{a}" ~
+           "                                "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
          id = "ptr-constraint-ptrAtts"
          "\x{a}" ~
          "            "
@@ -1477,16 +1498,16 @@ sga-pptr =
          "\x{a}" ~
          "         "
        ],
-    sga-patt.global.attributes,
-    sga-patt.pointing.attributes,
-    sga-patt.internetMedia.attributes,
-    sga-patt.typed.attributes,
     
     ## (canonical reference) specifies the destination of the pointer by supplying a canonical reference from a
     ##         scheme defined in a refsDecl element in the TEI header
     attribute cRef {
       list { sga-pdata.word, sga-pdata.word* }
     }?,
+    sga-patt.global.attributes,
+    sga-patt.pointing.attributes,
+    sga-patt.internetMedia.attributes,
+    sga-patt.typed.attributes,
     empty
   }
 sga-pref =

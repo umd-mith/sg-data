@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-05-16T10:11:13Z. 
+Schema generated from ODD source 2012-05-16T11:04:04Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -2805,16 +2805,20 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
     <element name="ptr">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pointer) defines a pointer to another location. [3.6.  16.1. ]</a:documentation>
       <empty/>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="ptr-constraint-verify-ptr-targets">
+        <sch:rule xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="*[@target]">
+          <sch:assert test="//*[@xml:id=substring-after(@target, '#')">This pointer has
+                                        no target in this document. The value of the target attribute on ptr must be
+                                        a valid xml:id for an element in this document. Without this, there is no
+                                        linkage!</sch:assert>
+        </sch:rule>
+      </pattern>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="ptr-constraint-ptrAtts">
         <rule context="tei:ptr">
           <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" test="@target and @cRef">Only one of the
 	attributes 'target' and 'cRef' may be supplied.</report>
         </rule>
       </pattern>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <ref name="sga-patt.internetMedia.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
       <optional>
         <attribute name="cRef">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference from a
@@ -2827,6 +2831,10 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
           </list>
         </attribute>
       </optional>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.internetMedia.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
   </define>
