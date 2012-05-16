@@ -1695,13 +1695,7 @@ element ptr
    <ref target="#TEI.sga-patt.internetMedia">sga-patt.internetMedia.attributes</ref>,
    <ref target="#TEI.sga-patt.typed">sga-patt.typed.attributes</ref>,
    empty
-}</eg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Schematron</hi></cell><cell rend="wovenodd-col2"><ab rend="pre">
-&lt;sch:rule context="*[@target]"&gt;
-&lt;sch:report
-  test="not(//*[@xml:id=substring-after(@target, '#')])"&gt;This pointer has
- no target in this document. The value of the target attribute on ptr must be
- a valid xml:id for an element in this document. Without this, there is no
- linkage!&lt;/sch:report&gt;&lt;/sch:rule&gt;</ab></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Schematron</hi></cell><cell rend="wovenodd-col2"><ab rend="pre">
+}</eg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Schematron</hi></cell><cell rend="wovenodd-col2"><ab rend="pre"/></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Schematron</hi></cell><cell rend="wovenodd-col2"><ab rend="pre">
 &lt;sch:report test="@target and @cRef"&gt;Only one of the
  attributes 'target' and 'cRef' may be supplied.&lt;/sch:report&gt;</ab></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Example</hi></cell><cell rend="wovenodd-col2">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="und"><ptr target="#p143 #p144"/><ptr target="http://www.tei-c.org"/></egXML>
