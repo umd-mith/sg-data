@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-05-15T16:49:43Z. 
+Schema generated from ODD source 2012-05-16T10:11:13Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -3599,6 +3599,7 @@ that space, zones of interest within that space, and transcriptions of the
           </choice>
         </zeroOrMore>
       </group>
+      <ns xmlns="http://purl.oclc.org/dsdl/schematron" prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
       <ref name="sga-patt.global.attribute.el-target"/>
       <ref name="sga-patt.global.attribute.att-target"/>
       <ref name="sga-patt.global.attribute.att-value"/>

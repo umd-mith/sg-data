@@ -34,6 +34,7 @@
             <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into
                 zones</change>
             <change when="2012-03-24" who="tmunoz">Removed about 40 unused elements</change>
+            <change when="2012-05-15" who="tmunoz">Added some schematron tests</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -2059,7 +2060,8 @@ element surface
    <ref target="#TEI.att.declaring">att.declaring.attributes</ref>,
    <ref target="#TEI.att.typed">att.typed.attributes</ref>,
    ( <ref target="#TEI.model.glossLike">model.glossLike</ref>*, <ref target="#TEI.model.graphicLike">model.graphicLike</ref>+, ( <ref target="#TEI.zone">zone</ref> | <ref target="#TEI.model.global">model.global</ref> | <ref target="#TEI.line">line</ref> )* )
-}</eg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Example</hi></cell><cell rend="wovenodd-col2">
+}</eg></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Schematron</hi></cell><cell rend="wovenodd-col2"><ab rend="pre">
+&lt;sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/&gt;</ab></cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Example</hi></cell><cell rend="wovenodd-col2">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="und"><facsimile><surface ulx="0" uly="0" lrx="200" lry="300"><graphic url="Bovelles-49r.png"/></surface></facsimile></egXML>
   </cell></row><row><cell rend="wovenodd-col1"><hi rend="label" xml:lang="en">Note</hi></cell><cell rend="wovenodd-col2"><!-- -->
     The &lt;surface&gt; element  represents any two-dimensional space on

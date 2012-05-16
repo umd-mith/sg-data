@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-05-15T16:49:43Z. 
+# Schema generated from ODD source 2012-05-16T10:11:13Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2002,7 +2002,8 @@ sga-psurface =
   element surface {
     (sga-pmodel.glossLike*,
      sga-pmodel.graphicLike+,
-     (sga-pzone | sga-pmodel.global | sga-pline)*),
+     (sga-pzone | sga-pmodel.global | sga-pline)*)
+    >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ],
     sga-patt.global.attribute.el-target,
     sga-patt.global.attribute.att-target,
     sga-patt.global.attribute.att-value,
