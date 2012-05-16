@@ -671,7 +671,7 @@
                         <constraintSpec scheme="isoschematron" ident="verify-ptr-targets">
                             <constraint>
                                 <sch:rule context="*[@target]">
-                                    <sch:assert test="//*[@xml:id=substring-after(@target, '#')]">This pointer has
+                                    <sch:assert test="not(//*[@xml:id=substring-after(@target, '#')])">This pointer has
                                         no target in this document. The value of the target attribute on ptr must be
                                         a valid xml:id for an element in this document. Without this, there is no
                                         linkage!</sch:assert>
