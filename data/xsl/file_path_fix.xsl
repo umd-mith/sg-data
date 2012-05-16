@@ -9,8 +9,6 @@
         </xsl:processing-instruction>
         <xsl:processing-instruction name="xml-model">href="../../derivatives/shelley-godwin-page.isosch" type="application/xml"
         </xsl:processing-instruction>
-        <xsl:processing-instruction name="xml-model">href="../../derivatives/shelley-godwin-page-verify_ptr_targets.isosch" type="application/xml"
-        </xsl:processing-instruction>
         <xsl:processing-instruction name="xml-stylesheet">type="text/xsl" href="../../xsl/page-proof.xsl"
         </xsl:processing-instruction>
         
