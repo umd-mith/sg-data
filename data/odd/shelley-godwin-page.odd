@@ -424,6 +424,11 @@
                     <classSpec ident="att.declaring" type="atts" mode="delete"/>
 
                     <elementSpec ident="surface" module="transcr" mode="change">
+                        <constraintSpec scheme="isoschematron" ident="add-ns-for-schema-fragment">
+                            <constraint>
+                                <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
+                            </constraint>
+                        </constraintSpec>
                         <content>
                             <rng:ref name="att.global.attributes"/>
                             <rng:ref name="att.global.linking.attributes"/>
