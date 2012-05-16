@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-05-16T11:26:38Z. 
+# Schema generated from ODD source 2012-05-16T11:42:32Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1466,7 +1466,7 @@ sga-pptr =
            context = "*[@target]"
            "\x{a}" ~
            "                                    "
-           sch:assert [
+           sch:report [
              test = "not(//*[@xml:id=substring-after(@target, '#')])"
              "This pointer has\x{a}" ~
              "                                        no target in this document. The value of the target attribute on ptr must be\x{a}" ~
