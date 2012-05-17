@@ -17,6 +17,13 @@
     <scala.version>2.9.1</scala.version>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>mith-snapshots</id>
+      <url>http://umd-mith.github.com/maven-repository/snapshots</url>
+    </repository>
+  </repositories>
+
   <pluginRepositories>
     <pluginRepository>
       <id>scala-tools.releases</id>
@@ -26,11 +33,6 @@
   </pluginRepositories>
 
   <dependencies>
-    <dependency>
-      <groupId>net.sourceforge.saxon</groupId>
-      <artifactId>saxon</artifactId>
-      <version>9.1.0.8</version>
-    </dependency>
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-compiler</artifactId>
@@ -71,6 +73,11 @@
       <artifactId>jing</artifactId>
       <version>20091111</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>edu.umd.mith</groupId>
+      <artifactId>tei-maven-plugin</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
@@ -118,55 +125,36 @@
           </execution>
         </executions>
       </plugin>
+
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>xml-maven-plugin</artifactId>
+        <groupId>edu.umd.mith</groupId>
+        <artifactId>tei-maven-plugin</artifactId>
         <executions>
           <execution>
             <goals>
-              <goal>transform</goal>
+              <goal>odd-schema</goal>
+              <goal>validate</goal>
             </goals>
           </execution>
         </executions>
         <configuration>
-          <transformationSets>
-            <transformationSet>
-              <dir>${basedir}/../data/odd/</dir>
-              <includes><include>*.odd</include></includes>
-              <stylesheet>${basedir}/../cocoon/text/src/main/resources/roma/xsl/odds2/odd2odd.xsl</stylesheet>
-              <outputDir>${project.build.directory}/generated-resources/schema/odd</outputDir>
-            </transformationSet>
-            <transformationSet>
-              <dir>${project.build.directory}/generated-resources/schema/odd</dir>
-              <stylesheet>${basedir}/../cocoon/text/src/main/resources/roma/xsl/odds2/odd2relax.xsl</stylesheet>
-              <fileMappers>
-                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
-                  <pattern>\.odd$</pattern>
-                  <replacement>.rng</replacement>
-                </fileMapper>
-              </fileMappers>
-              <outputDir>${project.build.directory}/generated-resources/schema/rng</outputDir>
-            </transformationSet>
-            <transformationSet>
-              <dir>${project.build.directory}/generated-resources/schema/odd</dir>
-              <stylesheet>${basedir}/../cocoon/text/src/main/resources/roma/xsl/odds2/extract-isosch.xsl</stylesheet>
-              <fileMappers>
-                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
-                  <pattern>\.odd$</pattern>
-                  <replacement>.isosch</replacement>
-                </fileMapper>
-              </fileMappers>
-              <outputDir>${project.build.directory}/generated-resources/schema/isosch</outputDir>
-            </transformationSet>
-          </transformationSets>
+          <oddSpecs>
+            <oddSpec>
+              <source>${basedir}/../data/odd/shelley-godwin-page.odd</source>
+              <teiDirs>
+                <teiDir>
+                  <dir>${basedir}/../data/tei/ox/</dir>
+                  <includes>
+                    <include>*.xml</include>
+                  </includes>
+                </teiDir>
+              </teiDirs>
+            </oddSpec>
+            <oddSpec>
+              <source>${basedir}/../data/odd/shelley-godwin-master.odd</source>
+            </oddSpec>
+          </oddSpecs>
         </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>net.sourceforge.saxon</groupId>
-            <artifactId>saxon</artifactId>
-            <version>9.1.0.8</version>
-          </dependency>
-        </dependencies>
       </plugin>
     </plugins>
   </build>
