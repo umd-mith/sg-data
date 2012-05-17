@@ -26,6 +26,10 @@
 
   <pluginRepositories>
     <pluginRepository>
+      <id>mith-plugin-snapshots</id>
+      <url>http://umd-mith.github.com/maven-repository/snapshots</url>
+    </pluginRepository>
+    <pluginRepository>
       <id>scala-tools.releases</id>
       <name>Scala-Tools Plugins Repository for Releases</name>
       <url>http://scala-tools.org/repo-releases</url>
