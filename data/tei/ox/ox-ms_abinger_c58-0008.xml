@@ -9,24 +9,24 @@
     <line>110</line>
   </zone>
   <zone type="main">
-    <line>me. But on the day that was to fulfil my <del>in</del> wishes</line>
-    <line>and my desiny she was melancholy and a presentiment</line>
-    <line>of evil pervaded her, and perhaps also she thought</line>
+    <line>me. But on the day that was to fulfil my <del rend="strikethrough">in</del> wishes</line>
+    <line>and my destiny she was melancholy and a presentiment</line>
+    <line>of evil pervaded her; and perhaps also she thought</line>
     <line>of the dreadful secret which I had promised to</line>
     <line>reveal to her the following day. My father was in the</line>
-    <line>mean time overjoyed, and <mod type="additions"><add place="sublinear">&#x2038;</add><add
+    <line>mean time overjoyed, and, <mod><add place="sublinear">&#x2038;</add><add
           place="superlinear">in</add></mod> the bustle of <del rend="strikethrough">pe</del>
-      preparation</line>
+      preparation,</line>
     <line>only observed in the melancholy of his niece the</line>
-    <line><del>a</del> diffidence of a bride.</line>
+    <line><del rend="strikethrough">a</del> diffidence of a bride.</line>
     <milestone unit="tei:p"/>
     <line>After the ceremony was performed a large</line>
-    <line>party assembled at my father's; but it was argued</line>
+    <line>party assembled at my father's; but it was agreed</line>
     <line>that Elizabeth and I should pass the afternoon</line>
     <line>and night at Evian and return to Cologny the</line>
     <line>next morning. <add place="superlinear">As</add> The day was fair and the <del
-        rend="cross-hatch">the</del></line>
-    <line>wind was favourable we resolved to go by water.</line>
+        rend="strikethrough">the</del></line>
+    <line>wind <del rend="strikethrough">was</del> favourable we resolved to go by water.</line>
     <milestone unit="tei:p"/>
     <line>Those were the last moments of my life dur</line>
     <line>ring which I enjoyed the felling of happiness. We</line>
