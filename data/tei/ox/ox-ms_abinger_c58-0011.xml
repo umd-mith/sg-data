@@ -9,18 +9,19 @@
     <line>113</line>
   </zone>
   <zone type="main">
-    <line><del rend="cross-hatch">y</del> yes but it continually gave place to distraction</line>
-    <line>and revenue.</line>
+    <line><del rend="strikethrough">ey</del> eyes but it continually gave place to
+      distraction</line>
+    <line>and reverie.</line>
     <milestone unit="tei:p"/>
     <line>The sun sunk lower in the heavens; we</line>
     <line>passed the river Drance and observed its path</line>
     <line>through the chasms of the higher and the glens</line>
-    <line>of the lower hills. The <del rend="triple-strike">Al</del> Alps here came closer</line>
-    <line>to the lake and we approached the amphi</line>
-    <line><del rend="strikethrough">there</del><!--overwritten deletion is illegible--> theatre of
-      mountains which forms the</line>
-    <line>eastern boundary ofthe lake. The spire of Evian</line>
-    <line>shone <del rend="strikethrough">under</del> under the woods that surrounded</line>
+    <line>of the lower hills. The <del rend="strikethrough">Ap</del> Alps here come closer</line>
+    <line>to the lake and we approached the amphi-</line>
+    <line><del rend="strikethrough">thre</del> theatre of mountains which forms the</line>
+    <line>eastern boundary of the lake. The spire of Evian</line>
+    <line>shone <del rend="strikethrough">un<mod><del rend="overwritten">t</del><add
+            place="intralinear">d</add></mod>e</del> under the woods that surrounded</line>
     <line>it and the range of mountain above mountain</line>
     <line>by which it was overhung.</line>
     <milestone unit="tei:p"/>
