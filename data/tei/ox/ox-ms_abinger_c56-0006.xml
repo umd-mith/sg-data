@@ -2,6 +2,7 @@
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?>
+<?xml-model href="../../derivatives/shelley-godwin-page.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0006" ulx="0" uly="0" lrx="5088" lry="7082" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0006.tif"/>
@@ -20,15 +21,15 @@
           >s</add></mod>hould probably have</line>
     <line>aplied myself to <del rend="strikethrough">m</del> the more <del rend="strikethrough"
         >ra</del> rational</line>
-    <line>theory of chemistry which <mod><mod next="#c56-0006.01">
+    <line>theory of chemistry which <mod next="#c56-0006.01">
           <del rend="strikethrough">has at present</del>
           <add place="superlinear" resp="#pbs">has resulted from modern
-        discoveries</add></mod></mod></line>
-    <line><mod><mod xml:id="c56-0006.01"><del rend="strikethrough">the approbation of the
+        discoveries</add></mod></line>
+    <line><mod xml:id="c56-0006.01"><del rend="strikethrough">the approbation of the
             learned.</del>
           <add place="superlinear" resp="#pbs">It is even possible that the train of my ideas might
             never have recieved</add><add place="sublinear">that fatal impulse which led me to my
-            ruin.</add></mod></mod> But the</line>
+            ruin.</add></mod> But the</line>
     <line>cursory glance my father had taken of</line>
     <line>my volume by no means assured me</line>
     <line>that he was acquainted with <mod><del rend="strikethrough">the</del>
