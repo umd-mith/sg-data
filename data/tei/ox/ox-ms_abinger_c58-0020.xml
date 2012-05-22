@@ -11,9 +11,10 @@
   <zone type="main">
     <line>safe from the malignity of the <del rend="strikethrough">friend</del> fiend; my
       father</line>
-    <line>even now might <mod type="additions"><add place="sublinear">&#x2038;</add><add
+    <line>even now might <mod><add place="sublinear">&#x2038;</add><add
           place="superlinear">be</add></mod> writhing under his grasp and Er-</line>
-    <line>nest might be dead at his feet. This p idea made</line>
+    <!--added caret and "be" in hand other than MWS or PBS-->
+    <line>nest might be dead at his feet. This <del rend="strikethrough">p</del> idea made</line>
     <line>me shudder and recalled me to action; I started up</line>
     <line>and resolved to return to Geneva with all possible</line>
     <line>speed.</line>
