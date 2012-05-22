@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0116" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0116" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0116">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0116.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">132</zone>
+  <zone type="main">
+    <milestone unit="tei:q" spanTo="#c57-0116.01"/><line>the death of a gentleman who was found
+      murdered</line>
+    <line>here last night.</line><anchor xml:id="c57-0116.01"/>
+    <milestone unit="tei:p"/><line>This answer startled <add place="sublinear"
+          ><metamark>&#x2038;</metamark></add><add place="superlinear">me,</add> But I
+      presently</line>
+    <line>recovered myself. I was innocent &#x26; that could</line>
+    <line>easily be proved&#x2013; accordingly I followed my con</line>
+    <line>ductor in silence &#x26; was led to <del rend="strikethrough">who</del> one of the</line>
+    <line>best houses in <add place="superlinear" resp="#pbs">the</add> town. I was ready to sink
+      from</line>
+    <line>fatigue &#x26; hunger, but bein<add place="intralinear" resp="#pbs">g</add> surrounded
+      by</line>
+    <line>a crowd I thought it politic to rouse all</line>
+    <line>my stren<add place="intralinear" resp="#pbs">g</add>th that no physical debility
+      might</line>
+    <line>be construed into apprehension <del rend="strikethrough">&#x26;</del> or cons</line>
+    <line>cious guilt. Little did I then expect the</line>
+    <line>calamity that would in a few moments</line>
+    <line>overwhelm me, and <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear" resp="#pbs">extinguish</add> in horror &#x26; despair</line>
+    <line><del rend="strikethrough">extinguish</del> all fear of ignominy or death&#x2014;</line>
+    <line><del rend="strikethrough">The sun &#x26; ea</del> I must pause <del rend="strikethrough"
+        >for the</del></line>
+    <line><del rend="strikethrough">scene which I shall now relate</del><add place="superlinear"
+        resp="#pbs">for it</add> requires</line>
+    <line>all my fortitude <del rend="strikethrough">&#x26; strength to suffer</del></line>
+    <!-- the phrase "all my fortitude" appears struck out on MS but word file render it clean. Should we code for this? A cancelled deletion? -->
+    <line><del rend="strikethrough">me</del> to recall <add place="intralinear" resp="#pbs"
+        >the</add> frightful images <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear" resp="#pbs">of the events which</add> in</line>
+    <line><add><ptr target="#c57-0116.02"/></add>proper detail to my recollection.</line>
+  </zone>
+  <zone type="left_margin">
+    <add xml:id="c57-0116.02">I am about to relate in</add>
+  </zone>
 </surface>
