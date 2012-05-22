@@ -1,8 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0117" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0117" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0117">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0117.tif"/>
-    <zone>
-    </zone>
+  <zone type="top">
+    <line>Chap. 14<hi rend="underline"><hi rend="sup">th</hi></hi></line>
+  </zone>
+  <zone type="pagination">133</zone>
+  <zone type="library">59</zone>
+  <zone type="main">
+    <line><add><ptr target="#c57-0117.01"/></add>soon <del rend="strikethrough">int</del> introduced
+      into the presence of the</line>
+    <line>Magistrate; an<del rend="strikethrough">d</del> old benevolent man with</line>
+    <line>calm &#x26; mild manners. He looked <mod>
+        <del rend="strikethrough">towards</del>
+        <add place="superlinear" resp="#pbs">upon</add>
+      </mod> me</line>
+    <line>however with some degree of severity, and then</line>
+    <line>turning towards my conductors <del rend="strikethrough">wh</del> he <del
+        rend="strikethrough"><unclear/></del> asked who</line>
+    <line><del rend="strikethrough">it was that there were who</del> appeared as wit-</line>
+    <line>nesses on this occasion. about half a dozen</line>
+    <line>men came forward and one being selected</line>
+    <line>by the magistrate he deposed that he had been</line>
+    <line>out fishing the night before with his son &#x26;</line>
+    <line>his brother-in-law, Daniel Nugent, when</line>
+    <line>about nine o clock they observed a strong</line>
+    <line>northerly blast rising &#x26; they accordingly put</line>
+    <line>in for port. It was a very dark night as</line>
+    <line>the moon had not yet risen; They did not</line>
+    <line>lan<mod>
+        <del rend="overwritten">g</del>
+        <add place="intralinear">d</add>
+      </mod> at the harbour but, as they had been</line>
+    <line>accustomed, at a creek about two miles</line>
+    <line>below. He went first carrying a part</line>
+    <line>of the fishing tackle &#x26; his companions</line>
+    <line>followed him at some distance. As he</line>
+    <line>was walking along the sands he <mod>
+        <del rend="strikethrough">hit</del>
+        <add place="superlinear" resp="#pbs">struck</add>
+      </mod> his foot</line>
+    <line>against something &#x26; fell all his length on</line>
+    <line>the ground; his comrades came up to assist</line>
+    <line>him &#x26; by the light of their lantern they</line>
+    <line>discovered that he had fallen on the</line>
+    <line>body of a man who was to all appearance</line>
+    <line>dead.</line>
+    <milestone unit="tei:p"/><line>Their first supposition was that</line>
+    <line>it was the corpse of <mod>
+        <del rend="strikethrough">man</del>
+        <add place="superlinear" resp="#pbs">some person</add>
+      </mod> who had been</line>
+    <line>drowned &#x26; thrown on shore by the waves,</line>
+    <line>But upon examination they found that</line>
+    <line>the clothes were not wet &#x26; <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear">even</add> that the body</line>
+    <line>was not yet cold. They instantly carried</line>
+    <line>it to the cottage of an old woman</line>
+    <line>near <add place="superlinear" resp="#pbs">the spot</add> &#x26; endeavoured <add
+        place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs"
+        >but in Vain</add> to restore it to life <del rend="strikethrough">but</del></line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c57-0117.01">I was</add></zone>
 </surface>
