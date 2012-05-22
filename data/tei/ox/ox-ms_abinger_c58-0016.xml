@@ -9,17 +9,20 @@
     <line>118</line>
   </zone>
   <zone type="main">
-    <line>and rushed into the room.<metamark/>Great God! Why did I not</line>
-    <line>then expire! Why am I here to relate the destruction</line>
+    <line>and I rushed into the room. <milestone unit="tei:p"/><metamark>[</metamark>Gread God! Why
+      did I not</line>
+    <line>then expire! Why am I here to relate the dustruction</line>
     <line>of the best hope and the purest creature of earth.</line>
-    <line>She was there, lifeless and inanimate, thrown across</line>
+    <line>She was there, lifeless and inanimate<del rend="strikethrough">;</del> thrown
+      across</line>
     <line>the bed, her head hanging down and her pale and</line>
     <line>distorted features half covered by her hair. Every</line>
     <line>where I turn I see the same figure, her bloodless</line>
     <line>arms and relaxed form flung by the murderer on</line>
     <line>its bridal bier. Could I behold this, and live? Alas!</line>
-    <line>Life is obstinate and clings closest where it is most</line>
-    <line>hated. For a moment only did I lose recollection;</line>
+    <line>life is obstinate and clings closest where it is most</line>
+    <line>hated. For a moment only did I lo<mod><del rend="overwritten">o</del><add
+          place="intralinear">s</add></mod>e recollection;</line>
     <line>I fainted.</line>
     <milestone unit="tei:p"/>
     <line>When I recovered, I found myself surrounded by</line>
