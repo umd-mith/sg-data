@@ -10,13 +10,13 @@
   </zone>
   <zone type="main">
     <line>dents that followed this last overwhelming event.</line>
-    <line>Mine has been a tale of horrors, I have <del rend="scribble">now</del> reached</line>
+    <line>Mine has been a tale of horrors, I have <del rend="strikethrough">now</del> reached</line>
     <line>their acme <del rend="strikethrough">me</del> and what I must now relate can</line>
-    <line>but be <del rend="triple-strike">de</del> tedious to you. <mod type="subst"><del
-          rend="strikethrough">no</del><add place="superlinear">Know</add></mod> that, one by one,
-      my friends</line>
-    <line>were snatched away; I was left desolate. <del rend="triple-strike"><unclear extent="2"
-          unit="chars" precision="low" reason="overwritten">ow</unclear></del> My own</line>
+    <line>but be <del rend="strikethrough">de</del> tedious to you. <mod><del rend="strikethrough"
+          >no</del><add place="superlinear">Know</add></mod> that, one by one, my friends</line>
+    <!--"Know added by ?compositor-->
+    <line>were snatched away; I was left desolate. <del rend="strikethrough"><unclear unit="chars"
+          extent="2">ow</unclear></del> My own</line>
     <line>strength is exhausted; and I must tell in few words</line>
     <line>what remains of my hideous narration.</line>
     <milestone unit="tei:p"/>
@@ -25,8 +25,10 @@
     <line>that I bore. I see him now, excellent and venerable old</line>
     <line>man; his eyes wandered in vacancy for they had lost</line>
     <line>their charm and delight. His neice, his more than daugh</line>
-    <line>-ter whom he doated <mod type="additions"><add place="sublinear">&#x2038;</add><add
+    <line>-ter whom he doated <mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add
           place="superlinear">on</add></mod> with all the affection that a</line>
-    <line>man in the decline of life having few affections clings</line>
+    <!--"on" added by ?compositor-->
+    <line>man in the dec<mod><del rend="overwritten">t</del><add place="intralinear"
+      >l</add></mod>ine of life having few affections clings</line>
   </zone>
 </surface>
