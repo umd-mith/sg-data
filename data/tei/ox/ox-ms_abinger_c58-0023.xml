@@ -13,8 +13,8 @@
   </zone>
   <zone type="main">
     <line>more earnestly to those that remain. Cursed, Cursed</line>
-    <line>be the fiend that brought <del rend="cross-hatch">wretchedn</del> misery <mod type="subst"
-          ><del rend="strikethrough">of</del><add place="superlinear">on</add></mod> his</line>
+    <line>be the fiend that brought <del rend="strikethrough">wretchedn</del> misery <mod><del
+          rend="strikethrough">of</del><add place="superlinear">on</add></mod> his</line>
     <line>grey hairs and domed him to waste in wretchedness.</line>
     <line>He could not live under the horrors that were</line>
     <line>accumulated around him; an approplectic fit was</line>
@@ -30,7 +30,9 @@
     <line>of my miseries and situation and was then released</line>
     <line>from my prison. For they had called me mad</line>
     <line>and during many months, as I understood, a solita</line>
-    <line>-ry cell had been my habitation.<metamark>[</metamark>But liberty had</line>
+    <line>-ry cell had been my habitation. <add><milestone unit="tei:p"/><metamark>[</metamark></add>But
+      liberty had</line>
+    <!--bracket indicating paragraph break in hand other than PBS or MWS-->
     <line>been a useless gift to me had I not <delSpan spanTo="#c58-0023.01"/>at the same</line>
     <line>time that<anchor xml:id="c58-0023.01"/> as I awakened to reason at the same</line>
   </zone>
