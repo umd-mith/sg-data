@@ -10,11 +10,11 @@
   </zone>
   <zone type="main">
     <line>time awakened to revenge. As the memory of past</line>
-    <line>misfortunes prest upon me, I began to <del rend="tripel-strike">f</del> reflect</line>
+    <line>misfortunes prest upon me, I began to <del rend="strikethrough">f</del> reflect</line>
     <line>on their cause; the monster whom I had created, the</line>
-    <line>miserable dæmon whom I had sent <mod type="additions"><add place="sublinear"
-          >&#x2038;</add><add place="superlinear">abroard</add></mod> in<del rend="scribble"
-        >to</del> the world</line>
+    <line>miserable dæmon whom I had sent <mod><add place="sublinear"
+          ><metamark>&#x2038;</metamark></add><add place="superlinear">abroard</add></mod> in<del
+        rend="strikethrough">to</del> the world</line>
     <line>for my destruction. I was possessed by a madening</line>
     <line>rage when I thought of him and desired and ardently</line>
     <line><del rend="strikethrough">prazed</del> prayed that I might have him within</line>
