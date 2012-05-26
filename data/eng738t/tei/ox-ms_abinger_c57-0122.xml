@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0122" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0122" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0122">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0122.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">138</zone>
+  <zone type="main">
+    <line>that class. her face was hard &#x26; rude like that</line>
+    <line>of persons accustomed to see without sympa</line>
+    <line>thizing in sights of misery. <del rend="strikethrough">She spoke with a</del></line>
+    <line><add><ptr target="#c57-0122.01"/></add>voice <del rend="strikethrough">that</del>
+      <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
+        >expressed</add> her entire indifference&#x2013; She</line>
+    <line>addressed me in Eglish &#x26; the words struck</line>
+    <line>me as one that I had heard during <add place="superlinear" resp="#pbs">my</add>
+      suff</line>
+    <line>ering<add place="intralinear" resp="#pbs">s&#x2013;</add>
+      <milestone unit="tei:q" spanTo="#c57-0122.02"/>Are you better now, Sir,<anchor
+        xml:id="c57-0122.02"/> said she.</line>
+    <milestone unit="tei:p"/><line>I replied in the same language</line>
+    <line>with a feeble voice; <milestone unit="tei:q" spanTo="#c57-0122.03"/>I believe I am
+      but</line>
+    <line>if it all be true if indeed I did not</line>
+    <line>dream I am sorry that I am still alive</line>
+    <line>to feel misery &#x26; horror.<anchor xml:id="c57-0122.03"/></line>
+    <milestone unit="tei:p"/><line><milestone unit="tei:q" spanTo="#c57-0122.04"/>For that
+        matter,<anchor xml:id="c57-0122.04"/> replied the old</line>
+    <line><del rend="strikethrough">wan</del> woman, <milestone unit="tei:q" spanTo="#c57-0122.05"
+      />if you mean about</line>
+    <line>the gentleman that you murdered I</line>
+    <line>believe that it were better for you</line>
+    <line>if you were dead&#x2013; for I fancy it will</line>
+    <line>go hard with you, <del rend="strikethrough">but</del> you will be</line>
+    <line>hanged when the next session comes</line>
+    <line>on&#x2013; however that is none of my business</line>
+    <line>I am sent <del rend="strikethrough">for</del> to nurse you &#x26; get</line>
+    <line>you well&#x2013; I do <del rend="strikethrough">no more</del> my duty with</line>
+    <line>a safe conscience; it were well if every</line>
+    <line>body did the same.&#x2013;<anchor xml:id="c57-0122.05"/></line>
+    <milestone unit="tei:p"/><line>I turned <del rend="strikethrough">fro</del> with lo<del
+        rend="strikethrough">o</del>athing from</line>
+    <line>the woman who could utter so un</line>
+    <line>feeling a speech to <add place="sublinear"><metamark>&#x2038;</metamark></add><add
+        place="superlinear">a</add>
+      <del rend="strikethrough">man</del>
+      <add place="superlinear">person</add> just saved on</line>
+    <line>the very edge of death; but I felt languid</line>
+    <line>and unable to reflect on all that had </line>
+    <line>passed; <del rend="strikethrough">It sometimes</del>
+      <add place="superlinear">The whole series of my life</add> appeared as a dream</line>
+    <line>I sometimes I doubted if indeed it was not</line>
+    <line>all true but it never presented itself to</line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c57-0122.01">Her</add></zone>
 </surface>
