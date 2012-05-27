@@ -35,10 +35,9 @@
     <line>pose who might be the next victim sacri</line>
     <line>ficed to his insatiate revenge – And then</line>
     <line>again I thought of his words – <metamark>"</metamark><milestone unit="tei:q"
-        spanTo="#c57-0108.01"/><milestone unit="tei:hi" rend="underline" spanTo="#c57-0108.02"/>I
-      will be with</line>
-    <line>you on your marriage night<anchor xml:id="c57-0108.02"/><anchor xml:id="c57-0108.01"/>
-      That then</line>
+        spanTo="#c57-0108.01"/><hi rend="underline">I will be with</hi></line>
+    <line><hi rend="underline">you on your marriage night</hi><anchor xml:id="c57-0108.02"/><anchor
+        xml:id="c57-0108.01"/> That then</line>
     <line>was the period fixed for the fulfillment</line>
     <line>of my destiny – In that <mod type="additions">
         <add place="sublinear">&#x2038;</add>
