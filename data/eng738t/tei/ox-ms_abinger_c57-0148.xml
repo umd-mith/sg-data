@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0148" ulx="0" uly="0" lrx="5148" lry="7030">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0148" ulx="0" uly="0" lrx="5148" lry="7030" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0148.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>164</line>
+  </zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line>I passed an hour in this state of</line>
+    <line>mind when suddenly I reflected how dreadful</line>
+    <line><mod>
+        <del rend="strikethrough">such a</del>
+        <add place="superlinear">the</add>
+      </mod> combat <mod>
+        <del rend="strikethrough">as</del>
+        <add place="superlinear">which</add>
+        <add place="superlinear" resp="#pbs">momently</add>
+      </mod> I expected <mod>
+        <del rend="strikethrough">would</del>
+        <add place="superlinear" resp="#pbs">to</add>
+      </mod> take</line>
+    <line>place would be to my wife and I earnestly</line>
+    <line>entreated her to retire – resolving not to join</line>
+    <line>her untill I had obtained some knowledge</line> as to the situation of my enemy.
+      <milestone unit="tei:p"/>
+    <line>She left me and I continued some</line>
+    <line>time walking up and down the passages</line>
+    <line>of the house &amp; inspecting every corner</line>
+    <line>that might afford a retreat to my</line>
+    <line>adversary – But I <del rend="double-strike">sa</del> saw no trace <add place="superlinear"
+        resp="#pbs">of him</add> &amp;</line>
+    <line>beg<mod>
+        <del rend="overwritten">an</del>
+        <add resp="#pbs" place="intralinear">inning</add>
+      </mod> to consider <mod xml:id="c57-0148.01" next="#c57-0148">
+        <del rend="strikethrough">what was my best</del>
+        <add resp="#pbs" place="superlinear">that some fortunate chance</add>
+      </mod></line>
+    <line><mod xml:id="c57-0148.02" prev="#c57-0148.02">
+        <del rend="strikethrough">mode of proceeding</del>
+        <add place="superlinear">had intervened to prevent the execution of his menace,</add>
+      </mod> – When suddenly</line>
+    <line>I heard a shrill &amp; dreadful scream.–</line>
+    <line>It came from the room into which</line>
+    <line>Elizabeth had retired. <del rend="strikethrough">with a servant</del></line>
+    <line>As I heard it the whole truth rushed</line>
+    <line>to my mind my arms dropped – the</line>
+    <line>motion of every muscle &amp; fibre was</line>
+    <line>suspended I could feel the blood trick</line>
+    <line>ling from in my veins – <mod>
+        <del rend="strikethrough">The scream</del>
+        <add resp="#pbs" place="superlinear">&amp; tingling in my feet</add>
+      </mod></line>
+    <line>This state lasted but an instant</line>
+    <line>the scream was repeated &amp; I rushed</line>
+    <line>into the room. Great God why did I</line>
+    <line>not then expire – Why I am I here to</line>
+    <line>relate the destruction of the best hope</line>
+    <line>&amp; <mod>
+        <del rend="triple-strike">d</del>
+        <add place="superlinear" resp="#pbs">the</add>
+      </mod> purest creature of earth – She was</line>
+    <line>there – lifeless &amp; inanimate – thrown</line>
+    <line>across the bed her head hanging</line>
+    <line>down <add place="superlinear">her</add> pale &amp; distorted features half</line>
+    <line>covered by her hair – Every where I turn</line>
+    <line>I see the same figure —Her bloodless</line>
+  </zone>
 </surface>
