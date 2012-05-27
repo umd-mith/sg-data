@@ -1,8 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0147" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0147" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0147.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>163</line>
+  </zone>
+  <zone type="top">
+    <line>Chap. 17</line>
+  </zone>
+  <zone type="main">
+    <line>It was eight o'clock when we landed; we</line>
+    <line>walked <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">for a short time</add>
+      </mod> on the shore enjoying the transitory</line>
+    <line>twilight &amp; then retired to the Inn and contem</line>
+    <line>plated the lovely scene of waters, mountains</line>
+    <line>&amp; woods obscured in darkness yet still <delSpan spanTo="#c57-0147.01"/>allow</line>
+    <line>ing<anchor xml:id="c57-0147.01"/><add><ptr target="#c57-0147.02"/></add> the<add
+        place="intralinear">ir</add>
+      <del rend="strikethrough">their</del>
+      <del rend="strikethrough">dark</del><add place="superlinear">black</add> outlines– The wind
+      which</line>
+    <line>had fallen in the south now rose with great</line>
+    <line>violence in the west—the moon had</line>
+    <line>reached her summit in the heavens</line>
+    <line>&amp; was beginning to descend the clouds</line>
+    <line>swept across it swifter than the</line>
+    <line>flight of the vulture and dimmed her</line>
+    <line>rays while the lake reflected the <addSpan spanTo="#c57-0147.03" resp="#pbs"
+        place="intralinear"/>scene</line>
+    <line>of the<anchor xml:id="c57-0147.03"/>busy heavens <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear"><del rend="strikethrough">m</del> made</add>
+      </mod> still busier by the <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">restless</add>
+      </mod> waves</line>
+    <line>that were beginning to rise— Suddenly</line>
+    <line>a heavy storm of rain descended.</line>
+    <milestone unit="tei:p"/>
+    <line>I<del rend="smear">t</del> had been calm during the day but</line>
+    <line><mod>
+        <del rend="double-strike">now</del>
+        <add place="superlinear">so soon</add>
+      </mod> as night <del rend="double-strike">ha</del> obscured the shapes of</line>
+    <line>objects a thousand fears arose in</line>
+    <line>my mind – I was anxious and watchful</line>
+    <line>while my right hand grasped a pistol</line>
+    <line>which was hidden in my bosom —</line>
+    <line>Every sound terrified <add place="superlinear" resp="#pbs">me,</add> but I
+      resoldved</line>
+    <line>that I would sell my<del rend="cross-hatch">s</del> life dearly &amp;</line>
+    <line>not <mod next="#c57-0147.05" xml:id="c57-0147.04">
+        <del rend="double-strike">die</del>
+        <add place="superlinear" resp="#pbs">relax the conflict that impended</add>
+      </mod> untill <mod xml:id="c57-0147.05" prev="#c57-0147.04" next="c57-0147.06">
+        <del rend="strikethrough">my adversary</del>
+        <del rend="strikethrough">lay</del><del rend="strikethrough"><add place="superlinear">should lie senseless</add></del>
+        <del rend="strikethrough">at my</del>
+      </mod></line>
+    <line><mod prev="#c57-0147.05" xml:id="c57-0147.06">
+        <del rend="strikethrough">fee</del>
+        <del rend="unmarked">t.</del>
+        <add place="intralinear" resp="#pbs">my own life, or that of my adversary were
+          extinguished</add>
+      </mod></line>
+    <milestone unit="tei:p"/>
+    <line>Elizabeth observed my agitation for</line>
+    <line>some time in timid &amp; fearful silence</line>
+    <line>At length she said — What is it, my dear</line>
+    <line>Victor, that agitates you? What is it</line>
+    <line>you fear?</line>
+    <milestone unit="tei:p"/>
+    <line>Oh peace, peace, my love, I replied,</line>
+    <line>this night and all will be safe – but</line>
+    <line>this night is dreadful very dreadful.</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0147.02">displaying</add></line>
+  </zone>
 </surface>
