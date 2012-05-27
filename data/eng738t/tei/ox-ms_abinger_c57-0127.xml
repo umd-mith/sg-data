@@ -42,8 +42,10 @@
     <line>The name of my unfortunate &#x26;</line>
     <line>murdered friend <del rend="strikethrough">agitated</del> was too great</line>
     <line>an agitation to be endured in my</line>
-    <line>weak state&#x2014;I shed tears; <milestone unit="tei:q" spanTo="#c57-0127.04"/>Alas, yes, my father<anchor xml:id="c57-0127.04"/></line>
-    <line>said I, <milestone unit="tei:q" spanTo="#c57-0127.05"/><del rend="strikethrough">a</del> <add place="superlinear">some</add> destiny of the most horrible</line>
+    <line>weak state&#x2014;I shed tears; <milestone unit="tei:q" spanTo="#c57-0127.04"/>Alas, yes,
+      my father<anchor xml:id="c57-0127.04"/></line>
+    <line>said I, <milestone unit="tei:q" spanTo="#c57-0127.05"/><del rend="strikethrough">a</del>
+      <add place="superlinear">some</add> destiny of the most horrible</line>
     <line>kind hangs over <add place="superlinear">me,</add> and I must live to</line>
     <line>fulfil it, or surely I should have died</line>
     <line>on the coffin of Henry.<anchor xml:id="c57-0127.05"/></line>
