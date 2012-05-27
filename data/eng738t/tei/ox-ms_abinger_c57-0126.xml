@@ -25,26 +25,37 @@
         place="sublinear">&#x2038;</add><add place="superlinear">e</add>rval</line>
     <line>as a new incitement to comply with</line>
     <line>his hellish desires. I put my hand before</line>
-    <line>my eyes &#x26; cried out in agony&#x2013; <milestone unit="tei:q" spanTo="#c57-0126.03"/>Oh! take</line>
+    <line>my eyes &#x26; cried out in agony&#x2013; <milestone unit="tei:q" spanTo="#c57-0126.03"
+      />Oh! take</line>
     <line>him away&#x2013; I cannot see him for Gods</line>
     <line>sake do not let him enter!<anchor xml:id="c57-0126.03"/></line>
-    <line>Mr. Kirwin changed countenance</line>
+    <milestone unit="tei:p"/>
+    <line><del rend="strikethrough">Mr. Kirwin changed countenance</del></line>
     <line>Mr. Kirwin regarded me with a</line>
     <line>troubled countenance. He could not</line>
     <line>help regarding my exclamation as a</line>
     <line>presumption of my guilt &#x26; said in</line>
-    <line>rather sever tone&#x2013; I should have</line>
+    <line>rather severe tone&#x2013; <milestone unit="tei:p" spanTo="#c57-0126.04"/>I should
+      have</line>
     <line>thought, young man, that the presence</line>
     <line>of your Father would have been</line>
     <line>welcome instead of inpiring such</line>
-    <line>violent repugnance</line>
-    <line>My father, said I, while every fea</line>
+    <line>violent repugnance<anchor xml:id="c57-0126.04"/></line>
+    <milestone unit="tei:p"/>
+    <line><milestone unit="tei:p" spanTo="#c57-0126.05"/>My father,<anchor xml:id="c57-0126.05"/>
+      said I, while every fea</line>
     <line>ture &#x26; every muscle was relaxed from</line>
-    <line>anguish to pleasure&#x2013; Is my father indeed</line>
+    <line>anguish to pleasure&#x2013; <milestone unit="tei:q" spanTo="#c57-0126.06"/>Is my father
+      indeed</line>
     <line>come- how kind, how very kind! But</line>
-    <line>where is he, why does he not hasten to me?</line>
+    <line>where is he, why does he not hasten to me?<anchor xml:id="c57-0126.06"/></line>
+    <milestone unit="tei:p"/>
     <line>My change of manner surprized &#x26;</line>
-    <line>pleased Mr. Kirwin the magistrate perhaps he thought</line>
+    <line>pleased <mod>
+        <del rend="strikethrough">Mr. Kirwin</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">the magistrate</add>
+      </mod> perhaps he thought</line>
     <line>that my former exclamation was a</line>
   </zone>
 </surface>
