@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0146" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0146" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0146.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>162</line>
+  </zone>
+  <zone type="main">
+    <line>we passed by the river Drance &amp; observed its</line>
+    <line>path through the chasm of the mountains</line>
+    <line>&amp; the glens of the lower hills. The <del rend="strikethrough">Mountains</del></line>
+    <line><add><ptr target="#c57-0146.01"/></add> here come closer to the lake &amp; we
+      approach</line>
+    <line>ed the amphitheatre of mountains that</line>
+    <line>forms its eastern boundary. The spire</line>
+    <line>of Evian shone under the woods that</line>
+    <line>surrounded it &amp; the range of mountain</line>
+    <line>above mountain <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">by</add>
+      </mod> which <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">it was</add>
+      </mod> overhung <del rend="strikethrough">it</del>.</line>
+    <milestone unit="tei:p"/>
+    <line>The wind which had hitherto carried</line>
+    <line>us along with amazing rapidity sunk</line>
+    <line>at sunset to a gentle breeze – the light</line>
+    <line>air just ruffled the water &amp; caused a</line>
+    <line>pleasant motion among the trees. As we</line>
+    <line>approached the shore it wafted the</line>
+    <line>most delightful scent of flowers &amp; hay.</line>
+    <line>The <del rend="strikethrough">sun</del> sun sunk beneath the horizon</line>
+    <line>as we landed and as I touched the shore</line>
+    <line>I felt those cares and fears revive</line>
+    <line>which <mod type="deletions" xml:id="c57-0146.02" next="#c57-0146.03">
+        <del rend="strikethrough">a I had forgotten while on the</del>
+      </mod></line>
+    <line><mod type="deletions" xml:id="c57-0146.03" prev="#c57-0146.02">
+        <del rend="strikethrough">water</del>
+        <add place="sublinear" resp="#pbs">soon were to clasp me &amp; cling to me</add>
+      </mod>. <add resp="#pbs" place="intralinear">forever.</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0146.01">Alps</add></line>
+  </zone>
 </surface>
