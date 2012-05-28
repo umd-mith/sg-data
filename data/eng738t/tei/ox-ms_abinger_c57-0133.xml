@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0133" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0133" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0133">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0133.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">149</zone>
+  <zone type="library">67</zone>
+  <zone type="main">
+    <line><milestone unit="tei:q" spanTo="#c57-0133.01"/>Justine &#x26; Henry, they all died by my
+        hand<anchor xml:id="c57-0133.01"/></line>
+    <milestone unit="tei:p"/>
+    <line>My father had often during my</line>
+    <line>late confinement heard me make the</line>
+    <line>same Assertion <del rend="strikethrough">&#x26; his astonishment</del></line>
+    <line><del rend="strikethrough">was extreme</del> when <del rend="strikethrough">he heard me
+        thus</del>
+      <add place="superlinear" resp="#pbs">I thus</add> ac</line>
+    <line>accuse<add place="intralinear" resp="#pbs">d</add> myself, he sometimes seemed to
+      desire</line>
+    <line>an explanation &#x26; at others he appeared</line>
+    <line>to consider it as caused by delirium &#x26;</line>
+    <line>that <del rend="strikethrough">some idea</del> during my illness some</line>
+    <line>idea of this kind had presented itself</line>
+    <line>to my imagination <del rend="strikethrough">t an</del> the remembe</line>
+    <line>rance of which I preserved in my conva</line>
+    <line>lescence. <del rend="strikethrough">I</del> avoided explanation; I main</line>
+    <line>tained a continual silence concerning</line>
+    <line>the wretch I had created. I had a feeling</line>
+    <line>that I should be supposed mad and this</line>
+    <line>for ever chained my tongue when I</line>
+    <line>would have given the whole world to</line>
+    <line>have confided the fatal secret. Up</line>
+    <line>on th<add place="intralinear" resp="#pbs">e</add>s<add place="intralinear" resp="#pbs"
+        >e</add> occasion<add place="intralinear" resp="#pbs">s</add> my father said with </line>
+    <line>an expression of unbounded wonder</line>
+    <line><milestone unit="tei:q" spanTo="#c57-0133.02"/>What do you mean, Victor, are you
+      mad?</line>
+    <line>My dear son, I entreat you not to make</line>
+    <line>so strange an assertion again.<anchor xml:id="c57-0133.02"/></line>
+    <milestone unit="tei:p"/>
+    <line><milestone unit="tei:q" spanTo="#c57-0133.03"/>I am not mad,<anchor xml:id="c57-0133.03"/>
+      I cried energetically,</line>
+    <line><milestone unit="tei:q" spanTo="#c57-0133.04"/>the sun &#x26; the heavens who have
+      view</line>
+    <line>ed my operations can bear witness of</line>
+    <line>my truth. I was the assassin of those</line>
+    <line>most innocent victims&#x2014;they did by my</line>
+    <line>machinations. A thousand times would</line>
+    <line>I rather have shed my own blood</line>
+    <line>drop d by drop to have saved their lives:</line>
+    <line>But I could not, my father indeed I<anchor xml:id="c57-0133.04"/></line>
+  </zone>
 </surface>
