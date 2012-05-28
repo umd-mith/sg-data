@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0131" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0131" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0131">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0131.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">147</zone>
+  <zone type="library">66</zone>
+  <zone type="main">
+    <line>ful dream yet the <del rend="strikethrough">place</del>
+      <del rend="strikethrough"><add place="superlinear">vessel</add></del>
+      <del rend="strikethrough">in w</del> vessel in which</line>
+    <line>I was&#x2013; <del rend="strikethrough">the sea &#x26;</del> the wind that blew me
+      from</line>
+    <line>the detested shore of Ireland and the sea</line>
+    <line>which surrounded me told me too forci</line>
+    <line>bly that I was deceived by no vision &#x26; that</line>
+    <line>Cl<mod>
+        <del rend="strikethrough">ai</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">e</add>
+      </mod>rval my friend &#x26; dearest companion</line>
+    <line>had fallen a victim to me &#x26; the <del rend="strikethrough">animal</del></line>
+    <line><add><ptr target="#c57-0131.01"/></add>of my creation.</line>
+    <milestone unit="tei:p"/>
+    <line>I repassed in my memory my whole</line>
+    <line>life; my quiet happiness when residing with</line>
+    <line>my family in Geneva&#x2013; The death of my Mother</line>
+    <line>and my departure for Ingolstadt; I remem</line>
+    <line>bered with shuddering the mad enthusiasm</line>
+    <line>that hurried me on to the creation of</line>
+    <line>my hideous enemy &#x26; I called to my mind</line>
+    <line>the night on which he first lived. <del rend="strikethrough">I un</del>
+      <add place="superlinear">I</add></line>
+    <line><add><ptr target="#c57-0131.02"/></add>able to <mod>
+        <del rend="strikethrough">continue</del>
+        <add place="superlinear" resp="#pbs">pursue</add>
+      </mod> the train of thought&#x2013; A</line>
+    <line>thousand feelings pressed upon me &#x26; I wept</line>
+    <line>bitterly.&#x2014;</line>
+    <milestone unit="tei:p"/>
+    <line>Ever since my recovery from the fever</line>
+    <line>I had been in the custom of taking every</line>
+    <line>night a small quantity of laudanum</line>
+    <line><del rend="strikethrough">a</del> for it was by means of this drug only</line>
+    <line>that I was enabled to gain the <mod>
+        <del rend="strikethrough">sleep</del>
+        <add place="superlinear">rest</add>
+      </mod> necessa</line>
+    <line>ry for the preservation of life. O<del rend="strikethrough">p</del>pressed</line>
+    <line>by the recollection of my various misfor</line>
+    <line>tunes I now took a double dose &#x26; soon</line>
+    <line>slept profoundly. But alas sleep did</line>
+    <line>not afford me <mod>
+        <del rend="strikethrough">rest</del>
+        <add place="superlinear">respite</add>
+      </mod> from thought &#x26;</line>
+    <line>misery&#x2013; my dreams <del rend="strikethrough">s</del>presented <del
+        rend="strikethrough">to me</del></line>
+    <line>a thousand objects that scared me&#x2013;</line>
+    <line>towards mordning I was <del rend="strikethrough">opp</del> possessed by</line>
+    <line>a kind of nightmare&#x2013; I felt the fiends</line>
+    <line>grasp on my neck and could not free</line>
+    <line>myself from it&#x2014;Groans &#x26; cries rung in my</line>
+    <line>ears&#x2013; My father who was watching over me,</line>
+    <line><del rend="strikethrough">and</del> perceiving my restlessness <del rend="strikethrough"
+        >he</del> awoke me</line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c57-0131.01">mo<add place="sublinear">&#x2038;</add><add place="superlinear">n</add>ster</add></zone>
+  <zone type="left_margin"><add xml:id="c57-0131.02">I was un</add></zone>
 </surface>
