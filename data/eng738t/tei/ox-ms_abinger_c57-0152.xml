@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0152" ulx="0" uly="0" lrx="5148" lry="7030">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0152" ulx="0" uly="0" lrx="5148" lry="7030" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0152.tif"/>
-    <zone>
-    </zone>
+  <zone type="main">
+    <line>might shine or the clouds might lower – but</line>
+    <line>nothing could appear to me as it had done the</line>
+    <line>day before – <del rend="double-strike">Eve</del> A fiend had snatched from</line>
+    <line>me every hope of future happiness. No crea</line>
+    <line>ture had ever been so miserable as I was</line>
+    <line>so frightful an event was single upon</line>
+    <line>earth.</line>
+    <milestone unit="tei:p"/>
+    <line>But why should I dwell upon the</line>
+    <line>incidents that followed this last over</line>
+    <line>whelming event – Mine has been a tale</line>
+    <line>horrors– I have <del rend="strikethrough">now</del> reached their ac<del rend="smear"
+        >h</del>me</line>
+    <line>and what I must now relate can but</line>
+    <line>be tedious to you now that one by one</line>
+    <line>my friends were snatched away &amp; I was</line>
+    <line>left desolate. My own strength is exhausted</line>
+    <line>&amp; I must tell in few words What remains</line>
+    <line>of my hideous narration.</line>
+    <milestone unit="tei:p"/>
+    <line>I arrived at Geneva. My fathe &amp;</line>
+    <line>Ernest yet lived but the former was</line>
+    <line>unable to bear the miserable tidings</line>
+    <line>that I bore — I see him now excellent</line>
+    <line>&amp; venerable old man – his eyes wandered</line>
+    <line>in vacancy for they had lost their</line>
+    <line>charm &amp; delight – his neice his more</line>
+    <line>than daughter whom he doated on</line>
+    <line>with all the affection of a man who</line>
+    <line>in the decline of life having few affec</line>
+    <line>tions clings <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">more earnestly</add>
+      </mod> to those that remain. Cursed</line>
+    <line>Cursed be the fiend that brought misery</line>
+    <line>on his grey hairs &amp; doomed him to <del rend="strikethrough">die</del></line>
+    <line><add><ptr target="#c57-0152.01"/></add>in <del rend="strikethrough">misery</del> w<del
+        rend="triple-strike">h</del>retchedness. He could not live</line>
+    <line>under the horrors that were accumu-</line>
+    <line>lated round him – An applapetic fit was</line>
+    <line>brought on &amp; in a few <mod>
+        <del rend="strikethrough">hours</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">days</add>
+      </mod> he died</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0152.01" resp="#pbs">waste</add></line>
+  </zone>
 </surface>
