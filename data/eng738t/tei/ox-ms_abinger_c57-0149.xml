@@ -1,8 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0149" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0149" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0149.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>165</line>
+  </zone>
+  <zone type="library">
+    <line>75</line>
+  </zone>
+  <zone type="main">
+    <line>arms &amp; relaxed figure flung by the mur</line>
+    <line>derer on its <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">bridal</add>
+      </mod> bier – Could I behold this &amp; and</line>
+    <line>live– Alas life is obstinate <mod>
+        <del rend="strikethrough">&amp; clinging</del>
+        <add resp="#pbs" place="superlinear">it clings closest</add>
+      </mod> where it</line>
+    <line>is most hated– for a moment only did</line>
+    <line>I lose recollection – I fainted.</line>
+    <milestone unit="tei:p"/>
+    <line>When I recovered I found myself in</line>
+    <line>the midst of the people of inn – Their</line>
+    <line>countenances expressed a breathless terror</line>
+    <line>but the horror of others appeared <mod>
+        <del rend="strikethrough">but</del>
+        <add place="superlinear" resp="#pbs">only as</add>
+      </mod> a</line>
+    <line>mockery <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">a shadow</add>
+      </mod> of the feelings that oppressed</line>
+    <line><add><ptr target="#c57-0149.01"/></add>I escaped from them <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">to the room</add>
+      </mod> where lay the body</line>
+    <line>of Elizabeth – my love — my wife – so lately</line>
+    <line>living – so dear –so worthy – She had</line>
+    <line>been moved from the posture in</line>
+    <line>which I had first beheld her &amp; now</line>
+    <line>as she lay her head upon her arm</line>
+    <line>and <del rend="strikethrough">h</del> a hankerchief thrown across</line>
+    <line>her face &amp; neck I might have sup</line>
+    <line>posed her asleep – I rushed towards her &amp;</line>
+    <line>embraced her with ardour but the</line>
+    <line>deathly coldness of the body told me that</line>
+    <line>what I now held in my arms had</line>
+    <line>ceased to be the Elizabeth whom I</line>
+    <line>had loved &amp; cherished, the murderous</line>
+    <line>grasp of the fiend was on her neck</line>
+    <line>&amp; the breath had ceased to issue from</line>
+    <line>her <del rend="triple-strike">sweet</del> lips.</line>
+    <milestone unit="tei:p"/>
+    <line>While I still held her in my arms</line>
+    <line>in the agony of despair I happened to</line>
+    <line>look up. The room <del rend="strikethrough">which</del> had before</line>
+    <line>been quite dark and I felt a kind of</line>
+    <line>panic on seeing the pale yellow light</line>
+    <line>of the moon illuminate the chamber</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0149.01" resp="#pbs">me.</add></line>
+  </zone>
 </surface>
