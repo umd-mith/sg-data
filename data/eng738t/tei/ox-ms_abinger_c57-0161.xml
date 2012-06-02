@@ -1,8 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0161" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0161" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0161.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>177</line>
+  </zone>
+  <zone type="main">
+    <line>fulfil my pilgrimage with<del rend="strikethrough">out them I should</del></line>
+    <line><add><ptr target="#c57-0161.01"/></add> have sunk under my hardships <delSpan
+        spanTo="#c57-0161.02"/>&amp; misery</line>
+    <line>but<anchor xml:id="c57-0161.02"/> during the day I was <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">thus</add>
+      </mod> sustained &amp; inspri</line>
+    <line>ted by the hope of night; <del rend="strikethrough">&amp; sleep – I then</del><add
+        resp="#pbs" place="superlinear">for in sleep</add> I saw</line>
+    <line>my friends my wife &amp; my beloved country</line>
+    <line>again I saw the benevolent countenance</line>
+    <line>of my <del rend="double-strike"><unclear extent="1" unit="chars" precision="low"
+          reason="illegible"/></del> father,– heard the silver tones of</line>
+    <line>my Elizabeths voice and beheld Clerval</line>
+    <line>enjoying health &amp; youth – Often when</line>
+    <line>wearied by a toilsome march I persua</line>
+    <line>ded myself that I was then dreaming <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">until night should come</add>
+      </mod> &amp;</line>
+    <line>that <del rend="strikethrough">reality</del> I <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">should then</add>
+      </mod> enjoy<del rend="strikethrough">ed</del> reality <del rend="strikethrough">when I was
+        again</del></line>
+    <line>in the arms of my dearest friends–What</line>
+    <line>agonizing fondness did I feel for them–how</line>
+    <line>did I cling to their dear forms as they <mod>
+        <del rend="strikethrough" xml:id="c57-0161.03" next="#c57-0161.04"><unclear
+            reason="illegible" precision="low">pursed</unclear></del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear" resp="#pbs">sometimes</add>
+        <add place="superlinear">haunted</add>
+        <add place="sublinear">even</add>
+      </mod></line>
+    <line><mod xml:id="c57-0161.04" prev="#c57-0161.03">
+        <del rend="strikethrough">my day</del>
+        <del rend="strikethrough">as well as night</del>
+        <add><ptr target="#c57-0161.05"/></add>
+      </mod> dreams and per</line>
+    <line>suade myself that they still lived. At such</line>
+    <line>moments the vengeance that burned</line>
+    <line>withing me died in my heart and I pursued</line>
+    <line>my path towards the destruction of the dæ</line>
+    <line>mon more as a task enjoined by heaven,<add><metamark>✗</metamark><ptr target="c57-0161.06"
+        /></add></line>
+    <line>than the ardent desire of my soul.</line>
+    <milestone unit="tei:p"/>
+    <line>What his feelings were whom I pur</line>
+    <line>sued I <mod>
+        <del rend="strikethrough">hardly</del>
+        <add place="superlinear">cannot</add>
+      </mod> know – <del rend="triple-strike">Yet</del> Sometimes indeed he</line>
+    <line>left marks in writing on the barks of</line>
+    <line>trees or cut on stone that guided me,</line>
+    <line>&amp; instigated my fury — My reign is not yet</line>
+    <line>over, <mod>
+        <del rend="strikethrough">he said</del>
+        <add place="superlinear" resp="#pbs">was legible</add>
+        <del rend="strikethrough">on</del>
+        <add resp="#pbs" place="superlinear">in</add>
+      </mod> one of these <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">inscriptions—</add>
+      </mod>— You live &amp;</line>
+    <line>my power is complete. Follow me –I seek</line>
+    <line>the everlasting ices of the north where you</line>
+    <line>will feel the misery of go cold &amp; frost <delSpan spanTo="#c57-0161.07"
+        rend="strikethrough"/>but</line>
+    <line>I shall not for cold is sweeter to me</line>
+    <line>than heat<anchor xml:id="c57-0161.07"/><add><ptr target="#c57-0161.08"/></add> – You will
+      find near this place</line>
+    <line>if you follow not too tardily, a dead <del rend="strikethrough">hair</del><add
+        place="superlinear">hare</add></line>
+    <line>eat &amp; be revived. <del rend="strikethrough">for I</del> Come on my enemy</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c57-0161.01" spanTo="#c57-0161.09"/>
+    <line>Deprived of this</line>
+    <line>respite I should</line>
+    <anchor xml:id="c57-0161.09"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c57-0161.05" spanTo="c57-0161.10"/><line>the visions of</line>
+    <line>my waking</line>
+    <line>hours</line>
+    <anchor xml:id="c57-0161.10"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c57-0161.06" spanTo="#c57-0161.11"/><line><metamark>✗</metamark> as the
+      mechanical</line>
+    <line>impulse of</line>
+    <line>some power of
+      which<!--having trouble determining which of this margin text is written by pbs, such as this word--></line>
+    <line>I was uncon</line>
+    <line>-scious,</line>
+    <anchor xml:id="c57-0161.11"/>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c57-0161.08" spanTo="#c57-0161.12"/><line>to which I am</line>
+    <line>impassive</line>
+    <anchor xml:id="c57-0161.12"/>
+  </zone>
 </surface>
