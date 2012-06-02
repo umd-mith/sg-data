@@ -1,8 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0108" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0108" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0108">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0108.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">138</zone>
+  <zone type="top">
+    <line>Chap. 13<hi rend="underline"><hi rend="sup">th</hi></hi></line>
+  </zone>
+  <zone type="left_margin">
+    <add xml:id="c56-0108.01" resp="#pbs">of inaction &#x26; certainty the dead calmness
+        <metamark>&#x2038;</metamark> which</add>
+  </zone>
+  <zone type="main">
+    <line>Nothing is more painful <mod type="additions" resp="#pbs"><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">than</add></mod> when
+      the</line>
+    <line>mind has been worked up by a quick</line>
+    <line><del rend="strikethrough">S</del> succession of events, <del rend="strikethrough">for a
+        dead calm</del></line>
+    <line><del rend="strikethrough">of inaction and certainty to</del><add><ptr
+          target="#c56-0108.01"/></add> follow<add place="intralinear" resp="#pbs">s </add>
+      <mod><del rend="strikethrough">which</del>
+        <add place="superlinear" resp="#pbs">and</add></mod></line>
+    <line>deprives the <mod><del rend="strikethrough">mind</del>
+        <add place="superlinear">soul</add></mod> both of hope or fear.</line>
+    <line>Justine died&#x2013; She rested. <mod><del rend="strikethrough">But</del><add
+          place="superlinear">&#x26;</add></mod> I was alive</line>
+    <line>the blood flowed freely in my veins but</line>
+    <line>a weight of despair &#x26; remorse pressed</line>
+    <line>on my heart which nothing could remove&#x2013;</line>
+    <delSpan spanTo="#c56-0108.02"/><line>our house was a house of mourning&#x2013;</line>
+    <line>My fathers health was deeply shaken by</line>
+    <line>the horror of the recent events; Eliza</line>
+    <line>beth was sad and desponding&#x2013; She no longer</line>
+    <line>took delight in her ordinary occupa</line>
+    <line>tions all pleasure seemed to her sacri</line>
+    <line>ledge towards the dead&#x2013; eternal woe</line>
+    <line>and tears she then thought was the</line>
+    <line>just tribute she ought to pay to inno</line>
+    <line>cence thus blasted &#x26; destroyed <anchor xml:id="c56-0108.02"/>Sleep fled</line>
+    <line>from my eyes. I wandered like an</line>
+    <line>evil spirit for I <add place="superlinear">had</add>
+      <del rend="strikethrough">done</del>
+      <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">committed
+        deeds of</add> mischief beyond</line>
+    <line>description <add place="sublinear"><metamark>&#x2038;</metamark></add><add
+        place="superlinear">horrible,</add> and <del rend="smear"><add place="superlinear"
+        >hor</add></del> more much more (I</line>
+    <line>persuaded my self) was yet in store</line>
+    <line>yet my heart overflowed with kind</line>
+    <line>ness and <del rend="strikethrough">benevolence</del>
+      <add place="superlinear">goodness</add> &#x2013; I had begun life</line>
+    <line>with benevolent intentions and thirsted for</line>
+    <line>the moment when I <add place="sublinear"><metamark>&#x2038;</metamark></add><add
+        place="superlinear">could</add> put them in practise</line>
+  </zone>
+
 </surface>

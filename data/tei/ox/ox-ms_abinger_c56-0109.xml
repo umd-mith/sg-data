@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0109" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0109" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56-0109">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0109.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">139</zone>
+  <zone type="library">52</zone>
+  <zone type="main">
+    <line>and make myself useful to my fellow</line>
+    <line>beings. <del rend="strikethrough">But</del> <add place="intralinear" resp="#pbs">N</add>ow all was blasted<add place="intralinear" resp="#pbs">;</add> Instead</line>
+    <line>of serenity of conscience Which allowed me</line>
+    <line>to look back on my actions with self satis</line>
+    <line>faction, and from thence <add place="sublinear"><metamark>&#x2038;</metamark></add> <add place="superlinear" resp="#pbs">to gather promise of</add> new hopes <del rend="strikethrough">like</del></line>
+    <line><del rend="strikethrough">gay-sweet-smelling flowers to spring up</del></line>
+    <line><del rend="strikethrough">with <hi rend="underline">regard</hi> to futurity.</del> I was seized by</line>
+    <line>remorse and guilt, and hurried away</line>
+    <line>to a hell <del rend="strikethrough">no tongue</del> <add place="superlinear" resp="#pbs">of intense tortures such as</add> no language can</line>
+    <line>describe.</line>
+    <line>This state of mind <del rend="strikethrough">allt altered</del> <add place="superlinear" resp="#pbs">preyed upon</add> my health</line>
+    <line>which had <del rend="strikethrough">nearly</del> <add place="superlinear">entirely</add> recovered from the</line>
+    <line>first shock it had sustained. I shunned</line>
+    <line>the face of man; all sound of joy or</line>
+    <line>complacency was torture to me<add place="intralinear" resp="#pbs">;</add> Solitude</line>
+    <line>was my only consolation deep, dark, <del rend="strikethrough">night</del></line>
+    <line>death-like solitude. My father observed</line>
+    <line>with pain <del rend="strikethrough">how</del> <add place="superlinear" resp="#pbs">the alteration perceptible in</add> my dispositions &#x26; habits,</line>
+    <line><del rend="strikethrough">were altered</del> and endeavoured to reason</line>
+    <line>with me on the folly of giving way to immo</line>
+    <line>derate grief. <milestone unit="tei:q" spanTo="#c56-0109.02"/>"Do you think, Victor" said he</line>
+    <line>"That I do not suffer also&#x2013; no one <add place="sublinear"><metamark>&#x2038;</metamark></add> <add place="superlinear">could</add> love<del rend="strikethrough">d</del></line>
+    <line>a child more than I <del rend="strikethrough">did</del> <add place="superlinear" resp="#pbs">loved</add> your brother&#x2013;</line> 
+    <line>(<del rend="strikethrough">and</del> tears came <del rend="strikethrough">into</del> into his eyes as he</line>
+    <line>said this) but is <add place="superlinear" resp="#pbs">it</add> not <del rend="strikethrough">th our</del> <add place="superlinear" resp="#pbs">a</add> duty <del rend="strikethrough">not to</del></line>
+    <line><del rend="strikethrough">add to the grief of owed</del> to the<del rend="strikethrough">ir</del> survivors</line>
+    <line><del rend="strikethrough">not</del> <add place="sublinear"><metamark>&#x2038;</metamark></add><add><ptr target="#c56-0109.01"/></add> <del rend="strikethrough"><add place="superlinear">to</add> add to</del> their unhappiness by an appear</line>
+    <line>ance of immoderate grief. It is also a duty</line>
+    <line>owed to yourself; for excessive sorrow</line>
+    <line>prevents improvement or enjoyment or</line>
+    <line>even the discharge of day<add place="intralinear" resp="#pbs">ly</add> usefullness</line>
+    <line>without which no man is fit for<anchor xml:id="c56-0109.02"/></line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c56-0109.01">that we should refrain from <del rend="strikethrough">adding to</del> augmenting</add></zone>
 </surface>
