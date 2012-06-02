@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0135" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0135" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57-0135">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0135.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">151</zone>
+  <zone type="library">68</zone>
+  <zone type="main">
+    It gave me the greatest pleasure to 
+    receive a letter from my Uncle dated at
+    Paris. You are no longer at a formidable
+    distance and I may hope to see you in
+    less than a fort night. My poor Cousin!
+    How much must you have suffered!
+    I expect to see you looking even more
+    ill than when you quitted Geneva. This
+    winter has been passed most miserably
+    but
+    
+  </zone>
 </surface>
