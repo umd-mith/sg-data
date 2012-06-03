@@ -1,8 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
-            href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0163" ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../derivatives/shelley-godwin-page.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../../xsl/page-proof.xsl"?>
+
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0163" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0163.tif"/>
-    <zone>
+  <zone type="pagination">(179</zone>
+  <zone type="library">82</zone>
+    <zone type="main">
+<line>its superior wildness &amp; ruggedness&#x2014;The greeks wept</line>
+
+<line>when they saw the mediterranean from the hills</line>
+
+<line>of Asia and hailed with rapture the boundary of</line>
+
+<line>their toils - I did not weep but I knelt down &amp; thanked</line>
+
+<line>my <del rend="strikethrough">guardian</del> guiding spirit with a full heart</line>
+
+<line>for conducting me safety towards the place where</line>
+
+<line>I hoped notwithstanding my adversarys threat to</line>
+
+<line>meet &amp; grapple with him &#x2014; <del rend="strikethrough">For</del> some weeks before </line>
+
+<line><add><ptr target="c57-0163-1"/></add>I had procured a sledge &amp; dogs and thus traversed</line>
+
+<line>the snows with inconceivable speed I know not</line>
+
+<line>whether the fiend possessed the same advantages</line>
+          
+<line>but I found that as before I had <metamark place="sublinear">&#x2041;</metamark><add place="superlinear">daily</add> lost in the</line>
+          
+<line>advantage in my persuit I now gained on him</line>
+
+<line>so much that when I for the first time</line>
+
+<line>saw the occean- he was but one days journey</line>
+
+<line>in advance &amp; I hoped soon to intercept him</line>
+
+<line>With new courage therefore I pressed on &amp; in</line>
+
+<line>two days arrived at a wretched hamlet on</line>
+
+<line>the sea shore.  I enquired concerning the fiend</line>
+
+<line>&amp; gained every information - A gigantic <del rend="strikethrough">devil</del></line>
+
+<line><add><ptr target="c57-0163-2"/></add> they said had arrived the night before –Armed</line>
+                       
+<line>with a gun and many pistols &amp; putting <metamark place="sublinear">&#x2038;</metamark><add place="superlinear">to flight</add> the inha</line>
+
+<line>bitants of a solitary cottage <del rend="strikethrough">to flight</del> through</line>
+
+<line>fear of his <del rend="strikethrough">horr</del> terrific appearance, <add place="superlinear">he</add>had</line>
+
+<line><add><ptr target="c57-0163-3"/></add><del rend="strikethrough">seized on</del> their store of <del rend="strikethrough">wn</del> winter food</line>
+
+<line>&amp; placing it in a sledge to draw which he</line>
+
+<line><del rend="strikethrough">had</del><add place="superlinear">had</add> seized on a numerous drove of trained</line>
+
+<line>dogs – he had harnessed-<metamark place="sublinear">&#x2038;</metamark><add place="superlinear">them</add> &amp; the same night</line>
+
+<line><del rend="smear">had</del> to the <del rend="strikethrough">d</del> joy of the horror struck villagers</line>
+
+<line><add><ptr target="c57-0163-4"/></add>pursued his journey across the the sea</line>
+
+<line>in a direction that led to no land &amp; they</line>
+
+<line>conjectured that he must be speedily destroyed</line>
+
+<line>in the breaking of the ice or frozen by the</line>
+
+<line>eternal frost.–</line>
+
+<milestone unit="tei:p"/>
+
+<line><space/>On hearing this information I suffered a tem</line>
+
     </zone>
+<zone type="left_margin">
+  <seg>this period<anchor xml:id="c57-0163-1"/></seg>
+  <seg>monster<anchor xml:id="c57-0163-2"/></seg>
+  <seg>carried off<anchor xml:id="c57-0163-3"/></seg>
+  <seg>had<anchor xml:id="c57-0163-4"/></seg>
+</zone>
 </surface>
