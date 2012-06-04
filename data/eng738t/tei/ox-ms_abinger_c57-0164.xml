@@ -1,8 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
-            href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0164" ulx="0" uly="0" lrx="5148" lry="7030">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../derivatives/shelley-godwin-page.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../../xsl/page-proof.xsl" ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" 
+	 xmlns:sga="http://sga.mith.org/ns/1.0"
+	 partOf="ox-ms_abinger_c57"
+	 xml:id="ox-ms_abinger_c57-0164" ulx="0" uly="0" lrx="5148" lry="7030">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0164.tif"/>
-    <zone>
+    <zone type="pagination">180)</zone>
+    <zone type="main">
+<line>porary fit of despair –  he had escaped me and I</line>
+
+<line>must now commence a destructive &amp; almost</line>
+
+<line>endless journey across the mountainous ices</line>
+
+<line>of the occean – amidst cold that few of the</line>
+
+<line>inhabitants could long endure &amp; <del rend="strikethrough">how could</del></line>
+
+<line><add><ptr target="c57-0164-1"/></add> I <del rend="strikethrough">ex</del> <del rend="strikethrough">a</del> native of a genial &amp; su<metamark place="sublinear">&#x2038;</metamark><add place="superlinear">n</add>ny climate</line>
+
+<line><add><ptr target="c57-0164-2"/></add> hope to survive.  Yet at the idea that the</line>
+
+<line>fiend should <del rend="strikethrough">lif</del> live &amp; be triumphant my</line>
+
+<line>rage and vengeance returned &amp; like a</line>
+
+<line>mighty tide overwhelmed every other fee-</line>
+
+<line>ling.  After <del rend="strikethrough">tasting</del> a slight repose during</line>
+
+<line>which the spirits of the dead hovered round</line>
+
+<line>me &amp; instigated me to toil &amp; revenge I</line>
+
+<line>prepared for my journey.</line>
+
+<milestone unit="tei:p"/>
+
+<line><space/>  I exchanged my land sledge for</line>
+
+<line>one fashioned for the ruggedness of the</line>
+
+<line><add><ptr target="c57-0164-3"/></add> ocean and purchasing a plentiful stock</line>
+
+<line>of provisions I departed from land.  How</line>
+
+<line>many days have passed since then I know</line>
+                                        
+<line>not but I have endured misery <del rend="strikethrough">that</del><add place="superlinear">which</add></line>
+
+<line>nothing but the eternal sentiment <del rend="strikethrough">that</del></line>
+
+<line><add><ptr target="c57-0164-3"/></add>burn<del>s</del><add place="intralinear">ing</add> within my heart could have enabled</line>
+
+<line>me to support.  Immense &amp; rugged moun</line>
+
+<line>tains of ice often <del rend="strikethrough">barred up my</del> <del rend="strikethrough">par</del></line>
+
+<line>barred up my passage and I often heard</line>
+    
+<line>the <metamark place="sublinear">&#x2038;</metamark><add place="superlinear">earthquake &amp; the thunder of the</add> ground sea which threatened my</line>
+
+<line>destruction but again a frost came <delSpan spanTo="#c57-0164-4"/>that</line>
+
+<line>secured me<anchor xml:id="c57-0164-4"/> . <delSpan spanTo="#c57-0164-5"/>and I followed the slight</line>
+
+<line>tracts that my enemy had left<anchor xml:id="c57-0164-5"/> – By the</line>
+                    
+<line><del rend="strikethrough">consumation</del><add place="superlinear">quantity</add> of provision <metamark place="sublinear">&#x2038;</metamark><add place="superlinear">which I have consumed</add> I should guess</line>
+
+<line>that I had passed <del rend="strikethrough">three</del> <del rend="strikethrough"><add place="superlinear">two</add></del> <del rend="strikethrough">months</del><add place="superlinear">three weeks</add> in this</line>
+                    
+<line>journey – And <del rend="strikethrough">despair</del><add place="superlinear">despondency &amp; grief–</add> often wrung bitter</line>
+
+<line>drops from my eyes — Despair indeed had</line>
+
+<line>almost secured her prey &amp; I should soon</line>
+
+<line>have sunk under this misery– When once</line>
+    </zone>
+    <zone type="left_margin">
+      <seg>whih,<anchor xml:id="c57-0164-1"/></seg>
+      <seg>could not<anchor xml:id="c57-0164-2"/></seg>
+      <seg>frozen <anchor xml:id="c57-0164-3"/></seg>
+      <seg>of a just revenge<anchor xml:id="c57-0164-3"/></seg>
     </zone>
 </surface>
