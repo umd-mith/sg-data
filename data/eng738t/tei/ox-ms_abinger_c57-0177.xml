@@ -1,8 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0177" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0177" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0177.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>193</line>
+  </zone>
+  <zone type="library">
+    <line>89</line>
+  </zone>
+  <zone type="main">
+    <line>and honor cand never willingly continue to en</line>
+    <line>dure their present hardships.</line>
+    <milestone unit="tei:p"/>
+    <!--capture these dates in <dateline> tags, add <dateline> to schema?-->
+    <line>September 7<hi rend="underline">th</hi></line>
+    <line>The die is cast. I have consented to return if we</line>
+    <line>are not destroyed. Thus are my hopes blasted–</line>
+    <line>by cowardice and indecision – I come back</line>
+    <line><mod>
+        <del rend="strikethrough">bringing no new</del>
+        <add place="superlinear">ignorant</add>
+      </mod> &amp; dissa<mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">p</add>
+      </mod>pointed –It requires <mod xml:id="c57-0177.01" next="#c57-0177.02" type="deletions">
+        <del rend="strikethrough">a</del>
+      </mod></line>
+    <line><mod prev="#c57-0177.01" xml:id="c57-0177.02">
+        <del rend="strikethrough">great deal of</del>
+        <add place="superlinear">more</add>
+      </mod> philosophy <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">than I possess</add>
+      </mod> to bear this injustice</line>
+    <line>with patience –</line>
+    <milestone unit="tei:p"/>
+    <line>September 12<hi rend="underline">th</hi></line>
+    <line>It is past. I am returning to <mod>
+        <del rend="strikethrough">England</del>
+        <add place="superlinear" resp="#pbs">Archangel</add>
+      </mod>. I have</line>
+    <line>lost my hopes of utility &amp; glory –I have lost</line>
+    <line>my friend. But <del rend="triple-strike">if</del> I <mod>
+        <del rend="strikethrough">am</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">will</add>
+      </mod> at endeavour</line>
+    <line>to detail the bitter circumstances to you,</line>
+    <line>my dear sister – And while I am wafted</line>
+    <line>towards England &amp; towards you I will not</line>
+    <line>despair. <del rend="strikethrough">Sep</del></line>
+    <milestone unit="tei:p"/>
+    <line>September 9<hi rend="underline">th</hi> The ice began to move</line>
+    <line>and roarings like thunder was heard</line>
+    <line>at a distance as the <mod>
+        <del rend="strikethrough">mountains</del>
+        <add place="superlinear" resp="#pbs">islands</add>
+      </mod> split</line>
+    <line>&amp; cracked in every direction. We were</line>
+    <line>in the most eminent peril – But as we</line>
+    <line>could only remain passive my chief at</line>
+    <line>tention was co occupied by my unfor</line>
+    <line>tunate guest whose illness encreased to</line>
+    <line>such a degree that <del rend="strikethrough">to</del> he was entirely</line>
+    <line>confined to his bed. The ice cracked be</line>
+    <line>hind us and was driven with force</line>
+    <line>towards the north – a breeze sprung</line>
+    <line>from that quarter –<mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add resp="#pbs" place="superlinear">and</add>
+        <add place="superlinear">on the 11th</add>
+      </mod> the passage to</line>
+    <line>wards the south <mod>
+        <del rend="smear">was</del>
+        <add place="superlinear" resp="#pbs">became</add>
+      </mod> free <del rend="strikethrough">on th</del></line>
+    <line>When the sailors saw this &amp; that their</line>
+    <line>return towards their native country</line>
+    <line>was apparently assured a shout of</line>
+    <line>tumutuous joy broke from them</line>
+  </zone>
 </surface>
