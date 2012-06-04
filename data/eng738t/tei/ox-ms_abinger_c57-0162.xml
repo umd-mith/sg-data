@@ -1,8 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0162" ulx="0" uly="0" lrx="5148" lry="7030">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0162" ulx="0" uly="0" lrx="5148" lry="7030" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0162.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>178</line>
+  </zone>
+  <zone type="main">
+    <line>we have yet to wrestle for our lives but many</line>
+    <line>hard &amp; miserable hours will you spend</line>
+    <line>untill that period arrives"—</line>
+    <milestone unit="tei:p"/>
+    <line>Scoffing Devils! Again do I vow vengeance</line>
+    <line>again do I devote thee miserable fiend to</line>
+    <line>torture &amp; death never will I <mod>
+        <del rend="strikethrough">leave</del>
+        <add place="superlinear" resp="#pbs">omit</add>
+      </mod> my search</line>
+    <line>untill he <mod>
+        <del rend="strikethrough">dies</del>
+        <add place="superlinear" resp="#pbs">or I, perish.</add>
+      </mod> – And then with what</line>
+    <line>extacy shall I <del rend="tetra-strike">fe</del> join my Elizabeth &amp;</line>
+    <line>those who even <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">now</add>
+      </mod> prepare for me <mod>
+        <del rend="strikethrough">a</del>
+        <add place="intralinear" resp="#pbs">the</add>
+      </mod></line>
+    <line>reward <del rend="strikethrough">for</del><add place="superlinear" resp="#pbs">of</add> my
+      tedious &amp; <del rend="strikethrough"><unclear extent="1" unit="chars" precision="low"
+          reason="illegible"/></del> horrible</line>
+    <line>pilgrimage</line>
+    <milestone unit="tei:p"/>
+    <line>As I pursed my <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">still</add>
+      </mod> journey <del rend="strikethrough">still</del> to the</line>
+    <line>northward<del rend="double-strike">s</del> the snows <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">thickened</add>
+      </mod>, &amp; cold encreased <delSpan rend="strikethrough" spanTo="#c57-0162.01"/>to an</line>
+    <line>almos<anchor xml:id="c57-0162.01"/>
+      <mod>
+        <del rend="strikethrough">to</del>
+        <add place="superlinear" resp="#pbs">in</add>
+      </mod> ae degree almost too severe to support.</line>
+    <line>The peasantry were shut up in their hovels</line>
+    <line>and only a few of the most hardy ventured</line>
+    <line>forth to seize the animals whom starvation</line>
+    <line>had forced forth to seek for prey. The rivers</line>
+    <line>were covered with ice and no fish could</line>
+    <line>be procured. The triumph of my enemy</line>
+    <line>encreased with the difficulty of my labours</line>
+    <line>One <del rend="double-strike">en</del> inscription that he left was in</line>
+    <line>these words – Prepare – your toils only begin –</line>
+    <line>Wrap yourself in furs &amp; provide food for</line>
+    <line>we shall soon enter on a journey where</line>
+    <line>you sufferings will satisfy my <add place="superlinear">everlasting</add> hatred" My
+      cou</line>
+    <line>rage &amp; perseverance were inspired with</line>
+    <line>new strength by these difficulties I resolved</line>
+    <line>not to fail in my purpose and calling</line>
+    <line>heaven to support me I continued with</line>
+    <line>unabated fervour to traverse immense</line>
+    <line>desarts untill the occean appeared at a</line>
+    <line>distance and formed the utmost boundary</line>
+    <line>of the horizon –Oh How unlike it was to the</line>
+    <line>blue seas of the south Covered with ice it</line>
+    <line>was only to be distinguished from land by</line>
+  </zone>
 </surface>
