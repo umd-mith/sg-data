@@ -46,7 +46,8 @@
     <line>sioned by this letter or any other</line>
     <line>exertion of mine I shall need no </line>
     <line>other happiness- Your affectionate friend</line>
-    <milestone unit="tei:signed"/><line>Elizabeth Lavenza</line>
-    <milestone unit="tei:placeline"/><line>Geneva</line><anchor xml:id="c57-0134.01"></anchor>
+    <milestone unit="tei:signed" spanTo="#c57-0137.01"/><line>Elizabeth Lavenza</line><anchor xml:id="c57-0137.01"/>
+    <milestone unit="tei:placeline" spanTo="#c57-0137.02"/><line>Geneva</line><anchor xml:id="c57-0137.02"/>
+    <anchor xml:id="c57-0134.02"></anchor>
   </zone>
 </surface>
