@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0138" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0138" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57-0138">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0138.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">154</zone>
+  <zone type="top">
+    <line>Chap. 16</line>
+  </zone>
+  <zone type="main">
+    <line>This letter revived in my memory what I had before</line> 
+    <line>forgotten, the <del rend="strikethrough">mi</del> threat of fiend w<del rend="smear">hen</del> he visited</line>
+    <line>me at the Orkney Island. <hi rend="underline">I will be with you</hi></line>
+    <line><hi rend="underline">on your marriage night</hi>. Such was my sentence</line>
+    <line>and on that night would the d&#xe6;mon</line>
+    <line>employ every art to destroy me &#x26; tear me</line>
+    <line>from the <add place="sublinear">&#x2038;</add> <add place="superlinear" resp="#pbs">glimse</add> happiness <add place="superlinear">by which it promised</add> <del rend="strikethrough">that might c</del> partly</line>
+    <line>console my sufferings. On that night he</line> 
+    <line>had determined to consummate his crimes</line>
+    <line>by my death. Well be it so. A deadly struggle</line>
+    <line>would then assuredly take place where</line>
+    <line>if he was victorious I should be at peace</line>
+    <line>and his power ove<add place="intralinear">r</add> me <del rend="strikethrough">was</del> <add place="superlinear" resp="#pbs">be</add> at an end</line>
+    <line>If he were vanquished <del rend="strikethrough">he should I</del></line>
+    <line><del rend="strikethrough">and</del> I <add place="sublinear">&#x2038;</add> <add place="superlinear">should</add> be a free man&#x2014; Alas what a</line> 
+    <line>freedom such as peasant endures</line>
+    <line>when his family have been massacred</line>
+    <line>before his eyes his cottage burnt his</line>
+    <line>lands laid waste &#x26; he is turned adrift</line>
+    <line>homeless, pennyless &#x26; alone: but free.</line>
+    <line>Such would be my liberty except that</line>
+    <line>in my Elizabeth I possessed a treasure</line>
+    <line>alas balanced by the horrors of remorse</line>
+    <line>&#x26; Guilt which would pursue me</line>
+    <line>untill death.</line>
+    <milestone unit="tei:p"/><line>Sweet &#x26; beloved Elizabeth! I read</line>
+    <line>&#x26; reread her letter &#x26; some softened</line>
+    <line>feelings stole into my heart &#x26; dared</line> 
+    <line>whisper Paradiscical dreams of love</line>
+    <line>&#x26; joy&#x2013; But the apple was already</line>
+    <line>eaten &#x26; the Angels arm bared ready</line>
+    <line>to chase me from all hope. Yet I</line>
+  </zone>
 </surface>
