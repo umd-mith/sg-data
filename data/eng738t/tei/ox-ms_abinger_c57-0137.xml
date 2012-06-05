@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0137" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0137" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57-0137">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0137.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">153</zone>
+  <zone type="library">69</zone>
+  <zone type="main">
+    and companion. But it is your hap
+    piness I desire as well as my own felicity
+    when I declare to you that our marriage
+    would reader me eternally miserable
+    unless it were the dictate of your own
+    free choice. Even now I weep when I co think
+    that borne down as you are by the
+    cruellest misfortunes you may stifle
+    by the word honor all hope of that 
+    love & happiness which would alone
+    conduce to your felicity
+  </zone>
 </surface>
