@@ -24,9 +24,9 @@
     <line>we grew older. But as a brother &#x26; sister</line>
     <line>often entertain a lively affection towards</line>
     <line>one another <add place="sublinear">&#x2038;</add>
-      <add place="superlinear">without desiring a more intimate union</add> May not <del
+      <add place="superlinear" resp="#pbs">without desiring a more intimate union</add> May not <del
         rend="strikethrough">this</del>
-      <add place="superlinear">such</add> also be</line>
+      <add place="superlinear" resp="#pbs">such</add> also be</line>
     <line>our case. Tell me, dearest Victor, Answer</line>
     <line>me, I conjure you by our mutual happi</line>
     <line>ness, with simple truth do you not love</line>
