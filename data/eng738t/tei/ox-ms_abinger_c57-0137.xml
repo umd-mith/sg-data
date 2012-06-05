@@ -3,44 +3,50 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0137" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57-0137">
+  xml:id="ox-ms_abinger_c57-0137" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0137">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0137.tif"/>
   <zone type="pagination">153</zone>
   <zone type="library">69</zone>
   <zone type="main">
-    and companion. But it is your hap
-    piness I desire as well as my own felicity
-    when I declare to you that our marriage
-    would reader me eternally miserable
-    unless it were the dictate of your own
-    free choice. Even now I weep when I co think
-    that borne down as you are by the
-    cruellest misfortunes you may stifle
-    by the word honor all hope of that 
-    love & happiness which would alone
-    conduce to your felicity restore you to yourself. I who have
-    so disinterrested an affection for you
-    may encrease your miseries tenfold
-    by being an obstacle to your wishes
-    Ah Victor be assured that your cou
-    sin & play mate has too sincere
-    a love for you not to be made
-    wretched by this supposition. Be hap
-    py my friend and if you obey me in 
-    this one request be assured that
-    nothing on earth will have the power
-    to disturb &#x2038; interrupt my tranquillity.
-    Do not let this letter disturb you.
-    Do y not answer it tomorrow or the
-    next day or not even untill you
-    come if it will give you pain. My
-    Uncle will send me news of your 
-    health and if I see but one smile
-    on your lips when we meet occa
-    sioned by this letter or any other
-    exertion of mine I shall need no 
-    other happiness- Your affectionate friend
-    Elizabeth Lavenza
+    <line>and companion. But it is your hap</line>
+    <line>piness I desire as well as my own <del rend="strikethrough">felicity</del></line>
+    <line>when I declare to you that our marriage</line>
+    <line>would render me eternally miserable</line>
+    <line>unless it were the dictate of your own</line>
+    <line>free choice. Even now I weep when I <del rend="strikethrough">co</del> think</line>
+    <line>that borne down as you are by the</line>
+    <line>cruellest misfortunes you may stifle</line>
+    <line>by the word honor all hope of that</line>
+    <line>love &#x26; happiness which would alone</line>
+    <line><mod>
+        <del rend="strikethrough">conduce to your felicity</del>
+        <add place="superlinear">restore you to yourself</add>
+      </mod>. I who have</line>
+    <line>so disinterrested an affection for you</line>
+    <line>may encrease your miseries tenfold</line>
+    <line>by being an obstacle to your wishes</line>
+    <line>Ah Victor be assured that your cou</line>
+    <line>sin &#x26; play mate has too sincere</line>
+    <line>a love for you not to be made</line>
+    <line>wretched by this supposition. Be hap</line>
+    <line>py my friend and if you obey me in</line>
+    <line>this one request be assured that</line>
+    <line>nothing on earth will have the power</line>
+    <line>to <mod><del rend="strikethrough">disturb</del>
+      <add place="sublinear">&#x2038;</add>
+      <add place="superlinear">interrupt</add></mod> my tranquillity.</line>
+    <milestone unit="tei:p"/><line>Do not let this letter disturb you.</line>
+    <line>Do <del rend="cross-hatch">y</del> not answer it tomorrow or the</line>
+    <line>next day or not even untill you</line>
+    <line>come if it will give you pain. My</line>
+    <line>Uncle will send me news of your </line>
+    <line>health and if I see but one smile</line>
+    <line>on your lips when we meet occa</line>
+    <line>sioned by this letter or any other</line>
+    <line>exertion of mine I shall need no </line>
+    <line>other happiness- Your affectionate friend</line>
+    <milestone unit="tei:signed"/><line>Elizabeth Lavenza</line>
+    <milestone unit="tei:placeline"/><line>Geneva</line><anchor xml:id="c57-0134.01"></anchor>
   </zone>
-  <zone type="left_margin"><add>Geneva</add></zone>
 </surface>
