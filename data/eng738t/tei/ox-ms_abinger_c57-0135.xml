@@ -9,7 +9,7 @@
   <zone type="pagination">151</zone>
   <zone type="library">68</zone>
   <zone type="main">
-    <line>It gave me the greatest pleasure to</line>
+    <milestone unit="tei:p"/><line>It gave me the greatest pleasure to</line>
     <line>receive a letter from my Uncle dated at</line>
     <line>Paris. You are no longer at a formidable</line>
     <line>distance and I may hope to see you in</line>
