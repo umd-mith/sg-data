@@ -50,10 +50,10 @@
         >us</add> a few weeks. <del rend="strikethrough">I I rermain</del></line>
     <line><del rend="strikethrough">ed with him</del> In this city I received the</line>
     <line>following letter from Elizabeth:</line>
-    <milestone unit="tei:p"/>
-    <line>To Victor Frankenstein</line>
-    <line><add place="superlinear">May</add>
-      <del rend="strikethrough">Feb.</del> 18&#x2013; 17&#x2014;</line>
-    <line>My dearest Friend.</line>
+    <milestone unit="tei:div" spanTo="#c57-0134.02"/>
+    <milestone unit="tei:p"/><line>To Victor Frankenstein</line>
+    <milestone unit="tei:dateline" spanTo="#c57-0134.03"/><line><add place="superlinear">May</add>
+      <del rend="strikethrough">Feb.</del> 18&#x2013; 17&#x2014;</line><anchor xml:id="c57-0134.03"/>
+    <milestone unit="tei:salute" spanTo="#c57-0134.04"/><line>My dearest Friend.</line><anchor xml:id="c57-0134.04"/>
   </zone>
 </surface>
