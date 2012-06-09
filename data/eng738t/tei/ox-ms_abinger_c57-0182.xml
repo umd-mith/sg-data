@@ -1,8 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0182" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0182" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0182.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>198</line>
+  </zone>
+  <zone type="main">
+    <line>again turning towards the lifeless form of his</line>
+    <line>creator he seemed to forget my presence while</line>
+    <line>every feature &amp; gesture seemed instigated</line>
+    <line>by the wildest rage. That is also my victim,</line>
+    <line>he exclaimed—In his murder my crimes are</line>
+    <line><add><ptr target="c57-0182.01"/></add>consum<mod>
+        <add place="superlinear"><del rend="smear"><unclear reason="illegible" precision="low"
+              unit="chars" extent="1">m</unclear></del></add>
+        <add place="sublinear">m</add>
+      </mod>ate<del rend="strikethrough">d</del> – Oh Frankenstein – Generous &amp;</line>
+    <line>self devoted creature dare I ask <mod>
+        <del rend="strikethrough">you</del>
+        <add place="superlinear" resp="#pbs">thee</add>
+      </mod> to</line>
+    <line>pardon me – I who destroyed thee by des</line>
+    <line>troying those <mod>
+        <del rend="strikethrough">thou</del>
+        <del rend="strikethrough">you</del>
+        <add place="superlinear" resp="#pbs">thou</add>
+      </mod> loved<add place="intralinear" resp="#pbs">st</add>. Alas he is</line>
+    <line>dead and may not answer me.</line>
+    <milestone unit="tei:p"/>
+    <line>His voice seemed suffocated &amp; my</line>
+    <line>first impulse which had been <del rend="strikethrough">at first</del></line>
+    <line>to obey the dying request of my friend in</line>
+    <line>destroying his enemy <del rend="strikethrough">do</del> now <mod>
+        <del rend="strikethrough">died</del>
+        <del rend="strikethrough">away</del>
+        <add place="superlinear" resp="#pbs">was overwhelmed</add>
+      </mod> in</line>
+    <line>a mixture of curiosity &amp; pity. I approach</line>
+    <line>ed him – yet I dared not look on him</line>
+    <line>there was somthing so
+        <!--per scholar's note, 
+          unearthly and scaring need to be transposed, 
+          thus the following--><seg
+        xml:id="c57.0182.02">unearthly</seg><add place="superlinear" resp="#pbs"><metamark
+          function="transposition" target="#c57-0182.02">2</metamark></add> &amp; <seg
+        xml:id="c57.0182.03">scar<mod>
+          <add place="sublinear">&#x2038;</add>
+          <add place="superlinear">
+            <del rend="overwritten">2</del>
+            <add place="superlinear"><metamark function="transposition" target="#c57-0182.03"
+                >1</metamark></add></add>
+        </mod>ing</seg></line>
+    <!--if using the above encoding, please uncomment 
+      the following code and add the elements to the schema. 
+      I'm following the TEI example at 
+      http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#transpo
+      <listTranspose>
+      <transpose>
+        <ptr target="#c57-0182.03"/>
+        <ptr target="#c57-0182.02"/>
+       </transpose>
+    </listTranspose>-->
+    <line>in his ugliness. I attempted to speak but</line>
+    <line>the words died away on my lips – The Monster</line>
+    <line>continued to utter wild &amp; incoherent</line>
+    <line>self reproaches at length I said. Your</line>
+    <line>repentance is now useless. If you had felt</line>
+    <line>the stings of remorse before you urged</line>
+    <line><del rend="strikethrough">to extremity</del> your diabolical vengeance <add
+        place="superlinear">to <mod>
+          <del rend="strikethrough">its</del>
+          <add place="superlinear" resp="#pbs">this</add>
+        </mod> extremity</add> Fran</line>
+    <add place="sublinear">&#x2038;</add>
+    <line>kenstein would yet have lived</line>
+    <milestone unit="tei:p"/>
+    <line>And do you think, said the dæmon</line>
+    <line>that I was then dead to anguish and</line>
+    <line>remorse?— He – he continued pointing to</line>
+    <line>the corpse, he suffered not more</line>
+    <line>in the completion of the deed that</line>
+    <line>I did in its execution. A frightful</line>
+    <line>selfishness hurried me on while my</line>
+    <line>heart was torn with agony. Think ye</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0182.01"><del rend="strikethrough">ren</del></add></line>
+  </zone>
 </surface>
