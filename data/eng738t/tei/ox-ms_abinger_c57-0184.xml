@@ -1,8 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0184" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0184" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0184.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>200</line>
+  </zone>
+  <zone type="main">
+    <line>are consumed you sit amid the ruins &amp; lament</line>
+    <line>their fall. Hypocritical <del rend="double-strike">fi</del> Fiend! If he whom</line>
+    <line>you lament still lived still would you</line>
+    <line>persue him with your accursed vengeance.</line>
+    <line>It is not pity that you feel – it is sorrow that</line>
+    <line>your power of mischief is <del rend="strikethrough">at an end</del>. anihilated</line>
+    <milestone unit="tei:p"/>
+    <line><del rend="strikethrough">I par</del> It is not thus, said the dæmon, &amp;</line>
+    <line>yet <mod>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">such must be</add>
+      </mod> you<add place="intralinear">r</add>
+      <mod>
+        <del rend="strikethrough">must think so</del>
+        <add place="superlinear">impression</add>
+      </mod> since such</line>
+    <line>appears to have been the purport of my</line>
+    <line>actions. But I do not seek <mod>
+        <del rend="strikethrough">sympathy</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">a fellow feeling</add>
+      </mod> in</line>
+    <line>my misery–I feel it deeply &amp; truly &amp; for sy</line>
+    <line>mpathy that I may never find. When</line>
+    <line>I first sought it– it was <mod>
+        <del rend="strikethrough">in</del>
+        <add place="superlinear">the</add>
+      </mod> love of virtue,</line>
+    <line>it was in feelings of happiness &amp; content</line>
+    <line>that I wished to be participated. But</line>
+    <line>now that virtue is to me merely a sha</line>
+    <line>dow and happiness &amp; content <mod>
+        <del rend="strikethrough">and</del>
+        <add place="superlinear">are</add>
+      </mod> turned</line>
+    <add place="sublinear">&#x2038;</add>
+    <line>into despair shall I seek for sympathy</line>
+    <line>in that. No–I am content to suffer</line>
+    <line>alone while I do suffer – And when I</line>
+    <line>die I am satisfied that <del rend="strikethrough">death</del> hatred</line>
+    <line>&amp; opprobrium should load my memory.</line>
+    <line>Once my fancy was soothed by dreams</line>
+    <line>of virtue of fame &amp; of enjoyment. Once</line>
+    <line>I hoped to meet with one who pardoning</line>
+    <line>my outward form <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">would</add>
+      </mod> love me for the</line>
+    <line>excellent qualities <mod>
+        <del rend="strikethrough">that</del>
+        <add place="superlinear" resp="#pbs">with which</add>
+      </mod> I <mod>
+        <del rend="strikethrough">displayed</del>
+        <add place="superlinear" resp="#pbs">was so eminently <ptr target="#c57-0184.01"/></add>
+      </mod> – I</line>
+    <line>was then filled with high thoughts of</line>
+    <line>honour &amp; self devotion – But now <del rend="strikethrough">crime</del></line>
+    <line><add><ptr target="#c57-0184.02"/></add> has sunk me below the meanest <del
+        rend="strikethrough">of</del></line>
+    <line>animal– no crimes can equal mine</line>
+    <line>&amp; when I call over the frightful cata</line>
+    <line>logue I cannot believe that I am he</line>
+    <line>whose thoughts were once filled with</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c57-0184.01" spanTo="c57-0184.03"/>
+    <line>capable</line>
+    <line>of bringing</line>
+    <line>forth.</line>
+    <anchor xml:id="c57-0184.03"/>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0184.02">vice</add></line>
+  </zone>
 </surface>
