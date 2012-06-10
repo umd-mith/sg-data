@@ -1,8 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0165" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0165" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0165.tif"/>
-    <zone>
+    <zone type="pagination">(181</zone>
+    <zone type="main">
+<line>after the poor animals that carried me <del rend="strikethrough">along</del> had</line>
+
+<line>with incredible toil gained the summit of an ice</line>
+
+<line>mountain <del rend="strikethrough">Th</del> they paused to rest and one unable to</line>
+        
+<line>move <del rend="strikethrough">sunk</del> <metamark place="sublinear">&#x2038;</metamark><add place="superlinear">sinking</add> under the toil died—I <del rend="strikethrough">f</del> viewed the expance</line>
+
+<line>before<seg xml:id="c57-0165-1">,</seg> with anguish; when suddenly my eye was</line>
+                       
+<line>arrested by a <add place="superlinear">dark</add> speck on <metamark place="sublinear">&#x2038;</metamark><add place="superlinear">the</add> dusky plain – I strained my</line>
+
+<line>sight to <del rend="strikethrough">view</del><add place="superlinear" resp="#pbs">discover</add> what <del rend="strikethrough">indee</del> it could be &amp; uttered <add place="superlinear" resp="#pbs">a</add> wild</line>
+
+<line>cry of extacy when I distinguished a sledge dogs &amp;</line>
+                  
+<line><del rend="strikethrough">a hideous</del><metamark place="sublinear">&#x2038;</metamark><add place="superlinear" resp="#pbs">the distorted proportions of a well known</add> form <metamark place="sublinear">&#x2038;</metamark><add place="superlinear">within.</add> <del rend="strikethrough">moving</del> <del rend="strikethrough">away</del> Oh <del rend="strikethrough">hope</del> with what</line>
+
+<line>a burning gush did hope revisit my heart – warm</line>
+
+<line>tears filled my eyes which I hastily wiped away</line>
+
+<line>that they might not<metamark place="sublinear">&#x2038;</metamark><add place="superlinear"><del rend="smear">be <unclear>present in them to</unclear></del></add> intercept the view I had of the</line>
+
+<line>fiend. I followed— but still the dew dimmed my</line>
+
+<line>sight untill giving way to the emotions that</line>
+
+<line>oppressed me I wept aloud.</line>
+
+<milestone unit="tei:p"/>
+
+<line><space/>But this was not the time for delay</line>
+
+<line>I disincumbered the<del rend="strikethrough">ir</del> dogs of their dead compa</line>
+
+<line>nion and gave them a plentiful portion of</line>
+
+<line>food and after an hours repose which was abso</line>
+
+<line>lutely necessary &amp; yet which was bitterly irksome</line>
+
+<line>to me I continued my path — The sledge was</line>
+
+<line>still visible nor did I again lose sight of it</line>
+
+<line>except at the moments when for a short time</line>
+
+<line>some ice rock <del rend="strikethrough">hid</del><add place="superlinear" resp="#pbs">concealed</add> it<metamark place="sublinear">&#x2038;</metamark><add place="superlinear" resp="#pbs"><del rend="strikethrough">from</del> with its intervening crags.</add> I indeed perceptibly  </line>
+
+<line>gained on <del rend="strikethrough">it</del><add place="superlinear">the object of my pursuit.</add>.  And after about <del rend="strikethrough">amo</del> ano</line>
+      
+<line>ther <del rend="strikethrough">weeks</del><add place="superlinear">days</add> journey I beheld myself at no</line>
+                
+<line>more than <del rend="strikethrough">two</del> <del rend="strikethrough">leagues</del><add place="superlinear">half a <del rend="strikethrough">league</del> mile</add> distant. <del rend="strikethrough">from it</del> </line>
+
+<line>My heart bounded within me – But</line>
+
+<line>now when I appeared almost within grasp</line>
+
+<line>of my enemy my hopes were suddenly extinguished</line>
+
+<line>and I <del rend="strikethrough">became</del> lost all trace of him more</line>
+
+<line>utterly than I had ever done before  A ground</line>
+                                          
+<line>sea was heard – the thunder of it<add place="intralinear" resp="#pbs">s</add><add place="superlinear">progress</add> as <del rend="strikethrough">it</del> the wa</line>
+                                         ^
+<line>ters rolled &amp; swelled beneath me became every</line>
+                                                      
+<line>moment more ominous &amp; terrific —I press<add place="superlinear">ed</add> on</line>
+         
+<line><unclear/> but <add place="superlinear">in</add> vain<del rend="strikethrough">ly</del> – The wind arose the sea roared</line>
+
     </zone>
 </surface>
