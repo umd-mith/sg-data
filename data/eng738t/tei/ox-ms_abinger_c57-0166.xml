@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0166" ulx="0" uly="0" lrx="5148" lry="7030">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0166" ulx="0" uly="0" lrx="5148" lry="7030"
+  partOf="#ox-ms_abinger_c57-0166">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0166.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">182</zone>
+  <zone type="main">
+    <line>and with the mighty shock of an earthquake,</line>
+    <line>it split &#x26; cracked with a <del rend="strikethrough">crash</del> tremendus</line>
+    <line>and overwhelming sound&#x2014; The work was</line>
+    <line>soon finished in a few minutes a migh</line>
+    <line>ty ocean rolled between me &#x26; my enemy.</line>
+    <line>And I was left difting on a scattered piece</line>
+    <line>that was every moment lessening</line>
+    <line>and thus preparing for me a hideous</line>
+    <line>death&#x2013; <del rend="strikethrough">thus past</del>
+      <add place="superlinear">In this manner</add> many <del rend="strikethrough"><hi
+          rend="underline">hideous</hi></del> hours <add place="sublinear">&#x2038;</add>
+      <add place="superlinear">passed</add></line>
+    <line>several of my dogs died and I myself</line>
+    <line><del rend="strikethrough">should have</del>
+      <add place="superlinear" resp="#pbs">was about to</add> sunk <add place="sublinear"
+        >&#x2038;</add>
+      <add place="superlinear">under the accumulation of hardships</add> when I saw your
+      vessel</line>
+    <line>riding at <del rend="strikethrough">ansh</del> anchor and holding forth</line>
+    <line>to me hopes of succour &#x26; life. I had no</line>
+    <line>conception that vessels ever came so</line>
+    <line>far north &#x26; was astounded the sight.</line>
+    <line><del rend="strikethrough">bu and</del> I quickly destroy<del rend="overwritten"
+        >ing</del><add place="intralinear">ed</add>
+      <add place="sublinear">&#x2038;</add>
+      <add place="superlinear" resp="#pbs">part</add> of my sledge <add place="superlinear"><del
+          rend="strikethrough">and</del></add>
+      <add place="superlinear" resp="#pbs">to</add></line>
+    <line>constructed oars and by these means was</line>
+    <line>able with infinite fatique to <del rend="strikethrough">near</del> move</line>
+    <line>my ice raft in the direction of your <del rend="strikethrough">sledge</del><add><ptr target="#c57-0166.01"/></add></line>
+    <line>I had resolved that if you were going</line>
+    <line>southward still to trust myself to the</line>
+    <line>mercy of the seas rather than abandon</line>
+    <line>my purpose&#x2013; I hoped to be able to move</line>
+    <line>you to grant me a boat &#x26; some provi</line>
+    <line>sion with I could still seek my enemy.</line>
+    <line>But your direction was northward <delSpan spanTo="#c57-0166.02"/><del rend="strikethrough">and I</del></line>
+    <line><del rend="strikethrough">now daily hope that I may gai</del> find the</line>
+    <line>fiend I seek and sacrifice him to my revenge</line>
+    <line>or discover certain assurances of his</line>
+    <line><del rend="strikethrough">death</del> destruction- In the mean time I</line>
+    <line>consent to drag on a miserable existence</line>
+    <line>uncheered but by the hope of freedom</line>
+    <line>when freed from my task of vengeance<anchor xml:id="c57-0166.02"/></line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c57-0166.01">vessel</add></zone>
+  <zone type="left_margin"><add><del rend="strikethrough">and now I enjoy the hope that i may again see him and in executing on
+    him the vengeance</del></add></zone>
 </surface>
