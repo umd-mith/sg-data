@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0173" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0173" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0173.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>189</line>
+  </zone>
+  <zone type="main">
+    <line>crush my vessel. The brave fellows whom I persua</line>
+    <line>ded to be my companions look at me for aid</line>
+    <line>but I have none <mod>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">to bestow</add>
+      </mod>. There is somthing terribly appall</line>
+    <line>ing in our situation Yet my courage &amp; hopes do</line>
+    <line>not desert me — We may survive &amp; if we do not –</line>
+    <line>I will repeat the lessons of my Seneca &amp; die with a</line>
+    <line>good heart.</line>
+    <milestone unit="tei:p"/>
+    <line>Yet what, Margaret, will be your state – You</line>
+    <line>will not hear of my destruction and you will</line>
+    <line>anxiously await my return – Years will pass</line>
+    <line>and you will have visitings of despair &amp;</line>
+    <line>yet be cheered by hope. Oh my beloved sister</line>
+    <line>the <del rend="strikethrough">siskness</del> sicknening failings of your heart</line>
+    <line>felt expectations <del rend="strikethrough">have</del> are in prospect</line>
+    <line>more terrible to me than my own death –But</line>
+    <line>you have a husband and lovely children—</line>
+    <line>you may be happy — Heaven bless you &amp;</line>
+    <line>make you so.</line>
+    <milestone unit="tei:p"/>
+    <line>My <del rend="strikethrough">in</del> unfortunate gu<del rend="double-strike">i</del>est
+      regards</line>
+    <line>me with the tenderest compassion – He</line>
+    <line><del rend="strikethrough">fills</del> endeavours to fill me with hope – And</line>
+    <line>talks as if life were a thing which he loved</line>
+    <line>He reminds me how often the same acci</line>
+    <line>dents have happened to other navigators,</line>
+    <line>who have attempted the same sea. In</line>
+    <line>spite of myself he fills me with cheerful</line>
+    <line>augu<del rend="double-strike">i</del>ries. Even the sailors feel the benefit</line>
+    <line>of his eloquence – when he speaks they</line>
+    <line>no longer despair – he rouzes their ener</line>
+    <line>gies &amp; they believe <add place="sublinear">&#x2038;</add><add place="superlinear"
+        >when</add><!--scholar marks this in bold: what does that markup represent?--> these vast
+      mountains</line>
+    <line>of ice <mod>
+        <del rend="strikethrough">and</del>
+        <add place="superlinear" resp="#pbs">are</add>
+      </mod> mole hills which will va</line>
+    <line>nish before the resolutions of man.</line>
+    <line><del rend="smear">But</del> this is but transitory and each</line>
+    <line>days expectation delayed, fills them fear &amp;</line>
+    <milestone unit="tei:p"/>
+    <line>I almost dread <add place="superlinear" resp="#pbs">the</add> mutiny <add
+        place="intralinear" resp="#pbs">of despair</add></line>
+  </zone>
 </surface>
