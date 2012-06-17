@@ -7,24 +7,26 @@
   <graphic url="../../images/ox/ox-ms_abinger_c58-0026.tif"/>
   <zone type="pagination">128</zone>
   <zone type="main">
-    <line>with accu<mod><del rend="overwritten">s</del><add place="intralinear">r</add></mod>acy,
-      and never deviating into invective or</line>
-    <line>exclamation. <milestone unit="tei:p"/><add resp="comp"><metamark>[</metamark></add>The
-      magistrate appeared at first per-</line>
+    <line>with accu<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">r</add>
+      </mod>acy, and never deviating into invective or</line>
+    <line>exclamation. <milestone unit="tei:p"/><add place="intralinear" hand="comp"
+          ><metamark>[</metamark></add>The magistrate appeared at first per-</line>
     <line>fectly incredulous but as I continued he became more</line>
     <line>attentive and interrested; I saw him sometimes shud</line>
     <line>der with horror, at others a lively surprise unmin</line>
     <line>gled with disbelief was painted on his countenance.</line>
-    <line><milestone unit="tei:p"/><add resp="comp"><metamark>[</metamark></add>When I had concluded
-      my narration I said:<add resp="comp"><metamark>&#8213;&#8213;</metamark></add></line>
-    <!-- There is no quotation mark in the manuscript, but there is an end quotation mark-->
-    <line><add resp="comp"><metamark>&#8213;</metamark></add><milestone unit="tei:p"/><milestone unit="tei:q"
-        spanTo="#c58-0026.01"/>This is the being whom I accuse and for whose</line>
+    <milestone unit="tei:p"/><line><add place="intralinear" hand="comp"
+      ><metamark>[</metamark></add>When I had concluded my narration I said:<add place="intralinear"
+        hand="comp"><metamark>&#8213;&#8213;</metamark></add></line>
+    <line><add place="intralinear" hand="comp"><metamark>&#8213;</metamark></add>This is the being
+      whom I accuse and for whose</line>
     <line>detection and punishment I call upon you to exert</line>
     <line>your whole power. It is your duty as a magistrate</line>
     <line>and I believe and hope that your feelings as a</line>
     <line>man will not <del rend="strikethrough">revold</del> revolt from the execution of</line>
-    <line>those functions on this occasion."<anchor xml:id="c58-0026.01"/></line>
-    <line><milestone unit="tei:p"/>This address caused a considerable change in the</line>
+    <line>those functions on this occasion."</line>
+    <milestone unit="tei:p"/><line>This address caused a considerable change in the</line>
   </zone>
 </surface>

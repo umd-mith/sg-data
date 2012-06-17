@@ -5,23 +5,22 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0024" ulx="0" uly="0" lrx="5408" lry="6680" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0024.tif"/>
-  <zone type="pagination">
-    <line>126</line>
-  </zone>
+  <zone type="pagination">126</zone>
   <zone type="main">
     <line>time awakened to revenge. As the memory of past</line>
-    <line>misfortunes prest upon me, I began to <del rend="strikethrough">f</del> reflect</line>
+    <line>misfortunes prest upon me<add place="intralinear" hand="comp">,</add> I began to <del
+        rend="strikethrough">f</del> reflect</line>
     <line>on their cause; the monster whom I had created, the</line>
-    <line>miserable dæmon whom I had sent <mod><add place="sublinear"
-          ><metamark>&#x2038;</metamark></add><add place="superlinear">abroard</add></mod> in<del
-        rend="strikethrough">to</del> the world</line>
+    <line>miserable d&#230;mon whom I had sent <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">abroard</add>
+      </mod> in<del rend="strikethrough">to</del> the world</line>
     <line>for my destruction. I was possessed by a madening</line>
     <line>rage when I thought of him and desired and ardently</line>
     <line><del rend="strikethrough">prazed</del> prayed that I might have him within</line>
     <line>my grasp to wreak a great and signal revenge on</line>
     <line>his cursed head.</line>
-    <milestone unit="tei:p"/>
-    <line>Nor did my hate long confine itself to use</line>
+    <milestone unit="tei:p"/><line>Nor did my hate long confine itself to use</line>
     <line>less wishes; I began to reflect on the best means of se</line>
     <line>-curing him, and for this purpose about a month after</line>
     <line>my release I repaired to a criminal judge in the town</line>

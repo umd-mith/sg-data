@@ -9,7 +9,7 @@
   <zone type="main">
     <line>you do not credit my narrative, and do not intend to</line>
     <line>pursue my enemy with the punishment which</line>
-    <line>is his desert.<anchor xml:id="c58-0027.02"/></line>
+    <line>is his desert.</line>
     <milestone unit="tei:p"/><line>As I spoke rage sparkled in my eyes; the ma-</line>
     <line>gistrate was intimidated; <mod><del rend="overwritten">Y</del><add place="intralinear"
           >y</add></mod>ou are mistaken, said</line>
@@ -25,5 +25,3 @@
   </zone>
 </surface>
 
-<!--There are several implied quotations here, as elsewhere in the MS. Resolve use of <milestone> for
-quotes-->

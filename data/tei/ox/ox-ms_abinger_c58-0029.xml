@@ -14,8 +14,10 @@
     <line>ble when I reflect that the murderer whom I have</line>
     <line>turned loose upon society still exists. You refuse</line>
     <line>my just demand; I have but one resource and I de-</line>
-    <line>vote myself either in <mod><add place="sublinear">&#x2038;</add><add place="superlinear"
-          >my</add></mod>life or death to his destruc-</line>
+    <line>vote myself either in <mod>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">my</add>
+      </mod>life or death to his destruc-</line>
     <line>tion.</line>
     <milestone unit="tei:p"/><line>I trembled with excess of agitation as I said this; there</line>
     <line>was a frenzy in my manner, and something I doubt not</line>
@@ -25,14 +27,17 @@
     <line>of devotion and heroism, this elevation of mind had much the</line>
     <line>appearance of madness. He endeavoured to soothe me as a</line>
     <line>nurse does a child and reverted to my tale as the effects of deli</line>
-    <line>rium<add place="intralinear" resp="comp"><metamark>[</metamark></add>. <milestone
-        unit="tei:p"/><milestone unit="tei:q" spanTo="#c58-0029.01"/>"Man, I cried, how ignorant
-          ar<mod><del rend="overwritten">e</del><add place="intralinear">t</add></mod> thou in thy
-      pride of</line>
-    <line>wisdom. Cease, you know not what it is you say.<anchor xml:id="c58-0029.01"/></line>
-    <milestone unit="tei:p"/><line>I broke from the house <mod><del rend="strikethrough"
-          >ang</del><add place="sublinear">&#x2038; &#x2038;</add><add place="superlinear">angry
-          and</add></mod> disturbed and retired to</line>
+    <line>rium<add place="intralinear" hand="comp"><metamark>[</metamark></add>. <milestone
+        unit="tei:p"/>"Man, I cried, how ignorant ar<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">t</add>
+      </mod> thou in thy pride of</line>
+    <line>wisdom. Cease, you know not what it is you say.</line>
+    <milestone unit="tei:p"/><line>I broke from the house <mod>
+        <del rend="strikethrough">ang</del>
+        <add place="sublinear">&#x2038; &#x2038;</add>
+        <add place="superlinear">angry and</add>
+      </mod> disturbed and retired to</line>
     <line>meditate on some other mode of action.</line>
   </zone>
 </surface>

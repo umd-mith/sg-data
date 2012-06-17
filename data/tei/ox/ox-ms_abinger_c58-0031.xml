@@ -9,7 +9,7 @@
   <zone type="library">16</zone>
   <zone type="main">
     <line>but with life. I have traversed a vast portion of the</line>
-    <line>earth and have endured all the har<add place="superlinear" resp="comp">d</add>ships
+    <line>earth and have endured all the har<add place="superlinear" hand="comp">d</add>ships
       which</line>
     <line>travellers in desarts and barbarous countries are wont</line>
     <line>to meet. How I have lived I hardly know; Many times have</line>
@@ -23,9 +23,11 @@
     <line>steps of my fiendish enemy. But my plan was unset-</line>
     <line>tled and I wandered many hours around the confines</line>
     <line>of the <del rend="strikethrough">tw</del> town uncertain what path I should pursue.</line>
-    <line>As night approached I found myself <mod><del rend="strikethrough">and</del>
-        <add place="superlinear" resp="comp">at</add></mod>and the entrance</line>
-    <line>of the cemetary<add place="superlinear" resp="comp">cemetery</add> where William,
+    <line>As night approached I found myself <mod>
+        <del rend="strikethrough">and</del>
+        <add place="superlinear" hand="comp">at</add>
+      </mod> the entrance</line>
+    <line>of the cemetary<add place="superlinear" hand="comp">cemetery</add> where William,
       Elizabeth and my father</line>
     <line>reposed. I entered it and approached the tomb which</line>
     <line>marked their graves. Every thing was silent except the</line>

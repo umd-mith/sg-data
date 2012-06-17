@@ -3,27 +3,28 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0030" ulx="0" uly="0" lrx="5408" lry="6680" partOf="ox-ms_abinger_c58-0030">
+  xml:id="ox-ms_abinger_c58-0030" ulx="0" uly="0" lrx="5408" lry="6680"
+  partOf="ox-ms_abinger_c58-0030">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0030.tif"/>
   <zone type="pagination">132</zone>
   <zone type="top">Chapter <del rend="strikethrough">7</del> VII</zone>
   <zone type="main">
-    <line><milestone unit="tei:p"/>My present situation was one in which all vo-</line>
+    <line>My present situation was one in which all vo-</line>
     <line>luntary thought was swallowed up and lost. I was hur-</line>
     <line>ried away by fury; revenge alone endowed me with</line>
     <line>strength and composure, it modelled my feelings and</line>
     <line>allowed me to be <del rend="strikethrough">call</del> calculating and calm at
       periods</line>
     <line>when otherwise delirium or death would have</line>
-    <line>been my portion. <add place="intralinear" resp="comp"
-        ><metamark>[</metamark></add><milestone unit="tei:p"/>My first resolution was to quit</line>
+    <line>been my portion. <milestone unit="tei:p"/><add place="intralinear" hand="comp"
+          ><metamark>[</metamark></add>My first resolution was to quit</line>
     <line>Geneva for ever; my country, which when I was</line>
     <line>happy and beloved was dear to me, now in my</line>
     <line>adversity became <del rend="strikethrough">hurf</del>
       <del rend="strikethrough">hurtful</del> hateful. I provided</line>
     <line>myself with a sum of money together with a few</line>
     <line>jewels which had belonged to my mother and departed.</line>
-    <line><milestone unit="tei:p"/><add place="intralinear" resp="comp"
+    <milestone unit="tei:p"/><line><add place="intralinear" hand="comp"
       ><metamark>[</metamark></add>And now my wanderings began which are to cease</line>
   </zone>
 </surface>

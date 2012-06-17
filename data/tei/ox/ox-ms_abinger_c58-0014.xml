@@ -5,10 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0014" ulx="0" uly="0" lrx="5408" lry="6680" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0014.tif"/>
-  <zone type="pagination">
-    <line>116</line>
-  </zone>
-
+  <zone type="pagination">116</zone>
   <zone type="main">
     <line>while my right hand grasped a pistol which</line>
     <line>was hidden in my bosom; every sound terrified</line>
@@ -17,17 +14,14 @@
       not relax the impending</line>
     <line>conflict untill my own life, or that of my adversa</line>
     <line>ry were extinguished.</line>
-    <milestone unit="tei:p"/>
-    <line>Elizabeth observed my agitation for some</line>
+    <milestone unit="tei:p"/><line>Elizabeth observed my agitation for some</line>
     <line>time in timid and fearful silence; at length she</line>
     <line>said, What is it that agitates you<del rend="strikethrough"><unclear>r</unclear></del>, my
       dear Victor?</line>
     <line>What is it you fear?</line>
-    <milestone unit="tei:p"/>
-    <line>Oh! peace, peace, my love, replied I, this night</line>
+    <milestone unit="tei:p"/><line>Oh! peace, peace, my love, replied I, this night</line>
     <line>and all will be safe; but this night is dreadful,</line>
-    <line><metamark>—</metamark>very dreadful.</line>
-    <milestone unit="tei:p"/>
-    <line>I passed an hour in this state of mind when</line>
+    <line><unclear>—</unclear>very dreadful.</line>
+    <milestone unit="tei:p"/><line>I passed an hour in this state of mind when</line>
   </zone>
 </surface>
