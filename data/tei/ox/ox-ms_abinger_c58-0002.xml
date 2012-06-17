@@ -21,19 +21,18 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
         >was</add></mod> victorious I should be at</line>
     <line>peace and his power over me be at an end. If </line>
-    <line>he were vanquished I should <add place="sublinear"><metamark>&#x2038;</metamark></add><add
-        place="superlinear">be</add> a free man. Alas!</line>
+    <line>he were vanquished I should <add place="sublinear" hand="comp"><metamark>&#x2038;</metamark></add><add
+        place="superlinear" hand="comp">be</add> a free man. Alas!</line>
     <line>what freedom; such as the peasant enjoys when</line>
     <line>his family have been massacred before his</line>
-    <line>eyes, his cottage burnt, his lands <add place="superlinear">laid</add> waste, and he
+    <line>eyes, his cottage burnt, his lands <add place="superlinear" hand="comp">laid</add> waste, and he
       is</line>
     <line>turned adrift homeless pennyless and alone, but </line>
-    <line> free. Such would be my liberty except that in</line>
-    <line> my <del rend="strikethrough">libert</del> Elizabeth I possessed a treasure, alas!</line>
+    <line>free. Such would be my liberty except that in</line>
+    <line>my <del rend="strikethrough">libert</del> Elizabeth I possessed a treasure, alas!</line>
     <line>balanced by the horrors of remorse and guilt</line>
     <line>which would pursue me untill death.</line>
-    <milestone unit="tei:p"/>
-    <line>Sweet and beloved Elizabeth! I read and re-</line>
+    <milestone unit="tei:p"/><line>Sweet and beloved Elizabeth! I read and re-</line>
     <line>read her letter and some softened feelings stole</line>
   </zone>
 </surface>
