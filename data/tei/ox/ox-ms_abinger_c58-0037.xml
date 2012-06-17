@@ -16,10 +16,13 @@
     <line>with me some food that I had killed which after</line>
     <line>taking a small part I always presented to those</line>
     <line>who had provided me with fire and utensils for</line>
-    <line>cooking. <del rend="strikethrough">My</del> <del rend="strikethrough">My life as it passed thus</del></line>
-    <line><add place="intralinear">F.W/</add>My life as it passed thus was indeed hateful to</line>
+    <line>cooking. <del rend="strikethrough">My</del>
+      <del rend="strikethrough">My life as it passed thus</del></line>
+    <milestone unit="tei:p"/><line><note><add place="intralinear" hand="comp">F.W/</add></note>My
+      life as it passed thus was indeed hateful to</line>
     <line>me and it was during sleep alone that I could</line>
-    <line>taste joy. Oh! blessed sleep! often when most mise</line>
+    <line>taste joy. Oh<mod><del rend="overwritten">,</del><add place="intralinear">!</add></mod>
+      blessed sleep! often when most mise</line>
     <line>rable I sank to repose and my dreams lulled me even</line>
     <line>to rapture. The spirit that guarded me had provided</line>
   </zone>
