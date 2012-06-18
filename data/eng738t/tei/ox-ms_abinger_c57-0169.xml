@@ -3,43 +3,75 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0169" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57-0169">
+  xml:id="ox-ms_abinger_c57-0169" ulx="0" uly="0" lrx="5138" lry="7032"
+  partOf="#ox-ms_abinger_c57-0169">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0169.tif"/>
   <zone type="pagination">185</zone>
   <zone type="library">85</zone>
   <zone type="main">
-    Frankenstein the particulars of his formation
-    but on this point he was impenetrable. Are you
-    mad, my friend, said he, or whither does your
-    senseless curiosity lead you- Would you also
-    create for yourself & the world a daemonical
-    enemy or to what does your questions
-    tend. Peace, peace; learn my miseries &
-    do not seek to encrease your own.
-    Frankenstein discovered that I detail
-    ed or made notes concerning his history he
-    asked to see them & himself corrected and augmented them
-    in many places but principally in guv
-    giving the life & spirit of the the conver
-    satins he held with his enemies- Since
-    you have made an account ^ said he I would
-    not that a mutilated one should go down to
-    posterity.
-    THus have ten days passed away
-    while I have listened to the strangest
-    tale that ever imagination formed.
-    My thoughts I every feeling of my soul
-    & ha have been drunk up by the interrest
-    I felt m for my guest ^ one I wished to soothe him
-    yet could can I tell counsel so infinitely miserable.
-    Whose mind continually dwelt on horrors
-    so destitute of every hope of consolation to
-    live? Oh no- the oly joy he could feel can now feel know
-    was in will be when he composesg his shattered mind ^ feelings to
-    peace & death- Yet one feeling he enjoys,
-    one comfort, the sourse offspring of solitude
-    & delirium- he tho believed that when 
-    in dreams he saw holds converse with his friends, who consoled
-    his miseries or instigated him excitement to his vengeance
+    <line>Frankenstein the particulars of his formation</line>
+    <line>but on this point he was impenetrable. <milestone unit="tei:q" spanTo="#c57-0169.01"/>Are
+      you</line>
+    <line>mad, my friend,<anchor xml:id="c57-0169.01"/> said he, <milestone unit="tei:q"
+        spanTo="#c57-0169.02"/> or whither does your</line>
+    <line>senseless curiosity lead you&#x2013; Would you also</line>
+    <line>create for yourself &#x26; <add place="superlinear" resp="#pbs">for</add> the world a
+        d&#xe6;monic<add place="sublinear">al</add></line>
+    <line>enemy or to what do<del rend="strikethrough">es</del> your questions</line>
+    <line>tend. Peace, peace; learn my miseries &#x26;</line>
+    <line>do not seek to encrease your own.<anchor xml:id="c57-0169.02"/></line>
+    <milestone unit="tei:p"/><line>Frankenstein discovered that I detail</line>
+    <line>ed or made notes concerning his history he</line>
+    <line>asked to see them &#x26; himself corrected <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear">and augmented</add>
+      </mod> them</line>
+    <line>in many places but principally in <del rend="strikethrough">guv</del></line>
+    <line>giving the life &#x26; spirit of the <del rend="strikethrough">the</del> conver</line>
+    <line>sations he held with his enemies&#x2013; <milestone unit="tei:q" spanTo="#c57-0169.03"/>
+      Since</line>
+    <line>you have made an account <anchor xml:id="c57-0169.03"/><mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear">said he</add>
+      </mod><milestone unit="tei:q" spanTo="#c57-0169.04"/> I would</line>
+    <line>not that a mutilated one <add place="superlinear">should</add> go down to</line>
+    <line>posterity. <anchor xml:id="c57-0169.04"/></line>
+    <milestone unit="tei:p"/><line>Thus have ten days passed away</line>
+    <line>while I have listened to the strangest</line>
+    <line>tale that ever imagination formed.</line>
+    <line>My thoughts &#x26; every feeling of my soul</line>
+    <line><del rend="strikethrough">&#x26; ha</del>
+      <add place="superlinear" resp="#pbs">have</add> been drunk up by the interrest</line>
+    <line><del rend="strikethrough">I felt m</del>
+      <add place="superlinear" resp="#pbs">for</add> my guest <add place="sublinear"><metamark>&#x2038;</metamark>
+        </add><add><ptr target="#c57-0169.05"/></add> I wished to soothe him</line>
+    <line>yet <del rend="strikethrough">could</del>
+      <add place="superlinear" resp="#pbs">can</add> I <del rend="strikethrough">tell</del>
+      <add place="superlinear" resp="#pbs">counsel</add><add place="superlinear">one</add> so infinitely miserable.</line>
+    <line><del rend="strikethrough">Whose mind continually dwelt on horrors</del></line>
+    <line>so destitute of every hope of consolation to</line>
+    <line>live? Oh no&#x2013; the only joy he <del rend="strikethrough">could feel</del>
+      <add place="superlinear" resp="#pbs">can now <del rend="strikethrough">feel</del>
+      know</add></line>
+    <line><del rend="strikethrough">was in</del>
+      <add place="superlinear" resp="#pbs">will be when he</add> compos<del rend="overwritten"
+        >ing</del><add place="intralinear" resp="#pbs">es</add> his shattered <del
+        rend="strikethrough">mind</del><add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear">feelings</add> to</line>
+    <line>peace &#x26; death&#x2014; Yet <del rend="strikethrough">one feeling</del> he
+      enjoys,</line>
+    <line>one comfort, the <del rend="strikethrough">sourse</del>
+      <add place="superlinear" resp="#pbs">offspring</add> of solitude</line>
+    <line>&#x26; delirium&#x2013; he <del rend="strikethrough">tho</del> believed that when</line>
+    <line>in dreams he <del rend="strikethrough">saw</del>
+      <add place="superlinear" resp="#pbs">holds converse with</add> his friends, <del
+        rend="strikethrough">who consoled</del></line>
+    <line><add><ptr target="#c57-0169.06"/></add>his miseries or <del rend="strikethrough">instigated him</del>
+      <add place="superlinear" resp="#pbs">excitement</add> to <add place="sublinear"
+        ><metamark>&#x2038;</metamark></add><add place="superlinear" resp="#pbs">his</add> vengeance</line>
   </zone>
+  <zone type="left_margin">
+    <add xml:id="c57-0169.05"><metamark>x</metamark>which this tale, &#x26; his own elevated &#x26; gentle manners have created</add>
+  </zone>
+  <zone type="left_margin"><add xml:id="c57-0169.06" resp="#pbs">&#x26; derives from that communion consolation for</add></zone>
 </surface>
