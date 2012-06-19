@@ -9,9 +9,10 @@
   <zone type="pagination">177</zone>
   <zone type="library">25</zone>
   <zone type="main">
+    <handShift new="#pbs"/>
     <line>tale which I have recorded would be incomplete</line>
     <line>without this final &#x26; wonderful catastrophe.</line>
-    <milestone unit="tei:p"/><line>I entered the cabin where lay the remains <del
+    <milestone unit="tei:p"/><line><space extent="1"/>I entered the cabin where lay the remains <del
         rend="strikethrough">of my</del></line>
     <line>of my ill-fated, &#x26; admirable friend. Over him</line>
     <line>hung a form which I cannot find words to</line>
@@ -24,13 +25,13 @@
     <line>approach; he ceased to utter exclamations of</line>
     <line>grief &#x26; horror, &#x26; sprung towards the window.</line>
     <line>Never did I behold a vision so horrible as his</line>
-    <line>face, of <del rend="strikethrough">l</del> such loathsome yet apalling hideous</line>
+    <line>face, of <del rend="strikethrough">h</del> such loathsome yet apalling hideous</line>
     <line>-ness. I shut my eyes involuntarily, as</line>
     <line>recollecting what were my duties with respect</line>
     <line>to this destroyer, I called on him to stay.</line>
-    <line>He paused&#x2013; Looking on me with wonder, &#x26;</line>
+    <line>He paused &#x2013; Looking on me with wonder, &#x26;</line>
     <line>again turning towards the lifeless form of his</line>
-    <line>creator he seemed to forget <del rend="strikethrough">t</del> my presence;</line>
+    <line>creator he seemed to forget <del rend="strikethrough">to</del> my presence;</line>
     <line><del rend="strikethrough">whi</del> and every feature &#x26; gesture seemed
       instigated</line>
   </zone>
