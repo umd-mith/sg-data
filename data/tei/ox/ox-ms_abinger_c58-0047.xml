@@ -14,7 +14,8 @@
     <line>disturbed by the near approach of death. I dare</line>
     <line>not ask you to do what I think right for I</line>
     <line>may still be misled by passion.</line>
-    <milestone unit="tei:p"/><line><handShift scribe="#pbs"/>That he should live, to be an instrument of</line>
+    <handShift new="#pbs"/><milestone unit="tei:p"/><line>That he should live, to be an instrument
+      of</line>
     <line>mischief disturbs me; in other respects this hour</line>
     <line>when I momentarily expect my release is the only</line>
     <line>happy one which I have enjoyed for several</line>
