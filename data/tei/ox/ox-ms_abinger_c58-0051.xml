@@ -9,22 +9,21 @@
   <zone type="pagination">179</zone>
   <zone type="library">26</zone>
   <zone type="main">
+    <handShift new="#pbs"/>
     <line>wild &#x26; incoherent reproaches.. At length I gathered</line>
     <line>resolution to speak, in a pause as it were in</line>
-    <line>the tempest of his passion &#x2014; <milestone unit="tei:q" spanTo="#c58-0051.01"/>Your
-      repentance is</line>
-    <line>now superflous:<anchor xml:id="c58-0051.01"/> I said, <milestone unit="tei:q"
-        spanTo="#c58-0051.02"/>If you had listened to</line>
-    <line>the Voice of conscience, &#x26; heeded the stings of</line>
+    <line>the tempest of his passion &#x2014; Your repentance is</line>
+    <line>now superflous: I said, If you had listened to</line>
+    <line>the voice of conscience, &#x26; heeded the stings of</line>
     <line>remorse before you had urged your diabolical</line>
     <line>vengeance to this extremity; Frankenstein would</line>
-    <line>yet have lived.<anchor xml:id="c58-0051.02"/></line>
-    <milestone unit="tei:p"/><line><milestone unit="tei:q" spanTo="#c58-0051.03"/>And do you dream
-      &#x2014; <anchor xml:id="c58-0051.03"/>said the D&#xe6;mon, <milestone unit="tei:q" spanTo="#c58-0051.04"/>do</line>
+    <line>yet have lived.</line>
+    <milestone unit="tei:p"/><line><space extent="2"/>And do you dream &#x2014; said the D&#xe6;mon,
+      do</line>
     <line>you think that I was then dead to agony &#x26;</line>
-    <line>remorse.&#x2013;<anchor xml:id="c58-0051.04"/> He&#x2013; he <del rend="strikethrough">ex</del> p continued, pointing
+    <line>remorse. &#x2013; He&#x2013; he <del rend="strikethrough">ex</del> p continued, pointing
       to</line>
-    <line>the corpse,<milestone unit="tei:q" spanTo="#c58-0051.05"/> he suffered not more in consum</line>
+    <line>the corpse, he suffered not more in consum</line>
     <line>-mation of the deed; oh not the ten thousandth</line>
     <line>portion of the anguish that was mine during</line>
     <line>the lingering detail of its execution. A frigh-</line>
@@ -32,8 +31,8 @@
     <line>was poisoned with remorse. Think ye that</line>
     <line>the groans of Clerval were music to my ear.</line>
     <line>My heart was fashioned to be susceptible of</line>
-    <line>love &#x26; sympathy, &#x26; when wreched by misery</line>
+    <line>love &#x26; sympathy, &#x26; when wrenched by misery</line>
     <line>to vice &#x26; hatred it did not endure the</line>
-    <line>violence of the change without torture</line><anchor xml:id="c58-0051.05"/>
+    <line>violence of the change without torture</line>
   </zone>
 </surface>
