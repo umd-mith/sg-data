@@ -1,17 +1,7 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0053" ulx="0" uly="0" lrx="5410" lry="6660">
-  <graphic url="../../images/ox/ox-ms_abinger_c58-0053.tif"/>
-    <zone>
-    </zone>
-</surface>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
+        ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0053" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0053.tif"/>
@@ -24,9 +14,10 @@
     <line>The completion of my demoniacal design thencefor-</line>
     <line>ward became an insatiable pasion&#x2014; And now</line>
     <line><damage/>t is ended&#x2014; there is my last victim!"</line>
-    <milestone unit="tei:p"/><line><space extent="2"/> I was <mod><add place="sublinear"
-            ><metamark>&#x2038;</metamark></add><add place="superlinear">at first</add></mod>
-      touched by the expression of his misery,</line>
+    <milestone unit="tei:p"/><line><space extent="2"/> I was <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">at first</add>
+      </mod> touched by the expression of his misery,</line>
     <line>yet when I called to mind what Frankenstein</line>
     <line>had said of his powers of eloquence &#x26; persua</line>
     <line>-sion, &#x26; when I again cast my eyes on the</line>
@@ -47,4 +38,3 @@
       interrupted</line>
   </zone>
 </surface>
->>>>>>> cwulfman-c58-0053
