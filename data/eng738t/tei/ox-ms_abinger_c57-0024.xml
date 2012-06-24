@@ -7,7 +7,8 @@
         <line><del rend="strikethrough">chains expected in despair the execution of</del> </line>     
       <line><del rend="strikethrough">the barbarous sentence.  Felix visited the grate at</del></line>
       <line><del rend="strikethrough">night and made known to the prisoner his</del></line>
-      <line><del rend="strikethrough">intentions in his favour.</del><milestone unit="paragraph"/></line>
+            <line><del rend="strikethrough">intentions in his favour.</del><anchor xml:id="c57-0023.01"/>
+                    <milestone unit="paragraph"/></line>
       <zone type="pagination">59</zone>
       <zone type="main">
         <line><del rend="strikethrough">For</del>During the ensueing days<add place="superlinear">while the</add>preparations were</line>
