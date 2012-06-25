@@ -1,42 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0033" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0033" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0033.tif"/>
-<zone type="main">
-  <line><add><ptr target="c57-0033.01"/></add>heart of Felix <del rend="overstrike">and resolved to obtain his</del></line>
-  <line><del rend="overstrike">at any price the full zeal</del> and <del rend="overstrike">resolved</del></line>
-  <line>endeavored to secure <del rend="overstrike">the interest</del> him <add place="superlinear">more entirely</add><del rend="overstrike">at any pr by</del></line>
-  <line>the promise of her hand in marriage;</line>
-  <line>Felix was too delicate to accept <add place="superlinear"><del rend="overstrike">offers</del></add> this <add place="superlinear">offer</add> yet</line> 
-  <line>he looked forward to the probability of</line>
-  <line>that event as the consummation of</line> 
-  <line>his happiness.<milestone unit="paragraph"/></line>
-  <line><add><ptr target="c57-0033.02"/></add>The Turk informed Safie of his</line>
-  <line>intentions and</line> 
-  <line><metamark rend="horizontal line"/></line>
-  <line>and rank <del rend="overstrike">her father</del> <add place="superlinear">the merchant</add> commander</line>
-  <line><del rend="overstrike">her</del><add place="superlinear">his daughter</add> to think no more of <del rend="overstrike">him</del> <add place="superlinear">her lover</add> but to</line>
-  <line>repare to return to her native country</line>
-  <line>with him. The generous nature of Safie</line>
-  <line>was outraged by this command. She attempt</line>
-  <line>ed to expostulate with her father but</line>
-  <line>he left<del rend="overstrike">er</del> her angrily <del rend="overstrike">re</del> reiterating his</line>
-  <line>tyrannical <del rend="overstrike"><seg rend="underline">command</seg></del> <del rend="overstrike">orders.</del><milestone unit="paragraph"/></line>
-  <line>A few days after the Turk entered</line>
-  <line>his daughts appartment and told her</line>
-  <line>hastily that he had reason to believe</line>
-  <line>that his residence in Leghorn had been</line>
-  <line>divulged and that he <del rend="overstrike">would</del> <add place="superlinear"><del rend="overstrike">was</del> should</add> <del rend="overstrike">b</del> speedily</line>
-  <line>be delivered <metamark>‸</metamark><add place="superlinear">up</add> to the French Government.</line>
-  <line><del rend="overstrike">He had just heard of ta small vessel</del></line>
-  <line><del rend="overstrike">bound for Constantinople which</del> He had</line>
-  <line>consequently hired a vessel to convey him</line>
-</zone>
-  <zone type="left_margin">
-    <line>59<anchor xml:id="c57-0033.01"/></line>
+  <zone type="pagination">
+    <line>59</line>
+  </zone>
+  <zone type="library">
+    <line>17</line>
+  </zone>
+  <zone type="main">
+    <line>heart of Felix <del rend="strikethrough">and resolved to obtain</del>
+      <delSpan spanTo="#c57-0033.01"/>his</line>
+    <line>at any price the full zeal<anchor xml:id="c57-0033.01"/> and <del rend="strikethrough"
+        >resolved</del></line>
+    <line><add><ptr target="#c57-0033.02"/></add> to secure <del rend="strikethrough">the</del>
+      <del rend="strikethrough">interest</del> him <mod>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">more entirely </add>
+        <del rend="strikethrough">at any pr</del>
+      </mod> by</line>
+    <line>the promise of her hand in marriage;</line>
+    <line>Felix was too delicate to accept <add resp="#pbs" place="superlinear"><del
+          rend="strikethrough">offer</del></add>
+      <del rend="smear">this</del><add resp="#pbs" place="superlinear">offer</add> yet</line>
+    <line>he looked forward to the probability of</line>
+    <line>that event as the consummation of</line>
+    <line>his happiness.<milestone unit="paragraph"/></line>
+    <line><add><ptr target="c57-0033.02"/></add>The Turk informed Safie of his</line>
+    <line>intentions and</line>
+  </zone>
+  <!--see scholar's note on this section 
+      marked up in shaded area in transcription. 
+      proposed application of main and pagination zone. see
+      earlier notes in scholar's transcription 
+      relating to shaded area-->
+  <zone type="pagination">
+    <line>64</line>
+  </zone>
+  <zone type="main">
+    <line><metamark rend="horizontal line"/></line>
+    <line>and rank <mod>
+        <del rend="strikethrough">her father</del>
+        <add place="superlinear">the merchant</add>
+      </mod> commander</line>
+    <line><del rend="strikethrough">her</del><add><ptr target="#c57-0033.03"/></add>his daughter to
+      think no more of <mod>
+        <del rend="strikethrough">him</del>
+        <add place="superlinear">her lover</add>
+      </mod> but to</line>
+    <line>repare to return to her native country</line>
+    <line>with him. The generous nature of Safie</line>
+    <line>was outraged by this command. She attempt</line>
+    <line>ed to expostulate with her father but</line>
+    <line>he left<del rend="strikethrough">er</del> her angrily <del rend="strikethrough">re</del>
+      reiterating his</line>
+    <line>tyrannical <del rend="strikethrough"><hi rend="underline">command</hi></del>
+      <del rend="cross-hatch">orders.</del></line>
+    <milestone unit="tei:p"/>
+    <line>A few days after the Turk entered</line>
+    <line>his daughts appartment and told her</line>
+    <line>hastily that he had reason to believe</line>
+    <line>that his residence in Leghorn had been</line>
+    <line>divulged and that he <del rend="strikethrough">would</del>
+      <add place="superlinear"><del rend="strikethrough">was</del> should</add>
+      <del rend="double-strike">b</del> speedily</line>
+    <line>be delivered <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add precision="medium" resp="#pbs" place="superlinear">up</add>
+      </mod> to the French Government.</line>
+    <line><delSpan spanTo="#c57-0033.04" rend="strikethrough"/>He had just heard of ta small
+      vessel</line>
+    <line>bound for Constantinople which<anchor xml:id="c57-0033.04"/> He had</line>
+    <line>consequently hired a vessel to convey him</line>
   </zone>
   <zone type="left_margin">
-    <line>64<anchor xml:id="c57-0033.02"/></line>
+    <line><add xml:id="c57-0033.02">endeavored</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0033.03">his daughter</add></line>
   </zone>
 </surface>
