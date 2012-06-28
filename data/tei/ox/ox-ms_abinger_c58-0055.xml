@@ -1,33 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0055" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0055" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0055.tif"/>
   <zone type="pagination">183</zone>
   <zone type="library">28</zone>
   <zone type="main">
-    <line><damage/> nourished with high thoughts of honour &#x26;</line>
+    <line><damage/> nourished with high thoughts of honour &amp;</line>
     <line><damage/>lf devotion. But now vice has degraded me</line>
     <line><damage/>neath the meanest animal. No crimes no</line>
     <line>mischief, no malignity no misery can be </line>
     <line>found parallell with mine. When I call over</line>
     <line>the frightful catalogue of my deeds I cannot</line>
     <line>believe that I am he, whose thoughts were once</line>
-    <line>filled with sublime &#x26; transcendent visions of</line>
-    <line>the beauty &#x26; the majesty of goodness &#151; But</line>
-    <line>it is even so &#151; The fallen Angel becomes a</line>
-    <line>malignant devil &#151; Yet even that enemy of</line>
-    <line>God &#x26; man had friends &#x26; associates in his</line>
+    <line>filled with sublime &amp; transcendent visions of</line>
+    <line>the beauty &amp; the majesty of goodness &#x97; But</line>
+    <line>it is even so &#x97; The fallen Angel becomes a</line>
+    <line>malignant devil &#x97; Yet even that enemy of</line>
+    <line>God &amp; man had friends &amp; associates in his</line>
     <line>desolation. I am quite alone.</line>
     <milestone unit="tei:p"/><line><space extent="2"/>You, who call Frankenstein your friend, seem</line>
-    <line>to have a knowledge of my crimes &#x26; his</line>
+    <line>to have a knowledge of my crimes &amp; his</line>
     <line>misfortunes. But in the detail which he</line>
     <line>gave you of them he could not sum up the</line>
-    <line>hours &#x26; months of misery which I endured</line>
+    <line>hours &amp; months of misery which I endured</line>
     <line>wasting in impotent passions. For whilst I</line>
     <line>destroyed his hopes, I did not satisfy my</line>
-    <line>own desires. They were forever ardent &#x26; craving.</line>
+    <line>own desires. They were forever ardent &amp; craving.</line>
   </zone>
 </surface>

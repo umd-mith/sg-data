@@ -1,18 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0040" ulx="0" uly="0" lrx="5410" lry="6660"
-  partOf="#ox-ms_abinger_c58-0040">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0040" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58-0040">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0040.tif"/>
   <zone type="pagination">144</zone>
   <zone type="main">
     <line>mediterranean from the hills of Asia; and hailed</line>
     <line>with rapture the boundary of their toils. I did not weep,</line>
     <line>but I knelt down and <del rend="strikethrough">thanked my guiding spirit</del> with</line>
-    <line>a full heart thanked my guiding spirit for co<del rend="strikethrough"
-      >u</del>nduct-</line>
+    <line>a full heart thanked my guiding spirit for co<del rend="strikethrough">u</del>nduct-</line>
     <line>ing me in <del rend="strikethrough">safete</del> safety to the place where I hoped
       not-</line>
     <line>withstanding my adversary's gibe, to meet and grap</line>

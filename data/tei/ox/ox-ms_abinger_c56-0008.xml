@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0008" ulx="0" uly="0" lrx="5088" lry="7082">
@@ -34,7 +34,7 @@
       </line>
       <line>my instructor<mod><add place="intralinear" hand="PBS">s</add></mod>.</line>
       <line><mod><del rend="strikethrough">When I was about fifteen my f</del></mod></line>
-      <line>The natural phænonema that takes</line>
+      <line>The natural ph�nonema that takes</line>
       <line>place every day before our eyes did not</line>
       <line>escape my exa
         <mod><add place="intralinear" hand="PBS">m</add></mod>i
@@ -43,7 +43,7 @@
       </line>
       <line>
         <mod><del rend="strikethrough">fermentation</del> 
-          <del rend="strikethrough">of liquors</del></mod> – 
+          <del rend="strikethrough">of liquors</del></mod> &#x2013; 
         <mod><del rend="strikethrough">di</del></mod>
         <mod><hi rend="underline">stillation</hi></mod> of which
       </line>

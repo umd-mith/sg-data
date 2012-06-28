@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
@@ -16,7 +16,7 @@
             equal</del><add><ptr target="#c56-0016.01"/></add></mod> the</line>
     <line>voice of command was never heard</line>
     <line>among us but mutual affection</line>
-    <line>engaged us all to comply with, <add place="intralinear" resp="#pbs">&amp; to</add></line>
+    <line>engaged us all to comply with, <add place="intralinear" hand="#pbs">&amp; to</add></line>
     <line>obey the slightest desire of each</line>
     <line>other.</line>
   </zone>

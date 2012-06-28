@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0013" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0013" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0013.tif"/>
   <zone type="pagination">115</zone>
   <zone type="library">7</zone>
@@ -18,14 +16,12 @@
         <del rend="overwritten">y</del>
         <add place="intralinear">ir</add>
       </mod>
-      <del rend="strikethrough"><add place="superlinear" next="#c58-0013.01"
-      >black</add></del></line>
+      <del rend="strikethrough"><add place="superlinear" next="#c58-0013.01">black</add></del></line>
     <line><mod>
         <del rend="strikethrough">lovely</del>
         <add place="sublinear" xml:id="c58-0013.01">&#x2038;</add>
         <add place="superlinear">black<del rend="strikethrough">black</del></add>
-      </mod> outlines. <milestone unit="tei:p"/><add place="intralinear" hand="comp"
-          ><metamark>[</metamark></add>The wind which had fallen in the</line>
+      </mod> outlines. <milestone unit="tei:p"/><add place="intralinear" hand="comp"><metamark>[</metamark></add>The wind which had fallen in the</line>
     <line>south now rose with great violence in the west. The</line>
     <line>moon had reached her summit in the heavens and</line>
     <line>was beginning to descend; the clouds swept across</line>

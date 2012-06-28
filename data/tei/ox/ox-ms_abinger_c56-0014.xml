@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0014" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
@@ -13,30 +13,30 @@
         <!--The  deleted "rs" of "quarters" is "unmarked", but clearly meant to be deleted. For these kinds of dels: type="inferred" and/or rend="unmarked"?-->
         <line>of the heavens and<anchor xml:id="c56-0014.02"/> burst <add place="superlinear">at
                 once</add> with <del rend="strikethrough">and</del></line>
-        <line>frightful loudness.<add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">from various quarters of the heavens</add> I <delSpan spanTo="#c56-0014.03"/><del rend="strikethrough">witnessed the</del></line>
+        <line>frightful loudness.<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">from various quarters of the heavens</add> I <delSpan spanTo="#c56-0014.03"/><del rend="strikethrough">witnessed the</del></line>
         <line><del rend="strikethrough">elemental</del>
             <del rend="strikethrough">storm with pleasure</del><anchor xml:id="c56-0014.03"/></line>
-        <line>and remain<add place="intralinear">ed</add> while <mod><del rend="strikethrough">it</del><add place="superlinear" resp="#pbs">the storm</add></mod> lasted
+        <line>and remain<add place="intralinear">ed</add> while <mod><del rend="strikethrough">it</del><add place="superlinear" hand="#pbs">the storm</add></mod> lasted
                     <mod><mod next="#c56-0014.04"><del rend="strikethrough">at</del><add place="superlinear">watching its</add>
                     <ptr target="#c56-0014.05"/></mod></mod></line>
         <line><mod><mod xml:id="c56-0014.07"><del rend="strikethrough">the door</del>
                     <del rend="strikethrough">watchin</del><del rend="unmarked">g.</del></mod></mod>
-            <mod><mod next="#c56-0014.08"><del rend="strikethrough">When it was most</del><add place="superlinear" resp="#pbs">As I stood at the
+            <mod><mod next="#c56-0014.08"><del rend="strikethrough">When it was most</del><add place="superlinear" hand="#pbs">As I stood at the
             door</add></mod></mod></line>
-        <line><mod><mod xml:id="c56-0014.08"><del rend="strikethrough">violent</del>,<add place="superlinear" resp="#pbs">on a sudden</add></mod></mod> I beheld
-                    <mod><del rend="strikethrough">the</del><add place="sublinear">‸</add><add place="superlinear" resp="#pbs">a stream of</add></mod> fire
+        <line><mod><mod xml:id="c56-0014.08"><del rend="strikethrough">violent</del>,<add place="superlinear" hand="#pbs">on a sudden</add></mod></mod> I beheld
+                    <mod><del rend="strikethrough">the</del><add place="sublinear">&#x2038;</add><add place="superlinear" hand="#pbs">a stream of</add></mod> fire
             issue</line>
         <line>from an old <del rend="strikethrough">be</del> and beautiful</line>
         <line>oak about <del rend="strikethrough">wh</del> twenty yards from</line>
-        <line>our house and <mod><del rend="strikethrough">when</del><add place="superlinear" resp="#pbs">so soon as</add></mod> the <del rend="strikethrough">dazz</del></line>
+        <line>our house and <mod><del rend="strikethrough">when</del><add place="superlinear" hand="#pbs">so soon as</add></mod> the <del rend="strikethrough">dazz</del></line>
         <line>dazzling light <del rend="strikethrough">had</del>
             <del rend="strikethrough">dissa </del>
             <del rend="strikethrough">dissappeared</del></line>
         <line><del rend="strikethrough">the</del>
             <del rend="strikethrough"><unclear>pa</unclear></del> vanished, the oak <del rend="strikethrough">hand</del></line>
-        <line>had dissappeared <mod><del rend="strikethrough">an</del><add place="superlinear" resp="#pbs">&amp;</add></mod> nothing <add place="superlinear">remained</add>
+        <line>had dissappeared <mod><del rend="strikethrough">an</del><add place="superlinear" hand="#pbs">&amp;</add></mod> nothing <add place="superlinear">remained</add>
             but a</line>
-        <line><mod><del rend="strikethrough">rent</del><add place="sublinear"><metamark>‸</metamark></add><add place="superlinear">blasted</add>
+        <line><mod><del rend="strikethrough">rent</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">blasted</add>
                 stump.</mod>
             <del rend="strikethrough">remained</del>. When we</line>
         <line>visited it the next morning we found</line>
@@ -47,10 +47,10 @@
         <line><del rend="strikethrough">C</del> I never saw any thing so utterly</line>
         <line>destroyed. The catastrophe of the</line>
         <line>tree excited my extreme astonish</line>
-        <line>ment <delSpan spanTo="#c56-0014.09"/><del rend="strikethrough">and</del><mod><del rend="strikethrough"> caused</del><add place="sublinear">‸</add><add place="superlinear">induced</add></mod>
+        <line>ment <delSpan spanTo="#c56-0014.09"/><del rend="strikethrough">and</del><mod><del rend="strikethrough"> caused</del><add place="sublinear">&#x2038;</add><add place="superlinear">induced</add></mod>
             <del rend="strikethrough">me to aply wi</del><del rend="unmarked">ith</del></line>
         <line><del rend="strikethrough">fresh di</del>ligence to the study of</line>
-        <line><mod><del rend="strikethrough">chemistry</del><add place="superlinear" resp="#pbs">natural philosophy</add> which promised an ex-</mod>
+        <line><mod><del rend="strikethrough">chemistry</del><add place="superlinear" hand="#pbs">natural philosophy</add> which promised an ex-</mod>
         </line>
         <line><del rend="strikethrough">clamatio</del> planation of th<mod><del rend="overwritten">e</del><add place="intralinear">i</add></mod>se sort of<anchor xml:id="c56-0014.09"/></line>
     </zone>

@@ -1,39 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0050" ulx="0" uly="0" lrx="5410" lry="6660"
-  partOf="#ox-ms_abinger_c58-0050">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0050" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58-0050">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0050.tif"/>
   <zone type="pagination">178</zone>
   <zone type="main">
     <handShift new="#pbs"/>
     <line>by the wildest rage of some uncontrolable passion</line>
-    <line>&#x2014; That is also my victim<mod><del rend="overwritten">,</del><add
-          place="intralinear">!</add></mod> he exclaimed In</line>
+    <line>&#x2014; That is also my victim<mod><del rend="overwritten">,</del><add place="intralinear">!</add></mod> he exclaimed In</line>
     <line>his murder<del rend="strikethrough">e</del> my crimes are consummated &#x2014; the</line>
     <line>miserable series of my being is wound to its close!</line>
-    <line>O Frankenstein &#x2013; generous &#x26; self devoted being</line>
+    <line>O Frankenstein &#x2013; generous &amp; self devoted being</line>
     <line>what does it avail that I ask thee now to</line>
     <line>pardon me. Wherefore do I seek to perish</line>
     <line>in thy stead after I have irretrievably des-</line>
     <line>-troyed thee, by destroying those thou lovedst</line>
     <line>Alas he is cold.. he <mod><del rend="smear">cannot</del><add place="intralinear">may
           not</add></mod> answer me.</line>
-    <milestone unit="tei:p"/><line><space extent="3"/>His voice seemed suffocated, &#x26; my first
+    <milestone unit="tei:p"/><line><space extent="3"/>His voice seemed suffocated, &amp; my first
       im</line>
     <line>-pulses which had suggested to me the duty</line>
     <line>of obeying the dying request of my friend,</line>
     <line>in destroying his enemy, now were suspended</line>
-    <line>by a mixture of curiosity &#x26; <del rend="strikethrough">pity</del> compassion.</line>
+    <line>by a mixture of curiosity &amp; <del rend="strikethrough">pity</del> compassion.</line>
     <milestone unit="tei:p"/><line><space extent="2"/>I approached this tremendous being&#x2013; I
       dared</line>
     <line>not again <del rend="strikethrough">to</del> raise my looks upon his face&#x2014;</line>
-    <line>there was something so scaring &#x26; unearth-</line>
+    <line>there was something so scaring &amp; unearth-</line>
     <line>-ly in his ugliness. I attempted to speak,</line>
     <line>but his presence was as a burthen which</line>
-    <line>held me dumb, &#x26; the words died on my</line>
+    <line>held me dumb, &amp; the words died on my</line>
     <line>lips&#x2014;. The monster continued to utter</line>
   </zone>
 </surface>

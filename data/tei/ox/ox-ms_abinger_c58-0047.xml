@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0047" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0047" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0047.tif"/>
   <zone type="pagination">175</zone>
   <zone type="library">24</zone>
@@ -24,10 +22,10 @@
     <milestone unit="tei:p"/><line>Farewell, Walton. Seek happiness in tranquillity</line>
     <line>and avoid ambition even if it be only the</line>
     <line>apparently innocent one of distinguishing yourself</line>
-    <line>in science &#38; discoveries. Yet why do I say this?</line>
+    <line>in science &amp; discoveries. Yet why do I say this?</line>
     <line>I have myself been blasted in these hopes,</line>
     <line>yet another may succeed.</line>
-    <milestone unit="tei:p"/><line>His voice became fainter as he spoke; &#38;</line>
+    <milestone unit="tei:p"/><line>His voice became fainter as he spoke; &amp;</line>
     <line>at length exhausted by his effort he sunk</line>
     <line>into silence. About half an hour afterwards</line>
     <line>he attempted again to speak, but was unable</line>

@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0016" ulx="0" uly="0" lrx="5408" lry="6680" partOf="ox-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0016" ulx="0" uly="0" lrx="5408" lry="6680" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0016.tif"/>
   <zone type="pagination">118</zone>
   <zone type="main">
-    <line>and I rushed into the room. <milestone unit="tei:p"/><add place="intralinear" hand="comp"
-          ><metamark>[</metamark></add>Gread God! Why did I not</line>
+    <line>and I rushed into the room. <milestone unit="tei:p"/><add place="intralinear" hand="comp"><metamark>[</metamark></add>Gread God! Why did I not</line>
     <line>then expire! Why am I here to relate the dustruction</line>
     <line>of the best hope and the purest creature of earth.</line>
     <line>She was there, lifeless and inanimate<del rend="strikethrough">;</del> thrown

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
@@ -26,7 +26,7 @@
     <line>"nonsence?" I replied in the affir</line>
     <line>mative.</line>
     <milestone unit="tei:p"/>
-    <line>"Every minute"– continued M. <mod type="subst"><del rend="strikethrough">K</del><add><ptr target="#c56-0024.03"/></add></mod> <c><g ref="#long_dash"/></c></line>
+    <line>"Every minute"&#x2013; continued M. <mod type="subst"><del rend="strikethrough">K</del><add><ptr target="#c56-0024.03"/></add></mod> <c><g ref="#long_dash"/></c></line>
     <line>with warmth," every instant that</line>
     <line>"you have wasted upon those</line>
     <line>"books is utterly and entirely lost.</line>

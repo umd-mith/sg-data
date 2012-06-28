@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0015" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
@@ -7,7 +7,7 @@
   <zone type="library">6.</zone>
   <zone type="main">
     <delSpan spanTo="#c56-0015.01"/>
-    <line><delSpan rend="vertical_line" spanTo="#c56-0015.01"/>phÃ¦nonema. 
+    <line><delSpan rend="vertical_line" spanTo="#c56-0015.01"/>phænonema. 
       On Elizabeth and</line>
     <line>Clerval it produced a <del rend="strikethrough">di</del> very different</line>
     <line>effect. They admired the beauty</line>
@@ -33,11 +33,11 @@
     <line>of my brothers. Ernest was five years</line>
     <line>younger than myself, and was my</line>
     <line>principal pupil. He had been aflicted</line>
-    <line>with ill health from his infancy <mod type="subst"><del rend="strikethrough">&amp;</del><add resp="#pbs" place="superlinear">thro which</add></mod></line>
+    <line>with ill health from his infancy <mod type="subst"><del rend="strikethrough">&amp;</del><add hand="#pbs" place="superlinear">thro which</add></mod></line>
     <line>Elizabeth and I had been his constant</line>
     <line><del rend="strikethrough">m</del> nurses <del rend="strikethrough">I</del> his disposition was gentle but</line>
     <line>he was incapable any severe appli</line>
-    <line>cation. William the younge<mod><add resp="#pbs" place="intralinear">st</add><del rend="overwritten">er</del></mod> of our</line>
+    <line>cation. William the younge<mod><add hand="#pbs" place="intralinear">st</add><del rend="overwritten">er</del></mod> of our</line>
     <line>family was quite a child and the</line>
     <line>most beautiful little fellow in the</line>
     <line>world, his lively blue eyes dimpled cheeks</line>

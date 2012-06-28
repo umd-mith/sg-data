@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0029" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0029" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0029.tif"/>
   <zone type="pagination">131</zone>
   <zone type="library">15</zone>
@@ -27,8 +25,7 @@
     <line>of devotion and heroism, this elevation of mind had much the</line>
     <line>appearance of madness. He endeavoured to soothe me as a</line>
     <line>nurse does a child and reverted to my tale as the effects of deli</line>
-    <line>rium<add place="intralinear" hand="comp"><metamark>[</metamark></add>. <milestone
-        unit="tei:p"/>"Man, I cried, how ignorant ar<mod>
+    <line>rium<add place="intralinear" hand="comp"><metamark>[</metamark></add>. <milestone unit="tei:p"/>"Man, I cried, how ignorant ar<mod>
         <del rend="overwritten">e</del>
         <add place="intralinear">t</add>
       </mod> thou in thy pride of</line>

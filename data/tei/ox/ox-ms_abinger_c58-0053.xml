@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0053" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0053" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0053.tif"/>
   <zone type="pagination">181</zone>
   <zone type="library">27</zone>
@@ -19,15 +17,15 @@
         <add place="superlinear">at first</add>
       </mod> touched by the expression of his misery,</line>
     <line>yet when I called to mind what Frankenstein</line>
-    <line>had said of his powers of eloquence &#x26; persua</line>
-    <line>-sion, &#x26; when I again cast my eyes on the</line>
+    <line>had said of his powers of eloquence &amp; persua</line>
+    <line>-sion, &amp; when I again cast my eyes on the</line>
     <line>lifeless form of my friend, indignation was</line>
     <line>re- kindled within me. &#x2014; Wretch, I said,</line>
     <line>it is well that you come here to whine over</line>
     <line>the desolation which you have made &#x2013; you</line>
-    <line>throw a torch into a pile of buildings, &#x26;</line>
+    <line>throw a torch into a pile of buildings, &amp;</line>
     <line>when they are consumed you sit among the</line>
-    <line>ruins &#x26; lament the fall. Hypocritical</line>
+    <line>ruins &amp; lament the fall. Hypocritical</line>
     <line>fiend! If he whom you lament still lived,</line>
     <line>still would he be the object, again would he</line>
     <line>become the prey of your accursed vengeamce.</line>

@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0097" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0097" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0097.tif"/>
   <zone type="pagination" rend="bordered">127</zone>
   <zone type="library">46</zone>
   <zone type="main">
-    <line>the accused, when although <mod><del rend="strikethrough">uncalled</del><add><ptr
-            target="#c56-0097.01"/></add></mod></line>
+    <line>the accused, when although <mod><del rend="strikethrough">uncalled</del><add><ptr target="#c56-0097.01"/></add></mod></line>
     <line>she desired permission to speak. "I am"</line>
     <line>said she "the cousin of the unhappy</line>
     <line>child who was murdered or rather his</line>
-    <line>sister for I was educated <add place="sublinear">&#x2038;</add><add place="superlinear"
-        >by</add> and lived</line>
-    <line>with his parents <del rend="strikethrough">s</del> ever <del rend="strikethrough"
-        >sin</del> since and</line>
+    <line>sister for I was educated <add place="sublinear">&#x2038;</add><add place="superlinear">by</add> and lived</line>
+    <line>with his parents <del rend="strikethrough">s</del> ever <del rend="strikethrough">sin</del> since and</line>
     <line>long before his birth; it may therefore</line>
     <line>be judged indecent in me to come</line>
     <line>forward on this occasion but when</line>
@@ -30,30 +25,25 @@
       <del rend="strikethrough">for</del> I have</line>
     <line>lived in the same house with her at</line>
     <line>one time for five and afterwards for</line>
-    <line>nearly two years. During all that <mod><del rend="strikethrough">time</del><add
-          place="superlinear">period</add></mod></line>
+    <line>nearly two years. During all that <mod><del rend="strikethrough">time</del><add place="superlinear">period</add></mod></line>
     <line>she <del rend="strikethrough"><unclear unit="chars" quantity="1"/></del> appeared to me a
       most amiable</line>
     <line>and benevolent creature. She nurst</line>
     <line>my aunt in her last illness with the</line>
     <line>greatest affection and care and after</line>
-    <line>terwards attended her <add place="sublinear">&#x2038;</add><add place="superlinear"
-        >own</add> mother during a</line>
+    <line>terwards attended her <add place="sublinear">&#x2038;</add><add place="superlinear">own</add> mother during a</line>
     <line>long &amp; tedious illness <del rend="strikethrough">w</del> in a manner</line>
     <line>that excited the admiration of all</line>
     <line>who knew her. After which she again</line>
     <line>lived in my uncle's house where she</line>
-    <line>was <mod><del rend="strikethrough">always a favourite</del>.<add place="superlinear"
-          >beloved by all the family</add></mod>
+    <line>was <mod><del rend="strikethrough">always a favourite</del>.<add place="superlinear">beloved by all the family</add></mod>
       <del rend="strikethrough">Of the deceased</del></line>
     <line>she was <mod><del rend="strikethrough">very</del>
-        <del rend="strikethrough">fond</del><add place="sublinear">&#x2038;</add><add
-          place="superlinear">warmly attached to <del rend="strikethrough">of</del> the child who
+        <del rend="strikethrough">fond</del><add place="sublinear">&#x2038;</add><add place="superlinear">warmly attached to <del rend="strikethrough">of</del> the child who
           has been murdered</add></mod> and acted towards him</line>
     <line><del rend="strikethrough">in</del> like a most affectionate Mother.</line>
     <line>for my own part I do not hesitate to</line>
-    <line><del rend="strikethrough">s</del>ay that not withstanding <add place="sublinear"
-        >&#x2038;</add><add place="superlinear">all</add> the evidence</line>
+    <line><del rend="strikethrough">s</del>ay that not withstanding <add place="sublinear">&#x2038;</add><add place="superlinear">all</add> the evidence</line>
   </zone>
   <zone type="left_margin">
     <addSpan xml:id="c56-0097.01" spanTo="#c56-0097.02"/>

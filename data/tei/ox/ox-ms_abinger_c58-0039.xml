@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0039" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0039" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0039.tif"/>
   <zone type="pagination">143</zone>
   <zone type="library">20</zone>
@@ -23,7 +21,6 @@
     <line>of the south<mod><add place="intralinear">!</add><del rend="overwritten">;</del></mod>
       Covered with ice it was only to be</line>
     <line>distinguished from land by its superior wildness and</line>
-    <line>ruggedness. The greeks wept <mod><add place="sublinear">&#x2038;</add><add place="superlinear"
-        >for joy</add></mod>when they beheld the</line>
+    <line>ruggedness. The greeks wept <mod><add place="sublinear">&#x2038;</add><add place="superlinear">for joy</add></mod>when they beheld the</line>
   </zone>
 </surface>

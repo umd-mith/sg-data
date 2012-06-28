@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0018" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
@@ -13,8 +13,7 @@
     <line>nant, <del rend="strikethrough">tr</del> and the looks of her atten</line>
     <line>dants prognosticated the <del rend="strikethrough">wort</del> worst</line>
     <line>evil. On her death bed the forti</line>
-    <line>tude and benignity <del rend="strikethrough">di</del> of <mod type="subst" resp="#pbs"
-          ><del rend="strikethrough">my mother</del>
+    <line>tude and benignity <del rend="strikethrough">di</del> of <mod type="subst" hand="#pbs"><del rend="strikethrough">my mother</del>
         <add place="superlinear">this admirable woman</add></mod></line>
     <line>did not desert her. She joined the</line>
     <line>hands of Elizabeth and myself. "My</line>
@@ -22,19 +21,15 @@
     <line>"Union that my firmest hopes of</line>
     <line>"future happiness were placed. It</line>
     <line>"will now be the consolation of</line>
-    <line>"your <del rend="strikethrough">father</del> father <add resp="#pbs" place="superlinear"
-          ><del rend="strikethrough">alone</del></add>. Elizabeth, my</line>
+    <line>"your <del rend="strikethrough">father</del> father <add hand="#pbs" place="superlinear"><del rend="strikethrough">alone</del></add>. Elizabeth, my</line>
     <line>"love, supply my place to <del rend="strikethrough">the other</del></line>
     <line>"your young <del rend="strikethrough">cons</del> cousins. Alas! I</line>
-    <line>"<del rend="strikethrough">almost</del> regret <mod resp="#pbs" type="subst"><del
-          rend="strikethrough">being</del><add place="superlinear">that I am</add></mod> taken from
+    <line>"<del rend="strikethrough">almost</del> regret <mod hand="#pbs" type="subst"><del rend="strikethrough">being</del><add place="superlinear">that I am</add></mod> taken from
       you, </line>
     <line>"and happy and beloved, as I am</line>
     <line>"is it not hard to quit you all? But</line>
     <line>"these are not thoughts befitting me</line>
-    <line>"I <mod type="additions"><add place="sublinear"><metamark>X</metamark></add><add
-          place="superlinear">will endeavour to</add></mod> resign myself <del rend="strikethrough"
-        >to</del> cheerfully to </line>
+    <line>"I <mod type="additions"><add place="sublinear"><metamark>X</metamark></add><add place="superlinear">will endeavour to</add></mod> resign myself <del rend="strikethrough">to</del> cheerfully to </line>
     <line>"death and will indulge a hope <del rend="strikethrough">my</del></line>
     <line>"<del rend="strikethrough">beloved creatures</del> of meeting you</line>
     <line>"in another world."</line>
