@@ -424,25 +424,6 @@
 
                     <elementSpec ident="surface" module="transcr" mode="change">
                         <content>
-                            <rng:ref name="att.global.attributes"/>
-                            <rng:ref name="att.global.linking.attributes"/>
-                            <rng:ref name="att.global.analytic.attributes"/>
-                            <rng:ref name="att.global.facs.attributes"/>
-                            <rng:ref name="att.global.change.attributes"/>
-                            <rng:ref name="att.coordinated.attributes"/>
-                            <rng:ref name="att.declaring.attributes"/>
-                            <rng:ref name="att.typed.attributes"/>
-                            <!-- Restore when we need the following attributes for Whitman integration -->
-                            <!--<rng:optional>
-                                <rng:attribute name="attachment">
-                                    <rng:ref name="data.enumerated"/>
-                                </rng:attribute>
-                            </rng:optional>
-                            <rng:optional>
-                                <rng:attribute name="flipping">
-                                    <rng:ref name="data.truthValue"/>
-                                </rng:attribute>
-                            </rng:optional>-->
                             <rng:group>
                                 <rng:zeroOrMore>
                                     <rng:ref name="model.glossLike"/>
