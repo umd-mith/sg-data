@@ -614,6 +614,10 @@
                                             librarians/collectors at a later date—often page
                                             numbers</desc>
                                     </valItem>
+                                    <valItem ident="bottom">
+                                        <desc>A zone of writing which is not part of the main text
+                                            block and appears at the bottom of a page</desc>
+                                    </valItem>
                                 </valList>
                             </attDef>
                         </attList>
