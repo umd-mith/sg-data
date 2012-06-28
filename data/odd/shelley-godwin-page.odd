@@ -385,6 +385,23 @@
                         <attList>
                             <attDef ident="status" mode="delete"/>
                             <attDef ident="cause" mode="delete"/>
+                            <attDef ident="hand" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="#pbs">
+                                        <gloss>Percy Shelley's handwriting</gloss>
+                                        <desc>Text written in Percy Shelley's hand.</desc>
+                                    </valItem>
+                                    <valItem ident="#mws">
+                                        <gloss>Mary Shelley's handwriting</gloss>
+                                        <desc>Text written in Mary Shelley's hand.</desc>
+                                    </valItem>
+                                    <valItem ident="#comp">
+                                        <gloss>compositor's handwriting</gloss>
+                                        <desc>Text written in an (unknown?) compositor's hand.</desc>
+                                    </valItem>
+                                    <valItem ident="http://viaf.org/viaf/95159449"/>
+                                </valList>
+                            </attDef>
                         </attList>
                     </classSpec>
 
@@ -406,12 +423,6 @@
 
                     <classSpec ident="att.responsibility" type="atts" mode="change">
                         <attList>
-                            <attDef ident="resp" mode="replace">
-                                <valList type="closed" mode="replace">
-                                    <valItem ident="#pbs"/>
-                                    <valItem ident="http://viaf.org/viaf/95159449"/>
-                                </valList>
-                            </attDef>
                             <attDef ident="precision" mode="delete"/>
                             <attDef ident="scope" mode="delete"/>
                         </attList>
