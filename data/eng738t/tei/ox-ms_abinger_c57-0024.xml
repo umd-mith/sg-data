@@ -24,7 +24,7 @@
                         <line>zeal of Felix was warmed by several letters</line>
                         <line>that he received from this lovely <mod>
                                         <del rend="strikethrough">Amina</del>
-                                        <add place="sublinear">‸</add>
+                                        <add place="sublinear">&#x2038;</add>
                                         <add place="superlinear">girl</add>
                                 </mod> Who</line>
                         <line><del rend="strikethrough">ardently thanked him for the</del> found
@@ -41,7 +41,7 @@
                         <line>and at the same time she gently deplored</line>
                         <line>her own fate. I have copies of these letters</line>
                         <line>for I found means during <mod type="additions">
-                                        <add place="sublinear">‸</add>
+                                        <add place="sublinear">&#x2038;</add>
                                         <add place="superlinear">my</add>
                                 </mod> residence in the</line>
                         <line>hovel to procure the <mod>
