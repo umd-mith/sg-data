@@ -421,17 +421,11 @@
                         </attList>
                     </classSpec>
 
-                    <classSpec ident="att.responsibility" type="atts" mode="change">
-                        <attList>
-                            <attDef ident="precision" mode="delete"/>
-                            <attDef ident="scope" mode="delete"/>
-                        </attList>
-                    </classSpec>
-
                     <!-- Removing entire classes; some of these might be restored later -->
                     <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
                     <classSpec ident="att.global.change" type="atts" mode="delete"/>
                     <classSpec ident="att.declaring" type="atts" mode="delete"/>
+                    <classSpec ident="att.responsibility" type="atts" mode="delete"/>
 
                     <elementSpec ident="surface" module="transcr" mode="change">
                         <content>
