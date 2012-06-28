@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-05-16T15:07:45Z. 
+Schema generated from ODD source 2012-06-28T12:25:49Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -518,27 +518,28 @@ only one of its kind, in which case it is selected if its parent is selected.</a
     </optional>
   </define>
   <define name="sga-patt.responsibility.attributes">
-    <ref name="sga-patt.responsibility.attribute.resp"/>
     <ref name="sga-patt.responsibility.attribute.cert"/>
-  </define>
-  <define name="sga-patt.responsibility.attribute.resp">
-    <optional>
-      <attribute name="resp">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-        <choice>
-          <value>#pbs</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-          <value>http://viaf.org/viaf/95159449</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-        </choice>
-      </attribute>
-    </optional>
+    <ref name="sga-patt.responsibility.attribute.resp"/>
   </define>
   <define name="sga-patt.responsibility.attribute.cert">
     <optional>
       <attribute name="cert">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(certainty) signifies the degree of certainty associated with the intervention or interpretation.</a:documentation>
         <ref name="sga-pdata.certainty"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.responsibility.attribute.resp">
+    <optional>
+      <attribute name="resp">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsible party) indicates the agency responsible for the intervention or interpretation, for example an
+        editor or transcriber.</a:documentation>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.pointer"/>
+          </zeroOrMore>
+        </list>
       </attribute>
     </optional>
   </define>
@@ -1123,7 +1124,25 @@ its completeness</a:documentation>
   </define>
   <define name="sga-patt.transcriptional.attributes">
     <ref name="sga-patt.editLike.attributes"/>
+    <ref name="sga-patt.transcriptional.attribute.hand"/>
     <ref name="sga-patt.transcriptional.attribute.seq"/>
+  </define>
+  <define name="sga-patt.transcriptional.attribute.hand">
+    <optional>
+      <attribute name="hand">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+        <choice>
+          <value>#pbs</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (Percy Shelley's handwriting) Text written in Percy Shelley's hand.</a:documentation>
+          <value>#mws</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (Mary Shelley's handwriting) Text written in Mary Shelley's hand.</a:documentation>
+          <value>#comp</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (compositor's handwriting) Text written in an (unknown?) compositor's hand.</a:documentation>
+          <value>http://viaf.org/viaf/95159449</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+        </choice>
+      </attribute>
+    </optional>
   </define>
   <define name="sga-patt.transcriptional.attribute.seq">
     <optional>

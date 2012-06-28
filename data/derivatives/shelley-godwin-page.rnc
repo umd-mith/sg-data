@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-05-16T15:07:45Z. 
+# Schema generated from ODD source 2012-06-28T12:25:49Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -322,23 +322,19 @@ sga-patt.divLike.attribute.part =
       "F"
   }?
 sga-patt.responsibility.attributes =
-  sga-patt.responsibility.attribute.resp,
-  sga-patt.responsibility.attribute.cert
-sga-patt.responsibility.attribute.resp =
-  
-  ##
-  attribute resp {
-    
-    ##
-    "#pbs"
-    | 
-      ##
-      "http://viaf.org/viaf/95159449"
-  }?
+  sga-patt.responsibility.attribute.cert,
+  sga-patt.responsibility.attribute.resp
 sga-patt.responsibility.attribute.cert =
   
   ## (certainty) signifies the degree of certainty associated with the intervention or interpretation.
   attribute cert { sga-pdata.certainty }?
+sga-patt.responsibility.attribute.resp =
+  
+  ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an
+  ##         editor or transcriber.
+  attribute resp {
+    list { sga-pdata.pointer, sga-pdata.pointer* }
+  }?
 sga-patt.editLike.attributes =
   sga-patt.dimensions.attributes,
   sga-patt.responsibility.attributes,
@@ -776,7 +772,26 @@ sga-patt.spanning.attribute.spanTo =
   ##	bearing this attribute.
   attribute spanTo { sga-pdata.pointer }?
 sga-patt.transcriptional.attributes =
-  sga-patt.editLike.attributes, sga-patt.transcriptional.attribute.seq
+  sga-patt.editLike.attributes,
+  sga-patt.transcriptional.attribute.hand,
+  sga-patt.transcriptional.attribute.seq
+sga-patt.transcriptional.attribute.hand =
+  
+  ##
+  attribute hand {
+    
+    ##  (Percy Shelley's handwriting) Text written in Percy Shelley's hand.
+    "#pbs"
+    | 
+      ##  (Mary Shelley's handwriting) Text written in Mary Shelley's hand.
+      "#mws"
+    | 
+      ##  (compositor's handwriting) Text written in an (unknown?) compositor's hand.
+      "#comp"
+    | 
+      ##
+      "http://viaf.org/viaf/95159449"
+  }?
 sga-patt.transcriptional.attribute.seq =
   
   ## (sequence) assigns a sequence number related to the order in which
