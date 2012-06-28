@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0042" ulx="0" uly="0" lrx="5138" lry="7032">
@@ -21,8 +21,8 @@
 <line>for an interview which would</line> 
 <line>descide my fate.<del rend="overstrike">I wish</del>I postponed</line> 
 <line><add><ptr target="c57-0002.03"/></add>for some months longer; for the</line> 
-<line>importance attached to it <mod resp="#pbs">'s</mod><mod resp="#pbs"><add place="superlinear">success</add></mod> inspired</line> 
-<line>me with a <del rend="overstrike">fear for it's success</del> <mod resp="#pbs"><add place="superlinear"><metamark>&#x2038;</metamark>dread lest it should not succeed</add></mod></line> 
+<line>importance attached to it <mod hand="#pbs">'s</mod><mod hand="#pbs"><add place="superlinear">success</add></mod> inspired</line> 
+<line>me with a <del rend="overstrike">fear for it's success</del> <mod hand="#pbs"><add place="superlinear"><metamark>&#x2038;</metamark>dread lest it should not succeed</add></mod></line> 
 <line><del rend="overstrike">that I in vain endeavoured to</del></line> 
 <line><del rend="overstrike"> surmount.</del>Besides I found that</line> 
 <line>my understanding improved so much</line> 
@@ -39,7 +39,7 @@
 <line>and I also found that a greater<del rend="overstrike">g</del>degree</line> 
  <line>of plenty<del rend="overstrike"> &amp; en</del>reigned there &amp;Felix  </line> 
 <line>and Agatha spent more time</line> 
-<line>in amusement <add place="superlinear"><metamark>&#x2038;</metamark> &#x0026; conversation</add><del rend="overstrike">they</del>and <del rend="overstrike">and</del>were<del rend="overstrike">now also</del></line>  
+<line>in amusement <add place="superlinear"><metamark>&#x2038;</metamark> &amp; conversation</add><del rend="overstrike">they</del>and <del rend="overstrike">and</del>were<del rend="overstrike">now also</del></line>  
 <line>assisted in their labours by servants</line> 
 <line>They <del rend="overstrike">were not</del><add place="superlinear">did not appear</add> rich but they were</line>  
 </zone> 
@@ -55,4 +55,4 @@
 <zone type="left_margin"> 
   <line>this attempt<anchor xml:id="c57-0002.03"/></line>
 </zone>
-</surface> 
+</surface>

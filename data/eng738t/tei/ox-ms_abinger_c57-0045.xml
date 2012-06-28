@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0045" ulx="0" uly="0" lrx="5138" lry="7032">
@@ -17,12 +17,12 @@
 <line>myself into the cottage of my protectors. I revol</line> 
 <line>ved many projects but that on which I</line> 
 <line>finally fixed was to enter their dwelling when</line> 
-<line>the blind old man <mod resp="#pbs"> <del rend="overstrike"/>was <add place="superlinear">should be</add> </mod> alone.<del rend="overstrike"> My voice</del></line> 
+<line>the blind old man <mod hand="#pbs"> <del rend="overstrike"/>was <add place="superlinear">should be</add> </mod> alone.<del rend="overstrike"> My voice</del></line> 
 <line> <del rend="overstrike">although harsh had nothing terrible in</del></line> 
 <line> <del rend="overstrike">it.</del><del rend="overstrike">and</del>I had sagacity enough to discover</line> 
 <line>that the unnatural hideousness of my person</line> 
 <line>was the chief object of horror <del rend="overstrike">am</del>with those</line> 
-<line>who had formerly beheld me: — my voice al</line> 
+<line>who had formerly beheld me: &#x2014; my voice al</line> 
 <line>though harsh, had nothing terrible in</line> 
 <line>it.  I thought therefore that if in the absence</line> 
 <line>of his children I could gain the goodwill</line> 
@@ -37,7 +37,7 @@
 <line>was left alone in the cottage.  When his chil</line>  
 <line>dren had departed he took up his guitar &amp; </line> 
 <line>played <del rend="overstrike">ver</del>several mournful but sweet</line> 
-<line>airs: <mod resp="#pbs"> <del rend="overstrike">that I had seldom</del><add place="superlinear"><metamark>&#x2038;</metamark>more sweet &#x0026; mournful that I had ever</add></mod>heard him play</line> 
+<line>airs: <mod hand="#pbs"> <del rend="overstrike">that I had seldom</del><add place="superlinear"><metamark>&#x2038;</metamark>more sweet &amp; mournful that I had ever</add></mod>heard him play</line> 
 <line>before.  At first his countenance was illumi</line> 
 <line>nated with pleasure but as he continued thought</line> 
 <line>fullness and sadness succeeded and laying down</line> 

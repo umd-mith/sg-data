@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0065" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
@@ -9,7 +9,7 @@
     <line>left the spot where I had committed the</line>
     <line>murder and sought a more secluded</line>
     <line>hiding place.  At that moment I peceiv</line>
-    <line>ing a woman passing near me,— she</line>
+    <line>ing a woman passing near me,&#x2014; she</line>
     <line>was young; not indeed so beautiful as</line>
     <line>her who portrait I held but of an</line>
     <line>agreable <del rend="strikethrough">in</del> aspect &amp; blooming in the</line>
@@ -18,7 +18,7 @@
     <line>smiles are bestowed on all but me</line>
     <line><del rend="strikethrough">but</del> She shall not escape my vengeance</line>
     <line>thanks to the lessons of Felix &amp; the</line>
-    <line>sanguinary laws of man, I <mod><add place="superlinear" resp="#pbs">have learned</add><del rend="strikethrough">know</del></mod> how</line>
+    <line>sanguinary laws of man, I <mod><add place="superlinear" hand="#pbs">have learned</add><del rend="strikethrough">know</del></mod> how</line>
     <line>to work mischief.  I approached her</line>
     <line>unpeceived, and placed the portrait</line>
     <line>securely in one of the folds of her</line>
@@ -29,9 +29,9 @@
     <line>times resolved to quit the world &amp; it</line>
     <line>miseries for ever.  <add place="superlinear">at length I</add><del rend="strikethrough">I have</del> wandered</line>
     <line><add place="intralinear">towards</add><note>Addition of "towards" is in margin and in different script than remainder of line, suggesting addition later</note> <del rend="strikethrough">to</del> these mountains and have ranged</line>
-    <line><mod><add place="intralinear" resp="#pbs">through</add><del rend="strikethrough">in</del></mod> their immense recesses consumed</line>
+    <line><mod><add place="intralinear" hand="#pbs">through</add><del rend="strikethrough">in</del></mod> their immense recesses consumed</line>
     <line>by a burning passion which you</line>
-    <line>alone can gratify—And we may not</line>
+    <line>alone can gratify&#x2014;And we may not</line>
     <line>part untill you have promised</line>
     <line>to comply with my requisitions.  I am</line>
     <line>alone &amp; miserable.  Man will not</line>

@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0014" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0014" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0014.tif"/>
   <zone type="pagination" rend="bordered">13</zone>
   <zone type="main">
     <line>pulling up roots&#x2014;&#x2014;After he had been employed</line>
     <line>thus about <del rend="strikethrough">hal</del> an hour the young woman</line>
-    <line>joined him, &#x0026; they returned to the cottage</line>
+    <line>joined him, &amp; they returned to the cottage</line>
     <line>together &#x2014; The old man in the mean time</line>
     <line>had been pe<mod type="additions">
         <add place="sublinear">&#x2038;</add>
@@ -25,8 +23,7 @@
       </mod> cheerful</line>
     <line>air, and they sat down to eat. <delSpan rend="strikethrough" spanTo="#c57-0014.01"/>They
       quickly</line>
-    <line><del rend="strikethrough">finished</del><anchor xml:id="c57-0014.01"/> the<del
-        rend="cross-hatch">ir</del> meal <mod type="additions">
+    <line><del rend="strikethrough">finished</del><anchor xml:id="c57-0014.01"/> the<del rend="cross-hatch">ir</del> meal <mod type="additions">
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">was quickly dispatched;</add>
       </mod> the young woman was</line>
@@ -44,15 +41,14 @@
       </mod> excellent</line>
     <line>creatures One was old, with silver hairs</line>
     <line>and a countenance beaming with bene</line>
-    <line>volence &#x0026; love; the younger was slight</line>
+    <line>volence &amp; love; the younger was slight</line>
     <line>and graceful in his <del rend="triple-strike">fu</del> figure and</line>
     <line>his features were moulded with the</line>
-    <line>finest <del rend="strikethrough">semetry</del><add resp="#pbs" place="superlinear"
-        >symmetry</add> - yet his eyes &#x0026; attitude</line>
+    <line>finest <del rend="strikethrough">semetry</del><add hand="#pbs" place="superlinear">symmetry</add> - yet his eyes &amp; attitude</line>
     <line>expressedthe utmost sadness and despon</line>
     <line>denceny &#x2014; The old man returned to the</line>
     <line>cottage; and the youth with tools different</line>
-    <line>from those <add resp="#pbs" place="superlinear">which</add> he had used in the
+    <line>from those <add hand="#pbs" place="superlinear">which</add> he had used in the
       morning,</line>
     <line>directed his steps across the fields - Night</line>
     <line>quickly shut in but to my extreme won</line>

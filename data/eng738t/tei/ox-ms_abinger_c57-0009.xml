@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0009" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
@@ -6,12 +6,12 @@
   <zone type="pagination" rend="bordered">8</zone>
   <zone type="main">
     <line>escaped to the open country and fear</line>
-    <line>fully took refuge in a low <del rend="strikethrough">hut</del><add place="superlinear"><mod resp="#pbs">hovel</mod></add> &amp;quite</line>
+    <line>fully took refuge in a low <del rend="strikethrough">hut</del><add place="superlinear"><mod hand="#pbs">hovel</mod></add> &amp;quite</line>
     <line>bare and making a wretched appearance</line>
     <line>after the pal<del rend="strikethrough">l</del>aces I had beheld in the</line>
-    <line>village.&amp; This <del rend="strikethrough">hut</del><add place="superlinear"><mod resp="#pbs">hovel</mod></add> however adjoined a</line>
+    <line>village.&amp; This <del rend="strikethrough">hut</del><add place="superlinear"><mod hand="#pbs">hovel</mod></add> however adjoined a</line>
     <line>cottage of a neat &amp; pleasant appearance,</line>
-    <line>but after my late <add place="sublinear"><mod resp="#pbs"><metamark>‸</metamark></mod></add><add place="superlinear"><mod resp="#pbs">dearly</mod></add> bought experience</line>
+    <line>but after my late <add place="sublinear"><mod hand="#pbs"><metamark>&#x2038;</metamark></mod></add><add place="superlinear"><mod hand="#pbs">dearly</mod></add> bought experience</line>
     <line>I dared not enter it.  My place of refuge <add place="superlinear"><figure><desc>insert mark X</desc></figure></add></line>
     <line><delSpan spanTo="c57-0002.01"/><del rend="strikethrough">was the tool house</del> <del rend="strikethrough">and had not been</del></line>     
     <line><add><ptr target="c57-0002.02"/></add>used <del rend="strikethrough">for</del> by the inhabitants of the ad</line>

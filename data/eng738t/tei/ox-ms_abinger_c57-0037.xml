@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-    xml:id="ox-ms_abinger_c57-0037" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0037" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
     <graphic url="../../images/ox/ox-ms_abinger_c57-0037.tif"/>
-    <zone type="pagination" rend="bordered"><unclear reason="illegible" precision="medium"
-            extent="1" unit="chars">62</unclear></zone>
+    <zone type="pagination" rend="bordered"><unclear reason="illegible" precision="medium" extent="1" unit="chars">62</unclear></zone>
     <zone type="main">
         <line><delSpan spanTo="#c57-0037.01" rend="strikethrough"/>having overcome many difficulties
             succeeded</line>
@@ -21,8 +18,7 @@
                 <del rend="strikethrough">&#x2013;</del>
                 <del rend="strikethrough">and</del>
                 <add place="sublinear">&#x2038;</add>
-                <add place="superlinear"><del rend="strikethrough"><unclear reason="overwritten"
-                            extent="4" precision="low" unit="chars">prom</unclear></del>
+                <add place="superlinear"><del rend="strikethrough"><unclear reason="overwritten" extent="4" precision="low" unit="chars">prom</unclear></del>
                     <del rend="strikethrough">it fr</del></add>
             </mod> I learned <mod type="additions">
                 <add place="sublinear">&#x2038;</add>
@@ -43,13 +39,13 @@
                 <add place="superlinear"><del rend="strikethrough">for</del></add>
             </mod> bene</line>
         <line>volence &amp; generosity were ever present</line>
-        <line>before me — <del rend="strikethrough">and</del> I <mod>
+        <line>before me &#x2014; <del rend="strikethrough">and</del> I <mod>
                 <del rend="strikethrough">longed</del>
                 <add place="sublinear">&#x2038;</add>
                 <add place="superlinear"><del rend="strikethrough">ardently desired</del></add>
                 <del rend="strikethrough">to make one</del>
                 <add place="sublinear">&#x2038;</add>
-                <add place="superlinear" resp="#pbs">inciting in me to desire to become an
+                <add place="superlinear" hand="#pbs">inciting in me to desire to become an
                     actor</add>
             </mod> in the</line>
         <line>busy scene where so many admirable</line>
@@ -59,12 +55,11 @@
         <line>of the progress of my intellect<del rend="double-strike">s</del>, I must not</line>
         <line>omit a circumstance <mod>
                 <del rend="strikethrough">that took</del>
-                <add place="superlinear" resp="#pbs">which occurred</add>
+                <add place="superlinear" hand="#pbs">which occurred</add>
             </mod></line>
         <line><del rend="strikethrough">place</del> in the beginning of the month</line>
         <line>of August of <del rend="strikethrough">that</del>
-            <add place="superlinear" resp="#pbs">the same</add> year.<milestone unit="paragraph"
-            /></line>
+            <add place="superlinear" hand="#pbs">the same</add> year.<milestone unit="paragraph"/></line>
         <line><add><ptr target="c57-0037.04"/></add>One night during my accustomed</line>
         <line>visit to the neighbouring wood where</line>
         <line>I collected my own food and brought</line>
@@ -76,11 +71,11 @@
         <line>were fortunately written in the language</line>
         <line><add><ptr target="c57-0037.05"/></add> I had learned at the cottage; they
             consisted</line>
-        <line>of "Paradise Lost" — a volume of Plutarchs</line>
+        <line>of "Paradise Lost" &#x2014; a volume of Plutarchs</line>
         <line>lives and the <mod>
                 <del rend="overwritten">s</del>
                 <add place="intralinear">S</add>
-            </mod>orrows of Werter — <delSpan spanTo="#c57-0037.06" rend="strikethrough"/>And
+            </mod>orrows of Werter &#x2014; <delSpan spanTo="#c57-0037.06" rend="strikethrough"/>And
             these</line>
         <line>I<anchor xml:id="c57-0037.06"/>
             <mod>
@@ -96,7 +91,7 @@
             </mod> these treasures</line>
         <line><mod>
                 <del rend="strikethrough">which</del>
-                <add><metamark>✗</metamark><ptr target="c57-0037.07"/></add>
+                <add><metamark>&#x2717;</metamark><ptr target="c57-0037.07"/></add>
             </mod> I could <del rend="strikethrough">now</del> continually study</line>
         <line>and <mod>
                 <del rend="strikethrough">occupy</del>
@@ -109,8 +104,7 @@
                         <add place="intralinear">se</add>
                     </mod> histories</add>
             </mod> when my</line>
-        <line>friends were employed <unclear reason="smear" extent="8" unit="chars" precision="high"
-                >in their</unclear> ordinary</line>
+        <line>friends were employed <unclear reason="smear" extent="8" unit="chars" precision="high">in their</unclear> ordinary</line>
         <line><mod>
                 <del rend="strikethrough">concerns</del>
                 <add place="sublinear">&#x2038;</add>
@@ -118,13 +112,13 @@
             </mod>. I can hardly describe to you the</line>
     </zone>
     <zone type="left_margin">
-        <addSpan resp="#pbs" xml:id="c57-0037.02" spanTo="#c57-0037.08"/><line>the views</line>
+        <addSpan hand="#pbs" xml:id="c57-0037.02" spanTo="#c57-0037.08"/><line>the views</line>
         <line><add place="sublinear">&#x2038;</add>of social</line>
         <line>life which</line>
         <line>it developed</line><anchor xml:id="c57-0037.08"/>
     </zone>
     <zone type="left_margin">
-        <addSpan resp="#pbs" xml:id="c57-0037.03" spanTo="#c57-0037.09"/>
+        <addSpan hand="#pbs" xml:id="c57-0037.03" spanTo="#c57-0037.09"/>
         <line>60</line>
         <line>18 25</line>
         <line><hi rend="underline">18</hi>

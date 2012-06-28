@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0047" ulx="0" uly="0" lrx="5138" lry="7032">
@@ -9,12 +9,12 @@
   <zone type="main">  
 <line>"Do not trouble yourself, my kind</line> 
 <line>host," I replied, I have food, it is warmth</line>  
-<line>and rest only that I need.—I sat down</line> 
+<line>and rest only that I need.&#x2014;I sat down</line> 
 <line>and a silence ensued; I knew very</line>  
 <line>well that every minute was precious</line> 
 <line>to me yet I remained irresolute <add place="superlinear"><metamark>&#x2038;</metamark>in</add>what</line> 
 <line><add><ptr target="c57-0002.01"/></add><del rend="strikethrough">to say</del> when the old man <add place="superlinear"><metamark>&#x2038;</metamark>addressed me</add><del rend="strikethrough">began</del> &#x2014;"By</line> 
-<line>your language St<add place ="superlinear">r</add>anger, I suppose you</line> 
+<line>your language St<add place="superlinear">r</add>anger, I suppose you</line> 
 <line>are my countryman, are you french?"</line> 
 <line>"No," replied I  but I was educated by a</line> 
 <line>french family and understand that</line>  
@@ -25,7 +25,7 @@
     <line>some hopes." "Are these Germans" <figure><desc>figure looks like a W with two slanted lines through it</desc></figure> Asked</line> 
     <line>De Lacey &#x2014; <del rend="strikethrough">know</del>"No &#x2014; They are french &#x2014; But let</line> 
     <line>us change the subject &#x2014; I am an unfortu</line> 
-    <line>nate &#x0026; deserted creature.  I look around and</line> 
+    <line>nate &amp; deserted creature.  I look around and</line> 
     <line>I have no relation or friend <add place="superlinear"><metamark>&#x2038;</metamark>on earth &#x2014;</add>The <add place="sublinear">se</add> <add place="superlinear"><metamark>&#x2038;</metamark>amiable</add><del rend="strikethrough">kind</del></line> 
     <line>people to whom I go, have never seem</line> 
     <line>me and know little of me. I am full</line> 
@@ -38,7 +38,7 @@
     <line>of brotherly love and charity.  Rely therefore</line> 
     <line>on your hopes and if <del rend="strikethrough">these dispositions</del></line> 
     <line><del rend="strikethrough">of your friends are kind </del>these friends</line> 
-    <line>are good and amiable — do not <add place="superlinear">despair</add><del rend="strikethrough">fear</del><del rend="strikethrough">for your</del> </line>
+    <line>are good and amiable &#x2014; do not <add place="superlinear">despair</add><del rend="strikethrough">fear</del><del rend="strikethrough">for your</del> </line>
   </zone> 
   <zone type="left_margin"> 
     <line>manner to</line> 

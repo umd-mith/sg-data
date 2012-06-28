@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0055" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
@@ -6,39 +6,39 @@
   <zone type="pagination" rend="bordered">80</zone>
     <zone type="main">
       <line>and I beg therefore that you will</line>
-      <line>take some days to <del rend="strikethrough">con<metamark>‸</metamark>sult <add place="superlinear">consider of</add> about</del></line>
+      <line>take some days to <del rend="strikethrough">con<metamark>&#x2038;</metamark>sult <add place="superlinear">consider of</add> about</del></line>
       <line><del rend="strikethrough">this affair with</del> your <del rend="strikethrough">friends</del>. determination.<milestone unit="paragraph"/></line>
-      <line>It is utterly useless— replied Felix,</line>
-      <line>we can never <metamark>‸</metamark><add place="superlinear">again</add> inhabit that cottage</line>
-      <line><del rend="strikethrough">again</del> —The life of <metamark>‸</metamark><add place="superlinear">my</add> father is in the greatest</line>
+      <line>It is utterly useless&#x2014; replied Felix,</line>
+      <line>we can never <metamark>&#x2038;</metamark><add place="superlinear">again</add> inhabit that cottage</line>
+      <line><del rend="strikethrough">again</del> &#x2014;The life of <metamark>&#x2038;</metamark><add place="superlinear">my</add> father is in the greatest</line>
       <line>danger owing to the dreadful circumstanc</line>
-      <line>that I have related— My wife and sister</line>
-      <line><del rend="strikethrough">can</del><metamark>‸</metamark><add place="superlinear">will</add> never recover their horror— Do I</line>
+      <line>that I have related&#x2014; My wife and sister</line>
+      <line><del rend="strikethrough">can</del><metamark>&#x2038;</metamark><add place="superlinear">will</add> never recover their horror&#x2014; Do I</line>
       <line>entreat you not to reason with me</line>
-      <line>any more—<del rend="strikethrough">let</del> Take possession<metamark>‸</metamark><add place="superlinear">of your tenement</add> and let me</line>
-      <line>fly from this place —<del rend="strikethrough"> very We intend</del></line>
+      <line>any more&#x2014;<del rend="strikethrough">let</del> Take possession<metamark>&#x2038;</metamark><add place="superlinear">of your tenement</add> and let me</line>
+      <line>fly from this place &#x2014;<del rend="strikethrough"> very We intend</del></line>
       <line><del rend="strikethrough">very soon to quit entirely the country.</del><milestone unit="paragraph"/></line>
       <line>Felix trembled violently as he said</line>
       <line>this. He and his companion entered the</line>
       <line>cottage <del rend="strikethrough">w</del> in which they remained for a</line>
       <line>few minutes &amp; then departed. I never</line>
-      <line>again <add place="sublinear" resp="#pbs">more</add> saw any of the family of De Lacey</line>
+      <line>again <add place="sublinear" hand="#pbs">more</add> saw any of the family of De Lacey</line>
       <line><del rend="strikethrough">They had qu</del><milestone unit="paragraph"/></line>
       <line><del rend="strikethrough">And now my hopes were entirely</del></line>
-      <line><del rend="strikethrough">fled — were I had been fool enough to</del></line>
+      <line><del rend="strikethrough">fled &#x2014; were I had been fool enough to</del></line>
       <line><del rend="strikethrough">hope but these</del></line>
-      <line>I <add place="superlinear">continued for the remainder</add><del rend="strikethrough">remained all night</del><metamark>‸</metamark><add place="superlinear">of the day</add> in my hovel</line>
-      <line>in a state of utter &amp; stupid despair—</line>
+      <line>I <add place="superlinear">continued for the remainder</add><del rend="strikethrough">remained all night</del><metamark>&#x2038;</metamark><add place="superlinear">of the day</add> in my hovel</line>
+      <line>in a state of utter &amp; stupid despair&#x2014;</line>
       <line>my protectors had departed and had</line>
       <line>broken the only link that held me</line>
-      <line>to the world— for the first time the</line>
+      <line>to the world&#x2014; for the first time the</line>
       <line>feeling of revenge and hatred filled</line>
       <line>my bosom, and I did not strive to</line>
-      <line>controul them — but allowing myself</line>
+      <line>controul them &#x2014; but allowing myself</line>
       <line>to be borne away by the stream I</line>
-      <line>bent my mind<del rend="strikethrough">s</del> towards <del rend="strikethrough">I</del> injury &amp; death—</line>
-      <line><del rend="strikethrough">But</del> when I thought of my friends— of</line>
+      <line>bent my mind<del rend="strikethrough">s</del> towards <del rend="strikethrough">I</del> injury &amp; death&#x2014;</line>
+      <line><del rend="strikethrough">But</del> when I thought of my friends&#x2014; of</line>
       <line>the mild voice of De Lacey the gentle</line>
-      <line>eyes of Agatha — and the <del rend="strikethrough">warm he</del></line>
+      <line>eyes of Agatha &#x2014; and the <del rend="strikethrough">warm he</del></line>
     </zone>
 </surface>

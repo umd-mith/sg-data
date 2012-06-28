@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0051" ulx="0" uly="0" lrx="5138" lry="7032">
@@ -11,16 +11,16 @@
     <line>did I <del rend="strikethrough">lif</del> live  why in that instant</line> 
     <line>did I not extinguish the spark of</line> 
     <line>existence which you had so wantonly</line> 
-    <line>bestowed? I know not — Despair had not</line> 
+    <line>bestowed? I know not &#x2014; Despair had not</line> 
     <line>yet taken possession of me <del rend="strikethrough">it w</del> <del rend="strikethrough">I</del></line> 
     <line> <del rend="strikethrough">was enraged</del>my feelings were those</line> 
-    <line>of rage &amp; revenge — I <del rend="strikethrough">w</del>could with plea</line> 
+    <line>of rage &amp; revenge &#x2014; I <del rend="strikethrough">w</del>could with plea</line> 
     <line>sure <del rend="strikethrough">of</del> <del rend="strikethrough">torn</del> ha <add place="sublinear">ve</add> destroyed the cottage </line> 
     <line>and its inhabitants, and glutted my</line> 
     <line>self with their shrieks &amp; misery.<del rend="strikethrough">They</del></line> 
     <line> <del rend="strikethrough">As</del>When night came on I quitted</line> 
     <line>my retreat and wandered to the</line> 
-    <line>wood. — <del rend="strikethrough">And now</del> No longer restrained</line> 
+    <line>wood. &#x2014; <del rend="strikethrough">And now</del> No longer restrained</line> 
     <line>by the fear of discovery I gave vent</line> 
     <line>to my anguish in fearful howlings.</line> 
     <line>I was like a wild beast in the toils;</line> 

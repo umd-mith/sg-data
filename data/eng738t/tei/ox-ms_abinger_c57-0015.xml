@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-    xml:id="ox-ms_abinger_c57-0015" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0015" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
     <graphic url="../../images/ox/ox-ms_abinger_c57-0015.tif"/>
     <zone type="pagination" rend="bordered">14</zone>
     <zone type="library">8</zone>
@@ -13,8 +11,8 @@
         <line>were emploed in various occupations;</line>
         <line><mod>
                 <del rend="strikethrough">that</del>
-                <add resp="#pbs" place="superlinear">which</add>
-            </mod> I did not then understand, &#x0026; the</line>
+                <add hand="#pbs" place="superlinear">which</add>
+            </mod> I did not then understand, &amp; the</line>
         <line>old man again took that instru</line>
         <line>ment which produced the<mod>
                 <del rend="overwritten">s</del>
@@ -24,21 +22,20 @@
         <line>sounds that had enchanted me in</line>
         <line>the morning. <mod>
                 <del rend="strikethrough">and</del>
-                <del rend="strikethrough"><del rend="overwritten">w</del><add place="intralinear"
-                        resp="#pbs">W</add>hen</del>
-                <add resp="#pbs" place="superlinear">So soon as</add>
+                <del rend="strikethrough"><del rend="overwritten">w</del><add place="intralinear" hand="#pbs">W</add>hen</del>
+                <add hand="#pbs" place="superlinear">So soon as</add>
             </mod> he had finish</line>
         <line>ed the youth began, &#x2014; not to play but</line>
         <line><mod>
                 <del rend="strikethrough">he</del>
-                <add resp="#pbs" place="superlinear">to</add>
+                <add hand="#pbs" place="superlinear">to</add>
             </mod> utter<del rend="smear">ed</del> sounds which were monoto</line>
         <line>nous <del rend="strikethrough">and</del> and <del rend="strikethrough">far
                 from</del><add place="superlinear">neither resembling</add> the harmony</line>
         <line>of the old mans instrument or the</line>
         <line>songs of the birds. I since found that</line>
         <line>he read <mod type="additions">
-                <add resp="#pbs" place="superlinear">aloud,</add>
+                <add hand="#pbs" place="superlinear">aloud,</add>
                 <add place="superlinear">at the time</add>
             </mod>but I knew nothing of the</line>
         <line>science of words of letters. <delSpan spanTo="#c57-0015.01" rend="strikethrough"/>at

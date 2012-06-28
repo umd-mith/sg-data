@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0022" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0022" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0022.tif"/>
   <zone type="pagination">
     <line>21</line>
@@ -19,20 +15,18 @@
         <add place="superlinear"><del rend="strikethrough">by</del></add>
         <del rend="strikethrough">by</del>
         <del rend="strikethrough">which</del>
-      </mod>these amiable cottagers <delSpan rend="strikethrough" spanTo="c57-0022.01"
-      />shewed</line>
+      </mod>these amiable cottagers <delSpan rend="strikethrough" spanTo="c57-0022.01"/>shewed</line>
     <line>their dispositions.<anchor xml:id="c57-0022.01"/> In the midst of poverty</line>
     <line>and want Felix carried wit<damage>h</damage> pleasure</line>
     <line>to his sister the first little whisk flower</line>
     <line>that peeked out from beneath the <mod>
         <del rend="strikethrough">snowed</del>
         <add place="superlinear"><del rend="strikethrough">white</del></add>
-        <add resp="#pbs" place="sublinear">snowy</add>
+        <add hand="#pbs" place="sublinear">snowy</add>
         <add place="superlinear">ground</add>
       </mod></line>
     <line><add><ptr target="#c57-0022.02"/></add>
-      <del rend="overwritten">I</del><add place="intralinear">i</add>n the morning <del
-        rend="strikethrough">early</del> before <del rend="strikethrough">any of the</del></line>
+      <del rend="overwritten">I</del><add place="intralinear">i</add>n the morning <del rend="strikethrough">early</del> before <del rend="strikethrough">any of the</del></line>
     <line>she had risen he had cleared away the</line>
     <line>snow that had obst<mod type="additions">
         <add place="sublinear">&#x2038;</add>
@@ -45,17 +39,17 @@
     <line>and brought the wood from the <mod>
         <del rend="overwritten">outhouse</del>
         <add place="intralinear">
-          <metamark>✗</metamark><ptr target="#c57-0022.03"/>
+          <metamark>&#x2717;</metamark><ptr target="#c57-0022.03"/>
         </add>
       </mod></line>
     <line>In the day I believe he worked sometimes</line>
     <line>for a neighbouring farmer, <mod>
         <del rend="strikethrough">for</del>
-        <add resp="#pbs" place="superlinear">because</add>
+        <add hand="#pbs" place="superlinear">because</add>
       </mod> he</line>
     <line>often went <mod>
         <del rend="strikethrough">out</del>
-        <add place="superlinear" resp="#pbs">forth,</add>
+        <add place="superlinear" hand="#pbs">forth,</add>
       </mod> and did not return</line>
     <line>until dinner, yet brought no wood</line>
     <line>with him: at other times he worked</line>
@@ -73,15 +67,14 @@
         <del rend="strikethrough">understand</del>
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">comprehend</add>
-      </mod> these <del rend="double-strike"><unclear extent="1" reason="illegible" precision="low"
-          unit="chars">b</unclear></del> also, but how was</line>
+      </mod> these <del rend="double-strike"><unclear extent="1" reason="illegible" precision="low" unit="chars">b</unclear></del> also, but how was</line>
   </zone>
   <zone type="left_margin">
     <line><add xml:id="c57-0022.02">early</add></line>
   </zone>
   <zone type="left_margin">
     <addSpan xml:id="c57-0022.03" spanTo="#c57-0022.04"/>
-    <line><metamark>✗</metamark></line>
+    <line><metamark>&#x2717;</metamark></line>
     <line>outhouse</line>
     <line>where to his</line>
     <line>perpetual</line>

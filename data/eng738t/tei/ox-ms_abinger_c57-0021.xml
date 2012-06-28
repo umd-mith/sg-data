@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0021" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0021" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0021.tif"/>
   <zone type="pagination" rend="bordered">20</zone>
   <zone type="library">11</zone>
@@ -11,15 +9,14 @@
     <line>I sympathized in their joys. I saw few</line>
     <line>human beings besides them, and if</line>
     <line>any other happened to enter the cottage</line>
-    <line>their harsh <del rend="strikethrough">and rud</del> manners &#x0026; rude</line>
+    <line>their harsh <del rend="strikethrough">and rud</del> manners &amp; rude</line>
     <line>gait only enhanced to me <del rend="strikethrough">th</del>
       <del rend="strikethrough">my friends</del></line>
-    <line><add><ptr target="#c57-0021.01"/></add> the superior advantages of m<add resp="#pbs"
-        >y</add> friends.</line>
+    <line><add><ptr target="#c57-0021.01"/></add> the superior advantages of m<add hand="#pbs">y</add> friends.</line>
     <line>The <del rend="strikethrough">Father</del> old man, I could percieve,</line>
     <line>often endeavoured to encourage his</line>
     <line>children as I sometimes found that</line>
-    <line>he called them <mod type="additions" resp="#pbs">
+    <line>he called them <mod type="additions" hand="#pbs">
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">to case off their melancholy.</add>
       </mod> He would talk in</line>
@@ -56,7 +53,7 @@
     <line>addressed the old man &#x2014;</line>
   </zone>
   <zone type="left_margin">
-    <add resp="#pbs" xml:id="c57-0021.01"><figure>
+    <add hand="#pbs" xml:id="c57-0021.01"><figure>
         <desc>faint PBS pencil sketch of trees</desc>
       </figure></add>
   </zone>

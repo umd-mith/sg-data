@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0031" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0031" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0031.tif"/>
   <zone type="pagination" rend="bordered">57</zone>
   <zone type="library">16</zone>
   <zone type="top">
     <line>
-      <add resp="#pbs" place="superlinear">another Chapter</add></line>
+      <add hand="#pbs" place="superlinear">another Chapter</add></line>
   </zone>
   <zone type="main">
     <line>Sometime elapsed before I <del xml:id="c57-0031.01" next="#c57-0031.02">became
@@ -22,22 +18,21 @@
       </mod> the history of my friends. It was one <del rend="strikethrough">that</del></line>
     <line><add><ptr target="#c57-0031.04"/></add> could not fail to impress itself deeply <mod>
         <del rend="strikethrough">in</del>
-        <add resp="#pbs" place="sublinear">on</add>
+        <add hand="#pbs" place="sublinear">on</add>
       </mod> my</line>
     <line>mind unfolding as it did a number of</line>
-    <line>circumstances each inter<del rend="strikethrough">r</del>esting &#x0026; wonder</line>
+    <line>circumstances each inter<del rend="strikethrough">r</del>esting &amp; wonder</line>
     <line>ful to one so utterly inexperienced as I</line>
     <line>was.</line>
     <milestone unit="tei:p"/>
     <line>The name of the old man was De Lacey.</line>
-    <line>He was decended from a good family in France <delSpan spanTo="#c57-0031.05"
-        rend="strikethrough"/>&#x0026;</line>
+    <line>He was decended from a good family in France <delSpan spanTo="#c57-0031.05" rend="strikethrough"/>&amp;</line>
     <line>untill very lately had lived<anchor xml:id="c57-0031.05"/> where for many years</line>
     <line> he had lived in affluence respected by his superiors</line>
-    <line>&#x0026; beloved by his equals. <delSpan spanTo="#c57-0031.06" rend="strikethrough"/>His
-      two children Felix &#x0026; Aga</line>
+    <line>&amp; beloved by his equals. <delSpan spanTo="#c57-0031.06" rend="strikethrough"/>His
+      two children Felix &amp; Aga</line>
     <line>tha<anchor xml:id="c57-0031.06"/> His son was bred in the service of his country</line>
-    <line>&#x0026; Agatha had <mod>
+    <line>&amp; Agatha had <mod>
         <del rend="strikethrough">been</del>
         <add place="superlinear">ranked</add>
         <del rend="strikethrough">woed</del>
@@ -46,19 +41,18 @@
       </mod> of the</line>
     <line>highest distinction. A few months <mod>
         <del rend="strikethrough" xml:id="c57-0031.07" next="#c57-0031.08">previous</del>
-        <add resp="#pbs" place="superlinear">before</add>
+        <add hand="#pbs" place="superlinear">before</add>
       </mod></line>
     <line><del xml:id="c57-0031.08" prev="#c57-0031.07" rend="strikethrough">to</del> my arrival
-      they had lived in a large &#x0026; lux</line>
+      they had lived in a large &amp; lux</line>
     <line>urious city called Paris, surrounded by friends</line>
-    <line>&#x0026; possessed of every enjoyment that <mod>
+    <line>&amp; possessed of every enjoyment that <mod>
         <del rend="strikethrough">that</del>
-        <add resp="#pbs" place="superlinear">which</add>
-      </mod> virtue &#x2038; <add xml:id="c57-0031.09" next="#c57-0031.010" resp="#pbs"
-        place="superlinear">&#x0026; refin</add> virtue ac</line>
+        <add hand="#pbs" place="superlinear">which</add>
+      </mod> virtue &#x2038; <add xml:id="c57-0031.09" next="#c57-0031.010" hand="#pbs" place="superlinear">&amp; refin</add> virtue ac</line>
     <line>
-      <add resp="#pbs" place="superlinear" xml:id="c57-0031.010" prev="#c57-0031.09">of intellect
-        &#x0026; taste,</add> companied with a competent fortune could</line>
+      <add hand="#pbs" place="superlinear" xml:id="c57-0031.010" prev="#c57-0031.09">of intellect
+        &amp; taste,</add> companied with a competent fortune could</line>
     <line>afford.</line>
     <milestone unit="tei:p"/>
     <line>The father of Safie <mod>
@@ -67,7 +61,7 @@
       </mod> the cause of their</line>
     <line><mod>
         <del rend="strikethrough">fall</del>
-        <add resp="#pbs" place="superlinear">ruin;</add>
+        <add hand="#pbs" place="superlinear">ruin;</add>
       </mod> He was a <mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">T</add>
@@ -76,15 +70,14 @@
     <line>became <mod>
         <del rend="strikethrough">for some</del>
         <add place="sublinear">&#x2038;</add>
-        <add resp="#pbs" place="superlinear">for some reason which I could not learn</add>
+        <add hand="#pbs" place="superlinear">for some reason which I could not learn</add>
       </mod> obnoxious to the govern</line>
-    <line>ment– He was seized and cast into prison </line>
+    <line>ment&#x2013; He was seized and cast into prison </line>
     <line>the very day that Safie arrived from Constan</line>
-    <line>tinople to join him. He was tried &#x0026; condemned </line>
+    <line>tinople to join him. He was tried &amp; condemned </line>
     <line>to death. The injustice of his sentence was very</line>
-    <line>flagrant All Paris were indignant &#x0026; it</line>
-    <line>was judged that his relig<del rend="strikethrough"
-        ><!--this is an 
+    <line>flagrant All Paris were indignant &amp; it</line>
+    <line>was judged that his relig<del rend="strikethrough"><!--this is an 
       undecidable character per shcolar's note; 
       we could encode it with <choice>-->i</del>ion
       and wealth </line>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0086" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
@@ -19,11 +19,11 @@
       </line>
       
            family 
-      <line>me and <mod><add place="superlinear" resp="#pbs">exempt</add><del rend="strikethrough">free</del></mod> my <mod><add place="superlinear" resp="#pbs">family</add><del rend="strikethrough">friends</del></mod> from the</line>
+      <line>me and <mod><add place="superlinear" hand="#pbs">exempt</add><del rend="strikethrough">free</del></mod> my <mod><add place="superlinear" hand="#pbs">family</add><del rend="strikethrough">friends</del></mod> from the</line>
       
       
       <line>
-        <mod><del rend="strikethrough">possibility of</del> danger<add place="superlinear" resp="#pbs"> of his machinations</add></mod>. <delSpan spanTo="#endofpage"/>Thinking thus
+        <mod><del rend="strikethrough">possibility of</del> danger<add place="superlinear" hand="#pbs"> of his machinations</add></mod>. <delSpan spanTo="#endofpage"/>Thinking thus
       </line>
       
       <line>

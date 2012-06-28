@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
@@ -11,19 +11,19 @@
       before I allowed myself to enjoy the delight of a 
     </line>
     <line>
-      union, <mod><add resp="#pbs" place="superlinear">from which I expected</add><del rend="strikethrough">I should otherwise eagerly expect</del></mod> I remembered
+      union, <mod><add hand="#pbs" place="superlinear">from which I expected</add><del rend="strikethrough">I should otherwise eagerly expect</del></mod> I remembered
     </line>
     <line>
-      also the necessity I was under of either <mod><add resp="#pbs" place="superlinear">journeying</add></mod><del rend="strikethrough">going</del> to England
+      also the necessity I was under of either <mod><add hand="#pbs" place="superlinear">journeying</add></mod><del rend="strikethrough">going</del> to England
     </line>
     <line>
       or entering into a long correspondence with th<del rend="overwritten">ose</del><add>e</add>
     </line>
     <line>
-      <mod><add resp="#pbs" place="superlinear">philosophers</add><del rend="strikethrough">men</del></mod> of that country whose knowledge and discove
+      <mod><add hand="#pbs" place="superlinear">philosophers</add><del rend="strikethrough">men</del></mod> of that country whose knowledge and discove
     </line>
     <line>
-      ries <mod><del rend="strikethrough">might</del><add resp="#pbs" place="superlinear">were of</add></mod> be of <mod><del rend="strikethrough">inestimable</del><add resp="#pbs" place="superlinear">indispensable</add></mod><mod><del rend="strikethrough"><add place="superlinear"><unclear reason="illegible">map? reap? apparently incomplete word</unclear></add></del></mod><note>Robinson transcription of superlinear insertion here (above "use") APPEARS TO BE INCORRECT -- see transcript footnotes for lines 10,11. Smudged out writing does not appear to be "necess" </note><del rend="strikethrough">use</del><add place="intralinear">use</add> to me<metamark>&#x2038;</metamark> <add place="superlinear">in my persent undertaking</add>. The latter
+      ries <mod><del rend="strikethrough">might</del><add hand="#pbs" place="superlinear">were of</add></mod> be of <mod><del rend="strikethrough">inestimable</del><add hand="#pbs" place="superlinear">indispensable</add></mod><mod><del rend="strikethrough"><add place="superlinear"><unclear reason="illegible">map? reap? apparently incomplete word</unclear></add></del></mod><note>Robinson transcription of superlinear insertion here (above "use") APPEARS TO BE INCORRECT -- see transcript footnotes for lines 10,11. Smudged out writing does not appear to be "necess" </note><del rend="strikethrough">use</del><add place="intralinear">use</add> to me<metamark>&#x2038;</metamark> <add place="superlinear">in my persent undertaking</add>. The latter
     </line>
     <line>
       method of obtaining the desired intelligence was dilato
@@ -35,10 +35,10 @@
       was agreable to me and I was delighted with the
     </line>
     <line>
-      idea of spending a year or two <mod><del rend="strikethrough"><add resp="#pbs" place="superlinear">in absence from</add></del><del rend="strikethrough">away from</del></mod> <delSpan spanTo="#doomsday"/><del rend="strikethrough">my fami</del>
+      idea of spending a year or two <mod><del rend="strikethrough"><add hand="#pbs" place="superlinear">in absence from</add></del><del rend="strikethrough">away from</del></mod> <delSpan spanTo="#doomsday"/><del rend="strikethrough">my fami</del>
     </line>
     <line>
-      <mod><del rend="strikethrough">ly</del><anchor xml:id="doomsday"/><add resp="#pbs" place="sublinear">in change of scene &#x0026; variety of occupation in absence from my family</add></mod> during which time <del rend="strikethrough">during this</del><del rend="strikethrough">time</del><del rend="strikethrough">which</del>
+      <mod><del rend="strikethrough">ly</del><anchor xml:id="doomsday"/><add hand="#pbs" place="sublinear">in change of scene &amp; variety of occupation in absence from my family</add></mod> during which time <del rend="strikethrough">during this</del><del rend="strikethrough">time</del><del rend="strikethrough">which</del>
     </line>
     <line>
       <del rend="strikethrough">time</del> some event might happen which would
@@ -62,7 +62,7 @@
       swer to my father. I <del rend="strikethrough">said I</del><add place="superlinear">expressed <del rend="strikethrough">my</del>a </add>wish<del rend="strikethrough">ed</del> to visit England
     </line>
     <line>
-      but concealing <mod><del rend="strikethrough">my</del><add place="superlinear" resp="#pbs">the</add></mod> true reasons <mod><del rend="strikethrough">for</del> <del rend="strikethrough">my</del><add place="superlinear" resp="#pbs">of this</add></mod> request I
+      but concealing <mod><del rend="strikethrough">my</del><add place="superlinear" hand="#pbs">the</add></mod> true reasons <mod><del rend="strikethrough">for</del> <del rend="strikethrough">my</del><add place="superlinear" hand="#pbs">of this</add></mod> request I
     </line>
     <line>
       clothed my desires under the guise of <del rend="strikethrough">wh</del>wishing to
@@ -75,13 +75,13 @@
       <milestone unit="paragraph"/>
     </line>
     <line>
-      I urged my <mod><add resp="#pbs" place="superlinear">entreaty</add><note>note "y" in "entreaty" also has no hook-tail shape to it, like main text--another distinguishing hand attribute?</note><del rend="strikethrough">request</del></mod> with earnestness and
+      I urged my <mod><add hand="#pbs" place="superlinear">entreaty</add><note>note "y" in "entreaty" also has no hook-tail shape to it, like main text--another distinguishing hand attribute?</note><del rend="strikethrough">request</del></mod> with earnestness and
     </line>
     <line>
       my father was easily induced to <del rend="strikethrough">grant it</del><add place="superlinear">comply;</add><note>semicolon in transcript not seen in page image?</note> for a    
     </line>
     <line>
-      <del rend="strikethrough">man</del> more indulgent <mod><del rend="strikethrough">and</del> <add resp="#pbs" place="superlinear"> or a</add></mod> less dictatorial parent
+      <del rend="strikethrough">man</del> more indulgent <mod><del rend="strikethrough">and</del> <add hand="#pbs" place="superlinear"> or a</add></mod> less dictatorial parent
     </line>
   </zone>
 </surface>

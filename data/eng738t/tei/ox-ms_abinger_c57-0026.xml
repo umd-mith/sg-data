@@ -1,45 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0026" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0026" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0026.tif"/>
   <zone type="pagination">61</zone>
   <zone type="main">
     <line>deceit by quitting his house under the pretence</line>
-    <line>of a journey &#x0026; conceal<mod>
+    <line>of a journey &amp; conceal<mod>
         <del rend="overwritten">in</del>
         <add place="intralinear">ed</add>
         <del rend="tetra-strike">g</del>
       </mod> himself with his daughter</line>
-    <line>in an obscure part of Paris. <unclear reason="illegible" precision="low" unit="chars"
-        extent="1"/> Felix conducted</line>
+    <line>in an obscure part of Paris. <unclear reason="illegible" precision="low" unit="chars" extent="1"/> Felix conducted</line>
     <line> the fugitives <mod>
         <del rend="strikethrough">across</del>
         <add place="superlinear">&#x2038;</add>
         <add place="superlinear">through</add>
-      </mod> France to Lyons &#x0026; <add place="superlinear">across</add> Mount Cenis</line>
+      </mod> France to Lyons &amp; <add place="superlinear">across</add> Mount Cenis</line>
     <line>when he arrived at Leghorn where the merchant</line>
     <line><!--scholar indicates w is uncancelled, but I see no such appearance in the issue: should we encode as a <restore>?-->w<mod>
         <del rend="strikethrough">as to</del>
-        <add resp="#pbs" place="superlinear">had decided to</add>
-      </mod> was to wait a favourable<del precision="medium" rend="smear"><add place="superlinear"
-          >safe</add></del> opportunity of passing</line>
+        <add hand="#pbs" place="superlinear">had decided to</add>
+      </mod> was to wait a favourable<del precision="medium" rend="smear"><add place="superlinear">safe</add></del> opportunity of passing</line>
     <line>over to Africa <mod type="deletions">
         <del rend="double-strike">The</del>
         <del rend="double-strike">H</del>
-      </mod> He could not deny <del precision="medium" rend="smear"><add place="superlinear"
-          >61</add></del> him</line>
+      </mod> He could not deny <del precision="medium" rend="smear"><add place="superlinear">61</add></del> him</line>
     <line>self the pleasure of remaining a <del rend="strikethrough">short</del> few</line>
     <line>days in the <mod>
         <del rend="strikethrough">company</del>
         <add place="superlinear">society</add>
       </mod> of the Arabian who exhi</line>
-    <line>bited towards him the simplest &#x0026; tenderest</line>
+    <line>bited towards him the simplest &amp; tenderest</line>
     <line>affection<unclear precision="low" reason="illegible" extent="1" unit="chars">.</unclear>
       They conversed with one another</line>
-    <line>by the aid of an interpreter &#x0026; Safie sang</line>
+    <line>by the aid of an interpreter &amp; Safie sang</line>
     <line>to him the divine airs of her native coun</line>
     <line>try. The Turk allowed this intimacy to</line>
     <line>take place and encouraged the hopes of </line>
@@ -56,7 +49,7 @@
         <del rend="strikethrough">his</del>
         <add place="superlinear">the</add>
       </mod> power of his <del rend="strikethrough">former</del> deli</line>
-    <line>ver<add resp="#pbs">er</add> if he should <mod>
+    <line>ver<add hand="#pbs">er</add> if he should <mod>
         <del rend="strikethrough">deliver</del>
         <add place="superlinear">choose to betray</add>
       </mod> him <del rend="strikethrough">up</del> to the</line>

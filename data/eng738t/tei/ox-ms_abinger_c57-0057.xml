@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0057" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
@@ -11,23 +11,23 @@
       <line>and the cottage was quickly enveloped</line>
       <line>by the flames which clung to it</line>
       <line>and <del rend="strikethrough">liked</del> licked it with <del rend="strikethrough">th with</del></line>
-      <line>their forked <del rend="strikethrough">ton</del><add place="superlinear" resp="#pbs">&amp; destroying</add> tongues, <del rend="strikethrough">to destroy</del></line>
-      <line><del rend="strikethrough">it—</del>. As soon as I was convinced that</line>
+      <line>their forked <del rend="strikethrough">ton</del><add place="superlinear" hand="#pbs">&amp; destroying</add> tongues, <del rend="strikethrough">to destroy</del></line>
+      <line><del rend="strikethrough">it&#x2014;</del>. As soon as I was convinced that</line>
       <line>no <del rend="strikethrough">hu</del> assistance could save any</line>
       <line>part of the habitation I quitted</line>
       <line>the scene and sought for refuge</line>
       <line>in the wood.<milestone unit="paragraph"/></line>
       <line>And now <del rend="strikethrough">it</del> with the world before</line>
-      <line>me <metamark>‸</metamark>w<add place="superlinear">h</add>ither should I bend my steps?</line>
+      <line>me <metamark>&#x2038;</metamark>w<add place="superlinear">h</add>ither should I bend my steps?</line>
       <line>I resolved to fly far from the scene</line>
-      <line>of my misfortunes — <add place="superlinear" resp="#pbs">But</add><del rend="strikethrough">And</del> to me, hated</line>
+      <line>of my misfortunes &#x2014; <add place="superlinear" hand="#pbs">But</add><del rend="strikethrough">And</del> to me, hated</line>
       <line>and despised, every country <del rend="strikethrough">And</del></line>
       <line>must be equally horrible At length</line>
       <line>the thought of you crossed my</line>
-      <line>mind — I learned from your papers</line>
+      <line>mind &#x2014; I learned from your papers</line>
       <line>that you <add place="superlinear">were my</add><del rend="strikethrough">was I</del> creator &amp; to whom</line>
       <line><del rend="strikethrough">w</del> could I apply with more fitness</line>
-      <line>than to h<del rend="overwritten">e</del><add place="intralinear" resp="#pbs">im</add> who had given<metamark>‸</metamark><add place="superlinear">me</add> life.</line>
+      <line>than to h<del rend="overwritten">e</del><add place="intralinear" hand="#pbs">im</add> who had given<metamark>&#x2038;</metamark><add place="superlinear">me</add> life.</line>
       <line>Among the lessons that Felix had</line>
       <line>bestowed on <del rend="strikethrough">Maimouna</del><add place="superlinear">Safie</add> geography</line>
       <line>had not been ommitted. From</line>

@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0035" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0035" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0035.tif"/>
   <zone type="main">
     <line>guage of the country and utterly ignorant of</line>
-    <line>the customs of the world. — She fell <del rend="strikethrough">hover</del> however</line>
-    <line>in to good hands — <delSpan spanTo="#c57-0035.01" rend="strikethrough"/>The hostess of the
+    <line>the customs of the world. &#x2014; She fell <del rend="strikethrough">hover</del> however</line>
+    <line>in to good hands &#x2014; <delSpan spanTo="#c57-0035.01" rend="strikethrough"/>The hostess of the
       Inn was in</line>
     <line>terested in her fate<anchor xml:id="c57-0035.01"/>
       <del rend="strikethrough">And</del>
