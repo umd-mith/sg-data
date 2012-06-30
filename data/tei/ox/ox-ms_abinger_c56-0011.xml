@@ -66,9 +66,9 @@
     <line>valry &#38; romance and <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs" next="#c56-0011.10">when very young, I can</add>
-        <add place="sublinear" xml:id="c56-0011.10" hand="#pbs">remember that</add>
       </mod> we used to</line>
-    <line>act plays composed by him out of</line>
+    <line><add place="superlinear" xml:id="c56-0011.10" hand="#pbs">remember that</add>act plays
+      composed by him out of</line>
     <line>th<mod>
         <del rend="overwritten">is</del>
         <add place="intralinear" hand="#pbs">ese</add>
