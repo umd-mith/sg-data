@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
-            href="../../xsl/page-proof.xsl"
-        ?>
+            href="../../xsl/page-proof.xsl"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0002" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0002.tif"/>
@@ -41,7 +40,7 @@
       &amp;</line>
     <line>more opressive to me and the heat wearying</line>
     <line>me as I walked I sought a place where I could</line>
-    <line><add><ptr target="c57-0002.02"/></add>perceive <add place="superlinear" hand="#pbs">receive</add> shade. This was the forest near Ingolstadt,</line>
+    <line><add><ptr target="c57-0002.02"/></add>perceive <add place="superlinear" resp="#pbs">receive</add> shade. This was the forest near Ingolstadt,</line>
     <line>and here by the side of a brook I lay <del rend="strikethrough">weary</del></line>
     <line>for some hours <add place="sublinear"><metamark>&#x2038;</metamark></add><add
       place="superlinear">resting from my fatigue</add> untill I felt tormented by</line>
@@ -51,7 +50,7 @@
     <line><add xml:id="c57-0002.01"><del rend="strikethrough">various</del></add></line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c57-0002.02" hand="#pbs">or</add></line><!-- This addition in the margin appears to be directed toward MWS and not merely a textual edit. 
+    <line><add xml:id="c57-0002.02" resp="#pbs">or</add></line><!-- This addition in the margin appears to be directed toward MWS and not merely a textual edit. 
       He is recommending that "perceive" OR "receive" would both work in this sentence. -MTC -->
   </zone>
 </surface>
