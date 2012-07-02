@@ -7,8 +7,8 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0189.tif"/>
   <zone type="library">95 (<unclear/>)</zone>
   <zone type="main">
-    <milestone unit="tei:p"/><line>The mames of <damage agent="tear"><unclear/></damage> a Simiramis, sovereigns of Babylon are</line>
-    <line>preserved by that bloody hallo with glory and victory always decora<damage agent="tear"><unclear/></damage></line>
+    <milestone unit="tei:p"/><line>The mames of <damage agent="tear"><gap/></damage> a Simiramis, sovereigns of Babylon are</line>
+    <line>preserved by that bloody hallo with glory and victory always decora<damage agent="tear"><gap/></damage></line>
     <line>its worshippers; but the effects of their conquest were but mom<damage agent="tear">e</damage></line>
     <line>tary and gave way before the rapid advances of Cyrus whose</line>
     <line>warfare conducted on principles of untility and benevolence</line>
@@ -21,11 +21,11 @@
     <line>after the manners of <del rend="strikethrough">the</del><add place="sublinear"><metamark>&#x2038;</metamark></add> <add place="superlinear">his</add> age, to consider glory as the great &#x26;</line>
     <line>desirable bourne towards which every virtuous man ought</line>
     <line>to direct his exertions But the natural <del rend="strikethrough">mil</del> mildness of his</line>
-    <line>disposition let him the rather to seek for honour in the <damage agent="tear"><unclear/></damage></line>
-    <line>don than in the punishment of his enemies; and his <damage agent="tear"><unclear/></damage></line>
-    <line>often appeared to the fallen nation rather in the light of <damage agent="tear"><unclear/></damage></line>
-    <line>blessing than a curse. Innumerable anecdotes are <damage agent="tear"><unclear/></damage></line>
-    <line>of his virtue and wisdom by Xenephon but this history, <damage agent="tear"><unclear/></damage></line>
+    <line>disposition let him the rather to seek for honour in the <damage agent="tear"><gap/></damage></line>
+    <line>don than in the punishment of his enemies; and his <damage agent="tear"><gap/></damage></line>
+    <line>often appeared to the fallen nation rather in the light of <damage agent="tear"><gap/></damage></line>
+    <line>blessing than a curse. Innumerable anecdotes are <damage agent="tear"><gap/></damage></line>
+    <line>of his virtue and wisdom by Xenephon but this history, <damage agent="tear"><gap/></damage></line>
     <line>tunately must be regarded as a romance rather than the real</line>
     <line>biography of the man: for although tradition might probably</line>
     <line>preserve several <del rend="strikethrough">anecdotes</del> of the private actions of so</line>
@@ -41,6 +41,6 @@
     <line>this time he was principally occupied in the cares of govern</line>
     <line>ment which he established on a very arbitrary <del rend="strikethrough">b</del> footing</line>
     <line>leaving to his sucessors a despotic authority over a people</line>
-    <line><damage agent="tear"><unclear/></damage> whose courage was destroyed by slavery and</line>
+    <line><damage agent="tear"><gap/></damage> whose courage was destroyed by slavery and</line>
   </zone>
 </surface>
