@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0076" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0076" ulx="0" uly="0" lrx="5364" lry="7104"
+  partOf="#ox-ms_abinger_c56-0076">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0076.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">106</zone>
+  <zone type="main"> of all <line>console Elizabeth, <del rend="strikethrough">who</del>
+      <add place="superlinear" hand="#pbs">She</add> weeps <add place="sublinear">&#x2038;</add>
+      <add place="superlinear" hand="#pbs">continually</add> &#x26; accuses herself</line>
+    <line><del rend="strikethrough">of all how u so</del> unjustly <add place="sublinear"
+          >&#x2038;<ptr target="#c56-0076.01"/></add>
+      <del rend="strikethrough">and</del> yet her words</line>
+    <line>pierce my heart. We are all unhpappy</line>
+    <line>but <del rend="strikethrough">that</del> will not that be an additio</line>
+    <line>nal motive for you, my <del rend="strikethrough">co</del> son, to <del rend="strikethrough">come</del> <add place="superlinear" hand="#pbs">return</add></line>
+    <line>and be our comforter. Your dear Mother!</line>
+    <line>Alas, Victor! I now say Thank God she did</line>
+    <line>not live to witness <del rend="strikethrough">this grief</del>&#x2013; the cruel</line>
+    <line>miserable death of her youngest darling.</line>
+    <milestone unit="tei:p"/><line>Come, Victor; not brooding <del rend="strikethrough">w</del> thoughts</line>
+    <line>of vengeance against the assassin but</line>
+    <line>with feelings of peace and gentleness</line>
+    <line>that will heal instead of festering the </line>
+    <line><del rend="strikethrough">woul</del> wounds of our <del rend="strikethrough">soul</del> minds. Enter</line>
+    <line>the house of mourning, my son &#x26; friend</line>
+    <line>but with kindness and affection</line>
+    <line>for those who love you &#x26; not with</line>
+    <line>hatred for your enemies.</line>
+    <milestone unit="tei:closing"/><line>Your affectionate &#x26; afflicted father</line>
+    <milestone unit="tei:signed"/><line>Alphonse Frankenstein</line><anchor xml:id="c56-0073.01"/>
+    <line><del><unclear/></del></line>
+    <!-- this anchor relates to the opening of the letter several files previous, issue #487 -->
+    <milestone unit="tei:p"/><line>Clerval who had watched my countenance</line>
+    <line>as I read this letter was surprised in observ</line>
+    <line>ing the despair that succeeded to the joy</line>
+    <line>I expressed on receiving news from my friends.</line>
+    <line>I threw the letter on the table and covered</line>
+    <line>my face with my hands.</line>
+    <milestone unit="tei:p"/><line><metamark>"</metamark>My dear Frankenstein,<metamark>"</metamark> exclaimed</line>
+    <line><del rend="strikethrough">hen</del> Henry when he saw me weep with</line>
+  </zone>
+  <zone type="left_margin"><add xml:id="c56-0076.01" hand="#pbs"><del rend="strikethrough">of H</del> as the cause of his death&#x2014;</add></zone>
 </surface>
