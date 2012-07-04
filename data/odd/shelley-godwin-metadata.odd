@@ -69,6 +69,23 @@
           </content>
         </elementSpec>
         
+        <elementSpec ident="fileSpec" module="header" mode="change">
+          <content>
+            <rng:group>
+              <rng:group>
+                <rng:ref name="titleStmt"/>
+                <rng:optional>
+                  <rng:ref name="editionStmt"/>
+                </rng:optional>
+                <rng:ref name="publicationStmt"/>
+              </rng:group>
+              <rng:oneOrMore>
+                <rng:ref name="sourceDesc"/>
+              </rng:oneOrMore>
+            </rng:group>
+          </content>
+        </elementSpec>
+        
         <elementSpec ident="profileDesc" module="header" mode="change">
           <content>
             <rng:group>
