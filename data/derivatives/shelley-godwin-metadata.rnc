@@ -7,7 +7,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-07-04T18:19:34Z. 
+# Schema generated from ODD source 2012-07-04T19:12:03Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -2283,7 +2283,7 @@ sga-md_editionStmt =
   
   ## (edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]
   element editionStmt {
-    (sga-md_model.pLike+ | (sga-md_edition, sga-md_respStmt*)),
+    (sga-md_edition, sga-md_respStmt*),
     sga-md_att.global.attributes,
     empty
   }
@@ -2857,12 +2857,11 @@ sga-md_msDesc =
   element msDesc {
     (sga-md_msIdentifier,
      sga-md_model.headLike*,
-     (sga-md_model.pLike+
-      | (sga-md_msContents?,
-         sga-md_physDesc?,
-         sga-md_history?,
-         sga-md_additional?,
-         sga-md_msPart*))),
+     (sga-md_msContents?,
+      sga-md_physDesc,
+      sga-md_history?,
+      sga-md_additional,
+      sga-md_msPart*)),
     sga-md_att.global.attributes,
     sga-md_att.sortable.attributes,
     empty
@@ -3652,7 +3651,7 @@ sga-md_additional =
   ## bibliographic information about a manuscript, or surrogate copies of
   ## it with  curatorial or administrative information.  [10.9. ]
   element additional {
-    (sga-md_adminInfo?, sga-md_surrogates?, sga-md_listBibl?),
+    (sga-md_adminInfo, sga-md_surrogates),
     sga-md_att.global.attributes,
     empty
   }

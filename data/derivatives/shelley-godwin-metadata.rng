@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-07-04T18:19:34Z. 
+Schema generated from ODD source 2012-07-04T19:12:03Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -3987,17 +3987,12 @@ creation of an electronic text. [2.2.1. ]</a:documentation>
   <define name="sga-md_editionStmt">
     <element name="editionStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-md_model.pLike"/>
-        </oneOrMore>
-        <group>
-          <ref name="sga-md_edition"/>
-          <zeroOrMore>
-            <ref name="sga-md_respStmt"/>
-          </zeroOrMore>
-        </group>
-      </choice>
+      <group>
+        <ref name="sga-md_edition"/>
+        <zeroOrMore>
+          <ref name="sga-md_respStmt"/>
+        </zeroOrMore>
+      </group>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>
     </element>
@@ -4816,28 +4811,19 @@ manuscript or other text-bearing object. [10.1. ]</a:documentation>
         <zeroOrMore>
           <ref name="sga-md_model.headLike"/>
         </zeroOrMore>
-        <choice>
-          <oneOrMore>
-            <ref name="sga-md_model.pLike"/>
-          </oneOrMore>
-          <group>
-            <optional>
-              <ref name="sga-md_msContents"/>
-            </optional>
-            <optional>
-              <ref name="sga-md_physDesc"/>
-            </optional>
-            <optional>
-              <ref name="sga-md_history"/>
-            </optional>
-            <optional>
-              <ref name="sga-md_additional"/>
-            </optional>
-            <zeroOrMore>
-              <ref name="sga-md_msPart"/>
-            </zeroOrMore>
-          </group>
-        </choice>
+        <group>
+          <optional>
+            <ref name="sga-md_msContents"/>
+          </optional>
+          <ref name="sga-md_physDesc"/>
+          <optional>
+            <ref name="sga-md_history"/>
+          </optional>
+          <ref name="sga-md_additional"/>
+          <zeroOrMore>
+            <ref name="sga-md_msPart"/>
+          </zeroOrMore>
+        </group>
       </group>
       <ref name="sga-md_att.global.attributes"/>
       <ref name="sga-md_att.sortable.attributes"/>
@@ -5921,15 +5907,8 @@ institution.  [10.8. ]</a:documentation>
 bibliographic information about a manuscript, or surrogate copies of
 it with  curatorial or administrative information.  [10.9. ]</a:documentation>
       <group>
-        <optional>
-          <ref name="sga-md_adminInfo"/>
-        </optional>
-        <optional>
-          <ref name="sga-md_surrogates"/>
-        </optional>
-        <optional>
-          <ref name="sga-md_listBibl"/>
-        </optional>
+        <ref name="sga-md_adminInfo"/>
+        <ref name="sga-md_surrogates"/>
       </group>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>
