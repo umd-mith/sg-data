@@ -112,7 +112,9 @@
               <rng:oneOrMore>
                 <rng:ref name="title"/>
               </rng:oneOrMore>
-              <rng:ref name="respStmt"/>
+              <rng:zeroOrMore>
+                <rng:ref name="respStmt"/>
+              </rng:zeroOrMore>
             </rng:group>
           </content>
         </elementSpec>
