@@ -54,6 +54,7 @@
           floatingText front group imprimatur opener postscript salute signed 
           titlePage titlePart trailer" />
         <moduleRef key="msdescription"/>
+        <moduleRef key="transcr" include="handNotes"/>
         
         <elementSpec ident="teiHeader" module="header" mode="change">
           <content>
