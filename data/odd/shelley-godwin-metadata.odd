@@ -3,7 +3,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/brown_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:rng="http://relaxng.org/ns/structure/1.0" 
+  xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -36,6 +37,7 @@
   <text>
     <body>
       <schemaSpec ident="shelley-godwin-metadata" prefix="sga-md_" start="TEI">
+        
         <moduleRef key="header" except="appInfo application calendar calendarDesc 
           geoDecl langUsage quotation rendition samplingDecl stdVals textClass 
           typeNote"/>
@@ -51,6 +53,18 @@
           div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph 
           floatingText front group imprimatur opener postscript salute signed 
           titlePage titlePart trailer" />
+        
+        <elementSpec ident="teiHeader" module="header" mode="change">
+          <content>
+            <rng:group>
+              <rng:ref name="fileDesc"/>
+              <rng:zeroOrMore>
+                <rng:ref name="model.teiHeaderPart"/>
+              </rng:zeroOrMore>
+              <rng:ref name="revisionDesc"/>
+            </rng:group>
+          </content>
+        </elementSpec>
       </schemaSpec>
     </body>
   </text>
