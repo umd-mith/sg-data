@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/brown_odds.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/brown_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Shelley-Godwin Archive Metadata Guidelines</title>
+        <author>
+          <persName xml:id="tmunoz">Trevor Mu&#241;oz</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>The Maryland Institute for Technology in the Humanites (MITH)</distributor>
+        <address>
+                    <addrLine>mith@umd.edu</addrLine>
+                </address>
+        <availability status="restricted">
+          <p>This work is copyright Trevor Mu&#241;oz and Maryland Institute for Technology in the
+            Humanities and licensed under a <ref
+              target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
+              Unported License</ref>.</p>
+        </availability>
+        <pubPlace>College Park, MD USA</pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2012-07-04" who="#tmunoz">Started metadata-specific customization</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="shelley-godwin-metadata" prefix="sga-md_" start="TEI">
+        <moduleRef key="header" except="appInfo application calendar calendarDesc 
+          geoDecl langUsage quotation rendition samplingDecl stdVals textClass 
+          typeNote"/>
+        <moduleRef key="core"
+          include="abbr addrLine address analytic author bibl biblScope biblStruct 
+          cit date desc divGen editor email emph expan foreign gloss head headItem
+          headLabel hi imprint index item l label list listBibl measure measureGrp  
+          monogr name note num p postBox postCode ptr pubPlace publisher ref 
+          relatedItem resp respStmt rs series street term textLang time title"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"
+          except="argument back body byline closer dateline div1 div2 div3 div4 
+          div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph 
+          floatingText front group imprimatur opener postscript salute signed 
+          titlePage titlePart trailer" />
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
