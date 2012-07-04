@@ -112,9 +112,7 @@
               <rng:oneOrMore>
                 <rng:ref name="title"/>
               </rng:oneOrMore>
-              <rng:oneOrMore>
-                <rng:ref name="model.respLike"/>
-              </rng:oneOrMore>
+              <rng:ref name="respStmt"/>
             </rng:group>
           </content>
         </elementSpec>
