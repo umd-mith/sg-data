@@ -106,6 +106,19 @@
           </content>
         </elementSpec>
         
+        <elementSpec ident="titleStmt" module="header" mode="change">
+          <content>
+            <rng:group>
+              <rng:oneOrMore>
+                <rng:ref name="title"/>
+              </rng:oneOrMore>
+              <rng:oneOrMore>
+                <rng:ref name="model.respLike"/>
+              </rng:oneOrMore>
+            </rng:group>
+          </content>
+        </elementSpec>
+        
         <elementSpec ident="editionStmt" module="header" mode="change">
           <content>
                 <rng:ref name="edition"/>
