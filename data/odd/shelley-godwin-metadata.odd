@@ -103,9 +103,7 @@
                   <rng:optional>
                     <rng:ref name="history"/>
                   </rng:optional>
-                  <rng:optional>
-                    <rng:ref name="additional"/>
-                  </rng:optional>
+                    <rng:ref name="additional"/>                  
                   <rng:zeroOrMore>
                     <rng:ref name="msPart"/>
                   </rng:zeroOrMore>
