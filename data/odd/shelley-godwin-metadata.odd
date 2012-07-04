@@ -145,6 +145,12 @@
           </content>
         </elementSpec>
         
+        <elementSpec ident="adminInfo" module="msdescription" mode="change">
+          <content>
+                <rng:ref name="recordHist"/>
+          </content>
+        </elementSpec>
+        
       </schemaSpec>
     </body>
   </text>
