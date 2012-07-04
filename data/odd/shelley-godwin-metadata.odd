@@ -65,6 +65,14 @@
             </rng:group>
           </content>
         </elementSpec>
+        
+        <elementSpec ident="sourceDesc" module="header" mode="change">
+          <content>
+            <rng:oneOrMore>
+                <rng:ref name="model.biblLike"/> 
+            </rng:oneOrMore>
+          </content>
+        </elementSpec>
       </schemaSpec>
     </body>
   </text>
