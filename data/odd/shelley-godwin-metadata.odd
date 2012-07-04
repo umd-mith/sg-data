@@ -108,7 +108,15 @@
                     <rng:ref name="msPart"/>
                   </rng:zeroOrMore>
                 </rng:group>
-              
+            </rng:group>
+          </content>
+        </elementSpec>
+        
+        <elementSpec ident="additional" module="msdescription" mode="change">
+          <content>
+            <rng:group>
+                <rng:ref name="adminInfo"/>
+                <rng:ref name="surrogates"/>              
             </rng:group>
           </content>
         </elementSpec>
