@@ -53,6 +53,7 @@
           div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph 
           floatingText front group imprimatur opener postscript salute signed 
           titlePage titlePart trailer" />
+        <moduleRef key="msdescription"/>
         
         <elementSpec ident="teiHeader" module="header" mode="change">
           <content>
