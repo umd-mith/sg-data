@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-07-04T19:47:35Z. 
+Schema generated from ODD source 2012-07-04T19:52:22Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -3528,24 +3528,14 @@ Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</a:docume
     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
     or do not apply. May also be used to encode information about individuals or organizations 
     which have played a role in the production or distribution of a bibliographic work. [3.11.2.2.  2.2.1.  2.2.2.  2.2.5. ]</a:documentation>
-      <choice>
-        <group>
-          <oneOrMore>
-            <ref name="sga-md_resp"/>
-          </oneOrMore>
-          <oneOrMore>
-            <ref name="sga-md_model.nameLike.agent"/>
-          </oneOrMore>
-        </group>
-        <group>
-          <oneOrMore>
-            <ref name="sga-md_model.nameLike.agent"/>
-          </oneOrMore>
-          <oneOrMore>
-            <ref name="sga-md_resp"/>
-          </oneOrMore>
-        </group>
-      </choice>
+      <group>
+        <oneOrMore>
+          <ref name="sga-md_resp"/>
+        </oneOrMore>
+        <oneOrMore>
+          <ref name="sga-md_model.nameLike.agent"/>
+        </oneOrMore>
+      </group>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>
     </element>
@@ -3917,9 +3907,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
         <oneOrMore>
           <ref name="sga-md_title"/>
         </oneOrMore>
-        <oneOrMore>
-          <ref name="sga-md_model.respLike"/>
-        </oneOrMore>
+        <ref name="sga-md_respStmt"/>
       </group>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>

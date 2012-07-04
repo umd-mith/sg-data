@@ -7,7 +7,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-07-04T19:47:35Z. 
+# Schema generated from ODD source 2012-07-04T19:52:22Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -1926,8 +1926,7 @@ sga-md_respStmt =
   ##     or do not apply. May also be used to encode information about individuals or organizations 
   ##     which have played a role in the production or distribution of a bibliographic work. [3.11.2.2.  2.2.1.  2.2.2.  2.2.5. ]
   element respStmt {
-    ((sga-md_resp+, sga-md_model.nameLike.agent+)
-     | (sga-md_model.nameLike.agent+, sga-md_resp+)),
+    (sga-md_resp+, sga-md_model.nameLike.agent+),
     sga-md_att.global.attributes,
     empty
   }
@@ -2241,7 +2240,7 @@ sga-md_titleStmt =
   ## (title statement) groups information about the title of a work and those responsible for its intellectual
   ##     content. [2.2.1.  2.2. ]
   element titleStmt {
-    (sga-md_title+, sga-md_model.respLike+),
+    (sga-md_title+, sga-md_respStmt),
     sga-md_att.global.attributes,
     empty
   }
