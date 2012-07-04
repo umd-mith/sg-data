@@ -99,9 +99,7 @@
                   <rng:optional>
                     <rng:ref name="msContents"/>
                   </rng:optional>
-                  <rng:optional>
                     <rng:ref name="physDesc"/>
-                  </rng:optional>
                   <rng:optional>
                     <rng:ref name="history"/>
                   </rng:optional>
