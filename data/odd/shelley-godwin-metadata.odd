@@ -79,6 +79,7 @@
             </rng:group>
           </content>
         </elementSpec>
+        
         <elementSpec ident="sourceDesc" module="header" mode="change">
           <content>
             <rng:oneOrMore>
@@ -86,6 +87,7 @@
             </rng:oneOrMore>
           </content>
         </elementSpec>
+        
         <elementSpec ident="editionStmt" module="header" mode="change">
           <content>
               <rng:group>
@@ -96,6 +98,7 @@
               </rng:group>
           </content>
         </elementSpec>
+        
         <elementSpec ident="msDesc" module="msdescription" mode="change">
           <content>
             <rng:group>
