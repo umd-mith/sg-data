@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-07-04T19:12:03Z. 
+Schema generated from ODD source 2012-07-04T19:29:58Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -2479,30 +2479,6 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
     <optional>
       <ref name="sga-md_handDesc"/>
     </optional>
-    <optional>
-      <ref name="sga-md_typeDesc"/>
-    </optional>
-    <optional>
-      <ref name="sga-md_scriptDesc"/>
-    </optional>
-    <optional>
-      <ref name="sga-md_musicNotation"/>
-    </optional>
-    <optional>
-      <ref name="sga-md_decoDesc"/>
-    </optional>
-    <optional>
-      <ref name="sga-md_additions"/>
-    </optional>
-    <optional>
-      <ref name="sga-md_bindingDesc"/>
-    </optional>
-    <optional>
-      <ref name="sga-md_sealDesc"/>
-    </optional>
-    <optional>
-      <ref name="sga-md_accMat"/>
-    </optional>
   </define>
   <define name="sga-md_model.addressLike">
     <choice>
@@ -3987,12 +3963,7 @@ creation of an electronic text. [2.2.1. ]</a:documentation>
   <define name="sga-md_editionStmt">
     <element name="editionStmt">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text. [2.2.2.  2.2. ]</a:documentation>
-      <group>
-        <ref name="sga-md_edition"/>
-        <zeroOrMore>
-          <ref name="sga-md_respStmt"/>
-        </zeroOrMore>
-      </group>
+      <ref name="sga-md_edition"/>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>
     </element>
@@ -4653,16 +4624,6 @@ codes used elsewhere in the text. [2.3.6.  2.3. ]</a:documentation>
       <empty/>
     </element>
   </define>
-  <define name="sga-md_scriptNote">
-    <element name="scriptNote">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes a particular script distinguished within
-    the description of a manuscript or similar resource. [10.7.2. ]</a:documentation>
-      <ref name="sga-md_macro.specialPara"/>
-      <ref name="sga-md_att.global.attributes"/>
-      <ref name="sga-md_att.handFeatures.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-md_listChange">
     <element name="listChange">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups a number of change descriptions associated 
@@ -4808,21 +4769,12 @@ teiCorpus element. [4.  15.1. ]</a:documentation>
 manuscript or other text-bearing object. [10.1. ]</a:documentation>
       <group>
         <ref name="sga-md_msIdentifier"/>
-        <zeroOrMore>
-          <ref name="sga-md_model.headLike"/>
-        </zeroOrMore>
         <group>
           <optional>
             <ref name="sga-md_msContents"/>
           </optional>
           <ref name="sga-md_physDesc"/>
-          <optional>
-            <ref name="sga-md_history"/>
-          </optional>
           <ref name="sga-md_additional"/>
-          <zeroOrMore>
-            <ref name="sga-md_msPart"/>
-          </zeroOrMore>
         </group>
       </group>
       <ref name="sga-md_att.global.attributes"/>
@@ -5650,189 +5602,11 @@ condition of the manuscript.  [10.7.1.5. ]</a:documentation>
       <empty/>
     </element>
   </define>
-  <define name="sga-md_typeDesc">
-    <element name="typeDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of the typefaces or other aspects of
-  the printing of an incunable or other printed source. [10.7.2.1. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-md_model.pLike"/>
-        </oneOrMore>
-        <group>
-          <optional>
-            <ref name="sga-md_summary"/>
-          </optional>
-          <oneOrMore>
-            <empty/>
-          </oneOrMore>
-        </group>
-      </choice>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_scriptDesc">
-    <element name="scriptDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of the scripts used in a manuscript or similar source. [10.7.2.1. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-md_model.pLike"/>
-        </oneOrMore>
-        <group>
-          <optional>
-            <ref name="sga-md_summary"/>
-          </optional>
-          <oneOrMore>
-            <ref name="sga-md_scriptNote"/>
-          </oneOrMore>
-        </group>
-      </choice>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_musicNotation">
-    <element name="musicNotation">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains description of type of musical notation. [10.7.2. ]</a:documentation>
-      <ref name="sga-md_macro.specialPara"/>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_decoDesc">
-    <element name="decoDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(decoration description) contains a description of the decoration of a manuscript, either as a sequence of paragraphs, or as a sequence of topically organised decoNote elements. [10.7.3. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-md_model.pLike"/>
-        </oneOrMore>
-        <group>
-          <optional>
-            <ref name="sga-md_summary"/>
-          </optional>
-          <oneOrMore>
-            <ref name="sga-md_decoNote"/>
-          </oneOrMore>
-        </group>
-      </choice>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
   <define name="sga-md_decoNote">
     <element name="decoNote">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note on decoration) contains a note describing either a
 decorative component of a manuscript, or a fairly homogenous class of
 such components. [10.7.3. ]</a:documentation>
-      <ref name="sga-md_macro.specialPara"/>
-      <ref name="sga-md_att.global.attributes"/>
-      <ref name="sga-md_att.typed.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_additions">
-    <element name="additions">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of any significant additions found
-within a manuscript, such as marginalia or other annotations.  [10.7.2. ]</a:documentation>
-      <ref name="sga-md_macro.specialPara"/>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_bindingDesc">
-    <element name="bindingDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(binding description) describes the present and former bindings of a manuscript, either
-as a series of paragraphs or as a series of distinct binding elements,
-one for each binding of the manuscript.  [10.7.3.1. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <choice>
-            <ref name="sga-md_model.pLike"/>
-            <ref name="sga-md_decoNote"/>
-            <ref name="sga-md_condition"/>
-          </choice>
-        </oneOrMore>
-        <oneOrMore>
-          <ref name="sga-md_binding"/>
-        </oneOrMore>
-      </choice>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_binding">
-    <element name="binding">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of one binding, i.e. type of covering, boards,
-    etc. applied to a manuscript. [10.7.3.1. ]</a:documentation>
-      <oneOrMore>
-        <choice>
-          <ref name="sga-md_model.pLike"/>
-          <ref name="sga-md_condition"/>
-          <ref name="sga-md_decoNote"/>
-        </choice>
-      </oneOrMore>
-      <ref name="sga-md_att.global.attributes"/>
-      <ref name="sga-md_att.datable.attributes"/>
-      <optional>
-        <attribute name="contemporary">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies whether or not the binding is contemporary with the majority of its
-        contents</a:documentation>
-          <ref name="sga-md_data.xTruthValue"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_sealDesc">
-    <element name="sealDesc">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(seal description) describes the seals or other external items attached to a manuscript, either
-as a series of paragraphs or as a series of distinct seal elements,
-possibly with additional decoNotes.  [10.7.3.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-md_model.pLike"/>
-        </oneOrMore>
-        <oneOrMore>
-          <choice>
-            <ref name="sga-md_decoNote"/>
-            <ref name="sga-md_seal"/>
-            <ref name="sga-md_condition"/>
-          </choice>
-        </oneOrMore>
-      </choice>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_seal">
-    <element name="seal">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of one seal or similar
-  attachment applied to a manuscript. [10.7.3.2. ]</a:documentation>
-      <oneOrMore>
-        <choice>
-          <ref name="sga-md_model.pLike"/>
-          <ref name="sga-md_decoNote"/>
-        </choice>
-      </oneOrMore>
-      <ref name="sga-md_att.global.attributes"/>
-      <ref name="sga-md_att.typed.attributes"/>
-      <ref name="sga-md_att.datable.attributes"/>
-      <optional>
-        <attribute name="contemporary">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies whether or not the seal is contemporary with the
-      item to which it is affixed</a:documentation>
-          <ref name="sga-md_data.xTruthValue"/>
-        </attribute>
-      </optional>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_accMat">
-    <element name="accMat">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(accompanying material) contains details of any significant additional
-material which may be closely associated with the manuscript being
-described, such as non-contemporaneous documents or fragments bound in
-with the manuscript at some earlier historical period. [10.7.3.3. ]</a:documentation>
       <ref name="sga-md_macro.specialPara"/>
       <ref name="sga-md_att.global.attributes"/>
       <ref name="sga-md_att.typed.attributes"/>
@@ -5919,20 +5693,7 @@ it with  curatorial or administrative information.  [10.9. ]</a:documentation>
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(administrative information) contains information about the present
 custody and availability of the manuscript, and also about the record
 description itself.  [10.9.1. ]</a:documentation>
-      <group>
-        <optional>
-          <ref name="sga-md_recordHist"/>
-        </optional>
-        <optional>
-          <ref name="sga-md_availability"/>
-        </optional>
-        <optional>
-          <ref name="sga-md_custodialHist"/>
-        </optional>
-        <optional>
-          <ref name="sga-md_model.noteLike"/>
-        </optional>
-      </group>
+      <ref name="sga-md_recordHist"/>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>
     </element>
@@ -5960,22 +5721,6 @@ revision status of the parent manuscript description itself.  [10.9.1. ]</a:docu
     <element name="source">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the original source for the information contained with a manuscript description.  [10.9.1.1. ]</a:documentation>
       <ref name="sga-md_macro.specialPara"/>
-      <ref name="sga-md_att.global.attributes"/>
-      <empty/>
-    </element>
-  </define>
-  <define name="sga-md_custodialHist">
-    <element name="custodialHist">
-      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(custodial history) contains a description of a manuscript's custodial history, either
-as running prose or as a series of dated custodial events.  [10.9.1.2. ]</a:documentation>
-      <choice>
-        <oneOrMore>
-          <ref name="sga-md_model.pLike"/>
-        </oneOrMore>
-        <oneOrMore>
-          <ref name="sga-md_custEvent"/>
-        </oneOrMore>
-      </choice>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>
     </element>
