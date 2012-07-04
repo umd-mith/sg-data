@@ -59,9 +59,10 @@
           <content>
             <rng:group>
               <rng:ref name="fileDesc"/>
-              <rng:zeroOrMore>
-                <rng:ref name="model.teiHeaderPart"/>
-              </rng:zeroOrMore>
+              <rng:optional>
+                <rng:ref name="encodingDesc"/>
+              </rng:optional>
+              <rng:ref name="profileDesc"/>
               <rng:ref name="revisionDesc"/>
             </rng:group>
           </content>
@@ -74,6 +75,8 @@
             </rng:oneOrMore>
           </content>
         </elementSpec>
+        
+        
       </schemaSpec>
     </body>
   </text>
