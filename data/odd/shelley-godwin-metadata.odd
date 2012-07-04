@@ -69,6 +69,17 @@
           </content>
         </elementSpec>
         
+        <elementSpec ident="profileDesc" module="header" mode="change">
+          <content>
+            <rng:group>
+              <rng:optional>
+                <rng:ref name="creation"/>
+                <rng:ref name="handNotes"/>
+              </rng:optional>
+            </rng:group>
+          </content>
+        </elementSpec>
+        
         <elementSpec ident="sourceDesc" module="header" mode="change">
           <content>
             <rng:oneOrMore>
