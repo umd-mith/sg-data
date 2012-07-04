@@ -90,12 +90,7 @@
         
         <elementSpec ident="editionStmt" module="header" mode="change">
           <content>
-              <rng:group>
                 <rng:ref name="edition"/>
-                <rng:zeroOrMore>
-                  <rng:ref name="respStmt"/>
-                </rng:zeroOrMore>
-              </rng:group>
           </content>
         </elementSpec>
         
