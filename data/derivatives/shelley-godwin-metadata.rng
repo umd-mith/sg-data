@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-07-04T19:34:11Z. 
+Schema generated from ODD source 2012-07-04T19:47:35Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -3917,9 +3917,9 @@ Sample values include: 1] text; 2] corpus</a:documentation>
         <oneOrMore>
           <ref name="sga-md_title"/>
         </oneOrMore>
-        <zeroOrMore>
+        <oneOrMore>
           <ref name="sga-md_model.respLike"/>
-        </zeroOrMore>
+        </oneOrMore>
       </group>
       <ref name="sga-md_att.global.attributes"/>
       <empty/>
