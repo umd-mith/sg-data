@@ -70,7 +70,7 @@
         <elementSpec ident="sourceDesc" module="header" mode="change">
           <content>
             <rng:oneOrMore>
-                <rng:ref name="model.biblLike"/> 
+                <rng:ref name="msDesc"/> 
             </rng:oneOrMore>
           </content>
         </elementSpec>
