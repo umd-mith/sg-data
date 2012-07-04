@@ -7,7 +7,7 @@ namespace svg = "http://www.w3.org/2000/svg"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-07-04T17:18:17Z. 
+# Schema generated from ODD source 2012-07-04T18:19:34Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -376,6 +376,8 @@ sga-md_att.editLike.attribute.instant =
   [ a:defaultValue = "false" ]
   attribute instant { sga-md_data.xTruthValue }?
 sga-md_att.global.attributes =
+  sga-md_att.global.facs.attributes,
+  sga-md_att.global.change.attributes,
   sga-md_att.global.attribute.xmlid,
   sga-md_att.global.attribute.n,
   sga-md_att.global.attribute.xmllang,
@@ -1379,7 +1381,6 @@ sga-md_model.limitedPhrase =
   | sga-md_model.pPart.data
 sga-md_model.divLike = sga-md_div
 sga-md_model.divGenLike = sga-md_divGen
-sga-md_model.teiHeaderPart = sga-md_encodingDesc | sga-md_profileDesc
 sga-md_model.encodingDescPart =
   sga-md_projectDesc
   | sga-md_editorialDecl
@@ -1392,7 +1393,6 @@ sga-md_model.editorialDeclPart =
   | sga-md_hyphenation
   | sga-md_segmentation
   | sga-md_interpretation
-sga-md_model.profileDescPart = sga-md_creation
 sga-md_model.resourceLike = notAllowed
 sga-md_p =
   
@@ -2223,7 +2223,10 @@ sga-md_teiHeader =
   ## (TEI Header) supplies the descriptive and declarative information making up an electronic title page
   ##     prefixed to every TEI-conformant text. [2.1.1.  15.1. ]
   element teiHeader {
-    (sga-md_fileDesc, sga-md_model.teiHeaderPart*, sga-md_revisionDesc),
+    (sga-md_fileDesc,
+     sga-md_encodingDesc?,
+     sga-md_profileDesc,
+     sga-md_revisionDesc),
     
     ## specifies the kind of document to which the header is attached, for example whether it
     ##         is a corpus or individual text.
@@ -2721,7 +2724,9 @@ sga-md_profileDesc =
   ##     languages and sublanguages used, the situation in which it was produced, the participants and
   ##     their setting. [2.4.  2.1.1. ]
   element profileDesc {
-    sga-md_model.profileDescPart*, sga-md_att.global.attributes, empty
+    (sga-md_creation, sga-md_handNotes)?,
+    sga-md_att.global.attributes,
+    empty
   }
 sga-md_handNote =
   
@@ -3720,5 +3725,30 @@ sga-md_msPart =
          sga-md_msPart*))),
     sga-md_att.global.attributes,
     empty
+  }
+sga-md_att.global.facs.attributes =
+  sga-md_att.global.facs.attribute.facs
+sga-md_att.global.facs.attribute.facs =
+  
+  ## (facsimile) points to all or part of an image which corresponds with the content of the element.
+  attribute facs {
+    list { sga-md_data.pointer, sga-md_data.pointer* }
+  }?
+sga-md_att.global.change.attributes =
+  sga-md_att.global.change.attribute.change
+sga-md_att.global.change.attribute.change =
+  
+  ## points to one or more change elements documenting
+  ##       a state or revision campaign to which the element bearing this
+  ##       attribute and its children have been assigned by the encoder.
+  attribute change {
+    list { sga-md_data.pointer, sga-md_data.pointer* }
+  }?
+sga-md_handNotes =
+  
+  ## contains one or more handNote elements documenting the
+  ## different hands identified within the source texts. [11.3.2.1. ]
+  element handNotes {
+    sga-md_handNote+, sga-md_att.global.attributes, empty
   }
 start = sga-md_TEI
