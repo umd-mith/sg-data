@@ -70,7 +70,7 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="fileSpec" module="header" mode="change">
+        <elementSpec ident="fileDesc" module="header" mode="change">
           <content>
             <rng:group>
               <rng:group>
