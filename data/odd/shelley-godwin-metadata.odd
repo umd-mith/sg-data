@@ -106,6 +106,14 @@
           </content>
         </elementSpec>
         
+        <elementSpec ident="revisionDesc" module="header" mode="change">
+          <content>
+            <rng:oneOrMore>
+              <rng:ref name="change"/>
+            </rng:oneOrMore>
+          </content>
+        </elementSpec>
+        
         <elementSpec ident="titleStmt" module="header" mode="change">
           <content>
             <rng:group>
