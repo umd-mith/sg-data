@@ -193,6 +193,13 @@
           </content>
         </elementSpec>
         
+        <elementSpec ident="surrogates" module="msdescription" mode="change">
+          <content>
+            <rng:zeroOrMore>
+              <rng:ref name="bibl"/>
+            </rng:zeroOrMore>
+          </content>
+        </elementSpec>
       </schemaSpec>
     </body>
   </text>

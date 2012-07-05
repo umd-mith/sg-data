@@ -50,7 +50,9 @@
                                 <p/>
                             </recordHist>
                         </adminInfo>
-                        <surrogates></surrogates>
+                        <surrogates>
+                            <bibl/>
+                        </surrogates>
                     </additional>
                 </msDesc>
             </sourceDesc>
