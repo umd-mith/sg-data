@@ -56,7 +56,7 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <creation><</creation>
+            <creation></creation>
             <handNotes>
                 <handNote></handNote>
             </handNotes>
@@ -65,5 +65,7 @@
             <change/>
         </revisionDesc>
     </teiHeader>
-    <text></text>
+    <text>
+        <!-- Intentionally left blank -->
+    </text>
 </TEI>
