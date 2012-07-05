@@ -162,6 +162,14 @@
           </content>
         </elementSpec>
         
+        <elementSpec ident="handDesc" module="msdescription" mode="change">
+          <content>
+            <rng:oneOrMore>
+              <rng:ref name="model.pLike"/>
+            </rng:oneOrMore>
+          </content>
+        </elementSpec>
+        
         <elementSpec ident="additional" module="msdescription" mode="change">
           <content>
             <rng:group>
