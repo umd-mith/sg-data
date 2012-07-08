@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0038" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0038" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0038.tif"/>
+<<<<<<< HEAD
 <zone type="pagination" rend="bordered">63</zone>
 <zone type="main">
   <line>effect <del rend="overstrike">that</del> <add place="superlinear">of</add> these books <del rend="overstrike">had upon me</del>. They pro</line>
@@ -53,3 +56,113 @@
   <line>at the same time <metamark>&#x2038;</metamark><anchor xml:id="c57-0038.04"/></line>
 </zone>
 </surface>
+=======
+  <zone type="pagination" rend="bordered">63</zone>
+  <zone type="main">
+    <line>effect <del rend="strikethrough">that</del>
+      <add place="superlinear" resp="#pbs">of</add> these books <mod>
+        <del rend="strikethrough">had upon me</del>
+        <add place="superlinear"><unclear reason="illegible" precision="low"
+          >produced</unclear></add>
+      </mod>. They pro</line>
+    <line>duced in me an infinity of new images &amp; ideas</line>
+    <line>that sometimes raised me to extacy but <mod>
+        <del rend="strikethrough">oftenor</del>
+        <add place="superlinear">more</add>
+      </mod></line>
+    <line><add><ptr target="#c57-0038.01"/></add> sunk me to the lowest dejection. In the</line>
+    <line>Sorrows of Werter besides the interrest of its</line>
+    <line>simple and affecting story so many opinions are</line>
+    <line>canvassed and so many lights thrown upon <add place="superlinear">what</add></line>
+    <line><add><ptr target="#c57-0038.02"/></add> to me <mod>
+        <del rend="strikethrough">hitherto</del>
+        <del rend="strikethrough">dark</del>
+        <add place="superlinear" resp="#pbs">obsure</add>
+      </mod> subects that I found <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">in</add>
+      </mod> it</line>
+    <line>a never end source of speculation <add resp="#pbs" place="superlinear">&amp;
+        astonishment</add>. The</line>
+    <line>gentle and domestic manners it described com</line>
+    <line>bined with lofty sentiments, and feelings <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">which had for their object</add>
+        <add place="sublinear">something out of self</add>
+      </mod> accor</line>
+    <line>ded well with my experience among my pro</line>
+    <line>tectors <mod type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">and with the wants which were for ever alive within my own
+          bosom</add>
+      </mod>. But I thought Werter himself a more</line>
+    <line>divine being than I had ever beheld <mod type="additions" resp="#pbs">
+        <del rend="overwritten"><unclear precision="low" reason="illegible">.</unclear></del>
+        <add place="intralinear">&#x2038;</add>
+        <add place="superlinear">or imagined.</add>
+      </mod> His cha</line>
+    <line>racter contained no pretention but it sunk</line>
+    <line>deep — <del rend="strikethrough">for he thought</del> The disquisitions upon death</line>
+    <line>and suicide <del rend="strikethrough">gave</del> were calculated to fill me </line>
+    <line>with <mod>
+        <del rend="strikethrough">astonishment</del>
+        <add resp="#pbs" place="superlinear"><del rend="smear"><unclear precision="low"
+              reason="illegible">&amp;</unclear></del> wonder</add>
+      </mod> — I did not pretend to</line>
+    <line>enter into the merits of the case yet I</line>
+    <line>inclined towards the opinion of the Hero</line>
+    <line>whose extinction I wept <mod xml:id="c57-0038.03" next="#c57-0038.04">
+        <del rend="strikethrough">although I did</del>
+        <add place="superlinear" resp="#pbs">without</add>
+      </mod></line>
+    <line><mod prev="#c57-0038.03" xml:id="c57-0038.04">
+        <del rend="strikethrough">not</del>
+        <add><ptr target="#c57-0038.05"/></add>
+      </mod> understand<add place="intralinear" resp="#pbs">ing</add> it. As I read however I</line>
+    <line>applied much <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">personally</add>
+      </mod> to my<mod>
+        <del rend="strikethrough">self</del>
+        <del rend="strikethrough">and</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">own feelings &amp; condition</add>
+      </mod> I found my</line>
+    <line>self <del rend="strikethrough">at the same time</del> similar yet</line>
+    <line><add><ptr target="#c57-0038.06"/></add> strangely unlike the beings concerning whom</line>
+    <line>I read and <mod>
+        <del rend="strikethrough">who were my</del>
+        <del rend="double-strike">to</del>
+        <add place="superlinear">to <del rend="double-strike">of</del></add>
+      </mod> whose conver</line>
+    <line>sation I was a listener — I sympathized</line>
+    <line><del rend="strikethrough">I pa</del> with &amp; partly understood them — but</line>
+    <line>I was unformed in mind. I was dependant</line>
+    <line>on none, &amp; related to none — "The path of my</line>
+    <line>departure was free"<unclear reason="illegible" precision="low">!</unclear> and there was
+      none</line>
+    <line>to lament <mod>
+        <del rend="strikethrough">my extinction</del>
+        <add place="superlinear">my annihilation</add>
+      </mod> — My person</line>
+    <line>was hideous and my stature gigantic — what</line>
+    <line>did this mean? Who was I? What was I?</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0038.01">frequently</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0038.02">had <mod type="additions">
+          <add place="sublinear">&#x2038;</add>
+          <add place="superlinear">hitherto</add>
+        </mod> been</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add resp="#pbs" xml:id="c57-0038.05">precisely</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0038.06">at the same <add place="sublinear">&#x2038;</add><add
+          place="superlinear">time</add></add></line>
+  </zone>
+</surface>
+>>>>>>> First pass review and correction c57-0038
