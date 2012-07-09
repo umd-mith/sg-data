@@ -1,45 +1,80 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0045" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0045" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0045.tif"/>
-  <zone type="top"> 
-  <line>Chap. 7th</line>  
-  </zone> 
-  <zone type="pagination"> 
-  <line>70</line>
-  </zone>  
+  <zone type="pagination">
+    <line>70</line>
+  </zone>
+  <zone type="library">
+    <line>23</line>
+  </zone>
+  <zone type="top">
+    <line>Chap. 7th</line>
+  </zone>
   <zone type="main">
-<line>The <del rend="overstrike">season</del><add place="superlinear">winter</add> advanced and <del rend="overstrike">it was now about a</del><add place="superlinear">and an entire revolution of the</add></line> 
-<line><del rend="overstrike">year</del><add place="superlinear"><metamark>&#x2038;</metamark>seasons had taken place</add>since I awoke into life. &#x2014; <del rend="overstrike">and I then</del><del rend="overstrike">at</del></line> 
-<line><del rend="overstrike">that</del><del rend="overstrike">time</del>My attention <add place="superlinear">at this time</add> was <del rend="overstrike"> now</del> solely </line>
-<line>directed towards my plan of introducing</line> 
-<line>myself into the cottage of my protectors. I revol</line> 
-<line>ved many projects but that on which I</line> 
-<line>finally fixed was to enter their dwelling when</line> 
-<line>the blind old man <mod hand="#pbs"> <del rend="overstrike"/>was <add place="superlinear">should be</add> </mod> alone.<del rend="overstrike"> My voice</del></line> 
-<line> <del rend="overstrike">although harsh had nothing terrible in</del></line> 
-<line> <del rend="overstrike">it.</del><del rend="overstrike">and</del>I had sagacity enough to discover</line> 
-<line>that the unnatural hideousness of my person</line> 
-<line>was the chief object of horror <del rend="overstrike">am</del>with those</line> 
-<line>who had formerly beheld me: &#x2014; my voice al</line> 
-<line>though harsh, had nothing terrible in</line> 
-<line>it.  I thought therefore that if in the absence</line> 
-<line>of his children I could gain the goodwill</line> 
-<line>of the old De Lacey I might by his means be</line> 
- <line>tolerated by <del rend="overstrike">the</del>my younger protectors.<milestone unit="paragraph"/></line> 
-<line> <del rend="overstrike">One clear</del>One day when the sun</line> 
-<line>shone on the red leaves that strewed</line> 
-<line>the ground, and <del rend="overstrike">all</del>diffused cheerfulness</line> 
-<line>although it denied warmth <mod><del rend="overstrike">Maimouna</del><add place="superlinear">Safie</add></mod></line> 
-<line>Agatha and Felix set out on a long country</line> 
-<line>walk and the old man at his own desire</line> 
-<line>was left alone in the cottage.  When his chil</line>  
-<line>dren had departed he took up his guitar &amp; </line> 
-<line>played <del rend="overstrike">ver</del>several mournful but sweet</line> 
-<line>airs: <mod hand="#pbs"> <del rend="overstrike">that I had seldom</del><add place="superlinear"><metamark>&#x2038;</metamark>more sweet &amp; mournful that I had ever</add></mod>heard him play</line> 
-<line>before.  At first his countenance was illumi</line> 
-<line>nated with pleasure but as he continued thought</line> 
-<line>fullness and sadness succeeded and laying down</line> 
-</zone> 
+    <line>The <mod>
+        <del rend="strikethrough">season</del>
+        <add place="superlinear">winter</add>
+      </mod> advanced and <add place="superlinear">and an entire revolution of the</add><delSpan
+        spanTo="#c57-0045.01" rend="strikethrough"/>it was now about a</line>
+    <line>year<anchor xml:id="c57-0045.01"/> <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">seasons had taken place</add>
+      </mod> since I awoke into life. &#x2014; <del rend="strikethrough">and I then</del>
+      <delSpan spanTo="#c57-0045.02"/>at</line>
+    <line>that<anchor xml:id="c57-0045.02"/>
+      <del rend="strikethrough">time</del> My attention <add place="superlinear">at this time</add>
+      was <del rend="strikethrough">now</del> solely</line>
+    <line>directed towards my plan of introducing</line>
+    <line>myself into the cottage of my protectors. I revol</line>
+    <line>ved many projects but that on which I</line>
+    <line>finally fixed was to enter their dwelling when</line>
+    <line>the blind old man <mod>
+        <del rend="strikethrough">was</del>
+        <add place="superlinear" resp="#pbs">should be</add>
+      </mod> alone. <delSpan spanTo="#c57-0045.03" rend="strikethrough"/>My voice</line>
+    <line> although harsh had nothin<mod>
+        <del rend="overwritten">k</del>
+        <add place="intralinear">g</add>
+      </mod> terrible in</line>
+    <line> it.<anchor xml:id="c57-0045.03"/>
+      <del rend="strikethrough">and</del> I had sagacity enough to discover</line>
+    <line>that the unnatural hideousness of my person</line>
+    <line>was the chief object of horror <del rend="double-strike">am</del> with those</line>
+    <line>who had formerly beheld me: &#x2014; my voice al</line>
+    <line>though harsh, had nothing terrible in</line>
+    <line>it. I thought therefore that if in the absence</line>
+    <line>of his children I could gain the goodwill</line>
+    <line>of the old De Lacey I might by his means be</line>
+    <line>tolerated by <del rend="scribble">the</del> my younger protectors.</line>
+    <milestone unit="tei:p"/>
+    <line><del rend="strikethrough">One clear</del> One day when the sun</line>
+    <line>shone on the red leaves that strewed</line>
+    <line>the ground, and <del rend="strikethrough">all</del> diffused cheerfulness</line>
+    <line>although it denied warmth <mod>
+        <del rend="strikethrough">Maimouna</del>
+        <add place="superlinear">Safie</add>
+      </mod></line>
+    <line>Agatha and Felix set out on a long country</line>
+    <line>walk and the old man at his own desire</line>
+    <line>was left alone in the cottage. When his chil</line>
+    <line>dren had departed he took up his guitar &amp;</line>
+    <line>played <del rend="strikethrough">ver</del> several mournful but sweet</line>
+    <line>airs<unclear unit="chars" extent="1" precision="medium">:</unclear>
+      <mod>
+        <mod>
+          <del rend="strikethrough">that I had seldom</del>
+          <mod type="additions" resp="#pbs">
+            <add place="sublinear">&#x2038;</add>
+            <add place="superlinear">more sweet &amp; mournful that I had ever</add>
+          </mod>
+        </mod>
+      </mod>heard him play</line>
+    <line>before. At first his countenance was illumi</line>
+    <line>nated with pleasure but as he continued thought</line>
+    <line>fullness and sadness succeeded and laying down</line>
+  </zone>
 </surface>
