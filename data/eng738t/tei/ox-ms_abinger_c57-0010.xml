@@ -1,38 +1,51 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0010" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0010" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0010.tif"/>
   <zone type="pagination" rend="bordered">9</zone>
   <zone type="top">
     <line>Chap. 2</line>
   </zone>
   <zone type="main">
-    <line>As soon as morning dawned I crept from</line>
+    <milestone unit="tei:p"/><line>As soon as morning dawned I crept from</line>
     <line>my assylum <del rend="strikethrough">to</del> that I might view the</line>
     <line>adjacent cottage and discover if I could</line>
-    <line>remain in the kennel that I had found.</line>	
-    <line>It was situated <add place="sublinear"><metamark>&#x2038;</metamark></add> <add place="superlinear">against</add> <del rend="strikethrough">at</del> the back of the cottage</line>
-    <line>and <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">surrounded</add> on <del rend="strikethrough">its</del> <add place="sublinear"><metamark>&#x2038;</metamark></add>the <del rend="strikethrough">open</del> <add place="superlinear"><mod hand="#pbs">the</mod></add>sides which were exposed</line>       
-    <line>by a pigstye &amp; &#x2013;clear pool of water one</line>	
-    <line>part was open  and by that I had crept</line>
+    <line>remain in the kennel that I had found.</line>
+    <line>It was situated <del rend="strikethrough">at</del>
+      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear">against</add> the back of the cottage</line>
+    <line>and <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
+        >surrounded</add> on <del rend="strikethrough">its</del>
+      <add place="sublinear"><metamark>&#x2038;</metamark></add>the <del rend="strikethrough"
+        >open</del>
+      <add place="superlinear" hand="#pbs">the</add>sides which were exposed</line>
+    <line>by a pigstye &amp; &#x2013;clear pool of water one</line>
+    <line>part was open and by that I had crept</line>
     <line>in but now <del rend="strikethrough">with stones and wood</del> I cover</line>
     <line>ed every crevice by which I might be</line>
-    <line>discovered <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">with stones &amp; wood</add> yet in such a manner</line>	
+    <line>discovered <add place="sublinear"><metamark>&#x2038;</metamark></add><add
+        place="superlinear">with stones &amp; wood</add> yet in such a manner</line>
     <line>that I could move them on an occasion</line>
     <line>to pass out; all the light I enjoyed came</line>
     <line>through the stye and that was suffi</line>
-    <line>cient for me.<milestone unit="paragraph"/></line>
-    <line>Having thus arranged my dwelling &amp;</line>	
+    <line>cient for me.</line>
+    <milestone unit="tei:p"/><line>Having thus arranged my dwelling &amp;</line>
     <line><del rend="strikethrough">spr</del> carpeted it with clean straw, I retired</line>
-    <line>for I saw the figure of a man <del rend="strikethrough">in</del><add place="superlinear">at</add> a distance</line>
-    <line>and <del rend="smear">feared</del> I <del rend="strikethrough">feared</del> remembered <del rend="strikethrough">but</del></line>
+    <line>for I saw the figure of a man <del rend="strikethrough">in</del><add place="superlinear"
+        >at</add> a distance</line>
+    <line>and <del rend="smear">feared</del> I <del rend="strikethrough">feared</del> remembered
+        <del rend="strikethrough">but</del></line>
     <line>too well my treatment the night</line>
     <line>before <del rend="strikethrough">not</del> to trust myself in his</line>
     <line>power. I had first however provided</line>
     <line>for my sustenance for that day <del rend="strikethrough">by mean</del></line>
     <line>by a loaf of <del rend="strikethrough">bro</del> coarse bread which I pur</line>
-    <line>loined and a cup <del rend="strikethrough">w</del> <add place="superlinear">with</add> <del rend="strikethrough">by</del> which I could <del rend="strikethrough">take</del></line>
+    <line>loined and a cup <del rend="strikethrough">w</del>
+      <add place="superlinear">with</add>
+      <del rend="strikethrough">by</del> which I could <del rend="strikethrough">take</del></line>
     <line>drink more conveniently than from my</line>
-    </zone>
+  </zone>
 </surface>
