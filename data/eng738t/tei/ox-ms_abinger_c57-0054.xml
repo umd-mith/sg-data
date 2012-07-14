@@ -49,6 +49,6 @@
     <line>"<add place="superlinear">unfair</add> advantage</line>
   </zone>
   <zone type="left_margin"><add xml:id="c57-0054.01"><figure>
-        <desc>Large Z</desc>
+        <desc>Large Z</desc><!--dummy comment-->
       </figure></add></zone>
 </surface>
