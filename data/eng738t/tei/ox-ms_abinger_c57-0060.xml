@@ -1,45 +1,70 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0060" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0060" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0060.tif"/>
-  <zone type="pagination" rend="bordered">85</zone>
-    <zone type="main">
-      <line><delSpan spanTo="c57-0060.01" rend="strikethrough"/>As I continued my way in this mood I</line>
-      <line>heard a voices which forced me to conceal my</line>
-      <line>self. This I did in a small cave surrounded by</line>
-      <line>wood at the foot of which was a <unclear reason="deletion"><del rend="strikethrough">la</del></unclear><metamark>&#x2038;</metamark><add place="superlinear">deep &amp; impetuous</add> river &#x2014; I</line>
-      <line>presently discovered that the voices proceeded</line>
-      <line>from people who were on the rock which</line>
-      <line>formed the roof of the cavern &#x2014; They spoke a</line>
-      <line>language unknown to me &#x2014; when suddenly</line>
-      <line>I heard a noise and saw a <del rend="strikethrough">woma</del> young girl</line>
-      <line>fall from the precipiece into the river a</line>
-      <line><del rend="strikethrough">and aloud</del> loud scream followed &amp; all was quiet&#x2014;</line>
-      <line>I rushed from my hiding place &amp; dashing into</line>
-      <line>the river rescued the girl &amp; bore her to the</line>
-      <line>shore. She was senseless &amp; I endeavoured to</line>
-      <line>restore her to life when a man came sudden</line>
-      <line>ly from the woods and appeared aghas<milestone unit="paragraph"/><anchor xml:id="c57-0060.01"/></line>
-      <line>I continued to wind among the paths of the</line>
-      <line>wood untill I came to its <del rend="strikethrough">skirts</del> boundary which</line>
-      <line>was skirted a deep &amp; rapid river &#x2014; into which</line>
-      <line>many of the trees bent their branches now budding</line>
-      <line>with the fresh spring.&#x2014; Here I paused, not exact</line>
-      <line>ly knowing what course to pursue when I heard</line>
-      <line>voices that induced me to conceal myself under</line>
-      <line>the shade of cypress. <del rend="strikethrough">A rustic approached armed</del></line>
-      <line><del rend="strikethrough">with a gun and leading a young girl of about twelve</del></line>
-      <line><del rend="strikethrough">years of age When they came near me they turne</del></line>
-      <line>I was scarcely hid when a young girl came run</line>
-      <line>ning towards the <del rend="strikethrough">river</del><add place="superlinear">spot where I was concealed</add> &#x2014; laughing as if she had ran</line>
-      <line>from some one in sport &#x2014; She continued her</line>
-      <line>course along the precipitate sides of the river</line>
-      <line>when suddenly her foot slipt, &amp; she fell into</line>
-      <line>the rapid <del rend="strikethrough">current</del><add place="superlinear">stream</add>. I rushed from my hiding</line>
-      <line>place and with extreme labour from the</line>
-      <line>force of the current saved her, &amp; dragged her</line>
-      <line>to shore &#x2014; She was <del rend="strikethrough">sensell</del> senseless and <metamark>&#x2038;</metamark><add place="superlinear">I</add> endeavo</line>
-      <line>ured by every means in my power to restore</line>
-    </zone>
+  <zone type="pagination" rend="bordered">
+    <line>85</line>
+  </zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <delSpan spanTo="#c57-0060.01" rend="three vertical strikes"/>
+    <line>As I continued my way in this mood I</line>
+    <line>heard a voices which forced me to conceal my</line>
+    <line>self. This I did in a small cave surrounded by</line>
+    <line>wood at the foot of which was a <mod>
+        <del rend="strikethrough"><unclear reason="deletion" precision="low">la</unclear></del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">deep &amp; impetuous</add>
+      </mod> river &#x2014; I</line>
+    <line>presently discovered that the voices proceeded</line>
+    <line>from people who were on the rock which</line>
+    <line>formed the roof of the cavern &#x2014; They spoke a</line>
+    <line>language unknown to me &#x2014; when suddenly</line>
+    <line>I heard a noise and saw a <del rend="strikethrough">woma</del> young girl</line>
+    <line>fall from the precipiece into the river a</line>
+    <line><del rend="scribble">and aloud</del> loud scream followed &amp; all was
+      quiet&#x2014;</line>
+    <line>I rushed from my hiding place &amp; dashing into</line>
+    <line>the river rescued the girl &amp; bore her to the</line>
+    <line>shore. She was senseless &amp; I endeavoured to</line>
+    <line>restore her to life when a man came sudden</line>
+    <line>ly from the woods and appeared aghas</line>
+    <anchor xml:id="c57-0060.01"/>
+    <milestone unit="tei:p"/>
+    <line>I continued to wind among the paths of the</line>
+    <line>wood untill I came to its <del rend="strikethrough">skirts</del> boundary which</line>
+    <line>was skirted a deep &amp; rapid river &#x2014; into which</line>
+    <line>many of the trees bent their branches now budding</line>
+    <line>with the fresh spring.&#x2014; Here I paused, not exact</line>
+    <line>ly knowing what course to pursue when I heard</line>
+    <line>voices that induced me to conceal myself under</line>
+    <line>the shade of cypress. <delSpan spanTo="#c57-0060.02" rend="strikethrough"/>A rustic
+      approached armed</line>
+    <line>with a gun and leading a young girl of about twelve</line>
+    <line>years of age When they came near me they turne</line>
+    <anchor xml:id="c57-0060"/>
+    <line>I was scarcely hid when a young girl came run</line>
+    <line>ning towards the <mod>
+        <del rend="strikethrough">river</del>
+        <add place="superlinear">spot where I was concealed</add>
+      </mod> &#x2014; laughing as if she had ran</line>
+    <line>from some one in sport &#x2014; She continued her</line>
+    <line>course along the precipitate sides of the river</line>
+    <line>when suddenly her foot slipt, &amp; she fell into</line>
+    <line>the rapid <mod>
+        <del rend="strikethrough">current</del>
+        <add place="superlinear">stream</add>
+      </mod>. I rushed from my hiding</line>
+    <line>place and with extreme labour from the</line>
+    <line>force of the current saved her, &amp; dragged her</line>
+    <line>to shore &#x2014; She was <del rend="strikethrough">sensell</del> senseless and <mod
+        type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">I</add>
+      </mod> endeavo</line>
+    <line>ured by every means in my power to restore</line>
+  </zone>
 </surface>
