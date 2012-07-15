@@ -1,52 +1,87 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0061" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0061" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0061.tif"/>
-    <zone type="pagination" rend="bordered">86</zone>
+  <zone type="pagination" rend="bordered">
+    <line>86</line>
+  </zone>
+  <zone type="library" rend="bordered">
+    <line>31</line>
+  </zone>
   <zone type="main">
-    <line><add><ptr target="c57-0061.01"/></add><del rend="strikethrough">her</del> when I was suddenly interrupted by</line>
+    <line><mod>
+        <add><ptr target="#c57-0061.01"/></add>
+        <del rend="strikethrough">her</del>
+      </mod> when I was suddenly interrupted by</line>
     <line>the approach of a rustic who was probably</line>
     <line><del rend="strikethrough">her</del> the person from whom she had</line>
     <line>playfully fled &#x2014; On seeing me he darted</line>
-    <line>towards me and <metamark>&#x2038;</metamark><add place="superlinear">tearing</add><del rend="strikethrough">tore</del> the girl from</line>
+    <line>towards me and <mod>
+        <del rend="strikethrough">tore</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">tearing</add>
+      </mod> the girl from</line>
     <line>my arms hastened towards the deeper</line>
-    <line>parts of the forest &#x2014; <del rend="strikethrough">I know not by</del></line>
-    <line><del rend="strikethrough">what</del> I followed speedily I hardly knew</line>
+    <line>parts of the forest &#x2014; <delSpan spanTo="#c57-0061.02" rend="strikethrough"/>I know
+      not by</line>
+    <line>what<anchor xml:id="c57-0061.02"/> I followed speedily I hardly knew</line>
     <line>why but when the man saw me</line>
     <line>draw near he aimed a gun which</line>
     <line>he carried, at my body &amp; fired. I</line>
     <line>sunk to the ground &amp; with encreased</line>
-    <line>swiftness He escaped into the wood.<milestone unit="paragraph"/></line>
+    <line>swiftness He escaped into the wood.</line>
+    <milestone unit="tei:p"/>
     <line>This then was the reward of my</line>
-    <line>benevolence I <del rend="strikethrough">writhed under the</del></line>
-    <line><del rend="strikethrough">wound. w</del> had saved a human</line>
+    <line>benevolence I <delSpan spanTo="#c57-0061.03" rend="strikethrough"/>writhed under
+      the</line>
+    <line>wound.<anchor xml:id="c57-0061.03"/>
+      <del rend="triple-strike">w</del> had saved a human</line>
     <line>being from destruction and as a</line>
     <line>recompence I now writhed <del rend="strikethrough">un</del> under</line>
-    <line><add><ptr target="c57-0061.02"/></add>the miserable pain of <add place="superlinear" hand="#pbs">a multitude of</add><del rend="strikethrough">my wound</del></line>
-    <line><add><ptr target="c57-0061.03"/></add><del rend="strikethrough">The ball had grazed my neck</del> &amp; <del rend="strikethrough">the</del></line>
-    <line><add><ptr target="c57-0061.04"/></add><del rend="strikethrough">other entered my shoulder.</del> The feelings</line>
-    <line>of kindness and <add place="superlinear">gentleness</add><del rend="strikethrough">softness</del> which I had</line>
+    <line>the miserable pain of <mod type="additions" resp="#pbs">
+        <add place="superlinear">a <del rend="strikethrough">multitude</del> of</add>
+        <add><ptr target="c57-0061.04"/></add>
+      </mod><delSpan spanTo="#c57-0061.05"/>my wound</line>
+    <line><add><ptr target="c57-0061.06"/></add> The ball<del rend="strikethrough"><add
+          place="superlinear" resp="#pbs">wounds</add></del> had grazed my neck &amp; the</line>
+    <line>another entered my shoulder.<anchor xml:id="c57-0061.05"/> The feelings</line>
+    <line>of kindness and <mod>
+        <add place="superlinear">gentleness</add>
+        <del rend="strikethrough">softness</del>
+      </mod> which I had</line>
     <line>entertained but a few moments before</line>
     <line>gave place to hellish rage &amp; gnashing</line>
     <line>of teeth &#x2014; inflamed by pain I vowed</line>
     <line>eternal hatred &amp; vengeance to all</line>
-    <line>mankind &#x2014; But <del rend="strikethrough">pain</del><metamark>&#x2038;</metamark><add place="superlinear">the agony of my wound</add> overcame me</line>
-    <line><del rend="strikethrough">sens</del> my pulses paused and I fainted.<milestone unit="paragraph"/></line>
+    <line>mankind &#x2014; But <mod>
+        <del rend="strikethrough">pain</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">the agony of my wound</add>
+      </mod> overcame me</line>
+    <line><del rend="strikethrough">sens</del> my pulses paused and I fainted.</line>
+    <milestone unit="tei:p"/>
     <line>For some weeks I led a miserable</line>
     <line>life in these woods endeavouring to</line>
     <line>cure the wound <add place="superlinear" hand="#pbs">which</add> I had received. The</line>
-    <line><add><ptr target="c57-0061.05"/></add>had entered my shoulder and I knew</line>
+    <line><add><ptr target="c57-0061.07"/></add> had entered my shoulder and I knew</line>
     <line>not whether it had remained there</line>
     <line>or passed through&#x2014;at any rate I had</line>
-    </zone>
-  <zone type="left_margin"><line>animation<anchor xml:id="c57-0061.01"/></line></zone>
-  <zone type="left_margin">
-    <line><mod hand="#pbs">A wound which</mod></line>
-    <line><mod hand="#pbs">shattered the</mod></line>
-    <line><mod hand="#pbs">flesh &amp; bone</mod><anchor xml:id="c57-0061.02"/></line>
   </zone>
-  <zone type="left_margin"><line><del rend="strikethrough">One</del><anchor xml:id="c57-0061.03"/></line></zone>
-  <zone type="left_margin"><line><del rend="strikethrough">an</del><anchor xml:id="c57-0061.04"/></line></zone>
-  <zone type="left_margin"><line>ball<anchor xml:id="c57-0061.05"/></line></zone>
+  <zone type="left_margin"><line><add>animation</add></line></zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c57-0061.04" spanTo="#c57-0061.08"/>
+    <line>A wound which</line>
+    <line>shattered the</line>
+    <line>flesh &amp; bone</line>
+    <anchor xml:id="c57-0061.08"/>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0061.06">One</add></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0061.07">ball</add></line>
+  </zone>
 </surface>
