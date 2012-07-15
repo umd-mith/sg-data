@@ -73,7 +73,8 @@
       </mod></line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c57-0059.01" spanTo="#c57-0002.06"/><line><metamark>X</metamark></line>
+    <addSpan xml:id="c57-0059.01" spanTo="#c57-0002.06"/>
+    <line><metamark>X</metamark></line>
     <line>The agony of</line>
     <line>my grief</line>
     <line>allowed me no</line>
