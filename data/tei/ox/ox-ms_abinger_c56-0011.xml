@@ -12,16 +12,16 @@
     <line>it always through <mod>
         <add place="superlinear">her</add>
         <del rend="strikethrough">the</del>
-      </mod> intercession <add hand="#pbs"><ptr target="#c56-0011.11"/></add><delSpan
-        rend="strikethrough" spanTo="#c56-0011.01"/>of</line>
+      </mod> intercession <add><ptr target="#c56-0011.11"/></add><delSpan rend="strikethrough"
+        spanTo="#c56-0011.01"/>of</line>
     <line>Elizabeth<anchor xml:id="c56-0011.01"/><del rend="strikethrough"> For me I loved he</del>
       <delSpan rend="strikethrough" spanTo="#c56-0011.02"/>We agreed</line>
     <line>perfectly although there were many<anchor xml:id="c56-0011.02"/>
-      <add hand="#pbs"><ptr target="#c56-0011.03"/></add></line>
+      <add><ptr target="#c56-0011.03"/></add></line>
     <line><add place="superlinear" hand="#pbs"><del rend="strikethrough"><space unit="char"
             extent="17"/>There</del> For, although</add> was a great dissimilitude in our</line>
-    <line>characters.<add hand="#pbs"><metamark>X</metamark></add><add hand="#pbs"><ptr
-          target="#c56-0011.05"/></add> I was more calm and phi</line>
+    <line>characters.<add hand="#pbs"><metamark>X</metamark></add><add><ptr target="#c56-0011.05"
+        /></add> I was more calm and phi</line>
     <line>losphical than my companion</line>
     <line>Yet I was not <del rend="strikethrough">n</del> so mild or yielding.</line>
     <line>My application was of longer endurance</line>
@@ -80,14 +80,14 @@
   </zone>
 
   <zone type="left_margin">
-    <addSpan xml:id="c56-0011.11" spanTo="#c56-0011.12"/>
+    <addSpan xml:id="c56-0011.11" spanTo="#c56-0011.12" hand="#pbs"/>
     <line><space unit="chars" extent="10"/><metamark>X</metamark></line>
     <line><space unit="chars" extent="10"/><metamark>X</metamark></line><anchor xml:id="c56-0011.12"
     />
   </zone>
 
   <zone type="left_margin">
-    <addSpan xml:id="c56-0011.05" spanTo="#c56-0011.06"/>
+    <addSpan xml:id="c56-0011.05" spanTo="#c56-0011.06" hand="#pbs"/>
     <line><space unit="chars" extent="9"/><metamark>X</metamark> yet</line>
     <line>there was an</line>
     <line>harmony in</line>
@@ -96,7 +96,7 @@
   </zone>
 
   <zone type="left_margin">
-    <addSpan xml:id="c56-0011.03" spanTo="#c56-0011.04"/>
+    <addSpan xml:id="c56-0011.03" spanTo="#c56-0011.04" hand="#pbs"/>
     <line><metamark>X</metamark> We were strangers</line>
     <line>to any species</line>
     <line><metamark>X</metamark> of disunion</line>
@@ -105,7 +105,7 @@
   </zone>
 
   <zone type="left_margin">
-    <addSpan place="left_margin" xml:id="c56-0011.08" spanTo="#c56-0011.09"/>
+    <addSpan place="left_margin" xml:id="c56-0011.08" spanTo="#c56-0011.09" hand="#pbs"/>
     <line><metamark>X</metamark></line>
     <line>I delighted in</line>
     <line>investigating</line>
@@ -130,6 +130,4 @@
     <line>imaginations of</line>
     <line>her own.</line><anchor xml:id="c56-0011.09"/>
   </zone>
-
-
 </surface>
