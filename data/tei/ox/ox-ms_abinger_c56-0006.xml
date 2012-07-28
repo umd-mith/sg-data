@@ -20,22 +20,20 @@
     <line>Agrippa aside, and with my imagination</line>
     <line>warmed as it was <mod>
         <del rend="overwritten">w</del>
-        <add place="intralinear" hand="#pbs">s</add>
-      </mod>hould probably have</line>
+        <add place="intralinear" hand="#pbs">sh</add>
+      </mod>ould probably have</line>
     <line>aplied myself to <del rend="strikethrough">m</del> the more <del rend="strikethrough"
         >ra</del> rational</line>
-    <line>theory of chemistry which <mod>
+    <line>theory of chemistry which <modSpan spanTo="#c56-0006.04"/>
         <del rend="strikethrough" next="#c56-0006.01">has at present</del>
         <add place="superlinear" hand="#pbs" next="#c56-0006.02">has resulted from modern
-          discoveries</add>
-      </mod></line>
-    <line><mod>
-        <del rend="strikethrough" xml:id="c56-0006.01">the approbation of the learned.</del>
+          discoveries</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0006.01">the approbation of the learned.</del>
         <add place="superlinear" hand="#pbs" xml:id="c56-0006.02" next="#c56-0006.03">It is even
           possible that the train of my ideas might never have recieved</add>
         <add place="sublinear" hand="#pbs" xml:id="c56-0006.03">that fatal impulse which led me to
           my ruin.</add>
-      </mod> But the</line>
+      <anchor xml:id="c56-0006.04"/> But the</line>
     <line>cursory glance my father had taken of</line>
     <line>my volume by no means assured me</line>
     <line>that he was acquainted with <mod>
@@ -56,10 +54,10 @@
         <add place="superlinear" hand="#pbs">whole</add>
       </mod> works of this</line>
     <line>author and afterwards those of Paracel-</line>
-    <line>sus and Albertus Magnus. I read and studi<unclear>ed</unclear></line>
+    <line>sus and Albertus Magnus. I read and studi<damage>ed</damage></line>
     <line>the wild fancies of the<add place="intralinear" hand="#pbs">se</add> authors with</line>
     <line>delight, they appeared to me treasures</line>
-    <line>known to few besides myself; and, althoug<unclear>h</unclear></line>
+    <line>known to few besides myself; and, althoug<damage>h</damage></line>
     <line>I often wished to <mod>
         <del rend="strikethrough">discover</del>
         <add place="superlinear" hand="#pbs">communicate</add>
