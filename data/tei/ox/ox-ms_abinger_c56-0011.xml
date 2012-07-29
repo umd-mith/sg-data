@@ -12,12 +12,12 @@
     <line>it always through <mod>
         <add place="superlinear">her</add>
         <del rend="strikethrough">the</del>
-      </mod> intercession <add><ptr target="#c56-0011.11"/></add><delSpan rend="strikethrough"
-        spanTo="#c56-0011.01"/>of</line>
+      </mod> intercession <modSpan spanTo="#c56.0011.13"/><add><ptr target="#c56-0011.11"
+        /></add><delSpan rend="strikethrough" spanTo="#c56-0011.01"/>of</line>
     <line>Elizabeth<anchor xml:id="c56-0011.01"/><del rend="strikethrough"> For me I loved he</del>
       <delSpan rend="strikethrough" spanTo="#c56-0011.02"/>We agreed</line>
     <line>perfectly although there were many<anchor xml:id="c56-0011.02"/>
-      <add><ptr target="#c56-0011.03"/></add></line>
+      <add><ptr target="#c56-0011.03"/></add></line><anchor xml:id="c56-0011.13"/>
     <line><add place="superlinear" hand="#pbs"><del rend="strikethrough"><space unit="char"
             extent="17"/>There</del> For, although</add> was a great dissimilitude in our</line>
     <line>characters.<add hand="#pbs"><metamark>X</metamark></add><add><ptr target="#c56-0011.05"
@@ -33,12 +33,13 @@
         <del rend="strikethrough">lasted</del>
         <add place="superlinear" hand="#pbs">endured</add>
       </mod>
-      <delSpan rend="strikethrough" spanTo="#c56-0011.07"/>my amusements</line>
+      <modSpan spanTo="#c56-0011.14"/><delSpan rend="strikethrough" spanTo="#c56-0011.07"/>my
+      amusements</line>
     <line>were studying old books of chemistry</line>
     <line>and natural magic those of Elizabeth were</line>
     <line>dra wing &#38; music.<space unit="char" extent="3"/><anchor xml:id="c56-0011.07"/><add
         place="superlinear" hand="#pbs"><metamark>X</metamark><ptr target="#c56-0011.08"
-      /></add></line>
+      /></add></line><anchor xml:id="c56-0011.14"/>
     <milestone unit="tei:p"/><line><space unit="chars" extent="4"/><del rend="strikethrough">When
         I</del>
       <del rend="strikethrough">I had</del> My brothers were consi</line>
@@ -66,9 +67,9 @@
     <line>valry &#38; romance and <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs" next="#c56-0011.10">when very young, I can</add>
+        <add place="sublinear" xml:id="c56-0011.10" hand="#pbs">remember that</add>
       </mod> we used to</line>
-    <line><add place="superlinear" xml:id="c56-0011.10" hand="#pbs">remember that</add>act plays
-      composed by him out of</line>
+    <line>act plays composed by him out of</line>
     <line>th<mod>
         <del rend="overwritten">is</del>
         <add place="intralinear" hand="#pbs">ese</add>
