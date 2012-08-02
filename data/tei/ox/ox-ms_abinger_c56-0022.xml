@@ -45,21 +45,19 @@
         spanTo="#c56-0022.03" rend="strikethrough"/>all my</line>
     <line>life<anchor xml:id="c56-0022.03"/> and <add place="superlinear" hand="#pbs">had</add>
       longed to enter into the</line>
-    <line><del rend="strikethrough">worth</del> world and take my <delSpan spanTo="#c56-0022.04"
-        rend="strikethrough"/>place</line>
-    <line>with<anchor xml:id="c56-0022.04"/>
-      <add><ptr target="#c56-0022.05"/></add>
-      <add place="superlinear">among</add> other human beings. <del rend="strikethrough"
-      >And</del></line>
+    <line><del rend="strikethrough">worth</del> world and take my <modSpan spanTo="#c56-0022.04"
+        /><del rend="strikethrough" next="#c56-0022.05">place</del></line>
+    <line><del rend="strikethrough" xml:id="c56-0022.05">with</del><add next="#c56-0022.06"><ptr
+          target="#c56-0022.07"/></add><add place="superlinear" xml:id="c56-0022.06"
+        >among</add><anchor xml:id="c56-0022.04"/> other human beings. <del rend="strikethrough"
+        >And</del></line>
     <line>now my desires were <del rend="strikethrough">cop</del> complyed</line>
-    <line>with <add place="intralinear">&amp;</add> it would <mod>
-        <del rend="strikethrough">be</del>
+    <line>with <add place="intralinear">&#x26;</add> it would <mod>
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">indeed</add>
-      </mod>
-      <mod>
-        <del rend="strikethrough">indeed</del>
         <add place="superlinear" hand="#pbs">have</add>
+        <del rend="strikethrough">be</del>
+        <del rend="strikethrough">indeed</del>
       </mod> be<add place="intralinear" hand="#pbs">en</add> folly to</line>
     <line>repent.</line>
     <milestone unit="tei:p"/>
@@ -75,6 +73,6 @@
     <line><add xml:id="c56-0022.02">during my youth</add></line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0022.05">station</add></line>
+    <line><add xml:id="c56-0022.07">station</add></line>
   </zone>
 </surface>
