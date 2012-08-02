@@ -37,12 +37,16 @@
     <line>his business, and <modSpan spanTo="#c56-0021.09"/><del rend="strikethrough"
         next="#c56-0021.03">he said he did not</del><add><ptr target="#c56-0021.01"/></add></line>
     <line><del rend="strikethrough" xml:id="c56-0021.03" next="#c56-0021.04">see</del>
-      <del rend="unmarked"><add place="sublinear"><metamark>&#x2038;</metamark></add><add
-          place="superlinear">of</add></del>
+      <mod>
+        <del rend="unmarked"><add place="sublinear"><metamark>&#x2038;</metamark></add><add
+            place="superlinear">of</add></del>
+      </mod>
       <del rend="strikethrough" xml:id="c56-002201.04" next="#c56-0021.05">what use learning</del>
-      <del rend="strikethrough" xml:id="c56-0021.05" next="#c56-0021.06">was</del>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
-      <del rend="strikethrough"><add place="superlinear">could be</add></del>
+      <mod>
+        <del rend="strikethrough" xml:id="c56-0021.05" next="#c56-0021.06">was</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <del rend="strikethrough"><add place="superlinear">could be</add></del>
+      </mod>
       <del rend="strikethrough" xml:id="c56-0021.06" next="#c56-0021.07">to a</del></line>
     <line><del rend="strikethrough" xml:id="c56-0021.07">merchant.</del><anchor xml:id="c56-0021.09"
       /> Henry had a refined mind</line>
