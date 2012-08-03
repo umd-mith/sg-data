@@ -9,9 +9,10 @@
 
   <zone type="main">
     <line>of his <mod>
-        <del rend="strikethrough">science</del>
+        <del rend="strikethrough">science.</del>
         <add place="superlinear" hand="#pbs">doctrine.</add>
-      </mod>. <del rend="strikethrough">But when the ne</del> Be-</line>
+      </mod>
+      <del rend="strikethrough">But when the ne</del> Be-</line>
     <line>sides I had a contempt for the uses</line>
     <line>of modern <mod>
         <del rend="strikethrough">chemistry</del>
@@ -44,13 +45,17 @@
     <line><del rend="strikethrough">tw</del> two or three days <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">spent</add>
-      </mod> almost <add place="intralinear">in</add>
-      <del rend="strikethrough">solitary</del></line>
-    <line><add><ptr target="#c56-0026.03"/></add> but <del rend="strikethrough">at</del> as the
-      ensueing week</line>
+      </mod> almost <mod>
+        <add place="intralinear">in</add>
+        <del rend="strikethrough">solitary</del>
+        <add><ptr target="#c56-0026.03"/></add>
+      </mod></line>
+    <line> but <del rend="strikethrough">at</del> as the ensueing week</line>
     <line>commenced I thought of the infor</line>
-    <line>mation M<hi rend="sup">r</hi>. K.<hi rend="sup"><hi rend="underline">rem</hi>pe</hi> had
-      given me</line>
+    <line>mation M<hi rend="sup">r</hi>. K.<mod>
+        <del rend="unmarked">&#x2014;</del>
+        <add place="superlinear">rempe</add>
+      </mod> had given me</line>
     <line>concerning the lectures, and although</line>
     <line>I could not consent to go and hear</line>
     <line>that little conceited fellow deliver</line>
@@ -62,7 +67,7 @@
     <line>never seen <del rend="strikethrough">and</del> as he had been</line>
     <line>hitherto out of town.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/><mod>
+    <line><space unit="chars" extent="5"/><mod>
         <del rend="strikethrough">Half out of</del>
         <add place="superlinear">Partly from</add>
       </mod> curiosity and partly from</line>
