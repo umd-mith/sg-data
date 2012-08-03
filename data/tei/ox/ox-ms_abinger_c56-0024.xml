@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0024.tif"/>
   <zone type="pagination" rend="bordered">55</zone>
   <zone type="top">Chap. 4</zone>
@@ -9,8 +11,13 @@
     <line>The next morning I delivered my</line>
     <line>letters of introduction and paid a</line>
     <line>visit to some of the principal</line>
-    <line> professors. and among others to M. <mod type="subst"><del rend="strikethrough">K</del><add><ptr target="#c56-0024.01"/></add></mod><c><g ref="#long_dash"/></c></line>
-    <line>Professor of <del rend="strikethrough">&amp; Lecturer</del><del rend="strikethrough">upon</del> Natural</line>
+    <line>professors. and among others to M. <mod>
+        <del rend="strikethrough">K</del>
+        <del rend="unmarked">&#x2014;</del>
+        <add><ptr target="#c56-0024.01"/></add>
+      </mod></line>
+    <line>Professor of <del rend="strikethrough">&#x26; Lecturer</del>
+      <del rend="strikethrough">upon</del> Natural</line>
     <line>philosophy. He received me with</line>
     <line>politeness, and asked me several</line>
     <line>questions concerning my progress</line>
@@ -18,34 +25,47 @@
     <line>of science appertaining to natural</line>
     <line>philosophy. I mentioned, it is true</line>
     <line>with fear and trembling, the only</line>
-    <line>authors I had <mod type="additions"><add place="sublinear">^</add><add place="superlinear">ever</add></mod> read upon those</line>
-    <line>subjects. The professor stared. <delSpan spanTo="#c56-0024.02"/>I said</line>
+    <line>authors I had <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">ever</add>
+      </mod> read upon those</line>
+    <line>subjects. The professor stared. <delSpan spanTo="#c56-0024.02" rend="strikethrough"/>I
+      said</line>
     <line>that I did not mention these<anchor xml:id="c56-0024.02"/></line>
     <line>"Have you really" said<del rend="smear">"</del> he "spent</line>
     <line>"your time in studying such</line>
     <line>"nonsence?" I replied in the affir</line>
     <line>mative.</line>
     <milestone unit="tei:p"/>
-    <line>"Every minute"&#x2013; continued M. <mod type="subst"><del rend="strikethrough">K</del><add><ptr target="#c56-0024.03"/></add></mod> <c><g ref="#long_dash"/></c></line>
+    <line><space unit="chars" extent="3"/>"Every minute"&#x2013; continued M. <mod>
+        <del rend="strikethrough">K</del>
+        <del rend="unmarked">&#x2014;</del>
+        <add><ptr target="#c56-0024.03"/></add>
+      </mod></line>
     <line>with warmth," every instant that</line>
     <line>"you have wasted upon those</line>
     <line>"books is utterly and entirely lost.</line>
     <line>"You have burdened your <del rend="strikethrough">bur</del></line>
     <line>"<del rend="strikethrough">memor</del> memory with exploded</line>
     <line>"systems and useless names. Good</line>
-    <line>"God <mod type="subst"><del rend="strikethrough">where must you</del><add place="superlinear">in what
-          desart land</add></mod> have you</line>
+    <line>"God <mod>
+        <del rend="strikethrough">where must you</del>
+        <add place="superlinear">in what desart land</add>
+      </mod> have you</line>
     <line>"lived where no one was kind</line>
     <line>"enough to <del rend="strikethrough">enfor</del> inform you</line>
-    <line>"that these fancies which <mod type="additions"><add place="sublinear">^</add><add place="superlinear">you</add></mod> have</line>
+    <line>"that these fancies which <mod>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">you</add>
+      </mod> have</line>
   </zone>
   <zone type="left_margin">
-    <mod xml:id="c56-0024.01">
-      <del rend="strikethrough">Krempe</del>
-      <add place="sublinear">Krempe</add>
-    </mod>
+    <line><add xml:id="c56-0024.01"><mod>
+          <del rend="strikethrough">Krempe</del>
+          <add place="sublinear">Krempe</add>
+        </mod></add></line>
   </zone>
   <zone type="left_margin">
-    <add xml:id="c56-0024.03">Krempe</add>
+    <line><add xml:id="c56-0024.03">Krempe</add></line>
   </zone>
 </surface>
