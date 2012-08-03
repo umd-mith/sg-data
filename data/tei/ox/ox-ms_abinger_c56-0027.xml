@@ -19,16 +19,17 @@
         <del rend="strikethrough">kind</del>
         <del rend="strikethrough">of</del>
         <add><ptr target="#c56-0027.01"/></add>
-      </mod> history of chemistry and <del rend="strikethrough" next="#c56-0027.03"
-      >remark-</del></line>
-    <line><del rend="strikethrough" xml:id="c56-0027.03">ed</del> the various improvements <mod>
+      </mod> history of chemistry and <delSpan rend="strikethrough" spanTo="#c56-0027.03"
+      />remark-</line>
+    <line>ed<anchor xml:id="c56-0027.03"/> the various improvements <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">&#x26; discoveries</add></del>
       </mod>
       <delSpan spanTo="#c56-0027.04" rend="strikethrough"/>diffe</line>
-    <line>rent<anchor xml:id="c56-0024.04"/><add><ptr target="#c56-0027.05"/></add> men <mod><add
-        place="superlinear">of learning</add><del rend="strikethrough">had made</del></mod>
-      pronoucing</line>
+    <line>rent<anchor xml:id="c56-0024.04"/><add><ptr target="#c56-0027.05"/></add> men <mod>
+        <del rend="strikethrough">had made</del>
+        <add place="superlinear">of learning</add>
+      </mod> pronoucing</line>
     <line>the names of the greatest discoverers</line>
     <line><mod>
         <del rend="strikethrough">with great warmth</del>
@@ -77,7 +78,7 @@
     <line>lation of the</line><anchor xml:id="c56-0027.02"/>
   </zone>
   <zone type="left_margin">
-    <add xml:id="c56-0027.05">made by <hi rend="sup">various</hi></add>
+    <add xml:id="c56-0027.05">made by various</add>
   </zone>
   <zone type="left_margin">
     <add xml:id="c56-0027.06">with fervour</add>
