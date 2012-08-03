@@ -9,7 +9,7 @@
 
   <zone type="main">
     <line>of his <mod>
-        <del rend="strikethrough">science.</del>
+        <del rend="strikethrough">science</del><del rend="unmarked">.</del>
         <add place="superlinear" hand="#pbs">doctrine.</add>
       </mod>
       <del rend="strikethrough">But when the ne</del> Be-</line>
