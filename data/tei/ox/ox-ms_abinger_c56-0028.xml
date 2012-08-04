@@ -6,11 +6,13 @@
   <zone type="pagination" rend="bordered">58)</zone>
   <zone type="main">
     <line>"in her hiding places. They ascend into</line>
-    <line>"the heavens;&#x2013; they have discoverd how</line>
+    <line>"the heavens<add place="intralinear" hand="#pbs">;</add>&#x2013; they have discoverd
+      how</line>
     <line>"the blood circulates, and the nature</line>
     <line>"of the air we breathe. <del rend="strikethrough">New</del> They have</line>
     <line>"acquired new and almost unlimi</line>
-    <line>ted powers;&#x2013; They can command the</line>
+    <line>ted powers<mod><del rend="overwritten">,</del><add place="intralinear" hand="#pbs"
+        >;</add></mod>&#x2013; The<add place="intralinear">y</add> can command the</line>
     <line>"thunders of heaven, mimick the</line>
     <line>"earthquake, and even mock the</line>
     <line>"invisible world with its own</line>
