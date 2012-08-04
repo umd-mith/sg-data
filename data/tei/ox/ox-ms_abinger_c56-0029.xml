@@ -3,68 +3,77 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0029" ulx="0" uly="0" lrx="5364" lry="7104">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0029.tif"/>
+
+  <zone type="pagination" rend="bordered">59</zone>
+  <zone type="library">13</zone>
+
   <zone>
-    <line><metamark>"</metamark>I am happy<metamark>"</metamark> said Mr.
-        Waldham,<metamark>"</metamark> To <zone>(59</zone></line>
-    <line><metamark>"</metamark>have gained a <del rend="strikethrough">desci</del> desciple and if
-      if your<zone>13</zone></line>
-    <line><metamark>"</metamark><del rend="strikethrough">appil</del> application equals your
-      ability</line>
-    <line><metamark>"</metamark>I have no doubt of your success. Che</line>
-    <line><metamark>"</metamark>mistry is that branch of natural</line>
-    <line><metamark>"</metamark>philosophy in which the greatest im-</line>
-    <line><metamark>"</metamark>provements have <mod type="subst" resp="pbs"><add place="sublinear"
-          >^</add><add place="superlinear">been</add></mod> &amp; may be made.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>"I am happy" said M<hi rend="sup">r</hi>. Waldham,
+      "To</line>
+    <line>"have gained a <del rend="strikethrough">desci</del> desciple and if if your</line>
+    <line>"<del rend="strikethrough">appil</del> application equals your ability</line>
+    <line>"I have no doubt of your success. Che</line>
+    <line>"mistry is that branch of natural</line>
+    <line>"philosophy in which the greatest im-</line>
+    <line>"provements have <mod><add place="sublinear">&#x2038;</add><add place="superlinear"
+          hand="#pbs">been</add></mod> &amp; may be made.</line>
     <line><metamark>"</metamark>It is on that accounts that I <unclear extent="2" unit="chars"
         reason="illegible" precision="low">sl</unclear></line>
-    <line><metamark>"</metamark>chose it for my peculiar study. But</line>
-    <line><metamark>"</metamark>at the same <mod type="subst"><add place="sublinear">^</add><add
+    <line>"chose it for my peculiar study. But</line>
+    <line>"at the same <mod type="subst"><add place="sublinear">&#x2038;</add><add
           place="superlinear">time</add></mod> I did not neglect the</line>
-    <line><metamark>"</metamark>other sciences. A man would make</line>
-    <line><metamark>"</metamark>a very sorry chemist if he atteneded</line>
+    <line>"other sciences. A man would make</line>
+    <line>"a very sorry chemist if he atteneded</line>
     <line>to that department alone. <unclear precision="low" reason="illegible"/> If</line>
-    <line><metamark>"</metamark>your wish is really to become a</line>
-    <line><metamark>"</metamark>man of science and not merely</line>
-    <line><metamark>"</metamark>a pretty experimentalist I should</line>
-    <line><metamark>"</metamark>advi<add resp="pbs" place="intralinear">s</add>e you to apply to
-      every</line>
-    <line><metamark>"</metamark>branch of natural philosophy <del rend="blot-out">and</del></line>
-    <line><metamark>"</metamark><add><ptr
-      target="#c56-0029.01"/></add>Mathematics.<metamark>"</metamark></line>
+    <line>"your wish is really to become a</line>
+    <line>"man of science and not merely</line>
+    <line>"a pretty experimentalist I should</line>
+    <line>"advi<add resp="pbs" place="intralinear">s</add>e you to apply to every</line>
+    <line>"branch of natural philosophy <del rend="blot-out">and</del></line>
+    <line>"<add><ptr target="#c56-0029.05"/></add>Mathematics."</line>
     <milestone unit="tei:p"/>
-    <delSpan xml:id="c56-0029.02" spanTo="#c56-0029.02d" rend="vertically-slashed"/><line>He then gave me the list</line>
+    <delSpan spanTo="#c56-0029.07" rend="vertical_line"/><line>He then gave me the list</line>
     <line>I had requested and mentioned a few</line>
     <line>machines that I ought to procure</line>
     <line>and promising that when I should</line>
-    <line>have</line><anchor xml:id="c56-0029.02d"/>
+    <line>have</line><anchor xml:id="c56-0029.07"/>
     <line>He then took me into his</line>
     <line><mod type="subst"><del rend="strikethrough">workroom</del><add place="superlinear"
           >laboratory</add></mod> and shewed and explain</line>
     <line>ed to me his<add resp="pbs" place="superlinear">the use of</add> various machines <del
-        rend="strikethrough">tel</del></line>  <line><del rend="strikethrough"
-          >ling</del><add><ptr
-            target="#c56-0029.03"/></add> me what I <mod type="subst"><del rend="strikethrough">should procure</del><add place="superlinear">ought to procure</add></mod></line>
+        rend="strikethrough">tel</del></line>
+    <line><del rend="strikethrough">ling</del><add><ptr target="#c56-0029.06"/></add> me what I <mod
+        type="subst"><del rend="strikethrough">should procure</del><add place="superlinear">ought to
+          procure</add></mod></line>
     <line>for my priva and promising me</line>
-    <line><del rend="strikethrough">a lone</del> the use of his <add place="superlinear" resp="pbs">own</add>
-      when I should</line>
+    <line><del rend="strikethrough">a lone</del> the use of his <add place="superlinear" resp="pbs"
+        >own</add> when I should</line>
     <line>have advanced fare enough in</line>
     <line>the study not to des der derange</line>
   </zone>
-  <zone>
-    <addSpan xml:id="c56-0028.01" resp="pbs" spanTo="#c56-0028.01m"/><!--this addSpan is identical in all code with that for first addSpan in file c56-0028. The problem is that the intervention crosses pages, while the scholar indicates content should solely intervene within c56-0028-->
-    <line>in ultimately</line>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0029.01" spanTo="#c56-0029.02"/>
+    <line><addSpan spanTo="#c56-0029.03" hand="#pbs"/>in ultimately</line>
     <line>turning to the</line>
     <line>solid advantage of</line>
-    <line>mankind.<!--unclear on whether to encode partial or entire addSpan in dual hands (i.e. MWS's ink-over in addition to PBS's pencil-->I listen</line>
+    <line>mankind.<anchor xml:id="c56-0029.03"/>
+      <addSpan spanTo="#c56-0028.04"/>I listen</line>
     <line>ed to his state</line>
     <line>ment which</line>
     <line>was delivered</line>
     <line>without any</line>
     <line>presumption</line>
-    <line>&amp; then added</line><anchor xml:id="c56-0028.01m"/>!<!--first addSpan from c56-0028 terminates with this anchor-->
+    <line>&amp; then added<anchor xml:id="c56-0029.04"/></line><anchor xml:id="c56-0029.02"/>
   </zone>
-  <zone><addSpan resp="pbs" xml:id="c56-0029.01" spanTo="#c56-0029.01m"/> <line>including</line></zone><anchor xml:id="c56-0029.01m"/>
+  <zone type="left_margin">
+    <line><rewrite cause="fix" hand="#mws"><add hand="#pbs" xml:id="c56-0029.05"
+        >including</add></rewrite></line></zone>
 
-  <zone><addSpan resp="pbs" xml:id="c56-0029.03" spanTo="#c56-0029.03m"/><line>instructing me as to</line><line><metamark>—</metamark></line><anchor xml:id="c56-0029.03m"/></zone>
+  <zone>
+    <line><add hand="#pbs" xml:id="c56-0029.06">instructing me as to</add></line></zone>
+
+  <zone type="left_margin">
+    <line><add><metamark>&#x2014;</metamark></add></line></zone>
 
 </surface>
