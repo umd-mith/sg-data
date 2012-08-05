@@ -17,40 +17,50 @@
     <line>"mistry is that branch of natural</line>
     <line>"philosophy in which the greatest im-</line>
     <line>"provements have <mod><add place="sublinear">&#x2038;</add><add place="superlinear"
-          hand="#pbs">been</add></mod> &amp; may be made.</line>
-    <line><metamark>"</metamark>It is on that accounts that I <unclear extent="2" unit="chars"
-        reason="illegible" precision="low">sl</unclear></line>
+          hand="#pbs">been</add></mod> &#x26; may be made.</line>
+    <line>"It is on that account<del rend="strikethrough">s</del> that I
+      <unclear>sl</unclear></line>
     <line>"chose it for my peculiar study. But</line>
-    <line>"at the same <mod type="subst"><add place="sublinear">&#x2038;</add><add
-          place="superlinear">time</add></mod> I did not neglect the</line>
+    <line>"at the same <mod><add place="sublinear">&#x2038;</add><add place="superlinear"
+        >time</add></mod> I did not neglect the</line>
     <line>"other sciences. A man would make</line>
     <line>"a very sorry chemist if he atteneded</line>
-    <line>to that department alone. <unclear precision="low" reason="illegible"/> If</line>
+    <line>to that department alone. <unclear unit="chars" extent="1"/> If</line>
     <line>"your wish is really to become a</line>
     <line>"man of science and not merely</line>
     <line>"a pretty experimentalist I should</line>
-    <line>"advi<add resp="pbs" place="intralinear">s</add>e you to apply to every</line>
-    <line>"branch of natural philosophy <del rend="blot-out">and</del></line>
-    <line>"<add><ptr target="#c56-0029.05"/></add>Mathematics."</line>
+    <line>"advi<mod><del rend="overwritten">c</del><add place="intralinear" hand="#pbs"
+        >s</add></mod>e you to apply to every</line>
+    <line>"branch of natural philosophy <del rend="strikethrough">and</del><add><ptr
+          target="#c56-0029.05"/></add></line>
+    <line>"Mathematics."</line>
     <milestone unit="tei:p"/>
-    <delSpan spanTo="#c56-0029.07" rend="vertical_line"/><line>He then gave me the list</line>
+    <delSpan spanTo="#c56-0029.07" rend="vertical_line"/><line><space unit="chars" extent="4"/>He
+      then gave me the list</line>
     <line>I had requested and mentioned a few</line>
     <line>machines that I ought to procure</line>
     <line>and promising that when I should</line>
     <line>have</line><anchor xml:id="c56-0029.07"/>
-    <line>He then took me into his</line>
-    <line><mod type="subst"><del rend="strikethrough">workroom</del><add place="superlinear"
-          >laboratory</add></mod> and shewed and explain</line>
-    <line>ed to me his<add resp="pbs" place="superlinear">the use of</add> various machines <del
-        rend="strikethrough">tel</del></line>
-    <line><del rend="strikethrough">ling</del><add><ptr target="#c56-0029.06"/></add> me what I <mod
-        type="subst"><del rend="strikethrough">should procure</del><add place="superlinear">ought to
-          procure</add></mod></line>
-    <line>for my priva and promising me</line>
-    <line><del rend="strikethrough">a lone</del> the use of his <add place="superlinear" resp="pbs"
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>He then took me into his</line>
+    <line><mod><del rend="strikethrough">workroom</del><add place="superlinear"
+        >laboratory</add></mod> and <del rend="strikethrough">shewed a</del><del rend="unmarked"
+        >nd</del> explain</line>
+    <line>ed to me <add hand="pbs" place="superlinear">the use of</add> his various machines
+        <modSpan spanTo="c56-0029.08"/><delSpan rend="strikethrough" spanTo="#c56-0029.09"
+      />tel</line>
+    <line>ling me<anchor xml:id="c56-0029.09"/><add><ptr target="#c56-0029.06"/></add><anchor
+        xml:id="c56-0029.08"/> what I <modSpan spanTo="#c56-0029.10"/><del rend="strikethrough"
+        next="#c56-0029.11">should</del>
+      <del rend="strikethrough" xml:id="c56-0029.11" next="c56-0029.12">procure</del><add
+        place="superlinear">ought to procure</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0029.12">for my priva</del><anchor
+        xml:id="c56-0029.10"/> and promising me</line>
+    <line><del rend="strikethrough">a lone</del> the use of his <add place="superlinear" hand="pbs"
         >own</add> when I should</line>
-    <line>have advanced fare enough in</line>
-    <line>the study not to des der derange</line>
+    <line>have advanced far<del rend="strikethrough">e</del> enough in</line>
+    <line>the study not to <damage agent="ink_blot">des</damage>
+      <del rend="strikethrough">der</del> derange</line>
   </zone>
   <zone type="left_margin">
     <addSpan xml:id="c56-0029.01" spanTo="#c56-0029.02"/>
@@ -64,7 +74,7 @@
     <line>was delivered</line>
     <line>without any</line>
     <line>presumption</line>
-    <line>&amp; then added<anchor xml:id="c56-0029.04"/></line><anchor xml:id="c56-0029.02"/>
+    <line>&#x26; then added<anchor xml:id="c56-0029.04"/></line><anchor xml:id="c56-0029.02"/>
   </zone>
   <zone type="left_margin">
     <line><rewrite cause="fix" hand="#mws"><add hand="#pbs" xml:id="c56-0029.05"
