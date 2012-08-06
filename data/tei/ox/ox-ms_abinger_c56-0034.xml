@@ -5,8 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0034" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0034.tif"/>
-  <zone type="pagination" rend="#bordered">
-    <line>64)</line></zone>
+  <zone type="pagination" rend="bordered">64</zone>
   <zone type="main">
     <line>my father had taken the greatest</line>
     <line>precautions that my mind should</line>
@@ -48,20 +47,18 @@
         <add place="superlinear">cause</add>
       </mod> &#x26; progress</line>
     <line>of this decay and forced to spend days</line>
-    <line>and nights in vau<mod>
-        <del rend="overwritten">l</del>
-        <add place="intralinear" hand="#pbs">l</add>
-      </mod>ts and Charnel</line>
+    <line>and nights in vau<rewrite cause="clarify" hand="#pbs">l</rewrite>ts and Charnel</line>
     <line>houses. I <del rend="strikethrough">was obliged</del> My attention was</line>
     <line>fixed upon every <mod>
         <del rend="strikethrough">horror of whic</del>
         <del rend="unmarked">h</del>
         <add place="superlinear" hand="#pbs" next="#c56-0034.01">object <del rend="strikethrough"
             >calculated to</del></add>
+        <add place="sublinear" hand="#pbs" xml:id="c56-0034.01">the most insupportable to the
+          delicacy of</add>
       </mod></line>
-    <line><add place="superlinear" hand="#pbs" xml:id="c56-0034.01">the most insupportable to the
-        delicacy of</add> the human feelings. <del rend="strikethrough">are suscept</del><del
-        rend="unmarked">able</del>&#x2013;</line>
+    <line>the human feelings. <del rend="strikethrough">are suscept</del><del rend="unmarked"
+        >able</del>&#x2013;</line>
     <!--the period after "feelings" must have been added by PBS. Check with CR-->
     <line>I saw how the fine form of <del rend="strikethrough">a</del> man</line>
     <line><mod>
@@ -71,9 +68,10 @@
       </mod> degraded and wasted. I beheld the</line>
     <line>corruption of death succeed to the bloom</line>
     <line>-ing cheek of life &#x2013; <add place="superlinear" hand="#pbs">I saw</add> how the worm
-        <delSpan spanTo="#c56-0034.03" rend="strikethrough"/>suc</line>
+        <modSpan spanTo="#c56-0034.06"/><delSpan spanTo="#c56-0034.03" rend="strikethrough"
+      />suc</line>
     <line>ceeded to<anchor xml:id="c56-0034.03"/><add place="superlinear" hand="#pbs"
-        >inherited</add> the wonders of the eye and</line>
+        >inherited</add><anchor xml:id="c56-0034.06"/> the wonders of the eye and</line>
     <line>brain. I paused, examin<mod>
         <del rend="overwritten">ed</del>
         <add place="intralinear" hand="#pbs">ing</add>
@@ -94,15 +92,15 @@
   </zone>
 
   <zone type="left_margin">
-    <add hand="#pbs" xml:id="c56-0034.02">was</add>
+    <line><add hand="#pbs" xml:id="c56-0034.02">was</add></line>
   </zone>
   <zone type="left_margin">
     <addSpan hand="#pbs" xml:id="c56-0034.04" spanTo="#c56-0034.05"/>
-    <line>all the minutiæ</line>
+    <line>all the minuti&#xE6;</line>
     <line>of causation</line>
     <line>as exemplified in</line>
     <line>the change from</line>
-    <line>life to death, &amp;</line>
+    <line>life to death, &#x26;</line>
     <line>death to life,</line>
     <anchor xml:id="c56-0034.05"/>
   </zone>
