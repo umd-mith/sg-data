@@ -7,7 +7,7 @@
   partOf="#ox-ms_abinger_c56-0036">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0036.tif"/>
 
-  <zone type="pagination">66</zone>
+  <zone type="pagination" rend="bordered">66</zone>
 
   <zone type="main">
     <line>steps <mod>
@@ -29,6 +29,7 @@
         <add hand="#pbs" place="superlinear">within</add>
       </mod> my <mod>
         <del rend="strikethrough">hands.</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">grasp;</add>
       </mod> Not</line>
     <line>that, like a magic <del rend="strikethrough"><unclear>sceen</unclear></del> scene
@@ -36,7 +37,11 @@
     <line>all opened upon me at on<mod>
         <del rend="overwritten">e</del>
         <add place="intralinear">c</add>
-      </mod>e. <delSpan spanTo="#c56-0036.01" rend="strikethrough"/>on</line>
+      </mod>e<mod>
+        <del rend="overwritten"><unclear>;</unclear></del>
+        <add place="intralinear">.</add>
+      </mod>
+      <delSpan spanTo="#c56-0036.01" rend="strikethrough"/>on</line>
     <line>the contrary<anchor xml:id="c56-0036.01"/>
       <mod>
         <del rend="overwritten">t</del>
@@ -45,18 +50,17 @@
     <line>I had obtained was <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">of a nature</add>
-      </mod> rather <del rend="strikethrough" next="#c56-0036.02">one that</del></line>
-    <line><mod>
-        <del rend="strikethrough" xml:id="c56-0036.02">would</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add hand="#pbs" place="superlinear">to</add>
-      </mod> direct my endeavours. <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c56-0036.03"/></add>
-      </mod>
+      </mod> rather <modSpan spanTo="#c56-0036.02"/><delSpan rend="strikethrough"
+        spanTo="#c56-0036.03"/>one that</line>
+    <line>would<anchor xml:id="c56-0036.03"/><add place="sublinear"
+        ><metamark>&#x2038;</metamark></add>
+      <add hand="#pbs" place="superlinear">to</add><anchor xml:id="c56-0036.02"/> direct my
+      endeavours. <modSpan spanTo="#c56-0036.04"/><add place="sublinear"
+          ><metamark>&#x2038;</metamark></add>
       <delSpan spanTo="#c56-0036.05" rend="strikethough"/>that</line>
     <line>than show me the prospect with</line>
-    <line>any precise certainty.<anchor xml:id="c56-0036.05"/> I was like the</line>
+    <line>any precise certainty.<anchor xml:id="c56-0036.05"/><add><ptr target="#c56-0036.06"
+        /></add><anchor xml:id="c56-0036.04"/> I was like the</line>
     <line>Arabian<del rend="strikethrough">,</del> who had been buried with</line>
     <line>the dead, and found a passage to life</line>
     <line>aided only by one glimmering and seem</line>
@@ -70,19 +74,19 @@
         <del rend="overwritten">,</del>
         <add place="intralinear" hand="#pbs">;</add>
       </mod>
-      <del rend="strikethrough" next="#c56-0036.06">but you are</del><add hand="#pbs"
-        place="superlinear">that cannot be.</add></line>
-    <line><del rend="strikethrough" xml:id="c56-0036.06">mistaken</del>. Listen patiently to the
-      end</line>
+      <modSpan spanTo="#c56-0036.08"/><del rend="strikethrough" next="#c56-0036.09">but you
+        are</del><add hand="#pbs" place="superlinear">that cannot be.</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0036.09">mistaken</del><del rend="unmarked"
+        >.</del><anchor xml:id="c56-0036.08"/> Listen patiently to the end</line>
     <line>of my story and you will easily</line>
     <line>perceive why <add place="intralinear">I</add> am reserved upon that</line>
-    <line>subject.&#x2014; <del rend="strikethrough">For why should</del> I <add place="superlinear"
-        >will not</add> lead you</line>
+    <line>subject.&#x2014; <del rend="strikethrough">For why shoul</del><del rend="unmarked">d</del>
+      I <add place="superlinear">will not</add> lead you</line>
     <line>on, <del rend="strikethrough">as</del> unguarded and ardent as I then</line>
     <line>was, to your <del rend="strikethrough">destruct</del> destruction &#x26;</line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0036.03" spanTo="#c56-0036.04" hand="#pbs"
+    <addSpan xml:id="c56-0036.06" spanTo="#c56-0036.07" hand="#pbs"
         /><line><metamark>&#x2038;</metamark>so soon as I</line>
     <line>should point</line>
     <line>them towards</line>
@@ -91,6 +95,6 @@
     <line>than to exhi</line>
     <line>bit that ob-</line>
     <line>ject already</line>
-    <line>accomplished.</line><anchor xml:id="c56-0036.04"/>
+    <line>accomplished.</line><anchor xml:id="c56-0036.07"/>
   </zone>
 </surface>
