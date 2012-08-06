@@ -17,15 +17,18 @@
         <milestone unit="tei:p"/>
         <line><space unit="chars" extent="5"/>One of those ph&#xE6;nonoma which</line>
         <line>had <mod>
-                <del rend="strikethrough">mo<del rend="overwritten">st</del><add place="intralinear"
-                        hand="#pbs">re</add></del>
+                <del rend="strikethrough">mo<del rend="overwritten">re</del><add place="intralinear"
+                        hand="#pbs">st</add></del>
             </mod> peculiarly attracted my atten</line>
         <line>tion was the structure of the human</line>
         <line>frame; and indeed that of any animal</line>
         <line>endued with life. Whence I often asked</line>
         <line>myself did this principle of life proceed.</line>
-        <line>It was a bold question, and one <del rend="strikethrough">that</del></line>
-        <line><add><ptr target="#c56-0033.02"/></add> has ever been considered as a mystery.</line>
+        <line>It was a bold question, and one <mod>
+                <del rend="strikethrough">that</del>
+                <add><ptr target="#c56-0033.02"/></add>
+            </mod></line>
+        <line>has ever been considered as a mystery.</line>
         <line>Yet how many things are we on the</line>
         <line>brink of becoming acquainted with</line>
         <line>if cowardice or carelessness did</line>
