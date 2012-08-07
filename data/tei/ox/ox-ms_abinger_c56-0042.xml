@@ -10,17 +10,17 @@
     <milestone unit="tei:p"/>
     <line>I knew that my silence disquieted</line>
     <line>them and I well remembered the</line>
-    <line>words of my father. <milestone unit="tei:q" spanTo="#c56-0042.01"/><!--proposed encoding: @spanTo linking to <anchor> below, effecting a range of quoted speech--><metamark>"</metamark>I know that while</line>
-    <line><metamark>"</metamark>you are pleased with yourself you</line>
-    <line><metamark>"</metamark>will <del rend="strikethrough">thing</del> think of us with affection</line>
-    <line><metamark>"</metamark>and we shall hear regularly from</line>
-    <line><metamark>"</metamark>you. And you must pardon me</line>
-    <line><metamark>"</metamark>if I regard <del rend="strikethrough">you</del> any interruption</line>
-    <line><metamark>"</metamark>in your corespondence, as a proof</line>
-    <line><metamark>"</metamark>that your other <mod type="subst" resp="#pbs"><del
+    <line>words of my father. "I know that while</line>
+    <line>"you are pleased with yourself you</line>
+    <line>"will <del rend="strikethrough">thing</del> think of us with affection</line>
+    <line>"and we shall hear regularly from</line>
+    <line>"you. And you must pardon me</line>
+    <line>"if I regard <del rend="strikethrough">you</del> any interruption</line>
+    <line>"in your corespondence, as a proof</line>
+    <line>"that your other <mod type="subst" resp="#pbs"><del
           rend="strikethrough">studies</del><add place="superlinear">duties</add></mod> are
       equal-</line>
-    <line><metamark>"</metamark>ly neglected<metamark>"</metamark><anchor xml:id="c56-0042.01"/><!--<anchor> w/@xml:id intended to terminate the invoked <q> in the <milestone> above--> I <del rend="strikethrough">rembered</del> knew well</line>
+    <line>"ly neglected" I <del rend="strikethrough">rembered</del> knew well</line>
     <line>therefore what his <del rend="strikethrough">opinion</del> would</line>
     <line>be <add place="superlinear" resp="#pbs">his feelings</add> but I could not tear my
       thoughts</line>
