@@ -23,10 +23,8 @@
       </mod> overcome my repugnance <add place="superlinear" resp="#pbs">to the task</add>
       <mod type="additions">
         <add place="sublinear">&#x2038;</add>
-        <add place="superlinear"><metamark>X 1</metamark></add>
-      </mod><!--where is the text scholar refers to? we can use <ptr/> to a separate zone, but note that the inserted text 
-          source is a letter from William Godwin 
-          (the zone is not on this page)--></line>
+        <add place="superlinear"><ptr target="#c57-0075.01"/><metamark>X 1</metamark></add>
+      </mod></line>
     <line>My health <del rend="strikethrough">also</del> which had hitherto declined</line>
     <line>was now much restored, &amp; my spirits when</line>
     <line>unchecked by the memory of my unhappy</line>
