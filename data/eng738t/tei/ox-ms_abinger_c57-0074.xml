@@ -23,7 +23,7 @@
       </mod> overcome my repugnance <add place="superlinear" resp="#pbs">to the task</add>
       <mod type="additions">
         <add place="sublinear">&#x2038;</add>
-        <add place="superlinear"><ptr target="#c57-0075.01"/><metamark>X 1</metamark></add>
+        <add place="superlinear"><!--intentionally points to c57-0075 - see scholar's notes for this and succeeding page in transcription--><ptr target="#c57-0075.01"/><metamark>X 1</metamark></add>
       </mod></line>
     <line>My health <del rend="strikethrough">also</del> which had hitherto declined</line>
     <line>was now much restored, &amp; my spirits when</line>
