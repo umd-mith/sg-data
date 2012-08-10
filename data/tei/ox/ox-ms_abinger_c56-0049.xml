@@ -4,54 +4,58 @@
   xml:id="ox-ms_abinger_c56-0049" ulx="0" uly="0" lrx="5364" lry="7104"
   partOf="#ox-ms_abinger_c56-0049">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0049.tif"/>
-  <zone type="pagination">79 </zone>
-  <zone type="library"> 23</zone>
+  <zone type="pagination" rend="bordered">79</zone>
+  <zone type="library">23</zone>
   <zone type="main">
     <line>my view. I did not dare <del rend="strikethrough">to</del> return</line>
-    <line>to the appartment <mod resp="#pbs"><add place="sublinear"><metamark>^</metamark></add>
+    <line>to the appartment <mod><add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">which</add></mod> I inhabited but</line>
     <line>felt impelled to hurry on although</line>
-    <line>wetted by the <del rend="strikethrough">drizzling</del> rain which pourd</line>
-    <line>from a black and comfortless sky</line>
-    <line>I continued walking in this manner</line>
+    <line>wetted by the <del rend="strikethrough">drizzling</del> rain which poured</line>
+    <line>from a black and comfortless sky.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>I continued walking in this manner</line>
     <line>for some time endeavouring by bodily</line>
     <line>exercise to ease the load that weighed</line>
     <line>upon my mind. I traversed the streets</line>
     <line>without any clear conception of where</line>
     <line>I was or what I was doing: my heart</line>
-    <line>palpitated <mod resp="#pbs" type="subst"><del rend="strikethrough">with</del>
-        <add place="superlinear">in the sickness of fear</add></mod> and I hurried</line>
-    <line>on with irregular steps: not daring</line>
+    <line>palpitated <mod><del rend="strikethrough">with</del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear" hand="#pbs">in the sickness
+          of</add></mod> fear and I hurried</line>
+    <line>on with irregular steps not daring</line>
     <line>to look about me,</line>
-    <milestone unit="tei:q" spanTo="#c56-0049.01"
-        /><!-- using coding recommended in issue #76 but ending with milestone tag rather than anchor --><line><metamark>"</metamark>Like
-      one who on a lonesome road</line>
-    <line><metamark>"</metamark>doth walk in fear and dread</line>
-    <line><metamark>"</metamark>and having once turned round <add place="sublinear"
-          ><metamark>/</metamark>walks on</add></line>
-    <line><metamark>"</metamark><del rend="overwritten">wal</del>And turns no more his head</line>
-    <line><metamark>"</metamark>Because he knows a frightful <add place="sublinear"
-          ><metamark>/</metamark>fiend</add></line>
-    <line><metamark>"</metamark>doth close behind him tread.<metamark>"</metamark>
-      <milestone unit="tei-q" xml:id="c56-0049.01"/>
-      <metamark>*</metamark><add><ptr target="#c56-0049.02"/></add></line>
-    <line>Continuing thus, I came at length</line>
-    <line><mod resp="#pbs" type="subst"><del rend="strikethrough">opposite</del><add
-          place="sublinear">opposite to</add></mod> the Inn at which the dili</line>
+    <milestone unit="tei:q" spanTo="#c56-0049.01"/>
+    <line><space unit="chars" extent="7"/>"Like one who on a lon<mod><del rend="overwritten"
+          >s</del><add place="intralinear">es</add></mod>ome road</line>
+    <line><space unit="chars" extent="7"/>"doth walk in fear and dread</line>
+    <line><space unit="chars" extent="7"/>"and having once turned round</line>
+    <line><space unit="chars" extent="30"/><metamark>L</metamark>walks on</line><!--text is contained within an "L" bracket to indicate line runover-->
+    <line><space unit="chars" extent="7"/>"<del rend="smear">wal</del>And turns no more his
+      head</line>
+    <line><space unit="chars" extent="7"/>"Because he knows a frightful</line>
+    <line><space unit="chars" extent="30"/><metamark>L</metamark>fiend</line><!--text is contained within an "L" bracket to indicate line runover-->
+    <line><space unit="chars" extent="7"/>"doth close behind him tread."<metamark
+        target="#c56-0049.02">*</metamark></line>
+    <anchor xml:id="c56-0049.01"/>
+    <line>Continueing thus, I came at lenght</line>
+    <line><mod><del rend="strikethrough">opposite</del><add place="superlinear" hand="#pbs">opposite
+          to</add></mod> the Inn at which the dili</line>
     <line>-gences and carriages usually stopped. Here</line>
     <line>I paused I knew not why but remained</line>
     <line>some minutes with my eyes fixed on</line>
-    <line>a coach that was coming toward me</line>
-    <line>from the other end of the street:</line>
-    <line>As <mod type="subst"><del rend="strikethrough">I</del><add place="sublinear"
-            ><metamark>^</metamark></add>
-        <add place="superlinear">it</add></mod> drew nearer I observed that it</line>
+    <line>a coach that was coming towards me</line>
+    <line>from the other end of the street.</line>
+    <line>As <mod><del rend="strikethrough">I</del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">it</add></mod> drew nearer
+      I observed that it</line>
     <line>was the Swiss diligence; it stopped</line>
     <line>just where I was standing, and on</line>
   </zone>
-  <zone type="left_margin"><add xml:id="c56-0049.02"/>
-    <line>* Coleridge's</line>
-    <line><metamark>"</metamark>Ancient
-    Mariner.<metamark>"</metamark></line><!-- should this line be considered a marginal addition or a footnote? -->
+  <zone type="left_margin">
+    <addSpan spanTo="#c56-0049.03" xml:id="c56-0049.02"/>
+    <line><metamark>*</metamark>Coleridge's</line>
+    <line>"Ancient Mariner."</line>
+    <anchor xml:id="c56-0049.03"/>
   </zone>
 </surface>
