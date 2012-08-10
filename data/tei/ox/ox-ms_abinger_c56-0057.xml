@@ -4,46 +4,55 @@
   xml:id="ox-ms_abinger_c56-0057" ulx="0" uly="0" lrx="5364" lry="7104"
   partOf="#ox-ms_abinger_c56-0057">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0057.tif"/>
-  <zone type="pagination">87</zone>
+  <zone type="pagination" rend="bordered">87</zone>
   <zone type="library">27</zone>
   <zone type="main">
-    <line>"but get well as fast as you ca<del rend="strikethrough">m</del>n. And</line>
+    <line>"but get well as fast as you ca<mod><del rend="overwritten">m</del><add
+          place="intralinear">n</add></mod>. And</line>
     <line>"since you appear in such good</line>
     <line>"spirits I may speak to you on</line>
     <line>"one subject; may I not?"</line>
-    <line>I trembled; one subject! What</line>
-    <line>could it be? Could he allude to<add place="sublinear">&#x2038;</add><add
-        place="superlinear">an</add> object</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>I trembled; one subject! What</line>
+    <line>could it be? Could he allude to<mod><add place="sublinear">&#x2038;</add><add
+          place="superlinear">an</add></mod> object</line>
     <line><add><ptr target="#c56-0057.01"/></add>I dared not even think. Do not fright</line>
     <line>"en yourself," said Clerval, who observed</line>
-    <line>my changed of colour," I will not mention</line>
-    <line>"it if it agitates you- But your father</line>
+    <line>my change of colour," I will not mention</line>
+    <line>"it if it agitates you. But your father</line>
     <line>"and cousin would be so happy if they</line>
-    <line>"<del rend="strikethrough">rece</del> received a letter from you in</line>
-    <line>"your own hand- They hardly know how</line>
+    <line>"<del rend="strikethrough">rec</del> received a letter from you in</line>
+    <line>"your own hand &#x2013; They hardly know how</line>
     <line>"ill you have been, and are uneasy</line>
     <line>"at your long silence."</line>
-    <line>Is that all? "I said smiling</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>Is that all? "I said smiling</line>
     <line>"My dear Henry how could you suppose</line>
     <line>"that my first thoughts would not</line>
-    <line>"fly towards<mod type="subst"><del rend="strikethrough">that</del><add place="sublinear">
+    <line>"fly towards<mod><del rend="strikethrough">that</del><add place="sublinear">
           &#2038;</add><add place="superlinear">those</add></mod> dear, dear friends</line>
     <line>"whom I love and who are so deserving</line>
     <line>"of my love."</line>
-    <line>"if this is your present temper"</line>
-    <line>said Henry "You will be glad perhaps</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>"If this is your present temper"</line>
+    <line>said Henry "you will be glad perhaps</line>
     <line>"to see a letter <del rend="strikethrough">here</del> that has been</line>
-    <line>"<del rend="strikethrough">ly</del> lying<del rend="strikethrough">e</del> here some days
-      it is from your</line>
+    <line>"<del rend="strikethrough">ly</del> lying<del rend="strikethrough">e</del> here some
+        day<add place="intralinear" hand="#pbs">s</add> it is from your</line>
     <line>"cousin I believe."</line>
     <line><add><ptr target="#c56-0057.02"/></add></line>
-    <line>He then put the following letter</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>He then put the following letter</line>
     <line>into my hands.</line>
     <line>"To V. Frankenstein</line>
-    <line>Geneva April March 18th- 17-</line>
+    <line>Geneva <mod><del rend="strikethrough">April</del><add place="superlinear"
+        >March</add></mod> 18<hi rend="underline"><hi rend="sup">th</hi></hi> 17&#x2014;</line>
     <line>"My dear Cousin</line>
     <line>"I cannot describe to you the uneasi</line>
   </zone>
-  <zone type="left_margin"><add xml:id="c56-0057.01">on whom</add></zone>
-  <zone type="pagination"><add xml:id="c56-0057.02">Ch V- 113</add></zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0057.01">on whom </add></line>
+  </zone>
+  <zone type="top"><add xml:id="c56-0057.02">Ch V&#x2013; 113</add></zone>
+  <!--change "top" to "chapter_heading" to account for headings that appear within the main body. "top" doesn't make sense and has no descriptive value-->
 </surface>
