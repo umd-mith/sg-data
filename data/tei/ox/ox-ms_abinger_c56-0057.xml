@@ -52,14 +52,15 @@
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="6"/>He then put the following letter</line>
     <line>into my hands.</line>
-    <line>"To V. Frankenstien</line>
-    <line>Geneva <mod>
+    <line><space unit="chars" extent="6"/>"To V. Frankenstien</line>
+    <line><space unit="chars" extent="22"/>Geneva <mod>
         <del rend="strikethrough">Apri</del>
         <del rend="unmarked">l</del>
         <add place="superlinear">March</add>
       </mod> 18<hi rend="underline"><hi rend="sup">th</hi></hi> 17&#x2014;</line>
     <line>"My dear Cousin</line>
-    <line>"I cannot describe to you the uneasi</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="5"/>"I cannot describe to you the uneasi</line>
   </zone>
   <zone type="left_margin">
     <line><add xml:id="c56-0057.01">on whom </add></line>
