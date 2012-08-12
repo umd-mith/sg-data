@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0065" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0065" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0065.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">95</zone>
+  <zone type="library">30</zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>"Dear, dear Elizabeth" I exclaimed</line>
+    <line>when I had read her letter"&#x2013;I will write</line>
+    <line>instantly and relieve them from the</line>
+    <line>great pain they must feel."</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="5"/>I wrote, and this exertion greatly</line>
+    <line>fatigued me<add place="intralinear" hand="#pbs">;</add> b<mod>
+        <del rend="overwritten">y</del>
+        <add place="intralinear">ut</add>
+      </mod> my convalescence <mod>
+        <del rend="strikethrough">was</del>
+        <add><ptr target="#c56-0065.01"/></add>
+      </mod></line>
+    <line>commenced and <mod>
+        <del rend="strikethrough">went <add place="superlinear">on</add></del>
+        <add place="superlinear" hand="#pbs">proceeded</add>
+      </mod> regularly&#x2013;in</line>
+    <line>another fortnight I was able to</line>
+    <line>leave my chamber.</line>
+    <line><metamark>______</metamark></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0065.01">had</add></line>
+  </zone>
 </surface>
