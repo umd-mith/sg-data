@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0065" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0065" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0065.tif"/>
-    <zone type="pagination">95</zone>
-    <zone type="library">30</zone>
-    <zone type="main">
-      <line>"dear, dear Elizabeth" I exclaimed</line>
-      <line>when I had read her letter. "I will write</line>
-      <line>instantly and relieve them from the</line>
-      <line>great pain they must feel."</line>
-      <milestone unit="tei:p"/>
-      <line><space/> I wrote, and this exertion greatly</line>
-      <line>fatigued me; b<mod type="subst"><del>y</del><add>ut</add></mod> my convalescence <mod type="deletions"><del rend="strikethrough">was</del></mod></line>
-      <line><mod type="additions"><ptr target="#c56-0065.1"/></mod> commenced and <mod type="subst"><del rend="strikethrough">went <mod type="additions"><add place="superlinear">on</add></mod></del><add place="superlinear">proceded</add></mod> regularly&#x2014;in</line>
-      <line>another fortnight I was able to</line>
-      <line>leave my chamber.</line>
-      <line><metamark function="chapterEnd"/></line>		<!--long dash under word 'chamber' signifiying end of chapter.-->
-    </zone>
-    <zone type="left_margin">
-      <line><add xml:id="c56-0065.1" resp="#pbs">had</add></line>
-    </zone>
+  <zone type="pagination" rend="bordered">95</zone>
+  <zone type="library">30</zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>"Dear, dear Elizabeth" I exclaimed</line>
+    <line>when I had read her letter"&#x2013;I will write</line>
+    <line>instantly and relieve them from the</line>
+    <line>great pain they must feel."</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="5"/>I wrote, and this exertion greatly</line>
+    <line>fatigued me<add place="intralinear" hand="#pbs">;</add> b<mod><del rend="overwritten"
+          >y</del><add place="intralinear">ut</add></mod> my convalescence <mod><del
+          rend="strikethrough">was</del><add><ptr target="#c56-0065.01"/></add></mod></line>
+    <line>commenced and <mod><del rend="strikethrough">went <add place="superlinear"
+          >on</add></del><add place="superlinear" hand="#pbs">proceeded</add></mod>
+      regularly&#x2013;in</line>
+    <line>another fortnight I was able to</line>
+    <line>leave my chamber.</line>
+    <line><metamark>______</metamark></line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0065.01">had</add></line>
+  </zone>
 </surface>
