@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0064" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+            type="application/relax-ng-compact-syntax"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0064" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0064.tif"/>
-  <zone type="pagination" rend="bordered">94</zone>  
+  <zone type="pagination" rend="bordered">94</zone>
   <zone type="main">
     <line>say <del rend="strikethrough">I</del> you wish to be indulged in a little</line>
     <line>gossip about your acquaintance. The</line>
     <line>pretty Miss Mansfeld has already received</line>
-    <line><del rend="strikethrough">on</del> <del rend="strikethrough">her</del> the congratulatory visits on her</line>
+    <line><del rend="strikethrough">on</del>
+      <del rend="strikethrough">her</del> the congratulatory visits on her</line>
     <line>approaching marriage with a young</line>
     <line>Englishman, John <del rend="strikethrough">Mebourne</del> Mel-</line>
     <line>bourne Esq. Her ugly sister Manon</line>
@@ -17,35 +20,37 @@
     <line>of Clerval from Geneva <del rend="strikethrough">b</del> But he</line>
     <line>has <del rend="strikethrough">atready</del> already recovered his spirits</line>
     <line>and he reported to <del rend="strikethrough">m</del> be on the point</line>
-    <line>of Marrying a very lively pretty french</line>
-    <line>woman- Mad. Tavernier -She is a widow</line>
+    <line>of marrying a very lively pretty french</line>
+    <line>woman&#x2014; Mad. Tavernier &#x2013;She is a widow</line>
     <line>and much older than Manoir but</line>
     <line>she is much <del rend="strikethrough">adv</del> admired and a</line>
     <line>favourite with every body.</line>
-    <milestone unit="tei:p"/><line>I have written myself into good spi</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>I have written myself into good spi</line>
     <line>rits, dear Cousin yet I can not conclude</line>
     <line>without again anxiously enquiring</line>
-    <line>concerning your health&#8212; Dear Victor, if</line>
+    <line>concerning your health&#x2014; Dear Victor, if</line>
     <line>you are not very ill write yourself</line>
     <line>and make your father and all</line>
-    <line>of us happy or&#8212; I cannot bear to<add><ptr target="#c56-0064.02"/></add></line>
-    <milestone unit="tei:p"/><line>Your very affectionate Cousin</line>
-    <line><add><ptr target="#c56-0064.03"/></add>Elizabeth Lavenza</line>
+    <line>of us happy or&#x2014; I cannot bear to <add><ptr target="#c56-0064.01"/></add></line>
+    <line><space unit="chars" extent="11"/>Your very affectionate Cousin</line>
+    <line><space unit="chars" extent="20"/>Elizabeth Lavenza</line>
   </zone>
-  <!-- The following zones are a mess: (1) I created another "main" zone for a line that is in the main zone, but not a 
-  part of the rest of the zone, (2) the word "write" is just floating around, (3) there needs to be a huge parentheses 
-  added, (4) I am not sure where to place the pointer -->
-    <zone type="left_margin">
-      
-    <line><addSpan xml:id="c56-0064.02" spanTo="#c56-0064.01"/>think <mod>
-      <del rend="strikethrough">of</del>
-      <add place="sublinear">&#x2038;</add><add place="superlinear">on</add>
-    </mod> the</line>
+
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0064.01" spanTo="#c56-0064.02"/>
+    <line>think <mod><del rend="strikethrough">of</del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">on</add></mod> the</line>
     <line>other side</line>
     <line>of the question</line>
     <line>my tears al-</line>
-    <line>ready flow<anchor xml:id="c56-0064.01"/></line>
-    </zone>
-    <line><addSpan xml:id="c56-0064.03" spanTo="#c56-0064.04"/><del rend="strikethrough">dearrest</del> - dearest Victor</line>
-    <line>write-<anchor xml:id="c56-0064.04"/></line>
+    <line>ready flow</line><anchor xml:id="c56-0064.02"/>
+  </zone>
+
+  <zone type="main">
+    <addSpan spanTo="#c56-0064.03"/>
+    <line><del rend="strikethrough">dearrest</del> - dearest Victor<metamark>)</metamark></line>
+    <line>write&#x2013;</line><anchor xml:id="c56-0064.03"/>
+  </zone>
+  <!--this zone appears in the main body but does not clearly link to any text-->
 </surface>
