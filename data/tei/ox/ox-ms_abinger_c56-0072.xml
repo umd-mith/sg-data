@@ -3,46 +3,47 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0072" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0072.tif"/>
-  <zone type="pagination">
-    <line>102</line>
+  <zone type="pagination" rend="bordered"><line>102</line>
   </zone>
   <zone type="main">
     <line>ted himself to amuse me, while he expressed</line>
-    <line>the feelings that <del rend="strikethrough">al</del> filled his <mod type="subst"><del
-          rend="strikethrough">mind</del><add place="sublinear">&#x2038;</add><add
-          place="superlinear">soul</add></mod>. The</line>
+    <line>the feelings that <del rend="strikethrough">al</del> filled his <mod><del
+          rend="strikethrough">mind</del><add place="sublinear"
+          ><metamark>&#x2038;</metamark></add><add place="superlinear">soul</add></mod>. The</line>
     <line>resources of his mind on this occasion</line>
-    <line>were truly astonishing. <delSpan spanTo="#c56-0072.01"/>As we rested during</line>
-    <line>the sultry heat of noon he invented</line><anchor xml:id="c56-0072.01"/>
+    <line>were truly astonishing. <delSpan spanTo="#c56-0072.01" rend="strikethrough"/>As we rested
+      during</line>
+    <line>the sultry heat of noon he invented<anchor xml:id="c56-0072.01"/></line>
     <line>his conversation was full of imagination</line>
     <line>and very often, in imitation of the persi</line>
-    <line>an &amp; Arabic writers, he invented tales</line>
-    <line>of <mod type="subst"><del rend="strikethrough">great</del><add place="sublinear"
-          >&#x2038;</add><add place="superlinear">wonderful</add></mod> fancy and interrest. At
-      other</line>
+    <line>an &#x26; Arabic writers, he invented tales</line>
+    <line>of <mod><del rend="strikethrough">great</del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">wonderful</add></mod> fancy
+      and interrest. At other</line>
     <line>times he repeated my favourite poems</line>
     <line>or drew me out into arguments which</line>
     <line>he supported with great ingenuity.</line>
     <milestone unit="tei:p"/>
-    <line>We returned <mod type="additions"><add place="sublinear">&#x2038;</add><add
-          place="superlinear">to our colledge</add></mod> on a sunday – the pea</line>
+    <line><space unit="chars" extent="7"/>We returned <mod><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">to our colledge</add></mod>
+      on a sunday &#x2013; the pea</line>
     <line>sants were dancing and every one we</line>
-    <line>met appeared joyful and happy – my</line>
+    <line>met appeared joyful and happy &#x2013; my</line>
     <line>own spirits were high and I bounded</line>
-    <line>along with <mod type="deletions"><del rend="cross-hatch">a</del> feelings of <del
-          rend="strikethrough">hilarity</del>
-        <del rend="strikethrough">unbound</del></mod></line>
-    <line><add><ptr target="#c56-0072.02"/></add> joy and hilarity.</line>
+    <line>along with <del rend="strikethrough">a</del> feelings of <modSpan spanTo="#c56-0072.02"
+        /><del rend="strikethrough">hilarity</del>
+      <delSpan spanTo="#c56-0072.03" rend="strikethrough"/>unbound</line>
+    <line>ed<anchor xml:id="c56-0072.03"/><add><ptr target="#c56-0072.04"/></add><anchor
+        xml:id="c56-0072.02"/> joy and hilarity.</line>
   </zone>
 
-  <!--Please advise @type value for zone for these numbers: 
-        <zone type="bottom"><line>20</line>
-              <line>15</line>       
-         </zone>
-    -->
-
   <zone type="left_margin">
-    <line><add xml:id="c56-0072.02">unbridled<del rend="cross-hatch">ed</del></add></line>
+    <line><add xml:id="c56-0072.04">unbridled</add></line>
+  </zone>
+
+  <zone type="main">
+    <line><metamark function="count">20</metamark></line>
+    <line><metamark function="count">15</metamark></line>
   </zone>
 
 
