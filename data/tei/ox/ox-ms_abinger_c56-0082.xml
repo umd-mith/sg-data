@@ -1,87 +1,105 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0082.tif"/>
-    <zone type="pagination">
-                                102             
-    </zone>
+  <zone type="pagination" rend="bordered">112</zone>
   <zone type="main">
-    <line>
-      before I allowed myself to enjoy the delight of a 
-    </line>
-<line>
-  union, <add hand="#pbs" place="superlinear">from which I expected</add><del rend="strikethrough">I should otherwise eagerly expect</del> I remembered
-</line>
-    <line>
-      also the necessity I was under of either <add hand="#pbs" place="superlinear">journeying</add><del rend="strikethrough">going</del> to England
-    </line>
-    <line>
-      or entering into a long correspondence with th<del rend="overwritten">ose</del><add>e</add>
-    </line>
-    <line>
-      <add hand="#pbs" place="superlinear">philosophers</add><del rend="strikethrough">men</del> of that country whose knowledge and discove
-    </line>
-    <line>
-      ries <del rend="strikethrough">might</del><add hand="#pbs" place="superlinear">were of</add> be of <del rend="strikethrough">inestimable</del><add hand="#pbs" place="superlinear">indispensable</add><add place="superlinear"><unclear reason="illegible">map? reap? apparently incomplete word</unclear></add><note>Robinson transcription of superlinear insertion here (above "use") APPEARS TO BE INCORRECT -- see transcript footnotes for lines 10,11. Smudged out writing does not appear to be "necess" </note><del rend="strikethrough">use</del><add place="intralinear">use</add> to me<metamark>&#x2038;</metamark> <add place="superlinear">in my persent undertaking</add>. The latter
-    </line>
-    <line>
-      method of obtaining the desired intelligence was dilato
-    </line>
-    <line>
-      ry and unsatisfactory; besides any change of scene
-    </line>
-    <line>
-      was agreable to me and I was delighted with the
-    </line>
-    <line>
-      idea of spending a year or two <del rend="strikethrough">away from</del><del rend="strikethrough"><add hand="#pbs" place="superlinear">in absence from</add></del> <del rend="strikethrough">my fami</del><add hand="#pbs" place="sublinear">in change of scene &amp; variety of occupation in absence from my family</add>
-    </line>
-    <line>
-      <del rend="strikethrough">ly</del> during which time <del rend="strikethrough">during this time which</del>
-    </line>
-     <line>
-       <del rend="strikethrough">time</del> some event might happen which would
-     </line> 
-    <line>
-      restore me to them in peace and happiness. My
-    </line>
-    <line>
-      promise might be fulfilled, and the monster
-    </line>
-    <line>
-      have departed or some <del rend="strikethrough">other</del> accident might
-    </line>
-    <line>
-      occur to destroy him and put a<add place="sublinear">n</add><note>insertion of "n" is rendered as _subscript_</note> <del rend="strikethrough">f</del> end to my
-    </line>
-    <line>
-      slavery for ever<metamark>&#x2014;</metamark>These feelings dictated my an
-    </line>
-    <line>
-      swer to my father. I <del rend="strikethrough">said I</del><add place="superlinear">expressed <del rend="strikethrough">my</del>a </add>wish<del rend="strikethrough">ed</del> to visit England
-    </line>
-    <line>
-      but concealing <del rend="strikethrough">my</del><add place="superlinear">the</add><note>superlinear "the" appears maybe capitalized, and hand differs from Mary's in rest of MS (note formation of "h" w/out curly ligature?--attribution unclear to me</note> true reasons <del rend="strikethrough">for my</del><add place="superlinear">of this</add> request I
-    </line>
-    <line>
-      clothed my desires under the guise of <del rend="strikethrough">wh</del>wishing to
-    </line>
-    <line>
-      travel and see the world before I sat down
-    </line>line&gt;
-      <line>
-      for life within the walls of my native town. 
-      <milestone unit="paragraph"/>
-    </line>
-    <line>
-      I urged my <add hand="#pbs" place="superlinear">entreaty</add><note>note "y" in "entreaty" also has no hook-tail shape to it, like main text--another distinguishing hand attribute?</note><del rend="strikethrough">request</del> with earnestness and
-    </line>
-    <line>
-    my father was easily induced to <del rend="strikethrough">grant it</del><add place="superlinear">comply</add> for a    
-    </line>
-    <line>
-      <del rend="strikethrough">man</del> more indulgent <del rend="strikethrough">and</del> <add hand="#pbs" place="superlinear"> or a</add> less dictatorial parent
-    </line>
+    <line><mod>
+        <del rend="strikethrough">that country</del>
+        <add place="superlinear">Switzerland</add>
+      </mod> appeared at once in various</line>
+    <line>parts of the heavens. The most violent</line>
+    <line>storm <mod>
+        <del rend="strikethrough">was</del>
+        <add place="superlinear" hand="#pbs">hung</add>
+      </mod> exactly <del rend="strikethrough">noth</del> north of the town</line>
+    <line><mod>
+        <del rend="strikethrough">and at</del>
+        <add place="superlinear" hand="#pbs">over</add>
+      </mod> that part <mod>
+        <del rend="strikethrough">where</del>
+        <add place="superlinear" hand="#pbs">of the</add>
+      </mod> lake <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <del rend="strikethrough">turns</del>
+        <add place="superlinear" hand="#pbs" next="#c56-0082.01">which <del rend="strikethrough"
+            >at</del></add>
+        <add place="sublinear" xml:id="c56-0082.01" hand="#pbs">lies between</add>
+      </mod></line>
+    <line>the promontory of Belrive and <modSpan spanTo="#c56-0082.02"/><del rend="strikethrough"
+        next="#c56-0082.03">changing</del><add place="superlinear" hand="#pbs" next="#c56-0082.04"
+        >the</add></line>
+    <line><add place="superlinear" hand="#pbs" xml:id="c56-0082.04">village of Copet</add>
+      <delSpan spanTo="#c56-0082.05" rend="strikethrough"/>its course from South to north
+      which</line>
+    <line>it before p<mod>
+        <del rend="overwritten"><unclear>e</unclear></del>
+        <add place="intralinear">u</add>
+      </mod>rsue<mod>
+        <add place="sublinear">s</add>
+        <del rend="strikethrough">d</del>
+      </mod> proceeds from west</line>
+    <line>to east<anchor xml:id="c56-0082.05"/> &#x2014; another storm enlightened</line>
+    <line>Jura with faint flashes and another</line>
+    <line><del rend="strikethrough">appeared</del> darkened and sometimes</line>
+    <line>disclosed the Mole &#x2013; <del rend="strikethrough">the name of</del></line>
+    <line>a peaked mountain to the east of</line>
+    <line>the lake.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="2"/>While I watched the storm &#x2013; so beauti</line>
+    <line>ful yet terrific I wandered <del rend="strikethrough">listlessly</del></line>
+    <line>on with a hasty step &#x2013; <del rend="strikethrough">I felt that</del></line>
+    <line>th<mod>
+        <del rend="overwritten">is</del>
+        <add place="intralinear" hand="#pbs">i</add>
+      </mod> noble war in the sky elevated</line>
+    <line>my spirits; I clasped my hands &#x26; ex</line>
+    <line>claimed aloud "William, dear angel,</line>
+    <line>this is thy funeral, this thy dirge!"&#x2013;</line>
+    <line>As I said the<add place="sublinear">se</add> words <modSpan spanTo="#c56-0082.06"/><del
+        rend="strikethrough" next="#c56-0082.07">a flash of lightning</del><add place="superlinear"
+        >I perceived in the gloom</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0082.07">discovered to me</del><anchor
+        xml:id="c56-0082.06"/> a figure which stole from</line>
+    <line>behind a clump of trees near me &#x2013; <modSpan spanTo="#c56-0082.08"/><add
+        place="superlinear"><metamark>X</metamark></add><add><ptr target="#c56-0082.09"/></add>
+      <delSpan spanTo="#c56-0082.11" rend="strikethrough"/>I stood</line>
+    <line>aghast<anchor xml:id="c56-0082.11"/><anchor xml:id="c56-0082.08"/> its gigantc sta<del
+        rend="strikethrough">n</del>ture<mod>
+        <del rend="strikethrough">, its</del>
+        <add place="superlinear" hand="#pbs">&#x26; the</add>
+      </mod> deformity</line>
+    <line><add place="superlinear" hand="#pbs">of its aspect</add>more hideous tha<mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">n</add>
+      </mod>
+      <mod>
+        <del rend="strikethrough">a</del>
+        <del rend="strikethrough">man could be</del>
+        <add place="superlinear">belongs to humanity</add>
+      </mod></line>
+    <line><del rend="strikethrough">explain</del> instantly informed me who it</line>
+    <line>was. I<add place="intralinear">t</add> was the wretch, the filthy d&#xE6;mon to</line>
+    <line>whom I had given life. What did he there?</line>
+    <line>Could he be (I shuddered at the conception</line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0082.09" spanTo="#c56-0082.10"/>
+    <line>I stood</line>
+    <line>fixed gazing</line>
+    <line>intently, I</line>
+    <line> could not</line>
+    <line> be mista</line>
+    <line> ken a</line>
+    <line>flash of</line>
+    <line> lightning</line>
+    <line> illumined</line>
+    <line>the object<unclear>,</unclear></line>
+    <line>and discov</line>
+    <line>ered to me</line>
+    <anchor xml:id="c56-0082.10"/>
   </zone>
 </surface>
