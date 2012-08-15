@@ -5,60 +5,58 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0068.tif"/>
   <zone type="pagination"><line>98</line></zone>
   <zone type="main">
-    <line><milestone unit="tei:p"/>Mr. Krempe was not <mod type="additions"><add place="superlinear"
-          >&#x2038;</add><add place="superlinear">equally</add></mod> docile <mod type="subst"
-        xml:id="c56-0068.01" next="#c56-0068.02"><del rend="strikethrough">yet</del>
-        <del rend="strikethrough">weak</del><add place="superlinear">&amp;</add></mod></line>
-    <line><mod prev="#c56-0068.01" type="subst" xml:id="c56-0068.02"><del rend="strikethrough"
-          >as</del>
-        <del rend="strikethrough">my illness had made me</del><add><ptr target="#c56-0068.03"
-          /></add></mod> his harsh</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="5"/>M<hi rend="sup">r</hi>. Krempe was not <mod><add
+          place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
+          >equally</add></mod> docile <modSpan spanTo="#c56-0068.01"/><del rend="strikethrough"
+        >yet</del><add place="superlinear">&#x26;</add>
+      <delSpan spanTo="#c56-0068.02" rend="strikethrough"/>weak</line>
+    <line>as my illness had made me<anchor xml:id="c56-0068.02"/><add><ptr target="#c56-0068.03"
+        /></add><anchor xml:id="c56-0068.01"/> his harsh</line>
     <line>blunt econiums gave me even more</line>
     <line>pain <del rend="strikethrough">that</del> than the benevolent</line>
-    <line>approbation of M. Waldman –<milestone spanTo="#c56-0068.04" unit="tei:q"
-        /><metamark>"</metamark>Damn</line>
-    <line><metamark>"</metamark>the fellow,"<anchor xml:id="c56-0068.04"/> cried he <milestone
-        spanTo="#c56-0068.05" unit="tei:q"/>"Why Mr. Clerval</line>
-    <line><metamark>"</metamark>I tell you he has <del rend="strikethrough">beaut</del>
-      outstript</line>
-    <line><metamark>"</metamark>us all– ay stare if you please but</line>
-    <line><metamark>"</metamark>it is nevertheless true – A youngster</line>
-    <line><metamark>"</metamark>who but two three years ago believed</line>
-    <line><metamark>"</metamark>Cornelius Agrippa <mod type="subst"><del rend="strikethrough">to
-          be</del><add place="sublinear">&#x2038;</add><add place="superlinear">as firmly as
-          the</add></mod> gospel has</line>
-    <line><metamark>"</metamark>now set himself at the head of</line>
-    <line><metamark>"</metamark>the university &amp; if he is not soon</line>
-    <line><metamark>"</metamark>pulled down we shall all be out</line>
-    <line><metamark>"</metamark>of countenance.—Aye, Aye, continued</line>
-    <line><metamark>"</metamark>he observing my <mod type="subst"><del rend="strikethrough"
-          >countenance</del><add place="sublinear">&#x2038;</add><add place="superlinear"
-        >face</add></mod> ex</line>
-    <line><metamark>"</metamark>pressive of suffering "Mr. <del rend="cross-hatch">/</del>
-      Franken-</line>
-    <line><metamark>"</metamark>stein is modest an excellent quality in</line>
-    <line><metamark>"</metamark>a young man; Young men should be</line>
-    <line><metamark>"</metamark>diffident of themselves you know Mr-</line>
-    <line><metamark>"</metamark>Clerval; I was myself when young but</line>
-    <line><metamark>'</metamark>one soon grows out of that.<metamark>"</metamark><anchor
-        xml:id="c56-0068.05"/></line>
+    <line>approbation of M. Waldman &#x2014;"Dam<mod><del rend="overwritten">m</del><add
+          place="intralinear">n</add></mod></line>
+    <line>"the fellow," cried he "Why M<hi rend="sup">r</hi>. Clerval</line>
+    <line>"I tell you he has <del rend="strikethrough">beaut</del> outstript</line>
+    <line>"us all– ay stare if you please but</line>
+    <line>"it is nevertheless true &#x2013; A youngster</line>
+    <line>"who but <del rend="strikethrough">two</del> three years ago believed</line>
+    <line>"Cornelius Agrippa <mod><del rend="strikethrough">to be</del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">as firmly as
+        the</add></mod> gospel has</line>
+    <line>"now set himself at the head of</line>
+    <line>"the university &#x26; if he is not soon</line>
+    <line>"pulled down we shall all be out</line>
+    <line>"of countenance.&#x2014;Aye, Aye, continued</line>
+    <line>"he observing my <mod><del rend="strikethrough">countenance</del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">face</add></mod> ex</line>
+    <line>"pressive of suffering "Mr. <del rend="strikethrough">f</del> Franken-</line>
+    <line>"stein is modest an excellent quality in</line>
+    <line>"a young man; Young men should be</line>
+    <line>"diffident of themselves you know M<hi rend="sup"><hi rend="underline">r</hi></hi></line>
+    <line>"Clerval; I was myself when young but</line>
+    <line>"one soon grows out of that."</line>
     <milestone unit="tei:p"/>
-    <line>Mr Krempe had now commenced</line>
-    <line><mod type="subst"><del rend="strikethrough">the subject of his own praise</del><add
-          place="superlinear">an eulogy on himself</add></mod> and that</line>
+    <line><space unit="chars" extent="5"/>M<hi rend="sup"><hi rend="underline">r</hi></hi> Krempe
+      had now commenced</line>
+    <line><mod><del rend="strikethrough">the subject of his own praise</del><add place="superlinear"
+          >an eulogy on himself</add></mod> and that</line>
     <line>happily turned the conversation</line>
-    <line>from the subject that was so <mod type="subst"><del rend="strikethrough">painful</del><add
-          place="superlinear" resp="#pbs">agonizing</add></mod></line>
+    <line>from the subject that was so <mod><del rend="strikethrough">painful</del><add
+          place="superlinear" hand="#pbs">agonizing</add></mod></line>
     <line>to me.</line>
     <milestone unit="tei:p"/>
-    <line>Clerval was no natural philosopher.</line>
+    <line><space unit="chars" extent="3"/>Clerval was no natural philosopher.</line>
     <line>His imagination was too vivid for</line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0068.03" spanTo="#c56-0068.06"/><line>in my then</line>
+    <addSpan xml:id="c56-0068.03" spanTo="#c56-0068.04" hand="#pbs"/>
+    <line>in my then</line>
     <line>condition of</line>
     <line>almost in-</line>
     <line>-supportable</line>
     <line>sensitiveness</line>
-    <anchor xml:id="c56-0068.06"/></zone>
+    <anchor xml:id="c56-0068.04"/>
+  </zone>
 </surface>
