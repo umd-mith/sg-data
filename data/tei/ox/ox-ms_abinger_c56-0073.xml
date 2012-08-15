@@ -3,46 +3,45 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0073" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0073.tif"/>
-  <zone type="pagination"><line>103</line></zone>
-  <zone type="library"><line>34</line></zone>
+  <zone type="pagination" rend="bordered">103</zone>
+  <zone type="library">34</zone>
   <zone type="top">
-    <line>Chap. 9<hi rend="underline"
-      >th</hi><!--first use of <hi> that I'm aware of—are we using this?--></line></zone>
+    <line>Chap. 9<hi rend="sup"><hi rend="underline">th</hi></hi></line>
+  </zone>
   <zone type="main">
     <line>On my return I found the following letter</line>
     <line>from my father.</line>
-    <!--I propose we encode this with TEI appropriate for the letter format. Consider the following markup in light of <line> and <milestone> elements-->
-    <milestone unit="tei:div" spanTo="#c56-0073.01"/>
-    <!--note spanTo ID for this milestone element: we will need to close the span for the letter format at the closure of the letter. I wasn't able to find the page that closure occurs on. Let this be a note to whoever encodes that page to anchor this ID-->
-    <milestone unit="tei:opener" spanTo="#c56-0073.02"/>
-    <milestone unit="tei:dateline" spanTo="#c56-0073.03"/><line>To V.–Frankenstein</line>
-    <line><metamark>__</metamark> Geneva – June 2<hi rend="underline">nd</hi>– 17——</line><anchor
-      xml:id="c56-0073.03"/>
-    <milestone unit="tei:salute" spanTo="#c56-0073.04"/><line>My dear Victor</line><anchor
-      xml:id="c56-0073.04"/>
-    <anchor xml:id="c56-0073.02"/>
-    <milestone unit="tei:p"/><line>You have probably waited impati-</line>
-    <line>ently <del rend="double-strike">the</del> for <mod type="subst"><del rend="strikethrough"
-          >the</del><add place="superlinear">a</add></mod> letter <del rend="strikethrough">which
-          <mod rend="strikethrough">was</mod></del> to fix</line>
-    <line><add><ptr target="#c56-0073.05"/></add> your return and I was at first tempted</line>
-    <line>to write a few lines <mod type="subst" xml:id="c56-0073.06" next="#c56-0073.07"><del
-          rend="strikethrough">only</del> to <del rend="strikethrough">fix</del>
-        <del rend="strikethrough">that</del><add place="superlinear">merely mentioning the
-        day</add></mod></line>
-    <line><mod type="subst" xml:id="c56-0073.07" prev="#c56-0073.06"><del rend="strikethrough"
-          >date</del><add><ptr target="#c56-0073.08"/></add></mod> – but that would be <mod
-        type="additions"><add place="sublinear">&#x2038;</add><add place="superlinear">a</add></mod>
-      <mod type="subst"><del rend="strikethrough">very</del> cruel <add place="sublinear"
-          >&#x2038;</add><add place="superlinear">kindness</add></mod></line>
-    <line>and I dare not do it. What would <mod type="additions"><add place="sublinear"
-          >&#x2038;</add><add place="superlinear">be</add></mod> your</line>
-    <line>surprise <del rend="strikethrough">be</del>, my son<del rend="cross-hatch">e</del>, when
+    <!--Beginning of a letter that spans that spans to 56-0076. Consult and encode.-->
+    <line><space unit="chars" extent="6"/>To V.&#x2013;Frankenstein</line>
+    <line><space unit="chars" extent="18"/>Geneva &#x2013; June 2<hi rend="sup"><hi rend="underline"
+          >n</hi>d</hi>&#x2013; 17&#x2014;</line>
+    <line>My dear Victor</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="7"/>You have probably waited impati-</line>
+    <line>ently <del rend="strikethrough">the</del> for <mod><del rend="strikethrough">the</del><add
+          place="superlinear">a</add></mod> letter <del rend="strikethrough">which was</del> to
+      fix</line>
+    <line><add><ptr target="#c56-0073.01"/></add> your return and I was at first tempted</line>
+    <line>to write a few lines <modSpan spanTo="#c56-0073.02"/><del rend="strikethrough">only</del>
+      <del rend="unmarked">to</del>
+      <del rend="strikethrough">fix</del>
+      <del rend="strikethrough">that</del><add place="superlinear">merely mentioning the
+      day</add></line>
+    <line><del rend="strikethrough">date</del><add><ptr target="#c56-0073.03"/></add><anchor
+        xml:id="c56-0073.02"/> &#x2013; but that would be <mod><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">a</add><del
+          rend="strikethrough">very</del></mod> cruel <mod><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">kindness</add></mod></line>
+    <line>and I dare not do it. What would <mod><add place="sublinear"
+          ><metamark>&#x2038;</metamark></add><add place="superlinear">be</add></mod> your</line>
+    <line>surprise <del rend="strikethrough">be</del>, my son<del rend="strikethrough">e</del>, when
       your ex</line>
     <line>pected a happy and gay welcome to <del rend="strikethrough">heho</del></line>
-    <line>beheld on the contrary tears and wretched</line>
+    <line>beh<mod><del rend="overwritten">o</del><add place="intralinear">e</add></mod>ld on the
+      contrary tears and wretched</line>
     <line>ness. And how, Victor, can I relate our</line>
-    <line>misfortune? absence cannot have rendered</line>
+    <line>misfortune<mod><del rend="overwritten"><unclear>;</unclear></del><add place="intralinear"
+          >?</add></mod> absence cannot have rendered</line>
     <line>you callous to our joys and griefs and how</line>
     <line>can I inflict pain on an absent child.?</line>
     <line>I wish to prepare you for the woeful</line>
@@ -51,23 +50,24 @@
     <line>seek the words which are to convey to</line>
     <line>you the horrible tidings.</line>
     <milestone unit="tei:p"/>
-    <line>William is dead! That sweet child</line>
-    <line>whose smiles delighted &amp; warmed me</line>
+    <line><space unit="chars" extent="4"/>William is dead! That sweet child</line>
+    <line>whose smiles delighted &#x26; warmed me</line>
     <line>who was so gentle yet so gay, Victor, he</line>
     <line>is Murdered!</line>
     <milestone unit="tei:p"/>
-    <line>I will not attempt to <del rend="cross-hatch">o</del> console you</line>
+    <line><space unit="chars" extent="3"/>I will not attempt to <del rend="strikethrough">o</del>
+      console you</line>
     <line>but will simply relate the circumstances</line>
     <line>of the transaction.</line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0073.05">the date of</add></line>
+    <line><add xml:id="c56-0073.01">the date of</add></line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0073.08" spanTo="#c56-0073.09"/>
+    <addSpan xml:id="c56-0073.03" spanTo="#c56-0073.04"/>
     <line>on which</line>
     <line>I should</line>
     <line>expect you</line>
-    <anchor xml:id="c56-0073.09"/>
+    <anchor xml:id="c56-0073.04"/>
   </zone>
 </surface>
