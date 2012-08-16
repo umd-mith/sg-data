@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104"
-  partOf="#ox-ms_abinger_c56-0083">
+  xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0083.tif"/>
-  <zone type="pagination">113</zone>
+  <zone type="pagination" rend="bordered">113</zone>
   <zone type="library">39</zone>
   <zone type="main">
-    <line> the murderer of my brother. No sooner</line>
+    <line>the murderer of my brother. No sooner</line>
     <line>did that idea cross my imagination than</line>
-    <line>I became convinced <mod type="additions"><add place="sublinear"
-            ><metamark>&#x2038;</metamark></add><add place="superlinear">of its truth</add></mod>-
-      my teeth chattered</line>
+    <line>I became convinced <mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add
+          place="superlinear">of its truth</add></mod> - my teeth chattered</line>
     <line>and I was forced to lean against <del rend="strikethrough">th</del> a </line>
-    <line>tree for suport- The figure quickly passed</line>
-    <line>me and I lost it in the gloom.<del rend="strikethrough">And</del>
-      <del rend="overwritten">h</del>He</line>
-    <line>was the murderer! <add><ptr target="#c56-0083.01"/></add><mod type="deletions">
+    <line>tree for support- The figure quickly passed</line>
+    <line>me and I lost it in the gloom. <del rend="strikethrough">And</del>
+      <mod><del rend="overwritten">h</del><add place="intralinear">H</add></mod>e</line>
+    <line><add><ptr target="#c56-0083.01"/></add>was the murderer! <modSpan spanTo="c56-0083.02"/>
+      I<mod><del rend="strikethrough"><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">could not</add></del></mod> doubt<del rend="strikethrough">ed</del> it
+      
+      
+      
         <del rend="strikethrough">I doubted </del><add place="sublinear"
             ><metamark>&#x2038;</metamark></add><add place="superlinear"><del rend="strikethrough"
             >could not</del></add>
-        <del rend="strikethrough">it not my</del></mod></line>
+        <del rend="strikethrough">it not my</del></line>
     <line><del rend="strikethrough">the thought was agony</del><del rend="strikethrough"><add
           place="superlinear"> I was agonized by the bare probability</add></del>.- I thought of
       pur</line>
@@ -34,7 +36,7 @@
     <line>ascent of the Mont-Sal&#234;ve; he soon reached</line>
     <line>the summit and dissapeared.</line>
     <line>I remained motionless the thunder</line>
-    <line> ceased but the rain still continued &amp;</line>
+    <line> ceased but the rain still continued &#x26;</line>
     <line>the scene was inveloped in a<add place="intralinear">n</add>
       <mod type="subst"><del rend="strikethrough">pitchy</del>
         <add place="superlinear">impenetrable</add></mod> dark-</line>
@@ -62,13 +64,40 @@
     <line>No one can conceive of the anguish I </line>
     <line> suffered during the remainder of the</line>
   </zone>
-  <zone type="left_margin"><add>therefore</add><!-- It is not clear where this word should be inserted 
-      and the Word Files seem to have eliminated it. --></zone>
-  <zone type="left_margin"><add xml:id="c56-0083.01">Nothing <add place="superlinear" resp="#pbs"
-        >in</add> human shape could have destroyed that fair child. He was the murderer! I could not
-      doubt it. The mere presence of the idea was an irresistible proof of the fact</add></zone>
-  <zone type="left_margin"><add>I revolved in my mind</add><!-- This phrase appears three times in the document. Twice in main body, one is cancelled. 
-      This marginal occurrence does not appear to have a logical place for insertion --></zone>
-  <zone type="left_margin"><add xml:id="c56-0083.02">The whole train of my progress towards my
-      <unclear/>creation</add></zone>
+
+  <zone type="left_margin">
+    <line><add xml:id="c56-0083.01">therefore</add></line>
+  </zone>
+
+  <zone type="left_margin"><addSpan spanTo="#c56-0083." xml:id="c56-0083." hand="#pbs"/>
+    <line>Nothing<add place="superlinear" hand="#pbs">in</add> human</line>
+    <line>shape could</line>
+    <line>have destroyed</line>
+    <line>that fair</line>
+    <line>child. He</line>
+    <line>was the</line>
+    <line>murderer!</line>
+    <line>I could not</line>
+    <line>doubt it.</line>
+    <line>The mere presence</line>
+    <line>of the idea</line>
+    <line>was an ir</line>
+    <line>-resistible</line>
+    <line>proof of the</line>
+    <line>fact</line><anchor xml:id="c56-0083."/>
+  </zone>
+
+  <zone type="left_margin">
+    <line><add xml:id="c56-0083." hand="#pbs">I revolved in my mind</add></line>
+  </zone>
+
+  <zone type="left_margin">
+    <addSpan spanTo="#c56-0083." xml:id="c56-0083." hand="#pbs"/>
+    <line>The whole</line>
+    <line>train of my</line>
+    <line>progress to-</line>
+    <line>wards my</line>
+    <line><del rend="strikethrough"><unclear unit="chars" extent="1"/></del> creation</line>
+    <anchor xml:id="c56-0083."/>
+  </zone>
 </surface>
