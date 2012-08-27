@@ -1,62 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0090" ulx="0" uly="0" lrx="5364" lry="7104">
+  xml:id="ox-ms_abinger_c56-0090" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0090.tif"/>
-  <zone type="pagination">
-    <line>120</line>
-  </zone>
+  <zone type="pagination" rend="bordered">120</zone>
+  <zone type="top"><line>Chap. 11</line></zone>
   <zone type="main">
-    <line>Chap. 11</line>
     <milestone unit="tei:p"/>
-    <line>We were soon joined <mod type="subst"><del rend="cross-hatch">B</del><del
-          rend="triple-strike">y</del><add place="sublinear">&#x2038;</add><add place="superlinear"
-          >by</add></mod> Elizabeth. Time</line>
+    <line><space unit="chars" extent="1"/>We were soon joined <mod><del rend="strikethrough"
+          >By</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add
+          place="superlinear">by</add></mod> Elizabeth. Time</line>
     <line>had made great alterations in her form since</line>
     <line>I had last beheld her. Five years <del rend="strikethrough">ago</del> before</line>
-    <line>she was a pretty, good humoured girl <delSpan spanTo="#c56-0090.01"/>with an</line>
+    <line>she was a pretty, good humoured girl <delSpan spanTo="#c56-0090.01" rend="strikethrough"
+      />with an</line>
     <line>understanding above her years<anchor xml:id="c56-0090.01"/> Whom every</line>
-    <line>one loved, and <mod type="subst"><del rend="strikethrough">humoured</del><add
-          place="superlinear">caressed</add></mod>. She was now a woman</line>
+    <line>one loved, and <mod><del rend="strikethrough">humoured</del><add place="superlinear"
+          >caressed</add></mod>. She was now a woman</line>
     <line>in stature and expression of countenance</line>
     <line>which was uncommonly lovely – An open &amp;</line>
-    <line>capacious for<mod type="additions"><add place="sublinear">&#x2038;</add><add
+    <line>capacious for<mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add
           place="superlinear">e</add></mod>head gave indications of a good</line>
     <line>understanding joined to great frankness. Her</line>
-    <line>eyes were hazel and <delSpan spanTo="#c56-0090.02"/>very soft now through</line>
+    <line>eyes were hazel and <delSpan spanTo="#c56-0090.02" rend="strikethrough"/>very soft now
+      through</line>
     <line>recent affliction they expressed sorrow. Her</line>
-    <line>smile had som<anchor xml:id="c56-0090.02"/> expressive <mod type="subst"><del
-          rend="strikethrough">great</del><add place="sublinear">&#x2038;</add><add
-          place="superlinear">of uncommon</add></mod> mildness now</line>
+    <line>smile had som<anchor xml:id="c56-0090.02"/> express<mod><del rend="overwritten"
+          >ed</del><add place="intralinear">ive</add></mod>
+      <mod><del rend="strikethrough">great</del><add place="sublinear"
+          ><metamark>&#x2038;</metamark></add><add place="superlinear">of uncommon</add></mod>
+      mildness now</line>
     <line>through recent affliction allied to sadness–</line>
-    <line>Her hair was of a rich <mod type="subst"><add place="sublinear">&#x2038;</add><add
-          place="superlinear">dark</add> auburn and <add place="sublinear">&#x2038;</add><add
-          place="superlinear">her complexion fair</add></mod> her</line>
-    <line>figure sli<add place="intralinear" resp="#pbs">ght</add> and graceful. She <mod
-        type="deletions" xml:id="c56-0090.03" next="#c56-0090.04"><del rend="strikethrough"
-          >embraced</del></mod></line>
-    <line><mod type="deletions" prev="#c56-0090.03" xml:id="c56-0090.04"><del rend="cross-hatch"
-          >w</del>
-        <del rend="strikethrough">me with</del></mod> welcomed me with the greatest</line>
-    <line>affection <milestone unit="tei:q" spanTo="#c56-0090.05"/><metamark>"</metamark>Your
-      arrival, my <mod type="subst"><del rend="strikethrough">best</del><add place="superlinear"
-          >dearest</add></mod> cousin,<metamark>"</metamark><anchor xml:id="c56-0090.05"/></line>
-    <line>said she, give <milestone unit="tei:q" spanTo="#c56-0090.06"/><metamark>"</metamark>fills
-      me with hope. You</line>
+    <line>Her hair was of a rich<mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add
+          place="superlinear">dark</add></mod> auburn<mod><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">her complexion
+        fair</add></mod> and her</line>
+    <line>figure sli<mod><del rend="overwritten">m</del><add place="intralinear" hand="#pbs"
+          >ght</add></mod> and graceful. She <del rend="strikethrough">embraced</del></line>
+    <line><del rend="strikethrough">w</del>
+      <del rend="strikethrough">me with</del> welcomed me with the greatest</line>
+    <line>affection "Your arrival, my <mod><del rend="strikethrough">best</del><add
+          place="superlinear">dearest</add></mod> cousin,"</line>
+    <line>said she, <del rend="strikethrough">give</del> "fills me with hope. You</line>
     <line>perhaps will find out some means to</line>
-    <line>justify my poor <mod type="subst"><del rend="strikethrough">innocent</del><add
-          place="sublinear">&#x2038;</add><add place="superlinear">guiltless</add></mod> Justine.
-      Alas</line>
-    <line>Who is safe is she were convicted <mod type="subst"><add place="sublinear"
-          >&#x2038;</add><add place="superlinear" resp="#pbs">of crime?</add><del
-          rend="strikethrough">for</del></mod></line>
+    <line>justify my poor <mod><del rend="strikethrough">innocent</del><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear">guiltless</add></mod>
+      Justine. Alas</line>
+    <line>Who is safe is she were convicted <mod><add place="sublinear"
+            ><metamark>&#x2038;</metamark></add><add place="superlinear" hand="#pbs">of crime?</add>
+        <del rend="strikethrough">for</del></mod></line>
     <line>I <del rend="strikethrough">belie</del> rely on <del rend="strikethrough">her</del> her
-      innocence as cer</line> Our <line>tainly as I do <add place="intralinear" resp="#pbs"
-        >upon</add> my own. <add place="superlinear">Our</add> Misfortune is</line>
-    <line>doubly hard to us. <mod type="subst"><add place="superlinear">We</add><del
-          rend="cross-hatch">I</del></mod> have not only lost</line>
+      innocence as cer</line>
+    <line>tainly as I do <mod><del rend="overwritten">on</del><add place="intralinear" hand="#pbs"
+          >upon</add></mod> my own. <add place="superlinear">Our</add>Misfortune is</line>
+    <line>doubly hard to us. <mod><del rend="strikethrough">I</del><add place="superlinear"
+        >We</add></mod> have not only lost</line>
     <line>that lovely darling boy but this poor girl</line>
     <line>whom I sincerely love, is to be torn</line>
-    <!--<anchor xml:id="c56-0090.06"> can be found on ...c56-0091.xml-->
   </zone>
 </surface>
