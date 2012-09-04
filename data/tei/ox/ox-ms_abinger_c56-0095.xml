@@ -23,7 +23,7 @@
     <line>the evening of the night on which the</line>
     <line>murder was perpetrated at <mod>
         <del rend="strikethrough">M</del>
-        <add place="sublinear"><metamark>&#2038;</metamark></add>
+      <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">the house of</add>
       </mod> an aunt</line>
     <line>who resided in Ch&#234;ne a village about</line>
@@ -68,6 +68,6 @@
   </zone>
   <zone type="left_margin">
     <add xml:id="c56-0095.03"><add place="sublinear" hand="#pbs"
-        ><metamark>&#2038;</metamark></add>remain<del rend="strikethrough">ed</del><add
+      ><metamark>&#x2038;</metamark></add>remain<del rend="strikethrough">ed</del><add
         place="superlinear" hand="#pbs">was forced to</add></add></zone>
 </surface>
