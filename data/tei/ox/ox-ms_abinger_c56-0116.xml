@@ -3,55 +3,68 @@
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0116" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0116.tif"/>
-  <zone type="pagination">
-    <line>146</line>
-  </zone>
+  <zone type="pagination" rend="bordered">146</zone>
   <zone type="main">
-    <line>was I was <add place="superlinear" resp="#pbs">somewhat</add> interrested <mod
-        type="subst"><del rend="strikethrough">and sometimes</del><add resp="#pbs"
-          place="superlinear">in the scene..it sometimes</add></mod></line>
-    <line><del rend="strikethrough">amused</del><add place="superlinear" resp="#pbs"><ptr
-          target="#c56-0116.01"/><del rend="strikethrough">somehow</del> could not extinguish my
-        grief.</add>. <add place="sublinear">during</add>The first day we travelled</line>
+    
+    <line>was I was <add place="superlinear" resp="#pbs">somewhat</add> interrested 
+      <mod>
+        <del rend="strikethrough" next="#c56-0116.01">and sometimes</del>
+        <add resp="#pbs" place="superlinear" next="#c56-0116.02">in the scene..it sometimes</add>
+      </mod></line>
+    <line><add><ptr target="#c56-0116.05"/></add>
+      <mod>
+        <del rend="strikethrough" xml:id="c56-0116.01">amused</del>.
+        <add place="superlinear" resp="#pbs" xml:id="c56-0116.02"><del rend="strikethrough">somehow</del> could not extinguish my grief.</add>
+      </mod>. <add place="sublinear" resp="#pbs">during</add>The first day we travelled</line>
     <line>in a carriage. In the morning we</line>
     <line>had seen the mountains at a distance</line>
-    <line>to which we gradually advanced. <del rend="cross-hatch">Br</del></line>
+    <line>to which we gradually advanced. <del rend="strikethrough">Br</del></line>
     <line>We perceived that the valley through</line>
-    <line>which we wound, and which was </line>
+    <line>which we wound, and which was</line>
     <line>formed by the Arve whose course</line>
     <line>we followed, closed upon us by degrees</line>
     <line>and when the sun had set we</line>
-    <line>saw immense mountains &amp; preci</line>
-    <line>pieces overhanging <add place="superlinear" resp="#pbs">us</add> on <mod type="subst"><del
-          rend="strikethrough">each</del><add resp="#pbs" place="superlinear">every</add></mod>
-      side</line>
-    <line>of us &amp; heard the sound of <mod type="subst" xml:id="c56-0116.02" next="#c56-0116.03"
-          ><del rend="strikethrough">moun</del><add place="superlinear" resp="#pbs">the river
-          raging</add></mod></line>
-    <line><mod type="subst" prev="#c56-0116.02" xml:id="c56-0116.03"><del>tain</del>
-        <del>streams</del><add place="superlinear" resp="#pbs">among rocks</add></mod>, and the
-      dashing of the</line>
+    <line>saw immense mountains &#x26; preci</line>
+    <line>pieces overhanging <add place="superlinear" resp="#pbs">us</add> on 
+      <mod>
+        <del rend="strikethrough">each</del>
+        <add place="superlinear" resp="#pbs">every</add>
+      </mod> side</line>
+    <line><del rend="strikethrough">of us</del> &#x26; heard the sound of 
+      <mod>
+        <del next="#c56-0116.03" rend="strikethrough">moun</del>
+        <add next="#c56-0116.04" place="superlinear" resp="#pbs">the river raging</add>
+      </mod></line>
+      <line>
+        <mod>
+        <del rend="strikethrough" xml:id="c56-0116.03">tain</del> 
+        <add place="superlinear" xml:id="c56-0116.04">among rocks</add>
+        </mod> <del rend="strikethrough">streams</del>, and the dashing of the</line>
     <line>waterfalls.<add place="intralinear" resp="#pbs">around.</add></line>
-    <milestone unit="tei:p"/>
-    <line>The next day we pursued our</line>
+    <milestone unit="tei:p"/><line>The next day we pursued our</line>
     <line>journey on mules and as we ascended</line>
     <line>still higher; the valley assumed a</line>
-    <line>more beautiful &amp; verdant appear</line>
-    <line>ance – Ruined castles <mod type="subst"><del rend="strikethrough">on</del>
-        <add place="sublinear">&#x2038;</add><add place="superlinear" resp="#pbs"><mod type="subst"
-              ><del rend="strikethrough">built</del><add place="superlinear">hanging</add></mod> on
-          the precipices of</add></mod> piny mountains;</line>
+    <line>more beautiful &#x26; verdant appear</line>
+    <line>ance – Ruined castles 
+      <mod>
+        <del rend="strikethrough">on</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear" resp="#pbs">
+          <mod>
+            <add place="superlinear">hanging</add>
+            <del rend="strikethrough">built</del>
+          </mod> on the precipices of</add>
+      </mod> piny mountains;</line>
     <line>the impetuous Arve, and cottages every</line>
-    <line>here &amp; there peeping from among the</line>
+    <line>here &#x26; there peeping from among the</line>
     <line>trees, formed a scene of singular</line>
-    <line>beauty.. But it was augmented &amp;</line>
+    <line>beauty.. But it was augmented &#x26;</line>
     <line>rendered sublime by the mighty</line>
-    <line>alps whose white <add place="superlinear">&amp;</add> shining <del rend="strikethrough"
-        >pir</del></line>
-    <line>piramids &amp; domes towered above</line>
+    <line>alps whose white <add place="superlinear">&#x26;</add> shining <del rend="strikethrough">pir</del></line>
+    <line>piramids &#x26; domes towered above</line>
     <line>all like <del rend="strikethrough">the</del> another earth —the</line>
   </zone>
   <zone type="left_margin">
-    <line><add resp="#pbs" xml:id="c56-0116.01">lulled, it</add></line>
+    <line><add resp="#pbs" xml:id="c56-0116.05">lulled, <hi rend="underline">it</hi></add></line>
   </zone>
 </surface>
