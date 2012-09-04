@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
@@ -22,17 +22,17 @@
       <line>of the cottage window had formerly occupied</line>
       <line>a corner of it <del rend="strikethrough">pu</del> but the panes had <del rend="strikethrough">n</del> been</line>
       <line>filled up with wood.  In one of these was</line>
-      <line>a small &#x0026; allmost imperceptible <del rend="strikethrough">h</del> chink,</line>
+      <line>a small &amp; allmost imperceptible <del rend="strikethrough">h</del> chink,</line>
       <line>through which <del rend="strikethrough">howev</del> the eye could just</line>
-      <line>penetrate; <del rend="strikethrough">and looking in I behe</del><add resp="#pbs">thro this chink</add> <del rend="strikethrough">sa</del>w a</line>
-      <line>small room <add resp="#pbs" place="superlinear">was visible,</add>  whitewashed <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">&#x0026;</add> clean but very</line>
-      <line>bare of furniture <del rend="strikethrough">&#x0026;</del> in <del rend="strikethrough">co</del> one corner near</line>
-      <line>a small fire <add place="sublinear"><metamark>&#x2038;</metamark></add><del rend="strikethrough">I saw</del><add place="superlinear"><del rend="strikethrough">beheld</del></add><add resp="#pbs" place="superlinear">sate</add> an old man <del rend="strikethrough">sitting</del> leaning</line>
+      <line>penetrate; <del rend="strikethrough">and looking in I behe</del><add hand="#pbs">thro this chink</add> <del rend="strikethrough">sa</del>w a</line>
+      <line>small room <add hand="#pbs" place="superlinear">was visible,</add>  whitewashed <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">&amp;</add> clean but very</line>
+      <line>bare of furniture <del rend="strikethrough">&amp;</del> in <del rend="strikethrough">co</del> one corner near</line>
+      <line>a small fire <add place="sublinear"><metamark>&#x2038;</metamark></add><del rend="strikethrough">I saw</del><add place="superlinear"><del rend="strikethrough">beheld</del></add><add hand="#pbs" place="superlinear">sate</add> an old man <del rend="strikethrough">sitting</del> leaning</line>
       <line>his head on his hand &#x2014; in a disconslate atti</line>
       <line>tude<add place="superlinear">x</add><add><ptr target="#c57-0012.01"/></add> &#x2014;  The young girl was <del rend="strikethrough">co</del> occupied in</line>
-      <line>arranging the cottage <add resp="#pbs" place="superlinear">but presently</add><del rend="strikethrough">and</del> <del rend="strikethrough">when that was</del></line>
+      <line>arranging the cottage <add hand="#pbs" place="superlinear">but presently</add><del rend="strikethrough">and</del> <del rend="strikethrough">when that was</del></line>
       <line><del rend="strikethrough">done</del> she took something out of <del rend="strikethrough">the</del> a drawer</line>
-      <line>which employed her hands <del rend="strikethrough">and</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">&#x0026; sat down beside<del rend="strikethrough">the o</del></add> the old</line>
+      <line>which employed her hands <del rend="strikethrough">and</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">&amp; sat down beside<del rend="strikethrough">the o</del></add> the old</line>
       <line>man <add place="superlinear">who</add> taking up an <del rend="strikethrough">instur</del> instrument began</line>
       <line>to play and to produce sounds sweeter than</line>
       <line>the voice of the thrush or nightingale.</line>

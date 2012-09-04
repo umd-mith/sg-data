@@ -1,29 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0003" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0003" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0003.tif"/>
   <zone type="pagination">105</zone>
+  <zone type="library">2</zone>
   <zone type="main">
-    <milestone unit="tei:p"/>
-    <line>Soon after my arrival my father spoke</line>
+    <line><add hand="comp"><note>T.K</note></add></line>
+    <milestone unit="tei:p"/><line>Soon after my arrival my father spoke</line>
     <line>of my immediate marriage with my cousin. I</line>
     <line>remained silent.</line>
-    <line><milestone unit="tei:q" spanTo="#c58-0003.01"/>"Have you then some other
-        attachment?"<anchor xml:id="c58-0003.01"/></line>
-    <line><milestone unit="tei:q" spanTo="#c58-0003.02"/>"None on earth; I love Elizabeth and
-      look</line>
+    <milestone unit="tei:p"/><line>"Have you then some other attachment?"</line>
+    <milestone unit="tei:p"/><line>"None on earth; I love Elizabeth and look</line>
     <line>foward to our union with delight. Let the</line>
     <line>day therefore be fixed and on it I will consecrate</line>
-    <line>my<mod><add place="sublinear">&#x2038;</add>
-        <del rend="strikethrough"><add place="intralinear">s</add></del></mod>
-      <mod><add place="sublinear">&#x2038;</add>
-        <add place="superlinear">self in</add></mod> life or death to the happiness of my
-        cousin.<anchor xml:id="c58-0003.02"/></line>
-    <line><milestone unit="tei:q" spanTo="ox-ms_abinger_c58-0004.xml#c58-0003.03"/>My dear Victor do
-      not speak thus. Heavy</line>
+    <line>my<mod>
+        <add place="sublinear">&#x2038;</add>
+        <del rend="strikethrough"><add place="intralinear">s</add></del>
+      </mod><mod>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">self in</add>
+      </mod> life or death to the happiness of my cousin.</line>
+    <milestone unit="tei:p"/><line>My dear Victor do not speak thus. Heavy</line>
     <line>misfortunes have befallen us, but let us only cling</line>
     <line>closer to what remains and transfer our love for</line>
     <line>those whom we have lost <del rend="strikethrough">wh</del> to those who yet</line>

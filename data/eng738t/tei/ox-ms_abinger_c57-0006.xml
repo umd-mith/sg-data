@@ -1,27 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0006" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0006" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57-0006">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0006.tif"/>
   <zone type="pagination" rend="bordered">5</zone>
   <zone type="main">
     <line>on the ground &amp; sunk into sleep. <del rend="strikethrough">I was morning</del></line>
     <line><del rend="strikethrough">when I</del> It was morning when I awoke &amp; my</line>
-    <line>first care was to visit the fire —I uncovered</line>
+    <line>first care was to visit the fire&#x2013; I uncovered</line>
     <line>it and <del rend="strikethrough">th</del> a gentle breeze quickly fanned it</line>
-    <line>into a flame  I observed this also and contri</line>
+    <line>into a flame. I observed this also and contri</line>
     <line>ved a fan of branches which roused the</line>
     <line>embers when thy were nearly extinguished.</line>
     <line>When night again came I found with plea</line>
     <line>sure that the fire gave light as well </line>
     <line>as heat <del rend="strikethrough">and I often</del> and the discovery of this</line>
-    <line>element was useful to me also in my food—</line>
+    <line>element was useful to me also in my food&#x2013;</line>
     <line>for I found some of offals that the travel</line>
     <line>lers had left had been roasted and tasted</line>
     <line>much more savoury than the berries</line>
     <line>I gathered; I tried therefore to dress my food</line>
     <line>in the same manner, placing them</line>
-    <line>on the live embers— I found that the</line>
+    <line>on the live embers&#x2013; I found that the</line>
     <line>berries were spoiled by this opperation</line>
     <line>and the nuts much improved. Food</line>
     <line>however became very scarce and I often</line>
@@ -29,12 +31,19 @@
     <line>few acorns to assuage the pangs of hunger.</line>
     <line>When I found this resolved to quit the place</line>
     <line>which I had hitherto inhabited &amp; to seek for</line>
-    <line><del rend="strikethrough">a place</del>one where the few wants I expe</line>
+    <line><del rend="strikethrough">a place</del><add place="superlinear">one</add> where the few
+      wants I expe</line>
     <line>rienced would be more easily satisfied.</line>
-    <line>In this emigration I <del rend="strikethrough">exceedingly</del>extremely lamented the</line>
-    <line>loss of my fire—I had obtained it <del rend="strikethrough">by</del> by strange</line>
-    <line>means and knew not how <add place="superlinear">to re</add>roduce it. <del rend="strikethrough">by myself</del> </line>
-    <line><add place="superlinear"><mod resp="#pbs">This deficiency</mod></add> This obtained my serious consideration for</line>
+    <line>In this emigration I <del rend="strikethrough">extremely</del>
+      <add place="superlinear">exceedingly</add> lamented the</line>
+    <line>loss of my fire&#x2013;I had obtained it <del rend="strikethrough">by</del> by
+      strange</line>
+    <line>means and knew not how <add place="superlinear">to re</add>produce it. <del
+        rend="strikethrough">by myself</del>
+    </line>
+    <line><add><ptr target="#c57-0006.01"/></add>
+      <del rend="strikethrough">This</del> obtained my serious consideration for</line>
     <line>several hours but I was obliged to <del rend="strikethrough">leave it</del></line>
   </zone>
+  <zone type="left_margin"><add xml:id="c57-0006.01" hand="#pbs">This deficiency</add></zone>
 </surface>

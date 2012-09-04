@@ -41,6 +41,7 @@
             <change when="2012-03-04" who="tmunoz">Adding documentation about dividing pages into
                 zones</change>
             <change when="2012-03-24" who="tmunoz">Removed about 40 unused elements</change>
+            <change when="2012-05-15" who="tmunoz">Added some schematron tests</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -349,7 +350,7 @@
                     <moduleRef key="gaiji"/>
                     <moduleRef key="linking" except="ab alt altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
-                    <moduleRef key="figures" include="figure figDesc"></moduleRef>
+                    <moduleRef key="figures" include="figure figDesc"/>
 
                     <!-- Some specific elements to include-->
                     <elementRef key="c"/>
@@ -379,12 +380,28 @@
                             </attDef>
                         </attList>
                     </classSpec>
-                    
+
                     <classSpec ident="att.transcriptional" type="atts" mode="change">
                         <attList>
-                            <attDef ident="hand" mode="delete"/>
                             <attDef ident="status" mode="delete"/>
                             <attDef ident="cause" mode="delete"/>
+                            <attDef ident="hand" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="#pbs">
+                                        <gloss>Percy Shelley's handwriting</gloss>
+                                        <desc>Text written in Percy Shelley's hand.</desc>
+                                    </valItem>
+                                    <valItem ident="#mws">
+                                        <gloss>Mary Shelley's handwriting</gloss>
+                                        <desc>Text written in Mary Shelley's hand.</desc>
+                                    </valItem>
+                                    <valItem ident="#comp">
+                                        <gloss>compositor's handwriting</gloss>
+                                        <desc>Text written in an (unknown?) compositor's hand.</desc>
+                                    </valItem>
+                                    <valItem ident="http://viaf.org/viaf/95159449"/>
+                                </valList>
+                            </attDef>
                         </attList>
                     </classSpec>
 
@@ -404,45 +421,14 @@
                         </attList>
                     </classSpec>
 
-                    <classSpec ident="att.responsibility" type="atts" mode="change">
-                        <attList>
-                            <attDef ident="resp" mode="replace">
-                                <valList type="closed" mode="replace">
-                                    <valItem ident="#pbs"/>
-                                    <valItem ident="http://viaf.org/viaf/95159449"/>
-                                </valList>
-                            </attDef>
-                            <attDef ident="precision" mode="delete"/>
-                            <attDef ident="scope" mode="delete"/>
-                        </attList>
-                    </classSpec>
-
                     <!-- Removing entire classes; some of these might be restored later -->
                     <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
                     <classSpec ident="att.global.change" type="atts" mode="delete"/>
                     <classSpec ident="att.declaring" type="atts" mode="delete"/>
+                    <classSpec ident="att.responsibility" type="atts" mode="delete"/>
 
                     <elementSpec ident="surface" module="transcr" mode="change">
                         <content>
-                            <rng:ref name="att.global.attributes"/>
-                            <rng:ref name="att.global.linking.attributes"/>
-                            <rng:ref name="att.global.analytic.attributes"/>
-                            <rng:ref name="att.global.facs.attributes"/>
-                            <rng:ref name="att.global.change.attributes"/>
-                            <rng:ref name="att.coordinated.attributes"/>
-                            <rng:ref name="att.declaring.attributes"/>
-                            <rng:ref name="att.typed.attributes"/>
-                            <!-- Restore when we need the following attributes for Whitman integration -->
-                            <!--<rng:optional>
-                                <rng:attribute name="attachment">
-                                    <rng:ref name="data.enumerated"/>
-                                </rng:attribute>
-                            </rng:optional>
-                            <rng:optional>
-                                <rng:attribute name="flipping">
-                                    <rng:ref name="data.truthValue"/>
-                                </rng:attribute>
-                            </rng:optional>-->
                             <rng:group>
                                 <rng:zeroOrMore>
                                     <rng:ref name="model.glossLike"/>
@@ -462,6 +448,11 @@
                                 </rng:zeroOrMore>
                             </rng:group>
                         </content>
+                        <constraintSpec scheme="isoschematron" ident="add-ns-for-schema-fragment">
+                            <constraint>
+                                <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
+                            </constraint>
+                        </constraintSpec>
                         <attList>
                             <attDef ident="xml:id" mode="change" usage="req"/>
 
@@ -575,6 +566,8 @@
                                     <valItem ident="smear"/>
                                 </valList>
                             </attDef>
+                            <attDef ident="resp" mode="delete"/>
+                            <attDef ident="hand" mode="delete"/>
                         </attList>
                     </elementSpec>
 
@@ -621,21 +614,59 @@
                                             librarians/collectors at a later date—often page
                                             numbers</desc>
                                     </valItem>
+                                    <valItem ident="bottom">
+                                        <desc>A zone of writing which is not part of the main text
+                                            block and appears at the bottom of a page</desc>
+                                    </valItem>
                                 </valList>
                             </attDef>
                         </attList>
                     </elementSpec>
 
                     <elementSpec ident="mod" module="transcr" mode="change">
+                        <content>
+                            <!-- mod must have only element children so the below is a subset of macro.paraContent -->
+                            <rng:zeroOrMore>
+                                <rng:choice>
+                                    <rng:ref name="model.gLike"/>
+                                    <rng:ref name="model.phrase"/>
+                                    <rng:ref name="model.inter"/>
+                                    <rng:ref name="model.global"/>
+                                </rng:choice>
+                            </rng:zeroOrMore>
+                        </content>
+                        <constraintSpec scheme="isoschematron" ident="modContents">
+                            <constraint>
+                                <sch:rule context="tei:mod">
+                                    <sch:assert test="count(node()) gt 1">The mod element is
+                                        intended to group a series of related changes to the
+                                        manuscript. Thus, mod must have more than one child
+                                        element. If only a single addition or deletion is being
+                                        encoded, mod is not required.</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
                         <attList>
                             <attDef ident="type" mode="replace" usage="opt">
                                 <valList mode="replace" type="closed">
-                                    <valItem ident="subst"/>
                                     <valItem ident="additions"/>
                                     <valItem ident="deletions"/>
                                 </valList>
                             </attDef>
                         </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="ptr" module="core" mode="change">
+                        <constraintSpec scheme="isoschematron" ident="verify-ptr-targets">
+                            <constraint>
+                                <!--<sch:rule context="*[@target]">
+                                    <sch:report test="not(//*[@xml:id=substring-after(@target, '#')])">This pointer has
+                                        no target in this document. The value of the target attribute on ptr must be
+                                        a valid xml:id for an element in this document. Without this, there is no
+                                        linkage!</sch:report>
+                                </sch:rule>-->
+                            </constraint>
+                        </constraintSpec>
                     </elementSpec>
 
                 </schemaSpec>

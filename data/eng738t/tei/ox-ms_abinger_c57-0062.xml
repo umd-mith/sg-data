@@ -1,40 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0062"
-  ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0062" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0062.tif"/>
   <zone type="pagination" rend="bordered">87</zone>
   <zone type="main">
-    <line>no means of extracting it. <del rend="strikethrough">a</del> My suffering were</line>
+    <line>no means of extracting it. <del rend="double-strike">a</del> My suffering were</line>
     <line>augmented also by the oppressive sense <del rend="strikethrough">I had</del></line>
-    <line>of <add place="superlinear"><mod resp="#pbs">the</mod></add> injustice &#x0026; ingratitude <metamark>&#x2038;</metamark><add place="superlinear"><mod resp="#pbs">of their infliction</mod></add> My daily <mod><add place="superlinear" resp="#pbs">vows</add> <del rend="strikethrough">prayers</del></mod></line>
-    <line>rose for revenge &#x2014; a deep &#x0026; deadly revenge</line>
+    <line>of <add place="superlinear" resp="#pbs">the</add> injustice &amp; ingratitude <mod
+        type="additions" resp="#pbs">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">of their infliction</add>
+      </mod> My daily <mod>
+        <add place="superlinear" resp="#pbs">vows</add>
+        <del rend="strikethrough">prayers</del>
+      </mod></line>
+    <line>rose for revenge &#x2014; a deep &amp; deadly revenge</line>
     <line>such as would alone compensate for the</line>
-    <line><mod><del rend="strikethrough">horrors of my situation</del> <add place="superlinear" resp="#pbs">the outrages &#x0026; the anguish I had endured</add></mod><milestone unit="paragraph"/></line>
-      <line>After some weeks my wound healed</line>
-      <line>and I continued my journey &#x2014; the labours</line>
-      <line>I endured were no longer <add place="superlinear">to be</add><metamark>&#x2038;</metamark> alleviated by the</line>
-      <line>bright sun or gent<del rend="strikethrough">t</del>le breezes of spring &#x2014;</line>
-    <line>all joy was but <mod><add place="superlinear" resp="#pbs">a</add></mod>mockery to me, <del rend="strikethrough"> &#x0026;</del></line>
-    <line><add resp="#pbs"><ptr target="c57-0062.01"/></add>made me feel more painfully that</line>
-      <line>I was not made for enjoyment. But</line>
-      <line>my <del rend="strikethrough">journey</del><add place="superlinear">toils</add> now drew near a close &#x0026; two</line>
-      <line>months from this time I reached the</line>
-      <line>environs of Geneva.<figure><desc>1st encoder sees doodle or sketch; QC sees tiny ink pattern above tail of terminal "a" in "Geneva," then an up-sweeping pen stroke from below at line's end delineating text from subsequent lines</desc></figure></line>
-      <line>the same</line>
-      <line>chapter</line>
-      <line>continued</line>
-    </zone>
-  
+    <line><mod>
+        <del rend="strikethrough">horrors of my situation</del>
+        <add place="superlinear" resp="#pbs">the outrages &amp; the anguish I had endured</add>
+      </mod></line>
+    <milestone unit="tei:p"/>
+    <line>After some weeks my wound healed</line>
+    <line>and I continued my journey &#x2014; the labours</line>
+    <line>I endured were no longer <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">to be</add>
+      </mod> alleviated by the</line>
+    <line>bright sun or gent<del rend="strikethrough">t</del>le breezes of spring &#x2014;</line>
+    <line>all joy was but <add place="superlinear" resp="#pbs">a</add> mockery to me, <del
+        rend="scribble"> &amp;</del></line>
+    <line><add resp="#pbs"><ptr target="#c57-0062.01"/></add> made me feel more painfully
+      that</line>
+    <line>I was not made for enjoyment. But</line>
+    <line>my <mod>
+        <del rend="strikethrough">journey</del>
+        <add place="superlinear">toils</add>
+      </mod> now drew near a close &amp; two</line>
+    <line>months from this time I reached the</line>
+    <line>environs of Geneva.<figure>
+        <desc>1st encoder sees doodle or sketch; QC sees tiny ink pattern above tail of terminal "a"
+          in "Geneva," then an up-sweeping pen stroke from below at line's end delineating text from
+          subsequent lines</desc>
+      </figure></line>
+    <milestone unit="tei:p"/>
+    <line>the same</line>
+    <line>chapter</line>
+    <line>continued</line>
+    <line><add resp="#pbs" place="intralinear"><unclear>310</unclear></add></line>
+  </zone>
   <zone type="left_margin">
-    <line><addSpan spanTo="left-marginalia-end"/><mod resp="#pbs">which insul</mod><anchor xml:id="c57-0062.01"/></line>
-    <line><mod resp="#pbs">ted my desolate</mod></line>
-    <line><mod resp="#pbs">state, &#x0026;</mod><anchor xml:id="left-marginalia-end"/></line>
+    <addSpan xml:id="c57-0062.01" spanTo="#c57-0062.02"/><line>which insul</line>
+    <line>ted my desolate</line>
+    <line>state, &amp;<anchor xml:id="c57-0062.02"/></line>
   </zone>
 </surface>
-

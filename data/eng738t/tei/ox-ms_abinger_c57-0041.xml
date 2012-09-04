@@ -1,40 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0041" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0041" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0041.tif"/>
   <zone type="pagination" rend="bordered">66</zone>
+  <zone type="library"><line>21</line></zone>
   <zone type="main">
     <line>covered some papers in one of the</line>
-    <line>pockets of the dress that which I had taken</line>
-    <line>from your study. At had first I had despised</line>
-    <line><add><ptr target="c57-0041.01"/></add>them but now that I was able to decypher</line>
-    <line>the characters in them <metamark>‸</metamark> which they were written I began to decypher study them</line>
+    <line>pockets of the dress <mod>
+        <del rend="strikethrough">that</del>
+        <add place="superlinear" resp="#pbs">which</add>
+      </mod> I had taken</line>
+    <line>from your study. <mod>
+        <del rend="overwritten">I</del>
+        <add place="intralinear">At</add>
+        <del rend="strikethrough">had</del>
+      </mod> first <mod>
+        <add place="superlinear">I</add>
+        <add place="superlinear" resp="#pbs">had</add>
+        <del rend="strikethrough">despised</del>
+      </mod></line>
+    <line><add><ptr target="#c57-0041.01"/></add> them but now that I was able to decypher</line>
+    <line><mod>
+        <del rend="strikethrough">them</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">the characters in which they were written</add>
+      </mod> I began to <del rend="strikethrough">decypher</del> study them</line>
     <line>with diligence. It was your journal of</line>
-    <line>the four la months that preceeded</line>
-    <line>my creation. It In you minutely des</line>
-    <line>cribed <metamark>‸</metamark> in it these papers every step you took in the</line>
-    <line>progress of your work; <metamark>‸</metamark> history this was</line>
+    <line>the four <del rend="double-strike">la</del> months that preceeded</line>
+    <line>my creation. <del rend="strikethrough"><add place="superlinear">In</add> It</del> you
+      minutely des</line>
+    <line>cribed <add place="sublinear">&#x2038;</add><add place="superlinear">in <del
+          rend="strikethrough">it</del>
+        <add place="intralinear" resp="#pbs">these papers</add></add> every step you took in
+      the</line>
+    <line>progress of your work; <del rend="strikethrough">and</del> this <add place="superlinear"
+        resp="#pbs">history</add> was</line>
     <line>mingled with accounts of domestic</line>
-    <line>occurences. You doubtless well recollect</line>
-    <line>these papers — Here they are — Every</line>
-    <line>thing is told related <unclear>i</unclear> in them<add><ptr target="c57-0041.02"/></add> &amp; every the whole detail of that disgus</line>
-    <line>ting circumstance horrors series of disgusting ircumstances which produced it is set in view;</line>
-    <line>the minutest description is given is <add><ptr target="c57-0041.03"/></add> of my</line>
-    <line>odious &amp; loathsome person. I</line>
-    <line>sickened as I read — the papers.  One</line>
+    <line>occurences. You doubtless <del rend="scribble">well</del> recollect</line>
+    <line>these papers &#x2014; He<add place="intralinear">re</add> they are &#x2014; Every</line>
+    <line>thing is <mod>
+        <del rend="strikethrough">told</del>
+        <add place="superlinear">related</add>
+      </mod>
+      <del rend="double-strike"><unclear precision="low" unit="chars" extent="1" reason="illegible"
+          >i</unclear></del> in them <del rend="tetra-strike">&amp;</del>
+      <del rend="strikethrough">every</del><add><ptr target="#c57-0041.02"/></add>
+      <add place="superlinear" resp="#pbs">the whole detail of that</add>
+      <del rend="unmarked">disgus</del></line>
+    <line><del rend="strikethrough">ting</del>
+      <del rend="strikethrough">circumstance</del><add resp="#pbs" place="superlinear">series of
+          <del rend="strikethrough">horrors</del><add place="superlinear">disgusting</add>
+        circumstances which produced</add> it is set in view;</line>
+    <line>the minutest description <add place="superlinear"><del rend="strikethrough">is
+        given</del></add> of my</line>
+    <line>odious &amp; loathsome person <mod type="additions">
+        <add resp="#pbs" place="superlinear">is</add>
+        <add><metamark/><ptr target="#c57-0041.04"/></add>
+      </mod>. I</line>
+    <line>sickened as I read &#x2014; <del rend="strikethrough">the papers</del>. <del
+        rend="double-strike">One</del></line>
     <line>Hateful day when I received life, I</line>
-    <line>exclaimed in agony — Cursed Creator</line>
+    <line>exclaimed in agony &#x2014; Cursed Creator</line>
     <line>Why did you form a monster</line>
     <line>so hideous that even you turned</line>
     <line>from me in disgust. God in pity made</line>
-    <line>man beautiful &amp; alluring — I am</line>
+    <line>man beautiful &amp; alluring &#x2014; I am</line>
     <line>more hateful to the sight than</line>
     <line>the bitter apples of Hell to the taste</line>
     <line>Satan has his companions, fellow</line>
     <line>devils, to admire and encourage</line>
-    <line>him. but I am solitary &amp; detested <milestone unit="paragraph"/></line>
-    <line>Such <metamark>‸</metamark> These were my reflections in my</line>
+    <line>him. but I am solitary &amp; detested</line>
+    <milestone unit="tei:p"/>
+    <line><mod>
+        <del rend="strikethrough">Such</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">These</add>
+      </mod> were my reflections in my</line>
     <line>hours of despondency &amp; solitude but</line>
     <line>when I contemplated the virtues of</line>
   </zone>
@@ -42,18 +86,24 @@
     <line>neglected<anchor xml:id="c57-0041.01"/></line>
   </zone>
   <zone type="left_margin">
-    <line>which bears<anchor xml:id="c57-0041.02"/></line>
-    <line><metamark>‸</metamark> reference to</line>
+    <addSpan xml:id="c57-0041.02" spanTo="#c57-0041.05" resp="#pbs"/>
+    <line><mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">which bears</add>
+      </mod> reference to</line>
     <line>my accursed ori</line>
     <line>-gin</line>
+    <anchor xml:id="c57-0041.05"/>
   </zone>
   <zone type="left_margin">
-    <line>given in language<anchor xml:id="c57-0041.03"/></line>
+    <addSpan xml:id="c57-0041.04" spanTo="#c57-0041.06"/>
+    <line><metamark/>given in language</line>
     <line>which painted your</line>
-    <line>own horrors, &amp; <del rend="overstrike">has</del></line>
-    <line><del rend="overstrike">traced conveyed them</del></line>
-    <line><del rend="overstrike">to</del></line>
+    <line>own horrors, &amp; <delSpan spanTo="#c57-0041.07"/>has</line>
+    <line>traced<anchor xml:id="c57-0041.07"/>
+      <del rend="strikethrough">conveyed them to</del></line>
     <line>has rendered mine</line>
     <line>ineffaceable.</line>
+    <anchor xml:id="c57-0041.06"/>
   </zone>
 </surface>

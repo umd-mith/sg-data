@@ -1,8 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0058" ulx="0" uly="0" lrx="5410" lry="6660">
-  <graphic url="../../images/ox/ox-ms_abinger_c58-0058.tif"/>
-    <zone>
-    </zone>
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+      xml:id="ox-ms_abinger_c58-0058" ulx="0" uly="0" lrx="5410" lry="6660"
+      partOf="ox-ms_abinger_c58">
+      <graphic url="../../images/ox/ox-ms_abinger_c58-0058.tif"/>
+
+      <zone type="pagination">186</zone>
+      <zone type="main">
+            <handShift new="#pbs"/>
+            <line>me, or be the prey of feelings unsatisfied yet</line>
+            <line>unquenched. He is dead who called me into</line>
+            <line>being and when I shall be no more, the <mod><add place="sublinear"
+                              >&#x2038;</add><add place="superlinear">very</add></mod>
+                  rem<damage/></line>
+            <line>-brance of us both will speedily perish. I s<damage/></line>
+            <line>no longer see the sun or stars, or feel the wind<damage/></line>
+            <line>play on my cheeks. Light, feeling &amp; sense wi<damage/></line>
+            <line>pass away. And in this condition must I find <damage/></line>
+            <line>happiness.&#x2013; Some years ago when the images whi<damage/></line>
+            <line>this world affords first opened upon me, when I</line>
+            <line>felt the cheering warmth of summer, &amp; he<damage/></line>
+            <line>the rustling of leaves &amp; the <del rend="strikethrough">music</del> chirping
+                  of</line>
+            <line>birds, &amp; these were all to me, I should have wep<damage/></line>
+            <line>to die, &amp; now it is my only consolation. Pollut<damage/></line>
+            <line>by crimes &amp; torn by the bitterest remorse where ca<damage/></line>
+            <line>I find rest but in death.</line>
+            <milestone unit="tei:p"/><line><space unit="chars" extent="2"/>Farewell. I leave you,
+                  &amp; in you the last of</line>
+            <line>human kind whom these eyes will ever behold.</line>
+            <line>Farewell, Frankenstein. If thou wert yet alive</line>
+            <line>&amp; yet cherished a desire of revenge against me,</line>
+            <line>it would be better satiated in my life than my</line>
+            <line>destruction. But it was not so. You sought</line>
+      </zone>
 </surface>

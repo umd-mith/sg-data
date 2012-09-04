@@ -1,45 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0027"
-  ulx="0" uly="0" lrx="5368" lry="7104"
-  partOf="ox-ms_abinger_c57">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0027" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0027.tif"/>
   <zone type="pagination">62</zone>
   <zone type="library">14</zone>
   <zone type="main">
-      <line> be enabled to <del rend="strikethrough">carry on</del><add place="superlinear">prolong</add>the deceit untill it</line>
-      <line>was no longer necessary; and then <add resp="#pbs" place="superlinear">to</add> carry his</line> 
-        <line>daughter to Africa with him. <del rend="strikethrough">And</del>His</line>
-        <line>plans were greatly facillitated by the news</line>
-        <line><del rend="strikethrough">that</del><add resp="#pbs" place="superlinear"> which</add>arrived from Paris.<milestone unit="paragraph"/></line>
-          <line> The government of France were greatly</line>
-          <line> enraged at the escape of their victim and spared</line>
-          <line> no pains to discover and punish his deliverer.</line>
-          <line> The plot of Felix was quickly discovered &#x0026;</line>
-          <line>De Lacey &#x0026; Agathat were thrown intto prison</line>
-    <line><delSpan spanTo="abc"/><del rend="strikethrough">This news reached the youth and awakened</del></line>
-    <line><del rend="strikethrough">him from the blissful dream that he enjoyed.</del><anchor xml:id="abc"/></line>
-        <line>The news reached Felix and roused him from</line>
-    <line>his dream of pleasure.  His blind <del rend="strikethrough">&#x0026; in</del> <del rend="strikethrough"><unclear reason="illegible">in</unclear></del><add place="superlinear">&#x0026; aged</add> father and</line>
-        <line>his gentle sister lay in a noisome dungeon</line>
-        <line>while he enjoyed the free air &#x0026; the society of</line>
-        <line> her he loved.  This idea was torture to him &#x2014; He</line>
-        <line>arranged with the Turk<del rend="strikethrough">that</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">if the latter should find a favourable opportunity for escape before Felix could return to Italy</add>Safie should</line>
-        <line> remain as <metamark>&#x2038;</metamark><add place="superlinear">a</add> boarder in a convent at Leghorn</line>
-    <line><delSpan spanTo="def"/><del rend="strikethrough">If a favourable opportunity for the fathers escape</del></line>
-    <line><del rend="strikethrough">should occur before <del rend="strikethrough">Felix</del><add place="superlinear">he</add>could return to Italy</del><anchor xml:id="def"/></line>
-        <line>and then quitting the lovely Arabian, he hastened	</line>
-        <line>to Paris &#x0026; delivered himself up to the vengeance</line>
-        <line> of  <del rend="strikethrough">For</del> the law hoping  <del rend="strikethrough"> by this pr </del>to free De Lacey</line>
-        <line>&#x0026; Agatha by this proceeding.<milestone unit="paragraph"/></line>
-          <line>He did not succeed<del rend="strikethrough">for three months</del><add place="superlinear"><del rend="strikethrough">five</del></add></line>  	
-          <line> they remained confined<metamark>&#x2038;</metamark><add place="superlinear">for five months</add> before the trial took</line>
-          <line>place the result of which deprived them</line>
+    <line>be enabled to <mod>
+        <del rend="strikethrough">carry on</del>
+        <add place="superlinear">prolong</add>
+      </mod> the deceit untill it</line>
+    <line>was no longer necessary; and then <add hand="#pbs" place="superlinear"><unclear precision="high" reason="faint ink" extent="2" unit="chars">to</unclear></add> carry
+      his</line>
+    <line>daughter to Africa with him. <del rend="strikethrough">And</del> His</line>
+    <line>plans were greatly facillitated by the news</line>
+    <line><mod>
+        <del rend="strikethrough">that</del>
+        <add hand="#pbs" place="superlinear"> which</add>
+      </mod> arrived from Paris.</line>
+    <milestone unit="tei:p"/>
+    <line>The government of France were greatly</line>
+    <line>enraged at the escape of their victim and spared</line>
+    <line>no pains to discover and punish his deliverer<unclear precision="high" reason="illegible" unit="chars" extent="1">.</unclear></line>
+    <line>The plot of Felix was quickly discovered &amp;</line>
+    <line>De Lacey &amp; Agathat were thrown intto prison</line>
+    <line><delSpan rend="strikethrough" spanTo="#c57-0027.01"/>This news reached the youth and
+      awakened</line>
+    <line>him from the blissful dream that he enjoyed.<anchor xml:id="c57-0027.01"/></line>
+    <line>The news reached Felix and roused him from</line>
+    <line>his dream of pleasure. His blind <mod>
+        <del rend="strikethrough">&amp; <unclear precision="low" extent="2" unit="chars" reason="illegible">in</unclear></del>
+        <add place="superlinear">&amp; aged</add>
+      </mod> father and</line>
+    <line>his gentle sister lay in a noisome dungeon</line>
+    <line>while he enjoyed the free air &amp; the society of</line>
+    <line>her he loved. This idea was torture to him &#x2014; He</line>
+    <line>arranged with the Turk <mod>
+        <del rend="strikethrough">that</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">if the latter should find a favourable opportunity for escape
+          before Felix could return to Italy</add>
+      </mod> Safie should</line>
+    <line>remain as <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">a</add>
+      </mod> boarder in a convent at Leghorn</line>
+    <line><delSpan spanTo="#c57-0027.02"/>If a favourable opportunity for the fathers
+      esca<!--see scholar's note. candidate for 
+        <restore> encoding--></line>
+    <line>should occur before Felix <add place="superlinear">he</add> could return to
+        Ital<!--see scholar's note. candidate for 
+          <restore> encoding-->y<anchor xml:id="c57-0027.02"/></line>
+    <line>and then
+      qu<!--see scholar's note: piece of hair attached 
+        to ms. at this point&#x2014;encode or is this meaningless?-->itting
+      the lovely Arabian, he hastened </line>
+    <line>to Paris<damage agent="torn"/> &amp; delivered himself up to the vengeance</line>
+    <line>of <del rend="strikethrough">For</del> the law hoping <del rend="strikethrough">by this
+        pr</del>to free De Lacey</line>
+    <line>&amp; Agatha by this proceeding.<milestone unit="paragraph"/></line>
+    <line>He did not succeed <del rend="strikethrough">for</del>
+      <del rend="strikethrough">three</del><add place="superlinear"><del rend="strikethrough">five</del></add>
+      <del rend="strikethrough">months</del></line>
+    <line>they remained confined <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">for five months</add>
+      </mod> before the trial took</line>
+    <line>place the result of which deprived them</line>
   </zone>
 </surface>
-

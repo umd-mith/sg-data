@@ -6,7 +6,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2012-05-03T08:15:16Z. 
+# Schema generated from ODD source 2012-06-28T12:25:49Z. 
 # Edition: 2.0.2 Last updated on 2nd February 2012.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 #
@@ -322,23 +322,19 @@ sga-patt.divLike.attribute.part =
       "F"
   }?
 sga-patt.responsibility.attributes =
-  sga-patt.responsibility.attribute.resp,
-  sga-patt.responsibility.attribute.cert
-sga-patt.responsibility.attribute.resp =
-  
-  ##
-  attribute resp {
-    
-    ##
-    "#pbs"
-    | 
-      ##
-      "http://viaf.org/viaf/95159449"
-  }?
+  sga-patt.responsibility.attribute.cert,
+  sga-patt.responsibility.attribute.resp
 sga-patt.responsibility.attribute.cert =
   
   ## (certainty) signifies the degree of certainty associated with the intervention or interpretation.
   attribute cert { sga-pdata.certainty }?
+sga-patt.responsibility.attribute.resp =
+  
+  ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an
+  ##         editor or transcriber.
+  attribute resp {
+    list { sga-pdata.pointer, sga-pdata.pointer* }
+  }?
 sga-patt.editLike.attributes =
   sga-patt.dimensions.attributes,
   sga-patt.responsibility.attributes,
@@ -776,7 +772,26 @@ sga-patt.spanning.attribute.spanTo =
   ##	bearing this attribute.
   attribute spanTo { sga-pdata.pointer }?
 sga-patt.transcriptional.attributes =
-  sga-patt.editLike.attributes, sga-patt.transcriptional.attribute.seq
+  sga-patt.editLike.attributes,
+  sga-patt.transcriptional.attribute.hand,
+  sga-patt.transcriptional.attribute.seq
+sga-patt.transcriptional.attribute.hand =
+  
+  ##
+  attribute hand {
+    
+    ##  (Percy Shelley's handwriting) Text written in Percy Shelley's hand.
+    "#pbs"
+    | 
+      ##  (Mary Shelley's handwriting) Text written in Mary Shelley's hand.
+      "#mws"
+    | 
+      ##  (compositor's handwriting) Text written in an (unknown?) compositor's hand.
+      "#comp"
+    | 
+      ##
+      "http://viaf.org/viaf/95159449"
+  }?
 sga-patt.transcriptional.attribute.seq =
   
   ## (sequence) assigns a sequence number related to the order in which
@@ -1345,7 +1360,12 @@ sga-pdel =
     sga-patt.global.attribute.n,
     sga-patt.global.linking.attributes,
     sga-patt.global.facs.attributes,
-    sga-patt.transcriptional.attributes,
+    sga-patt.transcriptional.attribute.seq,
+    sga-patt.editLike.attribute.evidence,
+    sga-patt.editLike.attribute.source,
+    sga-patt.editLike.attribute.instant,
+    sga-patt.dimensions.attributes,
+    sga-patt.responsibility.attribute.cert,
     sga-patt.typed.attributes,
     empty
   }
@@ -1472,16 +1492,16 @@ sga-pptr =
          "\x{a}" ~
          "         "
        ],
-    sga-patt.global.attributes,
-    sga-patt.pointing.attributes,
-    sga-patt.internetMedia.attributes,
-    sga-patt.typed.attributes,
     
     ## (canonical reference) specifies the destination of the pointer by supplying a canonical reference from a
     ##         scheme defined in a refsDecl element in the TEI header
     attribute cRef {
       list { sga-pdata.word, sga-pdata.word* }
     }?,
+    sga-patt.global.attributes,
+    sga-patt.pointing.attributes,
+    sga-patt.internetMedia.attributes,
+    sga-patt.typed.attributes,
     empty
   }
 sga-pref =
@@ -1997,7 +2017,8 @@ sga-psurface =
   element surface {
     (sga-pmodel.glossLike*,
      sga-pmodel.graphicLike+,
-     (sga-pzone | sga-pmodel.global | sga-pline)*),
+     (sga-pzone | sga-pmodel.global | sga-pline)*)
+    >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ],
     sga-patt.global.attribute.el-target,
     sga-patt.global.attribute.att-target,
     sga-patt.global.attribute.att-value,
@@ -2453,16 +2474,38 @@ sga-pmod =
   
   ## represents any kind of modification identified within a single document.
   element mod {
-    sga-pmacro.paraContent,
+    ((sga-pmodel.gLike
+      | sga-pmodel.phrase
+      | sga-pmodel.inter
+      | sga-pmodel.global)*)
+    >> sch:pattern [
+         id = "mod-constraint-modContents"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:mod"
+           "\x{a}" ~
+           "                                    "
+           sch:assert [
+             test = "count(node()) gt 1"
+             "The mod element is\x{a}" ~
+             "                                        intended to group a series of related changes to the\x{a}" ~
+             "                                        manuscript. Thus, mod must have more than one child\x{a}" ~
+             "                                        element. If only a single addition or deletion is being\x{a}" ~
+             "                                        encoded, mod is not required."
+           ]
+           "\x{a}" ~
+           "                                "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     
     ##
     attribute type {
       
       ##
-      "subst"
-      | 
-        ##
-        "additions"
+      "additions"
       | 
         ##
         "deletions"

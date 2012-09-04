@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0081" ulx="0" uly="0" lrx="5138" lry="7032">
@@ -16,13 +16,13 @@
     <line>infirmities. You are younger yet I do not suppose, possess</line>
     <line>ed as you are of a competent fortune that an early</line>
     <line>marriage would at all interfere with any future plans</line>
-    <line>of honour and utility<metamark>‸</metamark><add place="superlinear"><mod hand="#pbs">that</mod>you may have formed</add><del rend="strikethrough">. Yet</del>Do not suppose however that</line>
+    <line>of honour and utility<metamark>&#x2038;</metamark><add place="superlinear"><mod hand="#pbs">that</mod>you may have formed</add><del rend="strikethrough">. Yet</del>Do not suppose however that</line>
     <line>I wish to dictate happiness to you or that a</line>
-    <line>delay on your part would cause me any <metamark>‸</metamark><add place="superlinear" hand="#pbs">serious</add> uneasi</line>
+    <line>delay on your part would cause me any <metamark>&#x2038;</metamark><add place="superlinear" hand="#pbs">serious</add> uneasi</line>
     <line>ness; Interpret my words with candour and answer</line>
     <line>me I conjure you with confidence and sincerity.<milestone unit="paragraph"/></line>
     <line>I listened to my father in silence and remained</line>
-    <line><metamark>‸</metamark><add place="superlinear">for</add>sometime without offering any reply. I revolved</line>
+    <line><metamark>&#x2038;</metamark><add place="superlinear">for</add>sometime without offering any reply. I revolved</line>
     <line>rapidly in my mind a multitude of <del rend="strikethrough">ideas</del><add place="superlinear">thoughts</add> and</line>
     <line><del rend="strikethrough">d</del> endeavoured to come to some conclusion. Alas!</line>
     <line>to me the idea of an immediate union with my</line>
@@ -32,7 +32,7 @@
     <line>ries might not impend over me and my devo</line>
     <line>ted family! <del rend="strikethrough">And</del> could I enter into a festival with</line>
     <line>this deadly weight yet hanging round my neck and</line>
-    <line>bowing me to the ground. <del rend="strikethrough">No, <metamark>‸</metamark><add place="superlinear"><mod hand="#pbs">that</mod></add>I could not endure</del></line>
+    <line>bowing me to the ground. <del rend="strikethrough">No, <metamark>&#x2038;</metamark><add place="superlinear"><mod hand="#pbs">that</mod></add>I could not endure</del></line>
     <line><del>that</del><del>and therefore resolved to</del><add place="superlinear"><mod hand="#pbs">I <unclear>must</unclear></mod></add> perform my engage</line>
     <line>ment and let the monster depart with his mate</line>
   </zone>

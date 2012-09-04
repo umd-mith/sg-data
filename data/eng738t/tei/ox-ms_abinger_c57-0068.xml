@@ -1,44 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0068" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0068" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0068.tif"/>
   <zone type="pagination" rend="bordered"><line>93</line></zone>
-  <zone type="main"><line><add place="intralinear">me happy; let</add><note>QC: Robinson transcript appears to leave out the ";" after "happy"</note> me feel gratitude towards you for one</line>
-    <line>benefit; Let me see that I excite the</line>
-    <line>sympathy of <metamark>&#x2038;</metamark><add place="superlinear">one</add>creature.  Do not deny me my</line>
-    <line>request.<milestone unit="paragraph"/></line>
-    <line>I was moved.  I shuddered when I thought</line>
+  <zone type="main">
+    <line><add><ptr target="#c57-0068.01"/></add>
+      let<!--<note>QC: Robinson transcript appears to leave
+        out the ";" after "happy"</note>-->
+      me feel gratitude towards you for one</line>
+    <line>benefit<unclear reason="ambiguous" precision="medium">;</unclear> Let me see that I excite
+      the</line>
+    <line>sympathy of <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">one</add>
+      </mod> creature. Do not deny me my</line>
+    <line>request.</line>
+    <milestone unit="tei:p"/>
+    <line>I was moved. I shuddered when I thought</line>
     <line>of the possible consequences of my consent</line>
     <line>but I felt that there was some justice</line>
-    <line>in his argument.  His tale and the fee</line>
-    <line>lings he now expressed <del rend="strikethrough">ap</del>proved him to</line>
+    <line>in his argument. His tale and the fee</line>
+    <line>lings he now expressed <del rend="tetra-strike">ap</del>proved him to</line>
     <line>be a creature of fine sensations and</line>
-    <line>did not I <metamark>&#x2038;</metamark><add place="superlinear">as</add>his <del rend="strikethrough">creator</del> maker owe him</line>
+    <line>did not I <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">as</add>
+      </mod> his <del rend="strikethrough">creator</del> maker owe him</line>
     <line>all the portion of happiness that it</line>
-    <line>was in <del rend="strikethrough">pw</del><metamark>&#x2038;</metamark><add place="superlinear">my</add> power to bestow? He saw my</line>
-    <line>change of feeling &amp; continued.<milestone unit="paragraph"/></line>
+    <line>was in <mod>
+        <del rend="strikethrough">pw</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">my</add>
+      </mod> power to bestow? He saw my</line>
+    <line>change of feeling &amp; continued.</line>
+    <milestone unit="tei:p"/>
     <line>If you consent neither you or</line>
     <line>any human <del rend="strikethrough">being</del> creature shall ever see</line>
     <line>us again. I will go to the vast wilds of</line>
-    <line>America.  My food is not that of man; I</line>
+    <line>America. My food is not that of man; I</line>
     <line>do not destroy the lamb or the kid to</line>
-    <line>glut my appetite.  Acorns &amp; berries afford</line>
-    <line>me sufficient nourishment.  My com</line>
+    <line>glut my appetite. Acorns &amp; berries afford</line>
+    <line>me sufficient nourishment. My com</line>
     <line>panion will be of the same nature</line>
     <line>as myself and will be content with</line>
-    <line>the same fare.  We shall make our bed</line>
+    <line>the same fare. We shall make our bed</line>
     <line>of dried leaves; the sun will shine on</line>
     <line>us as on man &amp; will ripen our food. You</line>
-    <line>are moved.  The picture I present to you</line>
+    <line>are moved. The picture I present to you</line>
     <line>is peaceful &amp; human and you must</line>
     <line>feel that you could deny it only in</line>
-    <line>the wantoness of power &amp; cruelty.  Pitiless</line>
+    <line>the wantoness of power &amp; cruelty. Pitiless</line>
     <line>as you are towards me I see compassi</line>
     <line>on in your eyes. Let me seize the</line>
     <line>favourable moment &amp; <del rend="strikethrough">pro</del> persuade</line>
     <line>you to promise what I so ardently</line>
-    <line>desire.<milestone unit="paragraph"/></line>
+    <line>desire.</line>
+    <milestone unit="tei:p"/>
     <line>You promise, replied I, to quit the habitations</line>
-    </zone>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0068.01">me happy<unclear reason="ambiguous" precision="medium"
+          >;</unclear></add></line>
+  </zone>
 </surface>

@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0110" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
+  xml:id="ox-ms_abinger_c56-0110" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0110.tif"/>
   <zone type="pagination" rend="bordered">140</zone>
   <zone type="main">
     <line>society."</line>
-    <!--end of a quotation-->
     <milestone unit="tei:p"/>
-    <line>This advice, although good, was utterly inna-</line>
+    <line><space unit="chars" extent="2"/>This advice, although good, was utterly inna-</line>
     <line>-plicable to my case; I should have been</line>
     <line>the first to hide my grief and console</line>
     <line>my friends if remorse had not mingled its</line>
@@ -23,10 +22,12 @@
     <line>agreable to me in particular. The</line>
     <line>shutting of the gates of the town regularly</line>
     <line>at ten o'clock and the impossibility of</line>
-    <line><mod><del rend="strikethrough">stay</del><add place="sublinear"
-            ><metamark>&#x2038;</metamark></add><del rend="strikethrough"><add place="superlinear"
-            >ing</add></del><add><ptr target="#c56-0110.01"/></add></mod> on the lake after that
-      hour</line>
+    <line><mod>
+        <del rend="strikethrough">stay</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <del rend="strikethrough"><add place="superlinear">ing</add></del>
+        <add><ptr target="#c56-0110.01"/></add>
+      </mod> on the lake after that hour</line>
     <line>rendered our residence within the</line>
     <line>walls of Geneva very irksome to me.</line>
     <line>I was now free: often, after the rest of</line>
@@ -36,20 +37,27 @@
     <line>with my sails set I was carried by the</line>
     <line>wind and sometimes after <del rend="strikethrough">wo</del> rowing</line>
     <line>into the middle of the lake I left the</line>
-    <line>boat to <mod><del rend="strikethrough">take</del><add place="sublinear"
-            ><metamark>&#x2038;</metamark></add><add place="superlinear">pursue</add></mod> its own
-      course and</line>
-    <line><mod><del rend="strikethrough">followed</del><add place="sublinear"
-            ><metamark>&#x2038;</metamark></add><add><ptr target="#c56-0110.02"/></add><add
-          place="superlinear">to</add></mod> my own miserable reflections.</line>
-    <line>I was often tempted <del rend="strikethrough">w</del> when all was <mod><del
-          rend="strikethrough">quiet</del><add place="sublinear"
-          ><metamark>&#x2038;</metamark></add><add place="superlinear">at peace</add></mod></line>
+    <line>boat to <mod>
+        <del rend="strikethrough">take</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">pursue</add>
+      </mod> its own course and</line>
+    <line><mod>
+        <del rend="strikethrough">followed</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add next="#c56-0110.03"><ptr target="#c56-0110.02"/></add>
+        <add place="superlinear" xml:id="c56-0110.03">to</add>
+      </mod> my own miserable reflections.</line>
+    <line>I was often tempted <del rend="strikethrough">w</del> when all was <mod>
+        <del rend="strikethrough">quiet</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">at peace</add>
+      </mod></line>
     <line>around me and I the only unquiet</line>
     <line>thing that wandered restless in a scene</line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0110.01" resp="#pbs">remaining</add></line>
+    <line><add xml:id="c56-0110.01" hand="#pbs">remaining</add></line>
   </zone>
   <zone type="left_margin">
     <line><add xml:id="c56-0110.02">gave way</add></line>

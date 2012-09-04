@@ -1,54 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0005" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0005" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57-0005">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0005.tif"/>
   <zone type="pagination" rend="bordered">4</zone>
   <zone type="library">3</zone>
   <zone type="main">
-    <line>guished the <del rend="strikethrough">insect</del> insect from the herb, and by de</line>
-    <line>grees one herb from a another — I found</line>
+    <line><add><ptr target="#c57-0005.01"/></add><del rend="strikethrough">insect</del> insect from
+      the herb, and by de</line>
+    <line>grees one herb from a another&#x2013; I found</line>
     <line>that the sparrow uttered none but harsh</line>
-    <line>notes <add place="superlinear"><del rend="strikethrough">but</del> <mod resp="#pbs">whilst</mod></add> <del rend="strikethrough">and that</del> <add place="sublinear"><metamark>‸</metamark></add> <add place="superlinear">those of</add> the blackbird were sweet</line>
-    <line>and enticing. <del rend="strikethrough">I had <unclear reason="illegible">le</unclear></del> one day when I was</line>
+    <line>notes <del rend="strikethrough">and that</del>
+      <add place="superlinear"><del rend="strikethrough">but</del></add>
+      <add place="superlinear" hand="#pbs">whilst</add>
+      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear">those of</add> the blackbird were sweet</line>
+    <line>and enticing. <del rend="strikethrough">I had le</del> one day when I was</line>
     <line>oppressed by cold I found a fire that</line>
-    <line><add><ptr target="c57-0002.01"/></add>had been left by some wandering beg</line>
-    <line>gars and was over come with delight.</line>
+    <line>had been left by some wandering beg</line>
+    <line>gars and was over come with delight<metamark>X</metamark><add><ptr target="#c57-0005.02"/></add></line>
     <line>In my joy I thrust my hand into the</line>
-    <line><add><ptr target="c57-0002.02"/></add>live embers but quickly drew it away <add place="superlinear">with a cry</add> <del rend="strikethrough">in</del></line>
-    <line>of pain— How strange, I thought, that the</line>
+    <line><add><ptr target="#c57-0005.03"/></add>live embers but quickly drew it away 
+      <del rend="strikethrough">in</del><add
+        place="superlinear">with a cry</add></line>
+    <line>of pain&#x2013; How strange, I thought, that the</line>
     <line>same cause should at once produce</line>
-    <line>such <del rend="strikethrough">delicious and such</del> <del rend="strikethrough"><unclear reason="illegible">u</unclear></del> <del rend="strikethrough">opp</del> opposite</line>
-    <line>effects —I examined the materials of the</line>
-    <line>fire, &amp; to my joy found it to be wood —</line>
-    <line><add><ptr target="c57-0002.03"/></add>I quickly collected some branches but</line>
+    <line>such <del rend="strikethrough">delicious and such</del>
+      <del rend="strikethrough"><unclear reason="illegible">u</unclear></del>
+      <del rend="strikethrough">opp</del> opposite</line>
+    <line>effects&#x2013; I examined the materials of the</line>
+    <line>fire, &amp; to my joy found it to be wood&#x2013;</line>
+    <line><add><ptr target="#c57-0005.04"/></add>I quickly collected some branches but</line>
     <line>they were wet and would not burn.</line>
     <line>I was pained at this and sat still</line>
-    <line>watching the op<del rend="strikethrough">p</del>eration of the fire.</line>
+    <line>watching the o<del rend="strikethrough">p</del>peration of the fire.</line>
     <line>The wet wood I had placed near the heat</line>
-    <line><del rend="strikethrough">became dy dry</del> <add place="superlinear">dried,</add> and itself <del rend="strikethrough">became</del> became</line>
-    <line><mod resp="#pbs">inflamed.</mod> <del rend="strikethrough">hot</del>  I reflected on this, and by touching</line>
+    <line><del rend="strikethrough">became dy dry</del>
+      <add place="superlinear">dried,</add> and itself <del rend="strikethrough">became</del>
+      became</line>
+    <line><add><ptr target="#c57-0005.05"/></add><del rend="strikethrough">hot</del> I reflected on this, and by touching</line>
     <line>the various branches I discovered the cause</line>
     <line>and busied myself in collecting a great</line>
-    <line><del rend="strikethrough">deal</del> <add place="superlinear"><mod resp="#pbs">quantity</mod></add> of wood that I might dry it and</line>
-    <line>have a <del rend="strikethrough">pel</del> plentiful supply <mod resp="#pbs"><add place="superlinear">o</add> of fire.</mod> When night</line>
-    <line>came on and <add place="sublinear"><metamark>‸</metamark></add> <add place="superlinear"><mod resp="#pbs">brought with it</mod></add> sleep, I was in the greatest</line>
+    <line><del rend="strikethrough">deal</del>
+      <add place="superlinear" hand="#pbs">quantity</add> of wood that I might dry it
+      and</line>
+    <line>have a <del rend="strikethrough">pel</del> plentiful supply <add
+          place="superlinear" hand="#pbs">o</add> <add place="intralinear" hand="#pbs">of fire</add>. When night</line>
+    <line>came on and <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="superlinear" hand="#pbs">brought with it</add> sleep, I was in the
+      greatest</line>
     <line>fear lest my fire should be extinguished</line>
     <line>I covered it carefully with <del rend="strikethrough">try</del> dry wood</line>
     <line>and leaves &amp; then placed upon that wet</line>
     <line>branches and then spreading my cloak I <del rend="strikethrough">la</del></line>
   </zone>
   <zone type="left_margin">
-    <line><mod resp="#pbs"><figure><desc>PBS insert mark X</desc></figure></mod></line>               
-    <line>at the warmth</line>
-    <line>which I ex-</line>
-    <line>-perienced from</line>
-    <line>it.<anchor xml:id="c57-0002.01"/></line>                  
+    <add xml:id="c57-0005.01">guished the</add>
   </zone>
   <zone type="left_margin">
-    <line><figure><desc>PBS doodle or sketch</desc></figure><anchor xml:id="c57-0002.02"/></line>
+    <add xml:id="c57-0005.02"><metamark>X</metamark>at the warmth which I ex-perienced from it.</add>
   </zone>
   <zone type="left_margin">
-    <line><figure><desc>stray ink strokes (resembling double quotation marks)</desc></figure><anchor xml:id="c57-0002.03"/></line>
+    <add xml:id="c57-0005.03"><figure>
+        <desc>PBS doodle or sketch resembling smoke</desc>
+      </figure></add>
+  </zone>
+  <zone type="left_margin">
+    <line><figure>
+        <desc>stray ink strokes (resembling double quotation marks)</desc>
+      </figure><anchor xml:id="c57-0005.04"/></line>
+  </zone>
+  <zone type="left_margin">
+    <add xml:id="c57-0005.05">inflamed.</add>
   </zone>
 </surface>

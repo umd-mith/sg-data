@@ -1,43 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0044" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0044" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0044.tif"/>
-    <zone type="pagination"> 
-      <line>69</line>
-    </zone>
- <zone type="main">  
-<line>were the sight of flowers and birds</line> 
-<line>and all the gay apparel of summer</line> 
-<line><add><ptr target="c57-0002.01"/></add><del rend="overstrike">but</del> when those deserted me<del rend="overstrike"> &#x0026; the</del></line> 
-<line><del rend="overstrike"> days became shorter</del>I turned with</line> 
-<line>more attention towards the cottagers</line> 
-<line><add><ptr target="c57-0002.02"/></add>the absence of summer &#x2014; They loved</line> 
-<line>and sympathized with one another </line> 
-<line>and their <mod><del rend="overstrike">happiness</del><add place="superlinear"><metamark>&#x2038;</metamark>joys</add></mod>depending on</line> 
-<line>each other were not<mod resp="#pbs"><del rend="overstrike">hurt</del><add place="superlinear">interrupted</add></mod>by the</line> 
-<line>casualties that took place around</line> 
-<line>them — The more I saw of them</line> 
-<line>the greater became my desire to</line>  
-<line>claim their protection &#x0026; kindness.</line> 
-<line>My heart yearned to <del rend="overstrike">beco</del>be <add place="superlinear"><metamark>&#x2038;</metamark>known and</add>loved</line> 
-<line>by these amiable creatures to see</line> 
-<line>their sweet looks directed towards</line> 
-<line>me in kindness — I dared not think</line> 
-<line>that they would turn <mod resp="#pbs"><add place="superlinear">them</add></mod> from me</line> 
-<line>with disdain or horror — The poor</line> 
-<line>that stopt at their door were</line> 
-<line>never driven away <del rend="overstrike">And I</del> I asked</line> 
-<line>it is true for greater treasures</line> 
-<line>that a little food or rest I required</line> 
-<line>kindness &#x0026; sympathy but I <add place="superlinear"><metamark>&#x2038;</metamark>did</add> not</line> 
-<line>believe my self utterly unworthy</line> 
-<line>of it</line> 
-</zone> 
-<zone type="left_margin">  
-  <line> <del rend="overstrike">and</del><anchor xml:id="c57-0002.01"/></line>  
-</zone> 
-<zone type="left_margin">
-  <line> their happiness was <add place="superlinear"><metamark>&#x2038;</metamark>not decreased by</add><anchor xml:id="c57-0002.02"/></line>
-</zone> 
+  <zone type="pagination">
+    <line>69</line>
+  </zone>
+  <zone type="main">
+    <line>were the sight of flowers and birds</line>
+    <line>and all the gay apparel of summer</line>
+    <line><mod>
+        <add><ptr target="#c57-0044.01"/></add>
+        <del rend="strikethrough">but</del>
+      </mod> when those deserted me <delSpan spanTo="#c57-0044.02" rend="strikethrough"/>&amp;
+      the</line>
+    <line>days became shorter<anchor xml:id="c57-0044.02"/> I turned with</line>
+    <line>more attention towards the cottagers</line>
+    <line><add><ptr target="#c57-0044.03"/></add> the absence of summer &#x2014; They loved</line>
+    <line>and sympathized with one another </line>
+    <line>and the<add place="intralinear">ir</add>
+      <mod>
+        <del rend="strikethrough">happiness</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">joys</add>
+      </mod>depending on</line>
+    <line>each other were not <mod>
+        <del rend="strikethrough">hurt</del>
+        <add place="superlinear" resp="#pbs">interrupted</add>
+      </mod> by the</line>
+    <line>casualties that took place around</line>
+    <line>them &#x2014; The more I saw of them</line>
+    <line>the greater became my desire to</line>
+    <line>claim their protection &amp; kindness.</line>
+    <line>My heart yearned to <del rend="strikethrough">beco</del>be <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">known and</add>
+      </mod> loved</line>
+    <line>by the<add place="intralinear">se</add> amiable creatures to see</line>
+    <line>their sweet looks directed towards</line>
+    <line>me in kindness &#x2014; I dared not think</line>
+    <line>that they would turn <add place="superlinear" resp="#pbs">them</add> from me</line>
+    <line>with disdain or horror &#x2014; The poor</line>
+    <line>that stopt at their door were</line>
+    <line>never driven away <del rend="strikethrough">And I</del> I asked</line>
+    <line>it is true for greater treasures</line>
+    <line>that a little food or rest I required</line>
+    <line>kindness &amp; sympathy but I <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">did</add>
+      </mod> not</line>
+    <line>believe my self utterly unworthy</line>
+    <line>of it</line>
+  </zone>
+  <zone type="left_margin">
+    <line>
+      <del rend="strikethrough"><add xml:id="c57-0044.01">and</add></del></line>
+  </zone>
+  <zone type="left_margin">
+    <addSpan xml:id="c57-0044.03" spanTo="#c57-0044.04"/>
+    <line>their happiness was <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">not decreased by</add>
+      </mod></line><anchor xml:id="c57-0044.04"/>
+  </zone>
 </surface>

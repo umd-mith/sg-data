@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2012-05-03T08:15:16Z. 
+Schema generated from ODD source 2012-06-28T12:25:49Z. 
 Edition: 2.0.2 Last updated on 2nd February 2012.
 Edition Location: http://www.tei-c.org/Vault/P5/2.0.2/
 
@@ -518,27 +518,28 @@ only one of its kind, in which case it is selected if its parent is selected.</a
     </optional>
   </define>
   <define name="sga-patt.responsibility.attributes">
-    <ref name="sga-patt.responsibility.attribute.resp"/>
     <ref name="sga-patt.responsibility.attribute.cert"/>
-  </define>
-  <define name="sga-patt.responsibility.attribute.resp">
-    <optional>
-      <attribute name="resp">
-        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-        <choice>
-          <value>#pbs</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-          <value>http://viaf.org/viaf/95159449</value>
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-        </choice>
-      </attribute>
-    </optional>
+    <ref name="sga-patt.responsibility.attribute.resp"/>
   </define>
   <define name="sga-patt.responsibility.attribute.cert">
     <optional>
       <attribute name="cert">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(certainty) signifies the degree of certainty associated with the intervention or interpretation.</a:documentation>
         <ref name="sga-pdata.certainty"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="sga-patt.responsibility.attribute.resp">
+    <optional>
+      <attribute name="resp">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsible party) indicates the agency responsible for the intervention or interpretation, for example an
+        editor or transcriber.</a:documentation>
+        <list>
+          <ref name="sga-pdata.pointer"/>
+          <zeroOrMore>
+            <ref name="sga-pdata.pointer"/>
+          </zeroOrMore>
+        </list>
       </attribute>
     </optional>
   </define>
@@ -1123,7 +1124,25 @@ its completeness</a:documentation>
   </define>
   <define name="sga-patt.transcriptional.attributes">
     <ref name="sga-patt.editLike.attributes"/>
+    <ref name="sga-patt.transcriptional.attribute.hand"/>
     <ref name="sga-patt.transcriptional.attribute.seq"/>
+  </define>
+  <define name="sga-patt.transcriptional.attribute.hand">
+    <optional>
+      <attribute name="hand">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+        <choice>
+          <value>#pbs</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (Percy Shelley's handwriting) Text written in Percy Shelley's hand.</a:documentation>
+          <value>#mws</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (Mary Shelley's handwriting) Text written in Mary Shelley's hand.</a:documentation>
+          <value>#comp</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"> (compositor's handwriting) Text written in an (unknown?) compositor's hand.</a:documentation>
+          <value>http://viaf.org/viaf/95159449</value>
+          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+        </choice>
+      </attribute>
+    </optional>
   </define>
   <define name="sga-patt.transcriptional.attribute.seq">
     <optional>
@@ -2662,7 +2681,12 @@ Suggested values include: 1] strikethrough; 2] overwritten; 3] smear</a:document
       <ref name="sga-patt.global.attribute.n"/>
       <ref name="sga-patt.global.linking.attributes"/>
       <ref name="sga-patt.global.facs.attributes"/>
-      <ref name="sga-patt.transcriptional.attributes"/>
+      <ref name="sga-patt.transcriptional.attribute.seq"/>
+      <ref name="sga-patt.editLike.attribute.evidence"/>
+      <ref name="sga-patt.editLike.attribute.source"/>
+      <ref name="sga-patt.editLike.attribute.instant"/>
+      <ref name="sga-patt.dimensions.attributes"/>
+      <ref name="sga-patt.responsibility.attribute.cert"/>
       <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
@@ -2806,10 +2830,6 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
 	attributes 'target' and 'cRef' may be supplied.</report>
         </rule>
       </pattern>
-      <ref name="sga-patt.global.attributes"/>
-      <ref name="sga-patt.pointing.attributes"/>
-      <ref name="sga-patt.internetMedia.attributes"/>
-      <ref name="sga-patt.typed.attributes"/>
       <optional>
         <attribute name="cRef">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference from a
@@ -2822,6 +2842,10 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
           </list>
         </attribute>
       </optional>
+      <ref name="sga-patt.global.attributes"/>
+      <ref name="sga-patt.pointing.attributes"/>
+      <ref name="sga-patt.internetMedia.attributes"/>
+      <ref name="sga-patt.typed.attributes"/>
       <empty/>
     </element>
   </define>
@@ -3594,6 +3618,7 @@ that space, zones of interest within that space, and transcriptions of the
           </choice>
         </zeroOrMore>
       </group>
+      <ns xmlns="http://purl.oclc.org/dsdl/schematron" prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
       <ref name="sga-patt.global.attribute.el-target"/>
       <ref name="sga-patt.global.attribute.att-target"/>
       <ref name="sga-patt.global.attribute.att-value"/>
@@ -4040,13 +4065,27 @@ the space.</a:documentation>
   <define name="sga-pmod">
     <element name="mod">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">represents any kind of modification identified within a single document.</a:documentation>
-      <ref name="sga-pmacro.paraContent"/>
+      <zeroOrMore>
+        <choice>
+          <ref name="sga-pmodel.gLike"/>
+          <ref name="sga-pmodel.phrase"/>
+          <ref name="sga-pmodel.inter"/>
+          <ref name="sga-pmodel.global"/>
+        </choice>
+      </zeroOrMore>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="mod-constraint-modContents">
+        <sch:rule xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:mod">
+          <sch:assert test="count(node()) gt 1">The mod element is
+                                        intended to group a series of related changes to the
+                                        manuscript. Thus, mod must have more than one child
+                                        element. If only a single addition or deletion is being
+                                        encoded, mod is not required.</sch:assert>
+        </sch:rule>
+      </pattern>
       <optional>
         <attribute name="type">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
           <choice>
-            <value>subst</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>additions</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>deletions</value>
