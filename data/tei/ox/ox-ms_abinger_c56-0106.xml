@@ -2,46 +2,58 @@
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0106" ulx="0" uly="0" lrx="5364" lry="7104"
-  partOf="#ox-ms_abinger_c56-0106">
+  partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0106.tif"/>
-  <zone type="pagination">136</zone>
+  <zone type="pagination" rend="bordered">136</zone>
   <zone type="main">
-    <line>peace. <del rend="strikethrough">tha</del> now that my innocence is ackow</line>
+    <line>peace. <del rend="strikethrough"><unclear>thn</unclear></del> now that my innocence is
+      acknow</line>
     <line>ledged by you, sweet lady, and your cousin."</line>
-    <milestone unit="tei:p"/><line>Thus the poor sufferer <del rend="strikethrough">cr</del>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="5"/>Thus the poor sufferer <del rend="strikethrough">cr</del>
       tried</line>
     <line>to comfort others and herself. She indeed</line>
     <line>gained the resignation she wished for</line>
     <line>but I the true murderer <del rend="strikethrough">w</del> felt</line>
-    <line>the never dying worm alive <mod type="subst"><del rend="strikethrough">and I was</del>
-        <add place="superlinear" resp="#pbs">which</add></mod></line>
+    <line>the never dying worm alive <mod><del rend="strikethrough">and I was</del>
+        <add place="superlinear" hand="#pbs">which</add></mod></line>
     <line>allowed no hope or consolation. Eliza</line>
     <line>beth also wept and was unhappy but</line>
-    <line>hers<add place="sublinear"><metamark>&#x2038;</metamark></add>
-      <add place="superlinear">also</add> was <del rend="strikethrough">also</del> the misery of
-      innocence</line>
-    <line><add><ptr target="#c56-0106.01"/></add>like a cloud <mod type="subst"><del
-          rend="strikethrough">that</del>
+    <line>hers<mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add
+          place="superlinear">also</add></mod> was <del rend="strikethrough">also</del> the misery
+      of innocence</line>
+    <line><add><ptr target="#c56-0106.01"/></add>like a cloud <mod><del rend="strikethrough"
+          >that</del>
         <add place="superlinear">that</add></mod> passes over the</line>
-    <line>fair moon <del rend="strikethrough">which</del> for a while</line>
-    <line>hides but cannot <mod type="subst"><del rend="strikethrough">disturb</del>
-        <add place="superlinear" resp="#pbs">destroy</add></mod> its brightness</line>
-    <line><del rend="strikethrough">but misery &amp; desp</del> anguish and</line>
+    <line>fair moon <mod><del rend="strikethrough">which</del><add place="superlinear"
+        >&#x26;</add></mod> for a while</line>
+    <line><restore type="smear_cancellation"><del rend="strikethrough">hi</del></restore>des but
+      cannot <mod><del rend="strikethrough">disturb</del>
+        <add place="superlinear" hand="#pbs">destroy</add></mod> its brightness</line>
+    <line><del rend="strikethrough">but</del>
+      <del rend="strikethrough">misery</del>
+      <del rend="strikethrough">&#x26;</del>
+      <del rend="strikethrough">desp</del> anguish and</line>
     <line>despair had <del rend="strikethrough">penetr</del> penetrated into</line>
-    <line>the core of my heart- I bore a hell</line>
-    <line>within me that nothing could <mod type="subst"><del rend="strikethrough">diminish</del>
-        <add place="superlinear" resp="#pbs">extinguish</add></mod>.</line>
-    <milestone unit="tei:p"/><line>We staid several hours with Justine</line>
+    <line>the core of my heart &#x2013; I bore a hell</line>
+    <line>within me that nothing could <mod><del rend="strikethrough">diminish</del><del
+          rend="unmarked">.</del>
+        <add place="superlinear" hand="#pbs">extinguish.</add></mod></line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>We staid several hours with Justine</line>
     <line>and <del rend="strikethrough">with</del> it was with great difficulty</line>
     <line>that Elizabeth tore herself away</line>
     <line>"I wish" cried she that I were to die</line>
-    <line>with you- I cannot live in thi<add place="intralinear">s</add> world</line>
+    <line>with you &#x2013; I cannot live in th<mod><del rend="overwritten">e</del><add
+          place="intralinear">is</add></mod> world</line>
     <line>of misery." Justine assumed an air</line>
-    <line> of Cheerfullness while she with diffi</line>
-    <line>culty repressed the bitter tears- "Farewell</line>
-    <line> sweet lady, dearest Elizabeth may heaven</line>
+    <line>of Cheerfullness whi<mod><del rend="overwritten">ch</del><add place="intralinear"
+        >le</add></mod> she with diffi</line>
+    <line>culty repressed the bitter tears &#x2013; "Farewell</line>
+    <line>sweet lady, dearest Elizabeth may heaven</line>
     <line>in its bounty bless and preserve you</line>
   </zone>
-  <zone type="left_margin"><add xml:id="c56-0106.01"><del rend="overwritten">that</del>
-    which</add></zone>
+  <zone type="left_margin">
+    <add xml:id="c56-0106.01"><mod><del rend="strikethrough">that</del><add place="superlinear"
+          >which</add></mod></add></zone>
 </surface>
