@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0112" ulx="0" uly="0" lrx="5364" lry="7104">
+  xml:id="ox-ms_abinger_c56-0112" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0112.tif"/>
   <zone type="pagination" rend="bordered">142</zone>
   <zone type="main">
     <line><del rend="strikethrough">cr</del> crime which by its enormity would</line>
-    <line><add><ptr target="#c56-0112.01"/></add>efface the recollection of the past. <add
-        place="superlinear">X</add><add><ptr target="c56-0112.03"/></add> My</line>
+    <line><add><ptr target="#c56-0112.01"/></add>efface the recollection of the past.<add
+        place="superlinear"><metamark>X</metamark></add><add><ptr target="c56-0112.02"/></add>
+      My</line>
     <line>abhorrence of this fiend cannot be</line>
-    <line>conceived – When I thought of him I</line>
+    <line>conceived &#x2013; When I thought of him I</line>
     <line>gnashed my teeth my eyes became inflam</line>
     <line>ed and I ardently wished to extinguish</line>
     <line>that life which I had so thoughtlessly</line>
@@ -19,17 +20,16 @@
     <line><delSpan rend="strikethrough" spanTo="#c56-0112.04"/>I wished but to see him again that
       I</line>
     <line>might<anchor xml:id="c56-0112.04"/> I would have made a pilgrimage</line>
-    <line>to the highest <add place="superlinear" resp="#pbs">peak of the</add>Andes could I when
+    <line>to the highest<add place="superlinear" hand="#pbs">peak of the</add> Andes could I when
       there</line>
-    <line>have precipitated him to their <mod>
-        <del rend="strikethrough">foot</del>
-        <add place="superlinear" resp="#pbs">base</add>
-      </mod>; I</line>
+    <line>have precipitated him to their <mod><del rend="strikethrough">foot</del><add
+          place="superlinear" hand="#pbs">base</add></mod>; I</line>
     <line>wished but to see him again that</line>
     <line>I might wreak the utmost extent of</line>
     <line>anger on his head and avenge the</line>
     <line>deaths of William and Justine.</line>
-    <milestone unit="tei:p"/><line>Our house was <del rend="strikethrough">now</del> the
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>Our house was <del rend="strikethrough">now</del> the
       house</line>
     <line>of mourning, my father's health was deeply</line>
     <line>shaken by the horror of the recent</line>
@@ -37,27 +37,28 @@
     <line>she no longer took delight in her</line>
     <line>ordinary occupations; all pleasure seemed</line>
     <line>to her sacriledge towards the dead; eter<add><ptr target="#c56-0112.05"/></add></line>
-    <line>woe and tears she then thought was the</line>
+    <line>woe and tea<mod><del rend="overwritten">s</del><add place="intralinear">rs</add></mod> she
+      then thought was the</line>
     <line>just tribute she should pay to innocence</line>
     <line>so blasted and destroyed. She was no longer</line>
-    <line>that happy creature <!-- This is a delSpan that crosses 0112 to 0113 --><delSpan
-        rend="strikethrough" spanTo="c56-0113.01"/>she had been when</line>
+    <line>that happy creature <modSpan spanTo="#c56-0113.01"/><delSpan rend="strikethrough"
+        spanTo="#c56-0113.02"/>she had been when</line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0112.01"/>almost</line>
+    <line><add xml:id="c56-0112.01">almost</add></line>
   </zone>
   <zone type="left_margin">
-    <line><addSpan spanTo="#c56-0112.02" xml:id="c56-0112.03"/>X</line>
-    <line>There was</line>
+    <addSpan spanTo="#c56-0112.03" xml:id="c56-0112.02" hand="#pbs"/>
+    <line><metamark><hi rend="sup">X</hi></metamark>There was</line>
     <line>always scope</line>
     <line>for fear so</line>
     <line>long as any</line>
     <line>thing that</line>
     <line>I loved remained</line>
-    <line>alive.<anchor xml:id="c56-0112.02"/></line>
+    <line>alive.</line>
+    <anchor xml:id="c56-0112.03"/>
   </zone>
   <zone type="left_margin">
-    <!-- This is considered within the main zone in the Word file? -->
-    <line><add xml:id="c56-0112.05"/>=nal</line>
+    <line><add xml:id="c56-0112.05"/><metamark>=</metamark>nal</line>
   </zone>
 </surface>
