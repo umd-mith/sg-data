@@ -1,8 +1,107 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0122" ulx="0" uly="0" lrx="5364" lry="7104">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0122" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0122.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">152</zone>
+
+  <zone type="main">
+    <line>scene that that win<damage agent="ink">d</damage> may convey to</line>
+    <line>us</line>
+    <milestone unit="tei:lg" spanTo="#c56-0122.01"/>
+    <line><space unit="chars" extent="6"/>We rest, A dream has power to poison</line>
+    <line><space unit="chars" extent="35"/><metamark>L</metamark>sleep</line>
+    <line><space unit="chars" extent="7"/>We rise one wandering thought pollutes</line>
+    <line><space unit="chars" extent="23"/>the day</line>
+    <line><space unit="chars" extent="5"/>We feel conceive, or reason &#x2013; laugh or weep</line>
+    <line><space unit="chars" extent="6"/>Embrace fond woe or cast our cares</line>
+    <line><space unit="chars" extent="28"/>away</line><anchor xml:id="c56-0122.01"/>
+    <milestone unit="tei:lg" spanTo="#c56-0122.02"/>
+    <line><space unit="chars" extent="3"/>It is the same &#x2013;for be it joy or sorrow</line>
+    <line><space unit="chars" extent="4"/>The path of its departure still is free</line>
+    <line><space unit="chars" extent="6"/>Mans yesterday may ne'er be like</line>
+    <line><space unit="chars" extent="25"/><add place="intralinear" hand="#pbs">h</add>is
+      morrow</line>
+    <line><space unit="chars" extent="5"/>Nought may endure but mutability.</line>
+    <anchor xml:id="c56-0122.02"/>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="5"/>I<add place="intralinear">t</add> was noon when I arrived
+      at the</line>
+    <line>top of the <mod>
+        <del rend="strikethrough">mountain</del>
+        <add hand="#pbs" place="superlinear">ascent</add>
+      </mod>. For some time I</line>
+    <line>sat upon the <del rend="strikethrough">the</del> rock that overlooks</line>
+    <line>the sea of ice. A mist covered both</line>
+    <line>that and the surrounding <restore type="smear_cancellation"><del rend="strikethrough"
+          >mo</del></restore>untains</line>
+    <line>Presently a breeze dissipated the mist</line>
+    <!--ligatured "ss" overlays "s" in "dissipated-->
+    <line>and I descended on the <mod>
+        <del rend="strikethrough">ice</del>
+        <add place="superlinear">glacier</add>
+      </mod>. <delSpan spanTo="#c56-0122.03"/>It is in<del rend="strikethrough"
+      >s</del>tersper</line>
+    <line>sed with rifts<anchor xml:id="c56-0122.03"/> &#x2013; The surface is very uneven</line>
+    <line>rising like the waves of a troubled sea,</line>
+    <line>decending <del rend="strikethrough">tow</del> low, &#x26; in<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">t</add>
+      </mod>erspered by rifts</line>
+    <line>that sink deep&#x2014; The <mod>
+        <del rend="strikethrough">width of the</del>
+        <add place="intralinear" hand="#pbs">field of</add>
+      </mod></line>
+    <line>ice is <del rend="strikethrough">nearly</del> a <del rend="strikethrough">lege</del> league,<mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">in width,</add>
+      </mod> but I was</line>
+    <line>nearly two hours <add place="superlinear" hand="#pbs">in</add> crossing it &#x2013; The
+      oppo</line>
+    <line>site <del rend="strikethrough">t</del> mountain is a bare perpendicu</line>
+    <line>lar rock.&#x2013;From that side where I now</line>
+    <line>stood Montanvert was exactly opposite</line>
+    <line>at the distance of a league and above</line>
+  </zone>
+
+  <zone type="main">
+    <figure>
+      <figDesc>PBS sketch of ?head</figDesc>
+    </figure>
+  </zone>
+
+  <zone type="main">
+    <figure>
+      <figDesc>PBS sketch of tree or clouds</figDesc>
+    </figure>
+  </zone>
+
+  <zone type="left_margin">
+    <addSpan spanTo="#c56-0122.04"/>
+    <line><unclear><del rend="strikethrough">120</del></unclear></line>
+    <line><unclear><hi rend="underline">130</hi></unclear></line>
+    <anchor xml:id="c56-0122.04"/>
+  </zone>
+
+  <zone type="left_margin">
+    <line>100</line>
+    <line>130</line>
+  </zone>
+
+  <zone type="left_margin">
+    <line>40</line>
+    <line>5</line>
+  </zone>
+
+  <zone type="left_margin">
+    <line>75</line>
+  </zone>
+
+  <zone type="left_margin">
+    <line>130</line>
+    <line>75</line>
+    <line><hi rend="underline">205</hi></line>
+  </zone>
 </surface>
