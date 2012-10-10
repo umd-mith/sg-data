@@ -1,7 +1,7 @@
 package edu.umd.mith.sga.sharedcanvas
 
 import com.hp.hpl.jena.datatypes.xsd.XSDDatatype.XSDinteger
-import com.hp.hpl.jena.rdf.model.{ ModelFactory, RDFNode }
+import com.hp.hpl.jena.rdf.model.{ Model, ModelFactory, RDFNode }
 import com.hp.hpl.jena.vocabulary.{ DC_11, DCTypes, RDF, RDFS }
 
 import scala.collection.JavaConverters._
@@ -106,13 +106,8 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
     m.setNsPrefixes(model.getNsPrefixMap)
     m.add(model.listStatements(manifest, null, null))
 
-    // First for the info about the manifest itself.
-    val manifestXml = m.createResource(base + "Manifest.xml")
-    manifestXml.addProperty(RDF.`type`, ResourceMap)
-    manifestXml.addProperty(DC_11.format, m.createLiteral("application/rdf+xml"))
-    manifestXml.addProperty(describes, manifest)
 
-    // Next we add the sequence of canvases.
+    // First for the sequence of canvases.
     m.add(model.listStatements(sequence, null, null))
 
     canvases.foreach { canvas =>
@@ -151,6 +146,22 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
 
     m
   }
+
+  def addXmlMeta(m: Model) = {
+    val meta = m.createResource(base + "Manifest.xml")
+    meta.addProperty(RDF.`type`, ResourceMap)
+    meta.addProperty(DC_11.format, m.createLiteral("application/rdf+xml"))
+    meta.addProperty(describes, manifest)
+    m
+  }
+
+  def addJsonMeta(m: Model) = {
+    val meta = m.createResource(base + "Manifest.json")
+    meta.addProperty(RDF.`type`, ResourceMap)
+    meta.addProperty(DC_11.format, m.createLiteral("application/rdf+json"))
+    meta.addProperty(describes, manifest)
+    m
+  }
 }
 
 object Manifest extends App {
@@ -167,8 +178,18 @@ object Manifest extends App {
   val base = "http://sga.mith.org/sc-demo/" + name + "/"
   val m = new Manifest(base, name, description, surfaces)
 
-  val mainWriter = new java.io.PrintWriter("Manifest.xml")
-  m.mainModel.write(mainWriter)
-  mainWriter.close()
+  // The XML serialization.
+  val modelX = m.addXmlMeta(m.mainModel)
+
+  val writerX = new java.io.PrintWriter("Manifest.xml")
+  modelX.write(writerX)
+  writerX.close()
+
+  // And JSON.
+  val modelJ = m.addJsonMeta(m.mainModel)
+
+  val writerJ = new java.io.PrintWriter("Manifest.json")
+  new org.openjena.riot.system.JenaWriterRdfJson().write(modelJ, writerJ, null)
+  writerJ.close()
 }
 
