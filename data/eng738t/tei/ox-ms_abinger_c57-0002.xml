@@ -7,13 +7,14 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0002.tif"/>
   <zone type="pagination" rend="bordered">1</zone>
   <zone type="top">
-    <milestone unit="tei:p"/><line>Vol. II</line>
-    <milestone unit="tei:p"/><line>Chap I</line>
+    <line>Vol. II</line>
+    <line>Chap I</line>
   </zone>
   <zone type="main">
-    <milestone unit="tei:p"/><line><metamark>"</metamark>It is with difficulty that I remember</line>
-    <line>the &#xe6;ra of my <del rend="strikethrough">cr</del> being. All the events of</line>
-    <line>that period appear confused &amp; indistinct.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="2"/>"It is with difficulty that I remember</line>
+    <line>the &#xE6;ra of my <del rend="strikethrough">cr</del> being. All the events of</line>
+    <line>that period appear confused &#x26; indistinct.</line>
     <line><del rend="strikethrough">I know only that I felt a strang<unclear>e</unclear></del> A
       strange</line>
     <line>sensation <del rend="strikethrough">sea</del> seized me <del rend="strikethrough">and a it
@@ -21,8 +22,8 @@
     <line>I saw, felt heard and smelt at the same</line>
     <line>time and it was indeed a long time be</line>
     <line>fore I learned to distinguish between the</line>
-    <line><add><ptr target="c57-0002.01"/></add><del rend="strikethrough"
-        ><unclear>op</unclear></del>operations of my various senses. By degrees</line>
+    <line><add><ptr target="c57-0002.01"/></add><rewrite><unclear>op</unclear></rewrite>operations
+      of my various senses. By degrees</line>
     <line>I remember a stronger light pressed upon</line>
     <line>my nerves <del rend="strikethrough">and</del> so that I was obliged to close</line>
     <line>my eyes. Darkness then came over me</line>
@@ -30,30 +31,36 @@
     <line>this when (by opening my eyes as I now suppose)</line>
     <line>the light poured in upon me again&#x2013; I walked</line>
     <line>and I believe descended; but presently I found</line>
-    <line>a great <del rend="strikethrough">difference</del><add place="superlinear"
-        >alteration</add> in my sensations; before</line>
+    <line>a great <mod>
+        <del rend="strikethrough">difference</del>
+        <add place="superlinear">alteration</add>
+      </mod> in my sensations; before</line>
     <line>dark opaque bodies had surrounded me<add place="superlinear">,</add></line>
-    <line>impervious to my touch or sight&#x2013; and I</line>
+    <line>impervious to my touch or sight &#x2013; and I</line>
     <line>now found that I could wander on at liberty</line>
     <line>with no obstacles which I could not either</line>
-    <line>surmount or avoid&#x2013; The light <del rend="strikethrough">be</del> became <add
-        place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">more</add>
-      &amp;</line>
+    <line>surmount or avoid&#x2013; The light <del rend="strikethrough">be</del> became <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">more</add>
+      </mod> &#x26;</line>
     <line>more opressive to me and the heat wearying</line>
     <line>me as I walked I sought a place where I could</line>
-    <line><add><ptr target="c57-0002.02"/></add>perceive <add place="superlinear" hand="#pbs"
-        >receive</add> shade. This was the forest near Ingolstadt,</line>
+    <line><seg type="alternative" xml:id="c57.0002.02">perceive</seg><add place="superlinear"
+        hand="#pbs" type="alternative" xml:id="c57-0002.03">recieve</add> shade. This was the forest
+      near Ingolstadt,</line>
+    <alt mode="excl" targets="#c57-0002.02 #c57-0002.03" weights="0 1"/>
     <line>and here by the side of a brook I lay <del rend="strikethrough">weary</del></line>
-    <line>for some hours <add place="sublinear"><metamark>&#x2038;</metamark></add><add
-        place="superlinear">resting from my fatigue</add> untill I felt tormented by</line>
+    <line>for some hours <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">resting from my fatigue</add>
+      </mod> untill I felt tormented by</line>
     <line>hunger and thirst. This roused me from my nearly</line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c57-0002.01"><del rend="strikethrough">various</del></add></line>
+    <line><del rend="strikethrough"><add xml:id="c57-0002.01">various </add></del></line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c57-0002.02" hand="#pbs"
-    >or</add></line><!-- This addition in the margin appears to be directed toward MWS and not merely a textual edit. 
-      He is recommending that "perceive" OR "receive" would both work in this sentence. -MTC -->
+    <line><add hand="#pbs"><note>or</note></add></line>
+    <!-- The marginal addition "or" indicates that PBS is giving MWS a choice between "perceive" or "receive"-->
   </zone>
 </surface>
