@@ -2,32 +2,48 @@
 type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
 href="../../xsl/page-proof.xsl"
 ?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0003" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0003" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0003.tif"/>
   <zone type="pagination" rend="bordered">2</zone>
   <zone type="library">2</zone>
   <zone type="main">
     <line>dormant state and I ate some berries</line>
-    <line>which I found <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" hand="#pbs">hanging</add> on the trees or lying on</line>
+    <line>which I found <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">hanging</add>
+      </mod> on the trees or lying on</line>
     <line>the ground &#x2013; I slaked my thirst by the</line>
     <line>brook and then again lying down I was</line>
-    <line>overcome by sleep; It was dark when I</line>
+    <line>overcome by sleep<mod>
+        <del rend="overwritten">&#x2013;</del>
+        <add place="intralinear">;</add>
+      </mod> It was dark when I</line>
     <line>awoke, I felt cold also and half frightened</line>
-    <line><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear" hand="#pbs">as it were instinctively</add> on <del rend="strikethrough">seein</del> finding myself so desolate.</line>
-    <line>Before I had quitted your appartment</line>
+    <line><mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">as it were instinctively</add>
+      </mod> on <del rend="strikethrough">seein</del> finding myself so desolate.</line>
+    <line>Before I had quitted you<add place="intralinear">r</add> appartment</line>
     <line>on a sensation of cold I had covered my</line>
     <line>self with some clothes, but these were</line>
-    <line><del rend="strikethrough">not</del> <add place="intralinear">in</add>sufficient to secure me from the</line>
-    <line><del rend="strikethrough">dw</del> dews of night.  I was a poor helpless</line>
+    <line><del rend="strikethrough">not</del>
+      <add place="intralinear">in</add>sufficient to secure me from the</line>
+    <line><del rend="strikethrough">dw</del> dews of night. I was a poor helpless</line>
     <line>miserable wretch&#x2014;I knew <del rend="strikethrough">no</del> &amp; could</line>
-    <line>distinguish <del rend="strikethrough">no</del> nothing but <del rend="strikethrough">felt</del><add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear">feeling</add> pain</line>
+    <line>distinguish <del rend="strikethrough">no</del> nothing but <mod>
+        <del rend="strikethrough">felt</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">feeling</add>
+      </mod> pain</line>
     <line>invade me on all sides <del rend="strikethrough">and</del> I sat down</line>
     <line>and wept.</line>
-    <milestone unit="tei:p"/><line>Soon a gentle light stole over the</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="3"/>Soon a gentle light stole over the</line>
     <line>heavens and gave me a sensation of pleasure</line>
     <line>I started up, and beheld a radiant form</line>
-    <line>rise <del rend="strikethrough">am</del> from among the trees.  I gazed with</line>
-    <line>a kind of wonder&#x2013; It moved slowly; but</line>
+    <line>rise <del rend="strikethrough">am</del> from among the trees. I gazed with</line>
+    <line>a kind of wonder &#x2013; It moved slowly; but</line>
     <line>it enlightened my path, and I again</line>
     <line>went out in search of berries. I was still</line>
     <line>cold when <del rend="strikethrough">on the ground</del> under one of the</line>
@@ -41,6 +57,8 @@ href="../../xsl/page-proof.xsl"
     <line>that I could distinguish was the bright</line>
   </zone>
   <zone type="left_margin">
-    <line><figure><desc>PBS doodle or sketch</desc></figure></line><!-- removed ptr target and anchor tags because this marginal drawing does not relate directly to any single point of the text -MTC -->
+    <line><figure>
+        <figDesc>PBS doodle or sketch</figDesc>
+      </figure></line>
   </zone>
 </surface>
