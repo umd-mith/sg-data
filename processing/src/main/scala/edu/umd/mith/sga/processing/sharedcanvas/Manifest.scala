@@ -1,14 +1,19 @@
 package edu.umd.mith.sga.sharedcanvas
 
 import com.hp.hpl.jena.datatypes.xsd.XSDDatatype.XSDinteger
-import com.hp.hpl.jena.rdf.model.{ Model, ModelFactory, RDFNode }
+import com.hp.hpl.jena.rdf.model.{ Model, ModelFactory, RDFNode, Resource }
 import com.hp.hpl.jena.vocabulary.{ DC_11, DCTypes, RDF, RDFS }
+
+import edu.umd.mith.sga.processing.util.XmlLabeler
 
 import scala.collection.JavaConverters._
 import scala.xml._
 
-class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
+class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) {
+  val surfaces = teiSurfaces.map(XmlLabeler.addCharOffsets)
+
   val imageDerivBase = "http://sga.mith.org/images/derivatives/"
+  val teiBase = "https://github.com/umd-mith/sg-data/blob/master/data/tei/"
 
   val nss = Map(
     "rdf"  -> "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -17,7 +22,9 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
     "ore"  -> "http://www.openarchives.org/ore/terms/",
     "exif" -> "http://www.w3.org/2003/12/exif/ns#",
     "tei"  -> "http://www.tei-c.org/ns/1.0/",
-    "oa"   -> "http://www.openannotation.org/ns/"
+    "oa"   -> "http://www.openannotation.org/ns/",
+    "oax"  -> "http://www.w3.org/ns/openannotation/extension/",
+    "sga"  -> "http://www.shelleygodwinarchive.org/ns1#"
   )
 
   val model = ModelFactory.createDefaultModel
@@ -36,10 +43,16 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
   val aggregates = property("ore", "aggregates")
   val hasBody = property("oa", "hasBody")
   val hasTarget = property("oa", "hasTarget")
+  val hasSource = property("oa", "hasSource")
+  val hasSelector = property("oa", "hasSelector")
   val width = property("exif", "width")
   val height = property("exif", "height")
+  val offsetBegin = property("oax", "begin")
+  val offsetEnd = property("oax", "end")
 
   val Annotation = resource("oa", "Annotation")
+  val SpecificResource = resource("oa", "SpecificResource")
+  val TextOffsetSelector = resource("oax", "TextOffsetSelector")
   val Canvas = resource("sc", "Canvas")
   val Manifest = resource("sc", "Manifest")
   val Sequence = resource("sc", "Sequence")
@@ -49,7 +62,21 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
   val Aggregation = resource("ore", "Aggregation")
   val ResourceMap = resource("ore", "ResourceMap")
 
-  val (canvases, images, annotations) = surfaces.map { surface =>
+  sealed trait SourceAnno {
+    def anno: Resource
+    def file: Resource
+  }
+
+  case class ImageAnno(anno: Resource, file: Resource) extends SourceAnno
+  case class TextAnno(
+    anno: Resource,
+    file: Resource,
+    resource: Resource,
+    selector: Resource,
+    other: List[Resource]
+  ) extends SourceAnno
+
+  val (canvases, imageAnnos, textAnnos) = surfaces.map { surface =>
     val attrs = surface.attributes.asAttrMap
     val id = attrs("xml:id")
     val lib = id.split("-").head
@@ -63,19 +90,38 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
     canvas.addProperty(width, intLiteral(w))
     canvas.addProperty(height, intLiteral(h))
 
-    val image = model.createResource(imageDerivBase + lib + "/" + id + ".jpg")
-    image.addProperty(RDF.`type`, DCTypes.Image)
-    image.addProperty(RDF.`type`, resource("dms", "ImageBody"))
-    image.addProperty(DC_11.format, "image/jpeg")
-    image.addProperty(width, intLiteral(w))
-    image.addProperty(height, intLiteral(h))
+    val imageFile = model.createResource(imageDerivBase + lib + "/" + id + ".jpg")
+    imageFile.addProperty(RDF.`type`, DCTypes.Image)
+    imageFile.addProperty(RDF.`type`, resource("dms", "ImageBody"))
+    imageFile.addProperty(DC_11.format, "image/jpeg")
+    imageFile.addProperty(width, intLiteral(w))
+    imageFile.addProperty(height, intLiteral(h))
 
-    val annotation = model.createResource(base + "imageanno/image-" + seqId)
-    annotation.addProperty(RDF.`type`, Annotation)
-    annotation.addProperty(RDF.`type`, resource("dms", "ImageAnnotation"))
-    annotation.addProperty(hasBody, image)
-    annotation.addProperty(hasTarget, canvas)
-    (canvas, image, annotation)
+    val imageAnno = model.createResource(base + "imageanno/image-" + seqId)
+    imageAnno.addProperty(RDF.`type`, Annotation)
+    imageAnno.addProperty(RDF.`type`, resource("dms", "ImageAnnotation"))
+    imageAnno.addProperty(hasBody, imageFile)
+    imageAnno.addProperty(hasTarget, canvas)
+
+    val textFile = model.createResource(teiBase + lib + "/" + id + ".xml")
+    textFile.addProperty(DC_11.format, "application/tei+xml")
+
+    val textSelector = model.createResource()
+    textSelector.addProperty(RDF.`type`, TextOffsetSelector)
+    textSelector.addProperty(offsetBegin, intLiteral((surface \ "@{http://mith.umd.edu/util/1#}b").head.toString.toInt))
+    textSelector.addProperty(offsetEnd, intLiteral((surface \ "@{http://mith.umd.edu/util/1#}e").head.toString.toInt))
+    
+    val textResource = model.createResource()
+    textResource.addProperty(RDF.`type`, SpecificResource)
+    textResource.addProperty(hasSource, textFile)
+    textResource.addProperty(hasSelector, textSelector)
+
+    val textAnno = model.createResource(base + "textanno/text-" + seqId)
+    textAnno.addProperty(RDF.`type`, Annotation)
+    textAnno.addProperty(hasBody, textResource)
+    textAnno.addProperty(hasTarget, canvas)
+
+    (canvas, ImageAnno(imageAnno, imageFile), TextAnno(textAnno, textFile, textResource, textSelector, Nil))
   }.toList.unzip3
 
   val sequence = model.createResource(base + "NormalSequence")
@@ -85,11 +131,16 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
   sequence.addProperty(RDF.`type`, resource("dms", "Sequence"))
   sequence.addProperty(RDFS.label, model.createLiteral("The editorial sequence"))
 
-  val imageAnnos = model.createResource(base + "ImageAnnotations")
-  imageAnnos.addProperty(RDF.`type`, AnnotationList)
-  imageAnnos.addProperty(RDF.`type`, RDF.List)
-  imageAnnos.addProperty(RDF.`type`, Aggregation)
-  imageAnnos.addProperty(RDF.`type`, resource("dms", "ImageAnnotationList"))
+  val imageAnnoList = model.createResource(base + "ImageAnnotations")
+  imageAnnoList.addProperty(RDF.`type`, AnnotationList)
+  imageAnnoList.addProperty(RDF.`type`, RDF.List)
+  imageAnnoList.addProperty(RDF.`type`, Aggregation)
+  imageAnnoList.addProperty(RDF.`type`, resource("dms", "ImageAnnotationList"))
+
+  val textAnnoList = model.createResource(base + "TextAnnotations")
+  textAnnoList.addProperty(RDF.`type`, AnnotationList)
+  textAnnoList.addProperty(RDF.`type`, RDF.List)
+  textAnnoList.addProperty(RDF.`type`, Aggregation)
 
   val manifest = model.createResource(base + "Manifest")
   manifest.addProperty(RDF.`type`, Manifest)
@@ -99,13 +150,12 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
   manifest.addProperty(RDFS.label, model.createLiteral(title))
   manifest.addProperty(property("tei", "idno"), model.createLiteral(id))
   manifest.addProperty(aggregates, sequence)
-  manifest.addProperty(aggregates, imageAnnos)
+  manifest.addProperty(aggregates, imageAnnoList)
 
   def mainModel = {
     val m = ModelFactory.createDefaultModel
     m.setNsPrefixes(model.getNsPrefixMap)
     m.add(model.listStatements(manifest, null, null))
-
 
     // First for the sequence of canvases.
     m.add(model.listStatements(sequence, null, null))
@@ -125,21 +175,35 @@ class Manifest(base: String, id: String, title: String, surfaces: Seq[Elem]) {
     }
 
     // And finally the image annotations.
-    m.add(model.listStatements(imageAnnos, null, null))
+    m.add(model.listStatements(imageAnnoList, null, null))
 
-    images.foreach { image =>
-      m.add(model.listStatements(image, null, null))
+    imageAnnos.foreach { case ImageAnno(anno, file) =>
+      m.add(m.createStatement(imageAnnoList, aggregates, anno))
+      m.add(model.listStatements(anno, null, null))
+      m.add(model.listStatements(file, null, null))
     }
-
-    annotations.foreach { annotation =>
-      m.add(m.createStatement(imageAnnos, aggregates, annotation))
-      m.add(model.listStatements(annotation, null, null))
-    }
-    annotations match {
+    imageAnnos match {
       case first :: rest =>
-        m.add(m.createStatement(imageAnnos, RDF.first, first))
-        m.add(m.createStatement(imageAnnos, RDF.rest, m.createList(
-          rest.map(_.asInstanceOf[RDFNode]).toArray
+        m.add(m.createStatement(imageAnnoList, RDF.first, first.anno))
+        m.add(m.createStatement(imageAnnoList, RDF.rest, m.createList(
+          rest.map(_.anno.asInstanceOf[RDFNode]).toArray
+        )))
+      case _ => ()
+    }
+
+    textAnnos.foreach { case TextAnno(anno, file, resource, selector, others) =>
+      m.add(m.createStatement(textAnnoList, aggregates, anno))
+      m.add(model.listStatements(anno, null, null))
+      m.add(model.listStatements(file, null, null))
+      m.add(model.listStatements(resource, null, null))
+      m.add(model.listStatements(selector, null, null))
+      others.foreach(other => m.add(model.listStatements(other, null, null)))
+    }
+    textAnnos match {
+      case first :: rest =>
+        m.add(m.createStatement(imageAnnoList, RDF.first, first.anno))
+        m.add(m.createStatement(imageAnnoList, RDF.rest, m.createList(
+          rest.map(_.anno.asInstanceOf[RDFNode]).toArray
         )))
       case _ => ()
     }

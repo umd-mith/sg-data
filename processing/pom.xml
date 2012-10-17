@@ -9,7 +9,7 @@
   <name>Utilities for the Shelley-Godwin Archive data repository</name>
 
   <properties>
-    <scala.version>2.9.1</scala.version>
+    <scala.version>2.9.2</scala.version>
   </properties>
 
   <dependencies>
@@ -18,6 +18,16 @@
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_${scala.version}</artifactId>
+      <version>7.0.0-M3</version>
+    </dependency>
+    <!--<dependency>
+      <groupId>com.codecommit</groupId>
+      <artifactId>anti-xml_${scala.version}</artifactId>
+      <version>0.3</version>
+    </dependency>-->
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-arq</artifactId>
