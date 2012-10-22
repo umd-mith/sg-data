@@ -13,7 +13,8 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
   val surfaces = teiSurfaces.map(XmlLabeler.addCharOffsets)
 
   val imageDerivBase = "http://sga.mith.org/images/derivatives/"
-  val teiBase = "https://github.com/umd-mith/sg-data/blob/master/data/tei/"
+  //val teiBase = "https://github.com/umd-mith/sg-data/blob/master/data/tei/"
+  val teiBase = "http://sga.mith.org/sc-demo/tei/"
 
   val nss = Map(
     "rdf"  -> "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -22,7 +23,8 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
     "ore"  -> "http://www.openarchives.org/ore/terms/",
     "exif" -> "http://www.w3.org/2003/12/exif/ns#",
     "tei"  -> "http://www.tei-c.org/ns/1.0/",
-    "oa"   -> "http://www.openannotation.org/ns/",
+    //"oa"   -> "http://www.openannotation.org/ns/",
+    "oa"   -> "http://www.w3.org/ns/openannotation/core/",
     "oax"  -> "http://www.w3.org/ns/openannotation/extension/",
     "sga"  -> "http://www.shelleygodwinarchive.org/ns1#"
   )
@@ -118,6 +120,7 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
 
     val textAnno = model.createResource(base + "textanno/text-" + seqId)
     textAnno.addProperty(RDF.`type`, Annotation)
+    textAnno.addProperty(RDF.`type`, ContentAnnotation)
     textAnno.addProperty(hasBody, textResource)
     textAnno.addProperty(hasTarget, canvas)
 
