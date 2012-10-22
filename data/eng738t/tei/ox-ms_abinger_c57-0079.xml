@@ -1,14 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0079"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0079" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0079.tif"/>
-    <zone>
+    <zone type="pagination" rend="bordered"><unclear>101</unclear></zone>
+    <zone type="main">
+      <delSpan spanTo="page79"/>
+      <line><add><ptr target="c57-0079.01"/></add>to my slavery.<add place="superlinear"><metamark>X</metamark></add>  <del rend="strikethrough">But <gap/></del> <del rend="strikethrough">But</del> <add place="superlinear"><del rend="strikethrough">should</del></add> <del rend="strikethrough">could</del> I <metamark>&#x2038;</metamark><add place="superlinear">should</add>leave</line>
+      <line><del rend="strikethrough">Geneva &amp; the fiend beli</del> <del rend="strikethrough">&amp;</del> my friends</line>
+      <line>unconscious of the existence of their</line>
+      <line>enemy &amp; unprotected from his attacks</line>
+      <line>exasperated as he might be by my depar</line>
+      <line>ture &#x2014; But then he had promised to</line>
+      <line><add><ptr target="c57-0079.02"/></add>follow me every where &amp; might</line>
+      <line>he not accompany me to England&#x2014;the</line>
+      <line>thought was dreadful in itself but</line>
+      <line><add><ptr target="c57-0079.03"/></add>soothing inasmuch as my friends would</line>
+      <line>be in safety.  <add place="superlinear"><metamark>X</metamark></add>The thoughts occurred</line>
+      <line>rapidly to me &amp; I answered my fa</line>
+      <line>ther with eagerness that I should</line>
+      <line>be delighted to visit <del rend="strikethrough">Engl</del> England</line>
+      <line>with Clerval and that <del rend="strikethrough">travel</del> the</line>
+      <line>idea of travelling was inchanting to</line>
+      <line>me.</line>
+      <milestone unit="paragraph"/>
+      <line>Your <del rend="strikethrough">journey</del> travels, said my</line>
+      <line>father, will occupy the space of</line>
+      <line>two years&#x2014; on your return you</line>
+      <line><del rend="strikethrough">shall be united to your cousin</del></line>
+      <milestone unit="paragraph"/>
+      <line>Our plan was soon arranged.</line>
+      <line>I should travel to Strasburgh where</line>
+      <line>Clerval would join me &amp; we</line>
+      <line>should proceed down the Rhine</line>
+      <line>together.<add place="superlinear"><del rend="strikethrough"><unclear>tow</unclear></del></add>  Some short time would</line>
+      <line>be spent in the towns of Holland</line>
+      <line>&amp; many months in England.  We were</line>
+      <line>to return by france &amp; it was sup</line>
+      <line>posed that this tour would occupy</line>
+      <line>the space of two years.  My father</line>
+      <line>pleased himself with the reflection</line>
+      <line>that I should be united to Eliza</line>
+      <line>beth immediately on my return</line>
+      <anchor xml:id="page79"/>
     </zone>
+  <zone type="left_margin">
+    <line>3<anchor xml:id="c57-0079.01"/></line>
+  </zone>
+  <zone type="left_margin">  
+    <line><figure><desc>X mark</desc></figure><anchor xml:id="c57-0079.02"/></line>
+  </zone>
+  <zone type="left_margin">
+    <line><mod hand="#pbs">the thought of</mod><anchor xml:id="c57-0079.03"/></line>
+    <line><mod hand="#pbs">the possibi<del rend="overwritten">lity</del></mod><add>5</add></line>
+    <line><mod hand="#pbs">of the reverse</mod></line>
+    <line><mod hand="#pbs">must have</mod></line>
+    <line><mod hand="#pbs">been dreadful</mod></line>
+  </zone>
 </surface>
-

@@ -1,6 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
-            type="application/relax-ng-compact-syntax"?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0080" ulx="0" uly="0" lrx="5364" lry="7104">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0080" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0080.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">1<mod>
+      <del rend="overwritten">0</del>
+      <add place="intralinear">1</add>
+    </mod>0</zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="3"/>Yet as I drew nearer home grief and</line>
+    <line>fear overcame me &#x2013; night also closed</line>
+    <line>round <del rend="strikethrough">me</del> and when I could hardly</line>
+    <line>see the dark mountains I felt still</line>
+    <line>more gloomily I pictured <del rend="strikethrough">to mysel</del><del rend="unmarked"
+        >f</del> every</line>
+    <line>evil and persuaded myself that</line>
+    <line><del rend="strikethrough">the</del>
+      <del rend="strikethrough">most</del> I was destined to become</line>
+    <line>the most w<del rend="strikethrough">h</del>retched of human beings&#x2013;</line>
+    <line>Alas! I <del rend="strikethrough">prho</del> prophesied truly and</line>
+    <line>failed only<add place="superlinear" hand="#pbs">in one single circumstance:</add> that in
+      all the misery</line>
+    <line>I imagined and dreaded, I did not conceive</line>
+    <line><del rend="strikethrough">of</del> the hundredth part of the anguish</line>
+    <line><mod>
+        <del rend="strikethrough">I</del>
+        <add><ptr target="#c56-0080.01"/></add>
+      </mod> destined to <del rend="strikethrough">feel</del><del rend="unmarked">.</del>
+      endure.</line>
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c56-0080.01">I was</add></line>
+  </zone>
 </surface>

@@ -1,14 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0050"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0050" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0050.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination">
+    <line>75</line>
+  </zone>
+  <zone type="main">
+    <line>At that moment I heard the steps</line>
+    <line>of my younger protectors &#x2014; I had not</line>
+    <line>a moment to lose, but seizing the</line>
+    <line>hand of the old man I cried &#x2014; Now </line>
+    <line>is the time, save and protect me</line>
+    <line>You and your family are the</line>
+    <line>friends whom I seek &#x2014; Do not you</line>
+    <line>des<mod>
+        <del rend="strikethrough">a</del>
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">e</add>
+      </mod>rt me in the hour of trial!. &#x2014;</line>
+    <milestone unit="tei:p"/>
+    <line>Great God! exclaimed the old</line>
+    <line>man &#x2014; Who are you?</line>
+    <milestone unit="tei:p"/>
+    <line>At that instant the cottage</line>
+    <line>door opened and Felix, <del rend="strikethrough">Maimouna</del></line>
+    <line><add><ptr target="#c57-0050.01"/></add> and Agatha entered &#x2014; Who can</line>
+    <line>describe their horror and asto</line>
+    <line>nishment on beholding <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">me</add>
+      </mod> &#x2014; Agatha</line>
+    <line>fainted &amp; <mod>
+        <del rend="strikethrough">Maimouna</del>
+        <add place="superlinear">Safie</add>
+      </mod> unable </line>
+    <line>to attend to her friend rushed</line>
+    <line>out of the cottage. &#x2014;Felix darted</line>
+    <line>forward and with supernatural</line>
+    <line>strength tore me from his father</line>
+    <line>to whose knees I clung &#x2014; In a</line>
+    <line>transport of fury he dashed</line>
+    <line>me to the ground and struck</line>
+    <line>me voi<del rend="strikethrough">len</del>lently with a stick</line>
+    <line>I saw him <mod type="deletions">
+        <del rend="strikethrough">going</del>
+        <del rend="double-strike">to </del>
+      </mod> on the point</line>
+    <line>of repeating the <del rend="double-strike">p</del> blow when </line>
+    <line>overcome by pain and anguish</line>
+    <line>I quitted the cottage and in the</line>
+    <line>general tumult, escaped unper</line>
+    <line>ceived to my hovel.</line>
+  </zone>
+  <zone type="left_margin">
+    <line>Safie<anchor xml:id="c57-0050.01"/></line>
+  </zone>
 </surface>
-

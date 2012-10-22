@@ -1,14 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0078"
-  ulx="0" uly="0" lrx="5138" lry="7032">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0078" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0078.tif"/>
-    <zone>
-    </zone>
-</surface>
+  <zone type="pagination" rend="bordered">
+    <line>100</line>
+  </zone>
+  <zone type="main">
+    <line>the expectation of our union.<metamark>&#x2014;</metamark></line>
+    <line><add><ptr target="#c57-0078.01"/></add>pression of your sentiments, <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">on this subject</add>
+      </mod> my dear Victor,</line>
+    <line><del rend="strikethrough">rejoined my father,</del>
+      <del rend="strikethrough">have restored</del> gives</line>
+    <line>me more pleasure than I have <del rend="smear">known</del></line>
+    <line>for some time <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">experienced</add>
+      </mod>. If you feel thus we</line>
+    <line>shall assuredly be happy however pre</line>
+    <line>sent events may cast a gloom over us<add place="superlinear"
+      ><metamark>x</metamark></add>.</line>
+    <line><add><ptr target="#c57-0078.02"/></add><delSpan spanTo="#c57-0078.03"
+        rend="three-long-vertical-lines"/><del rend="strikethrough">But tell me then what it is that
+        occa</del></line>
+    <line>sions your present discomfort. Are</line>
+    <line>you<del rend="double-strike">r</del> weary of your slothful life &amp;</line>
+    <line>do you wish while you are yet young</line>
+    <line><add><ptr target="#c57-0078.04"/></add>to travel &amp; treasure recollections &amp;</line>
+    <line>pleasures for your future years? I</line>
+    <line>have thought much of this and am</line>
+    <line>come to a resolution that <del rend="triple-strike">y</del> if your</line>
+    <line>inclinations so impell you that you</line>
+    <line>should accompany Henry Clairval</line>
+    <line>in a journey he intends to make to England</line>
+    <line>You understand well the language</line>
+    <line>of that country and I think no <del rend="double-strike">jou</del> tour</line>
+    <line>could be more useful or agreable</line>
+    <line>to you.</line>
+    <milestone unit="tei:p"/>
+    <line>Any change of scene was agreable</line>
+    <line>to me and I was delighted with the</line>
+    <line>idea of spending a year or two away</line>
+    <line>from my family during which time</line>
+    <line>some event might happen which</line>
+    <line>would restore me to them in peace</line>
+    <line>&amp; happiness. My promise might</line>
+    <line>be fulfilled the monster depart or</line>
+    <line>some <del rend="strikethrough">other</del> event <unclear>p</unclear> might take</line>
+    <line>place to destroy him &amp; put an end</line>
+    <anchor xml:id="c57-0078.03"/>
+  </zone>
 
+  <zone type="left_margin">
+    <line><add xml:id="c57-0078.01">the ex</add></line>
+  </zone>
+
+  <zone type="left_margin">
+    <line><add xml:id="c57-0078.02">2</add></line>
+  </zone>
+
+  <zone type="left_margin">
+    <delSpan rend="two-long-vertical-lines" spanTo="#c57-0078.05"/><addSpan xml:id="c57-0078.04"
+      spanTo="#c57-0078.06"/><line>I think</line>
+    <line>the journey</line>
+    <line>to England</line>
+    <line>ought to be</line>
+    <line><seg rend="underline">Victor's</seg> propo</line>
+    <line>-sal.&#x2014; that he</line>
+    <line>ought to go</line>
+    <line>for the purpose of</line>
+    <line>collecting</line>
+    <line>knowledge, for</line>
+    <line>the formation</line>
+    <line>of a female.</line>
+    <line>He ought to</line>
+    <line>lead his father to</line>
+    <line>this in</line>
+    <line>the conversa</line>
+    <line>tions&#x2014;the</line>
+    <line>conversation</line>
+    <line>
+      <hi rend="underline">commences</hi>
+    </line>
+    <line>right enough</line>
+    <anchor xml:id="c57-0078.06"/>
+    <anchor xml:id="c57-0078.05"/>
+  </zone>
+</surface>

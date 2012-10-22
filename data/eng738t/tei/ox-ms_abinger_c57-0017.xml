@@ -1,14 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="../../derivatives/shelley-godwin-page.rnc"
-  type="application/relax-ng-compact-syntax"?>
-<surface
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0017"
-  ulx="0" uly="0" lrx="5368" lry="7104">
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0017" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0017.tif"/>
-    <zone>
-    </zone>
+  <zone type="pagination" rend="bordered">16</zone>
+  <zone type="library">9</zone>
+  <zone type="main">
+    <line>yet why were these gentle beings un</line>
+    <line>happy &#x2014; they poss<mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">ess</add>
+      </mod>ed a delightful home</line>
+    <line>for such <mod type="additions">
+        <add place="sublinear">&#x2038;</add>
+        <add place="superlinear">it</add>
+      </mod> was <mod>
+        <del rend="triple-strike">it</del>
+        <del rend="double-strike">to</del>
+        <add place="superlinear">in</add>
+      </mod> my eyes) and every</line>
+    <line>luxury. they had a fire to warm</line>
+    <line>them when chill and delicious <add place="intralinear">viands</add></line>
+    <line>when hungry &#x2014; they were dressed</line>
+    <line><del rend="strikethrough">in clothes that kept t</del> in excel</line>
+    <line>lent clothes and still more they enjoy</line>
+    <line>ed one anothers company <add place="superlinear">&amp; such</add> &#x2014; and <del rend="strikethrough">saw</del></line>
+    <line><add><ptr target="#c57-0017.01"/></add> each day looks of affection &amp; kindness
+      &#x2014;</line>
+    <line>What did their tears mean? Did they</line>
+    <line>really express pain? I was at first</line>
+    <line>unable to solve these questions but</line>
+    <line>perpetual attention and time</line>
+    <line>explained to me many of the appear</line>
+    <line>ances which at first seemed</line>
+    <line><mod>
+        <del rend="strikethrough">igmmatic</del>
+        <add hand="#pbs" place="superlinear">enigmatic</add>
+      </mod>
+      <add place="intralinear" hand="#pbs"><handShift medium="pencil"/>O you pretty
+      Pecksie!</add></line>
+    <!--this handShift won't affect the left margin zone text, will it?-->
+  </zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0017.01">interchanged</add></line>
+  </zone>
 </surface>
-
