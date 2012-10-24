@@ -30,6 +30,7 @@ import scala.xml._
 
 class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) {
   val surfaces = teiSurfaces.map(XmlLabeler.addCharOffsets)
+  //println(surfaces)
 
   val imageDerivBase = "http://sga.mith.org/images/derivatives/"
   //val teiBase = "https://github.com/umd-mith/sg-data/blob/master/data/tei/"
@@ -73,6 +74,7 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
 
   val Annotation = resource("oa", "Annotation")
   val SpecificResource = resource("oa", "SpecificResource")
+  val Highlight = property("oax", "Highlight")
   val TextOffsetSelector = resource("oax", "TextOffsetSelector")
   val Canvas = resource("sc", "Canvas")
   val Manifest = resource("sc", "Manifest")
@@ -82,6 +84,7 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
   val AnnotationList = resource("sc", "AnnotationList")
   val Aggregation = resource("ore", "Aggregation")
   val ResourceMap = resource("ore", "ResourceMap")
+  val LineAnnotation = resource("sga", "LineAnnotation")
 
   sealed trait SourceAnno {
     def anno: Resource
@@ -131,7 +134,30 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
     textSelector.addProperty(RDF.`type`, TextOffsetSelector)
     textSelector.addProperty(offsetBegin, intLiteral((surface \ "@{http://mith.umd.edu/util/1#}b").head.toString.toInt))
     textSelector.addProperty(offsetEnd, intLiteral((surface \ "@{http://mith.umd.edu/util/1#}e").head.toString.toInt))
-    
+
+    val lines = (surface \\ "line").toList.zipWithIndex.flatMap { case (line, i) =>
+      //println(line.attributes.asAttrMap)
+      val attrs = line.attributes.asAttrMap
+      val lineSelector = model.createResource()
+      lineSelector.addProperty(RDF.`type`, TextOffsetSelector)
+      lineSelector.addProperty(offsetBegin, intLiteral(attrs("mu:b").toInt))
+      lineSelector.addProperty(offsetEnd, intLiteral(attrs("mu:e").toInt))
+
+      val lineResource = model.createResource()
+      lineResource.addProperty(RDF.`type`, SpecificResource)
+      lineResource.addProperty(hasSource, textFile)
+      lineResource.addProperty(hasSelector, lineSelector)
+
+      val lineAnno = model.createResource(base + "textanno/text-" + seqId + "-%04d".format(i))
+      lineAnno.addProperty(RDF.`type`, Annotation)
+      lineAnno.addProperty(RDF.`type`, LineAnnotation)
+      lineAnno.addProperty(RDF.`type`, Highlight)
+      lineAnno.addProperty(hasBody, lineResource)
+      lineAnno.addProperty(hasTarget, canvas)
+
+      lineSelector :: lineResource :: lineAnno :: Nil
+    }
+
     val textResource = model.createResource()
     textResource.addProperty(RDF.`type`, SpecificResource)
     textResource.addProperty(hasSource, textFile)
@@ -143,7 +169,7 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
     textAnno.addProperty(hasBody, textResource)
     textAnno.addProperty(hasTarget, canvas)
 
-    (canvas, ImageAnno(imageAnno, imageFile), TextAnno(textAnno, textFile, textResource, textSelector, Nil))
+    (canvas, ImageAnno(imageAnno, imageFile), TextAnno(textAnno, textFile, textResource, textSelector, lines))
   }.toList.unzip3
 
   val sequence = model.createResource(base + "NormalSequence")
