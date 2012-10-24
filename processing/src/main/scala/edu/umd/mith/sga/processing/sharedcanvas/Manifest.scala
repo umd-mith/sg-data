@@ -152,8 +152,8 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
       lineAnno.addProperty(RDF.`type`, Annotation)
       lineAnno.addProperty(RDF.`type`, LineAnnotation)
       lineAnno.addProperty(RDF.`type`, Highlight)
-      lineAnno.addProperty(hasBody, lineResource)
-      lineAnno.addProperty(hasTarget, canvas)
+      lineAnno.addProperty(hasTarget, lineResource)
+      //lineAnno.addProperty(hasTarget, canvas)
 
       lineSelector :: lineResource :: lineAnno :: Nil
     }
