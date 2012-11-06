@@ -5,42 +5,52 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0106" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0106.tif"/>
-  <zone type="pagination">
-    <line>122</line>
-  </zone>
+  <zone type="pagination" rend="bordered">122</zone>
   <zone type="main">
     <line>dwelt many months in the heaths of England</line>
-    <line>&amp; among the desarts of Scot<del rend="cross-hatch">c</del>land. I have en</line>
-    <line>dured incalculable fatigue &amp; cold &amp; hunger <del rend="cross-hatch"
-      >&amp;</del></line>
-    <line>do you dare destroy my hopes?</line>
-    <line>Begone, I replied; I do break my <del rend="cross-hatch">p</del></line>
+    <line>&amp; among the desarts of Scot<del rend="strikethrough">c</del>land. I have en</line>
+    <line>dured incalculable fatigue <mod>
+        <del rend="overwritten">,</del>
+        <add place="intralinear">&amp;</add>
+      </mod> cold &amp; hunger <del rend="strikethrough">&amp;</del></line>
+    <line>do you dare destroy m<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">y</add>
+      </mod> hopes?</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>Begone, I replied; I do break my <del rend="strikethrough"
+        >p</del></line>
     <line>promise; never will create another like</line>
     <line>yourself, equal in deformity &amp; wickedness.</line>
-    <line>Slave, said the wretch, I before</line>
-    <line>reasoned with you – but you have proved</line>
-    <line>yourself unworthy of my condescension. Remem</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>Slave, said the wretch, I before</line>
+    <line>reasoned with you &#x2013; but you have proved</line>
+    <line>yourself unworthy of my condescen<mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">s</add>
+      </mod>ion. Remem</line>
     <line>ber that I have power; you believe your</line>
     <line>self miserable but I can make you so</line>
     <line>wretched that the light of day <del rend="strikethrough">of d</del> will</line>
     <line>be hateful to you. You are my creator</line>
     <line>but I am your master; obey!</line>
-    <milestone unit="tei:p"/><line>Wretch, said I, the hour of my weak-</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>Wretch, said I, the hour of my weak-</line>
     <line>ness is past &amp; the period of your power is</line>
     <line>arrived. Your threats cannot move me</line>
     <line>to do an act of wickedness but they confirm</line>
     <line>me in a resolution of not creating you</line>
     <line>companion in vice. Shall I in cold blood</line>
-    <line>set loose upon the earth a dæmon</line>
+    <line>set loose upon the earth a d&#xE6;mon</line>
     <line>whose delight is in death &amp; wretchedness.</line>
     <line>Begone, I am firm and your words will</line>
     <line>only exasperate my rage.</line>
     <milestone unit="tei:p"/>
-    <line>The Monster saw my determination</line>
+    <line><space unit="chars" extent="6"/>The Monster saw my determination</line>
     <line>in my face and gnashed his teeth in the</line>
     <line>impotence of anger. Shall each man, cried</line>
     <line>he, find his equal, &amp; each beast have</line>
-    <line>his mate I and I be alone. I had feelings</line>
+    <line>his mate <del rend="strikethrough">I</del> and I be alone. I had feelings</line>
     <line>of affection &amp; they were returned by detes</line>
     <line>tation. Man you may hate, but beware!</line>
   </zone>
