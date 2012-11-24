@@ -3,38 +3,57 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0123" ulx="0" uly="0" lrx="5138" lry="7032"
-  partOf="#ox-ms_abinger_c57-0123">
+  xml:id="ox-ms_abinger_c57-0123" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0123.tif"/>
-  <zone type="pagination">139</zone>
+  <zone type="pagination" rend="bordered">139</zone>
   <zone type="library">62</zone>
   <zone type="main">
     <line>my mind with the face of reality.</line>
-    <milestone unit="tei:p"/><line><del rend="strikethrough">But</del>
-      <del rend="overwritten">a</del>
-      <add place="intralinear">A</add>s the images that floated</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/><del rend="strikethrough">But</del>
+      <mod>
+        <del rend="overwritten">a</del>
+        <add place="intralinear">A</add>
+      </mod>s the images that floated</line>
     <line>before me became more distinct I grew</line>
-    <line>feverish; a darkness pressed around me</line>
+    <line>feverish; a darkness pressed around me<damage type="inkblot"><unclear unit="chars"
+          extent="1"/></damage></line>
     <line><del rend="strikethrough">and</del> no person was near me who soothed</line>
-    <line>me with the gentle voice of love; no...</line>
-    <line>dear hand supported me. The physy</line>
+    <line>me with the gentle voice of love; no</line>
+    <line>dear hand supported me. The ph<mod>
+        <del rend="overwritten">i</del>
+        <add place="intralinear">y</add>
+      </mod>s<mod>
+        <del rend="overwritten"><mod>
+            <del rend="overwritten">i</del>
+            <add place="intralinear">y</add>
+          </mod></del>
+        <add place="intralinear">i</add>
+      </mod></line>
     <line>cian came &#x26; prescribed medecines &#x26; the</line>
     <line>old woman prepared them for me</line>
     <line>but utter carelessness was visible in</line>
-    <line>the first &#x26; the <del rend="strikethrough"
-          >marks</del><add><metamark>&#x2038;</metamark></add><add place="superlinear"
-        >expression</add> of brutality <del rend="strikethrough">were</del></line>
-    <line><add><ptr target="#c57-0123.01"/></add>strongly impressed on the visage of</line>
-    <line>the second&#x2013; <del rend="strikethrough">Besides</del> who could be</line>
+    <line>the first &#x26; the <mod>
+        <del rend="strikethrough">marks</del>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">expression</add>
+      </mod> of brutality <mod>
+        <del rend="strikethrough">were</del>
+        <add><ptr target="#c57-0123.01"/></add>
+      </mod></line>
+    <line>strongly impressed on the visage of</line>
+    <line>the second &#x2013; <del rend="strikethrough">Besides</del> who could be</line>
     <line>inte<del rend="strikethrough">r</del>rested in the fate of a murderer</line>
     <line><del rend="strikethrough">none</del> but the hangman who would</line>
-    <line>gain his fee? <del rend="strikethrough">if he recovered only to</del></line>
-    <line><del rend="strikethrough">die by his hand.</del></line>
-    <milestone unit="tei:p"/><line>These were my first reflections</line>
-    <line>but I soon learned that Mr: Kir</line>
+    <line>gain his fee? <delSpan spanTo="#c57-0123.02" rend="strikethrough"/>if he recovered only
+      to</line>
+    <line>die by his hands.<anchor xml:id="c57-0123.02"/></line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="5"/>These were my first reflections</line>
+    <line>but I soon learned that M<hi rend="sup">r</hi>.. Kir</line>
     <line>win had shewn me extreme</line>
-    <line>kindness&#x2013; He had caused the best room</line>
-    <line>in the prison to be prepared for me</line>
+    <line>kindness &#x2013; He had caused the best room</line>
+    <line>in the prison to be prepared for me,</line>
     <line>(wretched indeed was the best) And it</line>
     <line>was he who had provided a physician</line>
     <line>&#x26; attendants for me. It is true he sel-</line>
@@ -45,10 +64,18 @@
     <line>and miserable ravings of a murderer&#x2014;</line>
     <line>He came therefore sometimes to see</line>
     <line>that I was not neglected, but his visits</line>
-    <line><del rend="strikethrough">wh</del> were short &#x26; at long intervals.</line>
-    <line>One day when I was gradually re</line>
-    <line>covering <del rend="strikethrough">&#x26;</del>
-      <add place="superlinear">I was</add> seated in a chair, my eyes half</line>
+    <line><del rend="strikethrough">wh</del> were short &#x26; at <mod>
+        <del rend="overwritten"><unclear unit="chars" extent="1"/></del>
+        <add place="intralinear">l</add>
+      </mod>ong intervals.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="4"/>One day when I was gradually re</line>
+    <line>covering <mod>
+        <del rend="strikethrough">&#x26;</del>
+        <add place="superlinear" hand="#pbs">I was</add>
+      </mod> seated in a chair, my eyes half</line>
   </zone>
-  <zone type="left_margin"><add xml:id="c57-0123.01">was</add></zone>
+  <zone type="left_margin">
+    <line><add xml:id="c57-0123.01">was </add></line>
+  </zone>
 </surface>
