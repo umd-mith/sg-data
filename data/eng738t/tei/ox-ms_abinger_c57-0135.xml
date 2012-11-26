@@ -3,17 +3,19 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0135" ulx="0" uly="0" lrx="5138" lry="7032"
-  partOf="#ox-ms_abinger_c57-0135">
+  xml:id="ox-ms_abinger_c57-0135" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0135.tif"/>
-  <zone type="pagination">151</zone>
+  <zone type="pagination" rend="bordered">151</zone>
   <zone type="library">68</zone>
   <zone type="main">
-    <milestone unit="tei:p"/><line>It gave me the greatest pleasure to</line>
-    <line>receive a letter from my Uncle dated at</line>
-    <line>Paris. You are no longer at a formidable</line>
+    <line>It gave me the greatest pleasure to</line>
+    <line>receive a letter from my Uncle dated at</line><!--"Uncle" could be "uncle"-->
+    <line>Paris. You are no longer at a formi<mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">d</add>
+      </mod>able</line>
     <line>distance and I may hope to see you in</line>
-    <line>less than a fort night. My poor Cousin!</line>
+    <line>less than a fortnight. My poor Cousin<unclear>!</unclear></line>
     <line>How much must you have suffered!</line>
     <line>I expect to see you looking even more</line>
     <line>ill than when you quitted Geneva. This</line>
@@ -21,13 +23,15 @@
     <line>but although happiness will not shine</line>
     <line>in our eyes for many months yet I</line>
     <line>hope to <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">see</add>
       </mod> peace in your countenance &#x26; to</line>
     <line>find that your heart is not totally</line>
     <line>devoid of comfort &#x26; tranquility.</line>
-    <milestone unit="tei:p"/><line>Yet I fear that the same feelings</line>
-    <line>now exist that made <unclear/> you so miserable</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>Yet I fear that<del rend="strikethrough">,</del> the same
+      feelings</line>
+    <line>now exist that made you so miserable</line>
     <line>a year ago even perhaps augmented by time.</line>
     <line>I would not at this period disturb you</line>
     <line>when so many misfortunes weigh upon</line>
@@ -35,20 +39,24 @@
     <line>with my uncle previous to his departure</line>
     <line>renders some explanation necessary</line>
     <line>before we meet.</line>
-    <milestone unit="tei:p"/><line>Explanation, you may possibly say,</line>
-    <line>What can Elizabeth have to explain?</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>Explanation, you may possibly say,</line>
+    <line>what can Elizabeth have to explain?</line>
     <line>If you really say this my questions are</line>
     <line>answered and I have no more to do than</line>
     <line>to sign myself your affectionate cousin.</line>
-    <line>But you are distant from me &#x26; <del rend="strikethrough">I can</del></line>
-    <line><del rend="strikethrough">not</del> it is possible that you may dread &#x26;</line>
+    <line>But you are distant from me &#x26; <delSpan spanTo="#c57-0135.01" rend="strikethrough"/>I
+      can</line>
+    <line>not<anchor xml:id="c57-0135.01"/> it is possible that you may dread &#x26;</line>
     <line>yet be pleased with this explanation</line>
     <line><del rend="strikethrough">af</del>
-      <del rend="strikethrough">and if such could be the case I</del></line>
-    <line><del rend="strikethrough">cannot delay it</del> and <del rend="strikethrough">with</del>
-      <add place="superlinear">in</add>
-      <del rend="strikethrough">a</del>
-      <add place="superlinear">the</add> probability of</line>
+      <delSpan spanTo="#c57-0135.02" rend="strikethrough"/>and if such could be the case I</line>
+    <line>cannot delay it<anchor xml:id="c57-0135.02"/> and <mod>
+        <del rend="strikethrough">with</del>
+        <add place="superlinear">in</add>
+        <del rend="strikethrough">a</del>
+        <add place="superlinear">the</add>
+      </mod> probabil<rewrite cause="clarify">ity</rewrite> of</line>
     <line>this being the case I dare not postpone</line>
     <line>any longer to write what during your</line>
     <line>absence I have often wished to express to</line>
