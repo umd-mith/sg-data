@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0008" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0008.tif"/>
+  <zone type="main">
+    <line>Ione</line>
+    <line>What charioteers are these <hi rend="subscript">Panthea</hi></line>
+    <line><hi rend="subscript">Chorus {o}</hi>&lt; Where are their chariots?</line>
+    <line>Semichorus of Hours. 1.</line>
+    <line><del rend="strikethrough">Semichorus 1</del></line>
+    <line>The voice of the Spirits of air &amp; earth</line>
+    <line>Have drawn back the figured curtain of sleep</line>
+    <line>Which covered our being &amp; darkened our birth</line>
+    <line>In the deep--</line>
+    <line>a Voice</line>
+    <line>In the deep?</line>
+    <line>Semichorus 2.</line>
+    <line>Oh below the deep</line>
+    <line>Semichorus 1.</line>
+    <line>An hundred ages we had been kept</line>
+    <line>visions</line>
+    <line>Cradled in <del rend="strikethrough">dreams</del> of hate &amp; {\} care</line>
+    <line>And each one who waked as his brother</line>
+    <line>slept</line>
+    <line>Found the truth--</line>
+    <line>Semichorus 2.</line>
+    <line>Worse than his visions were</line>
+    <line>Semichorus 1.</line>
+    <line>We have heard the lute of Hope in sleep</line>
+    <line>We have known the voice of love in dream</line>
+  </zone>
+</surface>

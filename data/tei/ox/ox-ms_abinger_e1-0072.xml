@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0072" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0072.tif"/>
+  <zone type="main">
+    <line>Wail, howl aloud Land &amp; Sea</line>
+    <line>The Earths rent heart shall answer ye</line>
+    <line>Howl spirits of the living &amp; the dead</line>
+    <line>Your refuge, your defence lies fallen &amp; vanq-</line>
+    <line>-uished</line>
+    <line>1<hi rend="superscript">st</hi> Echo</line>
+    <line>Lies</line>
+    <line><del rend="strikethrough">Lies un</del> Fallen &amp; vanquished?</line>
+    <line>2 Echo</line>
+    <line>Fallen &amp; vanquished!</line>
+    <line>Ione</line>
+    <line>Fear not -- tis but some passing spasm</line>
+    <line>The Titan is unvanquished still.</line>
+    <line>But see, where thro the azure chasm</line>
+    <line>Of yon forked &amp; snowy hill</line>
+    <line>Trampling the slant winds on high</line>
+    <line>golden-</line>
+    <line>With <del rend="strikethrough">un</del>sandalled feet, that glow</line>
+    <line>Under plumes of purple dye</line>
+    <line>Like rose-ensanguined ivory</line>
+    <line>A Shape comes now</line>
+    <line>Stretching on high from his right hand</line>
+    <line>A serpent-cinctured wand</line>
+  </zone>
+</surface>

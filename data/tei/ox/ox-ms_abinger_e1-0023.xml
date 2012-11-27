@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0023" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0023.tif"/>
+  <zone type="main">
+    <line>11</line>
+    <line>Which wraps me, like an atmosphere of light</line>
+    <line>And bears me as a cloud is borne by its own wind</line>
+    <line>!</line>
+    <line>The Moon</line>
+    <line>Brother mine, calm wanderer</line>
+    <line>Happy globe of land &amp; air</line>
+    <line>is darted like a beam from</line>
+    <line>Some Spirit <del rend="strikethrough">wraps thine atmosphere &amp;</del> thee</line>
+    <line>Which penetrates my frozen frame</line>
+    <line>And passes with the warmth of flame--</line>
+    <line>With love &amp; odour &amp; deep melody</line>
+    <line>Through me, through me!--</line>
+    <line>The Earth</line>
+    <line>Ha, ha,! the cavens of my hollow mountains</line>
+    <line>My cloven fire-crags, sound-exulting fountains</line>
+    <line>Laugh with a vast &amp; inextinguishable laug</line>
+    <line>hter</line>
+    <line>The Oceans &amp; the Desarts &amp; the Abysses</line>
+    <line>measured</line>
+    <line>Of the deep air's un<del rend="strikethrough">fathomed</del> wildernesses</line>
+    <line>all</line>
+    <line>Answer from their clouds &amp; billows, echoing after</line>
+    <line>^</line>
+    <line>They cry aloud as I do-- Sceptered Curse</line>
+    <line>Who all our green &amp; azure Universe</line>
+  </zone>
+</surface>

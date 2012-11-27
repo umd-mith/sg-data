@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0024" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0024.tif"/>
+  <zone type="main">
+    <line>Threatenedst to muffle round with black destruction,</line>
+    <line>sending</line>
+    <line>A solid cloud to rain hot thunderstones,</line>
+    <line>And splinter &amp; knead down my childrens bones ,</line>
+    <line>All I bring forth, to one void mass battering &amp; blending</line>
+    <line>Until each craglike tower &amp; storied column</line>
+    <line>Palace, &amp; {O}belisk &amp; Temple solemn</line>
+    <line>My imperial mountains crowned with <del rend="strikethrough">ligh</del></line>
+    <line>cloud &amp; snow &amp; fire,</line>
+    <line>My sea-like forests, every blade &amp; blossom</line>
+    <line>Which finds a grave or cradle on my bosom</line>
+    <line>Were stamped by thy strong hate into a lifeless</line>
+    <line><hi rend="underline">mire</hi></line>
+    <line>How art thou sunk, withdrawn, coverd--</line>
+    <line>drunk up</line>
+    <line>By thirsty nothing, as the brackish cup</line>
+    <line>Drained by a Desart-troop--a little drop for all!</line>
+    <line>And from beneath, around, within, above,</line>
+    <line>Filling thy void annihilation, Love</line>
+    <line>Bursts in like light on caves cloven by</line>
+    <line>the thunderball</line>
+    <line>The Moon</line>
+    <line>The Snow upon my lifeless mountains</line>
+    <line>Is loosened into living fountains</line>
+    <line>My solid Oceans flow &amp; sing &amp; shine</line>
+  </zone>
+</surface>

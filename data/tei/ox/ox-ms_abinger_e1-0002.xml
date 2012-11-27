@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0002" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0002.tif"/>
+  <zone type="main">
+    <line>[<hi rend="underline">reverso</hi>]</line>
+    <line>Ms. Shelley e.1</line>
+    <line>(31552)</line>
+    <line>400 - - 23<hi rend="superscript">d</hi> 163.</line>
+    <line><hi rend="underline">163</hi></line>
+    <line>excite your audience to the highest</line>
+    <line><del rend="strikethrough underline">500</del></line>
+    <line>degree; when for instance you sing of</line>
+    <line>Ulysses leaping upon the threshold of</line>
+    <line>when</line>
+    <line>his home, bursting like a phantom</line>
+    <line>upon the suitors he pours forth his</line>
+    <line>arrows before his feet; or of Achilles</line>
+    <line>rushing upon Hector, or some pathetic</line>
+    <line>passage relating to Andromache</line>
+    <line>Hecuba or Priam; do you then</line>
+    <line>feel that you are in your senses, or</line>
+    <line>are you not as it were out of</line>
+    <line>yourself, &amp; is not your soul</line>
+    <line>transported into the midst of</line>
+    <line>the action which it paints in</line>
+    <line>its enthusiasm, whether in Ithaca</line>
+    <line>or in Troy, or whatever other place</line>
+    <line>may be the scene of the epic</line>
+    <line>you recite? X</line>
+  </zone>
+</surface>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0005" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0005.tif"/>
+  <zone type="main">
+    <line>2</line>
+    <line>[Act 4 1]</line>
+    <line>part of</line>
+    <line>Scene a <del rend="strikethrough">beautiful</del> forest near the cave</line>
+    <line>of Prometheus--Panthea &amp; Ione <del rend="strikethrough">are</del> are</line>
+    <line><del rend="strikethrough">sitting beside a stream</del></line>
+    <line>sleeping-- [<del rend="strikethrough">dreaming</del>]-- they awaken gradually</line>
+    <line>during the first song.</line>
+    <line>Voice of unseen Spirits</line>
+    <line>The pale Stars are gone,--</line>
+    <line>For the Sun thier swift Shepherd</line>
+    <line>To their folds them compelling</line>
+    <line>In the depths of the Dawn</line>
+    <line>Hastes, in meteor-eclipsing array, &amp; they flee</line>
+    <line>Beyond his blue dwelling,</line>
+    <line>As fawns flee the leopard. . .</line>
+    <line>But where are ye?</line>
+    <line>a t<hi rend="underline">rain of dark forms &amp; shadows passes by</hi></line>
+    <line><hi rend="underline">confusedly</hi> , singing--</line>
+    <line>Panthea wakens</line>
+    <line>Here oh here!</line>
+    <line>We bear the bier</line>
+    <line>Of the father of many a cancelled year</line>
+    <line>Spectres we</line>
+    <line>Of dead hours be</line>
+    <line>We bear Time to his tomb in eternity</line>
+  </zone>
+</surface>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0015" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0015.tif"/>
+  <zone type="main">
+    <line>7</line>
+    <line>Chorus of Hours &amp; Spirits</line>
+    <line>Break the dance &amp; scatter the song--</line>
+    <line>Let some depart &amp; some remain</line>
+    <line>Wherever we fly we lead along</line>
+    <line>In leashes, like starbeams, soft yet strong</line>
+    <line>The clouds that are heavy with Loves sweet</line>
+    <line>rain</line>
+    <line>1{5}7 <hi rend="underline">they depart</hi></line>
+    <line>[Pan]</line>
+    <line>Ha, they are gone!</line>
+    <line>Ione</line>
+    <line>Yet feel you no delight</line>
+    <line>From the past sweetness?</line>
+    <line>Panthea green</line>
+    <line>As the bare <del rend="strikethrough">dry</del> hill</line>
+    <line>When some <del rend="strikethrough">some</del> soft cloud <del rend="strikethrough">of [has] loosed its</del></line>
+    <line>vanishes into rain</line>
+    <line>Laughs with a thousand drops of <del rend="strikethrough">orbed {r}</del></line>
+    <line>sunny <del rend="strikethrough">wet</del></line>
+    <line>water</line>
+    <line>To the pale sky, my</line>
+    <line><del rend="strikethrough">unpavili Ione</del></line>
+    <line>To the unpavilioned sky{!}</line>
+    <line>Ione</line>
+    <line>Even whilst we speak</line>
+    <line>New notes arise . . . what is that awful sound</line>
+    <line>Panthea</line>
+    <line>Tis the deep music of the rolling world</line>
+    <line>Kindling within the strings of the waved air</line>
+    <line>Ã†olian modulations</line>
+    <line>Ione</line>
+    <line>Listen too</line>
+  </zone>
+</surface>

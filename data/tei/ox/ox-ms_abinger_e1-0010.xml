@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0010" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0010.tif"/>
+  <zone type="main">
+    <line>Chorus of Spirits</line>
+    <line>We join the throng</line>
+    <line>Of the dance &amp; the song</line>
+    <line>By the whirlwind of gladness borne along;</line>
+    <line>As the flying-fish leap</line>
+    <line>From the Indian deep,</line>
+    <line>And mix with the sea birds half asleep.</line>
+    <line>Chorus of Hours</line>
+    <line>Whence come ye so wild &amp; so fleet</line>
+    <line>For sandals of lightning are on your feet</line>
+    <line>And your wings are soft &amp; swift as thought,</line>
+    <line>And your eyes are as Love which is veiled not{?}</line>
+    <line>Chorus of spirits</line>
+    <line>We come from the mind</line>
+    <line>Of human kind</line>
+    <line>Which was late so dusk &amp; obscene &amp; blind{;}</line>
+    <line>Now tis an Ocean,</line>
+    <line>Of clear emotion</line>
+    <line>A Heaven of serene &amp; mighty motion.</line>
+    <line>From that deep Abyss</line>
+    <line>Of wonder &amp; bliss</line>
+    <line>Whose caverns are chrystal palaces,</line>
+  </zone>
+</surface>

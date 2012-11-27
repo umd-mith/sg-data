@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_e1-0009" partOf="#ox-ms_abinger_e1">
+  <graphic url="../../images/ox/ox-ms_abinger_e1-0009.tif"/>
+  <zone type="main">
+    <line>4</line>
+    <line>We have felt the wand of Power, and leap--</line>
+    <line>Semichorus 2</line>
+    <line><del rend="strikethrough">And leap,</del></line>
+    <line>As the billows leap in the morning beam</line>
+    <line>Chorus</line>
+    <line>Weave the dance on the floor of the breeze,</line>
+    <line>Pierce with song Heaven's silent light,</line>
+    <line>Enchant the Day that too swiftly flees</line>
+    <line>To <del rend="strikethrough">soothe</del> its flight, ere the cave of Night;</line>
+    <line>check</line>
+    <line>Once the hungry Hours were hounds</line>
+    <line>Which chased the Day, like a bleeding deer</line>
+    <line>And it limped and stumbled with many wounds</line>
+    <line>r</line>
+    <line>Though the nightly dells of the desart year</line>
+    <line>^</line>
+    <line>But now -- oh weave the mystic measure</line>
+    <line>Of music &amp; dance and shapes of light,</line>
+    <line>Let the Hours &amp; all Spirits of might &amp;</line>
+    <line>pleasure</line>
+    <line>Like the clouds &amp; the sunbeams unite</line>
+    <line>a Voice</line>
+    <line>Unite{!}</line>
+    <line>Panthea</line>
+    <line>See where the Spirits of the human mind</line>
+    <line>Wrapt sounds veils, approach</line>
+    <line>Clothed</line>
+    <line>in sweet <del rend="strikethrough">song</del>, like radiant <del rend="strikethrough">garments,</del></line>
+    <line><del rend="strikethrough">come</del></line>
+  </zone>
+</surface>
