@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0070" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0070.tif"/>
+  <zone type="main">
+    <line>Both infinite as is this Universe</line>
+    <line>And thou, &amp; thy self torturing solitude.</line>
+    <line>An awful Image of calm power</line>
+    <line>Though now thou s{i}ttest, let the hour</line>
+    <line>Come, when thou must appear to be</line>
+    <line>That which thou art internally</line>
+    <line>And after many a false &amp; fruitless crime</line>
+    <line>Scorn track thy lagging fall thro boundless</line>
+    <line>{S}pace &amp; time.</line>
+    <line>t<hi rend="underline">he Phantasm vanishes</hi></line>
+    <line>Prometheus</line>
+    <line>Were these my words o Parent?</line>
+    <line>The Earth</line>
+    <line>They were thine</line>
+    <line>Prometheus</line>
+    <line>It doth repent me: words are quick &amp; vain;</line>
+    <line><hi rend="superscript">G</hi>rief for awhile is blind, &amp; so was mine</line>
+    <line>I wish no living thing to suffer pain.</line>
+    <line><del rend="strikethrough">he bends his head as in pain</del></line>
+    <line>The Earth</line>
+    <line>Misery o misery to me</line>
+    <line>That Jove at length should vanquish</line>
+    <line>thee</line>
+    <line>294</line>
+  </zone>
+</surface>

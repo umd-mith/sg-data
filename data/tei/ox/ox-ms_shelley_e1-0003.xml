@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0003" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0003.tif"/>
+  <zone type="main">
+    <line>[<hi rend="underline">reverso</hi>]</line>
+    <line>1</line>
+    <line>in other respects</line>
+    <line>worst poet, seems to have been purposely</line>
+    <line>afforded as a divine evidence of the</line>
+    <line>truth of this opinion<del rend="strikethrough">?</del> <del rend="strikethrough">Do I a</del> Do you</line>
+    <line>think with me o Ion.-- <hi rend="underline">Ion</hi> By Jupiter</line>
+    <line>as it were</line>
+    <line>Ido. You touch my soul with your words</line>
+    <line>o Socrates. <del rend="strikethrough">Exce</del> <del rend="strikethrough">The great poets</del> The</line>
+    <line>excellent poets appear to me to be divinely</line>
+    <line>commissioned as interpreters between the</line>
+    <line>gods &amp; us.-- <hi rend="underline">Soc</hi>. Do not you rhapso</line>
+    <line>-dists interpret the creations of the poets</line>
+    <line><hi rend="underline">Ion</hi>. That also is true. <hi rend="underline">Soc</hi>. You are then</line>
+    <line>the interpreters of interpreters. <hi rend="underline">Ion</hi>.</line>
+    <line>Evidently.-- <hi rend="underline">Soc</hi>. Now confess the truth</line>
+    <line>to me, Ion, &amp; conceal not what I ask</line>
+    <line>of you.-- When you recite some passages</line>
+    <line>from an <hi rend="underline">Cantin{i}</hi> epic poem [ ? ]</line>
+    <line>climb from a <del rend="strikethrough">la{ll}</del> ladder</line>
+    <line>Via</line>
+    <line>Piazza <del rend="strikethrough">dalle</del>/Strozzi</line>
+  </zone>
+</surface>

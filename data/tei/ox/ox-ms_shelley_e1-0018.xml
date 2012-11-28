@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0018" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0018.tif"/>
+  <zone type="main">
+    <line>Its wheels are solid clouds, azure &amp; gold,</line>
+    <line>Such as the genii of the thunderstorm</line>
+    <line>Pile on the floor of the illumined sea</line>
+    <line>When the Sun rushes under it, they roll</line>
+    <line>And move &amp; grow as with an inward wind.</line>
+    <line>Within it sits a winged Infant, <del rend="strikethrough">br</del> white</line>
+    <line>Its countenance like the whiteness of bright</line>
+    <line>as snow,</line>
+    <line>Its plumes are <del rend="strikethrough">like</del> feathers of sunny frost,</line>
+    <line>Its limbs gleam white, thro the wind-flowing</line>
+    <line>folds</line>
+    <line>Of its white robe, woof of Ã¦therial pearl--</line>
+    <line>Its hair is white,--the brightness of white light</line>
+    <line>Scattered in strings, yet its two eyes are</line>
+    <line>Heavens</line>
+    <line>Of liquid darkness, which the Deity</line>
+    <line>Within, seems pouring, as a storm is poured</line>
+    <line>From jagged clouds, out of their arrowy lashes</line>
+    <line>Tempering the cold &amp; radiant air around</line>
+    <line>With fire which is not brightness, in its hand</line>
+    <line>It sways a quivering moonbeam, from</line>
+    <line>whose point</line>
+    <line>A guiding power directs the chariots prow</line>
+    <line>Over its wheeled clouds, which as they roll</line>
+    <line>Over the <del rend="strikethrough">bending</del> grass &amp; flowers &amp; waves, wake</line>
+    <line>sounds</line>
+    <line>Sweet as a singing rain of silver dew.</line>
+  </zone>
+</surface>

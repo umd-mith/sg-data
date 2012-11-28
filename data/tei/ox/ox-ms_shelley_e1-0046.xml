@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0046" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0046.tif"/>
+  <zone type="main">
+    <line>5</line>
+    <line>'mid</line>
+    <line>And had ran mute <del rend="strikethrough">thro</del> shrieks of slaugter</line>
+    <line>Thro' a city &amp; a solitude!</line>
+    <line>3 Voice from the Air</line>
+    <line>I had clothed since Earth uprose</line>
+    <line>Its wastes in colours not their own,</line>
+    <line>And oft had my serene repose</line>
+    <line>Been cloven by many a rending groan</line>
+    <line>And silence V<hi rend="superscript">oice</hi></line>
+    <line>4<hi rend="superscript">h</hi> from the Whirlwinds</line>
+    <line>We had soared beneath these mountains</line>
+    <line>Unresting ages;--nor had thunder</line>
+    <line>Nor yon Volcano's flaming fountains</line>
+    <line>Nor any power above or under,</line>
+    <line>Ever made us mute with wonder!</line>
+    <line>1<hi rend="superscript">t</hi> Voice</line>
+    <line>But never bowed our snowy crest</line>
+    <line>As at the voice of thine unrest--</line>
+    <line>2</line>
+    <line>Never such a sound before</line>
+    <line>To the Indian waves we bore.--</line>
+    <line>A pilot asleep on the howling sea</line>
+    <line>95 Leaped up from the deck in agony</line>
+  </zone>
+</surface>

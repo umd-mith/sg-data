@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0022" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0022.tif"/>
+  <zone type="main">
+    <line>The anatomies of unknown winged things,</line>
+    <line>isles</line>
+    <line>And fishes which were <del rend="strikethrough">islands</del> of living scale,</line>
+    <line>And serpents, bony chains, twisted around</line>
+    <line>within</line>
+    <line>The iron crags, or <del rend="strikethrough">around</del> heaps of dust</line>
+    <line>To which the tortuous strength of thier last</line>
+    <line><hi rend="underline">pangs</hi></line>
+    <line>Had crushed the iron crags;--&amp; over these</line>
+    <line>The jagged alligator &amp; the might</line>
+    <line>Of earth-convulsing behemoth, which once</line>
+    <line>Were monarch beasts, &amp; on the slimy shores</line>
+    <line>And weed-overgrown continents of Earth</line>
+    <line>Increased &amp; multiplied like summer worms</line>
+    <line>On an abandoned corpse, till the blue globe</line>
+    <line>Wrapt Deluge round it like a cloak, &amp; they</line>
+    <line><del rend="strikethrough">Gasped</del>, Yelled, gaspt &amp; were abolished; [or] some God</line>
+    <line>Whose throne was in a Comet, past, &amp; cried--</line>
+    <line>280</line>
+    <line>Be not! -- &amp; like my words they were no</line>
+    <line><hi rend="underline">more</hi></line>
+    <line>The Earth madness</line>
+    <line>The joy, the triumph, the delight, the <del rend="strikethrough">gladness!</del></line>
+    <line>The boundless, overflowing bursting gladness</line>
+    <line>The vapourous exultation, not to be confined!</line>
+    <line>Ha! ha! the Animation of delight</line>
+  </zone>
+</surface>

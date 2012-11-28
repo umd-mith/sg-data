@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0029" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0029.tif"/>
+  <zone type="main">
+    <line>14</line>
+    <line>Preface</line>
+    <line>The {g}reek tragic writers in selecting as thier</line>
+    <line>subject any portion of their national</line>
+    <line>history or mythology, employed in</line>
+    <line>thier treatment of it a certain arbi</line>
+    <line>-trary discretion. They by no means</line>
+    <line>conceived themselves bound to adhere</line>
+    <line>to the common interpretation, or to</line>
+    <line>imitate in story as in <del rend="strikethrough">th{e}</del> title their</line>
+    <line>rivals &amp; predecessors. Such a system</line>
+    <line>w have amounted to a resignation of</line>
+    <line>those claims to preference over their</line>
+    <line>competitors which incited the com-</line>
+    <line>Violet</line>
+    <line>-position. The Agamenmonian story</line>
+    <line>was exhibited on the Athenian theatre</line>
+    <line>with as many variations as dramas.</line>
+    <line>I have presumed to employ a similar</line>
+    <line>license-- The &quot;Prometheus unbound&quot; of</line>
+    <line>Ã†schylus, supposed the reconciliation of</line>
+    <line>Jupiter with his victim as the</line>
+    <line>price of the disclosure of the</line>
+    <line>danger threatened to his empire</line>
+  </zone>
+</surface>

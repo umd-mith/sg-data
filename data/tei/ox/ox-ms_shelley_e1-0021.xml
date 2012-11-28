@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0021" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0021.tif"/>
+  <zone type="main">
+    <line>10</line>
+    <line>Infinite mines of adamant &amp; gold</line>
+    <line>Valueless stones &amp; unimagined gems</line>
+    <line>on chrystalline columns poised</line>
+    <line>And caverns <del rend="strikethrough">of columnar</del> <del rend="strikethrough underline">stone</del><del rend="strikethrough">, w like jet</del></line>
+    <line>With vegetable silver overspread</line>
+    <line><del rend="strikethrough">Fount</del> Wells of unfathomed fire, &amp; watersprings</line>
+    <line>Whence the great Sea, even as a child, is fed</line>
+    <line>monarch</line>
+    <line>Whose vapours clothe Earth's <del rend="strikethrough">mount</del> mountain-tops</line>
+    <line>With kingly, ermine snow; <del rend="strikethrough">see, as they flas</del></line>
+    <line>250</line>
+    <line>on</line>
+    <line><del rend="strikethrough">as t</del>he beams flash <del rend="strikethrough">deep</del></line>
+    <line>And</line>
+    <line><del rend="strikethrough">They</del> make appear the melancholy ruins</line>
+    <line>Of cancelled cycles{;} anchors, beaks of ships</line>
+    <line>Planks turned to marble, quivers helms &amp; spears{,}</line>
+    <line>And gorgon-headed targes, &amp; the wheels</line>
+    <line>Of scythed chariots, &amp; the emblazonry</line>
+    <line>Of trophies standards &amp; armorial beasts</line>
+    <line>Round which Death laughed, sepulchered emblems</line>
+    <line>Of dead Destruction, ruin within ruin!</line>
+    <line>The wrecks beside of many a city vast</line>
+    <line>Whose population which the Earth grew over</line>
+    <line>Was mortal but not human, see, they lie</line>
+    <line>Thier monstrous works &amp; uncouth skeletons ,</line>
+    <line>statues, <del rend="strikethrough">fa{n}</del> homes, &amp; fanes; prodigious shapes</line>
+    <line>Thier <del rend="strikethrough">once Heaven-cleaving pyramids &amp; domes</del></line>
+    <line>Huddled in grey annihilation, split,</line>
+    <line>Jammed in the hard black deep{;} &amp; over these</line>
+  </zone>
+</surface>

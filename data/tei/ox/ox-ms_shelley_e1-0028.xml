@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0028" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0028.tif"/>
+  <zone type="main">
+    <line>All things confess his strength--<del rend="strikethrough">From the cold</del></line>
+    <line><del rend="strikethrough">mass</del></line>
+    <line>Through the cold mass</line>
+    <line>Of marble &amp; of colour his dreams pass</line>
+    <line>Bright threads, whence mothers</line>
+    <line><del rend="strikethrough">And Mothers gazing</del> weave the robes their children</line>
+    <line>wear;</line>
+    <line>Language is a perpetual Orphic song</line>
+    <line>a</line>
+    <line>Ruling <del rend="strikethrough">Which rules</del> with dÃ¦dal harmony, <del rend="strikethrough">the</del> throng</line>
+    <line>Of thoughts &amp; forms, which else senseless &amp; shapeless were</line>
+    <line>The Lightning is his slave; Heavens utmost deep</line>
+    <line>Gives up her stars, &amp; like a flock of sheep</line>
+    <line>They pass before his eye, are numbered, &amp; roll on!</line>
+    <line>The Tempest is his steed,--he strides the air!</line>
+    <line>And the abyss shouts from her depth</line>
+    <line>laid bare</line>
+    <line>Wh<del rend="strikethrough">at secrets hast thou Heaven?</del></line>
+    <line>Heaven, hast thou secrets? Man unveils me, I</line>
+    <line>have none</line>
+    <line>The Moon</line>
+    <line>The shadow of white Death hath past</line>
+    <line>From my path in Heaven at last,</line>
+    <line>A clinging shroud of solid frost &amp; sleep--</line>
+    <line>And through my newly-woven bowers</line>
+  </zone>
+</surface>

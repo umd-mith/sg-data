@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0025" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0025.tif"/>
+  <zone type="main">
+    <line>12</line>
+    <line>A spirit from my heart bursts forth</line>
+    <line>It clothes with unexpected birth</line>
+    <line>My cold bare bosom-- oh, it must be thine</line>
+    <line>On mine, on mine!</line>
+    <line>Gazing on thee I feel I know</line>
+    <line>Green stalks burst forth, &amp; bright flowers</line>
+    <line>grow</line>
+    <line>And living shapes upon my bosom move</line>
+    <line>Music is in the sea &amp; air</line>
+    <line>Winged clouds soar here &amp; there</line>
+    <line>Dark with the rain new buds are dreaming</line>
+    <line>of</line>
+    <line>'Tis Love, all Love!</line>
+    <line>The Earth</line>
+    <line>It interpenetrates my granite mass</line>
+    <line>Through tangled roots &amp; trodden clay doth pass</line>
+    <line>Into the utmost leaves &amp; delicat{es}t flowers{--}</line>
+    <line>Upon the winds, among the clouds 'tis spread</line>
+    <line>It wakes a life in the forgotten dead</line>
+    <line>They breathe a spirit up from their</line>
+    <line>obscurest bowers</line>
+    <line>And like a storm, bursting its cloudy</line>
+    <line>prison</line>
+    <line>With thunder &amp; with whirlwind, has</line>
+    <line>arisen</line>
+  </zone>
+</surface>

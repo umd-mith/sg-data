@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0054" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0054.tif"/>
+  <zone type="main">
+    <line>Thy mother, she within whose stony veins</line>
+    <line>To the last fibre of the loftiest tree</line>
+    <line>Whose thin leaves trembled in the frozen air</line>
+    <line>Joy ran, as blood within a living frame</line>
+    <line>beam</line>
+    <line>When thou didst from her bosom, like a <del rend="strikethrough">cloud</del></line>
+    <line>From sunrise, <del rend="strikethrough">burst</del> leap--</line>
+    <line><del rend="strikethrough">Of glory</del> <del rend="strikethrough">arise</del> -- a spirit of keen joy!</line>
+    <line>And at thy voice her pining sons uplifted</line>
+    <line>Thier prostrate brows from the polluting dust</line>
+    <line>And our <del rend="strikethrough underline">invisible</del> Tyrant with fierce dread</line>
+    <line>Grew pale -- until his thunder chained thee here--</line>
+    <line>Then-- see those million worlds which burn &amp; roll</line>
+    <line>Around us; their inhabitants beheld</line>
+    <line>moonlike</line>
+    <line>My sphered light wane in wide Heaven, the sea</line>
+    <line>lifted</line>
+    <line>Was <del rend="strikethrough">shaken</del> with strange tempest, &amp; new fire</line>
+    <line>From earthquake-rifted mountains of bright snow</line>
+    <line>Shook its portentous hair beneath Heaven's</line>
+    <line>frown;</line>
+    <line>Lightning &amp; Inundation vexed the plains</line>
+    <line>/</line>
+    <line>\</line>
+    <line><del rend="strikethrough">Pestilence fell</del> on man &amp; beast &amp; worm</line>
+    <line>And Famine, &amp; black blight on herb &amp; tree,</line>
+    <line>163</line>
+  </zone>
+</surface>

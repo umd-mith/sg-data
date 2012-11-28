@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0026" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0026.tif"/>
+  <zone type="main">
+    <line>Out of the lampless caves of unimagined being</line>
+    <line>With earthquake shook &amp; swiftness making</line>
+    <line>shiver</line>
+    <line>Thought's stagnant chaos, unremoved forever,</line>
+    <line>Till Hate &amp; Fear &amp; Pain, light-vanquished</line>
+    <line>shadows, fleeing</line>
+    <line>Leave Man, who was a manysided mirror</line>
+    <line>Which could distort to many a shape of error</line>
+    <line>This true fair world of things--a Sea reflecting</line>
+    <line>Love;</line>
+    <line>Which over all his kind, as the Suns Heaven</line>
+    <line>smooth</line>
+    <line>Gliding oer Ocean <del rend="strikethrough">smooth</del>, serene &amp; even,</line>
+    <line>Darting from starry depths radiance &amp;</line>
+    <line>life, doth move{.}</line>
+    <line>Leave Man, even as a leprous child is left</line>
+    <line>a some</line>
+    <line>Who follows <del rend="strikethrough">some</del> sick beast to warm</line>
+    <line>cleft</line>
+    <line>Of rocks, through which the might of</line>
+    <line><hi rend="underline">healing springs is</hi> poured</line>
+    <line>Then when it wanders home with rosy smile</line>
+    <line>Unconscious, &amp; its mother fears awhile</line>
+    <line>It is a Spirit--then, weeps on her child</line>
+    <line>restored.</line>
+  </zone>
+</surface>

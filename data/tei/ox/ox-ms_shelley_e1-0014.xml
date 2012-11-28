@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0014" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0014.tif"/>
+  <zone type="main">
+    <line>Chorus of Hours</line>
+    <line>Break the dance, &amp; scatter the song</line>
+    <line>Let some depart &amp; some remain{,}</line>
+    <line>Semichorus 1.</line>
+    <line>We, beyond Heaven, are driven along--</line>
+    <line>Semichorus 2.</line>
+    <line>Us the inchantments of Earth retain--</line>
+    <line>Semichorus 1.</line>
+    <line>Ceaseless &amp; rapid &amp; fierce &amp; free</line>
+    <line>With the Spirits which build a new earth</line>
+    <line>&amp; sea</line>
+    <line>And a Heaven where yet Heaven c<hi rend="superscript">d</hi>. never be--</line>
+    <line>Semichorus 2.</line>
+    <line>Solemn &amp; slow &amp; serene &amp; bright</line>
+    <line>Leading the day &amp; outspeeding the</line>
+    <line>night</line>
+    <line>146 With the Powers of a world of perfect light--</line>
+    <line>Semichorus 1.</line>
+    <line>We whirl, singing loud, round the gathering sphere</line>
+    <line>Till the trees &amp; the beasts, &amp; the clouds appear</line>
+    <line>From its chaos made calm by love, not fear{--}</line>
+    <line>Semichorus</line>
+    <line>We encircle the Oceans &amp; Mountains of Earth</line>
+    <line>And the happy forms of its death &amp; birth</line>
+    <line>Change [to] the music of our sweet mirth</line>
+  </zone>
+</surface>

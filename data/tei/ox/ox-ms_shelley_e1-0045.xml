@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0045" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0045.tif"/>
+  <zone type="main">
+    <line>22</line>
+    <line>Wander happy paramours</line>
+    <line>Less mighty, but as mild as those who keep</line>
+    <line>Thy vales more deep.</line>
+    <line>The <hi rend="underline">Ear</hi>th</line>
+    <line>As the dissolving warmth of Dawn may fold</line>
+    <line>A half-unfrozen dewglobe, green &amp; gold</line>
+    <line>And chrystalline, till it becomes a winged mist</line>
+    <line>vault</line>
+    <line>And wanders up the <del rend="strikethrough">path</del> of the blue Day</line>
+    <line>Outlives the noon, &amp; on the Sun's last ray</line>
+    <line>Hangs oer the Sea; a fleece of fire &amp; amethyst--</line>
+    <line>400 {.}</line>
+    <line>The Moon</line>
+    <line>Thou art folded, thou art lying</line>
+    <line>In the light which is undying</line>
+    <line>Of thine own joy, &amp; Heavens smile divine</line>
+    <line>All suns &amp; constellations shower</line>
+    <line>On thee, a light a life a power</line>
+    <line>Which doth array thy sphere--thou</line>
+    <line>pourest thine</line>
+    <line>On mine, on mine!</line>
+  </zone>
+</surface>

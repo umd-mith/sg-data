@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0076" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0076.tif"/>
+  <zone type="main">
+    <line>En&lt;t&gt;er Mercury followed by the Furies</line>
+    <line>whom he represses with his wand.</line>
+    <line>1<hi rend="superscript">t</hi> Fury</line>
+    <line>scent</line>
+    <line>Ha I <del rend="strikethrough">smell</del> life--<hi rend="superscript">!</hi></line>
+    <line>2</line>
+    <line>Let me but look in his eyes!</line>
+    <line>3</line>
+    <line>a <del rend="strikethrough">hap</del> heap</line>
+    <line>The hope of torturing him smells like <del rend="strikethrough">fresh</del> <del rend="strikethrough">corpses</del></line>
+    <line>Of corpses</line>
+    <line>To a death-bird after battle!</line>
+    <line>1<hi rend="superscript">t</hi></line>
+    <line>Herald of Gods</line>
+    <line>Darest thou delay take cheer, <del rend="strikethrough">a richer prey</del></line>
+    <line>He pauses{.}</line>
+    <line><del rend="strikethrough">Children of Hell</del> If the Son of Maia soon</line>
+    <line>Should make us food &amp; sport? Who can please long</line>
+    <line>The Omnipotent?</line>
+    <line>Mercury</line>
+    <line>Back to your towers of iron</line>
+    <line>And gnash, beside the streams of fire{..} &amp; wail</line>
+    <line>Your foodless teeth!.. Geryon arise &amp; Gorgon</line>
+    <line>ChimÃ¦ra &amp; thou Spinx subtlest of fiends</line>
+    <line>Who ministered to Thebes Heaven's poisoned wine</line>
+    <line>love</line>
+    <line>Unnatural <del rend="strikethrough">hate</del> &amp; more unnatural hate</line>
+  </zone>
+</surface>

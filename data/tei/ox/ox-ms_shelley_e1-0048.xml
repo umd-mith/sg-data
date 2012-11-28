@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_shelley_e1-0048" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0048.tif"/>
+  <zone type="main">
+    <line>6</line>
+    <line>And heard, &amp; cried--ah woe is me!</line>
+    <line>And died as mad as the wild waves be</line>
+    <line>3</line>
+    <line>By such dread words from Earth to Heaven</line>
+    <line>My still realm was never riven</line>
+    <line>When its wound was closed, there stood</line>
+    <line>Darkness oer the Day {,} like blood.</line>
+    <line>4</line>
+    <line>And we shrank back--for dreams of ruin</line>
+    <line>To frozen caves our flight pursuing</line>
+    <line>Made us keep silence--thus--&amp; thus--</line>
+    <line>Though silence is as hell to us</line>
+    <line>they pass with a terrible sound</line>
+    <line>Prometheus</line>
+    <line>I hear a sound of voices--not the voice</line>
+    <line>Which I gave forth. <del rend="strikethrough">O Mother dare thy sons</del></line>
+    <line><del rend="strikethrough">under</del></line>
+    <line><del rend="strikethrough">Scorn him without whom</del>, <del rend="strikethrough">by</del> <del rend="strikethrough">the might of Jove</del></line>
+    <line>Both they &amp; thou had vanished like thin mist</line>
+    <line>ye me</line>
+    <line>Unrolled on the morning wind!--Know <del rend="strikethrough">they</del> not</line>
+    <line>agony</line>
+    <line>The Titan, he who made his <del rend="strikethrough">su</del> <del rend="strikethrough">misery</del></line>
+    <line>your</line>
+    <line>The barrier to <del rend="strikethrough">thier</del> else all conquering foe?</line>
+    <line>O -fed</line>
+    <line>113 <del rend="strikethrough">Ye</del> rock-embosomed Lawn{s} &amp; snow<del rend="strikethrough">ing</del> stream{s}</line>
+  </zone>
+</surface>
