@@ -85,6 +85,8 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
   val Aggregation = resource("ore", "Aggregation")
   val ResourceMap = resource("ore", "ResourceMap")
   val LineAnnotation = resource("sga", "LineAnnotation")
+  val AdditionAnnotation = resource("sga", "AdditionAnnotation")
+  val DeletionAnnotation = resource("sga", "DeletionAnnotation")
 
   sealed trait SourceAnno {
     def anno: Resource
@@ -107,6 +109,9 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
     val seqId = id.split("-").last
     val w = attrs("lrx").toInt
     val h = attrs("lry").toInt
+
+    val annotationExtractor = AnnotationExtractor(surface)
+
     val canvas = model.createResource(base + "image-" + seqId)
     canvas.addProperty(RDF.`type`, Canvas)
     canvas.addProperty(RDF.`type`, resource("dms", "Canvas"))
@@ -158,6 +163,48 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
       lineSelector :: lineResource :: lineAnno :: Nil
     }
 
+    val additions = annotationExtractor.additions.toList.flatMap { case (b, e) =>
+      val selector = model.createResource()
+      selector.addProperty(RDF.`type`, TextOffsetSelector)
+      selector.addProperty(offsetBegin, intLiteral(b))
+      selector.addProperty(offsetEnd, intLiteral(e))
+
+      val resource = model.createResource()
+      resource.addProperty(RDF.`type`, SpecificResource)
+      resource.addProperty(hasSource, textFile)
+      resource.addProperty(hasSelector, selector)
+
+      val anno = model.createResource() //base + "textanno/text-" + seqId + "-%04d".format(i))
+      anno.addProperty(RDF.`type`, Annotation)
+      anno.addProperty(RDF.`type`, AdditionAnnotation)
+      anno.addProperty(RDF.`type`, Highlight)
+      anno.addProperty(hasTarget, resource)
+      //lineAnno.addProperty(hasTarget, canvas)
+
+      selector :: resource :: anno :: Nil
+    }
+
+    val deletions = annotationExtractor.deletions.toList.flatMap { case (b, e) =>
+      val selector = model.createResource()
+      selector.addProperty(RDF.`type`, TextOffsetSelector)
+      selector.addProperty(offsetBegin, intLiteral(b))
+      selector.addProperty(offsetEnd, intLiteral(e))
+
+      val resource = model.createResource()
+      resource.addProperty(RDF.`type`, SpecificResource)
+      resource.addProperty(hasSource, textFile)
+      resource.addProperty(hasSelector, selector)
+
+      val anno = model.createResource() //base + "textanno/text-" + seqId + "-%04d".format(i))
+      anno.addProperty(RDF.`type`, Annotation)
+      anno.addProperty(RDF.`type`, DeletionAnnotation)
+      anno.addProperty(RDF.`type`, Highlight)
+      anno.addProperty(hasTarget, resource)
+      //lineAnno.addProperty(hasTarget, canvas)
+
+      selector :: resource :: anno :: Nil
+    }
+
     val textResource = model.createResource()
     textResource.addProperty(RDF.`type`, SpecificResource)
     textResource.addProperty(hasSource, textFile)
@@ -169,7 +216,7 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
     textAnno.addProperty(hasBody, textResource)
     textAnno.addProperty(hasTarget, canvas)
 
-    (canvas, ImageAnno(imageAnno, imageFile), TextAnno(textAnno, textFile, textResource, textSelector, lines))
+    (canvas, ImageAnno(imageAnno, imageFile), TextAnno(textAnno, textFile, textResource, textSelector, lines ::: additions ::: deletions))
   }.toList.unzip3
 
   val sequence = model.createResource(base + "NormalSequence")
