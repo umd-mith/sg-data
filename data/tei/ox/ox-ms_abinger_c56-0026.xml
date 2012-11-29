@@ -37,7 +37,7 @@
         <del rend="strikethrough">greatness in the science</del>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">those</add></del>
       </mod>
-      <anchor xml:id="c56-0026-07"/><add><ptr target="#c56-0026.01" next="#c56-0026-08"/>
+      <anchor xml:id="c56-0026.07"/><add><ptr target="#c56-0026.01" next="#c56-0026-08"/>
         <ptr target="#c56-0026.04" xml:id="c56-0026.08"/></add>
       <anchor xml:id="c56-0026.06"/></line>
     <milestone unit="tei:p"/>
@@ -109,7 +109,7 @@
     <line>boundless grandeur,</line>
     <line>for realities of</line>
     <line>little worth.</line>
-    <anchor xml:id="c56-0025.05"/>
+    <anchor xml:id="c56-0026.05"/>
   </zone>
 
 </surface>

@@ -64,7 +64,7 @@
         <add><ptr target="#c56-0061.03"/></add>
       </mod></line>
     <line>me <del rend="strikethrough">in mind</del> of her. <delSpan rend="vertical_line"
-        spanTo="c56-0061.07"/><del rend="strikethrough">You did not</del> observe</line>
+        spanTo="#c56-0061.07"/><del rend="strikethrough">You did not</del> observe</line>
     <line>all this, nor did I at the time but</line>
     <line>it struck me afterwards when I</line>
     <line>reflected on the subject.<anchor xml:id="c56-0061.07"/></line>
@@ -102,7 +102,7 @@
     <line>include a sacri</line>
     <line>-fize of the digni</line>
     <line>-ty of a human</line>
-    <line>being.<anchor xml:id="c56-0060.02"/></line>
+    <line>being.<anchor xml:id="c56-0061.02"/></line>
   </zone>
   <zone type="left_margin">
     <line><add xml:id="c56-0061.03" hand="#pbs" cert="high"/>reminds</line>

@@ -24,7 +24,7 @@
     <line>that made me wretched <delSpan spanTo="#c56-0091.01" rend="strikethrough"/>for I would
       as</line>
     <line>surely believe in my<anchor xml:id="c56-0091.01"/> for I knew <modSpan
-        spanTo="#c56-0091.02"/><delSpan spanTo="#c56-0090.03" rend="strikethrough"/>it to</line>
+        spanTo="#c56-0091.02"/><delSpan spanTo="#c56-0091.03" rend="strikethrough"/>it to</line>
     <line>be<anchor xml:id="c56-0091.03"/><add place="superlinear" hand="#pbs">that it
         was</add><anchor xml:id="c56-0091.02"/> impossible, and to see every one else</line>
     <line>prejudiced in so deadly a manner rendered</line>
@@ -65,6 +65,6 @@
     <line>if she is as you believe innocent rely <del rend="strikethrough">that</del></line>
     <line>on the justice of our judges &#x26; the activity with</line>
     <line>which I shall prevent the slightest shadow of partiality.</line>
-    <anchor xml:id="c56-0090.07"/>
+    <anchor xml:id="c56-0091.07"/>
   </zone>
 </surface>

@@ -11,7 +11,7 @@
     <line>habitations of another race of beings</line>
     <delSpan rend="vertical_line" spanTo="#c56-0117.01"/>
     <line>Soon<del rend="strikethrough">e</del> after we entered the valley of</line>
-    <line>Chamounix. This valley is more <delSpan spanTo="c56-0117.02" rend="strikethrough"
+    <line>Chamounix. This valley is more <delSpan spanTo="#c56-0117.02" rend="strikethrough"
         /><modSpan spanTo="#c56-0117.06"/>beauti</line>
     <line>ful<anchor xml:id="c56-0117.02"/><add><ptr target="#c56-0117.03"/></add><anchor
         xml:id="c56-0117.06"/> and sublime but not so beau</line>
