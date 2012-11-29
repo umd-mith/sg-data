@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package edu.umd.mith.sga.processing
+package edu.umd.mith.sga.processing.mssc
 
 import scala.util.parsing.combinator._
 
@@ -37,19 +37,19 @@ class CorpusReader(lines: Iterator[String]) {
     }.reverse.filter(_.nonEmpty)
 
   val Line = """^(.+)/(.+):(.+):(.+):(.+):(.+):(.+):([VPM]):([HT])/$""".r
-  var last: (String, String) = _
-  val content = lines.drop(2).map {
+  var last: ((String, String), String) = _
+  val content: Map[((String, String), String), Seq[Seq[String]]] = lines.drop(2).map {
     case Line(content, shelf, page, ln, pub, pn, title, cat, ht) =>
-      last = (shelf, page)
-      Right((shelf, page) -> Some(content))
+      last = ((shelf, title), page)
+      Right(((shelf, title), page) -> Some(content))
     case s if s.trim.isEmpty => Right(last -> None)
     case s => Left(s)
   }.flatMap(_.right.toOption).toSeq.groupBy(_._1).mapValues(
     lines => consecutives(lines.map(_._2))
   )
 
-  def createStubTEI(shelf: String, page: String, id: String) =
-    this.content.get(shelf -> page).map { zones =>
+  def createStubTEI(shelf: String, title: String, page: String, id: String) =
+    this.content.get((shelf -> title) -> page).map { zones =>
       <surface xml:id={id}
         xmlns="http://www.tei-c.org/ns/1.0"
         xmlns:sga="http://sga.mith.org/ns/1.0">
@@ -76,6 +76,6 @@ class CorpusReader(lines: Iterator[String]) {
 object CorpusReader extends App {
   val r = new CorpusReader(io.Source.fromFile(args(0)).getLines)
   val p = new xml.PrettyPrinter(80, 2)
-  println(p.format(r.createStubTEI("BODe4", "11r", "ox-ms_shelley_e4-11r").get))
+  println(p.format(r.createStubTEI("BODe4", "", "11r", "ox-ms_shelley_e4-11r").get))
 }
 
