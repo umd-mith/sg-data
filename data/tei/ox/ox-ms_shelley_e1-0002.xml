@@ -4,18 +4,22 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_shelley_e1-0002" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0002.tif"/>
-  <zone type="main">
-    <line>[<hi rend="underline">reverso</hi>]</line>
-    <line>Ms. Shelley e.1</line>
+  <zone type="library">
+    <line>MS. Shelley e.1</line>
     <line>(31552)</line>
-    <line>400 - - 23<hi rend="superscript">d</hi> 163.</line>
+  </zone>
+
+  <zone type="main" rotate="180">
+    <line>400 - - 23<hi rend="sup">d</hi> 163.</line>
     <line><hi rend="underline">163</hi></line>
     <line>excite your audience to the highest</line>
-    <line><del rend="strikethrough underline">500</del></line>
+    <line><del rend="strikethrough"><hi rend="underline">500</hi></del></line>
     <line>degree; when for instance you sing of</line>
     <line>Ulysses leaping upon the threshold of</line>
-    <line>when</line>
-    <line>his home, bursting like a phantom</line>
+    <line>his home, <mod>
+        <del rend="strikethrough">&amp;</del>
+        <add place="superlinear">when</add>
+      </mod> bursting like a phantom</line>
     <line>upon the suitors he pours forth his</line>
     <line>arrows before his feet; or of Achilles</line>
     <line>rushing upon Hector, or some pathetic</line>
