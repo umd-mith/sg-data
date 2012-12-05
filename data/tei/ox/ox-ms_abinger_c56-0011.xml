@@ -5,13 +5,13 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0011" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0011.tif"/>
-  <zone type="pagination">41</zone>
+  <zone type="pagination" rend="bordered">41</zone>
   <zone type="library">4</zone>
   <zone type="main">
     <line><del rend="strikethrough">sevr</del> servants had any request to make</line>
     <line>it always through <mod>
-        <add place="superlinear">her</add>
         <del rend="strikethrough">the</del>
+        <add place="superlinear">her</add>
       </mod> intercession <modSpan spanTo="#c56.0011.13"/><add><ptr target="#c56-0011.11"
         /></add><delSpan rend="strikethrough" spanTo="#c56-0011.01"/>of</line>
     <line>Elizabeth<anchor xml:id="c56-0011.01"/><del rend="strikethrough"> For me I loved he</del>
