@@ -33,9 +33,7 @@ case class AnnotationExtractor(doc: Elem) {
       (attrs("mu:b").toInt, attrs("mu:e").toInt)
     } ++ (doc \\ "addSpan").flatMap { e =>
       val attrs = e.attributes.asAttrMap
-      //println(attrs("spanTo"))
       val anchor = (doc \\ "anchor").filter(attrEquals("xml:id", attrs("spanTo").tail)).headOption
-      //if (!anchor.isDefined) println("ERROR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
       anchor.map(a => (attrs("mu:b").toInt, a.attributes.asAttrMap("mu:b").toInt))
     }
   }

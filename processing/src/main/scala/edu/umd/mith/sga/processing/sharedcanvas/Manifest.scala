@@ -76,6 +76,7 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
   val SpecificResource = resource("oa", "SpecificResource")
   val Highlight = property("oax", "Highlight")
   val TextOffsetSelector = resource("oax", "TextOffsetSelector")
+  val FragmentSelector = resource("oa", "FragmentSelector")
   val Canvas = resource("sc", "Canvas")
   val Manifest = resource("sc", "Manifest")
   val Sequence = resource("sc", "Sequence")
@@ -88,19 +89,25 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
   val AdditionAnnotation = resource("sga", "AdditionAnnotation")
   val DeletionAnnotation = resource("sga", "DeletionAnnotation")
 
-  sealed trait SourceAnno {
+  /*sealed trait SourceAnno {
     def anno: Resource
     def file: Resource
-  }
+  }*/
 
-  case class ImageAnno(anno: Resource, file: Resource) extends SourceAnno
+  case class ImageAnno(anno: Resource, file: Resource)
   case class TextAnno(
-    anno: Resource,
     file: Resource,
+    annos: List[ZoneAnno],
+    other: List[Resource]
+  )
+
+  case class ZoneAnno(
+    anno: Resource,
     resource: Resource,
     selector: Resource,
-    other: List[Resource]
-  ) extends SourceAnno
+    regionResource: Resource,
+    regionSelector: Resource
+  )
 
   val (canvases, imageAnnos, textAnnos) = surfaces.map { surface =>
     val attrs = surface.attributes.asAttrMap
@@ -135,13 +142,7 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
     val textFile = model.createResource(teiBase + lib + "/" + id + ".xml")
     textFile.addProperty(DC_11.format, "application/tei+xml")
 
-    val textSelector = model.createResource()
-    textSelector.addProperty(RDF.`type`, TextOffsetSelector)
-    textSelector.addProperty(offsetBegin, intLiteral((surface \ "@{http://mith.umd.edu/util/1#}b").head.toString.toInt))
-    textSelector.addProperty(offsetEnd, intLiteral((surface \ "@{http://mith.umd.edu/util/1#}e").head.toString.toInt))
-
     val lines = (surface \\ "line").toList.zipWithIndex.flatMap { case (line, i) =>
-      //println(line.attributes.asAttrMap)
       val attrs = line.attributes.asAttrMap
       val lineSelector = model.createResource()
       lineSelector.addProperty(RDF.`type`, TextOffsetSelector)
@@ -158,7 +159,6 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
       lineAnno.addProperty(RDF.`type`, LineAnnotation)
       lineAnno.addProperty(RDF.`type`, Highlight)
       lineAnno.addProperty(hasTarget, lineResource)
-      //lineAnno.addProperty(hasTarget, canvas)
 
       lineSelector :: lineResource :: lineAnno :: Nil
     }
@@ -174,12 +174,11 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
       resource.addProperty(hasSource, textFile)
       resource.addProperty(hasSelector, selector)
 
-      val anno = model.createResource() //base + "textanno/text-" + seqId + "-%04d".format(i))
+      val anno = model.createResource()
       anno.addProperty(RDF.`type`, Annotation)
       anno.addProperty(RDF.`type`, AdditionAnnotation)
       anno.addProperty(RDF.`type`, Highlight)
       anno.addProperty(hasTarget, resource)
-      //lineAnno.addProperty(hasTarget, canvas)
 
       selector :: resource :: anno :: Nil
     }
@@ -195,28 +194,79 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
       resource.addProperty(hasSource, textFile)
       resource.addProperty(hasSelector, selector)
 
-      val anno = model.createResource() //base + "textanno/text-" + seqId + "-%04d".format(i))
+      val anno = model.createResource()
       anno.addProperty(RDF.`type`, Annotation)
       anno.addProperty(RDF.`type`, DeletionAnnotation)
       anno.addProperty(RDF.`type`, Highlight)
       anno.addProperty(hasTarget, resource)
-      //lineAnno.addProperty(hasTarget, canvas)
 
       selector :: resource :: anno :: Nil
     }
 
-    val textResource = model.createResource()
-    textResource.addProperty(RDF.`type`, SpecificResource)
-    textResource.addProperty(hasSource, textFile)
-    textResource.addProperty(hasSelector, textSelector)
+    val leftMarginCount = (surface \\ "zone").filter(
+      zone => (zone \ "@type").text == "left_margin"
+    ).size
 
-    val textAnno = model.createResource(base + "textanno/text-" + seqId)
-    textAnno.addProperty(RDF.`type`, Annotation)
-    textAnno.addProperty(RDF.`type`, ContentAnnotation)
-    textAnno.addProperty(hasBody, textResource)
-    textAnno.addProperty(hasTarget, canvas)
+    val zoneAnnos = (surface \\ "zone").foldLeft((List.empty[ZoneAnno], 0)) {
+      case ((zones, leftMarginIdx), zone) =>
+        val t = (zone \ "@type").text
+        val isLeftMargin = (t == "left_margin")
 
-    (canvas, ImageAnno(imageAnno, imageFile), TextAnno(textAnno, textFile, textResource, textSelector, lines ::: additions ::: deletions))
+        val coords = t match {
+          case "top" => Some((0.4, 0.0) -> (0.2, 0.05))
+          case "pagination" => Some((0.8, 0.0) -> (0.1, 0.05))
+          case "library" => Some((0.9, 0.0) -> (0.1, 0.05))
+          case "left_margin" => Some(
+            (0.0,  0.05 + 0.95 * (leftMarginIdx.toDouble / leftMarginCount)) ->
+            (0.25, 0.95 * (1.0 / leftMarginCount))
+          )
+          case "main" => Some((0.25, 0.05) -> (0.75, 0.95))
+          case other => { println("Unknown zone: " + other); None }
+        }
+
+        coords match {
+          case Some(((x, y), (zw, zh))) =>
+            val xywh = "xywh=%d,%d,%d,%d".format(
+             (x * w).toInt, (y * h).toInt, (zw * w).toInt, (zh * h).toInt
+            )
+
+            val attrs = zone.attributes.asAttrMap
+            if (seqId == "0017") println(attrs("mu:b") + " " + attrs("mu:e"))
+
+            val zoneSelector = model.createResource()
+            zoneSelector.addProperty(RDF.`type`, TextOffsetSelector)
+            zoneSelector.addProperty(offsetBegin, intLiteral(attrs("mu:b").toString.toInt))
+            zoneSelector.addProperty(offsetEnd, intLiteral(attrs("mu:e").toString.toInt))
+
+            val zoneResource = model.createResource()
+            zoneResource.addProperty(RDF.`type`, SpecificResource)
+            zoneResource.addProperty(hasSource, textFile)
+            zoneResource.addProperty(hasSelector, zoneSelector)
+
+            val zoneRegionSelector = model.createResource()
+            zoneRegionSelector.addProperty(RDF.`type`, FragmentSelector)
+            zoneRegionSelector.addProperty(RDF.value, model.createLiteral(xywh))
+
+            val zoneRegionResource = model.createResource()
+            zoneRegionResource.addProperty(RDF.`type`, SpecificResource)
+            zoneRegionResource.addProperty(hasSource, canvas)
+            zoneRegionResource.addProperty(hasSelector, zoneRegionSelector)
+
+            val zoneAnno = model.createResource()
+            zoneAnno.addProperty(RDF.`type`, Annotation)
+            zoneAnno.addProperty(RDF.`type`, ContentAnnotation)
+            zoneAnno.addProperty(hasBody, zoneResource)
+            zoneAnno.addProperty(hasTarget, zoneRegionResource)
+
+            (
+              zones :+ ZoneAnno(zoneAnno, zoneResource, zoneSelector, zoneRegionResource, zoneRegionSelector),
+              leftMarginIdx + (if (isLeftMargin) 1 else 0)
+            )
+          case _ => (zones, leftMarginIdx)
+        }
+    }._1
+
+    (canvas, ImageAnno(imageAnno, imageFile), TextAnno(textFile, zoneAnnos, lines ::: additions ::: deletions))
   }.toList.unzip3
 
   val sequence = model.createResource(base + "NormalSequence")
@@ -286,18 +336,25 @@ class Manifest(base: String, id: String, title: String, teiSurfaces: Seq[Elem]) 
       case _ => ()
     }
 
-    textAnnos.foreach { case TextAnno(anno, file, resource, selector, others) =>
-      m.add(m.createStatement(textAnnoList, aggregates, anno))
-      m.add(model.listStatements(anno, null, null))
-      m.add(model.listStatements(file, null, null))
-      m.add(model.listStatements(resource, null, null))
-      m.add(model.listStatements(selector, null, null))
-      others.foreach(other => m.add(model.listStatements(other, null, null)))
+    textAnnos.foreach {
+      case TextAnno(file, zoneAnnos, others) =>
+        zoneAnnos.foreach {
+          case ZoneAnno(zoneAnno, zoneResource, zoneSelector, zoneRegionResource, zoneRegionSelector) =>
+            m.add(m.createStatement(textAnnoList, aggregates, zoneAnno))
+            m.add(model.listStatements(file, null, null))
+            m.add(model.listStatements(zoneAnno, null, null))
+            m.add(model.listStatements(zoneResource, null, null))
+            m.add(model.listStatements(zoneSelector, null, null))
+            m.add(model.listStatements(zoneRegionResource, null, null))
+            m.add(model.listStatements(zoneRegionSelector, null, null))
+            others.foreach(other => m.add(model.listStatements(other, null, null)))
+        }
     }
-    textAnnos match {
+
+    textAnnos.flatMap(_.annos) match {
       case first :: rest =>
-        m.add(m.createStatement(imageAnnoList, RDF.first, first.anno))
-        m.add(m.createStatement(imageAnnoList, RDF.rest, m.createList(
+        m.add(m.createStatement(textAnnoList, RDF.first, first.anno))
+        m.add(m.createStatement(textAnnoList, RDF.rest, m.createList(
           rest.map(_.anno.asInstanceOf[RDFNode]).toArray
         )))
       case _ => ()
