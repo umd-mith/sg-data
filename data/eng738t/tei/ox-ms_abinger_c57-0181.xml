@@ -5,37 +5,33 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0181" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0181.tif"/>
-  <zone type="pagination">
-    <line>197</line>
-  </zone>
-  <zone type="library">
-    <line>91</line>
-  </zone>
+  <zone type="pagination" rend="bordered">197</zone>
+  <zone type="library">91</zone>
   <zone type="main">
     <line>make any comment on the death of</line>
-    <line>this glorious creature – Alas all <add place="superlinear" resp="#pbs">that</add> I can
+    <line>this glorious creature &#x2013; Alas all <add place="superlinear" hand="#pbs">that</add> I can
         <del rend="strikethrough">say</del> express</line>
     <line>must be inadequate and feeble. My tears</line>
-    <line>flows – But I journey towards England and I</line>
+    <line>flow<del rend="strikethrough">s</del> &#x2013; But I journey towards England and I</line>
     <line>may there find consolation.</line>
     <milestone unit="tei:p"/>
-    <line>I am interrupted – What do the<add place="sublinear" resp="#pbs">se</add> sounds</line>
-    <line>portend? It is midnight—the breeze blows</line>
+    <line><space unit="chars" extent="5"/>I am interrupted &#x2013; What do the<add place="sublinear" hand="#pbs">se</add> sounds</line>
+    <line>portend? It is midnight&#x2014;the breeze blows</line>
     <line>fairly and the watch on deck scarcely</line>
-    <line>stir–Again there is a sound and it comes</line>
+    <line>stir&#x2013;Again there is a sound and it comes</line>
     <line>from the cabin where the <del rend="strikethrough"><unclear precision="medium"
           unit="chars" extent="1" reason="illegible">p</unclear></del></line>
-    <line>remains of Frankenstien still lie<del rend="triple-strike">s</del> I</line>
+    <line>remains of Frankenstien still lie<del rend="strikethrough">s</del> I</line>
     <line>must <mod>
         <del rend="strikethrough">go</del>
         <add place="superlinear" resp="#pbs">arise</add>
       </mod> and examine. Good night</line>
     <line>my sister.</line>
-    <metamark><!--horizontal line--></metamark>
+    <metamark>_____<!--horizontal line--></metamark>
     <milestone unit="tei:p"/>
     <line>Great God! What a scene has just taken</line>
     <line>place. I am yet dizzy with the remembrance</line>
-    <line>of it.– I hardly know whether I shall have the</line>
+    <line>of it.&#x2013; I hardly know whether I shall have the</line>
     <line>power to <mod>
         <del rend="strikethrough">record</del>
         <add place="superlinear">detail</add>
@@ -44,18 +40,18 @@
     <line>final and wonderful catastrophe.</line>
     <line>I entered the cabin where lay the</line>
     <line>remains of my miserable guest. Over him</line>
-    <line>hung a form – which I cannot find words</line>
-    <line>to describe, gigantic in stature – yet un</line>
-    <line>couth &amp; distorted – his face was hid as he</line>
+    <line>hung a form &#x2013; which I cannot find words</line>
+    <line>to describe, gigantic in stature &#x2013; yet un</line>
+    <line>couth &amp; distorted &#x2013; his face was hid as he</line>
     <line>hung over the coffin by long locks of ragged</line>
-    <line>hair – but his extended hand appeared</line>
+    <line>hair &#x2013; but his extended hand appeared</line>
     <line>like those of the mummies for to nothing</line>
     <line>else can I compare its colour &amp; apparent</line>
     <line>texture. When he heard a noise &amp; saw me</line>
     <line>enter he ceased his exclamations of grief</line>
     <line>and sprung towards the window. Never was</line>
     <line>any thing so hideous as his face so disgus</line>
-    <line>ting yet apalling – I shut my eyes involun</line>
+    <line>ting yet apalling &#x2013; I shut my eyes involun</line>
     <line>tarily while I called on him to stay. He pau</line>
     <line>sed. Looking at me with wonder &amp; then</line>
   </zone>
