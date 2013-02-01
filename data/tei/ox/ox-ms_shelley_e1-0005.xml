@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
   href="../../xsl/page-proof.xsl"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
-  xml:id="ox-ms_shelley_e1-0005" partOf="#ox-ms_shelley_e1">
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0005" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0005.tif"/>
+
+  <zone type="pagination">2</zone>
   <zone type="main">
-    <line>2</line>
-    <line>[Act 4 1]</line>
-    <line>part of</line>
-    <line>Scene a <del rend="strikethrough">beautiful</del> forest near the cave</line>
-    <line>of Prometheus--Panthea &amp; Ione <del rend="strikethrough">are</del> are</line>
-    <line><del rend="strikethrough">sitting beside a stream</del></line>
-    <line>sleeping-- [<del rend="strikethrough">dreaming</del>]-- they awaken gradually</line>
+    <milestone unit="tei:act" spanTo="#e1-0005.01"/><line>Act 4<anchor xml:id="e1-0005.01"/>
+      <milestone unit="tei:scene" spanTo="#e1-0005.02"/> 1<anchor xml:id="e4-0005.02"/></line>
+    <milestone unit="tei:stage" spanTo="#e1-0005.03"/>
+    <milestone unit="tei:p" spanTo="e1-0005.04"/>
+    <line>Scene <add place="superlinear">part of</add> a <del rend="strikethrough">beautiful</del>
+      forest near the cave</line>
+    <line>of Prometheus&#x2014; Panthea &#x26; Ione <del rend="strikethrough">are</del> are</line>
+    <line><modSpan spanTo="#e1-0005.05"/><del rend="strikethrough">sitting beside a
+      stream</del></line>
+    <line>sleeping&#x2014; <del rend="strikethrough">dreaming&#x2014;</del><anchor
+        xml:id="e1-0005.05"/> they awaken gradually</line>
     <line>during the first song.</line>
-    <line>Voice of unseen Spirits</line>
-    <line>The pale Stars are gone,--</line>
+    <anchor xml:id="e1-0005.03"/><anchor xml:id="e1-0005.04"/>
+    <milestone unit="tei:speaker" spanTo="#e1-0005.06"/>
+    <line>Voice of unseen Spirits</line><anchor xml:id="e1-0005.06"/>
+    <line>The pale Stars are gone,&#x2014;</line>
     <line>For the Sun thier swift Shepherd</line>
     <line>To their folds them compelling</line>
     <line>In the depths of the Dawn</line>
@@ -22,9 +30,10 @@
     <line>Beyond his blue dwelling,</line>
     <line>As fawns flee the leopard. . .</line>
     <line>But where are ye?</line>
+    <milestone unit="tei:stage" spanTo="#e1-0005.07"/>
     <line>a t<hi rend="underline">rain of dark forms &amp; shadows passes by</hi></line>
-    <line><hi rend="underline">confusedly</hi> , singing--</line>
-    <line>Panthea wakens</line>
+    <line><hi rend="underline">confusedly</hi> , singing&#x2014;</line>
+    <line>Panthea wakens</line><anchor xml:id="e1-0005.07"/>
     <line>Here oh here!</line>
     <line>We bear the bier</line>
     <line>Of the father of many a cancelled year</line>
