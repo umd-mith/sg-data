@@ -5,7 +5,7 @@
   lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0005" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0005.tif"/>
 
-  <zone type="pagination">2</zone>
+  <zone type="library">2</zone>
   <zone type="main">
     <milestone unit="tei:act" spanTo="#e1-0005.01"/><line>Act 4<anchor xml:id="e1-0005.01"/>
       <milestone unit="tei:scene" spanTo="#e1-0005.02"/> 1<anchor xml:id="e4-0005.02"/></line>
