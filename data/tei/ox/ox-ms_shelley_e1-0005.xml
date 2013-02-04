@@ -10,7 +10,7 @@
     <milestone unit="tei:act" spanTo="#e1-0005.01"/><line>Act 4<anchor xml:id="e1-0005.01"/>
       <milestone unit="tei:scene" spanTo="#e1-0005.02"/> 1<anchor xml:id="e4-0005.02"/></line>
     <milestone unit="tei:stage" spanTo="#e1-0005.03"/>
-    <milestone unit="tei:p" spanTo="e1-0005.04"/>
+    <milestone unit="tei:p" spanTo="#e1-0005.04"/>
     <line>Scene <add place="superlinear">part of</add> a <del rend="strikethrough">beautiful</del>
       forest near the cave</line>
     <line>of Prometheus&#x2014; Panthea &#x26; Ione <del rend="strikethrough">are</del> are</line>
