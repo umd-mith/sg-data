@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
   href="../../xsl/page-proof.xsl"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
-  xml:id="ox-ms_shelley_e1-0006" partOf="#ox-ms_shelley_e1">
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0006" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0006.tif"/>
   <zone type="main">
     <line>Strew oh strew</line>
@@ -10,28 +10,40 @@
     <line>Wet the dusty pall with tears, not dew!</line>
     <line>Be the faded flowers</line>
     <line>Of Deaths bare bowers</line>
-    <line>Spread on the corpse of the King of Hours{!}</line>
+    <line>Spread on the corpse of the King of Hours!</line>
     <line>Haste, oh haste!</line>
     <line>As shades are chased</line>
-    <line>Trembling, by Day, from Heaven's blue waste{.}</line>
-    <line>melt</line>
-    <line>We <del rend="strikethrough">flee</del> away</line>
+    <line>Trembling, by Day, from Heaven's blue waste<unclear>.</unclear></line>
+    <line>We <mod>
+        <del rend="strikethrough">flee</del>
+        <add place="superlinear">melt</add>
+      </mod> away</line>
     <line>Like dissolving spray</line>
-    <line>From the children of a diviner day{,} {}</line>
-    <line>With the lullaby <hi rend="underline">they vanish</hi></line>
-    <line>Of winds that die</line>
-    <line>On the bosom of their own harmony</line>
-    <line>Ione (<del rend="strikethrough">awakening</del>)</line>
-    <line>{/}</line>
+    <line>From the children of a diviner day<unclear>,</unclear>
+      <unclear>t</unclear></line>
+    <line><add>With the lullaby</add></line>
+    <line><add>Of winds that die</add></line>
+    <line>On the bosom <space unit="chars" extent="17"/> of their own harmony <add
+        place="superlinear"><milestone unit="tei:stage" spanTo="#e1-0006.01"/><hi rend="underline"
+          >they vanish</hi><anchor xml:id="e1-0006.01"/></add></line>
+    <milestone unit="tei:speaker" spanTo="#e1-0006.02"/>
+    <line>Ione (<del rend="strikethrough">awakening</del>)</line><anchor xml:id="e1-0006.02"/>
+    <line><unclear>/</unclear></line>
     <line>What dark forns were they?</line>
+    <milestone unit="tei:speaker" spanTo="#e1-0006.03"/>
     <line>Panthea</line>
+    <anchor xml:id="e1-0006.03"/>
     <line>The past Hours weak &amp; grey</line>
     <line>With the spoil, which their toil</line>
     <line>Raked together,</line>
     <line>From the conquest but One could foil</line>
+    <milestone unit="tei:speaker" spanTo="#e1-0006.04"/>
     <line>Ione</line>
+    <anchor xml:id="e1-0006.04"/>
     <line>Have they past?</line>
+    <milestone unit="tei:speaker" spanTo="#e1-0006.05"/>
     <line>Panthea</line>
+    <anchor xml:id="e1-0006.05"/>
     <line>They have past</line>
   </zone>
 </surface>

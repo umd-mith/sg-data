@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
   href="../../xsl/page-proof.xsl"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
-  xml:id="ox-ms_shelley_e1-0011" partOf="#ox-ms_shelley_e1">
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0011" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0011.tif"/>
+  <zone type="library">5</zone>
   <zone type="main">
-    <line>5</line>
     <line>From those skiey towers</line>
     <line>Where Thoughts crowned Powers</line>
-    <line>Sit <del rend="strikethrough">y{e}</del> watching your dance, ye happy Hours</line>
+    <line>Sit <del rend="strikethrough"><unclear>ye</unclear></del> watching your dance, ye happy
+      Hours</line>
     <line>From the dim recesses</line>
     <line>Of woven caresses</line>
-    <line>[sliding]</line>
-    <line>Where lovers catch ye by your <del rend="strikethrough underline">loose</del> tresses{,}--</line>
+    <line>Where lovers catch ye by your <mod>
+        <del rend="strikethrough"><hi rend="underline">loose</hi></del>
+        <add place="superlinear"><unclear>sliding</unclear></add>
+      </mod> tresses<unclear>,</unclear>&#x2014;</line>
     <line>From the azure isles</line>
     <line>Where sweet Wisdom smiles</line>
     <line>Delaying your ships with her syren wiles</line>
@@ -21,14 +24,17 @@
     <line>Roofed over Sculpture &amp; Poesy</line>
     <line>From the murmurings</line>
     <line>Of the unsealed springs</line>
-    <line>Where Science bedews [her] DÃ¦dal wings</line>
+    <line>Where Science bedews <unclear>her</unclear> D&#xE6;dal wings</line>
     <line>Years after years</line>
     <line>Through blood &amp; tears</line>
-    <line>thick</line>
-    <line>And a hell of hatreds &amp; hopes &amp; fears,</line>
+    <line>And a <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">thick</add>
+      </mod> hell of hatreds &amp; hopes &amp; fears,</line>
     <line>^</line>
     <line>We waded &amp; flew</line>
     <line>And the islets were few</line>
-    <line>120 Where the bud-blighted flowers of happiness grew</line>
+    <line><metamark function="count">120</metamark> Where the bud-blighted flowers of happiness
+      grew</line>
   </zone>
 </surface>
