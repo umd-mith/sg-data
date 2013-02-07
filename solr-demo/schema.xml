@@ -866,7 +866,7 @@
       </analyzer>
     </fieldType>
     
-    <!-- RV: Addding fieldtype text -->
+    <!-- RV: Addding fieldtype text with simple whitespace based tokenization + stopwords ignored -->
     <fieldType class="solr.TextField" name="text" positionIncrementGap="100">
       <analyzer type="index">
         <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -904,19 +904,14 @@
 
 
  <fields>
-   <!-- RV: Example SGA fields -->
+   <!-- RV: SGA fields -->
    <field name="id" type="string" indexed="true" stored="true" required="true" /> 
-   <field name="shelfmark" type="string" indexed="true" stored="true" required="true" />   
-   
-   <field indexed="true" multiValued="true" name="text_pbs" stored="true" type="text" />
-   <field indexed="true" multiValued="true" name="text_ms" stored="true" type="text" />
-   
-   <!-- RV: catchall field, containing all other searchable text fields, implemented
-        via copyFields below  -->
-   <field indexed="true" multiValued="true" name="text" stored="true" type="text" />
-   
-   <copyField source="text_pbs" dest="text" />
-   <copyField source="text_ms" dest="text" />   
+   <field name="shelfmark" type="string" indexed="true" stored="true" required="true" />
+   <field indexed="true" multiValued="false" name="hand" stored="true" type="string" />
+   <field indexed="true" multiValued="false" name="start" stored="true" type="int" />
+   <field indexed="true" multiValued="false" name="end" stored="true" type="int" />
+   <field indexed="true" multiValued="true" name="text" stored="true" type="text"/>   
+  
 
   <!-- RV: DEFAULT / Solr example fields: -->
 
