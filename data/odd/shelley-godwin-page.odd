@@ -571,6 +571,24 @@
                         </attList>
                     </elementSpec>
 
+                    <elementSpec ident="milestone" module="core" mode="change">
+                        <attList>
+                            <attDef ident="unit" mode="replace" usage="req">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="tei:div"/>
+                                    <valItem ident="tei:p"/>
+                                    <valItem ident="tei:lg"/>
+                                    <valItem ident="tei:date"/>
+                                    <valItem ident="tei:speaker"/>
+                                    <valItem ident="tei:q"/>
+                                    <valItem ident="tei:stage"/>
+                                    <valItem ident="tei:seg"/>
+                                    <valItem ident="tei:note"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
                     <elementSpec ident="zone" module="transcr" mode="change">
                         <content>
                             <rng:zeroOrMore>
