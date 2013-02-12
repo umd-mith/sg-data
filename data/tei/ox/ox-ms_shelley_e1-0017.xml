@@ -9,11 +9,11 @@
     <milestone unit="tei:speaker" spanTo="#e1-0017.01"/>
     <line>Panthea</line>
     <anchor xml:id="e1-0017.01"/>
-    <line><mod>
+    <line><seg next="#e1-0017.03"><mod>
         <del rend="strikethrough">And see</del>
         <add place="superlinear">But see</add>
-      </mod>, where through two openings in the</line>
-    <line><space unit="chars" extent="38"/>forest</line>
+      </mod>, where through two openings in the</seg></line>
+    <line><space unit="chars" extent="38"/><seg xml:id="e1-0017.03">forest</seg></line>
     <line>Which hanging branches overcanopy,</line>
     <line>And where two runnels of a rivulet</line>
     <line>Between the close moss violet-inwoven</line>
@@ -21,8 +21,8 @@
         <del rend="strikethrough">friends</del>
         <add place="superlinear">sisters</add>
       </mod></line>
-    <line>Who part with sighs that they may meet</line>
-    <line><space unit="chars" extent="30"/>in smiles</line>
+    <line><seg next="#e1-0017.04">Who part with sighs that they may meet</seg></line>
+    <line><space unit="chars" extent="30"/><seg xml:id="e1-0017.04">in smiles</seg></line>
     <line>Turning their dear disunion to an isle</line>
     <line>Of lovely grief, a wood of sweet sad thoughts</line>
     <line>Two visions of strange radiance float upon</line>

@@ -34,7 +34,8 @@
     <line>Old songs with new gladness,</line>
     <line>The billows &amp; fountains</line>
     <line>Fresh music are flinging</line>
-    <line>Like the notes of a spirit from land &amp; from Sea</line>
+    <line><seg next="#e1-0007.05">Like the notes of a spirit from land &amp; from</seg></line>
+    <line><space unit="chars" extent="38"/><seg xml:id="e1-0007.05">Sea</seg></line>
     <line>The storms mock the mountains</line>
     <line><del rend="strikethrough">Both howl in their</del><add place="superlinear">With the
         thunder of</add> gladness.</line>

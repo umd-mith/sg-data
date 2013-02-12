@@ -23,8 +23,8 @@
     <line>From the depths of the sky &amp; the ends of the Earth</line>
     <line>Come, swift Spirits of might &amp; of pleasure,</line>
     <line>Fill the dance &amp; the music of mirth,</line>
-    <line>As the waves of a thousand streams rush</line>
-    <line><space unit="chars" extent="38"/>by</line>
+    <line><seg next="#e1-0012.03">As the waves of a thousand streams rush</seg></line>
+    <line><space unit="chars" extent="38"/><seg xml:id="e1-0012.03">by</seg></line>
     <line>To an Ocean of splendour &amp; harmony!</line>
     <milestone unit="tei:speaker" spanTo="#e1-0012.02"/>
     <line>Chorus o<hi rend="underline">f S</hi>pirits</line>

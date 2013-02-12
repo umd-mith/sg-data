@@ -21,8 +21,8 @@
     <line>Like dissolving spray</line>
     <line>From the children of a diviner day<unclear>,</unclear>
       <unclear>t</unclear></line>
-    <line><add>With the lullaby</add></line>
-    <line><add>Of winds that die</add></line>
+    <line><add place="intralinear">With the lullaby</add></line>
+    <line><add place="intralinear">Of winds that die</add></line>
     <line>On the bosom <space unit="chars" extent="17"/> of their own harmony <add
         place="superlinear"><milestone unit="tei:stage" spanTo="#e1-0006.01"/><hi rend="underline"
           >they vanish</hi><anchor xml:id="e1-0006.01"/></add></line>

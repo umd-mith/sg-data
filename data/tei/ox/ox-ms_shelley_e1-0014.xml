@@ -22,15 +22,15 @@
     <line>Semichorus 1.</line>
     <anchor xml:id="e1-0014.04"/>
     <line>Ceaseless &amp; rapid &amp; fierce &amp; free</line>
-    <line>With the Spirits which build a new earth</line>
-    <line><space unit="chars" extent="36"/>&amp; sea</line>
+    <line><seg next="#e1-0014.08">With the Spirits which build a new earth</seg></line>
+    <line><space unit="chars" extent="36"/><seg xml:id="e1-0014.08">&amp; sea</seg></line>
     <line>And a Heaven where yet Heaven c<hi rend="sup">d</hi>. never be&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.05"/>
     <line>Semichorus 2.</line>
     <anchor xml:id="e1-0014.05"/>
     <line>Solemn &amp; slow &amp; serene &amp; bright</line>
-    <line>Leading the day &amp; outspeeding the</line>
-    <line><space unit="chars" extent="30"/>night</line>
+    <line><seg next="#e1-0014.09">Leading the day &amp; outspeeding the</seg></line>
+    <line><space unit="chars" extent="30"/><seg xml:id="e1-0014.09">night</seg></line>
     <line><metamark function="count">146 </metamark>With the Powers of a world of perfect
       light&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.06"/>

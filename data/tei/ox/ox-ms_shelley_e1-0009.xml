@@ -31,8 +31,8 @@
       </mod>hough the nightly dells of the desart year</line>
     <line>But now &#x2014; oh weave the mystic measure</line>
     <line>Of music &amp; dance and shapes of light,</line>
-    <line>Let the Hours &amp; all Spirits of might &amp;</line>
-    <line>pleasure</line>
+    <line><seg next="#e1-0009.07">Let the Hours &amp; all Spirits of might &amp;</seg></line>
+    <line><space unit="chars" extent="36"/><seg xml:id="e1-0009.07">pleasure</seg></line>
     <line>Like the clouds &amp; the sunbeams unite</line>
     <milestone unit="tei:speaker" spanTo="#e1-0009.03"/>
     <line>a Voice</line>
@@ -42,15 +42,16 @@
     <line>Panthea</line>
     <anchor xml:id="e1-0009.04"/>
     <line>See where the Spirits of the human mind</line>
-    <line><mod>
-        <del rend="strikethrough">Clothed</del>
-        <add place="superlinear">Wrapt</add>
-      </mod> in sweet <mod>
-        <del rend="strikethrough">song</del>
-        <add place="superlinear">sounds</add>
-      </mod>, like radiant <modSpan spanTo="e1-0009.05"/><del rend="strikethrough"
-        next="#e1-0009.06">garments,</del><add place="superlinear">veils, approach</add></line>
-    <line><del rend="strikethrough" xml:id="e1-0009.06">come</del><anchor xml:id="e1-0009.05"
-      /></line>
+    <line><seg next="#e1-0009.08"><mod>
+          <del rend="strikethrough">Clothed</del>
+          <add place="superlinear">Wrapt</add>
+        </mod> in sweet <mod>
+          <del rend="strikethrough">song</del>
+          <add place="superlinear">sounds</add>
+        </mod>, like radiant <modSpan spanTo="e1-0009.05"/><del rend="strikethrough"
+          next="#e1-0009.06">garments,</del><add place="superlinear">veils,
+      approach</add></seg></line>
+    <line><space unit="chars" extent="37"/><seg xml:id="e1-0009.08"><del rend="strikethrough"
+          xml:id="e1-0009.06">come</del><anchor xml:id="e1-0009.05"/></seg></line>
   </zone>
 </surface>

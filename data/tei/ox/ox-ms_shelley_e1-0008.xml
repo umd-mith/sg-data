@@ -36,8 +36,8 @@
         <add place="superlinear">visions</add>
       </mod> of hate &amp; <del rend="strikethrough"><unclear unit="chars" extent="1"/></del>
       care</line>
-    <line>And each one who waked as his brother</line>
-    <line><space unit="chars" extent="36"/>slept</line>
+    <line><seg next="#e1-0008.09">And each one who waked as his brother</seg></line>
+    <line><space unit="chars" extent="36"/><seg xml:id="e1-0008.09">slept</seg></line>
     <line>Found the truth&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0008.07"/>
     <line>Semichorus 2.</line>
