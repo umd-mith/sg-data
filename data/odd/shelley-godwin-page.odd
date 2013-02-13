@@ -346,9 +346,9 @@
                         docEdition docImprint docTitle epigraph floatingText front group imprimatur titlePage titlePart"/>
 
                     <!-- Additional modules -->
-                    <moduleRef key="transcr" except="am ex fw restore supplied surplus redo undo"/>
+                    <moduleRef key="transcr" except="am ex fw supplied surplus redo undo"/>
                     <moduleRef key="gaiji"/>
-                    <moduleRef key="linking" except="ab alt altGrp timeline"/>
+                    <moduleRef key="linking" except="ab altGrp timeline"/>
                     <!-- included principally for the att.linking class -->
                     <moduleRef key="figures" include="figure figDesc"/>
 
@@ -503,11 +503,37 @@
                                 </rng:choice>
                             </rng:zeroOrMore>
                         </content>
+                        <attList>
+                            <attDef ident="rend" mode="replace" usage="opt">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="right"/>
+                                    <valItem ident="center"/>
+                                    <valItem ident="left"/>
+                                    <valItem ident="indent1"/>
+                                    <valItem ident="indent2"/>
+                                    <valItem ident="indent3"/>
+                                    <valItem ident="indent4"/>
+                                    <valItem ident="indent5"/>
+                                </valList>
+                            </attDef>
+                        </attList>
                         <remarks>
                             <p>For the purposes of diplomatic transcriptions, the content model of
                                 line has been restricted to remove more interpretive elements such
                                 as &lt;sic&gt;, and &lt;reg&gt;</p>
                         </remarks>
+                    </elementSpec>
+
+                    <elementSpec module="transcr" ident="damage" mode="change">
+                        <attList>
+                            <attDef ident="rend" mode="replace" usage="opt">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="inkblot"/>
+                                    <valItem ident="tear"/>
+                                    <valItem ident="cut"/>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
 
                     <elementSpec ident="hi" module="core" mode="change">
@@ -539,13 +565,18 @@
                                     <valItem ident="sublinear"/>
                                 </valList>
                             </attDef>
+                            <attDef ident="type" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="alternative"/>
+                                </valList>
+                            </attDef>
                             <attDef ident="rend" mode="delete"/>
+                            
                         </attList>
                     </elementSpec>
 
                     <elementSpec ident="addSpan" module="transcr" mode="change">
                         <classes mode="change">
-                            <memberOf key="att.transcriptional" mode="delete"/>
                             <memberOf key="att.responsibility" mode="add"/>
                         </classes>
                     </elementSpec>
@@ -564,6 +595,8 @@
                                     <valItem ident="strikethrough"/>
                                     <valItem ident="overwritten"/>
                                     <valItem ident="smear"/>
+                                    <valItem ident="vertical_line"/>
+                                    <valItem ident="unmarked"/>
                                 </valList>
                             </attDef>
                             <attDef ident="resp" mode="delete"/>
@@ -641,6 +674,33 @@
                         </attList>
                     </elementSpec>
 
+                    <elementSpec ident="metamark"  module="transcr" mode="change">
+                        <attList>
+                            <attDef ident="function" mode="replace">
+                                <valList type="closed" mode="replace">
+                                    <valItem ident="count"/>
+                                    <valItem ident="insert"/>
+                                    <valItem ident="separate"/>
+                                    <valItem ident="paragraph"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="target">
+                                <desc>identifies one or more elements to which the function
+                                    indicated by the metamark applies. </desc>
+                                <datatype minOccurs="1" maxOccurs="unbounded">
+                                    <rng:ref name="data.pointer"/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                        <exemplum xml:lang="no"><egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <line><seg xml:id="tp-ib01">bör</seg><metamark rend="underline"
+                                function="transposition" target="#tp-ib01" place="above">2.</metamark>
+                                og <seg xml:id="tp-ib02">hör</seg><metamark rend="underline"
+                                    function="transposition" target="#tp-ib02" place="above"
+                                    >1.</metamark></line></egXML></exemplum>
+                        
+                    </elementSpec>
+
                     <elementSpec ident="mod" module="transcr" mode="change">
                         <content>
                             <!-- mod must have only element children so the below is a subset of macro.paraContent -->
@@ -685,6 +745,62 @@
                                 </sch:rule>-->
                             </constraint>
                         </constraintSpec>
+                    </elementSpec>
+                    
+                    <elementSpec module="transcr" ident="subst" mode="change">
+                        <attList>
+                            <attDef ident="cause" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="clarify"/>
+                                    <valItem ident="fix"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="hand" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="#pbs"/>
+                                    <valItem ident="#mws"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec module="transcr" ident="restore" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="stetdots"/>
+                                    <valItem ident="smear_strikethrough"/>
+                                    <valItem ident="underline"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec module="linking" ident="seg" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="alternative"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec module="transcr" ident="handShift" mode="change">
+                        <attList>
+                            <attDef ident="new" mode="replace" usage="req">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="#pbs"/>
+                                    <valItem ident="#mws"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="medium" mode="replace" usage="req">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="pen"/>
+                                    <valItem ident="pencil"/>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
 
                 </schemaSpec>
