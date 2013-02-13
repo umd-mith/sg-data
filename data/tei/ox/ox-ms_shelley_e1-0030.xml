@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
   href="../../xsl/page-proof.xsl"?>
-<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
-  xml:id="ox-ms_shelley_e1-0030" partOf="#ox-ms_shelley_e1">
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0030" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0030.tif"/>
   <zone type="main">
     <line>by the consummation of his marriage</line>
-    <line>according to</line>
-    <line>with Thetis. Thetis, <del rend="strikethrough">on</del> this view of</line>
+    <line>with Thetis. Thetis, <mod>
+        <del rend="strikethrough">on</del>
+        <add place="superlinear">according to</add>
+      </mod> this view of</line>
     <line>the subject was given in marriage to</line>
     <line>Pelias, &amp; Prometheus by the permission</line>
     <line>of Jupiter delivered from his captivity</line>
-    <line>by Hercules. -- Had I framed my</line>
+    <line>by Hercules. &#x2014; Had I framed my</line>
     <line>story on this model I should have</line>
     <line>done no more than have attempted</line>
-    <line>to restore the lost drama of Ã†schylus;</line>
+    <line>to restore the lost drama of &#xC6;schylus;</line>
     <line>an ambition, which, if my preference</line>
     <line>to this mode of treating the subject</line>
     <line>had incited me to cherish, the recollec</line>
