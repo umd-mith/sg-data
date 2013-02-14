@@ -566,7 +566,7 @@
                                 </valList>
                             </attDef>
                             <attDef ident="type" mode="replace">
-                                <valList type="closed" mode="replace">
+                                <valList type="semi" mode="replace">
                                     <valItem ident="alternative"/>
                                 </valList>
                             </attDef>
@@ -684,21 +684,7 @@
                                     <valItem ident="paragraph"/>
                                 </valList>
                             </attDef>
-                            <attDef ident="target">
-                                <desc>identifies one or more elements to which the function
-                                    indicated by the metamark applies. </desc>
-                                <datatype minOccurs="1" maxOccurs="unbounded">
-                                    <rng:ref name="data.pointer"/>
-                                </datatype>
-                            </attDef>
                         </attList>
-                        <exemplum xml:lang="no"><egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <line><seg xml:id="tp-ib01">bör</seg><metamark rend="underline"
-                                function="transposition" target="#tp-ib01" place="above">2.</metamark>
-                                og <seg xml:id="tp-ib02">hör</seg><metamark rend="underline"
-                                    function="transposition" target="#tp-ib02" place="above"
-                                    >1.</metamark></line></egXML></exemplum>
-                        
                     </elementSpec>
 
                     <elementSpec ident="mod" module="transcr" mode="change">
@@ -798,6 +784,23 @@
                                 <valList mode="replace" type="closed">
                                     <valItem ident="pen"/>
                                     <valItem ident="pencil"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="retrace"  module="transcr" mode="change">
+                        <attList>
+                            <attDef ident="cause" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="clarify"/>
+                                    <valItem ident="fix"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="hand" mode="replace" usage="opt">
+                                <valList mode="replace" type="closed">
+                                    <valItem ident="#pbs"/>
+                                    <valItem ident="#mws"/>
                                 </valList>
                             </attDef>
                         </attList>
