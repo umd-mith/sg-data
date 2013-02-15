@@ -12,7 +12,7 @@
     <line>it always through <mod>
         <del rend="strikethrough">the</del>
         <add place="superlinear">her</add>
-      </mod> intercession <modSpan spanTo="#c56.0011.13"/><add><ptr target="#c56-0011.11"
+      </mod> intercession <mod spanTo="#c56.0011.13"/><add><ptr target="#c56-0011.11"
         /></add><delSpan rend="strikethrough" spanTo="#c56-0011.01"/>of</line>
     <line>Elizabeth<anchor xml:id="c56-0011.01"/><del rend="strikethrough"> For me I loved he</del>
       <delSpan rend="strikethrough" spanTo="#c56-0011.02"/>We agreed</line>
@@ -33,7 +33,7 @@
         <del rend="strikethrough">lasted</del>
         <add place="superlinear" hand="#pbs">endured</add>
       </mod>
-      <modSpan spanTo="#c56-0011.14"/><delSpan rend="strikethrough" spanTo="#c56-0011.07"/>my
+      <mod spanTo="#c56-0011.14"/><delSpan rend="strikethrough" spanTo="#c56-0011.07"/>my
       amusements</line>
     <line>were studying old books of chemistry</line>
     <line>and natural magic those of Elizabeth were</line>
@@ -65,7 +65,7 @@
         <add place="superlinear" hand="#pbs">consisted in</add>
       </mod> books of chi</line>
     <line>valry &#38; romance and <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs" next="#c56-0011.10">when very young, I can</add>
         <add place="sublinear" xml:id="c56-0011.10" hand="#pbs">remember that</add>
       </mod> we used to</line>
@@ -115,7 +115,7 @@
     <line>world, she</line>
     <line>busied herself</line>
     <line>in <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">following</add>
       </mod> the aerial</line>
     <line>creations of the</line>
