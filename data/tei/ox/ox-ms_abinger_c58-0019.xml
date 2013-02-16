@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0019" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0019" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0019.tif"/>
   <zone type="pagination">121</zone>
   <zone type="library">10</zone>
   <zone type="main">
     <line>believing it <mod>
-        <add place="sublinear" hand="comp">&#x2038;</add>
-        <add place="superlinear" hand="comp">to</add>
+        <add place="sublinear" hand="#comp">&#x2038;</add>
+        <add place="superlinear" hand="#comp">to</add>
       </mod> have been a form conjured <del rend="strikethrough">my</del> by my</line>
     <line>fancy. After having landed they proceeded to search the</line>
     <line>country, parties going in different directions among</line>
@@ -18,7 +20,8 @@
     <line>the heat of fever. In this state I lay on a bed</line>
     <line>hardly conscious of what had happened; my eyes</line>
     <line>wandered round the room as if to seek somthing</line>
-    <line>that I had lost. <milestone unit="tei:p"/><add place="intralinear" hand="comp"><metamark>[</metamark></add>At length I remembered that my father</line>
+    <line>that I had lost. <milestone unit="tei:p"/><add place="intralinear" hand="#comp"><metamark
+          function="paragraph">[</metamark></add>At length I remembered that my father</line>
     <line>would anxiously expect the return of Elizabeth and</line>
     <line>myself, and that I must return alone. This reflec</line>
     <line>-tion brought tears into my eyes and I wept for a long</line>
