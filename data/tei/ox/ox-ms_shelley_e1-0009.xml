@@ -48,7 +48,7 @@
         </mod> in sweet <mod>
           <del rend="strikethrough">song</del>
           <add place="superlinear">sounds</add>
-        </mod>, like radiant <modSpan spanTo="e1-0009.05"/><del rend="strikethrough"
+        </mod>, like radiant <mod spanTo="e1-0009.05"/><del rend="strikethrough"
           next="#e1-0009.06">garments,</del><add place="superlinear">veils,
       approach</add></seg></line>
     <line><space unit="chars" extent="37"/><seg xml:id="e1-0009.08"><del rend="strikethrough"

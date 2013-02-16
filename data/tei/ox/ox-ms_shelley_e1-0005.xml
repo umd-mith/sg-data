@@ -14,7 +14,7 @@
     <line>Scene <add place="superlinear">part of</add> a <del rend="strikethrough">beautiful</del>
       forest near the cave</line>
     <line>of Prometheus&#x2014; Panthea &#x26; Ione <del rend="strikethrough">are</del> are</line>
-    <line><modSpan spanTo="#e1-0005.05"/><del rend="strikethrough">sitting beside a
+    <line><mod spanTo="#e1-0005.05"/><del rend="strikethrough">sitting beside a
       stream</del></line>
     <line>sleeping&#x2014; <del rend="strikethrough">dreaming&#x2014;</del><anchor
         xml:id="e1-0005.05"/> they awaken gradually</line>

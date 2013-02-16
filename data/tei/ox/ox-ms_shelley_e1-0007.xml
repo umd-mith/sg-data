@@ -15,7 +15,7 @@
     <milestone unit="tei:speaker" spanTo="#e1-0007.02"/>
     <line>Panthea</line>
     <anchor xml:id="e1-0007.02"/>
-    <line>To the <modSpan spanTo="#e1-0007.03"/><del rend="strikethrough"
+    <line>To the <mod spanTo="#e1-0007.03"/><del rend="strikethrough"
       >cold,&#x2014;to</del></line>
     <line><add place="intralinear">dark, to</add><anchor xml:id="e1-0007.03"/> the past, to the
       dead.</line>

@@ -19,7 +19,7 @@
         <del rend="strikethrough">mount</del>
         <add place="superlinear">monarch</add>
       </mod> mountain-tops</line>
-    <line>With kingly, ermine snow; <modSpan spanTo="#e1-0021.01"/><del rend="strikethrough">see, as
+    <line>With kingly, ermine snow; <mod spanTo="#e1-0021.01"/><del rend="strikethrough">see, as
         they flas</del><add place="sublinear"><metamark function="count">250</metamark></add></line>
     <line><add place="sublinear"><del rend="strikethrough">as</del> the beams flash <mod>
           <del rend="strikethrough">deep</del>

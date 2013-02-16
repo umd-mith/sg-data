@@ -5,8 +5,8 @@
   lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0028" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0028.tif"/>
   <zone type="main">
-    <line><seg next="#e1-0028.01">All things confess his strength&#x2014;<modSpan
-          spanTo="#e1-0028.02"/><del rend="strikethrough">From the cold mass</del></seg></line>
+    <line><seg next="#e1-0028.01">All things confess his strength&#x2014;<mod spanTo="#e1-0028.02"
+          /><del rend="strikethrough">From the cold mass</del></seg></line>
     <line><space unit="chars" extent="37"/><seg xml:id="e1-0028.01"><add place="intralinear">Through
           the cold mass</add></seg><anchor xml:id="e1-0028.02"/></line>
     <line>Of marble &amp; of colour his dreams pass</line>
