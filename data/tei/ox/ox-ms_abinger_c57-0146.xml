@@ -44,7 +44,7 @@
     <line>The <del rend="strikethrough">sun</del> sun sunk beneath the horizon</line>
     <line>as we landed and as I touched the shore</line>
     <line>I felt those cares and fears revive</line>
-    <line>which <modSpan spanTo="#c57-0146.02"/>
+    <line>which <mod spanTo="#c57-0146.02"/>
       <del rend="strikethrough" next="#c57-0146.03">a I</del>
       <del rend="strikethrough" xml:id="c57-0146.03" next="#c57-0146.04">had forgotten while on
         the</del><add place="sublinear" hand="#pbs" next="#c57-0146.05">soon were to clasp me &amp;

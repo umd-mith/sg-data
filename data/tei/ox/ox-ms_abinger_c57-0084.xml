@@ -17,7 +17,7 @@
         rend="strikethrough">and</del> it</line>
     <line> was agreed that this tour should occu</line>
     <line> py the space of two years.</line>
-    <milestone unit="paragraph"/>
+    <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>My father pleased himself</line>
     <line>with the reflection that I should</line>
     <line>be united to Elizabeth immediately</line>
@@ -29,9 +29,9 @@
     <line>that period to arrive when we</line>
     <line>shall all be united and neither hopes</line>
     <line>or fears arise to disturb our domes</line>
-    <line>tic <del rend="strikethrough"><rewrite cause="clarify">felicity</rewrite></del><del
+    <line>tic <del rend="strikethrough"><retrace cause="clarify">felicity</retrace></del><del
         rend="unmarked">.</del> calm.</line>
-    <milestone unit="paragraph"/>
+    <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>I am content, I replied with</line>
     <line>your arrangement. By that time</line>
     <line>we shall <mod>

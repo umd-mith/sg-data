@@ -39,8 +39,8 @@
     <line>dream, in a prison, stretched on a wretched</line>
     <line>bed surrounded by gailors&#x2013;turnkeys, bolts</line>
     <line>&amp; all the miserable apparatus of a dungeon</line>
-    <line>I<add place="intralinear">t</add> was morning I remember when I th<rewrite cause="clarify"
-        >u</rewrite>s awoke</line>
+    <line>I<add place="intralinear">t</add> was morning I remember when I th<retrace cause="clarify"
+        >u</retrace>s awoke</line>
     <line><damage type="inkblot">I h</damage>ad forgotten <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">the particulars of</add>

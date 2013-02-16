@@ -46,12 +46,12 @@
     <line>sensations &#x2013; happiness &amp; wisdom<anchor xml:id="c57-0179.03"/>
       <milestone unit="tei:seg" xml:id="c57-0179.04" spanTo="#c57-0179.05"/>he</line>
     <line>devoted to destruction<anchor xml:id="c57-0179.05"/>
-      <transposeGrp>
+      <listTranspose>
         <transpose>
           <ptr target="#c57-0179.04"/>
           <ptr target="#c57-0179.02"/>
         </transpose>
-      </transposeGrp> Nor do I know</line>
+      </listTranspose> Nor do I know</line>
     <!--"Nor" could be "nor"-->
     <line>Where this thirst for <del rend="strikethrough">g</del> vengeance</line>
     <!--"Where" could be "where"-->

@@ -14,7 +14,7 @@
     <line>The <mod>
         <del rend="strikethrough">season</del>
         <add place="superlinear">winter</add>
-      </mod> advanced and <modSpan spanTo="#c57-0045.01"/><del next="#c57-0045.02"
+      </mod> advanced and <mod spanTo="#c57-0045.01"/><del next="#c57-0045.02"
         rend="strikethrough">it was now about a</del><add place="superlinear" next="#c57-0045.03"
         >and an entire revolution of the</add></line>
     <line><del rend="strikethrough" xml:id="c57-0045.02">year</del><add place="sublinear"

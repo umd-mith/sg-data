@@ -19,7 +19,7 @@
     <line>saw clearly. <del rend="strikethrough">It never once</del> The idea of</line>
     <line>renewing my labours did not for an</line>
     <line>instant occur to me. The threat I had</line>
-    <line>heard weighed on my thoughts but I <modSpan spanTo="#c57-0111.01"/><del
+    <line>heard weighed on my thoughts but I <mod spanTo="#c57-0111.01"/><del
         rend="strikethrough" next="#c57-0111.02">never</del>
       <add place="superlinear" next="#c57-0111.03">did</add></line>
     <line><add xml:id="c57-0111.03"><ptr target="#c57-0111.04"/></add><del xml:id="c57-0111.02"

@@ -21,7 +21,7 @@
     <line>that this one day at least permits me</line>
     <line>to enjoy.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Be happy, my dear Victor, <restore type="stet_dots"
+    <line><space unit="chars" extent="6"/>Be happy, my dear Victor, <restore type="stetdots"
         spanTo="#c57-0145.02"/><delSpan spanTo="#c57-0145.01" rend="strikethrough"/>replied
       Eliza</line>
     <line>beth<anchor xml:id="c57-0145.01"/><anchor xml:id="c57-0145.02"/> &#x2014; there is I hope

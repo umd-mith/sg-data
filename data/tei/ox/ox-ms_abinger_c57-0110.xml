@@ -24,7 +24,7 @@
     <line>island <del rend="strikethrough">the next day</del>. at the expiration of two days</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="6"/>Yet before I departed there was a task</line>
-    <line>to perform on which I shuddered to <modSpan spanTo="#c57-0110.01"/><del
+    <line>to perform on which I shuddered to <mod spanTo="#c57-0110.01"/><del
         rend="strikethrough">think</del></line>
     <line><add><ptr target="#c57-0110.02"/></add><anchor xml:id="c57-0110.01"/>I must pack my
       chemical instruments</line>

@@ -40,17 +40,17 @@
     <line>a mixture of curiosity &amp; pity. I approach</line>
     <line>ed him &#x2013; yet I dared not look on him</line>
     <line>there was somthing so <seg xml:id="c57.0182.02">unearthly</seg><add place="superlinear"
-        hand="#pbs"><metamark function="transposition" target="#c57-0182.02">2</metamark></add>
+        hand="#pbs"><metamark function="transpose" target="#c57-0182.02">2</metamark></add>
       &amp; <seg xml:id="c57.0182.03">scaring</seg><add place="sublinear"
           ><metamark>&#x2038;</metamark></add><add place="superlinear" hand="#pbs"><metamark
-          function="transposition" target="#c57-0182.03"><del rend="overwritten">2</del><add
+          function="transpose" target="#c57-0182.03"><del rend="overwritten">2</del><add
             place="intralinear" hand="#pbs">1</add></metamark></add>
-      <transposeGrp>
+      <listTranspose>
         <transpose>
           <ptr target="#c57-0182.03"/>
           <ptr target="#c57-0182.02"/>
         </transpose>
-      </transposeGrp></line>
+      </listTranspose></line>
     <line>in his ugliness. I attempted to speak but</line>
     <line>the words died away on my lips &#x2013; The Monster</line>
     <line>continued to utter wild &amp; incoherent</line>
