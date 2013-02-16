@@ -15,7 +15,7 @@
         <add place="superlinear" hand="#pbs">became</add>
       </mod>was assured that my enemy had</line>
     <line>indeed fled, I clapped my hands for</line>
-    <line>joy and ran down to Henr<rewrite cause="clarify" hand="#pbs">y</rewrite>.</line>
+    <line>joy and ran down to Henr<retrace cause="clarify" hand="#pbs">y</retrace>.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="3"/>We ascended into my room &#x26; present</line>
     <line>ly the servant brought breakfast:</line>

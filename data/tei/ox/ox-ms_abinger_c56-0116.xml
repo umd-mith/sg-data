@@ -7,8 +7,8 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0116.tif"/>
   <zone type="pagination" rend="bordered">146</zone>
   <zone type="main">
-    <line>was I wa<rewrite cause="clarify" hand="#pbs">s</rewrite>
-      <add place="superlinear" hand="#pbs">somewhat</add> interrested <modSpan spanTo="#c56-0116.01"/>
+    <line>was I wa<retrace cause="clarify" hand="#pbs">s</retrace>
+      <add place="superlinear" hand="#pbs">somewhat</add> interrested <mod spanTo="#c56-0116.01"/>
       <del rend="strikethrough" next="#c56-0116.02">and sometimes</del><add hand="#pbs"
         place="superlinear" next="#c56-0116.03">in the scene..it sometimes</add></line>
     <line><del rend="strikethrough" xml:id="c56-0116.02">amused<del rend="unmarked">.</del>
@@ -29,7 +29,7 @@
         <del rend="strikethrough">each</del>
         <add place="superlinear" hand="#pbs">every</add>
       </mod>side</line>
-    <line><del rend="strikethrough">of us</del> &#x26; heard the sound of <modSpan
+    <line><del rend="strikethrough">of us</del> &#x26; heard the sound of <mod
         spanTo="#c56-0116.06"/><del next="#c56-0116.07" rend="strikethrough">moun</del><add
         next="#c56-0116.08" place="superlinear" hand="#pbs">the river raging</add></line>
     <line><del rend="strikethrough" xml:id="c56-0116.07">tain</del>

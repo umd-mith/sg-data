@@ -24,16 +24,15 @@
       </mod>ould probably have</line>
     <line>aplied myself to <del rend="strikethrough">m</del> the more <del rend="strikethrough"
         >ra</del> rational</line>
-    <line>theory of chemistry which <modSpan spanTo="#c56-0006.04"/>
-        <del rend="strikethrough" next="#c56-0006.01">has at present</del>
-        <add place="superlinear" hand="#pbs" next="#c56-0006.02">has resulted from modern
-          discoveries</add></line>
+    <line>theory of chemistry which <mod spanTo="#c56-0006.04"/><del rend="strikethrough"
+        next="#c56-0006.01">has at present</del>
+      <add place="superlinear" hand="#pbs" next="#c56-0006.02">has resulted from modern
+        discoveries</add></line>
     <line><del rend="strikethrough" xml:id="c56-0006.01">the approbation of the learned.</del>
-        <add place="superlinear" hand="#pbs" xml:id="c56-0006.02" next="#c56-0006.03">It is even
-          possible that the train of my ideas might never have recieved</add>
-        <add place="sublinear" hand="#pbs" xml:id="c56-0006.03">that fatal impulse which led me to
-          my ruin.</add>
-      <anchor xml:id="c56-0006.04"/> But the</line>
+      <add place="superlinear" hand="#pbs" xml:id="c56-0006.02" next="#c56-0006.03">It is even
+        possible that the train of my ideas might never have recieved</add>
+      <add place="sublinear" hand="#pbs" xml:id="c56-0006.03">that fatal impulse which led me to my
+        ruin.</add><anchor xml:id="c56-0006.04"/> But the</line>
     <line>cursory glance my father had taken of</line>
     <line>my volume by no means assured me</line>
     <line>that he was acquainted with <mod>

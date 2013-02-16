@@ -58,7 +58,7 @@
       </mod> up <del rend="strikethrough">as I was</del> in this <add place="intralinear"
         hand="#pbs">sole</add></line>
     <line><del rend="strikethrough">I</del> improved so rapidly that at the end</line>
-    <line>of the two years I made <modSpan spanTo="#c56-0032.06"/><del rend="strikethrough"
+    <line>of the two years I made <mod spanTo="#c56-0032.06"/><del rend="strikethrough"
         next="#c-56.0032.07">one or two</del>
       <add place="intralinear" hand="#pbs">some</add></line>
     <line><del rend="strikethrough" xml:id="c56-0032.07">trifling</del><anchor xml:id="c56-0032.06"

@@ -56,10 +56,10 @@
       </mod> and <del rend="strikethrough">shewed a</del><del rend="unmarked">nd</del>
       explain</line>
     <line>ed to me <add hand="#pbs" place="superlinear">the use of</add> his various machines
-        <modSpan spanTo="c56-0029.08"/><delSpan rend="strikethrough" spanTo="#c56-0029.09"
+        <mod spanTo="c56-0029.08"/><delSpan rend="strikethrough" spanTo="#c56-0029.09"
       />tel</line>
     <line>ling me<anchor xml:id="c56-0029.09"/><add><ptr target="#c56-0029.06"/></add><anchor
-        xml:id="c56-0029.08"/> what I <modSpan spanTo="#c56-0029.10"/><del rend="strikethrough"
+        xml:id="c56-0029.08"/> what I <mod spanTo="#c56-0029.10"/><del rend="strikethrough"
         next="#c56-0029.11">should</del>
       <del rend="strikethrough" xml:id="c56-0029.11" next="c56-0029.12">procure</del><add
         place="superlinear">ought to procure</add></line>
@@ -86,8 +86,8 @@
     <line>&#x26; then added<anchor xml:id="c56-0029.04"/></line><anchor xml:id="c56-0029.02"/>
   </zone>
   <zone type="left_margin">
-    <line><rewrite cause="fix" hand="#mws"><add hand="#pbs" xml:id="c56-0029.05"
-        >including</add></rewrite></line></zone>
+    <line><retrace cause="fix" hand="#mws"><add hand="#pbs" xml:id="c56-0029.05"
+        >including</add></retrace></line></zone>
 
   <zone type="left_margin">
     <line><add hand="#pbs" xml:id="c56-0029.06">instructing me as to</add></line></zone>

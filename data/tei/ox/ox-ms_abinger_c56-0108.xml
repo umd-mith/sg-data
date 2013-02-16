@@ -16,7 +16,7 @@
         <add place="superlinear" hand="#pbs">than</add>
       </mod> when the</line>
     <line>mind has been worked up by a <add place="intralinear">quick</add></line>
-    <line><del rend="strikethrough">S</del> succession of events, <modSpan spanTo="#c56-0108.05"
+    <line><del rend="strikethrough">S</del> succession of events, <mod spanTo="#c56-0108.05"
         /><delSpan spanTo="#c56-0108.01" rend="strikethrough"/>for a dead calm</line>
     <line>of inaction and certainty to<anchor xml:id="c56-0108.01"/><add><ptr target="#c56-0108.02"
         /></add><anchor xml:id="c56-0108.05"/> follow<add place="intralinear" hand="#pbs">s</add>
@@ -47,7 +47,7 @@
     <line>just tribute she ought to pay to inno</line>
     <line>cence thus blasted &#x26; <del rend="strikethrough">destroyed</del><anchor
         xml:id="c56-0108.04"/>
-      <rewrite cause="clarify">S</rewrite>leep fled</line>
+      <retrace cause="clarify">S</retrace>leep fled</line>
     <line>from my eyes. I wandered like an</line>
     <line>evil spirit for I <mod>
         <del rend="strikethrough">done</del>
@@ -76,12 +76,12 @@
     <line xml:id="#c56-0108.06">of inaction &#x26; certainty</line>
     <line><seg xml:id="#c56-0108.07">the dead calmness</seg>
       <add><metamark>&#x2038;</metamark>which</add></line>
-    <transposeGrp>
+    <listTranspose>
       <transpose>
         <ptr target="c56-0108.07"/>
         <ptr target="c56-0108.06"/>
       </transpose>
-    </transposeGrp>
+    </listTranspose>
     <anchor xml:id="c56-0108.03"/>
   </zone>
 </surface>

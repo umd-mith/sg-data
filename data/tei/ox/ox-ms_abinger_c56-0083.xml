@@ -21,7 +21,7 @@
         <del rend="overwritten">h</del>
         <add place="intralinear">H</add>
       </mod>e</line>
-    <line><add><ptr target="#c56-0083.01"/></add>was the murderer! <modSpan spanTo="c56-0083.02"/>
+    <line><add><ptr target="#c56-0083.01"/></add>was the murderer! <mod spanTo="c56-0083.02"/>
       <del rend="strikethrough">I<mod>
           <add place="sublinear"><metamark>&#x2038;</metamark></add>
           <add place="superlinear">could not</add>
@@ -39,7 +39,7 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear"> it would have been</add>
       </mod> in vain for another</line>
-    <line>flash discovered him to me <modSpan spanTo="#c56-0083.05"/><delSpan spanTo="#c56-0083.06"
+    <line>flash discovered him to me <mod spanTo="#c56-0083.05"/><delSpan spanTo="#c56-0083.06"
         rend="strikethrough"/>climbing</line>
     <line>up the steep and<anchor xml:id="c56-0083.06"/><add place="superlinear" hand="#pbs">hanging
         among the rocks of the</add><anchor xml:id="c56-0083.05"/> nearly perpendicular</line>
@@ -57,7 +57,7 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">impenetrable</add>
       </mod> dark-</line>
-    <line>ness. I revolved in my mind <modSpan spanTo="c56-0083.11"/><delSpan spanTo="#c56-0083.07"
+    <line>ness. I revolved in my mind <mod spanTo="c56-0083.11"/><delSpan spanTo="#c56-0083.07"
         rend="strikethrough"/>I revolved in</line>
     <line>my mind<anchor xml:id="c56-0083.07"/><add><ptr target="#c56-0083.10"/></add><anchor
         xml:id="c56-0083.11"/> the events which I <del rend="strikethrough">u</del> had,</line>

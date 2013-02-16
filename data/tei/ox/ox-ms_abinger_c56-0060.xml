@@ -63,7 +63,7 @@
     <line><add xml:id="c56-0060.01"/>Moritz?</line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0060.02" resp="#pbs"/>but</line>
+    <line><add xml:id="c56-0060.02" hand="#pbs"/>but</line>
   </zone>
   <!-- This is the beginning of a left-margin zone that crosses two pages-->
   <zone type="left_margin">

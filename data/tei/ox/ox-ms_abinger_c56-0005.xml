@@ -16,7 +16,7 @@
         <del rend="strikethrough">by slight or</del>
         <add hand="#pbs" place="superlinear">derive thier origin from a</add>
       </mod> tri</line>
-    <line>vial occurence<del rend="strikethrough">s</del>. <modSpan spanTo="#c56-0005.01"/><del
+    <line>vial occurence<del rend="strikethrough">s</del>. <mod spanTo="#c56-0005.01"/><del
         rend="strikethrough" next="#c56-0005.02">Strange as the</del>
       <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
@@ -46,9 +46,9 @@
     <line>I was eleven years old we all went on a party</line>
     <line>of pleasure to <mod>
         <del rend="strikethrough">Thonon</del>
-        <rewrite cause="fix" hand="#pbs">
+        <retrace cause="fix" hand="#pbs">
           <add place="superlinear">the baths near</add>
-        </rewrite>
+        </retrace>
         <add place="superlinear" hand="#pbs">Thonon.</add>
       </mod>
       <del rend="strikethrough">and were confined there</del></line>

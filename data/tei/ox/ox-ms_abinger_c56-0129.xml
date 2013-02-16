@@ -32,7 +32,7 @@
         <del rend="strikethrough">when</del>
         <add><ptr target="#c56-0129.01"/></add>
       </mod> I weighed the various arguments</line>
-    <line>which he had used, <modSpan spanTo="#c56-0129.02"/><add place="sublinear"
+    <line>which he had used, <mod spanTo="#c56-0129.02"/><add place="sublinear"
           ><metamark>&#x2038;</metamark></add><del rend="strikethrough">I</del>
       <del rend="strikethrough">felt enclined</del><add place="superlinear" hand="#pbs">&#x26; I
         determined at </add></line>
@@ -42,7 +42,7 @@
     <line>me.&#x2013; <del rend="strikethrough">As</del>
       <del rend="strikethrough">I was not</del> I had hitherto suppos</line>
     <line>ed him to be the murder<add hand="#pbs" place="intralinear">er</add> of my brother</line>
-    <line>and I <modSpan spanTo="#c56-0129.04"/><delSpan spanTo="#c56-0129.05" rend="strikethrough"
+    <line>and I <mod spanTo="#c56-0129.04"/><delSpan spanTo="#c56-0129.05" rend="strikethrough"
       />wished to find this either confirmed</line>
     <line>or denied<anchor xml:id="c56-0129.05"/><del rend="unmarked">.</del><add><ptr
           target="#c56-0129.06"/></add><anchor xml:id="c56-0129.04"/> For the first time also I

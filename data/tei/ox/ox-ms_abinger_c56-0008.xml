@@ -13,7 +13,7 @@
       </mod> violent death.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="4"/>Nor were these my only visions, the</line>
-    <line>raising of ghosts or devils <modSpan spanTo="#c56-0008.01"/><add place="sublinear"
+    <line>raising of ghosts or devils <mod spanTo="#c56-0008.01"/><add place="sublinear"
           ><metamark>&#x2038;</metamark></add>
       <del rend="strikethrough" next="#c56-0008.02">was also a favour</del><add hand="#pbs"
         place="superlinear" next="#c56-0008.05">was a promise liberally accorded by</add></line>

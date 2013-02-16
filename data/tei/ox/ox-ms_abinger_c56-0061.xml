@@ -17,11 +17,11 @@
     <line>that Ariosto gave concerning the</line>
     <line>beauty of Angelica:&#x2013; she looked so</line>
     <line>frank hearted and happy. My Aunt</line>
-    <line><modSpan spanTo="#c56-0061.04"/><del rend="strikethrough">was very fond of her which</del>
+    <line><mod spanTo="#c56-0061.04"/><del rend="strikethrough">was very fond of her which</del>
       <del rend="strikethrough" next="#c56-0061.05">caused</del>
       <add place="superlinear" hand="#pbs">concieved an attachment for her, by which she <mod>
           <add place="sublinear"><metamark>&#x2038;</metamark></add>
-          <add place="superlinear" resp="#pbs">was</add>
+          <add place="superlinear" hand="#pbs">was</add>
         </mod></add>
       <add place="superlinear">induced</add></line>
     <line><del rend="strikethrough" xml:id="c56-0061.05">her to</del><mod>
@@ -51,14 +51,14 @@
     <line>she thought her the <mod>
         <del rend="strikethrough">miracle</del>
         <add place="superlinear" hand="#pbs">model</add>
-      </mod> of <modSpan spanTo="#c56-0061.06"/><add place="intralinear" hand="#pbs"
+      </mod> of <mod spanTo="#c56-0061.06"/><add place="intralinear" hand="#pbs"
       >all</add></line>
-    <line><del rend="strikethrough">perfection</del><add place="superlinear" resp="#pbs"
+    <line><del rend="strikethrough">perfection</del><add place="superlinear" hand="#pbs"
         >excellence,</add><anchor xml:id="c56-0061.06"/> and endeavoured to imi-</line>
     <line>tate her words and even her man</line>
     <line>ners, so that <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add place="superlinear" hand="#pbs" cert="high">even</add>
+        <add place="superlinear" hand="#pbs">even</add>
       </mod> now she <del rend="strikethrough">very</del> often <mod>
         <del rend="strikethrough">puts</del>
         <add><ptr target="#c56-0061.03"/></add>
@@ -105,6 +105,6 @@
     <line>being.<anchor xml:id="c56-0061.02"/></line>
   </zone>
   <zone type="left_margin">
-    <line><add xml:id="c56-0061.03" hand="#pbs" cert="high"/>reminds</line>
+    <line><add xml:id="c56-0061.03" hand="#pbs"/>reminds</line>
   </zone>
 </surface>

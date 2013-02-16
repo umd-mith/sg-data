@@ -29,7 +29,7 @@
         <del rend="strikethrough">it</del>
         <add place="superlinear" hand="#pbs">the scene</add>
       </mod> was</line>
-    <line><del rend="strikethrough">all</del> changed.<modSpan spanTo="#c56-0026.06"/><delSpan
+    <line><del rend="strikethrough">all</del> changed.<mod spanTo="#c56-0026.06"/><delSpan
         spanTo="#c56-0026.07" rend="vertical_line"/>
       <del rend="strikethrough">t and the expulsion</del></line>
     <line>of chimera overthrew at the same</line>

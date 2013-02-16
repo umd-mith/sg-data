@@ -11,7 +11,7 @@
     <line><space unit="chars" extent="5"/>M<hi rend="sup">r</hi>. Krempe was not <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">equally</add>
-      </mod> docile <modSpan spanTo="#c56-0068.01"/><del rend="strikethrough">yet</del><add
+      </mod> docile <mod spanTo="#c56-0068.01"/><del rend="strikethrough">yet</del><add
         place="superlinear">&#x26;</add>
       <delSpan spanTo="#c56-0068.02" rend="strikethrough"/>weak</line>
     <line>as my illness had made me<anchor xml:id="c56-0068.02"/><add><ptr target="#c56-0068.03"
