@@ -35,19 +35,19 @@
     <line rend="indent1">To their folds them compelling</line>
     <line rend="indent1">In the depths of the Dawn</line>
     <line>Hastes, in meteor-eclipsing array, &amp; they flee</line>
-    <line rend="indent1">Beyond his blue dwelling,</line>
-    <line rend="indent1">As fawns flee the leopard. . .</line>
-    <line rend="indent2">But where are ye?</line>
+    <line rend="indent2">Beyond his blue dwelling,</line>
+    <line rend="indent2">As fawns flee the leopard. . .</line>
+    <line rend="indent3">But where are ye?</line>
     <milestone unit="tei:stage" spanTo="#e1-0005.05"/>
     <line>a t<hi rend="underline">rain of dark forms &amp; shadows passes by</hi></line>
     <line><hi rend="underline">confusedly</hi> , singing&#x2014;</line>
     <line rend="right">Panthea wakens</line><anchor xml:id="e1-0005.05"/>
-    <line rend="indent2">Here oh here!</line>
-    <line rend="indent2">We bear the bier</line>
-    <line>Of the father of many a cancelled year</line>
-    <line rend="indent2">Spectres we</line>
-    <line rend="indent2">Of dead hours be</line>
-    <line>We bear Time to his tomb in eternity</line>
+    <line rend="indent4">Here oh here!</line>
+    <line rend="indent4">We bear the bier</line>
+    <line rend="indent1">Of the father of many a cancelled year</line>
+    <line rend="indent4">Spectres we</line>
+    <line rend="indent4">Of dead hours be</line>
+    <line rend="indent1">We bear Time to his tomb in eternity</line>
   </zone>
 
 
