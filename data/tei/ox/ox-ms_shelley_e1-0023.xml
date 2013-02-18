@@ -7,8 +7,8 @@
   <zone type="library">11</zone>
   <zone type="main">
     <line>Which wraps me, like an atmosphere of light</line>
-    <line>And bears me as a cloud is borne by its own wind<handShift medium="pencil"><add
-          place="sublinear">!</add></handShift></line>
+    <line>And bears me as a cloud is borne by its own wind<handShift medium="pencil"/><add
+          place="sublinear">!</add><handShift medium="pen"/></line>
     <milestone unit="tei:speaker" spanTo="#e1-0023.01"/>
     <line>The Moon</line>
     <anchor xml:id="e1-0023.01"/>

@@ -75,13 +75,11 @@
     <addSpan xml:id="c56-0108.02" spanTo="#c56-0108.03" hand="#pbs"/>
     <line xml:id="c56-0108.06">of inaction &#x26; certainty</line>
     <line><seg xml:id="c56-0108.07">the dead calmness</seg>
-      <add><metamark>&#x2038;</metamark>which</add></line><anchor xml:id="c56-0108.03"/>
-    <listTranspose>
-      <transpose>
-        <ptr target="#c56-0108.07"/>
-        <ptr target="#c56-0108.06"/>
-      </transpose>
-    </listTranspose>
-    
+      <add><metamark>&#x2038;</metamark>which</add><listTranspose>
+        <transpose>
+          <ptr target="#c56-0108.07"/>
+          <ptr target="#c56-0108.06"/>
+        </transpose>
+      </listTranspose></line><anchor xml:id="c56-0108.03"/>
   </zone>
 </surface>
