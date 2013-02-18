@@ -6,39 +6,49 @@
   <graphic url="../../images/ox/ox-ms_shelley_e1-0005.tif"/>
 
   <zone type="library">2</zone>
+  <zone type="library">
+    <add><figure>
+        <figDesc>stamp reads "BIBLIOTHECA BODLEIANA</figDesc>
+      </figure></add>
+  </zone>
+
   <zone type="main">
-    <milestone unit="tei:act" spanTo="#e1-0005.01"/><line>Act 4<anchor xml:id="e1-0005.01"/>
-      <milestone unit="tei:scene" spanTo="#e1-0005.02"/> 1<anchor xml:id="e4-0005.02"/></line>
-    <milestone unit="tei:stage" spanTo="#e1-0005.03"/>
-    <milestone unit="tei:p" spanTo="#e1-0005.04"/>
+    <milestone unit="tei:act" spanTo="#e1-0005.01"/>
+    <line>Act 4<anchor xml:id="e1-0005.01"/>
+      <metamark function="sequence"> 1</metamark></line>
+    <milestone unit="tei:stage" spanTo="#e1-0005.02"/>
+    <milestone unit="tei:p" spanTo="#e1-0005.03"/>
     <line>Scene <add place="superlinear">part of</add> a <del rend="strikethrough">beautiful</del>
       forest near the cave</line>
     <line>of Prometheus&#x2014; Panthea &#x26; Ione <del rend="strikethrough">are</del> are</line>
-    <line><mod spanTo="#e1-0005.05"/><del rend="strikethrough">sitting beside a
-      stream</del></line>
-    <line>sleeping&#x2014; <del rend="strikethrough">dreaming&#x2014;</del><anchor
-        xml:id="e1-0005.05"/> they awaken gradually</line>
-    <line>during the first song.</line>
-    <anchor xml:id="e1-0005.03"/><anchor xml:id="e1-0005.04"/>
-    <milestone unit="tei:speaker" spanTo="#e1-0005.06"/>
-    <line>Voice of unseen Spirits</line><anchor xml:id="e1-0005.06"/>
-    <line>The pale Stars are gone,&#x2014;</line>
-    <line>For the Sun thier swift Shepherd</line>
-    <line>To their folds them compelling</line>
-    <line>In the depths of the Dawn</line>
+    <line><del rend="strikethrough">sitting beside a stream</del></line>
+    <line><add place="intralinear" next="#e1-0005.06">sleeping&#x2014;</add>
+      <del rend="strikethrough"><unclear>dreaming</unclear>&#x2014;</del>
+      <add place="intralinear" xml:id="e1-0005.06" next="#e1-0005.07">they awaken
+      gradually</add></line>
+    <line><add place="intralinear" xml:id="e1-0005.07">during the first song.</add></line>
+    <anchor xml:id="e1-0005.03"/><anchor xml:id="e1-0005.02"/>
+    <milestone unit="tei:speaker" spanTo="#e1-0005.04"/>
+    <line rend="center">Voice of unseen Spirits</line><anchor xml:id="e1-0005.04"/>
+    <line rend="indent1">The pale Stars are gone,&#x2014;</line>
+    <line rend="indent1">For the Sun thier swift Shepherd</line>
+    <line rend="indent1">To their folds them compelling</line>
+    <line rend="indent1">In the depths of the Dawn</line>
     <line>Hastes, in meteor-eclipsing array, &amp; they flee</line>
-    <line>Beyond his blue dwelling,</line>
-    <line>As fawns flee the leopard. . .</line>
-    <line>But where are ye?</line>
-    <milestone unit="tei:stage" spanTo="#e1-0005.07"/>
+    <line rend="indent1">Beyond his blue dwelling,</line>
+    <line rend="indent1">As fawns flee the leopard. . .</line>
+    <line rend="indent2">But where are ye?</line>
+    <milestone unit="tei:stage" spanTo="#e1-0005.05"/>
     <line>a t<hi rend="underline">rain of dark forms &amp; shadows passes by</hi></line>
     <line><hi rend="underline">confusedly</hi> , singing&#x2014;</line>
-    <line>Panthea wakens</line><anchor xml:id="e1-0005.07"/>
-    <line>Here oh here!</line>
-    <line>We bear the bier</line>
+    <line rend="right">Panthea wakens</line><anchor xml:id="e1-0005.05"/>
+    <line rend="indent2">Here oh here!</line>
+    <line rend="indent2">We bear the bier</line>
     <line>Of the father of many a cancelled year</line>
-    <line>Spectres we</line>
-    <line>Of dead hours be</line>
+    <line rend="indent2">Spectres we</line>
+    <line rend="indent2">Of dead hours be</line>
     <line>We bear Time to his tomb in eternity</line>
   </zone>
+
+
 </surface>
