@@ -22,7 +22,7 @@
     <delSpan spanTo="#c56-0013.01" rend="vertical_line"/>
     <delSpan spanTo="#c56-0013.02" rend="strikethrough"/>
     <line><space unit="chars" extent="3"/>In this account of my early</line>
-    <line>youth I wish particularly to <modSpan spanTo="#c56-0013.03"/>men</line>
+    <line>youth I wish particularly to <mod spanTo="#c56-0013.03"/>men</line>
     <line>tion <add><ptr target="#c56-0013.04"/></add><anchor xml:id="c56-0013.03"/> those
         circumstances<anchor xml:id="c56-0013.02"/> which</line>
     <line>led to and nourished my taste</line>

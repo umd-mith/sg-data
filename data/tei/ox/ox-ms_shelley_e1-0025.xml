@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0025" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0025.tif"/>
+  <zone type="library">12</zone>
+  <zone type="main">
+    <line>A spirit from my heart bursts forth</line>
+    <line>It clothes with unexpected birth</line>
+    <line>My cold bare bosom&#x2014; oh, it must be thine</line>
+    <line>On mine, on mine!</line>
+    <line>Gazing on thee I feel I know</line>
+    <line><seg next="#e1-0025.01">Green stalks burst forth, &amp; bright flowers</seg></line>
+    <line><space unit="chars" extent="45"/><seg xml:id="e1-0025.01">grow</seg></line>
+    <line>And living shapes upon my bosom move</line>
+    <line>Music is in the sea &amp; air</line>
+    <line>Winged clouds soar here &amp; there</line>
+    <line><seg next="#e1-0025.02">Dark with the rain new buds are dreaming</seg></line>
+    <line><space unit="chars" extent="31"/><seg xml:id="e1-0025.02">of</seg></line>
+    <line>'Tis Love, all Love!</line>
+    <milestone unit="tei:speaker" spanTo="#e1-0025.03"/>
+    <line>The Earth</line>
+    <anchor xml:id="e1-0035.03"/>
+    <line>It interpenetrates my granite mass</line>
+    <line>Through tangled roots &amp; trodden clay doth pass</line>
+    <line>Into the utmost leaves &amp; delicat<unclear>es</unclear>t
+        flowers<unclear>&#x2014;</unclear></line>
+    <line>Upon the winds, among the clouds 'tis spread</line>
+    <line>It wakes a life in the forgotten dead</line>
+    <line><seg next="#e1-0025.04">They breathe a spirit up from their</seg></line>
+    <line><space unit="chars" extent="28"/><seg xml:id="e1-0025.04">obscurest <mod>
+          <del rend="overwritten">p</del>
+          <add place="intralinear">b</add>
+        </mod>owers</seg></line>
+    <line><seg next="#e1-0025.05">And like a storm, bursting its cloudy</seg></line>
+    <line><space unit="chars" extent="35"/><seg xml:id="e1-0025.05">prison</seg></line>
+    <line>With thunder &amp; with whirlwind, has arisen</line>
+  </zone>
+</surface>

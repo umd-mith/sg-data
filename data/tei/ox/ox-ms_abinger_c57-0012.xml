@@ -73,7 +73,7 @@
         <add place="superlinear"><metamark>X</metamark></add>
         <add><ptr target="#c57-0012.01"/></add>
       </mod> The young girl was <del rend="strikethrough">co</del> occupied in</line>
-    <line>arranging the cottage <modSpan spanTo="#c57-0012.06"/><del rend="strikethrough"
+    <line>arranging the cottage <mod spanTo="#c57-0012.06"/><del rend="strikethrough"
         >and</del><add place="superlinear">but presently</add>
       <delSpan spanTo="#c57-0012.07" rend="strikethrough"/>when that was</line>
     <line>done<anchor xml:id="c57.0012.07"/><anchor xml:id="c57-0012.06"/> she took somthing out of
@@ -99,7 +99,7 @@
   </zone>
 
   <zone type="left_margin">
-    <milestone unit="note" spanTo="#c57-0012.05"/>
+    <milestone unit="tei:note" spanTo="#c57-0012.05"/>
     <addSpan spanTo="#c57-0012.04" hand="#pbs"/>
     <line>This chapter is</line>
     <line>too</line>

@@ -7,7 +7,7 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0086.tif"/>
   <zone type="pagination" rend="bordered"><line>116</line></zone>
   <zone type="main">
-    <line>months ago and then you would have <modSpan spanTo="#c56-0086.01"/><delSpan
+    <line>months ago and then you would have <mod spanTo="#c56-0086.01"/><delSpan
         spanTo="#c56-0086.02" rend="strikethrough"/>been</line>
     <line>welcomed as you ought<anchor xml:id="c56-0086.02"/><add><ptr target="#c56-0086.03"
         /></add><anchor xml:id="c56-0086.01"/> &#x2013; But we are now</line>
@@ -31,7 +31,7 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">you"</add>
       </mod> said I," welcome me thus; try</line>
-    <line>to be more calm <modSpan spanTo="#c56-0086.05"/><del rend="strikethrough">and</del>
+    <line>to be more calm <mod spanTo="#c56-0086.05"/><del rend="strikethrough">and</del>
       <mod>
         <del rend="strikethrough">not let<add place="superlinear">preveng</add></del>
       </mod>

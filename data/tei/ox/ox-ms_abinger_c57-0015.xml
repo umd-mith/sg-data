@@ -64,7 +64,7 @@
                 <add place="intralinear">m</add>
             </mod></line>
         <line>the barbarous villagers and resolved</line>
-        <line>whatever <modSpan spanTo="#c57-0015.02"/><del rend="strikethrough">I</del>
+        <line>whatever <mod spanTo="#c57-0015.02"/><del rend="strikethrough">I</del>
             <del rend="strikethrough" next="#c57-0015.03">should</del><add place="sublinear"
                     ><metamark>&#x2038;</metamark></add><add place="superlinear">course of conduct I
                 might</add>

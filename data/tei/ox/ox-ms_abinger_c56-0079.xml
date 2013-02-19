@@ -40,8 +40,8 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">to</add>
       </mod>prognosticate peace</line>
-    <line>or to mock<rewrite hand="#pbs" cause="fix"><add place="superlinear" hand="#pbs"
-        >at</add></rewrite> my unhappiness?</line>
+    <line>or to mock<retrace hand="#pbs" cause="fix"><add place="superlinear" hand="#pbs"
+        >at</add></retrace> my unhappiness?</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="4"/>I fear, my friend <mod>
         <del rend="strikethrough">to</del>

@@ -29,12 +29,12 @@
         <line>and remain<add place="intralinear">ed</add> while <mod>
                 <del rend="strikethrough">it</del>
                 <add place="superlinear" hand="#pbs">the storm</add>
-            </mod> lasted <modSpan spanTo="#c56-0014.05"/><del rend="strikethrough"
+            </mod> lasted <mod spanTo="#c56-0014.05"/><del rend="strikethrough"
                 next="#c56-0014.06">at</del><add place="superlinear">watching its</add><add><ptr
                     target="#c56-0014.07"/></add></line>
         <line><del rend="strikethrough" xml:id="c56-0014.06">the door</del>
             <del rend="strikethrough">watchin</del><del rend="unmarked">g</del><anchor
-                xml:id="c56-0014.05"/>. <modSpan spanTo="#c56-0014.09"/><del rend="strikethrough"
+                xml:id="c56-0014.05"/>. <mod spanTo="#c56-0014.09"/><del rend="strikethrough"
                 next="#c56-0014.10">When it was most</del><add place="superlinear" hand="#pbs"
                 next="#c56-0014.15">As I stood at the door</add></line>
         <line><del rend="strikethrough" xml:id="c56-0014.10">violent</del>,<add place="superlinear"
@@ -45,8 +45,8 @@
                 <add place="superlinear" hand="#pbs">a stream of</add>
             </mod> fire issue</line>
         <line>from an old <del rend="strikethrough">be</del> and beautiful</line>
-        <line>oak about <del rend="strikethrough">wh</del> twenty y<rewrite cause="clarify"
-                hand="#pbs">a</rewrite>rds from</line>
+        <line>oak about <del rend="strikethrough">wh</del> twenty y<retrace cause="clarify"
+                hand="#pbs">a</retrace>rds from</line>
         <line>our house and <mod>
                 <del rend="strikethrough">when</del>
                 <add place="superlinear" hand="#pbs">so soon as</add>

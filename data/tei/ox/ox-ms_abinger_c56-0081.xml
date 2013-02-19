@@ -36,7 +36,7 @@
         <add hand="#pbs" place="superlinear">visit</add>
       </mod> the spot where m<mod>
         <del rend="overwritten"><unclear unit="chars" extent="1"/></del>
-        <add resp="#pbs" place="intralinear">y</add>
+        <add hand="#pbs" place="intralinear">y</add>
       </mod></line>
     <line>poor William had been murdered;</line>
     <line>as I walked I perceived a storm collecting</line>

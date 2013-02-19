@@ -31,7 +31,7 @@
     <line><mod>
         <del rend="strikethrough">would</del>
         <add place="superlinear" hand="#pbs">might not</add>
-      </mod> outstrip her, but <modSpan spanTo="#c56-0012.01"/><del type="overwritten">she</del><add
+      </mod> outstrip her, but <mod spanTo="#c56-0012.01"/><del type="overwritten">she</del><add
         place="intralinear" hand="#pbs">by</add><del rend="strikethrough" next="#c56-0012.02"
         >was</del><add place="superlinear" hand="#pbs">the</add><add><ptr target="#c56-0012.03"
         /></add></line>
@@ -83,7 +83,7 @@
         <del rend="strikethrough">I include</del>
         <add><ptr target="#c56-0012.05"/></add>
       </mod>
-      <del rend="strikethrough">Hen</del> Henry <modSpan spanTo="#c56-0012.07"/><del
+      <del rend="strikethrough">Hen</del> Henry <mod spanTo="#c56-0012.07"/><del
         rend="strikethrough" next="#c56-0012.08">Carignan</del><add place="superlinear"
         >Clerval,</add></line>
     <line><del rend="strikethrough" xml:id="c56-0012.08">in this account</del><anchor

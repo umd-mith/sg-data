@@ -72,7 +72,7 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear"><del rend="strikethrough">being</del> an animal</add>
       </mod> as complex</line>
-    <line>and wonderful as man. <modSpan spanTo="#c56-0038.02"/><mod>
+    <line>and wonderful as man. <mod spanTo="#c56-0038.02"/><mod>
         <del rend="strikethrough" next="#c56-0038.03"><del rend="overwritten"
             ><unclear>but</unclear></del><add place="intralinear">Yet</add></del>
         <del rend="strikethrough"><add place="superlinear">But</add></del>
@@ -97,7 +97,7 @@
           ul</add>
         <add place="sublinear" hand="#pbs" xml:id="c56-0038.11">-timately succeed.</add>
       </mod></line>
-    <line><modSpan spanTo="#c56-0038.12"/><delSpan rend="vertical_line" spanTo="#c56-0038.13"/>I
+    <line><mod spanTo="#c56-0038.12"/><delSpan rend="vertical_line" spanTo="#c56-0038.13"/>I
       allowed that my first attempts might</line>
     <line>be futile, my operations fail or my work</line>
     <line>be imperfect,<anchor xml:id="c56-0038.13"/>
@@ -108,14 +108,14 @@
         <add place="superlinear">which</add>
       </mod> every day</line>
     <line>takes place in science and <add hand="#pbs" place="intralinear">mechanics</add></line>
-    <line><modSpan spanTo="#c56-0038.14"/><del rend="strikethrough" next="#c56-0038.15">and m my
+    <line><mod spanTo="#c56-0038.14"/><del rend="strikethrough" next="#c56-0038.15">and m my
         attempt was so much grande</del><del rend="unmarked">r</del><add place="superlinear"
         hand="#pbs">I was encouraged to hope</add></line>
     <line><del rend="strikethrough" xml:id="c56-0038.15">and</del>
       <delSpan spanTo="#c56-0038.16" rend="strikethrough"/>And altho although I could not
       hope</line>
     <line>that<anchor xml:id="c56-0038.16"/><anchor xml:id="c56-0038.14"/> my <add hand="#pbs"
-        place="superlinear">present</add> attempts would <modSpan spanTo="#c56-0038.17"/><del
+        place="superlinear">present</add> attempts would <mod spanTo="#c56-0038.17"/><del
         rend="strikethrough"><unclear>s</unclear></del><del rend="strikethrough"><add
           place="superlinear" hand="#pbs">at le</add></del>
       <del rend="strikethrough">be in every</del></line>

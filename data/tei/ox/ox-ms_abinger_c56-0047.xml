@@ -55,7 +55,7 @@
     <line>rushed down <mod>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">the</add></del>
       </mod> stair<mod>
-        <rewrite cause="fix" hand="#pbs">s</rewrite>
+        <retrace cause="fix" hand="#pbs">s</retrace>
         <del rend="strikethrough"><add place="intralinear" hand="#pbs">case</add></del>
       </mod> I took refuge in</line>
     <line>a court-yard belonging to the house</line>

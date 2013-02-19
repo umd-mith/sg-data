@@ -24,7 +24,7 @@
         <del rend="strikethrough">they</del>
         <del rend="strikethrough">bel</del>
         <add place="superlinear">another is</add>
-      </mod> immediately <modSpan spanTo="#c56-0104.01"/><delSpan rend="strikethrough"
+      </mod> immediately <mod spanTo="#c56-0104.01"/><delSpan rend="strikethrough"
         spanTo="#c56-0104.02"/>mur</line>
     <line>der<anchor xml:id="c56-0104.02"/>
       <del rend="strikethrough">another</del><add><ptr target="#c56-0104.03"/></add><anchor

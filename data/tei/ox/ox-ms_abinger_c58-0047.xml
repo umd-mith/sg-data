@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0047" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0047" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0047.tif"/>
   <zone type="pagination">175</zone>
   <zone type="library">24</zone>
@@ -12,8 +14,8 @@
     <line>disturbed by the near approach of death. I dare</line>
     <line>not ask you to do what I think right for I</line>
     <line>may still be misled by passion.</line>
-    <handShift new="#pbs"/><milestone unit="tei:p"/><line>That he should live, to be an instrument
-      of</line>
+    <handShift medium="pen" new="#pbs"/><milestone unit="tei:p"/><line>That he should live, to be an
+      instrument of</line>
     <line>mischief disturbs me; in other respects this hour</line>
     <line>when I momentarily expect my release is the only</line>
     <line>happy one which I have enjoyed for several</line>

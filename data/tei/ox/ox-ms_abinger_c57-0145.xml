@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+            type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+            href="../../xsl/page-proof.xsl"
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0145" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+  <graphic url="../../images/ox/ox-ms_abinger_c57-0145.tif"/>
+  <zone type="pagination" rend="bordered">161</zone>
+  <zone type="library">73</zone>
+  <zone type="main">
+    <line><del rend="strikethrough">w</del>that would wish to quit its native country</line>
+    <line>and an almost insurmountable barrier</line>
+    <line>to the conqueror that <del rend="strikethrough">d</del> should dare invade</line>
+    <line>it.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="1"/>I took the hand of Elizabeth &#x2013; You are sor</line>
+    <line>rowful, said I, ah my love, if you knew what</line>
+    <line>I have <del rend="strikethrough">endu</del> suffered &amp; what I may still</line>
+    <line>endure you would endeavour to <del rend="strikethrough">all</del> let</line>
+    <line>me taste the quiet &amp; freedom from despair</line>
+    <line>that this one day at least permits me</line>
+    <line>to enjoy.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>Be happy, my dear Victor, <restore type="stetdots"
+        spanTo="#c57-0145.02"/><delSpan spanTo="#c57-0145.01" rend="strikethrough"/>replied
+      Eliza</line>
+    <line>beth<anchor xml:id="c57-0145.01"/><anchor xml:id="c57-0145.02"/> &#x2014; there is I hope
+      nothing to distress you;</line>
+    <line>and be assured that if a lively joy is not</line>
+    <line>painted in my face my heart is content.</line>
+    <line>Something whispers to me not to depend too</line>
+    <line>much on the prospect which is opened</line>
+    <line>before us but I will not listen to such</line>
+    <line>a sinister voice &#x2013; Observe how fast we</line>
+    <line>move along &amp; how the clouds which some</line>
+    <line>times obscure &amp; sometimes rise above</line>
+    <line>the <del rend="strikethrough">he</del> dome of Mont Blanc render this</line>
+    <line>scene of beauty still more interresting.</line>
+    <line>Look also at the innumerable fish that</line>
+    <line>are swimming in these clear waters where</line>
+    <line>we can distinguish every pebble that lies</line>
+    <line>at the bottom. What a divine day; how</line>
+    <line>happy &amp; serene all nature appears!</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="6"/>Thus Elizabeth endeavoured to divert</line>
+    <line>her thoughts &amp; mine from <mod>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear">all reflection on</add>
+      </mod> melancholy</line>
+    <line>subjects but her temper was fluctuating.</line>
+    <line>joy for a few instants shone in her eyes</line>
+    <line>but it continually gave place to distrac</line>
+    <line>tion &amp; reverie.</line>
+    <milestone unit="tei:p"/>
+    <line><space unit="chars" extent="3"/>The sun<del rend="strikethrough">k</del> sunk lower in the
+      heavens</line>
+  </zone>
+</surface>

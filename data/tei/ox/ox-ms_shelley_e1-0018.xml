@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0018" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0018.tif"/>
+  <zone type="main">
+    <line>Its wheels are solid clouds, azure &amp; gold,</line>
+    <line>Such as the genii of the thunderstorm</line>
+    <line>Pile on the floor of the illumined sea</line>
+    <line>When the Sun rushes under it, they roll</line>
+    <line>And move &amp; grow as with an inward wind.</line>
+    <line>Within it sits a winged Infant, <del rend="strikethrough">br</del> white</line>
+    <line><seg next="#e1-0018.01">Its countenance like the whiteness of bright</seg></line>
+    <line><space unit="chars" extent="41"/><seg xml:id="e1-0018.01">snow,</seg></line>
+    <line>Its plumes are <mod>
+        <del rend="strikethrough">like</del>
+        <add place="superlinear">as</add>
+      </mod> feathers of sunny frost,</line>
+    <line>Its limbs gleam white, thro the wind-flowing folds</line>
+    <line>Of its white robe, woof of &#xE6;therial pearl&#x2014;</line>
+    <line>Its hair is white,&#x2014;the brightness of white light</line>
+    <line><seg next="#e1-0018.02">Scattered in strings, yet its two eyes are</seg></line>
+    <line><space unit="chars" extent="40"/><seg xml:id="e1-0018.02">Heavens</seg></line>
+    <line>Of liquid darkness, which the Deity</line>
+    <line>Within, seems pouring, as a storm is poured</line>
+    <line>From jagged clouds, out of their arrowy lashes</line>
+    <line>Tempering the cold &amp; radiant air around</line>
+    <line>With fire which is not brightness, in its hand</line>
+    <line><seg next="#e1-0018.03">It sways a quivering moonbeam, from</seg></line>
+    <line><space unit="chars" extent="33"/><seg xml:id="e1-0018.03">whose point</seg></line>
+    <line>A guiding power directs the chariots prow</line>
+    <line>Over its wheeled clouds, which as they roll</line>
+    <line><seg next="#e1-0018.04">Over the <del rend="strikethrough">bending</del> grass &amp;
+        flowers &amp; waves, wake</seg></line>
+    <line><space unit="chars" extent="41"/><seg xml:id="e1-0018.04">sounds</seg></line>
+    <line>Sweet as a singing rain of silver dew.</line>
+  </zone>
+</surface>

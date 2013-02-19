@@ -66,7 +66,7 @@
         <del rend="strikethrough">yet</del>
         <add place="superlinear">but</add>
       </mod> certainly</line>
-    <line>I should have thought such a <modSpan spanTo="#c56-0113.09"/><del rend="strikethrough"
+    <line>I should have thought such a <mod spanTo="#c56-0113.09"/><del rend="strikethrough"
         next="#c56-0113.10">woman</del><add place="superlinear" hand="#pbs" next="#c56-0113.11"
         >being</add></line>
     <line><del rend="strikethrough" xml:id="c56-0113.10">unworthy of life</del>

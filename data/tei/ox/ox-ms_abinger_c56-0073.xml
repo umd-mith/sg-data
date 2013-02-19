@@ -25,7 +25,7 @@
         <add place="superlinear">a</add>
       </mod> letter <del rend="strikethrough">which was</del> to fix</line>
     <line><add><ptr target="#c56-0073.01"/></add> your return and I was at first tempted</line>
-    <line>to write a few lines <modSpan spanTo="#c56-0073.02"/><del rend="strikethrough">only</del>
+    <line>to write a few lines <mod spanTo="#c56-0073.02"/><del rend="strikethrough">only</del>
       <del rend="unmarked">to</del>
       <del rend="strikethrough">fix</del>
       <del rend="strikethrough">that</del><add place="superlinear">merely mentioning the

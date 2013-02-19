@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0027" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0027.tif"/>
+  <zone type="library">13</zone>
+  <zone type="main">
+    <line>Man, oh not men; a chain of linked thought</line>
+    <line>Of love &amp; might to be divided not</line>
+    <line><seg next="#e1-0027.01">Compelling the elements with adamantine</seg></line>
+    <line><space unit="chars" extent="32"/><seg xml:id="e1-0027.01">stress&#x2014;</seg></line>
+    <line><seg next="#e1-0027.02">As the Sun rules, even with a tyrants</seg></line>
+    <line><space unit="chars" extent="37"/><seg xml:id="e1-0027.02">gaze</seg></line>
+    <line>The unquiet Republic of the maze</line>
+    <line><seg next="#e1-0027.03">Of Planets, struggling fierce towards Heavens</seg></line>
+    <line><space unit="chars" extent="37"/><seg xml:id="e1-0027.03">free wild<add
+          place="superlinear">er</add>ness.</seg></line>
+    <line>Man, one harmonious Soul of many a soul</line>
+    <line>Whose nature is it's own divine controul</line>
+    <line>Where all things flow to all, as rivers to the sea;</line>
+    <line>Familiar acts are beautiful <mod>
+        <restore type="underline">
+          <hi rend="underline"><del rend="strikethrough">thro</del></hi>
+        </restore>
+        <del rend="strikethrough"><add place="superlinear">by</add></del>
+      </mod> love</line>
+    <line><seg next="#e1-0027.04">Labour &amp; Pain &amp; Grief <mod>
+          <del rend="strikethrough">through</del>
+          <add place="superlinear">in</add>
+        </mod> life's green</seg></line>
+    <line><space unit="chars" extent="37"/><seg xml:id="e1-0027.04">grove</seg></line>
+    <line><seg next="#e1-0027.05">Sport like tame beasts&#x2014;none knew how</seg></line>
+    <line><space unit="chars" extent="25"/><add><metamark>(</metamark></add><seg xml:id="e1-0027.05"
+        >gentle they could be</seg><add><metamark>)</metamark></add></line>
+    <line><add><metamark>&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;</metamark></add></line>
+    <line>His Will, with all mean passions, bad delight<unclear>s</unclear></line>
+    <line>And selfish cares, its trembling satellites,</line>
+    <line>A spirit ill to guide, but mighty to obey<unclear>;</unclear></line>
+    <line>Is as a tempest-winged ship, whose helm</line>
+    <line><seg next="#e1-0027.06">Love rules, through waves which dare</seg></line>
+    <line><space unit="chars" extent="25"/><seg xml:id="e1-0027.06">not overwhelm</seg></line>
+    <line><seg next="#e1-0027.07">Forcing Life's wildest shores to own its
+          sovereign<unclear>s</unclear></seg></line>
+    <line><space unit="chars" extent="35"/><seg xml:id="e1-0027.07">sway</seg></line>
+    <line><metamark function="count">375</metamark></line>
+  </zone>
+</surface>

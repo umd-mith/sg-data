@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
+  xml:id="ox-ms_shelley_e1-0052" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0052.tif"/>
+  <zone type="main">
+    <line>The Earth</line>
+    <line>How canst thou hear</line>
+    <line>Who knowest not the language of the dead?</line>
+    <line>I d Prometheus</line>
+    <line>Thou art a living spirit -- speak as they</line>
+    <line>The Earth</line>
+    <line>I dare not speak like life, lest Heaven's <del rend="strikethrough">fierce</del> King</line>
+    <line>Should hear, &amp; link me to some wheel of pain</line>
+    <line>More torturing than the one whereon I roll.--</line>
+    <line>Subtle thou art &amp; good, &amp; tho' the Gods</line>
+    <line>Hear not this voice -- yet thou art more than</line>
+    <line>God</line>
+    <line>Being wise &amp; kind -- earnestly hearken now--</line>
+    <line>Prometheus</line>
+    <line>Obscurely through my brain like shadows dim</line>
+    <line>Sweep awful thoughts rapid &amp; thick--I feel</line>
+    <line>Faint, like one mingled in entwining love,</line>
+    <line>Yet 'tis not pleasure</line>
+    <line>The Earth</line>
+    <line>No, thou canst not hear</line>
+    <line>Thou art immortal, &amp; this tongue is known</line>
+    <line>Only to those who die ... I am the Earth</line>
+    <line>144 ^</line>
+  </zone>
+</surface>

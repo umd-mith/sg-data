@@ -63,7 +63,7 @@
   </zone>
   <zone type="left_margin">
     <addSpan xml:id="c56-0051.02" spanTo="#c56-0051.03"/>
-    <line>"<restore type="smear_cancellation"><del rend="strikethrough">a year</del></restore><del
+    <line>"<restore type="smear_strikethrough"><del rend="strikethrough">a year</del></restore><del
         rend="smear"><add place="superlinear">y<hi rend="sup">r</hi>.</add></del> with</line>
     <line>"out greek &#x2013;I</line>
     <line>"eat heartily</line>

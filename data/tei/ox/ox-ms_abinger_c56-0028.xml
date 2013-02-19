@@ -60,7 +60,7 @@
 
   <zone type="left_margin">
     <addSpan hand="#pbs" xml:id="c56-0028.01" spanTo="#c56-0028.02"/>
-    <line><rewrite cause="fix" hand="#mws" spanTo="#c56-0028.04"
+    <line><retrace cause="fix" hand="#mws" spanTo="#c56-0028.04"
       /><metamark>&#x2038;</metamark></line>
     <line>He said that</line>
     <line>these were</line>
@@ -71,18 +71,18 @@
         <del rend="strikethrough">chem</del>
         <add place="superlinear">natural</add>
       </mod></line>
-    <line><rewrite cause="fix" hand="#mws" spanTo="#c56-0028.05"/>philosophers were</line>
+    <line><retrace cause="fix" hand="#mws" spanTo="#c56-0028.05"/>philosophers were</line>
     <line>indebted for most</line>
     <line>of the foundations</line>
     <line>of their knowledge<anchor xml:id="c56-0028.05"/></line>
     <line><delSpan spanTo="#c56-0028.03" rend="strikethrough"/>it is not a meaner</line>
     <line>task<anchor xml:id="c56-0028.03"/>
-      <rewrite cause="fix" hand="#mws">They</rewrite>
+      <retrace cause="fix" hand="#mws">They</retrace>
       <mod>
         <add place="sublinear" hand="#mws"><metamark/>&#x2038;</add>
         <add place="superlinear" hand="#mws">had</add>
       </mod>
-      <rewrite cause="fix" hand="#mws" spanTo="#c56-0028.06"/>left to</line>
+      <retrace cause="fix" hand="#mws" spanTo="#c56-0028.06"/>left to</line>
     <line>us, as an easier</line>
     <line>task to give new</line>
     <line>names, &#x26; arrange</line>

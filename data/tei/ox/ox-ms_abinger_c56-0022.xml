@@ -45,7 +45,7 @@
         spanTo="#c56-0022.03" rend="strikethrough"/>all my</line>
     <line>life<anchor xml:id="c56-0022.03"/> and <add place="superlinear" hand="#pbs">had</add>
       longed to enter into the</line>
-    <line><del rend="strikethrough">worth</del> world and take my <modSpan spanTo="#c56-0022.04"
+    <line><del rend="strikethrough">worth</del> world and take my <mod spanTo="#c56-0022.04"
         /><del rend="strikethrough" next="#c56-0022.05">place</del></line>
     <line><del rend="strikethrough" xml:id="c56-0022.05">with</del><add next="#c56-0022.06"><ptr
           target="#c56-0022.07"/></add><add place="superlinear" xml:id="c56-0022.06"

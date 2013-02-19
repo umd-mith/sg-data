@@ -15,7 +15,7 @@
     <line>could never have conceived.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>I passed the night wretchedly&#x2013;</line>
-    <line>sometimes my pulse<add place="intralinear" cert="medium">s</add> beat so quickly <mod>
+    <line>sometimes my pulse<add place="intralinear">s</add> beat so quickly <mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">a</add>
       </mod>nd</line>
@@ -28,7 +28,7 @@
         <del rend="strikethrough">with</del>
         <add place="superlinear" hand="#pbs">thro</add>
       </mod> languor and ex-</line>
-    <line>treme weakness. <modSpan spanTo="#c56-0048.04"/><del rend="strikethrough"
+    <line>treme weakness. <mod spanTo="#c56-0048.04"/><del rend="strikethrough"
         next="#c56-0048.05">Surely so wretched a</del></line>
     <line><add place="superlinear"><metamark>X</metamark></add><del rend="strikethrough"
         xml:id="c56-0048.05">creature as I never before existed.</del><add><ptr target="c56-0048.01"

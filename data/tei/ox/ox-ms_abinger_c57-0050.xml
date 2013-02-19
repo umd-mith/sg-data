@@ -31,7 +31,7 @@
         <del rend="overwritten">d</del>
         <add place="intralinear">t</add>
       </mod> the cottage</line>
-    <line>door opened and Felix, <modSpan spanTo="#c57-0050.01"/><del rend="strikethrough"
+    <line>door opened and Felix, <mod spanTo="#c57-0050.01"/><del rend="strikethrough"
         >Maimouna</del></line>
     <line><add><ptr target="#c57-0050.02"/></add><anchor xml:id="c57-0050.01"/>and Agatha entered
       &#x2013; Who can</line>
