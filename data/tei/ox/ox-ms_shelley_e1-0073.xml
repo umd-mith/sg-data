@@ -9,7 +9,7 @@
     <line>This is alone <mod><del rend="strikethrough">Peace</del><add place="superlinear">Life</add></mod>, 
       <mod><del rend="strikethrough">Peace</del><add place="superlinear">Joy</add></mod>, Empire &#x26; Victory</line>
     <line>5&lt;33&gt;</line>
-    <!-- What is this 5 33 supposed to be? Also, what follows here? It seems to be a translation of Plato? -->
+    <!-- What is this 5 33 supposed to be? Also, what follows here? It seems to  be a translation of Plato? -->
     <milestone unit="tei:p" spanTo="e1-00073.01"/>
     <line>Then my dear friend we should not</line>
     <line>err, <mod><del rend="strikethrough">in our</del></mod> if we asserted that Ion</line>
