@@ -4,8 +4,34 @@
 
 # Mapping to TEI
 
-import os, sys, re
+import os, sys, re, cgi, BaseHTTPServer
 import solr
+
+class MyHandler( BaseHTTPServer.BaseHTTPRequestHandler):
+    def do_GET( self ):
+        self.wfile.write("<!DOCTYPE html><html><title>Test Server</title><p>Hic sunt leones</html>")
+
+    def do_POST( self ):
+        ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
+        postvars = {}
+        if ctype == 'application/x-www-form-urlencoded':
+            length = int(self.headers.getheader('content-length'))
+            postvars = cgi.parse_qs(self.rfile.read(length), keep_blank_values=1)
+
+        self.send_response( 200 )
+        self.send_header( "Content-type", "json")
+        self.end_headers()
+        self.wfile.write(postvars)
+
+
+
+def httpd(handler_class=MyHandler, server_address = ('localhost', 8888)):
+    try:
+        print "Server started"
+        srvr = BaseHTTPServer.HTTPServer(server_address, handler_class)
+        srvr.serve_forever() # serve_forever
+    except KeyboardInterrupt:
+        server.socket.close()
 
 def replace_entities (TEI):
     entities = {"&#x2038;" : "‸",
@@ -26,7 +52,6 @@ if __name__ == "__main__":
     TEI = replace_entities(TEI)
 
     sample_txt = """
-
   
   149
   57
@@ -93,7 +118,6 @@ if __name__ == "__main__":
 """
     
     sample_hl =  """
-
   
   149
   57
@@ -185,14 +209,12 @@ if __name__ == "__main__":
             text_count += 1
             for i, hl in enumerate(hl_pos):
                 if text_count == hl[0]:
-                    print TEI[n+1:n+hl[2]+1]
-                    TEI_hl.append((n+1,n+hl[2]+1))
+                    # Need to add +2 to compensate space taken by <?xml?> instruction, which is skipped by SAX
+                    print TEI[n+2:n+hl[2]+2]
+                    TEI_hl.append((n+2,n+hl[2]+2))
 
         if c == ">" and TEI[n+1] != '<': is_text = True
 
     print TEI_hl
 
-
-        
-
-
+    httpd()
