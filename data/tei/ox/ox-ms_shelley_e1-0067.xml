@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
+  xml:id="ox-ms_shelley_e1-0067" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0067.tif"/>
+  <zone type="main">
+    <line>33</line>
+    <line>Prometheus [ ? ] proud</line>
+    <line><del rend="strikethrough">calm</del></line>
+    <line>I see the curse on gestures <del rend="strikethrough underline">cruel</del> &amp; cold</line>
+    <line>/ <del rend="strikethrough">And looks of firm defiance, &amp;</del></line>
+    <line>\ <del rend="strikethrough">Written as on a scroll...yet speak o speak</del></line>
+    <line>And looks of <del rend="strikethrough">des</del> firm defiance, &amp; calm hate</line>
+    <line>And such despair as mocks <del rend="strikethrough">itself with</del> smiles</line>
+    <line>Written as{} on a scroll...yet speak--o speak..</line>
+  </zone>
+</surface>

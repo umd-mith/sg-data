@@ -13,7 +13,7 @@
     <line>"now I hope."</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="3"/>I trembled excessively: I could not</line>
-    <line>bear to think of<add place="intralinear" resp="#pbs">,</add> &#38; far less to
+    <line>bear to think of<add place="intralinear" hand="#pbs">,</add> &#38; far less to
       allude</line>
     <line>to the occurences of the prece<del rend="strikethrough">e</del>ding</line>
     <line>night. <del rend="strikethrough">I continued to walk</del>

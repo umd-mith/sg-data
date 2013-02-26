@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">65</zone>
   <zone type="library">16</zone>
   <zone type="main">
-    <line>so simple that while <modSpan spanTo="#c56-0035.01"/><delSpan spanTo="#c56-0035.02"
+    <line>so simple that while <mod spanTo="#c56-0035.01"/><delSpan spanTo="#c56-0035.02"
         rend="strikethrough"/>it intoxica</line>
     <line>ted me<anchor xml:id="c56-0035.02"/><add><ptr target="#c56-0035.03"/></add><anchor
         xml:id="c56-0035.01"/> I was surprised that I</line>
@@ -56,7 +56,7 @@
         <add place="superlinear">at first</add>
       </mod>experienced</line>
     <line>on this discovery soon gave place to</line>
-    <line>delight and rapture. <modSpan spanTo="#c56-0035.05"/><delSpan spanTo="#c56-0035.08"
+    <line>delight and rapture. <mod spanTo="#c56-0035.05"/><delSpan spanTo="#c56-0035.08"
         rend="strikethrough"/>After such</line>
     <line>painful labour<anchor xml:id="c56-0035.08"/><add place="sublinear"
           ><metamark>&#x2038;</metamark></add><add><ptr target="#c56-0035.06"/></add><anchor

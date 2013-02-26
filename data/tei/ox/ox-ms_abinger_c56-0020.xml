@@ -9,7 +9,7 @@
   <zone type="main">
     <line>duties which we ought to perform</line>
     <line>we must continue our course with</line>
-    <line>the rest <modSpan spanTo="#c56-0020.01"/><del rend="strikethrough">&#x26; bless God if
+    <line>the rest <mod spanTo="#c56-0020.01"/><del rend="strikethrough">&#x26; bless God if
         nothing</del>
       <mod>
         <del rend="strikethrough">else</del>
@@ -51,14 +51,14 @@
     <line>and <mod>
         <del rend="strikethrough">her</del>
         <add place="superlinear" hand="#pbs">she felt that the</add>
-      </mod> most imperious duty <modSpan spanTo="#c56-0020.08"/><del rend="strikethrough"
+      </mod> most imperious duty <mod spanTo="#c56-0020.08"/><del rend="strikethrough"
         next="#c56-0020.09">was</del><add place="superlinear" hand="#pbs">of</add></line>
     <line><del rend="strikethrough" xml:id="c56-0020.09">to</del> render<add place="intralinear"
         hand="#pbs">ing</add><anchor xml:id="c56-0020.08"/> her uncle and cousins hap</line>
     <line>py.<add><ptr target="#c56-0020.10"/></add> She consoled me, amused her uncle,</line>
     <line><del rend="strikethrough">and</del> instructed my brothers and I never</line>
     <line>beheld her so enchanting as at this</line>
-    <line>time when she <modSpan spanTo="#c56-0020.12"/><delSpan spanTo="#c56-0020.13"
+    <line>time when she <mod spanTo="#c56-0020.12"/><delSpan spanTo="#c56-0020.13"
         rend="strikethrough"/>sar sacrifised every</line>
     <line>minut<anchor xml:id="c56-0020.13"/><del rend="unmarked">e</del>
       <del rend="strikethrough">of her time</del>

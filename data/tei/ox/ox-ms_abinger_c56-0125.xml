@@ -24,7 +24,7 @@
     <line>the rest of mankind. <mod><add place="sublinear"><metamark>&#x2038;</metamark></add><add
       place="superlinear">If you comply with my conditions</add></mod> &#x2013;I will leave
       them</line>
-    <line>and you at peace &#x2013; <modSpan spanTo="#c56-0125.01"/><delSpan spanTo="#c56-0125.02"
+    <line>and you at peace &#x2013; <mod spanTo="#c56-0125.01"/><delSpan spanTo="#c56-0125.02"
       rend="strikethrough"/>but as I am if</line>
     <line>you do not comply with my conti condi</line>
     <line>tions<anchor xml:id="c56-0125.02"/><add place="superlinear">but if you refuse</add><anchor
@@ -44,7 +44,7 @@
     <line>with your creation; come, that I may</line>
     <line>extinguish the spark that I so negli</line>
     <line>gently bestowed." My rage was without</line>
-    <line>bounds I sprung on him <modSpan spanTo="#c56-0125.05"/><del rend="strikethrough"
+    <line>bounds I sprung on him <mod spanTo="#c56-0125.05"/><del rend="strikethrough"
       next="#c56-0125.06">that I</del><del rend="strikethrough"><add place="superlinear"
         hand="#pbs">and</add></del></line>
     <line><del rend="strikethrough" xml:id="c56-0125.06">might destroy so hateful a

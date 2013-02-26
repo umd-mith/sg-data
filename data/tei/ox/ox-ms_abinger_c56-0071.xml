@@ -95,7 +95,7 @@
     <anchor xml:id="c56-0071.02"/>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c56-0071.05" spanTo="c56-0071.06"/>
+    <addSpan xml:id="c56-0071.05" spanTo="#c56-0071.06"/>
     <line><metamark>X</metamark>had the</line>
     <line>power of bes</line>
     <line><del rend="strikethrough">bo</del> towing on</line>

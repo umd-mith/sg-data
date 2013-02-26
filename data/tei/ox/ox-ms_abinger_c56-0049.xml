@@ -64,10 +64,10 @@
     <line>just where I was standing, and on</line>
   </zone>
   <zone type="left_margin">
-    <note xml:id="c56-0049.02">
+    <milestone unit="tei:note" xml:id="c56-0049.02" spanTo="#c56-0049.03"/>
       <line><metamark>*</metamark>Coleridge's</line>
       <line>"Ancient Mariner."</line>
-    </note>
-    <!--lines cannot be nested within the note element, so we need to account for this as well as the target linking-->
+    <anchor xml:id="c56-0049.03"/>
+    
   </zone>
 </surface>

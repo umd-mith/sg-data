@@ -32,7 +32,7 @@
         <add><ptr target="#c57-0005.02"/></add>
       </mod></line>
     <line>In my joy I thrust my hand into the</line>
-    <line>live embers but quickly drew it away <modSpan spanTo="#c57-0005.04"/><add
+    <line>live embers but quickly drew it away <mod spanTo="#c57-0005.04"/><add
         place="superlinear">with a cry</add>
       <del rend="strikethrough">in</del></line>
     <line><add><ptr target="#c57-0005.05"/></add><anchor xml:id="c57-0005.04"/>pain&#x2013; How

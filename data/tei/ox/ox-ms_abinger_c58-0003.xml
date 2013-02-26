@@ -6,7 +6,7 @@
   <zone type="pagination">105</zone>
   <zone type="library">2</zone>
   <zone type="main">
-    <line><add hand="comp"><note>T.K</note></add></line>
+    <line><add hand="#comp"><note>T.K</note></add></line>
     <milestone unit="tei:p"/><line>Soon after my arrival my father spoke</line>
     <line>of my immediate marriage with my cousin. I</line>
     <line>remained silent.</line>

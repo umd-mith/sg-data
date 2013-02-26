@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
+  type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
+  href="../../xsl/page-proof.xsl"?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0"
+  lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0024" partOf="#ox-ms_shelley_e1">
+  <graphic url="../../images/ox/ox-ms_shelley_e1-0024.tif"/>
+  <zone type="main">
+    <line><seg next="#e1-0024.01">Threatenedst to muffle round with black destruction,</seg></line>
+    <line><seg xml:id="e1-0024.01"><space unit="chars" extent="45"/>sending</seg></line>
+    <line>A solid cloud to rain hot thunderstones,</line>
+    <line>And splinter &amp; knead down my childrens bones,</line>
+    <line>All I bring forth, to one void mass battering &amp; blending</line>
+    <line>Until each craglike tower &amp; storied column</line>
+    <line>Palace, &amp; Obelisk &amp; Temple solemn</line>
+    <line>My imperial mountains crowned with <mod>
+        <del rend="strikethrough">ligh</del>
+        <add place="sublinear">cloud &amp; snow &amp; fire,</add>
+      </mod></line>
+    <line>My sea-like forests, every blade &amp; blossom</line>
+    <line>Which finds a grave or cradle on my bosom</line>
+    <line><seg next="#e1-0024.02">Were stamped by thy strong hate into a lifeless</seg></line>
+    <line><space unit="chars" extent="40"/><seg xml:id="e1-0024.02">mire</seg></line>
+    <line><add><metamark>&#x2014;&#x2014;&#x2014;</metamark></add></line>
+    <line><seg next="#e1-0024.03">How art thou sunk, withdrawn, coverd&#x2014;</seg></line>
+    <line><space unit="chars" extent="36"/><seg xml:id="e1-0024.03">drunk up</seg></line>
+    <line>By thirsty nothing, as the brackish cup</line>
+    <line>Drained by a Desart-troop&#x2014;a little drop for all!</line>
+    <line>And from beneath, around, within, above,</line>
+    <line>Filling thy void annihilation, Love</line>
+    <line><seg next="#e1-0024.04">Bursts in like light on caves cloven by</seg></line>
+    <line><space unit="chars" extent="31"/><seg xml:id="e1-0024.04">the thunderball</seg></line>
+    <milestone unit="tei:speaker" spanTo="#e1-0024.05"/>
+    <line>The Moon</line>
+    <anchor xml:id="e1-0034.05"/>
+    <line>The Snow upon my lifeless mountains</line>
+    <line>Is loosened into living fountains</line>
+    <line>My solid Oceans flow &amp; sing &amp; shine</line>
+  </zone>
+</surface>

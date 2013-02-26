@@ -50,12 +50,12 @@
     <line>I had obtained was <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">of a nature</add>
-      </mod> rather <modSpan spanTo="#c56-0036.02"/><delSpan rend="strikethrough"
+      </mod> rather <mod spanTo="#c56-0036.02"/><delSpan rend="strikethrough"
         spanTo="#c56-0036.03"/>one that</line>
     <line>would<anchor xml:id="c56-0036.03"/><add place="sublinear"
         ><metamark>&#x2038;</metamark></add>
       <add hand="#pbs" place="superlinear">to</add><anchor xml:id="c56-0036.02"/> direct my
-      endeavours. <modSpan spanTo="#c56-0036.04"/><add place="sublinear"
+      endeavours. <mod spanTo="#c56-0036.04"/><add place="sublinear"
           ><metamark>&#x2038;</metamark></add>
       <delSpan spanTo="#c56-0036.05" rend="strikethough"/>that</line>
     <line>than show me the prospect with</line>
@@ -74,7 +74,7 @@
         <del rend="overwritten">,</del>
         <add place="intralinear" hand="#pbs">;</add>
       </mod>
-      <modSpan spanTo="#c56-0036.08"/><del rend="strikethrough" next="#c56-0036.09">but you
+      <mod spanTo="#c56-0036.08"/><del rend="strikethrough" next="#c56-0036.09">but you
         are</del><add hand="#pbs" place="superlinear">that cannot be.</add></line>
     <line><del rend="strikethrough" xml:id="c56-0036.09">mistaken</del><del rend="unmarked"
         >.</del><anchor xml:id="c56-0036.08"/> Listen patiently to the end</line>

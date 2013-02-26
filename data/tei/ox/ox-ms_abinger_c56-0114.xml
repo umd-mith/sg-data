@@ -49,7 +49,7 @@
     <line>expression of misery and sometimes of</line>
     <line>revenge in your countenance that</line>
     <line>makes me tremble; be calm, my <mod>
-        <restore type="stet_dots">
+        <restore type="stetdots">
           <del rend="stikethrough">beloved</del>
         </restore>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>

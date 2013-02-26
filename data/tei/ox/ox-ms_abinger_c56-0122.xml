@@ -35,8 +35,8 @@
       </mod>. For some time I</line>
     <line>sat upon the <del rend="strikethrough">the</del> rock that overlooks</line>
     <line>the sea of ice. A mist covered both</line>
-    <line>that and the surrounding <restore type="smear_cancellation"><del rend="strikethrough"
-          >mo</del></restore>untains</line>
+    <line>that and the surrounding <mod><restore type="smear_strikethrough"><del rend="strikethrough"
+          >mo</del></restore></mod>untains</line>
     <line>Presently a breeze dissipated the mist</line>
     <!--ligatured "ss" overlays "s" in "dissipated-->
     <line>and I descended on the <mod>
@@ -67,15 +67,15 @@
   </zone>
 
   <zone type="main">
-    <figure>
+    <add><figure>
       <figDesc>PBS sketch of ?head</figDesc>
-    </figure>
+    </figure></add>
   </zone>
 
   <zone type="main">
-    <figure>
+    <add><figure>
       <figDesc>PBS sketch of tree or clouds</figDesc>
-    </figure>
+    </figure></add>
   </zone>
 
   <zone type="left_margin">

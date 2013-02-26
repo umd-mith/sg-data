@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0023" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0023" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0023.tif"/>
   <zone type="pagination">125</zone>
   <zone type="library">12</zone>
@@ -25,7 +27,8 @@
     <line>of my miseries and situation and was then released</line>
     <line>from my prison. For they had called me mad</line>
     <line>and during many months, as I understood, a solita</line>
-    <line>-ry cell had been my habitation. <milestone unit="tei:p"/><add place="intralinear" hand="comp"><metamark>[</metamark></add>But liberty had</line>
+    <line>-ry cell had been my habitation. <milestone unit="tei:p"/><add place="intralinear"
+        hand="#comp"><metamark function="paragraph">[</metamark></add>But liberty had</line>
     <line>been a useless gift to me had I not <delSpan spanTo="#c58-0023.01"/>at the same</line>
     <line>time that<anchor xml:id="c58-0023.01"/> as I awakened to reason at the same</line>
   </zone>

@@ -22,10 +22,10 @@
       </mod>
       <del rend="strikethrough">agony</del> that was</line>
     <line>visible in my countenance revealed</line>
-    <line>the secret to Elizabeth. She was <modSpan spanTo="#c56-0075.01"/><delSpan
+    <line>the secret to Elizabeth. She was <mod spanTo="#c56-0075.01"/><delSpan
         rend="strikethrough" spanTo="#c56-0075.02"/>extreme</line>
     <line>ly<anchor xml:id="c56-0075.02"/><add><ptr target="#c56-0075.03"/></add><anchor
-        xml:id="c56-0075.01"/> earnest to see the corpse. <modSpan spanTo="#c56-0075.04"/><del
+        xml:id="c56-0075.01"/> earnest to see the corpse. <mod spanTo="#c56-0075.04"/><del
         rend="strikethrough">which</del><mod>
         <add place="sublinear">&#x2038;</add>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">I</add></del>

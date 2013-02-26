@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c58-0028" ulx="0" uly="0" lrx="5408" lry="6680" partOf="ox-ms_abinger_c58">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c58-0028" ulx="0" uly="0" lrx="5408" lry="6680" partOf="ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0028.tif"/>
   <zone type="pagination">130</zone>
   <zone type="main">
@@ -9,7 +11,10 @@
     <line>pursue my enemy with the punishment which</line>
     <line>is his desert.</line>
     <milestone unit="tei:p"/><line>As I spoke rage sparkled in my eyes; the ma-</line>
-    <line>gistrate was intimidated; <mod><del rend="overwritten">Y</del><add place="intralinear">y</add></mod>ou are mistaken, said</line>
+    <line>gistrate was intimidated; <mod>
+        <del rend="overwritten">Y</del>
+        <add place="intralinear">y</add>
+      </mod>ou are mistaken, said</line>
     <line>he, I will exert myself and if it is in my power to</line>
     <line>seize the monster be assured that he shall suffer</line>
     <line>punishment proportionate to his crimes. But I</line>

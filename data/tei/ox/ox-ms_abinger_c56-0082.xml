@@ -29,7 +29,7 @@
             >at</del></add>
         <add place="sublinear" xml:id="c56-0082.01" hand="#pbs">lies between</add>
       </mod></line>
-    <line>the promontory of Belrive and <modSpan spanTo="#c56-0082.02"/><del rend="strikethrough"
+    <line>the promontory of Belrive and <mod spanTo="#c56-0082.02"/><del rend="strikethrough"
         next="#c56-0082.03">changing</del><add place="superlinear" hand="#pbs" next="#c56-0082.04"
         >the</add></line>
     <line><add place="superlinear" hand="#pbs" xml:id="c56-0082.04">village of Copet</add>
@@ -59,12 +59,12 @@
     <line>my spirits; I clasped my hands &#x26; ex</line>
     <line>claimed aloud "William, dear angel,</line>
     <line>this is thy funeral, this thy dirge!"&#x2013;</line>
-    <line>As I said the<add place="sublinear">se</add> words <modSpan spanTo="#c56-0082.06"/><del
+    <line>As I said the<add place="sublinear">se</add> words <mod spanTo="#c56-0082.06"/><del
         rend="strikethrough" next="#c56-0082.07">a flash of lightning</del><add place="superlinear"
         >I perceived in the gloom</add></line>
     <line><del rend="strikethrough" xml:id="c56-0082.07">discovered to me</del><anchor
         xml:id="c56-0082.06"/> a figure which stole from</line>
-    <line>behind a clump of trees near me &#x2013; <modSpan spanTo="#c56-0082.08"/><add
+    <line>behind a clump of trees near me &#x2013; <mod spanTo="#c56-0082.08"/><add
         place="superlinear"><metamark>X</metamark></add><add><ptr target="#c56-0082.09"/></add>
       <delSpan spanTo="#c56-0082.11" rend="strikethrough"/>I stood</line>
     <line>aghast<anchor xml:id="c56-0082.11"/><anchor xml:id="c56-0082.08"/> its gigantc sta<del
