@@ -7,7 +7,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2013-02-14T10:25:07Z. 
+# Schema generated from ODD source 2013-03-07T09:58:50Z. 
 # Edition: 2.3.0. Last updated on 17th January 2013.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.3.0/
 #
@@ -1154,6 +1154,9 @@ sga-padd =
         "intralinear"
       | 
         ##
+        "interlinear"
+      | 
+        ##
         "sublinear"
     }?,
     
@@ -1199,7 +1202,7 @@ sga-pdel =
     sga-patt.typed.attributes,
     
     ## 
-    ## Suggested values include: 1] strikethrough; 2] overwritten; 3] smear; 4] vertical_line; 5] unmarked
+    ## Suggested values include: 1] strikethrough; 2] overwritten; 3] smear; 4] vertical_line; 5] unmarked; 6] erased
     attribute rend {
       
       ##
@@ -1216,6 +1219,9 @@ sga-pdel =
       | 
         ##
         "unmarked"
+      | 
+        ##
+        "erased"
       | xsd:Name
     }?,
     empty
@@ -1522,6 +1528,18 @@ sga-pmilestone =
       | 
         ##
         "tei:note"
+      | 
+        ##
+        "tei:act"
+      | 
+        ##
+        "tei:scene"
+      | 
+        ##
+        "tei:l"
+      | 
+        ##
+        "tei:canto"
     },
     empty
   }
@@ -1947,7 +1965,9 @@ sga-pzone =
      | sga-pmodel.milestoneLike
      | sga-pmodel.noteLike
      | sga-pmodel.global.edit
-     | sga-pmetamark)*,
+     | sga-pmodel.global.meta
+     | sga-pmetamark
+     | sga-pfigure)*,
     sga-patt.global.attributes,
     sga-patt.coordinated.attributes,
     sga-patt.typed.attribute.subtype,
@@ -2033,9 +2053,21 @@ sga-paddSpan =
        ],
     sga-patt.global.attributes,
     sga-patt.transcriptional.attributes,
-    sga-patt.placement.attributes,
     sga-patt.typed.attributes,
     sga-patt.spanning.attributes,
+    
+    ##
+    attribute place {
+      
+      ##
+      "superlinear"
+      | 
+        ##
+        "interlinear"
+      | 
+        ##
+        "sublinear"
+    }?,
     empty
   }
 sga-pdamage =
@@ -2176,7 +2208,29 @@ sga-phandShift =
   
   ## marks the beginning of a sequence of text written in a new hand, or the beginning of a scribal stint. [11.3.2.1. ]
   element handShift {
-    empty,
+    empty
+    >> sch:pattern [
+         id = "handShift-constraint-atLeastNewOrMedium"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:handShift"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@target or @new"
+             "\x{a}" ~
+             "                                    There must be at least @new or @medium on "
+             sch:name [ ]
+             "\x{a}" ~
+             "               "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     sga-patt.global.attributes,
     sga-patt.handFeatures.attribute.scribe,
     sga-patt.handFeatures.attribute.scribeRef,
@@ -2192,7 +2246,7 @@ sga-phandShift =
       | 
         ##
         "pencil"
-    },
+    }?,
     
     ##
     attribute new {
@@ -2202,7 +2256,7 @@ sga-phandShift =
       | 
         ##
         "#mws"
-    },
+    }?,
     empty
   }
 sga-prestore =
@@ -2340,7 +2394,8 @@ sga-pline =
      | sga-pdamage
      | sga-phandShift
      | sga-pmod
-     | sga-pretrace)*,
+     | sga-pretrace
+     | sga-prestore)*,
     sga-patt.typed.attributes,
     sga-patt.global.attribute.el-target,
     sga-patt.global.attribute.att-target,
