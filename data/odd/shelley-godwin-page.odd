@@ -636,7 +636,7 @@
                                     <valItem ident="tei:act"/>
                                     <valItem ident="tei:scene"/>
                                     <valItem ident="tei:l"/>
-                                    <valItem ident="tei:canto"/>
+                                    <valItem ident="canto"/>
                                 </valList>
                             </attDef>
                         </attList>
