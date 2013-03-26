@@ -8,12 +8,12 @@
   <zone type="main">
     <line>We have felt the wand of Power, and leap&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0009.01"/>
-    <line>Semichorus 2</line>
+    <line rend="center">Semichorus 2</line>
     <anchor xml:id="e1-0009.01"/>
     <line><del rend="strikethrough">And leap,</del></line>
     <line>As the billows leap in the morning beam</line>
     <milestone unit="tei:speaker" spanTo="#e1-0009.02"/>
-    <line>Chorus</line>
+    <line rend="center">Chorus</line>
     <anchor xml:id="e1-0009.02"/>
     <line>Weave the dance on the floor of the breeze,</line>
     <line>Pierce with song Heaven's silent light,</line>
@@ -26,32 +26,32 @@
     <line>Which chased the Day, like a bleeding deer</line>
     <line>And it limped and stumbled with many wounds</line>
     <line>T<mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">r</add>
       </mod>hough the nightly dells of the desart year</line>
     <line>But now &#x2014; oh weave the mystic measure</line>
     <line>Of music &amp; dance and shapes of light,</line>
-    <line><seg next="#e1-0009.07">Let the Hours &amp; all Spirits of might &amp;</seg></line>
-    <line><space unit="chars" extent="36"/><seg xml:id="e1-0009.07">pleasure</seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0009.07"/>Let the Hours &amp; all Spirits of might
+      &amp;</line>
+    <line rend="right">pleasure<anchor xml:id="e1-0009.07"/></line>
     <line>Like the clouds &amp; the sunbeams unite</line>
     <milestone unit="tei:speaker" spanTo="#e1-0009.03"/>
-    <line>a Voice</line>
+    <line rend="right">a Voice</line>
     <anchor xml:id="e1-0009.03"/>
-    <line>Unite!</line>
+    <line rend="right">Unite!</line>
     <milestone unit="tei:speaker" spanTo="#e1-0009.04"/>
-    <line>Panthea</line>
+    <line rend="center">Panthea</line>
     <anchor xml:id="e1-0009.04"/>
     <line>See where the Spirits of the human mind</line>
-    <line><seg next="#e1-0009.08"><mod>
-          <del rend="strikethrough">Clothed</del>
-          <add place="superlinear">Wrapt</add>
-        </mod> in sweet <mod>
-          <del rend="strikethrough">song</del>
-          <add place="superlinear">sounds</add>
-        </mod>, like radiant <mod spanTo="e1-0009.05"/><del rend="strikethrough"
-          next="#e1-0009.06">garments,</del><add place="superlinear">veils,
-      approach</add></seg></line>
-    <line><space unit="chars" extent="37"/><seg xml:id="e1-0009.08"><del rend="strikethrough"
-          xml:id="e1-0009.06">come</del><anchor xml:id="e1-0009.05"/></seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0009.08"/><mod>
+        <del rend="strikethrough">Clothed</del>
+        <add place="superlinear">Wrapt</add>
+      </mod> in sweet <mod>
+        <del rend="strikethrough">song</del>
+        <add place="superlinear">sounds</add>
+      </mod>, like radiant <mod spanTo="e1-0009.05"/><del rend="strikethrough" next="#e1-0009.06"
+        >garments,</del><add place="superlinear">veils, approach</add></line>
+    <line rend="right"><del rend="strikethrough" xml:id="e1-0009.06">come</del><anchor
+        xml:id="e1-0009.05"/><anchor xml:id="e1-0009.08"/></line>
   </zone>
 </surface>
