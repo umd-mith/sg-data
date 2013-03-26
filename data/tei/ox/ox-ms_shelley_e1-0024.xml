@@ -18,8 +18,8 @@
       </mod></line>
     <line>My sea-like forests, every blade &amp; blossom</line>
     <line>Which finds a grave or cradle on my bosom</line>
-    <line><seg next="#e1-0024.02">Were stamped by thy strong hate into a lifeless</seg></line>
-    <line><space unit="chars" extent="40"/><seg xml:id="e1-0024.02">mire</seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0024.02"/>Were stamped by thy strong hate into a lifeless</line>
+    <line rend="right">mire<anchor xml:id="e1-0024.02"/></line>
     <line><add><metamark>&#x2014;&#x2014;&#x2014;</metamark></add></line>
     <line><seg next="#e1-0024.03">How art thou sunk, withdrawn, coverd&#x2014;</seg></line>
     <line><space unit="chars" extent="36"/><seg xml:id="e1-0024.03">drunk up</seg></line>
