@@ -10,9 +10,6 @@
                 <author>
                     <persName xml:id="tmunoz">Trevor Mu&#241;oz</persName>
                 </author>
-                <author>
-                    <persName xml:id="rviglianti">Raffaele Viglianti</persName>
-                </author>
             </titleStmt>
             <publicationStmt>
                 <distributor>The Maryland Institute for Technology in the Humanites
@@ -45,7 +42,6 @@
                 zones</change>
             <change when="2012-03-24" who="tmunoz">Removed about 40 unused elements</change>
             <change when="2012-05-15" who="tmunoz">Added some schematron tests</change>
-            <change when="2013-03-07" who="rviglianti">Allowed elements and attribute values required in new spec</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -504,7 +500,6 @@
                                     <rng:ref name="handShift"/>
                                     <rng:ref name="mod"/>
                                     <rng:ref name="retrace"/>
-                                    <rng:ref name="restore"/>
                                 </rng:choice>
                             </rng:zeroOrMore>
                         </content>
@@ -567,12 +562,11 @@
                                 <valList type="closed" mode="replace">
                                     <valItem ident="superlinear"/>
                                     <valItem ident="intralinear"/>
-                                    <valItem ident="interlinear"/>
                                     <valItem ident="sublinear"/>
                                 </valList>
                             </attDef>
                             <attDef ident="type" mode="replace">
-                                <valList type="semi" mode="replace">
+                                <valList type="closed" mode="replace">
                                     <valItem ident="alternative"/>
                                 </valList>
                             </attDef>
@@ -585,15 +579,6 @@
                         <classes mode="change">
                             <memberOf key="att.responsibility" mode="add"/>
                         </classes>
-                        <attList>
-                            <attDef ident="place" mode="replace">
-                                <valList type="closed" mode="replace">
-                                    <valItem ident="superlinear"/>
-                                    <valItem ident="interlinear"/>
-                                    <valItem ident="sublinear"/>
-                                </valList>
-                            </attDef>
-                        </attList>
                     </elementSpec>
 
                     <elementSpec ident="delSpan" module="transcr" mode="change">
@@ -612,7 +597,6 @@
                                     <valItem ident="smear"/>
                                     <valItem ident="vertical_line"/>
                                     <valItem ident="unmarked"/>
-                                    <valItem ident="erased"/>
                                 </valList>
                             </attDef>
                             <attDef ident="resp" mode="delete"/>
@@ -633,10 +617,6 @@
                                     <valItem ident="tei:stage"/>
                                     <valItem ident="tei:seg"/>
                                     <valItem ident="tei:note"/>
-                                    <valItem ident="tei:act"/>
-                                    <valItem ident="tei:scene"/>
-                                    <valItem ident="tei:l"/>
-                                    <valItem ident="canto"/>
                                 </valList>
                             </attDef>
                         </attList>
@@ -655,9 +635,7 @@
                                     <rng:ref name="model.milestoneLike"/>
                                     <rng:ref name="model.noteLike"/>
                                     <rng:ref name="model.global.edit"/>
-                                    <rng:ref name="model.global.meta"/>
                                     <rng:ref name="metamark"/>
-                                    <rng:ref name="figure"/>
                                 </rng:choice>
                             </rng:zeroOrMore>
                         </content>
@@ -706,7 +684,21 @@
                                     <valItem ident="paragraph"/>
                                 </valList>
                             </attDef>
+                            <attDef ident="target">
+                                <desc>identifies one or more elements to which the function
+                                    indicated by the metamark applies. </desc>
+                                <datatype minOccurs="1" maxOccurs="unbounded">
+                                    <rng:ref name="data.pointer"/>
+                                </datatype>
+                            </attDef>
                         </attList>
+                        <exemplum xml:lang="no"><egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <line><seg xml:id="tp-ib01">bör</seg><metamark rend="underline"
+                                function="transposition" target="#tp-ib01" place="above">2.</metamark>
+                                og <seg xml:id="tp-ib02">hör</seg><metamark rend="underline"
+                                    function="transposition" target="#tp-ib02" place="above"
+                                    >1.</metamark></line></egXML></exemplum>
+                        
                     </elementSpec>
 
                     <elementSpec ident="mod" module="transcr" mode="change">
@@ -795,41 +787,17 @@
                     </elementSpec>
                     
                     <elementSpec module="transcr" ident="handShift" mode="change">
-                        <constraintSpec ident="atLeastNewOrMedium" scheme="isoschematron">
-                            <constraint>
-                                <assert xmlns="http://purl.oclc.org/dsdl/schematron"
-                                    test="@target or @new">
-                                    There must be at least @new or @medium on <name/></assert>
-                            </constraint>
-                        </constraintSpec>
                         <attList>
-                            <attDef ident="new" mode="replace" usage="opt">
+                            <attDef ident="new" mode="replace" usage="req">
                                 <valList mode="replace" type="closed">
                                     <valItem ident="#pbs"/>
                                     <valItem ident="#mws"/>
                                 </valList>
                             </attDef>
-                            <attDef ident="medium" mode="replace" usage="opt">
+                            <attDef ident="medium" mode="replace" usage="req">
                                 <valList mode="replace" type="closed">
                                     <valItem ident="pen"/>
                                     <valItem ident="pencil"/>
-                                </valList>
-                            </attDef>
-                        </attList>
-                    </elementSpec>
-
-                    <elementSpec ident="retrace"  module="transcr" mode="change">
-                        <attList>
-                            <attDef ident="cause" mode="replace" usage="opt">
-                                <valList mode="replace" type="closed">
-                                    <valItem ident="clarify"/>
-                                    <valItem ident="fix"/>
-                                </valList>
-                            </attDef>
-                            <attDef ident="hand" mode="replace" usage="opt">
-                                <valList mode="replace" type="closed">
-                                    <valItem ident="#pbs"/>
-                                    <valItem ident="#mws"/>
                                 </valList>
                             </attDef>
                         </attList>
