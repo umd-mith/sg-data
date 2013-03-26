@@ -6,30 +6,31 @@
   <graphic url="../../images/ox/ox-ms_shelley_e1-0013.tif"/>
   <zone type="library">6</zone>
   <zone type="main">
-    <line>We'll pass the Eyes</line>
-    <line>Of the starry skies</line>
+    <line rend="indent2">We'll pass the Eyes</line>
+    <line rend="indent2">Of the starry skies</line>
     <line>Into the <mod>
         <del rend="strikethrough">old</del>
         <add place="superlinear">hoar</add>
       </mod> Deep to colonize</line>
-    <line>Death Chaos &amp; Night,</line>
-    <line>From the sound of our flight</line>
+    <line rend="indent2">Death Chaos &amp; Night,</line>
+    <line rend="indent2">From the sound of our flight</line>
     <line>Shall flee, like <mod>
         <del rend="strikethrough">mists</del>
-        <add place="superlinear"><del rend="strikethrough"><hi rend="underline">dust</hi></del>
-          mist</add>
+        <del rend="strikethrough"><hi rend="underline"><add place="superlinear"
+          >dust</add></hi></del>
+        <add place="superlinear">mist</add>
       </mod> from a Tempests might</line>
-    <line>And earth air &amp; light</line>
-    <line>And the Spirit of Might</line>
+    <line rend="indent2">And earth air &amp; light</line>
+    <line rend="indent2">And the Spirit of Might</line>
     <line>Which drives round the Stars in their fiery flight;</line>
-    <line>And love, thought, &amp; breath</line>
-    <line><del rend="strikethrough">And</del> the powers that quell death,</line>
+    <line rend="indent2">And love, thought, &amp; breath</line>
+    <line rend="indent2"><del rend="strikethrough">And</del> the powers that quell death,</line>
     <line>Wherever we soar shall assemble beneath!</line>
-    <line>And our singing shall build</line>
-    <line>In the Void's loose field,</line>
+    <line rend="indent2">And our singing shall build</line>
+    <line rend="indent2">In the Void's loose field,</line>
     <line>A world for the spirit of Wisdom to weild<unclear>;</unclear></line>
-    <line>We will take our plan</line>
-    <line>From the new world of man</line>
+    <line rend="indent2">We will take our plan</line>
+    <line rend="indent2">From the new world of man</line>
     <line>And our work shall be called the Promethean</line>
   </zone>
 </surface>
