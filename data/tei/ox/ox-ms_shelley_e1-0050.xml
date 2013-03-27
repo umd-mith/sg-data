@@ -6,7 +6,7 @@
   <graphic url="../../images/ox/ox-ms_shelley_e1-0050.tif"/>
   <zone type="main">
     <line>Now <del rend="strikethrough">dimly</del> seen <mod><del rend="strikethrough">thro' tempests</del><add place="superlinear">athwart frore vapours</add></mod> deep below,</line>
-    <line>Thro whose oer-shadowing woods<del rend="strikethrough" instant="true">,</del> I wandered once</line>
+    <line>Thro whose oer-shadowing woods<del rend="strikethrough">,</del> I wandered once</line>
     <line>With Asia, drinking life from her loved eyes,</line>
     <line>Why scorns the spirit which informs ye, now</line>
     <line>To commune with me &#x2013;me alone, who checked&#x2014;</line>
@@ -20,13 +20,14 @@
     <line rend="indent4">They dare not</line>
     <milestone unit="tei:speaker" spanTo="e1-0050.02"/>
     <line rend="center">Prometheus</line><anchor xml:id="e1-0050.02"/>
-    <line>Who dares? for I would hear that curse again. . . .</line>
+    <line>Who dares? for I would hear that curse again....</line>
     <line>Ha, what an awful whisper rises up!</line>
     <line>'Tis scarce like sound, it tingles thro the frame</line>
     <line>As lightning tingles, hovering ere it strike&#x2014;</line>
     <line>Speak Spirit! from thine inorganic voice</line>
     <line>I only know that thou art moving near</line>
     <line>And love. How cursed I him?</line>
-    <line>136</line>
   </zone>
+  <zone type="pagination">136</zone>
+  <!-- Some ink on this line, presumably transferred from another page when the paper was folded. -->
 </surface>
