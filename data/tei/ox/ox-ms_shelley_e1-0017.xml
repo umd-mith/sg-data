@@ -7,13 +7,13 @@
   <zone type="library">8</zone>
   <zone type="main">
     <milestone unit="tei:speaker" spanTo="#e1-0017.01"/>
-    <line>Panthea</line>
+    <line rend="indent3">Panthea</line>
     <anchor xml:id="e1-0017.01"/>
-    <line><seg next="#e1-0017.03"><mod>
+    <line><milestone unit="tei:l" spanTo="#e1-0017.03"/><mod>
         <del rend="strikethrough">And see</del>
         <add place="superlinear">But see</add>
-      </mod>, where through two openings in the</seg></line>
-    <line><space unit="chars" extent="38"/><seg xml:id="e1-0017.03">forest</seg></line>
+      </mod>, where through two openings in the</line>
+    <line rend="right">forest<anchor xml:id="e1-0017.03"/></line>
     <line>Which hanging branches overcanopy,</line>
     <line>And where two runnels of a rivulet</line>
     <line>Between the close moss violet-inwoven</line>
@@ -21,8 +21,9 @@
         <del rend="strikethrough">friends</del>
         <add place="superlinear">sisters</add>
       </mod></line>
-    <line><seg next="#e1-0017.04">Who part with sighs that they may meet</seg></line>
-    <line><space unit="chars" extent="30"/><seg xml:id="e1-0017.04">in smiles</seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0017.04"/>Who part with sighs that they may
+      meet</line>
+    <line rend="right">in smiles<anchor xml:id="e1-0017.04"/></line>
     <line>Turning their dear disunion to an isle</line>
     <line>Of lovely grief, a wood of sweet sad thoughts</line>
     <line>Two visions of strange radiance float upon</line>
@@ -33,7 +34,7 @@
       </mod> deeper yet</line>
     <line>Under the ground &amp; through the windless air</line>
     <milestone unit="tei:speaker" spanTo="#e1-0017.02"/>
-    <line>Ione</line>
+    <line rend="indent3">Ione</line>
     <anchor xml:id="e1-0017.02"/>
     <line>I see a chariot like that thinnest boat</line>
     <line>In which the Mother of the Months is borne</line>
