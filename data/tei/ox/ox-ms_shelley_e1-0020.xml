@@ -33,8 +33,9 @@
     <line>With tyrant-quelling myrtle overtwined,</line>
     <line>Embleming Heaven &amp; earth united now,</line>
     <line>Vast beams like spokes of some invisible wheel</line>
-    <line><seg next="#e1-0020.03">Which whirl as the orb whirls, swifter than</seg></line>
-    <line><space unit="chars" extent="40"/><seg xml:id="e1-0020.03">thought,</seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0020.03"/>Which whirl as the orb whirls, swifter
+      than</line>
+    <line rend="right">thought,<anchor xml:id="e1-0020.03"/></line>
     <line>Filling the abyss with sunlike lightenings</line>
     <line><mod>
         <del rend="strikethrough">Which</del>
