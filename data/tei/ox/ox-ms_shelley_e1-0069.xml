@@ -4,32 +4,30 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
   xml:id="ox-ms_shelley_e1-0069" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0069.tif"/>
+  <zone type="library">34</zone>
   <zone type="main">
-    <line>a confused Voice 34</line>
-    <line>We hear -- thy words waken Oblivion.</line>
-    <line>Demogorgon</line>
-    <line>Spirits whose homes are flesh -- ye beasts &amp; birds</line>
-    <line>[500]</line>
-    <line>Ye worms &amp; fish -- ye living leaves &amp; buds--</line>
-    <line>Lightning &amp; Wind--&amp; ye untameable herds,</line>
-    <line>feed</line>
-    <line>Meteors &amp; mists, which <del rend="strikethrough">throng</del> Air's solitudes</line>
-    <line>a Voice</line>
+    <milestone unit="tei:speaker" spanTo="e1-0069.01"/><line rend="center">a confused Voice</line><anchor xml:id="e1-0069.01"/>
+    <line>We hear&#x2014;thy words waken Oblivion.</line>
+    <milestone unit="tei:speaker" spanTo="e1-0069.02"/><line rend="center">Demogorgon</line> <anchor xml:id="e1-0069.02"/>
+    <line>Spirits whose homes are flesh&#x2013;ye beasts &#x26; birds</line>
+    <metamark function="count">500</metamark><line rend="indent1">Ye worms &#x26; fish&#x2013;ye living leaves &#x26; buds&#x2014;</line>
+    <line>Lightning &#x26; Wind&#x2013;&#x26; ye untameable herds,</line>
+    <line rend="indent1">Meteors &#x26; mists, which <mod><del rend="strikethrough">throng</del><add>feed<!-- not sure this word is actually "feed": I can't quite make it out --></add></mod> Air's solitudes</line>
+    <milestone unit="tei:speaker" spanTo="e1-0069.03"/><line rend="center">a Voice</line><anchor xml:id="e1-0069.03"/>
     <line>Thy voice to us is wind among still woods</line>
-    <line>Demogorgon</line>
-    <line>Man who wert once a despot &amp; a slave,--</line>
-    <line>A dupe or a deciever, -- a Decay</line>
+    <milestone unit="tei:speaker" spanTo="e1-0069.04"/><line rend="center">Demogorgon</line><anchor xml:id="e1-0069.04"/>
+    <line>Man who wert once a despot &#x26; a slave,&#x2013;</line>
+    <line>A dupe or a deciever,&#x2013;a Decay</line>
     <line>A Traveller from the cradle to the grave</line>
-    <line>Through the dim night of this immortal</line>
-    <line>Day</line>
-    <line>All</line>
-    <line>Speak--thy strong words may never pass away</line>
-    <line>Demogorgon</line>
+    <line><milestone unit="tei:l" spanTo="e1-0069.05"/>Through the dim night of this immortal</line>
+    <line rend="right">Day<anchor xml:id="e1-0069.05"/></line>
+    <milestone unit="tei:speaker" spanTo="e1-0069.06"/><line rend="center">All</line><anchor xml:id="e1-0069.06"/>
+    <line>Speak&#x2014;thy strong words may never pass away</line>
+    <milestone unit="tei:speaker" spanTo="e1-0069.07"/><line rend="center">Demogorgon</line><anchor xml:id="e1-0069.07"/>
     <line>This is the Day which down the void Abysm</line>
-    <line>At the Earthborn's spell yawns for Heavens</line>
-    <line>Despotism</line>
+    <line>At the Earthborn's spell yawns for Heavens Despotism</line>
     <line>And conquest is dragged captive thro' the Deep;</line>
-    <line>Love from its awful [home] of patient power</line>
+    <line>Love from its awful home of patient power</line>
     <line>In the wise heart, from the last giddy hour</line>
   </zone>
 </surface>
