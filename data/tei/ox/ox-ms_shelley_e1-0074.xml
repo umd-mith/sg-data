@@ -15,20 +15,20 @@
     <line rend="indent1">Whom the frowning God represses</line>
     <line rend="indent1">Like vapours steaming up behind,</line>
     <line rend="indent1">Clanging loud, an endless crowd</line>
-    <milestone unit="tei:speaker" spanTo="e1-0074.03"/><line>Panthea</line>
+    <milestone unit="tei:speaker" spanTo="e1-0074.03"/><line rend="center">Panthea</line>
     <anchor xml:id="e1-0074.03"/>
     <line rend="indent1">These are Joves <del rend="strikethrough">tempest</del>-<del rend="strikethrough">walkin</del>g hounds</line>
-    <line rend="indent1">Whom he gluts on groans &amp; blood</line>
+    <line rend="indent1">Whom he gluts on groans &#x26; blood</line>
     <line rend="indent1">When charioted on sulphurous cloud</line>
     <line rend="indent2">He bursts Heaven's bounds</line>
-    <milestone unit="tei:speaker" spanTo="e1-0074.04"/><line>Ione</line>
+    <milestone unit="tei:speaker" spanTo="e1-0074.04"/><line rend="center">Ione</line>
     <anchor xml:id="e1-0074.04"/>
     <line rend="indent1">Are they now led from the thin dead</line>
     <line rend="indent1">On new pangs to be fed?</line>
-    <milestone unit="tei:speaker" spanTo="#e1-0074.05"/><line>Panthea</line>
+    <milestone unit="tei:speaker" spanTo="#e1-0074.05"/><line rend="center">Panthea</line>
     <anchor xml:id="e1-0074.05"/>
-    <line><del rend="strikethrough">Yes. but</del> The Titan looks<mod><add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+    <line><milestone unit="tei: l" spanTo="e1-0074.06"/><del rend="strikethrough">Yes. but</del> The Titan looks<mod><add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
     <add place="superlinear">as ever</add></mod> firm, <del rend="strikethrough">though</del> not</line>
-    <line rend="indent5">proud.</line>
+    <line rend="right">proud.<anchor xml:id="e1-0074.06"/></line>
   </zone>
 </surface>
