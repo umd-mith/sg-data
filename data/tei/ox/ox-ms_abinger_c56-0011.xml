@@ -106,7 +106,7 @@
   </zone>
 
   <zone type="left_margin">
-    <addSpan place="left_margin" xml:id="c56-0011.08" spanTo="#c56-0011.09" hand="#pbs"/>
+    <addSpan xml:id="c56-0011.08" spanTo="#c56-0011.09" hand="#pbs"/>
     <line><metamark>X</metamark></line>
     <line>I delighted in</line>
     <line>investigating</line>
