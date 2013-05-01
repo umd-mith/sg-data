@@ -7,7 +7,7 @@ namespace s = "http://www.ascc.net/xml/schematron"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2013-05-01T12:14:45Z. 
+# Schema generated from ODD source 2013-05-01T13:17:16Z. 
 # Edition: 2.3.0. Last updated on 17th January 2013.
 # Edition Location: http://www.tei-c.org/Vault/P5/2.3.0/
 #
@@ -2415,12 +2415,7 @@ sga-pmetamark =
         "displacement"
       | 
         ##
-        "trasnpose"
-    }?,
-    
-    ## identifies one or more elements to which the function indicated by the metamark applies. 
-    attribute target {
-      list { sga-pdata.pointer+ }
+        "transpose"
     }?,
     
     ## identifies one or more elements to which the function indicated by the metamark applies. 
