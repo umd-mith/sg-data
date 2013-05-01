@@ -682,6 +682,8 @@
                                     <valItem ident="insert"/>
                                     <valItem ident="separate"/>
                                     <valItem ident="paragraph"/>
+                                    <valItem ident="displacement"/>
+                                    <valItem ident="trasnpose"/>
                                 </valList>
                             </attDef>
                             <attDef ident="target">
