@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SGA Full text search</title>
+	<script type="text/javascript" src="js/jquery.js"></script> 
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/ajax-solr.js"></script>
+	<script type="text/javascript" src="js/search.js"></script>
+
+	<style type="text/css">
+		dt {font-style: italic;}
+		dd {margin: 0 0 1em 1em;}
+	</style>
+
+</head>
+
+<body>
+	<h1>SGA search</h1>
+	<form id="search">
+		<fieldset id="text">
+			<legend>Free text search</legend>
+			<input type="text" value="room"/><button>Go!</button></span>
+		</fieldset>
+	</form>
+	<h2>Filter results</h2>
+	<div id="facets">
+		
+	</div>
+	<h2>Matching TEI documents</h2>
+	<div id="docs">
+
+	</div>
+
+	<script type="text/javascript">
+	$(function() {
+		// $('#text input').keypress( function () {
+		// 	solrSearch ('http://localhost:8080/solr/', $('#text input').val());
+		// });
+		$('#text button').click( function () {
+			solrSearch ('http://localhost:8080/solr/', $('#text input').val());
+		    return false;
+		});
+	});
+</script>
+
+</body>
+</html>
