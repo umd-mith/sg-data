@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2013-05-01T13:17:16Z. 
+Schema generated from ODD source 2013-05-02T15:36:05Z. 
 Edition: 2.3.0. Last updated on 17th January 2013.
 Edition Location: http://www.tei-c.org/Vault/P5/2.3.0/
 
@@ -2000,6 +2000,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
             <value>superlinear</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>intralinear</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>interlinear</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>sublinear</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
