@@ -94,7 +94,10 @@
     </zone>
   
   <zone type="left_margin" corresp="#c57-0013.">
-    <line><add>nature they <hi rend="sup">were a</hi></add></line>
+    <addSpan/>
+    <line rend="right"><seg>were a</seg></line>
+    <line><seg>nature they</seg></line>
+    <anchor/>
   </zone>
   <!--try a transpose here. for "they were a" the "were a" is above "they" -->
   
