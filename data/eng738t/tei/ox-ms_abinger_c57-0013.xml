@@ -9,7 +9,8 @@
   <zone type="library">7</zone>
   <zone type="main">
     <line>It was a lovely sight even to me poor</line>
-    <line><del rend="strikethrough">whec</del> wretch who had never beheld aught</line>
+    <line><del rend="strikethrough" instant="true">whec</del> wretch who had never beheld
+      aught</line>
     <line>beautiful before. <mod>
         <del rend="strikethrough">his</del>
         <add place="superlinear">the</add>
@@ -46,17 +47,18 @@
         >my own hard nerves</del><add hand="#pbs" place="superlinear" next="#c57-0013.04">sensations
         of a peculiar &amp; overpowering</add></line>
     <line><del rend="strikethrough" xml:id="c57-0013.03" next="#c57-0013.05">move and I was obliged
-        to withdraw from</del><add place="superlinear" hand="#pbs" xml:id="c57-0013.04"
-        next="#c57-0013.06"><mod>
+        to withdraw from</del>
+      <anchor xml:id="c57-0013.06"/>
+      <add place="superlinear" hand="#pbs" xml:id="c57-0013.04" next="#c57-0013.07"><mod>
           <del rend="overwritten"><unclear>nature</unclear></del>
           <add place="intralinear" hand="#mws">mixture</add>
         </mod> of pain &amp; pleasure; such <del rend="strikethrough">as</del> as I had never
         experienced</add></line>
     <line><del rend="strikethrough" xml:id="c57-0013.05">my the hole. Presently the young
-        ma</del><add place="superlinear" hand="#pbs" xml:id="c57-0013.06">either from <del
+        ma</del><add place="superlinear" hand="#pbs" xml:id="c57-0013.07">either from <del
           rend="strikethrough">the</del> hunger or cold, <del rend="strikethrough">orfrom</del> or
         warmth or food and I</add>
-      <anchor xml:id="c57-0013.07"/></line><anchor xml:id="c57-0013.02"/>
+      <anchor xml:id="c57-0013.08"/></line><anchor xml:id="c57-0013.02"/>
     <milestone unit="tei:p"/>
     <line rend="indent1">Soon after this the young man returned</line>
     <line>bearing on his sholders a <del rend="strikethrough" instant="true">load</del> load of
@@ -81,7 +83,7 @@
         <add place="superlinear">afterwards</add>
       </mod> continued her work <mod>
         <del rend="strikethrough">&amp;</del>
-        <anchor xml:id=""/>
+        <anchor xml:id="c57-0013.10"/>
       </mod></line>
     <line>the young man went into the <del rend="strikethrough" instant="true">pa</del>
       garden</line>
@@ -93,26 +95,22 @@
   </zone>
 
 
-
-
-
-
   <zone type="left_margin">
     <add><figure>
         <figDesc>Faint sketch of flowers</figDesc>
       </figure></add>
   </zone>
 
-  <zone type="left_margin" corresp="#c57-0013.">
+  <zone type="left_margin" corresp="#c57-0013.06">
     <addSpan/>
     <line rend="right"><seg>were a</seg></line>
     <line><seg>nature they</seg></line>
     <anchor/>
   </zone>
-  <!--try a transpose here. for "they were a" the "were a" is above "they" -->
+  <!-- transpose here. for "they were a" the "were a" is above "they" -->
 
-  <zone type="left_margin" corresp="#c57-0013.07">
-    <addSpan hand="#pbs" xml:id="c57-0013." spanTo="#c57-0013."/>
+  <zone type="left_margin" corresp="#c57-0013.08">
+    <addSpan hand="#pbs" spanTo="#c57-0013.09"/>
     <line><mod>
         <del rend="overwritten">withdrew</del>
         <add place="intralinear" hand="#mws">from my station</add>
@@ -128,9 +126,9 @@
         <del rend="unmarked">ns</del>
         <add place="sublinear" hand="#mws">emotions</add>
       </mod></line>
-    <anchor xml:id="c57-0013."/></zone>
+    <anchor xml:id="c57-0013.09"/></zone>
 
-  <zone type="left_margin" corresp="#c57-0013.">
+  <zone type="left_margin" corresp="#c57-0013.10">
     <line><add hand="#pbs">whilst</add></line>
   </zone>
 </surface>
