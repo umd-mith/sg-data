@@ -44,20 +44,23 @@
     <line>her work knelt at his feet he rasied her</line>
     <line>and smiled with such <del rend="strikethrough">grace</del> kindness &amp;</line>
     <line>love that I felt <mod spanTo="#c57-0013.02"/><del rend="strikethrough" next="#c57-0013.03"
-        >my own hard nerves</del><add hand="#pbs" place="superlinear" next="#c57-0013.04">sensations
-        of a peculiar &amp; overpowering</add></line>
+        >my own hard nerves</del><retrace hand="#mws"><add hand="#pbs" place="superlinear"
+          next="#c57-0013.04">sensations of a peculiar &amp; overpowering</add></retrace></line>
     <line><del rend="strikethrough" xml:id="c57-0013.03" next="#c57-0013.05">move and I was obliged
         to withdraw from</del>
       <anchor xml:id="c57-0013.06"/>
       <add place="superlinear" hand="#pbs" xml:id="c57-0013.04" next="#c57-0013.07"><mod>
           <del rend="overwritten"><unclear>nature</unclear></del>
           <add place="intralinear" hand="#mws">mixture</add>
-        </mod> of pain &amp; pleasure; such <del rend="strikethrough">as</del> as I had never
-        experienced</add></line>
+        </mod>
+        <retrace hand="#mws">of pain &amp; pleasure; such <del rend="strikethrough">as</del> as I
+          had never experienced</retrace></add></line>
     <line><del rend="strikethrough" xml:id="c57-0013.05">my the hole. Presently the young
-        ma</del><add place="superlinear" hand="#pbs" xml:id="c57-0013.07">either from <del
-          rend="strikethrough">the</del> hunger or cold, <del rend="strikethrough">orfrom</del> or
-        warmth or food and I</add>
+        ma</del><add place="superlinear" hand="#pbs" xml:id="c57-0013.07"><retrace hand="#mws"
+          >either from</retrace>
+        <del rend="strikethrough">the</del>
+        <retrace hand="#mws">hunger or cold</retrace>, <del rend="strikethrough">orfrom</del>
+        <retrace hand="#mws">or warmth or food and I</retrace></add>
       <anchor xml:id="c57-0013.08"/></line><anchor xml:id="c57-0013.02"/>
     <milestone unit="tei:p"/>
     <line rend="indent1">Soon after this the young man returned</line>
@@ -116,17 +119,19 @@
         <add place="intralinear" hand="#mws">from my station</add>
         <add place="superlinear" hand="#mws">withdrew</add>
       </mod></line>
-    <line>unable to</line>
-    <line>bear <mod>
+    <line><retrace hand="#mws">unable to</retrace></line>
+    <line><retrace hand="#mws">bear</retrace>
+      <mod>
         <del rend="overwritten">these new</del>
         <add place="intralinear" hand="#mws">these</add>
       </mod></line>
     <line><mod>
-        <del rend="strikethrough">emotio</del>
+        <del rend="strikethrough"><retrace hand="#mws">emotio</retrace></del>
         <del rend="unmarked">ns</del>
+        <anchor xml:id="c57-0013.09"/>
         <add place="sublinear" hand="#mws">emotions</add>
       </mod></line>
-    <anchor xml:id="c57-0013.09"/></zone>
+  </zone>
 
   <zone type="left_margin" corresp="#c57-0013.10">
     <line><add hand="#pbs">whilst</add></line>
