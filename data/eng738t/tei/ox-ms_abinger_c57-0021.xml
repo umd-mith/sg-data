@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0021" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0021" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0021.tif"/>
   <zone type="pagination" rend="bordered">20</zone>
   <zone type="library">11</zone>
@@ -12,58 +14,61 @@
     <line>their harsh <del rend="strikethrough">and rud</del> manners &amp; rude</line>
     <line>gait only enhanced to me <del rend="strikethrough">th</del>
       <del rend="strikethrough">my friends</del></line>
-    <line><add><ptr target="#c57-0021.01"/></add> the superior advantages of m<add hand="#pbs">y</add> friends.</line>
+    <line>the superior advantages of m<retrace hand="#pbs" cause="clarify">y</retrace>
+      friends.</line>
     <line>The <del rend="strikethrough">Father</del> old man, I could percieve,</line>
     <line>often endeavoured to encourage his</line>
     <line>children as I sometimes found that</line>
-    <line>he called them <mod type="additions" hand="#pbs">
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear">to case off their melancholy.</add>
+    <line>he called them. <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">to cast off their melancholy.</add>
       </mod> He would talk in</line>
     <line>a cheerful accent with an <mod>
-        <del xml:id="c57-0021.02" next="#c57-0021.03" rend="strikethrough">aspect</del>
+        <del rend="strikethrough">aspect</del>
         <add place="superlinear">expression of</add>
       </mod></line>
-    <line><del xml:id="c57-0021.03" prev="#c57-0021.02" rend="strikethrough">godn</del> goodness
-      that <mod>
+    <line><del rend="strikethrough" instant="true">godn</del> goodness that <mod>
         <del rend="strikethrough">even</del>
         <del rend="strikethrough">gave</del>
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear">bestowed pleasure</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough">me</del>
         <del rend="strikethrough">delight.</del>
+        <add place="superlinear">bestowed pleasure</add>
       </mod></line>
-    <line><add><ptr target="#c57-0021.04"/></add> Agatha listened with respect&#x2014;her
-      eyes</line>
-    <line><del rend="triple-strike">f</del> somethimes filled with tears which</line>
-    <line><add><ptr target="#c57-0021.05"/></add> wipe<del rend="strikethrough">d</del> away
-      unpercieved but I general</line>
+    <line><anchor xml:id="c57-0021.01"/>Agatha listened with respect&#x2013; her eyes</line>
+    <line><del rend="strikethrough">f</del> somethimes filled with tears which</line>
+    <line><metamark function="displacement" xml:id="c57-0021.02"/>wipe<del rend="strikethrough"
+        >d</del> away unpercieved but I general</line>
     <line>ly found that her manners and tone</line>
     <line>were more cheerful after having listen</line>
     <line>end to <del rend="strikethrough">the</del> the exhortations of her father</line>
     <line>It was not thus with Felix. He was</line>
-    <line>always the saddest of the groupe and</line>
+    <line>always the saddest of the groupe And</line>
     <line>even to my unpractised senses he</line>
     <line>appeared to have suffered more</line>
     <line>deeply than his friends. But if his</line>
     <line>countenance was more sorrowful</line>
     <line>his voice was more cheerful than</line>
-    <line><add><ptr target="#c57-0021.06"/></add> his sister<del rend="strikethrough">es</del>
-      expecially when he</line>
-    <line>addressed the old man &#x2014;</line>
+    <line><anchor xml:id="c57-0021.03"/>his sister<del rend="strikethrough"
+        ><unclear>es</unclear></del> expecially when he</line>
+    <line>addressed the old man&#x2014;</line>
   </zone>
+
   <zone type="left_margin">
-    <add hand="#pbs" xml:id="c57-0021.01"><figure>
-        <desc>faint PBS pencil sketch of trees</desc>
+    <add hand="#pbs"><figure>
+        <figDesc>faint PBS pencil sketch of trees</figDesc>
       </figure></add>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0021.04">even on me;</add></line>
+
+  <zone type="left_margin" corresp="#c57-0021.01">
+    <line><add>even on me; </add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0021.05">she endeavoured to</add></line>
+
+  <zone type="left_margin" corresp="#c57-0021.02">
+    <line><add>she endeavoured <hi rend="sup">to</hi></add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0021.06">that of</add></line>
+
+  <zone type="left_margin" corresp="#c57-0021.03">
+    <line><add>that of </add></line>
   </zone>
 </surface>
