@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0024" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+        xml:id="ox-ms_abinger_c57-0024" ulx="0" uly="0" lrx="5368" lry="7104"
+        partOf="ox-ms_abinger_c57">
         <graphic url="../../images/ox/ox-ms_abinger_c57-0024.tif"/>
         <zone type="main">
                 <line><del rend="strikethrough">chains expected in despair the execution of</del>
@@ -10,17 +13,20 @@
                                 at</del></line>
                 <line><del rend="strikethrough">night and made known to the prisoner
                         his</del></line>
-                <line><del rend="strikethrough">intentions in his favour.</del><anchor xml:id="c57-0023.01"/></line>
-                <milestone unit="paragraph"/>
+                <line><del rend="strikethrough">intentions in his favour.</del><anchor
+                                xml:id="c57-0023.01"/></line>
+                <milestone unit="tei:p"/>
                 <!--complicated scholar's note, indicating that MWS intertwined 2 sets of insert pages starting at this point—the subsequent two pages require translation of this note into encoding, but I'm not sure how we'll go about this. Moreover, the scholar includes no scholar's version of the transcription (right column of the Word file). Is the meaning that these two issues in particular a revision of Chapter 5?-->
                 <zone type="pagination">59</zone>
                 <zone type="main">
-                        <line><del rend="strikethrough">For</del> During the ensueing days <add place="superlinear"><metamark>——————————</metamark>while
+                        <line><del rend="strikethrough">For</del> During the ensueing days <add
+                                        place="superlinear"><metamark>——————————</metamark>while
                                         the</add> preparations were</line>
                         <line><mod>
                                         <del rend="strikethrough">made</del>
                                         <add place="superlinear">going forward</add>
-                                </mod> for the escape of the merchant. <del rend="strikethrough">And</del> the</line>
+                                </mod> for the escape of the merchant. <del rend="strikethrough"
+                                        >And</del> the</line>
                         <line>zeal of Felix was warmed by several letters</line>
                         <line>that he received from this lovely <mod>
                                         <del rend="strikethrough">Amina</del>
@@ -68,14 +74,16 @@
                         <line>made a slave by the Turks. <del rend="strikethrough">&amp;</del>
                                 recommended by</line>
                         <line>her beauty she had won the heart of</line>
-                        <line>the <del>pr</del>father of <del rend="strikethrough">Amina</del><add place="superlinear">Safie</add> who married her.</line>
+                        <line>the <del>pr</del>father of <del rend="strikethrough">Amina</del><add
+                                        place="superlinear">Safie</add> who married her.</line>
                         <line>The young girl spoke in high &amp; enthusiastic</line>
                 </zone>
                 <zone type="left_margin">
                         <metamark rend="horizontal line"/>
                         <line><metamark>✗</metamark>before I depart I will give them to you
                                 they</line>
-                        <line>will prove to you the truth of my tale <del rend="strikethrough">&amp;</del>but at</line>
+                        <line>will prove to you the truth of my tale <del rend="strikethrough"
+                                        >&amp;</del>but at</line>
                         <line>present as the sun already begins to decline I shall only have</line>
                         <line>time to repeat the substance to you</line>
                 </zone>
