@@ -8,24 +8,25 @@
         <del rend="strikethrough">carry on</del>
         <add place="superlinear">prolong</add>
       </mod> the deceit untill it</line>
-    <line>was no longer necessary; and then <add hand="#pbs" place="superlinear"><unclear precision="high" reason="faint ink" extent="2" unit="chars">to</unclear></add> carry
-      his</line>
+    <line>was no longer necessary; and then <add hand="#pbs" place="superlinear">to</add> carry his</line>
     <line>daughter to Africa with him. <del rend="strikethrough">And</del> His</line>
     <line>plans were greatly facillitated by the news</line>
     <line><mod>
         <del rend="strikethrough">that</del>
-        <add hand="#pbs" place="superlinear"> which</add>
+        <add hand="#pbs" place="superlinear">which</add>
       </mod> arrived from Paris.</line>
     <milestone unit="tei:p"/>
-    <line>The government of France were greatly</line>
+    <line rend="indent2">The government of France were greatly</line>
     <line>enraged at the escape of their victim and spared</line>
-    <line>no pains to discover and punish his deliverer<unclear precision="high" reason="illegible" unit="chars" extent="1">.</unclear></line>
+    <line>no pains to discover and punish his deliverer<unclear>.</unclear></line>
     <line>The plot of Felix was quickly discovered &amp;</line>
     <line>De Lacey &amp; Agathat were thrown intto prison</line>
     <line><delSpan rend="strikethrough" spanTo="#c57-0027.01"/>This news reached the youth and
       awakened</line>
     <line>him from the blissful dream that he enjoyed.<anchor xml:id="c57-0027.01"/></line>
     <line>The news reached Felix and roused him from</line>
+    
+    
     <line>his dream of pleasure. His blind <mod>
         <del rend="strikethrough">&amp; <unclear precision="low" extent="2" unit="chars" reason="illegible">in</unclear></del>
         <add place="superlinear">&amp; aged</add>
