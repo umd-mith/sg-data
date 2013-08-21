@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0033" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0033" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0033.tif"/>
   <zone type="pagination">
     <line>59</line>
@@ -12,37 +14,40 @@
   <zone type="main">
     <line>heart of Felix <del rend="strikethrough">and resolved to obtain</del>
       <delSpan spanTo="#c57-0033.01"/>his</line>
-    <line>at any price the full zeal<anchor xml:id="c57-0033.01"/> and <del rend="strikethrough">resolved</del></line>
-    <line><add><ptr target="#c57-0033.02"/></add> to secure <del rend="strikethrough">the</del>
+    <line>at any price the full zeal<anchor xml:id="c57-0033.01"/> and <mod>
+        <del rend="strikethrough">resolved</del>
+        <anchor xml:id="c57-0033.02"/>
+      </mod></line>
+    <line>to secure <del rend="strikethrough">the</del>
       <del rend="strikethrough">interest</del> him <mod>
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear">more entirely </add>
         <del rend="strikethrough">at any pr</del>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">more entirely </add>
       </mod> by</line>
     <line>the promise of her hand in marriage;</line>
-    <line>Felix was too delicate to accept <add hand="#pbs" place="superlinear"><del rend="strikethrough">offer</del></add>
-      <del rend="smear">this</del><add hand="#pbs" place="superlinear">offer</add> yet</line>
+    <line>Felix was too delicate to accept <mod><del
+          rend="strikethrough"><add hand="#pbs" place="superlinear">offer</add></del>
+      <restore type="smear_strikethrough"><del rend="strikethrough">this</del></restore><add hand="#pbs"
+        place="superlinear">offer</add></mod> yet</line>
     <line>he looked forward to the probability of</line>
     <line>that event as the consummation of</line>
-    <line>his happiness.<milestone unit="paragraph"/></line>
-    <line><add><ptr target="c57-0033.02"/></add>The Turk informed Safie of his</line>
-    <line>intentions and</line>
-  </zone>
-  <!--see scholar's note on this section 
-      marked up in shaded area in transcription. 
-      proposed application of main and pagination zone. see
-      earlier notes in scholar's transcription 
-      relating to shaded area-->
-  <zone type="pagination">
+    <line>his happiness.</line>
+   <zone type="pagination">
     <line>64</line>
-  </zone>
+  </zone>  
+    <milestone unit="tei:p"/>
+    <line rend="indent1">The Turk informed Safie of his</line>
+    <line>intentions and</line>
+    <line rend="center"><metamark function="separate">_________________________</metamark></line>
+  
+ 
   <zone type="main">
-    <line><metamark rend="horizontal line"/></line>
+    
     <line>and rank <mod>
         <del rend="strikethrough">her father</del>
         <add place="superlinear">the merchant</add>
       </mod> commander</line>
-    <line><del rend="strikethrough">her</del><add><ptr target="#c57-0033.03"/></add>his daughter to
+    <line><mod><del rend="strikethrough">her</del><add place="superlinear">his daughter</add></mod> to
       think no more of <mod>
         <del rend="strikethrough">him</del>
         <add place="superlinear">her lover</add>
@@ -72,10 +77,8 @@
     <line>bound for Constantinople which<anchor xml:id="c57-0033.04"/> He had</line>
     <line>consequently hired a vessel to convey him</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0033.02">endeavored</add></line>
+  <zone type="left_margin" corresp="#c57-0033.02">
+    <line><add>endeavored </add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0033.03">his daughter</add></line>
-  </zone>
+  
 </surface>
