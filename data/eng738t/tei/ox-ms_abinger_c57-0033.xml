@@ -8,77 +8,85 @@
   <zone type="pagination">
     <line>59</line>
   </zone>
+
+  <zone type="pagination">
+    <line>64</line>
+  </zone>
+  <!--There are two pagination numbers given. Sort out inserts sequence.-->
   <zone type="library">
     <line>17</line>
   </zone>
+
   <zone type="main">
     <line>heart of Felix <del rend="strikethrough">and resolved to obtain</del>
       <delSpan spanTo="#c57-0033.01"/>his</line>
     <line>at any price the full zeal<anchor xml:id="c57-0033.01"/> and <mod>
-        <del rend="strikethrough">resolved</del>
+        <del rend="strikethrough">re<mod>
+            <del rend="overwritten"><unclear>l</unclear></del>
+            <add place="intralinear">s</add>
+          </mod>olved</del>
         <anchor xml:id="c57-0033.02"/>
       </mod></line>
     <line>to secure <del rend="strikethrough">the</del>
-      <del rend="strikethrough">interest</del> him <mod>
+      <del rend="strikethrough">interrest</del> him <mod>
         <del rend="strikethrough">at any pr</del>
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">more entirely </add>
       </mod> by</line>
     <line>the promise of her hand in marriage;</line>
-    <line>Felix was too delicate to accept <mod><del
-          rend="strikethrough"><add hand="#pbs" place="superlinear">offer</add></del>
-      <restore type="smear_strikethrough"><del rend="strikethrough">this</del></restore><add hand="#pbs"
-        place="superlinear">offer</add></mod> yet</line>
+    <line>Felix was too delicate to accept <mod>
+        <del rend="strikethrough"><add hand="#pbs" place="superlinear">offer</add></del>
+        <restore type="smear_strikethrough"><del rend="strikethrough">this</del></restore>
+        <add hand="#pbs" place="superlinear">offer</add>
+      </mod> yet</line>
     <line>he looked forward to the probability of</line>
     <line>that event as the consummation of</line>
     <line>his happiness.</line>
-   <zone type="pagination">
-    <line>64</line>
-  </zone>  
     <milestone unit="tei:p"/>
     <line rend="indent1">The Turk informed Safie of his</line>
     <line>intentions and</line>
     <line rend="center"><metamark function="separate">_________________________</metamark></line>
-  
- 
-  <zone type="main">
-    
     <line>and rank <mod>
         <del rend="strikethrough">her father</del>
         <add place="superlinear">the merchant</add>
       </mod> commander</line>
-    <line><mod><del rend="strikethrough">her</del><add place="superlinear">his daughter</add></mod> to
-      think no more of <mod>
+    <line><mod>
+        <del rend="strikethrough">her</del>
+        <add place="superlinear">his daughter</add>
+      </mod> to think no more of <mod>
         <del rend="strikethrough">him</del>
         <add place="superlinear">her lover</add>
       </mod> but to</line>
     <line>repare to return to her native country</line>
-    <line>with him. The generous nature of Safie</line>
-    <line>was outraged by this command. She attempt</line>
+    <line>with him.&#x2013;The generous nature of Safie</line>
+    <line>was outraged by this command &#x2013;She attempt</line>
     <line>ed to expostulate with her father but</line>
     <line>he left<del rend="strikethrough">er</del> her angrily <del rend="strikethrough">re</del>
       reiterating his</line>
-    <line>tyrannical <del rend="strikethrough"><hi rend="underline">command</hi></del>
-      <del rend="cross-hatch">orders.</del></line>
+    <line>tyrannical <hi rend="underline"><del rend="strikethrough">command</del>.</hi>
+      <del rend="strikethrough">orders.</del></line>
+    <!--the underline below "command" either questions it or possibly restores it after deletion of "orders"-->
     <milestone unit="tei:p"/>
-    <line>A few days after the Turk entered</line>
-    <line>his daughts appartment and told her</line>
+    <line rend="indent2">A few days after the Turk entered</line>
+    <line>his daughters appartment and told her</line>
     <line>hastily that he had reason to believe</line>
     <line>that his residence in Leghorn had been</line>
-    <line>divulged and that he <del rend="strikethrough">would</del>
-      <add place="superlinear"><del rend="strikethrough">was</del> should</add>
-      <del rend="double-strike">b</del> speedily</line>
-    <line>be delivered <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
-        <add precision="medium" hand="#pbs" place="superlinear">up</add>
-      </mod> to the French Government.</line>
-    <line><delSpan spanTo="#c57-0033.04" rend="strikethrough"/>He had just heard of ta small
+    <line>divulged and that he <mod>
+        <del rend="strikethrough">would</del>
+        <add place="superlinear"><del rend="strikethrough">was</del> should</add>
+        <del rend="strikehthrough">b</del>
+      </mod> speedily</line>
+    <line>be delivered <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add hand="#pbs" place="superlinear">up</add>
+      </mod> to the French Government&#x2013;</line>
+    <line><delSpan spanTo="#c57-0033.04" rend="strikethrough"/>He had just heard of a small
       vessel</line>
     <line>bound for Constantinople which<anchor xml:id="c57-0033.04"/> He had</line>
-    <line>consequently hired a vessel to convey him</line>
+    <line>consequently hired a vessel to convey hin</line>
   </zone>
   <zone type="left_margin" corresp="#c57-0033.02">
     <line><add>endeavored </add></line>
   </zone>
-  
+
 </surface>
