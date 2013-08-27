@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0037" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+    xml:id="ox-ms_abinger_c57-0037" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
     <graphic url="../../images/ox/ox-ms_abinger_c57-0037.tif"/>
-    <zone type="pagination" rend="bordered"><unclear reason="illegible" precision="medium" extent="1" unit="chars">62</unclear></zone>
+    <zone type="pagination" rend="bordered"><unclear>62</unclear></zone>
     <zone type="main">
         <line><delSpan spanTo="#c57-0037.01" rend="strikethrough"/>having overcome many difficulties
             succeeded</line>
@@ -18,7 +20,8 @@
                 <del rend="strikethrough">&#x2013;</del>
                 <del rend="strikethrough">and</del>
                 <add place="sublinear">&#x2038;</add>
-                <add place="superlinear"><del rend="strikethrough"><unclear reason="overwritten" extent="4" precision="low" unit="chars">prom</unclear></del>
+                <add place="superlinear"><del rend="strikethrough"><unclear reason="overwritten"
+                            extent="4" precision="low" unit="chars">prom</unclear></del>
                     <del rend="strikethrough">it fr</del></add>
             </mod> I learned <mod type="additions">
                 <add place="sublinear">&#x2038;</add>
@@ -59,7 +62,8 @@
             </mod></line>
         <line><del rend="strikethrough">place</del> in the beginning of the month</line>
         <line>of August of <del rend="strikethrough">that</del>
-            <add place="superlinear" hand="#pbs">the same</add> year.<milestone unit="paragraph"/></line>
+            <add place="superlinear" hand="#pbs">the same</add> year.<milestone unit="tei:p"
+            /></line>
         <line><add><ptr target="c57-0037.04"/></add>One night during my accustomed</line>
         <line>visit to the neighbouring wood where</line>
         <line>I collected my own food and brought</line>
@@ -104,7 +108,8 @@
                         <add place="intralinear">se</add>
                     </mod> histories</add>
             </mod> when my</line>
-        <line>friends were employed <unclear reason="smear" extent="8" unit="chars" precision="high">in their</unclear> ordinary</line>
+        <line>friends were employed <unclear reason="smear" extent="8" unit="chars" precision="high"
+                >in their</unclear> ordinary</line>
         <line><mod>
                 <del rend="strikethrough">concerns</del>
                 <add place="sublinear">&#x2038;</add>
