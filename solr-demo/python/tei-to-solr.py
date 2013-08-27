@@ -70,6 +70,18 @@ class GSAContentHandler(xml.sax.ContentHandler):
         # Initialize doc
         self.doc = Doc(
             solr = self.solr)
+
+        print self.doc
+        #purge 
+        self.doc.shelfmark=""
+        self.doc.doc_id=None
+        self.doc.text=""
+        self.doc.hands={"mws":"","pbs":"", "comp":""}
+        self.doc.mod={"add":[],"del":[]}
+        self.doc.hands_pos={"mws":[], "pbs":[], "comp":[]}
+        self.doc.hands_tei_pos={"mws":[], "pbs":[], "comp":[]}
+        self.doc.mod_pos={"add":[],"del":[]}
+        # print self.doc.mod["add"]
  
     def startElement(self, name, attrs):
         # add element to path stack
@@ -121,6 +133,7 @@ class GSAContentHandler(xml.sax.ContentHandler):
         if name == "surface":
             self.doc.end = self.pos
             self.doc.commit()
+
             print "**** end of file" 
 
         if name == "add":
@@ -160,7 +173,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # Connect to solr instance
-    s = solr.SolrConnection('http://localhost:8080/solr')
+    s = solr.SolrConnection('http://localhost:8080/solr/sga')
 
     # Walk provided directory for xml files; parse them and create/commit documents
     xml_dir = os.path.normpath(sys.argv[1]) + os.sep
