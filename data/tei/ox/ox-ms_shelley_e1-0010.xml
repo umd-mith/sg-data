@@ -6,32 +6,32 @@
   <graphic url="../../images/ox/ox-ms_shelley_e1-0010.tif"/>
   <zone type="main">
     <milestone unit="tei:speaker" spanTo="#e1-0010.01"/>
-    <line>Chorus of Spirits</line>
+    <line rend="center">Chorus of Spirits</line>
     <anchor xml:id="e1-0010.01"/>
-    <line>We join the throng</line>
-    <line>Of the dance &amp; the song</line>
+    <line rend="indent1">We join the throng</line>
+    <line rend="indent1">Of the dance &amp; the song</line>
     <line>By the whirlwind of gladness borne along;</line>
-    <line>As the flying-fish leap</line>
-    <line>From the Indian deep,</line>
+    <line rend="indent1">As the flying-fish leap</line>
+    <line rend="indent1">From the Indian deep,</line>
     <line>And mix with the sea birds half asleep.</line>
     <milestone unit="tei:speaker" spanTo="#e1-0010.02"/>
-    <line>Chorus of Hours</line>
+    <line rend="center">Chorus of Hours</line>
     <anchor xml:id="e1-0010.02"/>
     <line>Whence come<del rend="strikethrough">s</del> ye so wild &amp; so fleet</line>
     <line>For sandals of lightning are on your feet</line>
     <line>And your wings are soft &amp; swift as thought,</line>
     <line>And your eyes are as Love which is veiled not<unclear>?</unclear></line>
     <milestone unit="tei:speaker" spanTo="#e1-0010.03"/>
-    <line>Chorus of spirits</line>
+    <line rend="center">Chorus of spirits</line>
     <anchor xml:id="e1-0010.03"/>
-    <line>We come from the mind</line>
-    <line>Of human kind</line>
+    <line rend="indent1">We come from the mind</line>
+    <line rend="indent1">Of human kind</line>
     <line>Which was late so dusk &amp; obscene &amp; blind<unclear>;</unclear></line>
-    <line>Now tis an Ocean,</line>
-    <line>Of clear emotion</line>
+    <line rend="indent1">Now tis an Ocean,</line>
+    <line rend="indent1">Of clear emotion</line>
     <line>A Heaven of serene &amp; mighty motion.</line>
-    <line>From that deep Abyss</line>
-    <line>Of wonder &amp; bliss</line>
+    <line rend="indent1">From that deep Abyss</line>
+    <line rend="indent1">Of wonder &amp; bliss</line>
     <line>Whose caverns are chrystal palaces,</line>
   </zone>
 </surface>

@@ -30,21 +30,20 @@
     <line>Upon a thousand sightless axles spinning</line>
     <line>And with the force of self destroying swiftness</line>
     <line>Intensely slowly solemnly roll on&#x2014;</line>
-    <line><space unit="chars" extent="33"/><metamark>&#x2014;&#x2014;&#x2014;</metamark></line>
-    <line><add place="intralinear"><ptr target="#e1-0019.02"/></add></line>
-    <line><add place="intralinear"><ptr target="#e1-0019.03"/></add></line>
+    <line><space unit="chars" extent="33"/><mod spanTo="#e1-0019.04"/><add place="sublinear"><metamark function="insert">&#x2014;&#x2014;&#x2014;</metamark></add></line>
+    <line><anchor xml:id="e1-0019.02"/></line>
+    <line><anchor xml:id="e1-0019.03"/></line><anchor xml:id="e1-0019.04"/>
     <line>With mighty whirl the multitudinous Orb</line>
     <line>Grinds the bright brook into an azure mist</line>
     <line>Of elemental subtlety, like light,</line>
     <line>And the wild odour of the forest flowers</line>
     <line>The music of the living grass &amp; air</line>
     <line>The emerald light of leaf-entangled beams</line>
-    <zone type="left_margin" rotate="270">
-      <line><add place="intralinear" xml:id="e1-0019.02">Kindling with many</add></line>
+    <zone type="left_margin" rotate="270" corresp="#e1-0019.02">
+      <line><add>Kindling with many</add></line>
     </zone>
-    <zone type="left_margin" rotate="270">
-      <line><add place="intralinear" xml:id="e1-0019.03">Intelligible words &amp; music
-        wild</add></line>
+    <zone type="left_margin" rotate="270" corresp="#e1-0019.03">
+      <line><add>Intelligible words &amp; music wild</add></line>
     </zone>
   </zone>
 </surface>

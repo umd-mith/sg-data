@@ -5,7 +5,7 @@
   lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0029" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0029.tif"/>
   <zone type="library">14</zone>
-  <zone type="top"><line>Preface</line></zone>
+  <zone type="top"><line rend="indent3">Preface</line></zone>
   <zone type="main">
     <milestone unit="tei:p"/>
     <line>The <unclear>g</unclear>reek tragic writers in selecting as thier</line>
@@ -26,7 +26,7 @@
     <line>was exhibited on the Athenian theatre</line>
     <line>with as many variations as dramas.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I have presumed to employ a similar</line>
+    <line rend="indent1">I have presumed to employ a similar</line>
     <line>license&#x2014; The "Prometheus unbound" of</line>
     <line>&#xC6;schylus, supposed the reconciliation of</line>
     <line>Jupiter with his victim as the</line>

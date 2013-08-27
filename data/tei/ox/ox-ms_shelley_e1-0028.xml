@@ -5,16 +5,16 @@
   lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0028" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0028.tif"/>
   <zone type="main">
-    <line><seg next="#e1-0028.01">All things confess his strength&#x2014;<mod spanTo="#e1-0028.02"
-          /><del rend="strikethrough">From the cold mass</del></seg></line>
-    <line><space unit="chars" extent="37"/><seg xml:id="e1-0028.01"><add place="intralinear">Through
-          the cold mass</add></seg><anchor xml:id="e1-0028.02"/></line>
-    <line>Of marble &amp; of colour his dreams pass</line>
+    <line rend="indent1">All things confess his strength&#x2014;<mod>
+        <del rend="strikethrough">From the cold mass</del>
+        <add place="sublinear">Through the cold mass</add>
+      </mod></line>
+    <line rend="indent1">Of marble &amp; of colour his dreams pass</line>
     <line><mod>
         <del rend="strikethrough">And Mothers gazing</del>
         <add place="superlinear">Bright threads, whence mothers</add>
       </mod> weave the robes their children wear;</line>
-    <line>Language is a perpetual Orphic song</line>
+    <line rend="indent1">Language is a perpetual Orphic song</line>
     <line><mod>
         <add place="intralinear">Ruling</add>
         <del rend="strikethrough">Which rules</del>
@@ -23,22 +23,24 @@
         <add place="superlinear">a</add>
       </mod> throng</line>
     <line>Of thoughts &amp; forms, which else senseless &amp; shapeless were</line>
-    <line>The Lightning is his slave; Heavens utmost deep</line>
-    <line>Gives up her stars, &amp; like a flock of sheep</line>
+    <line rend="indent1">The Lightning is his slave; Heavens utmost deep</line>
+    <line rend="indent1">Gives up her stars, &amp; like a flock of sheep</line>
     <line>They pass before his eye, are numbered, &amp; roll on!</line>
-    <line>The Tempest is his steed,&#x2014;he strides the air!</line>
-    <line><seg next="#e1-0028.03">And the abyss shouts from her depth</seg></line>
-    <line><space unit="chars" extent="37"/><seg xml:id="e1-0028.03">laid bare</seg></line>
+    <line rend="indent1">The Tempest is his steed,&#x2014;he strides the air!</line>
+    <line rend="indent1"><milestone unit="tei:l" spanTo="#e1-0028.01"/>And the abyss shouts from her
+      depth</line>
+    <line rend="right">laid bare<anchor xml:id="e1-0028.01"/></line>
     <line><del rend="unmarked" instant="true">Wh</del><del rend="strikethrough" instant="true">at
         secrets hast thou Heaven</del><del instant="true" rend="ummarked">?</del></line>
-    <line><seg next="#e1-0028.04">Heaven, hast thou secrets? Man unveils me, I</seg></line>
-    <line><space unit="chars" extent="34"/><seg xml:id="e1-0028.04">have none</seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0028.02"/>Heaven, hast thou secrets? Man unveils me,
+      I</line>
+    <line rend="right">have none<anchor xml:id="e1-0028.02"/></line>
     <milestone unit="tei:speaker" spanTo="#e1-0028.05"/>
-    <line>The Moon</line>
+    <line rend="center">The Moon</line>
     <anchor xml:id="e1-0028.05"/>
-    <line>The shadow of white Death hath past</line>
-    <line>From my path in Heaven at last,</line>
+    <line rend="indent1">The shadow of white Death hath past</line>
+    <line rend="indent1">From my path in Heaven at last,</line>
     <line>A clinging shroud of solid frost &amp; sleep&#x2014;</line>
-    <line>And through my newly-woven bowers</line>
+    <line rend="indent1">And through my newly-woven bowers</line>
   </zone>
 </surface>

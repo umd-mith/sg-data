@@ -6,41 +6,42 @@
   <graphic url="../../images/ox/ox-ms_shelley_e1-0014.tif"/>
   <zone type="main">
     <milestone unit="tei:speaker" spanTo="#e1-0014.01"/>
-    <line>Chorus of Hours</line>
+    <line rend="center">Chorus of Hours</line>
     <anchor xml:id="e1-0014.01"/>
     <line>Break the dance, &amp; scatter the song</line>
     <line>Let some depart &amp; some remain<unclear>,</unclear></line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.02"/>
-    <line>Semichorus 1.</line>
+    <line rend="center">Semichorus 1.</line>
     <anchor xml:id="e1-0014.02"/>
     <line>We, beyond Heaven, are driven along&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.03"/>
-    <line>Semichorus 2.</line>
+    <line rend="center">Semichorus 2.</line>
     <anchor xml:id="e1-0014.03"/>
     <line>Us<unclear>,</unclear> the inchantments of Earth retain&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.04"/>
-    <line>Semichorus 1.</line>
+    <line rend="center">Semichorus 1.</line>
     <anchor xml:id="e1-0014.04"/>
     <line>Ceaseless &amp; rapid &amp; fierce &amp; free</line>
-    <line><seg next="#e1-0014.08">With the Spirits which build a new earth</seg></line>
-    <line><space unit="chars" extent="36"/><seg xml:id="e1-0014.08">&amp; sea</seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0014.08"/>With the Spirits which build a new
+      earth</line>
+    <line rend="right">&amp; sea<anchor xml:id="e1-0014.08"/></line>
     <line>And a Heaven where yet Heaven c<hi rend="sup">d</hi>. never be&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.05"/>
-    <line>Semichorus 2.</line>
+    <line rend="center">Semichorus 2.</line>
     <anchor xml:id="e1-0014.05"/>
     <line>Solemn &amp; slow &amp; serene &amp; bright</line>
-    <line><seg next="#e1-0014.09">Leading the day &amp; outspeeding the</seg></line>
-    <line><space unit="chars" extent="30"/><seg xml:id="e1-0014.09">night</seg></line>
+    <line><milestone unit="tei:l" spanTo="#e1-0014.09"/>Leading the day &amp; outspeeding the</line>
+    <line rend="right">night<anchor xml:id="e1-0014.09"/></line>
     <line><metamark function="count">146 </metamark>With the Powers of a world of perfect
       light&#x2014;</line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.06"/>
-    <line>Semichorus 1.</line>
+    <line rend="center">Semichorus 1.</line>
     <anchor xml:id="e1-0014.06"/>
     <line>We whirl, singing loud, round the gathering sphere</line>
     <line>Till the trees &amp; the beasts, &amp; the clouds appear</line>
     <line>From its chaos made calm by love, not fear<unclear>&#x2013;</unclear></line>
     <milestone unit="tei:speaker" spanTo="#e1-0014.07"/>
-    <line>Semichorus</line>
+    <line rend="center">Semichorus</line>
     <anchor xml:id="e1-0014.07"/>
     <line>We encircle the Oceans &amp; Mountains of Earth</line>
     <line>And the happy forms of its death &amp; birth</line>

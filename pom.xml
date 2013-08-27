@@ -8,6 +8,10 @@
   <name>Shelley-Godwin Archive</name>
   <packaging>pom</packaging>
   <modules>
+
+
+
+
     <module>validation</module>
     <module>cocoon</module>
   </modules>

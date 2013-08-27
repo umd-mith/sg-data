@@ -4,20 +4,23 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
   xml:id="ox-ms_shelley_e1-0049" partOf="#ox-ms_shelley_e1">
   <graphic url="../../images/ox/ox-ms_shelley_e1-0049.tif"/>
+  <zone type="library">24</zone>
   <zone type="main">
-    <line>24</line>
-    <line>a Voice</line>
-    <line>caverns</line>
-    <line>The Earth <del rend="strikethrough">hollows</del> of the craggy hills</line>
-    <line>The tongueless <del rend="strikethrough">clefts</del> <del rend="strikethrough">within the mountains then</del></line>
-    <line>then hollow</line>
-    <line>Cried Misery, the <del rend="strikethrough">startled</del> Heaven replied</line>
-    <line>Misery! And the Oceans purple waves,</line>
-    <line>[?back] the lashing</line>
-    <line>Climbing the land, howled <del rend="strikethrough">it</del> to <del rend="strikethrough">all</del> the winds.</line>
-    <line>And the pale nations heard it,--Misery!</line>
-    <line>--Mother thy sons &amp; thou</line>
-    <line>Scorn him, without whose all-enduring will</line>
-    <line>Beneath the fierce omnipotence of Jove</line>
+    <milestone unit="tei:speaker" spanTo="e1-0049.01"/>
+    <line rend="indent2">a Voice</line>
+    <line rend="indent1">The Earth <anchor xml:id="e1-0049.01"/><mod><del rend="strikethrough">hollows</del><add place="superlinear">caverns</add></mod> of the craggy hills</line>
+    <line rend="indent1">The tongueless <mod><del rend="strikethrough">clefts</del> <del rend="strikethrough">within the mountains then</del></mod></line>
+    <!-- The first two lines on this page include both a speaker ("The Earth") and a line of poetry 
+      ("The tongueless caverns of the craggy hills").  PBS presents the two in a mixed form across two lines.  
+      I have encoded these lines exactly as they appear on the page, but this will make the document 
+      unserachable for these lines. -->
+    <line rend="indent1">Cried Misery, <unclear extent="2"></unclear><add place="superlinear">then</add>the <mod><del rend="strikethrough">startled</del><add place="superlinear">hollow</add></mod> Heaven replied</line>
+    <line rend="indent1">Misery! And the Oceans purple waves,</line>
+    <line rend="indent1">Climbing the land, howled <del rend="strikethrough">it</del> to <mod><del rend="strikethrough">all</del><add place="superlinear"><unclear extent="4"></unclear>the lashing</add></mod> the winds.</line>
+    <!-- I think I'm encoding unclear tags incorrectly.  What should I put between the two tags? -->
+    <line rend="indent1">And the pale nations heard it,&#x2014;Misery!</line>
+    <line rend="indent2">&#x2014;Mother thy sons &#x26; thou</line>
+    <line rend="indent1">Scorn him, without whose all-enduring will</line>
+    <line rend="indent1">Beneath the fierce omnipotence of Jove</line>
   </zone>
 </surface>

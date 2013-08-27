@@ -5,23 +5,33 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0011" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0011.tif"/>
-  <zone type="pagination" rend="bordered">41</zone>
-  <zone type="library">4</zone>
-  <zone type="main">
-    <line><del rend="strikethrough">sevr</del> servants had any request to make</line>
+
+  <zone type="pagination" rend="bordered" ulx="4605" uly="0" lrx="4913" lry="213">
+    <line>41</line>
+  </zone>
+
+  <zone type="library" ulx="4605" uly="238" lrx="4888" lry="388">
+    <line>4</line>
+  </zone>
+
+  <zone type="main" ulx="1289" uly="0" lrx="4889" lry="7088">
+    <line><del rend="strikethrough" instant="true">sevr</del> servants had any request to
+      make</line>
     <line>it always through <mod>
         <del rend="strikethrough">the</del>
         <add place="superlinear">her</add>
-      </mod> intercession <mod spanTo="#c56.0011.13"/><add><ptr target="#c56-0011.11"
-        /></add><delSpan rend="strikethrough" spanTo="#c56-0011.01"/>of</line>
-    <line>Elizabeth<anchor xml:id="c56-0011.01"/><del rend="strikethrough"> For me I loved he</del>
-      <delSpan rend="strikethrough" spanTo="#c56-0011.02"/>We agreed</line>
-    <line>perfectly although there were many<anchor xml:id="c56-0011.02"/>
-      <add><ptr target="#c56-0011.03"/></add></line><anchor xml:id="c56-0011.13"/>
-    <line><add place="superlinear" hand="#pbs"><del rend="strikethrough"><space unit="char"
-            extent="17"/>There</del> For, although</add> was a great dissimilitude in our</line>
-    <line>characters.<add hand="#pbs"><metamark>X</metamark></add><add><ptr target="#c56-0011.05"
-        /></add> I was more calm and phi</line>
+      </mod> intercession <mod spanTo="#c56.0011.01"/><delSpan rend="strikethrough"
+        spanTo="#c56-0011.02"/>of</line>
+    <line>Elizabeth<anchor xml:id="c56-0011.02"/><del rend="strikethrough"> For me I loved he</del>
+      <delSpan rend="strikethrough" spanTo="#c56-0011.03"/>We agreed</line>
+    <line>perfectly although there were many<anchor xml:id="c56-0011.03"/>
+      <anchor xml:id="c56-0011.04"/></line>
+    <line rend="right"><add place="interlinear" hand="#pbs"><del rend="strikethrough">There</del>
+        For, although</add></line>
+    <line>was a great dissimilitude in our</line>
+    <line>characters.<mod>
+        <add hand="#pbs"><metamark function="displacement" xml:id="c56-0011.09">X</metamark></add>
+      </mod> I was more calm and phi</line>
     <line>losphical than my companion</line>
     <line>Yet I was not <del rend="strikethrough">n</del> so mild or yielding.</line>
     <line>My application was of longer endurance</line>
@@ -33,29 +43,30 @@
         <del rend="strikethrough">lasted</del>
         <add place="superlinear" hand="#pbs">endured</add>
       </mod>
-      <mod spanTo="#c56-0011.14"/><delSpan rend="strikethrough" spanTo="#c56-0011.07"/>my
+      <mod spanTo="#c56-0011.11"/><delSpan rend="strikethrough" spanTo="#c56-0011.12"/>my
       amusements</line>
     <line>were studying old books of chemistry</line>
     <line>and natural magic those of Elizabeth were</line>
-    <line>dra wing &#38; music.<space unit="char" extent="3"/><anchor xml:id="c56-0011.07"/><add
-        place="superlinear" hand="#pbs"><metamark>X</metamark><ptr target="#c56-0011.08"
-      /></add></line><anchor xml:id="c56-0011.14"/>
-    <milestone unit="tei:p"/><line><space unit="chars" extent="4"/><del rend="strikethrough">When
-        I</del>
-      <del rend="strikethrough">I had</del> My brothers were consi</line>
+    <line>dra wing &#38; music.<space unit="char" extent="3"/><anchor xml:id="c56-0011.12"/><add
+        place="superlinear" hand="#pbs"><metamark function="displacement" xml:id="c56-0011.13"
+          >X</metamark></add><anchor xml:id="c56-0011.11"/></line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1"><del rend="strikethrough" instant="true">When I</del>
+      <del rend="strikethrough" instant="true">I had</del> My brothers were consi</line>
     <line>derably younger than myself but I had</line>
-    <line>a friend <del rend="strikethrough">who</del>
-      <del rend="strikethrough">who</del> in one of my school</line>
+    <line>a friend <del rend="strikethrough" instant="true">who</del>
+      <del rend="strikethrough" instant="true">who</del> in one of my school</line>
     <line>fellows who compensated for this. <add place="superlinear" hand="#pbs">deficiency.</add>
       Henry</line>
     <line><mod>
         <del rend="strikethrough">Carignan</del>
         <add place="superlinear">Clerval</add>
       </mod> was the son<del rend="strikethrough">s</del> of a merchant</line>
-    <line><del rend="strikethrough">an</del> of Geneva <del rend="strikethrough">and</del> an
-      intimate friend</line>
+    <line><del rend="strikethrough" instant="true">an</del> of Geneva <del rend="strikethrough"
+        instant="true">and</del> an intimate friend</line>
     <line>of my father<del rend="strikethrough">'s</del> &#x2013; he was a boy of singu</line>
-    <line>lar talent &#38; <del rend="strikethrough">fancy</del> fancy I remember</line>
+    <line>lar talent &#38; <del rend="strikethrough" instant="true">fancy</del> fancy I
+      remember</line>
     <line>when he was only nine years old he</line>
     <line>wrote a fairy tale which was the</line>
     <line>delight and amazement of all his</line>
@@ -66,8 +77,8 @@
       </mod> books of chi</line>
     <line>valry &#38; romance and <mod>
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
-        <add place="superlinear" hand="#pbs" next="#c56-0011.10">when very young, I can</add>
-        <add place="sublinear" xml:id="c56-0011.10" hand="#pbs">remember that</add>
+        <add place="superlinear" hand="#pbs" next="#c56-0011.15">when very young, I can</add>
+        <add place="sublinear" xml:id="c56-0011.15" hand="#pbs">remember that</add>
       </mod> we used to</line>
     <line>act plays composed by him out of</line>
     <line>th<mod>
@@ -75,38 +86,43 @@
         <add place="intralinear" hand="#pbs">ese</add>
       </mod>
       <del rend="strikethrough">favourite</del> books, the principal</line>
-    <line><del rend="strikethrough">car</del>characters of which were Orlando</line>
+    <line><del rend="strikethrough" instant="true">car</del>characters of which were Orlando</line>
     <line>Robin Hood, Amadis and St. George&#x2013;</line>
     <line>No youth could could be more happy</line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0011.11" spanTo="#c56-0011.12" hand="#pbs"/>
-    <line><space unit="chars" extent="10"/><metamark>X</metamark></line>
-    <line><space unit="chars" extent="10"/><metamark>X</metamark></line><anchor xml:id="c56-0011.12"
-    />
+  <zone type="left_margin" ulx="0" uly="46" lrx="1289" lry="687" corresp="#c56-0011.04">
+    <addSpan spanTo="#c56-0011.05" hand="#pbs"/>
+    <metamark function="displacement" spanTo="#c56-0011.06" xml:id="c56-0011.07"/>
+    <line rend="right">X</line>
+    <line rend="right">X</line>
+    <anchor xml:id="c56-0011.06"/>
+    <anchor xml:id="c56-0011.05"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0011.05" spanTo="#c56-0011.06" hand="#pbs"/>
-    <line><space unit="chars" extent="9"/><metamark>X</metamark> yet</line>
+  <zone type="left_margin" corresp="#c56-0011.09" ulx="0" uly="811" lrx="1289" lry="1804">
+    <addSpan spanTo="#c56-0011.10" hand="#pbs"/>
+    <line rend="right"><metamark>X</metamark> yet</line>
     <line>there was an</line>
     <line>harmony in</line>
     <line>that very diss</line>
-    <line>imilitude&#x2013;</line><anchor xml:id="c56-0011.06"/>
+    <line>imilitude&#x2013;</line>
+    <line><metamark function="separate">_____________</metamark></line>
+    <anchor xml:id="c56-0011.10"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0011.03" spanTo="#c56-0011.04" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0011.07" ulx="0" uly="1877" lrx="1289" lry="2721">
+    <addSpan spanTo="#c56-0011.08" hand="#pbs"/>
     <line><metamark>X</metamark> We were strangers</line>
     <line>to any species</line>
     <line><metamark>X</metamark> of disunion</line>
     <line>or dispute</line>
-    <anchor xml:id="c56-0011.04"/>
+    <line><metamark function="separate">_____________</metamark></line>
+    <anchor xml:id="c56-0011.08"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan place="left_margin" xml:id="c56-0011.08" spanTo="#c56-0011.09" hand="#pbs"/>
+  <zone type="left_margin" ulx="0" uly="2780" lrx="1289" lry="7104" corresp="#c56-0011.13">
+    <addSpan spanTo="#c56-0011.14" hand="#pbs"/>
     <line><metamark>X</metamark></line>
     <line>I delighted in</line>
     <line>investigating</line>
@@ -124,11 +140,11 @@
     <line>a secret which</line>
     <line>I desired to disco</line>
     <line>-ver,&#x2013;to her it</line>
-    <line>was a <del rend="strikethrough">haven</del></line>
+    <line>was a <del rend="strikethrough" instant="true">haven</del></line>
     <line>vacancy which</line>
     <line>she sought to</line>
     <line>people with</line>
     <line>imaginations of</line>
-    <line>her own.</line><anchor xml:id="c56-0011.09"/>
+    <line>her own.</line><anchor xml:id="c56-0011.14"/>
   </zone>
 </surface>
