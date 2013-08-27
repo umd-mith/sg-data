@@ -7,7 +7,7 @@
   <zone type="library">16</zone>
   <zone type="top">
     <line>
-      <add hand="#pbs" place="superlinear">another Chapter</add></line>
+      <add hand="#pbs">another Chapter</add></line>
   </zone>
   <zone type="main">
     <line>Sometime elapsed before I <mod spanTo="#c57-0031.01"/><del rend="strikethrough"
