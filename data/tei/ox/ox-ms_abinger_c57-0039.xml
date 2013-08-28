@@ -104,15 +104,14 @@
   </zone>
 
   <zone type="left_margin" corresp="#c57-0039.05">
-    <addSpan hand="#pbs" spanTo="#c57-0039.06"/>
-    <line><mod spanTo="#c57-0039.07"/>
-      <del rend="strikethrough" next="#c57-0039.08">human </del>
-      <add place="superlinear" hand="#pbs" next="#c57-0039.10">introduction </add>
-      <add place="intralinear" hand="#pbs" xml:id="c57-0039.10" next="#c57-0039.11">to </add></line>
-    <line><del rend="strikethrough" xml:id="c57-0039.08" next="#c57-0039.09">intercourse
-      </del></line>
-    <line><del rend="strikethrough" xml:id="c57-0039.09">with </del>
-      <add place="intralinear" hand="#pbs" xml:id="c57-0039.11">humanity </add></line><anchor
-      xml:id="c57-0039.06"/>
+    <line><mod spanTo="#c57-0039.06"/>
+      <del rend="strikethrough"><add hand="#pbs" next="#c57-0039.07">human </add></del>
+      <add place="superlinear" hand="#pbs" next="#c57-0039.09">introduction </add>
+      <add place="intralinear" hand="#pbs" xml:id="c57-0039.09" next="#c57-0039.10">to </add></line>
+    <line><del rend="strikethrough"><add hand="#pbs" xml:id="c57-0039.07" next="#c57-0039.08"
+          >intercourse</add></del></line>
+    <line><del rend="strikethrough"><add hand="#pbs" xml:id="c57-0039.08">with</add></del>
+      <add place="intralinear" hand="#pbs" xml:id="c57-0039.10">humanity </add><anchor
+        xml:id="c57-0039.06"/></line>
   </zone>
 </surface>
