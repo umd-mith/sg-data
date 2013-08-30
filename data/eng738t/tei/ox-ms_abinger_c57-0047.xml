@@ -24,7 +24,10 @@
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">in</add>
       </mod> what</line>
-    <line><mod><del rend="strikethrough">to say</del><anchor xml:id="c57-0047.01"/></mod> when the old man <mod>
+    <line><mod>
+        <del rend="strikethrough">to say</del>
+        <anchor xml:id="c57-0047.01"/>
+      </mod> when the old man <mod>
         <del rend="strikethrough">began</del>
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">addressed me</add>
@@ -40,24 +43,24 @@
       and</line>
     <line>a Str<anchor xml:id="c57-0047.04"/> I am now going to claim the</line>
     <line>protection of some friends, whom I sincerely</line>
-    <line>love <mod><del rend="strikethrough">but</del><add place="superlinear">and</add></mod> of whose favour I have</line>
-    
-    <line>some hopes." "Are these Germans" <del rend="double-strike"><unclear unit="chars"
-          extent="1" reason="illegible" precision="unknown"/></del> Asked</line>
-    <line>De Lacey &#x2014; <del rend="double-strike">know</del>"No &#x2014; They are french
-      &#x2014; But let</line>
-    <line>us change the subject &#x2014; I am an unfortu</line>
+    <line>love <mod>
+        <del rend="strikethrough">but</del>
+        <add place="superlinear">and</add>
+      </mod> of whose favour I have</line>
+    <line>some hopes." "Are these Germans"&#x2013; <del rend="strikethrough"><unclear unit="chars"
+          extent="1"/></del> Asked</line>
+    <line>De Lacey &#x2013; <del rend="strikethrough" instant="true">know</del>"No &#x2013;They are
+      french &#x2013;But let</line>
+    <line>us change the subject &#x2013;I am an unfortu</line>
     <line>nate &amp; deserted creature. I look around and</line>
-    <line>I have no relation or fr<mod>
-        <del rend="overwritten">ie</del>
-        <add place="intralinear">ie</add>
-      </mod>nd <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear">on earth &#x2014;</add>
-      </mod>&#x2014; The<mod>
+    <line>I have no relation or fr<retrace cause="clarify">ie</retrace>nd <mod>
+        <del rend="overwritten">&#x2013;</del>
+        <add place="intralinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">on earth &#x2013;</add>
+      </mod> The<mod>
         <add place="intralinear">se</add>
         <del rend="strikethrough">kind</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">amiable</add>
       </mod></line>
     <line>people to whom I go, have never seem</line>
@@ -65,28 +68,29 @@
     <line>of fears, for if I fail there, I am an</line>
     <line>outcast in the world for ever."</line>
     <milestone unit="tei:p"/>
-    <line>Do not despair, said the old man.</line>
+    <line rend="indent1">Do not despair, said the old man.</line>
     <line>To be friendless is indeed to be unfortu</line>
-    <line>nate<unclear precision="medium">:</unclear> but <mod>
-        <add place="sublinear">&#x2038;</add>
+    <line>nate<unclear>:</unclear> but <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">the hearts of</add>
       </mod> men <del rend="strikethrough">are</del> when unpre</line>
     <line>judiced by obvious self interrest, are ful<add place="intralinear">l</add></line>
     <line>of brotherly love and charity. Rely therefore</line>
     <line>on your hopes and if <delSpan spanTo="#c57-0047.05" rend="strikethrough"/>these
       dispositions</line>
-    <line>of your friends<anchor xml:id="c57-0047.05"/> are kind these friends</line>
-    <line>are good and amiable &#x2014; do not <mod>
+    <line>of your friends are kind<anchor xml:id="c57-0047.05"/> these friends</line>
+    <line>are good and amiable &#x2013; do not <mod>
         <del rend="strikethrough">fear</del>
         <add place="superlinear">despair</add>
         <del rend="strikethrough">for your</del>
       </mod>
     </line>
   </zone>
+  
   <zone type="left_margin" corresp="#c57-0047.01">
     <addSpan spanTo="#c57-0047.03"/>
     <line>manner to</line>
-    <line>commence</line>
+    <line>comemmence</line>
     <line>the interview</line>
     <anchor xml:id="c57-0047.03"/>
   </zone>
