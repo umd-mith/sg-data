@@ -79,7 +79,7 @@
     <line><damage type="inkblot"/>whose thoughts were once filled with</line>
   </zone>
   <zone type="left_margin">
-    <addSpan xml:id="c57-0184.01" spanTo="c57-0184.02" hand="#pbs"/>
+    <addSpan xml:id="c57-0184.01" spanTo="#c57-0184.02" hand="#pbs"/>
     <line>capable</line>
     <line>of bringing</line>
     <line>forth.</line>

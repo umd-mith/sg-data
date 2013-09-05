@@ -19,7 +19,7 @@
             >by</add></del>
         <add place="intralinear">of</add>
         <del rend="strikethrough" xml:id="c57-0022.02">which</del>
-      </mod> these amiable cottagers <delSpan rend="strikethrough" spanTo="c57-0022.03"
+      </mod> these amiable cottagers <delSpan rend="strikethrough" spanTo="#c57-0022.03"
       />shewed</line>
     <line>their dispositions<anchor xml:id="c57-0022.03"/>. In the midst of poverty</line>
     <line>and want Felix carried wit<damage>h</damage> pleasure</line>
