@@ -20,7 +20,7 @@
         <add place="superlinear">became fatigued</add>
       </mod> with excess of bodily</line>
     <line>exertion; and sank on the</line>
-    <line><del rend="triple-strike">g</del> damp grass in the despondency</line>
+    <line><del rend="strikethrough">g</del> damp grass in the despondency</line>
     <line>of despair. There was no one <del rend="strikethrough">in</del></line>
     <line>amo<del rend="double-strike">u</del>ng the myriads of men that</line>
     <line>existed that <del rend="strikethrough">could</del> would pity</line>
@@ -29,10 +29,10 @@
     <line>No! from that moment I de</line>
     <line>clared everlasting war against</line>
     <line><add><ptr target="#c57-0052.02"/></add> and more than all against</line>
-    <line>hh<add resp="#pbs" place="intralinear">im</add> who had formed me &amp; sent</line>
+    <line>hh<add hand="#pbs" place="intralinear">im</add> who had formed me &amp; sent</line>
     <line>me forth to <mod>
         <del rend="strikethrough">pain &amp;</del>
-        <add resp="#pbs" place="superlinear">this insupportable</add>
+        <add hand="#pbs" place="superlinear">this insupportable</add>
       </mod> misery.</line>
     <milestone unit="tei:p"/>
     <line>The sun rose &#x2014; I heard the</line>
@@ -40,20 +40,20 @@
     <line>was impossible to return to my retreat</line>
     <line><add><ptr target="#c57-0052.03"/></add> that day; accordingly, I hid myself</line>
     <line>in some thick underwood <del rend="strikethrough">determine</del></line>
-    <line>determin<del rend="overwritten">ed</del><add place="intralinear" resp="#pbs">ing</add> to
+    <line>determin<mod><del rend="overwritten">ed</del><add place="intralinear" hand="#pbs">ing</add></mod> to
       devote the ensueing</line>
     <line>hours to reflection on my situation&#x2014;</line>
     <milestone unit="tei:p"/>
-    <line><add><ptr target="#c57-0052.04"/></add> <unclear extent="1" unit="chars" precision="medium" reason="uncertain capitalization">W</unclear>hen I considered what had passed</line>
+    <line><add><ptr target="#c57-0052.04"/></add> <unclear>W</unclear>hen I considered what had passed</line>
     <line>at the cottage I could not help</line>
     <line>believing that I was too hasty in</line>
     <line>my conclusions &#x2014; <del rend="double-strike">Ther</del> I had certain</line>
     <line>ly acted imprudently. <del rend="strikethrough">My con</del> It was</line>
     <line>apparent that my conversation</line>
-    <line><add place="intralinear" resp="#pbs">h</add>ad softened the father and I was a</line>
+    <line><add place="intralinear" hand="#pbs">h</add>ad softened the father and I was a</line>
     <line>fool <mod>
         <del rend="strikethrough">to</del>
-        <add place="superlinear" resp="#pbs"><unclear reason="illegible" precision="medium"><del
+        <add place="superlinear" hand="#pbs"><unclear><del
               rend="overwritten">for</del><add place="superlinear">in</add></unclear></add>
         <add place="superlinear">having</add>
       </mod> exposed my person to the</line>
