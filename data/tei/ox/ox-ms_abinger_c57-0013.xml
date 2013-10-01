@@ -105,11 +105,8 @@
   </zone>
 
   <zone type="left_margin" corresp="#c57-0013.06">
-    <line rend="right"><seg>were a</seg></line>
-    <line><seg>nature they</seg></line>
-    <anchor/>
+    <line><add>nature they <add place="superlinear">were a</add></add></line>
   </zone>
-  <!-- transpose here. for "they were a" the "were a" is above "they" -->
 
   <zone type="left_margin" corresp="#c57-0013.08">
     <addSpan hand="#pbs" spanTo="#c57-0013.09"/>
