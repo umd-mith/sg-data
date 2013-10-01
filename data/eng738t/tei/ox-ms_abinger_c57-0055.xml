@@ -15,75 +15,75 @@
     <line>and I beg therefore that you will</line>
     <line>take some days to <mod>
         <del rend="strikethrough">consult</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">consider of</add>
       </mod>
       <delSpan spanTo="#c57-0055.01" rend="strikethrough"/>about</line>
     <line>this affair with<anchor xml:id="c57-0055.01"/> your <del rend="strikethrough"
-        >friends</del>. determination.</line>
+        >friends.</del> determination.</line>
     <milestone unit="tei:p"/>
-    <line>It is utterly useless&#x2014; replied Felix,</line>
-    <line>we can never <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
+    <line rend="indent2">It is utterly useless&#x2013; replied Felix,</line>
+    <line>we <mod><del rend="overwritten">s</del><add place="intralinear">c</add></mod>an never <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">again</add>
       </mod> inhabit that cottage</line>
-    <line><del rend="strikethrough">again</del> &#x2014;The life of <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
+    <line><del rend="strikethrough">again</del> &#x2013;The life of <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">my</add>
       </mod> father is in the greatest</line>
     <line>danger owing to the dreadful circumstanc</line>
     <line>that I have related&#x2014; My wife and sister</line>
     <line><mod>
         <del rend="strikethrough">can</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">will</add>
-      </mod> never recover their horror&#x2014; <del rend="double-strike">Do</del> I</line>
+      </mod> never recover their horror&#x2014; <del rend="strikethrough">Do</del> I</line>
     <line>entreat you not to reason with me</line>
-    <line>any more&#x2014;<del rend="strikethrough">let</del> Take possession <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
+    <line>any more&#x2014;<del rend="strikethrough">let</del> Take possession <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">of your tenement</add>
       </mod> and let me</line>
-    <line>fly from this place &#x2014;<delSpan spanTo="#c57-0055.02" rend="strikethrough"/> very We
-      intend</line>
+    <line>fly from this place &#x2013; <del rend="strikethrough">very</del>
+      <delSpan spanTo="#c57-0055.02" rend="strikethrough"/>We intend</line>
     <line>very soon to quit entirely the country.<anchor xml:id="c57-0055.02"/></line>
     <milestone unit="tei:p"/>
-    <line>Felix trembled violently as he said</line>
+    <line rend="indent2">Felix trembled violently as he said</line>
     <line>this. He and his companion entered the</line>
-    <line>cottage <del rend="triple-strike">w</del> in which they remained for a</line>
+    <line>cottage <del rend="strikethrough">w</del> in which they remained for a</line>
     <line>few minutes &amp; then departed. I never</line>
-    <line>again saw any of the family of <unclear reason="uncertain capitalization"
-        precision="medium">D</unclear>e Lacey<unclear precision="low" reason="ink mark"
-      >.</unclear></line>
+    <line>again saw any of the family of de Lacey<unclear>.</unclear></line>
     <line><mod>
         <del rend="strikethrough">They had qu</del>
-        <add place="sublinear" hand="#pbs">more</add>
+        <add place="superlinear" hand="#pbs">more.</add>
       </mod></line>
     <milestone unit="tei:p"/>
-    <delSpan spanTo="#c57-0055.03"/>
-    <line>And now my hopes were entirely</line>
-    <line>fled &#x2014; were I had been fool enough to</line>
+    <line rend="indent2"><delSpan spanTo="#c57-0055.03"/>And now my hopes were entirely</line>
+    <line>fled &#x2013;were I had been fool enough to</line>
     <line>hope but these</line>><anchor xml:id="c57-0055.03"/>
-    <line>I <mod>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I <mod>
         <del rend="strikethrough">remained</del>
+        <add place="superlinear">continued</add>
         <del rend="strikethrough">all night</del>
-        <del rend="strikethrough"><add place="sublinear">&#x2038;</add></del>
-        <add place="superlinear">continued for the remainder of the day</add>
-      </mod> in my hovel<add place="sublinear">&#x2038;</add></line>
-    <line>in a state of utter &amp; stupid despair&#x2014;</line>
+        <del rend="strikethrough"><add place="sublinear"><metamark function="insert"
+              >&#x2038;</metamark></add></del>
+      </mod> in my hovel<mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear"> for the remainder of the day</add>
+      </mod></line>
+    <line>in a state of utter &amp; stupid despair&#x2013;</line>
     <line>my protectors had departed and had</line>
     <line>broken the only link that held me</line>
-    <line>to the world&#x2014; for the first time the</line>
+    <line>to the world&#x2013; for the first time the</line>
     <line>feeling of revenge and hatred filled</line>
     <line>my bosom, and I did not strive to</line>
     <line>controul them &#x2014; but allowing myself</line>
     <line>to be borne away by the stream I</line>
-    <line>bent my mind<del rend="double-strike">s</del> towards <del rend="strikethrough"><unclear
-          reason="illegible" precision="medium">I</unclear></del> injury &amp; death&#x2014;</line>
-    <line><del rend="strikethrough">But</del> when I thought of my friends&#x2014; of</line>
+    <line>bent my mind<del rend="strikethrough">s</del> towards <del rend="strikethrough"
+          ><unclear>I</unclear></del> injury &amp; death&#x2013;</line>
+    <line><del rend="strikethrough">But</del> when I thought of my friends&#x2013; of</line>
     <line>the mild voice of De Lacey the gentle</line>
-    <line>eyes of Agatha &#x2014; and the <mod type="deletions">
-        <del rend="strikethrough">warm</del>
-        <del rend="strikethrough"><unclear reason="illegible" precision="medium">he</unclear></del>
-      </mod></line>
+    <line>eyes of Agatha &#x2013; and the <del rend="strikethrough">warm</del>
+      <del rend="strikethrough"><unclear>he</unclear></del></line>
   </zone>
 </surface>
