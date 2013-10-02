@@ -13,15 +13,15 @@
   </zone>
   <zone type="main">
     <line><mod>
-        <add><ptr target="#c57-0061.01"/></add>
         <del rend="strikethrough">her</del>
+        <anchor xml:id="c57-0061.01"/>
       </mod> when I was suddenly interrupted by</line>
     <line>the approach of a rustic who was probably</line>
     <line><del rend="strikethrough">her</del> the person from whom she had</line>
-    <line>playfully fled &#x2014; On seeing me he darted</line>
+    <line>playfully fled &#x2013; On seeing me he darted</line>
     <line>towards me and <mod>
         <del rend="strikethrough">tore</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">tearing</add>
       </mod> the girl from</line>
     <line>my arms hastened towards the deeper</line>
@@ -34,54 +34,54 @@
     <line>sunk to the ground &amp; with encreased</line>
     <line>swiftness He escaped into the wood.</line>
     <milestone unit="tei:p"/>
-    <line>This then was the reward of my</line>
+    <line rend="indent2">This then was the reward of my</line>
     <line>benevolence I <delSpan spanTo="#c57-0061.03" rend="strikethrough"/>writhed under
       the</line>
     <line>wound.<anchor xml:id="c57-0061.03"/>
-      <del rend="triple-strike">w</del> had saved a human</line>
+      <del rend="strikethrough">w</del> had saved a human</line>
     <line>being from destruction and as a</line>
     <line>recompence I now writhed <del rend="strikethrough">un</del> under</line>
-    <line>the miserable pain of <mod type="additions" hand="#pbs">
-        <add place="superlinear">a <del rend="strikethrough">multitude</del> of</add>
-        <add><ptr target="c57-0061.04"/></add>
-      </mod><delSpan spanTo="#c57-0061.05"/>my wound</line>
-    <line><add><ptr target="c57-0061.06"/></add> The ball<del rend="strikethrough"><add
-          place="superlinear" hand="#pbs">wounds</add></del> had grazed my neck &amp; the</line>
-    <line>another entered my shoulder.<anchor xml:id="c57-0061.05"/> The feelings</line>
+    <line>the miserable pain of <mod spanTo="#c57-0061.04"/><del rend="strikethrough">my
+        wound</del><del rend="strikethrough" next="#c57-0061.05"><add place="superlinear"
+          hand="#pbs" next="#c57-0061.06">a multitude of</add></del></line>
+    <line><del rend="strikethrough" xml:id="c57-0061.05"><add place="superlinear" hand="#pbs"
+          xml:id="c57-0061.06" next="#c57-0061.07">wounds.</add></del><anchor xml:id="c57-0061.08"
+        /><anchor xml:id="c57-0061.04"/><del rend="strikethrough">One The ball had grazed my
+        neck</del> &amp; <delSpan spanTo="#c57-0061.10" rend="strikethrough"/>the</line>
+    <line>an other entered my shoulder.<anchor xml:id="c57-0061.10"/> The feelings</line>
     <line>of kindness and <mod>
-        <add place="superlinear">gentleness</add>
         <del rend="strikethrough">softness</del>
+        <add place="superlinear">gentleness</add>
       </mod> which I had</line>
     <line>entertained but a few moments before</line>
     <line>gave place to hellish rage &amp; gnashing</line>
-    <line>of teeth &#x2014; inflamed by pain I vowed</line>
+    <line>of teeth &#x2013; inflamed by pain I vowed</line>
     <line>eternal hatred &amp; vengeance to all</line>
     <line>mankind &#x2014; But <mod>
         <del rend="strikethrough">pain</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">the agony of my wound</add>
       </mod> overcame me</line>
     <line><del rend="strikethrough">sens</del> my pulses paused and I fainted.</line>
     <milestone unit="tei:p"/>
-    <line>For some weeks I led a miserable</line>
+    <line rend="indent2">For some weeks I led a miserable</line>
     <line>life in these woods endeavouring to</line>
     <line>cure the wound <add place="superlinear" hand="#pbs">which</add> I had received. The</line>
-    <line><add><ptr target="c57-0061.07"/></add> had entered my shoulder and I knew</line>
+    <line>ball had entered my shoulder and I knew</line>
     <line>not whether it had remained there</line>
     <line>or passed through&#x2014;at any rate I had</line>
   </zone>
-  <zone type="left_margin"><line><add>animation</add></line></zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c57-0061.04" spanTo="#c57-0061.08"/>
-    <line>A wound which</line>
+
+  <zone type="left_margin" corresp="#c57-0061.01">
+    <line><add hand="#pbs">animation</add></line>
+  </zone>
+
+  <zone type="left_margin" corresp="#c57-0061.08">
+    <addSpan xml:id="c57-0061.07" spanTo="#c57-0061.09"/>
+    <line>a wound which</line>
     <line>shattered the</line>
-    <line>flesh &amp; bone</line>
-    <anchor xml:id="c57-0061.08"/>
+    <line>flesh &amp; bone </line>
+    <anchor xml:id="c57-0061.09"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0061.06">One</add></line>
-  </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0061.07">ball</add></line>
-  </zone>
+
 </surface>
