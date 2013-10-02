@@ -36,10 +36,10 @@
     <milestone unit="tei:p"/>
     <line>I intended to reason. This passion</line>
     <line>is detrimental to me, for you do not</line>
-    <line>reflect that you are the <mod type="additions" resp="#pbs">
+    <line>reflect that you are the <mod type="additions" hand="#pbs">
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">sole</add>
-      </mod> cause <mod type="additions" resp="#pbs">
+      </mod> cause <mod type="additions" hand="#pbs">
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">of its excesses.</add>
       </mod><unclear reason="overwritten" precision="medium">.</unclear> If</line>

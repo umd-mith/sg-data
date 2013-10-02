@@ -23,12 +23,12 @@
       <line>with Clerval and that <del rend="strikethrough">travel</del> the</line>
       <line>idea of travelling was inchanting to</line>
       <line>me.</line>
-      <milestone unit="paragraph"/>
+      <milestone unit="tei:p"/>
       <line>Your <del rend="strikethrough">journey</del> travels, said my</line>
       <line>father, will occupy the space of</line>
       <line>two years&#x2014; on your return you</line>
       <line><del rend="strikethrough">shall be united to your cousin</del></line>
-      <milestone unit="paragraph"/>
+      <milestone unit="tei:p"/>
       <line>Our plan was soon arranged.</line>
       <line>I should travel to Strasburgh where</line>
       <line>Clerval would join me &amp; we</line>

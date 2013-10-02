@@ -8,10 +8,10 @@
   <damageSpan type="tear" extent="implied_remainder_of_address-leaf" spanTo="#c57-0076.01"/>
   <zone type="main">
     <line rend="align_center direction_vertical"><unclear reason="illegible" precision="high"
-        resp="wg">M</unclear></line>
+        hand="wg">M</unclear></line>
   </zone>
   <zone rend="align_center" type="main">
-    <!--resp="unknown"? William Godwin - "wg"?-->
+    <!--hand="unknown"? William Godwin - "wg"?-->
     <line>Un bon<unclear reason="illegible" precision="medium">s</unclear></line>
     <line>nel</line>
   </zone>

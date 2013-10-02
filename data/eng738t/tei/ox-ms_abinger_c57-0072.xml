@@ -15,7 +15,7 @@
     <line>as I was by the feelings <mod>
         <add place="sublinear">&#x2038;</add>
         <del rend="strikethrough"><add place="superlinear">that</add></del>
-        <add place="superlinear" resp="#pbs">which</add>
+        <add place="superlinear" hand="#pbs">which</add>
       </mod> the occurences of the</line>
     <line>day had produced. It had long been night</line>
     <line>when I came to the half way resting place</line>
@@ -37,7 +37,7 @@
     <line><add><ptr target="#c57-0072.02"/></add> and wind ye are all about <del rend="strikethrough"
         >ye</del> to mock</line>
     <line>me &#x2014; If ye really pity crush me but if</line>
-    <line>not depart depart &#x2014; leave <mod type="additions" resp="#pbs">
+    <line>not depart depart &#x2014; leave <mod type="additions" hand="#pbs">
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">me</add>
       </mod> to darkness</line>

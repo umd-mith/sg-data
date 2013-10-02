@@ -17,12 +17,12 @@
     <line>me and if it is well founded I conjure</line>
     <line>you to avow it <del rend="smear">to me.</del>
       <del rend="double-strike">For</del> secresy on</line>
-    <line>such a point would <add place="superlinear" resp="#pbs">not only</add>be useless <del
+    <line>such a point would <add place="superlinear" hand="#pbs">not only</add>be useless <del
         rend="strikethrough" next="#c57-0077.02" xml:id="c57-0077.01">&amp; only</del><add
-        place="superlinear" resp="#pbs">but</add></line>
+        place="superlinear" hand="#pbs">but</add></line>
     <line><mod>
         <del xml:id="c57-0077.02" prev="#c57-0077.01" rend="strikethrough">bring</del>
-        <add place="superlinear" resp="#pbs">&amp; draw</add>
+        <add place="superlinear" hand="#pbs">&amp; draw</add>
       </mod> down <del rend="strikethrough">trem</del> treble misery on us</line>
     <line>all.</line>
     <milestone unit="tei:p"/>
@@ -53,14 +53,14 @@
     <line>Nay you may have met with another</line>
     <line>whom you may love <mod>
         <del rend="strikethrough">but</del>
-        <add resp="#pbs" place="sublinear">&#x2038;</add>
-        <add place="superlinear" resp="#pbs">and</add>
+        <add hand="#pbs" place="sublinear">&#x2038;</add>
+        <add place="superlinear" hand="#pbs">and</add>
       </mod> considering</line>
     <line>yourself as bound in honor to your</line>
     <line>cousin, this feeling may occasion the</line>
     <line>poignant misery <mod>
         <del rend="strikethrough">that</del>
-        <add place="superlinear" resp="#pbs">which</add>
+        <add place="superlinear" hand="#pbs">which</add>
       </mod> you<del rend="double-strike">r</del> appear to</line>
     <milestone unit="tei:p"/>
     <line>My dear father,<del rend="strikethrough">replied I,</del> reassure</line>

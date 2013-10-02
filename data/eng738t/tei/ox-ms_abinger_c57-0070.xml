@@ -18,7 +18,7 @@
     <line>be a feint that will encrease your triumph</line>
     <line><mod>
         <del rend="strikethrough">&amp; desire of revenge</del>
-        <add place="sublinear" resp="#pbs">&gt;by affording a wider scope to your revenge.</add>
+        <add place="sublinear" hand="#pbs">&gt;by affording a wider scope to your revenge.</add>
       </mod></line>
     <milestone unit="tei:p"/>
     <line>How is this, cried he; I thought I had moved</line>
@@ -26,7 +26,7 @@
     <line><mod>
         <del rend="strikethrough">give</del>
         <add><ptr target="#c57-0070.01"/></add>
-      </mod> me the only benefit that <add place="superlinear" resp="#pbs">can</add> soften
+      </mod> me the only benefit that <add place="superlinear" hand="#pbs">can</add> soften
       my</line>
     <line>heart and render me harmless. If I</line>
     <line>have no ties &amp; no affections hatred &amp; vice</line>
@@ -40,17 +40,17 @@
       </mod> forced solitude that I</line>
     <line>abhor and my virtues will necessarily arise</line>
     <line>when <mod>
-        <del rend="strikethrough"><add place="superlinear" resp="#pbs">sh</add></del>
-      </mod> I <add place="superlinear" resp="#pbs">shall</add> receive the sympathy of an
+        <del rend="strikethrough"><add place="superlinear" hand="#pbs">sh</add></del>
+      </mod> I <add place="superlinear" hand="#pbs">shall</add> receive the sympathy of an
       equal.</line>
     <line>I shall feel <mod>
         <del rend="strikethrough">human</del>
         <mod>
-          <add place="superlinear" resp="#pbs">the</add>
+          <add place="superlinear" hand="#pbs">the</add>
         </mod>
         <del rend="double-strike">sy</del>
         <del rend="double-strike">f</del>
-      </mod> affections <mod type="additions" resp="#pbs">
+      </mod> affections <mod type="additions" hand="#pbs">
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">of a living being</add>
       </mod> &amp;</line>
@@ -71,25 +71,25 @@
           0062-0071) - CLEANUP NEEDED?</note>-->
       he had <mod>
         <del rend="strikethrough">used</del>
-        <add place="superlinear" resp="#pbs">employed</add>
+        <add place="superlinear" hand="#pbs">employed</add>
       </mod>. I thought of his <delSpan rend="strikethrough" spanTo="#c57-0070.03"
       />pro&#x2014;</line>
     <line>mises &amp; threats<anchor xml:id="c57-0070.03"/> the <mod>
         <del rend="strikethrough">various</del>
-        <add place="superlinear" resp="#pbs">promise of</add>
+        <add place="superlinear" hand="#pbs">promise of</add>
       </mod> virtues <mod>
-        <add place="superlinear" resp="#pbs">which</add>
+        <add place="superlinear" hand="#pbs">which</add>
       </mod> he</line>
     <line>had displayed on the opening of his exis</line>
     <line><add><ptr target="#c57-0070.04"/></add> and the subsequent blight <mod>
         <del rend="strikethrough">caused by</del>
-        <add place="superlinear" resp="#pbs">of all</add>
+        <add place="superlinear" hand="#pbs">of all</add>
       </mod></line>
     <line>the <mod>
-        <add place="superlinear" resp="#pbs">kindly feelings by</add>
+        <add place="superlinear" hand="#pbs">kindly feelings by</add>
       </mod> detestation &amp; horror <mod>
         <del rend="strikethrough">that his</del>
-        <add place="superlinear" resp="#pbs">inspired by</add>
+        <add place="superlinear" hand="#pbs">inspired by</add>
       </mod><!--<note> this "inspired by" doesn't make much sense - mistake by PBS? - placement in ms
         looks correctly transcri</note>--></line>
     <line>protectors had manifested towards</line>

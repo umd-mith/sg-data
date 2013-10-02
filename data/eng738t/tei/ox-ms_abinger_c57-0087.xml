@@ -1,151 +1,56 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0087" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c57-0087" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0087.tif"/>
-    <zone type="pagination" rend="bordered">
-      103
-    </zone>
-  <zone type="library">
-    44
-  </zone>
+  <zone type="pagination" rend="bordered"> 103 </zone>
+  <zone type="library"> 44 </zone>
   <zone type="main">
-    
-    
-    <line>
-      dreary imaginations I passed th<metamark>&#x2038;</metamark><add place="superlinear">r</add>ough many
+    <line> dreary imaginations I passed th<metamark>&#x2038;</metamark><add place="superlinear"
+        >r</add>ough many </line>
+    <line> beautiful &amp; majestic scenes but my eyes </line>
+    <line> were fixed &amp; unobserving; I <del rend="strikethrough">co</del> could only </line>
+    <line> think of the bourne of my travels &amp; the </line>
+    <line> work which was to occupy me whilst </line>
+    <line> they endured. After some days spent in </line>
+    <line> listless indolence during which I <del rend="strikethrough">travere</del>
     </line>
-    
-    <line>
-      beautiful &amp; majestic scenes but my eyes
+    <line> traversed many leagues I arrived at </line>
+    <line> Strasburgh where I waited two days </line>
+    <line> for Clerval. He came; &amp; alas, how great </line>
+    <line> was the contrast between us. He was </line>
+    <line> alive to every new scene; joyful when </line>
+    <line> he saw the beauties of <add place="superlinear">the <del rend="strikethrough"
+        >sun</del></add>set<add place="intralinear">ting</add><metamark>&#x2038;</metamark><add
+        place="superlinear">sun</add>and </line>
+    <line> more happy when he saw it rise &amp; </line>
+    <line> recommence a new day. He pointed </line>
+    <line> out to me the shifting colours <del rend="strikethrough"><unclear
+          reason="incomplete letter" confidence="0.7">l</unclear></del><note>This letter could be
+        "l" as guessed by Robinson--see "live" 2 lines down e.g.</note> of the </line>
+    <line> landscape &amp; the appearances of the </line>
+    <line> sky. "This is what it is to live", he cried, </line>
+    <line> now I enjoy existence. But you, my </line>
+    <line> dear Frankenstein, <mod>
+        <add place="superlinear" hand="#pbs">wherefore are you</add>
+        <del rend="strikethrough">are</del>
+      </mod> desponding &amp; </line>
+    <line> sorrowful?" Indeed I was occupied by </line>
+    <line> gloomy thoughts and neither saw </line>
+    <line> the <add place="superlinear">descent<del rend="strikethrough">rise</del></add> of the
+      evening star nor the </line>
+    <line> golden sunrise reflected in the Rhine; </line>
+    <line> and you, my friend, would be far more </line>
+    <line> amused with the journal of Clerval </line>
+    <line> who observed the scenery with an </line>
+    <line> eye of feeling &amp; delight, than to listen </line>
+    <line> to my reflections; I, a miserable wretch </line>
+    <line> haunted by a curse that shut up every </line>
+    <line> avenue to enjoyment. <milestone unit="tei:p"/>
     </line>
-    
-    <line>
-      were fixed &amp; unobserving; I <del rend="strikethrough">co</del> could only
-    </line>
-    
-    <line>
-      think of the bourne of my travels &amp; the
-    </line>
-    
-    <line>
-      work which was to occupy me whilst
-    </line>
-    
-    <line>
-      they endured.  After some days spent in
-    </line>
-    
-    <line>
-      listless indolence during which I <del rend="strikethrough">travere</del>
-    </line>
-    
-    <line>
-      traversed many leagues I arrived at
-    </line>
-    
-    <line>
-      Strasburgh where I waited two days
-    </line>
-    
-    <line>
-      for Clerval.  He came; &amp; alas, how great
-    </line>
-    
-    <line>
-      was the contrast between us.  He was
-    </line>
-    
-    <line>
-      alive to every new scene; joyful when
-    </line>
-    
-    <line>
-      he saw the beauties of <add place="superlinear">the <del rend="strikethrough">sun</del></add>set<add place="intralinear">ting</add><metamark>&#x2038;</metamark><add place="superlinear">sun</add>and
-    </line>
-    
-    
-    <line>
-      more happy when he saw it rise &amp;
-    </line>
-    
-    <line>
-      recommence a new day.  He pointed
-    </line>
-    
-    <line>
-      out to me the shifting colours <del rend="strikethrough"><unclear reason="incomplete letter" confidence="0.7">l</unclear></del><note>This letter could be "l" as guessed by Robinson--see "live" 2 lines down e.g.</note> of the
-    </line>
-    
-    <line>
-      landscape &amp; the appearances of the
-    </line>
-    
-    <line>
-      sky. "This is what it is to live", he cried,
-    </line>
-    
-    <line>
-      now I enjoy existence.  But you, my     
-    </line>
-    
-    <line>
-      dear Frankenstein, <mod><add place="superlinear" hand="#pbs">wherefore are you</add><del rend="strikethrough">are</del></mod> desponding &amp;
-    </line>
-    
-    <line>
-      sorrowful?" Indeed I was occupied by
-    </line>
-    
-    <line>
-      gloomy thoughts and neither saw
-    </line>
-    
-    <line>
-      the <add place="superlinear">descent<del rend="strikethrough">rise</del></add> of the evening star nor the
-    </line>
-    
-    <line>
-      golden sunrise reflected in the Rhine;
-    </line>
-    
-    <line>
-      and you, my friend, would be far more
-    </line>
-    
-    <line>
-      amused with the journal of Clerval
-    </line>
-    
-    <line>
-      who observed the scenery with an
-    </line>
-    
-    <line>
-      eye of feeling &amp; delight, than to listen
-    </line>
-    
-    <line>
-      to my reflections; I, a miserable wretch
-    </line>
-    
-    <line>
-      haunted by a curse that shut up every
-    </line>
-    
-    <line>
-      avenue to enjoyment.
-      <milestone unit="paragraph"/>
-    </line>
-    
-    <line>
-      We had agreed to go down the Rhine
-    </line>
-    
-    <line>
-      in a boat from Strasbourgh to Rotterdam 
-    </line>
-    
-    
+    <line> We had agreed to go down the Rhine </line>
+    <line> in a boat from Strasbourgh to Rotterdam </line>
   </zone>
 </surface>

@@ -7,19 +7,19 @@
   <zone type="main">
     <line>no means of extracting it. <del rend="double-strike">a</del> My suffering were</line>
     <line>augmented also by the oppressive sense <del rend="strikethrough">I had</del></line>
-    <line>of <add place="superlinear" resp="#pbs">the</add> injustice &amp; ingratitude <mod
-        type="additions" resp="#pbs">
+    <line>of <add place="superlinear" hand="#pbs">the</add> injustice &amp; ingratitude <mod
+        type="additions" hand="#pbs">
         <add place="sublinear">&#x2038;</add>
         <add place="superlinear">of their infliction</add>
       </mod> My daily <mod>
-        <add place="superlinear" resp="#pbs">vows</add>
+        <add place="superlinear" hand="#pbs">vows</add>
         <del rend="strikethrough">prayers</del>
       </mod></line>
     <line>rose for revenge &#x2014; a deep &amp; deadly revenge</line>
     <line>such as would alone compensate for the</line>
     <line><mod>
         <del rend="strikethrough">horrors of my situation</del>
-        <add place="superlinear" resp="#pbs">the outrages &amp; the anguish I had endured</add>
+        <add place="superlinear" hand="#pbs">the outrages &amp; the anguish I had endured</add>
       </mod></line>
     <milestone unit="tei:p"/>
     <line>After some weeks my wound healed</line>
@@ -29,9 +29,9 @@
         <add place="superlinear">to be</add>
       </mod> alleviated by the</line>
     <line>bright sun or gent<del rend="strikethrough">t</del>le breezes of spring &#x2014;</line>
-    <line>all joy was but <add place="superlinear" resp="#pbs">a</add> mockery to me, <del
+    <line>all joy was but <add place="superlinear" hand="#pbs">a</add> mockery to me, <del
         rend="scribble"> &amp;</del></line>
-    <line><add resp="#pbs"><ptr target="#c57-0062.01"/></add> made me feel more painfully
+    <line><add hand="#pbs"><ptr target="#c57-0062.01"/></add> made me feel more painfully
       that</line>
     <line>I was not made for enjoyment. But</line>
     <line>my <mod>
@@ -48,7 +48,7 @@
     <line>the same</line>
     <line>chapter</line>
     <line>continued</line>
-    <line><add resp="#pbs" place="intralinear"><unclear>310</unclear></add></line>
+    <line><add hand="#pbs" place="intralinear"><unclear>310</unclear></add></line>
   </zone>
   <zone type="left_margin">
     <addSpan xml:id="c57-0062.01" spanTo="#c57-0062.02"/><line>which insul</line>

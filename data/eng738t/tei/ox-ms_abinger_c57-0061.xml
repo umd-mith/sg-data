@@ -41,12 +41,12 @@
       <del rend="triple-strike">w</del> had saved a human</line>
     <line>being from destruction and as a</line>
     <line>recompence I now writhed <del rend="strikethrough">un</del> under</line>
-    <line>the miserable pain of <mod type="additions" resp="#pbs">
+    <line>the miserable pain of <mod type="additions" hand="#pbs">
         <add place="superlinear">a <del rend="strikethrough">multitude</del> of</add>
         <add><ptr target="c57-0061.04"/></add>
       </mod><delSpan spanTo="#c57-0061.05"/>my wound</line>
     <line><add><ptr target="c57-0061.06"/></add> The ball<del rend="strikethrough"><add
-          place="superlinear" resp="#pbs">wounds</add></del> had grazed my neck &amp; the</line>
+          place="superlinear" hand="#pbs">wounds</add></del> had grazed my neck &amp; the</line>
     <line>another entered my shoulder.<anchor xml:id="c57-0061.05"/> The feelings</line>
     <line>of kindness and <mod>
         <add place="superlinear">gentleness</add>
