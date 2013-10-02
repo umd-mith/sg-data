@@ -5,54 +5,66 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0062.tif"/>
   <zone type="pagination" rend="bordered">87</zone>
   <zone type="main">
-    <line>no means of extracting it. <del rend="double-strike">a</del> My suffering were</line>
+    <line>no means of extracting it. <del rend="strikethrough">A</del> My suffering were</line>
     <line>augmented also by the oppressive sense <del rend="strikethrough">I had</del></line>
-    <line>of <add place="superlinear" hand="#pbs">the</add> injustice &amp; ingratitude <mod
-        type="additions" hand="#pbs">
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear">of their infliction</add>
+    <line>of <add place="superlinear" hand="#pbs">the</add> injustice &amp; ingratitude <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">of their infliction</add>
       </mod> My daily <mod>
-        <add place="superlinear" hand="#pbs">vows</add>
         <del rend="strikethrough">prayers</del>
+        <add place="superlinear" hand="#pbs">vows</add>
       </mod></line>
-    <line>rose for revenge &#x2014; a deep &amp; deadly revenge</line>
+    <line>rose for revenge &#x2013; a deep &amp; deadly revenge</line>
     <line>such as would alone compensate for the</line>
     <line><mod>
-        <del rend="strikethrough">horrors of my situation</del>
-        <add place="superlinear" hand="#pbs">the outrages &amp; the anguish I had endured</add>
+        <del rend="strikethrough">horrors of my situation.</del>
+        <add place="superlinear" hand="#pbs">the outrages &amp; the anguish I had endured.</add>
       </mod></line>
     <milestone unit="tei:p"/>
-    <line>After some weeks my wound healed</line>
+    <line rend="indent2">After some weeks my wound healed</line>
     <line>and I continued my journey &#x2014; the labours</line>
-    <line>I endured were no longer <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
+    <line>I endured were no longer <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">to be</add>
       </mod> alleviated by the</line>
     <line>bright sun or gent<del rend="strikethrough">t</del>le breezes of spring &#x2014;</line>
-    <line>all joy was but <add place="superlinear" hand="#pbs">a</add> mockery to me, <del
-        rend="scribble"> &amp;</del></line>
-    <line><add hand="#pbs"><ptr target="#c57-0062.01"/></add> made me feel more painfully
-      that</line>
+    <line>all joy was but <add place="superlinear" hand="#pbs">a</add> mockery to me, <mod>
+        <del rend="strikethrough"> &amp;</del>
+        <anchor xml:id="c57-0062.01"/>
+      </mod></line>
+    <line>made me feel more painfully that</line>
     <line>I was not made for enjoyment. But</line>
     <line>my <mod>
         <del rend="strikethrough">journey</del>
         <add place="superlinear">toils</add>
       </mod> now drew near a close &amp; two</line>
     <line>months from this time I reached the</line>
-    <line>environs of Geneva.<figure>
-        <desc>1st encoder sees doodle or sketch; QC sees tiny ink pattern above tail of terminal "a"
-          in "Geneva," then an up-sweeping pen stroke from below at line's end delineating text from
-          subsequent lines</desc>
-      </figure></line>
-    <milestone unit="tei:p"/>
-    <line>the same</line>
-    <line>chapter</line>
-    <line>continued</line>
-    <line><add hand="#pbs" place="intralinear"><unclear>310</unclear></add></line>
+    <line>environs of Geneva.</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c57-0062.01" spanTo="#c57-0062.02"/><line>which insul</line>
+
+  <zone type="left_margin" corresp="#c57-0062.01">
+    <addSpan spanTo="#c57-0062.02"/>
+    <line> which insul</line>
     <line>ted my desolate</line>
-    <line>state, &amp;<anchor xml:id="c57-0062.02"/></line>
+    <line>state, &amp; </line>
+    <anchor xml:id="c57-0062.02"/>
   </zone>
+
+  <zone type="main">
+    <addSpan spanTo="#c57-0062.03"/>
+    <line rend="indent5">The same</line>
+    <line rend="indent4">chapter</line>
+    <line rend="indent5">continued</line>
+    <anchor xml:id="c57-0062.03"/>
+  </zone>
+  <!--Finalize encoding of this chapter heading. It replaces the deleted "Chap. 9th" on next page. We need
+    a special designation for chapter and section headings instead of using a geographical marker like "top"-->
+
+  <zone type="main">
+    <line>
+      <add hand="#pbs"><unclear><metamark function="count">310</metamark></unclear></add></line>
+    <!--could be "320"-->
+  </zone>
+
+
 </surface>
