@@ -13,8 +13,8 @@
   </zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line>While I <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
+    <line>While I <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">was</add>
       </mod> overcome by these feelings I</line>
     <line>left the spot where I had committed the</line>
@@ -31,8 +31,7 @@
     <line>I thought is one <del rend="strikethrough">one</del> of those whose</line>
     <line>smiles are bestowed on all but me</line>
     <line><del rend="strikethrough">but</del>
-      <unclear reason="ambiguous" precision="medium">S</unclear><!--case of S in she unclear-->he
-      shall not escape my vengeance</line>
+      <unclear>S</unclear>he shall not escape my vengeance</line>
     <line>thanks to the lessons of Felix &amp; the</line>
     <line>sangu<add place="intralinear">i</add>nary laws of man, I <mod>
         <del rend="strikethrough">know</del>
@@ -52,12 +51,12 @@
         <add place="superlinear">at length I</add>
       </mod> wandered</line>
     <line><mod>
-        <add><ptr target="#c57-0065.01"/></add>
         <del rend="strikethrough">to</del>
+        <anchor xml:id="c57-0065.01"/>
       </mod> these mountains and have ranged</line>
     <line><mod>
-        <add><ptr target="#c57-0065.02"/></add>
         <del rend="strikethrough">in</del>
+        <anchor xml:id="c57-0065.02"/>
       </mod> their immense recesses consumed</line>
     <line>by a burning passion which you</line>
     <line>alone can gratify&#x2014;And we may not</line>
@@ -72,10 +71,12 @@
     <line>deny herself to me. This being you</line>
     <line>must create.<del rend="strikethrough">for me.</del></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0065.01">towards</add></line>
+
+  <zone type="left_margin" corresp="#c57-0065.01">
+    <line><add>towards </add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0065.02" hand="#pbs">through</add></line>
+
+  <zone type="left_margin" corresp="#c57-0065.02">
+    <line><add hand="#pbs">through </add></line>
   </zone>
 </surface>
