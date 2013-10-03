@@ -7,19 +7,15 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0068.tif"/>
   <zone type="pagination" rend="bordered"><line>93</line></zone>
   <zone type="main">
-    <line><anchor xml:id="c57-0068.01"/>
-      let<!--<note>QC: Robinson transcript appears to leave
-        out the ";" after "happy"</note>-->
-      me feel gratitude towards you for one</line>
-    <line>benefit<unclear>;</unclear> Let me see that I excite
-      the</line>
+    <line><anchor xml:id="c57-0068.01"/>let me feel gratitude towards you for one</line>
+    <line>benefit<unclear>;</unclear> Let me see that I excite the</line>
     <line>sympathy of <mod>
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">one</add>
       </mod> creature. Do not deny me my</line>
     <line>request.</line>
     <milestone unit="tei:p"/>
-    <line>I was moved. I shuddered when I thought</line>
+    <line rend="indent2">I was moved. I shuddered when I thought</line>
     <line>of the possible consequences of my consent</line>
     <line>but I felt that there was some justice</line>
     <line>in his argument. His tale and the fee</line>
@@ -37,8 +33,9 @@
       </mod> power to bestow? He saw my</line>
     <line>change of feeling &amp; continued.</line>
     <milestone unit="tei:p"/>
-    <line>If you consent neither you or</line>
-    <line>any human <del rend="strikethrough">being</del> creature shall ever see</line>
+    <line rend="indent2">If you consent neither you or</line>
+    <line>any human <del rend="strikethrough" instant="true">being</del> creature shall ever
+      see</line>
     <line>us again. I will go to the vast wilds of</line>
     <line>America. My food is not that of man; I</line>
     <line>do not destroy the lamb or the kid to</line>
@@ -59,9 +56,11 @@
     <line>you to promise what I so ardently</line>
     <line>desire.</line>
     <milestone unit="tei:p"/>
-    <line>You promise, replied I, to quit the habitations</line>
+    <line rend="indent1">You promise, replied I, to quit the habitations</line>
   </zone>
+  
   <zone type="left_margin" corresp="#c57-0068.01">
-    <line><add>me happy<unclear>;</unclear> </add></line>
+    <line><add>me happy&#x2013;<add place="sublinear">,</add>
+      </add></line>
   </zone>
 </surface>
