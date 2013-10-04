@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
+        ?>
+<surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
+  xml:id="ox-ms_abinger_c56-0083" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0083.tif"/>
-  <zone type="library">
-    42 <note>position is in upper right corner of page</note>
-  </zone>
+  <zone type="library"> 42 </zone>
   <zone type="main">
-    <note>zone is empty excluding seep-through of ink from reverse (or washed-out writing, as in palimpsest?), and over-writing from previous page (image ox-Ms_abinger_c57-0082.jpg, the page marked "102")</note>
-    <line>
-      ing <note>this is run-on from opposite page, ox-ms_abinger_c57-0083.jpg in surrogate (p.102 marked @ top)--line 10 in Robinson transcript</note>
-    </line>  
+    <!--Blank Page-->
   </zone>
 </surface>
