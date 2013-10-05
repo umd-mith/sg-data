@@ -34,7 +34,7 @@
     <line>morning in the latter <add place="superlinear" hand="#pbs">days</add> of September</line>
     <line>that I first saw the white cliffs of</line>
     <line>Britain. The banks <mod>
-        <add><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">of the</add>
       </mod> Thames presented</line>
     <line>a new scene; they were flat but fertile</line>

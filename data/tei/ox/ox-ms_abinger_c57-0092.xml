@@ -18,7 +18,7 @@
     <line>months in this wonderful &amp; celebrated city.</line>
     <line>Cl<mod>
         <del rend="strikethrough">ai</del>
-        <add place="sublinear"><metamark place="sublinear" function="insert"
+        <add place="sublinear"><metamark function="insert"
           >&#x2038;</metamark></add>
         <add place="superlinear">e</add>
       </mod>rval <mod>
@@ -38,7 +38,7 @@
     <line>I had brought with me addressed to</line>
     <line>the <mod>
         <del rend="strikethrough">various</del>
-        <add><metamark place="sublinear" function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">most</add>
         <del rend="strikethrough">men of sci</del>
       </mod> distinguished</line>
