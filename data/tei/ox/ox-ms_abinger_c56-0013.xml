@@ -23,7 +23,7 @@
     <delSpan spanTo="#c56-0013.02" rend="strikethrough"/>
     <line><space unit="chars" extent="3"/>In this account of my early</line>
     <line>youth I wish particularly to <mod spanTo="#c56-0013.03"/>men</line>
-    <line>tion <add><ptr target="#c56-0013.04"/></add><anchor xml:id="c56-0013.03"/> those
+    <line>tion <anchor xml:id="c56-0013.04"/><anchor xml:id="c56-0013.03"/> those
         circumstances<anchor xml:id="c56-0013.02"/> which</line>
     <line>led to and nourished my taste</line>
     <line>for that science which was</line>
@@ -62,6 +62,6 @@
         <add place="superlinear" hand="#pbs">and</add>
       </mod> terrible thunder storm</line>
   </zone>
-  <zone type="left_margin"><del rend="strikethrough"><add xml:id="c56-0013.04"
-    >record</add></del></zone>
+  <zone type="left_margin" corresp="#c56-0013.04">
+    <line><del rend="strikethrough"><add>record </add></del></line></zone>
 </surface>

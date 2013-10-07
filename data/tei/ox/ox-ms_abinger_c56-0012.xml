@@ -33,8 +33,8 @@
         <add place="superlinear" hand="#pbs">might not</add>
       </mod> outstrip her, but <mod spanTo="#c56-0012.01"/><del type="overwritten">she</del><add
         place="intralinear" hand="#pbs">by</add><del rend="strikethrough" next="#c56-0012.02"
-        >was</del><add place="superlinear" hand="#pbs">the</add><add><ptr target="#c56-0012.03"
-        /></add></line>
+        >was</del><add place="superlinear" hand="#pbs">the</add><anchor xml:id="c56-0012.03"
+        /></line>
     <line><del rend="strikethrough" xml:id="c56-0012.02">knew how</del><anchor xml:id="c56-0012.01"
       /> pleas<mod>
         <del type="overwritten">ed</del>
@@ -79,10 +79,8 @@
     <line>learned was impressed <add place="superlinear" hand="#pbs">the more deeply</add> on
       our</line>
     <line>memory. <mod>
-        <add place="superlinear" hand="#pbs"><metamark>X</metamark></add>
-        <del rend="strikethrough">I include</del>
-        <add><ptr target="#c56-0012.05"/></add>
-      </mod>
+      <add place="superlinear" hand="#pbs"><metamark function="displacement" xml:id="c56-0012.05">X</metamark></add>
+        <del rend="strikethrough">I include</del></mod>
       <del rend="strikethrough">Hen</del> Henry <mod spanTo="#c56-0012.07"/><del
         rend="strikethrough" next="#c56-0012.08">Carignan</del><add place="superlinear"
         >Clerval,</add></line>
@@ -96,12 +94,12 @@
     <line>the afternoon at our house for</line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c56-0012.03" hand="#pbs">desire of</add></line>
+  <zone type="left_margin" corresp="#c56-0012.03">
+    <line><add hand="#pbs">desire of</add></line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0012.05" spanTo="#c56-0012.06"/>
+  <zone type="left_margin" corresp="#c56-0012.05">
+    <addSpan spanTo="#c56-0012.06"/>
     <line><add place="superlinear" hand="#pbs"><metamark>X</metamark></add>In <mod>
         <del rend="strikethrough">this</del>
         <add place="superlinear" hand="#pbs">the</add>
