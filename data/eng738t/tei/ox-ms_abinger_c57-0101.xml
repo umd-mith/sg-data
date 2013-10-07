@@ -10,7 +10,7 @@
     <line>51</line>
   </zone>
   <zone type="main">
-    <line><add><ptr target="#c57-0101.01"/></add>as it was I <del rend="strikethrough">arrived</del>
+    <line><anchor xml:id="c57-0101.01"/>as it was I <del rend="strikethrough">arrived</del>
       lived ungazed at</line>
     <line>and unmolested, hardly thanked for the</line>
     <line>pittance of food and clothes which I gave</line>
@@ -27,7 +27,7 @@
     <line>my feet; It was a monotonous yet</line>
     <line>ever changing scene. I thought of Swit</line>
     <line>zerland; It was far different from</line>
-    <line>this desolate &amp; appalling <mod type="subst"><del rend="strikethrough">scene</del><add
+    <line>this desolate &amp; appalling <mod><del rend="strikethrough">scene</del><add
       place="superlinear">landscape</add></mod> &#x2013;Its</line>
     <line>hills are covered with vines &amp; its</line>
     <line>cottages are scattered thickly in the</line>
@@ -38,30 +38,25 @@
     <line>to the roarings of the giant ocean.</line>
     <milestone unit="tei:p"/>
     <line>In this <del rend="strikethrough">was at first</del> manner I</line>
-    <line>distributed my occupations when I first</line> as <line>arrived; but I proceeded in my
-      work it</line>
+    <line>distributed my occupations when I first</line> as 
+    <line>arrived; but I proceeded in my work it</line>
     <line>became every day more horrible &amp; irksome</line>
-    <line>to me. Sometimes I could <del rend="double-strike"><unclear unit="chars" extent="2"
-      precision="low" reason="overwritten"/></del> not prevail</line>
-    <line>on myself to enter my <mod type="subst"><del rend="strikethrough">workshop</del><add
-      place="sublinear">&#x2038;</add><add place="superlinear">laboratory</add></mod> for
-      several</line>
-    <line>days and at other times I <mod type="subst"><del rend="strikethrough">laboured</del><add
-      resp="#pbs" place="superlinear">toiled</add></mod> day &amp;</line>
-    <line>night in order to <mod type="subst"><del rend="strikethrough">finish</del><add resp="#pbs"
-      place="superlinear">complete</add></mod> it. It was indeed</line>
+    <line>to me. Sometimes I could <del rend="strikethrough"><unclear unit="chars" extent="2" precision="low" reason="overwritten"/></del> not prevail</line>
+    <line>on myself to enter my <mod><del rend="strikethrough">workshop</del><add place="sublinear"><metamark function="insert">&#x2038;</metamark></add><add place="superlinear">laboratory</add></mod> for several</line>
+    <line>days and at other times I <mod><del rend="strikethrough">laboured</del><add hand="#pbs" place="superlinear">toiled</add></mod> day &amp;</line>
+    <line>night in order to <mod><del rend="strikethrough">finish</del><add hand="#pbs" place="superlinear">complete</add></mod> it. It was indeed</line>
     <line>a <del rend="strikethrough">filhthy</del> filthy work in which I was en-</line>
-    <line>gaged. <mod type="subst"><del rend="strikethrough">In</del><add place="sublinear"
-      >&#x2038;</add><add place="superlinear">During</add></mod> my first experiment a kind
+    <line>gaged. <mod><del rend="strikethrough">In</del><add place="sublinear"><metamark function="insert">&#x2038;</metamark></add><add place="superlinear">During</add></mod> my first experiment a kind
       of</line>
-    <line>enthusiastic frenzy <mod type="additions" resp="#pbs"><add place="sublinear"
-      >&#x2038;</add><add place="superlinear">had</add></mod> blinded me to the</line>
+    <line>enthusiastic frenzy <mod><add place="sublinear"><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#pbs">had</add></mod> blinded me to the</line>
     <line>horror of my employment; my mind was</line>
     <line>intently fixed on the sequel of my labour</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c57-0101.01" spanTo="#c57-0101.02"/>
+  
+  <zone type="left_margin" corresp="#c57-0101.01">
+    <addSpan spanTo="#c57-0101.02"/>
     <line>and squalid</line>
-    <line>poverty;</line><anchor xml:id="c57-0101.02"/>
+    <line>poverty; </line>
+    <anchor xml:id="c57-0101.02"/>
   </zone>
 </surface>
