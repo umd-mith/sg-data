@@ -1,61 +1,48 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
             type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl"
             href="../../xsl/page-proof.xsl"
-        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0104" ulx="0" uly="0" lrx="5138" lry="7032">
+        ?><surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0" xml:id="ox-ms_abinger_c57-0104" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0104.tif"/>
   <zone type="main">
-    <line>selfishness<anchor xml:id="c57-0103.03"/><add><ptr target="#c57-0104.01"/></add> of my
-      promise burst upon me;</line>
+    <line>selfishness<anchor xml:id="c57-0103.03"/><anchor xml:id="c57-0104.01"/> of my promise burst upon me;</line>
     <line>I shuddered to think that future ages might</line>
-    <line>curse me as their pest whose <add place="intralinear"><restore><del rend="smear"
-      >selfishness</del></restore></add></line>
+    <line>curse me as their pest whose <restore type="smear_strikethrough"><del rend="strikethrough"><add place="intralinear">selfishness</add></del></restore></line>
     <line>had not hesitated to buy its own peace at</line>
-    <line>the price perhaps of the <mod type="additions" resp="#pbs"><add place="sublinear"
-      >&#x2038;</add><add place="superlinear">existence of</add></mod> whole human</line>
+    <line>the price perhaps of the <mod><add place="sublinear"><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#pbs">existence of</add></mod> whole human</line>
     <line>race. I trembled, and my heart failed <del rend="strikethrough">wh</del></line>
     <line>within me, when on looking up I saw</line>
-    <line>by the light of the moon, the dæmon <mod type="subst"><del rend="strikethrough"
-      >with</del><add place="superlinear" resp="#pbs">at the</add></mod></line> wicasement.
+    <line>by the light of the moon, the dæmon <mod><del rend="strikethrough">with</del><add place="superlinear" hand="#pbs">at the</add></mod></line> wicasement.
     <line>A ghastly grin <del rend="strikethrough">on his countena</del> wrinkled</line>
-    <line>lips, <add place="superlinear" resp="#pbs">as he</add> gazed on me <mod type="subst"><del
-      rend="strikethrough">as</del><add place="superlinear" resp="#pbs">where</add></mod> I sat.
-      Yes, he had</line>
+    <line>lips, <add place="superlinear" hand="#pbs">as he</add> gazed on me <mod><del rend="strikethrough">as</del><add place="superlinear" hand="#pbs">where</add></mod> I sat. Yes, he had</line>
     <line>followed me in my travels; he had loitered</line>
     <line>in forests, hid himself in caves or taken</line>
     <line>refuge in wide &amp; desart heaths &amp; he</line>
     <line>now came to view my progress &amp; claim</line>
-    <line>my promise; as I looked on hi<mod type="subst"><del rend="overwritten">s</del><add
-      place="intralinear">m</add> his <del rend="strikethrough">face</del><add
-        place="superlinear">countenance</add></mod></line>
+    <line>my promise; as I looked on hi<mod><del rend="overwritten">s</del><add place="intralinear">m</add></mod> his <mod><del rend="strikethrough">face</del><add place="superlinear">countenance</add></mod></line>
     <line>express<del rend="double-strike">ed</del> the utmost extent of malice</line>
-    <line>&amp; <mod type="subst"><del rend="strikethrough">barbarity</del><add place="superlinear"
-      resp="#pbs">treachery.</add></mod>: I thought with a sensation</line>
-    <line>of <del rend="strikethrough">horror</del> madness <mod type="subst"><del
-      rend="strikethrough">of</del><add place="superlinear" resp="#pbs">on</add></mod> my
-      promise of crea</line>
+    <line>&amp; <mod><del rend="strikethrough">barbarity</del><add place="superlinear" hand="#pbs">treachery.</add></mod>: I thought with a sensation</line>
+    <line>of <del rend="strikethrough">horror</del> madness <mod><del rend="strikethrough">of</del><add place="superlinear" hand="#pbs">on</add></mod> my promise of crea</line>
     <line>ting another like to him &amp; trembling</line>
     <line>with passion <del rend="strikethrough">as</del> tore to pieces the thing</line>
     <line>on which I was engaged &#x2013; The wretch</line>
     <line>saw me destroy the creature on whose</line>
     <line>future existence he depended for</line>
     <line>happiness and with a howl of devi</line>
-    <line>lish despair <mod type="additions" resp="#pbs"><add place="sublinear">&#x2038;</add><add
-      place="superlinear">&amp; revenge</add></mod> withdrew.</line>
+    <line>lish despair <mod><add place="sublinear"><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#pbs">&amp; revenge</add></mod> withdrew.</line>
     <milestone unit="tei:p"/>
     <line>I left the room &amp; locking the door</line>
     <line>made a vow in my own heart never</line>
     <line>to resume my labours; &amp; then with trem</line>
     <line>bling steps I sought my own appartment</line>
-    <line>I <del rend="strikethrough">a</del> was alone. <del rend="strikethrough"><unclear
-      unit="chars" extent="1" precision="low" reason="illegible">n</unclear></del> None were
-      near me to</line>
+    <line>I <del rend="strikethrough">a</del> was alone. <del rend="strikethrough"><unclear>n</unclear></del> None were near me to</line>
     <line>dissipate the gloom and relieve me</line>
     <line>from the most terrible reveries. Several</line>
     <line>hours passed and I remained near my</line>
     <line>window gazing on the sea. It was almost</line>
     <line>motionless for the winds were hushed &amp;</line>
   </zone>
-  <zone type="left_margin">
-    <line><del xml:id="c57-0104.01">selfishness</del></line>
+  
+  <zone type="left_margin" corresp="#c57-0104.01">
+    <line><del rend="strikethrough"><add>selfishness</add></del></line>
   </zone>
 </surface>
