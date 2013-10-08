@@ -5,5 +5,67 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0139" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0139.tif"/>
-  <zone> </zone>
+  <zone type="pagination">155</zone>
+  <zone type="library">70</zone>
+  <zone type="main">
+    <line>would die to make her happy <del rend="strikethrough">on whom I</del></line>
+    <line>and if the monster ex<del rend="strikethrough">c</del>ecuted his threat <del
+      rend="strikethrough">die</del><add><ptr target="#c57-0139.04"/></add>/></line>
+    <line><del rend="strikethrough">I must.</del> Yet again I considered <del rend="strikethrough"
+      >if</del>
+      <add place="superlinear" hand="#pbs">whether</add> my marriage</line>
+    <line>would hasten my fate if once the fiend had</line>
+    <line>determined on my death&#x2013; <delSpan spanTo="#c57-0139.01"/>It might indeed <add
+      place="sublinear">&#x2038;</add>
+      <add place="superlinear">protract hasten</add> a</line>
+    <line>few months but if he suspected that I delayed</line>
+    <line><del rend="cross-hatch">it</del> on his account he would certainly revenge</line>
+    <line>himself some other way.<anchor xml:id="c57-0139.01"/>
+      <add><ptr target="#c57-0139.05"/></add> He had vowed <hi rend="underline">to</hi></line>
+    <line><hi rend="underline">be with me on my marriage night</hi> Yet he</line>
+    <line>did not consider that threat as binding</line>
+    <line>him to peace in the mean time&#x2013; for as</line>
+    <line>if to shew me that he was not yet</line>
+    <line>satiated with blood <del rend="strikethrough">his ne</del> he had mur-</line>
+    <line>dered Cl<del rend="strikethrough">ai</del><add place="sublinear">&#x2038;</add><add
+      place="superlinear">e</add>rval&#x2013; <del rend="strikethrough">after many hours
+        spent</del>
+      <add place="superlinear" hand="#pbs">immediately after the enunciation of this
+        theats</add></line>
+    <line><del rend="strikethrough">in reverie &#x26; consideration.</del> I resolved <add
+      place="superlinear" hand="#pbs">therefore</add></line>
+    <line>that if <del rend="strikethrough">th the</del>
+      <add place="superlinear">my</add> immediate union with</line>
+    <line>my cousin s<del rend="overwritten">h</del><add place="intralinear">w</add>ould conduce
+      either to hers or</line>
+    <line>my fathers happiness my <del rend="strikethrough">threatened</del> adver</line>
+    <line>sary's threats against my life should</line>
+    <line>not retard it a single hour.&#x2013;</line>
+    <milestone unit="tei:p"/><line><del rend="strikethrough">We returned to Geneva.
+      Elizabeth</del></line>
+    <line><del rend="strikethrough">welcome</del> In this state of mind I wrote</line>
+    <line>to Elizabeth. My letter was calm and affectio</line>
+    <line>nate&#x2013; <milestone unit="tei:q" spanTo="#c57-0139.02"/>I fear, my beloved girl,
+      <anchor xml:id="c57-0139.02"/>I said,</line>
+    <milestone unit="tei:q" spanTo="#c57-0139.03"/><line>little happiness remains on earth
+      for</line>
+    <line>us, yet <del rend="strikethrough">what</del>
+      <add place="superlinear" hand="#pbs">all that</add> I may one day enjoy</line>
+    <line>is <del rend="strikethrough">all</del> concentrated <add place="superlinear" hand="#pbs"
+      >in</add> you. <del rend="strikethrough">my beloved one</del></line>
+    <line>Chase away your idle fears&#x2013; To you</line>
+    <line>alone do I consecrate my life &#x26; my</line>
+    <line>endeavours for <del rend="strikethrough">h</del> content. I have</line>
+    <line>one secret, Elizabeth, a dreadful one&#x2014;</line>
+    <line>It will chill your frame with horror</line>
+    <line>and then far from being surprised at</line><anchor xml:id="c57-0139.03"/>
+  </zone>
+  <zone type="left_margin">
+    <add xml:id="c57-0139.04">death was inevitable.</add>
+  </zone>
+  <zone type="left_margin">
+    <add xml:id="c57-0139.05">My destruction might unded arrive a few Months sooner but if my
+      torturer should suspect that I postponed my marriage on account of his menaces he would surely
+      find other, &#x26; perhaps more dreadful means of revenge</add>
+  </zone>
 </surface>
