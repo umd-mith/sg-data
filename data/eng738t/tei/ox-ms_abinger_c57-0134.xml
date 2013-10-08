@@ -5,5 +5,54 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0134" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0134.tif"/>
-  <zone> </zone>
+  <zone type="pagination">150</zone>
+  <zone type="main">
+    <line><milestone unit="tei:q" spanTo="#c57-0134.01"/>could not sacrifice the whole human
+      race.<anchor xml:id="c57-0134.01"/></line>
+    <milestone unit="tei:p"/>
+    <line>The conclusion of this speech persuaded my</line>
+    <line>father that my ideas were deranged and <del rend="smear">he</del><add place="intralinear" hand="#pbs"
+      >by</add><!-- The Word files have this insertion "by" but encoder does not see it in MS -->
+      instant</line>
+    <line>ly chang<del rend="strikethrough">ed</del><add place="superlinear" hand="#pbs">ing</add> the
+      subject of our conversation <del rend="overwritten">&#x26;</del> 
+      <add place="intralinear" hand="#pbs">he</add></line>
+    <line>endeavoured to alter the course of my thoughts.</line>
+    <line>He wished as much as possible to obliterate the</line>
+    <line>memory of the scenes in Ireland and never</line>
+    <line>again alluded to them or suffered me to speak</line>
+    <line>of my misfortunes. As time passed away I became</line>
+    <line>more calm; misery had her dwelling in my</line>
+    <line>heart but I no longer talked in the <add place="superlinear" hand="#pbs">same</add>
+      incoherent</line>
+    <line>manner <del rend="strikethrough">I before did</del> of my own crimes; suffi</line>
+    <line>cient for me was the consciousness of them.</line>
+    <line>By the utmost self violence I curbed the</line>
+    <line>imperious voice of wretchedness which</line>
+    <line>desired sometimes to declare itself to the</line>
+    <line>whole world, &#x26; my manners were calmer</line>
+    <line>&#x26; more composed than they had ever been</line>
+    <line>since my journey to the Sea of Ice. Even</line>
+    <line>my father who watched me as the bird</line>
+    <line>does its <del rend="strikethrough">n</del> nestling was deceived and thought</line>
+    <line>that the black melancholy which had</line>
+    <line>oppressed me was quitting me for ever</line>
+    <line>and that my native country &#x26; the society</line>
+    <line>of my friends would entirely restore me to</line>
+    <line>my former health &#x26; vivacity.</line>
+    <milestone unit="tei:p"/>
+    <line>We arrived at Havre on the 8<hi rend="underline"><hi rend="sup">th</hi></hi></line>
+    <line>of <del rend="strikethrough">February</del>
+      <add place="superlinear">May</add> &#x26; instantly proceeded to Paris</line>
+    <line>where my father had some business</line>
+    <line>which detained <add place="sublinear">&#x2038;</add><add place="superlinear" hand="#pbs"
+      >us</add> a few weeks. <del rend="strikethrough">I I rermain</del></line>
+    <line><del rend="strikethrough">ed with him</del> In this city I received the</line>
+    <line>following letter from Elizabeth:</line>
+    <milestone unit="tei:div" spanTo="#c57-0134.02"/>
+    <milestone unit="tei:p"/><line>To Victor Frankenstein</line>
+    <milestone unit="tei:date" spanTo="#c57-0134.03"/><line><add place="superlinear">May</add>
+      <del rend="strikethrough">Feb.</del> 18&#x2013; 17&#x2014;</line><anchor xml:id="c57-0134.03"/>
+    <milestone unit="tei:salute" spanTo="#c57-0134.04"/><line>My dearest Friend.</line><anchor xml:id="c57-0134.04"/>
+  </zone>
 </surface>
