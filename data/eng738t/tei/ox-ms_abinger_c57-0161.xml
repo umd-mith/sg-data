@@ -5,5 +5,113 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0161" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0161.tif"/>
-  <zone> </zone>
+  <zone type="pagination">
+    <line>177</line>
+  </zone>
+  <zone type="main">
+    <line>fulfil my pilgrimage with<del rend="strikethrough">out them I should</del></line>
+    <line><anchor xml:id="c57-0161.01"/>have sunk under my hardships <delSpan
+      spanTo="#c57-0161.02"/>&amp; misery</line>
+    <line>but<anchor xml:id="c57-0161.02"/> during the day I was <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear" hand="#pbs">thus</add>
+    </mod> sustained &amp; inspri</line>
+    <line>ted by the hope of night; <mod><del rend="strikethrough">&amp; sleep &#x2013; I then</del><add
+      hand="#pbs" place="superlinear">for in sleep</add></mod> I saw</line>
+    <line>my friends my wife &amp; my beloved country</line>
+    <line>again I saw the benevolent countenance</line>
+    <line>of my <del rend="strikethrough"><unclear extent="1" unit="chars" reason="illegible"/></del> father,&#x2013; heard the silver tones of</line>
+    <line>my Elizabeths voice and beheld Clerval</line>
+    <line>enjoying health &amp; youth &#x2013; Often when</line>
+    <line>wearied by a toilsome march I persua</line>
+    <line>ded myself that I was then dreaming <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear" hand="#pbs">until night should come</add>
+    </mod> &amp;</line>
+    <line>that <del rend="strikethrough">reality</del> I <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear" hand="#pbs">should then</add>
+    </mod> enjoy<del rend="strikethrough">ed</del> reality <del rend="strikethrough">when I was
+      again</del></line>
+    <line>in the arms of my dearest friends&#x2013;What</line>
+    <line>agonizing fondness did I feel for them&#x2013;how</line>
+    <line>did I cling to their dear forms as they <mod>
+      <del rend="strikethrough" xml:id="c57-0161.03" next="#c57-0161.04"><unclear
+        reason="illegible">pursed</unclear></del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear" hand="#pbs">sometimes</add>
+      <add place="superlinear">haunted</add>
+      <add place="sublinear">even</add>
+    </mod></line>
+    <line><mod xml:id="c57-0161.04" prev="#c57-0161.03">
+      <del rend="strikethrough">my day</del>
+      <del rend="strikethrough">as well as night</del>
+      <anchor xml:id="c57-0161.05"/>
+    </mod> dreams and per</line>
+    <line>suade myself that they still lived. At such</line>
+    <line>moments the vengeance that burned</line>
+    <line>withing me died in my heart and I pursued</line>
+    <line>my path towards the destruction of the dæ</line>
+    <line>mon more as a task enjoined by heaven,<add><metamark function="displacement" xml:id="c57-0161.06">X</metamark></add></line>
+    <line>than the ardent desire of my soul.</line>
+    <milestone unit="tei:p"/>
+    <line>What his feelings were whom I pur</line>
+    <line>sued I <mod>
+      <del rend="strikethrough">hardly</del>
+      <add place="superlinear">cannot</add>
+    </mod> know &#x2013; <del rend="strikethrough">Yet</del> Sometimes indeed he</line>
+    <line>left marks in writing on the barks of</line>
+    <line>trees or cut on stone that guided me,</line>
+    <line>&amp; instigated my fury &#x2013; My reign is not yet</line>
+    <line>over, <mod>
+      <del rend="strikethrough">he said</del>
+      <add place="superlinear" hand="#pbs">was legible</add>
+      <del rend="strikethrough">on</del>
+      <add hand="#pbs" place="superlinear">in</add>
+    </mod> one of these <mod type="additions" hand="#pbs">
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">inscriptions&#x2013;</add>
+    </mod>&#x2013; You live &amp;</line>
+    <line>my power is complete. Follow me &#x2013;I seek</line>
+    <line>the everlasting ices of the north where you</line>
+    <line>will feel the misery of go cold &amp; frost <delSpan spanTo="#c57-0161.07"
+      rend="strikethrough"/>but</line>
+    <line>I shall not for cold is sweeter to me</line>
+    <line>than heat<anchor xml:id="c57-0161.07"/><anchor xml:id="c57-0161.08"/> &#x2013; You will
+      find near this place</line>
+    <line>if you follow not too tardily, a dead <del rend="strikethrough">hair</del><add
+      place="superlinear">hare</add></line>
+    <line>eat &amp; be revived. <del rend="strikethrough">for I</del> Come on my enemy</line>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0161.01">
+    <addSpan spanTo="#c57-0161.09"/>
+    <line>Deprived of this</line>
+    <line>respite I should </line>
+    <anchor xml:id="c57-0161.09"/>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0161.05">
+    <addSpan spanTo="c57-0161.10"/><line>the visions of</line>
+    <line>my waking</line>
+    <line>hours</line>
+    <anchor xml:id="c57-0161.10"/>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0161.06">
+    <addSpan spanTo="#c57-0161.11"/><line><metamark>X</metamark> as the
+      mechanical</line>
+    <line>impulse of</line>
+    <line>some power of
+      which<!--having trouble determining which of this margin text is written by pbs, such as this word--></line>
+    <line>I was uncon</line>
+    <line>-scious,</line>
+    <anchor xml:id="c57-0161.11"/>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0161.08">
+    <addSpan spanTo="#c57-0161.12"/><line>to which I am</line>
+    <line>impassive</line>
+    <anchor xml:id="c57-0161.12"/>
+  </zone>
 </surface>
