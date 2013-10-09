@@ -5,5 +5,118 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0159" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0159.tif"/>
-  <zone> </zone>
+  <zone type="pagination">
+    <line>175</line>
+  </zone>
+  <zone type="library">
+    <line>80</line>
+  </zone>
+  <zone type="main">
+    <line>tence, <mod>
+      <del rend="strikethrough">But</del>
+      <add place="superlinear">but</add>
+    </mod> that my vow was heard and I</line>
+    <line>was reserved for vengeance &#x2013; The laughter</line>
+    <line>died away <mod>
+      <del rend="strikethrough">and</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">when</add>
+    </mod> a well known and <del rend="strikethrough">detested</del></line>
+    <line>abhorred voice apparently close to my ear ad</line>
+    <line>dressed me in an audible whisper &#x2013; I am sa</line>
+    <line>tisfied, <del rend="strikethrough">it said,</del> miserable wretch, you have</line>
+    <line>determined to live &amp; I am satisfied &#x2013; I darted</line>
+    <line>towards the place from which the <del rend="strikethrough">moon</del> sound</line>
+    <line>proceeded but the <mod>
+      <del rend="strikethrough">wretch</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <del rend="strikethrough"><add place="superlinear">villain</add></del>
+      <add place="sublinear" hand="#pbs">devil</add>
+    </mod> eluded my grasp.</line>
+    <line><del rend="strikethrough">When</del> suddenly the broard disk of the moon</line>
+    <line>arose and shone fully upon <delSpan rend="strikethrough" xml:id="c57-0159.01"
+      next="#c57-0159.02" spanTo="#c57-0159.03"/>the d&#xE6;mon</line>
+    <line>who fled.<anchor xml:id="c57-0159.03"/>
+      <mod xml:id="c57-0159.02" prev="#c57-0159.01" type="additions" hand="#pbs">
+        <add place="intralinear">his ghastly &amp; distorted shape, as he fled with</add>
+        <!--I assume this is pbs, though the scholar doesn't indicate it-->
+        <anchor xml:id="c57-0159.04"/>
+      </mod></line>
+    <milestone unit="tei:p"/>
+    <line>I persued <add place="superlinear" hand="#pbs">him;</add>&#x2013; &amp; for many months
+      this</line>
+    <add place="sublinear">&#x2038;</add>
+    <line><anchor xml:id="c57-0159.05"/>has been my task. Guided by a slight clue</line>
+    <line>I <del rend="strikethrough">w</del> followed the windings of the Rhone</line>
+    <line>but vainly &#x2013; The mediterranean appeared</line>
+    <line>and by a strange chance I saw the fiend</line>
+    <line>enter by night &amp; hide himself in a vessel</line>
+    <line>bound for the black sea &#x2013; I followed him <anchor xml:id="c57-0159.06"/></line>
+    <milestone unit="tei:p"/>
+    <line><del rend="strikethrough">Along the</del> Amidst the wilds of Tartary &amp;</line>
+    <line>Russia although he still <mod>
+      <del rend="strikethrough">escaped</del>
+      <add hand="#pbs" place="superlinear">evaded</add>
+    </mod> me</line>
+    <line>I have ever followed in his track &#x2013; Some</line>
+    <line>times the peasants scared by his horrid</line>
+    <line>Apparition informed me of his path</line>
+    <line>Sometimes he himself who feared that</line>
+    <line>if I lost all trace I should despair &amp; die</line>
+    <line>often left some mark to guide me &#x2013;The</line>
+    <line>snows descended on my head &amp; I saw the <mod>
+      <del rend="strikethrough">mark</del>
+      <add place="superlinear" hand="#pbs">print</add>
+    </mod></line>
+    <line>of his huge step on the white plain &#x2013;To</line>
+    <line>you <add place="superlinear" hand="#pbs">are fast</add> enterring on life, &amp; care <add
+      place="superlinear" hand="#pbs">is new to you &amp;</add> <add><metamark function="displacement" xml:id="c57-0159.07">X</metamark></add> how can</line>
+    <line><mod>
+      <del rend="strikethrough">I describe</del>
+      <add place="superlinear" hand="#pbs">you understand</add>
+    </mod> what I have felt &amp; still feel.</line>
+    <line>which I was Cold, want &amp; <mod>
+      <del rend="strikethrough">thirst</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">fatigue</add>
+    </mod> were <mod>
+      <del rend="strikethrough">my</del>
+      <add place="superlinear" hand="#pbs">the</add>
+    </mod> least pains</line>
+    <line><anchor xml:id="c57-0159.08"/>I was cursed by some devil &amp; bore about</line>
+    <line>with me my eternal Hell &#x2013; Yet still a</line>
+    <line>spirit of good followed &amp; directed my steps</line>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0159.04">
+    <addSpan spanTo="#c57-0159.09"/>
+    <line>more than</line>
+    <line>mortal speed.</line>
+    <anchor xml:id="c57-0159.09"/>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0159.05">
+    <line><add>pursuit</add></line>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0159.06">
+    <addSpan spanTo="#c57-0159.10"/>
+    <line>I knew the</line>
+    <line>vessel in which</line>
+    <line>he was concealed</line>
+    <line>&amp; he escaped me</line>
+    <line>I know not</line>
+    <line>how.</line><anchor xml:id="c57-0159.10"/>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0159.07">
+    <line><add><metamark>X</metamark> agony unknown</add></line>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0159.08">
+    <addSpan spanTo="#c57-0159.11"/>
+    <line>which I was</line>
+    <line>destined to endure;</line>
+    <anchor xml:id="c57-0159.11"/>
+  </zone>
 </surface>
