@@ -5,5 +5,79 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0155" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0155.tif"/>
-  <zone> </zone>
+  <zone type="pagination">
+    <line>171</line>
+  </zone>
+  <zone type="library">
+    <line>78</line>
+  </zone>
+  <zone type="main">
+    <line>change in the phisiognomy of my auditor</line>
+    <line>He had heard my <mod>
+      <del rend="strikethrough">tale</del>
+      <add place="superlinear">story</add>
+    </mod> with that half kind of belief</line>
+    <line>that is given to a tale of spirits and ghosts but</line>
+    <line>when he was called upon to act officially in</line>
+    <line>consequence of it <del rend="strikethrough">his</del> the whole tide of his incre</line>
+    <line>dulity returned &#x2013; He however answered mildly.</line>
+    <milestone unit="tei:p"/>
+    <line>I would willingly afford you every aid in</line>
+    <line>your pursuit; but the creature of whom you</line>
+    <line>speak appears to have powers which would</line>
+    <line>put all my exertions to defiance for Who</line>
+    <line>can follow an animal <mod>
+      <del rend="strikethrough">who</del>
+      <add place="superlinear" hand="#pbs">which</add>
+    </mod> can traverse</line>
+    <line>se the sea of ice and inhabit caves &amp; dens</line>
+    <line>where no man would venture to intrude</line>
+    <milestone unit="tei:p"/>
+    <delSpan rend="vertical_line" spanTo="#c57-0155.01"/>
+    <line>But such a wretch, I replied, may be hun</line>
+    <line>ted like the Chamois &amp; be destroyed like a</line>
+    <line>beast of prey.</line>
+    <milestone unit="tei:p"/>
+    <line>Certainly; but some months have</line>
+    <line>elapsed since the commission</line>
+    <anchor xml:id="c57-0155.01"/>
+    <line>besides some months have elapsed since</line>
+    <line>the commission of his crimes &amp; <del rend="strikethrough">wh</del> no one</line>
+    <line>may conjecture to what place he has</line>
+    <line>wandered <mod>
+      <del rend="strikethrough">&amp;</del>
+      <add hand="#pbs" place="superlinear">or</add>
+    </mod> what <mod>
+      <del rend="strikethrough">country</del>
+      <add hand="#pbs" place="superlinear">region</add>
+    </mod> he may now</line>
+    <line>inhabit.</line>
+    <milestone unit="tei:p"/>
+    <line>I do not doubt, I replied, that he hovers</line>
+    <line>near the <mod>
+      <del rend="strikethrough">place where</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">spot which</add>
+    </mod> I <mod>
+      <del rend="strikethrough">live</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">inhabit</add>
+    </mod> &#x2013; And if he</line>
+    <line>has indeed taken refuge in the alps he</line>
+    <line>may be hunted like the chamois &amp; des</line>
+    <line>troyed as a beast of prey. But I perceive</line>
+    <line>your thoughts &#x2013; you do not credit my</line>
+    <line>narrative and do not intend to <del rend="strikethrough">inflict</del></line>
+    <line>pursue my enemy with <add place="superlinear">the</add> punishment</line>
+    <line>that <del rend="strikethrough"><unclear unit="chars" extent="1" reason="illegible"/></del> is his desert.</line>
+    <milestone unit="tei:p"/>
+    <line>As I spoke rage sparkled in my</line>
+    <line>eyes &#x2013; The magistrate was intimidated</line>
+    <line>You are mistaken, said he an I will</line>
+    <line>exert myself and if it is <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">in</add>
+    </mod> my power to</line>
+    <line>seize the monster be assured that he</line>
+  </zone>
 </surface>
