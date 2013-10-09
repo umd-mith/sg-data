@@ -5,5 +5,70 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0156" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0156.tif"/>
-  <zone> </zone>
+  <zone type="pagination">
+    <line>172</line>
+  </zone>
+  <zone type="main">
+    <line>shall suffer punishment proportionate to</line>
+    <line>his crimes &#x2013; But I fear from what you <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear" hand="#pbs">have</add>
+    </mod> your</line>
+    <line>self described to <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">be</add>
+    </mod> his properties that this will</line>
+    <line>prove impracticable and that &#x2013; while every</line>
+    <line>proper measure is pursued you should</line>
+    <line>endeavour to make up your mind to a</line>
+    <line>di<del rend="strikethrough">ss</del><!--prime candidate for applying sharp s unicode character--><add place="intralinear" hand="#pbs">s</add>appointment</line>
+    <milestone unit="tei:p"/>
+    <line>That cannot be&#x2013; said I wildly&#x2013;But</line>
+    <line>all that I can say <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">will</add>
+    </mod> be of little avail; <del rend="strikethrough">vengeance</del></line>
+    <line>My revenge is of no moment to you yet while I allow</line>
+    <line>it to <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">be</add>
+    </mod> a vice I confess that it is the</line>
+    <line>devouring &amp; only passion of my soul; my</line>
+    <line>rage is unspeakable when I reflect that</line>
+    <line>the murderer whom I have turned loose</line>
+    <line>upon society still exists &#x2013; <delSpan rend="strikethrough" spanTo="#c57-0156.01"/>I
+      trembled as I spoke</line>
+    <line>this<anchor xml:id="c57-0156.01"/> You refuse my just demand &#x2013; I have</line>
+    <line>but one resource and I devote myself</line>
+    <line>either in my life or death to his destruc</line>
+    <line>tion &#x2013; <del rend="strikethrough">I will pursue him</del> I trembled</line>
+    <line>with excess of agitation as I said this</line>
+    <line>there was a frenzy in my manner</line>
+    <line>&amp; something I doubt not of that</line>
+    <line>haught<add place="intralinear" hand="#pbs">y</add> fierceness <mod>
+      <del rend="strikethrough">that</del>
+      <add place="superlinear" hand="#pbs">which</add>
+    </mod> the martyrs of</line>
+    <line>old were said to <add place="superlinear">have</add> possessed &#x2013; But <mod>
+      <del rend="strikethrough">a</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">to</add>
+    </mod> a</line>
+    <line>Genevan magistrate, whose mind was</line>
+    <line>occupied by far other ideas than</line>
+    <line><del rend="strikethrough">tho</del> those of devo<del rend="strikethrough">te</del>tion
+      &amp; <del rend="strikethrough">heh</del> heroism <del rend="strikethrough">&amp;</del></line>
+    <line>this elevation of mind had much the</line>
+    <line>appearance of madness. He endeavoured</line>
+    <line>to <del rend="strikethrough">calm</del> soothe me as a nurse does</line>
+    <line>a child &amp; reverted to my tale as the</line>
+    <line>effects of delirium &#x2013; Man &#x2013; I cried, how</line>
+    <line>ignorant art thou in thy pride of</line>
+    <line>wisdom.&#x2013; cease you know not what</line>
+    <line><del rend="strikethrough">you speak about</del> it is you say.</line>
+    <milestone unit="tei:p"/>
+    <line>I broke from the house &amp; angry &amp;</line>
+    <line>disturbed retired to meditate some other mode</line>
+    <line>of action.</line>
+  </zone>
 </surface>
