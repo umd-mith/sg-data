@@ -5,5 +5,70 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0164" ulx="0" uly="0" lrx="5148" lry="7030" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0164.tif"/>
-  <zone> </zone>
+  <zone type="pagination" rend="bordered">180</zone>
+  <zone type="main">
+    <line>porary fit of despair &#x2013; he had escaped me and I</line>
+    <line>must now commence a destructive &amp; almost</line>
+    <line>endless journey across the mountainous ices</line>
+    <line>of the occean &#x2013; amidst cold that few of the</line>
+    <line>inhabitants could long endure &amp; <del rend="strikethrough">how could</del></line>
+    <line><anchor xml:id="c57-0164.01"/> I <del rend="strikethrough">ex</del>
+      <del rend="strikethrough">a</del> native of a genial &amp; su<mod><add><metamark function="insert">&#x2038;</metamark></add><add place="superlinear">n</add></mod>ny climate</line>
+    <line><anchor xml:id="c57-0164.02"/> hope to survive. Yet at the idea that the</line>
+    <line>fiend should <del rend="strikethrough">lif</del> live &amp; be triumphant my</line>
+    <line>rage and vengeance returned &amp; like a</line>
+    <line>mighty tide overwhelmed every other fee-</line>
+    <line>ling. After <del rend="strikethrough">tasting</del> a slight repose during</line>
+    <line>which the spirits of the dead hovered round</line>
+    <line>me &amp; instigated me to toil &amp; revenge I</line>
+    <line>prepared for my journey.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">I exchanged my land sledge for</line>
+    <line>one fashioned for the ruggedness of the</line>
+    <line><anchor xml:id="c57-0164.03"/>ocean and purchasing a plentiful stock</line>
+    <line>of provisions I departed from land. How</line>
+    <line>many days have passed since then I know</line>
+    <line>not but I have endured misery <mod><del rend="strikethrough">that</del><add place="superlinear">which</add></mod></line>
+    <line>nothing but the eternal sentiment <del rend="strikethrough">that</del></line>
+    <line><anchor xml:id="c57-0164.04"/>burn<del>s</del><add place="intralinear">ing</add>
+      within my heart could have enabled</line>
+    <line>me to support. Immense &amp; rugged moun</line>
+    <line>tains of ice often <del rend="strikethrough">barred up my</del>
+      <del rend="strikethrough">par</del></line>
+    <line>barred up my passage and I often heard</line>
+    <line>the <mod><metamark place="sublinear" function="insert">&#x2038;</metamark><add place="superlinear">earthquake
+        &amp; the thunder of the</add></mod> ground sea which threatened my</line>
+    <line>destruction but again a frost came <delSpan spanTo="#c57-0164.05"/>that</line>
+    <line>secured me<anchor xml:id="c57-0164.05"/> . <delSpan spanTo="#c57-0164.06"/>and I followed
+      the slight</line>
+    <line>tracts that my enemy had left<anchor xml:id="c57-0164.06"/> &#x2013; By the</line>
+    <line><del rend="strikethrough">consumation</del><add place="superlinear">quantity</add> of
+      provision <mod><metamark place="sublinear" function="insert">&#x2038;</metamark><add place="superlinear">which I have
+        consumed</add></mod> I should guess</line>
+    <line>that I had passed <del rend="strikethrough">three</del>
+      <del rend="strikethrough"><add place="superlinear">two</add></del>
+      <del rend="strikethrough">months</del><add place="superlinear">three weeks</add> in
+      this</line>
+    <line>journey &#x2013; And <del rend="strikethrough">despair</del><add place="superlinear">despondency
+      &amp; grief&#x2013;</add> often wrung bitter</line>
+    <line>drops from my eyes &#x2013; Despair indeed had</line>
+    <line>almost secured her prey &amp; I should soon</line>
+    <line>have sunk under this misery&#x2013; When once</line>
+  </zone>
+
+  <zone type="left_margin">
+    <line><add>whih,</add></line>
+  </zone>
+
+  <zone type="left_margin">
+    <line><add>could not</add></line>
+  </zone>
+
+  <zone type="left_margin">
+    <line><add>frozen</add></line>
+  </zone>
+
+  <zone type="left_margin">
+    <line><add>of a just revenge</add></line>
+  </zone>
 </surface>
