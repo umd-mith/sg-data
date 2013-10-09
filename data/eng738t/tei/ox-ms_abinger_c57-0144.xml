@@ -5,5 +5,64 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0144" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0144.tif"/>
-  <zone> </zone>
+  <zone type="pagination">
+    <line>160</line>
+  </zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line>Elizabeth seemed happy at the change</line>
+    <line>from mirth to content which she saw come</line>
+    <line>over me&#x2013; But on the day that was to ful</line>
+    <line>fil my wishes &amp; my destiny she was melancholy&#x2013;</line>
+    <line>a presentiment of evil pervaded <del rend="strikethrough">&amp;</del> her &amp;</line>
+    <line>perhaps also she thought of the <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">dreadful</add>
+    </mod> secret which</line>
+    <line>I had promised to reveal to her the <del rend="strikethrough">next</del></line>
+    <line><anchor xml:id="c57-0144.01"/>day. My father was in the mean time over</line>
+    <line>joyed and in the bustle of <mod>
+      <del rend="strikethrough">the day an</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">preparation</add>
+    </mod> only</line>
+    <line>observed in the melancholy of his neice</line>
+    <line>the diffidence of a bride.</line>
+    <milestone unit="tei:p"/>
+    <line>After the cermony was performed</line>
+    <line>a large party assembled at my fathers</line>
+    <line><del rend="strikethrough">&amp;</del> but it was agreed that Elizabeth &amp; I</line>
+    <line>should pass the afternoon &amp; night at</line>
+    <line>Evian and set out on our return</line>
+    <line>the next morning. The day was fine and</line>
+    <line>as the wind was favourable we resolved</line>
+    <line>to go by water.</line>
+    <milestone unit="tei:p"/>
+    <line>Those were the last moments of</line>
+    <line>my life during which I enjoyed the feeling</line>
+    <line>of happiness. We passed rapidly along; the</line>
+    <line>sun was hot but we were sheltered by</line>
+    <line>a kind of canopy from its rays while we</line>
+    <line>enjoyed the be beauty of scene &#x2013; Sometimes</line>
+    <line>on one side of the lake where we saw</line>
+    <line>Mont Salêve &#x2013; the pleasant banks of</line><!--get unicode for grave e -->
+    <line>Montalegre and at <add place="superlinear">a</add> distance surmount</line>
+    <line>ing all the beautiful Mont Blanc</line>
+    <line>and the assemblage of snowy moun<del rend="cross-hatch">t</del></line>
+    <line>tains that endeavoured to emulate</line>
+    <line>her &#x2013; Sometimes <mod>
+      <del rend="strikethrough">on</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">coasting</add>
+    </mod> the <del rend="strikethrough">other</del> opposite</line>
+    <line>banks we saw the mighty Jura oppo</line>
+    <line>sing its dark side to <mod>
+      <del rend="strikethrough">that</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">the</add>
+    </mod> ambition</line>
+  </zone>
+  <zone type="left_margin" corresp="#c57-0144.01">
+    <line><add>following </add></line>
+  </zone>
 </surface>
