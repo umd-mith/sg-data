@@ -5,5 +5,153 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0157" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0157.tif"/>
-  <zone> </zone>
+  <zone type="pagination">
+    <line>173</line>
+  </zone>
+  <zone type="library">
+    <line>A13</line>
+  </zone>
+  <zone type="top">
+    <line>Chap. 18</line>
+  </zone>
+  
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line><mod>
+      <del rend="strikethrough">Alas!</del>
+      <del rend="strikethrough">reflection in</del>
+      <del rend="strikethrough">the</del>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">my</add>
+    </mod> present situation was</line>
+    <line><del rend="strikethrough">impossible</del><add place="superlinear" hand="#pbs">one in
+      which all</add><anchor xml:id="c57-0157.01"/> &#x2013; I was hurried away by fury &#x2013;
+      Revenge alone</line>
+    <line><mod>
+      <del rend="strikethrough">inspired</del>
+      <add place="superlinear" hand="#pbs">endowed</add>
+    </mod> me with strength, <mod>
+      <del rend="strikethrough">&amp; power of action</del>
+      <add place="superlinear" hand="#pbs">&amp; composure</add>
+    </mod> &#x2013; It</line>
+    <line>modelled my feelings <add place="superlinear">&amp;</add> allowed me to be
+      calculating</line>
+    <line>and calm <mod>
+      <del rend="strikethrough">when otherwise</del>
+      <add place="superlinear" hand="#pbs">at periods when otherwise</add>
+    </mod> delirium or death</line>
+    <line>would have been my portion. My first resolution was</line>
+    <line>to quit Geneva for ever.&#x2013; My country which when</line>
+    <line>I was happy &amp; beloved was dear me <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">now in my adversity</add>
+    </mod> became hateful</line>
+    <line>I provided myself with a small sum of money</line>
+    <line><anchor xml:id="c57-0157.02"/>a few jewels <mod>
+      <del rend="strikethrough">that</del>
+      <add hand="#pbs" place="superlinear">which</add>
+    </mod> had belonged to my mother</line>
+    <line>&amp; <del rend="strikethrough">left it</del>. departed</line>
+    <milestone unit="tei:p"/>
+    <line>And now my wanderings began which are to</line>
+    <line>cease but with life &#x2013; I have traversed a vast</line>
+    <line><mod>
+      <del rend="smear">extent</del>
+      <add hand="#pbs" place="superlinear">portion</add>
+    </mod> of <mod>
+      <del rend="strikethrough">country</del>
+      <add hand="#pbs" place="superlinear">the earth</add>
+    </mod> and <add place="superlinear" hand="#pbs">have</add> endured all the hardships</line>
+    <line><mod>
+      <del rend="smear">that</del>
+      <add place="superlinear" hand="#pbs">which</add>
+    </mod> travellers in desarts &amp; barbarous countries</line>
+    <line>are wont to meet &#x2013; How I <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">have</add>
+    </mod> lived I hardly know</line>
+    <line><del rend="smear">for</del> many times <mod>
+      <del rend="strikethrough">did</del>
+      <add place="superlinear">have</add>
+    </mod> I <mod>
+      <del rend="strikethrough">lie</del>
+      <add place="sublinear" hand="#pbs"><del rend="smear"><unclear reason="overwritten"/></del>
+        stretched my failing limbs</add>
+    </mod> on the sandy plain</line>
+    <line>exhausted &amp; far from succour, &amp; prayed for</line>
+    <line>death &#x2013; But revenge kept me alive &#x2013; I dared</line>
+    <line>not die &amp; leave my adversary in being.&#x2013;</line>
+    <milestone unit="tei:p"/>
+    <line>When I quitted Geneva my first <del rend="strikethrough"><unclear reason="illegible" unit="chars" extent="1"/></del> labour</line>
+    <line>was to gain some <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">clue</add>
+    </mod> by which I might trace</line>
+    <line><mod>
+      <del rend="strikethrough">his</del>
+      <add place="superlinear">the</add>
+    </mod> steps <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">of my fiendish enemy</add>
+    </mod>. But my plan was unsettled and I</line>
+    <line>wandered many hours around the confines</line>
+    <line>of <mod>
+      <del rend="strikethrough">Geneva</del>
+      <add place="superlinear">the town</add>
+    </mod> uncertain what path <mod>
+      <del rend="smear">to</del>
+      <add place="superlinear" hand="#pbs">I should</add>
+    </mod> pursue</line>
+    <line>As night approached I found myself at the</line>
+    <line>entrance of the cemetary, where William, Eliza</line>
+    <line>beth and my father reposed &#x2013; I entered it &amp;</line>
+    <line>approached the <del rend="strikethrough">toom</del> tomb which marked their</line>
+    <line>graves. Every thing was silent except the</line>
+    <line>leaves of the trees which <add place="superlinear">were</add> gently <mod>
+      <del rend="strikethrough">rustled</del>
+      <add place="superlinear" hand="#pbs">agitated</add>
+    </mod> by the</line>
+    <line>breeze &#x2013; The night was nearly dark and the</line>
+    <line>scene would have been even to an unin</line>
+    <line>terested observer affecting and solemn&#x2013;the</line>
+    <line>spirits of the <mod>
+      <del rend="strikethrough">d</del>
+      <add place="superlinear">departed</add>
+    </mod> seemed to flit around and <mod>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear">to cast</add>
+    </mod> a</line>
+    <line><mod>
+      <del rend="strikethrough">gentle</del>
+      <del rend="strikethrough">hallow</del>
+      <anchor xml:id="c57-0157.03"/>
+    </mod> around <add place="superlinear">the</add> head of the mourner. <del rend="smear"
+      >But</del></line>
+  </zone>
+  <zone type="left_margin" corresp="#c57-0157.01">
+    <addSpan spanTo="#c57-0157.04"/>
+    <line>volun-</line>
+    <line>-tary</line>
+    <line>thought</line>
+    <line>was</line>
+    <line>swallowed</line>
+    <line>up and</line>
+    <line>lost.</line>
+    <anchor xml:id="c57-0157.04"/>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0157.02">
+    <addSpan spanTo="#c57-0157.05"/>
+    <line>together</line>
+    <line>with</line>
+    <anchor xml:id="c57-0157.05"/>
+  </zone>
+  
+  <zone type="left_margin" corresp="#c57-0157.03">
+    <addSpan spanTo="#c57-0157.06"/>
+    <line>shadow</line>
+    <line>which</line>
+    <line>was felt but seen not</line>
+    <anchor xml:id="c57-0157.06"/>
+  </zone>
 </surface>
