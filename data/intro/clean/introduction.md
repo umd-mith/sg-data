@@ -6,7 +6,7 @@ writers, William Godwin (1756--1836) and Mary Wollstonecraft (1759--1797),
 who died eleven days after her daughter Mary was born; she eloped with
 the married twenty-one-year-old poet Percy Bysshe Shelley (1792--1822) in
 July 1814, when she was sixteen (they were accompanied by Mary Shelley's
-slightly younger step-sister Claire Clairmont [1798--1879]^1^ on a
+slightly younger step-sister Claire Clairmont [1798--1879][^1] on a
 six-weeks' tour of France, Switzerland, Germany, and Holland); she gave
 birth to a premature daughter in February 1815 (who died twelve days
 later) and a son in January 1816. Less than four months later, the
@@ -19,7 +19,7 @@ famous summer of 1816, a summer that has since been celebrated by these
 writers' own recollections, by biographies, by fiction, and by film.
 
 Among the many works conceived and/or written during that wet and stormy
-summer^2^ were Byron's *Childe Harold's Pilgrimage: Canto the Third*,
+summer[^2] were Byron's *Childe Harold's Pilgrimage: Canto the Third*,
 his drama *Manfred*, and his Vampire "Fragment"; Percy Bysshe Shelley's
 poems "Hymn to Intellectual Beauty" and "Mont Blanc"; Polidori's tale
 *The Vampyre* and his novel *Ernestus Berchtold; or, The Modern Oedipus*
@@ -36,7 +36,7 @@ Mary Shelley's monster.
 
 Many of those who have previously studied *Frankenstein* will know that
 there are a number of "texts" of the novel, each with significant
-textual flaws: the three-volume *1818* first edition,^3^ with its
+textual flaws: the three-volume *1818* first edition,[^3] with its
 printing errors; the "Thomas" copy of *1818*, with Mary Shelley's own
 holograph corrections and additions; the two-volume *1823* second
 edition (which used *1818* as setting copy), with at least 120 variant
@@ -94,7 +94,7 @@ other texts [*1818 Thomas*, *1823*, and *1831*] are to be found in the
 footnotes.)
 
 Ur-text: Draft(s) of a "story" ([?17] June--[August or September]
-1816)---not extant^4^
+1816)---not extant[^4]
 
 ***↓******1816--17 Draft***: 2-volume novel in two hard-cover notebooks
 ([August or September] 1816--17 April
@@ -151,7 +151,7 @@ collation that is prefaced by a useful summary of the type of changes
 involved, see *1818 Butler* (pages 199--228); and, for the most
 comprehensive collation, one that incorporates the autograph corrections
 in *1818 Thomas* and that also includes substantive variants in *1823*
-as well as *1831*, see *1818 Crook* (pages 182--227).^5^ In this edition,
+as well as *1831*, see *1818 Crook* (pages 182--227).[^5] In this edition,
 I offer for the first time the parallel texts by which the extant parts
 of both the *1816--17* Draft and the *1817* Fair Copy can be collated
 with the *1818* text, and Appendices A and B provide a means for other
@@ -172,7 +172,7 @@ foundling having no blood relation to Victor; a new chapter to
 accommodate a much longer exposition about Victor's childhood; and a
 more explicit and earlier introduction of the doppelgänger theme when
 Victor alludes to Aristophanes' myth of the circular and then divided
-primal human beings in Plato's *Symposium*.^6^ The already published
+primal human beings in Plato's *Symposium*.[^6] The already published
 collations between *1818* and *1831* provide an opportunity for any
 reader of *Frankenstein* to experience the creative process by which MWS
 transformed an already published edition into another text, and this
@@ -219,7 +219,7 @@ replicates the manuscript (page by page, line by line, word by word);
 and (3) a "*diplomatic*"*or literal transcript* of the *1818* first
 edition that is printed in tandem with the type facsimile of the
 manuscript, providing the reader parallel texts by which the creative
-process may be studied. This combination of three editions^7^ was made
+process may be studied. This combination of three editions[^7] was made
 possible by three fortuitous circumstances: a Garland policy (worked out
 in collaboration with Donald H. Reiman and the Bodleian Library) to
 reproduce in photofacsimile all extant manuscript pages, each of which
@@ -366,7 +366,7 @@ Type Facsimile of the Manuscript
         represented. Individual letters or words or phrases that then MWS and/or
         PBS canceled by horizontal lines are represented by the strikeover
         feature: e.g., word or word (in the latter case, the manuscript cancel
-        line did not pass through all of the letters of the word).^8^ Although I
+        line did not pass through all of the letters of the word).[^8] Although I
         did not graphically attempt to distinguish MWS from PBS horizontal
         cancel lines, the surrounding words in most instances should make
         possible the identification of who canceled what words: e.g., PBS
@@ -379,7 +379,7 @@ Type Facsimile of the Manuscript
         lines (represented by a graphics line feature in WordPerfect), whereas
         PBS always canceled longer sections of the manuscript with wavy lines
         (represented by wavy ink lines that have been drawn on the transcript
-        page in an attempt to replicate the original manuscript.)^9^
+        page in an attempt to replicate the original manuscript.)[^9]
 
     Carets
     :   Although I did not graphically attempt to distinguish MWS
@@ -407,7 +407,7 @@ Type Facsimile of the Manuscript
         text)
         > 
         > *10-point Garamond Halbfett Kursiv for PBS text**(**8.5-point Garamond
-        > Halbfett Kursiv for interlinear PBS text*)^10^
+        > Halbfett Kursiv for interlinear PBS text*)[^10]
         > 
         > outline for smear deletions in either MWS text or *PBS text* (see, e.g.,
         > transcription pages 233 and 455)
@@ -417,7 +417,7 @@ Type Facsimile of the Manuscript
 
         Although there are many similarities between MWS's and PBS's hands,
         there are enough differences (especially in their formation of the
-        letters "d," "f," "r," "w,"^11^ and "x") to make me confident that in
+        letters "d," "f," "r," "w,"[^11] and "x") to make me confident that in
         almost all cases I have properly distinguished their hands. Usually, the
         very slant of an extended marginal passage or of an interlinear
         correction made it fairly easy to identify the two hands. But in those
@@ -519,7 +519,7 @@ Literal Transcript of *1818*
     at the Bodleian Library (Oxford University), All Souls College (Oxford
     University), Cambridge University Library, the Library of Congress, the
     Newberry Library, the Beinecke Rare Book and Manuscript Library at Yale
-    University, and the library of one private collector.^12^ A selective
+    University, and the library of one private collector.[^12] A selective
     comparison of printing errors in all fifteen copies suggests that there
     was only one stop-press correction in the 500 printed copies of the
     first edition (affecting only a page number), and that may have occurred
@@ -701,7 +701,7 @@ re-transcription occasioned by one or both of two factors: a discovery
 that some of the PBS Fair-Copy text had been damaged when the pages were
 cut from the notebook; and/or a possible reluctance to submit to any
 publisher (but especially to PBS's publisher Charles Ollier) the Fair
-Copy with parts^13^ in PBS's distinctive hand, potentially revealing the
+Copy with parts[^13] in PBS's distinctive hand, potentially revealing the
 identity of the anonymous author and "friend" whom PBS represented to
 the publishers.
 
@@ -752,7 +752,7 @@ and/or introduces new errors into the text. For the relevant pages in
 this edition, see the entries in my list of "Short Titles" for *1818
 Wolf-1* and for Ketterer "Readings." I supply these specifics about
 *1818 Wolf-1* in order to prevent that not-so-faithful photofacsimile
-from being the source of future errors.^14^
+from being the source of future errors.[^14]
 
 ## The Makeup of The *Frankenstein* Notebooks
 
@@ -845,7 +845,7 @@ Foliation and Pagination in Notebook A
 :   The Quiring Charts below
     (prepared by Bruce Barker-Benfield) provide the best sense of both
     Bodleian foliation and MWS pagination in this notebook. MWS would
-    paginate her notebook as she went along,^15^ ordinarily at the top
+    paginate her notebook as she went along,[^15] ordinarily at the top
     outside corner of the page (top left on the verso; top right on the
     recto). Errors that she corrected at once are not of any great
     significance, but there are some significant alterations in pagination
@@ -861,7 +861,7 @@ Foliation and Pagination in Notebook A
     to this point but then decided to enumerate each page (verso page
     numbers "42" and "44" and "46," as well as recto page number "47" that
     begins a new chapter, show no sign of having been altered from
-    anything).^16^
+    anything).[^16]
 
     Surviving leaves of the notebook break off abruptly at the 8th leaf in
     the 12-leaf Quire IX (see Quiring Charts below)---at Dep. c. 534/1, folio
@@ -916,11 +916,11 @@ Insert Pages in Notebook A
         crowned triple oval (see Beta-Radiographs, Figs. 5--6). The Bodleian
         Shelley collections have two other certain examples of this same paper,
         each with identical measurements and the pair of Botfield and 1815
-        Britannia watermarks.^17^ Another example of this Botfield paper
+        Britannia watermarks.[^17] Another example of this Botfield paper
         (watermarked "TW&BB | 1809" rather than "1815"), which was manufactured
         by the Botfield brothers Thomas, William, and Beriah in the West
         country---provides some evidence that this paper may have been acquired by
-        MWS in Bath,^18^ where she was residing at the time.
+        MWS in Bath,[^18] where she was residing at the time.
 
     Second Insert Pages (Dep. c. 534/1, folios 12--17---the "X" and "Y" inserts)
     :   This second insert was written on six leaves that MWS may
@@ -951,7 +951,7 @@ Insert Pages in Notebook A
         For the *1818* text that now fills part of that gap, see pages 312--313
         in this edition; for more information on these name changes, see "Naming
         in the *Frankenstein* Notebooks" below; for a visual representation of
-        "X" and "Y," see Quiring Charts^19^ below; for the labyrinthine path
+        "X" and "Y," see Quiring Charts[^19] below; for the labyrinthine path
         through "X" and "Y," see the likely sequence of MWS's revisions as
         outlined on transcription pages 317 and 319 in this edition and as
         evidenced in the photofacsimiles, transcriptions, and notes on pages
@@ -1004,7 +1004,7 @@ Paper, Watermarks, and Covers
     closed notebook. There are no other examples of this paper in the
     Bodleian Shelley collections, but a fragment of PBS's "Speculations on
     Morals and Metaphysics" (see Pforzheimer SC 339) seems to be on
-    identical paper.^20^
+    identical paper.[^20]
 
 Date of Notebook B
 :   ([?December] 1816-April 1817): If MWS exhausted
@@ -1072,7 +1072,7 @@ Insert Pages in Notebook B
     :   This first insert was
         written on a slip of paper that was cannibalized from the lower part of
         the address leaf of a letter from William Godwin to MWS, postmarked
-        9/[A]P/[1]817^21^ (see pages 418--419 in this edition), providing a
+        9/[A]P/[1]817[^21] (see pages 418--419 in this edition), providing a
         *terminus ante quem non* for MWS writing this insertion. This date
         actually dovetails nicely with the intensive period of correcting the
         draft that MWS recorded in her Marlow Journal for 10--17 April 1817 (see
@@ -1099,7 +1099,7 @@ Insert Pages in Notebook B
         cannibalized from another and presumably later quire in this same
         notebook. Because MWS wrote this text according to PBS's recommendation
         on folio 39 verso and because she made the first of these revisions on
-        the slip of paper evidently between 9 and 17 April 1817^22^ (and marked
+        the slip of paper evidently between 9 and 17 April 1817[^22] (and marked
         "1"---see First Insert above), she made the revisions marked "2" through
         "5" on this Second Insert at the same period of time.
 
@@ -1110,7 +1110,7 @@ Insert Pages in Notebook B
         folio 41 verso was paginated "102" at the top center in a way recalling
         or anticipating the pagination of the Fair Copy; and folios 42--43 were
         left unpaginated. For the ways these insert pages revise and repeat the
-        text that MWS canceled in the original pages 100--102,^23^ see the
+        text that MWS canceled in the original pages 100--102,[^23] see the
         explanation on transcription pages 417 and 429 in this edition. The
         large numerals 2--5 next to the canceled text signal the sequence of the
         replacement text in the insert pages. As I suggest on transcription page
@@ -1120,7 +1120,7 @@ Insert Pages in Notebook B
         She apparently began her rewrite after, rather than before, she
         carefully removed the bifolium and singleton from a later quire in the
         notebook, writing the new text on the removed leaves while she had the
-        old text open before her.^24^ This would help to explain, without
+        old text open before her.[^24] This would help to explain, without
         reference to a central bifolium, the writing on folio 41 verso where the
         words run over to the still joined but otherwise blank folio 42 recto;
         it would also help to explain the nature of the wet offset ink blots
@@ -1147,7 +1147,7 @@ Paper, Watermarks, Covers, and Sewing Holes
     each consisting of a quire with 24 leaves (or 48 pages) that were sewn
     at three central stations (the absence of glue residue indicates that
     these quires were bound as single notebooks rather than bound together
-    like Notebooks A and B).^25^
+    like Notebooks A and B).[^25]
 
     Each notebook has watermarks split across the reconstructed folds: from
     the "felt" side, the watermarks on the surviving eighteen leaves of C1
@@ -1168,7 +1168,7 @@ Paper, Watermarks, Covers, and Sewing Holes
     The two partially extant Notebooks C1 and C2 and the [?nine] now missing
     notebooks were quite probably matching single-quire, soft-cover
     notebooks (or exercise books) that were available from many British
-    stationers at this time.^26^ Notebooks C1 and C2 give ample evidence
+    stationers at this time.[^26] Notebooks C1 and C2 give ample evidence
     that MWS (and PBS) fair copied the novel while the leaves were still
     conjoint in the sewn notebooks, for it is clear that the writing on many
     leaves was torn or cut through when the notebooks were disassembled. The
@@ -1189,7 +1189,7 @@ Paper, Watermarks, Covers, and Sewing Holes
     that PBS transcribed into Notebook C2 (pages that MWS later
     re-transcribed, apparently before 3 August 1817), the extant pages of
     the Fair Copy give evidence (ink fingerprints, compositor's initials and
-    notations,^27^ and folds in the paper) of having been used by the
+    notations,[^27] and folds in the paper) of having been used by the
     compositors to set the type for the novel. See "*Frankenstein*
     Chronology" for 3 August 1817 as well as the footnotes on pages 647--777
     in this edition for additional information on the disposition of these
@@ -1318,7 +1318,7 @@ Insert and Substitute Pages in Notebook C2
         page to conclude the transcription of the novel. After PBS transcribed
         the text on to this insert leaf, it was immediately inserted into
         Notebook C2, as is evidenced by the wet offset ink blots from it on to
-        the facing folio 29 verso, the last leaf of Notebook C2.^28^ For more
+        the facing folio 29 verso, the last leaf of Notebook C2.[^28] For more
         explanation on the positioning of this insert leaf, see the footnotes to
         transcription page 771 in this edition.
 
@@ -1340,7 +1340,7 @@ Insert and Substitute Pages in Notebook C2
         on 13 July 1817 for writing down PBS's dictated translation of
         Aeschylus's *Prometheus Bound*, lines 1--314 (Bodleian MS. Shelley adds.
         c. 5, folios 73--84, text identified as PBS's in Barker-Benfield,
-        *Guitar*, pages 88--89). The almost identical source^29^ suggests that
+        *Guitar*, pages 88--89). The almost identical source[^29] suggests that
         MWS may have written her substitute text in the summer of 1817, a
         conjecture supported by other evidence (see "*Frankenstein* Chronology"
         for 13 July and for 3 August 1817). The traces of regular sewing holes
@@ -1367,7 +1367,7 @@ created by Victor Frankenstein---should I denominate him "being" or
 "creature" or "monster" or any number of other cognomens (e.g.,
 "wretch"), all names that are in the novel, although each is filtered
 through the consciousnesses of Walton, Victor, the "monster" himself,
-and the De Laceys?^30^ MWS herself avoided giving him a name in the
+and the De Laceys?[^30] MWS herself avoided giving him a name in the
 novel, and after she saw a dramatic production of *Frankenstein* in 1823
 she approved the use of "--------" for the character played "by M^r^ T.
 Cooke: this nameless mode of naming the un{n}ameable is rather good"
@@ -1409,7 +1409,7 @@ finally as a "monster." I have merely chosen to denominate the unnamed
 with his last name rather than his first.
 
 Even MWS in her *1831* Introduction called the monster a "hideous
-phantasm," a "horrid thing," and a "hideous progeny."^31^ By these
+phantasm," a "horrid thing," and a "hideous progeny."[^31] By these
 phrases, she seems to have avoided both "creature" and "monster"---and
 therefore probably intended to implicate the reader in name calling. I
 concede the point of many critics (and even PBS) who prefer to call this
@@ -1438,7 +1438,7 @@ PBS of 1819 would have been a better reviewer of the 1818 novel, and I
 here appropriate what PBS said about Beatrice Cenci: "It is in the
 restless and anatomizing casuistry with which men seek the justification
 or [the
-monster], yet feel that [he]^32^ has done what needs justification; it
+monster], yet feel that [he][^32] has done what needs justification; it
 is in the superstitious horror with which they contemplate alike [his]
 wrongs and their revenge; that the dramatic character of what [he] did
 and suffered, consists" (PBS *Cenci*, page x). Such a sentence reveals
@@ -1461,7 +1461,7 @@ give evidence of the ur-text as well as the process and sometimes the
 date of revisions in the Notebooks. (For a recent and extended
 discussion of the possible sources of some of the names in
 *Frankenstein*, especially a single source for the name of
-Maimouna/Amina/Safie, see Ketterer, "Draft," pages 250--274.^33^)
+Maimouna/Amina/Safie, see Ketterer, "Draft," pages 250--274.[^33])
 
 **Elizabeth Lavenza** was called "Myrtella" ("myrtle," held sacred by
 Venus, was an emblem of love) in Draft: Vol. I, Ch. 10, page 117, and in
@@ -1510,7 +1510,7 @@ places in Notebook B where the name is "Clairval" (only later was the
 "ai" canceled and replaced by an "e" in nineteen of these places, the
 cancelations most likely made at one sitting in April/May 1817---see below
 for more on this dating). Because the variations on Clerval's name can
-lead to very misleading suppositions,^34^ I offer the following
+lead to very misleading suppositions,[^34] I offer the following
 chronology that best explains what happened.
 
 > **[?June--late September] 1816:** "Carignan" in the ur-text (see above
@@ -1560,7 +1560,7 @@ apparently first called "Maimouna," a name that may be traced to Robert
 Southey's Maimuna in *Thalaba*, a name that PBS used as a nickname for
 his friend Mrs. Boinville and that he used in his prose fragment "The
 Assassins" for Khaled's daughter (a precursor of Cythna in PBS's *Laon
-and Cythna*).^35^ The evidence that Safie was first called "Maimouna" is
+and Cythna*).[^35] The evidence that Safie was first called "Maimouna" is
 to be found in Notebook B as well as in the "X" and "Y" rewrite inserts
 that MWS used to help join Notebooks A and B in April 1817. When MWS
 started to rewrite this section of her novel on the yet remaining paper
@@ -1571,7 +1571,7 @@ Draft: Vol. II, Ch. [5], page 59 and page 60 ["X" insert] but then
 mistakenly reverted to "Maimouna" (only to change it to "Amina") one
 more time on page 60. MWS then decided to rewrite this "X" insert with a
 "Y" insert by which time she had decided on the name "Safie," a name
-that MWS apparently did not use in her novel prior to April 1817.^36^
+that MWS apparently did not use in her novel prior to April 1817.[^36]
 She continued her narrative about the newly named "Safie" up through
 half of Draft: Ch. [5], page 59+64 ["Y" insert] and then doubled back to
 use already existing text in "X" where she replaced the short-lived
@@ -1620,7 +1620,7 @@ is no exception. Most often, it is linked by way of science and
 the name to the Castle Frankenstein in Germany that MWS and PBS and
 Claire Clairmont may have visited during their six weeks' tour in 1814.
 This edition may make it possible for new research on all of the names
-in *Frankenstein*.^37^
+in *Frankenstein*.[^37]
 
 ## Hypothetically Reconstructing an Ur-Text of *Frankenstein*
 
@@ -1646,7 +1646,7 @@ prove what was there. One way for MWS to enlarge her "story" into a
 and to the inside of her frame tale. That is, it is likely that neither
 the Captain (Walton from the outside narrative frame) nor the Arabian
 (Safie from the innermost tale) was in the original ur-text---and there is
-no persuasive manuscript evidence to suggest that they were.^38^ Whether
+no persuasive manuscript evidence to suggest that they were.[^38] Whether
 the other parts of the De Lacey episode were contained in the ur-text,
 with a possibly different mechanism for the monster learning to speak
 and read, I cannot determine. Everything else, however, may have been
@@ -1714,7 +1714,7 @@ Chapters (or Characters and Incidents) before the Creation
     into her Draft without much cancelation and revision as she went along.
     Determining which of the pages or incidents or characters were expanded
     may prove impossible, but future speculation should be based on such
-    concrete evidence as name changes and transcription mistakes.^39^
+    concrete evidence as name changes and transcription mistakes.[^39]
 
 Chapters (or Characters and Incidents) after the Creation
 :   If the
@@ -1727,7 +1727,7 @@ Chapters (or Characters and Incidents) after the Creation
     (see especially the mistranscription of the name "Myrtella" in the
     Justine section on pages 180--181 in this edition; see also pages
     156--157, lines 31 and 36). The next Chs. 13--14 have relatively more
-    copying errors^40^ and suggest that MWS was drafting new material at the
+    copying errors[^40] and suggest that MWS was drafting new material at the
     same time that she was copying some things from earlier incarnations,
     possibly from the ur-text. An index of the kind of copying from an
     earlier text is to be found at the end of Vol. I in Notebook A (see note
@@ -1783,7 +1783,7 @@ distinct pencil ruled margin similar to Notebook A of *Frankenstein*,
 whereas the earlier and rougher Draft that MWS entitled "Fields of
 Fancy" was drafted on pages that much more resemble Notebook B of
 *Frankenstein*, having a margin with no rule and a text in a greater
-state of revision and flux.^41^ It is possible that this distinction
+state of revision and flux.[^41] It is possible that this distinction
 between an unruled and a ruled set of pages might have enabled MWS to
 keep her drafts in order as she transcribed one from another.
 
@@ -1799,7 +1799,7 @@ ur-text may also have contained a skeletal form of the chapters in
 England and Scotland where Victor began making a mate for the monster
 (Draft: Vol. II, Chs. 11--15---see pages 452--543 in this edition) as well
 as of the chapters back in Geneva and Evian where the monster murdered
-Elizabeth on her wedding night (Chs. 16--17---see pages 544--582).^41^ If
+Elizabeth on her wedding night (Chs. 16--17---see pages 544--582).[^41] If
 these chapters were in the ur-text, the "busier" look to Notebook B
 (and, in many places, its more inexact pointing) suggests that MWS was
 doing much more than copying from or embellishing a well-developed
@@ -1891,7 +1891,7 @@ gloss for these otherwise inexplicable numbers.
     notebook); the number "24" appears to denote 24 pages (that is, half of
     a 24-leaf notebook or almost half of a 26-leaf notebook); and the sum
     "180" denoted the estimated or actual total of 180 Fair-Copy pages used
-    for Vol. I.^43^ These calculations were very important to the Shelleys,
+    for Vol. I.[^43] These calculations were very important to the Shelleys,
     who were attempting (in April/May 1817) to divide the two-volume Draft
     into a three-volume Fair Copy, a process that demanded accurate
     estimates of the number of pages per volume. Moreover, the evidence of
@@ -2032,7 +2032,7 @@ revealing the sequence of revisions that she made to her Draft between
 10 and 17 April 1817. Finally, the accident of MWS writing on a slip of
 paper on the verso of which was a reconstructible postmark of 9 April
 1817 sheds a great deal of light on the makeup of The *Frankenstein*
-Notebooks.^44^
+Notebooks.[^44]
 
 The specific and important date of 9 April 1817 calls to mind an
 important moment in the text of *Frankenstein*, when Victor related his
@@ -2047,7 +2047,7 @@ though Walton's letters are dated with the decade of the eighteenth
 century missing, MWS has given enough information for us to determine
 three important points about the chronology: that the novel begins with
 Walton's letter dated 11 December 17[96] (which is, or is very close to,
-the day on which MWS imagined she was conceived);^45^ that Walton's tale
+the day on which MWS imagined she was conceived);[^45] that Walton's tale
 takes the gestation period of 276 days in the telling; and that the
 novel ends with Walton's last letter of 12 September 17[97], thirteen
 days after MWS was born and two days after her mother died. The clues to
@@ -2102,7 +2102,7 @@ to "two centuries before"; then PBS more precisely altered the phrase to
 "century & a half before," thereby designating the last decade of the
 eighteenth century for the temporal setting of *Frankenstein*, a decade
 that had personal and political events that MWS embedded in her
-narrative.^46^
+narrative.[^46]
 
 That MWS may have created her own private chronology of events in
 *Frankenstein* is further evidenced by these Draft and Fair-Copy
@@ -2114,7 +2114,7 @@ were made not in Draft or Fair Copy but between the earlier state(s) and
 the first edition, as a glance at the parallel text of *1818* will
 reveal: see, e.g., transcription pages 153 (line 6) and 159 (line 24)
 for someone altering the date of Alphonse Frankenstein's letter from 2
-June in Draft to 12 May in *1818.*^47^ Sometimes the Fair Copy is
+June in Draft to 12 May in *1818.*[^47] Sometimes the Fair Copy is
 involved in this---e.g., MWS dated one of Elizabeth's letters 18 February
 in Draft, altered it there to 18 May, introduced the date of April in
 the Fair Copy only to cancel it and settle on 18 May, which became the
@@ -2159,13 +2159,13 @@ undertake a major study of this collaboration, which extended from the
 sublime (MWS's *Frankenstein*; or PBS's later response to this "Modern
 Prometheus" in his *Prometheus Unbound*) to the ridiculous (the two
 Shelleys engaged in a rhyming game in one of their pocket books, MWS
-providing the rhyming words and PBS filling out each line).^48^
+providing the rhyming words and PBS filling out each line).[^48]
 
 A reading of the evidence in these *Frankenstein* Notebooks should make
 clear that PBS's contributions to *Frankenstein* were no more than what
 most publishers' editors have provided new (or old) authors or, in fact,
 what colleagues have provided to each other after reading each other's
-works in progress.^49^ What MWS actually thought of PBS's involvement in
+works in progress.[^49] What MWS actually thought of PBS's involvement in
 her text we will never know, no matter what methodology or facts we
 bring to this issue. I personally prefer to give both of them the
 benefit of the doubt and conjecture that (1) PBS suggested and made
@@ -2284,7 +2284,7 @@ Her Fiction, Her Monsters* (1988), which offered the most extensive
 analysis of the Shelleys' collaboration to date. Mellor's study had the
 benefit of being a balanced one, for it stressed that PBS's alterations
 to MWS's novel "both improved and damaged the text and...must be
-analyzed with care."^50^ On balance, however, although Mellor correctly
+analyzed with care."[^50] On balance, however, although Mellor correctly
 judged that PBS was "responsible for much of the most inflated rhetoric
 in the text," her Appendix on "Percy Shelley's Revisions of the
 Manuscript of *Frankenstein*" (pages 219--224) seems to credit PBS for
@@ -2452,7 +2452,7 @@ skilled" (see PBS *Letters*, II, 21 and n.).
 It should be clear that any analysis of these complicated
 intertextualities demands a study of the facts of just who wrote what
 when, as well as an understanding that some of the facts are beyond
-discovery or resist reconstruction.^51^ Also required is an
+discovery or resist reconstruction.[^51] Also required is an
 understanding of what Jack Stillinger has described as "Multiple
 Authorship and the Myth of Solitary Genius." Moreover, a study of this
 particular kind of mutual influence
@@ -2467,11 +2467,11 @@ Victor writing as if he were Walton writing about Victor. Victor
 himself, then, was a collaborator and an editor: he "corrected and
 augmented" Walton's text because he "would not that a mutilated one
 should go down to posterity"---an ideal that any writer or editor hopes to
-serve!^52^
+serve![^52]
 
 Notes
 
-1.  Called Claire throughout this edition, Clara Mary Jane Clairmont was
+[^1]:  Called Claire throughout this edition, Clara Mary Jane Clairmont was
     also sometimes called "Jane" by her family, which also included her
     half-brother Charles Gaulis Clairmont (1795--1850) and her
     step-sister Fanny Imlay Godwin (1794--1816). Claire and Charles were
@@ -2482,12 +2482,12 @@ Notes
     succinct statement on these relationships and for the remark that
     "Of these five children, born within nine years of each other, no
     two, apparently, had two parents in common."
-2.  The summer of 1816 was the coldest and wettest on record for many
+[^2]:  The summer of 1816 was the coldest and wettest on record for many
     places in England, Europe, and the United States; for information on
     the strange weather (occasioned in part by atmospheric dust from
     volcanic eruptions during preceding years), consult Clubbe,
     "Summer," pages 26--40.
-3.  See "Short Titles" for a complete list of abbreviated forms used in
+[^3]:  See "Short Titles" for a complete list of abbreviated forms used in
     citations: *1818*, *1823*, and *1831* distinguish the three major
     editions of *Frankenstein* in MWS's lifetime; *1818 Thomas*
     indicates the copy of *1818* in which MWS made holograph
@@ -2496,40 +2496,40 @@ Notes
     In order to continue the efficiency of this shorthand, I propose
     that *1816--17* denominate the Draft; *1817*, the Fair Copy; and
     *1816--17 Robinson*, this edition.
-4.  As MWS expanded her "story" into the Draft novel, she may have
+[^4]:  As MWS expanded her "story" into the Draft novel, she may have
     drafted some new sections of her novel in now lost manuscripts that
     intervened between the ur-text and Draft Notebooks A and B.
-5.  I repeat this list of collators in the "*Frankenstein* Chronology"
+[^5]:  I repeat this list of collators in the "*Frankenstein* Chronology"
     below for 31 October 1831. Murray, "Changes," pages 320--323, lists
     114 substantive textual variants between *1818* and *1823*; and
     *1818 Crook* adds 9 more (see page xcvi).
-6.  See Walton's record of Victor's remarks in the revised Letter IV:
+[^6]:  See Walton's record of Victor's remarks in the revised Letter IV:
     "'I agree with you,' replied the stranger; 'we are unfashioned
     creatures, but half made up, if one wiser, better, dearer than
     ourselves---such a friend ought to be---do not lend his aid to
     perfectionate our weak and faulty natures. I once had a friend
     [Clerval], the most noble of human creatures, and am entitled,
     therefore, to judge respecting friendship'" (*1831*, page 16).
-7.  The three names of "photofacsimile," "type facsimile," and "literal
+[^7]:  The three names of "photofacsimile," "type facsimile," and "literal
     transcript" are adopted and adapted from Greetham, page 350.
-8.  In less than six places, I have used the "character" feature and
+[^8]:  In less than six places, I have used the "character" feature and
     superimposed a slash (/) over a letter when the original manuscript
     cancelation and the circumstances of the representation made such a
     different convention desirable---see, e.g., page 665, lines 13 and 14,
     in this edition.
-9.  This difference has never before been identified and may help other
+[^9]: This difference has never before been identified and may help other
     editors to distinguish canceling hands in other MWS and PBS
     manuscripts.
-1.  In those cases when PBS used pencil, I have suggested the medium by
+[^10]: In those cases when PBS used pencil, I have suggested the medium by
     using Garamond Kursiv rather than Garamond Halbfett Kursiv (see,
     e.g., transcription page 291 for "This chapter is too short" and
     page 301 for "o you pretty Pecksie!").
-2.  The "w"s in MWS's and PBS's hands were usually judged to be nearly
+[^11]: The "w"s in MWS's and PBS's hands were usually judged to be nearly
     identical, but on closer inspection it is clear that the middle
     section of an MWS "w" (the inverted "v") is lower than that of a PBS
     "w," where the middle ascender rises nearly to the plane made at the
     top of the "w."
-3.  I physically inspected twelve of these fifteen copies---information
+[^12]: I physically inspected twelve of these fifteen copies---information
     about those in Cambridge University Library, the Newberry Library,
     and the Beinecke Library was provided to me by letter, fax, and
     telephone. I also made
@@ -2538,15 +2538,15 @@ Notes
     Congress), and I address the representational errors in that edition
     elsewhere in this Introduction (see "Emendations to and Anomalies in the
     *1818* Text").
-1.  Although PBS may have transcribed other sections of the Draft into
+[^13]: Although PBS may have transcribed other sections of the Draft into
     now missing sections of the Fair Copy, there is no evidence
     (including comparisons of the texts of the Draft and *1818*) to
     suggest that he did so.
-2.  As I confess in the "Short Titles" under MWS *Reader*, I myself
+[^14]: As I confess in the "Short Titles" under MWS *Reader*, I myself
     introduced a number of punctuation errors by using *1818 Wolf-1* as
     copy-text for my *1818* version of *Frankenstein* in that *Reader.*
     It seems that texts about monsters can breed monstrous texts.
-3.  That is, MWS did not paginate the entire or large sections of her
+[^15]: That is, MWS did not paginate the entire or large sections of her
     notebooks either in advance or after she had completed portions of
     her writing. See, e.g., the photofacsimiles on pages 288, 290, and
     294 in this edition: page number "10" and the text on that page are
@@ -2554,7 +2554,7 @@ Notes
     pen cut as the text on that page; both ink and pen cut suggest that
     page number "13" was written before the fourth word of line 1 on
     that page was written.
-4.  It is dangerous to speculate why MWS changed from foliating to
+[^16]: It is dangerous to speculate why MWS changed from foliating to
     paginating, but in the shadows of this note I suggest that she had
     first planned to use this notebook for the purposes of a rough draft
     that she could keep track of by mere foliation, that the first forty
@@ -2565,7 +2565,7 @@ Notes
     not account for the fact that the first forty pages of the Draft are
     now missing (for the equivalent in the *1818* text, see pages 3--7 in
     this edition).
-​17. The first example of Botfield paper is MS. Shelley adds. c. 5,
+​[^17. The first example of Botfield paper is MS. Shelley adds. c. 5,
     folios 45--46 (two singletons, perhaps once
     conjoint), containing MWS's undated fair copy of the added fourth
     chapter of PBS's fragment "The Assassins," the 1815 watermark being the
@@ -2602,11 +2602,11 @@ Notes
     sheets; PBS's "Speculations" was so scrappy that their very continuity
     is in doubt; and PBS's fragmentary note to MWS was clearly a loose scrap
     of paper.
-1.  This unique watermark of "TW&BB | 1809" in the Bodleian collections
+[^18]: This unique watermark of "TW&BB | 1809" in the Bodleian collections
     (Abinger Dep. c. 523) is on paper used by William Godwin to write to
     his wife on 11 September 1812 during his brief stop at Bath while
     traveling to Bristol.
-2.  The Quiring Charts will draw attention to two other anomalies: two
+[^19]: The Quiring Charts will draw attention to two other anomalies: two
     of the pages in "X" (folios 14 verso and 15 recto) are blank, even
     though the text passes continuously around them from 14 recto to 15
     verso (suggesting that MWS may have accidentally turned over two
@@ -2625,7 +2625,7 @@ Notes
     would not be consistent with the last extant page 21, an odd number
     on a verso. Clearly there was some kind of lapse between now missing
     pages 22 and 56.
-1.  It is almost certain that the paper used for the two quarter sheets
+[^20]: It is almost certain that the paper used for the two quarter sheets
     of SC 339 (which are discussed and represented by photofacsimile in
     *SC*, IV, 733--744) originated in Notebook B: the position of the two
     fragmentary watermarks of "180[6]" and "1806" are consistent with
@@ -2642,37 +2642,37 @@ Notes
     *Frankenstein.* Compare the link between "Speculations" and
     *Frankenstein* by way of the Botfield paper, discussed above in note
     17.
-2.  The evidence for both the address and the circular double-rimmed
+[^21]: The evidence for both the address and the circular double-rimmed
     black postmark is minimal, but the capital "M" on the address panel
     is clearly in the hand of William Godwin; Godwin at this time
     addressed letters to MWS as "M^rs^ Shelley" and to PBS, as "P B
     Shelley" (see transcription page 419 in this edition); and there is
     enough of the smudged and partly torn away postmark to use with
     Godwin's diary to confirm that the date is 9 April 1817.
-3.  The last likely date for any revision would be 29 April 1817, when
+[^22]: The last likely date for any revision would be 29 April 1817, when
     MWS did both "Transcribe and correct F." (see "*Frankenstein*
     Chronology" for that date).
-4.  Note that MWS always canceled extended passages in The
+[^23]: Note that MWS always canceled extended passages in The
     *Frankenstein* Notebooks with long vertical lines, whereas PBS
     always used wavy cancel lines (see pages 123 and 223 in this edition
     in order to contrast the two patterns).
-5.  The wet offset ink blots on folio 42 verso (offset from folio 43
+[^24]: The wet offset ink blots on folio 42 verso (offset from folio 43
     recto), definite but out of alignment, prove that at least one of
     these facing leaves was already loose in the volume when the ink of
     the corrections was still wet---and they suggest that the leaf was
     loose when MWS drafted the revised text on folio 43 recto (see notes
     on transcription page 435 in this edition as well as the visual
     evidence on pages 434 and 436).
-6.  The sewing holes of both notebooks, each at three stations, have a
+[^25]: The sewing holes of both notebooks, each at three stations, have a
     professional appearance but are not identical: the holes in C1 seem
     larger and more evident, and they are not quite aligned with the
     less definite pattern of sewing holes in C2.
-7.  There are other examples of 24-leaf notebooks still intact in the
+[^26]: There are other examples of 24-leaf notebooks still intact in the
     decorative paper covers in the Abinger collection: Dep. e. 273
     (William Godwin, "Supplement to Journal" for dates in 1793 and
     1795); and Dep. d. 563--4 (from a series of notebooks used for
     transcripts by John Gisborne at Plymouth in the early 1830s).
-8.  One significant notation, most likely made by a compositor, is on
+[^27]: One significant notation, most likely made by a compositor, is on
     lines 14--15 of pages 680--681 in this edition, where a bracket
     (usually used by the Shelleys and the printers to mark the beginning
     of a paragraph) is used in conjunction with "[Vol. III-G121]" to
@@ -2682,9 +2682,9 @@ Notes
     began and/or finished setting type. For other examples among the
     Bodleian Shelley manuscripts, see photofacsimiles as well as pages
     124, 134 (n.6), and 139 in O'Neill.
-9.  Later sewing holes at the top inside corner of folio 30 suggest that
+[^28]: Later sewing holes at the top inside corner of folio 30 suggest that
     it was later tagged together with the final leaves of Notebook C2.
-10. The substitute folio 31 is probably not from one and the same
+[^29]: The substitute folio 31 is probably not from one and the same
     notebook that was used for the translation of Aeschylus because the
     single leaf's torn edge and half-watermark do not align with the
     edges and half-watermarks of the twelve leaves used for the
@@ -2695,18 +2695,18 @@ Notes
     (folios 73 and 84) of the Aeschylus Notebook is a posthorn in a
     crowned shield over a monogram "CB[?]"; folios 74--83 each contain
     the top half of the watermark.
-11. The day after writing this sentence and the first two paragraphs in
+[^30]: The day after writing this sentence and the first two paragraphs in
     this section in August 1996, I encountered an excellent article by
     Bernard Duyfhuizen that skillfully addresses this important issue of
     naming. Duyfhuizen also makes some interesting remarks on the way
     that "wretch" supports a doppelgänger reading of the novel.
-12. The "hideous progeny" also, of course, refers to MWS's own novel
+[^31]: The "hideous progeny" also, of course, refers to MWS's own novel
     that she bids "go forth and prosper."
-13. Even something as simple as a pronoun can implicate or incriminate
+[^32]: Even something as simple as a pronoun can implicate or incriminate
     an editor---"[he]" could have been "[it]."
-14. For an often overlooked, brief, but provocative treatment of names
+[^33]: For an often overlooked, brief, but provocative treatment of names
     in MWS's fiction, see St. Clair, "Shelley."
-15. Before doing the "*Frankenstein* Chronology," I was tempted to use
+[^34]: Before doing the "*Frankenstein* Chronology," I was tempted to use
     the alterations in Clerval's name to suggest that MWS drafted all or
     part of Notebook B (where "Clairval" is to be found) before she
     drafted all or most of Notebook A (where "Clerval" is to be found).
@@ -2727,7 +2727,7 @@ Notes
     which MWS made them within a very short period in April 1817---see also
     pages 314--341 in this edition, especially the explanations on the
     shadowed pages.
-1.  I am indebted to Donald H. Reiman for pointing out these antecedents
+[^35]: I am indebted to Donald H. Reiman for pointing out these antecedents
     to me. Hogg in his *Life of Shelley* remarked that PBS had always
     called Mrs. Boinville "the presiding divinity 'Meimouné'. Why he
     gave her this name I could never learn. She did not resemble the
@@ -2739,13 +2739,13 @@ Notes
     Journals*, page 424, for a reference to a "Maimonna" who was a
     daughter shaped by her mother (Nora Crook drew my attention to this
     reference).
-2.  One of the antecedents to the name of "Safie" may be found in John
+[^36]: One of the antecedents to the name of "Safie" may be found in John
     Hamilton Reynolds' *Safie. An Eastern Tale*, and it may be much more
     than a coincidence that MWS first met Reynolds just two months
     before she used the name of Safie---see MWS*Journal*, I, 162, for
     Reynolds and MWS supping with the Hunts in Hampstead on 5 February
     1817.
-3.  For a recent but unverified suggestion about the name
+[^37]: For a recent but unverified suggestion about the name
     "Frankenstein," see Ketterer's "Name" note where he quotes "Atticus"
     in the London *Sunday Times* for 30 October 1994: "Atticus" (the
     name that Taki Theodoracopulos adopts for his column) claimed to
@@ -2757,7 +2757,7 @@ Notes
     another can make further inquiries in Geneva or elsewhere. For other
     suggestions about the name "Frankenstein," see Palacio, pages 93--94,
     n.5.
-4.  If the Walton story did not exist in the ur-text, then MWS could not
+[^38]: If the Walton story did not exist in the ur-text, then MWS could not
     have noticed or created until later (not before September 1816) the
     set of parallel initials for Walton's married sister, Margaret
     Walton Saville: MWS was writing as if she were Walton who was
@@ -2774,38 +2774,38 @@ Notes
     strongly echoed by the name "Saville" if pronounced as a French
     name. It is more than possible that the choice of one of these names
     involved the choice of the other.
-5.  Although there are other places in The *Frankenstein* Notebooks
+[^39]: Although there are other places in The *Frankenstein* Notebooks
     where it is much more evident that MWS copied and then canceled and
     then recopied portions of a previous text, consider a possible
     instance of this on page 44 of what is now Ch. 2: MWS first wrote
     and then canceled "The C" and then wrote another sentence and then
     wrote "The catastrophe..." (see transcription page 29, lines
     29--30, in this edition).
-6.  See especially Draft: Vol. I, Ch. 13, where MWS canceled lines 16--25
+[^40]: See especially Draft: Vol. I, Ch. 13, where MWS canceled lines 16--25
     on her page 138 only to rewrite them at lines 22--31 on page 142; she
     also canceled words in lines 12--13 on page 142 and rewrote them in
     lines 17--19; and she canceled lines 3--5 on page 147 and rewrote them
     at lines 10--13 on the same page (see pages 222--223, 230--231, 240--241
     in this edition).
-7.  Pamela Clemit does not remark on this distinction between the two
+[^41]: Pamela Clemit does not remark on this distinction between the two
     manuscripts (Abinger Dep. 374/1--2) in her edition of MWS *Mathilda*,
     but she does print the "The Fields of Fancy" in an appendix, thereby
     enabling a comparison of the two texts. Photofacsimiles of part of
     the manuscript of "The Fields of Fancy" may be consulted in Murray,
     *d.1*; another Bodleian manuscript containing parts of "Mathilda" is
     Shelley adds. c. 5---see MWS "Mathilda" in the "Short Titles."
-8.  See transcription page 561 for MWS's almost verbatim transcription
+[^42]: See transcription page 561 for MWS's almost verbatim transcription
     from PBS's Geneva Diary (or from an ur-text that had incorporated
     that passage).
-9.  The canceled "156" in this calculation is merely the sum of "104"
+[^43]: The canceled "156" in this calculation is merely the sum of "104"
     and "52" without the "24"; and the "17" to the side may have been a
     false start for the sums of "180," one of which is off to the other
     side.
-1.  Other numberd discussed on transcription pages 9, 583, and 775
+[^44]: Other numberd discussed on transcription pages 9, 583, and 775
     concern the pencil notations made by "R. L." who surveyed the MWS
     and PBS manuscripts for one of the Lords Abinger, providing other
     clues as to what was extant at that time.
-2.  There is evidence in the form of a secret code in Godwin's Diary
+[^45]: There is evidence in the form of a secret code in Godwin's Diary
     that he and Mary Wollstonecraft were having sexual intercourse at
     this time---see St. Clair, *Godwins & Shelleys*, "Appendix I: Godwin's
     sexual relationship with Mary Wollstonecraft," pages 497--503. St.
@@ -2816,7 +2816,7 @@ Notes
     is, conceived on or around 29 November 1796, MWS started the novel
     13 days later on 11 December 17[96]; born on 30 August 1797, MWS
     ended the novel 13 days later on 12 September 17[97].
-3.  It is time for someone to create a full chronology of the action in
+[^46]: It is time for someone to create a full chronology of the action in
     this narrative, revealing such important dates as 1789 for Victor
     going off to university and 1793 for the creation of the monster,
     both years resonating with the events of the French Revolution.
@@ -2828,23 +2828,23 @@ Notes
     with elapsed time elsewhere in the narrative.) Anyone attempting a
     full chronology will need to consider not only date changes in these
     Notebooks but also the changes between *1818* and *1831.*
-4.  For additional places where there are changes between manuscript and
+[^47]: For additional places where there are changes between manuscript and
     *1818*, see transcription pages 37 (line 22), 177 (line 15), 613
     (line 33), and 617 (line 1).
-5.  For a transcription of this rhyming game (called "bout-rimés") from
+[^48]: For a transcription of this rhyming game (called "bout-rimés") from
     the Bodleian MS. Shelley adds. e. 12, page 185, see Barker-Benfield,
     *Guitar*, pages 128--129. For a brief consideration of this and other
     collaborations between the Shelleys, see MWS *Dramas*, page 19, n.1,
     and pages 9--10: in her fair copies of *Prosperpine* and *Midas*, MWS
     transcribed and incorporated four of PBS's lyrics that he wrote for
     these dramas in the winter of 1820/21.
-6.  I have a much better sense of what this kind of collaboration means
+[^49]: I have a much better sense of what this kind of collaboration means
     after having benefited from the advice of more than a dozen scholars
     who have read and improved an earlier draft of this "Introduction."
     As I indicate in the "Acknowledgments," one of these scholars, Bruce
     Barker-Benfield, was very much present in the making of many parts
     of this edition.
-7.  Mellor, e.g., cautioning those who saw MWS's anxiety of authorship
+[^50]: Mellor, e.g., cautioning those who saw MWS's anxiety of authorship
     in her use of the word "author" to describe Victor, reminded
     everyone that it was PBS rather than MWS who called Victor an
     "author" of his own misery and of the monster. Mellor (page 65) was
@@ -2869,11 +2869,11 @@ Notes
     will have to be tested against new data in which his sample passages
     from *Frankenstein* do not include text that came directly from PBS
     rather than MWS.
-8.  See, e.g., the different ways that E. B. Murray (PBS *Prose*, I,
+[^51]: See, e.g., the different ways that E. B. Murray (PBS *Prose*, I,
     429--446) and Jeanne Moskal (MWS *Travel Writing*, pages 1--8) have
     reconstructed the Shelleys' collaboration on *History of a Six
     Weeks' Tour.*
-9.  In a final collaborative act, Nora Crook informed me about Angela
+[^52]: In a final collaborative act, Nora Crook informed me about Angela
     Leighton's *TLS* review (2 August 1996) of Zachary Leader's just
     released *Revision and Romantic Authorship*, a book that I had
     overlooked but that fortunately the University of Delaware Library
