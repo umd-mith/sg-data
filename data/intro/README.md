@@ -29,3 +29,9 @@ feeding the XML from rtf2html.pl into cleanup.pl.
 The shell script relies on `pandoc` to provide the Markdown to HTML conversion.
 
 **rtf2html.pl** is a Perl script. It requires RTF::HTMLConverter. In fact, the csript is from the examples/ directory in the RTF::HTMLConverter distribution.
+
+## Pandoc
+
+To produce the clean HTML from the clean Markdown, we run the following pandoc command:
+
+    pandoc --from=markdown --to=html5 --ascii --smart --toc -s -o introduction.html introduction.md
