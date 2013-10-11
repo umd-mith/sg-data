@@ -83,7 +83,9 @@ repeated text on 2 pages), contain approximately 12% of the received
 In an attempt to simplify the complicated sequence of these texts, I
 offer the following outline.
 
-The Texts of *Frankenstein*
+<section class="aside">
+
+## The Texts of *Frankenstein*
 
 (For more information on each of these texts [including the dating
 thereof], consult the "*Frankenstein* Chronology" below. See also
@@ -93,50 +95,38 @@ typeface below are printed in full in this edition, and quotations from
 other texts [*1818 Thomas*, *1823*, and *1831*] are to be found in the
 footnotes.)
 
-Ur-text: Draft(s) of a "story" ([?17] June--[August or September]
-1816)---not extant[^4]
+| Ur-text: Draft(s) of a "story" ([?17] June--[August or September]
+  1816)---not extant[^4]
+| ↓
+| ***1816--17 Draft***: 2-volume novel in two hard-cover notebooks
+  ([August or September] 1816--17 April
+  1817)---most of **Notebooks A and B** survive
+| ↓
+| ***1817* Fair Copy**: 3-volume novel in [?eleven] soft-cover
+  notebooks (18 April--13 May 1817)---parts of
+  **Notebooks C1 and C2** survive 
+| ↓
+| Proofs ([?23] September--[?3] November 1817)---not extant
+| ↓
+| Revises ([?23] September--[?20] November 1817)---not extant
+| ↓
+| ***1818***: 1st Edition in 3 vols. (1 January 1818)---published by
+  Lackington et al. in 500 copies
+| ↓
+| ↓ *1818 Thomas:* "Thomas" copy of 1st Edition (corrected by MWS
+| ↓ before July 1823)---survives at Pierpont Morgan Library
+| ↓
+| *1823*: 2d Edition in 2 vols. (11 August 1823)---published by G. and W. B.
+  Whittaker (but not set from
+  *1818 Thomas*) 
+| ↓
+| ↓ [*1826*]: [?Re-issued 2d Edition] (4 April 1826)---apparently issued by Henry Colburn
+| ↓
+| *1831*: Revised Edition in 1 vol. (31 October 1831)---published by Henry
+  Colburn and Richard Bentley
+  in 4020 copies
 
-***↓******1816--17 Draft***: 2-volume novel in two hard-cover notebooks
-([August or September] 1816--17 April
-1817)---most of **Notebooks A and B** survive
-
-***↓******1817* Fair Copy**: 3-volume novel in [?eleven] soft-cover
-notebooks (18 April--13 May 1817)---parts of
-
-**Notebooks C1 and C2** survive
-
-***↓*** Proofs ([?23] September--[?3] November 1817)---not extant
-
-***↓***
-
-Revises ([?23] September--[?20] November 1817)---not extant
-
-***↓***
-
-***1818***: 1st Edition in 3 vols. (1 January 1818)---published by
-Lackington et al. in 500 copies
-
-***↓***
-
-***↓****1818 Thomas:* "Thomas" copy of 1st Edition (corrected by MWS
-before July 1823)---survives at ***↓***Pierpont Morgan Library
-
-***↓***
-
-*1823*: 2d Edition in 2 vols. (11 August 1823)---published by G. and W. B.
-Whittaker (but not set from
-*1818 Thomas*)
-
-***↓***
-
-***↓*** [*1826*]: [?Re-issued 2d Edition] (4 April 1826)---apparently
-issued by Henry Colburn
-
-***↓***
-
-*1831*: Revised Edition in 1 vol. (31 October 1831)---published by Henry
-Colburn and Richard Bentley
-in 4020 copies
+</section>
 
 A listing of all the variants (both accidental and substantive) that
 exist among these extant texts is beyond the scope of this (and,
@@ -308,16 +298,18 @@ Headers
     italicized pages *266* and *268* in the above illustration), demand the
     following diagram, arranged in chronological order:
 
-    Notebooks A B C1 C2
+    ----------------  -------------------------------------------------------
+    Notebooks         A------------------  B--------------- C1------ C2------
 
-    MWS Draft I II
+    MWS Draft         I------------ II---------------------
 
-    *1818* I II III
+    *1818*            I------ II--------------- III---------
 
-    Bod. Dep. c. 477/1 c. 534/1 c. 534/2----------------
+    Bod. Dep.         c. 477/1 ------ c. 534/1 --------- c. 534/2-------------
 
-    *1816--17 Rob.* Part One Part
-    Two---------------------------------------------------
+    *1816--17 Rob.*   Part One --------- Part Two------------------------------
+
+    ----------------  -------------------------------------------------------
 
 Bodleian Foliation
 :   Although all leaves of The *Frankenstein*
@@ -403,17 +395,18 @@ Type Facsimile of the Manuscript
     :   I have employed the following fonts in this type facsimile of
         the manuscript:
 
-        > 10-point CG Times for MWS text (8.5-point CG Times for MWS interlinear
-        text)
-        > 
-        > *10-point Garamond Halbfett Kursiv for PBS text**(**8.5-point Garamond
-        > Halbfett Kursiv for interlinear PBS text*)[^10]
-        > 
-        > outline for smear deletions in either MWS text or *PBS text* (see, e.g.,
-        > transcription pages 233 and 455)
-        > 
-        > Courier-WP (Type 1) for all other hands
-        > (e.g., compositors or Bodleian staff)
+        <div class="unstyled-list">
+
+        + 10-point CG Times for MWS text (8.5-point CG Times for MWS interlinear
+          text)
+        + *10-point Garamond Halbfett Kursiv for PBS text (8.5-point Garamond
+          Halbfett Kursiv for interlinear PBS text)*[^10] 
+        + <span class="outline">outline</span> for smear deletions in either <span class="outline">MWS text</span> or <span class="outline">*PBS text*</span> (see, e.g.,
+          transcription pages 233 and 455) 
+        + `Courier-WP (Type 1) for all other hands
+          (e.g., compositors or Bodleian staff)`
+
+        </div>
 
         Although there are many similarities between MWS's and PBS's hands,
         there are enough differences (especially in their formation of the
@@ -425,7 +418,7 @@ Type Facsimile of the Manuscript
         not have very distinguishing letters, I would consult with Bruce
         Barker-Benfield in order to determine which hand was the more likely,
         represent the word in the transcription by means of that font, and then
-        footnote the conjecture: e.g., a 60/40 % likelihood that the "she" on
+        footnote the conjecture: e.g., a 60/40% likelihood that the "she" on
         pages 182--183 (line 12) in this edition was MWS's meant that I employed
         the MWS interlinear font and that the footnote for line 12 read "*?MWS*
         she." In those cases where neither ink nor other evidence would make one
@@ -439,7 +432,7 @@ Type Facsimile of the Manuscript
         conjecture and print that letter as if it were completely formed in the
         manuscript (see, e.g., pages 72--73 in this edition, line 31, where there
         is enough of an incomplete "u" in the canceled word in manuscript to
-        warrant my transcription of "recou recourse"---in this case, MWS
+        warrant my transcription of "~~recou~~ recourse"---in this case, MWS
         apparently trailed off because she was unsatisfied by the slightly
         misformed "re" in her first attempt).
 
@@ -447,7 +440,7 @@ Type Facsimile of the Manuscript
     :   All of the manuscript pages were written in ink, and
         each of the few places where MWS, PBS, or an unidentified hand used
         pencil is indicated in the footnotes. Sometimes MWS would trace over in
-        pen PBS's penciled words (see, e.g., pages 62--65,292--293 in this
+        pen PBS's penciled words (see, e.g., pages 62--65, 292--293 in this
         edition). It was probably MWS who penciled the ruled margin in Notebook
         A (see "Rules," below), and the Bodleian foliation was done in pencil.
 
@@ -574,7 +567,7 @@ Literal Transcript of *1818*
     Dagger
     :   A † follows any word, number, or punctuation mark in the
         literal transcript of *1818* that is glossed in the footnotes, the note
-        being preceded by "**1818 text:line number**]".
+        being preceded by "**<span class="underline">1818</span> text:line number**]".
 
     Paragraph Symbol
     :   A *¶* is added in the transcript of *1818* to make
@@ -632,7 +625,7 @@ Notes
         arranged in the following order: **preceding page(s)]; entire page];
         left edge]; top of page]; right edge]; bottom of page];
         margin:sequential line number(s) from type facsimile]; sequential line
-        number(s) from type facsimile]; 1818 text: sequential line number(s)
+        number(s) from type facsimile]; <span class="underline">1818</span> text: sequential line number(s)
         from type facsimile]; following page(s)]**.
 
     Phrasing and Types of Notes
@@ -756,8 +749,12 @@ from being the source of future errors.[^14]
 
 ## The Makeup of The *Frankenstein* Notebooks
 
-*(Quiring Charts and technical descriptions below are based on a text
-originally prepared by Dr. B. C. Barker-Benfield.)*
+<div class="centered smaller">
+
+| *(Quiring Charts and technical descriptions below are based on*
+| *a text originally prepared by Dr. B. C. Barker-Benfield.)*
+
+</div>
 
 The remnants of the original *Frankenstein* Notebooks tell a fascinating
 tale about the way that MWS created her novel. Part of this tale is
@@ -805,10 +802,15 @@ notebook below.
 
 ### Draft Notebook A
 
-(Dep. c. 477/1, folios 4--28a, 28b--62; Dep. c. 534/1, folios 1--17=Pages
-10--15, 26--31, 36--339 in this edition) (With Dep. c. 477/1 insert folios
-1--3 and Dep. c. 534/1 insert folio 18=Pages 16--25, 32--35, 340--341 in
-this edition)
+<div class="centered smaller">
+
+| (Dep. c. 477/1, folios 4--28a, 28b--62; Dep. c. 534/1, folios 1--17=Pages
+   10--15, 26--31, 36--339 in this edition)
+| (With Dep. c. 477/1 insert folios
+  1--3 and Dep. c. 534/1 insert folio 18=Pages 16--25, 32--35, 340--341 in
+  this edition)
+
+</div>
 
 Paper, Watermarks, and Covers
 :   Notebook A survives as 77 leaves of
@@ -979,10 +981,13 @@ Insert Pages in Notebook A
 
 ### Draft Notebook B
 
-(Dep. c. 534/1, folios 19--37, 39--94=Pages 342--417, 420--643 in this
-edition)
+<div class="centered smaller">
 
-(With Dep. c. 534/1 insert folio 38=Pages 418--419 in this edition)
+| (Dep. c. 534/1, folios 19--37, 39--94=Pages 342--417, 420--643 in this
+  edition)
+| (With Dep. c. 534/1 insert folio 38=Pages 418--419 in this edition)
+
+</div>
 
 Paper, Watermarks, and Covers
 :   Notebook B survives as 75 leaves of
@@ -1007,7 +1012,7 @@ Paper, Watermarks, and Covers
     identical paper.[^20]
 
 Date of Notebook B
-:   ([?December] 1816-April 1817): If MWS exhausted
+:   ([?December] 1816--April 1817): If MWS exhausted
     all or most of the paper in Notebook A on or around 5 December 1816 (see
     "Date of Notebook A" above), then she probably began Notebook B as early
     as 6 December 1816. She finished drafting her novel in Notebook B by
@@ -1130,9 +1135,14 @@ Insert Pages in Notebook B
 
 ### Fair-Copy Notebooks C1 and C2
 
-(Dep. c. 534/2, folios 1--18 and 19--29=Pages 646--719 and 720--771 in this
-edition) (With Dep. c. 534/2 insert folio 30 and substitute folio
-31=Pages 772--777 in this edition)
+<div class="centered smaller">
+
+| (Dep. c. 534/2, folios 1--18 and 19--29=Pages 646--719 and 720--771 in this
+  edition) 
+| (With Dep. c. 534/2 insert folio 30 and substitute folio
+  31=Pages 772--777 in this edition)
+
+</div>
 
 Paper, Watermarks, Covers, and Sewing Holes
 :   Fair-Copy Notebooks C1
@@ -1369,7 +1379,7 @@ created by Victor Frankenstein---should I denominate him "being" or
 through the consciousnesses of Walton, Victor, the "monster" himself,
 and the De Laceys?[^30] MWS herself avoided giving him a name in the
 novel, and after she saw a dramatic production of *Frankenstein* in 1823
-she approved the use of "--------" for the character played "by M^r^ T.
+she approved the use of "\-\-\-\-\-\-\-\-" for the character played "by M^r^ T.
 Cooke: this nameless mode of naming the un{n}ameable is rather good"
 (see "*Frankenstein* Chronology" for 9 September 1823). My choice of
 name will undoubtedly dictate a response, and I am certain that some
@@ -1513,44 +1523,50 @@ for more on this dating). Because the variations on Clerval's name can
 lead to very misleading suppositions,[^34] I offer the following
 chronology that best explains what happened.
 
-> **[?June--late September] 1816:** "Carignan" in the ur-text (see above
-> for explanation).
+> [?June--late September] 1816
+> :   "Carignan" in the ur-text (see above
+>     for explanation).
 > 
-> **[no later than early October] 1816:** "Carignan" written and then
-> canceled and then replaced by "Clerval" in Draft: Vol. I, Ch. [1] (see
-> above for explanation).
+> [no later than early October] 1816
+> :   "Carignan" written and then
+>     canceled and then replaced by "Clerval" in Draft: Vol. I, Ch. [1] (see
+>     above for explanation).
 > 
-> **[?early January 1817]:** "Clairval" was the name in Draft: Vol. II,
-> Ch. 10, original page 100, but "Clerval" was the name later in this
-> chapter on original pages 101--103. This apparently incorrect or at least
-> inconsistent "Clairval" was not separately corrected to "Clerval" (see
-> below for the nineteen places where MWS did alter "Clairval" to
-> "Clerval"), but the passage in which "Clairval" appeared was canceled by
-> MWS between 18 April and 10/13 May 1817 (see pages 416--427 in this
-> edition for the dating of the cancelations), making the separate
-> alteration unnecessary. When an unpaginated insert was added to Ch. 10
-> in April/May 1817, "Clerval" was used (see transcription page 435 in
-> this edition).
+> [?early January 1817]
+> :   "Clairval" was the name in Draft: Vol. II,
+>     Ch. 10, original page 100, but "Clerval" was the name later in this
+>     chapter on original pages 101--103. This apparently incorrect or at least
+>     inconsistent "Clairval" was not separately corrected to "Clerval" (see
+>     below for the nineteen places where MWS did alter "Clairval" to
+>     "Clerval"), but the passage in which "Clairval" appeared was canceled by
+>     MWS between 18 April and 10/13 May 1817 (see pages 416--427 in this
+>     edition for the dating of the cancelations), making the separate
+>     alteration unnecessary. When an unpaginated insert was added to Ch. 10
+>     in April/May 1817, "Clerval" was used (see transcription page 435 in
+>     this edition).
 > 
-> **[?early January 1817] and [?18 March--9 April 1817]:** The one use of
-> "Clairval" in Ch. 10 (possibly a mistake occasioned by MWS often writing
-> out the names "Claire" and "Clairmont" in letters) may have prompted MWS
-> to change the spelling of the name, for the next nineteen instances of
-> the name in Draft: Vol. II, Chs. 11--17, were "Clairval," each of which
-> was altered to "Clerval" at a later time, most likely in April/May 1817
-> at one sitting when MWS was fair copying her novel. The first "ai" that
-> is canceled and replaced by "e" is in Draft: Vol. II, Ch. 11 [renumbered
-> "2" for the three-volume sequence], page 108 (see pages 452--453 in this
-> edition): the dark ink on the renumbered chapter "2" seems to be the
-> same as that used for the alterations of "Clairval" to "Clerval."
+> [?early January 1817] and [?18 March--9 April 1817]
+> :   The one use of
+>     "Clairval" in Ch. 10 (possibly a mistake occasioned by MWS often writing
+>     out the names "Claire" and "Clairmont" in letters) may have prompted MWS
+>     to change the spelling of the name, for the next nineteen instances of
+>     the name in Draft: Vol. II, Chs. 11--17, were "Clairval," each of which
+>     was altered to "Clerval" at a later time, most likely in April/May 1817
+>     at one sitting when MWS was fair copying her novel. The first "ai" that
+>     is canceled and replaced by "e" is in Draft: Vol. II, Ch. 11 [renumbered
+>     "2" for the three-volume sequence], page 108 (see pages 452--453 in this
+>     edition): the dark ink on the renumbered chapter "2" seems to be the
+>     same as that used for the alterations of "Clairval" to "Clerval."
 > 
-> **[?early April 1817]:** By this time, MWS had decided on "Clerval" as
-> evidenced by the six instances of that spelling in Draft: Vol. II, Ch.
-> 18, and by the four instances of that spelling in the extant Fair Copy.
+> [?early April 1817]
+> :   By this time, MWS had decided on "Clerval" as
+>     evidenced by the six instances of that spelling in Draft: Vol. II, Ch.
+>     18, and by the four instances of that spelling in the extant Fair Copy.
 > 
-> **[?April/May 1817]:** MWS altered the nineteen instances of "Clairval"
-> to "Clerval," most likely during the time she was fair copying her
-> novel.
+> [?April/May 1817]
+> :   MWS altered the nineteen instances of "Clairval"
+>     to "Clerval," most likely during the time she was fair copying her
+>     novel.
 
 Safie most likely was not in the ur-text, and when she was introduced
 into that "very long" Chapter 4 that MWS wrote in late November/early
@@ -1674,7 +1690,7 @@ that some of the evidence of an earlier state may merely mean there were
 intervening rough drafts rather than an ur-text.
 
 The Creation Chapter
-:   The creation chapter (Draft: Vol. I, Ch. 7a)
+:   The creation chapter (Draft: Vol. I, Ch. 7<span class="smallcaps">a</span>)
     is the one for which there is the strongest likelihood of its having
     existed in the ur-text. MWS indicated in her 1831 Introduction that she
     began her original tale on [?17] June (the morning after her dream) with
@@ -1683,7 +1699,7 @@ The Creation Chapter
     over the summer, they may have been preceded by introductory sections or
     chapters leading up to the creation scene. That the ur-text contained a
     description of that "dreary night" and its immediate aftermath is
-    suggested by the relatively "clean" Draft: Ch. 7a, which has few MWS
+    suggested by the relatively "clean" Draft: Ch. 7<span class="smallcaps">a</span>, which has few MWS
     interlineations and cancelations made in the process of drafting (the
     additional interlinear and marginal alterations were a consequence of
     PBS's hand in the manuscript at a later time).
@@ -1691,8 +1707,8 @@ The Creation Chapter
 Chapters (or Characters and Incidents) before the Creation
 :   If "It
     was on a dreary night of November" were preceded in the ur-text by other
-    sections and if Ch. 7a was mainly a transcription of the creation scene
-    and its immediate aftermath, then the other references in Ch. 7a to
+    sections and if Ch. 7<span class="smallcaps">a</span> was mainly a transcription of the creation scene
+    and its immediate aftermath, then the other references in Ch. 7<span class="smallcaps">a</span> to
     Ingolstadt, to the Swiss diligence, to Clerval, to Elizabeth, and to
     Victor's father, brother, and dead mother suggest that the ur-text would
     have also depicted Victor's adolescence in Geneva and his later
@@ -1708,7 +1724,7 @@ Chapters (or Characters and Incidents) before the Creation
     Draft. The existence of the relatively "clean" Chs. [l]--6, however, does
     not necessarily mean that they were mere copies of fully articulated
     chapters in the ur-text. That is, it is unlikely that an ur-text behind
-    all of Draft Chs. [1]--7a (what originally occupied MWS pages [?34]--84)
+    all of Draft Chs. [1]--7<span class="smallcaps">a</span> (what originally occupied MWS pages [?34]--84)
     consisted of 50 pages; more likely it was no more than half that length,
     which would still have made it possible for MWS to expand her ur-text
     into her Draft without much cancelation and revision as she went along.
@@ -1718,10 +1734,10 @@ Chapters (or Characters and Incidents) before the Creation
 
 Chapters (or Characters and Incidents) after the Creation
 :   If the
-    ur-text contained most of the creation chapter (Ch. 7a) and some of the
+    ur-text contained most of the creation chapter (Ch. 7<span class="smallcaps">a</span>) and some of the
     preceding chapters (Chs. [l]--6), it is likely that the ur-text also
     dealt with the consequences of the creation. If we use the same standard
-    of a "clean" text for Draft: Vol. I, Chs. 7b--12, then the incidents of
+    of a "clean" text for Draft: Vol. I, Chs. 7<span class="smallcaps">b</span>--12, then the incidents of
     William's murder and Justine's imprisonment and death were part of the
     ur-text, a possibility supported by apparent copying errors in the Draft
     (see especially the mistranscription of the name "Myrtella" in the
@@ -1818,9 +1834,9 @@ she (and PBS) transcribed the Draft into a Fair Copy that would become
 printer's copy. The easiest way to argue that point is to note how close
 the pagination of the extant Fair-Copy Notebooks C1 and C2 was to the
 pagination in the *1818* edition: see the headers on transcription page
-647 (**Fair Copy: Vol. III, Ch. [V], page 99 = 1818: Vol. III, Ch. V,
-pages 100--101**) and page 749 (**Fair Copy: Vol. III, Ch. VII, page 175
-= 1818: Vol. III, Ch. VII, pages 176--178**). Because MWS took
+647 (**Fair Copy: Vol. III, Ch. [V], <span class="underline">page 99</span> = 1818: Vol. III, Ch. V,
+<span class="underline">pages 100--101</span>**) and page 749 (**Fair Copy: Vol. III, Ch. VII, <span class="underline">page 175</span>
+= 1818: Vol. III, Ch. VII, pages <span class="underline">176--178</span>**). Because MWS took
 painstaking care in transcribing her text into Notebooks C1 and C2, we
 may surmise that the same
 care and precision were employed in earlier notebooks and that she fair
@@ -1859,7 +1875,7 @@ approximated the *1818* pagination, enabling me to offer the following
 gloss for these otherwise inexplicable numbers.
 
 "52"
-:   This PBS number on Draft: Vol. I, Ch. 7a, page 80, apparently
+:   This PBS number on Draft: Vol. I, Ch. 7<span class="smallcaps">a</span>, page 80, apparently
     records the "52" leaves or "104" pages that had been used to fair copy
     the Draft up to this point---a glance at transcription page 107 reveals
     that the *1818* equivalent is page "105." It is possible that the "52"
@@ -1879,7 +1895,7 @@ gloss for these otherwise inexplicable numbers.
     above as well as transcription page 649 below).
 
 "52" together with calculation up to a canceled "156" and an emphasized "180"
-:   These PBS numbers on Draft: Vol. I, Ch. 7a, page 81,
+:   These PBS numbers on Draft: Vol. I, Ch. 7<span class="smallcaps">a</span>, page 81,
     appear to calculate the number of pages that were used to transcribe all
     of Fair Copy: Vol. I, which amounted to 181 pages in *1818* (see
     transcription page 221 in this edition), a number suggesting that Fair
@@ -1904,7 +1920,7 @@ gloss for these otherwise inexplicable numbers.
     numbers of his drafts into his Diary).
 
 "Ch V- 113"
-:   This MWS number on Draft: Vol. I., Ch. 7b, page 87, was
+:   This MWS number on Draft: Vol. I., Ch. 7<span class="smallcaps">b</span>, page 87, was
     not written in the Autumn of 1817 and did not refer to the fact that
     *1818*: Vol. I, Ch. V, began on page 114 (with the implication that
     there was a change from proof to revise, or that MWS got the number
@@ -2196,7 +2212,7 @@ overstated PBS's involvement with the text and subordinated MWS to her
 husband. According to Rieger, PBS "oversaw his wife's manuscript at
 every stage," corrected "her frequent grammatical solecisms, her
 spelling, and her awkward phrasing," and assisted to such a degree "at
-every point in the book's manufacture...that one hardly knows
+every point in the book's manufacture ... that one hardly knows
 whether to regard him as editor or minor collaborator" (page xviii).
 Although these judgments reflect a great deal of truth (and
 collaboration merely means to "work with" not to "equally divide the
@@ -2240,7 +2256,7 @@ these alterations to be minor: they "merely rewrite what Mary had
 written in order to provide a context for a given correction or
 addition," or they offered "dictional, grammatical, or syntactical
 variations." Murray added, however, that many changes were "creative
-additions which...help to shape atmosphere, incident, character,
+additions which ... help to shape atmosphere, incident, character,
 reader-response, and, consequently, aid in establishing the moral and
 aesthetic tone of the novel" (page 51). Then, to illustrate the way that
 PBS fair copied the Draft, Murray provided representative passages in
@@ -2283,7 +2299,7 @@ After Rieger and Murray came Anne K. Mellor's *Mary Shelley: Her Life,
 Her Fiction, Her Monsters* (1988), which offered the most extensive
 analysis of the Shelleys' collaboration to date. Mellor's study had the
 benefit of being a balanced one, for it stressed that PBS's alterations
-to MWS's novel "both improved and damaged the text and...must be
+to MWS's novel "both improved and damaged the text and ... must be
 analyzed with care."[^50] On balance, however, although Mellor correctly
 judged that PBS was "responsible for much of the most inflated rhetoric
 in the text," her Appendix on "Percy Shelley's Revisions of the
@@ -2319,7 +2335,7 @@ dissimilitude"---see pages 10--11 in this edition) before PBS made any
 alterations, and it was MWS not PBS who introduced Victor's decision to
 create a female (see above on "Rieger," who apparently misled Huet).
 Huet compounded a misreading of evidence when she claimed that PBS wrote
-the monster's "final words...'I shall collect my funeral pile...'"---a 
+the monster's "final words ... 'I shall collect my funeral pile ... ' "---a 
 glance at pages 640--641 in this edition will confirm that MWS
 wrote the sentence, and pages 769 and 816 will demonstrate the small
 alterations that PBS made to the original sentence when he fair copied
@@ -2469,8 +2485,6 @@ augmented" Walton's text because he "would not that a mutilated one
 should go down to posterity"---an ideal that any writer or editor hopes to
 serve![^52]
 
-Notes
-
 [^1]:  Called Claire throughout this edition, Clara Mary Jane Clairmont was
     also sometimes called "Jane" by her family, which also included her
     half-brother Charles Gaulis Clairmont (1795--1850) and her
@@ -2554,6 +2568,7 @@ Notes
     pen cut as the text on that page; both ink and pen cut suggest that
     page number "13" was written before the fourth word of line 1 on
     that page was written.
+
 [^16]: It is dangerous to speculate why MWS changed from foliating to
     paginating, but in the shadows of this note I suggest that she had
     first planned to use this notebook for the purposes of a rough draft
@@ -2565,7 +2580,8 @@ Notes
     not account for the fact that the first forty pages of the Draft are
     now missing (for the equivalent in the *1818* text, see pages 3--7 in
     this edition).
-​[^17. The first example of Botfield paper is MS. Shelley adds. c. 5,
+
+[^17]: The first example of Botfield paper is MS. Shelley adds. c. 5,
     folios 45--46 (two singletons, perhaps once
     conjoint), containing MWS's undated fair copy of the added fourth
     chapter of PBS's fragment "The Assassins," the 1815 watermark being the
@@ -2602,6 +2618,7 @@ Notes
     sheets; PBS's "Speculations" was so scrappy that their very continuity
     is in doubt; and PBS's fragmentary note to MWS was clearly a loose scrap
     of paper.
+
 [^18]: This unique watermark of "TW&BB | 1809" in the Bodleian collections
     (Abinger Dep. c. 523) is on paper used by William Godwin to write to
     his wife on 11 September 1812 during his brief stop at Bath while
@@ -2779,7 +2796,7 @@ Notes
     then recopied portions of a previous text, consider a possible
     instance of this on page 44 of what is now Ch. 2: MWS first wrote
     and then canceled "The C" and then wrote another sentence and then
-    wrote "The catastrophe..." (see transcription page 29, lines
+    wrote "The catastrophe ... " (see transcription page 29, lines
     29--30, in this edition).
 [^40]: See especially Draft: Vol. I, Ch. 13, where MWS canceled lines 16--25
     on her page 138 only to rewrite them at lines 22--31 on page 142; she

@@ -188,6 +188,10 @@ Notebooks and discovered the process by which she created her novel.
 Here, the library became a laboratory, and Mary Shelley's *Frankenstein*
 once again came to life.
 
+<div class="flush-right">
+
 | Charles E. Robinson
 | Newark, Delaware
 | 30 August 1996
+
+</div>
