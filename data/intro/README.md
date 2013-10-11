@@ -43,3 +43,14 @@ We use the following rules in the Markdown:
 * n-dash: --
 * m-dash: --- (with no spaces on either side)
 * ellipsis: ... (with a single space on each side)
+
+We use a number of CSS classes to indicate certain styling in the generated HTML:
+
+* ouline: outline letters (used in the introduction.md section describing font use)
+* underline: underscored  text
+* centered: centered text other than a heading
+* flush-right: text that should be placed flush right (used at the end of acknowledgements.md)
+* smaller: text that should be smaller in size, such as some sections in the introduction
+* unstyled-list: wraps lists that should not use bullets or numbers
+* smallcaps: text using a small-cap typeface variant
+* aside: a section that is in a smaller font size and larger margins than the regular text
