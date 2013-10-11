@@ -5,60 +5,84 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0128" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0128.tif"/>
-  <zone type="pagination">
-    <delSpan spanTo="c57-0128-01"/>Chapt 14<anchor xml:id="c57-0128-01"/>4) </zone>
+  <zone type="pagination" rend="bordered">
+    <del rend="strikethrough">Chapt14</del>4) </zone>
+  <zone type="top">
+    <line>Chap. 15</line>
+  </zone>
   <zone type="main">
-    <line> Chap. 15</line>
     <line>We were not allowed to converse for any length</line>
     <line>of time for the precarious state of my health rendered</line>
-    <line>every precaution <add place="sublinear"><metamark>&#x2038;</metamark></add><del
-        rend="strikethrough"><add place="superlinear">that</add></del> necessary <add
-        place="superlinear">that could ensure tranquillity</add>. Mr.. Kirwin came in &amp;</line>
-    <line>insisted that my <del rend="strikethrough">forces</del><add place="sublinear"
-          ><metamark>&#x2038;</metamark></add><add place="superlinear">strength</add> should not be
-      exhausted</line>
+    <line>every precaution <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <del rend="strikethrough"><add place="superlinear" hand="#pbs">that</add></del>
+      </mod> necessary <add place="superlinear" hand="#pbs">that could ensure tranquillity</add>.
+        M<hi rend="sup">r</hi>.. Kirwin came in &amp;</line>
+    <line>insisted that my <mod>
+        <del rend="strikethrough">forces</del>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">strength</add>
+      </mod> should not be exhausted</line>
     <line><del rend="strikethrough">by a prolonged con</del> by too much exertion. But</line>
     <line>the appearance of my father was to me like</line>
     <line>that of my good angel, and I gradually recovered my</line>
-    <line>health. As my sickness <unclear/> quitted me I was absorbed</line>
-    <line>by a<add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
-      >gloomy &amp;</add> black melancholy that nothing could dissipate&#x2013;</line>
-    <line>The image of Cl<del rend="strikethrough">ai</del><add place="superlinear">e</add>rval was
-      for ever before me</line>
-    <line><del rend="strikethrough">pale</del><add><ptr target="c57-0128-1"/></add> &amp; murdered &#x2013;
-      More than once the agitation</line>
-    <line><del rend="strikethrough">that</del><add place="superlinear">into which</add> these
-      reflections threw me into made my</line>
+    <line>health. As my sickness <unclear unit="chars" extent="1" reason="illegible"/> quitted me I
+      was absorbed</line>
+    <line>by a <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">gloomy &amp;</add>
+      </mod> black melancholy that nothing could dissipate&#x2013;</line>
+    <line>The image of Cl<mod>
+        <del rend="strikethrough">ai</del>
+        <add place="superlinear">e</add>
+      </mod>rval was for ever before me</line>
+    <line><mod>
+        <del rend="strikethrough">pale</del>
+        <anchor xml:id="c57-0128.01"/>
+      </mod> &amp; murdered &#x2013; More than once the agitation</line>
+    <line><mod>
+        <del rend="strikethrough">that</del>
+        <add place="superlinear" hand="#pbs">into which</add>
+      </mod> these reflections threw me into made my</line>
     <line>friends dread a dangerous relapse</line>
     <milestone unit="tei:p"/>
-    <line><space/>Alas! Why did they preserve so miserable</line>
+    <line rend="indent2">Alas! Why did they pre<retrace hand="#pbs" cause="clarify">s</retrace>erve
+      so miserable</line>
     <line>and detested a life? It was surely that I</line>
     <line>might fulfil my destiny which is drawing</line>
     <line>to a close&#x2014; Soon Oh very soon will death</line>
-    <line>extinguish these throbbings<add place="sublinear"><metamark>&#x2038;</metamark></add><add
-        place="superlinear">releive me from</add> this mighty weight</line>
-    <line>of anguish that bears me to the <del rend="strikethrough">ground</del></line>
-    <line>dust and in excecuting the award of jus</line>
-    <line>tice I shall also thin sink to rest. Then</line>
-    <line>the <del rend="strikethrough">thought</del><add place="sublinear"
-          ><metamark>&#x2038;</metamark></add><add place="superlinear">appearance</add> of death was
-      distant although</line>
+    <line>extinguish these thro<add place="intralinear" hand="#pbs">b</add>bings <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">releive me from</add>
+      </mod> this mighty weight</line>
+    <line>of anguish that bears me to the <del rend="strikethrough" instant="true"
+      >ground</del></line>
+    <line>dust and in ex<del rend="strikethrough">c</del>ecuting the award of jus</line>
+    <line>tice I shall also <del rend="strikethrough" instant="true">thin</del> sink to rest.
+      Then</line>
+    <line>the <mod>
+        <del rend="strikethrough">thought</del>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">appearance</add>
+      </mod> of death was distant although</line>
     <line>the wish was ever present to my thoughts</line>
     <line>&amp; I often sat for hours motionless &amp; speech</line>
     <line>less wishing for some mighty revolution</line>
     <line>that might bury me &amp; my destroyer in</line>
-    <line>its <unclear/> ruins.</line>
+    <line>its <unclear unit="chars" extent="1" reason="illegible"/> ruins.</line>
     <milestone unit="tei:p"/>
-    <line><space/> The season of the assizes approached-</line>
+    <line rend="indent2">The season of the assizes approached&#x2013;</line>
     <line>I had already been three months in prison</line>
-    <line>&amp; <del rend="strikethrough">allth</del> although I was still weak &amp; <del
-        rend="strikethrough">feverish</del></line>
+    <line>&amp; <del rend="strikethrough" instant="true">allth</del> although I was still weak &amp;
+        <del rend="strikethrough">feverish</del></line>
     <line>in continual danger of a relapse I was</line>
     <line>obliged to travel nearly a hundred miles to</line>
     <line>the county town where the court was held.</line>
-    <line>Mr. Kirwin charged himself with every</line>
+    <line>M<hi rend="sup">r</hi>. Kirwin charged himself with every</line>
   </zone>
-  <zone type="left_margin">
-    <line>ghastly<anchor xml:id="c57-0128-1"/></line>
+
+  <zone type="left_margin" corresp="#c57-0128.01">
+    <line><add>ghastly</add></line>
   </zone>
+
 </surface>
