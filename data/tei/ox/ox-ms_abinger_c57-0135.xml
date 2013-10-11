@@ -29,7 +29,7 @@
     <line>find that your heart is not totally</line>
     <line>devoid of comfort &#x26; tranquility.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Yet I fear that<del rend="strikethrough">,</del> the same
+    <line rend="indent2">Yet I fear that<del rend="strikethrough">,</del> the same
       feelings</line>
     <line>now exist that made you so miserable</line>
     <line>a year ago even perhaps augmented by time.</line>
@@ -40,7 +40,7 @@
     <line>renders some explanation necessary</line>
     <line>before we meet.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Explanation, you may possibly say,</line>
+    <line rend="indent2">Explanation, you may possibly say,</line>
     <line>what can Elizabeth have to explain?</line>
     <line>If you really say this my questions are</line>
     <line>answered and I have no more to do than</line>
