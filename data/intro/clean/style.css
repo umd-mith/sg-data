@@ -1,0 +1,103 @@
+body { 
+    max-width: 680px; 
+    text-align: justify;
+    line-height: 1.4;
+} 
+
+h1, h2, h3 { 
+    text-align: center; 
+}
+
+dt { 
+    display: inline-block; 
+    font-weight: bold; float: left; 
+    margin-right: 5px;
+} 
+
+dt:after { 
+    content: ": "; 
+} 
+
+dd { 
+    margin-left: 0px;
+} 
+
+dl dl { 
+    margin-left: 40px; 
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+section.aside {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 90%;
+}
+
+section.aside h2 {
+    text-align: center;
+    font-size: 100%;
+}
+
+section.aside h2 a {
+    text-decoration: none;
+}
+
+.outline {
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.centered {
+    text-align: center;
+}
+
+.flush-right {
+    text-align: right;
+}
+
+.smaller {
+    font-size: 90%;
+}
+
+.unstyled-list ul {
+    list-style: none;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+code {
+    white-space: normal;
+}
+
+p {
+    text-indent: 0px;
+    margin-bottom: 0px;
+}
+
+p + p, dl + p, blockquote + p {
+    text-indent: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+dd p {
+    margin-top: 0px;
+}
+
+dd {
+    margin-bottom: 20px;
+}
