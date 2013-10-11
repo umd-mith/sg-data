@@ -1,4 +1,4 @@
-*Acknowledgments*
+# Acknowledgments
 
 I owe a great deal to many friends and colleagues who have sacrificed
 much in order to come to my often frenzied calls for assistance during
@@ -36,14 +36,14 @@ Only after my initial formatting of the type facsimile of The
 *Frankenstein* Notebooks was I aware that there was room to print a
 literal transcript of the *1818* first edition down the right column of
 each type facsimile page so that, at a glance, the reader could see
-first what Mary Shelley wrote in 1816-17, then what she and Percy
+first what Mary Shelley wrote in 1816--17, then what she and Percy
 Shelley added and corrected, and then what was published a few months
 later on 1 January 1818. Different parts of the "body" of this edition,
 therefore, were developed in the very process of its creation, and I am
 indebted to Steven Olsen-Smith and Shanon Wilson, two Ph.D. students at
 the University of Delaware who volunteered their precious time to
 prepare a WordPerfect text of *1818* that could be incorporated into the
-edition and run in tandem, line by line, with the *1816-17* Draft and
+edition and run in tandem, line by line, with the *1816--17* Draft and
 with the *1817* Fair Copy. That text was then checked for accuracy by my
 reading it aloud against the *1818* first edition in the University of
 Delaware Library, and I am indebted to Mary Ellen Bellanca, Charlene E.
@@ -147,7 +147,7 @@ be reconstructed—and with this written analysis is given
 Barker-Benfield's *carte blanche* to do with it what the editor wants,
 whether to appropriate or to rewrite his text. The overall effects of
 Barker-Benfield's collaboration with me are also evident on every page:
-he suggested naming this edition "*1816-17*" by which it could be
+he suggested naming this edition "*1816--17*" by which it could be
 distinguished from and related to the "*1818*" and "*1831*" editions;
 his objection to an earlier form of the footnotes led to a new formula
 for designating notes about passages in the left margin; similarly, his
@@ -188,10 +188,6 @@ Notebooks and discovered the process by which she created her novel.
 Here, the library became a laboratory, and Mary Shelley's *Frankenstein*
 once again came to life.
 
-Charles E. Robinson
-
-Newark, Delaware
-
-30 August 1996
-
-
+| Charles E. Robinson
+| Newark, Delaware
+| 30 August 1996
