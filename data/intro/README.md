@@ -34,4 +34,12 @@ The shell script relies on `pandoc` to provide the Markdown to HTML conversion.
 
 To produce the clean HTML from the clean Markdown, we run the following pandoc command:
 
-    pandoc --from=markdown --to=html5 --ascii --smart --toc -s -o introduction.html introduction.md
+    pandoc --from=markdown --to=html5 --ascii --smart --toc -s -c ./style.css -o introduction.html introduction.md
+
+## Styling
+
+We use the following rules in the Markdown:
+
+* n-dash: --
+* m-dash: --- (with no spaces on either side)
+* ellipsis: ... (with a single space on each side)
