@@ -5,26 +5,26 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0143" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0143.tif"/>
-  <zone type="pagination">
+  <zone type="pagination" rend="bordered">
     <line>159</line>
   </zone>
   <zone type="library">
     <line>72</line>
   </zone>
   <zone type="main">
-    <line>,which past misfortunes had impressed,</line>
+    <line>, which past misfortunes had impressed,</line>
     <line>that what now appeared certain &amp; tangible</line>
     <line>happiness might soon dissipate into an</line>
     <line>airy dream &amp; leave no trace but deep &amp; ever</line>
     <line>lasting regret.</line>
     <milestone unit="tei:p"/>
-    <line>Preparations were made for the event.</line>
+    <line rend="indent2">Preparations were made for the event.</line>
     <line>Congratulatory visits <mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
-      <add place="superlinear" hand="#pbs">were</add>
-    </mod> received and all wore a</line>
-    <line>smiling appearance &#x2013;I shut up <del rend="strikethrough"><unclear 
-      reason="illegible" unit="chars" extent="1"/></del> as well</line>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">were</add>
+      </mod> received and all wore a</line>
+    <line>smiling appearance &#x2013;I shut up <del rend="strikethrough"><unclear reason="illegible"
+          >m</unclear></del> as well</line>
     <line>as I could, in my own heart the anxiety that</line>
     <line>preyed there and entered with seeming ear</line>
     <line>nestness into the plans of my father although</line>
@@ -38,9 +38,9 @@
     <line>might follow his studies at the universi</line>
     <line>ty.</line>
     <milestone unit="tei:p"/>
-    <line>In the mean time I took every precau</line>
+    <line rend="indent1">In the mean time I took every precau</line>
     <line>tion to defend my person in case the</line>
-    <line>fiend should attack we&#x2013; I carried</line>
+    <line>fiend should at<del rend="strikethrough">t</del>ack we&#x2014; I carried</line>
     <line>pistols &amp; a dagger constantly about</line>
     <line>me and was ever on the watch to</line>
     <line>prevent artifice &amp; by these means gain</line>
@@ -51,29 +51,34 @@
       </mod> tranquillity&#x2013; And indeed as the</line>
     <line>period approached the threat<del rend="strikethrough">s</del> appeared</line>
     <line>more as <mod>
-      <del rend="strikethrough">dream<del rend="strikethrough">s</del></del>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
-      <add place="superlinear">a delusion</add>
-    </mod> not to be regarded as</line>
-    <line>worthy to disturb my peace while the</line>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <del rend="strikethrough">dreams</del>
+        <add place="superlinear">a delusion</add>
+      </mod> not to be regarded as</line>
+    <line>worthy to disturb <mod>
+        <del rend="overwritten">b</del>
+        <add place="intralinear">m</add>
+      </mod>y peace while the</line>
     <line>happiness I hoped for in my marriage</line>
-    <line>wore an greater appearance of <mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
-      <add place="superlinear">greater</add>
-    </mod> certainty</line>
+    <line>wore a<add place="intralinear">n</add>
+      <del rend="strikethrough">greater</del> appearance of <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">greater</add>
+      </mod> certainty</line>
     <line>as <mod>
-      <del rend="strikethrough">it</del>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
-      <del rend="strikethrough">drew nearer</del>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
-      <add place="superlinear"
-        ><!--"the period" is in left margin but is a single intervention with the following words, so I'm encoding it in all in one place-->the
-        period of its solemnization <del rend="strikethrough">approac</del> drew near</add>
-    </mod> and I heard it</line>
+        <del rend="strikethrough">it</del>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">the period of its solemnization</add>
+      </mod>
+      <mod>
+        <del rend="strikethrough">drew nearer</del>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear"><del rend="strikethrough">approac</del> drew near</add>
+      </mod> and I heard it</line>
     <line>spoken of every day as an <mod>
-      <del rend="strikethrough">event</del>
-      <add place="superlinear">occurence</add>
-    </mod> which</line>
+        <del rend="strikethrough">event</del>
+        <add place="superlinear">occurence</add>
+      </mod> which</line>
     <line>no <del rend="strikethrough">event could alter</del> accident could</line>
     <line><anchor xml:id="c57-0143.01"/>prevent.</line>
   </zone>
