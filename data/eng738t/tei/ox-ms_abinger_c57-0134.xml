@@ -5,18 +5,22 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0134" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0134.tif"/>
-  <zone type="pagination">150</zone>
+  <zone type="pagination" rend="bordered">150</zone>
   <zone type="main">
-    <line><milestone unit="tei:q" spanTo="#c57-0134.01"/>could not sacrifice the whole human
-      race.<anchor xml:id="c57-0134.01"/></line>
+    <line>could not sacrifice the whole human race.</line>
     <milestone unit="tei:p"/>
-    <line>The conclusion of this speech persuaded my</line>
-    <line>father that my ideas were deranged and <del rend="smear">he</del><add place="intralinear" hand="#pbs"
-      >by</add><!-- The Word files have this insertion "by" but encoder does not see it in MS -->
-      instant</line>
-    <line>ly chang<del rend="strikethrough">ed</del><add place="superlinear" hand="#pbs">ing</add> the
-      subject of our conversation <del rend="overwritten">&#x26;</del> 
-      <add place="intralinear" hand="#pbs">he</add></line>
+    <line rend="indent2">The conclusion of this speech persuaded my</line>
+    <line>father that my ideas were deranged &#x2013; and <mod>
+        <del rend="overwritten">he</del>
+        <add place="intralinear" hand="#pbs">by</add>
+      </mod> instant</line>
+    <line>ly chang<mod>
+        <del rend="strikethrough">ed</del>
+        <add place="superlinear" hand="#pbs">ing</add>
+      </mod> the subject of our conversation <mod>
+        <del rend="overwritten">&#x26;</del>
+        <add place="intralinear" hand="#pbs">he</add>
+      </mod></line>
     <line>endeavoured to alter the course of my thoughts.</line>
     <line>He wished as much as possible to obliterate the</line>
     <line>memory of the scenes in Ireland and never</line>
@@ -41,18 +45,27 @@
     <line>of my friends would entirely restore me to</line>
     <line>my former health &#x26; vivacity.</line>
     <milestone unit="tei:p"/>
-    <line>We arrived at Havre on the 8<hi rend="underline"><hi rend="sup">th</hi></hi></line>
-    <line>of <del rend="strikethrough">February</del>
-      <add place="superlinear">May</add> &#x26; instantly proceeded to Paris</line>
+    <line rend="indent2">We arrived at Havre on the 8<hi rend="underline"><hi rend="sup"
+        >th</hi></hi></line>
+    <line>of <mod>
+        <del rend="strikethrough">February</del>
+        <add place="superlinear">May</add>
+      </mod> &#x26; instantly proceeded to Paris</line>
     <line>where my father had some business</line>
-    <line>which detained <add place="sublinear">&#x2038;</add><add place="superlinear" hand="#pbs"
-      >us</add> a few weeks. <del rend="strikethrough">I I rermain</del></line>
-    <line><del rend="strikethrough">ed with him</del> In this city I received the</line>
+    <line>which detained <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">us</add>
+      </mod> a few weeks. <del rend="strikethrough">I I rermain</del></line>
+    <line><del rend="unmarked">ed</del>
+      <del rend="strikethrough">with</del>
+      <del rend="strikethrough">him.</del> In this city I received the</line>
     <line>following letter from Elizabeth:</line>
-    <milestone unit="tei:div" spanTo="#c57-0134.02"/>
-    <milestone unit="tei:p"/><line>To Victor Frankenstein</line>
-    <milestone unit="tei:date" spanTo="#c57-0134.03"/><line><add place="superlinear">May</add>
-      <del rend="strikethrough">Feb.</del> 18&#x2013; 17&#x2014;</line><anchor xml:id="c57-0134.03"/>
-    <milestone unit="tei:salute" spanTo="#c57-0134.04"/><line>My dearest Friend.</line><anchor xml:id="c57-0134.04"/>
+    <milestone unit="tei:p"/>
+    <line rend="center">To Victor Fankenstein</line>
+    <line rend="indent5"><mod>
+        <add place="superlinear">May</add>
+        <del rend="strikethrough">Feb.</del>
+      </mod> 1<damage type="inkblot">8</damage> &#x2013; 17&#x2014;</line>
+    <line>My dearest Friend.</line>
   </zone>
 </surface>
