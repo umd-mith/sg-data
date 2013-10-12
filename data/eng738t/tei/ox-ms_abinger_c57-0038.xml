@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">63</zone>
   <zone type="main">
     <line>effect <del rend="strikethrough">that</del>
-      <add place="superlinear" resp="#pbs">of</add> these books <mod>
+      <add place="superlinear" hand="#pbs">of</add> these books <mod>
         <del rend="strikethrough">had upon me</del>
         <add place="superlinear"><unclear reason="illegible" precision="low"
           >produced</unclear></add>
@@ -25,26 +25,26 @@
     <line><add><ptr target="#c57-0038.02"/></add> to me <mod>
       <del rend="strikethrough">hitherto</del>
       <del rend="strikethrough">dark</del>
-      <add place="superlinear" resp="#pbs">obsure</add>
+      <add place="superlinear" hand="#pbs">obsure</add>
     </mod> subects that I found <mod type="additions">
       <add place="sublinear">&#x2038;</add>
       <add place="superlinear">in</add>
     </mod> it</line>
-    <line>a never end source of speculation <add resp="#pbs" place="superlinear">&amp;
+    <line>a never end source of speculation <add hand="#pbs" place="superlinear">&amp;
       astonishment</add>. The</line>
     <line>gentle and domestic manners it described com</line>
-    <line>bined with lofty sentiments, and feelings <mod type="additions" resp="#pbs">
+    <line>bined with lofty sentiments, and feelings <mod type="additions" hand="#pbs">
       <add place="sublinear">&#x2038;</add>
       <add place="superlinear">which had for their object</add>
       <add place="sublinear">something out of self</add>
     </mod> accor</line>
     <line>ded well with my experience among my pro</line>
-    <line>tectors <mod type="additions" resp="#pbs">
+    <line>tectors <mod type="additions" hand="#pbs">
       <add place="sublinear">&#x2038;</add>
       <add place="superlinear">and with the wants which were for ever alive within my own
         bosom</add>
     </mod>. But I thought Werter himself a more</line>
-    <line>divine being than I had ever beheld <mod type="additions" resp="#pbs">
+    <line>divine being than I had ever beheld <mod type="additions" hand="#pbs">
       <del rend="overwritten"><unclear precision="low" reason="illegible">.</unclear></del>
       <add place="intralinear">&#x2038;</add>
       <add place="superlinear">or imagined.</add>
@@ -54,19 +54,19 @@
     <line>and suicide <del rend="strikethrough">gave</del> were calculated to fill me </line>
     <line>with <mod>
       <del rend="strikethrough">astonishment</del>
-      <add resp="#pbs" place="superlinear"><del rend="smear"><unclear precision="low"
+      <add hand="#pbs" place="superlinear"><del rend="smear"><unclear precision="low"
         reason="illegible">&amp;</unclear></del> wonder</add>
     </mod> — I did not pretend to</line>
     <line>enter into the merits of the case yet I</line>
     <line>inclined towards the opinion of the Hero</line>
     <line>whose extinction I wept <mod xml:id="c57-0038.03" next="#c57-0038.04">
       <del rend="strikethrough">although I did</del>
-      <add place="superlinear" resp="#pbs"  >without</add>
+      <add place="superlinear" hand="#pbs"  >without</add>
     </mod></line>
     <line><mod prev="#c57-0038.03" xml:id="c57-0038.04">
       <del rend="strikethrough">not</del>
       <add><ptr target="#c57-0038.05"/></add>
-    </mod> understand<add place="intralinear" resp="#pbs">ing</add> it. As I read however I</line>
+    </mod> understand<add place="intralinear" hand="#pbs">ing</add> it. As I read however I</line>
     <line>applied much <mod type="additions">
       <add place="sublinear">&#x2038;</add>
       <add place="superlinear">personally</add>
@@ -106,7 +106,7 @@
     </mod> been</add></line>
   </zone>
   <zone type="left_margin">
-    <line><add resp="#pbs" xml:id="c57-0038.05">precisely</add></line>
+    <line><add hand="#pbs" xml:id="c57-0038.05">precisely</add></line>
   </zone>
   <zone type="left_margin">
     <line><add xml:id="c57-0038.06">at the same <add place="sublinear">&#x2038;</add><add
