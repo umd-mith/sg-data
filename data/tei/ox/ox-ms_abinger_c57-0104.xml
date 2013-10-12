@@ -9,7 +9,10 @@
     <line><mod>
         <del rend="strikethrough">selfishness</del>
         <anchor xml:id="c57-0104.01"/>
-      </mod> of my promise burst upon me;</line>
+      </mod> of my promise burst upo<mod>
+        <del rend="overwritten">m</del>
+        <add place="intralinear">n</add>
+      </mod> me;</line>
     <line>I shud<del rend="strikethrough">d</del>ered to think that future ages might</line>
     <line>curse me as their pest whose <restore type="smear_strikethrough"><del rend="strikethrough"
           >selfishness</del></restore></line>
@@ -67,7 +70,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">I left the room &amp; locking the door</line>
     <line>made a vow in my own heart never</line>
-    <line>to resume my labours; &amp; then with trem</line>
+    <line>to resume my labou<retrace cause="clarify">rs</retrace>; &amp; then with trem</line>
     <line>bling steps I sought my own appartment</line>
     <line>I <del rend="strikethrough">a</del> was alone. <del rend="strikethrough"><unclear
           reason="illegible">n</unclear></del> None were near me to</line>
