@@ -50,7 +50,7 @@
     <line>sioned by this letter or any other</line>
     <line>exertion of mine I shall need no</line>
     <line>other happiness&#x2013; Your affectionate friend</line>
-    <line><space unit="chars" extent="16"/>Elizabeth Lavenza.</line>
+    <line rend="right">Elizabeth Lavenza.</line>
     <line>Geneva</line>
   </zone>
 </surface>
