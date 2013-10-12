@@ -9,7 +9,7 @@
   <zone type="library">68</zone>
   <zone type="main">
     <line>It gave me the greatest pleasure to</line>
-    <line>receive a letter from my Uncle dated at</line><!--"Uncle" could be "uncle"-->
+    <line>receive a letter from my <unclear reason="case">U</unclear>ncle dated at</line>
     <line>Paris. You are no longer at a formi<mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">d</add>
