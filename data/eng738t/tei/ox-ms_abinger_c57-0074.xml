@@ -6,7 +6,7 @@
   partOf="#ox-ms_abinger_c57-0074" xml:id="ox-ms_abinger_c57-0074" ulx="0" uly="0" lrx="5138"
   lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0074.tif"/>
-  <zone type="pagination">
+  <zone type="pagination" rend="bordered">
     <line>98</line>
   </zone>
   <zone type="top">
@@ -20,11 +20,11 @@
     <line>I <mod>
         <del rend="strikethrough">could not</del>
         <add place="superlinear" hand="#pbs">I was unable to</add>
-      </mod> overcome my repugnance <add place="superlinear" hand="#pbs">to the task</add>
-      <mod type="additions">
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear"><!--intentionally points to c57-0075 - see scholar's notes for this and succeeding page in transcription--><ptr target="#c57-0075.01"/><metamark>X 1</metamark></add>
-      </mod></line>
+      </mod> overcome my repugnance <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">to the task</add>
+      </mod>. <add place="intralinear"><metamark function="displacement" xml:id="c57-0074.01"><hi
+            rend="sup">X</hi>1</metamark></add></line>
     <line>My health <del rend="strikethrough">also</del> which had hitherto declined</line>
     <line>was now much restored, &amp; my spirits when</line>
     <line>unchecked by the memory of my unhappy</line>
@@ -33,54 +33,61 @@
         <add place="intralinear">ti</add>
       </mod>onably. My father</line>
     <line>saw this with pleasure and he turned his</line>
-    <line>thoughts towards the best method of</line>
-    <line>eradicating the remains of my melancholy &#x2014;</line>
+    <line>thoughts towards the best me<mod>
+        <del rend="overwritten"><unclear unit="chars" extent="1"/></del>
+        <add place="intralinear">t</add>
+      </mod>hod of</line>
+    <line>eradicating the remains of my melancholy&#x2013;</line>
     <line>which every now and then would return</line>
     <line>by fits &amp; with a devouring blackness over</line>
     <line>cast the approaching <mod>
         <del rend="strikethrough">day</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">sunshine</add>
       </mod>. At these</line>
     <line>moments I took refuge in the most</line>
     <line>perfect solitude: <del rend="strikethrough">&amp; my deli</del>
       <del rend="strikethrough">I used to</del>
-      <metamark xml:id="c57-0074.01" rend="transposition" spanTo="#c57-0074.02"
-        >Alone<!--lines drawn to <ptr/> location below to indicate transposition--></metamark></line>
-    <line>in a little boat I passed whole days on</line>
-    <line>the lake watching<metamark xml:id="c57-0074.02"><add><ptr target="#c57-0074.01"
-        /></add></metamark> the clouds &amp; <mod type="additions" hand="#pbs">
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear">listening to</add>
+      <milestone unit="tei:seg" spanTo="#c57-0074.02" xml:id="c57-0074.03"/>Alone</line>
+    <line>in a little boat<anchor xml:id="c57-0074.02"/>
+      <milestone unit="tei:seg" spanTo="#c57-0074.04" xml:id="c57-0074.05"/>I passed whole days
+      on</line>
+    <line>the lake<anchor xml:id="c57-0074.04"/><listTranspose>
+        <transpose>
+          <ptr target="#c57-0074.05"/>
+          <ptr target="#c57-0074.03"/>
+        </transpose>
+      </listTranspose> watching the clouds &amp; <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">listening to</add>
       </mod> the ripp<mod>
         <del rend="overwritten">les</del>
-        <add place="intralinear">ling</add>
+        <add place="intralinear" hand="#pbs">ling</add>
       </mod></line>
     <line>of the waves, silent &amp; listless. But the fresh</line>
     <line>air and bright sun seldom failed <add place="intralinear" hand="#pbs">to</add></line>
-    <line>restore me to some degree of compo&#x2014;</line>
-    <line>sure &amp; <del rend="triple-strike">I</del> on my return I met the</line>
+    <line>restore me to some degree of compo-</line>
+    <line>sure &amp; <del rend="strikethrough">I</del> on my return I met the</line>
     <line><del rend="strikethough">smi</del> salutations of my friends with a</line>
-    <line>readier smile, &amp; <!--hand is unclear--><unclear reason="ambiguous-hand"
-        precision="medium"><mod type="additions" hand="#pbs">
-          <add place="sublinear">&#x2038;</add>
-          <add place="superlinear">a</add>
-        </mod></unclear> more cheerful heart</line>
+    <line>readier smile, &amp; <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">a</add>
+      </mod> more cheerful heart</line>
     <milestone unit="tei:p"/>
-    <line>It was after my return from one</line>
+    <line rend="indent2">It was after my return from one</line>
     <line>of the<add place="intralinear">se</add> rambles that my father calling</line>
-    <line>me aside thus a<mod type="additions">
-        <add place="sublinear">&#x2038;</add>
+    <line>me aside thus a<mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">d</add>
       </mod>dressed me.</line>
     <milestone unit="tei:p"/>
-    <line>I am happy to remark, my dear</line>
+    <line rend="indent2">I am happy to remark, my dear</line>
     <line>son, that <del rend="strikethrough">lately</del> you have <del rend="strikethrough"
-        >acqu</del></line>
+        instant="true">acqu</del></line>
     <line>resumed your former pleasures &amp; seem</line>
     <line>to be returning to yourself. And yet</line>
-    <line><del rend="tetra-strike"><unclear reason="illegible" precision="low">so</unclear></del>
-      you are still unhappy &amp; still avoid</line>
+    <line><del rend="strikethrough"><unclear reason="illegible">so</unclear></del> you are still
+      unhappy &amp; still avoid</line>
     <line>our society. <del rend="strikethrough">When I consider</del> For some time</line>
   </zone>
 </surface>
