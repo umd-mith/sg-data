@@ -12,15 +12,19 @@
     <line>when they saw the mediterranean from the hills</line>
     <line>of Asia and hailed with rapture the boundary of</line>
     <line>their toils &#x2013; I did not weep but I knelt down &amp; thanked</line>
-    <line>my <del rend="strikethrough">guardian</del> guiding spirit with a full heart</line>
+    <line>my <del rend="strikethrough" instant="true">guardian</del> guiding spirit with a full
+      heart</line>
     <line>for conducting me safety towards the place where</line>
     <line>I hoped notwithstanding my adversarys threat to</line>
-    <line>meet &amp; grapple with him &#x2014; <del rend="strikethrough">For</del> some weeks before </line>
+    <line>meet &amp; grapple with him &#x2014; <del rend="strikethrough">For</del> some weeks
+      before</line>
     <line><anchor xml:id="c57-0163.01"/>I had procured a sledge &amp; dogs and thus traversed</line>
     <line>the snows with inconceivable speed I know not</line>
     <line>whether the fiend possessed the same advantages</line>
-    <line>but I found that as before I had <mod><metamark place="sublinear" function="insert">&#x2038;</metamark><add
-        place="superlinear">daily</add></mod> lost in the</line>
+    <line>but I found that as before I had <mod>
+        <metamark place="sublinear" function="insert">&#x2038;</metamark>
+        <add place="superlinear">daily</add>
+      </mod> lost <del rend="strikethrough">in</del> the</line>
     <line>advantage in my persuit I now gained on him</line>
     <line>so much that when I for the first time</line>
     <line>saw the occean&#x2013; he was but one days journey</line>
@@ -28,45 +32,59 @@
     <line>With new courage therefore I pressed on &amp; in</line>
     <line>two days arrived at a wretched hamlet on</line>
     <line>the sea shore. I enquired concerning the fiend</line>
-    <line>&amp; gained every information &#x2013; A gigantic <del rend="strikethrough">devil</del></line>
-    <line><anchor xml:id="c57-0163.02"/>they said had arrived the night before &#x2013;Armed</line>
-    <line>with a gun and many pistols &amp; putting <mod><metamark place="sublinear" function="insert"
-        >&#x2038;</metamark><add place="superlinear">to flight</add></mod> the inha</line>
+    <line>&amp; gained every information &#x2013;A gigantic <mod spanTo="#c57-0163.06"/><del
+        rend="strikethrough">devil</del></line>
+    <line><anchor xml:id="c57-0163.03"/><anchor xml:id="c57-0163.06"/>they said had arrived the
+      night before &#x2013;Armed</line>
+    <line>with a gun and many pistols &amp; putting <mod>
+        <metamark place="sublinear" function="insert">&#x2038;</metamark>
+        <add place="superlinear">to flight</add>
+      </mod> the inha</line>
     <line>bitants of a solitary cottage <del rend="strikethrough">to flight</del> through</line>
-    <line>fear of his <del rend="strikethrough">horr</del> terrific appearance, <add
-        place="superlinear">he</add>had</line>
-    <line><mod><del rend="strikethrough">seized on</del><anchor xml:id="c57-0163.03"/></mod> their store
-      of <del rend="strikethrough">wn</del> winter food</line>
+    <line>fear of his <del rend="strikethrough" instant="true">horr</del> terrific appearance, <add
+        place="superlinear" hand="#pbs">he</add> had</line>
+    <line><mod>
+        <del rend="strikethrough">seized on</del>
+        <anchor xml:id="c57-0163.04"/>
+      </mod> their store of <del rend="strikethrough">wn</del> winter food</line>
     <line>&amp; placing it in a sledge to draw which he</line>
-    <line><mod><del rend="strikethrough">had</del><add place="superlinear">had</add></mod> seized on a numerous
-      drove of trained</line>
-    <line>dogs &#x2013; he had harnessed&#x2013;<mod><metamark place="sublinear" function="insert">&#x2038;</metamark><add
-        place="superlinear">them</add></mod> &amp; the same night</line>
-    <line><del rend="smear">had</del> to the <del rend="strikethrough">d</del> joy of the horror
-      struck villagers</line>
-    <line><anchor xml:id="c57-0163.04"/>pursued his journey across the the sea</line>
+    <line><mod>
+        <del rend="strikethrough">had</del>
+        <add place="superlinear" hand="#pbs">had</add>
+      </mod> seized on a numerous drove of trained</line>
+    <line>dogs &#x2013; he had harnessed<mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">them</add>
+      </mod>&#x2013; &amp; the same night</line>
+    <line><del rend="strikethrough">had</del> to the <del rend="strikethrough">d</del> joy of the
+      horror struck villagers</line>
+    <line><anchor xml:id="c57-0163.05"/>pursued his journey across the <del rend="strikethrough"
+        >the</del> sea</line>
     <line>in a direction that led to no land &amp; they</line>
     <line>conjectured that he must be speedily destroyed</line>
     <line>in the breaking of the ice or frozen by the</line>
     <line>eternal frost.&#x2013;</line>
     <milestone unit="tei:p"/>
-    <line><space/>On hearing this information I suffered a tem</line>
+    <line rend="indent1">On hearing this information I suffered a tem</line>
   </zone>
 
   <zone type="left_margin" corresp="#c57-0163.01">
-    <line><add>this period </add></line>
-    </zone>
-    
-  <zone type="left_margin" corresp="#c57-0163.02">
-  <line><add>monster </add></line>
-    </zone>
-  
-  <zone type="left_margin" corresp="#c57-0163.03">  
-  <line><add>carried off</add></line>
-    </zone>
+    <addSpan spanTo="#c57-0163.02" hand="#pbs"/>
+    <line>this</line>
+    <line>period </line>
+    <anchor xml:id="c57-0163.02"/>
+  </zone>
+
+  <zone type="left_margin" corresp="#c57-0163.03">
+    <line><add hand="#pbs">monster </add></line>
+  </zone>
+
   <zone type="left_margin" corresp="#c57-0163.04">
-    <line><add>had </add></line>
-    </zone>
-    
- 
+    <line><add hand="#pbs">carried off</add></line>
+  </zone>
+  <zone type="left_margin" corresp="#c57-0163.05">
+    <line><add hand="#pbs">had </add></line>
+  </zone>
+
+
 </surface>
