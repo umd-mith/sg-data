@@ -5,5 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0188" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0188.tif"/>
-  <zone> </zone>
+  <zone type="main">
+  <!--BLANK PAGE -->
+  </zone>
 </surface>
