@@ -16,7 +16,7 @@
     <line>and my mother partook of our</line>
     <line>enjoyments. <mod>
         <del rend="strikethrough">we were all equal</del>
-        <add><ptr target="#c56-0016.01"/></add>
+        <anchor xml:id="c56-0016.01"/>
       </mod> the</line>
     <line>voice of command was never heard</line>
     <line>among us but mutual affection</line>
@@ -25,7 +25,8 @@
     <line>obey the slightest desire of each</line>
     <line>other.</line>
   </zone>
-  <zone type="left_margin"><addSpan xml:id="c56-0016.01" spanTo="#c56-0016.02"/>
+  <zone type="left_margin" corresp="#c56-0016.01">
+    <addSpan spanTo="#c56-0016.02"/>
     <line><mod>
         <del rend="strikethrough">we none</del>
         <add place="superlinear">neither</add>
