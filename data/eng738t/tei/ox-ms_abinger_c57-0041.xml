@@ -7,99 +7,119 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0041.tif"/>
   <zone type="pagination" rend="bordered">66</zone>
   <zone type="library"><line>21</line></zone>
+
   <zone type="main">
-    <line>covered some papers in one of the</line>
-    <line>pockets of the dress <mod>
+    <line>covered some papers in <del rend="strikethrough">one of</del> the</line>
+    <line>pocket<del rend="strikethrough">s</del> of the dress <mod>
         <del rend="strikethrough">that</del>
-        <add place="superlinear" resp="#pbs">which</add>
+        <add place="superlinear" hand="#pbs">which</add>
       </mod> I had taken</line>
     <line>from your study. <mod>
         <del rend="overwritten">I</del>
         <add place="intralinear">At</add>
-        <del rend="strikethrough">had</del>
-      </mod> first <mod>
+      </mod>
+      <del rend="strikethrough">had</del> first <mod>
         <add place="superlinear">I</add>
-        <add place="superlinear" resp="#pbs">had</add>
+        <add place="superlinear" hand="#pbs"> had</add>
+      </mod>
+      <mod>
         <del rend="strikethrough">despised</del>
+        <anchor xml:id="c57-0041.01"/>
       </mod></line>
-    <line><add><ptr target="#c57-0041.01"/></add> them but now that I was able to decypher</line>
+    <line>them but now that I was able to decypher</line>
     <line><mod>
         <del rend="strikethrough">them</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">the characters in which they were written</add>
       </mod> I began to <del rend="strikethrough">decypher</del> study them</line>
     <line>with diligence. It was your journal of</line>
-    <line>the four <del rend="double-strike">la</del> months that preceeded</line>
-    <line>my creation. <del rend="strikethrough"><add place="superlinear">In</add> It</del> you
-      minutely des</line>
-    <line>cribed <add place="sublinear">&#x2038;</add><add place="superlinear">in <del
-          rend="strikethrough">it</del>
-        <add place="intralinear" resp="#pbs">these papers</add></add> every step you took in
-      the</line>
-    <line>progress of your work; <del rend="strikethrough">and</del> this <add place="superlinear"
-        resp="#pbs">history</add> was</line>
+    <line>the four <del rend="strikethrough">la</del> months that preceeded</line>
+    <line>my creation. <mod>
+        <del rend="strikethrough">It</del>
+        <del rend="strikethrough"><add place="superlinear">In</add></del>
+      </mod> you minutely des</line>
+    <line>cribed <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">in <del rend="strikethrough">it</del><add place="intralinear"
+            hand="#pbs"> these papers</add></add>
+      </mod> every step you took in the</line>
+    <line>progress of your work; <del rend="strikethrough">and</del> this <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear" hand="#pbs">history</add>
+      </mod> was</line>
     <line>mingled with accounts of domestic</line>
-    <line>occurences. You doubtless <del rend="scribble">well</del> recollect</line>
-    <line>these papers &#x2014; He<add place="intralinear">re</add> they are &#x2014; Every</line>
+    <line>occurences. You doubtless <del rend="strikethrough">well</del> recollect</line>
+    <line>these papers&#x2013; He<add place="intralinear">re</add> they are &#x2013; Every</line>
     <line>thing is <mod>
         <del rend="strikethrough">told</del>
         <add place="superlinear">related</add>
       </mod>
-      <del rend="double-strike"><unclear precision="low" unit="chars" extent="1" reason="illegible"
-          >i</unclear></del> in them <del rend="tetra-strike">&amp;</del>
-      <del rend="strikethrough">every</del><add><ptr target="#c57-0041.02"/></add>
-      <add place="superlinear" resp="#pbs">the whole detail of that</add>
+      <del rend="strikethrough"><unclear reason="illegible" unit="chars" extent="1"/>i</del> in
+        them<add place="sublinear"><metamark function="displacement" xml:id="c57-0041.02"
+          >&#x2038;</metamark></add>
+      <mod spanTo="#c57-0041.04"/><del rend="strikethrough">&amp; every</del><add
+        place="superlinear" hand="#pbs">the whole detail of that</add>
       <del rend="unmarked">disgus</del></line>
     <line><del rend="strikethrough">ting</del>
-      <del rend="strikethrough">circumstance</del><add resp="#pbs" place="superlinear">series of
-          <del rend="strikethrough">horrors</del><add place="superlinear">disgusting</add>
-        circumstances which produced</add> it is set in view;</line>
-    <line>the minutest description <add place="superlinear"><del rend="strikethrough">is
-        given</del></add> of my</line>
-    <line>odious &amp; loathsome person <mod type="additions">
-        <add resp="#pbs" place="superlinear">is</add>
-        <add><metamark/><ptr target="#c57-0041.04"/></add>
-      </mod>. I</line>
-    <line>sickened as I read &#x2014; <del rend="strikethrough">the papers</del>. <del
-        rend="double-strike">One</del></line>
+      <del rend="strikethrough">circumstance</del><add hand="#pbs" place="superlinear">series of <mod>
+          <del rend="strikethrough">horrors</del>
+          <add place="superlinear" hand="#pbs">disgusting</add>
+        </mod> circumstances <add place="sublinear" hand="#pbs">which produced it</add></add><anchor
+        xml:id="c57-0041.04"/> is set in view;</line>
+    <line>the minutest description <del rend="strikethrough"><add place="superlinear">is
+        given</add></del> of my</line>
+    <line>odious &amp; loathsome person.<add hand="#pbs" place="superlinear"> is <metamark
+          function="displacement" xml:id="c57-0041.05">X</metamark></add>. I</line>
+    <line>sickened as I read &#x2013; <del rend="strikethrough">the papers.</del>
+      <del rend="strikethrough">One</del></line>
     <line>Hateful day when I received life, I</line>
-    <line>exclaimed in agony &#x2014; Cursed Creator</line>
+    <line>exclaimed in agony&#x2014; Cursed <mod>
+        <del rend="overwritten">c</del>
+        <add place="intralinear">C</add>
+      </mod>reator</line>
     <line>Why did you form a monster</line>
     <line>so hideous that even you turned</line>
     <line>from me in disgust. God in pity made</line>
-    <line>man beautiful &amp; alluring &#x2014; I am</line>
+    <line>man beautiful &amp; alluring &#x2013; I am</line>
     <line>more hateful to the sight than</line>
     <line>the bitter apples of Hell to the taste</line>
     <line>Satan has his companions, fellow</line>
     <line>devils, to admire and encourage</line>
     <line>him. but I am solitary &amp; detested</line>
     <milestone unit="tei:p"/>
-    <line><mod>
+    <line rend="indent1"><mod>
         <del rend="strikethrough">Such</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">These</add>
       </mod> were my reflections in my</line>
-    <line>hours of despondency &amp; solitude but</line>
+    <line>hours of despond<mod>
+        <del rend="overwritten"><unclear reason="illegible">a</unclear></del>
+        <add place="intralinear">e</add>
+      </mod>ncy &amp; solitude but</line>
     <line>when I contemplated the virtues of</line>
+    <line>the cottagers. Their amiable &amp; benevolent</line>
   </zone>
-  <zone type="left_margin">
-    <line>neglected<anchor xml:id="c57-0041.01"/></line>
+
+  <zone type="left_margin" corresp="#c57-0041.01">
+    <line><add>neglected</add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c57-0041.02" spanTo="#c57-0041.05" resp="#pbs"/>
-    <line><mod type="additions">
-        <add place="sublinear">&#x2038;</add>
-        <add place="superlinear">which bears</add>
-      </mod> reference to</line>
+
+  <zone type="left_margin" corresp="#c57-0041.02">
+    <addSpan spanTo="#c57-0041.03" hand="#pbs"/>
+    <line>
+      <add place="sublinear"><metamark function="displacement">&#x2038;</metamark></add>which
+      bears</line>
+    <line>reference to</line>
     <line>my accursed ori</line>
-    <line>-gin</line>
-    <anchor xml:id="c57-0041.05"/>
+    <line>-gin.</line>
+    <anchor xml:id="c57-0041.03"/>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c57-0041.04" spanTo="#c57-0041.06"/>
-    <line><metamark/>given in language</line>
+
+  <zone type="left_margin" corresp="#c57-0041.05">
+    <addSpan hand="#pbs" spanTo="#c57-0041.06"/>
+    <line><metamark function="displacement">X</metamark>given in language</line>
     <line>which painted your</line>
-    <line>own horrors, &amp; <delSpan spanTo="#c57-0041.07"/>has</line>
+    <line>own horrors, &amp; <delSpan rend="strikethrough" spanTo="#c57-0041.07"/>has</line>
     <line>traced<anchor xml:id="c57-0041.07"/>
       <del rend="strikethrough">conveyed them to</del></line>
     <line>has rendered mine</line>
