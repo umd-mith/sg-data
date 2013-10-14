@@ -197,33 +197,7 @@ immediately to that Chronology in preparation for reading The
 
 ## Using This Edition of The *Frankenstein* Notebooks
 
-This edition of The *Frankenstein* Notebooks partakes of the
-characteristics of a diplomatic edition, that is, one that "doubles" or
-reproduces another text (whether printed or manuscript) with a fidelity
-that respects the original's spelling, punctuation, lineation, and other
-particulars so that the reader can re-experience, albeit in a different
-representational form, the original text. More precisely stated,
-however, this edition is made up of three separate editions: (1) a
-*photofacsimile* of the manuscript; (2) a *type facsimile* that
-replicates the manuscript (page by page, line by line, word by word);
-and (3) a "*diplomatic*"*or literal transcript* of the *1818* first
-edition that is printed in tandem with the type facsimile of the
-manuscript, providing the reader parallel texts by which the creative
-process may be studied. This combination of three editions[^7] was made
-possible by three fortuitous circumstances: a Garland policy (worked out
-in collaboration with Donald H. Reiman and the Bodleian Library) to
-reproduce in photofacsimile all extant manuscript pages, each of which
-would be faced by a type facsimile; a set of *Frankenstein* manuscripts
-in which MWS managed to write fewer than ten words in each line; and a
-pre-determined Garland 9x12 inch format that could accommodate the
-manuscript
-text together with the *1818* text and extensive notes on each
-transcription page. Consequently, facing pages in this edition will
-allow the reader to see the manuscript photofacsimile on a verso that is
-faced by a recto containing not only the type facsimile of the
-manuscript but also a literal transcript *of 1818 as* well as a textual
-apparatus in the form of footnotes, all of which discrete yet
-interrelated parts are described in greater detail below.
+<div class="centered">\* \* \* \* \*</div>
 
 ### Manuscript Photofacsimile Pages (versos)
 
@@ -247,25 +221,7 @@ this edition, in effect substituting for the more typical
 photofacsimile/ transcription opening.)
 
 Headers
-:   The headers at the top of each manuscript photofacsimile
-    page identify the manuscript of *Frankenstein* by reference to the
-    Bodleian shelfmark (Deposit number) and the folio number (whether verso
-    or recto), and this physical place in the manuscript is then equaled to
-    the conceptual place in the novel (whether Draft or Fair Copy; whether
-    Notebook A or B or C1 or C2): for example, **Dep. c. 534/1, folio 37
-    verso=Draft: Vol. II, Ch. 10, page 98 [Notebook B]** means that this
-    manuscript page may be found in the Bodleian Library, in Dep. c. 534/1,
-    on folio 37 verso, a point in the *1816--17* Draft of a two-volume novel
-    that MWS had designated Volume II, Chapter 10, page 98. (It should be
-    remarked here that Notebooks A and B do not correspond exactly to
-    Volumes I and II of the Draft and that neither of these divisions
-    corresponds exactly with Dep. c. 477/1 and 534/1.)
-
-    All readers are encouraged to use the header at the top of each
-    photofacsimile page together with the header at the top of each
-    transcription page (for which, see below) as a guide to just where they
-    are in no less than five "places," the most important of which is the
-    novel MWS conceived and drafted in 1816--17. The diagram below may
+:   The diagram below may
     simplify what is a set of very complicated relationships, but I ask the
     reader's patience to consider first that the two physical Notebooks A
     and B are paginated not as notebooks but as a two-volume novel.
@@ -280,14 +236,8 @@ Headers
     right-hand page.) Complicating this matter further is that the division
     between the two Bodleian deposits of The *Frankenstein* Notebooks in
     1974 and 1976 comes close to but does not quite equal the division
-    between Volumes I and II of the Draft novel: the reader will encounter
-    one photofacsimile with the header "*266* **Dep. c. 477/1, folio 62
-    verso=Draft: Vol. I, Ch. 14, page 160 [Notebook A]**" that is followed
-    by the next photofacsimile with the header "*268* **Dep. c. 534/1, folio
-    1 recto=Draft: Vol. I, Ch. 14, page 161 [Notebook A]**," thereby showing
-    that Lord Abinger's two Bodleian deposits not only divide parts of one
-    notebook but also divide parts of one volume of a novel that MWS had
-    paginated successively. Put simply, the Abinger and Bodleian division of
+    between Volumes I and II of the Draft novel. \* \* \* \* \*
+    Put simply, the Abinger and Bodleian division of
     Dep. c. 477/1 and Dep. c. 534/1 does not equal the physical division of
     Notebooks A and B, nor does either of these divisions quite equal MWS's
     conceptual division of Draft Volumes I and II. These divisions, yet
@@ -331,427 +281,13 @@ Notes
     page are positioned with all other textual notes at the bottom of each
     transcription page.
 
-### Transcription Pages (rectos)
-
-The recto pages contain not only the type facsimile of the manuscript
-text but also (line by line) a literal transcript of the *1818* text as
-well as a textual apparatus in the form of footnotes.
-
-Type Facsimile of the Manuscript
-:   This type facsimile of the
-    manuscript text was initially prepared from the high-resolution
-    black-and-white photographs, then checked twice (for a period of 4 weeks
-    in January/February 1995 and then for another week in September 1995)
-    against the original manuscripts in the Bodleian Library, and then read
-    aloud against the photographs in an attempt to represent accurately the
-    text of the original. The text of the type facsimile was formatted by
-    WordPerfect 6.0 for DOS, using "Tables" to create 2 or 3 columns and
-    using "Styles" to create different fonts by which to distinguish MWS's
-    hand from that of PBS and to represent other peculiarities of the
-    manuscript (for example, smear deletions and Bodleian foliation). At a
-    glance, the reader should be able to determine just what words and
-    suggestions PBS introduced into MWS's novel. These different fonts and
-    other conventions used in the type facsimile are as follows:
-
-    Cancel Lines
-    :   There are three means by which cancelations are
-        represented. Individual letters or words or phrases that then MWS and/or
-        PBS canceled by horizontal lines are represented by the strikeover
-        feature: e.g., word or word (in the latter case, the manuscript cancel
-        line did not pass through all of the letters of the word).[^8] Although I
-        did not graphically attempt to distinguish MWS from PBS horizontal
-        cancel lines, the surrounding words in most instances should make
-        possible the identification of who canceled what words: e.g., PBS
-        replacement words would indicate that he had just canceled the words to
-        be replaced. Footnotes are occasionally used to identify whether a
-        letter or word or phrase was canceled by either MWS or PBS.
-
-        Longer cancelations are much easier to distinguish. Ink and other
-        evidence prove that MWS always canceled with long vertical straight
-        lines (represented by a graphics line feature in WordPerfect), whereas
-        PBS always canceled longer sections of the manuscript with wavy lines
-        (represented by wavy ink lines that have been drawn on the transcript
-        page in an attempt to replicate the original manuscript.)[^9]
-
-    Carets
-    :   Although I did not graphically attempt to distinguish MWS
-        from PBS carets, the hand used for the
-        marginal or interlinear insertion in all (or most) instances would be
-        the hand that entered the caret. MWS used the caret more often than PBS
-        to signal an insertion: PBS would frequently write above a canceled word
-        without employing a caret, but in some of these cases MWS may have later
-        supplied a caret. For purposes of lineation in the type facsimile, the
-        caret (positioned in order to replicate the manuscript) is considered a
-        part of the line below which it appears.
-
-    Conjectural Readings
-    :   Curly brackets enclose words or letters in the
-        manuscript that are conjectural or indecipherable: e.g., {?word} or {?}.
-        Angle brackets enclose words or letters that have been cut or torn from
-        the manuscript but may be conjectured or otherwise deduced: e.g.,
-        \<?word\> or \<word\>.
-
-    Fonts
-    :   I have employed the following fonts in this type facsimile of
-        the manuscript:
-
-        <div class="unstyled-list">
-
-        + 10-point CG Times for MWS text (8.5-point CG Times for MWS interlinear
-          text)
-        + *10-point Garamond Halbfett Kursiv for PBS text (8.5-point Garamond
-          Halbfett Kursiv for interlinear PBS text)*[^10] 
-        + <span class="outline">outline</span> for smear deletions in either <span class="outline">MWS text</span> or <span class="outline">*PBS text*</span> (see, e.g.,
-          transcription pages 233 and 455) 
-        + `Courier-WP (Type 1) for all other hands
-          (e.g., compositors or Bodleian staff)`
-
-        </div>
-
-        Although there are many similarities between MWS's and PBS's hands,
-        there are enough differences (especially in their formation of the
-        letters "d," "f," "r," "w,"[^11] and "x") to make me confident that in
-        almost all cases I have properly distinguished their hands. Usually, the
-        very slant of an extended marginal passage or of an interlinear
-        correction made it fairly easy to identify the two hands. But in those
-        cases where I had to conjecture about a letter or a word or two that did
-        not have very distinguishing letters, I would consult with Bruce
-        Barker-Benfield in order to determine which hand was the more likely,
-        represent the word in the transcription by means of that font, and then
-        footnote the conjecture: e.g., a 60/40% likelihood that the "she" on
-        pages 182--183 (line 12) in this edition was MWS's meant that I employed
-        the MWS interlinear font and that the footnote for line 12 read "*?MWS*
-        she." In those cases where neither ink nor other evidence would make one
-        hand more likely than the other, the default was always to print the
-        word as MWS's and to footnote the representation as conjectural.
-
-    Incompletely Formed Terminal Letters
-    :   In cases where MWS (or PBS)
-        trailed off and did not quite finish the last letter of a word that was
-        purposely left incomplete or canceled, I have taken the liberty to
-        conjecture and print that letter as if it were completely formed in the
-        manuscript (see, e.g., pages 72--73 in this edition, line 31, where there
-        is enough of an incomplete "u" in the canceled word in manuscript to
-        warrant my transcription of "~~recou~~ recourse"---in this case, MWS
-        apparently trailed off because she was unsatisfied by the slightly
-        misformed "re" in her first attempt).
-
-    Ink/Pencil
-    :   All of the manuscript pages were written in ink, and
-        each of the few places where MWS, PBS, or an unidentified hand used
-        pencil is indicated in the footnotes. Sometimes MWS would trace over in
-        pen PBS's penciled words (see, e.g., pages 62--65, 292--293 in this
-        edition). It was probably MWS who penciled the ruled margin in Notebook
-        A (see "Rules," below), and the Bodleian foliation was done in pencil.
-
-    Line Numbers
-    :   Bracketed line numbers [set in 8-point CG Times]
-        respect all lines and interlineations except for below-the-line carets.
-
-    Other Conventions
-    :   I have attempted to reproduce the peculiarities
-        of the manuscript as far as WordPerfect would allow---see, e.g., page 335
-        for writing up a slope (using the "Advance" command) and page 601 for
-        writing vertically down a page (using Graphic Boxes).
-
-    Overlaying Letters and Words
-    :   In an attempt to make this type
-        facsimile an easily read text, I have not employed the convention of
-        arrows or carets in the transcription to indicate that one letter or
-        word overlays another. Rather, I have printed the overlaying letters or
-        words in the facsimile and relegated to the footnotes the letters and
-        words underneath that were replaced. (The presence of the manuscript
-        photofacsimile as a gloss and a check makes such a convention possible.)
-        Thus the reader will frequently
-        encounter in the footnotes entries like "18]*PBS* ing *overlays MWS* ed
-        *in* entreating" meaning that "entreating" is the word printed on line
-        18 in the type facsimile and that the manuscript photofacsimile should
-        reveal that MWS had first written "entreated" and that PBS later wrote
-        "*ing*" over MWS's "ed" (see transcription page 111, line 18, in this
-        edition for this example).
-
-    Rules
-    :   There are up to three rules on a transcription page. The
-        *single horizontal rule* is used to separate the footnotes from the type
-        facsimile and the literal transcript above. The *double vertical rule*
-        is used to separate the type facsimile from the literal transcript of
-        *1818.* The *single vertical rule* represents the penciled rule that MWS
-        made in Notebook A to create a left margin in which she and PBS could
-        emend the text. I have attempted to represent the position of the words
-        next to this rule as accurately as possible: I have right justified all
-        of the words to the left of that rule (except for the last line of a
-        passage if it is some distance from the rule [see, e.g., transcription
-        page 11, lines 19--41 in the margin, the "her own." in line 41 not right
-        justified]); and, where warranted and possible, I have represented words
-        that cross the marginal rule (see, e.g., transcription page 97, line 30
-        in the margin).
-
-    Shadowing of Page
-    :   Any partially shadowed transcription page
-        indicates that the page is repeated elsewhere (with different shadowing)
-        to accommodate and explain an insertion in the manuscript notebook: the
-        reader is advised to follow the narrative through the unshadowed
-        sections of these pages and to read about the circumstances of the
-        insertion in the shadowed sections (the first instances of this
-        repetition on pages 14--37 in this edition are somewhat complicated,
-        involving more than one insertion at a time; the reader is therefore
-        advised initially to consult simpler forms of this repetition, e.g., on
-        pages 416--421 in this edition).
-
-Literal Transcript of *1818*
-:   The text of *1818 is* based on (and
-    was read aloud against) the copy in the University of Delaware Library,
-    and where there were printing errors it was checked against other
-    copies; in one place, the word "Then" and an adjacent comma, both of
-    which had dropped from the Delaware and some other copies of *1818*,
-    were restored to the text (see transcription page 283 in this edition).
-    In all, I have consulted fourteen additional copies of the *1818* first
-    edition: four copies at the Pierpont Morgan Library (one of which is
-    *1818 Thomas*), three copies at The Carl H. Pforzheimer Collection of
-    Shelley and His Circle at The New York Public Library, and one copy each
-    at the Bodleian Library (Oxford University), All Souls College (Oxford
-    University), Cambridge University Library, the Library of Congress, the
-    Newberry Library, the Beinecke Rare Book and Manuscript Library at Yale
-    University, and the library of one private collector.[^12] A selective
-    comparison of printing errors in all fifteen copies suggests that there
-    was only one stop-press correction in the 500 printed copies of the
-    first edition (affecting only a page number), and that may have occurred
-    very early in the pulling of revises (see line 21 and note on
-    transcription page 257 in this edition). There are, however, some
-    differences among the copies of *1818* as a result of the formes having
-    loosened or type having been broken during the printing process (see
-    "Emendations to and Anomalies in the *1818* Text" below). All such
-    variations as well as all printing errors and misspellings (but not
-    variant spellings) are pointed out in the textual notes, thereby
-    enabling me to produce an unemended literal transcript of *1818*, one
-    that duplicates the first edition (in its hypothetically reconstructed
-    complete state) as much as possible, although filtered through the
-    following conventions:
-
-    8.5-point CG Times
-    :   The base font of 8.5-point CG Times is used to
-        represent the text, but I also attempt to image print variations in
-        *1818* by using such things as initial display type (e.g., Word) for the
-        first word in each Chapter---as well as large and small Caps and even an
-        8-point font for portions of the letters Walton and others exchanged in
-        the narrative.
-
-    Lineation
-    :   The *1818* text parallels the manuscript text, line by
-        line, as much as space allows. When a manuscript word occupies the end
-        of one line and the beginning of another, the *1818* word is represented
-        on the first of these lines; when there are extensive revisions between
-        *1816--17* Draft and *1818* (whether evident in extant *1817* Fair Copy
-        or deducible as having taken place in now missing fair copy, proofs,
-        and/or revises), the *1818* text will have fewer or more words occupying
-        the available lines than is the case for
-        the *1816--17* Draft text. A quick visual comparison of these parallel
-        texts will show the places of major alteration between the Draft and
-        *1818*: see especially pages 449 and 459 in this edition for places
-        where MWS and/or PBS made extensive changes late in the proof stage; see
-        also the "*Frankenstein* Chronology" for 20 October, for [22] October,
-        and for 28 October 1817.
-
-        Where no manuscript is extant, the *1818* text is still reproduced
-        diplomatically but without reference to any manuscript. By including
-        these portions of *1818*, the reader can both "see" the proportion of
-        text missing from manuscript and have at hand a complete *1818* text to
-        compare with other texts.
-
-    Page Numbers
-    :   The page numbers in *1818* are in bold, bracketed and
-        placed in the literal transcript to show the **[number:]**beginning of a
-        page, even if the page breaks over a hyphenated word (see, e.g.,
-        transcription page 17 in this edition).
-
-    Dagger
-    :   A † follows any word, number, or punctuation mark in the
-        literal transcript of *1818* that is glossed in the footnotes, the note
-        being preceded by "**<span class="underline">1818</span> text:line number**]".
-
-    Paragraph Symbol
-    :   A *¶* is added in the transcript of *1818* to make
-        more evident the beginning of each paragraph (excepting the first
-        paragraph in each chapter that is signaled by a display word).
-
-    Double Quotation Marks
-    :   The ordinary double quotation marks in CG
-        Times (" ") are altered in the literal transcript to curved quotation
-        marks (“ ”) in an attempt to replicate those in *1818.*
-
-Headers
-:   The headers for each page locate the reader in the
-    manuscript text (whether *1816--17* Draft or *1817* Fair Copy) and in the
-    *1818* text. More important, the headers enable the reader to witness
-    the restructuring of a two-volume novel in Draft (through a three-volume
-    novel in Fair Copy, most of which has to be extrapolated from the other
-    evidence) into a three-volume first edition in *1818.* In the act of
-    fair copying her text, MWS actually changed the beginning and endings of
-    many chapters as she restructured her novel. That restructuring is made
-    evident in the headers for each transcription page: see, for example,
-    transcription page 69 where the beginning of **Draft: Vol. I, Ch. 5,
-    page 61** has become the beginning of **1818: Vol. I, Ch. III, pages
-    78--79**; or transcription page 473 where **Draft: Vol. II, Ch. 12, page
-    118** has been divided into **1818: Volume III, Chs. II-III, pages
-    38--40**. In this latter example, MWS's manuscript note to herself to
-    "Finish Chap. 2 here" directly shows how she restructured the two-volume
-    Draft into the three-volume Fair Copy. The reader should also note how
-    nearly identical the pagination is between the three-volume Fair Copy
-    and the three-volume *1818:* see, e.g., the header on transcription page
-    749 in this edition: **Fair Copy: Vol. III, Ch. VII, page 175 [=] 1818:
-    Vol. III, Ch. VII, pages 176--178**.
-
-Notes
-:   The format and the extent of the notes are in part determined
-    by the limitation of space, but footnotes rather than endnotes are used
-    in order to make all relevant information available on facing pages of
-    this edition. I have attempted to serve simultaneously, as much as
-    possible, the principles of clarity, economy, and consistency. The
-    different fonts used for MWS and PBS in the type facsimile of the
-    manuscript mean that I did not have to footnote each place PBS wrote in
-    the manuscript, but I do identify as PBS's any of his words or passages
-    that are discussed in the notes (e.g., "*PBS* ing *overlays MWS* ed *in*
-    examining").
-
-    MWS and PBS in Notes
-    :   Unless identified as PBS's (or someone
-        else's), all words or marks discussed in the footnotes are MWS's. Words
-        conjecturally printed as MWS's in the type facsimile are footnoted with
-        "?MWS"; those conjecturally printed as PBS's are footnoted with "?PBS."
-
-    Order of Notes
-    :   Each note, preceded by location (whether page
-        position or line number) and a closing bracket (both set in bold) is
-        arranged in the following order: **preceding page(s)]; entire page];
-        left edge]; top of page]; right edge]; bottom of page];
-        margin:sequential line number(s) from type facsimile]; sequential line
-        number(s) from type facsimile]; <span class="underline">1818</span> text: sequential line number(s)
-        from type facsimile]; following page(s)]**.
-
-    Phrasing and Types of Notes
-    :   Space dictated that notes be written in
-        the most economical form, where possible in a phrase rather than a
-        clause or a sentence. Distinctions are made between *top* and *upper*
-        (the former higher on the page), between *bottom* and *lower* (the
-        former lower on the page), between *above* and *below* (referring to
-        vertical positions on the page) and *over* and *under* (referring to
-        words, letters, or marks that overlay or underlay others), between
-        *miswritten* and *misformed* (the former usually referring to a
-        misspelled word; the latter, to a misshaped letter), between
-        *bleed-through* and *show-through* ink marks (both visible in the
-        photofacsimiles, but the latter visible without the ink having bled
-        through to the other side of the paper), and between *wet-offset* and
-        *dry-offset* ink marks (the former evidencing an ink mark resulting from
-        the closing of a still-wet inked page against another page; the latter,
-        from a chemical process that sometimes causes dry ink from one leaf to
-        "yellow" a facing leaf in a closed notebook). Economy has dictated such
-        non-parallel phrasings as "*misspelled* word" and "*variant spelling*
-        word" (in both cases "word" is the word as it appears in the manuscript,
-        and "variant spelling" covers a multitude of spellings that are
-        sanctioned in one form or another by the *OED*); the combined short and
-        long "s" has been termed the "*ligatured* ss". Among the other types of
-        notes are those addressing the condition of the paper (including such
-        matters as soiling, discoloration, torn edges, holes, glue residue), the
-        appearance of various marks (e.g., insert marks, carets, cancel lines),
-        and the formation of certain letters or words (e.g., uncrossed t's,
-        crossed l's, one letter or word overlaying another, and some initial
-        letters like "o" that could be either capital or lower case). For the
-        kinds of notes on the *1818* text, see "Emendations to and Anomalies in
-        the *1818* Text" below.
-
-    Typeface of Notes
-    :   *Location and bracket are in bold*; MWS as well
-        as PBS manuscript words are printed in roman; *and textual commentary is
-        in italic.* These conventions mean that the notes do not employ the font
-        distinctions between a PBS word and an MWS word that were used in the
-        type facsimile of the manuscript. Thus a word represented in the type
-        facsimile as "allow*ed*" (indicating that PBS had added "ed" to MWS's
-        "allow") would be described in the notes as "*PBS* ed *added**in*
-        allowed" (see also "MWS and PBS in Notes" above). The notes are in
-        8-point CG Times, and small caps are used for "mws" and "pbs."
-
-  Garland Page Numbers
-  :   Garland page numbers in this edition are in
-      italics, are positioned at the top left of a verso and the top right of
-      a recto, and are used as a means of reference (e.g., "see transcription
-      page 000 in this edition" or "see pages 000--000 in this edition").
-
-### Appendix A
-
-Appendix A prints in parallel form the texts of the *1816--17* Draft and
-of the extant *1817* Fair Copy, thereby showing how MWS refined her text
-in April/May 1817 as she prepared it for the publisher and the press.
-Because PBS undertook part of the fair copying (see pages 748--773 in
-this edition), these parallel texts in Appendix A provide the reader an
-opportunity to contrast the ways that MWS (see pages 780--810) and PBS
-(see pages 810--817) altered the Draft while transcribing the Fair Copy.
-
-### Appendix B
-
-Appendix B prints in parallel form the texts of a portion of the PBS
-Fair Copy and the extant MWS re-transcription of that portion, a
-re-transcription occasioned by one or both of two factors: a discovery
-that some of the PBS Fair-Copy text had been damaged when the pages were
-cut from the notebook; and/or a possible reluctance to submit to any
-publisher (but especially to PBS's publisher Charles Ollier) the Fair
-Copy with parts[^13] in PBS's distinctive hand, potentially revealing the
-identity of the anonymous author and "friend" whom PBS represented to
-the publishers.
-
-### Appendix C
-
-Appendix C reproduces the four photofacsimiles of MWS's Cyrus Fragment
-that accompanied the *Frankenstein* manuscripts when they were deposited
-in the Bodleian Library in 1974 and in 1976. These two leaves, which are
-foliated in Dep. c. 477/1 (folio 63) and 534/1 (folio 95), may have been
-linked to the *Frankenstein* manuscripts long before they came to the
-Bodleian.
-
-## Emendations to and Anomalies in the *1818* Text
-
-Incorporating the literal transcript *of 1818* into this edition has
-raised new questions about The *Frankenstein* Notebooks and their
-relations to the first edition. In answering some of these questions, I
-decided not to emend *1818* and instead to print a hypothetically
-reconstructed and uncorrected *1818* that would serve and be served by
-the Draft and Fair Copy. Seeing these texts in parallel columns enables
-the reader to understand part of the process by which the manuscript was
-transformed into a book and to discover possible printing errors, even
-though most of the Fair Copy that was used as printer's copy is now
-missing. For example, seeing the word "lurid" in the Draft
-photofacsimile and type facsimile and the word "livid" in *1818* (see
-pages 98--99 in this edition) leads to a strong suspicion that either MWS
-in the now missing Fair Copy or the compositor in the now missing proof
-mistakenly transformed the Draft "lurid" into the printed "livid." Of
-course, I have the luxury in this edition of merely suggesting rather
-than the more difficult task of making such emendations, but the reader
-should be able to determine most of those that I am making in a new
-edition of *Frankenstein.* In all, there are nearly 100 places (each
-signaled by a dagger in the *1818* column of this edition) where the
-text needs emending because of misprintings (e.g., "Willia mhad"),
-misspellings (e.g., "guished"), mispunctuations (e.g., missing quotation
-marks or periods that should be question marks), broken or missing type
-(e.g., the "Then" and comma that are missing from many copies of
-*1818*), or MWS errors in her Draft and Fair Copy (e.g., the name
-"Gower" rather than "Goring"). (For these particular printing and/or
-textual errors, see pages 49, 107, 157, 203, 283, and 459 in this
-edition.)
-
-The dagger is also used in a number of other places in the *1818* text
-in order to signal and address (1) each of the emendations (six of which
-I dispute) that Ketterer has suggested in his article "Readings" and (2)
-the fourteen places where *1818 Wolf-1* misrepresents the *1818* text
-and/or introduces new errors into the text. For the relevant pages in
-this edition, see the entries in my list of "Short Titles" for *1818
-Wolf-1* and for Ketterer "Readings." I supply these specifics about
-*1818 Wolf-1* in order to prevent that not-so-faithful photofacsimile
-from being the source of future errors.[^14]
+<div class="centered">\* \* \* \* \*</div>
 
 ## The Makeup of The *Frankenstein* Notebooks
 
 <div class="centered smaller">
 
-| *(Quiring Charts and technical descriptions below are based on*
+| *(... [T]echnical descriptions below are based on*
 | *a text originally prepared by Dr. B. C. Barker-Benfield.)*
 
 </div>
@@ -804,11 +340,9 @@ notebook below.
 
 <div class="centered smaller">
 
-| (Dep. c. 477/1, folios 4--28a, 28b--62; Dep. c. 534/1, folios 1--17=Pages
-   10--15, 26--31, 36--339 in this edition)
+| (Dep. c. 477/1, folios 4--28a, 28b--62; Dep. c. 534/1, folios 1--17 \* \* \* \* \*)
 | (With Dep. c. 477/1 insert folios
-  1--3 and Dep. c. 534/1 insert folio 18=Pages 16--25, 32--35, 340--341 in
-  this edition)
+  1--3 and Dep. c. 534/1 insert folio 18 \* \* \* \* \*)
 
 </div>
 
@@ -983,9 +517,8 @@ Insert Pages in Notebook A
 
 <div class="centered smaller">
 
-| (Dep. c. 534/1, folios 19--37, 39--94=Pages 342--417, 420--643 in this
-  edition)
-| (With Dep. c. 534/1 insert folio 38=Pages 418--419 in this edition)
+| (Dep. c. 534/1, folios 19--37, 39--94 \* \* \* \* \*)
+| (With Dep. c. 534/1 insert folio 38 \* \* \* \* \*)
 
 </div>
 
@@ -1137,10 +670,9 @@ Insert Pages in Notebook B
 
 <div class="centered smaller">
 
-| (Dep. c. 534/2, folios 1--18 and 19--29=Pages 646--719 and 720--771 in this
-  edition) 
+| (Dep. c. 534/2, folios 1--18 and 19--29 \* \* \* \* \*) 
 | (With Dep. c. 534/2 insert folio 30 and substitute folio
-  31=Pages 772--777 in this edition)
+  31 \* \* \* \* \*)
 
 </div>
 
