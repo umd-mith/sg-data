@@ -11,119 +11,130 @@
             succeeded</line>
         <line>at length in joining her lover in his retreat<anchor xml:id="c57-0037.01"/></line>
         <milestone unit="tei:p"/>
-        <line>Such was the history of my beloved cotta</line>
-        <line>gers. It <del rend="strikethrough">struck</del>
-            <mod type="additions">
-                <add place="sublinear">&#x2038;</add>
+        <line rend="indent2">Such was the history of my beloved cotta</line>
+        <line>gers. It <mod>
+                <del rend="strikethrough">struck</del>
+                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
                 <add place="superlinear">impressed</add>
             </mod> me deeply, <mod>
                 <del rend="strikethrough">&#x2013;</del>
                 <del rend="strikethrough">and</del>
-                <add place="sublinear">&#x2038;</add>
-                <add place="superlinear"><del rend="strikethrough"><unclear reason="overwritten"
-                            extent="4" precision="low" unit="chars">prom</unclear></del>
-                    <del rend="strikethrough">it fr</del></add>
-            </mod> I learned <mod type="additions">
-                <add place="sublinear">&#x2038;</add>
-                <add place="superlinear">from <del rend="scribble">it</del></add>
+                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="superlinear"><del rend="strikethrough"><unclear reason="illegible"
+                            >prom</unclear></del><del rend="strikethrough">it fr</del></add>
+            </mod> I learned <mod>
+                <add place="superlinear">from <del rend="strikethrough">it</del></add>
+                <add place="sublinear"><metamark function="displacement" xml:id="c57-0037.02"
+                        >&#x2038;</metamark></add>
             </mod> to admire</line>
         <line>their virtues &amp; to deprecate the vices of mankind.</line>
-        <line><mod>
-                <add><ptr target="c57-0037.02"/></add>
-                <del rend="strikethrough">But crimes were distant</del>
-                <del rend="double-strike">But</del>
-            </mod>
+        <line><del rend="strikethrough">But crimes were distant</del>
+            <del rend="strikethrough" instant="true">But</del>
             <mod>
                 <del rend="overwritten">a</del>
                 <add place="intralinear">A</add>
             </mod>s yet I looked</line>
         <line>upon crime as a distant evil; <mod>
                 <del rend="strikethrough">but</del>
-                <add place="superlinear"><del rend="strikethrough">for</del></add>
+                <del rend="strikethrough"><add place="superlinear">for</add></del>
             </mod> bene</line>
         <line>volence &amp; generosity were ever present</line>
-        <line>before me &#x2014; <del rend="strikethrough">and</del> I <mod>
-                <del rend="strikethrough">longed</del>
-                <add place="sublinear">&#x2038;</add>
-                <add place="superlinear"><del rend="strikethrough">ardently desired</del></add>
+        <line>before me &#x2013; <del rend="strikethrough">and</del>
+            <mod>
+                <del rend="strikethrough">I <mod>
+                        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                        <add place="superlinear">ardently</add>
+                    </mod>
+                    <mod>
+                        <del rend="strikethrough">longed</del>
+                        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                        <add place="superlinear">desired</add>
+                    </mod></del>
                 <del rend="strikethrough">to make one</del>
-                <add place="sublinear">&#x2038;</add>
+                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
                 <add place="superlinear" hand="#pbs">inciting in me to desire to become an
                     actor</add>
             </mod> in the</line>
         <line>busy scene where so many admirable</line>
         <line>qualities were called forth and displayed.</line>
-        <line><add><ptr target="c57-0037.03"/></add>But <del rend="triple-strike">I</del> in giving
-                <del rend="strikethrough">the histor</del> an account</line>
-        <line>of the progress of my intellect<del rend="double-strike">s</del>, I must not</line>
-        <line>omit a circumstance <mod>
-                <del rend="strikethrough">that took</del>
-                <add place="superlinear" hand="#pbs">which occurred</add>
-            </mod></line>
-        <line><del rend="strikethrough">place</del> in the beginning of the month</line>
-        <line>of August of <del rend="strikethrough">that</del>
-            <add place="superlinear" hand="#pbs">the same</add> year.<milestone unit="tei:p"
-            /></line>
-        <line><add><ptr target="c57-0037.04"/></add>One night during my accustomed</line>
+        <line>But <del rend="strikethrough">I</del> in giving <del rend="strikethrough"
+                instant="true">the histor</del> an account</line>
+        <line>of the progress of my intellect<del rend="strikethrough">s</del>, I must not</line>
+        <line>omit a circumstance <mod spanTo="#c57-0037.04"/><del rend="strikethrough"
+                next="#c57-0037.05">that took</del><add place="superlinear" hand="#pbs">which
+                occurred</add></line>
+        <line><del rend="strikethrough" xml:id="c57-0037.05">place</del><anchor xml:id="c57-0037.04"
+            /> in the beginning of the month</line>
+        <line>of August of <mod>
+                <del rend="strikethrough">that</del>
+                <add place="superlinear" hand="#pbs">the same</add>
+            </mod> year.</line>
+        <milestone unit="tei:p"/>
+        <line rend="indent2">One night during my accustomed</line>
         <line>visit to the neighbouring wood where</line>
         <line>I collected my own food and brought</line>
-        <line>home firing for <del rend="double-strike">p</del> my protectors, I found</line>
+        <line>home firing for <del rend="strikethrough">p</del> my protectors, I found</line>
         <line>on the ground a leathern portmanteau</line>
         <line>containing several articles of dress &amp; some</line>
-        <line>books. I <del rend="double-strike">se</del> eagerly seized the prize &amp;</line>
+        <line>books. I <del rend="strikethrough" instant="true">se</del> eagerly seized the prize
+            &amp;</line>
         <line>returned with it to my hovel. The books</line>
-        <line>were fortunately written in the language</line>
-        <line><add><ptr target="c57-0037.05"/></add> I had learned at the cottage; they
-            consisted</line>
+        <line>were fortunately written in the language <anchor xml:id="c57-0037.06"/></line>
+        <line>I had learned at the cottage; they consisted</line>
         <line>of "Paradise Lost" &#x2014; a volume of Plutarchs</line>
         <line>lives and the <mod>
                 <del rend="overwritten">s</del>
                 <add place="intralinear">S</add>
-            </mod>orrows of Werter &#x2014; <delSpan spanTo="#c57-0037.06" rend="strikethrough"/>And
-            these</line>
-        <line>I<anchor xml:id="c57-0037.06"/>
+            </mod>orrows of Werter &#x2013; <del rend="strikethrough">And these</del></line>
+        <line>I <del rend="strikethrough"><mod>
+                    <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                    <add place="superlinear">was</add>
+                </mod></del>
+            <del rend="strikethrough">delighted</del>
             <mod>
-                <add place="superlinear"><del rend="strikethrough">was</del></add>
-                <del rend="strikethrough">delighted</del>
                 <del rend="strikethrough">in</del>
-                <add place="superlinear"><del rend="strikethrough">to</del> the</add>
-            </mod> possess<mod>
+                <del rend="strikethrough"><add place="superlinear">to</add></del>
+            </mod>
+            <add place="superlinear">the</add> possess<mod>
                 <del rend="overwritten">in</del>
                 <add place="intralinear">ion</add>
                 <del rend="strikethrough">g</del>
-                <add place="superlinear">of</add>
-            </mod> these treasures</line>
+            </mod>
+            <add place="superlinear">of</add> these treasures</line>
         <line><mod>
                 <del rend="strikethrough">which</del>
-                <add><metamark>&#x2717;</metamark><ptr target="c57-0037.07"/></add>
+                <add><metamark function="displacement" xml:id="c57-0037.08">X</metamark></add>
             </mod> I could <del rend="strikethrough">now</del> continually study</line>
         <line>and <mod>
                 <del rend="strikethrough">occupy</del>
-                <add place="sublinear">&#x2038;</add>
-                <add place="superlinear">exercise</add>
-            </mod> my mind upon <mod type="additions">
-                <add place="sublinear">&#x2038;</add>
+                <add place="superlinear" hand="#pbs">exercise</add>
+            </mod> my mind upon <mod>
+                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
                 <add place="superlinear">the<mod>
                         <del rend="overwritten">m</del>
-                        <add place="intralinear">se</add>
-                    </mod> histories</add>
-            </mod> when my</line>
-        <line>friends were employed <unclear reason="smear" extent="8" unit="chars" precision="high"
-                >in their</unclear> ordinary</line>
+                        <add place="intralinear" hand="#pbs">se</add>
+                    </mod></add>
+            </mod>
+            <add place="superlinear" hand="#pbs">histories</add> when my</line>
+        <line>friends were employed in their ordinary</line>
         <line><mod>
                 <del rend="strikethrough">concerns</del>
-                <add place="sublinear">&#x2038;</add>
                 <add place="superlinear">occupations</add>
             </mod>. I can hardly describe to you the</line>
     </zone>
-    <zone type="left_margin">
-        <addSpan hand="#pbs" xml:id="c57-0037.02" spanTo="#c57-0037.08"/><line>the views</line>
-        <line><add place="sublinear">&#x2038;</add>of social</line>
+
+    <zone type="left_margin" corresp="#c57-0037.02">
+        <addSpan hand="#pbs" spanTo="#c57-0037.03"/>
+        <line><add place="sublinear"><metamark function="displacement">&#x2038;</metamark></add> the
+            views</line>
+        <line>of social</line>
         <line>life which</line>
-        <line>it developed</line><anchor xml:id="c57-0037.08"/>
+        <line>it developed</line><anchor xml:id="c57-0037.03"/>
     </zone>
+
     <zone type="left_margin">
-        <addSpan hand="#pbs" xml:id="c57-0037.03" spanTo="#c57-0037.09"/>
+        <addSpan hand="#pbs" spanTo="#c57-0037.10"/>
+        <metamark function="count" spanTo="#c57-0037.11"/>
         <line>60</line>
         <line>18 25</line>
         <line><hi rend="underline">18</hi>
@@ -138,33 +149,40 @@
         <line>34 <hi rend="underline">68</hi></line>
         <line><hi rend="underline">34</hi> 191</line>
         <line>68</line>
-        <anchor xml:id="c57-0037.09"/>
-    </zone>
-    <zone type="left_margin">
-        <addSpan xml:id="c57-0037.04" spanTo="#c57-0037.10"/>
-        <line>98</line>
-        <line><hi rend="underline">62</hi>
-        </line>
-        <line>36</line>
-        <line><hi rend="underline">36</hi>
-        </line>
-        <line>72</line>
-        <line><hi rend="underline">97</hi>
-        </line>
-        <line><hi rend="underline">169</hi>
-        </line>
+        <anchor xml:id="c57-0037.11"/>
         <anchor xml:id="c57-0037.10"/>
     </zone>
+
     <zone type="left_margin">
-        <addSpan xml:id="c57-0037.05" spanTo="c57-0037.11"/><line>the elements</line>
-        <line>of which</line>
-        <anchor xml:id="c57-0037.11"/>
-    </zone>
-    <zone type="left_margin">
-        <addSpan xml:id="c57-0037.07" spanTo="c57-0037.12"/><line>gave me</line>
-        <line><del rend="strikethrough">infinite</del>
-            <add place="superlinear">extreme</add></line>
-        <line>delight</line>
+        <addSpan spanTo="#c57-0037.12"/>
+        <metamark function="count" spanTo="#c57-0037.13"/>
+        <line>98</line>
+        <line><hi rend="underline">62</hi></line>
+        <line>36</line>
+        <line><hi rend="underline">36</hi></line>
+        <line>72</line>
+        <line><hi rend="underline">97</hi></line>
+        <line><hi rend="underline">169</hi>
+        </line>
+        <anchor xml:id="c57-0037.13"/>
         <anchor xml:id="c57-0037.12"/>
+    </zone>
+
+    <zone type="left_margin" corresp="#c57-0037.06">
+        <addSpan hand="#pbs" spanTo="#c57-0037.07"/>
+        <line>the elements</line>
+        <line>of which</line>
+        <anchor xml:id="c57-0037.07"/>
+    </zone>
+
+    <zone type="left_margin" corresp="#c57-0037.08">
+        <addSpan spanTo="#c57-0037.09"/>
+        <line>gave me</line>
+        <line><mod>
+                <del rend="strikethrough">infinite</del>
+                <add place="superlinear">extreme</add>
+            </mod></line>
+        <line>delight<metamark function="displacement">&#x2038;</metamark></line>
+        <anchor xml:id="c57-0037.09"/>
     </zone>
 </surface>
