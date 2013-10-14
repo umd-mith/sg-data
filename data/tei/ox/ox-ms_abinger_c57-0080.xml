@@ -7,7 +7,7 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0080.tif"/>
   <zone type="pagination" rend="bordered">102 </zone>
   <zone type="main">
-    <delSpan rend="vertical_line" spanTo="c57-0080.01"/>
+    <delSpan rend="vertical_line" spanTo="#c57-0080.01"/>
     <line>to Geneva. These two years, said he, will pass</line>
     <line>swiftly and it will be the last delay that will</line>
     <line>oppose itself to your happiness. How do I long</line>

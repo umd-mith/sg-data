@@ -111,7 +111,7 @@
   </zone>
 
   <zone type="left_margin" corresp="#c57-0161.03">
-    <addSpan spanTo="c57-0161.04"/>
+    <addSpan spanTo="#c57-0161.04"/>
     <line>the visions of</line>
     <line>my waking</line>
     <line>hours</line>

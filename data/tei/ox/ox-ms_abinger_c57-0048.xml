@@ -50,7 +50,7 @@
         <add place="superlinear">that task</add>
       </mod> &#x2014; <del rend="strikethrough">said I</del> "And it is on that</line>
     <line>account that I feel so many overwhelming</line>
-    <line>terrors&#x2014;I love these friends tenderly; <delSpan spanTo="c57-0048.02"
+    <line>terrors&#x2014;I love these friends tenderly; <delSpan spanTo="#c57-0048.02"
         rend="strikethrough"/>for many</line>
     <line>months<anchor xml:id="c57-0048.02"/> I have <mod>
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>

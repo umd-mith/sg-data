@@ -14,7 +14,7 @@
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">publickly as a criminal</add>
       </mod> as <del rend="strikethrough">my trial did</del></line>
-    <line>the case was not brought before the <delSpan spanTo="c57-0129.01" rend="strikethrough"
+    <line>the case was not brought before the <delSpan spanTo="#c57-0129.01" rend="strikethrough"
       />last</line>
     <line>court<anchor xml:id="c57-0129.01"/> court that decides on life &amp; death&#x2014;</line>
     <line>The Gran<mod>
