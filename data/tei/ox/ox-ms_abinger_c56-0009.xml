@@ -58,8 +58,8 @@
     <line>that fluid from the clouds.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>This last <del rend="strikethrough">blow</del>
-      <del rend="strikethrough">st</del> stroke compleated the overthrow of Cornelius Agrippa,
-      Albertus</line>
+      <del rend="strikethrough">st</del> stroke compleated</line>
+    <line>the overthrow of Cornelius Agrippa, Albertus</line>
     <line>Magnus and Paracelsus, who had so long</line>
     <line>reigned the lords of my imagination. But</line>
     <line>by some fatality I did not feel enclined to</line>
