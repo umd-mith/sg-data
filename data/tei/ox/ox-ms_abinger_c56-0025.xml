@@ -29,18 +29,18 @@
     <line>the beginning of the next week</line>
     <line>he intended to commence a course</line>
     <line>of lectures upon natural philosophy <mod>
-        <add place="sublinear"><metamark>X</metamark></add>
-        <add hand="#pbs"><ptr target="#c56-0025.01"/></add>
+        <add place="sublinear"><metamark function="displacement" xml:id="c56-0025.01"
+          >X</metamark></add>
       </mod></line>
     <line>and that M. W.<mod>
         <del rend="unmarked">&#x2014;</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">aldham</add>
       </mod> a fellow professor</line>
     <line>would lecture upon chemistry</line>
     <line>the alternate days which he missed.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I returned home not dissapointed</line>
+    <line rend="indent2">I returned home not dissapointed</line>
     <line>for I had long considered the au-</line>
     <line>thors useless which the professor</line>
     <line>had so strongly reprobated &#x2013; but I</line>
@@ -55,8 +55,8 @@
     <line>sive countenance and the teacher</line>
     <line>did not prepossess me in favour</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0025.01" spanTo="#c56-0025.02"/>
-    <line><metamark>X</metamark> in its general relations;</line><anchor xml:id="c56-0025.02"/>
+  <zone type="left_margin" corresp="#c56-0025.01">
+    <line><add hand="#pbs"><metamark function="displacement">X</metamark> in its general
+        relations;</add></line>
   </zone>
 </surface>

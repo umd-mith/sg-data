@@ -18,22 +18,22 @@
     <line><mod>
         <del rend="strikethrough">kind</del>
         <del rend="strikethrough">of</del>
-        <add><ptr target="#c56-0027.01"/></add>
+        <anchor xml:id="c56-0027.01"/>
       </mod> history of chemistry and <delSpan rend="strikethrough" spanTo="#c56-0027.03"
       />remark-</line>
     <line>ed<anchor xml:id="c56-0027.03"/> the various improvements <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">&#x26; discoveries</add></del>
       </mod>
       <delSpan spanTo="#c56-0027.04" rend="strikethrough"/>diffe</line>
-    <line>rent<anchor xml:id="c56-0027.04"/><add><ptr target="#c56-0027.05"/></add> men <mod>
+    <line>rent<anchor xml:id="c56-0027.04"/><anchor xml:id="c56-0027.05"/> men <mod>
         <del rend="strikethrough">had made</del>
         <add place="superlinear">of learning</add>
       </mod> pronoucing</line>
     <line>the names of the greatest discoverers</line>
     <line><mod>
         <del rend="strikethrough">with great warmth</del>
-        <add><ptr target="#c56-0027.06"/></add>
+        <anchor xml:id="c56-0027.06"/>
       </mod>. He then took</line>
     <line>a cursory view of the present state</line>
     <line>of <mod>
@@ -49,13 +49,13 @@
         <add place="superlinear" hand="#pbs">he</add>
       </mod> conclu</line>
     <line>ded with a panegyric upon <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">modern</add>
       </mod> chemist</line>
     <line>ry the words of which I shall never</line>
     <line>forget.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>"The ancient teachers of this science"</line>
+    <line rend="indent1">"The ancient teachers of this science"</line>
     <line>said he, "promised impossibilities</line>
     <line>"and performed nothing. The modern</line>
     <line>"masters promise very little. They</line>
@@ -63,7 +63,7 @@
     <line>"transmuted and that the elixir</line>
     <line>"<mod>
         <del rend="strikethrough">vit&#xE6;</del>
-        <add><ptr target="#c56-0027.07"/></add>
+        <anchor xml:id="c56-0027.07"/>
       </mod> is a <del rend="strikethrough">mere</del> chim&#xE6;ra. But</line>
     <line>"these philosophers whose <del rend="strikethrough">eyes</del> hands</line>
     <line>"appear only made to dabble in</line>
@@ -73,17 +73,17 @@
     <line>"They penetrate into the recesses of</line>
     <line>"nature and show how she works</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0027.01" spanTo="#c56-0027.02"/><line>by a recapitu</line>
+  <zone type="left_margin" corresp="#c56-0027.01">
+    <addSpan hand="#pbs" spanTo="#c56-0027.02"/><line>by a recapitu</line>
     <line>lation of the</line><anchor xml:id="c56-0027.02"/>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0027.05">made by various</add>
+  <zone type="left_margin" corresp="#c56-0027.05">
+    <add>made by various</add>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0027.06">with fervour</add>
+  <zone type="left_margin" corresp="#c56-0027.06">
+    <add>with fervour</add>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0027.07">of life</add>
+  <zone type="left_margin" corresp="#c56-0027.07">
+    <add>of life</add>
   </zone>
 </surface>

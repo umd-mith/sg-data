@@ -14,7 +14,7 @@
     <line>professors. and among others to M. <mod>
         <del rend="strikethrough">K</del>
         <del rend="unmarked">&#x2014;</del>
-        <add><ptr target="#c56-0024.01"/></add>
+        <anchor xml:id="c56-0024.01"/>
       </mod></line>
     <line>Professor of <del rend="strikethrough">&#x26; Lecturer</del>
       <del rend="strikethrough">upon</del> Natural</line>
@@ -26,7 +26,7 @@
     <line>philosophy. I mentioned, it is true</line>
     <line>with fear and trembling, the only</line>
     <line>authors I had <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">ever</add>
       </mod> read upon those</line>
     <line>subjects. The professor stared. <delSpan spanTo="#c56-0024.02" rend="strikethrough"/>I
@@ -37,10 +37,10 @@
     <line>"nonsence?" I replied in the affir</line>
     <line>mative.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"Every minute"&#x2013; continued M. <mod>
+    <line rend="indent1">"Every minute"&#x2013; continued M. <mod>
         <del rend="strikethrough">K</del>
         <del rend="unmarked">&#x2014;</del>
-        <add><ptr target="#c56-0024.03"/></add>
+        <anchor xml:id="c56-0024.03"/>
       </mod></line>
     <line>with warmth," every instant that</line>
     <line>"you have wasted upon those</line>
@@ -55,17 +55,17 @@
     <line>"lived where no one was kind</line>
     <line>"enough to <del rend="strikethrough">enfor</del> inform you</line>
     <line>"that these fancies which <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">you</add>
       </mod> have</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0024.01"><mod>
+  <zone type="left_margin" corresp="#c56-0024.01">
+    <line><add><mod>
           <del rend="strikethrough">Krempe</del>
           <add place="sublinear">Krempe</add>
         </mod></add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0024.03">Krempe</add></line>
+  <zone type="left_margin" corresp="#c56-0024.03">
+    <line><add>Krempe</add></line>
   </zone>
 </surface>

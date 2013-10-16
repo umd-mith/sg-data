@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">53</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I threw myself into the chaise</line>
+    <line rend="indent2">I threw myself into the chaise</line>
     <line>that was to convey me away and in</line>
     <line>dulged in the most melancholy reflec</line>
     <line>tions. I who had ever been surrounded</line>
@@ -35,25 +35,25 @@
     <line>rose. I ardently desired knowledge</line>
     <line><mod>
         <del rend="strikethrough">and I</del>
-        <add><ptr target="#c56-0022.01"/></add>
+        <anchor xml:id="c56-0022.01"/>
       </mod> often when at home</line>
     <line>thought <mod>
         <del rend="strikethrough">how</del>
         <add place="superlinear" hand="#pbs">it</add>
       </mod> hard <del rend="strikethrough">it was</del> to remain</line>
-    <line><add><ptr target="#c56-0022.02"/></add> cooped up in one place <delSpan
+    <line><anchor xml:id="c56-0022.02"/> cooped up in one place <delSpan
         spanTo="#c56-0022.03" rend="strikethrough"/>all my</line>
     <line>life<anchor xml:id="c56-0022.03"/> and <add place="superlinear" hand="#pbs">had</add>
       longed to enter into the</line>
     <line><del rend="strikethrough">worth</del> world and take my <mod spanTo="#c56-0022.04"
         /><del rend="strikethrough" next="#c56-0022.05">place</del></line>
-    <line><del rend="strikethrough" xml:id="c56-0022.05">with</del><add next="#c56-0022.06"><ptr
-          target="#c56-0022.07"/></add><add place="superlinear" xml:id="c56-0022.06"
+    <line><del rend="strikethrough" xml:id="c56-0022.05">with</del><anchor
+          xml:id="c56-0022.07"/><add place="superlinear" xml:id="c56-0022.06"
         >among</add><anchor xml:id="c56-0022.04"/> other human beings. <del rend="strikethrough"
         >And</del></line>
     <line>now my desires were <del rend="strikethrough">cop</del> complyed</line>
     <line>with <add place="intralinear">&#x26;</add> it would <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">indeed</add>
         <add place="superlinear" hand="#pbs">have</add>
         <del rend="strikethrough">be</del>
@@ -61,18 +61,18 @@
       </mod> be<add place="intralinear" hand="#pbs">en</add> folly to</line>
     <line>repent.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>I had <mod>
+    <line rend="indent1">I had <mod>
         <del rend="strikethrough">plenty of</del>
         <add place="superlinear" hand="#pbs">sufficient</add>
       </mod> leisure for these</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0022.01" hand="#pbs">I had</add></line>
+  <zone type="left_margin" corresp="#c56-0022.01">
+    <line><add hand="#pbs">I had</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0022.02">during my youth</add></line>
+  <zone type="left_margin" corresp="#c56-0022.02">
+    <line><add>during my youth</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0022.07">station</add></line>
+  <zone type="left_margin" corresp="#c56-0022.07">
+    <line><add next="#c56-0022.06">station </add></line>
   </zone>
 </surface>

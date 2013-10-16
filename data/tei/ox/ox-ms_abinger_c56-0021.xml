@@ -10,7 +10,7 @@
   <zone type="main">
     <line>of <del rend="strikethrough">hels</del> herself.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>The day of my departure at lenghth</line>
+    <line rend="indent1">The day of my departure at lenghth</line>
     <line>arrived &#x2013; I had taken leave of all</line>
     <line>my friends excepting Clerval, who spent</line>
     <line>the last evening with us. He bitterly la</line>
@@ -35,7 +35,7 @@
       </mod> be-</line>
     <line>come a partner with him in</line>
     <line>his business, and <mod spanTo="#c56-0021.09"/><del rend="strikethrough"
-        next="#c56-0021.03">he said he did not</del><add><ptr target="#c56-0021.01"/></add></line>
+        next="#c56-0021.03">he said he did not</del><anchor xml:id="c56-0021.01"/></line>
     <line><del rend="strikethrough" xml:id="c56-0021.03" next="#c56-0021.04">see</del>
       <mod>
         <del rend="unmarked"><add place="sublinear"><metamark>&#x2038;</metamark></add><add
@@ -44,7 +44,7 @@
       <del rend="strikethrough" xml:id="c56-002201.04" next="#c56-0021.05">what use learning</del>
       <mod>
         <del rend="strikethrough" xml:id="c56-0021.05" next="#c56-0021.06">was</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">could be</add></del>
       </mod>
       <del rend="strikethrough" xml:id="c56-0021.06" next="#c56-0021.07">to a</del></line>
@@ -58,7 +58,7 @@
       />the</line>
     <line>partner<anchor xml:id="c56-0021.08"/>
       <del rend="strikethrough">of</del> his father's <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">partner</add>
       </mod>but he believed</line>
     <line>that a man might be a very good</line>
@@ -71,7 +71,7 @@
         <add place="intralinear">understanding.</add>
       </mod></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>We sate late listening to his com</line>
+    <line rend="indent1">We sate late listening to his com</line>
     <line>plaints, and <del rend="strikethrough">I</del> making many little</line>
     <line>arrangements for the future. <del rend="strikethrough">and</del>
       <mod>
@@ -88,8 +88,8 @@
     <line>blessing would have accompanied me</line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0021.01" spanTo="#c56-0021.02"/>
+  <zone type="left_margin" corresp="#c56-0021.01">
+    <addSpan hand="#pbs" spanTo="#c56-0021.02"/>
     <line><del rend="strikethrough">and</del> in</line>
     <line>compliance</line>
     <line>with his favou</line>

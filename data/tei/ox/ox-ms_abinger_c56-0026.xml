@@ -37,18 +37,18 @@
         <del rend="strikethrough">greatness in the science</del>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">those</add></del>
       </mod>
-      <anchor xml:id="c56-0026.07"/><add><ptr target="#c56-0026.01" next="#c56-0026-08"/>
-        <ptr target="#c56-0026.04" xml:id="c56-0026.08"/></add>
+      <anchor xml:id="c56-0026.07"/><anchor xml:id="c56-0026.01"/>
+        <anchor xml:id="c56-0026.04"/>
       <anchor xml:id="c56-0026.06"/></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Such were my reflections during</line>
+    <line rend="indent2">Such were my reflections during</line>
     <line><del rend="strikethrough">tw</del> two or three days <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">spent</add>
       </mod> almost <mod>
         <add place="intralinear">in</add>
         <del rend="strikethrough">solitary</del>
-        <add><ptr target="#c56-0026.03"/></add>
+        <anchor xml:id="c56-0026.03"/>
       </mod></line>
     <line> but <del rend="strikethrough">at</del> as the ensueing week</line>
     <line>commenced I thought of the infor</line>
@@ -60,14 +60,14 @@
     <line>I could not consent to go and hear</line>
     <line>that little conceited fellow deliver</line>
     <line>sentences <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">out of a pulpit</add>
       </mod> I recollected what he had</line>
     <line>said of M<hi rend="sup">r</hi>. Waldham, whom I had</line>
     <line>never seen <del rend="strikethrough">and</del> as he had been</line>
     <line>hitherto out of town.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/><mod>
+    <line rend="indent2"><mod>
         <del rend="strikethrough">Half out of</del>
         <add place="superlinear">Partly from</add>
       </mod> curiosity and partly from</line>
@@ -83,24 +83,24 @@
     <line>a few grey <del rend="strikethrough">hars</del> hairs covered his temples</line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0026.01" spanTo="#c56-0026.02"/>
+  <zone type="left_margin" corresp="#c56-0026.01">
+    <addSpan hand="#pbs" spanTo="#c56-0026.02"/>
     <line>the <del rend="strikethrough">utmost</del></line>
     <line>ambition of</line>
     <line>enquirer seemed</line>
     <line>to limit itself</line>
     <line>to the annihi</line>
     <line>lation of those</line>
-    <line>visions on which</line>
+    <line>visions on which </line>
     <anchor xml:id="c56-0026.02"/>
   </zone>
 
-  <zone type="left_margin">
-    <add xml:id="c56-0026.03">solitude:</add>
+  <zone type="left_margin" corresp="#c56-0026.03">
+    <add>solitude:</add>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0026.04" spanTo="#c56-0026.05"/>
+  <zone type="left_margin" corresp="#c56-0026.04">
+    <addSpan hand="#pbs" spanTo="#c56-0026.05"/>
     <line>my interest in science</line>
     <line>was chiefly founded.</line>
     <line>I was required</line>

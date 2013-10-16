@@ -21,21 +21,21 @@
         <line>I should <mod>
                 <del rend="strikethrough">go</del>
                 <del rend="strikethrough"> to</del>
-                <add><ptr target="#c56-0017.01"/></add>
+                <anchor xml:id="c56-0017.01"/>
                 <add place="superlinear" hand="#pbs">at</add>
             </mod> the university of In-</line>
         <line>golstadt. I had hitherto attended the</line>
         <line>schools of Geneva, but my father thought</line>
         <line>it necessary for the completion of my</line>
         <line>education <del rend="strikethrough">that</del> that I should be</line>
-        <line><add><ptr target="#c56-0017.02"/></add> acquainted with other customs <mod>
+        <line><anchor xml:id="c56-0017.02"/>acquainted with other customs <mod>
                 <del rend="strikethrough">besides</del>
                 <add place="superlinear" hand="#pbs">than</add>
             </mod></line>
         <line>those of my native country. My depar</line>
         <line>ture was therefore fixed <del rend="strikethrough">for</del> at an</line>
         <line>early <mod>
-                <add place="sublinear">&#x2038;</add>
+                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
                 <add place="superlinear">date.</add>
             </mod> But before the day resolved</line>
         <line>upon could arrive the first mis</line>
@@ -50,7 +50,7 @@
         <line>not severe and she quickly recovered.</line>
         <line>During her confinement <mod>
                 <del rend="strikethrough">mady</del>
-                <add place="sublinear">&#x2038;</add>
+                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
                 <add place="superlinear"><del rend="strikethrough"><unclear>made</unclear></del>
                     many</add>
             </mod> ar</line>
@@ -77,10 +77,10 @@
                 <add place="superlinear" hand="#pbs">the danger of infection was past</add>
             </mod>. The</line>
     </zone>
-    <zone type="left_margin">
-        <line><add xml:id="c56-0017.01" hand="#pbs">become a student</add></line>
+    <zone type="left_margin" corresp="#c56-0017.01">
+        <line><add hand="#pbs">become a student </add></line>
     </zone>
-    <zone type="left_margin">
-        <line><add xml:id="c56-0017.02" hand="#pbs">made</add></line>
+    <zone type="left_margin" corresp="#c56-0017.02">
+        <line><add hand="#pbs">made </add></line>
     </zone>
 </surface>

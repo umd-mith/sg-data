@@ -55,8 +55,8 @@
                 <add place="superlinear" hand="#pbs">Yet, from whom</add>
             </mod> who has not <delSpan rend="strikethrough" spanTo="#c56-0019.01"/>had some
             dear</line>
-        <line>connection rent away by<anchor xml:id="c56-0019.01"/> that rude hand <add><ptr
-                    target="#c56-0019.02"/></add></line>
+        <line>connection rent away by<anchor xml:id="c56-0019.01"/> that rude hand <anchor
+                    xml:id="c56-0019.02"/></line>
         <line><unclear unit="chars" extent="2"/> and why <mod>
                 <del rend="strikethrough">need</del>
                 <add place="superlinear" hand="#pbs">should</add>
@@ -82,8 +82,8 @@
                 dead</add><anchor xml:id="c56-0019.04"/> but we had still</line>
     </zone>
 
-    <zone type="left_margin">
-        <addSpan xml:id="c56-0019.02" hand="#pbs" spanTo="#c56-0019.03"/>
+    <zone type="left_margin" corresp="#c56-0019.02">
+        <addSpan hand="#pbs" spanTo="#c56-0019.03"/>
         <line>rent away some</line>
         <line>dear connection,</line><anchor xml:id="c56-0019.03"/>
     </zone>
