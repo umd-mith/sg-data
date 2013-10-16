@@ -113,7 +113,7 @@
 
   <zone type="left_margin" corresp="#c56-0011.07" ulx="0" uly="1877" lrx="1289" lry="2721">
     <addSpan spanTo="#c56-0011.08" hand="#pbs"/>
-    <line><metamark>X</metamark> We were strangers</line>
+    <line><metamark function="displacement">X</metamark> We were strangers</line>
     <line>to any species</line>
     <line><metamark>X</metamark> of disunion</line>
     <line>or dispute</line>
@@ -123,7 +123,7 @@
 
   <zone type="left_margin" ulx="0" uly="2780" lrx="1289" lry="7104" corresp="#c56-0011.13">
     <addSpan spanTo="#c56-0011.14" hand="#pbs"/>
-    <line><metamark>X</metamark></line>
+    <line><metamark function="displacement">X</metamark></line>
     <line>I delighted in</line>
     <line>investigating</line>
     <line>the facts relating</line>
