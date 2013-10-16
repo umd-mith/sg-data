@@ -18,14 +18,13 @@
         <del rend="overwritten">y</del>
         <add place="intralinear">ir</add>
       </mod>
-      <del rend="strikethrough"><add place="superlinear" next="#c58-0013.01"
-      >black</add></del></line>
+      <del rend="strikethrough"><add place="superlinear">black</add></del></line>
     <line><mod>
         <del rend="strikethrough">lovely</del>
-        <add place="sublinear" xml:id="c58-0013.01">&#x2038;</add>
-        <add place="superlinear">black<del rend="strikethrough">black</del></add>
-      </mod> outlines. <milestone unit="tei:p"/><add place="intralinear" hand="#comp"
-          ><metamark>[</metamark></add>The wind which had fallen in the</line>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">black <del rend="strikethrough">black</del></add>
+      </mod> outlines. <milestone unit="tei:p"/><add place="intralinear" hand="#comp"><metamark
+          function="paragraph">[</metamark></add>The wind which had fallen in the</line>
     <line>south now rose with great violence in the west. The</line>
     <line>moon had reached her summit in the heavens and</line>
     <line>was beginning to descend; the clouds swept across</line>
@@ -34,11 +33,12 @@
         <del rend="overwritten">r</del>
         <add place="intralinear">d</add>
       </mod> her rays while the lake reflected the scene of the</line>
-    <line>busy heavens <del rend="strikethrough"><unclear>se</unclear></del> rendered still busier
-        <delSpan spanTo="#c58-0013.02" rend="strikethrough"/>made still</line>
+    <line>busy heavens <del rend="strikethrough"><unclear reason="illegible">se</unclear></del>
+      rendered still busier <delSpan spanTo="#c58-0013.02" rend="strikethrough"/>made still</line>
     <line>busier<anchor xml:id="c58-0013.02"/> by the restless waves that were beginning to</line>
     <line>rise. Suddenly a heavy storm of rain descended.</line>
-    <milestone unit="tei:p"/><line>I had been calm during the day but so soon as</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">I had been calm during the day but so soon as</line>
     <line>night obscured the shapes of objects a thousand<del rend="strikethrough">s</del></line>
     <line>fears arose in my mind. I was anxious at watchful</line>
   </zone>

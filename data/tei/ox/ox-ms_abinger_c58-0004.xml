@@ -23,13 +23,17 @@
     <line><hi rend="underline">on your wedding night</hi>, I should regard the </line>
     <line>threatened fate as unavoidable. But death was </line>
     <line>no evil to me if the loss of Elizabeth were balanced</line>
-    <line>with it and I therefore with a contented and even</line>
+    <line>with it and I therefore with a conten<mod>
+        <del rend="overwritten">d</del>
+        <add place="intralinear">t</add>
+      </mod>ed and even</line>
     <line>cheerful countenance agreed with my father</line>
     <line>that if my cousin would consent the ceremony</line>
     <line>should take place in ten days; and thus put as I</line>
     <line>imagined the seal to my fate.</line>
     <milestone unit="tei:p"/>
-    <line rend="indent2">Great God! If for one instant I had thought</line>
+    <line rend="indent2">Great God! If for one instant I had though<add place="intralinear"
+      >t</add></line>
     <line>what might be the hellish intention of my fiendish</line>
   </zone>
 </surface>
