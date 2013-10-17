@@ -8,7 +8,7 @@
     <zone type="pagination" rend="bordered">63</zone>
     <zone type="library">15</zone>
     <zone type="main">
-        <line><del rend="strikethrough">golstadt was</del><add><ptr target="#c56-0033.01"/></add> no
+        <line><del rend="strikethrough">golstadt was</del><anchor xml:id="c56-0033.01"/> no
             longer conducive to</line>
         <line>my improvement, I thought of returning</line>
         <line>to my friends and to my native town,</line>
@@ -26,7 +26,7 @@
         <line>myself did this principle of life proceed.</line>
         <line>It was a bold question, and one <mod>
                 <del rend="strikethrough">that</del>
-                <add><ptr target="#c56-0033.02"/></add>
+                <anchor xml:id="c56-0033.02"/>
             </mod></line>
         <line>has ever been considered as a mystery.</line>
         <line>Yet how many things are we on the</line>
@@ -60,10 +60,10 @@
         <line>the natural decay &#x26; corruption of the</line>
         <line>human body. In my education</line>
     </zone>
-    <zone type="left_margin">
-        <line><add hand="#pbs" xml:id="c56-0033.01">there being</add></line>
+    <zone type="left_margin" corresp="#c56-0033.01">
+        <line><add hand="#pbs">there being</add></line>
     </zone>
-    <zone type="left_margin">
-        <line><add hand="#pbs" xml:id="c56-0033.02">which</add></line>
+    <zone type="left_margin" corresp="#c56-0033.02">
+        <line><add hand="#pbs">which</add></line>
     </zone>
 </surface>

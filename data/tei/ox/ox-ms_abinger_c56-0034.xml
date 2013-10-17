@@ -64,7 +64,7 @@
     <line><mod>
         <del rend="strikethrough">was</del>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">became</add></del>
-        <add><ptr target="#c56-0034.02"/></add>
+        <anchor xml:id="c56-0034.02"/>
       </mod> degraded and wasted. I beheld the</line>
     <line>corruption of death succeed to the bloom</line>
     <line>-ing cheek of life &#x2013; <add place="superlinear" hand="#pbs">I saw</add> how the worm
@@ -84,18 +84,18 @@
         <del rend="strikethrough">minuti&#xE6;</del>
         <del rend="unmarked"> of </del>
         <del rend="strikethrough">causation</del>
-        <add><ptr target="#c56-0034.04"/></add>
+        <anchor xml:id="c56-0034.04"/>
       </mod> untill</line>
     <line>from the midst of this darkness</line>
     <line>a sudden light broke in upon me.</line>
     <line>A light so brilliant &#x26; wondrous yet</line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add hand="#pbs" xml:id="c56-0034.02">was</add></line>
+  <zone type="left_margin" corresp="#c56-0034.02">
+    <line><add hand="#pbs">was</add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0034.04" spanTo="#c56-0034.05"/>
+  <zone type="left_margin" corresp="#c56-0034.04">
+    <addSpan hand="#pbs" spanTo="#c56-0034.05"/>
     <line>all the minuti&#xE6;</line>
     <line>of causation</line>
     <line>as exemplified in</line>

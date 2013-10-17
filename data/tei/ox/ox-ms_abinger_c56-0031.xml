@@ -21,7 +21,7 @@
     <line><mod>
         <del rend="unmarked">th</del>
         <del rend="strikethrough">at have been written</del>
-        <add><ptr target="#c56-0031.01"/></add>
+        <anchor xml:id="c56-0031.01"/>
       </mod> on these sub-</line>
     <line>jects. I attended the lectures, and culti</line>
     <line>vated the acquaintance of the men</line>
@@ -48,7 +48,7 @@
     <line><mod>
         <add place="intralinear"><metamark>X</metamark></add>
         <del rend="strikethrough">was</del>
-        <add><ptr target="#c56-0031.03"/></add>
+        <anchor xml:id="c56-0031.03"/>
       </mod> only in the first steps towards</line> the <line>knowledge; <mod>
         <del rend="strikethrough">as</del>
         <add place="superlinear" hand="#pbs">the more fully</add>
@@ -69,22 +69,22 @@
         resolution,</add> now became so ardent</line>
     <line>and eager that the stars often</line>
     <line>dissapeared <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark><ptr target="#c56-0031.05"/></add>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add><anchor xml:id="c56-0031.05"/>
       </mod> while I was yet <mod>
         <del rend="strikethrough">labouring</del>
         <add place="sublinear" hand="#pbs">engaged</add>
       </mod></line>
     <line>in my labrotary.</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0031.01" spanTo="#c56-0031.02"/>
+  <zone type="left_margin" corresp="#c56-0031.01">
+    <addSpan hand="#pbs" spanTo="#c56-0031.02"/>
     <line>which modern</line>
     <line>enquirers</line>
     <anchor xml:id="c56-0031.02"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0031.03" spanTo="#c56-0031.04"/><line/>
+  <zone type="left_margin" corresp="#c56-0031.03">
+    <addSpan hand="#pbs" spanTo="#c56-0031.04"/><line/>
     <line>circumstance</line>
     <line><unclear>of</unclear>
       <del rend="strikethrough">was had</del></line>
@@ -92,8 +92,8 @@
     <line>place <metamark>X</metamark></line><anchor xml:id="c56-0031.04"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan hand="#pbs" xml:id="c56-0031.05" spanTo="#c56-0031.06"/>
+  <zone type="left_margin" corresp="#c56-0031.05">
+    <addSpan hand="#pbs" spanTo="#c56-0031.06"/>
     <line>in the light of</line>
     <line>morning</line>
     <anchor xml:id="c56-0031.06"/>

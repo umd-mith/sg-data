@@ -11,13 +11,13 @@
         <del rend="overwritten">m</del>
         <add place="intralinear">ir</add>
       </mod>.<mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">mechanism.</add>
       </mod> He also gave me the list of</line>
     <line>books which I had requested and</line>
     <line>I took my leave.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Thus ended a day memorable</line>
+    <line rend="indent2"><space unit="chars" extent="5"/>Thus ended a day memorable</line>
     <line><mod>
         <del rend="strikethrough">in a my life</del>
         <add place="superlinear">to me</add>
