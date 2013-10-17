@@ -47,7 +47,7 @@
       </mod> with all its intri</line>
     <line>cacies of fibres muscles &#x26; veins <mod>
         <del rend="strikethrough">must be</del>
-        <add><ptr target="#c56-0038.01"/></add>
+        <anchor xml:id="c56-0038.01"/>
       </mod></line>
     <line>a work of inconceivable labour<add place="superlinear" hand="#pbs"
         ><metamark>2</metamark></add> &#x26; diffi<add place="superlinear" hand="#pbs"
@@ -87,7 +87,7 @@
       <del rend="strikethrough">my</del>
       <del rend="strikethrough">materials</del></line>
     <line><del rend="strikethrough">they</del>
-      <add next="#c56-0038.07"><ptr target="#c56-0038.05"/></add><add place="superlinear"
+      <anchor xml:id="c56-0038.05"/><add place="superlinear"
         hand="#pbs" xml:id="c56-0038.07">my command</add><anchor xml:id="c56-0038.02"/> hardly
       appeared adequate to so ardous</line>
     <line>an undertaking; <mod>
@@ -101,8 +101,8 @@
       allowed that my first attempts might</line>
     <line>be futile, my operations fail or my work</line>
     <line>be imperfect,<anchor xml:id="c56-0038.13"/>
-      <del rend="strikethrough">but I looked around on</del><add><ptr target="#c56-0038.08"
-        /></add><anchor xml:id="c56-0038.12"/></line>
+      <del rend="strikethrough">but I looked around on</del><anchor xml:id="c56-0038.08"
+        /><anchor xml:id="c56-0038.12"/></line>
     <line>the improvement <mod>
         <del rend="strikethrough">that</del>
         <add place="superlinear">which</add>
@@ -125,18 +125,18 @@
         </mod> the foundations of future success</add><anchor xml:id="c56-0038.17"/></line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c56-0038.01" hand="#pbs">still remained</add></line>
+  <zone type="left_margin" corresp="#c56-0038.01">
+    <line><add hand="#pbs">still remained</add></line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0038.05" hand="#pbs" spanTo="#c56-0038.06"/>
+  <zone type="left_margin" corresp="#c56-0038.05">
+    <addSpan hand="#pbs" spanTo="#c56-0038.06"  next="#c56-0038.07"/>
     <line>The materials</line>
-    <line>at present within</line><anchor xml:id="c56-0038.06"/>
+    <line>at present within </line><anchor xml:id="c56-0038.06"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0038.08" hand="#pbs" spanTo="#c56-0038.09"/>
+  <zone type="left_margin" corresp="#c56-0038.08">
+    <addSpan hand="#pbs" spanTo="#c56-0038.09"/>
     <line>I prepared myself</line>
     <line>for a multitude</line>
     <line>of reverses, my</line>

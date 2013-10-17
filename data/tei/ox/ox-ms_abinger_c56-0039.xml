@@ -14,7 +14,7 @@
     <line><del rend="strikethrough">way perfect<mod>
           <del rend="strikethrough"> yet</del>
           <del rend="strikethrough"><add place="superlinear">but</add></del>
-        </mod></del><add><ptr target="#c56-0039.01"/></add>
+        </mod></del><anchor xml:id="c56-0039.01"/>
       <del rend="unmarked">I did not think that</del></line>
     <!--"I did not think that was mistakenly uncanceled. I have I have deleted it as "unmarked" for now, 
         but this case differs from those where a strikethrough does not extend through an entire word-->
@@ -43,7 +43,7 @@
     <line>contrary to my first intention, to make</line>
     <line><mod>
         <del rend="strikethrough">him</del>
-        <add><ptr target="#c56-0039.03"/></add>
+        <anchor xml:id="c56-0039.03"/>
       </mod>
       <del rend="strikethrough">of</del> of a gigantic stature; that</line>
     <line>is to say about <mod>
@@ -57,7 +57,7 @@
     <line><mod>
         <del rend="strikethrough">collecting</del>
         <del rend="strikethrough">of</del>
-        <add><ptr target="#c56-0039.04"/></add>
+        <anchor xml:id="c56-0039.04"/>
       </mod> my materials, I began.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>No one can conceive <del rend="strikethrough">my</del> the
@@ -77,7 +77,7 @@
       </mod> would bless me as its</line>
     <line><mod>
         <del rend="strikethrough">maker</del>
-        <add><ptr target="#c56-0039.06"/></add>
+        <anchor xml:id="c56-0039.06"/>
       </mod> and source; many happy and</line>
     <line>excellent <mod>
         <del rend="strikethrough">creatures</del>
@@ -91,8 +91,8 @@
       </mod> to me. <del rend="strikethrough">in manner</del></line>
     <line><del rend="strikethrough">in a manner</del> no father could claim</line>
     <line>the gratitude of his child <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c56-0039.07"/></add>
+        <add place="sublinear"><metamark function="displacement" xml:id="c56-0039.07"
+            >&#x2038;</metamark></add>
       </mod>
       <del rend="strikethrough">And</del> pur</line>
     <line>sueing <mod>
@@ -106,26 +106,26 @@
     <line><del rend="strikethrough">upon</del> lifeless matter I might in</line>
     <line>process of time (although I now found</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0039.01" spanTo="#c56-0039.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0039.01">
+    <addSpan spanTo="#c56-0039.02" hand="#pbs"/>
     <line>Nor, could I</line>
     <line>consider</line>
     <anchor xml:id="c56-0039.02"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0039.03" hand="#pbs">the being</add></line>
+  <zone type="left_margin" corresp="#c56-0039.03">
+    <line><add hand="#pbs">the being</add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0039.04" spanTo="#c56-0039.05" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0039.04">
+    <addSpan spanTo="#c56-0039.05" hand="#pbs"/>
     <line>successfully</line>
     <line>collecting &#x26;</line>
     <line>arranging</line><anchor xml:id="c56-0039.05"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0039.06">creator</add></line>
+  <zone type="left_margin" corresp="#c56-0039.06">
+    <line><add>creator</add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0039.07" spanTo="#c56-0039.08" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0039.07">
+    <addSpan spanTo="#c56-0039.08" hand="#pbs"/>
     <line>so completely as</line>
     <line>I should deserve</line>
     <line>thiers</line>

@@ -11,22 +11,22 @@
     <line>death had apparently devoted the</line>
     <line>body to corruption.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>These thoughts supported my</line>
+    <line rend="indent2">These thoughts supported my</line>
     <line>spirits while I pursued my <mod>
         <del rend="strikethrough">labours</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">undertaking</add>
       </mod></line>
     <line>with unremitting <mod>
         <del rend="strikethrough">eagerness</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">ardour</add>
       </mod>. My cheek</line>
     <line><mod>
         <del rend="strikethrough">was</del>
-        <add><ptr target="#c56-0040.01"/></add>
+        <anchor xml:id="c56-0040.01"/>
       </mod> pale with study, and <del rend="strikethrough">pe</del> my person</line>
-    <line><add><ptr target="#c56-0040.02"/></add> emaciated by confinement. sometimes</line>
+    <line><anchor xml:id="c56-0040.02"/>emaciated by confinement. sometimes</line>
     <line>on the very brink of certainty I faild</line>
     <line>yet I still clung to the hope which</line>
     <line>the next day or the <del rend="strikethrough">nexhour</del> next</line>
@@ -43,7 +43,7 @@
     <line>who shall <mod>
         <del rend="strikethrough">know</del>
         <del rend="strikethrough">my</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">concieve the horrors of my</add>
       </mod> secret <mod>
         <del rend="strikethrough">operatio</del>
@@ -57,30 +57,30 @@
         <del rend="strikethrough">my</del>
         <add place="superlinear" hand="#pbs">the</add>
       </mod> lifeless clay? <del rend="strikethrough">Now</del> my limbs</line>
-    <line><add><ptr target="#c56-0040.03"/></add> tremble and my eyes swim with the</line>
+    <line><anchor xml:id="c56-0040.03"/> tremble and my eyes swim with the</line>
     <line>rememberance, but then a resistless</line>
     <line>and <del rend="strikethrough">all</del> almost frantic<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">impulse</add>
       </mod> urged me</line>
     <line><mod>
         <del rend="strikethrough">on</del>
-        <add><ptr target="#c56-0040.04"/></add>
+        <anchor xml:id="c56-0040.04"/>
       </mod>; I seemed to have lost all</line>
     <line>soul or sensation but for one</line>
     <line>pursuit. It was indeed a passing trance</line>
     <line>that only made me feel with renew</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="ox-ms_abinger_c56-0040.01" hand="#pbs">had grown</add></line>
+  <zone type="left_margin" corresp="#c56-0040.01">
+    <line><add hand="#pbs">had grown</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="ox-ms_abinger_c56-0040.02" hand="#pbs">became</add></line>
+  <zone type="left_margin" corresp="#c56-0040.02">
+    <line><add hand="#pbs">became</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="ox-ms_abinger_c56-0040.03" hand="#pbs">now</add></line>
+  <zone type="left_margin" corresp="#c56-0040.03">
+    <line><add hand="#pbs">now</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="ox-ms_abinger_c56-0040.04" hand="#pbs">forward</add></line>
+  <zone type="left_margin" corresp="#c56-0040.04">
+    <line><add hand="#pbs">forward</add></line>
   </zone>
 </surface>

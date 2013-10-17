@@ -59,8 +59,8 @@
           ><metamark>&#x2038;</metamark></add>
       <delSpan spanTo="#c56-0036.05" rend="strikethough"/>that</line>
     <line>than show me the prospect with</line>
-    <line>any precise certainty.<anchor xml:id="c56-0036.05"/><add><ptr target="#c56-0036.06"
-        /></add><anchor xml:id="c56-0036.04"/> I was like the</line>
+    <line>any precise certainty.<anchor xml:id="c56-0036.05"/><anchor xml:id="c56-0036.06"
+        /><anchor xml:id="c56-0036.04"/> I was like the</line>
     <line>Arabian<del rend="strikethrough">,</del> who had been buried with</line>
     <line>the dead, and found a passage to life</line>
     <line>aided only by one glimmering and seem</line>
@@ -85,9 +85,9 @@
     <line>on, <del rend="strikethrough">as</del> unguarded and ardent as I then</line>
     <line>was, to your <del rend="strikethrough">destruct</del> destruction &#x26;</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0036.06" spanTo="#c56-0036.07" hand="#pbs"
-        /><line><metamark>&#x2038;</metamark>so soon as I</line>
+  <zone type="left_margin" corresp="#c56-0036.06">
+    <addSpan spanTo="#c56-0036.07" hand="#pbs"
+        /><line><metamark function="displacement">&#x2038;</metamark>so soon as I</line>
     <line>should point</line>
     <line>them towards</line>
     <line>the object of</line>
