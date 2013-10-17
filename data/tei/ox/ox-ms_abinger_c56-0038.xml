@@ -29,7 +29,7 @@
     <line>the capacity of bestowing animation yet</line>
     <line><del rend="strikethrough">my</del> to <mod>
         <del rend="strikethrough">create</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">prepare</add>
       </mod> a <mod>
         <del rend="strikethrough">creature</del>
