@@ -18,8 +18,8 @@
     <line>"master in the Vicar of Wakefield&#x2013;</line>
     <line><delSpan rend="strikethrough" spanTo="#c56-0051.01"/>'I live very well yet I do not
       know</line>
-    <line>"Greek<anchor xml:id="c56-0051.01"/> " I have ten thousand florins&#x2013;<add><ptr
-          target="#c56-0051.02"/></add></line>
+    <line>"Greek<anchor xml:id="c56-0051.01"/> " I have ten thousand florins&#x2013; <anchor
+          xml:id="c56-0051.02"/></line>
     <line>"But his affection for me at</line>
     <line>"length overcame his dislike for</line>
     <line>"learning, and he permitted me</line>
@@ -52,7 +52,7 @@
         <add place="superlinear" hand="#pbs"><del rend="strikethrough">studious</del> one</add>
       </mod> occupation<del rend="strikethrough">s</del> that I <mod>
         <del rend="strikethrough">did</del>
-        <add><ptr target="#c56-0051.04"/></add>
+        <anchor xml:id="c56-0051.04"/>
       </mod></line>
     <line>"not allow<mod>
         <add place="intralinear" hand="#pbs">ed</add>
@@ -61,8 +61,9 @@
         <add place="superlinear">myself</add>
       </mod> sufficient rest as you</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0051.02" spanTo="#c56-0051.03"/>
+  
+  <zone type="left_margin" corresp="#c56-0051.02">
+    <addSpan spanTo="#c56-0051.03"/>
     <line>"<restore type="smear_strikethrough"><del rend="strikethrough">a year</del></restore><del
         rend="smear"><add place="superlinear">y<hi rend="sup">r</hi>.</add></del> with</line>
     <line>"out greek &#x2013;I</line>
@@ -89,7 +90,7 @@
     <anchor xml:id="c56-0051.05"/>
   </zone>
 
-  <zone type="left_margin">
-    <line><add hand="#pbs" xml:id="c56-0051.04">have</add></line>
+  <zone type="left_margin" corresp="#c56-0051.04">
+    <line><add hand="#pbs">have</add></line>
   </zone>
 </surface>

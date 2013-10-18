@@ -18,10 +18,11 @@
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="4"/>I trembled; one subject! What</line>
     <line>could it be? Could he allude to<mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert"><metamark function="insert"
+              >&#x2038;</metamark></metamark></add>
         <add place="superlinear">an</add>
       </mod> object</line>
-    <line><add><ptr target="#c56-0057.01"/></add>I dared not even think. Do not fright</line>
+    <line><anchor xml:id="c56-0057.01"/>I dared not even think. Do not fright</line>
     <line>"en yourself," said Clerval, who observed</line>
     <line>my change of colour," I will not mention</line>
     <line>"it if it agitates you. But your father</line>
@@ -36,7 +37,7 @@
     <line>"that my first thoughts would not</line>
     <line>"fly towards<mod>
         <del rend="strikethrough">that</del>
-        <add place="sublinear"> &#2038;</add>
+        <add place="sublinear"><metamark function="insert">&#2038;</metamark></add>
         <add place="superlinear">those</add>
       </mod> dear, dear friends</line>
     <line>"whom I love and who are so deserving</line>
@@ -48,7 +49,7 @@
     <line>"<del rend="strikethrough">ly</del> lying<del rend="strikethrough">e</del> here some
         day<add place="intralinear" hand="#pbs">s</add> it is from your</line>
     <line>"cousin I believe."</line>
-    <line><add><ptr target="#c56-0057.02"/></add></line>
+    <line><anchor xml:id="c56-0057.02"/></line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="6"/>He then put the following letter</line>
     <line>into my hands.</line>
@@ -62,9 +63,12 @@
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>"I cannot describe to you the uneasi</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0057.01">on whom </add></line>
+
+  <zone type="left_margin" corresp="#c56-0057.01">
+    <line><add>on whom </add></line>
   </zone>
-  <zone type="top"><add xml:id="c56-0057.02">Ch V&#x2013; 113</add></zone>
-  <!--change "top" to "chapter_heading" to account for headings that appear within the main body. "top" doesn't make sense and has no descriptive value-->
+
+  <zone type="top" corresp="#c56-0057.02">
+    <add>Ch V&#x2013; 113</add></zone>
+  <!--change "top" to milestone "head" to account for headings that appear within the main body. "top" doesn't make sense and has no descriptive value-->
 </surface>

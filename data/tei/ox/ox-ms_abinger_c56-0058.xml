@@ -16,10 +16,8 @@
     <line>you have been obliged to dictate to</line>
     <line>Henry &#x2013; Surely Victor you must have</line>
     <line>been very ill<mod>
-        <add place="superlinear">and this makes us very wretched as much so
-          <metamark>X</metamark></add>
-        <add><ptr target="#c56-0058.01"/></add>
-      </mod>. My father was almost</line>
+        <add place="superlinear">and this makes us very wretched as much so <metamark
+            function="displacement" xml:id="c56-0058.01">X</metamark></add></mod>. My father was almost</line>
     <line>persuaded <mod>
         <del rend="strikethrough">of this</del>
         <add place="superlinear" hand="#pbs">that you were indeed dangerously ill,</add>
@@ -28,14 +26,14 @@
         <del rend="overwritten">f</del>
         <add place="intralinear">st</add>
       </mod>rain<add place="intralinear" hand="#pbs">ed</add> from <mod>
-        <add place="sublinear"><metamark>&#2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#2038;</metamark></add>
         <add place="superlinear" hand="#pbs">undertaking</add>
       </mod> a journey to Ingolstadt.</line>
     <line><del rend="strikethrough">I</del>
       <del next="#c56-0058.02">but I entreated him not</del><del rend="strikethrough"><add
           place="superlinear" hand="#pbs">to undertake it</add></del>
       <del rend="strikethrough" xml:id="c56-0058.02" next="#c56-0058.03">because</del><mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">for</add></del>
       </mod></line>
     <line><del rend="strikethrough" xml:id="c56-0058.03">although</del>
@@ -67,7 +65,7 @@
     <line>handwriting for indeed, indeed Victor</line>
     <line>we are all very <mod>
         <del rend="strikethrough">uneasy</del>
-        <add place="sublinear"><metamark>&#2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#2038;</metamark></add>
         <add place="superlinear">miserable on this account</add>
       </mod>. Relieve</line>
     <line>us from this fear and we shall</line>
@@ -85,8 +83,8 @@
     <line>know him; he is now nearly sixteen</line>
     <line>you know and has <del rend="strikethrough">quite</del> lost that</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan spanTo="#c56-0058.05" xml:id="c56-0058.01"/>
+  <zone type="left_margin" corresp="#c56-0058.01">
+    <addSpan spanTo="#c56-0058.05"/>
     <line>nearly as <del rend="strikethrough">t</del></line>
     <line>after the death</line>
     <line>of your dear</line>

@@ -8,8 +8,7 @@
   <zone type="pagination" rend="bordered">86</zone>
   <zone type="main">
     <line><del rend="strikethrough">astonished him.</del><add hand="#pbs" place="intralinear"
-        next="#c56-0056.01"><del rend="strikethrough">sta</del> persuaded him that my</add><add
-        xml:id="c56-0056.01"><ptr target="#c56-0056.01"/></add></line>
+        next="#c56-0056.01"><del rend="strikethrough">sta</del> persuaded him that my</add><anchor xml:id="c56-0056.02"/></line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="4"/><del rend="strikethrough">It was</del> by very slow
       degrees and with</line>
@@ -44,8 +43,9 @@
     <line><space unit="chars" extent="4"/>"You will repay me," replied Henry,</line>
     <line>"if you do not dis compose yourself;</line>
   </zone>
-  <zone type="left_margin"><addSpan hand="#pbs" xml:id="c56-0056.02" spanTo="#c56-0056.03"/>
-    <line>disorder owed</line>
+  <zone type="left_margin" corresp="#c56-0056.02">
+    <addSpan hand="#pbs" xml:id="c56-0056.01" spanTo="#c56-0056.03"/>
+    <line> disorder owed</line>
     <line>its origin to</line>
     <line>some uncommon</line>
     <line>&#x26; terrible</line>
