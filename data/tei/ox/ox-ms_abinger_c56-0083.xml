@@ -21,7 +21,7 @@
         <del rend="overwritten">h</del>
         <add place="intralinear">H</add>
       </mod>e</line>
-    <line><add><ptr target="#c56-0083.01"/></add>was the murderer! <mod spanTo="c56-0083.02"/>
+    <line><anchor xml:id="c56-0083.01"/>was the murderer! <mod spanTo="c56-0083.02"/>
       <del rend="strikethrough">I<mod>
           <add place="sublinear"><metamark>&#x2038;</metamark></add>
           <add place="superlinear">could not</add>
@@ -33,8 +33,8 @@
       <del rend="strikethrough">was agony<mod>
           <add place="sublinear"><metamark>&#x2038;</metamark></add>
           <add place="superlinear">I was agonized by the bare probability</add>
-        </mod></del><add><ptr target="#c56-0083.03"/></add><anchor xml:id="c56-0083.02"/> &#x2014; I
-      thought of pur</line>
+        </mod></del><anchor xml:id="c56-0083.03"/><anchor xml:id="c56-0083.02"/> &#x2014; I thought
+      of pur</line>
     <line>sueing the devil, but <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear"> it would have been</add>
@@ -59,12 +59,10 @@
       </mod> dark-</line>
     <line>ness. I revolved in my mind <mod spanTo="c56-0083.11"/><delSpan spanTo="#c56-0083.07"
         rend="strikethrough"/>I revolved in</line>
-    <line>my mind<anchor xml:id="c56-0083.07"/><add><ptr target="#c56-0083.10"/></add><anchor
+    <line>my mind<anchor xml:id="c56-0083.07"/><anchor xml:id="c56-0083.10"/><anchor
         xml:id="c56-0083.11"/> the events which I <del rend="strikethrough">u</del> had,</line>
-    <line>untill now, sought to forget. <mod>
-        <add><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c56-0083.08"/></add>
-      </mod> The appearance</line>
+    <line>untill now, sought to forget. <add><metamark function="displacement" xml:id="c56-0083.08"
+          >&#x2038;</metamark></add> The appearance</line>
     <line>of <mod>
         <del rend="strikethrough">the creature</del>
         <add><metamark>&#x2038;</metamark></add>
@@ -97,12 +95,12 @@
       </mod>red during the remainder of the</line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c56-0083.01">therefore</add></line>
+  <zone type="left_margin" corresp="#c56-0083.01">
+    <line><add>therefore </add></line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0083.03" spanTo="#c56-0083.04" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0083.03">
+    <addSpan spanTo="#c56-0083.04" hand="#pbs"/>
     <line>Nothing<add place="superlinear" hand="#pbs">in</add> human</line>
     <line>shape could</line>
     <line>have destroyed</line>
@@ -120,13 +118,13 @@
     <line>fact</line><anchor xml:id="c56-0083.04"/>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c56-0083.10" hand="#pbs">I resolved in my mind</add></line>
+  <zone type="left_margin" corresp="#c56-0083.10">
+    <line><add hand="#pbs">I resolved in my mind</add></line>
   </zone>
   <!--marginal "I resolved in my mind" mistakenly repeated and uncanceled.-->
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0083.08" spanTo="#c56-0083.09" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0083.08">
+    <addSpan spanTo="#c56-0083.09" hand="#pbs"/>
     <line>The whole</line>
     <line>train of my</line>
     <line>progress to-</line>

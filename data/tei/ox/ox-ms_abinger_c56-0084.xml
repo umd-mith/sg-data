@@ -30,7 +30,7 @@
       </mod> whom I</line>
     <line>had cast in among mankind <mod>
         <del rend="strikethrough">for pu</del>
-        <add><ptr target="#c56-0084.01"/></add>
+        <anchor xml:id="c56-0084.01"/>
       </mod></line>
     <line>purposes of <mod>
         <del rend="strikethrough">mischief</del>
@@ -55,10 +55,10 @@
         <del rend="strikethrough">creature</del>
         <add hand="#pbs" place="superlinear">being</add>
       </mod> whom I myself</line>
-    <line>had created and endued with life, <add><ptr target="#c56-0084.04"/></add> The</line>
+    <line>had created and endued with life, <anchor xml:id="c56-0084.04"/> The</line>
     <line><mod>
         <del rend="strikethrough">story</del>
-        <add><ptr target="#c56-0084.06"/></add>
+        <anchor xml:id="c56-0084.06"/>
       </mod> was utterly improbable and I knew</line>
     <line>well that if any other had <mod>
         <del rend="strikethrough">related</del>
@@ -75,7 +75,7 @@
     <line>elude pursuit, even if I were <mod spanTo="#c56-0084.07"/><add place="superlinear"
         hand="#pbs">so far</add><mod>
         <del rend="strikethrough">believed</del>
-        <add><ptr target="#c56-0084.08"/></add>
+        <anchor xml:id="c56-0084.08"/>
       </mod></line>
     <line><del rend="strikethrough" next="#c56-0084.09">which was</del><add place="sublinear"
           ><metamark>&#x2038;</metamark></add>
@@ -87,8 +87,8 @@
         </mod> relatives to commence it</add><anchor xml:id="c56-0084.07"/> &#x2013; <del
         rend="strikethrough">the com</del></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0084.01" spanTo="#c56-0084.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0084.01">
+    <addSpan spanTo="#c56-0084.02" hand="#pbs"/>
     <line>and</line>
     <line>endowed with</line>
     <line>the will &#x26;</line>
@@ -96,8 +96,8 @@
     <line>to effect</line>
     <anchor xml:id="c56-0084.02"/>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0084.04" spanTo="#c56-0084.05" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0084.04">
+    <addSpan spanTo="#c56-0084.05" hand="#pbs"/>
     <line>had met</line>
     <line>me at mid</line>
     <line>night among</line>
@@ -107,10 +107,10 @@
     <line>ble mountain</line>
     <anchor xml:id="c56-0084.05"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0084.06">tale</add></line>
+  <zone type="left_margin" corresp="#c56-0084.06">
+    <line><add>tale</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0084.08">credited</add></line>
+  <zone type="left_margin" corresp="#c56-0084.08">
+    <line><add>credited</add></line>
   </zone>
 </surface>

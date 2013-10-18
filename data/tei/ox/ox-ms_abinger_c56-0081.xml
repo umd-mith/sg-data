@@ -22,7 +22,7 @@
         <add place="superlinear">shut</add>
       </mod> and</line>
     <line>I determined to remain that night at</line>
-    <line>Secheron <add><ptr target="#c56-0081.01"/></add>. The <mod>
+    <line>Secheron <anchor xml:id="c56-0081.01"/>. The <mod>
         <del rend="strikethrough">night</del>
         <add hand="#pbs" place="superlinear">sky</add>
       </mod> was <mod>
@@ -82,8 +82,8 @@
       </mod> flash.</line>
     <line><del rend="strikethrough">A</del> The storm as is often the case in</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0081.01" spanTo="#c56-0081.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0081.01">
+    <addSpan spanTo="#c56-0081.02" hand="#pbs"/>
     <line>a village</line>
     <line>half a league</line>
     <line>to the east</line>

@@ -8,10 +8,10 @@
   <zone type="pagination" rend="bordered">115</zone>
   <zone type="library">40</zone>
   <zone type="main">
-    <line><mod spanTo="#c56-0085.01"/><delSpan spanTo="#c56-0085.02"/>mon people would believe
-      it to</line>
-    <line>be a real devil and who could attempt<anchor xml:id="c56-0085.02"/><add><ptr
-          target="#c56-0084.03"/></add><anchor xml:id="c56-0085.01"/></line>
+    <line><mod spanTo="#c56-0085.01"/><delSpan spanTo="#c56-0085.02"/>mon people would believe it
+      to</line>
+    <line>be a real devil and who could attempt<anchor xml:id="c56-0085.02"/><anchor
+        xml:id="c56-0084.03"/><anchor xml:id="c56-0085.01"/></line>
     <line>a creature <mod>
         <del rend="strikethrough">that could</del>
         <add place="superlinear" hand="#pbs">capable of</add>
@@ -21,12 +21,12 @@
       </mod> the</line>
     <line><mod>
         <del rend="strikethrough">steep</del>
-        <add><ptr target="#c56-0085.05"/></add>
+        <anchor xml:id="c56-0085.05"/>
       </mod> sides of Mont-Sal&#xEA;ve? These</line>
     <line>reflections determined me, and I resolved</line>
     <line>to <mod>
         <del rend="strikethrough">be</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">remain</add>
       </mod> silent.</line>
     <milestone unit="tei:p"/>
@@ -53,7 +53,7 @@
     <line>cheek pale but there was an air of dignity</line>
     <line>and beauty that hardly <mod>
         <del rend="strikethrough">allowed of</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">permitted</add>
       </mod> the</line>
     <line><mod>
@@ -68,14 +68,14 @@
     <line>me &#x2013; "Welcome my dearest Victor," said he,</line>
     <line>ah I wish you had come three <del rend="strikethrough">weeks</del></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0084.03" spanTo="#c56-0084.04" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0084.03">
+    <addSpan spanTo="#c56-0084.04" hand="#pbs"/>
     <line>Besides of what use</line>
     <line>would be pursuit?</line>
     <line>Who could</line>
     <line>arrest</line><anchor xml:id="c56-0084.04"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0085.05" hand="#pbs">overhanging</add></line>
+  <zone type="left_margin" corresp="#c56-0085.05">
+    <line><add hand="#pbs">overhanging</add></line>
   </zone>
 </surface>

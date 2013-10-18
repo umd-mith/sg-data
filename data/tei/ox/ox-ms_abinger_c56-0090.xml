@@ -9,9 +9,9 @@
   <zone type="top"><line>Chap. 11</line></zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="1"/>We were soon joined <mod>
+    <line rend="indent1"><space unit="chars" extent="1"/>We were soon joined <mod>
         <del rend="strikethrough">By</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">by</add>
       </mod> Elizabeth. Time</line>
     <line>had made great alterations in her form since</line>
@@ -26,7 +26,7 @@
     <line>in stature and expression of countenance</line>
     <line>which was uncommonly lovely &#x2014; An open &#x26;</line>
     <line>capacious for<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">e</add>
       </mod>head gave indications of a good</line>
     <line>understanding joined to great frankness. Her</line>
@@ -39,15 +39,15 @@
       </mod>
       <mod>
         <del rend="strikethrough">great</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">of uncommon</add>
       </mod> mildness now</line>
     <line>through recent affliction allied to sadness&#x2013;</line>
     <line>Her hair was of a rich<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">dark</add>
       </mod> auburn<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">her complexion fair</add>
       </mod> and her</line>
     <line>figure sli<mod>
@@ -64,11 +64,11 @@
     <line>perhaps will find out some means to</line>
     <line>justify my poor <mod>
         <del rend="strikethrough">innocent</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">guiltless</add>
       </mod> Justine. Alas</line>
     <line>Who is safe is she were convicted <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">of crime?</add>
         <del rend="strikethrough">for</del>
       </mod></line>

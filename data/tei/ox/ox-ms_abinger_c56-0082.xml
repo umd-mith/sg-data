@@ -65,7 +65,7 @@
     <line><del rend="strikethrough" xml:id="c56-0082.07">discovered to me</del><anchor
         xml:id="c56-0082.06"/> a figure which stole from</line>
     <line>behind a clump of trees near me &#x2013; <mod spanTo="#c56-0082.08"/><add
-        place="superlinear"><metamark>X</metamark></add><add><ptr target="#c56-0082.09"/></add>
+      place="superlinear"><metamark function="displacement" xml:id="c56-0082.09">X</metamark></add>
       <delSpan spanTo="#c56-0082.11" rend="strikethrough"/>I stood</line>
     <line>aghast<anchor xml:id="c56-0082.11"/><anchor xml:id="c56-0082.08"/> its gigantc sta<del
         rend="strikethrough">n</del>ture<mod>
@@ -86,8 +86,8 @@
     <line>whom I had given life. What did he there?</line>
     <line>Could he be (I shuddered at the conception</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0082.09" spanTo="#c56-0082.10"/>
+  <zone type="left_margin" corresp="#c56-0082.09">
+    <addSpan spanTo="#c56-0082.10"/>
     <line>I stood</line>
     <line>fixed gazing</line>
     <line>intently, I</line>

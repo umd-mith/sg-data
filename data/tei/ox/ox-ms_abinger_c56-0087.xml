@@ -9,9 +9,9 @@
   <zone type="library">41</zone>
   <zone type="main">
     <line><mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add hand="#pbs" place="superlinear">can</add></del>
-        <add><ptr target="#c56-0087.01"/></add>
+        <anchor xml:id="c56-0087.01"/>
         <del rend="strikethrough">Myrtella will</del>
       </mod> not be convinced notwith</line>
     <line>standing all the evidence. Indeed who</line>
@@ -29,17 +29,15 @@
     <line><space unit="chars" extent="4"/>"No one did at first," said my brother,</line>
     <line>"but several <mod>
         <del rend="strikethrough">things</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">circumstances</add>
-      </mod> came out, <add><ptr target="#c56-0087.03"/></add> and her</line>
+      </mod> came out, <anchor xml:id="c56-0087.03"/> and her</line>
     <line>"own behaviour <mod>
         <del rend="strikethrough">was so</del>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">has been <del rend="strikethrough">such</del> so</add>
-      </mod> confused <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c56-0087.05"/></add>
-      </mod> but she</line>
+      </mod> confused <add place="sublinear"><metamark function="displacement" xml:id="c56-0087.05"
+          >&#x2038;</metamark></add> but she</line>
     <line>"will tried today and you will then hear</line>
     <line>"all?"</line>
     <milestone unit="tei:p"/>
@@ -73,15 +71,15 @@
     <line>confined to her bed, and after several</line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0087.01" spanTo="#c56-0087.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0087.01">
+    <addSpan spanTo="#c56-0087.02" hand="#pbs"/>
     <line>Elizabeth</line>
     <line>will</line>
     <anchor xml:id="c56-0087.02"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0087.03" spanTo="#c56-0087.04" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0087.03">
+    <addSpan spanTo="#c56-0087.04" hand="#pbs"/>
     <line>will</line>
     <line>forced</line>
     <line>conviction</line>
@@ -89,9 +87,9 @@
     <anchor xml:id="c56-0087.04"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0087.05" spanTo="#c56-0087.06" hand="#pbs"/>
-    <line><metamark>&#x2038;</metamark>
+  <zone type="left_margin" corresp="#c56-0087.05">
+    <addSpan spanTo="#c56-0087.06" hand="#pbs"/>
+    <line><metamark function="displacement">&#x2038;</metamark>
       <del rend="strikethrough">and</del> as</line>
     <line>to add</line>
     <line>to the evidence</line>

@@ -9,8 +9,8 @@
   <zone type="main">
     <line>months ago and then you would have <mod spanTo="#c56-0086.01"/><delSpan
         spanTo="#c56-0086.02" rend="strikethrough"/>been</line>
-    <line>welcomed as you ought<anchor xml:id="c56-0086.02"/><add><ptr target="#c56-0086.03"
-        /></add><anchor xml:id="c56-0086.01"/> &#x2013; But we are now</line>
+    <line>welcomed as you ought<anchor xml:id="c56-0086.02"/><anchor xml:id="c56-0086.03"
+        /><anchor xml:id="c56-0086.01"/> &#x2013; But we are now</line>
     <line><del rend="strikethrough">all of us</del> so unhappy that I am afraid</line>
     <line>tears instead of smiles <mod>
         <del rend="strikethrough">for</del>
@@ -66,8 +66,8 @@
     <line>when she was discovered&#x2013;No one would</line>
     <line><del rend="strikethrough">one</del> believe it at first and even now</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0086.03" spanTo="#c56-0086.04"/>
+  <zone type="left_margin" corresp="#c56-0086.03">
+    <addSpan spanTo="#c56-0086.04"/>
     <line>found</line>
     <line>us all joy</line>
     <line>ous &#x26; de</line>
