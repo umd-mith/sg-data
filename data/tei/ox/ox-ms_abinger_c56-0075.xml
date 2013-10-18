@@ -22,19 +22,18 @@
       </mod>
       <del rend="strikethrough">agony</del> that was</line>
     <line>visible in my countenance revealed</line>
-    <line>the secret to Elizabeth. She was <mod spanTo="#c56-0075.01"/><delSpan
-        rend="strikethrough" spanTo="#c56-0075.02"/>extreme</line>
-    <line>ly<anchor xml:id="c56-0075.02"/><add><ptr target="#c56-0075.03"/></add><anchor
-        xml:id="c56-0075.01"/> earnest to see the corpse. <mod spanTo="#c56-0075.04"/><del
-        rend="strikethrough">which</del><mod>
+    <line>the secret to Elizabeth. She was <mod spanTo="#c56-0075.01"/><delSpan rend="strikethrough"
+        spanTo="#c56-0075.02"/>extreme</line>
+    <line>ly<anchor xml:id="c56-0075.02"/><anchor xml:id="c56-0075.03"/><anchor xml:id="c56-0075.01"
+      /> earnest to see the corpse. <mod spanTo="#c56-0075.04"/><del rend="strikethrough"
+        >which</del><mod>
         <add place="sublinear">&#x2038;</add>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">I</add></del>
       </mod><delSpan spanTo="#c56-0075.05" rend="strikethrough"/>for a</line>
     <line>long time<anchor xml:id="c56-0075.05"/>
-      <del rend="strikethrough">refused</del><add next="#c56-0075.06"><ptr target="#c56-0075.07"
-        /></add><add xml:id="c56-0075.06" place="superlinear" hand="#pbs">attempted to prevent
-        her</add><anchor xml:id="c56-0075.04"/> but <del rend="strikethrough"><unclear unit="chars"
-          extent="1"/></del> she persisted,</line>
+      <del rend="strikethrough">refused</del><anchor xml:id="c56-0075.07"/><add xml:id="c56-0075.06"
+        place="superlinear" hand="#pbs">attempted to prevent her</add><anchor xml:id="c56-0075.04"/>
+      but <del rend="strikethrough"><unclear unit="chars" extent="1"/></del> she persisted,</line>
     <line>and entering the room where it lay</line>
     <line><del rend="strikethrough">quickly</del> hastily examined the neck of</line>
     <line>the victim and clasping her <del rend="strikethrough">hads</del></line>
@@ -69,10 +68,10 @@
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="3"/>Come, dearest Victor, you alone can</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0075.03">very</add></line>
+  <zone type="left_margin" corresp="#c56-0075.03">
+    <line><add>very</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0075.07" hand="#pbs">At first I</add></line>
+  <zone type="left_margin" corresp="#c56-0075.07">
+    <line><add hand="#pbs" next="#c56-0075.06">At first I </add></line>
   </zone>
 </surface>

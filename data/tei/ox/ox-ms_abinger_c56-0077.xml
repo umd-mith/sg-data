@@ -27,10 +27,8 @@
         <del rend="strikethrough">his</del>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">the</add>
-      </mod> eyes<mod>
-        <add place="superlinear">X</add>
-        <add><ptr target="#c56-0077.02"/></add>
-      </mod>&#x2013;"I can offer you</line>
+      </mod> eyes <add place="superlinear"><metamark function="displacement" xml:id="c56-0077.02"
+          >X</metamark></add> &#x2013;"I can offer you</line>
     <line>"no consolation, my friend," said he <del rend="strikethrough">my</del></line>
     <line>"your <mod>
         <del rend="strikethrough">misfortune</del>
@@ -68,9 +66,9 @@
     <line>"Cato wept over the dead body of his</line>
     <line>"brother."</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0077.02" spanTo="#c56-0077.03"/>
-    <line><metamark>X</metamark> of Clerval</line>
+  <zone type="left_margin" corresp="#c56-0077.02">
+    <addSpan spanTo="#c56-0077.03"/>
+    <line><metamark function="displacement">X</metamark>of Clerval</line>
     <line>as he read the</line>
     <line>account of my</line>
     <line>misfortune</line>

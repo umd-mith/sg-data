@@ -24,13 +24,13 @@
         <del rend="strikethrough">the</del>
         <add place="superlinear">a</add>
       </mod> letter <del rend="strikethrough">which was</del> to fix</line>
-    <line><add><ptr target="#c56-0073.01"/></add> your return and I was at first tempted</line>
+    <line><anchor xml:id="c56-0073.01"/>your return and I was at first tempted</line>
     <line>to write a few lines <mod spanTo="#c56-0073.02"/><del rend="strikethrough">only</del>
       <del rend="unmarked">to</del>
       <del rend="strikethrough">fix</del>
       <del rend="strikethrough">that</del><add place="superlinear">merely mentioning the
       day</add></line>
-    <line><del rend="strikethrough">date</del><add><ptr target="#c56-0073.03"/></add><anchor
+    <line><del rend="strikethrough">date</del><anchor xml:id="c56-0073.03"/><anchor
         xml:id="c56-0073.02"/> &#x2013; but that would be <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">a</add>
@@ -73,11 +73,11 @@
     <line>but will simply relate the circumstances</line>
     <line>of the transaction.</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0073.01">the date of</add></line>
+  <zone type="left_margin" corresp="#c56-0073.01">
+    <line><add>the date of </add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0073.03" spanTo="#c56-0073.04"/>
+  <zone type="left_margin" corresp="#c56-0073.03">
+    <addSpan spanTo="#c56-0073.04"/>
     <line>on which</line>
     <line>I should</line>
     <line>expect you</line>

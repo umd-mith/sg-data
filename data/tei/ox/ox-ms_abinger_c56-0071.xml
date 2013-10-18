@@ -15,9 +15,9 @@
         <add place="intralinear">it</add>
       </mod>ional vigour</line>
     <line>from the salubrious air<del rend="strikethrough">,<add place="superlinear"
-            ><metamark>X</metamark></add></del> I breathed,<mod>
-        <add place="superlinear"><metamark>X</metamark></add>
-        <add><ptr target="#c56-0071.01"/></add>
+            ><metamark>X</metamark></add></del> I breathed, <mod>
+        <add place="superlinear"><metamark function="displacement" xml:id="c56-0071.01"
+          >X</metamark></add>
       </mod> and the</line>
     <line>conversation of my friend. Study had before</line>
     <line>rendered me unsocia<mod>
@@ -35,16 +35,16 @@
     <line>your own. A selfish persuit<del rend="strikethrough">e</del> had cramp-</line>
     <line>ed and narrowed <mod>
         <del rend="strikethrough">it</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">me</add>
       </mod> untill your gentle</line>
     <line>ness &#x26; affection warmed &#x26; opened <mod>
         <del rend="strikethrough">it</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">my senses</add>
       </mod>. <delSpan spanTo="#c56-0071.03"/>and</line>
     <line>now<anchor xml:id="c56-0071.03"/> I <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">now</add></del>
       </mod> became the same happy creature</line>
     <line>who a few years ago, loving &#x26; beloved by</line>
@@ -56,17 +56,15 @@
       </mod>
       <delSpan spanTo="#c56-0071.04"/>soul was more fitted than mine</line>
     <line>for feeling delight<anchor xml:id="c56-0071.04"/>
-      <del rend="strikethrough">in</del> inanimate nature <mod>
-        <add place="superlinear"><metamark>X</metamark></add>
-        <add><ptr target="#c56-0071.05"/></add>
-      </mod>&#x2014;</line>
+      <del rend="strikethrough">in</del> inanimate nature <add place="superlinear"><metamark
+          function="displacement" xml:id="c56-0071.05">X</metamark></add> &#x2014;</line>
     <line>A serene sky <del rend="strikethrough">filled</del> and verdant<del rend="strikethrough"
         >s</del> fields</line>
     <line>filled me with extasy.&#x2013;<mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">T</add>
       </mod>he <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">present</add>
       </mod> season was indeed</line>
     <line>divine &#x2013; the flowers of spring <mod>
@@ -87,16 +85,16 @@
         <add place="superlinear">feelings</add>
       </mod> &#x2013; he exer</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0071.01" spanTo="#c56-0071.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0071.01">
+    <addSpan spanTo="#c56-0071.02" hand="#pbs"/>
     <line>the natural</line>
     <line>incidents of</line>
     <line>our progress<metamark>X</metamark></line>
     <anchor xml:id="c56-0071.02"/>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0071.05" spanTo="#c56-0071.06"/>
-    <line><metamark>X</metamark>had the</line>
+  <zone type="left_margin" corresp="#c56-0071.05">
+    <addSpan spanTo="#c56-0071.06"/>
+    <line><metamark function="displacement">X</metamark>had the</line>
     <line>power of bes</line>
     <line><del rend="strikethrough">bo</del> towing on</line>
     <line>me the most</line>

@@ -16,8 +16,8 @@
       </mod>&#x26; accuses herself</line>
     <line><del rend="strikethrough">of all how u</del>
       <del rend="strikethrough">so</del> unjustly <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add next="#c56-0076.02"><ptr target="#c56-0076.01"/></add>
+        <add place="sublinear"><metamark function="displacement" xml:id="c56-0076.01"
+            >&#x2038;</metamark></add>
         <add place="sublinear" hand="#pbs" xml:id="c56-0076.02">cause of his death&#x2013;</add>
       </mod>
       <del rend="strikethrough">and</del> yet her words</line>
@@ -70,8 +70,8 @@
     <line><space unit="chars" extent="4"/>"My dear Frankenstien," exclaimed</line>
     <line><del rend="strikethrough">hen</del> Henry when he saw me weep with</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0076.01" hand="#pbs"><del rend="strikethrough">of th</del> as
-      the</add></line>
+  <zone type="left_margin" corresp="#c56-0076.01">
+    <line><add hand="#pbs" next="#c56-0076.02"><del rend="strikethrough">of th</del> as the
+      </add></line>
   </zone>
 </surface>

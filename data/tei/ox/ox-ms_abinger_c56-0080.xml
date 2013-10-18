@@ -28,11 +28,11 @@
     <line><del rend="strikethrough">of</del> the hundredth part of the anguish</line>
     <line><mod>
         <del rend="strikethrough">I</del>
-        <add><ptr target="#c56-0080.01"/></add>
+        <anchor xml:id="c56-0080.01"/>
       </mod> destined to <del rend="strikethrough">feel</del><del rend="unmarked">.</del>
       endure.</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0080.01">I was</add></line>
+  <zone type="left_margin" corresp="#c56-0080.01">
+    <line><add>I was</add></line>
   </zone>
 </surface>

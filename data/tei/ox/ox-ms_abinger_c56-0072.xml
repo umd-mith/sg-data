@@ -40,12 +40,12 @@
     <line>along with <del rend="strikethrough">a</del> feelings of <mod spanTo="#c56-0072.02"
         /><del rend="strikethrough">hilarity</del>
       <delSpan spanTo="#c56-0072.03" rend="strikethrough"/>unbound</line>
-    <line>ed<anchor xml:id="c56-0072.03"/><add><ptr target="#c56-0072.04"/></add><anchor
+    <line>ed<anchor xml:id="c56-0072.03"/><anchor xml:id="c56-0072.04"/><anchor
         xml:id="c56-0072.02"/> joy and hilarity.</line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c56-0072.04">unbridled</add></line>
+  <zone type="left_margin" corresp="#c56-0072.04">
+    <line><add>unbridled </add></line>
   </zone>
 
   <zone type="main">

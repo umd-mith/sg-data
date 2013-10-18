@@ -46,7 +46,7 @@
         >sought</del></line>
     <line>continued to search <add place="superlinear">for him</add>untill night fell<del
         rend="strikethrough">l</del>;</line>
-    <line><add><ptr target="#c56-0074.01"/></add>Elizabeth conjectured that he might have</line>
+    <line><anchor xml:id="c56-0074.01"/>Elizabeth conjectured that he might have</line>
     <line>returned to the house: <del rend="strikethrough">but</del> he was</line>
     <line>not there &#x2013; We returned again with torches</line>
     <line>for I could not rest when I thought my</line>
@@ -57,14 +57,17 @@
       <mod>
         <del rend="overwritten">a</del>
         <add place="intralinear">A</add>
-      </mod>bout <del rend="strikethrough">four</del><add><ptr target="#c56-0074.02"/></add></line>
+      </mod>bout <mod>
+        <del rend="strikethrough">four</del>
+        <anchor xml:id="c56-0074.02"/>
+      </mod></line>
     <line>in the morning I discovered my lovely</line>
     <line>boy whom the night before I had seen</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0074.01">when</add></line>
+  <zone type="left_margin" corresp="#c56-0074.01">
+    <line><add>when </add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0074.02">seven</add></line>
+  <zone type="left_margin" corresp="#c56-0074.02">
+    <line><add>seven</add></line>
   </zone>
 </surface>
