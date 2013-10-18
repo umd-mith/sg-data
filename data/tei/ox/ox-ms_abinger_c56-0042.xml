@@ -28,7 +28,7 @@
     <line>itself but which had taken a<add place="intralinear">n</add></line>
     <line><mod>
         <del rend="strikethrough">strong</del>
-        <add><ptr target="#c56-0042.02"/></add>
+        <anchor xml:id="c56-0042.02"/>
       </mod> hold of my <del rend="strikethrough">imagni</del> imagination.</line>
     <line>I wished as it were to <del rend="strikethrough">procr</del> procras</line>
     <line>tinate <mod>
@@ -38,8 +38,8 @@
     <line>the great object <mod>
         <del rend="strikethrough">of my affection</del>
         <del rend="strikethrough">was</del>
-        <add place="sublinear" hand="#pbs" next="#c56-0042.03">which swallowed up every habit</add>
-        <add xml:id="c56-0042.03"><ptr target="#c56-0042.04"/></add>
+        <add place="sublinear" hand="#pbs">which swallowed up every habit</add>
+        <anchor xml:id="c56-0042.04"/>
       </mod></line>
     <line>compleated.</line>
     <milestone unit="tei:p"/>
@@ -59,20 +59,20 @@
         <del rend="strikethrough">in the right</del>
         <del rend="strikethrough"><add place="superlinear">in <unclear>co</unclear>
           conceive</add></del>
-        <add><ptr target="#c56-0042.05"/></add>
+        <anchor xml:id="c56-0042.05"/>
       </mod>. A human</line>
     <line>being in perfection ough<add place="intralinear">t</add> always to</line>
     <line>preserve a <del rend="strikethrough">cl</del> calm and peaceful</line>
     <line>mind and never to allow passion</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0042.02">irresistible</add></line>
+  <zone type="left_margin" corresp="#c56-0042.02">
+    <line><add>irresistible</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0042.04">of my nature should be</add></line>
+  <zone type="left_margin" corresp="#c56-0042.04">
+    <line><add xml:id="c56-0042.03"> of my nature should be</add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0042.05" spanTo="#c56-0042.06"/>
+  <zone type="left_margin" corresp="#c56-0042.05">
+    <addSpan spanTo="#c56-0042.06"/>
     <line><metamark>X</metamark> he was in the</line>
     <line>right in conceiv</line>
     <line>ing that I</line>

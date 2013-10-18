@@ -55,6 +55,6 @@
     <line>"know nothing except bookeeping</line>
   </zone>
   <zone type="left_margin">
-    <line><add hand="#pbs"><note>52</note></add></line>
+    <line><add hand="#pbs"><metamark function="count">52</metamark></add></line>
   </zone>
 </surface>

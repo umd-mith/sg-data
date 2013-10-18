@@ -42,7 +42,7 @@
       >perpetually</add> encreased,</line>
     <line><mod>
         <del rend="strikethrough">as</del>
-        <add><ptr target="#c56-0041.01"/></add>
+        <anchor xml:id="c56-0041.01"/>
       </mod> my work <del rend="strikethrough">drew</del> near <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">to</add>
@@ -62,7 +62,7 @@
     <line><mod>
         <del rend="unmarked">s</del>
         <del rend="strikethrough">hut</del>
-        <add><ptr target="#c56-0041.02"/></add>
+        <anchor xml:id="c56-0041.02"/>
       </mod> to the charms of nature &#x26; the</line>
     <line>same feelings which <mod>
         <del rend="strikethrough">caused</del>
@@ -74,10 +74,10 @@
     <line>were so many miles absent and whom</line>
     <line>I had not seen for so long a time.</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0041.01" hand="#pbs">I brought</add></line>
+  <zone type="left_margin" corresp="#c56-0041.01">
+    <line><add hand="#pbs">I brought</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0041.02" hand="#pbs">insensible</add></line>
+  <zone type="left_margin" corresp="#c56-0041.02">
+    <line><add hand="#pbs">insensible</add></line>
   </zone>
 </surface>

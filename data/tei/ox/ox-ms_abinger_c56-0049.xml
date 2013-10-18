@@ -43,7 +43,7 @@
     <line><space unit="chars" extent="7"/>"Because he knows a frightful</line>
     <line><space unit="chars" extent="30"/><metamark>L</metamark>fiend</line><!--text is contained within an "L" bracket to indicate line runover-->
     <line><space unit="chars" extent="7"/>"doth close behind him tread."<metamark
-        target="#c56-0049.02">*</metamark></line>
+        corresp="#c56-0049.02">*</metamark></line>
     <anchor xml:id="c56-0049.01"/>
     <line>Continueing thus, I came at lenght</line>
     <line><mod>

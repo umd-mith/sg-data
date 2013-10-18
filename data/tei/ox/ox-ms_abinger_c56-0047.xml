@@ -26,7 +26,7 @@
     <line>my teeth <del rend="strikethrough">ah</del> chattered and every limb</line>
     <line><mod>
         <del rend="strikethrough">was</del>
-        <add type="superlinear" hand="#pbs">became</add>
+        <add place="superlinear" hand="#pbs">became</add>
       </mod> convul<mod>
         <del rend="overwritten"><unclear unit="chars" extent="1"/></del>
         <add place="intralinear">s</add>
@@ -46,7 +46,7 @@
     <line>jaws opened and he muttered <del rend="strikethrough"><add place="superlinear" hand="#pbs"
           >in</add></del> some <mod>
         <del rend="strikethrough">words</del>
-        <add><ptr target="#c56-0047.02"/></add>
+        <anchor xml:id="c56-0047.01"/>
       </mod></line>
     <line>while a grin wrinkled his cheeks. He</line>
     <line>might have spoken but I did not</line>
@@ -60,7 +60,7 @@
       </mod> I took refuge in</line>
     <line>a court-yard belonging to the house</line>
     <line>which I inhabited; where I remained</line>
-    <line><add><ptr target="#c56-0047.03"/></add>the rest of the night walking up and</line>
+    <line><anchor xml:id="c56-0047.03"/>the rest of the night walking up and</line>
     <line>down in the greatest agitation; listen</line>
     <line>ing attentively, catching and fearing each</line>
     <line>sound as if it were to announce the</line>
@@ -80,12 +80,12 @@
         <add place="superlinear" hand="#pbs">animation</add>
       </mod> could not be</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0047.01" hand="#pbs" spanTo="#c56-0047.02"/>
+  <zone type="left_margin" corresp="#c56-0047.01">
+    <addSpan hand="#pbs" spanTo="#c56-0047.02"/>
     <line>inarticulate</line>
     <line>sounds</line><anchor xml:id="c56-0047.02"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0047.03" hand="#pbs">during</add></line>
+  <zone type="left_margin" corresp="#c56-0047.03">
+    <line><add hand="#pbs">during </add></line>
   </zone>
 </surface>
