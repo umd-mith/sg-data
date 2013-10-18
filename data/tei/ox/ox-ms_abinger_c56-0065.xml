@@ -9,18 +9,18 @@
   <zone type="library">30</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"Dear, dear Elizabeth" I exclaimed</line>
+    <line rend="indent1">"Dear, dear Elizabeth" I exclaimed</line>
     <line>when I had read her letter"&#x2013;I will write</line>
     <line>instantly and relieve them from the</line>
     <line>great pain they must feel."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I wrote, and this exertion greatly</line>
+    <line rend="indent2">I wrote, and this exertion greatly</line>
     <line>fatigued me<add place="intralinear" hand="#pbs">;</add> b<mod>
         <del rend="overwritten">y</del>
         <add place="intralinear">ut</add>
       </mod> my convalescence <mod>
         <del rend="strikethrough">was</del>
-        <add><ptr target="#c56-0065.01"/></add>
+        <anchor xml:id="c56-0065.01"/>
       </mod></line>
     <line>commenced and <mod>
         <del rend="strikethrough">went <add place="superlinear">on</add></del>
@@ -28,9 +28,9 @@
       </mod> regularly&#x2013;in</line>
     <line>another fortnight I was able to</line>
     <line>leave my chamber.</line>
-    <line><metamark>______</metamark></line>
+    <line><metamark function="separate">______</metamark></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0065.01">had</add></line>
+  <zone type="left_margin" corresp="#c56-0065.01">
+    <line><add>had</add></line>
   </zone>
 </surface>

@@ -11,7 +11,7 @@
   <zone type="main">
     <line>one of my first duties on my recovery was</line>
     <line>to introduce Clerval to the <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">several</add>
       </mod> professors of</line>
     <line>the university. And in doing this I under</line>
@@ -38,8 +38,8 @@
         >renewed</add><anchor xml:id="c56-0066.01"/> all <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">the agony of my</add>
-      </mod> my<add place="sublinear"><metamark>&#x2038;</metamark></add> nervous symtoms. <del
-        rend="strikethrough">Lo</del></line>
+      </mod> my<add place="sublinear"><metamark function="insert">&#x2038;</metamark></add> nervous
+      symtoms. <del rend="strikethrough">Lo</del></line>
     <line>Henry saw this and had <mod>
         <del rend="strikethrough">p</del>
         <del rend="strikethrough">packed up</del>
@@ -69,21 +69,21 @@
     <line>the astonishing progress that I had made</line>
     <line>in the sciences. He soon perceived <mod>
         <del rend="strikethrough">my</del>
-        <add><ptr target="#c56-0066.03"/></add>
+        <anchor xml:id="c56-0066.03"/>
       </mod></line>
     <line> dislike<add place="intralinear" hand="#pbs">d</add>
       <del rend="strikethrough">of</del> the subject, but not guessing</line>
     <line>the real cause he attributed <mod>
         <del rend="strikethrough">to</del>
         <del rend="strikethrough">it</del>
-        <add><ptr target="#c56-0066.04"/></add>
+        <anchor xml:id="c56-0066.04"/>
       </mod></line>
     <line>to modesty <del rend="strikethrough">on hearing myself praised</del></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0066.03" hand="#pbs">that I</add></line>
+  <zone type="left_margin" corresp="#c56-0066.03">
+    <line><add hand="#pbs">that I</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0066.04" hand="#pbs">my feelings</add></line>
+  <zone type="left_margin" corresp="#c56-0066.04">
+    <line><add hand="#pbs">my feelings</add></line>
   </zone>
 </surface>

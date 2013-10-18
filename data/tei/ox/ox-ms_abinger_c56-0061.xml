@@ -61,7 +61,7 @@
         <add place="superlinear" hand="#pbs">even</add>
       </mod> now she <del rend="strikethrough">very</del> often <mod>
         <del rend="strikethrough">puts</del>
-        <add><ptr target="#c56-0061.03"/></add>
+        <anchor xml:id="c56-0061.03"/>
       </mod></line>
     <line>me <del rend="strikethrough">in mind</del> of her. <delSpan rend="vertical_line"
         spanTo="#c56-0061.07"/><del rend="strikethrough">You did not</del> observe</line>
@@ -73,8 +73,8 @@
     <line>one was too much occupied in their</line>
   </zone>
   <!-- Zone continued from 0060 -->
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0061.01" spanTo="#c56-0061.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0061.01">
+    <addSpan spanTo="#c56-0061.02" hand="#pbs"/>
     <line>-tinction<del rend="strikethrough">s</del> between</line>
     <line>the classes into</line>
     <line>which human</line>
@@ -104,7 +104,7 @@
     <line>-ty of a human</line>
     <line>being.<anchor xml:id="c56-0061.02"/></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0061.03" hand="#pbs"/>reminds</line>
+  <zone type="left_margin" corresp="#c56-0061.03">
+    <line><add hand="#pbs"/>reminds</line>
   </zone>
 </surface>

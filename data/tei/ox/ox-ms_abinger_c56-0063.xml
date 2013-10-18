@@ -35,8 +35,8 @@
         <del rend="strikethrough">air</del>
         <add place="superlinear" hand="#pbs">mein</add>
       </mod> and</line>
-    <line><add><ptr target="#c56-0063.02"/></add>expressions <del rend="strikethrough">are</del>
-      continually remind me</line>
+    <line><anchor xml:id="c56-0063.02"/>expressions <del rend="strikethrough">are</del> continually
+      remind me</line>
     <line>of my dear Aunt.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="4"/><del rend="strikethrough">And</del> I must say a few words
@@ -52,18 +52,18 @@
     <line>tion I can only say what our visitors</line>
     <line>say a thousand times a day&#x2013;'He is too</line>
     <line>pretty for a boy'.<mod>
-        <add place="superlinear"><metamark>X</metamark></add>
-        <add><ptr target="#c56-0063.03"/></add>
+        <add place="superlinear"><metamark function="displacement" xml:id="c56-0063.03"
+          >X</metamark></add>
       </mod></line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="3"/><del rend="strikethrough">Miss Mansfeld</del> Now, dear
       Victor I dare</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0063.02" hand="#pbs">her</add></line>
+  <zone type="left_margin" corresp="#c56-0063.02">
+    <line><add hand="#pbs">her </add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0063.03" spanTo="#c56-0063.04"/>
+  <zone type="left_margin" corresp="#c56-0063.03">
+    <addSpan spanTo="#c56-0063.04"/>
     <line>He has already</line>
     <line>had one or two</line>
     <line>little <hi rend="underline">wives</hi></line>

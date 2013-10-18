@@ -22,8 +22,8 @@
     <line><del rend="strikethrough">&#x26;</del> Arabic &#x26; Hebrew gained his atten</line>
     <line>tion <mod>
         <del rend="strikethrough">when</del>
-        <add place="superlinear"><metamark>X</metamark></add>
-        <add><ptr target="#c56-0069.01"/></add>
+      <add place="superlinear"><metamark function="displacement" xml:id="c56-0069.01">X</metamark></add>
+        
       </mod> he had become perfect</line>
     <line>ly master of the Greek &#x26; Latin langua</line>
     <line>ges. For my own part idleness had</line>
@@ -65,37 +65,38 @@
     <line>and gardens of roses &#x2013; in the smiles &#x26;</line>
     <line><mod>
         <del rend="strikethrough">tears</del>
-        <add><ptr target="#c56-0069.02"/></add>
+        <anchor xml:id="c56-0069.02"/>
       </mod> of a fair enemy and the fire</line>
     <line>that consumes your own heart</line>
     <line>How different from the man<mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">l</add>
       </mod>y &#x26; <del rend="strikethrough">warlike</del></line>
-    <line><add><ptr target="#c56-0069.03"/></add> poet<mod>
+    <line><anchor xml:id="c56-0069.03"/>poet<mod>
         <del rend="overwritten"><unclear>s</unclear></del>
         <add place="intralinear" hand="#pbs">ry</add>
       </mod> of Greece &#x26; Rome.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Summer passed away in these</line>
+    <line rend="indent2">Summer passed away in these</line>
     <line><mod>
         <del rend="strikethrough">studies</del>
-        <add><ptr target="#c56-0069.04"/></add>
+        <add><anchor xml:id="c56-0069.04"/></add>
       </mod> &#x26; my return to Geneva was</line>
     <line>fixed for the latter end of Autum<mod>
         <del rend="overwritten">m</del>
         <add place="intralinear">n</add>
       </mod> but</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0069.01" hand="#pbs">so soon as <metamark>X</metamark></add></line>
+  <zone type="left_margin" corresp="#c56-0069.01">
+    <line><add hand="#pbs">so soon as <metamark function="displacement">X</metamark></add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0069.02">frowns</add></line>
+  <zone type="left_margin" corresp="#c56-0069.02">
+    <line><add>frowns</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0069.03" hand="#pbs">heroical</add></line>
+  <zone type="left_margin" corresp="#c56-0069.03">
+    <line><add hand="#pbs">heroical </add></line>
   </zone>
-  <zone type="left_margin">' <line><add xml:id="c56-0069.04">occupations</add></line>
+  <zone type="left_margin" corresp="#c56-0069.04">
+    <line><add>occupations</add></line>
   </zone>
 </surface>

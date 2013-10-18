@@ -14,8 +14,8 @@
       </mod> docile <mod spanTo="#c56-0068.01"/><del rend="strikethrough">yet</del><add
         place="superlinear">&#x26;</add>
       <delSpan spanTo="#c56-0068.02" rend="strikethrough"/>weak</line>
-    <line>as my illness had made me<anchor xml:id="c56-0068.02"/><add><ptr target="#c56-0068.03"
-        /></add><anchor xml:id="c56-0068.01"/> his harsh</line>
+    <line>as my illness had made me<anchor xml:id="c56-0068.02"/><anchor xml:id="c56-0068.03"
+        /><anchor xml:id="c56-0068.01"/> his harsh</line>
     <line>blunt econiums gave me even more</line>
     <line>pain <del rend="strikethrough">that</del> than the benevolent</line>
     <line>approbation of M. Waldman &#x2014;"Dam<mod>
@@ -64,8 +64,8 @@
     <line><space unit="chars" extent="3"/>Clerval was no natural philosopher.</line>
     <line>His imagination was too vivid for</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0068.03" spanTo="#c56-0068.04" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0068.03">
+    <addSpan spanTo="#c56-0068.04" hand="#pbs"/>
     <line>in my then</line>
     <line>condition of</line>
     <line>almost in-</line>
