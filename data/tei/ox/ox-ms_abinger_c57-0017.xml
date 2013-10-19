@@ -10,11 +10,11 @@
   <zone type="main">
     <line>yet why were these gentle beings un</line>
     <line>happy &#x2013; they poss<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">ess</add>
       </mod>ed a delightful house</line>
-    <line><add><ptr target="#c57-0017.01"/></add>such <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+    <line><anchor xml:id="c57-0017.01"/>such <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">it</add>
       </mod> was <mod>
         <del rend="strikethrough">it</del>
@@ -28,8 +28,7 @@
     <line>lent clothes and still more they enjoy</line>
     <line>ed one anothers company <add place="superlinear">&amp; speech</add> &#x2014; and <del
         rend="strikethrough">saw</del></line>
-    <line><add><ptr target="#c57-0017.02"/></add>each day looks of affection &amp;
-      kindness&#x2013;</line>
+    <line><anchor xml:id="c57-0017.02"/>each day looks of affection &amp; kindness&#x2013;</line>
     <line>What did their tears mean? Did they</line>
     <line>really express pain? I was at first</line>
     <line>unable to solve these questions but</line>
@@ -39,15 +38,16 @@
     <line><mod>
         <del rend="strikethrough">igmmatic</del>
         <add hand="#pbs" place="superlinear">enigmatic</add>
-      </mod>. <add place="intralinear" hand="#pbs"><note>o you pretty Pecksie!</note></add></line>
+      </mod>. <milestone unit="tei:note" spanTo="#c57-0017.03"/><add place="intralinear" hand="#pbs"
+        >o you pretty Pecksie!</add><anchor xml:id="c57-0017.03"/></line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c57-0017.01">for </add></line>
+  <zone type="left_margin" corresp="#c57-0017.01">
+    <line><add>for </add></line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c57-0017.02">interchanged </add></line>
+  <zone type="left_margin" corresp="#c57-0017.02">
+    <line><add>interchanged </add></line>
   </zone>
 
 </surface>

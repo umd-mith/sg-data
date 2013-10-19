@@ -10,15 +10,15 @@
   <zone type="main">
     <line><mod>
         <del rend="strikethrough">It was some time</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">A considerable period elapsed</add>
       </mod> before I discovered one</line>
-    <line><add><ptr target="#c57-0018.01"/></add>cause<add hand="#pbs">s</add> of the uneasiness of
+    <line><anchor xml:id="c57-0018.01"/>cause<add hand="#pbs">s</add> of the uneasiness of
       this amiable</line>
     <line>family &#x2013; <mod>
         <del rend="strikethrough">It</del>
         <del rend="strikethrough">Itw</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">It</add>
       </mod> was poverty&#x2013; and they suffered</line>
     <line>that evil in a very distressing degree&#x2013; <delSpan spanTo="#c57-0018.02"
@@ -39,7 +39,7 @@
         <del rend="strikethrough">ng</del>
       </mod>
       <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">any</add>
         <del rend="strikethrough">of</del>
       </mod> food for it.</line>
@@ -56,7 +56,7 @@
       old</line>
     <line>man when <mod>
         <del rend="strikethrough">they</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">were</add></del>
       </mod>
       <del rend="strikethrough">themselves in want of it</del></line>
@@ -74,13 +74,13 @@
         <add place="superlinear" hand="#pbs">gathered from</add>
       </mod> a neighbouring <add place="superlinear">wood.</add> I <mod>
         <del rend="strikethrough">found</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">discovered</add>
       </mod> also</line>
     <line>another means by which I was able</line>
     <line>to assist their labours. I found that the</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0018.01" hand="#pbs">of the </add></line>
+  <zone type="left_margin" corresp="#c57-0018.01">
+    <line><add hand="#pbs">of the </add></line>
   </zone>
 </surface>

@@ -55,33 +55,32 @@
         <add place="superlinear" hand="#pbs">thro this chink</add>
       </mod> a</line>
     <line>small room <add hand="#pbs" place="superlinear">was visible,</add> whitewashed <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-      <add place="superlinear">&#x26;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">&#x26;</add>
       </mod> clean but very</line>
     <line>bare of furniture <del rend="strikethrough">&#x26;</del> in <del rend="strikethrough"
         >co</del> one corner near</line>
     <line>a small fire <mod>
         <del rend="strikethrough">I saw</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <mod>
           <del rend="strikethrough"><add place="superlinear">beheld</add></del>
           <add hand="#pbs" place="superlinear">sate</add>
         </mod>
       </mod> an old man <del rend="strikethrough">sitting</del> leaning</line>
     <line>his head on his hand <del rend="smear">&#x2013;</del> in a disconslate atti</line>
-    <line>tude &#x2014;<mod>
-        <add place="superlinear"><metamark>X</metamark></add>
-        <add><ptr target="#c57-0012.01"/></add>
-      </mod> The young girl was <del rend="strikethrough">co</del> occupied in</line>
-    <line>arranging the cottage <mod spanTo="#c57-0012.06"/><del rend="strikethrough"
-        >and</del><add place="superlinear">but presently</add>
+    <line>tude &#x2014; <add place="superlinear"><metamark function="displacement"
+          xml:id="c57-0012.01">X</metamark></add> The young girl was <del rend="strikethrough"
+        >co</del> occupied in</line>
+    <line>arranging the cottage <mod spanTo="#c57-0012.06"/><del rend="strikethrough">and</del><add
+        place="superlinear">but presently</add>
       <delSpan spanTo="#c57-0012.07" rend="strikethrough"/>when that was</line>
     <line>done<anchor xml:id="c57-0012.07"/><anchor xml:id="c57-0012.06"/> she took somthing out of
         <del rend="strikethrough">the</del> a drawer</line>
     <line>which employed her hands <mod>
         <del rend="strikethrough">and</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-      <add place="superlinear">&#x26; sat down beside <del rend="strikethrough">the o</del></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">&#x26; sat down beside <del rend="strikethrough">the o</del></add>
       </mod> the old</line>
     <line>man <add place="superlinear">who</add> taking up an <del rend="strikethrough">instur</del>
       instrument began</line>
@@ -89,9 +88,9 @@
     <line>the voice of the thrush or nightingale.</line>
   </zone>
 
-  <zone type="left_margin">
+  <zone type="left_margin" corresp="#c57-0012.01">
     <delSpan spanTo="#c57-0012.03" rend="strikethrough"/>
-    <addSpan xml:id="c57-0012.01" spanTo="#c57-0012.02"/>
+    <addSpan spanTo="#c57-0012.02"/>
     <line>his hair</line>
     <line>was grey</line>
     <anchor xml:id="c57-0012.02"/>

@@ -10,7 +10,7 @@ href="../../xsl/page-proof.xsl"
   <zone type="main">
     <line>dormant state and I ate some berries</line>
     <line>which I found <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">hanging</add>
       </mod> on the trees or lying on</line>
     <line>the ground &#x2013; I slaked my thirst by the</line>
@@ -21,7 +21,7 @@ href="../../xsl/page-proof.xsl"
       </mod> It was dark when I</line>
     <line>awoke, I felt cold also and half frightened</line>
     <line><mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">as it were instinctively</add>
       </mod> on <del rend="strikethrough">seein</del> finding myself so desolate.</line>
     <line>Before I had quitted you<add place="intralinear">r</add> appartment</line>
@@ -39,7 +39,7 @@ href="../../xsl/page-proof.xsl"
     <line>invade me on all sides <del rend="strikethrough">and</del> I sat down</line>
     <line>and wept.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>Soon a gentle light stole over the</line>
+    <line rend="indent1">Soon a gentle light stole over the</line>
     <line>heavens and gave me a sensation of pleasure</line>
     <line>I started up, and beheld a radiant form</line>
     <line>rise <del rend="strikethrough">am</del> from among the trees. I gazed with</line>

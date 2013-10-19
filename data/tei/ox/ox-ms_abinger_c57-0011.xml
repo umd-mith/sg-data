@@ -25,13 +25,13 @@
         <add place="intralinear">l</add>
       </mod>oor <del rend="strikethrough">of that</del>
       <del rend="strikethrough">being</del></line>
-    <line><add><ptr target="#c57-0011.01"/></add>a little raised <mod>
+    <line><anchor xml:id="c57-0011.01"/>a little raised <mod>
         <del rend="strikethrough"><add place="intralinear">&amp;</add></del>
         <del rend="strikethrough">it</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">so that it</add>
       </mod> was kept <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">perfectly</add>
       </mod> dry and by</line>
     <line>its vicinity to the chimney of the</line>
@@ -48,9 +48,9 @@
     <line>the blea<del rend="strikethrough">c</del>k forest, my former residence,</line>
     <line><del rend="strikethrough">and</del> the<del rend="strikethrough">ir</del> rain dropping <mod>
         <del rend="strikethrough">leaves</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">branches </add>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">&amp; the dank earth</add>
       </mod>. I ate</line>
     <line>my breakfast with pleasure and was</line>
@@ -67,10 +67,10 @@
     <line>I have since found Cottagers and farm</line>
     <line>house servants to be &#x2013; Yet she was mean</line>
     <line>ly dressed &#x2013; a <del rend="strikethrough">blue</del> coarse <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">blue</add>
       </mod> petticoat and a</line>
-    <line><add><ptr target="#c57-0011.02"/></add>jacket being her only garb <del rend="strikethrough"
+    <line><anchor xml:id="c57-0011.02"/>jacket being her only garb <del rend="strikethrough"
         >on</del> her fair hair</line>
     <line>was plaited but not adorned; she looked patient</line>
     <line>yet sad. She passed <del rend="strikethrough">aw</del> away but in a quarter</line>
@@ -78,10 +78,10 @@
     <line>was now partly filled with milk. As she walked</line>
     <line>along seemingly incommoded by the burthen</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0011.01">was </add></line>
+  <zone type="left_margin" corresp="#c57-0011.01">
+    <line><add>was </add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0011.02">linen </add></line>
+  <zone type="left_margin" corresp="#c57-0011.02">
+    <line><add>linen </add></line>
   </zone>
 </surface>

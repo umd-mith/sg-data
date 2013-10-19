@@ -11,7 +11,7 @@
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>The<mod>
         <del rend="strikethrough">y</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">cottagers</add>
       </mod> arose the next morning before</line>
     <line>the sun;&#x2013; The young woman arranged the</line>
@@ -38,7 +38,7 @@
         <add hand="#pbs" place="superlinear">shewed</add>
       </mod> towards this venerable</line>
     <line>old man &#x2013; They performed towards <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">him</add>
       </mod> every</line>
     <line>little office of <mod>

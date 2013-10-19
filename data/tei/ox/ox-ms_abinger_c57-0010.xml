@@ -17,15 +17,15 @@
     <line>remain in the kennel that I had found.</line>
     <line>It was situated <mod>
         <del rend="strikethrough">at</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">against</add>
       </mod> the back of the cottage</line>
     <line>and <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">surrounded</add>
       </mod> on <mod>
         <del rend="strikethrough">its</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="intralinear">the</add>
       </mod>
       <mod>
@@ -38,13 +38,10 @@
       </mod>ear pool of water one</line>
     <line>part was open and by that I had crept</line>
     <line>in but now <del rend="strikethrough">with stones and wood</del> I cover</line>
-    <line>ed every crevice <add xml:id="c57-0010.01" place="superlinear">with stones &#x26;
+    <line>ed every crevice <add corresp="#c57-0010.01" place="superlinear">with stones &#x26;
         wood</add> by which I might be</line>
-    <line>discovered <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c57-0010.01"/></add>
-      </mod> yet in such a manner</line>
-    <!--"with stones & wood" is meant to be placed after "discovered"; need to encode so it doesn't display twice-->
+    <line>discovered <add place="sublinear"><metamark function="displacement" xml:id="c57-0010.01"
+          >&#x2038;</metamark></add> yet in such a manner</line>
     <line>that I could move the<mod>
         <del rend="overwritten">n</del>
         <add place="intralinear">m</add>
@@ -53,7 +50,7 @@
     <line>through the stye and that was suffi</line>
     <line>cient for me.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Having thus arranged my dwelling &#x26;</line>
+    <line rend="indent1">Having thus arranged my dwelling &#x26;</line>
     <line><del rend="strikethrough">spr</del> carpeted it with clean straw, I retired</line>
     <line>for I saw the figure of a man <mod>
         <del rend="strikethrough">in</del>

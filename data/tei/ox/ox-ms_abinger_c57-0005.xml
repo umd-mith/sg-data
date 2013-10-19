@@ -8,8 +8,8 @@
   <zone type="pagination" rend="bordered">4</zone>
   <zone type="library">3</zone>
   <zone type="main">
-    <line><add><ptr target="#c57-0005.01"/></add><del rend="strikethrough">insect</del> insect from
-      the herb, and by de</line>
+    <line><anchor xml:id="c57-0005.01"/><del rend="strikethrough">insect</del> insect from the herb,
+      and by de</line>
     <line>grees one herb from <del rend="strikethrough">a</del> another &#x2013; I found</line>
     <line>that the sparrow uttered none but harsh</line>
     <line>notes <mod>
@@ -19,7 +19,7 @@
       </mod>
       <mod>
         <del rend="strikethrough">that</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">those of</add>
       </mod> the blackbird were sweet</line>
     <line>and enticing. <del rend="strikethrough">I had <unclear>le</unclear></del> one day when I
@@ -28,15 +28,15 @@
     <line>had been left by some wandering beg</line>
     <line>gars and was over come with delight<mod>
         <del rend="overwritten">.</del>
-        <add place="intralinear"><metamark>X</metamark></add>
-        <add><ptr target="#c57-0005.02"/></add>
+        <add place="intralinear"><metamark function="displacement" xml:id="c57-0005.02"
+          >X</metamark></add>
       </mod></line>
     <line>In my joy I thrust my hand into the</line>
-    <line>live embers but quickly drew it away <mod spanTo="#c57-0005.04"/><add
-        place="superlinear">with a cry</add>
+    <line>live embers but quickly drew it away <mod spanTo="#c57-0005.04"/><add place="superlinear"
+        >with a cry</add>
       <del rend="strikethrough">in</del></line>
-    <line><add><ptr target="#c57-0005.05"/></add><anchor xml:id="c57-0005.04"/>pain&#x2013; How
-      strange, I thought, that the</line>
+    <line><anchor xml:id="c57-0005.05"/><anchor xml:id="c57-0005.04"/>pain&#x2013; How strange, I
+      thought, that the</line>
     <line>same cause should at once produce</line>
     <line>such <del rend="strikethrough">delicious and such</del>
       <del rend="strikethrough"><unclear>u</unclear></del>
@@ -54,7 +54,7 @@
       </mod> and itself <del rend="strikethrough">became</del> became</line>
     <line><mod>
         <del rend="strikethrough">hot</del>
-        <add><ptr target="#c57-0005.06"/></add>
+        <anchor xml:id="c57-0005.06"/>
       </mod> I reflected on this, and by touching</line>
     <line>the various branches I discovered the cause</line>
     <line>and busied myself in collecti<mod>
@@ -69,7 +69,7 @@
         hand="#pbs">o</add>
       <add place="intralinear" hand="#pbs">of fire.</add> When night</line>
     <line>came on and <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">brought with it</add>
       </mod> sleep, I was in the greatest</line>
     <line>fear lest my fire should be extinguished</line>
@@ -78,22 +78,22 @@
     <line>branches and then spreading my cloak I <del rend="strikethrough">la</del></line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c57-0005.01">guished the </add></line>
+  <zone type="left_margin" corresp="#c57-0005.01">
+    <line><add>guished the </add></line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c57-0005.02" spanTo="#c57-0005.03" hand="#pbs"/>
-    <line><metamark>X</metamark></line>
-    <line>at the warmth</line>
+  <zone type="left_margin" corresp="#c57-0005.02">
+    <addSpan spanTo="#c57-0005.03" hand="#pbs"/>
+    <line><metamark function="displacement">X</metamark></line>
+    <line> at the warmth</line>
     <line>which I ex-</line>
     <line>perienced from</line>
     <line>it.</line>
     <anchor xml:id="c57-0005.03"/>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c57.0005.05">of </add></line>
+  <zone type="left_margin" corresp="#c57.0005.05">
+    <line><add>of </add></line>
   </zone>
 
   <zone type="left_margin">
@@ -108,8 +108,8 @@
       </figure></add>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c57-0005.06">inflamed.</add></line>
+  <zone type="left_margin" corresp="#c57-0005.06">
+    <line><add>inflamed.</add></line>
   </zone>
 
 </surface>

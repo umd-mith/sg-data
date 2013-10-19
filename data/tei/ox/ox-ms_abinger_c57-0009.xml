@@ -23,13 +23,11 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">dearly</add>
       </mod> bought experience</line>
-    <line>I dared not enter it. My place of refuge <mod>
-        <add place="superlinear"><metamark>X</metamark></add>
-        <add><ptr target="#c57-0009.04"/></add>
-      </mod></line>
+    <line>I dared not enter it. My place of refuge<add place="superlinear"><metamark
+          function="displacement" xml:id="c57-0009.04">X</metamark></add></line>
     <line><delSpan spanTo="#c57-0009.01" rend="vertical_line"/><del rend="strikethrough">was the
         tool house and had not been</del></line>
-    <line><add><ptr target="#c57-0009.02"/></add>used <del rend="strikethrough">for</del> by the
+    <line><anchor xml:id="c57-0009.02"/>used <del rend="strikethrough">for</del> by the
       inhabitants of the ad</line>
     <line>joining dwelling and was entirely shut</line>
     <line>out from view by a pigstye on one</line>
@@ -37,24 +35,13 @@
     <line>on <del rend="strikethrough">the</del> another &#x2013; the two others were</line>
     <line>formed by the wall of the cottage<unclear>.</unclear><anchor xml:id="c57-0009.01"/>
       Here</line>
-    <line><add><ptr target="#c57-0009.03"/></add>I retreated and lay down happy to have</line>
+    <line><anchor xml:id="c57-0009.03"/>I retreated and lay down happy to have</line>
     <line>found a shelter from the inclemency</line>
     <line>of the season &#x26; still more from the</line>
     <line>barbarity of man</line>
-  </zone>
-
-  <zone type="left_margin">
-    <add xml:id="c57-0009.02">was not </add>
-  </zone>
-
-  <zone type="left_margin">
-    <add xml:id="c57-0009.03">then </add>
-  </zone>
-
-  <zone type="main">
-    <addSpan xml:id="c57-0009.04" spanTo="#c57-0009.05"/>
-    <metamark>___________________________</metamark>
-    <line>was constructed of wood, <mod>
+    <line><metamark function="separate">___________________________</metamark></line>
+    <addSpan corresp="#c57-0009.04" spanTo="#c57-0009.05"/>
+    <line> was constructed of wood, <mod>
         <del rend="strikethrough">&#x26;</del>
         <add place="superlinear">but</add>
       </mod> so low that</line>
@@ -70,4 +57,14 @@
     <line>&#x26; rain</line>
     <anchor xml:id="c57-0009.05"/>
   </zone>
+
+  <zone type="left_margin" corresp="#c57-0009.02">
+    <add>was not </add>
+  </zone>
+
+  <zone type="left_margin" corresp="#c57-0009.03">
+    <add>then </add>
+  </zone>
+
+
 </surface>
