@@ -12,7 +12,7 @@
       </mod></line></zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line>I cannot attempt to describe what I</line>
+    <line> I cannot attempt to describe what I</line>
     <line>then felt &#x2013; I had <mod>
         <del rend="strikethrough">had</del>
         <add place="superlinear" hand="#pbs">experienced</add>
@@ -37,7 +37,7 @@
         <add place="superlinear">it</add>
       </mod> ever so decisive."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>When I returned home Elizabeth</line>
+    <line rend="indent2">When I returned home Elizabeth</line>
     <line>eagerly <mod>
         <del rend="strikethrough">enquired</del>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
@@ -53,7 +53,7 @@
     <line>one guilty should escape: but she</line>
     <line>has confessed."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>This was a <del rend="strikethrough">b</del> dire blow to
+    <line rend="indent1">This was a <del rend="strikethrough">b</del> dire blow to
       poor Eliza</line>
     <line>beth who had relied with firmness on</line>
     <line>her innocence. "Alas!" said she "How</line>

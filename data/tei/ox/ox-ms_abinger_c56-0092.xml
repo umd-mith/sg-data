@@ -34,7 +34,7 @@
     <line>a madman and could not have excul</line>
     <line>pated her who suffered through me.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>The <del rend="strikethrough">aff</del> appearance of
+    <line rend="indent1">The <del rend="strikethrough">aff</del> appearance of
       Justine was</line>
     <line>calm. She was dressed in <del rend="strikethrough">morn</del> mourning and</line>
     <line>her countenance, always engaging, was rendered</line>

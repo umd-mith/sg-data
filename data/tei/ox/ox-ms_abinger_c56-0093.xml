@@ -20,7 +20,7 @@
     <line>ful affection seemed to attest her utter</line>
     <line>guiltlessness.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>The trial began <del rend="strikethrough">and</del>
+    <line rend="indent1">The trial began <del rend="strikethrough">and</del>
       <delSpan rend="strikethrough" spanTo="#c56-0093.01"/>listened attentive</line>
     <line>ly wish<anchor xml:id="c56-0093.01"/> and after the advocate against her</line>
     <line>had stated the charge several witnesses</line>
@@ -32,8 +32,8 @@
     <line>der had been committed and towards</line>
     <line>morning had been perceived by a <mod spanTo="#c56-0093.02"/><del rend="strikethrough"
         >farme</del></line>
-    <line><add><ptr target="#c56-0093.03"/></add><anchor xml:id="c56-0093.02"/>woman not far from
-      the spot where</line>
+    <line><anchor xml:id="c56-0093.03"/><anchor xml:id="c56-0093.02"/>woman not far from the spot
+      where</line>
     <line>the body of the murdered child had been</line>
     <line>afterwards found. <del rend="strikethrough">He asked her wh</del>
       <mod>
@@ -41,18 +41,16 @@
         <add place="superlinear" hand="#pbs">The woman</add>
       </mod></line>
     <line>asked <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">her</add>
       </mod> what she did there<add place="intralinear" hand="#pbs">?</add>&#x2013;<mod>
         <del rend="strikethrough">for</del>
         <add place="superlinear" hand="#pbs">but</add>
       </mod> she looked</line>
     <line>very <del rend="strikethrough">stang</del> strangely and only returned a</line>
-    <line>confused<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c56-0093.04"/></add>
-      </mod> answer<del rend="strikethrough">e</del>. <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+    <line>confused <add place="sublinear"><metamark function="displacement" xml:id="c56-0093.04"
+          >&#x2038;</metamark></add> answer<del rend="strikethrough">e</del>. <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough">S</del>
         <add place="superlinear">She</add>
       </mod>
@@ -64,21 +62,21 @@
         <del rend="strikethrough">of</del>
         <add place="superlinear" hand="#pbs">for</add>
       </mod> the child and <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough">enquired</del>
         <add place="superlinear">demanded</add>
       </mod></line>
     <line>earnestly if any thing had been heard con</line>
     <line>cerning him. When the body was brought</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0093.03">market-</add></line>
+  <zone type="left_margin" corresp="#c56-0093.03">
+    <line><add>market-</add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0093.04" hand="#pbs" spanTo="#c56-0093.05"/>
+  <zone type="left_margin" corresp="#c56-0093.04">
+    <addSpan hand="#pbs" spanTo="#c56-0093.05"/>
     <line>&#x26; unin-</line>
     <line>telligible</line>
-    <line><metamark>&#x2038;</metamark></line>
+    <line><metamark function="displacement">&#x2038;</metamark></line>
     <anchor xml:id="c56-0093.05"/>
   </zone>
 </surface>

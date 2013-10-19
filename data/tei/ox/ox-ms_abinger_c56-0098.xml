@@ -10,7 +10,7 @@
       <add place="intralinear">8</add>
     </mod></zone>
   <zone type="main">
-    <line><add><ptr target="#c56-0098.01"/></add>against her I believe and rely <mod>
+    <line><anchor xml:id="c56-0098.01"/>against her I believe and rely <mod>
         <del rend="overwritten">i</del>
         <add place="intralinear">o</add>
       </mod>n</line>
@@ -61,7 +61,7 @@
     <line>tion and when I saw that the popu</line>
     <line>lar voice and the countenance of the</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0098.01">produced</add></line>
+  <zone type="left_margin" corresp="#c56-0098.01">
+    <line><add>produced </add></line>
   </zone>
 </surface>

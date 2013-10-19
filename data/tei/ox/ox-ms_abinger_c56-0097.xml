@@ -10,7 +10,7 @@
   <zone type="main">
     <line>the accused, when although <mod>
         <del rend="strikethrough">uncalled</del>
-        <add><ptr target="#c56-0097.01"/></add>
+        <anchor xml:id="c56-0097.01"/>
       </mod></line>
     <line>she desired permission to speak. "I am"</line>
     <line>said she "the cousin of the unhappy</line>
@@ -74,8 +74,8 @@
         <add place="superlinear">all</add>
       </mod> the evidence</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0097.01" spanTo="#c56-0097.02"/>
+  <zone type="left_margin" corresp="#c56-0097.01">
+    <addSpan spanTo="#c56-0097.02"/>
     <line>violently</line>
     <line>agitated</line>
     <anchor xml:id="c56-0097.02"/>

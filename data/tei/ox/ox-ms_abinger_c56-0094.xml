@@ -24,7 +24,7 @@
     <line>his neck a murmur of indignation</line>
     <line>and horror filled the court.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Justine was then called on for</line>
+    <line rend="indent2">Justine was then called on for</line>
     <line>her defence. <delSpan spanTo="#c56-0094.01"/>God kno who reads all</line>
     <line>hearts knows how<anchor xml:id="c56-0094.01"/> As the trial had</line>
     <line>proceeded her countenance had altered.</line>
@@ -35,7 +35,7 @@
     <line>powers and spoke in an audible although</line>
     <line>variable voice.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>"God knows," she said, "<del rend="strikethrough"
+    <line rend="indent1">"God knows," she said, "<del rend="strikethrough"
         >w</del>ho<add place="intralinear">w</add> entirely I</line>
     <line>am inocent. but I do not pretend to be</line>
     <line>acquitted on account of my protestations</line>

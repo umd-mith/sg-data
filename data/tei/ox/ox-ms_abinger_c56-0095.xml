@@ -11,25 +11,25 @@
     <line>doubtful or suspicious.</line>
     <delSpan spanTo="#c56-0095.01" rend="vertical_line"/>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>By the permission of Mad<hi rend="sup"><hi
-          rend="underline">ll</hi>e</hi> Lavenza</line>
+    <line rend="indent2">By the permission of Mad<hi rend="sup"><hi rend="underline">ll</hi>e</hi>
+      Lavenza</line>
     <line>I passed the evening with an aunt at</line>
     <line>Ch&#234;ne. One of my cousins returning from</line>
     <line>Geneva said that he had been at the</line>
     <line>house of M. Frankenstein and</line><anchor xml:id="c56-0095.01"/>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>She then related that by the</line>
+    <line rend="indent2">She then related that by the</line>
     <line>permission of Elizabeth she had passed</line>
     <line>the evening of the night on which the</line>
     <line>murder was perpetrated at <mod>
         <del rend="strikethrough">M</del>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">the house of</add>
       </mod> an aunt</line>
     <line>who resided in Ch&#234;ne a village about</line>
     <line>a league from Geneva. On her return</line>
-    <line><add><ptr target="#c56-0095.02"/></add>about nine o'clock she met a <del
-        rend="strikethrough">servant</del></line>
+    <line><anchor xml:id="c56-0095.02"/>about nine o'clock she met a <del rend="strikethrough"
+        >servant</del></line>
     <line>man who asked her if she had seen</line>
     <line>any thing of the child who was lost. She</line>
     <line>was frightened at this account<add place="intralinear" hand="#pbs">,</add> and
@@ -38,7 +38,7 @@
     <line>the gates of Geneva were shut and she</line>
     <line><mod>
         <del rend="strikethrough">passed</del>
-        <add><ptr target="#c56-0095.03"/></add>
+        <anchor xml:id="c56-0095.03"/>
       </mod> s<hi rend="underline">e</hi>veral hours of the night<add place="superlinear">in</add>
       a</line>
     <line>cottage, but unable to rest or sleep, she</line>
@@ -63,11 +63,13 @@
     <line>William. Concerning the picture she</line>
     <line>could give no account. "I know," continued</line>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0095.02">at</add>
+  <zone type="left_margin" corresp="#c56-0095.02">
+    <add>at </add>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0095.03"><add place="sublinear" hand="#pbs"
-      ><metamark>&#x2038;</metamark></add>remain<del rend="strikethrough">ed</del><add
-        place="superlinear" hand="#pbs">was forced to</add></add></zone>
+  <zone type="left_margin" corresp="#c56-0095.03">
+    <mod>
+      <add place="sublinear" hand="#pbs"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="superlinear" hand="#pbs">was forced to </add>
+      <add>remain<del rend="strikethrough">ed</del></add>
+    </mod></zone>
 </surface>
