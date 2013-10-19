@@ -9,12 +9,12 @@
   <zone type="main">
     <line>I am only induced to make it by reason &amp; virtue.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Yet I cannot ask you to renounce your</line>
+    <line rend="indent2">Yet I cannot ask you to renounce your</line>
     <line>country &amp; friends to fulfil this <add hand="#pbs" place="superlinear"
       >task,</add>&#x2013;And <del rend="strikethrough">y</del> now that</line>
     <line>you<del rend="strikethrough">r</del> are returning to England you have little</line>
     <line>chance of me<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">e</add>
       </mod>ting <add hand="#pbs" place="superlinear">with</add> him.&#x2013; But the
       consideration</line>
@@ -26,23 +26,23 @@
         <add place="intralinear">are</add>
       </mod> already disturbed</line>
     <line>by <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">the near approach of</add>
       </mod> death &#x2013; I dare not ask you <del rend="strikethrough">do</del> to do what</line>
     <line>I think right for I may still be misled</line>
     <line>by passion.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>That he should live to <del rend="strikethrough"
+    <line rend="indent2">That he should live to <del rend="strikethrough"
         >destroy</del>
       <del rend="strikethrough">&amp;</del> be</line>
     <line>the means of misery disturbs me else</line>
     <line>this hour when I <del rend="strikethrough">h</del> momentarily expect</line>
     <line><mod>
         <del rend="strikethrough">death</del>
-        <add><ptr target="#c57-0180.01"/></add>
+        <anchor xml:id="c57-0180.01"/>
       </mod> is the only happy one I have<del rend="strikethrough">n</del></line>
     <line>enjoyed for <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">several</add>
       </mod> years. The forms of the beloved</line>
     <line>dead flit before me and I hasten to</line>
@@ -54,13 +54,13 @@
     <line>myself been blasted in these hopes but</line>
     <line>another may succeed."&#x2013;</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>His voice became fainter &amp;</line>
+    <line rend="indent2">His voice became fainter &amp;</line>
     <line>exhausted with <mod>
         <del rend="strikethrough">the</del>
         <add place="superlinear" hand="#pbs">his</add>
       </mod> effort he <mod>
         <del rend="strikethrough">became</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">sunk <del rend="strikethrough"
           ><unclear>ult</unclear></del>into</add>
       </mod></line>
@@ -73,14 +73,14 @@
     <line>and his eyes closed while a gentle smile</line>
     <line>played on his lips.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Marg<mod>
+    <line rend="indent2">Marg<mod>
         <del rend="overwritten">e</del>
         <add place="intralinear">a</add>
       </mod>ret &#x2013; What can I <del rend="strikethrough"><unclear unit="chars" extent="1"
         /></del> say&#x2014;Can I</line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add hand="#pbs" xml:id="c57-0180.01">my release</add></line>
+  <zone type="left_margin" corresp="#c57-0180.01">
+    <line><add hand="#pbs">my release</add></line>
   </zone>
 </surface>

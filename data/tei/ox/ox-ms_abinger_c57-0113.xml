@@ -26,7 +26,7 @@
     <line>before me for ever I shudder to reflect</line>
     <line>on it.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Some hours passed thus&#x2013;But by</line>
+    <line rend="indent2">Some hours passed thus&#x2013;But by</line>
     <line>degrees, as the sun <mod>
         <del rend="strikethrough">verged</del>
         <add place="superlinear">declined</add>
@@ -50,10 +50,10 @@
     <line>we have of life even in the excess of</line>
     <line>misery. <mod spanTo="#c57-0113.01"/><delSpan rend="strikethrough"
         spanTo="#c57-0113.02"/>I steered my boat towards the shore</line>
-    <line>and<anchor xml:id="c57-0113.02"/><add><ptr target="#c57-0113.03"/></add><anchor
+    <line>and<anchor xml:id="c57-0113.02"/><anchor xml:id="c57-0113.03"/><anchor
         xml:id="c57-0113.01"/> constructed another sail with a</line>
     <line>part of my dress &amp; eagerly st<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">e</add>
       </mod>ered my course</line>
     <line>towards the lan<mod>
@@ -61,7 +61,7 @@
         <add place="intralinear">d</add>
       </mod>. It had a wild rocky</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0113.03">I</add></line>
+  <zone type="left_margin" corresp="#c57-0113.03">
+    <line><add> I</add></line>
   </zone>
 </surface>

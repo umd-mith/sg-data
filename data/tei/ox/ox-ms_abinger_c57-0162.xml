@@ -11,7 +11,7 @@
     <line>hard &amp; miserable hours will you spend</line>
     <line>untill that period arrives"&#x2014;</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Scoffing Devils! Again do I vow vengeance</line>
+    <line rend="indent1">Scoffing <unclear reason="case">D</unclear>evils! Again do I vow vengeance</line>
     <!--"Devils" could be "devils"-->
     <line>again do I devote thee miserable fiend to</line>
     <line>torture &amp; death never will I <mod>
@@ -24,7 +24,7 @@
       </mod> &#x2013; And then with what</line>
     <line>extacy shall I <del rend="strikethrough">fe</del> join my Elizabeth &amp;</line>
     <line>those who even <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">now</add>
       </mod> prepare for me <mod>
         <del rend="strikethrough">a</del>
@@ -37,12 +37,12 @@
       horrible</line>
     <line>pilgrimage</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="8"/>As I pursed <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+    <line rend="indent2">As I pursed <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">still</add>
       </mod> my journey <del rend="strikethrough">still</del> to the</line>
     <line>northward<del rend="strikethrough">s</del> the snows <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">thickened,</add>
       </mod> &amp; cold encreased <delSpan rend="strikethrough" spanTo="#c57-0162.01"/>to an</line>
     <line>almos<anchor xml:id="c57-0162.01"/>
@@ -59,7 +59,7 @@
     <line>encreased with the difficulty of my labours</line>
     <line>One <del rend="strikethrough">en</del> inscription that he left was in</line>
     <line>these words &#x2013; Prepare &#x2013; your toils only begin &#x2013;</line>
-    <line>Wrap yourself in furs &amp; provide food for</line>
+    <line><unclear reason="case">W</unclear>rap yourself in furs &amp; provide food for</line>
     <!--"Wrap" could be "wrap"-->
     <line>we shall soon enter on a journey where</line>
     <line>you sufferings will satisfy my <add place="superlinear">everlasting</add> hat<mod>

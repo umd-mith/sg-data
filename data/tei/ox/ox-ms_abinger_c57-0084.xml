@@ -18,7 +18,7 @@
     <line> was agreed that this tour should occu</line>
     <line> py the space of two years.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>My father pleased himself</line>
+    <line rend="indent2">My father pleased himself</line>
     <line>with the reflection that I should</line>
     <line>be united to Elizabeth immediately</line>
     <line>on my return to Geneva. These two</line>
@@ -32,10 +32,10 @@
     <line>tic <del rend="strikethrough"><retrace cause="clarify">felicity</retrace></del><del
         rend="unmarked">.</del> calm.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I am content, I replied with</line>
+    <line rend="indent2">I am content, I replied with</line>
     <line>your arrangement. By that time</line>
     <line>we shall <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">both</add>
       </mod> have <del rend="strikethrough">both</del> become wiser</line>
     <line>and I hope happier than we <mod>

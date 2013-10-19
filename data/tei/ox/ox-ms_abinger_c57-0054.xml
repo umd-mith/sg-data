@@ -29,7 +29,7 @@
     <line>heard no motion. I cannot describe the</line>
     <line>agony I felt during this suspense.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Presently two countrymen past by</line>
+    <line rend="indent2">Presently two countrymen past by</line>
     <line>but pausing near the cottage they enterred</line>
     <line>into conversation using violent gestures</line>
     <line>I did not understand what they said for</line>
@@ -49,7 +49,8 @@
         >unfair</add> advantage</line>
   </zone>
 
-  <zone type="left_margin"><add><figure>
+  <zone type="left_margin">
+    <add><figure>
         <figDesc>Large Z; possible pen or ink trial</figDesc>
       </figure></add></zone>
 </surface>

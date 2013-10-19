@@ -9,7 +9,7 @@
   <zone type="library">50</zone>
   <zone type="main">
     <line>with <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">the</add>
       </mod> good humour expected from a</line>
     <line>guest and accordingly I told Cl<mod>
@@ -25,7 +25,7 @@
     <line>I may be absent a month or two, but do</line>
     <line>not interfere with my motions I entreat</line>
     <line>you; leave <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">me</add>
       </mod> to peace &amp; solitude for</line>
     <line>a short time &amp; when I return I</line>

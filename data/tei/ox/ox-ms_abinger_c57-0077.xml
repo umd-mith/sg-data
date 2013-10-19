@@ -21,8 +21,9 @@
         spanTo="#c57-0077.01"/><del rend="strikethrough" next="#c57-0077.02">&amp; only</del><add
         place="superlinear" hand="#pbs" next="#c57-0077.03">but</add></line>
     <line><del xml:id="c57-0077.02" rend="strikethrough">bring</del><add place="superlinear"
-        hand="#pbs" xml:id="c57-0077.03">draw</add><anchor xml:id="c57-077.01"/> down <del
-        rend="strikethrough" instant="true">trem</del> treble misery on us</line>
+        hand="#pbs" xml:id="c57-0077.03">draw</add><anchor xml:id="c57-077.01"/><anchor
+        xml:id="c57-0077.04"/> down <del rend="strikethrough" instant="true">trem</del> treble
+      misery on us</line>
     <line>all.</line>
     <milestone unit="tei:p"/>
     <line rend="indent1">I trembled violently at this exordium,</line>
@@ -72,7 +73,7 @@
     <line>and prospects are entirely bound up in</line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add hand="#pbs">but</add></line>
+  <zone type="left_margin" corresp="#c57-0077.04">
+    <line><del rend="unmarked"><add hand="#pbs">but</add></del></line>
   </zone>
 </surface>

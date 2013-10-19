@@ -10,7 +10,7 @@
   <zone type="main">
     <line>beany evil to me?</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Nothing indeed <del rend="strikethrough">said M<hi
+    <line rend="indent2">Nothing indeed <del rend="strikethrough">said M<hi
           rend="underline"><hi rend="sup">r</hi></hi> Kirwin</del> could</line>
     <line>be more unfortunate <add place="superlinear">&#x26; agonizing</add> than the
       strange</line>
@@ -26,7 +26,7 @@
     <line>your path&#x2014; <del rend="strikethrough">I What a</del>
       <del rend="strikethrough">Could such incidents</del></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>As M<hi rend="sup">r</hi>. Kirwin said this,
+    <line rend="indent1">As M<hi rend="sup">r</hi>. Kirwin said this,
       notwithstanding</line>
     <line>the agitation that I <del rend="strikethrough">fel</del> endured on this</line>
     <line>retrospect of my sufferings&#x2013;I also felt</line>
@@ -41,23 +41,23 @@
     <line>send to your relations an account of your</line>
     <line>misfortune and illness. I found several letters</line>
     <line>among others one <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">which I</add>
       </mod> discovered by its commence</line>
     <line>ment to be from your father &#x2013; I instant</line>
     <line>ly wrote to Geneva &#x2013; nearly two months has</line>
     <line>passed since the departure of my letter &#x2014;</line>
     <line>But you are ill &#x2013; even now you tremble</line>
-    <line><add><ptr target="#c57-0125.01"/></add>appear unfit for agitation of any kind.</line>
+    <line><anchor xml:id="c57-0125.01"/>appear unfit for agitation of any kind.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="7"/>This suspence, <del rend="strikethrough">I cried</del> is
+    <line rend="indent2">This suspence, <del rend="strikethrough">I cried</del> is
       a thousand</line>
     <line>times worse than the most horrible</line>
     <line>event &#x2013;Tell me what new scene of dea<del rend="strikethrough">l</del>th</line>
     <line>has been acted &#x26; whose murder I am</line>
     <line>now to lament.</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0125.01" hand="#pbs">You </add></line>
+  <zone type="left_margin" corresp="#c57-0125.01">
+    <line><add hand="#pbs">You </add></line>
   </zone>
 </surface>

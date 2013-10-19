@@ -11,7 +11,7 @@
     <line>path through the chasm of the mountains</line>
     <line>&amp; the glens of the lower hills. The <mod>
         <del rend="strikethrough">Mountains</del>
-        <add><ptr target="#c57-0146.01"/></add>
+        <anchor xml:id="c57-0146.01"/>
       </mod></line>
     <line>he<mod>
         <add place="intralinear">r</add>
@@ -23,15 +23,15 @@
     <line>of Evian shone under the woods that</line>
     <line>surrounded it &amp; the range of mountain</line>
     <line>above mountain <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">by</add>
       </mod> which <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">it </add>
         <add place="superlinear" hand="#pbs">was</add>
       </mod> overhung <del rend="strikethrough">it</del>.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>The wind which had hitherto carried</line>
+    <line rend="indent2">The wind which had hitherto carried</line>
     <line>us along with amazing rapidity sunk</line>
     <line>at sunset to a gentle breeze &#x2013; the light</line>
     <line>air just ruffled the water &amp; caused a</line>
@@ -52,7 +52,7 @@
     <line><del rend="strikethrough" xml:id="c57-0146.04">water</del><del rend="unmarked">.</del>
       <add hand="#pbs" place="intralinear">forever.</add><anchor xml:id="c57-0146.02"/></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0146.01">Alps </add></line>
+  <zone type="left_margin" corresp="#c57-0146.01">
+    <line><add>Alps</add></line>
   </zone>
 </surface>

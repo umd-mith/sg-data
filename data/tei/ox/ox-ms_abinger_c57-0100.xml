@@ -11,12 +11,12 @@
   </zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="8"/>Having parted from my friend I deter</line>
+    <line rend="indent2">Having parted from my friend I deter</line>
     <line>mined to visit some remote spot of <del rend="strikethrough">this</del></line>
     <line>Scotland and finish my work in solitude.</line>
     <line>I did not doubt but that the monster</line>
     <line>followed me, and would <del rend="strikethrough">be</del> discover himself</line>
-    <line><add><ptr target="#c57-0100.01"/></add>when I should have finished, <mod>
+    <line><anchor xml:id="c57-0100.01"/>when I should have finished, <mod>
         <del rend="strikethrough">to</del>
         <add hand="#pbs" place="superlinear">that he might </add>
       </mod> receive his</line>
@@ -24,7 +24,7 @@
     <line>the north<add place="intralinear">ern</add> highlands and fixed on one of the</line>
     <line>Orkney Islands for the scene of my labours.</line>
     <line><del rend="strikethrough">I was</del> It was a place fitted for such <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">a</add>
       </mod> work;</line>
     <line>being hardly more than a rock whose high</line>
@@ -54,13 +54,13 @@
     <line>hinges. I ordered it to be repaired, <del rend="strikethrough">&amp;</del> bought</line>
     <line>some furniture &amp; took possession &#x2013; an</line>
     <line>incident which would have <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">doubtless</add>
       </mod> occasioned</line>
     <line>some surprise had not all the <del rend="strikethrough">th</del> senses</line>
     <line>of the cottagers been benumbed by want</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0100.01" hand="#pbs">to me, </add></line>
+  <zone type="left_margin" corresp="#c57-0100.01">
+    <line><add hand="#pbs">to me, </add></line>
   </zone>
 </surface>

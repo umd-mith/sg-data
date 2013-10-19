@@ -10,7 +10,7 @@
   <zone type="main">
     <line>my mind with the face of reality.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/><del rend="strikethrough">But</del>
+    <line rend="indent2"><del rend="strikethrough">But</del>
       <mod>
         <del rend="overwritten">a</del>
         <add place="intralinear">A</add>
@@ -35,11 +35,11 @@
     <line>but utter carelessness was visible in</line>
     <line>the first &#x26; the <mod>
         <del rend="strikethrough">marks</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">expression</add>
       </mod> of brutality <mod>
         <del rend="strikethrough">were</del>
-        <add><ptr target="#c57-0123.01"/></add>
+        <anchor xml:id="c57-0123.01"/>
       </mod></line>
     <line>strongly impressed on the visage of</line>
     <line>the second &#x2013; <del rend="strikethrough">Besides</del> who could be</line>
@@ -49,7 +49,7 @@
       to</line>
     <line>die by his hands.<anchor xml:id="c57-0123.02"/></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>These were my first reflections</line>
+    <line rend="indent2">These were my first reflections</line>
     <line>but I soon learned that M<hi rend="sup">r</hi>.. Kir</line>
     <line>win had shewn me extreme</line>
     <line>kindness &#x2013; He had caused the best room</line>
@@ -69,13 +69,13 @@
         <add place="intralinear">l</add>
       </mod>ong intervals.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>One day when I was gradually re</line>
+    <line rend="indent1">One day when I was gradually re</line>
     <line>covering <mod>
         <del rend="strikethrough">&#x26;</del>
         <add place="superlinear" hand="#pbs">I was</add>
       </mod> seated in a chair, my eyes half</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0123.01">was </add></line>
+  <zone type="left_margin" corresp="#c57-0123.01">
+    <line><add>was </add></line>
   </zone>
 </surface>

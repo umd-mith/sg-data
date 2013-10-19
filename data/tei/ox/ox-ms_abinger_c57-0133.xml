@@ -10,10 +10,10 @@
   <zone type="main">
     <line>Justine &#x26; Henry, they all died by my hand</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="8"/>My father had often during my</line>
+    <line rend="indent2">My father had often during my</line>
     <line>late confinement heard <damage type="inkblot">m</damage>e make the</line>
-    <line>same Assertion <delSpan spanTo="#c57-0133.01" rend="strikethrough"/>&#x26; his
-      astonishment</line><!--"Assertion could be "assertion"-->
+    <line>same <unclear reason="case">A</unclear>ssertion <delSpan spanTo="#c57-0133.01" rend="strikethrough"/>&#x26; his
+      astonishment</line>
     <line>was extreme<anchor xml:id="c57-0133.01"/>. When <mod>
         <del rend="strikethrough">he</del>
         <add place="superlinear" hand="#pbs">I</add>
@@ -47,7 +47,7 @@
     <line>My dear son, I entreat you not to make</line>
     <line>so strange an assertion again.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>I am not mad, I cried energetically,</line>
+    <line rend="indent1">I am not mad, I cried energetically,</line>
     <line>the sun &#x26; the heavens who have view</line>
     <line>ed my operations can bear witness of</line>
     <line>my truth. I was the assassin of those</line>

@@ -21,7 +21,7 @@
     <line>ferings from whatsoever cause they</line>
     <line>might spring.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>For myself I was passive in all</line>
+    <line rend="indent2">For myself I was passive in all</line>
     <line>their arrangements, and the gentle</line>
     <line>affection of my beloved Elizabeth was</line>
     <line>inadequate to draw me from the</line>
@@ -32,8 +32,7 @@
     <line>crites. all pleasures of earth or sky</line>
     <line>passed before me as a dream &amp; that</line>
     <line>one thought only had to me the</line>
-    <line>reality of life. Can you wonder that</line>
-    <!--CR reads "You"-->
+    <line>reality of life. Can <unclear reason="case">y</unclear>ou wonder that</line>
     <line>sometimes a kind of insanity possessed</line>
     <line>me or that I saw about me a</line>
     <line>multitude of filthy animals inflic</line>
@@ -41,7 +40,7 @@
     <line>often extorted <del rend="strikethrough">from</del> screams &amp;</line>
     <line>bitter groans.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>By degrees however these</line>
+    <line rend="indent2">By degrees however these</line>
     <line>feelings became calmed. I entered</line>
     <line>again into the every day of life if</line>
     <line>not with interrest at least with</line>

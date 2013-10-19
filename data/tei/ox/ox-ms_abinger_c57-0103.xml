@@ -32,12 +32,11 @@
       who</line>
     <line>confine her eyes or wishes<anchor xml:id="c57-0103.01"/>. She might</line>
     <line>quit him and he be again alone <mod><del rend="strikethrough">with</del><add
-      place="sublinear"><metamark>&#x2038;</metamark></add><add><ptr target="#c57-0103.02"
-      /></add></mod></line>
+      place="sublinear"><metamark function="displacement" xml:id="c57-0103.02">&#x2038;</metamark></add></mod></line>
     <line>the fresh provocation of being deserted</line>
     <line>by one of his own species.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="7"/>Even if they were to leave Europe</line>
+    <line rend="indent2">Even if they were to leave Europe</line>
     <line>&amp; inhabit the desarts of the new world,</line>
     <line><del rend="strikethrough">I</del> it was their intention to have children</line>
     <line>and a race of devils would be propagated</line>
@@ -53,7 +52,7 @@
     <line>been moved by his fiendish threats &amp; now</line>
     <line>for the first time the wickedness <del rend="strikethrough">&amp; utter</del></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0103.02" hand="#pbs">exasperated by </add></line>
+  <zone type="left_margin" corresp="#c57-0103.02">
+    <line><add hand="#pbs">exasperated by </add></line>
   </zone>
 </surface>

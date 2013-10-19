@@ -25,7 +25,7 @@
     <line>old man and by my representa</line>
     <line>tions win him to my party.&#x2014;</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>These thoughts calmed me &amp;</line>
+    <line rend="indent2">These thoughts calmed me &amp;</line>
     <line>in the afternoon I sunk into a</line>
     <line>profound sleep&#x2013; but the fever</line>
     <line>of my blood did not <del rend="strikethrough">pe</del> allow of</line>
@@ -34,7 +34,7 @@
         <del rend="overwritten">d</del>
         <add place="intralinear" hand="#pbs">ble</add>
       </mod> scene of the <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">preceeding</add>
       </mod> day <mod>
         <del rend="strikethrough">before</del>

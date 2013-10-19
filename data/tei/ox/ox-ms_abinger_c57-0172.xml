@@ -13,7 +13,7 @@
     <line>which however they may be afterwards</line>
     <line>modified are never <mod>
       <del rend="strikethrough">entirely changed</del>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
       <add place="superlinear">eradicated</add>
     </mod> and they</line>
     <line>can judge of our actions with greater</line>
@@ -33,7 +33,7 @@
     <line>Eliszabeth or the conversation of Cler</line>
     <line>val will be ever whispered <mod>
       <del rend="strikethrough">to</del>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
       <add place="superlinear" hand="#pbs">in</add>
     </mod> my ear.</line>
     <line>They are dead &amp; but one feeling <mod>
@@ -55,10 +55,10 @@
     <line>destiny &#x2013;I must pursue &amp; destroy the</line>
     <line><mod>
       <del rend="strikethrough">creature</del>
-      <add><ptr target="#c57-0172.01"/></add>
+      <anchor xml:id="c57-0172.01"/>
     </mod> to whom I gave existence then</line>
     <line>my task will be fulfilled &amp; I may die.</line>
-    <line><space unit="chars" extent="25"/>August <mod>
+    <line rend="right">August <mod>
       <del rend="overwritten">27</del>
       <add place="intralinear">31</add>
     </mod><hi rend="sup"><hi rend="underline">th</hi></hi></line>
@@ -68,14 +68,14 @@
       <add place="intralinear">S</add>
     </mod>ister</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>I write to you encompassed by peril</line>
+    <line rend="indent1">I write to you encompassed by peril</line>
     <line>and ignorant if I am ever doomed to</line>
     <line>see again <del rend="strikethrough">my</del> dear England &amp; the dearer</line>
     <line>friends that inhabit it. I am surrounded</line>
     <line>by mountains of ice which admit of no</line>
     <line>escape and threaten every moment to</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0172.01">being</add></line>
+  <zone type="left_margin" corresp="#c57-0172.01">
+    <line><add>being</add></line>
   </zone>
 </surface>

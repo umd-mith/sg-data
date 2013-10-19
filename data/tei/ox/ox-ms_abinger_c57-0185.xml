@@ -15,7 +15,7 @@
         <add place="intralinear">s</add>
       </mod>, <del rend="strikethrough">while</del> I am quite alone.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>You who call Frankenstein your friend <add
+    <line rend="indent1">You who call Frankenstein your friend <add
         place="intralinear">&amp;</add></line>
     <line>seem to have a knowledge of my crimes &amp;</line>
     <line>his misfortunes &#x2013; But in the detail that</line>
@@ -52,8 +52,8 @@
     <line>&amp; hated! Even now my blood boils at</line>
     <line>the memory of this injustice &#x2013;</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>But it is true <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+    <line rend="indent1">But it is true <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">that</add>
       </mod> I am a wretch. I have</line>
     <line>murdered the lovely &amp; the helpless. I have</line>
@@ -63,7 +63,7 @@
     <line>ed <add place="superlinear">him</add> even to his <del rend="strikethrough">death</del>
       destruction &#x2013; You hate</line>
     <line>me but your a<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">b</add>
       </mod>horrence cannot equal</line>
     <line>mine for myself&#x2013;I look on my hands that</line>

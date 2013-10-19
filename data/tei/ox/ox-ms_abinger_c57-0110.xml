@@ -9,7 +9,7 @@
   <zone type="main">
     <line>year had <mod>
         <del rend="strikethrough">passed</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">elapsed</add>
       </mod> since we had quitted Switzerland</line>
     <line>and France was yet unvisited. He entreated me</line>
@@ -18,15 +18,15 @@
     <line>time when we might arrange <del rend="strikethrough">our</del> the plan</line>
     <line>of our future proceedings. This letter complete</line>
     <line>ly recalled <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">me</add>
       </mod> to life &amp; I determined to quit my</line>
     <line>island <del rend="strikethrough">the next day</del>. at the expiration of two days</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Yet before I departed there was a task</line>
+    <line rend="indent2">Yet before I departed there was a task</line>
     <line>to perform on which I shuddered to <mod spanTo="#c57-0110.01"/><del
         rend="strikethrough">think</del></line>
-    <line><add><ptr target="#c57-0110.02"/></add><anchor xml:id="c57-0110.01"/>I must pack my
+    <line><anchor xml:id="c57-0110.02"/><anchor xml:id="c57-0110.01"/>I must pack my
       chemical instruments</line>
     <line>&amp; for that purpose I must enter the room</line>
     <line>which had been the scene of my odious</line>
@@ -53,11 +53,11 @@
     <line>ployed in cleaning &amp; arranging my chemical</line>
     <line>apparatus.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Nothing <del rend="strikethrough">w</del> could be more
+    <line rend="indent1">Nothing <del rend="strikethrough">w</del> could be more
       complete than</line>
     <line>the alteration that had taken place in</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0110.02">reflect: </add></line>
+  <zone type="left_margin" corresp="#c57-0110.02">
+    <line><add>reflect: </add></line>
   </zone>
 </surface>

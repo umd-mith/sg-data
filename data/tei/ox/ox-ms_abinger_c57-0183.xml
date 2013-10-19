@@ -12,10 +12,9 @@
     <line>to my <del rend="strikethrough">ye</del> ear. My heart was made for love &amp;</line>
     <line>sympathy and when wrenched <del rend="strikethrough">to</del> by misery to</line>
     <line>vice &amp; hatred it did not not endure the vio</line>
-    <line>lence of the change without torture <mod>
-        <add place="superlinear" hand="#pbs">such as you <metamark>X</metamark></add>
-        <add><ptr target="#c57-0183.01"/></add>
-      </mod> &#x2013; When</line>
+    <line>lence of the change without torture <add place="superlinear" hand="#pbs">such as
+          you<metamark function="displacement" xml:id="c57-0183.01">X</metamark></add> &#x2013;
+      When</line>
     <line>Clerval died I returned to Switzerland <delSpan spanTo="#c57-0183.02" rend="strikethrough"
         /><unclear>how</unclear></line>
     <line>many <unclear>ti</unclear><anchor xml:id="c57-0183.02"/> heart broken &amp; overcome
@@ -23,7 +22,7 @@
     <line>Frankenstein and his bitter sufferings &#x2013; my</line>
     <line>pity amounted to horror &#x2013; I abhorred my</line>
     <line>self &#x2013; But when I saw that <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">he</add>
       </mod> again <del rend="strikethrough">he</del> dared</line>
     <line><add place="intralinear">to</add> hope for happiness&#x2013; That while he heaped</line>
@@ -44,33 +43,30 @@
       </mod> &#x2013; There is my last vic</line>
     <line>tim.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>I was touched by the expressions of his</line>
+    <line rend="indent1">I was touched by the expressions of his</line>
     <line>misery <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">yet</add>
       </mod> I remembered what Frankenstein</line>
     <line>had said of his eloquence &amp; persua</line>
     <line>sion &#x2013; &amp; when I again cast my eyes on</line>
-    <line><mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c57-0183.03"/></add>
-      </mod>my friend<del rend="erased">s</del>
+    <line><add place="sublinear"><metamark function="displacement" xml:id="c57-0183.03"
+          >&#x2038;</metamark></add>my friend<del rend="erased">s</del>
       <del rend="strikethrough">form</del> my indignation was</line>
-    <add place="sublinear">&#x2038;</add>
     <line>kindled &#x2013; Wretch I said, It is well that</line>
     <line>you come here to whine over the mise</line>
     <line>ry you have created &#x2013; you throw a torch</line>
     <line>among a pile of buildings &amp; when they</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c57-0183.01" spanTo="#c57-0183.04" hand="#pbs"/>
-    <line><metamark>X</metamark></line>
+  <zone type="left_margin" corresp="#c57-0183.01">
+    <addSpan spanTo="#c57-0183.04" hand="#pbs"/>
+    <line><metamark function="displacement">X</metamark></line>
     <line> cannot</line>
     <line>even im</line>
     <line>agine</line>
     <anchor xml:id="c57-0183.04"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0183.03">the form <add place="superlinear">of</add></add></line>
+  <zone type="left_margin" corresp="#c57-0183.03">
+    <line><add>the form of </add></line>
   </zone>
 </surface>

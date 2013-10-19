@@ -37,10 +37,10 @@
       </mod>ad</line>
     <line>money with me.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>As I turned the promontory I discovered</line>
+    <line rend="indent2">As I turned the promontory I discovered</line>
     <line>a small neat town &#x2013; <del rend="strikethrough">a</del> and a good harbour</line>
     <line>which I entered, my heart bounding with</line>
-    <line>joy at my unexpected escape. <milestone unit="tei:p"/><metamark>[</metamark>As I <del
+    <line>joy at my unexpected escape. <milestone unit="tei:p"/><metamark function="paragraph">[</metamark>As I <del
         rend="strikethrough">fi</del> was</line>
     <line>occupied in fixing the boat and ar arranging</line>
     <line>the sails several <damage type="inkblot">peo</damage>ple crowded towards</line>
@@ -59,7 +59,7 @@
         <add place="superlinear">town</add>
       </mod> is; &amp; where I am.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/> You will know that soon enough, re-</line>
+    <line rend="indent2">You will know that soon enough, re-</line>
     <line>plied a<del rend="strikethrough">n</del> man with a gruff voice; May be</line>
     <line>you are come to a place that will</line>
     <line>not prove much to your taste &#x2013; But</line>

@@ -10,11 +10,11 @@
     <line>the instrument he sat absorbed</line>
     <line>in reflection.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="7"/>My heart beat quick. This</line>
+    <line rend="indent2">My heart beat quick. This</line>
     <line>was the hour &amp; moment of trial</line>
     <line>which <mod>
         <del rend="strikethrough">was to</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">would</add>
       </mod> decide my <del rend="strikethrough">fea</del> hopes</line>
     <line><del rend="strikethrough">or</del>
@@ -31,20 +31,20 @@
     <line>my limbs failed me, and I sunk</line>
     <line>to the ground. Again I rose and</line>
     <line><mod>
-        <add><ptr target="#c57-0046.01"/></add>
         <del rend="strikethrough">with with</del>
+        <anchor xml:id="c57-0046.01"/>
       </mod> all of the firm<mod>
         <del rend="overwritten"><unclear>e</unclear></del>
         <add place="intralinear">n</add>
       </mod>ess <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">of which</add>
       </mod> I</line>
     <line>was master <del rend="strikethrough">of</del> removed the planks</line>
     <line>which I had placed before my</line>
     <line>hovel to conceal my retreat &#x2013; The</line>
     <line>fresh air revived me and with</line>
-    <line>renewed determination I approach</line>
+    <line>renew<add place="intralinear">ed</add> determination I approach</line>
     <!--"ed" possibly added in "renewed"-->
     <line>ed the door of the cottage. I knock</line>
     <line>ed &#x2013; "who is there?" said the old</line>
@@ -61,13 +61,13 @@
         <del rend="strikethrough">out</del>
         <add place="superlinear" hand="#pbs">from home,</add>
       </mod> and <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">as</add>
       </mod> I am blind</line>
     <line>I am afraid <del rend="strikethrough">therefore</del> I shall find it</line>
     <line>difficult to procure food for you"&#x2013;</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0046.01">exerting </add></line>
+  <zone type="left_margin" corresp="#c57-0046.01">
+    <line><add>exerting </add></line>
   </zone>
 </surface>

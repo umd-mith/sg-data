@@ -21,13 +21,13 @@
       <add place="superlinear" hand="#pbs">such</add>
     </mod> was</line>
     <line>the fact stole across me; I <mod>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
       <add place="superlinear" hand="#pbs">wished that I</add>
     </mod> might pass my</line>
     <line>life on this barren rock wearily it is true</line>
     <line>but uninterrupted by any sudden shock</line>
     <line>of misery &#x2013;If I returned <mod>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
       <add place="superlinear">it was</add>
     </mod> to be <del rend="strikethrough">myself a</del> sa</line>
     <line>crificed or to see those I most loved die</line>
@@ -50,10 +50,10 @@
     <line>knell, they appeared like a dream, yet</line>
     <line>distinct and o<add place="intralinear">p</add>pressive as a reality.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>The <del rend="strikethrough">T</del> sun was far
+    <line rend="indent1">The <del rend="strikethrough">T</del> sun was far
       descended and I still</line>
     <line>sat on the shore satisfying my ap<mod>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
       <add place="superlinear">p</add>
     </mod>etite</line>
     <line>which was become ravenous with an</line>
@@ -63,7 +63,7 @@
     <line>me a packet; it contained letters from</line>
     <line>Geneva &amp; one from Cl<mod>
       <del rend="strikethrough">ai</del>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
       <add place="superlinear">e</add>
     </mod>rval entreating me</line>
     <line>to <del rend="strikethrough">g</del> join him. He said <del rend="strikethrough">a</del>

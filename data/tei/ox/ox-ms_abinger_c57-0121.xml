@@ -11,13 +11,13 @@
     <line>neck &amp; screamed aloud with agony &amp; terror.</line>
     <line>Fortunately as I spoke my native tongue</line>
     <line>M<hi rend="sup">r</hi>. Kirwin alone understood <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">me</add>
       </mod>. But my gestures</line>
     <line>and bitter cries were sufficient, to affright</line>
     <line>the other witnesses.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="8"/>Why did I not die? More miserable</line>
+    <line rend="indent2">Why did I not die? More miserable</line>
     <line>than man ever was before why did I</line>
     <line>not sink into rest &amp; forgetfullness? Death</line>
     <line>snatches away many blooming chil<damage type="inkblot">dre</damage>n the</line>
@@ -29,11 +29,11 @@
     <line>decay of the tomb! Of what materials was I</line>
     <line>made <del rend="strikethrough">w</del> that I could thus resist so many</line>
     <line>shocks which like the turning of the wheel</line>
-    <line><add><ptr target="#c57-0121.01"/></add>renewed the torture.</line>
+    <line><anchor xml:id="c57-0121.01"/>renewed the torture.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>But I was doomed to live &amp; in two</line>
+    <line rend="indent2">But I was doomed to live &amp; in two</line>
     <line>months found myself <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">as</add>
       </mod> awaking from a</line>
     <line>dream, in a prison, stretched on a wretched</line>
@@ -42,7 +42,7 @@
     <line>I<add place="intralinear">t</add> was morning I remember when I th<retrace cause="clarify"
         >u</retrace>s awoke</line>
     <line><damage type="inkblot">I h</damage>ad forgotten <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">the particulars of</add>
       </mod> what had happened &amp; only</line>
     <line>felt as if some great misery had over</line>
@@ -57,11 +57,11 @@
     <line>countenance expressed all those bad qua</line>
     <line><space/>lities which <mod>
         <del rend="strikethrough">usually</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">often</add>
       </mod> characterize <del rend="strikethrough">that</del></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0121.01">continually </add></line>
+  <zone type="left_margin" corresp="#c57-0121.01">
+    <line><add>continually </add></line>
   </zone>
 </surface>

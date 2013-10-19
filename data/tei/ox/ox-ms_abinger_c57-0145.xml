@@ -13,7 +13,7 @@
     <line>to the conqueror that <del rend="strikethrough">d</del> should dare invade</line>
     <line>it.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="1"/>I took the hand of Elizabeth &#x2013; You are sor</line>
+    <line rend="indent1">I took the hand of Elizabeth &#x2013; You are sor</line>
     <line>rowful, said I, ah my love, if you knew what</line>
     <line>I have <del rend="strikethrough">endu</del> suffered &amp; what I may still</line>
     <line>endure you would endeavour to <del rend="strikethrough">all</del> let</line>
@@ -21,7 +21,7 @@
     <line>that this one day at least permits me</line>
     <line>to enjoy.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Be happy, my dear Victor, <restore type="stetdots"
+    <line rend="indent2">Be happy, my dear Victor, <restore type="stetdots"
         spanTo="#c57-0145.02"/><delSpan spanTo="#c57-0145.01" rend="strikethrough"/>replied
       Eliza</line>
     <line>beth<anchor xml:id="c57-0145.01"/><anchor xml:id="c57-0145.02"/> &#x2014; there is I hope
@@ -42,9 +42,9 @@
     <line>at the bottom. What a divine day; how</line>
     <line>happy &amp; serene all nature appears!</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Thus Elizabeth endeavoured to divert</line>
+    <line rend="indent2">Thus Elizabeth endeavoured to divert</line>
     <line>her thoughts &amp; mine from <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">all reflection on</add>
       </mod> melancholy</line>
     <line>subjects but her temper was fluctuating.</line>
@@ -52,7 +52,7 @@
     <line>but it continually gave place to distrac</line>
     <line>tion &amp; reverie.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>The sun<del rend="strikethrough">k</del> sunk lower in the
+    <line rend="indent1">The sun<del rend="strikethrough">k</del> sunk lower in the
       heavens</line>
   </zone>
 </surface>

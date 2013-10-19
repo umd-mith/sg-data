@@ -80,5 +80,6 @@
     <anchor xml:id="c57-0079.03"/>
   </zone>
 
-  <zone type="left_margin"><add><metamark function="sequence">5</metamark></add></zone>
+  <zone type="left_margin">
+    <add><metamark function="sequence">5</metamark></add></zone>
 </surface>

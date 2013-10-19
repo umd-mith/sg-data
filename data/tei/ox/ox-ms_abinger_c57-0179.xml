@@ -41,7 +41,7 @@
     <line>destroyed my friend &#x2013; <milestone unit="tei:seg" xml:id="c57-0178.02"
         spanTo="#c57-0179.03"/>beings who <mod>
         <del rend="strikethrough">had</del>
-        <add><ptr target="#c57-0179.01"/></add>
+        <anchor xml:id="c57-0179.01"/>
       </mod></line>
     <line>sensations &#x2013; happiness &amp; wisdom<anchor xml:id="c57-0179.03"/>
       <milestone unit="tei:seg" xml:id="c57-0179.04" spanTo="#c57-0179.05"/>he</line>
@@ -51,9 +51,9 @@
           <ptr target="#c57-0179.04"/>
           <ptr target="#c57-0179.02"/>
         </transpose>
-      </listTranspose> Nor do I know</line>
+      </listTranspose> <unclear reason="case">N</unclear>or do I know</line>
     <!--"Nor" could be "nor"-->
-    <line>Where this thirst for <del rend="strikethrough">g</del> vengeance</line>
+    <line><unclear reason="case">W</unclear>here this thirst for <del rend="strikethrough">g</del> vengeance</line>
     <!--"Where" could be "where"-->
     <line>may end. Miserable himself, that</line>
     <line>he may render <mod>
@@ -71,7 +71,7 @@
     <line>asked you to undertake my unfinished</line>
     <line>work and I renew this request now when</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0179.01" hand="#pbs">possessed exquisite</add></line>
+  <zone type="left_margin" corresp="#c57-0179.01">
+    <line><add hand="#pbs">possessed exquisite</add></line>
   </zone>
 </surface>

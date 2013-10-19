@@ -17,30 +17,30 @@
     <line>friends whom I seek &#x2013; Do not you</line>
     <line>des<mod>
         <del rend="strikethrough">a</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">e</add>
       </mod>rt me in the hour of trial<mod>
         <del rend="overwritten">&#x2013;</del>
         <add place="intralinear">!</add>
       </mod>.&#x2013;</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Great God! exclaimed the old</line>
+    <line rend="indent1">Great God! exclaimed the old</line>
     <line>man &#x2013; Who are you?</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>At that instan<mod>
+    <line rend="indent1">At that instan<mod>
         <del rend="overwritten">d</del>
         <add place="intralinear">t</add>
       </mod> the cottage</line>
     <line>door opened and Felix, <mod spanTo="#c57-0050.01"/><del rend="strikethrough"
         >Maimouna</del></line>
-    <line><add><ptr target="#c57-0050.02"/></add><anchor xml:id="c57-0050.01"/>and Agatha entered
+    <line><anchor xml:id="c57-0050.02"/><anchor xml:id="c57-0050.01"/>and Agatha entered
       &#x2013; Who can</line>
     <line>describe their horro<mod>
         <del rend="overwritten">w</del>
         <add place="intralinear">r</add>
       </mod> and ast<damage type="inkblot">o</damage></line>
     <line>nishment on beholding <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">me</add>
       </mod> &#x2013;Agatha</line>
     <line>fainted &amp; <mod>
@@ -63,7 +63,7 @@
     <line>general tumult, escaped unper</line>
     <line>ceived to my hovel.</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0050.02">Safie </add></line>
+  <zone type="left_margin" corresp="#c57-0050.02">
+    <line><add>Safie </add></line>
   </zone>
 </surface>

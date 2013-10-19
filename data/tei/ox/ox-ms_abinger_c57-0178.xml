@@ -16,9 +16,9 @@
     <line>reply. He asked again &#x2013; They shout I said be</line>
     <line>cause they will soon return to England.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Do you then really return.</line>
+    <line rend="indent2">Do you then really return.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Alas yes. I cannot with<del rend="strikethrough"
+    <line rend="indent2">Alas yes. I cannot with<del rend="strikethrough"
       >a</del>stand their</line>
     <line>demands &#x2013; I cannot lead them <del rend="strikethrough">to danger</del></line>
     <line>unwi<mod>
@@ -26,7 +26,7 @@
         <add place="intralinear">ll</add>
       </mod>ingly <add place="superlinear">to dangerer</add> &amp; I must return.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>Do so if you will, <del rend="strikethrough">said my
+    <line rend="indent2">Do so if you will, <del rend="strikethrough">said my
         friend,</del> but</line>
     <line>I will not. You may give up your pur</line>
     <line>pose but mine is assigned to b<mod>
@@ -38,7 +38,7 @@
     <line>sinking down<del rend="strikethrough">g</del> again<anchor xml:id="c57-0178.01"/> but
       surely the <mod spanTo="#c57-0178.02"/><delSpan spanTo="#c57-0178.03" rend="strikethrough"
       />minis</line>
-    <line>ters<anchor xml:id="c57-0178.03"/><add><ptr target="#c57-0178.04"/></add><anchor
+    <line>ters<anchor xml:id="c57-0178.03"/><anchor xml:id="c57-0178.04"/><anchor
         xml:id="c57-0178.02"/> who assist my vengeance will endow</line>
     <line>me with sufficient strength &#x2013; Saying</line>
     <line>this endeavoured to spring from the bed</line>
@@ -74,7 +74,7 @@
     <line>told me that my friend had certainly</line>
     <line>not many hours to live.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>His sentence was pronounced &amp; I</line>
+    <line rend="indent2">His sentence was pronounced &amp; I</line>
     <line>could only grieve &amp; be <del rend="strikethrough">pass</del> patient. I</line>
     <line>sat by <del rend="strikethrough">he</del> his bed watching him &#x2013;his eyes</line>
     <line>were closed and I thought he slept. But</line>
@@ -82,7 +82,7 @@
     <line>and bidding me come near said&#x2013; Alas! the</line>
     <line>strength I relied on is gone &#x2013; I feel that I</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0178.04">spirits</add></line>
+  <zone type="left_margin" corresp="#c57-0178.04">
+    <line><add>spirits</add></line>
   </zone>
 </surface>

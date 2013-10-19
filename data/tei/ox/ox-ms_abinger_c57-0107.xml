@@ -12,12 +12,12 @@
     <line>and soon the bolt will fall which will</line>
     <line>ravish from you your happiness for ever.</line>
     <line>Are you to <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">be</add>
       </mod> happy while I grovel in the</line>
     <line>intensity of my wretchedness. You <mod>
         <del rend="strikethrough">destroy</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">can blast</add>
       </mod> my</line>
     <line>other passions but revenge remains; revenge</line>
@@ -30,14 +30,14 @@
     <line>its venom. Man, you shall repent</line>
     <line>of the injuries you inflict.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="8"/>Devil, I cried, Cease, &amp; do not</line>
+    <line rend="indent2">Devil, I cried, Cease, &amp; do not</line>
     <line>poison the air with those sounds</line>
     <line>of malice. I have declared my resolution</line>
     <line>to you and I am no coward to bend</line>
     <line>beneath words &#x2013; Leave me, I am inexo</line>
     <line>rable.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>It is well, said he, I go; but remem</line>
+    <line rend="indent1">It is well, said he, I go; but remem</line>
     <line>ber! I shall be with you on your</line>
     <line>marriage night.</line>
   </zone>

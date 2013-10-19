@@ -26,14 +26,14 @@
     <line>with his request. Turning to him</line>
     <line>therefore I said.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="7"/>I consent to your demand on</line>
+    <line rend="indent2">I consent to your demand on</line>
     <line>you solemn oath to quit Europe &amp;</line>
     <line>every other place in the neighbourhood</line>
     <line>of mam as soon as I shall deliver</line>
     <line>into you hands a female who is to</line>
     <line>accompany you in your exile.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I swear, he cried, by the sun &amp; by</line>
+    <line rend="indent2">I swear, he cried, by the sun &amp; by</line>
     <line>the <mod>
         <del rend="strikethrough">clouds</del>
         <add place="superlinear">blue sky of heaven</add>
@@ -46,7 +46,7 @@
     <line>you are ready for me <add place="superlinear" hand="#pbs"><unclear>but</unclear>
         that</add> I shall appear.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Saying this he suddenly quitted me</line>
+    <line rend="indent2">Saying this he suddenly quitted me</line>
     <line>fearful perhaps of any change in</line>
     <line>my sentiments. I saw him descend</line>
     <line>the mountain with greater speed than</line>
@@ -54,7 +54,7 @@
     <line>him among the undulations of the</line>
     <line>sea of ice.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>His tale had occupied the whole day</line>
+    <line rend="indent1">His tale had occupied the whole day</line>
     <line>and the sun was upon the <del rend="strikethrough">ve</del> verge</line>
     <line>of the horizon when he departed. I knew</line>
     <line>that I ought to hasten to descend to the</line>

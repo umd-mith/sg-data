@@ -14,7 +14,7 @@
     <line>panions. How can you who long for the love</line>
     <line>&amp; sympathy of <mod>
         <del rend="strikethrough">human being</del><del rend="unmarked">s</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">man</add>
       </mod> persevere in</line>
     <line>this exile? You will return and seek</line>
@@ -25,7 +25,7 @@
     <line>task of destruction. Begone; I cannot</line>
     <line>consent.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>The Monster replied with fervour,</line>
+    <line rend="indent2">The Monster replied with fervour,</line>
     <line>How inconstant are your feelings; but</line>
     <line>a moment ago you were moved by</line>
     <line>my representations, &amp; why do you again</line>
@@ -42,20 +42,20 @@
     <line>moments I shall not curse my</line>
     <line>maker.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>His words had a strange effect</line>
+    <line rend="indent2">His words had a strange effect</line>
     <line>upon me. I compassionated him &amp;</line>
     <line>sometimes felt a wish to console him</line>
     <line>but when I looked on him when I saw</line>
     <line>the filthy mass that moved &amp; talked</line>
     <line>my heart sickend &amp; my feelings were</line>
     <line>altered to <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">those</add>
       </mod> horror &amp; hatred. I tried to</line>
     <line>stifle them I thought that as I could</line>
     <line>not <mod>
         <del rend="strikethrough">comfort</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">sympathize</add></del>
       </mod>
       <del rend="strikethrough">him I h</del>

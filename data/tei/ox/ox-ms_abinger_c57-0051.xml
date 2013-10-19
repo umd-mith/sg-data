@@ -9,7 +9,7 @@
   <zone type="library">26</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="10"/>Cursed, Cursed Creator! Why</line>
+    <line rend="indent3">Cursed, Cursed Creator! Why</line>
     <line>did I <del rend="strikethrough">lif</del> live why in that instant</line>
     <line>did I not extinguish the spark of</line>
     <line>existence which you had so wantonly</line>
@@ -35,7 +35,7 @@
     <line>I was like a wild beast in the toils;</line>
     <line><mod>
         <del rend="strikethrough">tearing</del>
-        <add><ptr target="#c57-0051.02"/></add>
+        <anchor xml:id="c57-0051.02"/>
       </mod> the objects that obstructed</line>
     <line>me <mod>
         <del rend="strikethrough">with</del>
@@ -49,7 +49,7 @@
     <line>above <add place="superlinear">me</add> and now and then the sweet</line>
     <line>voice of a bird burst forth anidst</line>
     <line>the universal stillness.&#x2013; All <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">save I</add>
       </mod> were</line>
     <line>at rest or in enjoyment <del rend="strikethrough">but I.</del>
@@ -61,12 +61,12 @@
     <line>self unsympathized with, I <del rend="strikethrough">wi</del> wished</line>
     <line>to tear <mod>
         <del rend="strikethrough">of</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">up</add>
       </mod> the trees, <del rend="strikethrough"><unclear extent="1" unit="chars"/></del> spread
       havock</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c57-0051.02">destroying </add></line>
+  <zone type="left_margin" corresp="#c57-0051.02">
+    <line><add>destroying </add></line>
   </zone>
 </surface>

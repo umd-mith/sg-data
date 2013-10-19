@@ -18,7 +18,7 @@
     <line>an arrowy swiftness &amp; was soon lost amidst the</line>
     <line>waves.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>All was again silent; but his words rung in</line>
+    <line rend="indent2">All was again silent; but his words rung in</line>
     <line>my ears; I burnt with rage to pursue the</line>
     <line>murderer of my peace &amp; precipitate him into</line>
     <line>the ocean. I walked up &amp; down my room hastily</line>
@@ -39,7 +39,7 @@
       <del rend="overwritten">o</del>
       <add place="intralinear">I</add>
     </mod>n that <mod>
-      <add place="sublinear"><metamark>&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
       <add place="superlinear">hour</add>
     </mod> I should die and at</line>
     <line>once satisfy and extinguish his malic<retrace cause="clarify">e</retrace>. <delSpan
@@ -56,7 +56,7 @@
     <line>ed from my eyes &amp; I resolved not to fall before</line>
     <line>my enemy without a bitter struggle.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>The night passed away &amp; the sun rose</line>
+    <line rend="indent1">The night passed away &amp; the sun rose</line>
     <line>from the ocean &#x2013; My feelings became calmer</line>
     <line>if it may be called calmness when the</line>
     <line>violence of rage sinks into the depths of</line>

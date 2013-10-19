@@ -11,7 +11,7 @@
     <line>and honor can<del rend="strikethrough">d</del> never willingly continue to en</line>
     <line>dure their present hardships.</line>
     <milestone unit="tei:p"/>
-    <line><milestone unit="tei:date" spanTo="#c57-0177.01"/>September 7<hi rend="underline"><hi
+    <line rend="right"><milestone unit="tei:date" spanTo="#c57-0177.01"/>September 7<hi rend="underline"><hi
           rend="sup">th</hi></hi><anchor xml:id="c57-0177.01"/></line>
     <line>The die is cast. I have consented to return if we</line>
     <line>are not destroyed. Thus are my hopes blasted&#x2013;</line>
@@ -20,18 +20,18 @@
         <del rend="strikethrough">bringing no new</del>
         <add place="superlinear">ignorant</add>
       </mod> &amp; dissa<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">p</add>
       </mod>pointed &#x2013;It requires <mod spanTo="#c57-0177.02"/><delSpan
         spanTo="#c57-0177.03" rend="strikethrough"/>a</line>
     <line>great deal of<anchor xml:id="c57-0177.03"/><add place="superlinear">more</add><anchor
         xml:id="c57-0177.02"/> philosophy <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">than I possess</add>
       </mod> to bear this injustice</line>
     <line>with patience &#x2013;</line>
     <milestone unit="tei:p"/>
-    <line><milestone unit="tei:date" spanTo="#c57-0177.04"/>September <mod>
+    <line rend="right"><milestone unit="tei:date" spanTo="#c57-0177.04"/>September <mod>
         <add place="intralinear">1</add>
         <del rend="overwritten">7</del>
         <add place="intralinear">2</add>
@@ -43,7 +43,7 @@
     <line>lost my hopes of utility &amp; glory &#x2013;I have lost</line>
     <line>my friend. But <del rend="strikethrough">if</del> I <mod>
         <del rend="strikethrough">am</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">will</add>
         <del rend="strikethrough">at</del>
       </mod> endeavour</line>
@@ -52,7 +52,7 @@
     <line>towards England &amp; towards you I will not</line>
     <line>despair. <del rend="strikethrough">Sep</del></line>
     <milestone unit="tei:p"/>
-    <line>September 9<hi rend="underline"><hi rend="sup">th</hi></hi> The ice began to move</line>
+    <line rend="indent1">September 9<hi rend="underline"><hi rend="sup">th</hi></hi> The ice began to move</line>
     <line>and roarings like thunder was heard</line>
     <line>at a distance as the <mod>
         <del rend="strikethrough">mountains</del>
@@ -71,7 +71,7 @@
         <add place="intralinear">z</add>
       </mod>e sprung</line>
     <line>from that quarter &#x2013;<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">and</add>
         <add place="superlinear">on the 11<hi rend="sup">th</hi></add>
       </mod> the passage to</line>
