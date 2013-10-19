@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">143</zone>
   <zone type="library">54</zone>
   <zone type="main">
-    <line>last saw her<anchor xml:id="c56-0113.02"/><add><ptr target="#c56-0113.03"/></add><anchor
+    <line>last saw her<anchor xml:id="c56-0113.02"/><anchor xml:id="c56-0113.03"/><anchor
         xml:id="c56-0113.01"/>
       <del rend="unmarked">&#x2013; <mod>
           <del rend="overwritten">who</del>
@@ -22,7 +22,7 @@
       </mod> grave, and often</line>
     <line><mod>
         <del rend="strikethrough">talked</del>
-        <add><ptr target="#c56-0113.05"/></add>
+        <anchor xml:id="c56-0113.05"/>
       </mod> of the inconstancy of fortune</line>
     <line>and the instability of human life&#x2014;</line>
     <line>"When I reflect, my dear Cousin," she said "on</line>
@@ -40,8 +40,8 @@
     <line>from others as tales of ancient days or</line>
     <line>imaginary evils<mod>
         <add place="intralinear" hand="#pbs">;</add>
-        <add place="superlinear"><metamark>X</metamark></add>
-        <add><ptr target="#c56-0113.06"/></add>
+        <add place="superlinear"><metamark function="displacement" xml:id="c56-0113.06"
+          >X</metamark></add>
       </mod> but now misery has</line>
     <line>come home and men appear to me as</line>
     <line>monsters thirsting for each others blood.</line>
@@ -83,18 +83,18 @@
         <add place="superlinear">falsehood <del rend="strikethrough">look</del></add>
       </mod></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0113.03" spanTo="#c56-0113.04" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0113.03">
+    <addSpan spanTo="#c56-0113.04" hand="#pbs"/>
     <line>who in earlier</line>
-    <line>youth had</line>
+    <line>youth had </line>
     <anchor xml:id="c56-0113.04"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0113.05">conversed</add></line>
+  <zone type="left_margin" corresp="#c56-0113.05">
+    <line><add>conversed</add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0113.06" spanTo="#c56-0113.07" hand="#pbs"/>
-    <line><metamark><hi rend="sup">X</hi></metamark>At least they</line>
+  <zone type="left_margin" corresp="#c56-0113.06">
+    <addSpan spanTo="#c56-0113.07" hand="#pbs"/>
+    <line><metamark function="displacement"><hi rend="sup">X</hi></metamark>At least they</line>
     <line>were remote,</line>
     <line>and more</line>
     <line>familiar to <delSpan spanTo="#c56-0113.08"/>the</line>

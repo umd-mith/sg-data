@@ -54,7 +54,7 @@
     <line><mod>
         <del rend="strikethrough" xml:id="c56-0127.03">they</del>
         <del rend="strikethrough"><add place="superlinear">he</add></del>
-      </mod><add><ptr target="#c56-0127.04"/></add><anchor xml:id="c56-0127.02"/> knew of my
+      </mod><anchor xml:id="c56-0127.04"/><anchor xml:id="c56-0127.02"/> knew of my
       existence <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">they</add>
@@ -83,7 +83,7 @@
     <line>an evil which<mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">it</add>
-        <add><ptr target="#c56-0127.06"/></add>
+        <anchor xml:id="c56-0127.06"/>
       </mod>
       <mod>
         <del rend="strikethrough"><add place="superlinear">you</add></del>
@@ -107,17 +107,17 @@
     <line><add hand="#pbs" place="superlinear">before they are condemned</add> Listen to me
       Frankenstein <del rend="strikethrough">for you are</del></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0127.04" spanTo="#c56-0127.05" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0127.04">
+    <addSpan spanTo="#c56-0127.05" hand="#pbs"/>
     <line>If the</line>
     <line>multitude</line>
     <line>of mankind</line>
     <anchor xml:id="c56-0127.05"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0127.06" spanTo="#c56-0127.07"/>
-    <line>only remains</line>
+  <zone type="left_margin" corresp="#c56-0127.06">
+    <addSpan spanTo="#c56-0127.07"/>
+    <line> only remains</line>
     <line>for you to</line>
     <line>make so</line>
     <line>great, that</line>

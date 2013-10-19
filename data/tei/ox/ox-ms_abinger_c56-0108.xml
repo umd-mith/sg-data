@@ -18,8 +18,8 @@
     <line>mind has been worked up by a <add place="intralinear">quick</add></line>
     <line><del rend="strikethrough">S</del> succession of events, <mod spanTo="#c56-0108.05"
         /><delSpan spanTo="#c56-0108.01" rend="strikethrough"/>for a dead calm</line>
-    <line>of inaction and certainty to<anchor xml:id="c56-0108.01"/><add><ptr target="#c56-0108.02"
-        /></add><anchor xml:id="c56-0108.05"/> follow<add place="intralinear" hand="#pbs">s</add>
+    <line>of inaction and certainty to<anchor xml:id="c56-0108.01"/><anchor xml:id="c56-0108.02"
+        /><anchor xml:id="c56-0108.05"/> follow<add place="intralinear" hand="#pbs">s</add>
       <mod>
         <del rend="strikethrough">which</del>
         <add place="superlinear" hand="#pbs">and</add>
@@ -71,8 +71,8 @@
       </mod> put them in practise</line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0108.02" spanTo="#c56-0108.03" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0108.02">
+    <addSpan spanTo="#c56-0108.03" hand="#pbs"/>
     <line xml:id="c56-0108.06">of inaction &#x26; certainty</line>
     <line><seg xml:id="c56-0108.07">the dead calmness</seg>
       <add><metamark>&#x2038;</metamark>which</add><listTranspose>

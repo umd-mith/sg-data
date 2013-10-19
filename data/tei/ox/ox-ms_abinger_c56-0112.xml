@@ -8,8 +8,8 @@
   <zone type="pagination" rend="bordered">142</zone>
   <zone type="main">
     <line><del rend="strikethrough">cr</del> crime which by its enormity would</line>
-    <line><add><ptr target="#c56-0112.01"/></add>efface the recollection of the past.<add
-        place="superlinear"><metamark>X</metamark></add><add><ptr target="c56-0112.02"/></add>
+    <line><anchor xml:id="c56-0112.01"/>efface the recollection of the past. <add
+      place="superlinear"><metamark function="displacement" xml:id="c56-0112.02">X</metamark></add>
       My</line>
     <line>abhorrence of this fiend cannot be</line>
     <line>conceived &#x2013; When I thought of him I</line>
@@ -40,7 +40,7 @@
     <line>events. Elizabeth was sad and desponding</line>
     <line>she no longer took delight in her</line>
     <line>ordinary occupations; all pleasure seemed</line>
-    <line>to her sacriledge towards the dead; eter<add><ptr target="#c56-0112.05"/></add></line>
+    <line>to her sacriledge towards the dead; eter<anchor xml:id="c56-0112.05"/></line>
     <line>woe and tea<mod>
         <del rend="overwritten">s</del>
         <add place="intralinear">rs</add>
@@ -50,11 +50,11 @@
     <line>that happy creature <mod spanTo="#c56-0113.01"/><delSpan rend="strikethrough"
         spanTo="#c56-0113.02"/>she had been when</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0112.01">almost</add></line>
+  <zone type="left_margin" corresp="#c56-0112.01">
+    <line><add>almost </add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan spanTo="#c56-0112.03" xml:id="c56-0112.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0112.02">
+    <addSpan spanTo="#c56-0112.03" hand="#pbs"/>
     <line><metamark><hi rend="sup">X</hi></metamark>There was</line>
     <line>always scope</line>
     <line>for fear so</line>
@@ -64,7 +64,7 @@
     <line>alive.</line>
     <anchor xml:id="c56-0112.03"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0112.05"/><metamark>=</metamark>nal</line>
+  <zone type="left_margin" corresp="#c56-0112.05">
+    <line><add><metamark>=</metamark>nal</add></line>
   </zone>
 </surface>

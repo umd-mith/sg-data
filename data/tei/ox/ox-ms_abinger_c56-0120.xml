@@ -16,7 +16,7 @@
     <line>the effect the view of the tremendous</line>
     <line>and ever moving glacier had <mod>
         <del rend="strikethrough">had</del>
-        <add><ptr target="#c56-0120.01"/></add>
+        <anchor xml:id="c56-0120.01"/>
       </mod></line>
     <line>upon my mind when I first saw it</line>
     <line><mod>
@@ -81,8 +81,8 @@
     <line>and str<retrace cause="clarify" hand="#pbs">ewed</retrace> on the ground; some</line>
     <line>entirely destroyed others bent leaning</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0120.01" hand="#pbs">produced</add>
+  <zone type="left_margin" corresp="#c56-0120.01">
+    <line><add hand="#pbs">produced</add>
     </line>
   </zone>
 </surface>

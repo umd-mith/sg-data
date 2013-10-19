@@ -24,7 +24,7 @@
       </mod> be <add place="superlinear" hand="#pbs">even</add> mild and docile</line>
     <line><mod>
         <del rend="strikethrough">to you</del>
-        <add hand="#pbs"><ptr target="#c56-0126.01"/></add>
+        <anchor xml:id="c56-0126.01"/>
       </mod>, <mod>
         <del rend="strikethrough">my gentle master</del>
         <add hand="#pbs" place="superlinear">my natural master &#x26; king</add>
@@ -68,7 +68,7 @@
       </mod> I alome am irrecoverably</line>
     <line><mod>
         <del rend="strikethrough">wretched</del>
-        <add><ptr target="#c56-0126.02"/></add>
+        <anchor xml:id="c56-0126.02"/>
       </mod>. I was benevolent and good:</line>
     <line>misery made me a fiend. Make me</line>
     <line>happy and I shall again be virtuous</line>
@@ -90,12 +90,12 @@
     <line>I was benevolent &#x2014;my soul glowed with</line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c56-0126.01" hand="#pbs">to <add place="superlinear" hand="#pbs"
+  <zone type="left_margin" corresp="#c56-0126.01">
+    <line><add hand="#pbs">to <add place="superlinear" hand="#pbs"
         >thee</add></add></line>
   </zone>
 
-  <zone type="left_margin">
-    <line><add xml:id="c56-0126.02" hand="#pbs">excluded</add></line>
+  <zone type="left_margin" corresp="#c56-0126.02">
+    <line><add hand="#pbs">excluded</add></line>
   </zone>
 </surface>

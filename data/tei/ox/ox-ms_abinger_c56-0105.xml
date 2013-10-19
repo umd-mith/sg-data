@@ -38,7 +38,7 @@
     <line>that you had confessed he did not </line>
     <line><mod>
         <del rend="strikethrough">believe</del>
-        <add><ptr target="#c56-0105.01"/></add>
+        <anchor xml:id="c56-0105.01"/>
       </mod> it."</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="3"/>"I truly than<add place="intralinear">k</add> him"&#x2013;
@@ -51,7 +51,7 @@
     <line>more than half my misfortune</line>
     <line>and I feel as if I could die in <del rend="strikethrough">pea</del></line>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0105.01">credit</add>
+  <zone type="left_margin" corresp="#c56-0105.01">
+    <add>credit</add>
   </zone>
 </surface>

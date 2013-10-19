@@ -30,23 +30,22 @@
     <line>full and <add hand="#pbs" place="intralinear">I</add> did not answer him but</line>
     <line><mod>
         <del rend="strikethrough">when</del>
-        <add><ptr target="#c56-0129.01"/></add>
+        <anchor xml:id="c56-0129.01"/>
       </mod> I weighed the various arguments</line>
     <line>which he had used, <mod spanTo="#c56-0129.02"/><add place="sublinear"
           ><metamark>&#x2038;</metamark></add><del rend="strikethrough">I</del>
       <del rend="strikethrough">felt enclined</del><add place="superlinear" hand="#pbs">&#x26; I
         determined at </add></line>
-    <line><add><ptr target="#c56-0129.03"/></add><anchor xml:id="c56-0129.02"/>to listen to his
-      tale&#x2014;I was partly urged</line>
+    <line><anchor xml:id="c56-0129.03"/><anchor xml:id="c56-0129.02"/>to listen to his tale&#x2014;I
+      was partly urged</line>
     <line>by curiosity, and compassion confirmed</line>
     <line>me.&#x2013; <del rend="strikethrough">As</del>
       <del rend="strikethrough">I was not</del> I had hitherto suppos</line>
     <line>ed him to be the murder<add hand="#pbs" place="intralinear">er</add> of my brother</line>
     <line>and I <mod spanTo="#c56-0129.04"/><delSpan spanTo="#c56-0129.05" rend="strikethrough"
       />wished to find this either confirmed</line>
-    <line>or denied<anchor xml:id="c56-0129.05"/><del rend="unmarked">.</del><add><ptr
-          target="#c56-0129.06"/></add><anchor xml:id="c56-0129.04"/> For the first time also I
-      felt</line>
+    <line>or denied<anchor xml:id="c56-0129.05"/><del rend="unmarked">.</del><anchor
+        xml:id="c56-0129.06"/><anchor xml:id="c56-0129.04"/> For the first time also I felt</line>
     <line>what the duties of a creator towards his</line>
     <line>creature were and that I ought to</line>
     <line>render him happy before I complained</line>
@@ -61,14 +60,14 @@
     <line>entered the hut &#x2013; the fiend with an</line>
     <line>air of exultation I with a heavy</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0129.01" hand="#pbs">as I proceeded</add></line>
+  <zone type="left_margin" corresp="#c56-0129.01">
+    <line><add hand="#pbs">as I proceeded</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0129.03" hand="#pbs">least </add></line>
+  <zone type="left_margin" corresp="#c56-0129.03">
+    <line><add hand="#pbs">least </add></line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0129.06" spanTo="#c56-0129.07" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0129.06">
+    <addSpan spanTo="#c56-0129.07" hand="#pbs"/>
     <line>I eagerly sought</line>
     <line>a confirma</line>
     <line>tion or denial</line>

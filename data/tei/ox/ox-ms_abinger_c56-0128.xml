@@ -29,7 +29,7 @@
     <line>I shudder to reflect <mod>
         <del rend="strikethrough">ever re occured</del>
         <add place="superlinear" hand="#pbs">that I have been the</add>
-        <add><ptr target="#c56-0128.01"/></add>
+        <anchor xml:id="c56-0128.01"/>
       </mod> &#x2013;</line>
     <line>Cursed be the <del rend="strikethrough">night o during which you</del></line>
     <line>day in which you first saw light, cursed</line>
@@ -73,9 +73,9 @@
       &#x2013; The sun is yet high in the</line>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0128.01" spanTo="#c56-0128.02"/>
-    <line>miserable</line>
+  <zone type="left_margin" corresp="#c56-0128.01">
+    <addSpan spanTo="#c56-0128.02"/>
+    <line> miserable</line>
     <line>origin</line>
     <line>&#x26; author</line>
     <anchor xml:id="c56-0128.02"/>

@@ -27,7 +27,7 @@
       </mod> immediately <mod spanTo="#c56-0104.01"/><delSpan rend="strikethrough"
         spanTo="#c56-0104.02"/>mur</line>
     <line>der<anchor xml:id="c56-0104.02"/>
-      <del rend="strikethrough">another</del><add><ptr target="#c56-0104.03"/></add><anchor
+      <del rend="strikethrough">another</del><anchor xml:id="c56-0104.03"/><anchor
         xml:id="c56-0104.01"/> of life in a slow torturing</line>
     <line>manner &#x26; <mod>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
@@ -35,7 +35,7 @@
           with the blood of in</add>
         <add place="sublinear" xml:id="c56-0104.04">nocence</add>
       </mod> believe that they have done</line>
-    <line><add><ptr target="#c56-0104.05"/></add> great <mod>
+    <line><anchor xml:id="c56-0104.05"/>great <mod>
         <del rend="strikethrough">things</del>
         <add place="superlinear">deed</add>
       </mod>. The<add place="intralinear" hand="#pbs">y</add> call this retribution; hate</line>
@@ -80,11 +80,11 @@
         jo</del></line>
     <line>bring joy and not encrease of misery."</line>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0104.03">deprive</add>
+  <zone type="left_margin" corresp="#c56-0104.03">
+    <add>deprive</add>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0104.05">a</add>
+  <zone type="left_margin" corresp="#c56-0104.05">
+    <add>a </add>
   </zone>
   <zone type="left_margin">
     <add hand="#pbs"><figure>

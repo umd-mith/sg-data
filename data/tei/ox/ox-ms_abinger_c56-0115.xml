@@ -14,10 +14,8 @@
     <line>mingling in the world what can dis</line>
     <line>-turb our tranquillity?"</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>She shed tears as she said this<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c56-0115.01"/></add>
-      </mod></line>
+    <line><space unit="chars" extent="5"/>She shed tears as she said this <add place="sublinear"
+          ><metamark function="displacement" xml:id="c56-0115.01">&#x2038;</metamark></add></line>
     <line><del rend="strikethrough">but</del><add place="intralinear" hand="#pbs">but</add> at the
       same time <retrace hand="#pbs" cause="clarify">s</retrace>miled, that</line>
     <line>she might chase away the fiend that</line>
@@ -34,7 +32,7 @@
       </mod> this cause that</line>
     <line>he<del rend="strikethrough">a</del> had removed to the country &#x26; <mod>
         <del rend="strikethrough">from</del>
-        <add><ptr target="#c56-0115.03"/></add>
+        <anchor xml:id="c56-0115.03"/>
       </mod></line>
     <line>the same reasons he now proposed</line>
     <line>that <del rend="strikethrough">I</del> we should all <del rend="strikethrough">tak</del>
@@ -62,15 +60,15 @@
         <add place="superlinear" hand="#pbs">intended by</add>
       </mod> my father <del rend="strikethrough">intended</del>. As it</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0115.01" spanTo="#c56-0115.02" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0115.01">
+    <addSpan spanTo="#c56-0115.02" hand="#pbs"/>
     <line>distrusting the</line>
     <line>very solace</line>
     <line>which she</line>
     <line>gave,</line>
     <anchor xml:id="c56-0115.02"/>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0115.03" hand="#pbs">induced by</add></line>
+  <zone type="left_margin" corresp="#c56-0115.03">
+    <line><add hand="#pbs">induced by</add></line>
   </zone>
 </surface>

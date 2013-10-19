@@ -26,7 +26,7 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <add place="superlinear">also</add>
       </mod> was <del rend="strikethrough">also</del> the misery of innocence</line>
-    <line><add><ptr target="#c56-0106.01"/></add>like a cloud <mod>
+    <line><anchor xml:id="c56-0106.01"/>like a cloud <mod>
         <del rend="strikethrough">that</del>
         <add place="superlinear">that</add>
       </mod> passes over the</line>
@@ -68,10 +68,10 @@
     <line>sweet lady, dearest Elizabeth may heaven</line>
     <line>in its bounty bless and preserve you</line>
   </zone>
-  <zone type="left_margin">
-    <add xml:id="c56-0106.01"><mod>
+  <zone type="left_margin" corresp="#c56-0106.01">
+    <add><mod>
         <del rend="strikethrough">that</del>
-        <add place="superlinear">which</add>
+        <add place="superlinear">which </add>
       </mod></add>
   </zone>
 </surface>

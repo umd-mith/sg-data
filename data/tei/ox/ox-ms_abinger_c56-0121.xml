@@ -53,7 +53,7 @@
       </mod> and curling in thick wreaths</line>
     <line>around the opposite mountains</line>
     <line>whose summits were hid in the</line>
-    <line><add><ptr target="#c56-0121.02"/></add>clouds, while rain poured from the</line>
+    <line><anchor xml:id="c56-0121.02"/>clouds, while rain poured from the</line>
     <line>dark sky and added to the melancholy</line>
     <line>impression I received from the objects</line>
     <line>around me &#x2014; Alas! <del rend="strikethrough">who can boast</del> why</line>
@@ -72,7 +72,7 @@
     <line>blows &#x26; by every <del rend="strikethrough">sc</del> chance <del rend="strikethrough"
         >work</del> word or</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0121.02">uniform</add></line>
+  <zone type="left_margin" corresp="#c56-0121.02">
+    <line><add>uniform </add></line>
   </zone>
 </surface>

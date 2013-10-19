@@ -22,7 +22,7 @@
     <anchor xml:id="c56-0123.01"/>
     <line>it rose Mont Blanc in awful majesty. I re</line>
     <line>mained in a recess of the rock gazing on</line>
-    <line>this wonderful &amp; stupedous scene &#x2013; <add><ptr target="#c56-0123.02"/></add> My
+    <line>this wonderful &amp; stupedous scene &#x2013; <anchor xml:id="c56-0123.02"/> My
       heart</line>
     <line>before<mod>
         <add place="sublinear"><unclear><metamark>&#x2038;</metamark></unclear></add>
@@ -60,8 +60,8 @@
         <add place="superlinear" hand="#pbs">the shape</add>
       </mod> came nearer</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan xml:id="c56-0123.02" spanTo="#c56-0123.03" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0123.02">
+    <addSpan spanTo="#c56-0123.03" hand="#pbs"/>
     <line>the sea or</line>
     <line>rather <add place="superlinear">the vast</add> river of</line>
     <line>ice, wound among</line>
@@ -73,7 +73,7 @@
     <line>icy &#x26; glittering</line>
     <line>peaks shone</line>
     <line>in sunlight</line>
-    <line>over the clouds.</line>
+    <line>over the clouds. </line>
     <anchor xml:id="c56-0123.03"/>
   </zone>
 </surface>

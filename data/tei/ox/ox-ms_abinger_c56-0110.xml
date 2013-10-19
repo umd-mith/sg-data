@@ -26,7 +26,7 @@
         <del rend="strikethrough">stay</del>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">ing</add></del>
-        <add><ptr target="#c56-0110.01"/></add>
+        <anchor xml:id="c56-0110.01"/>
       </mod> on the lake after that hour</line>
     <line>rendered our residence within the</line>
     <line>walls of Geneva very irksome to me.</line>
@@ -45,7 +45,7 @@
     <line><mod>
         <del rend="strikethrough">followed</del>
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add next="#c56-0110.03"><ptr target="#c56-0110.02"/></add>
+        <anchor xml:id="c56-0110.02"/>
         <add place="superlinear" xml:id="c56-0110.03">to</add>
       </mod> my own miserable reflections.</line>
     <line>I was often tempted <del rend="strikethrough">w</del> when all was <mod>
@@ -56,10 +56,10 @@
     <line>around me and I the only unquiet</line>
     <line>thing that wandered restless in a scene</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0110.01" hand="#pbs">remaining</add></line>
+  <zone type="left_margin" corresp="#c56-0110.01">
+    <line><add hand="#pbs">remaining</add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0110.02">gave way</add></line>
+  <zone type="left_margin" corresp="#c56-0110.02">
+    <line><add next="#c56-0110.03">gave way </add></line>
   </zone>
 </surface>

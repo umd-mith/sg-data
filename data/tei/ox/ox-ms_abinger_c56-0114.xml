@@ -7,7 +7,7 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0114.tif"/>
   <zone type="pagination" rend="bordered">144</zone>
   <zone type="main">
-    <line><add><ptr target="#c56-0114.01"/></add>so like the truth, who can assure them</line>
+    <line><anchor xml:id="c56-0114.01"/>so like the truth, who can assure them</line>
     <line>selves of certain happiness? I feel as if I</line>
     <line>were walking on the edge of precipiece</line>
     <line>towards which thousands are crowding &#x26;</line>
@@ -62,7 +62,7 @@
     <line>peace. We surely shall be happy; <del rend="strikethrough">quite</del></line>
     <line>quiet in our native country and not</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0114.01">can look</add></line>
+  <zone type="left_margin" corresp="#c56-0114.01">
+    <line><add>can look </add></line>
   </zone>
 </surface>

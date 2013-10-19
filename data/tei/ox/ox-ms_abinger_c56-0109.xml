@@ -76,7 +76,7 @@
         <add place="sublinear"><metamark>&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">to</add></del>
         <del rend="strikethrough">add to</del>
-        <add><ptr target="#c56-0109.03"/></add>
+        <anchor xml:id="c56-0109.03"/>
       </mod> their unhappiness by an appear</line>
     <line>ance of immoderate grief. It is also a duty</line>
     <line>owed to yourself; for excessive sorrow</line>
@@ -84,8 +84,8 @@
     <line>even the discharge of day<add place="intralinear" hand="#pbs">ly</add> usefullness</line>
     <line>without which no man is fit for</line>
   </zone>
-  <zone type="left_margin">
-    <addSpan spanTo="#c56-0109.04" xml:id="c56-0109.03" hand="#pbs"/>
+  <zone type="left_margin" corresp="#c56-0109.03">
+    <addSpan spanTo="#c56-0109.04" hand="#pbs"/>
     <line>that we</line>
     <line>should re</line>
     <line>-frain from</line>

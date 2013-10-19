@@ -30,7 +30,7 @@
       </mod> close over me &#x26;</line>
     <line>my calamities for ever. But I was</line>
     <line>restrained when I thought of the heroic</line>
-    <line><add><ptr target="#c56-0111.01"/></add>suffering Elizabeth whom I tenderly</line>
+    <line><anchor xml:id="c56-0111.01"/>suffering Elizabeth whom I tenderly</line>
     <line>loved, and whose existence was bound</line>
     <line>up in mine. And then I thought also</line>
     <line>of my father and surviving brother; <del rend="strikethrough">And</del></line>
@@ -42,10 +42,8 @@
       </mod>e of the fiend <del rend="strikethrough">I</del> whom I had</line>
     <line>let lose among them? At these</line>
     <line>moments I wept bitterly and wished</line>
-    <line>that peace would revisit my mind<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
-        <add><ptr target="#c56-0111.02"/></add>
-      </mod></line>
+    <line>that peace would revisit my mind <add place="sublinear"><metamark function="displacement"
+          xml:id="c56-0111.02">&#x2038;</metamark></add></line>
     <line>that I might afford them consolation</line>
     <line>and happiness &#x2014; but that could not</line>
     <line>be: remorse <mod>
@@ -56,8 +54,8 @@
         <del rend="strikethrough">cause</del>
         <add place="superlinear" hand="#pbs">author</add>
       </mod> of unalterable</line>
-    <line>evil, and I lived in daily fear <mod spanTo="#c56-0111.03"/><delSpan
-        rend="strikethrough" spanTo="#c56-0111.04"/>that</line>
+    <line>evil, and I lived in daily fear <mod spanTo="#c56-0111.03"/><delSpan rend="strikethrough"
+        spanTo="#c56-0111.04"/>that</line>
     <line>the d&#xE6;mon<anchor xml:id="c56-0111.04"/>
       <delSpan spanTo="#c56-0111.05" rend="strikethrough"/>of some new wickedness</line>
     <line>which<anchor xml:id="c56-0111.05"/><add place="superlinear">let</add><anchor
@@ -73,11 +71,10 @@
     <line>that all was not over, and that</line>
     <line>he would still commit some signal</line>
   </zone>
-  <zone type="left_margin">
-    <line><add xml:id="c56-0111.01"/>&#x26;</line>
+  <zone type="left_margin" corresp="#c56-0111.01">
+    <line><add>&#x26; </add></line>
   </zone>
-  <zone type="left_margin">
-    <line><add hand="#pbs" xml:id="c56-0111.02"><del rend="strikethrough">if</del> only
-        &#x2014;</add></line>
+  <zone type="left_margin" corresp="#c56-0111.02">
+    <line><add hand="#pbs"><del rend="strikethrough">if</del> only &#x2014;</add></line>
   </zone>
 </surface>
