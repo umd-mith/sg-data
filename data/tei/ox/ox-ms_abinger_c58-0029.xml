@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0029" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0029" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0029.tif"/>
   <zone type="pagination">131</zone>
   <zone type="library">15</zone>
@@ -15,11 +15,12 @@
     <line>turned loose upon society still exists. You refuse</line>
     <line>my just demand; I have but one resource and I de-</line>
     <line>vote myself either in <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">my</add>
       </mod>life or death to his destruc-</line>
     <line>tion.</line>
-    <milestone unit="tei:p"/><line>I trembled with excess of agitation as I said this; there</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I trembled with excess of agitation as I said this; there</line>
     <line>was a frenzy in my manner, and something I doubt not</line>
     <line>of that haughty fierceness which the martys of old are </line>
     <line>said to have possessed. But to a Genevan magistrate</line>
@@ -33,9 +34,10 @@
         <add place="intralinear">t</add>
       </mod> thou in thy pride of</line>
     <line>wisdom. Cease, you know not what it is you say.</line>
-    <milestone unit="tei:p"/><line>I broke from the house <mod>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">I broke from the house <mod>
         <del rend="strikethrough">ang</del>
-        <add place="sublinear">&#x2038; &#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038; &#x2038;</metamark></add>
         <add place="superlinear">angry and</add>
       </mod> disturbed and retired to</line>
     <line>meditate on some other mode of action.</line>

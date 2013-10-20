@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0025" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0025" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0025.tif"/>
   <zone type="pagination">127</zone>
   <zone type="library">13</zone>
@@ -11,13 +11,14 @@
     <line>I knew the destroyer of my family and that I required</line>
     <line>him to exert his whole authority for the apprehension</line>
     <line>of the murderer.</line>
-    <line><milestone unit="tei:note" spanTo="#c58-0025.01"/><add hand="#comp"
-        ><unclear>KT</unclear></add><anchor xml:id="c58-0025.01"/>
+    <line><add hand="#comp"><milestone unit="tei:note" spanTo="#c58-0025.01"
+        /><unclear>KT</unclear></add><anchor xml:id="c58-0025.01"/>
       <milestone unit="tei:p"/> The magistrate listened to me with attention</line>
     <line>and kindness. Be assured, sir, said he, no pains or</line>
     <line>exertions on my part shall be spared to discover</line>
     <line>the villain.</line>
-    <milestone unit="tei:p"/><line>I thank you, replied I, listen therefore to the</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I thank you, replied I, listen therefore to the</line>
     <line>deposition that I have to make. It is indeed a tale</line>
     <line>so strange that I should fear you would not</line>
     <line>credit it were there not som<add place="intralinear">e</add>thing in truth which

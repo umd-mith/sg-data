@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0023" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0023" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0023.tif"/>
   <zone type="pagination">125</zone>
   <zone type="library">12</zone>
@@ -17,7 +17,8 @@
     <line>He could not live under the horrors that were</line>
     <line>accumulated around him; an approplectic fit was</line>
     <line>brought on and in a few days he died in my arms.</line>
-    <milestone unit="tei:p"/><line>What then became of me? I know not; I</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">What then became of me? I know not; I</line>
     <line>lost sensation and chains and darkness were the only</line>
     <line>objects that pressed upon me. Sometimes indeed</line>
     <line>I dreamt that I wandered in flowery meadows and</line>

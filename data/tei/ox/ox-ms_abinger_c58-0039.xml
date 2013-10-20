@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0039" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0039" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0039.tif"/>
   <zone type="pagination">143</zone>
   <zone type="library">20</zone>
@@ -12,8 +12,8 @@
     <line>in furs and provide food for we shall soon enter</line>
     <line>on a journey where your sufferings will satisfy</line>
     <line>my everlasting hatred.</line>
-    <milestone unit="tei:note" spanTo="#c58-0039.01"/><add place="intralinear" hand="#comp"
-      >F.W/</add><anchor xml:id="c58-0039.01"/><milestone unit="tei:p"/><line>My courage and
+    <line><milestone unit="tei:note" spanTo="#c58-0039.01"/><add place="intralinear" hand="#comp"
+        >F.W/</add><anchor xml:id="c58-0039.01"/><milestone unit="tei:p"/>My courage and
       perseverance were invigorated</line>
     <line>by these scoffing words; I resolved not to fail in my</line>
     <line>purpose; and calling on heaven to support me I</line>
@@ -27,7 +27,7 @@
       </mod> Covered with ice it was only to be</line>
     <line>distinguished from land by its superior wildness and</line>
     <line>ruggedness. The greeks wept <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">for joy</add>
       </mod>when they beheld the</line>
   </zone>

@@ -12,15 +12,16 @@
     <line>30</line>
   </zone>
   <zone type="main">
+    <handShift medium="pen" new="#pbs"/>
     <line>my extinction <del rend="strikethrough">because</del> that I might not cause</line>
     <line>greater wretchedness; &amp; if yet <del rend="strikethrough">by</del> in some mode</line>
     <line>unknown to me, <mod>
         <del rend="strikethrough">you</del>
-        <add place="superlinear" hand="#pbs">thou</add>
+        <add place="superlinear">thou</add>
       </mod> haste not ceased to think</line>
     <line>&amp; feel, <mod>
         <del rend="strikethrough">you</del>
-        <add place="superlinear" hand="#pbs">thou</add>
+        <add place="superlinear">thou</add>
       </mod> desirest not my life for my own</line>
     <line>misery. Blasted as thou wert, my agony</line>
     <line>was still superior to thine: for the bitter sting</line>
@@ -32,7 +33,7 @@
     <line>longer felt. . . Soon these burning miseries will</line>
     <line>be extinct. I shall <mod>
         <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
-        <add hand="#pbs" place="superlinear"><mod>
+        <add place="superlinear"><mod>
             <del rend="strikethrough">moun</del>
             <add place="superlinear">ascend</add>
           </mod></add>

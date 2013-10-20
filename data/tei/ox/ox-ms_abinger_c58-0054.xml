@@ -3,10 +3,11 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0054" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0054" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0054.tif"/>
   <zone type="pagination">182</zone>
   <zone type="main">
+    <handShift medium="pen" new="#pbs"/>
     <line>the Being=yet such must be the impression</line>
     <line>conveyed to you by what appears to be the</line>
     <line>purport of my actions. &#x2013; Yet, I seek not a</line>
@@ -17,7 +18,10 @@
     <line>my whole "being" once overflowed, should be par</line>
     <line>-ticipated &#x2013; But now, that virtue has become</line>
     <line>to me a shadow, &amp; happiness &amp; affection are</line>
-    <line>turned into bitter &amp; loathing despair, in what</line>
+    <line>turned into bitter &amp; loath<mod>
+        <del rend="overwritten"><unclear reason="illegible">some</unclear></del>
+        <add place="intralinear">ing</add>
+      </mod> despair, in what</line>
     <line>should I seek for sympathy? I am contented</line>
     <line>to suffer alone whilst my sufferings shall</line>
     <line>endure. When I die, I am well satisfied</line>

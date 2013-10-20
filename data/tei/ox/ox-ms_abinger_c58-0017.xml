@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0017" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0017" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0017.tif"/>
   <zone type="pagination">1<mod>
       <del rend="overwritten">0</del>
@@ -23,14 +23,17 @@
     <line>her, and embraced her with adrour but the <del rend="strikethrough">dealthy</del></line>
     <line>dealthy languour of the limbs told me that what</line>
     <line>I now held in my arms had ceased to be the Eliza</line>
-    <line>beth whom I had loved and cherished; the <add hand="#comp" place="superlinear"><note>[Vol.
-          III-G 121]</note>
-        <metamark>[</metamark></add>murder</line>
+    <line>beth whom I had loved and cherished; the <add hand="#comp" place="superlinear"><milestone
+          unit="tei:note" spanTo="#c58-0017.01"/>[Vol. III-G 121]<anchor xml:id="c58-0017.01"
+        /></add>
+      <add hand="#comp" place="intralinear"><metamark function="paragraph"
+      >[</metamark></add>murder</line>
     <line>rous mark of the fiend's grasp was on her neck,</line>
     <line>and the breath had ceased to issue from her lips.</line>
-    <milestone unit="tei:p"/><line>While I still hung over her in the agony of</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">While I still hung over her in the agony of</line>
     <line>despair, I happened to look up. The <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">windows of the</add>
       </mod> room had</line>
     <line>before been darkened, and I felt a kind of panic on</line>

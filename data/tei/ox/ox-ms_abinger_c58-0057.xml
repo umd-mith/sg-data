@@ -3,11 +3,12 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0057" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0057" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0057.tif"/>
   <zone type="pagination">185</zone>
   <zone type="library">29</zone>
   <zone type="main">
+    <handShift medium="pen" new="#pbs"/>
     <line><damage/> death. You hate me but your abhorrence cannot</line>
     <line><damage/>al that with which I regard myself. I look</line>
     <line><damage/> the hands which executed that deed, I think</line>
@@ -15,7 +16,8 @@
     <line><damage/>ncieved, &amp; long for the moment when they will</line>
     <line><damage/>eet my eyes, when it will haunt my thoughts</line>
     <line><damage/>o more.</line>
-    <milestone unit="tei:p"/><line><space unit="chars" extent="4"/>Fear not that I shall be the
+    <milestone unit="tei:p"/>
+    <line rend="indent1">Fear not that I shall be the
       instrument of</line>
     <line><damage/>uture mischief. My work is nearly complete. Neither</line>
     <line><damage/>ours nor any mans death is needed to consum-</line>
@@ -29,12 +31,9 @@
     <line>pile, &amp; consume to ashes this miserable frame,</line>
     <line>that its remains may afford no light to any</line>
     <line>curious &amp; unhallowed <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#mws">wretch</add>
       </mod> who would create such</line>
-    <!--MWS inserts "wretch"; we need to adjust encoding to indicate the shift in hands for this section of 
-    the fair copy from Mary to Percy, and then indicate MWS's addition, which would require adding her
-    to the list of values for the hand attribute-->
     <line>another as I have been. I shall die. I shall</line>
     <line>no longer feel the agonies which now consume</line>
   </zone>

@@ -9,6 +9,7 @@
   <zone type="pagination">179</zone>
   <zone type="library">26</zone>
   <zone type="main">
+    <handShift medium="pen" new="#pbs"/>
     <line>wild &amp; incoherent reproaches.. At length I gathered</line>
     <line>resolution to speak, in a pause as it were in</line>
     <line>the tempest of his passion &#x2014; Your repentance is</line>
@@ -17,7 +18,8 @@
     <line>remorse before you had urged your diabolical</line>
     <line>vengeance to this extremity; Frankenstein would</line>
     <line>yet have lived.</line>
-    <milestone unit="tei:p"/><line><space extent="2"/>And do you dream &#x2014; said the Dæmon,
+    <milestone unit="tei:p"/>
+    <line rend="indent1">And do you dream &#x2014; said the Dæmon,
       do</line>
     <line>you think that I was then dead to agony &amp;</line>
     <line>remorse. &#x2013; He&#x2013; he <del rend="strikethrough">ex</del> p continued, pointing

@@ -16,11 +16,15 @@
     <line>31</line>
   </zone>
   <zone type="main">
+    <handShift medium="pen" new="#mws"/>
     <line>whilst I destroyed his hopes, I did not satisfy my own</line>
     <line>desires. They were forever ardent and craving; <del rend="strikethrough"
       >still</del></line>
     <line>Still I desired love and fellowship, and I was still</line>
-    <line>spurned. Was there no injustice in this? Am I to</line>
+    <line>spurned. W<mod>
+        <del rend="overwritten">h</del>
+        <add place="intralinear">a</add>
+      </mod>s there no injustice in this? Am I to</line>
     <line>be thought the only criminal when all human</line>
     <line>kind sinned against me? Why do you not hate Fe</line>
     <line>-lix who drove his friend from his door with contumely?</line>
@@ -31,8 +35,11 @@
     <line>at and kicked and trampled on. Even now my</line>
     <line>blood boils at the recollection of this injustice.</line>
     <milestone unit="tei:p"/>
-    <line rend="indent2">But it is true that I am a <del rend="strikethrough" instant="true"
-        >wrecth</del> wretch.</line>
+    <line rend="indent2">But i<mod>
+        <del rend="overwritten">s</del>
+        <add place="intralinear">t</add>
+      </mod> is true that I am a <del rend="strikethrough" instant="true">wrecth</del>
+      wretch.</line>
     <line>I have murdered the lovely and the helpless. I have</line>
     <line>strangled the innocent as they slept and grasped</line>
     <line>to death his throat who never injured me or any</line>

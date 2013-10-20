@@ -3,11 +3,11 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0050" ulx="0" uly="0" lrx="5410" lry="6660"
-  partOf="#ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0050" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0050.tif"/>
   <zone type="pagination">178</zone>
   <zone type="main">
+    <handShift medium="pen" new="#pbs"/>
     <line>by the wildest rage of some uncontrolable passion</line>
     <line>&#x2014; That is also my victim<mod>
         <del rend="overwritten">,</del>
@@ -21,18 +21,21 @@
     <line>in thy stead after I have irretrievably des-</line>
     <line>-troyed thee, by destroying those thou lovedst</line>
     <line>Alas he is cold.. he <mod>
-        <del rend="smear">cannot</del>
+        <del rend="overwritten"><del rend="smear">cannot</del></del>
         <add place="intralinear">may not</add>
       </mod> answer me.</line>
-    <milestone unit="tei:p"/><line><space extent="3"/>His voice seemed suffocated, &amp; my first
-      im</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">His voice seemed suffocated, &amp; my first im</line>
     <line>-pulses which had suggested to me the duty</line>
     <line>of obeying the dying request of my friend,</line>
     <line>in destroying his enemy, now were suspended</line>
     <line>by a mixture of curiosity &amp; <del rend="strikethrough">pity</del> compassion.</line>
-    <milestone unit="tei:p"/><line><space extent="2"/>I approached this tremendous being&#x2013; I
-      dared</line>
-    <line>not again <del rend="strikethrough">to</del> raise my looks upon his face&#x2014;</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I approached this tremendous being&#x2013; I dared</line>
+    <line>no<mod>
+        <del rend="overwritten"><unclear reason="illegible">w</unclear></del>
+        <add place="intralinear">t</add>
+      </mod> again <del rend="strikethrough">to</del> raise my looks upon his face&#x2014;</line>
     <line>there was something so scaring &amp; unearth-</line>
     <line>-ly in his ugliness. I attempted to speak,</line>
     <line>but his presence was as a burthen which</line>

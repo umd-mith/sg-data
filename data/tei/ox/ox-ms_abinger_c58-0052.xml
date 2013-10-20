@@ -3,17 +3,20 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0052" ulx="0" uly="0" lrx="5410" lry="6660"
-  partOf="#ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0052" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0052.tif"/>
   <zone type="pagination">180</zone>
   <zone type="main">
-    <line>such as you cannot even imagine&#x2014; After the</line>
+    <handShift medium="pen" new="#pbs"/>
+    <line>such as you cannot even <mod>
+        <del rend="overwritten"><del rend="smear"><unclear reason="illegible"
+          >ing</unclear></del></del>
+        <add place="intralinear">im</add>
+      </mod>agine&#x2014; After the</line>
     <line>murder of Clerval I returned to Switzerland</line>
     <line>heart- broken &amp; overcome - I pitied Frankenstein</line>
     <line>My pity ammounted to horror &#x2013; I abhorred myself.</line>
-    <line><space extent="1"/>But when I discovered that he&#x2013; the author <del
-        rend="strikethrough">of</del></line>
+    <line>But when I discovered that he&#x2013; the author <del rend="strikethrough">of</del></line>
     <line>at once of my existence and of all its unspea</line>
     <line>kable torments dared to hope for happiness &#x2014;</line>
     <line>that whilst he accumulated upon me wretchedness</line>
@@ -30,6 +33,9 @@
     <line>was not miserable. I had cast off all feeling,</line>
     <line>subdued all anguish to riot in the excess of</line>
     <line>my despair. Evil thenceforth became my good.</line>
-    <line>Urged thus far I had no choice but to adapt</line>
+    <line><mod>
+        <del rend="overwritten"><unclear unit="chars" extent="5"/></del>
+        <add place="intralinear">Urged</add>
+      </mod> thus far I had no choice but to adapt</line>
   </zone>
 </surface>

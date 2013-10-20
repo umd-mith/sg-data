@@ -3,18 +3,21 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0042" ulx="0" uly="0" lrx="5410" lry="6660"
-  partOf="#ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0042" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0042.tif"/>
   <zone type="pagination">154</zone>
   <zone type="main">
     <line>suddenly change to an expression of the wildest</line>
     <line>rage as he shrieked out <del rend="strikethrough">his</del> imprecations on his per</line>
     <line>-secutor.</line>
-    <line><milestone unit="tei:p"/>His tale is connected and told with an appearance</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">His tale is connected and told with an appearance</line>
     <line>of <del rend="strikethrough">truth</del> the simplest truth, yet I own to you that</line>
     <line>the letters of Felix and Safie which he shewed me,</line>
-    <line>and the apparition of the monster seen from our ship</line>
+    <line>and the appar<mod>
+        <del rend="overwritten"><del rend="smear">t</del></del>
+        <add place="intralinear">i</add>
+      </mod>tion of the monster seen from our ship</line>
     <line>brought to me a greater conviction of the truth of</line>
     <line>his narrative than his asservations however earnest</line>
     <line>and connected. Such a monster has then really existence;</line>
@@ -31,10 +34,13 @@
         <add place="intralinear">o</add>
       </mod>r whither does your senseless curiosity</line>
     <line>lead you? Would you also create for yourself and the</line>
-    <line>world a dæmoni<mod>
+    <line>world a d&#xE6;moni<mod>
         <del rend="overwritten">le</del>
         <add place="intralinear">a</add>
-      </mod>c<del rend="strikethrough">l</del> enemy? or to what do your questions</line>
+      </mod>c<del rend="strikethrough">l</del> enemy? <mod>
+        <del rend="overwritten">o</del>
+        <add place="intralinear">O</add>
+      </mod>r to what do your questions</line>
     <line>lend? Peace, peace! learn my miseries and do not seek</line>
   </zone>
 </surface>

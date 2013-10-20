@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c58-0031" ulx="0" uly="0" lrx="5410" lry="6660" partOf="ox-ms_abinger_c58">
+  xml:id="ox-ms_abinger_c58-0031" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0031.tif"/>
   <zone type="pagination">133</zone>
   <zone type="library">16</zone>
@@ -17,7 +17,8 @@
         rend="strikethrough">and</del> on the sandy plain</line>
     <line>and prayed for death. But revenge kept me alive; I</line>
     <line>dared not die and leave my adversary in being.</line>
-    <milestone unit="tei:p"/><line>When I quitted Geneva <del rend="strikethrough">I</del> my first
+    <milestone unit="tei:p"/>
+    <line rend="indent2">When I quitted Geneva <del rend="strikethrough">I</del> my first
       labour was</line>
     <line>to gain some clue <del rend="strikethrough">but</del> by which I might trace the</line>
     <line>steps of my fiendish enemy. But my plan was unset-</line>
