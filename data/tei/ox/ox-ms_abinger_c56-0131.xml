@@ -5,7 +5,67 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0131" ulx="0" uly="0" lrx="5078" lry="7304" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0131.tif"/>
+
+  <zone type="library">63</zone>
+
   <zone type="main">
-  This page contains text of Mary Shelley's prose fragment Cyrus. The encoded transcription is in production.
+    <milestone unit="tei:p"/>
+    <line rend="indent1">The first nations whose names <del rend="strikethrough">ever</del> are on
+      record are <unclear reason="illegible">C</unclear>haldea</line>
+    <line>and <unclear/> India. Tradition has preserved wonderful accounts of their</line>
+    <line>progress in astronomical science. To them we owe the Zodiac</line>
+    <line>and many observations on the motions of the heavenly bodies <del rend="strikethrough"
+        >w</del></line>
+    <line>which argue a much more accurate knowledge of that art</line>
+    <line>than any succeeding country could boast <del rend="strikethrough">of</del> u<mod>
+        <del rend="overwritten">n</del>
+        <add place="intralinear">p</add>
+      </mod>til the time of Galileo</line>
+    <line>and Newton. But their wisdom passed away <mod>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear">from the earth</add>
+      </mod> leaving <del rend="strikethrough">but</del> faint</line>
+    <line>traces <del rend="strikethrough" instant="true">in</del> among the Eyptians a race of men
+      ???? whose</line>
+    <line>minds appear to<add place="sublinear"><metamark function="insert"
+        >&#x2038;</metamark></add> have bear a considerable affinity with most those of the</line>
+    <line>Chinese. Both these nations people arrived at a certain point in</line>
+    <line>refinement and know ledge and remained fixed. Superstiti</line>
+    <line>on and slavery clouded their perceptions and a hatred of</line>
+    <line>innovation, the never-failing attendant on w mids a minds</line>
+    <line>which have (changed to has) learnt every thing from imitation and no</line>
+    <line>thing from itself, was the natural consequence of the govern</line>
+    <line>arbitrary ? government they obeyed. Their history both on ac-</line>
+    <line>count of its antiquity and the genius of the nation prevents</line>
+    <line>little more than a list of m names. Pride and a love of Con</line>
+    <line>quest was teh distinguishing characteristic of their kind?</line>
+    <line>kings and they displayed their magnificance<add place="sublinear"><metamark
+          function="insert">&#x2038;</metamark></add> was displayed either by<add place="sublinear"
+          ><metamark function="insert">&#x2038;</metamark></add> a bloody</line>
+    <line>and useless con warfare on the liberties of their neighbours</line>
+    <line>or by the de oppression and destruct destruction of their<add place="sublinear"><metamark
+          function="insert">&#x2038;</metamark></add> own</line>
+    <line>subjects employed in the building of those famous pyra</line>
+    <line>mids, which, shap being scarcely more than shapless mazes</line>
+    <line>of brick <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>or
+      and stone, seem fitted to endure till the earth</line>
+    <line>itself shall pass away. be no longer.</line>
+    <line>Slavery The oppression of their own monarchs sovereigns fitted</line>
+    <line>the necks of this people Egyptians for the yoke of a foreign prince</line>
+    <line>after a few generations they were subdued and remained for</line>
+    <line>ages swallowed up in the <add place="sublinear"><metamark function="insert"
+          >&#x2038;</metamark></add>great Persian monarchy till after the</line>
+    <line>death of Alexander when they againx ????? became</line>
+    <line>a<add>n</add> independant nation till they fell with of overpowering</line>
+    <line>force of the Roman Empire reduced<add place="sublinear"><metamark function="insert"
+          >&#x2038;</metamark></add>them once more to the</line>
+    <line>condition of a Province.</line> Conquest and warfare ???? destruction ??? ???
+      <line>Princes of Princes of Babylon</line>
+    <line>The names of ?himus and ????? are preserved</line>
+    <line>by that bloody ha???<add place="sublinear"><metamark function="insert"
+        >&#x2038;</metamark></add>with which and<add place="sublinear"><metamark function="insert"
+          >&#x2038;</metamark></add>victory conquest<add place="sublinear"><metamark
+          function="insert">&#x2038;</metamark></add>bloods conquest all always deco</line>
+    <line>rates its worshippers but the effects of their ?? conquests ?? </line>
   </zone>
 </surface>
