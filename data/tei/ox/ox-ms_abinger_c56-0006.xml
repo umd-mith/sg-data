@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0006" ulx="0" uly="0" lrx="5088" lry="7082" partOf="ox-ms_abinger_c56">
+  xml:id="ox-ms_abinger_c56-0006" ulx="0" uly="0" lrx="5088" lry="7082" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0006.tif"/>
   <zone type="main">
     <line>Agrippa had been entirely exploded. <del rend="strikethrough">And</del></line>
@@ -37,19 +37,19 @@
     <line>my volume by no means assured me</line>
     <line>that he was acquainted with <mod>
         <del rend="strikethrough">the</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">its</add>
       </mod> contents;</line>
     <line>and I continued to read with the greatest</line>
-    <line>avidity. <milestone unit="tei:p"/><metamark>[</metamark>When I returned home, my
-      first</line>
+    <line>avidity. <milestone unit="tei:p"/><metamark function="paragraph">[</metamark>When I
+      returned home, my first</line>
     <line>care was to procure <mod>
         <del rend="strikethrough">this</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">the</add>
       </mod>
       <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">whole</add>
       </mod> works of this</line>
     <line>author and afterwards those of Paracel-</line>

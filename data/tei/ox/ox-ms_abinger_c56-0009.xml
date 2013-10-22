@@ -3,15 +3,15 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0009" ulx="0" uly="0" lrx="5088" lry="7082" partOf="ox-ms_abinger_c56">
+  xml:id="ox-ms_abinger_c56-0009" ulx="0" uly="0" lrx="5088" lry="7082" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0009.tif"/>
   <zone type="library">3</zone>
   <zone type="main">
     <line><mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">thier</add>
       </mod> credit with <mod>
-        <add place="superlinear"><metamark>&#x2038;</metamark></add>
+        <add place="superlinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">me</add>
       </mod> &#x2013; but I could not entirely throw</line>
     <line>them aside before <mod>
@@ -31,16 +31,16 @@
       </mod>
       <unclear unit="chars" extent="1"/> in my mind&#x2013;</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="8"/><mod>
+    <line rend="indent3"><mod>
         <del rend="strikethrough">An</del>
         <del rend="unmarked">d</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">Among other questions suggested by natural
           objects</add>
       </mod> I <del rend="strikethrough">as</del> eagerly enquired of my father</line>
     <line><mod>
         <del rend="strikethrough">what</del>
-        <add place="sublinear"><metamark>&#x2038; </metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">the nature <space unit="chars" extent="3"/> &#x26; the
           origin of</add>
       </mod> thunder and lightening. <del rend="strikethrough">was.</del> He</line>
@@ -57,7 +57,7 @@
       </mod> drew down</line>
     <line>that fluid from the clouds.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>This last <del rend="strikethrough">blow</del>
+    <line rend="indent2">This last <del rend="strikethrough">blow</del>
       <del rend="strikethrough">st</del> stroke compleated</line>
     <line>the overthrow of Cornelius Agrippa, Albertus</line>
     <line>Magnus and Paracelsus, who had so long</line>
@@ -70,10 +70,10 @@
       </mod> was influenced by the following</line>
     <line>circumstance.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>My father expressed a wish that I</line>
+    <line rend="indent2">My father expressed a wish that I</line>
     <line>should attend a course of lectures upon</line>
     <line>natural philosophy, to which I <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">cheerfully</add>
       </mod>consented <delSpan spanTo="#c56-0009.02" rend="strikethrough"/>and</line>
     <line><delSpan spanTo="#c56-0009.01" rend="vertical_line"/>one evening<anchor

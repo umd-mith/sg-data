@@ -12,9 +12,9 @@
         <add place="sublinear" hand="#pbs">ut a</add>
       </mod> violent death.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Nor were these my only visions, the</line>
+    <line rend="indent1">Nor were these my only visions, the</line>
     <line>raising of ghosts or devils <mod spanTo="#c56-0008.01"/><add place="sublinear"
-          ><metamark>&#x2038;</metamark></add>
+          ><metamark function="insert">&#x2038;</metamark></add>
       <del rend="strikethrough" next="#c56-0008.02">was also a favour</del><add hand="#pbs"
         place="superlinear" next="#c56-0008.05">was a promise liberally accorded by</add></line>
     <line><del rend="strikethrough" xml:id="c56-0008.02" next="#c56-0008.03">ite</del>
@@ -29,18 +29,18 @@
         <add place="sublinear" hand="#pbs">the failure</add>
       </mod> rather to my own inexperience</line>
     <line><del rend="strikethrough">th</del> and mistake, than <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">to a</add>
       </mod> want of skill <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear" hand="#pbs">or fidelity</add>
       </mod> in</line>
     <line>my instructor<add place="intralinear" hand="#pbs">s</add>.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/><del rend="strikethrough">When I was about fifteen my
+    <line rend="indent1"><del rend="strikethrough">When I was about fifteen my
         f</del></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>The natural ph&#xE6;nonema that takes</line>
+    <line rend="indent1">The natural ph&#xE6;nonema that takes</line>
     <line>place every day before our eyes did not</line>
     <line>escape my exa<mod>
         <del rend="overwritten">n</del>
@@ -73,7 +73,7 @@
       </mod> by a gentleman whom </line>
     <line>we were in the habit of visiting.</line>
     <milestone unit="tei:p"/>
-    <line>The ignorance of my philosopher<mod>
+    <line rend="indent1">The ignorance of my philosopher<mod>
         <del rend="overwritten">es</del>
         <add place="intralinear" hand="#pbs">s</add>
       </mod> on these</line>

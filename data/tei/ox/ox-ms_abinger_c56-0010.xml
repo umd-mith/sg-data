@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c56-0010" ulx="0" uly="0" lrx="5088" lry="7082" partOf="ox-ms_abinger_c56">
+  xml:id="ox-ms_abinger_c56-0010" ulx="0" uly="0" lrx="5088" lry="7082" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0010.tif"/>
   <zone type="library">3<hi rend="sup">v</hi></zone>
 
@@ -23,7 +23,7 @@
         hand="#pbs" xml:id="c56-0010.02">lecture which I attended being thus <del
           rend="strikethrough">the</del> almost the last <del rend="strikethrough">in his
         </del></add><anchor xml:id="c56-0010.04"/> in his course <mod>
-        <add><metamark>&#x2038;</metamark></add>
+        <add><metamark function="insert">&#x2038;</metamark></add>
         <add hand="#pbs" place="sublinear">was entirely incomprehensible to me.</add>
       </mod> &#x2013; the professor talked</line>
     <line>with the greatest fluency of potassium &#x26;</line>
@@ -57,7 +57,7 @@
     <line>in my estimation <add hand="#pbs" place="intralinear">of nearly equal interest &#x26;
         utility.</add></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>My <mod>
+    <line rend="indent2">My <mod>
         <del rend="strikethrough">studies</del>
         <add hand="#pbs" place="superlinear">occupations</add>
       </mod> at this age were <del rend="strikethrough">th</del> principally the</line>
@@ -65,7 +65,7 @@
     <line>of the branches of study appertaining <del rend="strikethrough">th</del> to that</line>
     <line>science. I was also busily employed in learning</line>
     <line>languages Latin was <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add hand="#pbs" place="superlinear">already</add>
       </mod> familiar to me and I began to</line>
     <line>read without the help of the <mod>

@@ -19,7 +19,7 @@
     <line>vial occurence<del rend="strikethrough">s</del>. <mod spanTo="#c56-0005.01"/><del
         rend="strikethrough" next="#c56-0005.02">Strange as the</del>
       <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">statement of the</add></del>
       </mod>
       <del rend="strikethrough" xml:id="c56-0005.02" next="#c56-0005.03">simple fact</del></line>
@@ -70,7 +70,7 @@
     <line>lius Agrippa. <del rend="strikethrough">And</del> I opened it with apathy</line>
     <line><mod>
         <del rend="strikethrough" next="#c56-0005.04">but</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">the theory that he attempted to d<add place="superlinear"
             next="#c56-0005.05">demonstrate and the wonderful facts that</add></add>
         <add place="sublinear" xml:id="c56-0005.05">he relates <del rend="strikethrough">chan</del>
@@ -83,7 +83,7 @@
     <line>discovery to my father. I cannot help here remark</line>
     <line>ing the many opportunities <mod>
         <del rend="strikethrough">parents</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">instructors</add>
       </mod>
       <mod>
@@ -100,7 +100,7 @@
     <line>mation my father had taken the pains to</line>
     <line>exp<mod>
         <del rend="strikethrough">ound</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">lain</add>
       </mod> to me that the principles of</line>
   </zone>
