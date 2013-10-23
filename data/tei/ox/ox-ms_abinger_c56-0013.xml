@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0013" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0013.tif"/>
-  <zone type="pagination">43</zone>
+  <zone type="pagination" rend="bordered">43</zone>
   <zone type="library">5</zone>
   <zone type="main">
     <line>being an only child, and desti</line>
@@ -21,7 +21,7 @@
     <milestone unit="tei:p"/>
     <delSpan spanTo="#c56-0013.01" rend="vertical_line"/>
     <delSpan spanTo="#c56-0013.02" rend="strikethrough"/>
-    <line><space unit="chars" extent="3"/>In this account of my early</line>
+    <line rend="indent1">In this account of my early</line>
     <line>youth I wish particularly to <mod spanTo="#c56-0013.03"/>men</line>
     <line>tion <anchor xml:id="c56-0013.04"/><anchor xml:id="c56-0013.03"/> those
         circumstances<anchor xml:id="c56-0013.02"/> which</line>
@@ -44,11 +44,11 @@
     <line>experiments never failed to</line>
     <line>attract my attention.<anchor xml:id="c56-0013.01"/><del rend="strikethrough"
         next="#c56-0013.06">I reme<del rend="unmarked"/><add place="sublinear"
-            ><metamark>&#x2038;</metamark></add><add place="superlinear" hand="#pbs"
+            ><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#pbs"
         >m</add></del><del rend="strikethrough" xml:id="c56-0013.06" next="#c56-0013.07"
       >ber</del></line>
     <line><del rend="strikethrough" xml:id="c56-0013.07">also</del><milestone unit="tei:p"
-        /><metamark> [</metamark><mod>
+        /><metamark function="paragraph"> [</metamark><mod>
         <del rend="overwritten">w</del>
         <add place="intralinear">W</add>
       </mod>hen I was about <mod>

@@ -15,7 +15,7 @@
         <line>that every where presents itself to</line>
         <line><mod>
                 <del rend="strikethrough">their</del>
-                <add place="sublinear">&#x2038;</add>
+                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
                 <del rend="strikethrough">minds</del>
                 <add place="superlinear">the soul</add>
             </mod> and the despair that</line>
@@ -28,12 +28,6 @@
                 <del rend="overwritten">T</del>
                 <add>t</add>
             </mod>hat</line>
-        <!--ever: ] colon appears to be written over a comma or perod, 
-      possibly by PBS. In these situations, where we disagree with 
-      Charlie's transcription, let's mark it as a note that we can 
-      correct later after getting a list of corrections from Charlie.
-    It's important that we know exactly where and when we deviate from
-    the transcription in MYR-->
         <line>the brightness of a loved eye can have</line>
         <line><mod>
                 <del rend="strikethrough">faded</del>
@@ -56,7 +50,7 @@
             </mod> who has not <delSpan rend="strikethrough" spanTo="#c56-0019.01"/>had some
             dear</line>
         <line>connection rent away by<anchor xml:id="c56-0019.01"/> that rude hand <anchor
-                    xml:id="c56-0019.02"/></line>
+                xml:id="c56-0019.02"/></line>
         <line><unclear unit="chars" extent="2"/> and why <mod>
                 <del rend="strikethrough">need</del>
                 <add place="superlinear" hand="#pbs">should</add>
@@ -77,7 +71,7 @@
             <del rend="strikethrough" xml:id="c56-0019.05" next="#c56-0019.06">had be</del><del
                 rend="unmarked">en</del></line>
         <line><del rend="strikethrough" xml:id="c56-0019.06" next="#c56-0019.07">taken</del><add
-                place="sublinear">&#x2038;</add>
+                place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
             <del rend="strikethrough" xml:id="c56-0019.07">away</del><add place="superlinear">was
                 dead</add><anchor xml:id="c56-0019.04"/> but we had still</line>
     </zone>

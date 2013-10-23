@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0020" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0020.tif"/>
-  <zone type="pagination">50</zone>
+  <zone type="pagination" rend="bordered">50</zone>
   <zone type="main">
     <line>duties which we ought to perform</line>
     <line>we must continue our course with</line>
@@ -13,7 +13,7 @@
         nothing</del>
       <mod>
         <del rend="strikethrough">else</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <del rend="strikethrough"><add place="superlinear">worse</add></del>
       </mod><delSpan spanTo="#c56-0020.02" rend="strikethrough"/>hap</line>
     <line>pens<anchor xml:id="c56-0020.02"/><del rend="unmarked">.</del>
@@ -22,7 +22,7 @@
           xml:id="c56-0020.03">become a bad habit if further indulged</add></del><add><anchor
           xml:id="c56-0020.04"/></add><anchor xml:id="c56-0020.01"/></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>My journey to Ingolstadt which had</line>
+    <line rend="indent1">My journey to Ingolstadt which had</line>
     <line>been deferred by these events was now</line>
     <line>again determined upon, <del rend="strikethrough">and all that</del></line>
     <line>I <del rend="strikethrough">could</del> obtain<add place="intralinear" hand="#pbs"
@@ -63,7 +63,7 @@
     <line>minut<anchor xml:id="c56-0020.13"/><del rend="unmarked">e</del>
       <del rend="strikethrough">of her time</del>
       <del rend="strikethrough">to others</del><mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">was</add>
       </mod><anchor xml:id="c56-0020.12"/> continual</line>
     <line>ly endeavouring to contribute to the</line>

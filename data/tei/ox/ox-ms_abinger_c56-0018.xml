@@ -6,7 +6,7 @@
   xml:id="ox-ms_abinger_c56-0018" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0018.tif"/>
 
-  <zone type="pagination">48</zone>
+  <zone type="pagination" rend="bordered">48</zone>
 
   <zone type="main">
     <line>consequences of this imprudence were</line>
@@ -37,7 +37,7 @@
     <line>"is it not hard to quit you all? But</line>
     <line>"these are not thoughts befitting me</line>
     <line>"I <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">will endeavour to</add>
       </mod> resign myself <del rend="strikethrough">to</del> cheerfully to</line>
     <line>"death and will indulge a hope <del rend="strikethrough" next="#c56-0018.01"
@@ -46,7 +46,7 @@
       <del rend="strikethrough">creatures</del> of meeting you</line>
     <line>"in another world."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>She died calmly and her features</line>
+    <line rend="indent1">She died calmly and her features</line>
     <line>expressed <del rend="strikethrough"><unclear>lov</unclear></del> affection even in
       death.</line>
     <line>I need not describe the feelings of those</line>
