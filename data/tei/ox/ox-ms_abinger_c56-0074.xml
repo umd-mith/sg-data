@@ -24,7 +24,7 @@
         <add place="superlinear">and then</add>
       </mod> we <mod>
         <del rend="strikethrough">found</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">discovered</add>
       </mod> that Ernest</line>
     <line>and William who had gone on before,</line>

@@ -20,7 +20,7 @@
         <add place="intralinear">a</add>
       </mod>nd</line>
     <line>ha<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">r</add>
       </mod>dly that I felt the palpitation of</line>
     <line>every artery: At others I nearly sunk</line>

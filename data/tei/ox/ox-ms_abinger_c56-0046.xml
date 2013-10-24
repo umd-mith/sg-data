@@ -22,7 +22,7 @@
     <line>ed these dreams vanished and breathless</line>
     <line>horror and disgust filled my heart.</line>
     <line>Unable <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">to endure</add>
       </mod> the aspect of the <mod>
         <del rend="strikethrough">creature</del>
@@ -45,7 +45,7 @@
     <line>But it was in vain; I slept indeed but</line>
     <line><damage type="inkblot">I</damage> was disturbed by the wildest dreams&#x2013;</line>
     <line>I saw Elizabeth <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">in the bloom of health</add>
       </mod> walking in the streets of</line>
     <line>Ingolstadt; delighted &#x26; surprised I embraced</line>

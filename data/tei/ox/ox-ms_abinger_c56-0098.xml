@@ -36,7 +36,7 @@
     <line>of approbation <del rend="strikethrough">o</del> was heard, but it</line>
     <line>was <mod>
         <del rend="strikethrough">on her account</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">excited by her generous interference</add>
       </mod>&#x26; not in favour</line>
     <line>of poor Justine on whom the public</line>
@@ -46,7 +46,7 @@
     <line>gratitude. <del rend="strikethrough">For</del> She herself wept as</line>
     <line>Elizabeth spoke but she did not</line>
     <line>answer. My own agitation<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">&#x26; anguish</add>
       </mod> was extreme</line>
     <line><del rend="strikethrough">wh</del> during the whole of the trial. <delSpan

@@ -32,7 +32,7 @@
       </mod> hold of my <del rend="strikethrough">imagni</del> imagination.</line>
     <line>I wished as it were to <del rend="strikethrough">procr</del> procras</line>
     <line>tinate <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">all that related to</add>
       </mod> my feelings of affection, untill</line>
     <line>the great object <mod>
@@ -53,7 +53,7 @@
     <line>that <mod>
         <del rend="strikethrough">I</del>
         <del rend="strikethrough">am</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">he was</add>
         <add place="superlinear"><metamark>X</metamark></add>
         <del rend="strikethrough">in the right</del>

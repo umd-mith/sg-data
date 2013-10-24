@@ -10,7 +10,7 @@
   <zone type="main">
     <line>my view. I did not dare <del rend="strikethrough">to</del> return</line>
     <line>to the appartment <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">which</add>
       </mod> I inhabited but</line>
     <line>felt impelled to hurry on although</line>
@@ -25,7 +25,7 @@
     <line>I was or what I was doing: my heart</line>
     <line>palpitated <mod>
         <del rend="strikethrough">with</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">in the sickness of</add>
       </mod> fear and I hurried</line>
     <line>on with irregular steps not daring</line>
@@ -57,7 +57,7 @@
     <line>from the other end of the street.</line>
     <line>As <mod>
         <del rend="strikethrough">I</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">it</add>
       </mod> drew nearer I observed that it</line>
     <line>was the Swiss diligence; it stopped</line>

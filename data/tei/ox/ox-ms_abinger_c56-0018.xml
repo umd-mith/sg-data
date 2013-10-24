@@ -37,7 +37,7 @@
     <line>"is it not hard to quit you all? But</line>
     <line>"these are not thoughts befitting me</line>
     <line>"I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">will endeavour to</add>
       </mod> resign myself <del rend="strikethrough">to</del> cheerfully to</line>
     <line>"death and will indulge a hope <del rend="strikethrough" next="#c56-0018.01"

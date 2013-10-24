@@ -32,11 +32,11 @@
     <line><del rend="strikethrough">&#x26;</del> happy life; and the least hurtful</line>
     <line>or rather the most benificial <del rend="strikethrough">of any</del></line>
     <line>profession.<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">of any.</add>
       </mod> My <del rend="strikethrough">father</del> uncle had an</line>
     <line>idea of his being<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">educated as</add>
       </mod> an advocate, <mod>
         <del rend="overwritten">&#x26;</del>
@@ -65,7 +65,7 @@
         <add place="superlinear" hand="#pbs">his</add>
       </mod> vices; which is the employment<mod>
         <add place="sublinear"><metamark function="displacement" xml:id="c56-0059.03"
-            >&#x2038;</metamark></add>
+            >^</metamark></add>
       </mod></line>
     <line>of a Lawyer. <delSpan spanTo="#c56-0059.05" rend="strikethrough"/>And if he should
       become</line>

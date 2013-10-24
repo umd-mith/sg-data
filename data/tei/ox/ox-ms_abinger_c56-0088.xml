@@ -59,7 +59,7 @@
     <line>"<del rend="strikethrough">And</del> We do also, unfortunately," replied my</line>
     <line>father for indeed I had rather have</line>
     <line>been<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">for ever</add>
       </mod> ignorant than, have discovered so</line>
     <line>much depravity &#x26; ingratitude in one whom</line>

@@ -38,13 +38,13 @@
         next="#c56-0021.03">he said he did not</del><anchor xml:id="c56-0021.01"/></line>
     <line><del rend="strikethrough" xml:id="c56-0021.03" next="#c56-0021.04">see</del>
       <mod>
-        <del rend="unmarked"><add place="sublinear"><metamark>&#x2038;</metamark></add><add
+        <del rend="unmarked"><add place="sublinear"><metamark>^</metamark></add><add
             place="superlinear">of</add></del>
       </mod>
       <del rend="strikethrough" xml:id="c56-002201.04" next="#c56-0021.05">what use learning</del>
       <mod>
         <del rend="strikethrough" xml:id="c56-0021.05" next="#c56-0021.06">was</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">could be</add></del>
       </mod>
       <del rend="strikethrough" xml:id="c56-0021.06" next="#c56-0021.07">to a</del></line>
@@ -58,7 +58,7 @@
       />the</line>
     <line>partner<anchor xml:id="c56-0021.08"/>
       <del rend="strikethrough">of</del> his father's <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">partner</add>
       </mod>but he believed</line>
     <line>that a man might be a very good</line>

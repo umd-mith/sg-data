@@ -13,7 +13,7 @@
         nothing</del>
       <mod>
         <del rend="strikethrough">else</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">worse</add></del>
       </mod><delSpan spanTo="#c56-0020.02" rend="strikethrough"/>hap</line>
     <line>pens<anchor xml:id="c56-0020.02"/><del rend="unmarked">.</del>
@@ -63,7 +63,7 @@
     <line>minut<anchor xml:id="c56-0020.13"/><del rend="unmarked">e</del>
       <del rend="strikethrough">of her time</del>
       <del rend="strikethrough">to others</del><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">was</add>
       </mod><anchor xml:id="c56-0020.12"/> continual</line>
     <line>ly endeavouring to contribute to the</line>

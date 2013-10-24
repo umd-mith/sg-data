@@ -11,7 +11,7 @@
     <line>the murderer of my brother. No sooner</line>
     <line>did that idea cross my imagination than</line>
     <line>I became convinced <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">of its truth</add>
       </mod> &#x2014; my teeth chattered</line>
     <line>and I was forced to lean against <del rend="strikethrough">th</del> a </line>
@@ -23,7 +23,7 @@
       </mod>e</line>
     <line><anchor xml:id="c56-0083.01"/>was the murderer! <mod spanTo="c56-0083.02"/>
       <del rend="strikethrough">I<mod>
-          <add place="sublinear"><metamark>&#x2038;</metamark></add>
+          <add place="sublinear"><metamark>^</metamark></add>
           <add place="superlinear">could not</add>
         </mod> doubt<del rend="strikethrough">ed</del> it</del>
       <del rend="strikethrough">not</del>
@@ -31,12 +31,12 @@
     <line><del rend="strikethrough">the</del>
       <del rend="strikethrough">thought</del>
       <del rend="strikethrough">was agony<mod>
-          <add place="sublinear"><metamark>&#x2038;</metamark></add>
+          <add place="sublinear"><metamark>^</metamark></add>
           <add place="superlinear">I was agonized by the bare probability</add>
         </mod></del><anchor xml:id="c56-0083.03"/><anchor xml:id="c56-0083.02"/> &#x2014; I thought
       of pur</line>
     <line>sueing the devil, but <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear"> it would have been</add>
       </mod> in vain for another</line>
     <line>flash discovered him to me <mod spanTo="#c56-0083.05"/><delSpan spanTo="#c56-0083.06"
@@ -54,7 +54,7 @@
     <line>the scene was inveloped in a<mod>
         <add place="intralinear">n</add>
         <del rend="strikethrough">pitchy</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">impenetrable</add>
       </mod> dark-</line>
     <line>ness. I revolved in my mind <mod spanTo="c56-0083.11"/><delSpan spanTo="#c56-0083.07"
@@ -62,23 +62,23 @@
     <line>my mind<anchor xml:id="c56-0083.07"/><anchor xml:id="c56-0083.10"/><anchor
         xml:id="c56-0083.11"/> the events which I <del rend="strikethrough">u</del> had,</line>
     <line>untill now, sought to forget. <add><metamark function="displacement" xml:id="c56-0083.08"
-          >&#x2038;</metamark></add> The appearance</line>
+          >^</metamark></add> The appearance</line>
     <line>of <mod>
         <del rend="strikethrough">the creature</del>
-        <add><metamark>&#x2038;</metamark></add>
+        <add><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">the work of my own hands, alive</add>
       </mod> at my bed side &#x2013; <add place="superlinear" hand="#pbs"> &#x26;</add> its
       departure.</line>
     <line><del rend="strikethrough">Its</del>
       <del rend="strikethrough">It was now nearly</del> two years <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">had now nearly elapsed</add>
       </mod> since the</line>
     <line>night <del rend="strikethrough">of</del> on which he first received</line>
     <line>life, and was this his first crime &#x2013; <del rend="strikethrough"
         ><unclear>?</unclear></del>Alas!</line>
     <line>I <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add>had</add>
       </mod> turned loose in the world a depraved</line>
     <line>wretch whose delight was in <del rend="strikethrough">deat</del></line>

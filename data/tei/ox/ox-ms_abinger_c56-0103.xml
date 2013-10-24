@@ -12,7 +12,7 @@
     <line>aunt had so highly honoured and</line>
     <line>whom you loved, was a wretch capa</line>
     <line>ble of<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">a</add>
       </mod> crime which <mod>
         <del rend="strikethrough">not</del>
@@ -20,7 +20,7 @@
       </mod> but the</line>
     <line>devil himself <mod>
         <del rend="strikethrough">was capable of</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">could have perpetrated</add>
       </mod>. Dear</line>
     <line>William, dearest blessed child, I soon</line>

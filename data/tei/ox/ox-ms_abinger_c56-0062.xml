@@ -29,7 +29,7 @@
       </mod>y</line>
     <line>she was a roman Catholic and I believe</line>
     <line>her confessor encouraged the idea<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">which she had concieved.</add>
       </mod>. Accor</line>
     <line>dingly, a few Months after your depar</line>

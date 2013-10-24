@@ -11,7 +11,7 @@
   <zone type="main">
     <line>one of my first duties on my recovery was</line>
     <line>to introduce Clerval to the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">several</add>
       </mod> professors of</line>
     <line>the university. And in doing this I under</line>
@@ -36,9 +36,9 @@
         rend="strikethrough"/>brought on</line>
     <line>again<anchor xml:id="c56-0066.02"/><add hand="#pbs" place="superlinear"
         >renewed</add><anchor xml:id="c56-0066.01"/> all <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">the agony of my</add>
-      </mod> my<add place="sublinear"><metamark function="insert">&#x2038;</metamark></add> nervous
+      </mod> my<add place="sublinear"><metamark function="insert">^</metamark></add> nervous
       symtoms. <del rend="strikethrough">Lo</del></line>
     <line>Henry saw this and had <mod>
         <del rend="strikethrough">p</del>

@@ -18,7 +18,7 @@
     <line>nal justice of man<add place="intralinear" hand="#pbs">!</add>&#x2014;Yet I ask you</line>
     <line>not to spare me, listen and then, if</line>
     <line>you <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">can and if you</add>
       </mod> will, destroy the work of your hands."</line>
     <milestone unit="tei:p"/>
@@ -36,7 +36,7 @@
     <line>(although I curse myself) be the hands</line>
     <line>that formed you!&#x2014; You have made</line>
     <line>me wretched beyond expression <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">You have left me no power to consider</add>
         <add place="sublinear" hand="#pbs">whether I am just to you or no.</add>
       </mod> begone,</line>

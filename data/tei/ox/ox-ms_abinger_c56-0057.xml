@@ -19,7 +19,7 @@
     <line><space unit="chars" extent="4"/>I trembled; one subject! What</line>
     <line>could it be? Could he allude to<mod>
         <add place="sublinear"><metamark function="insert"><metamark function="insert"
-              >&#x2038;</metamark></metamark></add>
+              >^</metamark></metamark></add>
         <add place="superlinear">an</add>
       </mod> object</line>
     <line><anchor xml:id="c56-0057.01"/>I dared not even think. Do not fright</line>

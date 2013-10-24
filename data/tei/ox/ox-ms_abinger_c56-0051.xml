@@ -12,7 +12,7 @@
     <line>"incredulous to the last for his con</line>
     <line>"stant answer to my applications</line>
     <line>"was the same as <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">that of</add>
       </mod>the dutch school</line>
     <line>"master in the Vicar of Wakefield&#x2013;</line>
@@ -24,7 +24,7 @@
     <line>"length overcame his dislike for</line>
     <line>"learning, and he permitted me</line>
     <line>"to <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">under</add>
       </mod>take a voyage <add place="superlinear" hand="#pbs">of discovery</add>to the land
       of</line>
@@ -57,7 +57,7 @@
     <line>"not allow<mod>
         <add place="intralinear" hand="#pbs">ed</add>
       </mod><mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">myself</add>
       </mod> sufficient rest as you</line>
   </zone>

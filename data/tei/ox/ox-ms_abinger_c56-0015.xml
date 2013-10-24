@@ -33,7 +33,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent1">Another task <mod>
         <del rend="strikethrough">soon</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">also</add>
       </mod> devolved upon</line>
     <line>me when I became the instructor</line>

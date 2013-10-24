@@ -11,7 +11,7 @@
         <del rend="overwritten">m</del>
         <add place="intralinear">ir</add>
       </mod>.<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">mechanism.</add>
       </mod> He also gave me the list of</line>
     <line>books which I had requested and</line>

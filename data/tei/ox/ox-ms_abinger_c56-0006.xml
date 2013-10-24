@@ -37,7 +37,7 @@
     <line>my volume by no means assured me</line>
     <line>that he was acquainted with <mod>
         <del rend="strikethrough">the</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">its</add>
       </mod> contents;</line>
     <line>and I continued to read with the greatest</line>
@@ -45,11 +45,11 @@
       returned home, my first</line>
     <line>care was to procure <mod>
         <del rend="strikethrough">this</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod>
       <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">whole</add>
       </mod> works of this</line>
     <line>author and afterwards those of Paracel-</line>

@@ -16,7 +16,7 @@
     <line>forced, and by some means we al-</line>
     <line>ways had an end placed in view which</line>
     <line>excited us to ardour.<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">in the prosecution of them.</add>
       </mod> It was by this <mod>
         <del rend="strikethrough">&#x26;</del>
@@ -59,7 +59,7 @@
       </mod> those</line>
     <line>languages and so far from study</line>
     <line>begin rendered odious <del rend="strikethrough">by</del> to us th<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">r</add>
       </mod>ough</line>
     <line>punishment, we loved application</line>
@@ -86,7 +86,7 @@
         >Clerval,</add></line>
     <line><del rend="strikethrough" xml:id="c56-0012.08">in this account</del><anchor
         xml:id="c56-0012.07"/> for <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">he</add>
       </mod> was<del rend="strikethrough">con</del> constantly</line>
     <line>with us. he went to <del rend="strikethrough">sho</del> school</line>

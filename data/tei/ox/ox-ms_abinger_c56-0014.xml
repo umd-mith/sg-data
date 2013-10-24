@@ -18,7 +18,7 @@
         <line>of the heavens and<anchor xml:id="c56-0014.03"/> burst <add place="superlinear">at
                 once</add> with <del rend="strikethrough">and</del></line>
         <line>frightful loudness.<mod>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+            <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">from various quarters of the heavens</add>
             </mod> I <delSpan spanTo="#c56-0014.04" rend="strikethrough"/>witnessed th<mod>
                 <del rend="overwritten">is</del>
@@ -41,7 +41,7 @@
                 xml:id="c56-0014.15" hand="#pbs">on a sudden</add><anchor xml:id="c56-0014.09"/> I
             beheld <mod>
                 <del rend="strikethrough">the</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear" hand="#pbs">a stream of</add>
             </mod> fire issue</line>
         <line>from an old <del rend="strikethrough">be</del> and beautiful</line>
@@ -63,7 +63,7 @@
             </mod> nothing<add place="superlinear">remained</add> but a</line>
         <line><mod>
                 <del rend="strikethrough">rent</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">blasted</add>
             </mod> stump. <del rend="strikethrough">remained</del>. When we</line>
         <line>visited it the next morning we found</line>
@@ -77,7 +77,7 @@
         <line>ment <delSpan spanTo="#c56-0014.11" rend="vertical_line"/><del rend="strikethrough"
                 next="#c56-0014.12">and</del><mod>
                 <del rend="strikethrough" xml:id="c56-0014.12" next="#c56-0014.13">caused</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">induced</add>
             </mod>
             <del rend="strikethrough" xml:id="c56-0014.13" next="#c56-0014.14">me to aply

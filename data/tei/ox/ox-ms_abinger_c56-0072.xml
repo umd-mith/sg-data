@@ -11,7 +11,7 @@
     <line>ted himself to amuse me, while he expressed</line>
     <line>the feelings that <del rend="strikethrough">al</del> filled his <mod>
         <del rend="strikethrough">mind</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">soul</add>
       </mod>. The</line>
     <line>resources of his mind on this occasion</line>
@@ -23,7 +23,7 @@
     <line>an &#x26; Arabic writers, he invented tales</line>
     <line>of <mod>
         <del rend="strikethrough">great</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">wonderful</add>
       </mod> fancy and interrest. At other</line>
     <line>times he repeated my favourite poems</line>
@@ -31,7 +31,7 @@
     <line>he supported with great ingenuity.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="7"/>We returned <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">to our colledge</add>
       </mod> on a sunday &#x2013; the pea</line>
     <line>sants were dancing and every one we</line>

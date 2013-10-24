@@ -23,7 +23,7 @@
         <add place="intralinear">is</add>
       </mod>
       <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">last</add>
       </mod> winter <delSpan spanTo="#c56-0063.01" rend="strikethrough"/>that</line>
     <line>has just passed<anchor xml:id="c56-0063.01"/>. Justine has</line>

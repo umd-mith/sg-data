@@ -35,7 +35,7 @@
         <line>those of my native country. My depar</line>
         <line>ture was therefore fixed <del rend="strikethrough">for</del> at an</line>
         <line>early <mod>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">date.</add>
             </mod> But before the day resolved</line>
         <line>upon could arrive the first mis</line>
@@ -50,7 +50,7 @@
         <line>not severe and she quickly recovered.</line>
         <line>During her confinement <mod>
                 <del rend="strikethrough">mady</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear"><del rend="strikethrough"><unclear>made</unclear></del>
                     many</add>
             </mod> ar</line>

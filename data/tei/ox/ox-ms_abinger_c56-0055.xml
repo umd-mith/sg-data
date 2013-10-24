@@ -17,7 +17,7 @@
     <line>and unfitness for so long a journey &#x26;</line>
     <line>wretched Elizabeth would be he</line>
     <line>had spared them this <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">grief</add>
       </mod> by <del rend="strikethrough">partly</del> conceal</line>
     <line>ing the extent of my disorder. He knew</line>
@@ -33,7 +33,7 @@
     <line><del rend="strikethrough">affection</del> &#x26; unremitting attentions of</line>
     <line>my friend could have restored me to</line>
     <line>life. The form of the mo<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">n</add>
       </mod>ster on whom</line>
     <line>I had bestowed life was for ever before</line>

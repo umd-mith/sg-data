@@ -8,10 +8,10 @@
   <zone type="library">3</zone>
   <zone type="main">
     <line><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">thier</add>
       </mod> credit with <mod>
-        <add place="superlinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me</add>
       </mod> &#x2013; but I could not entirely throw</line>
     <line>them aside before <mod>
@@ -34,13 +34,13 @@
     <line rend="indent3"><mod>
         <del rend="strikethrough">An</del>
         <del rend="unmarked">d</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">Among other questions suggested by natural
           objects</add>
       </mod> I <del rend="strikethrough">as</del> eagerly enquired of my father</line>
     <line><mod>
         <del rend="strikethrough">what</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">the nature <space unit="chars" extent="3"/> &#x26; the
           origin of</add>
       </mod> thunder and lightening. <del rend="strikethrough">was.</del> He</line>
@@ -73,7 +73,7 @@
     <line rend="indent2">My father expressed a wish that I</line>
     <line>should attend a course of lectures upon</line>
     <line>natural philosophy, to which I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">cheerfully</add>
       </mod>consented <delSpan spanTo="#c56-0009.02" rend="strikethrough"/>and</line>
     <line><delSpan spanTo="#c56-0009.01" rend="vertical_line"/>one evening<anchor

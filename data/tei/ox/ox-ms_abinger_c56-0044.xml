@@ -20,7 +20,7 @@
     <line>Every <del rend="strikethrough">nigh</del> night a slow fever oppressed</line>
     <line>me and I became <mod>
         <del rend="strikethrough">nevous</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">nervous</add>
       </mod> to a <del rend="strikethrough">degre</del></line>
     <line>most painful degree; a <del rend="strikethrough">fever</del> a dis-</line>
@@ -33,7 +33,7 @@
         <add place="superlinear" hand="#pbs">the</add>
       </mod> firm<add place="intralinear" hand="#pbs">ness</add>
       <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">of my</add>
       </mod> nerves. But I</line>
     <line>believed that exercise and amusement</line>

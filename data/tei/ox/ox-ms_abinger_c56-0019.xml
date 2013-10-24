@@ -15,7 +15,7 @@
         <line>that every where presents itself to</line>
         <line><mod>
                 <del rend="strikethrough">their</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <del rend="strikethrough">minds</del>
                 <add place="superlinear">the soul</add>
             </mod> and the despair that</line>
@@ -71,7 +71,7 @@
             <del rend="strikethrough" xml:id="c56-0019.05" next="#c56-0019.06">had be</del><del
                 rend="unmarked">en</del></line>
         <line><del rend="strikethrough" xml:id="c56-0019.06" next="#c56-0019.07">taken</del><add
-                place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                place="sublinear"><metamark function="insert">^</metamark></add>
             <del rend="strikethrough" xml:id="c56-0019.07">away</del><add place="superlinear">was
                 dead</add><anchor xml:id="c56-0019.04"/> but we had still</line>
     </zone>

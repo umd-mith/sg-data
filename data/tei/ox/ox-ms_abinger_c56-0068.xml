@@ -9,7 +9,7 @@
   <zone type="main">
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>M<hi rend="sup">r</hi>. Krempe was not <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">equally</add>
       </mod> docile <mod spanTo="#c56-0068.01"/><del rend="strikethrough">yet</del><add
         place="superlinear">&#x26;</add>
@@ -29,7 +29,7 @@
     <line>"who but <del rend="strikethrough">two</del> three years ago believed</line>
     <line>"Cornelius Agrippa <mod>
         <del rend="strikethrough">to be</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">as firmly as the</add>
       </mod> gospel has</line>
     <line>"now set himself at the head of</line>
@@ -38,7 +38,7 @@
     <line>"of countenance.&#x2014;Aye, Aye, continued</line>
     <line>"he observing my <mod>
         <del rend="strikethrough">countenance</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">face</add>
       </mod> ex</line>
     <line>"pressive of suffering "Mr. <del rend="strikethrough">f</del> Franken-</line>

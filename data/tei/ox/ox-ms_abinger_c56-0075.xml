@@ -27,7 +27,7 @@
     <line>ly<anchor xml:id="c56-0075.02"/><anchor xml:id="c56-0075.03"/><anchor xml:id="c56-0075.01"
       /> earnest to see the corpse. <mod spanTo="#c56-0075.04"/><del rend="strikethrough"
         >which</del><mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear">^</add>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">I</add></del>
       </mod><delSpan spanTo="#c56-0075.05" rend="strikethrough"/>for a</line>
     <line>long time<anchor xml:id="c56-0075.05"/>

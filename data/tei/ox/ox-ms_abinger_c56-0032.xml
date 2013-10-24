@@ -16,7 +16,7 @@
     <line>often asked me with a sly smile</line>
     <line>how Cornelius Agrippa went on<mod>
         <add place="intralinear" hand="#pbs">;</add>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <anchor xml:id="c-56.0032.01"/>
       </mod> Two</line>
     <line>years passed in this manner during</line>
@@ -69,7 +69,7 @@
       </mod> which pro</line>
     <line>cured me great esteem and admiration</line>
     <line>at the university. When I arrived at</line>
-    <line>this <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>point, <anchor
+    <line>this <add place="sublinear"><metamark function="insert">^</metamark></add>point, <anchor
           xml:id="c-56.0032.04"/><del rend="strikethrough">that</del> m<mod>
         <del rend="overwritten"><unclear unit="chars" extent="1"/></del>
         <add place="intralinear">y</add>

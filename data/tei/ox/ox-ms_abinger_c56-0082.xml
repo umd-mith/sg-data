@@ -23,7 +23,7 @@
         <del rend="strikethrough">where</del>
         <add place="superlinear" hand="#pbs">of the</add>
       </mod> lake <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <del rend="strikethrough">turns</del>
         <add place="superlinear" hand="#pbs" next="#c56-0082.01">which <del rend="strikethrough"
             >at</del></add>

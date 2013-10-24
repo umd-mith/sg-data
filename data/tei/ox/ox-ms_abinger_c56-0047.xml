@@ -19,7 +19,7 @@
       </mod> shroud envolepped her form &#x26; I saw</line>
     <line>the grave worms crawling in the folds of</line>
     <line>the flannel; I started <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">from my sleep</add>
       </mod> with horror, a</line>
     <line><del rend="strikethrough">when I saw</del> cold dew covered my forehead</line>
@@ -73,7 +73,7 @@
     <line><space unit="chars" extent="5"/>Oh! no mortal could support</line>
     <line>the horror of that countenance. A</line>
     <line>mummy <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">again</add>
       </mod> endued with <mod>
         <del rend="strikethrough">life</del>

@@ -22,7 +22,7 @@
     <line>words cannot convey any idea of the</line>
     <line>heart sickening despair that I <mod>
         <del rend="strikethrough">then felt</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">endured</add>
       </mod>.</line>
     <line><del rend="strikethrough">Nor</del> The person to whom I had addressed</line>
@@ -33,18 +33,18 @@
     <line>none of our judges like to condemn a</line>
     <line><del rend="strikethrough">ch</del> criminal upon circumstantial evi-</line>
     <line>dence <del rend="strikethrough">let it</del> be<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">it</add>
       </mod> ever so decisive."</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">When I returned home Elizabeth</line>
     <line>eagerly <mod>
         <del rend="strikethrough">enquired</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">demanded</add>
       </mod> the result. "My cousin"</line>
     <line>replied I, "it is decided as you may have</line>
-    <line>suspected &#x2013; <add place="sublinear"><metamark>&#x2038;</metamark></add><add
+    <line>suspected &#x2013; <add place="sublinear"><metamark>^</metamark></add><add
         place="superlinear">all</add>Judges had rather that ten</line>
     <line>innocent should suffer tha<mod>
         <del rend="overwritten">t</del>

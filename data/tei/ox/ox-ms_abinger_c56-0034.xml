@@ -10,7 +10,7 @@
     <line>my father had taken the greatest</line>
     <line>precautions that my mind should</line>
     <line><del rend="strikethrough">not</del> be impressed by <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear">^</add>
         <add place="superlinear" hand="#pbs">no</add>
       </mod> supernatural</line>
     <line>horrors. I do not ever remember</line>
@@ -23,7 +23,7 @@
     <line><del rend="strikethrough">Ligh</del> Darkness had no effect upon my</line>
     <line>fancy and a churchyard was to</line>
     <line>me merely <mod>
-        <add place="superlinear">&#x2038;</add>
+        <add place="superlinear">^</add>
         <add place="superlinear" hand="#pbs">as</add>
       </mod> the receptacle of <del rend="strikethrough">rotten b</del></line>
     <line>bodies deprived of life and <mod>
@@ -32,7 +32,7 @@
       </mod></line>
     <line>from being the seat of beauty &#x26;</line>
     <line>strength <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear">^</add>
         <add place="superlinear" hand="#pbs">become</add>
       </mod> food for the worm. <del rend="strikethrough">But</del></line>
     <line><del rend="strikethrough">I </del>

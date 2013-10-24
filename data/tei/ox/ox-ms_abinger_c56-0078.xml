@@ -22,7 +22,7 @@
     <line>to console &#x26; sympathize <add place="superlinear">with</add>my loved and</line>
     <line>sorrowing friends but when I drew</line>
     <line>near my <del rend="strikethrough">t</del> native town I sla<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">c</add>
       </mod>kened</line>
     <line>my <mod>
@@ -51,7 +51,7 @@
       </mod>
       <del rend="strikethrough"><unclear>t</unclear></del>
       <del rend="strikethrough">as great</del> alterations <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">which</add>
       </mod> although</line>
     <line>it might be done more tranquilly would</line>

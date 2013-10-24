@@ -12,7 +12,7 @@
     <line rend="indent2"><milestone unit="tei:head" spanTo="#c56-0031.07"/>Chap. 5<anchor xml:id="c56-0031.07"/></line>
     <line>From this day natural philosophy and parti</line>
     <line>cularly chemistry became <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">nearly</add>
       </mod> my sole <del rend="strikethrough">appli</del></line>
     <line>study. I read with ardour <del rend="strikethrough">m</del> those books</line>
@@ -40,7 +40,7 @@
     <line>enclined me more to the study of that</line>
     <line>branch of <mod>
         <del rend="strikethrough">science</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">natural philosophy which he professed</add>
       </mod> than an intrinsic</line>
     <line>love for the science itself. But this</line>
@@ -62,11 +62,11 @@
     <line>for its own sake. That application</line>
     <line>which at first had been a matter</line>
     <line>of <del rend="strikethrough">ch</del> duty <add place="sublinear"
-          ><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#pbs">&#x26;
+          ><metamark function="insert">^</metamark></add><add place="superlinear" hand="#pbs">&#x26;
         resolution,</add> now became so ardent</line>
     <line>and eager that the stars often</line>
     <line>dissapeared <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add><anchor xml:id="c56-0031.05"/>
+        <add place="sublinear"><metamark function="insert">^</metamark></add><anchor xml:id="c56-0031.05"/>
       </mod> while I was yet <mod>
         <del rend="strikethrough">labouring</del>
         <add place="sublinear" hand="#pbs">engaged</add>

@@ -46,7 +46,7 @@
     <line>as I am now."</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="4"/>"And do you also believe that I am</line>
-    <line>so very very wicked&#x2013;?<add place="sublinear"><metamark>&#x2038;</metamark></add><add
+    <line>so very very wicked&#x2013;?<add place="sublinear"><metamark>^</metamark></add><add
         place="superlinear">Cried Justine</add> Do you also join</line>
     <line>with my enemies to crush me? Her</line>
     <line>voice was suffocated <mod>

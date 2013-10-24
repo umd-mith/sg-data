@@ -26,7 +26,7 @@
     <line>philosophy. I mentioned, it is true</line>
     <line>with fear and trembling, the only</line>
     <line>authors I had <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">ever</add>
       </mod> read upon those</line>
     <line>subjects. The professor stared. <delSpan spanTo="#c56-0024.02" rend="strikethrough"/>I
@@ -55,7 +55,7 @@
     <line>"lived where no one was kind</line>
     <line>"enough to <del rend="strikethrough">enfor</del> inform you</line>
     <line>"that these fancies which <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">you</add>
       </mod> have</line>
   </zone>

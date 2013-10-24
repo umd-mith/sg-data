@@ -18,11 +18,11 @@
         <add hand="#pbs" place="superlinear">can I gather from</add>
       </mod> your</line>
     <line>fellow creatures <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">who owe me nothing.</add>
       </mod>&#x2014;They spurn and <mod>
         <del rend="strikethrough">abhor</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add hand="#pbs" place="superlinear">hate</add>
       </mod></line>
     <line>me. The desart mountains and mourful</line>
@@ -39,12 +39,12 @@
     <line>hail for they are kinder <add place="superlinear">to me</add> than <mod>
         <del rend="strikethrough">man</del>
         <add place="superlinear">your fellow <del rend="strikethrough">creatures</del><add
-            place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
+            place="sublinear"><metamark>^</metamark></add><add place="superlinear"
             >beings</add></add>
       </mod></line>
     <line><mod spanTo="#c56-0127.02"/><del rend="strikethrough">and</del>
       <del rend="strikethrough">But I no</del><add place="sublinear"
-        ><metamark>&#x2038;</metamark></add>
+        ><metamark>^</metamark></add>
       <mod>
         <del rend="strikethrough">They</del>
         <del rend="strikethrough"><add place="superlinear">Man</add></del>
@@ -56,10 +56,10 @@
         <del rend="strikethrough"><add place="superlinear">he</add></del>
       </mod><anchor xml:id="c56-0127.04"/><anchor xml:id="c56-0127.02"/> knew of my
       existence <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">they</add>
       </mod> would as you<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">do</add>
       </mod></line>
     <line>arm themselves for my destruction &#x2013; <del rend="strikethrough">And</del></line>
@@ -68,10 +68,10 @@
         <add place="intralinear">S</add>
       </mod>hall I not <add place="superlinear">then</add> hate them who abhor me</line>
     <line>I <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">will</add>
       </mod> keep no <del rend="strikethrough">temm</del> terms with <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">my</add>
       </mod> enemies <del rend="strikethrough">and</del></line>
     <line>I am miserable <add place="intralinear">&#x26;</add> they shall share my</line>
@@ -81,7 +81,7 @@
       </mod></line>
     <line>to recompense me and deliver them from</line>
     <line>an evil which<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">it</add>
         <anchor xml:id="c56-0127.06"/>
       </mod>
@@ -96,7 +96,7 @@
     <line>judge <add place="superlinear" hand="#pbs">that</add> I deserve&#x2013;<add
         place="sublinear" hand="#pbs">.</add> But <mod>
         <del rend="strikethrough">here</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">hear</add>
       </mod> me &#x2013;The</line>
     <line>guilty <del rend="strikethrough">may</del> are allowed by human laws,</line>

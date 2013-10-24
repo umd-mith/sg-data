@@ -29,14 +29,14 @@
     <line>that I know<anchor xml:id="c56-0096.01"/> and none surely who could have</line>
     <line>been so wicked as <del rend="strikethrough">d</del> to destroy me <mod>
         <del rend="strikethrough">so cruelly</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">wantonly.</add>
       </mod></line>
     <line>Did the murderer place it there? I know</line>
     <line>of no opportunity afforded him for so doing</line>
     <line>or if I had why should he have stolen</line>
     <line>the jewel to part with it <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">again</add>
       </mod> so soon <mod>
         <del rend="strikethrough">again</del>
@@ -65,7 +65,7 @@
     <line>rendered them timorous and unwilling</line>
     <line><mod>
         <del rend="strikethrough">to speak</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">come forward</add></del>
       </mod>. Elizabeth saw even this last</line>
     <line>resource, her excellent and irreproacha</line>

@@ -16,7 +16,7 @@
           <del rend="strikethrough"><add place="superlinear">but</add></del>
         </mod></del><anchor xml:id="c56-0039.01"/>
       <del rend="unmarked">I did not think that</del></line>
-    <!--"I did not think that was mistakenly uncanceled. I have I have deleted it as "unmarked" for now, 
+    <!--"I did not think that" was mistakenly uncanceled. I have deleted it as "unmarked" for now, 
         but this case differs from those where a strikethrough does not extend through an entire word-->
     <line>the magnitude and <mod>
         <del rend="strikethrough">grandeur</del>
@@ -28,7 +28,7 @@
         <del rend="overwritten">i</del>
         <add place="intralinear" hand="#pbs">I</add>
       </mod>t was with these feelings <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">that</add>
       </mod>I</line>
     <line>began the creation of a human being.</line>
@@ -48,7 +48,7 @@
       <del rend="strikethrough">of</del> of a gigantic stature; that</line>
     <line>is to say about <mod>
         <del rend="strikethrough">7</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">seven</add>
       </mod> or eight feet in</line>
     <line>height, and proportionably large. <del rend="strikethrough">And</del></line>
@@ -65,7 +65,7 @@
     <line>of feelings which pressed upon me</line>
     <line>during this time. When success raised</line>
     <line>me <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">to</add>
       </mod>enthusiasm life and death appear</line>
     <line>ed to me ideal bounds, which I</line>
@@ -92,7 +92,7 @@
     <line><del rend="strikethrough">in a manner</del> no father could claim</line>
     <line>the gratitude of his child <mod>
         <add place="sublinear"><metamark function="displacement" xml:id="c56-0039.07"
-            >&#x2038;</metamark></add>
+            >^</metamark></add>
       </mod>
       <del rend="strikethrough">And</del> pur</line>
     <line>sueing <mod>

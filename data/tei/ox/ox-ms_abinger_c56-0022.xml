@@ -53,7 +53,7 @@
         >And</del></line>
     <line>now my desires were <del rend="strikethrough">cop</del> complyed</line>
     <line>with <add place="intralinear">&#x26;</add> it would <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">indeed</add>
         <add place="superlinear" hand="#pbs">have</add>
         <del rend="strikethrough">be</del>

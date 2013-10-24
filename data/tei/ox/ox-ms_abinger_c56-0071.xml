@@ -35,16 +35,16 @@
     <line>your own. A selfish persuit<del rend="strikethrough">e</del> had cramp-</line>
     <line>ed and narrowed <mod>
         <del rend="strikethrough">it</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me</add>
       </mod> untill your gentle</line>
     <line>ness &#x26; affection warmed &#x26; opened <mod>
         <del rend="strikethrough">it</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">my senses</add>
       </mod>. <delSpan spanTo="#c56-0071.03"/>and</line>
     <line>now<anchor xml:id="c56-0071.03"/> I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">now</add></del>
       </mod> became the same happy creature</line>
     <line>who a few years ago, loving &#x26; beloved by</line>
@@ -64,12 +64,12 @@
         <del rend="overwritten">t</del>
         <add place="intralinear">T</add>
       </mod>he <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">present</add>
       </mod> season was indeed</line>
     <line>divine &#x2013; the flowers of spring <mod>
         <del rend="strikethrough">blossomed</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">bloomed</add>
       </mod> in the</line>
     <line>hedges while those of summer were al</line>

@@ -11,13 +11,13 @@
         <del rend="strikethrough">who</del>
         <add place="superlinear" hand="#pbs">She</add>
       </mod> weeps <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">continually</add>
       </mod>&#x26; accuses herself</line>
     <line><del rend="strikethrough">of all how u</del>
       <del rend="strikethrough">so</del> unjustly <mod>
         <add place="sublinear"><metamark function="displacement" xml:id="c56-0076.01"
-            >&#x2038;</metamark></add>
+            >^</metamark></add>
         <add place="sublinear" hand="#pbs" xml:id="c56-0076.02">cause of his death&#x2013;</add>
       </mod>
       <del rend="strikethrough">and</del> yet her words</line>

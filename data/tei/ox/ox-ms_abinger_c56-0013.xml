@@ -44,7 +44,7 @@
     <line>experiments never failed to</line>
     <line>attract my attention.<anchor xml:id="c56-0013.01"/><del rend="strikethrough"
         next="#c56-0013.06">I reme<del rend="unmarked"/><add place="sublinear"
-            ><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#pbs"
+            ><metamark function="insert">^</metamark></add><add place="superlinear" hand="#pbs"
         >m</add></del><del rend="strikethrough" xml:id="c56-0013.06" next="#c56-0013.07"
       >ber</del></line>
     <line><del rend="strikethrough" xml:id="c56-0013.07">also</del><milestone unit="tei:p"

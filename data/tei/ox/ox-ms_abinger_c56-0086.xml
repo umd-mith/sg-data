@@ -14,12 +14,12 @@
     <line><del rend="strikethrough">all of us</del> so unhappy that I am afraid</line>
     <line>tears instead of smiles <mod>
         <del rend="strikethrough">for</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">will be</add>
       </mod> your welcome</line>
     <line><mod>
         <del rend="strikethrough">my</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">our</add>
       </mod> father looks so sorrowful and it seems</line>
     <line>to have revived in his mind his sorrow</line>
@@ -28,7 +28,7 @@
     <line>to weep as he said these words.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>"Do not <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">you"</add>
       </mod> said I," welcome me thus; try</line>
     <line>to be more calm <mod spanTo="#c56-0086.05"/><del rend="strikethrough">and</del>

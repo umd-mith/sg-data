@@ -76,7 +76,7 @@
         <add place="superlinear" hand="#pbs">consisted in</add>
       </mod> books of chi</line>
     <line>valry &#38; romance and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs" next="#c56-0011.15">when very young, I can</add>
         <add place="sublinear" xml:id="c56-0011.15" hand="#pbs">remember that</add>
       </mod> we used to</line>
@@ -131,7 +131,7 @@
     <line>world, she</line>
     <line>busied herself</line>
     <line>in <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">following</add>
       </mod> the aerial</line>
     <line>creations of the</line>

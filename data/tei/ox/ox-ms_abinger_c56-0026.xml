@@ -43,7 +43,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">Such were my reflections during</line>
     <line><del rend="strikethrough">tw</del> two or three days <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">spent</add>
       </mod> almost <mod>
         <add place="intralinear">in</add>
@@ -60,7 +60,7 @@
     <line>I could not consent to go and hear</line>
     <line>that little conceited fellow deliver</line>
     <line>sentences <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">out of a pulpit</add>
       </mod> I recollected what he had</line>
     <line>said of M<hi rend="sup">r</hi>. Waldham, whom I had</line>

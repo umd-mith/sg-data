@@ -8,7 +8,7 @@
   <zone type="pagination">156</zone>
   <zone type="main">
     <line>powe<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">r</add>
       </mod>ful than thyself my height is superior</line>
     <line>to yours my joints more supple. But I</line>
@@ -41,7 +41,7 @@
       </mod>
       <mod>
         <del rend="strikethrough">towards</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
       </mod> me. Oh Fran</line>
     <line>kenstein, do not <add place="intralinear" hand="#pbs">be</add> equitable to every
       other</line>
@@ -55,7 +55,7 @@
     <line>thy creature &#x2013; <add place="superlinear" hand="#pbs">I ought to be</add> Thy Adam
       &#x2013; <mod>
         <del rend="strikethrough">or</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">but I am</add>
       </mod> rather the</line>
     <line>fallen angel <mod>

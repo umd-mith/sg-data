@@ -32,15 +32,15 @@
       day</add></line>
     <line><del rend="strikethrough">date</del><anchor xml:id="c56-0073.03"/><anchor
         xml:id="c56-0073.02"/> &#x2013; but that would be <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">a</add>
         <del rend="strikethrough">very</del>
       </mod> cruel <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">kindness</add>
       </mod></line>
     <line>and I dare not do it. What would <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">be</add>
       </mod> your</line>
     <line>surprise <del rend="strikethrough">be</del>, my son<del rend="strikethrough">e</del>, when

@@ -21,11 +21,11 @@
     <line>read the letter<anchor xml:id="c56-0077.01"/> &#x2013; <del rend="strikethrough">and</del>
       tears also <del rend="strikethrough">gush</del></line>
     <line>gushed <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">also</add>
       </mod> from <mod>
         <del rend="strikethrough">his</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">the</add>
       </mod> eyes <add place="superlinear"><metamark function="displacement" xml:id="c56-0077.02"
           >X</metamark></add> &#x2013;"I can offer you</line>

@@ -14,7 +14,7 @@
     <milestone unit="tei:p"/>
     <line><retrace cause="clarify">T</retrace>he next day, contrary to the prognostics of our</line>
     <line>guides, was fine although clouded. <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">We</add>
       </mod> visited the</line>
     <line>source of the Aveiron and rode about the</line>
@@ -31,7 +31,7 @@
     <line>In some degree<retrace cause="clarify" hand="#pbs">,</retrace> also they diverted my
       mind</line>
     <line>from the thoughts <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">over which</add>
       </mod> it had brooded <del rend="strikethrough">over</del></line>
     <line>for the last month<del rend="strikethrough">s</del>. I returned in the</line>
@@ -56,7 +56,7 @@
     <line>but felt unusually melancholy. The rain</line>
     <line>depressed <mod>
         <del rend="strikethrough">my</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">me</add>
       </mod>, my old feelings recurred</line>
     <line>and I was miserable. I knew how my father</line>

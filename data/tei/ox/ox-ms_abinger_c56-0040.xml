@@ -14,12 +14,12 @@
     <line rend="indent2">These thoughts supported my</line>
     <line>spirits while I pursued my <mod>
         <del rend="strikethrough">labours</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">undertaking</add>
       </mod></line>
     <line>with unremitting <mod>
         <del rend="strikethrough">eagerness</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">ardour</add>
       </mod>. My cheek</line>
     <line><mod>
@@ -43,7 +43,7 @@
     <line>who shall <mod>
         <del rend="strikethrough">know</del>
         <del rend="strikethrough">my</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">concieve the horrors of my</add>
       </mod> secret <mod>
         <del rend="strikethrough">operatio</del>
@@ -60,7 +60,7 @@
     <line><anchor xml:id="c56-0040.03"/> tremble and my eyes swim with the</line>
     <line>rememberance, but then a resistless</line>
     <line>and <del rend="strikethrough">all</del> almost frantic<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">impulse</add>
       </mod> urged me</line>
     <line><mod>

@@ -10,7 +10,7 @@
   <zone type="main">
     <line>so beautiful <add place="intralinear">&#x26;</add> heavenly; if I except</line>
     <line>alone some bat, or the<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">frogs, whose</add>
       </mod> harsh and</line>
     <line>interrupted croaking <del rend="strikethrough">of the frogs</del><mod>
@@ -25,7 +25,7 @@
         <del rend="strikethrough">and let</del>
         <add place="superlinear" hand="#pbs">that</add>
       </mod> the waters<mod>
-        <add place="sublinear"><metamark>>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>>^</metamark></add>
         <add place="superlinear" hand="#pbs">might</add>
       </mod> close over me &#x26;</line>
     <line>my calamities for ever. But I was</line>
@@ -43,7 +43,7 @@
     <line>let lose among them? At these</line>
     <line>moments I wept bitterly and wished</line>
     <line>that peace would revisit my mind <add place="sublinear"><metamark function="displacement"
-          xml:id="c56-0111.02">&#x2038;</metamark></add></line>
+          xml:id="c56-0111.02">^</metamark></add></line>
     <line>that I might afford them consolation</line>
     <line>and happiness &#x2014; but that could not</line>
     <line>be: remorse <mod>

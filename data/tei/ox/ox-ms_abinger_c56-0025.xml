@@ -34,7 +34,7 @@
       </mod></line>
     <line>and that M. W.<mod>
         <del rend="unmarked">&#x2014;</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">aldham</add>
       </mod> a fellow professor</line>
     <line>would lecture upon chemistry</line>

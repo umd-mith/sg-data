@@ -18,7 +18,7 @@
     <line>this astonishing secret.</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>Remember I am <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">not</add>
       </mod> recording the</line>
     <line><del rend="strikethrough">no</del> vision <del rend="strikethrough">of</del> of a madman
@@ -52,14 +52,14 @@
         <del rend="strikethrough">that</del>
         <add place="superlinear" hand="#pbs">which</add>
       </mod> I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">at first</add>
       </mod>experienced</line>
     <line>on this discovery soon gave place to</line>
     <line>delight and rapture. <mod spanTo="#c56-0035.05"/><delSpan spanTo="#c56-0035.08"
         rend="strikethrough"/>After such</line>
     <line>painful labour<anchor xml:id="c56-0035.08"/><add place="sublinear"
-      ><metamark function="insert" xml:id="c56-0035.06">&#x2038;</metamark></add><anchor
+      ><metamark function="insert" xml:id="c56-0035.06">^</metamark></add><anchor
         xml:id="c56-0035.05"/>
       <mod>
         <del rend="strikethrough">come</del>
@@ -87,7 +87,7 @@
   <zone type="left_margin" corresp="#c56-0035.06">
     <addSpan spanTo="#c56-0035.07"/>
     <line>After so much</line>
-    <line><hi rend="sup"><metamark function="displacement">&#x2038;</metamark></hi>time spent in</line>
+    <line><hi rend="sup"><metamark function="displacement">^</metamark></hi>time spent in</line>
     <line>painful labour</line><anchor xml:id="c56-0035.07"/>
   </zone>
 </surface>

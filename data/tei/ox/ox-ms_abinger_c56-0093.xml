@@ -41,7 +41,7 @@
         <add place="superlinear" hand="#pbs">The woman</add>
       </mod></line>
     <line>asked <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">her</add>
       </mod> what she did there<add place="intralinear" hand="#pbs">?</add>&#x2013;<mod>
         <del rend="strikethrough">for</del>
@@ -49,8 +49,8 @@
       </mod> she looked</line>
     <line>very <del rend="strikethrough">stang</del> strangely and only returned a</line>
     <line>confused <add place="sublinear"><metamark function="displacement" xml:id="c56-0093.04"
-          >&#x2038;</metamark></add> answer<del rend="strikethrough">e</del>. <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+          >^</metamark></add> answer<del rend="strikethrough">e</del>. <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">S</del>
         <add place="superlinear">She</add>
       </mod>
@@ -62,7 +62,7 @@
         <del rend="strikethrough">of</del>
         <add place="superlinear" hand="#pbs">for</add>
       </mod> the child and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">enquired</del>
         <add place="superlinear">demanded</add>
       </mod></line>
@@ -76,7 +76,7 @@
     <addSpan hand="#pbs" spanTo="#c56-0093.05"/>
     <line>&#x26; unin-</line>
     <line>telligible</line>
-    <line><metamark function="displacement">&#x2038;</metamark></line>
+    <line><metamark function="displacement">^</metamark></line>
     <anchor xml:id="c56-0093.05"/>
   </zone>
 </surface>

@@ -22,7 +22,7 @@
       </mod> history of chemistry and <delSpan rend="strikethrough" spanTo="#c56-0027.03"
       />remark-</line>
     <line>ed<anchor xml:id="c56-0027.03"/> the various improvements <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">&#x26; discoveries</add></del>
       </mod>
       <delSpan spanTo="#c56-0027.04" rend="strikethrough"/>diffe</line>
@@ -49,7 +49,7 @@
         <add place="superlinear" hand="#pbs">he</add>
       </mod> conclu</line>
     <line>ded with a panegyric upon <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">modern</add>
       </mod> chemist</line>
     <line>ry the words of which I shall never</line>

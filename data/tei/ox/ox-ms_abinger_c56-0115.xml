@@ -15,7 +15,7 @@
     <line>-turb our tranquillity?"</line>
     <milestone unit="tei:p"/>
     <line><space unit="chars" extent="5"/>She shed tears as she said this <add place="sublinear"
-          ><metamark function="displacement" xml:id="c56-0115.01">&#x2038;</metamark></add></line>
+          ><metamark function="displacement" xml:id="c56-0115.01">^</metamark></add></line>
     <line><del rend="strikethrough">but</del><add place="intralinear" hand="#pbs">but</add> at the
       same time <retrace hand="#pbs" cause="clarify">s</retrace>miled, that</line>
     <line>she might chase away the fiend that</line>
@@ -38,7 +38,7 @@
     <line>that <del rend="strikethrough">I</del> we should all <del rend="strikethrough">tak</del>
       take a</line>
     <line>journey to the Valley of C<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">h</add>
       </mod>amounix. I had</line>
     <line>been there before but Elizabeth &#x26; Ernest</line>

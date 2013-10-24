@@ -25,7 +25,7 @@
     <line>this wonderful &amp; stupedous scene &#x2013; <anchor xml:id="c56-0123.02"/> My
       heart</line>
     <line>before<mod>
-        <add place="sublinear"><unclear><metamark>&#x2038;</metamark></unclear></add>
+        <add place="sublinear"><unclear><metamark>^</metamark></unclear></add>
         <del rend="strikethrough">sad</del>
         <add place="superlinear" hand="#pbs">which was sorrowful<del rend="strikethrough">ly</del>,
           now</add>

@@ -27,7 +27,7 @@
     <line>paid him a visit the same evening.</line>
     <line>His manners in private were even</line>
     <line>more mild <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">&#x26; attractive</add>
       </mod> than in public. For</line>
     <line>there was a certain dignity in his</line>
@@ -48,7 +48,7 @@
         <del rend="strikethrough">exhibited</del>
         <add place="superlinear" hand="#pbs">expressed to them</add>
       </mod>. <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <anchor xml:id="c56-0028.01"/>
       </mod>
       <del rend="strikethrough">I ended by saying</del> that</line>
@@ -61,7 +61,7 @@
   <zone type="left_margin" corresp="#c56-0028.01">
     <addSpan hand="#pbs" spanTo="#c56-0028.02"/>
     <line><retrace cause="fix" hand="#mws" spanTo="#c56-0028.04"
-      /><metamark function="displacement">&#x2038;</metamark></line>
+      /><metamark function="displacement">^</metamark></line>
     <line>He said that</line>
     <line>these were</line>
     <line>men to whose</line>
@@ -79,7 +79,7 @@
     <line>task<anchor xml:id="c56-0028.03"/>
       <retrace cause="fix" hand="#mws">They</retrace>
       <mod>
-        <add place="sublinear" hand="#mws"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear" hand="#mws"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#mws">had</add>
       </mod>
       <retrace cause="fix" hand="#mws" spanTo="#c56-0028.06"/>left to</line>

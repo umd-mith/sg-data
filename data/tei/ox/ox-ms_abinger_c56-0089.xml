@@ -31,7 +31,7 @@
     <line><del rend="strikethrough">co</del> on his countenance but he endea</line>
     <line>voured to welcome me cheerfully</line>
     <line>and <del rend="unmarked"><anchor xml:id="c56-0089.03"/></del><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">after <mod>
             <del rend="strikethrough">our</del>
             <add place="superlinear" hand="#pbs">we</add>

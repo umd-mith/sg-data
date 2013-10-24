@@ -33,7 +33,7 @@
       <del next="#c56-0058.02">but I entreated him not</del><del rend="strikethrough"><add
           place="superlinear" hand="#pbs">to undertake it</add></del>
       <del rend="strikethrough" xml:id="c56-0058.02" next="#c56-0058.03">because</del><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">for</add></del>
       </mod></line>
     <line><del rend="strikethrough" xml:id="c56-0058.03">although</del>

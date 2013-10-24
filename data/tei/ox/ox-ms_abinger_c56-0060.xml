@@ -35,7 +35,7 @@
       </mod> an odd perversity her Mother</line>
     <line><del rend="strikethrough">never</del> could <mod>
         <del rend="strikethrough">bear</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">not endure</add>
       </mod> her and after the</line>
     <line>death of M. <mod>

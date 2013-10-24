@@ -9,7 +9,7 @@
   <zone type="library">41</zone>
   <zone type="main">
     <line><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add hand="#pbs" place="superlinear">can</add></del>
         <anchor xml:id="c56-0087.01"/>
         <del rend="strikethrough">Myrtella will</del>
@@ -29,15 +29,15 @@
     <line><space unit="chars" extent="4"/>"No one did at first," said my brother,</line>
     <line>"but several <mod>
         <del rend="strikethrough">things</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">circumstances</add>
       </mod> came out, <anchor xml:id="c56-0087.03"/> and her</line>
     <line>"own behaviour <mod>
         <del rend="strikethrough">was so</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">has been <del rend="strikethrough">such</del> so</add>
       </mod> confused <add place="sublinear"><metamark function="displacement" xml:id="c56-0087.05"
-          >&#x2038;</metamark></add> but she</line>
+          >^</metamark></add> but she</line>
     <line>"will tried today and you will then hear</line>
     <line>"all?"</line>
     <milestone unit="tei:p"/>
@@ -89,7 +89,7 @@
 
   <zone type="left_margin" corresp="#c56-0087.05">
     <addSpan spanTo="#c56-0087.06" hand="#pbs"/>
-    <line><metamark function="displacement">&#x2038;</metamark>
+    <line><metamark function="displacement">^</metamark>
       <del rend="strikethrough">and</del> as</line>
     <line>to add</line>
     <line>to the evidence</line>

@@ -23,7 +23,7 @@
     <line>allowed no hope or consolation. Eliza</line>
     <line>beth also wept and was unhappy but</line>
     <line>hers<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">also</add>
       </mod> was <del rend="strikethrough">also</del> the misery of innocence</line>
     <line><anchor xml:id="c56-0106.01"/>like a cloud <mod>

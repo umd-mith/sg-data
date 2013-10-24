@@ -15,7 +15,7 @@
     <line>"How glad I am to see you; how</line>
     <line>"fortunate <add place="superlinear" hand="#pbs">that</add> you should be here at</line>
     <line>the <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">very</add>
       </mod> moment of my alighting."</line>
     <milestone unit="tei:p"/>
@@ -27,7 +27,7 @@
     <line>I grasped his hand, and in a moment</line>
     <line>forgot my horror and misfortune.</line>
     <line>I felt<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">suddenly, and</add>
       </mod> for the first time <mod>
         <del rend="strikethrough">for</del>

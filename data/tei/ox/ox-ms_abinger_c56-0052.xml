@@ -32,7 +32,7 @@
         <del rend="overwritten">ed</del>
         <add place="intralinear" hand="#pbs">ing</add>
       </mod> him <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">therefore</add>
       </mod>to remain a few</line>
     <line>minute<add place="intralinear" hand="#pbs">s</add> at the bottom of the</line>

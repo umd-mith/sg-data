@@ -11,18 +11,18 @@
     <line>&#x26; snow arrived, <del rend="strikethrough">and</del> the roads were</line>
     <line>deemed impassable and my <mod>
         <del>return</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">journey</add>
       </mod></line>
     <line><mod>
         <del rend="strikethrough">delayed</del>
         <anchor xml:id="c56-0070.01"/>
       </mod> untill the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">ensuing</add>
       </mod> spring. I felt this</line>
     <line>delay very bitterly <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for</add>
       </mod> I longed to see my</line>
     <line>native <mod>
@@ -34,7 +34,7 @@
     <line>Clerval in a strange town before he</line>
     <line>had become acquainted with its in</line>
     <line>habitants. The winter <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">however</add>
       </mod> was <mod>
         <del rend="strikethrough">however</del>
@@ -52,7 +52,7 @@
     <line>letter that was to fix the date of</line>
     <line>my <mod>
         <del rend="strikethrough">return</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">departure,</add>
       </mod> When Henry proposed</line>
     <line>a pedestrian tour in environs of</line>
@@ -61,13 +61,13 @@
     <line>habited.&#x2013; I acceeded with pleasure to</line>
     <line>this propos<mod>
         <del rend="strikethrough">al</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">ition</add>
       </mod>&#x2013; I was fond of Exercise</line>
     <line>and Clerval had always been my</line>
     <line>favourite companion in <mod>
         <del rend="strikethrough">j</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod> rambles</line>
     <line>of this nature that I had taken</line>

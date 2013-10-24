@@ -47,7 +47,7 @@
     <addSpan spanTo="#c56-0064.02"/>
     <line>think <mod>
         <del rend="strikethrough">of</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">on</add>
       </mod> the</line>
     <line>other side</line>

@@ -55,7 +55,7 @@
         <add place="intralinear" hand="#pbs">field of</add>
       </mod></line>
     <line>ice is <del rend="strikethrough">nearly</del> a <del rend="strikethrough">lege</del> league,<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">in width,</add>
       </mod> but I was</line>
     <line>nearly two hours <add place="superlinear" hand="#pbs">in</add> crossing it &#x2013; The

@@ -26,7 +26,7 @@
     <line>reflections determined me, and I resolved</line>
     <line>to <mod>
         <del rend="strikethrough">be</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">remain</add>
       </mod> silent.</line>
     <milestone unit="tei:p"/>
@@ -53,7 +53,7 @@
     <line>cheek pale but there was an air of dignity</line>
     <line>and beauty that hardly <mod>
         <del rend="strikethrough">allowed of</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">permitted</add>
       </mod> the</line>
     <line><mod>

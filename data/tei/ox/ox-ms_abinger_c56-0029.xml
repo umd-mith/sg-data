@@ -18,14 +18,14 @@
     <line>"mistry is that branch of natural</line>
     <line>"philosophy in which the greatest im-</line>
     <line>"provements have <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">been</add>
       </mod> &#x26; may be made.</line>
     <line>"It is on that account<del rend="strikethrough">s</del> that I
       <unclear>sl</unclear></line>
     <line>"chose it for my peculiar study. But</line>
     <line>"at the same <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">time</add>
       </mod> I did not neglect the</line>
     <line>"other sciences. A man would make</line>

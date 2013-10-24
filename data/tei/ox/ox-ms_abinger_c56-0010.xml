@@ -23,7 +23,7 @@
         hand="#pbs" xml:id="c56-0010.02">lecture which I attended being thus <del
           rend="strikethrough">the</del> almost the last <del rend="strikethrough">in his
         </del></add><anchor xml:id="c56-0010.04"/> in his course <mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="sublinear">was entirely incomprehensible to me.</add>
       </mod> &#x2013; the professor talked</line>
     <line>with the greatest fluency of potassium &#x26;</line>
@@ -65,7 +65,7 @@
     <line>of the branches of study appertaining <del rend="strikethrough">th</del> to that</line>
     <line>science. I was also busily employed in learning</line>
     <line>languages Latin was <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">already</add>
       </mod> familiar to me and I began to</line>
     <line>read without the help of the <mod>

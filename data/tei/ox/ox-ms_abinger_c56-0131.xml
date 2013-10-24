@@ -23,14 +23,14 @@
         <add place="intralinear">p</add>
       </mod>til the time of Galileo</line>
     <line>and Newton. But their wisdom passed away <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">from the earth</add>
       </mod> leaving <del rend="strikethrough">but</del> faint</line>
     <line>traces <del rend="strikethrough" instant="true">in</del> among the Eyptians a race of men
         <del rend="strikethrough">whose <unclear unit="chars" extent="1"/></del> whose</line>
     <line>minds <mod>
         <del rend="strikethrough">appear to have</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">bear a</add>
       </mod> considerable affinity with <mod>
         <del rend="strikethrough">most</del>
@@ -63,24 +63,24 @@
         >s</unclear></line>
     <line>kings and <del rend="strikethrough">they</del>
       <del rend="strikethrough">displayed</del> their magnificance <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">was displayed</add>
       </mod> either by <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> bloody</line>
     <line>and useless <del rend="strikethrough" instant="true">con</del> warfare on the liberties of
       their neighbours</line>
     <line>or by the <del rend="strikethrough" instant="true">de</del> oppression and <del
         rend="strikethrough" instant="true">destruct</del> destruction of their <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">own</add>
       </mod></line>
     <line>subjects employed in the building of those famous pyra</line>
     <line>mids, which, <del rend="strikethrough" instant="true">shap</del> being scarcely more than
       shapless masses</line>
     <line>of brick <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">or</add>
         <del rend="strikethrough">and</del>
       </mod> stone, seem fitted to endure till the earth</line>
@@ -102,7 +102,7 @@
       </mod> for the yoke of a foreign prince</line>
     <line>after a few generations they were subdued and remained for</line>
     <line>ages swallowed up in the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">great</add>
       </mod> Persian monarchy till after the</line>
     <line>death of Alexander when they again<del rend="strikethrough">s</del>
@@ -117,7 +117,7 @@
       <del rend="strikethrough">with</del>
       <del rend="strikethrough">f</del> overpowering</line>
     <line>force of the Roman Empire reduced <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">them</add>
       </mod> once more to the</line>
     <line>condition of a Province.</line>
@@ -127,9 +127,9 @@
       <line>Princes <del rend="strikethrough">of</del> <del rend="strikethrough">Princes</del> of Babylon</line>
     <line>The names of ?himus and ????? are preserved</line>
     <line>by that bloody ha???<add place="sublinear"><metamark function="insert"
-        >&#x2038;</metamark></add>with which and<add place="sublinear"><metamark function="insert"
-          >&#x2038;</metamark></add>victory conquest<add place="sublinear"><metamark
-          function="insert">&#x2038;</metamark></add>bloods conquest all always deco</line>
+        >^</metamark></add>with which and<add place="sublinear"><metamark function="insert"
+          >^</metamark></add>victory conquest<add place="sublinear"><metamark
+          function="insert">^</metamark></add>bloods conquest all always deco</line>
     <line>rates its worshippers but the effects of their ?? conquests ?? </line>
     <anchor xml:id="c56-0131.01"/>
   </zone>
