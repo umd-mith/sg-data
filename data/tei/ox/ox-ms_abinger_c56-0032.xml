@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">62</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="7"/>As I applied so closely, it may be</line>
+    <line rend="indent2">As I applied so closely, it may be</line>
     <line>easily conceived that I improved rapid</line>
     <line>ly. <del rend="strikethrough">It</del> My ardour was indeed the astonish</line>
     <line>ment of the students, and my proficiency</line>
@@ -16,7 +16,7 @@
     <line>often asked me with a sly smile</line>
     <line>how Cornelius Agrippa went on<mod>
         <add place="intralinear" hand="#pbs">;</add>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <anchor xml:id="c-56.0032.01"/>
       </mod> Two</line>
     <line>years passed in this manner during</line>
@@ -46,7 +46,7 @@
       </mod> study&#x2014;And I</line>
     <line>who <del rend="strikethrough">was</del> continually <mod>
         <del rend="strikethrough">applied to</del>
-        <add place="superlinear" hand="#pbs">sought <space unit="chars" extent="3"/>the attainment
+        <add place="superlinear" hand="#pbs">sought  the attainment
           of</add>
       </mod> one</line>
     <line><mod>
@@ -69,7 +69,7 @@
       </mod> which pro</line>
     <line>cured me great esteem and admiration</line>
     <line>at the university. When I arrived at</line>
-    <line>this <add place="sublinear"><metamark>&#x2038;</metamark></add>point, <anchor
+    <line>this <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>point, <anchor
           xml:id="c-56.0032.04"/><del rend="strikethrough">that</del> m<mod>
         <del rend="overwritten"><unclear unit="chars" extent="1"/></del>
         <add place="intralinear">y</add>

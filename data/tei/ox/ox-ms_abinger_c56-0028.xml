@@ -22,7 +22,7 @@
     <line>"invisible world with its own</line>
     <line>"shadows."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>I departed highly pleased with</line>
+    <line rend="indent1">I departed highly pleased with</line>
     <line>the professor and his lecture &#x26;</line>
     <line>paid him a visit the same evening.</line>
     <line>His manners in private were even</line>
@@ -61,7 +61,7 @@
   <zone type="left_margin" corresp="#c56-0028.01">
     <addSpan hand="#pbs" spanTo="#c56-0028.02"/>
     <line><retrace cause="fix" hand="#mws" spanTo="#c56-0028.04"
-      /><metamark>&#x2038;</metamark></line>
+      /><metamark function="displacement">&#x2038;</metamark></line>
     <line>He said that</line>
     <line>these were</line>
     <line>men to whose</line>

@@ -5,15 +5,14 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0031" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0031.tif"/>
-  <zone type="top">
-    <line>Chap. 5</line>
-  </zone>
+  
   <zone type="pagination" rend="bordered">61</zone>
   <zone type="library">14</zone>
   <zone type="main">
+    <line rend="indent2"><milestone unit="tei:head" spanTo="#c56-0031.07"/>Chap. 5<anchor xml:id="c56-0031.07"/></line>
     <line>From this day natural philosophy and parti</line>
     <line>cularly chemistry became <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">nearly</add>
       </mod> my sole <del rend="strikethrough">appli</del></line>
     <line>study. I read with ardour <del rend="strikethrough">m</del> those books</line>
@@ -41,15 +40,13 @@
     <line>enclined me more to the study of that</line>
     <line>branch of <mod>
         <del rend="strikethrough">science</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
         <add place="superlinear">natural philosophy which he professed</add>
       </mod> than an intrinsic</line>
     <line>love for the science itself. But this</line>
     <line><mod>
-        <add place="intralinear"><metamark>X</metamark></add>
-        <del rend="strikethrough">was</del>
-        <anchor xml:id="c56-0031.03"/>
-      </mod> only in the first steps towards</line> the <line>knowledge; <mod>
+      <add place="intralinear"><metamark function="displacement" xml:id="c56-0031.03">X</metamark></add>
+        <del rend="strikethrough">was</del></mod> only in the first steps towards</line> the <line>knowledge; <mod>
         <del rend="strikethrough">as</del>
         <add place="superlinear" hand="#pbs">the more fully</add>
       </mod> I entered <del rend="strikethrough">more fully</del> into</line>
@@ -65,11 +62,11 @@
     <line>for its own sake. That application</line>
     <line>which at first had been a matter</line>
     <line>of <del rend="strikethrough">ch</del> duty <add place="sublinear"
-          ><metamark>&#x2038;</metamark></add><add place="superlinear" hand="#pbs">&#x26;
+          ><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#pbs">&#x26;
         resolution,</add> now became so ardent</line>
     <line>and eager that the stars often</line>
     <line>dissapeared <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add><anchor xml:id="c56-0031.05"/>
+        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add><anchor xml:id="c56-0031.05"/>
       </mod> while I was yet <mod>
         <del rend="strikethrough">labouring</del>
         <add place="sublinear" hand="#pbs">engaged</add>
@@ -85,11 +82,11 @@
 
   <zone type="left_margin" corresp="#c56-0031.03">
     <addSpan hand="#pbs" spanTo="#c56-0031.04"/><line/>
-    <line>circumstance</line>
-    <line><unclear>of</unclear>
+    <line><del rend="strikethrough">circumstance</del></line>
+    <line><del rend="strikethrough"><unclear>of</unclear></del>
       <del rend="strikethrough">was had</del></line>
     <line>state of mind had</line>
-    <line>place <metamark>X</metamark></line><anchor xml:id="c56-0031.04"/>
+    <line>place <metamark function="displacement">X</metamark></line><anchor xml:id="c56-0031.04"/>
   </zone>
 
   <zone type="left_margin" corresp="#c56-0031.05">

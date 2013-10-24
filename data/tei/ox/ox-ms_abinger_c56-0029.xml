@@ -10,7 +10,7 @@
 
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"I am happy" said M<hi rend="sup">r</hi>. Waldham,
+    <line rend="indent1">"I am happy" said M<hi rend="sup">r</hi>. Waldham,
       "To</line>
     <line>"have gained a <del rend="strikethrough">desci</del> desciple and if if your</line>
     <line>"<del rend="strikethrough">appil</del> application equals your ability</line>
@@ -42,14 +42,14 @@
           xml:id="c56-0029.05"/></line>
     <line>"Mathematics."</line>
     <milestone unit="tei:p"/>
-    <delSpan spanTo="#c56-0029.07" rend="vertical_line"/><line><space unit="chars" extent="4"/>He
+    <delSpan spanTo="#c56-0029.07" rend="vertical_line"/><line rend="indent1">He
       then gave me the list</line>
     <line>I had requested and mentioned a few</line>
     <line>machines that I ought to procure</line>
     <line>and promising that when I should</line>
     <line>have</line><anchor xml:id="c56-0029.07"/>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>He then took me into his</line>
+    <line rend="indent1">He then took me into his</line>
     <line><mod>
         <del rend="strikethrough">workroom</del>
         <add place="superlinear">laboratory</add>
@@ -85,13 +85,11 @@
     <line>presumption</line>
     <line>&#x26; then added<anchor xml:id="c56-0029.04"/></line><anchor xml:id="c56-0029.02"/>
   </zone>
-  <zone type="left_margin">
-    <line><retrace cause="fix" hand="#mws"><add hand="#pbs" xml:id="c56-0029.05"
-        >including</add></retrace></line></zone>
+  <zone type="left_margin" corresp="#c56-0029.05">
+    <line><retrace cause="fix" hand="#mws"><add hand="#pbs">including</add></retrace></line></zone>
 
   <zone type="left_margin" corresp="#c56-0029.06">
     <line><add hand="#pbs">instructing me as to</add></line></zone>
 
-  <zone type="left_margin">
-    <line><add><metamark>&#x2014;</metamark></add></line></zone>
+  
 </surface>
