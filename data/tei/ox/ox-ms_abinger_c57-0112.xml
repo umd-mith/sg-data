@@ -9,7 +9,7 @@
   <zone type="main">
     <line>the basket into the sea &#x2013; I listened to the gurg-</line>
     <line>ling sound as it sunk &amp; then <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sailed</add>
       </mod> away from the</line>
     <line>spot. The sky had become clouded but the</line>
@@ -22,7 +22,7 @@
         <add place="superlinear">fixing</add>
       </mod> the rudder</line>
     <line><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <anchor xml:id="c57-0112.01"/>
       </mod>stretched myself at the bottom of the boat.</line>
     <line>Clouds hid the moon, every thing was obscure</line>
@@ -45,12 +45,12 @@
     <line>I endeavoured to <mod>
         <del rend="strikethrough">turn</del>
         <del rend="strikethrough">the</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">boat</del>
         <add place="superlinear">change my course</add>
       </mod> but</line>
     <line>quickly found that if I again <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">made the</add>
       </mod> attempt<del rend="strikethrough">ed</del>
       <del rend="strikethrough">it</del></line>

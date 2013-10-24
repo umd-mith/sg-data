@@ -27,7 +27,7 @@
     <line>of my murdered friends heard and approved my devotion.</line>
     <line>But <mod>
         <del rend="strikethrough">rage</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the furies</add>
       </mod> possessed me as I concluded, and rage choaked</line>
     <line>my utterance.<add place="intralinear" hand="#comp"><metamark function="paragraph">

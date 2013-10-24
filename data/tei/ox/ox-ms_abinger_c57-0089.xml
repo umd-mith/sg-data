@@ -21,7 +21,7 @@
     <line>casting black &amp; impenetrable shades</line>
     <line>which <mod>
         <del rend="strikethrough">cast</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">would cause</add>
       </mod> a gloomy &amp; mournful</line>
     <line>appearance were it not for the</line>

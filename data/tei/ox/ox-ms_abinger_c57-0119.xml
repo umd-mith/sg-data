@@ -21,7 +21,7 @@
     <line>many hours &amp; have been obliged to return</line>
     <line><anchor xml:id="c57-0119.01"/>to the same <mod>
         <del rend="strikethrough">place</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">spot</add>
       </mod> from which I had</line>
     <line><del rend="strikethrough">set out</del> departed. Besides, they observed,</line>
@@ -55,7 +55,7 @@
     <line>persons in the island I had inhabited</line>
     <line>about the time that the body <mod>
         <del rend="strikethrough">was</del>
-        <add place="superlinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">had been</add>
       </mod> found</line>
   </zone>

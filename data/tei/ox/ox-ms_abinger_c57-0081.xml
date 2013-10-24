@@ -23,13 +23,13 @@
     <line>ed as you are of a competent fortune that an early</line>
     <line>marriage would at all interfere with any future plans</line>
     <line>of honour and utility<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">that </add>
         <add place="superlinear">you may have formed</add>
       </mod>. <del rend="strikethrough">Yet</del> Do not suppose however that</line>
     <line>I wish to dictate happiness to you or that a</line>
     <line>delay on your part would cause me any <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">serious</add>
       </mod> uneasi</line>
     <line>ness; Interp<mod>
@@ -40,7 +40,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">I listened to my father in silence and remained</line>
     <line><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for </add>
       </mod>sometime without offering any reply. I revolved</line>
     <line>rapidly in my mind a multitude of <mod>
@@ -57,7 +57,7 @@
     <line>this deadly weight yet hanging round my neck and</line>
     <line>bowing me to the ground. <mod spanTo="#c57-0081.01"/><delSpan spanTo="#c57-0081.02"
         rend="strikethrough"/>No, <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">that</add></del>
       </mod> I could not endure</line>
     <line>that<anchor xml:id="c57-0081.02"/>

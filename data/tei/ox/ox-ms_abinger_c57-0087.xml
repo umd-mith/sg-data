@@ -13,7 +13,7 @@
   </zone>
   <zone type="main">
     <line>dreary imaginations I passed th<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>ough <add place="intralinear">many</add></line>
     <line>beautiful &amp; majestic scenes but my eyes</line>
@@ -38,7 +38,7 @@
         <add place="superlinear">the </add>
       </mod>set<mod>
         <add place="intralinear">ting</add>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sun</add>
       </mod> and</line>
     <line>more happy when he saw it rise &amp;</line>

@@ -46,7 +46,7 @@
     <line>was pleased. I lay at the bottom of the</line>
     <line>boat and as I gazed on the cloudless</line>
     <line>blue sky I<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"> seemed to</add>
       </mod> dr<mod>
         <del rend="overwritten">a</del>

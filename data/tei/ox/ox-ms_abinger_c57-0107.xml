@@ -12,12 +12,12 @@
     <line>and soon the bolt will fall which will</line>
     <line>ravish from you your happiness for ever.</line>
     <line>Are you to <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">be</add>
       </mod> happy while I grovel in the</line>
     <line>intensity of my wretchedness. You <mod>
         <del rend="strikethrough">destroy</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">can blast</add>
       </mod> my</line>
     <line>other passions but revenge remains; revenge</line>

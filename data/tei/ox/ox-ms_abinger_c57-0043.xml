@@ -11,7 +11,7 @@
   <zone type="main">
     <line>contented &amp; happy. <del rend="strikethrough">Such were</del> their fee</line>
     <line>lings <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">were serene &amp; peaceful,</add>
       </mod> while <mod>
         <del rend="strikethrough">I</del>
@@ -24,7 +24,7 @@
         rend="strikethrough">shewed</del></line>
     <line><anchor xml:id="c57-0043.03"/><anchor xml:id="c57-0043.02"/> me more <mod>
         <del rend="strikethrough">plainly</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">clearly</add>
       </mod> what a wretched outcast</line>
     <line>I was. I cherished hope it is true but</line>

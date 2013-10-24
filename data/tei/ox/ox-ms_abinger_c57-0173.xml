@@ -10,7 +10,7 @@
     <line>crush my vessel. The brave fellows whom I persua</line>
     <line>ded to be my companions look at me for aid</line>
     <line>but I have none <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to bestow.</add>
       </mod> There is somthing terribly appall</line>
     <line>ing in our situation Yet my courage &amp; hopes do</line>
@@ -47,7 +47,7 @@
     <line>of his eloquence &#x2013; when he speaks they</line>
     <line>no longer despair &#x2013; he rouzes their ener</line>
     <line>gies &amp; they believe <del rend="smear"><mod>
-          <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear" hand="#pbs">when</add>
         </mod></del> these vast mountains</line>
     <line>of ice <mod>

@@ -33,7 +33,7 @@
     <line><del rend="strikethrough">s</del>places human beings were seldom</line>
     <line>seen &amp; I generally subsisted <mod>
         <del rend="strikethrough">by</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">on</add>
       </mod> the wild</line>
     <line><mod>
@@ -45,13 +45,13 @@
     <line>me some <mod>
         <del rend="strikethrough">a</del>
         <del rend="strikethrough">beast</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">food</add>
       </mod> that I had killed</line>
     <line>which after taking a small part I al</line>
     <line>ways presented to those who had provided</line>
     <line>with fire &amp; utensils.<mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">for cooking</add>
       </mod> My life as it passed</line>
     <line>thus was indeed hateful to me &amp; it was</line>
@@ -59,7 +59,7 @@
     <line>joy &#x2013; Oh blessed sleep! often when most</line>
     <line>miserable I sunk to repose &amp; my dreams</line>
     <line><del rend="strikethrough">lu</del> lulled <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">me</add>
       </mod> even to rapture &#x2013; The spirit</line>
     <line>that guarded me had surely provided</line>

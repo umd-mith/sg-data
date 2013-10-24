@@ -55,7 +55,7 @@
     <line>journey as far <del rend="strikethrough">noth</del> north as Perth</line>
     <line>where he resided. Cl<mod>
         <del rend="strikethrough">ai</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>rval eagerly desired</line>
     <line>to accept this invitation, and I, although</line>

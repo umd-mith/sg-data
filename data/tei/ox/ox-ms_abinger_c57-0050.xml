@@ -17,7 +17,7 @@
     <line>friends whom I seek &#x2013; Do not you</line>
     <line>des<mod>
         <del rend="strikethrough">a</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>rt me in the hour of trial<mod>
         <del rend="overwritten">&#x2013;</del>
@@ -40,7 +40,7 @@
         <add place="intralinear">r</add>
       </mod> and ast<damage type="inkblot">o</damage></line>
     <line>nishment on beholding <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me</add>
       </mod> &#x2013;Agatha</line>
     <line>fainted &amp; <mod>

@@ -41,7 +41,7 @@
         <line>potent God warring with his crea</line>
         <line>tures was capable of exciting &#x2013; <del rend="strikethrough">often</del></line>
         <line>I <mod>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">often</add>
             </mod> referred the several situations</line>
         <line>as their similarity struck me to</line>

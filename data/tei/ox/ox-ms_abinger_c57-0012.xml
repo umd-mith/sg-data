@@ -55,14 +55,14 @@
         <add place="superlinear" hand="#pbs">thro this chink</add>
       </mod> a</line>
     <line>small room <add hand="#pbs" place="superlinear">was visible,</add> whitewashed <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">&#x26;</add>
       </mod> clean but very</line>
     <line>bare of furniture <del rend="strikethrough">&#x26;</del> in <del rend="strikethrough"
         >co</del> one corner near</line>
     <line>a small fire <mod>
         <del rend="strikethrough">I saw</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <mod>
           <del rend="strikethrough"><add place="superlinear">beheld</add></del>
           <add hand="#pbs" place="superlinear">sate</add>
@@ -79,7 +79,7 @@
         <del rend="strikethrough">the</del> a drawer</line>
     <line>which employed her hands <mod>
         <del rend="strikethrough">and</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">&#x26; sat down beside <del rend="strikethrough">the o</del></add>
       </mod> the old</line>
     <line>man <add place="superlinear">who</add> taking up an <del rend="strikethrough">instur</del>

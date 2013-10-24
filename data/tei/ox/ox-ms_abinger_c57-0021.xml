@@ -20,7 +20,7 @@
     <line>often endeavoured to encourage his</line>
     <line>children as I sometimes found that</line>
     <line>he called them. <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">to cast off their melancholy.</add>
       </mod> He would talk in</line>
     <line>a cheerful accent with an <mod>
@@ -30,7 +30,7 @@
     <line><del rend="strikethrough" instant="true">godn</del> goodness that <mod>
         <del rend="strikethrough">even</del>
         <del rend="strikethrough">gave</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">me</del>
         <del rend="strikethrough">delight.</del>
         <add place="superlinear">bestowed pleasure</add>

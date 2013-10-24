@@ -11,7 +11,7 @@
   <zone type="main">
     <line>the chamber, the shutters had been thrown back; and,</line>
     <line>with a sensation of horror not be described, <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">I</add>
       </mod> saw <del rend="strikethrough">th</del>at</line>
     <line>the open window a figure the most hidious and</line>

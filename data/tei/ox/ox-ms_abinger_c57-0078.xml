@@ -11,14 +11,14 @@
   <zone type="main">
     <line>the expectation of our union.&#x2014;</line>
     <line>The expression of your sentiments, <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">on this subject</add>
       </mod> my dear Victor,</line>
     <line><del rend="strikethrough">rejoined my father,</del>
       <del rend="strikethrough">have restored</del> gives</line>
     <line>me more pleasure than I have <del rend="strikethrough">known</del></line>
     <line>for some time <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">experienced</add>
       </mod>. If you feel thus we</line>
     <line>shall assuredly be happy however pre</line>

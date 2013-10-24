@@ -36,7 +36,7 @@
     <line>You travelled to seek happiness but</line>
     <line>a fatality seems to <mod>
         <del rend="strikethrough">hang over</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">pursue</add>
       </mod> you &#x2013;And</line>
     <line>poor Cl<mod>

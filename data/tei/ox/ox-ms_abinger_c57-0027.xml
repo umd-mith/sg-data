@@ -41,12 +41,12 @@
     <line>her he loved. This idea was torture to him &#x2013; He</line>
     <line>arranged with the Turk <mod>
         <del rend="strikethrough">that</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">if the latter should find a favourable opportunity for escape
           before Felix could return <add place="sublinear">to Italy</add></add>
       </mod> Safie should</line>
     <line>remain as <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> boarder in a convent at Leghorn</line>
     <line><delSpan spanTo="#c57-0027.02"/>If a favourable opportunity for the fathers escape</line>
@@ -65,7 +65,7 @@
           >five</add></del>
       <del rend="strikethrough">months</del></line>
     <line>they remained confined <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for five months</add>
       </mod> before the trial took</line>
     <line>place the result of which deprived them</line>

@@ -14,7 +14,7 @@
     <line>panions. How can you who long for the love</line>
     <line>&amp; sympathy of <mod>
         <del rend="strikethrough">human being</del><del rend="unmarked">s</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">man</add>
       </mod> persevere in</line>
     <line>this exile? You will return and seek</line>
@@ -49,13 +49,13 @@
     <line>the filthy mass that moved &amp; talked</line>
     <line>my heart sickend &amp; my feelings were</line>
     <line>altered to <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">those</add>
       </mod> horror &amp; hatred. I tried to</line>
     <line>stifle them I thought that as I could</line>
     <line>not <mod>
         <del rend="strikethrough">comfort</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">sympathize</add></del>
       </mod>
       <del rend="strikethrough">him I h</del>

@@ -38,7 +38,7 @@
       </mod></line>
     <line>and the rain fell in torrents. It was however</line>
     <line>hardly yet morning and I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">might reasonably</add>
       </mod> hope<del rend="strikethrough">d</del> to arrive</line>
     <line><del rend="strikethrough" instant="true">that ni</del> by night &#x2013;I hired a number
@@ -46,10 +46,10 @@
     <line>men to row and took an oar myself for</line>
     <line>I had always <mod>
         <del rend="strikethrough">felt</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">experienced</add>
       </mod> relief <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">from mental <mod>
             <del rend="strikethrough"><unclear reason="illegible">str</unclear>ain</del>
             <add hand="#pbs"> torment</add>
@@ -67,17 +67,17 @@
         <add place="superlinear" hand="#pbs">time</add>
       </mod> and which I had</line>
     <line>contemplated but the day <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">before</add>
       </mod> in the compa</line>
     <line>ny of her who was <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">now</add>
       </mod> but a shadow &amp; a</line>
     <line>recollection &#x2013; tears streamed from my</line>
     <line>eyes &#x2013; I looked on the <mod>
         <del rend="strikethrough">waters</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">lake</add>
       </mod>
       <del rend="strikethrough">&amp; sa</del> the</line>

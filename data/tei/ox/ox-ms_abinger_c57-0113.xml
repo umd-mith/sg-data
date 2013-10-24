@@ -53,7 +53,7 @@
     <line>and<anchor xml:id="c57-0113.02"/><anchor xml:id="c57-0113.03"/><anchor
         xml:id="c57-0113.01"/> constructed another sail with a</line>
     <line>part of my dress &amp; eagerly st<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>ered my course</line>
     <line>towards the lan<mod>

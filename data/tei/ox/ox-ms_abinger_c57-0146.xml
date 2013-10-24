@@ -23,10 +23,10 @@
     <line>of Evian shone under the woods that</line>
     <line>surrounded it &amp; the range of mountain</line>
     <line>above mountain <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">by</add>
       </mod> which <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">it </add>
         <add place="superlinear" hand="#pbs">was</add>
       </mod> overhung <del rend="strikethrough">it</del>.</line>

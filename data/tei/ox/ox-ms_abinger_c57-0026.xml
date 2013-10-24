@@ -14,7 +14,7 @@
     <line>in an obscure part of Paris. <unclear unit="chars" extent="1"/> Felix conducted</line>
     <line>the fugitives <mod>
         <del rend="strikethrough">across</del>
-        <add place="superlinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="superlinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">through</add>
       </mod> France to Lyons &amp; <add place="superlinear">across</add> Mount Cenis</line>
     <line>when he arrived at Leghorn where the merchant</line>
@@ -68,7 +68,7 @@
     <line><damage type="tear"/>He revolved a thou</line>
     <line><damage type="tear"/>sand plans by</line>
     <line><damage type="tear"/>which he <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">should</add>
       </mod></line>
   </zone>

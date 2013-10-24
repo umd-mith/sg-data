@@ -14,13 +14,13 @@
     <line>We were not allowed to converse for any length</line>
     <line>of time for the precarious state of my health rendered</line>
     <line>every precaution <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">that</add></del>
       </mod> necessary <add place="superlinear" hand="#pbs">that could ensure tranquillity</add>.
         M<hi rend="sup">r</hi>.. Kirwin came in &amp;</line>
     <line>insisted that my <mod>
         <del rend="strikethrough">forces</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">strength</add>
       </mod> should not be exhausted</line>
     <line><del rend="strikethrough">by a prolonged con</del> by too much exertion. But</line>
@@ -29,7 +29,7 @@
     <line>health. As my sickness <unclear unit="chars" extent="1" reason="illegible"/> quitted me I
       was absorbed</line>
     <line>by a <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">gloomy &amp;</add>
       </mod> black melancholy that nothing could dissipate&#x2013;</line>
     <line>The image of Cl<mod>
@@ -52,7 +52,7 @@
     <line>might fulfil my destiny which is drawing</line>
     <line>to a close&#x2014; Soon Oh very soon will death</line>
     <line>extinguish these thro<add place="intralinear" hand="#pbs">b</add>bings <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">releive me from</add>
       </mod> this mighty weight</line>
     <line>of anguish that bears me to the <del rend="strikethrough" instant="true"
@@ -62,7 +62,7 @@
       Then</line>
     <line>the <mod>
         <del rend="strikethrough">thought</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">appearance</add>
       </mod> of death was distant although</line>
     <line>the wish was ever present to my thoughts</line>

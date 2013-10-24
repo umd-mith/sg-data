@@ -24,7 +24,7 @@
         <add place="intralinear">t</add>
       </mod>he masters were angry</line>
     <line>&amp; their sc<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">h</add>
       </mod>olar<del rend="strikethrough">d</del>s resolute so that <mod spanTo="#c57-0095.05"
         /><delSpan spanTo="#c57-0095.02" rend="strikethrough"/>while</line>
@@ -47,7 +47,7 @@
     <line>of conversation when we arrived in</line>
     <line>the town. Our minds had been filled</line>
     <line>with the remembrance of <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod> events that</line>
     <line>had been transacted here above</line>
@@ -65,7 +65,7 @@
     <line>nation had forsaken him to join the</line>
     <line>standard of parliament &amp; liberty.</line>
     <line>It was strange to us <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">as we</add>
       </mod> enter<mod>
         <del rend="overwritten">ing</del>

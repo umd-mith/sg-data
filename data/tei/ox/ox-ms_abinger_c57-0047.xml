@@ -21,7 +21,7 @@
       </mod>w very</line>
     <line>well that every minute was precious</line>
     <line>to me yet I remained irresolute <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">in</add>
       </mod> what</line>
     <line><mod>
@@ -29,11 +29,11 @@
         <anchor xml:id="c57-0047.01"/>
       </mod> when the old man <mod>
         <del rend="strikethrough">began</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">addressed me</add>
       </mod> &#x2013;"By</line>
     <line>your language St<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>anger, I suppose you</line>
     <line>are my countryman, are you french?"</line>
@@ -55,12 +55,12 @@
     <line>nate &amp; deserted creature. I look around and</line>
     <line>I have no relation or fr<retrace cause="clarify">ie</retrace>nd <mod>
         <del rend="overwritten">&#x2013;</del>
-        <add place="intralinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="intralinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">on earth &#x2013;</add>
       </mod> The<mod>
         <add place="intralinear">se</add>
         <del rend="strikethrough">kind</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">amiable</add>
       </mod></line>
     <line>people to whom I go, have never seem</line>
@@ -71,7 +71,7 @@
     <line rend="indent1">Do not despair, said the old man.</line>
     <line>To be friendless is indeed to be unfortu</line>
     <line>nate<unclear>:</unclear> but <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the hearts of</add>
       </mod> men <del rend="strikethrough">are</del> when unpre</line>
     <line>judiced by obvious self interrest, are ful<add place="intralinear">l</add></line>

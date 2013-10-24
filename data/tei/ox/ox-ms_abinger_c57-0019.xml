@@ -15,7 +15,7 @@
       I</line>
     <line>quickly discovered and brought home</line>
     <line><del rend="strikethrough">for them</del> firing sufficient <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for the consumption</add>
       </mod>
       <del rend="strikethrough">f</del>o<mod>
@@ -38,7 +38,7 @@
     <line>I observed <del rend="strikethrough">th</del> with pleasure that he</line>
     <line>did not go to the <mod>
         <del rend="strikethrough">wood</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">forest</add>
       </mod> that day but</line>
     <line>spent it in repairing the cottage &amp; in</line>
@@ -46,7 +46,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent1"><mod>
         <del rend="strikethrough">Soon after</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">By degrees also</add>
       </mod> I made another discovery</line>
     <line><mod>
@@ -54,7 +54,7 @@
         <anchor xml:id="c57-0019.03"/>
       </mod>
       <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">that</add>
       </mod> these people <mod>
         <del rend="strikethrough">ha</del>
@@ -73,7 +73,7 @@
         &#x2014;<del rend="strikethrough">w</del> I <del rend="strikethrough">often</del> percieved
       that</line>
     <line>the words the<retrace cause="clarify">y</retrace> spoke <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sometimes</add>
       </mod> produced plea</line>
     <line>sure pain, smiles or sadness in the</line>
@@ -100,7 +100,7 @@
     <line><del rend="strikethrough">to me</del> of still</line>
     <line>greater</line>
     <line>moment <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">to me</add>
       </mod> I</line>
     <line>found</line>

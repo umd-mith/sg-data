@@ -11,7 +11,7 @@
     <line>here last night.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">This answer startled <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me,</add>
       </mod> But I presently</line>
     <line>recovered myself. I was innocent &#x26; that could</line>
@@ -33,7 +33,7 @@
     <line>cious guilt. Little did I then expect the</line>
     <line>calamity that would in a few moments</line>
     <line>overwhelm me, and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">extinguish</add>
       </mod> in horror &#x26; despair</line>
     <line><del rend="strikethrough">extinguish</del> all fear of ignominy or death&#x2014;</line>
@@ -48,7 +48,7 @@
         <del rend="overwritten">its</del>
         <add place="intralinear" hand="#pbs">the</add>
       </mod> frightful images <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">of the events which</add>
         <anchor xml:id="c57-0116.02"/>
       </mod> in</line>

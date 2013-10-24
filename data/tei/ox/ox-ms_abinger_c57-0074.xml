@@ -21,7 +21,7 @@
         <del rend="strikethrough">could not</del>
         <add place="superlinear" hand="#pbs">I was unable to</add>
       </mod> overcome my repugnance <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">to the task</add>
       </mod>. <add place="intralinear"><metamark function="displacement" xml:id="c57-0074.01"><hi
             rend="sup">X</hi>1</metamark></add></line>
@@ -42,7 +42,7 @@
     <line>by fits &amp; with a devouring blackness over</line>
     <line>cast the approaching <mod>
         <del rend="strikethrough">day</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sunshine</add>
       </mod>. At these</line>
     <line>moments I took refuge in the most</line>
@@ -58,7 +58,7 @@
           <ptr target="#c57-0074.03"/>
         </transpose>
       </listTranspose> watching the clouds &amp; <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">listening to</add>
       </mod> the ripp<mod>
         <del rend="overwritten">les</del>
@@ -70,14 +70,14 @@
     <line>sure &amp; <del rend="strikethrough">I</del> on my return I met the</line>
     <line><del rend="strikethough">smi</del> salutations of my friends with a</line>
     <line>readier smile, &amp; <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">a</add>
       </mod> more cheerful heart</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">It was after my return from one</line>
     <line>of the<add place="intralinear">se</add> rambles that my father calling</line>
     <line>me aside thus a<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">d</add>
       </mod>dressed me.</line>
     <milestone unit="tei:p"/>

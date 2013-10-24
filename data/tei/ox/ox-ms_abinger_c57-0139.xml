@@ -19,7 +19,7 @@
     <line>would hasten my fate if once the fiend had</line>
     <line>determined on my death &#x2013; <mod spanTo="#c57-0139.05"/><delSpan rend="strikethrough"
         spanTo="#c57-0139.06"/>It might indeed <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"><del rend="strikethrough">protract</del> hasten</add>
       </mod> a</line>
     <line>few months but if he suspected that I delayed</line>
@@ -33,7 +33,7 @@
     <line>satiated with blood <del rend="strikethrough">his ne</del> he had mur-</line>
     <line>dered Cl<mod>
         <del rend="strikethrough">ai</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>rval <add place="superlinear" hand="#pbs">immediately after the enunciation of this
         theats</add> &#x2013; <delSpan spanTo="#c57-0139.09" rend="strikethrough"/>After many hours

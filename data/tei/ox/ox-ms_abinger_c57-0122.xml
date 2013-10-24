@@ -17,7 +17,7 @@
         spoke with a</del></line>
     <line><anchor xml:id="c57-0122.02"/><anchor xml:id="c57-0122.01"/>voice <mod>
         <del rend="strikethrough">that</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">expressed</add>
       </mod> her entire indifference &#x2013; She</line>
     <line>addressed me in Eglish &#x26; the words struck</line>
@@ -51,7 +51,7 @@
         rend="strikethrough">o</del>athing from</line>
     <line>the woman who could utter so un</line>
     <line>feeling a speech to <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod>
       <mod>

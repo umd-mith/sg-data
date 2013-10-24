@@ -17,7 +17,7 @@
     <line>the papers may never reach you, my dear</line>
     <line>Margeret, yet I cannot forbear recording it.</line>
     <line>We are still surrounded by <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">mountains of</add>
       </mod> ice still in <mod>
         <del rend="overwritten">e</del>
@@ -30,7 +30,7 @@
     <line>desolation. Frankenstein has declined daily</line>
     <line><del rend="strikethrough">his</del> in health a feverish fire still glim</line>
     <line>mers in his eyes but he is ex<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">h</add>
       </mod>austed &amp;</line>
     <line>when suddenly rouzed to any exertion he</line>
@@ -70,7 +70,7 @@
       />that</line>
     <line>when<anchor xml:id="c57-0174.02"/> if the vess<damage type="inkblot">e</damage>l s<damage
         type="inkblot">houl</damage>d be freed, <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">that</add>
       </mod> I</line>
   </zone>

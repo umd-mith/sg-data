@@ -35,7 +35,7 @@
     <line>but utter carelessness was visible in</line>
     <line>the first &#x26; the <mod>
         <del rend="strikethrough">marks</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">expression</add>
       </mod> of brutality <mod>
         <del rend="strikethrough">were</del>

@@ -29,7 +29,7 @@
     <line rend="indent1">I trembled violently at this exordium,</line>
     <line>and my father continued. <mod>
         <del rend="strikethrough">It is true, my</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">I confess</add>
       </mod> my</line>
     <line>son, that I have always looked forward</line>
@@ -46,7 +46,7 @@
     <line>assistants to my plan may have</line>
     <line>entirely destroyed it,<del rend="strikethrough">&#x2013;</del> you <mod>
         <del rend="strikethrough">may</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">perhaps</add>
       </mod> regard</line>
     <line>her as your sister without any wish</line>
@@ -54,7 +54,7 @@
     <line>Nay you may have met with another</line>
     <line>whom you may love <mod>
         <del rend="strikethrough">but</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear">^</add>
         <add place="superlinear" hand="#pbs">and</add>
       </mod> considering</line>
     <line>yourself as bound in honor to you<add place="intralinear">r</add></line>

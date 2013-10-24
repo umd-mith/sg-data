@@ -14,7 +14,7 @@
       </mod> she was now</line>
     <line><mod>
         <del rend="strikethrough">obliged</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">to</del>
         <del rend="strikethrough">submit</del>
         <del rend="strikethrough"><add place="superlinear">to which</add></del>
@@ -27,7 +27,7 @@
     <line>Lady died, but her lessons were indelibly</line>
     <line>impressed in the mind of <mod>
         <del rend="strikethrough">Maimouna</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">Amina</add></del>
         <add place="superlinear">Safie</add>
       </mod></line>
@@ -51,11 +51,11 @@
     <line rend="indent1">The day for the execution of the Turk was</line>
     <line>fixed but <del rend="strikethrough">the he</del> on the night <mod>
         <del rend="strikethrough">before</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">previous to it</add>
       </mod></line>
     <line>he had quitted prison &amp; before morning was <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">distant</add>
       </mod></line>
     <line>many leagues from Paris. Felix has procurred</line>

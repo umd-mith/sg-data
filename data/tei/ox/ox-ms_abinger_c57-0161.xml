@@ -15,7 +15,7 @@
       </mod></line>
     <line>have sunk under my hardships <del rend="strikethrough">&amp; misery</del></line>
     <line><del rend="strikethrough">but</del> during the day I was <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">thus</add>
       </mod> sustained &amp; inspri</line>
     <line>ted by the hope of night; <mod>
@@ -33,11 +33,11 @@
     <line>enjoying health &amp; youth &#x2013; Often when</line>
     <line>wearied by a toilsome march I persua</line>
     <line>ded myself that I was <del rend="strikethrough">then</del> dreaming <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">until night should come</add>
       </mod> &amp;</line>
     <line>that <del rend="strikethrough">reality</del> I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">should then</add>
       </mod> enjoy<del rend="strikethrough">ed</del> reality <del rend="strikethrough">when I was
         again</del></line>
@@ -45,7 +45,7 @@
     <line>agonizing fondness did I feel for them&#x2013;how</line>
     <line>did I cling to their dear forms as <add place="superlinear" hand="#pbs">sometimes</add>
       they <mod spanTo="#c57-0161.10"/><add place="sublinear"><metamark function="insert"
-          >&#x2038;</metamark></add>
+          >^</metamark></add>
       <mod>
         <del rend="strikethrough"><unclear reason="illegible">pursed</unclear></del>
         <add place="superlinear">haunted</add>
@@ -85,7 +85,7 @@
         <del rend="strikethrough">on</del>
         <add hand="#pbs" place="superlinear">in</add>
       </mod> one of these <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">inscriptions&#x2013;</add>
       </mod>&#x2013; You live &amp;</line>
     <line>my power is complete. Follow me &#x2013;I seek</line>

@@ -11,7 +11,7 @@
   <zone type="main">
     <line>with curiosity the press instituted by the author</line>
     <line>of the history <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">of the troubles</add>
       </mod> We <del rend="strikethrough">we</del>re also shewn a roo<mod>
         <del rend="overwritten">n</del>
@@ -22,13 +22,13 @@
         <del rend="strikethrough">Lord Chancellor</del>
         <add place="superlinear">Frier</add>
       </mod> Bacon <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the disoverer of gunpowder</add>
       </mod> had</line>
     <line>inhabited and which, as it was predicted,</line>
     <line>would fall in when a man wiser than</line>
     <line>that philosopher should enter it. A <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a short, round faced prating</add>
       </mod> profes</line>
     <line>sor who accompanied us<del rend="strikethrough">e</del> refused to pass</line>
@@ -45,7 +45,7 @@
       </mod></line>
     <line>want the <mod>
         <del rend="strikethrough">cwon</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">crown</add>
       </mod> of distant white alps</line>
     <line>which always attend on the piny <mod spanTo="#c57-0096.05"/><del rend="strikethrough"
@@ -69,7 +69,7 @@
     <line>ward, we passed two months <mod spanTo="#c57-0096.06"/><delSpan rend="strikethrough"
         spanTo="#c57-0096.07"/>among the</line>
     <line>mountains of<anchor xml:id="c57-0096.07"/><add place="sublinear"><metamark
-          function="insert">&#x2038;</metamark></add><add place="superlinear">in</add><anchor
+          function="insert">^</metamark></add><add place="superlinear">in</add><anchor
         xml:id="c57-0096.06"/> Cumberland &amp; Westmorland.</line>
     <line>I could now almost fancy myself among</line>
     <line>the Swiss mountains; The little patches of</line>

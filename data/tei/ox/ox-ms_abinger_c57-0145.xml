@@ -44,7 +44,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">Thus Elizabeth endeavoured to divert</line>
     <line>her thoughts &amp; mine from <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">all reflection on</add>
       </mod> melancholy</line>
     <line>subjects but her temper was fluctuating.</line>

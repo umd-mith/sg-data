@@ -19,10 +19,10 @@
     <line>and with <del rend="strikethrough">a</del> quir<del rend="strikethrough">v</del>ering lips
       exclaimed &#x2013; By the</line>
     <line>Sacred earth <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">on which</add>
       </mod> I kneel <del rend="strikethrough">on</del>, by the shades <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">that</add>
         <del rend="strikethrough">I</del>
       </mod> wander</line>
@@ -36,14 +36,14 @@
       </mod> in a mortal</line>
     <line>conflict &#x2013; For this purpose I will preserve</line>
     <line>my life &#x2014; To execute this <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">dear</add>
       </mod> revenge will I again</line>
     <line><mod>
         <del rend="overwritten">s</del>
         <add place="intralinear">b</add>
       </mod>ehold the sun &amp; <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">tread the</add>
       </mod> green herbage of earth</line>
     <line>which otherwise should vanish from my</line>
@@ -65,7 +65,7 @@
           >furies</del></restore></line>
     <line>possessed me as I concluded it &amp; <mod>
         <del rend="strikethrough">I was</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">rage</add>
       </mod> choaked</line>
     <line>my utterance. I was answered through the</line>

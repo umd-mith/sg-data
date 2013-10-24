@@ -15,7 +15,7 @@
         <del rend="strikethrough">could</del>
         <del rend="strikethrough"><add place="superlinear">should</add></del>
       </mod> I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">should</add>
       </mod> leave</line>
     <line><del rend="strikethrough">Geneva &amp; the fiend beli</del>

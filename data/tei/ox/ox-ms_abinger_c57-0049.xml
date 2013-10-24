@@ -21,7 +21,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">Excellent man &#x2013; exclaimed I, I</line>
     <line>thank you and accept your <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">generous</add>
       </mod> offer</line>
     <line><add place="superlinear"><metamark function="displacement" xml:id="c58-0049.02"
@@ -38,10 +38,10 @@
       only drive you</line>
     <line>to desperation and not <mod>
         <del rend="strikethrough">reform</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">instigate</add>
       </mod> you <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to virtue</add>
       </mod> &#x2014;</line>
     <line>I also am unfortunate.&#x2013; I<del rend="strikethrough"><unclear unit="chars" extent="1"
@@ -66,11 +66,11 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">I paused &#x2014; This was the moment</line>
     <line>of decision which was to rob me <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">of</add>
       </mod> or</line>
     <line>bestow happiness <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">on me</add>
       </mod> for ever &#x2013; <del rend="strikethrough">I <unclear>sum</unclear></del></line>
     <line>I struggled vainly <del rend="strikethrough">to find</del> for firmness</line>

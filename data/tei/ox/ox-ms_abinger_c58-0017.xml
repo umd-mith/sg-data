@@ -33,7 +33,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">While I still hung over her in the agony of</line>
     <line>despair, I happened to look up. The <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">windows of the</add>
       </mod> room had</line>
     <line>before been darkened, and I felt a kind of panic on</line>

@@ -34,7 +34,7 @@
         <del rend="overwritten">d</del>
         <add place="intralinear" hand="#pbs">ble</add>
       </mod> scene of the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">preceeding</add>
       </mod> day <mod>
         <del rend="strikethrough">before</del>

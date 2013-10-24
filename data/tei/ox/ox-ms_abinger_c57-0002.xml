@@ -40,7 +40,7 @@
     <line>now found that I could wander on at liberty</line>
     <line>with no obstacles which I could not either</line>
     <line>surmount or avoid&#x2013; The light <del rend="strikethrough">be</del> became <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">more</add>
       </mod> &#x26;</line>
     <line>more opressive to me and the heat wearying</line>
@@ -52,7 +52,7 @@
     <alt mode="excl" target="#c57-0002.02 #c57-0002.03" weights="0 1"/>
     <line>and here by the side of a brook I lay <del rend="strikethrough">weary</del></line>
     <line>for some hours <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">resting from my fatigue</add>
       </mod> untill I felt tormented by</line>
     <line>hunger and thirst. This roused me from my nearly</line>

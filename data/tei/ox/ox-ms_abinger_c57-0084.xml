@@ -35,11 +35,11 @@
     <line rend="indent2">I am content, I replied with</line>
     <line>your arrangement. By that time</line>
     <line>we shall <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">both</add>
       </mod> have <del rend="strikethrough">both</del> become wiser</line>
     <line>and I hope happier than we <mod>
-        <add><metamark>&#x2038;</metamark></add>
+        <add><metamark>^</metamark></add>
         <add>at present</add>
       </mod> are <del rend="strikethrough">now</del></line>
   </zone>

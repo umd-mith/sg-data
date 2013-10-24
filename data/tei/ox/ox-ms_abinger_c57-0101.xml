@@ -56,7 +56,7 @@
           reason="illegible"/></del> not prevail</line>
     <line>on myself to enter my <mod>
         <del rend="strikethrough">workshop</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">laboratory</add>
       </mod> for several</line>
     <line>days and at other times I <mod>
@@ -71,11 +71,11 @@
       en-</line>
     <line>gaged. <mod>
         <del rend="strikethrough">In</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">During</add>
       </mod> my first experiment a kind of</line>
     <line>enthusiastic frenzy <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">had</add>
       </mod> blinded me to the</line>
     <line>horror of my employment; my mind was</line>

@@ -37,11 +37,11 @@
         <anchor xml:id="c57-0153.03"/>
         <add place="superlinear">a</add>
       </mod> useless gift to me had <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">I</add>
       </mod> not as I a-</line>
     <line>wakened to reason <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">at the same time <del rend="strikethrough">been</del></add>
       </mod> awakened to vengeance.</line>
     <line>As <del rend="strikethrough" instant="true">pa</del> the memory of past misfortunes</line>

@@ -21,10 +21,10 @@
     <line>no peace: <del rend="strikethrough">&amp; tranquillity &amp;</del> the agonies of</line>
     <line>remorse poison the luxury there other</line>
     <line>wise is <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">sometimes found</add>
       </mod> in indulging <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">in</add></del>
       </mod> the excess of grief.</line>
     <milestone unit="tei:p"/>
@@ -71,7 +71,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">Such were the lessons of my</line>
     <line>father but to me the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">remembrance of the</add>
       </mod> threat returned</line>
   </zone>

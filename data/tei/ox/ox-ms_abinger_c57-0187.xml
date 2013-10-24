@@ -19,7 +19,7 @@
     <line>not so. You wished for my extinction that I</line>
     <line>might not cause greater <mod>
         <del rend="strikethrough">misery</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">wretchedness</add>
       </mod> to others &amp;</line>
     <line>now you will not desire my life for my</line>
@@ -31,7 +31,7 @@
       </mod></line>
     <line>as you were my <mod>
         <del rend="strikethrough">wretchedness</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">agony</add>
       </mod> is superior to</line>
     <line>yours for remorse is the bitter sting that</line>
@@ -56,7 +56,7 @@
       </mod> an ice raft that</line>
     <line>lay close to the vessel <mod>
         <del rend="strikethrough">p</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">&amp;</del>
         <add place="superlinear">&amp;</add>
       </mod> pushing him</line>

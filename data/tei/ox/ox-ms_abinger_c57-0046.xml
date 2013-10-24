@@ -14,7 +14,7 @@
     <line>was the hour &amp; moment of trial</line>
     <line>which <mod>
         <del rend="strikethrough">was to</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">would</add>
       </mod> decide my <del rend="strikethrough">fea</del> hopes</line>
     <line><del rend="strikethrough">or</del>
@@ -37,7 +37,7 @@
         <del rend="overwritten"><unclear>e</unclear></del>
         <add place="intralinear">n</add>
       </mod>ess <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">of which</add>
       </mod> I</line>
     <line>was master <del rend="strikethrough">of</del> removed the planks</line>
@@ -61,7 +61,7 @@
         <del rend="strikethrough">out</del>
         <add place="superlinear" hand="#pbs">from home,</add>
       </mod> and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">as</add>
       </mod> I am blind</line>
     <line>I am afraid <del rend="strikethrough">therefore</del> I shall find it</line>

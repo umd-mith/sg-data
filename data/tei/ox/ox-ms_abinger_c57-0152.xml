@@ -41,7 +41,7 @@
     <line>with all the affection of a man who</line>
     <line>in the decline of life having few affec</line>
     <line>tions clings <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">more earnestly</add>
       </mod> to those that remain. Cursed</line>
     <line>Cursed be the fiend that brought misery</line>
@@ -55,7 +55,7 @@
     <line>lated round him &#x2013; An applapetic fit was</line>
     <line>brought on &amp; in a few <mod>
         <del rend="strikethrough">hours</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">days</add>
       </mod> he died</line>
   </zone>

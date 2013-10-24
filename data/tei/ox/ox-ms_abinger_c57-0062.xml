@@ -8,7 +8,7 @@
     <line>no means of extracting it. <del rend="strikethrough">A</del> My suffering were</line>
     <line>augmented also by the oppressive sense <del rend="strikethrough">I had</del></line>
     <line>of <add place="superlinear" hand="#pbs">the</add> injustice &amp; ingratitude <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">of their infliction</add>
       </mod> My daily <mod>
         <del rend="strikethrough">prayers</del>
@@ -24,7 +24,7 @@
     <line rend="indent2">After some weeks my wound healed</line>
     <line>and I continued my journey &#x2014; the labours</line>
     <line>I endured were no longer <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to be</add>
       </mod> alleviated by the</line>
     <line>bright sun or gent<del rend="strikethrough">t</del>le breezes of spring &#x2014;</line>

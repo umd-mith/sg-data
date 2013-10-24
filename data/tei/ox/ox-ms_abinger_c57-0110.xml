@@ -9,7 +9,7 @@
   <zone type="main">
     <line>year had <mod>
         <del rend="strikethrough">passed</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">elapsed</add>
       </mod> since we had quitted Switzerland</line>
     <line>and France was yet unvisited. He entreated me</line>
@@ -18,7 +18,7 @@
     <line>time when we might arrange <del rend="strikethrough">our</del> the plan</line>
     <line>of our future proceedings. This letter complete</line>
     <line>ly recalled <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me</add>
       </mod> to life &amp; I determined to quit my</line>
     <line>island <del rend="strikethrough">the next day</del>. at the expiration of two days</line>

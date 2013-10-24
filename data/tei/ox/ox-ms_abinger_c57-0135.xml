@@ -23,7 +23,7 @@
     <line>but although happiness will not shine</line>
     <line>in our eyes for many months yet I</line>
     <line>hope to <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">see</add>
       </mod> peace in your countenance &#x26; to</line>
     <line>find that your heart is not totally</line>

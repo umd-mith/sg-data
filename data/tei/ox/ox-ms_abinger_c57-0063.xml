@@ -16,7 +16,7 @@
     <line rend="indent2">It was evening when I arrived in the outskirts</line>
     <line>of <mod>
         <del rend="strikethrough">Geneva</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">that town</add>
       </mod> and I retired to a hiding place among the</line>
     <line>fields that surround<del rend="strikethrough">s</del> it, to consider in what</line>
@@ -27,7 +27,7 @@
     <line>of the sun setting behind the stupendous moun</line>
     <line>tains of the Jura. At this time <del rend="strikethrough">I was relieved by</del></line>
     <line>a slight sleep <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">relieved me</add>
       </mod> which was disturbed by the</line>
     <line>approach of a beautiful child who came</line>
@@ -48,7 +48,7 @@
         <del rend="strikethrough">e</del>
       </mod> lived to<add place="intralinear">o</add> short a time to have</line>
     <line>imbibed <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> horro<mod>
         <del rend="overwritten">w</del>
@@ -68,7 +68,7 @@
         <del rend="strikethrough">eyes</del>
         <add place="superlinear">face</add>
       </mod> &amp; said Child, w<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">h</add>
       </mod>at is</line>
     <line>the meaning of this? I do not intend to hurt</line>

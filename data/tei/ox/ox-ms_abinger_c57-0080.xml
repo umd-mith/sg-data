@@ -13,11 +13,11 @@
     <line>oppose itself to your happiness. How do I long</line>
     <line>for that time when we shall be all</line>
     <line>united and <mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add place="superlinear">neither</add>
       </mod> hopes or fears <mod>
         <del rend="strikethrough">will</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">arise</add>
       </mod> destroy our</line>
     <line>domestic felicity. <milestone unit="tei:p"/>
@@ -51,7 +51,7 @@
     <line>that was to conve<retrace cause="clarify">y</retrace> me away hardly</line>
     <line>knowing <mod>
         <del rend="strikethrough">where</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">whither</add>
       </mod> I was going &amp; carless of</line>
     <line>what was passing around. I remembered</line>

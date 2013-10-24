@@ -46,7 +46,7 @@
     <line>creatures. At one time the moon which</line>
     <line>had before been clear was suddenly <del rend="strikethrough">covered</del></line>
     <line>overspread by a thick cloud &amp; <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">I</add>
       </mod> took advan</line>
     <line>tage of the moment of darkness &amp; cast</line>

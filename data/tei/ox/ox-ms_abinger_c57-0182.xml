@@ -44,7 +44,7 @@
           function="transpose" target="#c57-0182.02">2</metamark></add> &amp; <milestone
         unit="tei:seg" spanTo="#c57-0182.05" xml:id="c57.0182.03"/>scaring<anchor
         xml:id="c57-0182.05"/><add place="sublinear"><metamark function="insert"
-        >&#x2038;</metamark></add><add place="superlinear" hand="#pbs"><metamark
+        >^</metamark></add><add place="superlinear" hand="#pbs"><metamark
           function="transpose" target="#c57-0182.03"><del rend="overwritten">2</del><add
             place="intralinear" hand="#pbs">1</add></metamark></add>
       <listTranspose>
@@ -61,7 +61,7 @@
     <line>repentance is now useless. If you had felt</line>
     <line>the stings of remorse before you urged</line>
     <line><del rend="strikethrough">to extremity</del> your diabolical vengeance <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to <mod>
             <del rend="strikethrough">its</del>
             <add place="superlinear" hand="#pbs">this</add>

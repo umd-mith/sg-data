@@ -9,7 +9,7 @@
   <zone type="library">10</zone>
   <zone type="main">
     <line>believing it <mod>
-        <add place="sublinear" hand="#comp"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear" hand="#comp"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#comp">to</add>
       </mod> have been a form conjured <del rend="strikethrough">my</del> by my</line>
     <line>fancy. After having landed they proceeded to search the</line>

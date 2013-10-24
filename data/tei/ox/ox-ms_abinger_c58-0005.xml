@@ -10,7 +10,7 @@
   <zone type="main">
     <line>adversary I would rather have banished myself for</line>
     <line>ever from my native country and wandered <mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> friend-</line>
     <line>less outcast over the earth than have consented</line>

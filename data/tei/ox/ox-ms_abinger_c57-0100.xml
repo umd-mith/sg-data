@@ -24,7 +24,7 @@
     <line>the north<add place="intralinear">ern</add> highlands and fixed on one of the</line>
     <line>Orkney Islands for the scene of my labours.</line>
     <line><del rend="strikethrough">I was</del> It was a place fitted for such <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> work;</line>
     <line>being hardly more than a rock whose high</line>
@@ -54,7 +54,7 @@
     <line>hinges. I ordered it to be repaired, <del rend="strikethrough">&amp;</del> bought</line>
     <line>some furniture &amp; took possession &#x2013; an</line>
     <line>incident which would have <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">doubtless</add>
       </mod> occasioned</line>
     <line>some surprise had not all the <del rend="strikethrough">th</del> senses</line>

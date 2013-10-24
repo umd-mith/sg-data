@@ -18,7 +18,7 @@
           >selfishness</del></restore></line>
     <line>had not hesitated to buy its own peace at</line>
     <line>the price perhaps of the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">existence of</add>
       </mod> whole human</line>
     <line>race. I trembled, and my heart failed <del rend="strikethrough" instant="true"
@@ -64,7 +64,7 @@
     <line>future existence he depended for</line>
     <line>happiness and with a howl of devi</line>
     <line>lish despair <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">&amp; revenge</add>
       </mod> withdrew.</line>
     <milestone unit="tei:p"/>

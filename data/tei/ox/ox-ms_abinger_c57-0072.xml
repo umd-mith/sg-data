@@ -13,7 +13,7 @@
     <line>mong the little paths and fixing my feet</line>
     <line>firmly <del rend="strikethrough">a</del> as I advanced teazed me occupied</line>
     <line>as I was by the feelings <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"><mod>
             <del rend="strikethrough">that</del>
             <add place="superlinear" hand="#pbs">which</add>
@@ -28,7 +28,7 @@
     <line>tre<retrace cause="clarify">e</retrace> lay <del rend="strikethrough">listless</del>
       <mod>
         <del rend="strikethrough">of</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">on</add>
       </mod> the ground; it was</line>
     <line>a scene of wonderful solemnity &amp; <delSpan spanTo="#c57-0072.01" rend="strikethrough"
@@ -40,7 +40,7 @@
       to mock</line>
     <line>me &#x2014; If ye really pity crush me but if</line>
     <line>not depart depart &amp; leave <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">me</add>
       </mod> to darkness.</line>
     <line><del rend="strikethrough">Wild</del> These were wild &amp; miserable thoughts</line>

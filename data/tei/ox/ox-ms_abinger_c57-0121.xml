@@ -11,7 +11,7 @@
     <line>neck &amp; screamed aloud with agony &amp; terror.</line>
     <line>Fortunately as I spoke my native tongue</line>
     <line>M<hi rend="sup">r</hi>. Kirwin alone understood <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me</add>
       </mod>. But my gestures</line>
     <line>and bitter cries were sufficient, to affright</line>
@@ -33,7 +33,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">But I was doomed to live &amp; in two</line>
     <line>months found myself <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">as</add>
       </mod> awaking from a</line>
     <line>dream, in a prison, stretched on a wretched</line>
@@ -42,7 +42,7 @@
     <line>I<add place="intralinear">t</add> was morning I remember when I th<retrace cause="clarify"
         >u</retrace>s awoke</line>
     <line><damage type="inkblot">I h</damage>ad forgotten <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the particulars of</add>
       </mod> what had happened &amp; only</line>
     <line>felt as if some great misery had over</line>
@@ -57,7 +57,7 @@
     <line>countenance expressed all those bad qua</line>
     <line><space/>lities which <mod>
         <del rend="strikethrough">usually</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">often</add>
       </mod> characterize <del rend="strikethrough">that</del></line>
   </zone>

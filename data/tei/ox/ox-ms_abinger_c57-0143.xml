@@ -20,7 +20,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">Preparations were made for the event.</line>
     <line>Congratulatory visits <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">were</add>
       </mod> received and all wore a</line>
     <line>smiling appearance &#x2013;I shut up <del rend="strikethrough"><unclear reason="illegible"
@@ -46,12 +46,12 @@
     <line>prevent artifice &amp; by these means gain</line>
     <line>ed <add place="superlinear">a</add> great<del rend="strikethrough">er</del>
       <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">degree of</add>
       </mod> tranquillity&#x2013; And indeed as the</line>
     <line>period approached the threat<del rend="strikethrough">s</del> appeared</line>
     <line>more as <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">dreams</del>
         <add place="superlinear">a delusion</add>
       </mod> not to be regarded as</line>
@@ -62,17 +62,17 @@
     <line>happiness I hoped for in my marriage</line>
     <line>wore a<add place="intralinear">n</add>
       <del rend="strikethrough">greater</del> appearance of <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">greater</add>
       </mod> certainty</line>
     <line>as <mod>
         <del rend="strikethrough">it</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the period of its solemnization</add>
       </mod>
       <mod>
         <del rend="strikethrough">drew nearer</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"><del rend="strikethrough">approac</del> drew near</add>
       </mod> and I heard it</line>
     <line>spoken of every day as an <mod>

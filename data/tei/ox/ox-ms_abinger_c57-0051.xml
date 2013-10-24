@@ -49,7 +49,7 @@
     <line>above <add place="superlinear">me</add> and now and then the sweet</line>
     <line>voice of a bird burst forth anidst</line>
     <line>the universal stillness.&#x2013; All <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">save I</add>
       </mod> were</line>
     <line>at rest or in enjoyment <del rend="strikethrough">but I.</del>
@@ -61,7 +61,7 @@
     <line>self unsympathized with, I <del rend="strikethrough">wi</del> wished</line>
     <line>to tear <mod>
         <del rend="strikethrough">of</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">up</add>
       </mod> the trees, <del rend="strikethrough"><unclear extent="1" unit="chars"/></del> spread
       havock</line>

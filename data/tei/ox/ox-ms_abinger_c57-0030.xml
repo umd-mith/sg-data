@@ -16,7 +16,7 @@
     <line>the cottage in Germany where I found them<damage type="tear"/></line>
     <line>Felix <mod>
         <del rend="strikethrough">heard</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">learned</add>
       </mod> that the treacherous Turk for whom</line>
     <line>he and his family <del rend="strikethrough" instant="true">suf</del> endured such
@@ -48,7 +48,7 @@
         <add place="sublinear">me</add>
       </mod> a traitor</line>
     <line>to good feeling &amp; honour <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">&amp; had</add>
       </mod> quitted <del rend="strikethrough">his</del> Italy with</line>
     <line>his daughter insultingly sending Felix a</line>
@@ -67,7 +67,7 @@
         <del rend="strikethrough">had been</del>
       </mod> this distress had</line>
     <line>been the meed of <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">his</add>
       </mod> virtue he would have</line>
     <line>gloried in it. But the ingratitude of the</line>
@@ -81,7 +81,7 @@
         <add place="intralinear">T</add>
       </mod>he arrival of the Arrabian</line>
     <line><damage type="tear"/><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">had</del>
         <add hand="#pbs" place="superlinear">now</add>
       </mod> infused new life into his soul.</line>

@@ -21,7 +21,7 @@
       <del rend="strikethrough"><add place="superlinear">black</add></del></line>
     <line><mod>
         <del rend="strikethrough">lovely</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">black <del rend="strikethrough">black</del></add>
       </mod> outlines. <milestone unit="tei:p"/><add place="intralinear" hand="#comp"><metamark
           function="paragraph">[</metamark></add>The wind which had fallen in the</line>

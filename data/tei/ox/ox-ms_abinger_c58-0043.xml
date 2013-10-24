@@ -12,7 +12,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">Frankenstein discovered <mod>
         <del rend="strikethrough">or</del>
-        <add place="sublinear" hand="#comp"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear" hand="#comp"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#comp">that I</add>
       </mod> made notes concern</line>
     <line>-ing his history; he asked to see them and then</line>

@@ -10,11 +10,11 @@
   <zone type="main">
     <line>yet why were these gentle beings un</line>
     <line>happy &#x2013; they poss<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">ess</add>
       </mod>ed a delightful house</line>
     <line><anchor xml:id="c57-0017.01"/>such <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">it</add>
       </mod> was <mod>
         <del rend="strikethrough">it</del>

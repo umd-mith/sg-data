@@ -20,7 +20,7 @@
     <line rend="indent1"><del rend="strikethrough">I par</del> It is not thus, said
       the d&#xE6;mon, &amp;</line>
     <line>yet <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">such must be</add>
       </mod> you<add place="intralinear">r</add>
       <mod>
@@ -30,7 +30,7 @@
     <line>appears to have been the purport of my</line>
     <line>actions. But I do not seek <mod>
         <del rend="strikethrough">sympathy</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a fellow feeling</add>
       </mod> in</line>
     <line>my misery&#x2013;I feel it deeply &amp; truly &amp; for sy</line>
@@ -44,7 +44,7 @@
     <line>now that virtue is to me merely a sha</line>
     <line>dow and happiness &amp; content <mod>
         <del rend="strikethrough">and</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">are</add>
       </mod> turned</line>
     <line>into despair shall I seek for sympathy</line>
@@ -56,7 +56,7 @@
     <line>of virtue of fame &amp; <add place="intralinear">of</add> enjoyment. Once</line>
     <line>I hoped to meet with one who pardoning</line>
     <line>my outward form <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">would</add>
       </mod> love me for the</line>
     <line>excellent qualities <mod>

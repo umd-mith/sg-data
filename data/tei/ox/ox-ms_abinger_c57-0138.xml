@@ -21,7 +21,7 @@
         <add place="intralinear">m</add>
       </mod>ploy every art to destroy me &#x26; tear me</line>
     <line>from the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">glimse</add>
       </mod> happiness <mod>
         <del rend="strikethrough">that might</del>
@@ -40,7 +40,7 @@
     <line>If he were vanquished <delSpan spanTo="#c57-0138.01" rend="strikethrough"/>he should
       I</line>
     <line>and<anchor xml:id="c57-0138.01"/> I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">should</add>
       </mod> be a free man &#x2014; Alas what a</line>
     <line>freedom such as peasant endures</line>

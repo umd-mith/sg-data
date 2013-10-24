@@ -10,7 +10,7 @@
   <zone type="main">
     <line><mod>
         <del rend="strikethrough">It was some time</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">A considerable period elapsed</add>
       </mod> before I discovered one</line>
     <line><anchor xml:id="c57-0018.01"/>cause<add hand="#pbs">s</add> of the uneasiness of
@@ -18,7 +18,7 @@
     <line>family &#x2013; <mod>
         <del rend="strikethrough">It</del>
         <del rend="strikethrough">Itw</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">It</add>
       </mod> was poverty&#x2013; and they suffered</line>
     <line>that evil in a very distressing degree&#x2013; <delSpan spanTo="#c57-0018.02"
@@ -39,7 +39,7 @@
         <del rend="strikethrough">ng</del>
       </mod>
       <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">any</add>
         <del rend="strikethrough">of</del>
       </mod> food for it.</line>
@@ -51,12 +51,12 @@
         <del rend="strikethrough">er part</del>
         <!--smeared and canceled ?letters below "er part" could possibly be ?Cottagers-->
       </mod></line>
-    <line>for <add place="sublinear"><metamark>&#x2038;</metamark></add><add place="superlinear"
+    <line>for <add place="sublinear"><metamark>^</metamark></add><add place="superlinear"
         >several times</add> they <del rend="strikethrough">often</del> placed food before the
       old</line>
     <line>man when <mod>
         <del rend="strikethrough">they</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">were</add></del>
       </mod>
       <del rend="strikethrough">themselves in want of it</del></line>
@@ -74,7 +74,7 @@
         <add place="superlinear" hand="#pbs">gathered from</add>
       </mod> a neighbouring <add place="superlinear">wood.</add> I <mod>
         <del rend="strikethrough">found</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">discovered</add>
       </mod> also</line>
     <line>another means by which I was able</line>

@@ -20,13 +20,13 @@
         <del rend="strikethrough">bringing no new</del>
         <add place="superlinear">ignorant</add>
       </mod> &amp; dissa<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">p</add>
       </mod>pointed &#x2013;It requires <mod spanTo="#c57-0177.02"/><delSpan
         spanTo="#c57-0177.03" rend="strikethrough"/>a</line>
     <line>great deal of<anchor xml:id="c57-0177.03"/><add place="superlinear">more</add><anchor
         xml:id="c57-0177.02"/> philosophy <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">than I possess</add>
       </mod> to bear this injustice</line>
     <line>with patience &#x2013;</line>
@@ -43,7 +43,7 @@
     <line>lost my hopes of utility &amp; glory &#x2013;I have lost</line>
     <line>my friend. But <del rend="strikethrough">if</del> I <mod>
         <del rend="strikethrough">am</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">will</add>
         <del rend="strikethrough">at</del>
       </mod> endeavour</line>
@@ -71,7 +71,7 @@
         <add place="intralinear">z</add>
       </mod>e sprung</line>
     <line>from that quarter &#x2013;<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">and</add>
         <add place="superlinear">on the 11<hi rend="sup">th</hi></add>
       </mod> the passage to</line>

@@ -16,7 +16,7 @@
     <line>self. This I did in a small cave surrounded by</line>
     <line>wood at the foot of which was a <mod>
         <del rend="strikethrough"><unclear>la</unclear></del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">deep &amp; impetuous</add>
       </mod> river &#x2013; I</line>
     <line>presently discovered that the voices proceeded</line>
@@ -63,7 +63,7 @@
     <line>place and with extreme labour from the</line>
     <line>force of the current saved her, &amp; dragged her</line>
     <line>to shore &#x2014; She was <del rend="strikethrough">sensell</del> senseless and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">I</add>
       </mod> endeavo</line>
     <line>ured by every means in my power to restore</line>

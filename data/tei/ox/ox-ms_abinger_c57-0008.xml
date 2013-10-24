@@ -40,7 +40,7 @@
       </mod> a village. How mira</line>
     <line>culous did this appear. The huts the neater</line>
     <line>cottages &#x26; stat<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>lier houses engaged my</line>
     <line>admiration by turns&#x2013; The vegetables in the</line>
@@ -62,7 +62,7 @@
     <line>some fled,&#x2014;some attacked me untill</line>
     <line>grievously bruised by <mod>
         <del rend="strikethrough">sticks</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">stones</add>
       </mod> and <del rend="strikethrough">all</del></line>
     <line>many other kinds of missile weapon I</line>

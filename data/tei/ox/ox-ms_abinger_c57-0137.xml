@@ -35,7 +35,7 @@
     <line>nothing on earth will have the power</line>
     <line>to <mod>
         <del rend="strikethrough">disturb.</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">interrupt</add>
       </mod> my tranquillity.</line>
     <milestone unit="tei:p"/>

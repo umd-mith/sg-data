@@ -15,7 +15,7 @@
     <line>and I beg therefore that you will</line>
     <line>take some days to <mod>
         <del rend="strikethrough">consult</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">consider of</add>
       </mod>
       <delSpan spanTo="#c57-0055.01" rend="strikethrough"/>about</line>
@@ -24,23 +24,23 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">It is utterly useless&#x2013; replied Felix,</line>
     <line>we <mod><del rend="overwritten">s</del><add place="intralinear">c</add></mod>an never <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">again</add>
       </mod> inhabit that cottage</line>
     <line><del rend="strikethrough">again</del> &#x2013;The life of <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">my</add>
       </mod> father is in the greatest</line>
     <line>danger owing to the dreadful circumstanc</line>
     <line>that I have related&#x2014; My wife and sister</line>
     <line><mod>
         <del rend="strikethrough">can</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">will</add>
       </mod> never recover their horror&#x2014; <del rend="strikethrough">Do</del> I</line>
     <line>entreat you not to reason with me</line>
     <line>any more&#x2014;<del rend="strikethrough">let</del> Take possession <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">of your tenement</add>
       </mod> and let me</line>
     <line>fly from this place &#x2013; <del rend="strikethrough">very</del>
@@ -66,9 +66,9 @@
         <add place="superlinear">continued</add>
         <del rend="strikethrough">all night</del>
         <del rend="strikethrough"><add place="sublinear"><metamark function="insert"
-              >&#x2038;</metamark></add></del>
+              >^</metamark></add></del>
       </mod> in my hovel<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"> for the remainder of the day</add>
       </mod></line>
     <line>in a state of utter &amp; stupid despair&#x2013;</line>

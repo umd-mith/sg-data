@@ -10,7 +10,7 @@ href="../../xsl/page-proof.xsl"
   <zone type="main">
     <line>dormant state and I ate some berries</line>
     <line>which I found <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">hanging</add>
       </mod> on the trees or lying on</line>
     <line>the ground &#x2013; I slaked my thirst by the</line>
@@ -21,7 +21,7 @@ href="../../xsl/page-proof.xsl"
       </mod> It was dark when I</line>
     <line>awoke, I felt cold also and half frightened</line>
     <line><mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">as it were instinctively</add>
       </mod> on <del rend="strikethrough">seein</del> finding myself so desolate.</line>
     <line>Before I had quitted you<add place="intralinear">r</add> appartment</line>
@@ -33,7 +33,7 @@ href="../../xsl/page-proof.xsl"
     <line>miserable wretch&#x2014;I knew <del rend="strikethrough">no</del> &amp; could</line>
     <line>distinguish <del rend="strikethrough">no</del> nothing but <mod>
         <del rend="strikethrough">felt</del>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">feeling</add>
       </mod> pain</line>
     <line>invade me on all sides <del rend="strikethrough">and</del> I sat down</line>

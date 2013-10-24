@@ -13,7 +13,7 @@
     <line>tance surmounting all the beeautiful Mont</line>
     <line>Bl&#226;nc and the assemblage of snowy mountains</line>
     <line>that <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">in vain</add>
       </mod> endeavour <del rend="strikethrough">in va</del> to emulate her; som<add
         place="intralinear">e</add>times</line>

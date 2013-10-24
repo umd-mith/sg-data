@@ -60,11 +60,11 @@
     <line rend="indent2">I do not doubt, I replied, that he hovers</line>
     <line>near the <mod>
         <del rend="strikethrough">place where</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">spot which</add>
       </mod> I <mod>
         <del rend="strikethrough">live</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">inhabit</add>
       </mod> &#x2013; And if he</line>
     <line>has indeed taken refuge in the alps he</line>
@@ -81,7 +81,7 @@
     <line>eyes &#x2013; The magistrate was intimidated</line>
     <line>You are mistaken, said he <del rend="strikethrough">an</del> I will</line>
     <line>exert myself and if it is <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">in</add>
       </mod> my power to</line>
     <line>seize the monster be assured that he</line>

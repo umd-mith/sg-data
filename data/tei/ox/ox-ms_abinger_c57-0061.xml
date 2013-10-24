@@ -21,7 +21,7 @@
     <line>playfully fled &#x2013; On seeing me he darted</line>
     <line>towards me and <mod>
         <del rend="strikethrough">tore</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">tearing</add>
       </mod> the girl from</line>
     <line>my arms hastened towards the deeper</line>
@@ -59,7 +59,7 @@
     <line>eternal hatred &amp; vengeance to all</line>
     <line>mankind &#x2014; But <mod>
         <del rend="strikethrough">pain</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the agony of my wound</add>
       </mod> overcame me</line>
     <line><del rend="strikethrough">sens</del> my pulses paused and I fainted.</line>

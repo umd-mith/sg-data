@@ -71,7 +71,7 @@
   <zone type="left_margin" corresp="#c57-0052.03">
     <line><add>the<mod>
           <del rend="strikethrough">m</del>
-          <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear"> species </add>
         </mod></add></line>
   </zone>

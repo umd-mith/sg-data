@@ -39,7 +39,7 @@
       <del rend="overwritten">o</del>
       <add place="intralinear">I</add>
     </mod>n that <mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">hour</add>
     </mod> I should die and at</line>
     <line>once satisfy and extinguish his malic<retrace cause="clarify">e</retrace>. <delSpan

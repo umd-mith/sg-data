@@ -27,7 +27,7 @@
       </mod> Covered with ice it was only to be</line>
     <line>distinguished from land by its superior wildness and</line>
     <line>ruggedness. The greeks wept <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for joy</add>
       </mod>when they beheld the</line>
   </zone>

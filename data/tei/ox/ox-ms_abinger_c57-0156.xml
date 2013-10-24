@@ -11,11 +11,11 @@
   <zone type="main">
     <line>shall suffer punishment proportionate to</line>
     <line>his crimes &#x2013; But I fear from what you <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">have</add>
       </mod> your</line>
     <line>self described to <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">be</add>
       </mod> hi<mod>
         <del rend="overwritten">n</del>
@@ -37,13 +37,13 @@
           <add place="intralinear">t</add>
         </mod>
       </mod>hat I can say <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">will</add>
       </mod> be of little avail; <mod spanTo="#c57-0156.02"/><del rend="strikethrough"
         >vengeance</del></line>
     <line><anchor xml:id="c57-0156.03"/>is of no moment to you yet while I allow</line>
     <line>it to <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">be</add>
       </mod> a vice I confess that it is the</line>
     <line>devouring &amp; only passion of my soul; my</line>
@@ -65,7 +65,7 @@
       </mod> the martyrs of</line>
     <line>old were said to <add place="superlinear">have</add> possessed &#x2014; But <mod>
         <del rend="strikethrough">a</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to</add>
       </mod> a</line>
     <line>Genev<mod>

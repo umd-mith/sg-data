@@ -42,7 +42,7 @@
     <line rend="indent2">And now <del rend="strikethrough"><unclear>it</unclear></del> with the
       world before</line>
     <line>me w<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">h</add>
       </mod>ither should I bend my steps?</line>
     <line>I resolved to fly far from the scene</line>
@@ -63,7 +63,7 @@
         <del rend="overwritten">e</del>
         <add place="intralinear" hand="#pbs">im</add>
       </mod> who had given <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me</add>
       </mod> life.</line>
     <line>Among the lessons that Felix had</line>

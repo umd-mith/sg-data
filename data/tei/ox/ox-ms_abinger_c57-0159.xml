@@ -19,7 +19,7 @@
     <line>was reserved for vengeance &#x2013; The laughter</line>
     <line>died away <mod>
         <del rend="strikethrough">and</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">when</add>
       </mod> a well known and <del rend="strikethrough">detested</del></line>
     <line>abhorred voice apparently close to my ear ad</line>
@@ -29,7 +29,7 @@
     <line>towards the place from which the <del rend="strikethrough">moon</del> sound</line>
     <line>proceeded but the <mod>
         <del rend="strikethrough">wretch</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">villain</add></del>
         <add place="sublinear" hand="#pbs">devil</add>
       </mod> eluded my grasp.</line>
@@ -41,7 +41,7 @@
         with</add><anchor xml:id="c57-0159.03"/><anchor xml:id="c57-0159.01"/></line>
     <milestone unit="tei:p"/>
     <line>I persued <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">him;</add>
       </mod>&#x2013; &amp; for many months this</line>
     <line><anchor xml:id="c57-0159.05"/>has been my task. <mod>
@@ -80,7 +80,7 @@
       </mod> what I have felt &amp; still feel.</line>
     <line>Cold, want &amp; <mod>
         <del rend="strikethrough">thirst</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">fatigue</add>
       </mod> were <mod>
         <del rend="strikethrough">my</del>

@@ -17,15 +17,15 @@
     <line>remain in the kennel that I had found.</line>
     <line>It was situated <mod>
         <del rend="strikethrough">at</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">against</add>
       </mod> the back of the cottage</line>
     <line>and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">surrounded</add>
       </mod> on <mod>
         <del rend="strikethrough">its</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="intralinear">the</add>
       </mod>
       <mod>
@@ -41,7 +41,7 @@
     <line>ed every crevice <add corresp="#c57-0010.01" place="superlinear">with stones &#x26;
         wood</add> by which I might be</line>
     <line>discovered <add place="sublinear"><metamark function="displacement" xml:id="c57-0010.01"
-          >&#x2038;</metamark></add> yet in such a manner</line>
+          >^</metamark></add> yet in such a manner</line>
     <line>that I could move the<mod>
         <del rend="overwritten">n</del>
         <add place="intralinear">m</add>

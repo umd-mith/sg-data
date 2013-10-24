@@ -32,7 +32,7 @@
       </mod> was</line>
     <line>dreadful in itself but soothing in</line>
     <line>as much as <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">it supposed the safety of</add>
       </mod> my friends <delSpan spanTo="#c57-0085.01"/>would be</line>
     <line>in safety<anchor xml:id="c57-0085.01"/>. <del rend="strikethrough">Yet</del> I was

@@ -15,7 +15,7 @@
     <line><metamark function="displacement">my repugnance)X</metamark> I found <add
         place="superlinear">also</add> that I was unable to compose</line>
     <line>a female without <del rend="strikethrough">fresh</del> again devoting <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">several</add>
       </mod> months</line>
     <line>to study &amp; laborious disquisition. I had heard <del rend="strikethrough"
@@ -27,16 +27,16 @@
       </mod>nglish philosopher the knowledge of which</line>
     <line>was material to <del rend="strikethrough">w</del> my <mod>
         <del rend="strikethrough">work.</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">success</add>
       </mod>
       <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">and</add>
       </mod> I <del rend="strikethrough">thought</del>
       <delSpan rend="strikethrough" spanTo="#c57-0075.03"/>of writing</line>
     <line>som<anchor xml:id="c57-0075.03"/>etimes <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">thought</add>
       </mod> of obtainting my fathers consent</line>
     <line><damage type="tear"/>to visit England for this purpose but</line>

@@ -14,7 +14,7 @@
       >task,</add>&#x2013;And <del rend="strikethrough">y</del> now that</line>
     <line>you<del rend="strikethrough">r</del> are returning to England you have little</line>
     <line>chance of me<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>ting <add hand="#pbs" place="superlinear">with</add> him.&#x2013; But the
       consideration</line>
@@ -26,7 +26,7 @@
         <add place="intralinear">are</add>
       </mod> already disturbed</line>
     <line>by <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">the near approach of</add>
       </mod> death &#x2013; I dare not ask you <del rend="strikethrough">do</del> to do what</line>
     <line>I think right for I may still be misled</line>
@@ -42,7 +42,7 @@
         <anchor xml:id="c57-0180.01"/>
       </mod> is the only happy one I have<del rend="strikethrough">n</del></line>
     <line>enjoyed for <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">several</add>
       </mod> years. The forms of the beloved</line>
     <line>dead flit before me and I hasten to</line>
@@ -60,7 +60,7 @@
         <add place="superlinear" hand="#pbs">his</add>
       </mod> effort he <mod>
         <del rend="strikethrough">became</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sunk <del rend="strikethrough"
           ><unclear>ult</unclear></del>into</add>
       </mod></line>

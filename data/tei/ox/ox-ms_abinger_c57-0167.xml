@@ -14,19 +14,19 @@
     <line><del rend="strikethrough">And</del> you took me on board when <del rend="strikethrough"
       >life</del> my</line>
     <line>vigour was ex<mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">h</add>
     </mod>austed &#x26; <del rend="strikethrough">death would soon have</del></line>
     <line>I should soon have sunk under my multi</line>
     <line>plied hardships to a death <add place="superlinear" hand="#pbs">which I still</add>
       dread<del rend="strikethrough">ed</del> for my</line>
     <line>task is unfu<mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">l</add>
     </mod>filled. Oh when will my gui</line>
     <line>ding <del rend="strikethrough">Oh! When s</del> spirit in conducting me</line>
     <line>to him allow <mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">me</add>
     </mod> the rest I so much desire!</line>
     <line>or must I die &#x26; he yet live&#x2014;If I do swear</line>
@@ -50,7 +50,7 @@
     <line>his words had even power over</line>
     <line>my heart but trust him not&#x2013; His soul</line>
     <line><del rend="strikethrough">h</del>is hellish <mod>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear" hand="#pbs">as his form</add>
     </mod> full of <mod>
       <del rend="strikethrough">malise</del>

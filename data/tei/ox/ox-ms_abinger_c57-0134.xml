@@ -53,7 +53,7 @@
       </mod> &#x26; instantly proceeded to Paris</line>
     <line>where my father had some business</line>
     <line>which detained <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">us</add>
       </mod> a few weeks. <del rend="strikethrough">I I rermain</del></line>
     <line><del rend="unmarked">ed</del>

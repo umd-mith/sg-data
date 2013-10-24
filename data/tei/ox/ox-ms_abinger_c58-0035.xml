@@ -35,7 +35,7 @@
     <line>I have felt and still feel. Cold, want and fatigue were</line>
     <line>the least pains which I was destined to endure; I was</line>
     <line>cursed by some devil <mod>
-        <add place="sublinear" hand="#comp"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear" hand="#comp"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#comp">carried</add>
       </mod> about with me my eternal</line>
     <line>hell; yet still a spirit of good followed and directed</line>

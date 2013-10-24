@@ -13,7 +13,7 @@
     <line rend="indent2">We had resolved not to go to London</line>
     <line>but <mod>
         <del rend="strikethrough">to go</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to</add>
         <del rend="strikethrough">a</del>
       </mod>cross the country to Portsmouth</line>
@@ -23,7 +23,7 @@
     <line>I had enjoyed a few moments of tranquilli</line>
     <line>ty with my beloved Cl<mod>
         <del rend="strikethrough">ai</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>rval &#x2013; And I thought</line>
     <line>with horror of seeing those men whom</line>

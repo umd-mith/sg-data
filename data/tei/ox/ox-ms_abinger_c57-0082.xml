@@ -37,7 +37,7 @@
         <restore type="smear_strikethrough"><del rend="strikethrough">use</del></restore>
         <del rend="strikethrough"><add place="superlinear" hand="#pbs">necess</add></del>
       </mod> to me<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"> in my present undertaking</add>
       </mod>. The latter</line>
     <line>method of obtaining the desired intelligence was dilato</line>

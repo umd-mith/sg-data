@@ -12,14 +12,14 @@
     <line>and my eyes were shut to the horror of my</line>
     <line>proceedings. But now I went to it in cold</line>
     <line>blood and my heart often sicken<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>d at the</line>
     <line>work of my hands.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">Thus situated; employed in the most</line>
     <line>detestable occupation, in <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> solitude whe<mod>
         <del rend="overwritten">n</del>
@@ -50,7 +50,7 @@
     <line>mean time I worked on &amp; my <del rend="strikethrough">f</del> labour</line>
     <line>was already considerably advanced&#x2013; I looked</line>
     <line>with pleasure towards <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">its</add>
       </mod> completion yet</line>
     <line>freedom from the curse I endured was</line>
@@ -69,7 +69,7 @@
     <line>idle <del rend="strikethrough">mus</del>
       <del rend="strikethrough">untill</del> in <mod>
         <del rend="strikethrough">the</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> pause of consideration</line>
     <line>of whether I should leave my labour for</line>
@@ -82,7 +82,7 @@
     <line>consider the effects of what I was now</line>
     <line>doing. <mod>
         <del rend="strikethrough">Two</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">three</add>
       </mod> years before I had been engaged</line>
     <line>in the same manner &amp; had created a</line>

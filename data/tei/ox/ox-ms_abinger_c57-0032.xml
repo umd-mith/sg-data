@@ -16,7 +16,7 @@
       <line><anchor xml:id="c57-0032.02"/>Felix was present at his trial; <del rend="strikethrough"
             >&amp;</del> his <add place="superlinear">horror &amp;</add> in</line>
       <line>dignation <mod>
-            <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+            <add place="sublinear"><metamark function="insert">^</metamark></add>
             <add place="superlinear">w<mod>
                   <del rend="overwritten">as</del>
                   <add place="intralinear" hand="#pbs">ere</add>
@@ -36,7 +36,7 @@
             <del rend="strikethrough">goal</del>
             <add hand="#pbs" place="superlinear">prison</add>
          </mod> he found a st<mod>
-            <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+            <add place="sublinear"><metamark function="insert">^</metamark></add>
             <add place="superlinear">r</add>
          </mod>ongly grated window</line>
       <line>in an unguarded part of the <mod>
@@ -65,7 +65,7 @@
       <line>youth could not help owning to his own</line>
       <line>mind that the captive possessed a</line>
       <line>treasure which <mod>
-            <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+            <add place="sublinear"><metamark function="insert">^</metamark></add>
             <del rend="strikethrough"><add place="superlinear" hand="#pbs">altho it had not
                en</add></del>
          </mod> would fully reward his</line>

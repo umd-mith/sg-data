@@ -63,13 +63,13 @@
     <line>drowned &#x26; thrown on shore by the waves,</line>
     <line>But upon examination they found that</line>
     <line>the clothes were not wet &#x26; <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">even</add>
       </mod> that the body</line>
     <line>was not yet cold. They instantly carried</line>
     <line>it to the cottage of an old woman</line>
     <line>near <add place="superlinear" hand="#pbs">the spot</add> &#x26; endeavoured <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">but in vain</add>
       </mod> to restore it to life <del rend="strikethrough">but</del></line>
   </zone>

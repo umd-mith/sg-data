@@ -15,7 +15,7 @@
     <line>turned loose upon society still exists. You refuse</line>
     <line>my just demand; I have but one resource and I de-</line>
     <line>vote myself either in <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">my</add>
       </mod>life or death to his destruc-</line>
     <line>tion.</line>
@@ -37,7 +37,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">I broke from the house <mod>
         <del rend="strikethrough">ang</del>
-        <add place="sublinear"><metamark function="insert">&#x2038; &#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^ ^</metamark></add>
         <add place="superlinear">angry and</add>
       </mod> disturbed and retired to</line>
     <line>meditate on some other mode of action.</line>

@@ -41,7 +41,7 @@
     <line>send to your relations an account of your</line>
     <line>misfortune and illness. I found several letters</line>
     <line>among others one <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">which I</add>
       </mod> discovered by its commence</line>
     <line>ment to be from your father &#x2013; I instant</line>

@@ -21,7 +21,7 @@
     <line>but <add place="intralinear" hand="#pbs">he</add> eluded me &#x2013; <del
         rend="strikethrough">he</del> leapt from his station</line>
     <line>and <del rend="strikethrough">run</del> running with <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">the</add>
       </mod> swiftness of lightning</line>
     <line>plunged in to the lake. The report of my</line>

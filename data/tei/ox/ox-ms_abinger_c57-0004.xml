@@ -15,7 +15,7 @@
         <line>passed and the orb of night had greatly</line>
         <line>lessened when I began to distinguish my</line>
         <line>sensations <mod>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear" hand="#pbs">from each other&#x2013;</add>
             </mod>. I <mod>
                 <del rend="strikethrough">first saw</del>
@@ -26,7 +26,7 @@
                 ><unclear>gre</unclear></del></line>
         <line>trees that <mod>
                 <del rend="strikethrough">covered</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">shaded</add>
             </mod> me with their foliage.</line>
         <line>I was delighted when I first discovered</line>
@@ -62,16 +62,16 @@
         <line><del rend="strikethrough">again</del> while I still remained in the forest.</line>
         <line>My <mod>
                 <del rend="strikethrough">ideas</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">sensations</add>
             </mod> were by this time become distinct</line>
         <line>&amp; <mod>
                 <del rend="strikethrough"><unclear reason="illegible">e</unclear></del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">my mind</add>
             </mod> received every day aditional <mod>
                 <del rend="strikethrough">ones</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">ideas.</add>
             </mod> My eyes</line>
         <line>became accustomed to the light and to</line>

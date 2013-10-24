@@ -18,7 +18,7 @@
     <line><delSpan spanTo="#c57-0115.01" rend="strikethrough"/>the countenance of this man an
       his</line>
     <line>companions<anchor xml:id="c57-0115.01"/> frow<mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add place="superlinear">n</add>
       </mod>ing and angry countenances</line>
     <line>of his companions &#x2013; <del rend="strikethrough">Why</del> Why do you answer</line>

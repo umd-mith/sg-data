@@ -37,7 +37,7 @@
         of the</del></line>
     <line>she had risen he had cleared away the</line>
     <line>snow that obst<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>ucted her path to the</line>
     <line>milkhouse<mod>
@@ -75,7 +75,7 @@
     <line>which he understood and I ardently longed</line>
     <line>to <mod>
         <del rend="strikethrough">understand</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">comprehend</add>
       </mod> these <del rend="strikethrough"><unclear>b</unclear></del> also; but how was</line>
   </zone>

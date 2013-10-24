@@ -29,7 +29,7 @@
     <line>and the<add place="intralinear">ir</add>
       <mod>
         <del rend="strikethrough">happiness</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">joys</add>
       </mod> depending on</line>
     <line>each other were not <mod>
@@ -41,7 +41,7 @@
     <line>the greater became my desire to</line>
     <line>claim their protection &amp; kindness.</line>
     <line>My heart yearned to <del rend="strikethrough">beco</del> be <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">known and</add>
       </mod> loved</line>
     <line>by the<add place="intralinear">se</add> amiable creatures to see</line>
@@ -55,7 +55,7 @@
     <line>it is true for greater treasures</line>
     <line>that a little food or rest I required</line>
     <line>kindness &amp; sympathy but I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">did</add>
       </mod> not</line>
     <line>believe my self utterly unworthy</line>
@@ -68,7 +68,7 @@
 
   <zone type="left_margin" corresp="#c57-0044.03">
     <line>Their happiness was <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">not decreased by </add>
       </mod></line>
   </zone>

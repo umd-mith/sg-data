@@ -32,7 +32,7 @@
       </mod> &#x2013; My enemy is not impreg</line>
     <line>nable; this death will carry despair to</line>
     <line>him &amp; a thousand thousand others <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear">miseries</add>
       </mod></line>
     <line><del rend="strikethrough">will d</del> shall torment &amp; destroy him.</line>

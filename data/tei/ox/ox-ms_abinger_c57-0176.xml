@@ -37,7 +37,7 @@
     <line>wonder that the<del rend="strikethrough">n</del> men were moved &#x2013;They</line>
     <line>looked at one <mod>
         <del rend="strikethrough">atho</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">another</add>
       </mod> &amp; were unable to reply.</line>
     <line>I spoke. I told them to retire &amp; consider</line>
@@ -54,7 +54,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">How <del rend="strikethrough">it</del>
       <del rend="strikethrough">will</del> all this <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">will</add>
       </mod> terminate I</line>
     <line>know not. But I had rather die <mod>

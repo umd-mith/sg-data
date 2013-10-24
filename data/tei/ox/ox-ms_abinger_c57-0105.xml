@@ -20,12 +20,12 @@
         <add place="intralinear">f</add>
       </mod>ted the sound of the</line>
     <line>voices as the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">fisher</add>
       </mod>men called to one another.</line>
     <line>I felt the silence although I was hardly</line>
     <line>conscious of <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">its</add>
       </mod> extreme profundity untill</line>
     <line>my ear was suddenly arrested by</line>

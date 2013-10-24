@@ -16,14 +16,14 @@
     <line>me into happiness. The delight of</line>
     <line>Cl<mod>
         <del rend="strikethrough">ai</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>rval was proportionably greater</line>
     <line>than mine; his mind expanded in</line>
     <line>the company of men of talent &amp; he found</line>
     <line>in himself greater capacity &amp; feeling</line>
     <line>than he could <mod>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear">^</add>
         <add place="superlinear">have</add>
       </mod> imagined himself to</line>
     <line>have possessed while he associated</line>
@@ -47,7 +47,7 @@
         <del rend="strikethrough">ound</del>
         <add place="superlinear">inds</add>
       </mod> himself obliged <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to quit it</add>
       </mod> for something</line>
     <line>new which again engage<mod>
@@ -57,7 +57,7 @@
     <line>tion &amp; which <del rend="strikethrough">he</del> also <add place="superlinear"
         hand="#pbs">he</add> fors<mod>
         <del rend="strikethrough">oo</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod>kes for</line>
     <line><mod>

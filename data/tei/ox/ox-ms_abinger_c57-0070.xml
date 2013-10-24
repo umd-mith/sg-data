@@ -38,7 +38,7 @@
     <line>become a thing of whose existence every</line>
     <line>one will be ignorant. My vices are</line>
     <line><del rend="strikethrough">ch</del> the children of <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> forced solitude that I</line>
     <line>abhor and my virtues will necessarily arise</line>
@@ -50,14 +50,14 @@
       </mod>
       <del rend="strikethrough">sy</del>
       <del rend="strikethrough">f</del> affections <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">of a living being</add>
       </mod> &amp;</line>
     <line>become linked to the chain of existence</line>
     <line>&amp; events from which I am now excluded</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">I paused some time <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to</add>
       </mod> reflect on all</line>
     <line>he had related and the various arguments</line>

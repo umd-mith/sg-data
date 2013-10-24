@@ -14,7 +14,7 @@
         next="#c57-0031.02">became informed</del></line>
     <line><anchor xml:id="c57-0031.03"/><anchor xml:id="c57-0031.01"/><mod>
         <del rend="strikethrough">of</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">learned</add>
       </mod> the history of my friends. It was one <mod spanTo="#c57-0031.04"/><del
         rend="strikethrough">that</del></line>
@@ -57,7 +57,7 @@
         <del rend="strikethrough">that</del>
         <add hand="#pbs" place="superlinear">which</add>
       </mod> virtue <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear" next="#c57-0031.10">&amp; refin</add>
       </mod> ac</line>
     <line><add hand="#pbs" place="superlinear" xml:id="c57-0031.10">ement of intellect &amp; taste,
@@ -79,7 +79,7 @@
       person</line>
     <line>became <mod>
         <del rend="strikethrough">for some</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">for some reason which I could not learn</add>
       </mod> obnoxious to the govern</line>
     <line>ment&#x2013; He was seized and cast into prison</line>

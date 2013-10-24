@@ -19,7 +19,7 @@
         <del rend="strikethrough">a</del>
         <add place="superlinear" hand="#pbs">the</add>
       </mod> native of a genial &amp; su<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">n</add>
       </mod>ny climate</line>
     <line><anchor xml:id="c57-0164.03"/>hope to survive. Yet at the idea that the</line>
@@ -51,7 +51,7 @@
       <del rend="strikethrough">par</del></line>
     <line>barred up my passage and I often heard</line>
     <line>the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">earthquake &amp; the thunder of the</add>
       </mod> ground sea which threatened my</line>
     <line>destruction but again a frost came <mod spanTo="#c57-0164.07"/><delSpan
@@ -64,7 +64,7 @@
         <del rend="strikethrough">consumation</del>
         <add place="superlinear" hand="#pbs">quantity</add>
       </mod> of provision <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">which I have consumed</add>
       </mod> I should guess</line>
     <line>that I had passed <mod>

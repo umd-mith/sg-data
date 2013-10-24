@@ -11,7 +11,7 @@
     <line>vanish<add place="intralinear" hand="#pbs">ed</add> &amp; a gush of tears somewhat
       soothed</line>
     <line>me&#x2014;But again <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">when</add>
       </mod> I reflected that they had</line>
     <line>spurned &amp; deserted me, anger returned</line>

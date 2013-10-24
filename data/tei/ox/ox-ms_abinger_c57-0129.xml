@@ -11,7 +11,7 @@
     <line>my defence&#x2013; I was <del rend="strikethrough">p</del> spared the disgrace</line>
     <line>of appearing <mod>
         <del rend="strikethrough">in the court</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">publickly as a criminal</add>
       </mod> as <del rend="strikethrough">my trial did</del></line>
     <line>the case was not brought before the <delSpan spanTo="#c57-0129.01" rend="strikethrough"
@@ -40,7 +40,7 @@
     <line>for ever &amp; although the sun shone upon</line>
     <line>me as <mod>
         <del rend="strikethrough">in</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">upon</add>
       </mod> the happy &amp; <del rend="strikethrough">light</del><add place="superlinear">gay</add>
       of heart I</line>
@@ -60,7 +60,7 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">My father tried to awake <mod>
         <del rend="strikethrough">a</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">in me the</add>
       </mod> feelings</line>
     <line>of affection &#x2014; He talked of Geneva which I</line>

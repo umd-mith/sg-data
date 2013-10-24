@@ -12,7 +12,7 @@
         <line>every art to destroy me and tear me from the</line>
         <line><mod>
                 <del rend="strikethrough">p</del>
-                <add><metamark function="insert">&#x2038;</metamark></add>
+                <add><metamark function="insert">^</metamark></add>
                 <add place="superlinear">glimse of</add>
             </mod> happiness which promised <del rend="strikethrough">to</del> partly to <del
                 rend="strikethrough">so</del> console</line>
@@ -21,12 +21,12 @@
         <line>a deadly strugle would then assuredly take place</line>
         <line>where if he <del rend="strikethrough" instant="true">wer</del>
                 <mod><del rend="strikethrough">should be</del>
-                <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">was</add>
             </mod> victorious I should be at</line>
         <line>peace and his power over me be at an end. If </line>
         <line>he were vanquished I should <add place="sublinear" hand="#comp"><metamark
-                    function="insert">&#x2038;</metamark></add><add place="superlinear" hand="#comp"
+                    function="insert">^</metamark></add><add place="superlinear" hand="#comp"
                 >be</add> a free man. Alas!</line>
         <line>what freedom; such as the peasant enjoys when</line>
         <line>his family have been massacred before his</line>

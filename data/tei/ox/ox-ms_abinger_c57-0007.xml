@@ -20,7 +20,7 @@
     <line>appearrance was disconsolate and I</line>
     <line>found my feet chilled by the cold <del rend="strikethrough">dab</del></line>
     <line>damp <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">substance that covered the</add>
       </mod> ground &#x2013; It was about seven in</line>
     <line>the morning and I longed to obtain food</line>

@@ -13,7 +13,7 @@
     <line>of the dreadful secret which I had promised to</line>
     <line>reveal to her the following day. My father was in the</line>
     <line>mean time overjoyed, and, <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">in</add>
       </mod> the bustle of <del rend="strikethrough" instant="true">pe</del> preparation,</line>
     <line>only observed in the melancholy of his niece the</line>

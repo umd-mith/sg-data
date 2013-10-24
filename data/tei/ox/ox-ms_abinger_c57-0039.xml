@@ -27,7 +27,7 @@
     <line>Many things I read surpassed my unterstanding</line>
     <line>and <mod>
         <del rend="strikethrough">knowledge</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">experience</add>
       </mod> I had a very <del rend="strikethrough"><unclear>t</unclear></del> confused know</line>
     <line>ledge of kingdoms &amp; wide extents of country</line>
@@ -56,7 +56,7 @@
     <line>nature &#x2014; But this book <mod>
         <del rend="strikethrough">threw a new light</del>
         <del rend="strikethrough">upon</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">developed new &amp; mightier scenes of action</add>
       </mod></line>
     <line><del rend="strikethrough">it</del> I read of men concerned in public</line>
@@ -69,7 +69,7 @@
     <line>signification of those terms relative as they</line>
     <line>were <del rend="strikethrough">only</del>, as I applied them, to pleasure</line>
     <line>and pain <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">alone.</add>
       </mod>. <mod>
         <del rend="strikethrough">with</del>
@@ -84,13 +84,13 @@
       </mod>
       <del rend="strikethrough">to a greater degree</del></line>
     <line>these impressions <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to take a firm hold on my mind</add>
       </mod> &#x2014; perhaps if my first <mod spanTo="#c57-0039.03"/><delSpan spanTo="#c57-0039.04"
         rend="strikethrough"/>resid</line>
     <line>ence<anchor xml:id="c57-0039.04"/>
       <anchor xml:id="c57-0039.05"/><anchor xml:id="c57-0039.03"/> had been <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">with</del>
         <add place="superlinear" hand="#pbs">made by</add>
       </mod> a young soldier burning</line>

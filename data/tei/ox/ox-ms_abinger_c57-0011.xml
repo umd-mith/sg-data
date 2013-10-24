@@ -28,10 +28,10 @@
     <line><anchor xml:id="c57-0011.01"/>a little raised <mod>
         <del rend="strikethrough"><add place="intralinear">&amp;</add></del>
         <del rend="strikethrough">it</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">so that it</add>
       </mod> was kept <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">perfectly</add>
       </mod> dry and by</line>
     <line>its vicinity to the chimney of the</line>
@@ -48,9 +48,9 @@
     <line>the blea<del rend="strikethrough">c</del>k forest, my former residence,</line>
     <line><del rend="strikethrough">and</del> the<del rend="strikethrough">ir</del> rain dropping <mod>
         <del rend="strikethrough">leaves</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">branches </add>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">&amp; the dank earth</add>
       </mod>. I ate</line>
     <line>my breakfast with pleasure and was</line>
@@ -67,7 +67,7 @@
     <line>I have since found Cottagers and farm</line>
     <line>house servants to be &#x2013; Yet she was mean</line>
     <line>ly dressed &#x2013; a <del rend="strikethrough">blue</del> coarse <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">blue</add>
       </mod> petticoat and a</line>
     <line><anchor xml:id="c57-0011.02"/>jacket being her only garb <del rend="strikethrough"

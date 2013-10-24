@@ -19,7 +19,7 @@
                         <del rend="overwritten">w</del>
                         <add place="intralinear">a</add>
                   </mod>nd when I shall be no more, the <mod>
-                        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+                        <add place="sublinear"><metamark function="insert">^</metamark></add>
                         <add place="superlinear">very</add>
                   </mod> rem<damage/></line>
             <line>-brance of us both will speedily perish. I s<damage/></line>

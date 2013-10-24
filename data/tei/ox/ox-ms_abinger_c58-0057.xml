@@ -31,7 +31,7 @@
     <line>pile, &amp; consume to ashes this miserable frame,</line>
     <line>that its remains may afford no light to any</line>
     <line>curious &amp; unhallowed <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#mws">wretch</add>
       </mod> who would create such</line>
     <line>another as I have been. I shall die. I shall</line>

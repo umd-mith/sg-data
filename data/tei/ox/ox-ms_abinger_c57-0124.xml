@@ -39,14 +39,14 @@
         Kirwin,</del> that the</line>
     <line>sympathy of a stranger can be <mod>
         <del rend="strikethrough">of</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">but</add>
       </mod> little</line>
     <line>relief to one borne down as you are by</line>
     <line>so strange a misfortune <damage type="inkblot">B</damage>ut you</line>
     <line>will I hope soon quit this unhappy</line>
     <line>abode&#x2013; for doubtless <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">evidence</add>
       </mod> can be easily brought</line>
     <line>to free you from the criminal charge</line>

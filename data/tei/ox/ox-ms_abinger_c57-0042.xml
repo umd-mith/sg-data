@@ -19,10 +19,10 @@
     <line>should know my admiration of</line>
     <line>their virtues.<anchor xml:id="c57-0042.03"/>
       <delSpan spanTo="#c57-0042.04" rend="strikethrough"/>Yes I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">was</add></del>
       </mod> mad enough to <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">put</add></del>
       </mod> my</line>
     <line>trust in my own intentions and to<anchor xml:id="c57-0042.04"/></line>
@@ -38,7 +38,7 @@
     <line>importance attached to it<add place="intralinear" hand="#pbs">'s</add>
       <add place="superlinear" hand="#pbs">success</add> inspired</line>
     <line>me with a <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">dread</add>
       </mod>
       <mod spanTo="#c57-0042.06"/><del rend="strikethrough" next="#c57-0042.07">for it's
@@ -75,7 +75,7 @@
       Felix &amp;</line>
     <line>and Agatha spent more time</line>
     <line>in amusement <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">and</del>
         <add place="superlinear">&amp; conversation <del rend="strikethrough">they</del> and</add>
       </mod> were <del rend="strikethrough">now also</del></line>
@@ -90,7 +90,7 @@
   <zone type="left_margin" corresp="#c57-0042.01">
     <addSpan spanTo="#c57-0042.02"/>
     <line><metamark>X</metamark>When they <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">should</add>
       </mod> be</line>
     <line>came acquainted with</line>

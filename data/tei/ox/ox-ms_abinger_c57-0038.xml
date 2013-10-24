@@ -30,20 +30,20 @@
         <del rend="strikethrough">dark</del>
         <add place="superlinear" hand="#pbs">obscure</add>
       </mod> subects that I found <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">in</add>
       </mod> it</line>
     <line>a never end source of speculation. <add hand="#pbs" place="superlinear">&amp;
         astonishment.</add> The</line>
     <line>gentle and domestic manners it described com</line>
     <line>bined with lofty sentiments, and feelings <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">which had for their object </add>
         <add place="sublinear" hand="#pbs">something out of self</add>
       </mod> accor</line>
     <line>ded well with my experience among my pro</line>
     <line>tectors. <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">and with the wants which were for ever alive within my
           own <add place="sublinear" hand="#pbs">bosom.</add></add>
       </mod> But I thought Werter himself a more</line>
@@ -72,18 +72,18 @@
     <line><del rend="strikethrough" xml:id="c57-0038.05">not</del><anchor xml:id="c57-0038.04"/>
         understand<add place="intralinear" hand="#pbs">ing</add> it. As I read however I</line>
     <line>applied much <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">personally</add>
       </mod> to my<mod>
         <del rend="strikethrough">self</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">and</del>
         <add place="superlinear">own feelings &amp; condition</add>
       </mod> I found my</line>
     <line>self <del rend="strikethrough">at the same tim</del><del rend="unmarked">e</del> similar
       yet</line>
     <line><add><metamark function="displacement" xml:id="c57-0038.07"
-      >&#x2038;</metamark></add>strangely unlike the beings concerning whom</line>
+      >^</metamark></add>strangely unlike the beings concerning whom</line>
     <line>I read and <del rend="strikethrough">who were my</del>
       <mod>
         <del rend="strikethrough">to</del>
@@ -109,7 +109,7 @@
 
   <zone type="left_margin" corresp="#c57-0038.03">
     <line><add> had <mod>
-          <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear">hitherto</add>
         </mod> been</add></line>
   </zone>

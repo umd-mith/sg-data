@@ -49,7 +49,7 @@
       </mod> leagues</line>
     <line>from the Cottage of De Lacey &#x2013; her attendant</line>
     <line>then fell <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">dangerously</add>
       </mod> ill <del rend="strikethrough">and she was retarded wh</del> Safie</line>
     <line><del rend="strikethrough" instant="true">watched</del> nursed her with the most

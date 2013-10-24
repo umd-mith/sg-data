@@ -12,13 +12,13 @@
     <line>mountain <del rend="strikethrough">Th</del> they paused to rest and one unable to</line>
     <line>move <mod>
         <del rend="strikethrough">sunk</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">sinking</add>
       </mod> under the toil died&#x2014;I <del rend="strikethrough">f</del> viewed the
       expance</line>
     <line>before, with anguish; when suddenly my eye was</line>
     <line>arrested by a <add place="superlinear">dark</add> speck on <mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod> dusky plain &#x2013; I strained my</line>
     <line>sight to <mod>
@@ -29,16 +29,16 @@
     <line>cry of extacy when I distinguished a sledge dogs &amp;</line>
     <line><mod>
         <del rend="strikethrough">a hideous</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">the distorted proportions of a well known</add>
       </mod> form <del rend="strikethrough">moving</del>
       <del rend="strikethrough">away</del><add place="sublinear"><metamark function="insert"
-          >&#x2038;</metamark></add><add place="superlinear">within.</add> Oh <del
+          >^</metamark></add><add place="superlinear">within.</add> Oh <del
         rend="strikethrough">hope</del> with what</line>
     <line>a burning gush did hope revisit my heart &#x2013; warm</line>
     <line>tears filled my eyes which I hastily wiped away</line>
     <line>that they might not <mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <del rend="smear"><add place="superlinear" hand="#pbs">be <unclear reason="illegible"
               >present</unclear> in <unclear reason="illegible">them to</unclear></add></del>
       </mod> intercept the view I had of the</line>
@@ -58,7 +58,7 @@
         <del rend="strikethrough">hid</del>
         <add place="superlinear" hand="#pbs">concealed</add>
       </mod> it <mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs"><del rend="strikethrough">from</del> with its
           intervening crags.</add>
       </mod> I indeed perceptibly</line>
@@ -83,7 +83,7 @@
     <line>utterly than I had ever done before A ground</line>
     <line>sea was heard &#x2013; the thunder of it<add place="intralinear" hand="#pbs">s</add>
       <mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">progress</add>
       </mod> as <del rend="strikethrough">it</del> the wa</line>
     <line>ters rolled &amp; swelled beneath me became every</line>

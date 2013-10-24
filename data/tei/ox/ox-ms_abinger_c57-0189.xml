@@ -26,7 +26,7 @@
         <add place="intralinear">s</add>
       </mod> him those other conquerors to whom</line>
     <line>ambition <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">is</add>
         <del rend="strikethrough">was</del>
       </mod> the ruling motive. Cyrus was educated in the</line>
@@ -34,7 +34,7 @@
       early enured to fatigue and taught</line>
     <line>after the manners of <mod>
         <del rend="strikethrough">the</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">his</add>
       </mod> age, to consider glory as the great &#x26;</line>
     <line>desirable bourne towards which every virtuous man ought</line>

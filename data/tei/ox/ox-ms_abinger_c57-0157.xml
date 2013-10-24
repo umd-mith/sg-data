@@ -21,7 +21,7 @@
         <del rend="strikethrough">Alas!</del>
         <del rend="strikethrough">reflection in</del>
         <del rend="strikethrough">the</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">my</add>
       </mod> present situation was</line>
     <line><mod>
@@ -48,7 +48,7 @@
       </mod> was</line>
     <line>to quit Geneva for ever.&#x2013; My country which when</line>
     <line>I was happy &amp; beloved was dear me <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">now in my adversity</add>
       </mod> became hateful</line>
     <line>I provided myself with a small sum of money</line>
@@ -72,7 +72,7 @@
         <add place="superlinear" hand="#pbs">which</add>
       </mod> travellers in desarts &amp; barbarous countries</line>
     <line>are wont to meet &#x2013; How I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">have</add>
       </mod> lived I hardly know</line>
     <line><del rend="smear">for</del> many times <mod>
@@ -90,14 +90,14 @@
     <line rend="indent2">When I quitted Geneva my first <del rend="strikethrough"><unclear
           reason="illegible">a</unclear></del> labour</line>
     <line>was to gain some <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">clue</add>
       </mod> by which I might trace</line>
     <line><mod>
         <del rend="strikethrough">his</del>
         <add place="superlinear">the</add>
       </mod> steps <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">of my fiendish enemy</add>
       </mod>. But my plan was unsettled and I</line>
     <line>wandered many hours around the confines</line>
@@ -142,7 +142,7 @@
         <del rend="strikethrough">d</del>
         <add place="superlinear">departed</add>
       </mod> seemed to flit around and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to cast</add>
       </mod> a</line>
     <line><mod>

@@ -17,7 +17,7 @@
         <del rend="strikethrough">needs</del>
         <anchor xml:id="c57-0186.01"/>
       </mod> my own. And <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">do not</add>
       </mod> think <del rend="strikethrough">t</del>
       <del rend="strikethrough">not</del> that I</line>
@@ -55,7 +55,7 @@
     <line>and torn by the bitterest remorse where</line>
     <line>can I find <mod>
         <del rend="strikethrough">consolation</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">rest</add>
       </mod> but in death.</line>
     <milestone unit="tei:p"/>

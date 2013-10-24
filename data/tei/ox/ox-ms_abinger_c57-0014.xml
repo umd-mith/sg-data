@@ -12,12 +12,12 @@
     <line>joined him, &#x26; they returned to the cottage</line>
     <line>together &#x2013; The old man in the mean time</line>
     <line>had been pe<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">n</add>
       </mod>sive but on the approach</line>
     <line> of <mod>
         <del rend="strikethrough">the others</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">his companions</add>
       </mod> he assumed a <mod>
         <del rend="strikethrough">pen</del>
@@ -26,7 +26,7 @@
     <line>air, and they sat down to eat. <delSpan rend="strikethrough" spanTo="#c57-0014.01"/>They
       quickly</line>
     <line>finished<anchor xml:id="c57-0014.01"/> the<del rend="strikethrough">ir</del> meal <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">was quickly dispatched;</add>
       </mod> the young woman was</line>
     <line>again occupied in arranging the cottage the</line>

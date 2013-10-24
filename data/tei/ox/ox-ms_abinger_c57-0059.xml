@@ -50,7 +50,7 @@
     <line>of the first of spring <del rend="strikethrough">and</del>
       <del rend="strikethrough">even</del> cheered</line>
     <line><anchor xml:id="c57-0059.07"/>me by the loveliness of its sun<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">shine</add>
       </mod> &amp;</line>
     <line>the gentleness of the breeze. &#x2013; I felt <mod spanTo="#c57-0059.08"/><del
@@ -65,12 +65,12 @@
     <line>solitude &amp; deformity dared to be happy</line>
     <line>tears of gentleness again bedewed my</line>
     <line>cheeks and I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">even</add>
       </mod> raised my humid eyes</line>
     <line>with thankfullness towards the blessed</line>
     <line>sun which bestowed <del rend="strikethrough">on me</del> such joy upon <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me</add>
       </mod></line>
   </zone>

@@ -20,7 +20,7 @@
     <line>monster had come to mock at my misery</line>
     <line>&#x26; taunt me with the death of Cl<mod>
         <del rend="strikethrough">ai</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>rval</line>
     <line>as a new incitement to comply with</line>
@@ -52,7 +52,7 @@
     <line rend="indent1">My change of manner suprised &#x26;</line>
     <line>pleased <mod>
         <del rend="strikethrough">M<hi rend="sup">r</hi>. Kirwin</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the magistrate</add>
       </mod>, perhaps he thought</line>
     <line>that my former exclamation was a</line>

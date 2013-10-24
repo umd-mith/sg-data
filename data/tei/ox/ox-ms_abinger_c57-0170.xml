@@ -75,13 +75,13 @@
     <line>self with the herd of common projectors.</line>
     <line>But this feeling which supported me <del rend="strikethrough">only</del></line>
     <line>now serves <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">only</add>
       </mod> to <mod>
         <del rend="strikethrough">sink</del>
         <add place="superlinear" hand="#pbs">plunge</add>
       </mod> me lower in <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod> dust&#x2014; All</line>
   </zone>

@@ -22,7 +22,7 @@
     <line>the snows with inconceivable speed I know not</line>
     <line>whether the fiend possessed the same advantages</line>
     <line>but I found that as before I had <mod>
-        <metamark place="sublinear" function="insert">&#x2038;</metamark>
+        <metamark place="sublinear" function="insert">^</metamark>
         <add place="superlinear">daily</add>
       </mod> lost <del rend="strikethrough">in</del> the</line>
     <line>advantage in my persuit I now gained on him</line>
@@ -37,7 +37,7 @@
     <line><anchor xml:id="c57-0163.03"/><anchor xml:id="c57-0163.06"/>they said had arrived the
       night before &#x2013;Armed</line>
     <line>with a gun and many pistols &amp; putting <mod>
-        <metamark place="sublinear" function="insert">&#x2038;</metamark>
+        <metamark place="sublinear" function="insert">^</metamark>
         <add place="superlinear">to flight</add>
       </mod> the inha</line>
     <line>bitants of a solitary cottage <del rend="strikethrough">to flight</del> through</line>
@@ -53,7 +53,7 @@
         <add place="superlinear" hand="#pbs">had</add>
       </mod> seized on a numerous drove of trained</line>
     <line>dogs &#x2013; he had harnessed<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">them</add>
       </mod>&#x2013; &amp; the same night</line>
     <line><del rend="strikethrough">had</del> to the <del rend="strikethrough">d</del> joy of the

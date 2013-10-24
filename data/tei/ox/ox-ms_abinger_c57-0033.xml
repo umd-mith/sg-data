@@ -30,7 +30,7 @@
     <line>to secure <del rend="strikethrough">the</del>
       <del rend="strikethrough">interrest</del> him <mod>
         <del rend="strikethrough">at any pr</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">more entirely </add>
       </mod> by</line>
     <line>the promise of her hand in marriage;</line>
@@ -77,7 +77,7 @@
         <del rend="strikehthrough">b</del>
       </mod> speedily</line>
     <line>be delivered <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">up</add>
       </mod> to the French Government&#x2013;</line>
     <line><delSpan spanTo="#c57-0033.04" rend="strikethrough"/>He had just heard of a small

@@ -14,7 +14,7 @@
     <line>mark of fingers on his neck.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">The first <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">part</add>
       </mod> of this deposition did not</line>
     <line>in the least interrest me but when the</line>
@@ -28,7 +28,7 @@
     <line>me to lean on a chair for support; the</line>
     <line>Magistrate observed me with a keen eye</line>
     <line>&#x26; of course drew <add place="superlinear">an</add> unfavourable augury f<mod>
-        <add><metamark function="insert">&#x2038;</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>om</line>
     <line><del rend="strikethrough">it.</del> my manner.</line>
@@ -70,7 +70,7 @@
         <add place="intralinear">dy</add>
       </mod> into her house.&#x2013;It was not cold &amp;</line>
     <line>they put <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">it</add>
       </mod> into a bed &#x26; rubbed it and Daniel</line>
   </zone>

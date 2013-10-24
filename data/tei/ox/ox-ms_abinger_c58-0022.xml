@@ -29,7 +29,7 @@
     <line>man; his eyes wandered in vacancy for they had lost</line>
     <line>their charm and delight. His neice, his more than daugh</line>
     <line>-ter whom he doated <mod>
-        <add place="sublinear" hand="#comp"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear" hand="#comp"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#comp">on</add>
       </mod> with all the affection that a</line>
     <line>man in the dec<mod>

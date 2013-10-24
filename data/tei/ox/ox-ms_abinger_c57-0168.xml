@@ -25,7 +25,7 @@
         <del rend="overwritten">e</del>
         <add place="intralinear">a</add>
       </mod>ret and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">do</add>
       </mod> not you feel your blood con</line>
     <line>gealed with horror <mod spanTo="#c57-0168.03"/><delSpan spanTo="#c57-168.04"
@@ -35,7 +35,7 @@
         <del rend="strikethrough">When</del>
         <add place="superlinear" hand="#pbs">Sometimes</add>
       </mod> seized with <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">sudden</add>
       </mod> agony he</line>
     <line>could not continue <mod>
@@ -50,10 +50,10 @@
       <del rend="strikethrough" xml:id="c57-0168.09">through</del><anchor xml:id="c57-0168.07"/>
       &#x2013; His fine &amp; lovely</line>
     <line>eyes <mod>
-        <add place="sublinear"><metamark>&#x2038;</metamark></add>
+        <add place="sublinear"><metamark>^</metamark></add>
         <add place="superlinear" hand="#pbs">were now</add>
       </mod> lighted up <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">with</add>
       </mod> indignation <mod>
         <del rend="strikethrough">or</del>
@@ -61,7 +61,7 @@
       </mod> subdued</line>
     <line><mod>
         <del rend="strikethrough">by</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">to downcast</add>
       </mod> sorrow &amp; infinite wretchedness. Sometimes</line>
     <line>he commanded his countenance &amp; tones</line>
@@ -80,7 +80,7 @@
         >forth</del></line>
     <line><anchor xml:id="c57-0168.12"/><anchor xml:id="c57-0168.11"/>his imprecations <mod>
         <del rend="strikethrough">of</del>
-        <add place="sublinear">&#x2038;</add>
+        <add place="sublinear">^</add>
         <add place="superlinear">on</add>
       </mod> hi<mod>
         <del rend="overwritten">m</del>
@@ -92,7 +92,7 @@
     <line>yet I own to you my sister that the</line>
     <line>letters of Felix &amp; <mod>
         <del rend="strikethrough">Maimouna</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">Safie</add>
       </mod> which he</line>
     <line>shewed me &amp; the apparition of the</line>

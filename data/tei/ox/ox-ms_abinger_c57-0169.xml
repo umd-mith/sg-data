@@ -24,14 +24,14 @@
     <line rend="indent2">Frankenstein discovered that I detail</line>
     <line>ed or made notes concerning his history he</line>
     <line>asked to see them &#x26; himself corrected <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">and augmented</add>
       </mod> them</line>
     <line>in many places but principally in <del rend="strikethrough">guv</del></line>
     <line>giving the life &#x26; spirit of the <del rend="strikethrough">the</del> conver</line>
     <line>sations he held with his enemies&#x2013;Since</line>
     <line>you have made an account <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">said he</add>
       </mod> I would</line>
     <line>not that a mutilated one <add place="superlinear">should</add> go down to</line>
@@ -50,7 +50,7 @@
         <del rend="strikethrough">I felt in</del>
         <add place="superlinear" hand="#pbs">for</add>
       </mod> my guest <add place="sublinear"><metamark function="displacement" xml:id="c57-0169.01"
-          >&#x2038;</metamark></add> I wish<del rend="strikethrough">ed</del> to soothe him</line>
+          >^</metamark></add> I wish<del rend="strikethrough">ed</del> to soothe him</line>
     <line>yet <mod>
         <del rend="strikethrough">could</del>
         <add place="superlinear" hand="#pbs">can</add>
@@ -77,7 +77,7 @@
         <del rend="strikethrough">g</del>
       </mod> his shattered <mod>
         <del rend="strikethrough">mind</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">feelings</add>
       </mod> to</line>
     <line>peace &#x26; death &#x2014; Yet <del rend="strikethrough">one</del>
@@ -98,7 +98,7 @@
         <del rend="strikethrough">instigated him</del>
         <add place="superlinear" hand="#pbs">excitement</add>
       </mod> to <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">his</add>
       </mod> vengeance</line>
   </zone>

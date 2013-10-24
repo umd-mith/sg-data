@@ -20,7 +20,7 @@
     <line>bly that I was deceived by no vision &#x26; that</line>
     <line>Cl<mod>
         <del rend="strikethrough">ai</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>rval my friend &#x26; dearest companion</line>
     <line>had fallen a victim to me &#x26; the <mod spanTo="#c57-0131.01"/><del rend="strikethrough"
@@ -78,7 +78,7 @@
 
   <zone type="left_margin" corresp="#c57-0131.02">
     <line><add>mo<mod>
-          <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear">n</add>
         </mod>ster </add></line>
   </zone>

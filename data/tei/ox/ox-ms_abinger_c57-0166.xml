@@ -24,7 +24,7 @@
         <del rend="strikethrough">past</del>
         <add place="superlinear">In this manner</add>
       </mod> many <del rend="strikethrough"><hi rend="underline">hideous</hi></del> hours <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">passed</add>
       </mod></line>
     <line>several of my dogs died and I myself</line>
@@ -32,7 +32,7 @@
         <del rend="strikethrough">should have</del>
         <add place="superlinear" hand="#pbs">was about to</add>
       </mod> sunk <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">under the accumulation of hardships</add>
       </mod> when I saw your vessel</line>
     <line>riding at <del rend="strikethrough" instant="true">ansh</del> anchor and holding
@@ -47,7 +47,7 @@
         <del rend="strikethrough">g</del>
       </mod>
       <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">part</add>
         <add place="intralinear" hand="#pbs">of</add>
       </mod> my sledge <mod>

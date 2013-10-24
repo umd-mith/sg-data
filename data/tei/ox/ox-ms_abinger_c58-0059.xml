@@ -32,7 +32,7 @@
     <line>asm, I shall die, &amp; what I now feel be no</line>
     <line>longer felt. . . Soon these burning miseries will</line>
     <line>be extinct. I shall <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"><mod>
             <del rend="strikethrough">moun</del>
             <add place="superlinear">ascend</add>

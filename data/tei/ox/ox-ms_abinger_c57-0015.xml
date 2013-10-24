@@ -66,7 +66,7 @@
         <line>the barbarous villagers and resolved</line>
         <line>whatever <mod spanTo="#c57-0015.02"/><del rend="strikethrough">I</del>
             <del rend="strikethrough" next="#c57-0015.03">should</del><add place="sublinear"
-                    ><metamark function="insert">&#x2038;</metamark></add><add place="superlinear">course of conduct I
+                    ><metamark function="insert">^</metamark></add><add place="superlinear">course of conduct I
                 might</add>
             <del rend="strikethrough" xml:id="c57-0015.03">afterwards</del>
             <del rend="strikethrough" next="#c57-0015.04">think it</del><add place="superlinear"

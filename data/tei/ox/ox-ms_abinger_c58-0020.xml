@@ -10,7 +10,7 @@
     <line>safe from the malignity of the <del rend="strikethrough">friend</del> fiend; my
       father</line>
     <line>even now might <mod>
-        <add place="sublinear" hand="#comp"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear" hand="#comp"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#comp">be</add>
       </mod> writhing under his grasp and Er-</line>
     <line>nest might be dead at his feet. This <del rend="strikethrough">p</del> idea made</line>

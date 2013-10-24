@@ -13,7 +13,7 @@
     <line>which however they may be afterwards</line>
     <line>modified are never <mod>
       <del rend="strikethrough">entirely changed</del>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear">eradicated</add>
     </mod> and they</line>
     <line>can judge of our actions with greater</line>
@@ -33,7 +33,7 @@
     <line>Eliszabeth or the conversation of Cler</line>
     <line>val will be ever whispered <mod>
       <del rend="strikethrough">to</del>
-      <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+      <add place="sublinear"><metamark function="insert">^</metamark></add>
       <add place="superlinear" hand="#pbs">in</add>
     </mod> my ear.</line>
     <line>They are dead &amp; but one feeling <mod>

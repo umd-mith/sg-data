@@ -14,7 +14,7 @@
   <zone type="main">
     <line>arms &amp; relaxed figure flung by the mur</line>
     <line>derer on its <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">bridal</add>
       </mod> bier &#x2014; Could I behold this &amp; and</line>
     <line>live&#x2013; Alas life is obstinate <mod>
@@ -32,14 +32,14 @@
         <add place="superlinear" hand="#pbs">only as</add>
       </mod> a</line>
     <line>mockery <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">a shadow</add>
       </mod> of the feelings that oppre<mod>
         <del rend="overwritten">d</del>
         <add place="intralinear">ss</add>
       </mod>ed</line>
     <line><anchor xml:id="c57-0149.01"/>I escaped from them <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">to the room</add>
       </mod> where lay the body</line>
     <line>of Elizabeth &#x2013; my love &#x2014; my wife &#x2013; so lately</line>

@@ -14,7 +14,7 @@
   <zone type="main">
     <milestone unit="tei:p"/>
     <line>While I <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">was</add>
       </mod> overcome by these feelings I</line>
     <line>left the spot where I had committed the</line>

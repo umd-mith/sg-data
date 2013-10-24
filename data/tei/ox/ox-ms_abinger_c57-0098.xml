@@ -26,19 +26,19 @@
     <line>thought<add place="intralinear" hand="#pbs">s</add>
       <mod>
         <add place="sublinear"><metamark function="displacement" xml:id="c57-0098.01"
-            >&#x2038;</metamark></add>
+            >^</metamark></add>
       </mod> I would not quit Henry for a</line>
     <line>moment but followed him as his shadow</line>
     <line>to protect him from <mod>
         <del rend="strikethrough">his</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod> fancied rage</line>
     <line>of his destroyer. I felt as if I had commit</line>
     <line>ted some great crime the conscious</line>
     <line>ness of which haunted me. I was guiltless</line>
     <line>but I had <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">indeed</add>
       </mod> drawn down a horrible curse</line>
     <line><mod>
@@ -47,7 +47,7 @@
       </mod>
       <mod>
         <del rend="strikethrough">his</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">my</add>
       </mod> head <mod spanTo="#c57-0098.02"/><del rend="strikethrough" next="#c57-0098.03">which I
         in vain endeavoured</del><add place="superlinear" hand="#pbs">as mortal as that of
@@ -69,7 +69,7 @@
       <add place="superlinear" hand="#pbs">latter</add> city was</line>
     <line>pleasing to him. But the beauty &amp; regu</line>
     <line>larity of the new town <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">of Edinburgh</add>
       </mod> delighted him; its</line>
     <line>environs are also the most beautiful</line>

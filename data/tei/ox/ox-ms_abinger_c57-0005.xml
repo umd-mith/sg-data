@@ -19,7 +19,7 @@
       </mod>
       <mod>
         <del rend="strikethrough">that</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">those of</add>
       </mod> the blackbird were sweet</line>
     <line>and enticing. <del rend="strikethrough">I had <unclear>le</unclear></del> one day when I
@@ -69,7 +69,7 @@
         hand="#pbs">o</add>
       <add place="intralinear" hand="#pbs">of fire.</add> When night</line>
     <line>came on and <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">brought with it</add>
       </mod> sleep, I was in the greatest</line>
     <line>fear lest my fire should be extinguished</line>

@@ -14,7 +14,7 @@
   <zone type="main">
     <line>It was eight o'clock when we landed; we</line>
     <line>walked <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for a short time</add>
       </mod> on the shore enjoying the transitory</line>
     <line>twilight &amp; then retired to the Inn and contem</line>
@@ -37,10 +37,10 @@
     <line>rays while the lake reflected the <add place="intralinear" hand="#pbs" next="#c57-0147.04"
         >scene</add></line>
     <line><add place="superlinear" hand="#pbs" xml:id="c57-0147.04">of the </add>busy heavens <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs"><del rend="strikethrough">m</del> made</add>
       </mod> still busier by the <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">restless</add>
       </mod> waves</line>
     <line>that were beginning to rise&#x2014; <mod>

@@ -10,7 +10,7 @@
     <line>to you but have never had courage to begin.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2">You <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">well</add>
       </mod> know, <unclear reason="case">V</unclear>ictor, that <del rend="strikethrough">it</del>
       our union</line>
@@ -20,18 +20,18 @@
     <line>forward to it as an event that would</line>
     <line>certainly take place. We were affectionate</line>
     <line>playfellow<add place="intralinear">s</add> during childhood &#x26; I beli<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">e</add>
       </mod>ve</line>
     <line>dear &#x26; <mod>
         <del rend="strikethrough">beloved</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">valued</add>
       </mod> friends to one another when</line>
     <line>we grew older. But as a brother &#x26; sister</line>
     <line>often entertain a lively affection towards</line>
     <line>one another <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">without desiring a more intimate union</add>
       </mod> may not <mod>
         <del rend="strikethrough">this</del>

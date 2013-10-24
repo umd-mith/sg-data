@@ -16,13 +16,13 @@
         <add place="superlinear">the</add>
       </mod> silver hairs &amp;</line>
     <line>benevolent countenance <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">of <del rend="strikethrough">the</del>
           <del rend="strikethrough">more</del> aged <del rend="strikethrough">inhabit</del>
           cottager</add>
       </mod> won my reverence</line>
     <line>while <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod> gentle manners of the girl enticed</line>
     <line>my love. He played a sweet mournful</line>
@@ -30,12 +30,12 @@
     <line>the eyes of <mod>
         <del rend="strikethrough">the gen amiable gir</del>
         <del rend="unmarked">l</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">his <del rend="strikethrough">you</del> amiable companion</add>
       </mod>
       <del rend="strikethrough">till her</del></line>
     <line><anchor xml:id="c57-0013.01"/>which the old man took <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">no</add>
       </mod> notice <del rend="strikethrough">of</del> it untill</line>
     <line>she sobbed audibly &#x2013; He <del rend="strikethrough" instant="true">the</del> then

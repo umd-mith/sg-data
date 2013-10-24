@@ -11,7 +11,7 @@
   <zone type="main">
     <line>We had arrived in Englan <mod>
         <del rend="strikethrough">in</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">at</add>
       </mod> the beginning</line>
     <line>of October and it was now february; we according</line>
@@ -29,13 +29,13 @@
     <milestone unit="tei:p"/>
     <line rend="indent2">We quitted London on the 27 of</line>
     <line>March and remain<mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="intralinear">e</add>
       </mod>d a few days at Windsor</line>
     <line>rambling in its beautiful forest. This was</line>
     <line>a new scene to us mountaineers; The <mod spanTo="#c57-0094.01"/><del rend="strikethrough"
         next="#c57-0094.02">beauti</del><add place="sublinear"><metamark function="insert"
-          >&#x2038;</metamark></add><add place="superlinear">majectic</add></line>
+          >^</metamark></add><add place="superlinear">majectic</add></line>
     <line><del xml:id="c57-0094.02">ful</del><anchor xml:id="c57-0094.01"/> oaks the quantity of
       game &amp; the <delSpan spanTo="#c57-0094.03" rend="strikethrough"/>beau</line>
     <line>tiful<anchor xml:id="c57-0094.03"/> flock<add place="intralinear">s</add> of <mod>
@@ -55,7 +55,7 @@
         <del rend="strikethrough">&amp; were</del>
         <add place="superlinear" hand="#pbs">who</add>
       </mod> received <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">us</add>
       </mod> with great</line>
     <line>politeness &amp; <del rend="strikethrough">cord</del> cordiality. We found that the</line>

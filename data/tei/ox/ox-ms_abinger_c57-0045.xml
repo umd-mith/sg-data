@@ -18,13 +18,13 @@
         rend="strikethrough">it was now about a</del><add place="superlinear" next="#c57-0045.03"
         >and an entire revolution of the</add></line>
     <line><del rend="strikethrough" xml:id="c57-0045.02">year</del><add place="sublinear"
-          ><metamark function="insert">&#x2038;</metamark></add><add place="superlinear" xml:id="c57-0045.03">seasons
+          ><metamark function="insert">^</metamark></add><add place="superlinear" xml:id="c57-0045.03">seasons
         had taken place</add><anchor xml:id="c57-0045.01"/> since I awoke into life.&#x2013; <del
         rend="strikethrough">and I then</del>
       <delSpan spanTo="#c57-0045.04" rend="strikethrough"/>at</line>
     <line>that<anchor xml:id="c57-0045.04"/>
       <del rend="strikethrough">time</del> My attention <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">at this time</add>
       </mod> was <del rend="strikethrough">now</del> solely</line>
     <line>directed towards my plan of introducing</line>
@@ -65,7 +65,7 @@
     <line>played <del rend="strikethrough">ver</del> several mournful but sweet</line>
     <line>airs<unclear>:</unclear> <mod>
         <del rend="strikethrough">that I had seldom</del>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">more sweet &amp; mournful that I had ever</add>
       </mod> heard him play</line>
     <line>before. At first his countenance was illumi</line>

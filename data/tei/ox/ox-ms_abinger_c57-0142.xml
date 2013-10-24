@@ -53,7 +53,7 @@
     <line>marriage, whether from cowardice</line>
     <line>or <add place="superlinear">a</add> prophetic feeling, I felt my heart</line>
     <line>sink with in me &#x2013; But I concealed <mod>
-        <add place="sublinear"><metamark function="insert">&#x2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs" xml:id="c57-0142.06">my feelings</add>
         <del rend="strikethrough"><add place="superlinear" next="#c57-0142.06">this</add></del>
       </mod>
