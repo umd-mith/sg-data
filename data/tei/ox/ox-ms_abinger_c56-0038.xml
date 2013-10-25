@@ -48,10 +48,10 @@
         <del rend="strikethrough">must be</del>
         <anchor xml:id="c56-0038.01"/>
       </mod></line>
-    <line>a work of inconceivable labour<add place="superlinear" hand="#pbs"
-        ><metamark function="transpose">2</metamark></add> &#x26; diffi<add place="superlinear" hand="#pbs"
-          ><metamark function="transpose">1</metamark></add></line>
-    <line>culty. I doubted at first whether I should</line>
+    <line>a work of inconceivable <milestone unit="tei:seg" xml:id="c56-0038.19" spanTo="#c56-0038.21"/>labour<anchor xml:id="c56-0038.21"/><add place="superlinear" hand="#pbs"
+        ><metamark function="transpose" target="#c56-0038.19">2</metamark></add> &#x26; <add place="superlinear" hand="#pbs"
+          ><metamark function="transpose" target="#c56-0038.20">1</metamark><milestone unit="tei:seg" xml:id="c56-0038.20" spanTo="#c56-0038.22"/>diffi</add></line>
+    <line>culty<anchor xml:id="c56-0038.22"/>. I doubted at first whether I should<listTranspose><transpose><ptr target="#c56-0038.20"/><ptr target="#c56-0038.19"/></transpose></listTranspose></line>
     <line>attempt the creation of a <mod>
         <del rend="strikethrough">creature</del>
         <add place="superlinear" hand="#pbs">being</add>
