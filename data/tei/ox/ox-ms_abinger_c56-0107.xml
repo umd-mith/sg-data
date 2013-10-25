@@ -36,12 +36,14 @@
     <line>but I.&#x2014;&#x2014; I was a wretch <del rend="strikethrough">none</del> &#x26;</line>
     <line>none ever conceived <del rend="strikethrough">of</del> the misery</line>
     <line>that I then suffered.</line>
-  </zone>
-  <zone type="main">
-    <addSpan spanTo="#c56.0107.01" hand="#pbs"/>
+    
+  <addSpan spanTo="#c56.0107.01" hand="#pbs"/>
     <line><metamark function="count">20</metamark></line>
     <line><metamark function="count"><hi rend="underline">37</hi></metamark></line>
     <line><metamark function="count">57</metamark></line>
     <anchor xml:id="c56.0107.01"/>
   </zone>
+  
+    
+  
 </surface>
