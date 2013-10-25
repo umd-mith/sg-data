@@ -59,7 +59,7 @@
       </mod> those</line>
     <line>languages and so far from study</line>
     <line>begin rendered odious <del rend="strikethrough">by</del> to us th<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>ough</line>
     <line>punishment, we loved application</line>

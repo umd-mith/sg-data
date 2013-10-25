@@ -20,13 +20,13 @@
     <line>family could all at once become so</line>
     <line>extremely wicked."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"Justine Moritz!" cried I,<del rend="strikethrough"
+    <line rend="indent1">"Justine Moritz!" cried I,<del rend="strikethrough"
         >"im</del> "poor, poor</line>
     <line>girl is she then accused &#x2013; but it is</line>
     <line>wrongfully every one knows that. No one</line>
     <line><del rend="strikethrough">bell</del> believes it surely, Ernest?"</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"No one did at first," said my brother,</line>
+    <line rend="indent1">"No one did at first," said my brother,</line>
     <line>"but several <mod>
         <del rend="strikethrough">things</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -34,7 +34,7 @@
       </mod> came out, <anchor xml:id="c56-0087.03"/> and her</line>
     <line>"own behaviour <mod>
         <del rend="strikethrough">was so</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">has been <del rend="strikethrough">such</del> so</add>
       </mod> confused <add place="sublinear"><metamark function="displacement" xml:id="c56-0087.05"
           >^</metamark></add> but she</line>
@@ -42,7 +42,7 @@
     <line>"all?"</line>
     <milestone unit="tei:p"/>
     <delSpan rend="vertical_line" spanTo="#c56-0087.07"/>
-    <line><space unit="chars" extent="3"/>He then related that after some</line>
+    <line rend="indent1">He then related that after some</line>
     <line>days of useless <del rend="strikethrough">e</del> search <del rend="strikethrough">t</del>
       one of the magis</line>
     <line>trates <del rend="strikethrough">opened</del> waited on my father and</line>
@@ -58,7 +58,7 @@
     <line><del rend="strikethrough">her bed&#x2014; Her apparel was exami</del></line>
     <anchor xml:id="c56-0087.07"/>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>He <del rend="strikethrough">then</del> related that the
+    <line rend="indent1">He <del rend="strikethrough">then</del> related that the
       morning</line>
     <line><mod>
         <del rend="strikethrough">after</del>

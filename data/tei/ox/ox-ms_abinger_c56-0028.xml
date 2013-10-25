@@ -48,7 +48,7 @@
         <del rend="strikethrough">exhibited</del>
         <add place="superlinear" hand="#pbs">expressed to them</add>
       </mod>. <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <anchor xml:id="c56-0028.01"/>
       </mod>
       <del rend="strikethrough">I ended by saying</del> that</line>

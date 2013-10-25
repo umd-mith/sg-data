@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">104</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>Last thurday (May <del rend="strikethrough">26</del> 28<hi
+    <line rend="indent1">Last thurday (May <del rend="strikethrough">26</del> 28<hi
         rend="underline">th</hi>) I; <mod>
         <del rend="strikethrough">your<add place="superlinear">my</add></del>
       </mod>
@@ -24,7 +24,7 @@
         <add place="superlinear">and then</add>
       </mod> we <mod>
         <del rend="strikethrough">found</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">discovered</add>
       </mod> that Ernest</line>
     <line>and William who had gone on before,</line>
@@ -42,7 +42,7 @@
     <line>ted a long time but that he did</line>
     <line>not return.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>This rather alarmed us and we <del rend="strikethrough"
+    <line rend="indent1">This rather alarmed us and we <del rend="strikethrough"
         >sought</del></line>
     <line>continued to search <add place="superlinear">for him</add>untill night fell<del
         rend="strikethrough">l</del>;</line>

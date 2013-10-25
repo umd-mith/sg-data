@@ -13,7 +13,7 @@
     <line>the print of the murderers finger was</line>
     <line>on his neck.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>He was conveyed home and the</line>
+    <line rend="indent1">He was conveyed home and the</line>
     <line><del rend="strikethrough">extreme</del>
       <del rend="strikethrough">wh</del>
       <mod>
@@ -42,7 +42,7 @@
       <del rend="strikethrough">babe</del><del rend="unmarked">.</del> my darling</line>
     <line>infant.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>She fainted and was retored with</line>
+    <line rend="indent1">She fainted and was retored with</line>
     <line>extreme difficulty; <del rend="strikethrough">and</del> when she again</line>
     <line>lived it was only to weep and sigh&#x2013;</line>
     <line>She told me that that same evening</line>
@@ -66,7 +66,7 @@
     <line>are unremitted; but they will not restore</line>
     <line>my beloved William.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>Come, dearest Victor, you alone can</line>
+    <line rend="indent1">Come, dearest Victor, you alone can</line>
   </zone>
   <zone type="left_margin" corresp="#c56-0075.03">
     <line><add>very</add></line>

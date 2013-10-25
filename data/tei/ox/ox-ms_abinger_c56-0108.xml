@@ -11,8 +11,8 @@
   </zone>
 
   <zone type="main">
-    <line><space unit="chars" extent="3"/>Nothing is more painful <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+    <line rend="indent1">Nothing is more painful <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">than</add>
       </mod> when the</line>
     <line>mind has been worked up by a <add place="intralinear">quick</add></line>
@@ -51,11 +51,11 @@
     <line>from my eyes. I wandered like an</line>
     <line>evil spirit for I <mod>
         <del rend="strikethrough">done</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">had committed deeds of</add>
       </mod> mischief beyond</line>
     <line>description <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">horrible,</add>
       </mod> and <del rend="smear"><add place="superlinear">hor</add></del> more much more (I</line>
     <line>persuaded my self) was yet in store.</line>
@@ -66,7 +66,7 @@
       </mod> &#x2013; I had begun life</line>
     <line>with benevolent intentions and thirsted for</line>
     <line>the moment when I <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">could</add>
       </mod> put them in practise</line>
   </zone>
@@ -75,7 +75,7 @@
     <addSpan spanTo="#c56-0108.03" hand="#pbs"/>
     <line xml:id="c56-0108.06">of inaction &#x26; certainty</line>
     <line><seg xml:id="c56-0108.07">the dead calmness</seg>
-      <add><metamark>^</metamark>which</add><listTranspose>
+      <add><metamark function="insert">^</metamark>which</add><listTranspose>
         <transpose>
           <ptr target="#c56-0108.07"/>
           <ptr target="#c56-0108.06"/>

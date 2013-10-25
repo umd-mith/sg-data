@@ -9,10 +9,10 @@
   <zone type="library">50</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>During this conversation I had retired</line>
+    <line rend="indent1">During this conversation I had retired</line>
     <line>to a corner of the prison-room where</line>
     <line>I could conceal the horrid anguish</line>
-    <line>that possessed me&#x2013; Despair<unclear>!</unclear> Who dared</line><!--exclamation mark could be question mark -->
+    <line>that possessed me&#x2013; Despair<unclear reason="illegible">!</unclear> Who dared</line><!--exclamation mark could be question mark -->
     <line>talk of that? The poor victim who</line>
     <line>on the morrow was to pass the</line>
     <line>dreary boundary of life &#x26; death felt</line>
@@ -31,7 +31,7 @@
     <line>you I hope do not believe that I am</line>
     <line>guilty."</line>
     <milestone unit="tei:p"/>
-    <line><del rend="strikethrough">"</del>I could not answer &#x2013; "No Justine"</line>
+    <line rend="indent1"><del rend="strikethrough">"</del>I could not answer &#x2013; "No Justine"</line>
     <line>said Elizabeth; "he is <del rend="strikethrough">even</del> more</line>
     <line>convinced of your innocence than</line>
     <line>I was for even when he heard</line>
@@ -41,7 +41,7 @@
         <anchor xml:id="c56-0105.01"/>
       </mod> it."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"I truly than<add place="intralinear">k</add> him"&#x2013;
+    <line rend="indent1">"I truly than<add place="intralinear">k</add> him"&#x2013;
       said Justine</line>
     <line>"In these last minutes I feel the</line>
     <line>sincerest gratitude for those who</line>

@@ -22,7 +22,7 @@
         <add place="superlinear" hand="#pbs">can and if you</add>
       </mod> will, destroy the work of your hands."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"Why" cried I&#x2013;"do you <del rend="strikethrough"
+    <line rend="indent1">"Why" cried I&#x2013;"do you <del rend="strikethrough"
         >ever</del> call to my</line>
     <line>remembrance <del rend="strikethrough">those</del> circumstances <add place="superlinear"
         hand="#pbs">of</add> which</line>
@@ -45,11 +45,9 @@
         <add place="superlinear" hand="#pbs">your</add>
       </mod> sight</line>
     <milestone unit="tei:p"/>
-    <line><mod>
-        <add place="superlinear">Thus I relieve you, Creator </add>
-        <add place="intralinear">he replied &#x26;</add>
-        <del rend="strikethrough">He</del>
-      </mod> placed his abhorred hand<del rend="strikethrough">s</del> before</line>
+    <line><mod spanTo="#c56-0128.06"/><add place="interlinear" next="#c56-0128.07">Thus I relieve you, Creator</add></line>
+    <line><add place="intralinear" xml:id="c56-0128.07">he replied &#x26;</add> <del rend="strikethrough">He</del><anchor xml:id="c56-0128.06"/>
+       placed his abhorred hand<del rend="strikethrough">s</del> before</line>
     <line>my eyes &#x2013; <mod>
         <del rend="strikethrough">Thus will I relieve yo</del>
         <del rend="unmarked">u</del>

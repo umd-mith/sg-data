@@ -12,7 +12,7 @@
     <line>monster seized me I struggled furious</line>
     <line>ly &#x26; fell down in a fit.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Poor Clerval! What must have been</line>
+    <line rend="indent1">Poor Clerval! What must have been</line>
     <line>his feelings. A <del rend="strikethrough">joy</del>
       <del rend="strikethrough">meti</del> meeting which</line>
     <line>he had anticipated with such joy so</line>

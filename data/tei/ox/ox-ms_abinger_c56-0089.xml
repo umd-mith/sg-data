@@ -23,9 +23,8 @@
     <line>but without prognosticating an evil</line>
     <line>result.</line>
     <line><metamark function="separate">_____________________</metamark></line>
-  </zone>
-  <zone type="main" corresp="#c56-0089.01">
-    <addSpan spanTo="#c56-0089.02"/>
+  
+    <addSpan corresp="#c56-0089.01" spanTo="#c56-0089.02"/>
     <line><metamark function="displacement"><hi rend="sup">X</hi></metamark>I saw unhappiness deeply
       impressed</line>
     <line><del rend="strikethrough">co</del> on his countenance but he endea</line>

@@ -15,7 +15,7 @@
         <line>when an incident happened that</line>
         <line>protracted my stay.</line>
         <milestone unit="tei:p"/>
-        <line><space unit="chars" extent="5"/>One of those ph&#xE6;nonoma which</line>
+        <line rend="indent1">One of those ph&#xE6;nonoma which</line>
         <line>had <mod>
                 <del rend="strikethrough">mo<del rend="overwritten">re</del><add place="intralinear"
                         hand="#pbs">st</add></del>

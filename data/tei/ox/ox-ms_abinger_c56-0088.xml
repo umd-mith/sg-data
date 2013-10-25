@@ -35,15 +35,15 @@
     <line><del rend="strikethrough">a</del> in a great measure by her extreme</line>
     <line>confusion.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>This was a strange tale but it did</line>
+    <line rend="indent1">This was a strange tale but it did</line>
     <line>not shake my faith and I replied earnest</line>
     <line>ly. "You are all mistaken. I know the</line>
     <line>murderer Justine, poor, good Justine is</line>
     <line>innocent."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>At that instant my father en-</line>
+    <line rend="indent1">At that instant my father en-</line>
     <line>tered <mod>
-        <!--This is a problem: section from 89 replaces marginal addition on 88. Chokes transformation.-->
+        <!--section from 89 replaces marginal addition on 88.-->
         <del rend="strikethrough"><add place="superlinear"><metamark function="displacement"
               xml:id="c56-0088.01">X</metamark></add></del>
         <anchor xml:id="c56-0089.01"/>
@@ -56,19 +56,19 @@
       <del rend="strikethrough">k</del> knows</line>
     <line>the murderer of poor William.</line>
     <milestone unit="tei:p"/>
-    <line>"<del rend="strikethrough">And</del> We do also, unfortunately," replied my</line>
+    <line rend="indent1">"<del rend="strikethrough">And</del> We do also, unfortunately," replied my</line>
     <line>father for indeed I had rather have</line>
     <line>been<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for ever</add>
       </mod> ignorant than, have discovered so</line>
     <line>much depravity &#x26; ingratitude in one whom</line>
     <line>I valued so highly.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"My dear father" exclaimed I&#x2013;"You are</line>
+    <line rend="indent1">"My dear father" exclaimed I&#x2013;"You are</line>
     <line>mistaken. Justine is innocent."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>"If she is" replied my father "God forbid</line>
+    <line rend="indent2">"If she is" replied my father "God forbid</line>
   </zone>
   <zone type="left_margin" corresp="#c56-0088.01">
     <delSpan rend="vertical_line" spanTo="#c56-0088.03"/>

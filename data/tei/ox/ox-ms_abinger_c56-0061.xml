@@ -20,17 +20,17 @@
     <line><mod spanTo="#c56-0061.04"/><del rend="strikethrough">was very fond of her which</del>
       <del rend="strikethrough" next="#c56-0061.05">caused</del>
       <add place="superlinear" hand="#pbs">concieved an attachment for her, by which she <mod>
-          <add place="sublinear"><metamark>^</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear" hand="#pbs">was</add>
         </mod></add>
       <add place="superlinear">induced</add></line>
     <line><del rend="strikethrough" xml:id="c56-0061.05">her to</del><mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">to</add>
       </mod><anchor xml:id="c56-0061.04"/> give her an<del rend="strikethrough">d</del>
       education</line>
     <line>superior to that which she <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">had</add>
       </mod> at</line>
     <line>first intended<mod>
@@ -57,7 +57,7 @@
         >excellence,</add><anchor xml:id="c56-0061.06"/> and endeavoured to imi-</line>
     <line>tate her words and even her man</line>
     <line>ners, so that <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">even</add>
       </mod> now she <del rend="strikethrough">very</del> often <mod>
         <del rend="strikethrough">puts</del>
@@ -69,12 +69,12 @@
     <line>it struck me afterwards when I</line>
     <line>reflected on the subject.<anchor xml:id="c56-0061.07"/></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>When my dearest Aunt died every</line>
+    <line rend="indent1">When my dearest Aunt died every</line>
     <line>one was too much occupied in their</line>
   </zone>
   <!-- Zone continued from 0060 -->
-  <zone type="left_margin" corresp="#c56-0061.01">
-    <addSpan spanTo="#c56-0061.02" hand="#pbs"/>
+  <zone type="left_margin">
+    <addSpan xml:id="c56-0061.01" spanTo="#c56-0061.02" hand="#pbs"/>
     <line>-tinction<del rend="strikethrough">s</del> between</line>
     <line>the classes into</line>
     <line>which human</line>

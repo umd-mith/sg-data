@@ -23,7 +23,7 @@
     <line>the evening of the night on which the</line>
     <line>murder was perpetrated at <mod>
         <del rend="strikethrough">M</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the house of</add>
       </mod> an aunt</line>
     <line>who resided in Ch&#234;ne a village about</line>

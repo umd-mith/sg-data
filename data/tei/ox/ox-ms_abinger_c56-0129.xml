@@ -25,7 +25,7 @@
       <add place="intralinear" hand="#pbs">&#x26; the author </add><add place="sublinear"
         hand="#pbs">of your own speedy ruin.</add></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>As he said this he led the way</line>
+    <line rend="indent1">As he said this he led the way</line>
     <line>across the ice &#x2013;I followed &#x2013; my heart was</line>
     <line>full and <add hand="#pbs" place="intralinear">I</add> did not answer him but</line>
     <line><mod>
@@ -33,7 +33,7 @@
         <anchor xml:id="c56-0129.01"/>
       </mod> I weighed the various arguments</line>
     <line>which he had used, <mod spanTo="#c56-0129.02"/><add place="sublinear"
-          ><metamark>^</metamark></add><del rend="strikethrough">I</del>
+          ><metamark function="insert">^</metamark></add><del rend="strikethrough">I</del>
       <del rend="strikethrough">felt enclined</del><add place="superlinear" hand="#pbs">&#x26; I
         determined at </add></line>
     <line><anchor xml:id="c56-0129.03"/><anchor xml:id="c56-0129.02"/>to listen to his tale&#x2014;I

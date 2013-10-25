@@ -23,7 +23,7 @@
     <line>nix. <mod>
         <del rend="strikethrough">Myrtella</del>
         <del rend="strikethrough">was</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">My father &#x26; Elizabeth were</add>
       </mod> very much fatigued.</line>
     <line><del rend="strikethrough">a</del> Ernest who accompanied us was</line>
@@ -33,11 +33,11 @@
     <line>and the rain that that wind seemed</line>
     <line>to promise <del rend="strikethrough">us</del> for the next day.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>We retired early to our appartments</line>
+    <line rend="indent1">We retired early to our appartments</line>
     <line>but not to sleep:&#x2013; at least I did not. I</line>
     <line>remained many hours at the window</line>
     <line>watching the <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">pallid</add>
       </mod> lightning that played</line>
     <line>above Mont Blanc &#x2013; and listening</line>

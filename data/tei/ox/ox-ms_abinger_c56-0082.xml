@@ -23,7 +23,7 @@
         <del rend="strikethrough">where</del>
         <add place="superlinear" hand="#pbs">of the</add>
       </mod> lake <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">turns</del>
         <add place="superlinear" hand="#pbs" next="#c56-0082.01">which <del rend="strikethrough"
             >at</del></add>
@@ -49,7 +49,7 @@
     <line>a peaked mountain to the east of</line>
     <line>the lake.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>While I watched the storm &#x2013; so beauti</line>
+    <line rend="indent1">While I watched the storm &#x2013; so beauti</line>
     <line>ful yet terrific I wandered <del rend="strikethrough">listlessly</del></line>
     <line>on with a hasty step &#x2013; <del rend="strikethrough">I felt that</del></line>
     <line>th<mod>

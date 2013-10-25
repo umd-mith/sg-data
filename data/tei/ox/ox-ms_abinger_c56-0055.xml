@@ -7,8 +7,9 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0055.tif"/>
   <zone type="pagination" rend="bordered">85</zone>
   <zone type="library">26</zone>
-  <zone type="top"><line>Chap. 7</line></zone>
+  
   <zone type="main">
+    <line><milestone unit="tei:head" spanTo="#c56-0055.02"/>Chap. 7<anchor xml:id="c56-0055.02"/></line>
     <line>This was the commencement of a nervous</line>
     <line>fever which confined me for several</line>
     <line> months. <del rend="strikethrough">And</del> during all this time Henry was</line>
@@ -17,7 +18,7 @@
     <line>and unfitness for so long a journey &#x26;</line>
     <line>wretched Elizabeth would be he</line>
     <line>had spared them this <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">grief</add>
       </mod> by <del rend="strikethrough">partly</del> conceal</line>
     <line>ing the extent of my disorder. He knew</line>
@@ -28,12 +29,12 @@
     <line>harm he performed the kindest action</line>
     <line>that he could towards them.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>But I was in reality very ill &#x26;</line>
+    <line rend="indent1">But I was in reality very ill &#x26;</line>
     <line>surely nothing but the unbounded</line>
     <line><del rend="strikethrough">affection</del> &#x26; unremitting attentions of</line>
     <line>my friend could have restored me to</line>
     <line>life. The form of the mo<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">n</add>
       </mod>ster on whom</line>
     <line>I had bestowed life was for ever before</line>

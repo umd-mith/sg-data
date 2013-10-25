@@ -44,11 +44,11 @@
         <del rend="strikethrough">as</del>
         <anchor xml:id="c56-0041.01"/>
       </mod> my work <del rend="strikethrough">drew</del> near <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">to</add>
       </mod> a conclusion.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>The <del rend="strikethrough">sums</del> Summer
+    <line rend="indent1">The <del rend="strikethrough">sums</del> Summer
       months</line>
     <line>passed while I was thus <mod>
         <del rend="strikethrough">employed</del>
@@ -66,7 +66,7 @@
       </mod> to the charms of nature &#x26; the</line>
     <line>same feelings which <mod>
         <del rend="strikethrough">caused</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">made</add>
       </mod> me <del rend="strikethrough">to</del></line>
     <line>neglect the scenes around me caused</line>

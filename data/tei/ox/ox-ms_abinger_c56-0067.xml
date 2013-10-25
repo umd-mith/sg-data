@@ -39,7 +39,7 @@
     <line>in di<add place="intralinear" hand="#pbs">s</add>cerning the sensations of others</line>
     <line>declined the subject alledging <mod>
         <del rend="strikethrough">in</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">his</add>
       </mod></line>
     <line>ignorance &#x26; the conversation took</line>

@@ -38,7 +38,6 @@
       </mod></line>
     <line><del rend="strikethrough" xml:id="c56-0058.03">although</del>
       <delSpan spanTo="#c56-0058.04" rend="vertical_line"/>his health is better now</line>
-    <!--let's add "wavy_line" to our del rend values.-->
     <line>tha<mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">n</add>
@@ -56,7 +55,7 @@
       </mod>te<add place="intralinear">s</add> that you</line>
     <line>were getting better <mod>
         <del rend="strikethrough">and</del>
-        <add place="sublinear"><metamark>&#2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">I</del>
         <add place="superlinear">I <del rend="strikethrough">arden</del> eagerly</add>
       </mod> hope you</line>
@@ -65,7 +64,7 @@
     <line>handwriting for indeed, indeed Victor</line>
     <line>we are all very <mod>
         <del rend="strikethrough">uneasy</del>
-        <add place="sublinear"><metamark function="insert">&#2038;</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">miserable on this account</add>
       </mod>. Relieve</line>
     <line>us from this fear and we shall</line>

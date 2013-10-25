@@ -12,7 +12,7 @@
     <line>you will ever suffer. &#x2013; live &#x26; be happy</line>
     <line>to make <del rend="strikethrough">of</del> others so.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>As We returned Elizabeth said, You</line>
+    <line rend="indent1"><space unit="chars" extent="4"/>As We returned Elizabeth said, You</line>
     <line>do not know, my dear Victor, <del rend="strikethrough">w</del> how</line>
     <line>much I am relieved now that I trust</line>
     <line>in the innocence of this unfortunate</line>

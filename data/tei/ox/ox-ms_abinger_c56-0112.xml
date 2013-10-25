@@ -33,7 +33,7 @@
     <line>anger on his head and avenge the</line>
     <line>deaths of William and Justine.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Our house was <del rend="strikethrough">now</del> the
+    <line rend="indent1">Our house was <del rend="strikethrough">now</del> the
       house</line>
     <line>of mourning, my father's health was deeply</line>
     <line>shaken by the horror of the recent</line>
@@ -55,7 +55,7 @@
   </zone>
   <zone type="left_margin" corresp="#c56-0112.02">
     <addSpan spanTo="#c56-0112.03" hand="#pbs"/>
-    <line><metamark><hi rend="sup">X</hi></metamark>There was</line>
+    <line><metamark function="displacement"><hi rend="sup">X</hi></metamark>There was</line>
     <line>always scope</line>
     <line>for fear so</line>
     <line>long as any</line>

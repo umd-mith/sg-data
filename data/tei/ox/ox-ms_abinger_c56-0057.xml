@@ -16,7 +16,7 @@
     <line>"spirits I may speak to you on</line>
     <line>"one subject; may I not?"</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>I trembled; one subject! What</line>
+    <line rend="indent1">I trembled; one subject! What</line>
     <line>could it be? Could he allude to<mod>
         <add place="sublinear"><metamark function="insert"><metamark function="insert"
               >^</metamark></metamark></add>
@@ -32,7 +32,7 @@
     <line>"ill you have been<unclear>,</unclear> and are uneasy</line>
     <line>"at your long silence."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Is that all? "I said smiling</line>
+    <line rend="indent1">Is that all? "I said smiling</line>
     <line>"My dear Henry how could you suppose</line>
     <line>"that my first thoughts would not</line>
     <line>"fly towards<mod>
@@ -43,32 +43,29 @@
     <line>"whom I love and who are so deserving</line>
     <line>"of my love."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"If this is your present temper"</line>
+    <line rend="indent1">"If this is your present temper"</line>
     <line>said Henry "you will be glad perhaps</line>
     <line>"to see a letter <del rend="strikethrough">here</del> that has been</line>
     <line>"<del rend="strikethrough">ly</del> lying<del rend="strikethrough">e</del> here some
         day<add place="intralinear" hand="#pbs">s</add> it is from your</line>
     <line>"cousin I believe."</line>
-    <line><anchor xml:id="c56-0057.02"/></line>
+    <line><milestone unit="tei:head" spanTo="#c56-0057.02"/><add place="interlinear">Ch V&#x2013; 113</add><anchor xml:id="c56-0057.02"/></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="6"/>He then put the following letter</line>
+    <line rend="indent2">He then put the following letter</line>
     <line>into my hands.</line>
-    <line><space unit="chars" extent="6"/>"To V. Frankenstien</line>
-    <line><space unit="chars" extent="22"/>Geneva <mod>
+    <line rend="indent2">"To V. Frankenstien</line>
+    <line rend="right">Geneva <mod>
         <del rend="strikethrough">Apri</del>
         <del rend="unmarked">l</del>
         <add place="superlinear">March</add>
       </mod> 18<hi rend="underline"><hi rend="sup">th</hi></hi> 17&#x2014;</line>
     <line>"My dear Cousin</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>"I cannot describe to you the uneasi</line>
+    <line rend="indent1">"I cannot describe to you the uneasi</line>
   </zone>
 
   <zone type="left_margin" corresp="#c56-0057.01">
     <line><add>on whom </add></line>
   </zone>
 
-  <zone type="top" corresp="#c56-0057.02">
-    <add>Ch V&#x2013; 113</add></zone>
-  <!--change "top" to milestone "head" to account for headings that appear within the main body. "top" doesn't make sense and has no descriptive value-->
-</surface>
+  </surface>

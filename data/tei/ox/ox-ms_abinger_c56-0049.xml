@@ -10,14 +10,14 @@
   <zone type="main">
     <line>my view. I did not dare <del rend="strikethrough">to</del> return</line>
     <line>to the appartment <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">which</add>
       </mod> I inhabited but</line>
     <line>felt impelled to hurry on although</line>
     <line>wetted by the <del rend="strikethrough">drizzling</del> rain which poured</line>
     <line>from a black and comfortless sky.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>I continued walking in this manner</line>
+    <line rend="indent1">I continued walking in this manner</line>
     <line>for some time endeavouring by bodily</line>
     <line>exercise to ease the load that weighed</line>
     <line>upon my mind. I traversed the streets</line>
@@ -25,25 +25,24 @@
     <line>I was or what I was doing: my heart</line>
     <line>palpitated <mod>
         <del rend="strikethrough">with</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">in the sickness of</add>
       </mod> fear and I hurried</line>
     <line>on with irregular steps not daring</line>
     <line>to look about me,</line>
-    <milestone unit="tei:q" spanTo="#c56-0049.01"/>
+    <milestone unit="tei:lg" spanTo="#c56-0049.01"/>
     <line><space unit="chars" extent="7"/>"Like one who on a lon<mod>
         <del rend="overwritten">s</del>
         <add place="intralinear">es</add>
       </mod>ome road</line>
-    <line><space unit="chars" extent="7"/>"doth walk in fear and dread</line>
-    <line><space unit="chars" extent="7"/>"and having once turned round</line>
-    <line><space unit="chars" extent="30"/><metamark>L</metamark>walks on</line><!--text is contained within an "L" bracket to indicate line runover-->
-    <line><space unit="chars" extent="7"/>"<del rend="smear">wal</del>And turns no more his
+    <line rend="indent2">"doth walk in fear and dread</line>
+    <line rend="indent2">"and having once turned round</line>
+    <line rend="right"><metamark>L</metamark>walks on</line><!--text is contained within an "L" bracket to indicate line runover-->
+    <line rend="indent2">"<del rend="smear">wal</del>And turns no more his
       head</line>
-    <line><space unit="chars" extent="7"/>"Because he knows a frightful</line>
-    <line><space unit="chars" extent="30"/><metamark>L</metamark>fiend</line><!--text is contained within an "L" bracket to indicate line runover-->
-    <line><space unit="chars" extent="7"/>"doth close behind him tread."<metamark
-        corresp="#c56-0049.02">*</metamark></line>
+    <line rend="indent2">"Because he knows a frightful</line>
+    <line rend="right"><metamark>L</metamark>fiend</line><!--text is contained within an "L" bracket to indicate line runover-->
+    <line rend="indent2">"doth close behind him tread."<metamark>*</metamark></line>
     <anchor xml:id="c56-0049.01"/>
     <line>Continueing thus, I came at lenght</line>
     <line><mod>
@@ -57,14 +56,15 @@
     <line>from the other end of the street.</line>
     <line>As <mod>
         <del rend="strikethrough">I</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">it</add>
       </mod> drew nearer I observed that it</line>
     <line>was the Swiss diligence; it stopped</line>
     <line>just where I was standing, and on</line>
   </zone>
   <zone type="left_margin">
-    <milestone unit="tei:note" xml:id="c56-0049.02" spanTo="#c56-0049.03"/>
+    <line><metamark>_______________</metamark></line>
+    <milestone unit="tei:note" spanTo="#c56-0049.03"/>
       <line><metamark>*</metamark>Coleridge's</line>
       <line>"Ancient Mariner."</line>
     <anchor xml:id="c56-0049.03"/>

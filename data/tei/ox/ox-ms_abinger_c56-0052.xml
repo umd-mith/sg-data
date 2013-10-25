@@ -12,7 +12,7 @@
     <line>"occupations are at an end&#x2014;I am free</line>
     <line>"now I hope."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>I trembled excessively: I could not</line>
+    <line rend="indent1">I trembled excessively: I could not</line>
     <line>bear to think of<add place="intralinear" hand="#pbs">,</add> &#38; far less to
       allude</line>
     <line>to the occurences of the prece<del rend="strikethrough">e</del>ding</line>
@@ -32,7 +32,7 @@
         <del rend="overwritten">ed</del>
         <add place="intralinear" hand="#pbs">ing</add>
       </mod> him <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">therefore</add>
       </mod>to remain a few</line>
     <line>minute<add place="intralinear" hand="#pbs">s</add> at the bottom of the</line>

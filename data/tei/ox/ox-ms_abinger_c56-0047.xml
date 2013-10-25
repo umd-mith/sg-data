@@ -19,7 +19,7 @@
       </mod> shroud envolepped her form &#x26; I saw</line>
     <line>the grave worms crawling in the folds of</line>
     <line>the flannel; I started <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">from my sleep</add>
       </mod> with horror, a</line>
     <line><del rend="strikethrough">when I saw</del> cold dew covered my forehead</line>
@@ -42,7 +42,7 @@
       eyes</line>
     <line>they may be called,<add place="superlinear">&#x2014;</add> were fixed on
       me&#x2013;His</line>
-    <!--em-dashes above "eyes" and "called" possibly meant to replace punctuation. consider using "choice" element-->
+    <!--em-dashes above "eyes" and "called" possibly meant to replace punctuation. -->
     <line>jaws opened and he muttered <del rend="strikethrough"><add place="superlinear" hand="#pbs"
           >in</add></del> some <mod>
         <del rend="strikethrough">words</del>
@@ -70,10 +70,10 @@
         <add hand="#pbs" place="intralinear">y</add>
       </mod> given life.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Oh! no mortal could support</line>
+    <line rend="indent1">Oh! no mortal could support</line>
     <line>the horror of that countenance. A</line>
     <line>mummy <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">again</add>
       </mod> endued with <mod>
         <del rend="strikethrough">life</del>

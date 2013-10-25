@@ -21,21 +21,21 @@
       thus</line>
     <line>with life? Do your duty towards me</line>
     <line>and I will do mine towards you &#x26;</line>
-    <line>the rest of mankind. <mod><add place="sublinear"><metamark>^</metamark></add><add
+    <line>the rest of mankind. <mod><add place="sublinear"><metamark function="insert">^</metamark></add><add
       place="superlinear">If you comply with my conditions</add></mod> &#x2013;I will leave
       them</line>
     <line>and you at peace &#x2013; <mod spanTo="#c56-0125.01"/><delSpan spanTo="#c56-0125.02"
       rend="strikethrough"/>but as I am if</line>
     <line>you do not comply with my conti condi</line>
     <line>tions<anchor xml:id="c56-0125.02"/><add place="superlinear">but if you refuse</add><anchor
-      xml:id="c56-0125.01"/> I <mod><add place="sublinear"><metamark>^</metamark></add><add
+      xml:id="c56-0125.01"/> I <mod><add place="sublinear"><metamark function="insert">^</metamark></add><add
         place="superlinear">will</add></mod> glut the <del rend="strikethrough">t</del> maw of
       death untill</line>
     <line><mod><del rend="strikethrough">he</del><add place="superlinear" hand="#pbs">it</add></mod>
       be <del rend="strikethrough">satiate</del> satiated even with your</line>
     <line>dearest friends."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"<del rend="strikethrough">Miserable</del>
+    <line rend="indent1">"<del rend="strikethrough">Miserable</del>
       <del rend="strikethrough">wretch</del> Abhorred monster,</line>
     <line>cried I furiously, fiend that thou art</line>
     <line>the tortures of Hell are too <mod><del rend="strikethrough">soft for thee</del><add><anchor

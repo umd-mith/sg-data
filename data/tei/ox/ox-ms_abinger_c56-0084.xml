@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">114</zone>
   <zone type="main">
     <line>night which I spent<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">cold &#x26; wet</add>
       </mod> in the open</line>
     <line>air. <del rend="strikethrough">cold and wet</del>. But I did not</line>
@@ -16,7 +16,7 @@
         <del rend="overwritten">i</del>
         <add place="intralinear">e</add>
         <del rend="strikethrough">s</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">incovenience of the weather.</add>
       </mod> my imagination was busy in</line>
     <line>in <del rend="strikethrough">scene</del> scenes of ev<mod>
@@ -42,7 +42,7 @@
     <line>loose from the grave and forced to</line>
     <line>destroy all who were dear to me.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Day dawned and I directed my</line>
+    <line rend="indent1">Day dawned and I directed my</line>
     <line>steps towards the town &#x2013; the gates were</line>
     <line>open and I hastened to my father's</line>
     <line>house<del rend="strikethrough">s</del>.&#x2013;My <del rend="strikethrough">n</del> first
@@ -66,7 +66,7 @@
       </mod> such</line>
     <line>a <mod>
         <del rend="strikethrough">tale</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">relation</add>
       </mod> to me I should have looked</line>
     <line>upon it as the ravings of delirium</line>
@@ -78,7 +78,7 @@
         <anchor xml:id="c56-0084.08"/>
       </mod></line>
     <line><del rend="strikethrough" next="#c56-0084.09">which was</del><add place="sublinear"
-          ><metamark>^</metamark></add>
+          ><metamark function="insert">^</metamark></add>
       <del rend="strikethrough" xml:id="c56-0084.09">utterly impossible</del><add
         place="superlinear" hand="#pbs">as to persuade <mod>
           <del rend="strikethrough">its</del>

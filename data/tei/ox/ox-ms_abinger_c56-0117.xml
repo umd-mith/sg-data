@@ -40,7 +40,7 @@
         <line>the surrounding <hi rend="underline">aiguilles</hi> and its tremen</line>
         <line>dous <hi rend="underline">dome</hi> overlooked the valley.</line>
         <milestone unit="tei:p"/>
-        <line><space unit="chars" extent="4"/>During this journey I sometimes joined</line>
+        <line rend="indent1">During this journey I sometimes joined</line>
         <line>Elizabeth and exerted myself to point</line>
         <line>out to her the various beauties of the</line>
         <line>scene.&#x2014; And often I <del rend="strikethrough">let my</del> suffered</line>

@@ -11,7 +11,7 @@
     </mod>0</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>Yet as I drew nearer home grief and</line>
+    <line rend="indent1">Yet as I drew nearer home grief and</line>
     <line>fear overcame me &#x2013; night also closed</line>
     <line>round <del rend="strikethrough">me</del> and when I could hardly</line>
     <line>see the dark mountains I felt still</line>

@@ -38,7 +38,7 @@
     <line>waterfalls<del rend="unmarked">.</del><add place="intralinear" hand="#pbs"
       >around.</add></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>The next day we pursued our</line>
+    <line rend="indent1">The next day we pursued our</line>
     <line>journey on mules and as we ascended</line>
     <line>still higher; the valley assumed a</line>
     <line>more beautiful &#x26; verdant appear</line>

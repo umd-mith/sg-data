@@ -11,7 +11,7 @@
       acknow</line>
     <line>ledged by you, sweet lady, and your cousin."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Thus the poor sufferer <del rend="strikethrough">cr</del>
+    <line rend="indent1">Thus the poor sufferer <del rend="strikethrough">cr</del>
       tried</line>
     <line>to comfort others and herself. She indeed</line>
     <line>gained the resignation she wished for</line>
@@ -23,7 +23,7 @@
     <line>allowed no hope or consolation. Eliza</line>
     <line>beth also wept and was unhappy but</line>
     <line>hers<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">also</add>
       </mod> was <del rend="strikethrough">also</del> the misery of innocence</line>
     <line><anchor xml:id="c56-0106.01"/>like a cloud <mod>
@@ -51,7 +51,7 @@
         <add place="superlinear" hand="#pbs">extinguish.</add>
       </mod></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>We staid several hours with Justine</line>
+    <line rend="indent1">We staid several hours with Justine</line>
     <line>and <del rend="strikethrough">with</del> it was with great difficulty</line>
     <line>that Elizabeth tore herself away</line>
     <line>"I wish" cried she that I were to die</line>

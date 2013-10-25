@@ -13,7 +13,7 @@
         <add place="superlinear" hand="#pbs">rocks</add>
       </mod> of the</line>
     <line>mountain, or <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">transversely</add>
       </mod> upon other trees. The</line>
     <line>path as you <del rend="strikethrough">ascen</del> ascend higher is inters</line>
@@ -48,7 +48,7 @@
     <line>were rising from the river which ran</line>
     <line>through<del rend="strikethrough">t</del>
       <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">it</add>
       </mod> and curling in thick wreaths</line>
     <line>around the opposite mountains</line>

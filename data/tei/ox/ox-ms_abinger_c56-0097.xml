@@ -16,7 +16,7 @@
     <line>said she "the cousin of the unhappy</line>
     <line>child who was murdered or rather his</line>
     <line>sister for I was educated <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">by</add>
       </mod> and lived</line>
     <line>with his parents <del rend="strikethrough">s</del> ever <del rend="strikethrough"
@@ -30,7 +30,7 @@
     <line>I may say what I know of her character.</line>
     <line><del rend="strikethrough">and</del> I <mod>
         <del rend="strikethrough">know a great deal</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">am well acquainted with it.</add>
       </mod>
       <del rend="strikethrough">for</del> I have</line>
@@ -38,7 +38,7 @@
     <line>one time for five and afterwards for</line>
     <line>nearly two years. During all that <mod>
         <del rend="strikethrough">time</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">period</add>
       </mod></line>
     <line>she <del rend="strikethrough"><unclear unit="chars" extent="1"/></del> appeared to me a
@@ -47,7 +47,7 @@
     <line>my aunt in her last illness with the</line>
     <line>greatest affection and care and after</line>
     <line>terwards attended her <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">own</add>
       </mod> mother during a</line>
     <line>long &#x26; tedious illness <del rend="strikethrough">w</del> in a manner</line>
@@ -56,13 +56,13 @@
     <line>lived in my uncle's house where she</line>
     <line>was <mod>
         <del rend="strikethrough">always a favourite</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">beloved by all the family</add>
       </mod>. <del rend="strikethrough">Of the deceased</del></line>
     <line>she was <mod>
         <del rend="strikethrough">very</del>
         <del rend="strikethrough">fond</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">warmly attached to <del rend="strikethrough">of</del> the child who
           has been murdered</add>
       </mod> and acted towards him</line>
@@ -70,7 +70,7 @@
       Mother<unclear>.</unclear></line>
     <line>for my own part I do not hesitate to</line>
     <line><del rend="strikethrough">s</del>ay that not withstanding <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">all</add>
       </mod> the evidence</line>
   </zone>

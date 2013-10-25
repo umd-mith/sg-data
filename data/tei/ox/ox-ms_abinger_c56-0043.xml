@@ -35,12 +35,12 @@
     <line>ly, and the Empires of Mexico &#x26; Peru had</line>
     <line>not been destroyed.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>But I forget that I am moralizing</line>
+    <line rend="indent1">But I forget that I am moralizing</line>
     <line>in the most interresting part of my</line>
     <line>tale; and your looks remind me to</line>
     <line>proceed.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>My father made no reproach in his</line>
+    <line rend="indent1">My father made no reproach in his</line>
     <line>letters, <del rend="strikethrough">an</del> and only took notice of my</line>
     <line>silence by enquiring more particularly</line>
     <line>than before what my <del rend="strikethrough">co</del> occupations</line>

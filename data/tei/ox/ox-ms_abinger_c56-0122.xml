@@ -11,23 +11,23 @@
     <line>scene that that win<damage agent="ink">d</damage> may convey to</line>
     <line>us</line>
     <milestone unit="tei:lg" spanTo="#c56-0122.01"/>
-    <line><space unit="chars" extent="6"/>We rest, A dream has power to poison</line>
-    <line><space unit="chars" extent="35"/><metamark>L</metamark>sleep</line>
-    <line><space unit="chars" extent="7"/>We rise one wandering thought pollutes</line>
-    <line><space unit="chars" extent="23"/>the day</line>
-    <line><space unit="chars" extent="5"/>We feel conceive, or reason &#x2013; laugh or weep</line>
-    <line><space unit="chars" extent="6"/>Embrace fond woe or cast our cares</line>
-    <line><space unit="chars" extent="28"/>away</line><anchor xml:id="c56-0122.01"/>
+    <line rend="indent3">We rest, A dream has power to poison</line>
+    <line rend="right"><metamark>L</metamark> sleep</line>
+    <line rend="indent4">We rise one wandering thought pollutes</line>
+    <line rend="right">the day</line>
+    <line rend="indent2">We feel conceive, or reason &#x2013; laugh or weep</line>
+    <line rend="indent3">Embrace fond woe or cast our cares</line>
+    <line rend="right">away</line><anchor xml:id="c56-0122.01"/>
     <milestone unit="tei:lg" spanTo="#c56-0122.02"/>
-    <line><space unit="chars" extent="3"/>It is the same &#x2013;for be it joy or sorrow</line>
-    <line><space unit="chars" extent="4"/>The path of its departure still is free</line>
-    <line><space unit="chars" extent="6"/>Mans yesterday may ne'er be like</line>
-    <line><space unit="chars" extent="25"/><add place="intralinear" hand="#pbs">h</add>is
+    <line rend="indent1">It is the same &#x2013;for be it joy or sorrow</line>
+    <line rend="indent2">The path of its departure still is free</line>
+    <line rend="indent3">Mans yesterday may ne'er be like</line>
+    <line rend="right"><add place="intralinear" hand="#pbs">h</add>is
       morrow</line>
-    <line><space unit="chars" extent="5"/>Nought may endure but mutability.</line>
+    <line rend="indent2">Nought may endure but mutability.</line>
     <anchor xml:id="c56-0122.02"/>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I<add place="intralinear">t</add> was noon when I arrived
+    <line rend="indent1">I<add place="intralinear">t</add> was noon when I arrived
       at the</line>
     <line>top of the <mod>
         <del rend="strikethrough">mountain</del>
@@ -80,28 +80,28 @@
 
   <zone type="left_margin">
     <addSpan spanTo="#c56-0122.04"/>
-    <line><unclear><del rend="strikethrough">120</del></unclear></line>
-    <line><unclear><hi rend="underline">130</hi></unclear></line>
+    <line><metamark><unclear><del rend="strikethrough">120</del></unclear></metamark></line>
+    <line><metamark><unclear><hi rend="underline">130</hi></unclear></metamark></line>
     <anchor xml:id="c56-0122.04"/>
   </zone>
 
   <zone type="left_margin">
-    <line>100</line>
-    <line>130</line>
+    <line><metamark>100</metamark></line>
+    <line><metamark>130</metamark></line>
   </zone>
 
   <zone type="left_margin">
-    <line>40</line>
-    <line>5</line>
+    <line><metamark>40</metamark></line>
+    <line><metamark>5</metamark></line>
   </zone>
 
   <zone type="left_margin">
-    <line>75</line>
+    <line><metamark>75</metamark></line>
   </zone>
 
   <zone type="left_margin">
-    <line>130</line>
-    <line>75</line>
-    <line><hi rend="underline">205</hi></line>
+    <line><metamark>130</metamark></line>
+    <line><metamark><hi rend="underline">75</hi></metamark></line>
+    <line><metamark>205</metamark></line>
   </zone>
 </surface>

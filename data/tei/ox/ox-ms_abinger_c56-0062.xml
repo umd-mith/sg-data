@@ -13,7 +13,7 @@
     <line>Poor Justine was very ill but other</line>
     <line>tryals were reserved for her.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>One by one her brothers &#x26; sister</line>
+    <line rend="indent1"><space unit="chars" extent="3"/>One by one her brothers &#x26; sister</line>
     <line>had died and her mother was now</line>
     <line>with the exception of her neglected</line>
     <line>daugher <del rend="strikethrough">was</del> left childless. The</line>
@@ -29,7 +29,7 @@
       </mod>y</line>
     <line>she was a roman Catholic and I believe</line>
     <line>her confessor encouraged the idea<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">which she had concieved.</add>
       </mod>. Accor</line>
     <line>dingly, a few Months after your depar</line>

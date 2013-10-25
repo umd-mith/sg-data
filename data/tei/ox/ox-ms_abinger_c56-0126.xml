@@ -8,7 +8,7 @@
   <zone type="pagination">156</zone>
   <zone type="main">
     <line>powe<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>ful than thyself my height is superior</line>
     <line>to yours my joints more supple. But I</line>
@@ -41,7 +41,7 @@
       </mod>
       <mod>
         <del rend="strikethrough">towards</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
       </mod> me. Oh Fran</line>
     <line>kenstein, do not <add place="intralinear" hand="#pbs">be</add> equitable to every
       other</line>
@@ -55,7 +55,7 @@
     <line>thy creature &#x2013; <add place="superlinear" hand="#pbs">I ought to be</add> Thy Adam
       &#x2013; <mod>
         <del rend="strikethrough">or</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">but I am</add>
       </mod> rather the</line>
     <line>fallen angel <mod>
@@ -73,7 +73,7 @@
     <line>misery made me a fiend. Make me</line>
     <line>happy and I shall again be virtuous</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Begone replied I &#x2013; I <del rend="strikethrough"
+    <line rend="indent1">Begone replied I &#x2013; I <del rend="strikethrough"
         >cannot and</del></line>
     <line>will not hear you. there can be no</line>
     <line>community between you and I&#x2013; We are</line>
@@ -81,7 +81,7 @@
     <line>our streng<del rend="strikethrough">h</del>th in a fight in which</line>
     <line>one must fall."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/><del rend="strikethrough">How</del> How can I move you?
+    <line rend="indent1">><del rend="strikethrough">How</del> How can I move you?
       said the</line>
     <line>fiend&#x2014; Will no entreaties cause you</line>
     <line>to turn a favourable eye upon thy</line>

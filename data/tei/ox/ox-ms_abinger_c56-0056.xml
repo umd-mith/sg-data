@@ -10,7 +10,7 @@
     <line><del rend="strikethrough">astonished him.</del><add hand="#pbs" place="intralinear"
         next="#c56-0056.01"><del rend="strikethrough">sta</del> persuaded him that my</add><anchor xml:id="c56-0056.02"/></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/><del rend="strikethrough">It was</del> by very slow
+    <line rend="indent1"><del rend="strikethrough">It was</del> by very slow
       degrees and with</line>
     <line>frequent relapses that alarmed &#x26;</line>
     <line>grieved my friend <del rend="strikethrough">that</del> I recovered. I remember</line>
@@ -29,7 +29,7 @@
     <line>as before I was attacked by the fatal</line>
     <line>passion <del rend="strikethrough">that consumed me</del>.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"Dearest Clerval," said I "How kind<add
+    <line rend="indent1">"Dearest Clerval," said I "How kind<add
         place="intralinear" hand="#pbs">,</add></line>
     <line>"how very good you are to me. This</line>
     <line>"whole winter instead of spending it</line>
@@ -40,7 +40,7 @@
     <line>"pointment I have been the <del rend="strikethrough">c</del>occa</line>
     <line>"sion of&#x2013; But you will forgive me."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"You will repay me," replied Henry,</line>
+    <line rend="indent1">"You will repay me," replied Henry,</line>
     <line>"if you do not dis compose yourself;</line>
   </zone>
   <zone type="left_margin" corresp="#c56-0056.02">

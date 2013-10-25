@@ -41,7 +41,7 @@
       <del rend="strikethrough">of</del> a science</line>
     <line>that appeared to me to contain only words.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>From this time untill I went to</line>
+    <line rend="indent1">From this time untill I went to</line>
     <line>Colledge I entirely neglected my formerly</line>
     <line>adored study of <mod>
         <del rend="strikethrough">chemistry</del>

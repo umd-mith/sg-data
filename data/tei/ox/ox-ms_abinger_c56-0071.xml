@@ -69,7 +69,7 @@
       </mod> season was indeed</line>
     <line>divine &#x2013; the flowers of spring <mod>
         <del rend="strikethrough">blossomed</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">bloomed</add>
       </mod> in the</line>
     <line>hedges while those of summer were al</line>

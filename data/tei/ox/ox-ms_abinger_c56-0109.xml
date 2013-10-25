@@ -20,7 +20,7 @@
       </mod>ty of conscience which allowed me</line>
     <line>to look back on my actions with self satis</line>
     <line>faction, and from thence <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">to gather promise of</add>
       </mod> new hopes <delSpan spanTo="#c56-0109.01" rend="strikethrough"/>like</line>
     <line>gay<unclear>-</unclear>sweet-smelling flowers to spring up</line>
@@ -33,7 +33,7 @@
       </mod> no language can</line>
     <line>describe.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>This state of mind <mod>
+    <line rend="indent1">This state of mind <mod>
         <del rend="strikethrough">allt</del>
         <del rend="strikethrough">altered</del>
         <add place="superlinear" hand="#pbs">preyed upon</add>
@@ -55,7 +55,7 @@
     <line>with me on the folly of giving way to immo</line>
     <line>derate grief. "Do you think, Victor" said he</line>
     <line>"That I do not suffer also&#x2013; no one <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">could</add>
       </mod> love<del rend="strikethrough">d</del></line>
     <line>a child more than I <mod>
@@ -73,7 +73,7 @@
       <del rend="strikethrough">owed</del> to the<del rend="strikethrough">ir</del> survivors</line>
     <line><mod>
         <del rend="strikethrough">not</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">to</add></del>
         <del rend="strikethrough">add to</del>
         <anchor xml:id="c56-0109.03"/>

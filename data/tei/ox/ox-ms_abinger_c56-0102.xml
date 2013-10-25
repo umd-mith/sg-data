@@ -16,7 +16,7 @@
     <line>shake my confidence in you but</line>
     <line>your own confession&#x2013;"</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>"I did confess" said Justine "but</line>
+    <line rend="indent1">"I did confess" said Justine "but</line>
     <line>I confessed a lie. I confessed that I</line>
     <line>might obtain absolution but now</line>
     <line>that falsehood lies heavier at my</line>

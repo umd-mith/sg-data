@@ -14,13 +14,13 @@
     <line>it became a thing <del rend="strikethrough">to</del> such as even Dante</line>
     <line>could never have conceived.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I passed the night wretchedly&#x2013;</line>
+    <line rend="indent1">I passed the night wretchedly&#x2013;</line>
     <line>sometimes my pulse<add place="intralinear">s</add> beat so quickly <mod>
         <del rend="overwritten">t</del>
         <add place="intralinear">a</add>
       </mod>nd</line>
     <line>ha<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">r</add>
       </mod>dly that I felt the palpitation of</line>
     <line>every artery: At others I nearly sunk</line>
@@ -30,16 +30,15 @@
       </mod> languor and ex-</line>
     <line>treme weakness. <mod spanTo="#c56-0048.04"/><del rend="strikethrough"
         next="#c56-0048.05">Surely so wretched a</del></line>
-    <line><add place="superlinear"><metamark>X</metamark></add><del rend="strikethrough"
-        xml:id="c56-0048.05">creature as I never before existed.</del><anchor xml:id="c56-0048.01"
-        /><anchor xml:id="c56-0048.04"/></line>
+    <line><add place="superlinear"><metamark function="displacement" xml:id="c56-0048.01">X</metamark></add><del rend="strikethrough"
+        xml:id="c56-0048.05">creature as I never before existed.</del><anchor xml:id="c56-0048.04"/></line>
     <line>Dreams that had been my food and</line>
     <line>rest for so long a space were now</line>
     <line>become a hell to me&#x2013; <del rend="strikethrough">I</del> and the</line>
     <line>change was so rapid, the overthrow</line>
     <line>so complete.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Morning &#x2014; dismal and wet &#x2014; at leng<mod>
+    <line rend="indent1">Morning &#x2014; dismal and wet &#x2014; at leng<mod>
         <del rend="overwritten">ht</del>
         <add place="intralinear">th</add>
       </mod></line>

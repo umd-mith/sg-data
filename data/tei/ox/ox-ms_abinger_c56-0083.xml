@@ -11,7 +11,7 @@
     <line>the murderer of my brother. No sooner</line>
     <line>did that idea cross my imagination than</line>
     <line>I became convinced <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">of its truth</add>
       </mod> &#x2014; my teeth chattered</line>
     <line>and I was forced to lean against <del rend="strikethrough">th</del> a </line>
@@ -23,7 +23,7 @@
       </mod>e</line>
     <line><anchor xml:id="c56-0083.01"/>was the murderer! <mod spanTo="c56-0083.02"/>
       <del rend="strikethrough">I<mod>
-          <add place="sublinear"><metamark>^</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear">could not</add>
         </mod> doubt<del rend="strikethrough">ed</del> it</del>
       <del rend="strikethrough">not</del>
@@ -31,12 +31,12 @@
     <line><del rend="strikethrough">the</del>
       <del rend="strikethrough">thought</del>
       <del rend="strikethrough">was agony<mod>
-          <add place="sublinear"><metamark>^</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear">I was agonized by the bare probability</add>
         </mod></del><anchor xml:id="c56-0083.03"/><anchor xml:id="c56-0083.02"/> &#x2014; I thought
       of pur</line>
     <line>sueing the devil, but <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"> it would have been</add>
       </mod> in vain for another</line>
     <line>flash discovered him to me <mod spanTo="#c56-0083.05"/><delSpan spanTo="#c56-0083.06"
@@ -49,12 +49,12 @@
         <add place="intralinear">e</add>
       </mod>ared.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I remained motionless the thunder</line>
+    <line rend="indent1">I remained motionless the thunder</line>
     <line>ceased but the rain still continued &#x26;</line>
     <line>the scene was inveloped in a<mod>
         <add place="intralinear">n</add>
         <del rend="strikethrough">pitchy</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">impenetrable</add>
       </mod> dark-</line>
     <line>ness. I revolved in my mind <mod spanTo="c56-0083.11"/><delSpan spanTo="#c56-0083.07"
@@ -65,20 +65,20 @@
           >^</metamark></add> The appearance</line>
     <line>of <mod>
         <del rend="strikethrough">the creature</del>
-        <add><metamark>^</metamark></add>
+        <add><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">the work of my own hands, alive</add>
       </mod> at my bed side &#x2013; <add place="superlinear" hand="#pbs"> &#x26;</add> its
       departure.</line>
     <line><del rend="strikethrough">Its</del>
       <del rend="strikethrough">It was now nearly</del> two years <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">had now nearly elapsed</add>
       </mod> since the</line>
     <line>night <del rend="strikethrough">of</del> on which he first received</line>
     <line>life, and was this his first crime &#x2013; <del rend="strikethrough"
         ><unclear>?</unclear></del>Alas!</line>
     <line>I <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add>had</add>
       </mod> turned loose in the world a depraved</line>
     <line>wretch whose delight was in <del rend="strikethrough">deat</del></line>
@@ -88,7 +88,7 @@
       </mod> had he</line>
     <line>not murdered my brother?</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>No one can conceive of the anguish I</line>
+    <line rend="indent1">No one can conceive of the anguish I</line>
     <line>suff<mod>
         <del rend="overwritten">er</del>
         <add place="intralinear" hand="#pbs">e</add>

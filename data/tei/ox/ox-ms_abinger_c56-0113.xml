@@ -30,7 +30,7 @@
     <line>no longer see <del rend="strikethrough">things</del> the world and its</line>
     <line>works in the same light as they before</line>
     <line>appeared to <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">me.</add>
       </mod> Before &#x2013; <mod>
         <del rend="strikethrough">Stories</del>
@@ -49,12 +49,12 @@
     <line>believed that poor girl to be guilty, and</line>
     <line>if she <mod>
         <del rend="strikethrough">had</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">could have committed the crime for which she suffered,
           assuredly she</add>
       </mod> would <del rend="strikethrough">she not</del> have been</line>
     <line>the most depraved of <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">human</add>
       </mod> creatures. For the</line>
     <line>sake of a few jewels to have murdered</line>
@@ -77,7 +77,7 @@
       You</line>
     <line>are of the same opinion and that</line>
     <line>confirms me. Alas, Victor! when <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough">lies</del>
         <del rend="strikethrough">appear</del>
         <add place="superlinear">falsehood <del rend="strikethrough">look</del></add>

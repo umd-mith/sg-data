@@ -6,10 +6,9 @@
   xml:id="ox-ms_abinger_c56-0038" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0038.tif"/>
   <zone type="pagination" rend="bordered">68</zone>
-  <zone type="top">
-    <line>Chapter 6.</line>
-  </zone>
+  
   <zone type="main">
+    <line><milestone unit="tei:head" spanTo="#c56-0038.18"/>Chapter 6.<anchor xml:id="c56-0038.18"/></line>
     <line>When I found <mod>
         <del rend="strikethrough">this</del>
         <add place="superlinear" hand="#pbs">so</add>
@@ -36,7 +35,7 @@
         <add hand="#pbs" place="superlinear">frame</add>
       </mod>
       <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">for the <mod>
             <del rend="strikethrough">receiving i</del>
             <add place="superlinear">reception of</add>
@@ -50,8 +49,8 @@
         <anchor xml:id="c56-0038.01"/>
       </mod></line>
     <line>a work of inconceivable labour<add place="superlinear" hand="#pbs"
-        ><metamark>2</metamark></add> &#x26; diffi<add place="superlinear" hand="#pbs"
-          ><metamark>1</metamark></add></line>
+        ><metamark function="transpose">2</metamark></add> &#x26; diffi<add place="superlinear" hand="#pbs"
+          ><metamark function="transpose">1</metamark></add></line>
     <line>culty. I doubted at first whether I should</line>
     <line>attempt the creation of a <mod>
         <del rend="strikethrough">creature</del>
@@ -69,7 +68,7 @@
       </mod>
       <mod>
         <del rend="strikethrough">creature</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear"><del rend="strikethrough">being</del> an animal</add>
       </mod> as complex</line>
     <line>and wonderful as man. <mod spanTo="#c56-0038.02"/><mod>
@@ -120,7 +119,7 @@
           place="superlinear" hand="#pbs">at le</add></del>
       <del rend="strikethrough">be in every</del></line>
     <line><add hand="#pbs">at least <mod>
-          <add place="sublinear"><metamark>^</metamark></add>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
           <add place="superlinear">lay</add>
         </mod> the foundations of future success</add><anchor xml:id="c56-0038.17"/></line>
   </zone>

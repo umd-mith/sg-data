@@ -15,11 +15,11 @@
         <add place="superlinear" hand="#pbs">by which I had been</add>
       </mod>progressively led to it were</line>
     <line>obliterated. <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">and</add>
       </mod>I <mod>
         <del rend="strikethrough">saw</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">beheld</add>
       </mod> only the result. What</line>
     <line>had been the study and desire of the</line>
@@ -29,7 +29,7 @@
         <add hand="#pbs" place="superlinear">within</add>
       </mod> my <mod>
         <del rend="strikethrough">hands.</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">grasp;</add>
       </mod> Not</line>
     <line>that, like a magic <del rend="strikethrough"><unclear>sceen</unclear></del> scene
@@ -48,15 +48,15 @@
         <add place="intralinear">T</add>
       </mod>he <del rend="strikethrough"><unclear>big</unclear></del> information</line>
     <line>I had obtained was <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">of a nature</add>
       </mod> rather <mod spanTo="#c56-0036.02"/><delSpan rend="strikethrough"
         spanTo="#c56-0036.03"/>one that</line>
     <line>would<anchor xml:id="c56-0036.03"/><add place="sublinear"
-        ><metamark>^</metamark></add>
+        ><metamark function="insert">^</metamark></add>
       <add hand="#pbs" place="superlinear">to</add><anchor xml:id="c56-0036.02"/> direct my
       endeavours. <mod spanTo="#c56-0036.04"/><add place="sublinear"
-          ><metamark>^</metamark></add>
+          ><metamark function="insert">^</metamark></add>
       <delSpan spanTo="#c56-0036.05" rend="strikethough"/>that</line>
     <line>than show me the prospect with</line>
     <line>any precise certainty.<anchor xml:id="c56-0036.05"/><anchor xml:id="c56-0036.06"
@@ -66,7 +66,7 @@
     <line>aided only by one glimmering and seem</line>
     <line>ingly ineffectual light.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I see by your eargerness and the</line>
+    <line rend="indent1">I see by your eargerness and the</line>
     <line>wonder and hope which your eyes</line>
     <line>express, my friend, that you expect to</line>
     <line>be informed of the <del rend="strikethrough">scret</del> secret with</line>

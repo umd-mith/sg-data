@@ -23,7 +23,7 @@
         <add place="intralinear">is</add>
       </mod>
       <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">last</add>
       </mod> winter <delSpan spanTo="#c56-0063.01" rend="strikethrough"/>that</line>
     <line>has just passed<anchor xml:id="c56-0063.01"/>. Justine has</line>
@@ -39,7 +39,7 @@
       remind me</line>
     <line>of my dear Aunt.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/><del rend="strikethrough">And</del> I must say a few words
+    <line rend="indent1"><del rend="strikethrough">And</del> I must say a few words
       to</line>
     <line>you also, My dear Victor, of little darling</line>
     <line>William. I wish you could see him. He</line>
@@ -56,7 +56,7 @@
           >X</metamark></add>
       </mod></line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/><del rend="strikethrough">Miss Mansfeld</del> Now, dear
+    <line rend="indent1"><del rend="strikethrough">Miss Mansfeld</del> Now, dear
       Victor I dare</line>
   </zone>
   <zone type="left_margin" corresp="#c56-0063.02">

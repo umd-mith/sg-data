@@ -38,7 +38,7 @@
         next="#c56-0021.03">he said he did not</del><anchor xml:id="c56-0021.01"/></line>
     <line><del rend="strikethrough" xml:id="c56-0021.03" next="#c56-0021.04">see</del>
       <mod>
-        <del rend="unmarked"><add place="sublinear"><metamark>^</metamark></add><add
+        <del rend="unmarked"><add place="sublinear"><metamark function="insert">^</metamark></add><add
             place="superlinear">of</add></del>
       </mod>
       <del rend="strikethrough" xml:id="c56-002201.04" next="#c56-0021.05">what use learning</del>

@@ -11,7 +11,7 @@
     <line>bitterness "are you always to be unhappy?</line>
     <line>"my dear friend, what has happened?"</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>I motioned to him to <mod>
+    <line rend="indent1">I motioned to him to <mod>
         <del rend="strikethrough">read</del>
         <add place="superlinear">take up</add>
       </mod> the letter</line>
@@ -21,11 +21,11 @@
     <line>read the letter<anchor xml:id="c56-0077.01"/> &#x2013; <del rend="strikethrough">and</del>
       tears also <del rend="strikethrough">gush</del></line>
     <line>gushed <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">also</add>
       </mod> from <mod>
         <del rend="strikethrough">his</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">the</add>
       </mod> eyes <add place="superlinear"><metamark function="displacement" xml:id="c56-0077.02"
           >X</metamark></add> &#x2013;"I can offer you</line>
@@ -36,11 +36,11 @@
       </mod> is irreperable.<del rend="strikethrough">"</del> What</line>
     <line>"do you intend to do"?</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>"To go instantly to Geneva<del rend="strikethrough"
+    <line rend="indent1">"To go instantly to Geneva<del rend="strikethrough"
         >"</del> come</line>
     <line>with me, Clerval, to order the horses"</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>During our walk <del rend="strikethrough">C</del> Henry
+    <line rend="indent1">During our walk <del rend="strikethrough">C</del> Henry
       endeav-</line>
     <line>oured to raise my spirits&#x2013; He did not</line>
     <line>do this by the common topics of <del rend="strikethrough">conversatio</del></line>

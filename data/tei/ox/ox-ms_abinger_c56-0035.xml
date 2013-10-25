@@ -17,7 +17,7 @@
     <line>that I alone should discover</line>
     <line>this astonishing secret.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Remember I am <mod>
+    <line rend="indent1">Remember I am <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">not</add>
       </mod> recording the</line>
@@ -48,7 +48,7 @@
     <line>bestowing animation upon lifeless</line>
     <line>matter.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/><del rend="strikethrough">My</del> The surprise <mod>
+    <line rend="indent1"><del rend="strikethrough">My</del> The surprise <mod>
         <del rend="strikethrough">that</del>
         <add place="superlinear" hand="#pbs">which</add>
       </mod> I <mod>

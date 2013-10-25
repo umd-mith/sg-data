@@ -11,11 +11,11 @@
     <line>the minuti&#xE6; of science. <del rend="strikethrough">La</del> Lan</line>
     <line>guages were his <mod>
         <del rend="strikethrough">chief</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">principal</add>
       </mod> study for he</line>
     <line>wished to open a field for <mod>
-        <del rend="strikethrough"><add place="sublinear"><metamark>^</metamark></add><add
+        <del rend="strikethrough"><add place="sublinear"><metamark function="insert">^</metamark></add><add
             place="superlinear">him</add></del>
       </mod> self-instruc</line>
     <line>tion on his return &#x2013; <del rend="strikethrough">Greek</del> Persian</line>
@@ -46,17 +46,17 @@
     <line>joy elevating to a degree I never before</line>
     <line>experienced in <mod>
         <del rend="strikethrough">reading</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">studying</add>
       </mod>
       <mod>
         <del rend="strikethrough">any</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">the authors of</add>
         <add place="superlinear">any</add>
       </mod> other <mod>
         <del rend="strikethrough">books.</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">country.</add>
       </mod></line>
     <line>When you read<del rend="strikethrough">s</del> their <del rend="strikethrough"
@@ -69,7 +69,7 @@
       </mod> of a fair enemy and the fire</line>
     <line>that consumes your own heart</line>
     <line>How different from the man<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">l</add>
       </mod>y &#x26; <del rend="strikethrough">warlike</del></line>
     <line><anchor xml:id="c56-0069.03"/>poet<mod>

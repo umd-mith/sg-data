@@ -9,7 +9,7 @@
   <zone type="top"><line>Chap. 11</line></zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line rend="indent1"><space unit="chars" extent="1"/>We were soon joined <mod>
+    <line rend="indent1">We were soon joined <mod>
         <del rend="strikethrough">By</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">by</add>

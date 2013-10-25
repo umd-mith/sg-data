@@ -10,7 +10,7 @@
   <zone type="main">
     <line>to define them.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>I remained <del rend="strikethrough">thus</del> at
+    <line rend="indent1">I remained <del rend="strikethrough">thus</del> at
       Lausanne for</line>
     <line>two days not daring to proceed. I contem</line>
     <line>plated the lake &#x2013; the waters were</line>
@@ -43,7 +43,7 @@
     <line>or to mock<retrace hand="#pbs" cause="fix"><add place="superlinear" hand="#pbs"
         >at</add></retrace> my unhappiness?</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>I fear, my friend <mod>
+    <line rend="indent1">I fear, my friend <mod>
         <del rend="strikethrough">to</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">that I shall</add>
@@ -60,7 +60,7 @@
         <add place="intralinear">f</add>
       </mod> them with pleasure &#x2013; My Country</line>
     <line>my beloved country Who <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">but a native</add>
       </mod>can tell the</line>
     <line>delight I took in again beholding thy</line>

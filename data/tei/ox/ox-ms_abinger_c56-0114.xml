@@ -29,11 +29,11 @@
     <line>crimes I would not change places with</line>
     <line>such a wretch."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>I listened to this discourse with the</line>
+    <line rend="indent1">I listened to this discourse with the</line>
     <line>extremest agony &#x2013; I &#x2013; not <mod>
         <del rend="strikethrough"><unclear unit="chars" extent="2"/></del>
         <del rend="strikethrough">ind</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">in</add>
       </mod> deed</line>
     <line>but in effect was the true murderer.&#x2014;</line>
@@ -52,7 +52,7 @@
         <restore type="stetdots">
           <del rend="stikethrough">beloved</del>
         </restore>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear"><unclear>best</unclear></add></del>
       </mod></line>
     <line>Victor, I <mod>

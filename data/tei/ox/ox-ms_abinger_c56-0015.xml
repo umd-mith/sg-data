@@ -26,7 +26,7 @@
     <line>of gasses <del rend="strikethrough">to</del> and elements to ascertain</line>
     <line>the results.</line><anchor xml:id="c56-0015.02"/>
     <milestone unit="tei:p"/>
-    <line><delSpan spanTo="#c56-0015.03" rend="strikethrough"/><space unit="chars" extent="4"/>As I
+    <line rend="indent1"><delSpan spanTo="#c56-0015.03" rend="strikethrough"/>As I
       before mentioned my brothers</line>
     <line>were much younger than myself.</line>
     <line>Ernest the second of our family was five</line><anchor xml:id="c56-0015.03"/>

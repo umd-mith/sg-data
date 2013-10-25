@@ -13,7 +13,7 @@
     <line>if I <del rend="strikethrough">y</del> may use that term for it is</line>
     <line>very expressive.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>"My uncle and I conversed <del rend="strikethrough"
+    <line rend="indent1">"My uncle and I conversed <del rend="strikethrough"
         >the</del></line>
     <line>last night a long time about what</line>
     <line><anchor xml:id="c56-0059.01"/>Ernest <mod>
@@ -32,11 +32,11 @@
     <line><del rend="strikethrough">&#x26;</del> happy life; and the least hurtful</line>
     <line>or rather the most benificial <del rend="strikethrough">of any</del></line>
     <line>profession.<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">of any.</add>
       </mod> My <del rend="strikethrough">father</del> uncle had an</line>
     <line>idea of his being<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">educated as</add>
       </mod> an advocate, <mod>
         <del rend="overwritten">&#x26;</del>

@@ -17,7 +17,7 @@
     <line>which put an end to the conversation</line>
     <line>on that subject</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>And now I must tell you a little</line>
+    <line rend="indent1"><space unit="chars" extent="4"/>And now I must tell you a little</line>
     <line>story that will please you. Do you</line>
     <line>not remember <del rend="strikethrough">Ju</del> Justine <del rend="strikethrough"
         >Martin</del>?<anchor xml:id="c56-0060.01"/></line>
@@ -35,7 +35,7 @@
       </mod> an odd perversity her Mother</line>
     <line><del rend="strikethrough">never</del> could <mod>
         <del rend="strikethrough">bear</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">not endure</add>
       </mod> her and after the</line>
     <line>death of M. <mod>

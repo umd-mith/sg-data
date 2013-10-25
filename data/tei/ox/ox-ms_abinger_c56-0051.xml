@@ -12,7 +12,7 @@
     <line>"incredulous to the last for his con</line>
     <line>"stant answer to my applications</line>
     <line>"was the same as <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">that of</add>
       </mod>the dutch school</line>
     <line>"master in the Vicar of Wakefield&#x2013;</line>
@@ -24,7 +24,7 @@
     <line>"length overcame his dislike for</line>
     <line>"learning, and he permitted me</line>
     <line>"to <mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">under</add>
       </mod>take a voyage <add place="superlinear" hand="#pbs">of discovery</add>to the land
       of</line>
@@ -57,7 +57,7 @@
     <line>"not allow<mod>
         <add place="intralinear" hand="#pbs">ed</add>
       </mod><mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">myself</add>
       </mod> sufficient rest as you</line>
   </zone>
@@ -84,7 +84,7 @@
     <line><metamark function="count"><hi rend="underline">2<mod>
             <del rend="overwritten">5</del>
             <add place="intralinear">4</add>
-          </mod></hi></metamark><space unit="chars" extent="5"/><metamark>17</metamark></line>
+          </mod></hi></metamark><space unit="chars" extent="5"/><metamark function="count">17</metamark></line>
     <line><metamark function="count">180</metamark></line>
     <line><metamark function="count"><del rend="strikethrough">156</del></metamark></line>
     <anchor xml:id="c56-0051.05"/>

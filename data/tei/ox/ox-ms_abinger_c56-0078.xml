@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">108</zone>
   <zone type="main">
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="5"/>Clerval spoke this as we huried</line>
+    <line rend="indent1">Clerval spoke this as we huried</line>
     <line><del rend="strikethrough">thou</del> through the streets the words</line>
     <line>impressed themselves on my <del rend="strikethrough">memor</del></line>
     <line>mind and I remembered them afterwads</line>
@@ -17,7 +17,7 @@
     <line>a Cabriolet and <del rend="strikethrough">left Ingo</del> bad fare</line>
     <line>well to my friend.</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>My journey was very melancholy.</line>
+    <line rend="indent1">My journey was very melancholy.</line>
     <line>At first I wished to hurry on for I longed</line>
     <line>to console &#x26; sympathize <add place="superlinear">with</add>my loved and</line>
     <line>sorrowing friends but when I drew</line>

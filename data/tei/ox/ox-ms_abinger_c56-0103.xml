@@ -12,7 +12,7 @@
     <line>aunt had so highly honoured and</line>
     <line>whom you loved, was a wretch capa</line>
     <line>ble of<mod>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">a</add>
       </mod> crime which <mod>
         <del rend="strikethrough">not</del>
@@ -20,7 +20,7 @@
       </mod> but the</line>
     <line>devil himself <mod>
         <del rend="strikethrough">was capable of</del>
-        <add place="sublinear"><metamark>^</metamark></add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">could have perpetrated</add>
       </mod>. Dear</line>
     <line>William, dearest blessed child, I soon</line>
@@ -28,7 +28,7 @@
     <line>glory and that consoles me going as</line>
     <line>I am to suffer ignominy and de<add place="superlinear">"</add>ath.</line><!--quotation mark above death due to lack of space on right margin-->
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"Oh Justine" cried the weeping</line>
+    <line rend="indent1">"Oh Justine" cried the weeping</line>
     <line>Elizabeth, "forgive me for having for</line>
     <line>one moment distrusted you &#x2013; <del rend="strikethrough">But</del></line>
     <line>why did<add place="superlinear">you</add> confess? But do not mourn</line>
@@ -40,7 +40,7 @@
     <line>never can survive so horrible</line>
     <line>a misfortune".</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"Dear Sweet lady," do not weep"&#x2013;</line>
+    <line rend="indent1">"Dear Sweet lady," do not weep"&#x2013;</line>
     <line><del rend="strikethrough">sai</del> replied Justine"&#x2013; you ought to</line>
     <line>raise me <del rend="strikethrough">w</del> with thoughts of a better</line>
     <line><mod>
@@ -51,7 +51,7 @@
     <line>and strife &#x2013;Do not you, excellent</line>
     <line>Elizabeth drive me to despair."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="4"/>Elizabeth <del rend="strikethrough">Em</del> embraced the
+    <line rend="indent1">Elizabeth <del rend="strikethrough">Em</del> embraced the
       suffer</line>
     <line>er "I will try to comfort you," said she<unclear>,</unclear></line>
   </zone>
