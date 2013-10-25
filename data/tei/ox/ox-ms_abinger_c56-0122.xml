@@ -72,36 +72,7 @@
     </figure></add>
   </zone>
 
-  <zone type="main">
-    <add><figure>
-      <figDesc>PBS sketch of tree or clouds</figDesc>
-    </figure></add>
-  </zone>
+  
 
-  <zone type="left_margin">
-    <addSpan spanTo="#c56-0122.04"/>
-    <line><metamark><unclear><del rend="strikethrough">120</del></unclear></metamark></line>
-    <line><metamark><unclear><hi rend="underline">130</hi></unclear></metamark></line>
-    <anchor xml:id="c56-0122.04"/>
-  </zone>
-
-  <zone type="left_margin">
-    <line><metamark>100</metamark></line>
-    <line><metamark>130</metamark></line>
-  </zone>
-
-  <zone type="left_margin">
-    <line><metamark>40</metamark></line>
-    <line><metamark>5</metamark></line>
-  </zone>
-
-  <zone type="left_margin">
-    <line><metamark>75</metamark></line>
-  </zone>
-
-  <zone type="left_margin">
-    <line><metamark>130</metamark></line>
-    <line><metamark><hi rend="underline">75</hi></metamark></line>
-    <line><metamark>205</metamark></line>
-  </zone>
+ 
 </surface>
