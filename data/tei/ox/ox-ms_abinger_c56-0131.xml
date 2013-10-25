@@ -84,7 +84,7 @@
         <add place="superlinear">or</add>
         <del rend="strikethrough">and</del>
       </mod> stone, seem fitted to endure till the earth</line>
-    <line>itself shall <del rend="strikethrough">pass away.</del> be no longer.</line>
+    <line>itself shall <del rend="strikethrough" instant="true">pass away.</del> be no longer.</line>
     <milestone unit="tei:p"/>
     <line rend="indent2"><del rend="strikethrough" instant="true">Slavery</del> The oppression of
       their own <mod>
@@ -115,7 +115,7 @@
       </mod> nation till the<del rend="strikethrough">y</del>
       <del rend="strikethrough">fell</del>
       <del rend="strikethrough">with</del>
-      <del rend="strikethrough">f</del> overpowering</line>
+      <del rend="strikethrough"><unclear>of</unclear></del> overpowering</line>
     <line>force of the Roman Empire reduced <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">them</add>
@@ -123,14 +123,28 @@
     <line>condition of a Province.</line>
     <delSpan rend="vertical_line" spanTo="#c56-0131.01"/>
     <milestone unit="tei:p"/>
-    <line><del rend="strikethrough">Conquest and warfare</del> ???? destruction ??? ???</line>
-      <line>Princes <del rend="strikethrough">of</del> <del rend="strikethrough">Princes</del> of Babylon</line>
-    <line>The names of ?himus and ????? are preserved</line>
-    <line>by that bloody ha???<add place="sublinear"><metamark function="insert"
-        >^</metamark></add>with which and<add place="sublinear"><metamark function="insert"
-          >^</metamark></add>victory conquest<add place="sublinear"><metamark
-          function="insert">^</metamark></add>bloods conquest all always deco</line>
-    <line>rates its worshippers but the effects of their ?? conquests ?? </line>
+    <line rend="indent2"><del rend="strikethrough">Conquest and warfare</del>
+      <del rend="strikethrough">destruct</del>
+      <del rend="strikethrough">destruction has have</del></line>
+    <line rend="right"><add place="interlinear">Princes <del rend="strikethrough">of</del>
+        <del rend="strikethrough">Princes</del> of Babylon</add></line>
+    <line rend="indent2">The names of princes and <unclear reason="illegible" unit="chars"
+        extent="4"/> names are preserved</line>
+    <line>by that bloody battle <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">with</add>
+      </mod> which glory and <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">bloods</add>
+      </mod>
+      <del rend="strikethrough">conquest</del>
+      <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">conquest</add>
+      </mod>
+      <del rend="strikethrough">all</del> always deco</line>
+    <line>rates its worshippers but the effects of their <del rend="strikethrough"><unclear
+          unit="chars" extent="2"/></del> conquests <damage/></line>
     <anchor xml:id="c56-0131.01"/>
   </zone>
 </surface>
