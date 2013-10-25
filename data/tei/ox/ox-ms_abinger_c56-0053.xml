@@ -13,7 +13,7 @@
     <line>I <mod>
         <del rend="strikethrough">was</del>
         <add place="superlinear" hand="#pbs">became</add>
-      </mod>was assured that my enemy had</line>
+      </mod> assured that my enemy had</line>
     <line>indeed fled, I clapped my hands for</line>
     <line>joy and ran down to Henr<retrace cause="clarify" hand="#pbs">y</retrace>.</line>
     <milestone unit="tei:p"/>
