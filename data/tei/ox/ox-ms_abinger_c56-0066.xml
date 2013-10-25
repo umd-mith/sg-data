@@ -6,9 +6,10 @@
   xml:id="ox-ms_abinger_c56-0066" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0066.tif"/>
   <zone type="pagination" rend="bordered">96</zone>
-  <zone type="top"><line>Chap. 8<hi rend="sup"><hi rend="underline">th</hi></hi></line>
+  <zone type="top"><line></line>
   </zone>
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0066.05"/>Chap. 8<hi rend="sup"><hi rend="underline">th</hi></hi><anchor xml:id="c56-0066.05"/></line>
     <line>one of my first duties on my recovery was</line>
     <line>to introduce Clerval to the <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>

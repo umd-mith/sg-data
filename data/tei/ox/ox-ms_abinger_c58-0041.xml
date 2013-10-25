@@ -7,8 +7,9 @@
   <graphic url="../../images/ox/ox-ms_abinger_c58-0041.tif"/>
   <zone type="pagination">153</zone>
   <zone type="library">21</zone>
-  <zone type="top">Walton, in continuation</zone>
+  
   <zone type="main">
+    <line><milestone unit="tei:head" spanTo="#c58-0041.01"/>Walton, in continuation<anchor xml:id="c58-0041.01"/></line>
     <line rend="right">August 2<mod>
         <del rend="overwritten">5</del>
         <add place="intralinear">6</add>

@@ -8,7 +8,7 @@
   <zone type="pagination" rend="bordered">68</zone>
   
   <zone type="main">
-    <line><milestone unit="tei:head" spanTo="#c56-0038.18"/>Chapter 6.<anchor xml:id="c56-0038.18"/></line>
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0038.18"/>Chapter 6.<anchor xml:id="c56-0038.18"/></line>
     <line>When I found <mod>
         <del rend="strikethrough">this</del>
         <add place="superlinear" hand="#pbs">so</add>

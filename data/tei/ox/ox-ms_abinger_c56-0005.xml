@@ -7,9 +7,10 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0005.tif"/>
   <zone type="library">1</zone>
   <zone type="top">
-    <line>Chapt. 2</line>
+    
   </zone>
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0005.06"/>Chapt. 2<anchor xml:id="c56-0005.06"/></line>
     <line>Those events which materially influence our fu</line>
     <line>ture destinies <del rend="strikethrough">are</del> often <mod>
         <del rend="strikethrough">caused</del>
@@ -93,8 +94,8 @@
     <line>of directing the attention of their pupils to</line>
     <line>useful knowledge, which they utterly neglect.</line>
     <line>My father looked carelessly at the tit<del rend="strikethrough">t</del>le page</line>
-    <line>of my book &#x2014; <del rend="strikethrough">Ah</del> and said Ah! Cornelius</line><line>
-      Agrippa! &#x2014; My dear Victor do not waste</line>
+    <line>of my book &#x2014; <del rend="strikethrough">Ah</del> and said Ah! Cornelius</line>
+    <line>Agrippa! &#x2014; My dear Victor do not waste</line>
     <line>your time upon this &#x2013; it is sad trash.</line>
     <line>If instead of this remark or rather excla</line>
     <line>mation my father had taken the pains to</line>

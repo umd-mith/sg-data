@@ -7,10 +7,9 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0081.tif"/>
   <zone type="pagination" rend="bordered">111</zone>
   <zone type="library">38</zone>
-  <zone type="top">
-    <line>Chapter 10<hi rend="sup"><hi rend="underline">th</hi></hi></line>
-  </zone>
+  
   <zone type="main">
+    <line><milestone unit="tei:head" spanTo="#c56-0081.04"/>Chapter 10<hi rend="sup"><hi rend="underline">th</hi></hi><anchor xml:id="c56-0081.04"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent1">Night had closed <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>

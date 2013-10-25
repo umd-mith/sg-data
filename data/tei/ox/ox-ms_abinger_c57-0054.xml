@@ -6,10 +6,9 @@
   xml:id="ox-ms_abinger_c57-0054" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0054.tif"/>
   <zone type="pagination" rend="bordered">79</zone>
-  <zone type="top">
-    <line>Chapt. 8</line>
-  </zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0054.01"/>Chapt. 8<anchor xml:id="c57-0054.01"/></line>
     <line>When my hunger was appeased I directed</line>
     <line>my steps towards the well known path</line>
     <line>that conducted to the cottage &#x2013; All there,</line>

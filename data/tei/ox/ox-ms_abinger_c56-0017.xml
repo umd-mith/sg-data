@@ -6,12 +6,10 @@
     xml:id="ox-ms_abinger_c56-0017" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
     <graphic url="../../images/ox/ox-ms_abinger_c56-0017.tif"/>
     <zone type="pagination" rend="#bordered">47</zone>
-    <zone type="top">Chapter <mod>
-            <del rend="overwritten">2</del>
-            <add place="intralinear">3</add>
-        </mod></zone>
+    
     <zone type="library">7</zone>
     <zone type="main">
+        <line rend="center"><milestone unit="tei:head" spanTo="#c56-0017.04"/>Chapter <mod><del rend="overwritten">2</del><add place="intralinear">3</add></mod><anchor xml:id="c56-0017.04"/></line>
         <milestone unit="tei:p"/>
         <line rend="indent1">When I had attained the age of</line>
         <line>seventeen my <mod>

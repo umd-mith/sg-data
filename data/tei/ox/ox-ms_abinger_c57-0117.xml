@@ -7,11 +7,10 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0117.tif"/>
   <zone type="pagination">133</zone>
   <zone type="library">59</zone>
-  <zone type="top">
-    <line>Chap. 14<hi rend="underline"><hi rend="sup">th</hi></hi></line>
-  </zone>
+  
 
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0117.02"/>Chap. 14<hi rend="underline"><hi rend="sup">th</hi></hi><anchor xml:id="c57-0117.02"/></line>
     <line><anchor xml:id="c57-0117.01"/>soon <del rend="strikethrough">int</del> introduced into the
       presence of the</line>
     <line>Magistrate; an<del rend="strikethrough">d</del> old benevolent man with</line>

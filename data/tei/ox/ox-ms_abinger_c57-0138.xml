@@ -6,10 +6,9 @@
   xml:id="ox-ms_abinger_c57-0138" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0138.tif"/>
   <zone type="pagination" rend="bordered">154</zone>
-  <zone type="top">
-    <line>Chap. 16</line>
-  </zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0138.02"/>Chap. 16<anchor xml:id="c57-0138.02"/></line>
     <line>This letter revived in my memory what I had before</line>
     <line>forgotten, the <del rend="strikethrough">mi</del> threat of fiend w<damage type="inkblot"
         >hen</damage> he visited</line>

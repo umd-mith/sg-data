@@ -9,7 +9,7 @@
   <zone type="library">21</zone>
   
   <zone type="main">
-    <line><milestone unit="tei:head" spanTo="#c56-0045.04"/>Chapter 7<hi rend="sup"><hi rend="underline">th</hi></hi><anchor xml:id="c56-0045.04"/></line>
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0045.04"/>Chapter 7<hi rend="sup"><hi rend="underline">th</hi></hi><anchor xml:id="c56-0045.04"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent1">It was on a dreary night of November</line>
     <line>that I beheld <del rend="strikethrough"><add place="superlinear" hand="#pbs">the frame on

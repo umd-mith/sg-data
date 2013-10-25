@@ -49,7 +49,7 @@
     <line>"<del rend="strikethrough">ly</del> lying<del rend="strikethrough">e</del> here some
         day<add place="intralinear" hand="#pbs">s</add> it is from your</line>
     <line>"cousin I believe."</line>
-    <line><milestone unit="tei:head" spanTo="#c56-0057.02"/><add place="interlinear">Ch V&#x2013; 113</add><anchor xml:id="c56-0057.02"/></line>
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0057.02"/><add place="interlinear">Ch V&#x2013; 113</add><anchor xml:id="c56-0057.02"/></line>
     <milestone unit="tei:p"/>
     <line rend="indent2">He then put the following letter</line>
     <line>into my hands.</line>

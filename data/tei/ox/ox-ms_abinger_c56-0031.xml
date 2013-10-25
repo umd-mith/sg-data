@@ -9,7 +9,7 @@
   <zone type="pagination" rend="bordered">61</zone>
   <zone type="library">14</zone>
   <zone type="main">
-    <line rend="indent2"><milestone unit="tei:head" spanTo="#c56-0031.07"/>Chap. 5<anchor xml:id="c56-0031.07"/></line>
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0031.07"/>Chap. 5<anchor xml:id="c56-0031.07"/></line>
     <line>From this day natural philosophy and parti</line>
     <line>cularly chemistry became <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>

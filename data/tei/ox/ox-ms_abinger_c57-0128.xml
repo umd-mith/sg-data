@@ -7,10 +7,9 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0128.tif"/>
   <zone type="pagination" rend="bordered">
     <del rend="strikethrough">Chapt14</del>4) </zone>
-  <zone type="top">
-    <line>Chap. 15</line>
-  </zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0128.02"/>Chap. 15<anchor xml:id="c57-0128.02"/></line>
     <line>We were not allowed to converse for any length</line>
     <line>of time for the precarious state of my health rendered</line>
     <line>every precaution <mod>

@@ -6,8 +6,9 @@
   xml:id="ox-ms_abinger_c56-0024" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0024.tif"/>
   <zone type="pagination" rend="bordered">55</zone>
-  <zone type="top">Chap. 4</zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0024.04"/>Chap. 4<anchor xml:id="c56-0024.04"/></line>
     <line>The next morning I delivered my</line>
     <line>letters of introduction and paid a</line>
     <line>visit to some of the principal</line>

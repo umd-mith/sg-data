@@ -6,10 +6,9 @@
   xml:id="ox-ms_abinger_c57-0010" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0010.tif"/>
   <zone type="pagination" rend="bordered">9</zone>
-  <zone type="top">
-    <line>Chap. 2</line>
-  </zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0010.02"/>Chap. 2<anchor xml:id="c57-0010.02"/></line>
     <milestone unit="tei:p"/>
     <line>As soon as morning dawned I crept from</line>
     <line>my assylum <del rend="strikethrough">to</del> that I might view the</line>

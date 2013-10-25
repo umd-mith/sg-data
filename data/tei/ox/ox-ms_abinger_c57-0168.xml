@@ -12,11 +12,9 @@
     <line><delSpan rend="strikethrough" spanTo="#c57-168.01"/>act of cruelty &#x2013; No the blood
       of all the innocent</line>
     <line>that he has murdered will plead for you<anchor xml:id="c57-168.01"/></line>
-    <zone type="top">
-      <line rend="center">Walton in continuation.</line>
-    </zone>
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0168.14"/>Walton in continuation.<anchor xml:id="c57-0168.14"/></line>
     <milestone unit="tei:p"/>
-    <line rend="right"><milestone unit="tei:date" spanTo="#c57-168.02"/>August 1<mod>
+    <line rend="right"><milestone unit="tei:date" spanTo="#c57-0168.02"/>August 1<mod>
         <del rend="overwritten"><unclear reason="illegible">6</unclear></del>
         <add place="intralinear">3</add>
       </mod><hi rend="underline"><hi rend="sup">th</hi></hi><anchor xml:id="c57-0168.02"/></line>
@@ -28,9 +26,9 @@
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">do</add>
       </mod> not you feel your blood con</line>
-    <line>gealed with horror <mod spanTo="#c57-0168.03"/><delSpan spanTo="#c57-168.04"
+    <line>gealed with horror <mod spanTo="#c57-0168.03"/><delSpan spanTo="#c57-0168.04"
         rend="strikethrough"/>Mine of<add place="sublinear">ten</add>did as he</line>
-    <line>related it<anchor xml:id="c57-168.04"/><anchor xml:id="c57-168.05"/><anchor
+    <line>related it<anchor xml:id="c57-0168.04"/><anchor xml:id="c57-0168.05"/><anchor
         xml:id="c57-0168.03"/> &#x2013; <mod>
         <del rend="strikethrough">When</del>
         <add place="superlinear" hand="#pbs">Sometimes</add>

@@ -40,6 +40,15 @@
       </mod> now drew near a close &amp; two</line>
     <line>months from this time I reached the</line>
     <line>environs of Geneva.</line>
+    <milestone unit="tei:head" spanTo="#c57-0062.04"/>
+    <addSpan spanTo="#c57-0062.03"/>
+    <line rend="right">The same</line>
+    <line rend="right">chapter</line>
+    <line rend="right">continued</line>
+    <anchor xml:id="c57-0062.03"/><anchor xml:id="c57-0062.04"/>
+    
+    
+    <line rend="right"><add hand="#pbs"><unclear><metamark function="count">310</metamark></unclear></add></line>
   </zone>
 
   <zone type="left_margin" corresp="#c57-0062.01">
@@ -50,21 +59,6 @@
     <anchor xml:id="c57-0062.02"/>
   </zone>
 
-  <zone type="main">
-    <addSpan spanTo="#c57-0062.03"/>
-    <line rend="indent5">The same</line>
-    <line rend="indent4">chapter</line>
-    <line rend="indent5">continued</line>
-    <anchor xml:id="c57-0062.03"/>
-  </zone>
-  <!--Finalize encoding of this chapter heading. It replaces the deleted "Chap. 9th" on next page. We need
-    a special designation for chapter and section headings instead of using a geographical marker like "top"-->
-
-  <zone type="main">
-    <line>
-      <add hand="#pbs"><unclear><metamark function="count">310</metamark></unclear></add></line>
-    <!--could be "320"-->
-  </zone>
 
 
 </surface>

@@ -6,8 +6,9 @@
   xml:id="ox-ms_abinger_c57-0108" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0108.tif"/>
   <zone type="pagination" rend="bordered">124</zone>
-  <zone type="top">Chapter 13<hi rend="sup"><hi rend="underline">rd</hi></hi></zone>
+  
   <zone type="main">
+    <line><milestone unit="tei:head" spanTo="#c57-0108.02"/>Chapter 13<hi rend="sup"><hi rend="underline">rd</hi></hi><anchor xml:id="c57-0108.02"/></line>
     <milestone unit="tei:p"/>
     <line>I started forward &amp; exclaimed&#x2014;Villain, before</line>
     <line>you sign my death-warrant, be sure that</line>

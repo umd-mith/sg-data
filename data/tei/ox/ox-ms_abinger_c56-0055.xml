@@ -9,7 +9,7 @@
   <zone type="library">26</zone>
   
   <zone type="main">
-    <line><milestone unit="tei:head" spanTo="#c56-0055.02"/>Chap. 7<anchor xml:id="c56-0055.02"/></line>
+    <line rend="center"><milestone unit="tei:head" spanTo="#c56-0055.02"/>Chap. 7<anchor xml:id="c56-0055.02"/></line>
     <line>This was the commencement of a nervous</line>
     <line>fever which confined me for several</line>
     <line> months. <del rend="strikethrough">And</del> during all this time Henry was</line>

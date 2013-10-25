@@ -8,10 +8,9 @@
   <zone type="pagination">
     <line>163</line>
   </zone>
-  <zone type="top">
-    <line>Chap. 17</line>
-  </zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0147.07"/>Chap. 17<anchor xml:id="c57-0147.07"/></line>
     <line>It was eight o'clock when we landed; we</line>
     <line>walked <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>

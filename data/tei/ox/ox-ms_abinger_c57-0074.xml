@@ -9,10 +9,9 @@
   <zone type="pagination" rend="bordered">
     <line>98</line>
   </zone>
-  <zone type="top">
-    <line>Chap. 10<hi rend="underline">th</hi></line>
-  </zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0074.06"/>Chap. 10<hi rend="underline">th</hi><anchor xml:id="c57-0074.06"/></line>
     <line>Day after day, week after week passed <add place="superlinear">away</add> on</line>
     <line>my return to Geneva and I had not the</line>
     <line>courage to commence my work. I feared the</line>

@@ -7,10 +7,9 @@
   <graphic url="../../images/ox/ox-ms_abinger_c57-0066.tif"/>
 
   <zone type="pagination" rend="bordered">91</zone>
-  <zone type="top">
-    <line>Chap. 9<hi rend="underline"><hi rend="sup">th</hi></hi></line>
-  </zone>
+  
   <zone type="main">
+    <line rend="center"><milestone unit="tei:head" spanTo="#c57-0066.01"/>Chap. 9<hi rend="underline"><hi rend="sup">th</hi></hi><anchor xml:id="c57-0066.01"/></line>
     <milestone unit="tei:p"/>
     <line>The creature finished speaking and fixed his</line>
     <line><mod>
