@@ -35,7 +35,7 @@
         <line>Avelanche and marked the smoke</line>
         <line>of its passage.&#x2013;Mont Blanc, the <mod spanTo="#c56-0117.07"/><delSpan
                 spanTo="#c56-0117.04"/>beau-</line>
-        <line>tiful<anchor xml:id="c56-0117.04"/><anchor xml:id="c56-0117.05"/><anchor
+        <line>tiful<anchor xml:id="c56-0117.04"/><add place="superlinear" hand="#pbs">supreme &#x26; magnificent</add><anchor
                 xml:id="c56-0117.07"/> Mont Blanc raised itself from</line>
         <line>the surrounding <hi rend="underline">aiguilles</hi> and its tremen</line>
         <line>dous <hi rend="underline">dome</hi> overlooked the valley.</line>
@@ -49,7 +49,5 @@
     <zone type="left_margin" corresp="#c56-0117.03">
         <line><del rend="strikethrough"><add>wondeful</add></del></line>
     </zone>
-    <zone type="left_margin" corresp="#c56-0117.05">
-        <line><add hand="#pbs">supreme &#x26; magnificent</add></line>
-    </zone>
+    
 </surface>
