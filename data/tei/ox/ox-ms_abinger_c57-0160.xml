@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0160" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0160.tif"/>
-  <zone type="pagination" rend="bordered">176</zone>
+  <zone type="pagination" rend="bordered"><line>176</line></zone>
   <zone type="main">
     <line>and when I m<damage type="inkblot">os</damage>t murmured would suddenly</line>
     <line>extricate me from my seemingly insur</line>

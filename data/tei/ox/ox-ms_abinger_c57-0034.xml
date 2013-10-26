@@ -3,11 +3,11 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0034" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0034" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0034.tif"/>
 
   <zone type="pagination">
-    <line>65</line> <!--"65" appears at start of next paragraph. -->
+    <line>65</line> <!--"65" appears at start of next paragraph. Consider taking pagination out of zones. Use milestones. -->
   </zone>
 
   <zone type="main">

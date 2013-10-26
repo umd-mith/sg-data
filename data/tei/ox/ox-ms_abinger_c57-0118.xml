@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0118" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0118.tif"/>
-  <zone type="pagination" rend="bordered">134</zone>
+  <zone type="pagination" rend="bordered"><line>134</line></zone>
   <zone type="main">
     <line><del rend="strikethrough">In vain</del>. He appeared to have been a handsome</line>
     <line>young man about twenty years of age. He</line>

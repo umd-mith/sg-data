@@ -5,8 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0128" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0128.tif"/>
-  <zone type="pagination" rend="bordered">
-    <del rend="strikethrough">Chapt14</del>4) </zone>
+  <zone type="pagination" rend="bordered"><del rend="strikethrough">Chapt</del>144</zone>
   
   <zone type="main">
     <line rend="center"><milestone unit="tei:head" spanTo="#c57-0128.02"/>Chap. 15<anchor xml:id="c57-0128.02"/></line>

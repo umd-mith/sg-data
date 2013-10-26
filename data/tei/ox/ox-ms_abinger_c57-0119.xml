@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0119" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0119.tif"/>
-  <zone type="pagination" rend="bordered">135</zone>
-  <zone type="library">60</zone>
+  <zone type="pagination" rend="bordered"><line>135</line></zone>
+  <zone type="library"><line>60</line></zone>
 
   <zone type="main">
     <line>went to the town for an appothecary, but</line>

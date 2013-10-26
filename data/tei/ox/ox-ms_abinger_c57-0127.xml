@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0127" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0127.tif"/>
-  <zone type="pagination" rend="bordered">143</zone>
-  <zone type="library">64</zone>
+  <zone type="pagination" rend="bordered"><line>143</line></zone>
+  <zone type="library"><line>64</line></zone>
   <zone type="main">
     <line>momentary return of delirium <unclear reason="case">a</unclear>nd</line>
     

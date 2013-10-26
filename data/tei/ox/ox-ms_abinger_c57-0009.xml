@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0009" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0009.tif"/>
-  <zone type="pagination" rend="bordered">8</zone>
+  <zone type="pagination" rend="bordered"><line>8</line></zone>
   <zone type="main">
     <line>escaped to the open country and fear</line>
     <line>fully took refuge in a low <mod>

@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0115" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0115.tif"/>
-  <zone type="pagination" rend="bordered">131</zone>
-  <zone type="library">58</zone>
+  <zone type="pagination" rend="bordered"><line>131</line></zone>
+  <zone type="library"><line>58</line></zone>
   <zone type="main">
     <line>you will not be consulted as to your</line>
     <line>quarters, I promise you&#x2014;</line>

@@ -3,9 +3,9 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0018" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0018" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0018.tif"/>
-  <zone type="pagination" rend="bordered">17</zone>
+  <zone type="pagination" rend="bordered"><line>17</line></zone>
  
   <zone type="main">
     <line rend="center"><milestone unit="tei:head" spanTo="#c57-0018.05"/>Chap. 3<anchor xml:id="c57-0018.05"/></line>

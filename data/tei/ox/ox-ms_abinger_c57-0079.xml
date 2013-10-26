@@ -3,9 +3,9 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0079" ulx="0" uly="0" lrx="5138" lry="7032">
+  partOf="#ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0079" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0079.tif"/>
-  <zone type="pagination" rend="bordered"><unclear>101</unclear></zone>
+  <zone type="pagination" rend="bordered"><line><unclear>101</unclear></line></zone>
   <zone type="main">
     <delSpan rend="vertical_line" spanTo="#c57-0079.01"/>
     <line>to my slavery.<add place="superlinear"><metamark>X</metamark></add>
@@ -73,13 +73,12 @@
   <zone type="left_margin" corresp="#c57-0079.02">
     <addSpan hand="#pbs" spanTo="#c57-0079.03"/>
     <line>the thought of</line>
-    <line>the possibility</line>
+    <line>the possibility<add><metamark function="sequence">5</metamark></add></line>
     <line>of the reverse</line>
     <line>must have</line>
     <line>been dreadful</line>
     <anchor xml:id="c57-0079.03"/>
   </zone>
 
-  <zone type="left_margin">
-    <add><metamark function="sequence">5</metamark></add></zone>
+  
 </surface>

@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0111" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0111.tif"/>
-  <zone type="pagination" rend="bordered">127</zone>
+  <zone type="pagination" rend="bordered"><line>127</line></zone>
   <zone type="library">56</zone>
   <zone type="main">
     <line>my feelings since the night of the ap</line>

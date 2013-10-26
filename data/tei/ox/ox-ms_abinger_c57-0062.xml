@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0062" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0062" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0062.tif"/>
-  <zone type="pagination" rend="bordered">87</zone>
+  <zone type="pagination" rend="bordered"><line>87</line></zone>
   <zone type="main">
     <line>no means of extracting it. <del rend="strikethrough">A</del> My suffering were</line>
     <line>augmented also by the oppressive sense <del rend="strikethrough">I had</del></line>
@@ -46,9 +46,6 @@
     <line rend="right">chapter</line>
     <line rend="right">continued</line>
     <anchor xml:id="c57-0062.03"/><anchor xml:id="c57-0062.04"/>
-    
-    
-    <line rend="right"><add hand="#pbs"><unclear><metamark function="count">310</metamark></unclear></add></line>
   </zone>
 
   <zone type="left_margin" corresp="#c57-0062.01">

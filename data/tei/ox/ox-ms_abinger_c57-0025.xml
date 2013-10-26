@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0025" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0025" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0025.tif"/>
-  <zone type="pagination">60</zone>
-  <zone type="pagination">60</zone>
-  <zone type="library">13</zone>
+  <zone type="pagination"><line>60</line></zone>
+  
+  <zone type="library"><line>13</line></zone>
   <zone type="main">
-    <line>terms of her Mother who born in freedom</line>
+    <line>terms of her <hi rend="sup">60</hi> Mother who born in freedom</line>
     <line>spurned the bondage <mod>
         <del rend="strikethrough">that</del>
         <add place="superlinear">to which</add>

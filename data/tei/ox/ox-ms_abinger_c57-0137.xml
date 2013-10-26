@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0137" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0137.tif"/>
-  <zone type="pagination" rend="bordered">153</zone>
-  <zone type="library">69</zone>
+  <zone type="pagination" rend="bordered"><line>153</line></zone>
+  <zone type="library"><line>69</line></zone>
   <zone type="main">
     <line>and companion. But it is your hap</line>
     <line>piness I desire as well as my own <del rend="strikethrough">felicity</del></line>

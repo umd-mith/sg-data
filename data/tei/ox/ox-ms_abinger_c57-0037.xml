@@ -3,9 +3,10 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-    xml:id="ox-ms_abinger_c57-0037" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+    xml:id="ox-ms_abinger_c57-0037" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
     <graphic url="../../images/ox/ox-ms_abinger_c57-0037.tif"/>
-    <zone type="pagination" rend="bordered"><unclear>62</unclear></zone>
+    <!--First page of Notebook B-->
+    <zone type="pagination" rend="bordered"><line><unclear>62</unclear></line></zone>
     <zone type="main">
         <line><delSpan spanTo="#c57-0037.01" rend="strikethrough"/>having overcome many difficulties
             succeeded</line>
@@ -132,41 +133,6 @@
         <line>it developed</line><anchor xml:id="c57-0037.03"/>
     </zone>
 
-    <zone type="left_margin">
-        <addSpan hand="#pbs" spanTo="#c57-0037.10"/>
-        <metamark function="count" spanTo="#c57-0037.11"/>
-        <line>60</line>
-        <line>18 25</line>
-        <line><hi rend="underline">18</hi>
-            <hi rend="underline">25</hi></line>
-        <line>36 50</line>
-        <line><hi rend="underline">18</hi>
-            <hi rend="underline">25</hi></line>
-        <line>54 <hi rend="underline">75</hi></line>
-        <line>83</line>
-        <line><hi rend="underline">40</hi></line>
-        <line>123</line>
-        <line>34 <hi rend="underline">68</hi></line>
-        <line><hi rend="underline">34</hi> 191</line>
-        <line>68</line>
-        <anchor xml:id="c57-0037.11"/>
-        <anchor xml:id="c57-0037.10"/>
-    </zone>
-
-    <zone type="left_margin">
-        <addSpan spanTo="#c57-0037.12"/>
-        <metamark function="count" spanTo="#c57-0037.13"/>
-        <line>98</line>
-        <line><hi rend="underline">62</hi></line>
-        <line>36</line>
-        <line><hi rend="underline">36</hi></line>
-        <line>72</line>
-        <line><hi rend="underline">97</hi></line>
-        <line><hi rend="underline">169</hi>
-        </line>
-        <anchor xml:id="c57-0037.13"/>
-        <anchor xml:id="c57-0037.12"/>
-    </zone>
 
     <zone type="left_margin" corresp="#c57-0037.06">
         <addSpan hand="#pbs" spanTo="#c57-0037.07"/>

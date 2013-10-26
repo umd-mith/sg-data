@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
         xml:id="ox-ms_abinger_c57-0024" ulx="0" uly="0" lrx="5368" lry="7104"
-        partOf="ox-ms_abinger_c57">
+        partOf="#ox-ms_abinger_c57">
         <graphic url="../../images/ox/ox-ms_abinger_c57-0024.tif"/>
         <zone type="main">
                 <delSpan rend="strikethrough" spanTo="#c57-0024.01"/>
@@ -81,11 +81,11 @@
                                         <add place="superlinear">Safie</add>
                                 </mod> who married her.</line>
                         <line>The young girl spoke in high &amp; enthusiastic</line>
-                </zone>
-                <zone type="main" corresp="#c57-0024.02">
-                        <addSpan spanTo="#c57-0024.03"/>
-                        <metamark function="separate"
-                                >__________________________________________________________</metamark>
+                
+                
+                        <addSpan corresp="#c57-0024.02" spanTo="#c57-0024.03"/>
+                        <line><metamark function="separate"
+                                >__________________________________________________________</metamark></line>
                         <line><metamark function="displacement">X</metamark>before I depart I will
                                 give them to you they</line>
                         <line>will prove to you the truth of my tale <del rend="strikethrough"

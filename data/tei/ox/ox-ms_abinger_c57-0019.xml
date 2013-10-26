@@ -3,10 +3,10 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0019" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0019" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0019.tif"/>
-  <zone type="pagination" rend="bordered">18</zone>
-  <zone type="library">10</zone>
+  <zone type="pagination" rend="bordered"><line>18</line></zone>
+  <zone type="library"><line>10</line></zone>
   <zone type="main">
     <line>youth spent a great part of each</line>
     <line>day in <del rend="strikethrough">felling</del> collecting wood for the</line>

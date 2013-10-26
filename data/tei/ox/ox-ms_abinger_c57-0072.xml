@@ -3,10 +3,10 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0072" ulx="0" uly="0" lrx="5138" lry="7032">
+  partOf="#ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0072" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0072.tif"/>
-  <zone type="pagination" rend="bordered">96</zone>
-  <zone type="library">B</zone>
+  <zone type="pagination" rend="bordered"><line>96</line></zone>
+  <zone type="library"><line>B</line></zone>
   <zone type="main">
     <line>in darkness. But my heart was heavy, and</line>
     <line>mys steps slow. The labour of winding a</line>

@@ -41,7 +41,7 @@
     <line>conception that vessels ever came so</line>
     <line>far north &#x26; was astounded the sight.</line>
     <line><del rend="strikethrough">bu and</del>
-      <restore type="smear_strikethrough"><del rend="strikethrough">I quic</del></restore>kly destroy<mod>
+      <mod><restore type="smear_strikethrough"><del rend="strikethrough">I quic</del></restore></mod>kly destroy<mod>
         <del rend="overwritten">in</del>
         <add place="intralinear">ed</add>
         <del rend="strikethrough">g</del>

@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0106" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0106.tif"/>
-  <zone type="pagination" rend="bordered">122</zone>
+  <zone type="pagination" rend="bordered"><line>122</line></zone>
   <zone type="main">
     <line>dwelt many months in the heaths of England</line>
     <line>&amp; among the desarts of Scot<del rend="strikethrough">c</del>land. I have en</line>

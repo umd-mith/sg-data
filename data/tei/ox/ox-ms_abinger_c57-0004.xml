@@ -3,9 +3,9 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-    xml:id="ox-ms_abinger_c57-0004" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+    xml:id="ox-ms_abinger_c57-0004" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
     <graphic url="../../images/ox/ox-ms_abinger_c57-0004.tif"/>
-    <zone type="pagination" rend="bordered">3</zone>
+    <zone type="pagination" rend="bordered"><line>3</line></zone>
     <zone type="main">
         <line>moon and <add place="superlinear">I</add> fixed my eyes <mod>
                 <del rend="overwritten">i</del>
@@ -77,14 +77,5 @@
         <line>became accustomed to the light and to</line>
         <line>perceive objects in their right forms; I distin</line>
     </zone>
-    <zone type="left_margin">
-        <add hand="#pbs"><figure>
-                <figDesc>PBS doodle or sketch</figDesc>
-            </figure></add>
-    </zone>
-    <zone type="left_margin">
-        <add hand="#pbs"><figure>
-                <figDesc>PBS doodle or sketch; looks like a cylinder with a cap on top</figDesc>
-            </figure></add>
-    </zone>
+    
 </surface>

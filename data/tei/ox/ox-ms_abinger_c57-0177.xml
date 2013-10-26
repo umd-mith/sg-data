@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0177" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0177.tif"/>
-  <zone type="pagination" rend="bordered">193</zone>
-  <zone type="library">89</zone>
+  <zone type="pagination" rend="bordered"><line>193</line></zone>
+  <zone type="library"><line>89</line></zone>
   <zone type="main">
     <line>and honor can<del rend="strikethrough">d</del> never willingly continue to en</line>
     <line>dure their present hardships.</line>

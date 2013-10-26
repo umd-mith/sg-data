@@ -3,12 +3,11 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0063" ulx="0" uly="0" lrx="5138" lry="7032" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0063" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0063.tif"/>
-  <zone type="pagination" rend="bordered">88</zone>
-  <zone type="library"> 32</zone>
-  <zone type="top">
-  </zone>
+  <zone type="pagination" rend="bordered"><line>88</line></zone>
+  <zone type="library"><line>32</line></zone>
+  
   <zone type="main">
     <line rend="center"><del rend="strikethrough"><milestone unit="tei:head" spanTo="#c57-0063.01"/>Chap. 9<hi rend="underline"><hi rend="sup">th</hi></hi><anchor xml:id="c57-0063.01"/></del></line>
     <line><del rend="strikethrough">I now saw </del>

@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0179" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0179.tif"/>
-  <zone type="pagination" rend="bordered">195</zone>
-  <zone type="library">90</zone>
+  <zone type="pagination" rend="bordered"><line>195</line></zone>
+  <zone type="library"><line>90</line></zone>
   <zone type="main">
     <line>shall soon die and he my enemy &amp; perse</line>
     <line>cutor may still be in being. Think not, Walton,</line>

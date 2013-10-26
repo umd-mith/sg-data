@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0182" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0182.tif"/>
-  <zone type="pagination" rend="bordered">198</zone>
+  <zone type="pagination" rend="bordered"><line>198</line></zone>
   <zone type="main">
     <line>again turning towards the lifeless form of his</line>
     <line>creator he seemed to forget my presence while</line>
@@ -43,10 +43,10 @@
         />unearthly<anchor xml:id="c57-0182.04"/><add place="superlinear" hand="#pbs"><metamark
           function="transpose" target="#c57-0182.02">2</metamark></add> &amp; <milestone
         unit="tei:seg" spanTo="#c57-0182.05" xml:id="c57.0182.03"/>scaring<anchor
-        xml:id="c57-0182.05"/><add place="sublinear"><metamark function="insert"
+        xml:id="c57-0182.05"/><add place="sublinear" hand="#pbs"><metamark function="insert"
         >^</metamark></add><add place="superlinear" hand="#pbs"><metamark
-          function="transpose" target="#c57-0182.03"><del rend="overwritten">2</del><add
-            place="intralinear" hand="#pbs">1</add></metamark></add>
+          function="transpose" target="#c57-0182.03"><mod><del rend="overwritten">2</del><add
+            place="intralinear" hand="#pbs">1</add></mod></metamark></add>
       <listTranspose>
         <transpose>
           <ptr target="#c57-0182.03"/>

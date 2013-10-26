@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0181" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0181.tif"/>
-  <zone type="pagination" rend="bordered">197</zone>
-  <zone type="library">91</zone>
+  <zone type="pagination" rend="bordered"><line>197</line></zone>
+  <zone type="library"><line>91</line></zone>
   <zone type="main">
     <line>make any comment on the death of</line>
     <line>this glorious creature &#x2013; Alas all <add place="superlinear" hand="#pbs">that</add> I
@@ -27,7 +27,7 @@
         <add place="superlinear" hand="#pbs">arise</add>
       </mod> and examin<retrace cause="clarify">e</retrace>. Good night</line>
     <line>my sister.</line>
-    <metamark function="separate">_____<!--horizontal line--></metamark>
+    <line rend="indent3"><metamark function="separate">_____<!--horizontal line--></metamark></line>
     <milestone unit="tei:p"/>
     <line rend="indent1">Great God! What a scene has just taken</line>
     <line>place. I am yet dizzy with the remembrance</line>

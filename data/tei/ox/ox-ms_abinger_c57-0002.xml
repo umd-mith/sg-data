@@ -3,9 +3,9 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0002" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0002" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0002.tif"/>
-  <zone type="pagination" rend="bordered">1</zone>
+  <zone type="pagination" rend="bordered"><line>1</line></zone>
   
   <zone type="main">
     <milestone unit="tei:head" spanTo="#c57-0002.07"/>
@@ -50,7 +50,7 @@
         xml:id="c57-0002.04"/><milestone unit="tei:seg" spanTo="#c57-0002.05" xml:id="c57-0002.03"
         /><add place="superlinear" hand="#pbs">recieve</add><anchor
         xml:id="c57-0002.05"/> shade. This was the forest near Ingolstadt,</line>
-    <alt mode="excl" target="#c57-0002.02 #c57-0002.03" weights="0 1"/>
+    <alt mode="excl" targets="#c57-0002.02 #c57-0002.03" weights="0.5 0.5"/>
     <line>and here by the side of a brook I lay <del rend="strikethrough">weary</del></line>
     <line>for some hours <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>

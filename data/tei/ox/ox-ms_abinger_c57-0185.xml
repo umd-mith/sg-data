@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0185" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0185.tif"/>
-  <zone type="pagination" rend="bordered"><damage type="tear">201</damage></zone>
+  <zone type="pagination" rend="bordered"><line><damage type="tear">201</damage></line></zone>
   <zone type="main">
     <line>sublime &amp; transcendant visions of loveliness.</line>
     <line>But it is even so &#x2013; The fallen Angel becomes a ma</line>

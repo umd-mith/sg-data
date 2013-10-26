@@ -3,10 +3,10 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0051" ulx="0" uly="0" lrx="5138" lry="7032">
+  partOf="#ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0051" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0051.tif"/>
-  <zone type="pagination" rend="bordered">76</zone>
-  <zone type="library">26</zone>
+  <zone type="pagination" rend="bordered"><line>76</line></zone>
+  <zone type="library"><line>26</line></zone>
   <zone type="main">
     <milestone unit="tei:p"/>
     <line rend="indent3">Cursed, Cursed Creator! Why</line>

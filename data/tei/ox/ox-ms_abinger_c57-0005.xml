@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0005" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0005.tif"/>
-  <zone type="pagination" rend="bordered">4</zone>
-  <zone type="library">3</zone>
+  <zone type="pagination" rend="bordered"><line>4</line></zone>
+  <zone type="library"><line>3</line></zone>
   <zone type="main">
     <line><anchor xml:id="c57-0005.01"/><del rend="strikethrough">insect</del> insect from the herb,
       and by de</line>
@@ -95,19 +95,7 @@
   <zone type="left_margin" corresp="#c57.0005.05">
     <line><add>of </add></line>
   </zone>
-
-  <zone type="left_margin">
-    <add hand="#pbs"><figure>
-        <figDesc>PBS sketch of tree</figDesc>
-      </figure></add>
-  </zone>
-
-  <zone type="left_margin">
-    <add><figure>
-        <figDesc>stray ink strokes (resembling double quotation marks)</figDesc>
-      </figure></add>
-  </zone>
-
+  
   <zone type="left_margin" corresp="#c57-0005.06">
     <line><add>inflamed.</add></line>
   </zone>

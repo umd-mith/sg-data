@@ -3,7 +3,7 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0077" ulx="0" uly="0" lrx="5138" lry="7032">
+  partOf="#ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0077" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0077.tif"/>
   <zone type="pagination" rend="bordered">
     <line>99</line>
@@ -74,6 +74,6 @@
   </zone>
 
   <zone type="left_margin" corresp="#c57-0077.04">
-    <line><del rend="unmarked"><add hand="#pbs">but</add></del></line>
+    <line><add hand="#pbs">but</add></line>
   </zone>
 </surface>

@@ -3,9 +3,9 @@
             href="../../xsl/page-proof.xsl"
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  partOf="ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0080" ulx="0" uly="0" lrx="5138" lry="7032">
+  partOf="#ox-ms_abinger_c57" xml:id="ox-ms_abinger_c57-0080" ulx="0" uly="0" lrx="5138" lry="7032">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0080.tif"/>
-  <zone type="pagination" rend="bordered">102 </zone>
+  <zone type="pagination" rend="bordered"><line>102</line></zone>
   <zone type="main">
     <delSpan rend="vertical_line" spanTo="#c57-0080.01"/>
     <line>to Geneva. These two years, said he, will pass</line>

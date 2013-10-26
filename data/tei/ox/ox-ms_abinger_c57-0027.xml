@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-model href="../../derivatives/shelley-godwin-page.rnc"
   type="application/relax-ng-compact-syntax"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
-  xml:id="ox-ms_abinger_c57-0027" ulx="0" uly="0" lrx="5368" lry="7104" partOf="ox-ms_abinger_c57">
+  xml:id="ox-ms_abinger_c57-0027" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0027.tif"/>
-  <zone type="pagination">62</zone>
-  <zone type="library">14</zone>
+  <zone type="pagination"><line>62</line></zone>
+  <zone type="library"><line>14</line></zone>
   <zone type="main">
     <line>be enabled to <mod>
         <del rend="strikethrough">carry on</del>

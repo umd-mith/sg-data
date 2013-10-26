@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0109" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0109.tif"/>
-  <zone type="pagination" rend="bordered">125</zone>
-  <zone type="library">55</zone>
+  <zone type="pagination" rend="bordered"><line>125</line></zone>
+  <zone type="library"><line>55</line></zone>
   <zone type="main">
     <line>despair. I left the house, the horrid scene</line>
     <line>of the last nights contention and wa<mod>

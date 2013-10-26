@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0150" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
   <graphic url="../../images/ox/ox-ms_abinger_c57-0150.tif"/>
-  <zone type="pagination" rend="bordered">66</zone>
+  <zone type="pagination" rend="bordered"><line>66</line></zone>
   <zone type="main">
     <line>the shutters had been thrown back and with</line>
     <line>a sensation of horror not to be described I</line>
