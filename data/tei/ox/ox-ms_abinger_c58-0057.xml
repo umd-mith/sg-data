@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0057" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0057.tif"/>
-  <zone type="pagination">185</zone>
-  <zone type="library">29</zone>
+  <zone type="pagination"><line>185</line></zone>
+  <zone type="library"><line>29</line></zone>
   <zone type="main">
     <handShift medium="pen" new="#pbs"/>
     <line><damage/> death. You hate me but your abhorrence cannot</line>

@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0004" ulx="0" uly="0" lrx="5408" lry="6680" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0004.tif"/>
-  <zone type="pagination">106</zone>
+  <zone type="pagination"><line>106</line></zone>
   <zone type="main">
     <line>and when time shall have softened your despair</line>
     <line>new and dear cares will be <del rend="strikethrough">to</del> born to replace those

@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0024" ulx="0" uly="0" lrx="5408" lry="6680" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0024.tif"/>
-  <zone type="pagination">126</zone>
+  <zone type="pagination"><line>126</line></zone>
   <zone type="main">
     <line>time awakened to revenge. As the memory of past</line>
     <line>misfortunes prest upon me<add place="intralinear" hand="#comp">,</add> I began to <del

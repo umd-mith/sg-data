@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0031" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0031.tif"/>
-  <zone type="pagination">133</zone>
-  <zone type="library">16</zone>
+  <zone type="pagination"><line>133</line></zone>
+  <zone type="library"><line>16</line></zone>
   <zone type="main">
     <line>but with life. I have traversed a vast portion of the</line>
     <line>earth and have endured all the har<add place="superlinear" hand="#comp">d</add>ships

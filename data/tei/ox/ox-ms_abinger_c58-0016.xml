@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0016" ulx="0" uly="0" lrx="5408" lry="6680" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0016.tif"/>
-  <zone type="pagination">118</zone>
+  <zone type="pagination"><line>118</line></zone>
   <zone type="main">
     <line>and I rushed into the room. <milestone unit="tei:p"/><add place="intralinear" hand="#comp"
           ><metamark function="paragraph">[</metamark></add>Gread God! Why did I not</line>

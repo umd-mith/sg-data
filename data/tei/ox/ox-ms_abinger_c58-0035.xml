@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0035" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0035.tif"/>
-  <zone type="pagination">137</zone>
-  <zone type="library">18</zone>
+  <zone type="pagination"><line>137</line></zone>
+  <zone type="library"><line>18</line></zone>
   <zone type="main">
     <line>ed the windings of the Rhone but vainly; the blue</line>
     <line>Mediterranean appeared and by a strange chance</line>

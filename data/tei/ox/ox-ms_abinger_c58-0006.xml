@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0006" ulx="0" uly="0" lrx="5408" lry="6680" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0006.tif"/>
-  <zone type="pagination">108</zone>
+  <zone type="pagination"><line>108</line></zone>
   <zone type="main">
     <line>nion with placid contentment not unmingled</line>
     <line>with a little fear, which past misfortune had</line>

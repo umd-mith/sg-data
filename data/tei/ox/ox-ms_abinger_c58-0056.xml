@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0056" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0056.tif"/>
-  <zone type="pagination">184</zone>
+  <zone type="pagination"><line>184</line></zone>
   <zone type="main">
     <handShift medium="pen" new="#pbs"/>
     <line>Still I desired love &amp; fellowship, &amp; I was stil<damage/></line>

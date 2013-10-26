@@ -6,8 +6,8 @@
   xml:id="ox-ms_abinger_c58-0051" ulx="0" uly="0" lrx="5410" lry="6660"
   partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0051.tif"/>
-  <zone type="pagination">179</zone>
-  <zone type="library">26</zone>
+  <zone type="pagination"><line>179</line></zone>
+  <zone type="library"><line>26</line></zone>
   <zone type="main">
     <handShift medium="pen" new="#pbs"/>
     <line>wild &amp; incoherent reproaches.. At length I gathered</line>

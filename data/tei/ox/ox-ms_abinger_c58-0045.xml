@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0045" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0045.tif"/>
-  <zone type="pagination">167</zone>
-  <zone type="library">23</zone>
+  <zone type="pagination"><line>167</line></zone>
+  <zone type="library"><line>23</line></zone>
   <zone type="main">
     <line>You were hereafter to be hailed as the benefactors</line>
     <line>of your species; your names adored as belonging</line>

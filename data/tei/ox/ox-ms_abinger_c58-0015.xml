@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0015" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0015.tif"/>
-  <zone type="pagination">117</zone>
-  <zone type="library">8</zone>
+  <zone type="pagination"><line>117</line></zone>
+  <zone type="library"><line>8</line></zone>
   <zone type="main">
     <line>suddenly I reflected how dreadful the combat which I</line>
     <line>momentarily expected would be to my wife and earnest</line>

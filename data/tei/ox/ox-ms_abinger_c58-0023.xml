@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c58-0023" ulx="0" uly="0" lrx="5410" lry="6660" partOf="#ox-ms_abinger_c58">
   <graphic url="../../images/ox/ox-ms_abinger_c58-0023.tif"/>
-  <zone type="pagination">125</zone>
-  <zone type="library">12</zone>
+  <zone type="pagination"><line>125</line></zone>
+  <zone type="library"><line>12</line></zone>
   <zone type="main">
     <line>more earnestly to those that remain. Cursed, Cursed</line>
     <line>be the fiend that brought <del rend="strikethrough">wretchedn</del> misery <mod>
