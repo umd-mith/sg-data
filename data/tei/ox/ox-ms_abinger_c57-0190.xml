@@ -20,10 +20,13 @@
           reason="illegible">I</unclear></del> its head</line>
     <line>in glory before depressed by the vice and wretchedness of so large</line>
     <line>a portion of mankind.</line>
+  
+    
+    <addSpan spanTo="#c57-0190.01" hand="library"/>
+  <line rend="center">95 haves</line>
+    <line rend="center">BCBB, 31 Jan 1995</line>
+    <anchor xml:id="c57-0190.01"/>
   </zone>
   
-  <zone type="library">
-    <line rend="center">95 haves</line>
-    <line rend="center">BCBB, 31 Jan 1995</line>
-  </zone>
+  
 </surface>
