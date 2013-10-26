@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0078" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0078.tif"/>
-  <zone type="pagination" rend="bordered">108</zone>
+  <zone type="pagination" rend="bordered"><line>108</line></zone>
   <zone type="main">
     <milestone unit="tei:p"/>
     <line rend="indent1">Clerval spoke this as we huried</line>
@@ -46,8 +46,7 @@
         <del rend="strikethrough"><add place="superlinear">worked</add></del>
       </mod> by <del rend="strikethrough">degreed</del> degrees</line>
     <line><mod>
-        <del rend="strikethrough">worked</del>
-        <anchor xml:id="c56-0078.01"/>
+        <del rend="strikethrough">worked</del><add place="superlinear">worked other<del rend="strikethrough">s</del></add>
       </mod>
       <del rend="strikethrough"><unclear>t</unclear></del>
       <del rend="strikethrough">as great</del> alterations <mod>
@@ -71,7 +70,5 @@
         <add place="superlinear">was unable</add>
       </mod></line>
   </zone>
-  <zone type="left_margin" corresp="#c56-0078.01">
-    <line><add>worked other<del rend="strikethrough">s</del></add></line>
-  </zone>
+  
 </surface>

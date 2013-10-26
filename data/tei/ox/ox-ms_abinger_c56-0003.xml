@@ -8,15 +8,15 @@
   <zone type="library"><line>ii (<unclear unit="chars" extent="2"/>)</line></zone>
   <zone type="main">
     <addSpan hand="library" spanTo="#c56-0003.01"/>
-    <line rend="center">The first fragment contains</line>
-    <line rend="center">pp. 24-97 of the Standard</line>
-    <line rend="center">Novel edition.</line>
+    <line>The first fragment contains</line>
+    <line>pp. 24-97 of the Standard</line>
+    <line>Novel edition.</line>
     <milestone unit="tei:p"/>
-    <line rend="center">The second pp. 104-202, with</line>
-    <line rend="center">a slight interruption.</line>
+    <line>The second pp. 104-202, with</line>
+    <line>a slight interruption.</line>
     <milestone unit="tei:p"/>
-    <line rend="center">The third pp. 168-202, with</line>
-    <line rend="center">many imperfections.</line>
+    <line>The third pp. 168-202, with</line>
+    <line>many imperfections.</line>
     <anchor xml:id="c56-0003.01"/>
   </zone>
 </surface>

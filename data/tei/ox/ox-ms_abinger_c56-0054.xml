@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0054" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0054.tif"/>
-  <zone type="pagination" rend="bordered">84</zone>
+  <zone type="pagination" rend="bordered"><line>84</line></zone>
   <zone type="main">
     <line>room &#x2013; <del rend="strikethrough">Wh</del> He can tell! Oh save me</line>
     <line>save <del rend="strikethrough">I</del> me"&#x2013; I imagined that the</line>

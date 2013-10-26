@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0042" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0042.tif"/>
-  <zone type="pagination" rend="bordered">72</zone>
+  <zone type="pagination" rend="bordered"><line>72</line></zone>
   <zone type="main">
     <line>I knew that my silence disquieted</line>
     <line>them and I well remembered the</line>

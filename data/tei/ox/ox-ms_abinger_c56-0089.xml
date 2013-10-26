@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0089" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0089.tif"/>
-  <zone type="pagination" rend="bordered">119</zone>
-  <zone type="library">42</zone>
+  <zone type="pagination" rend="bordered"><line>119</line></zone>
+  <zone type="library"><line>42</line></zone>
   <zone type="main">
     <line>that she should suffer as <del rend="strikethrough">innocent</del></line>
     <line>guilty &#x2013; She is to be tried today and I hope I</line>
@@ -29,7 +29,7 @@
       impressed</line>
     <line><del rend="strikethrough">co</del> on his countenance but he endea</line>
     <line>voured to welcome me cheerfully</line>
-    <line>and <del rend="unmarked"><anchor xml:id="c56-0089.03"/></del><mod>
+    <line>and <anchor xml:id="c56-0089.03"/><mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear" hand="#pbs">after <mod>
             <del rend="strikethrough">our</del>
@@ -40,7 +40,7 @@
     <line>had not</line>
     <anchor xml:id="c56-0089.02"/>
   </zone>
-  <!--"he" in left margin was probably abandoned in favor of superlinear addition. For now, encoded as an unmarked deletion.-->
+  <!--"he" in left margin was probably abandoned in favor of superlinear addition. -->
   <zone type="left_margin" corresp="#c56-0089.03">
     <line><add hand="#pbs">he</add></line>
   </zone>

@@ -5,7 +5,7 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0082" ulx="0" uly="0" lrx="5364" lry="7104" partOf="ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0082.tif"/>
-  <zone type="pagination" rend="bordered">112</zone>
+  <zone type="pagination" rend="bordered"><line>112</line></zone>
   <zone type="main">
     <line><mod>
         <del rend="strikethrough">that country</del>
@@ -91,12 +91,12 @@
     <line>I stood</line>
     <line>fixed gazing</line>
     <line>intently, I</line>
-    <line> could not</line>
-    <line> be mista</line>
-    <line> ken a</line>
+    <line>could not</line>
+    <line>be mista</line>
+    <line>ken a</line>
     <line>flash of</line>
-    <line> lightning</line>
-    <line> illumined</line>
+    <line>lightning</line>
+    <line>illumined</line>
     <line>the object<unclear>,</unclear></line>
     <line>and discov</line>
     <line>ered to me</line>
