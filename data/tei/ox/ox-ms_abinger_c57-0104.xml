@@ -15,8 +15,8 @@
         <add place="intralinear">n</add>
       </mod> me;</line>
     <line>I shud<del rend="strikethrough">d</del>ered to think that future ages might</line>
-    <line>curse me as their pest whose <restore type="smear_strikethrough"><del rend="strikethrough"
-          >selfishness</del></restore></line>
+    <line>curse me as their pest whose <mod><restore type="smear_strikethrough"><del rend="strikethrough"
+          >selfishness</del></restore></mod></line>
     <line>had not hesitated to buy its own peace at</line>
     <line>the price perhaps of the <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>

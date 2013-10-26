@@ -41,8 +41,8 @@
         >for the</del></line>
     <line><del rend="unmarked">sc</del><del rend="strikethrough">ene which I shall now
         relate</del><add place="superlinear" hand="#pbs">for it</add> requires</line>
-    <line><restore type="smear_strikethrough"><del rend="strikethrough">all my
-        fortitude</del></restore>
+    <line><mod><restore type="smear_strikethrough"><del rend="strikethrough">all my
+        fortitude</del></restore></mod>
       <delSpan spanTo="#c57-0116.01" rend="strikethrough"/>&#x26; strength to suffer</line>
     <line>me<anchor xml:id="c57-0116.01"/> to recall <mod>
         <del rend="overwritten">its</del>

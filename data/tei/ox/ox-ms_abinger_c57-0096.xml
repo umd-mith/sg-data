@@ -50,8 +50,8 @@
       </mod> of distant white alps</line>
     <line>which always attend on the piny <mod spanTo="#c57-0096.05"/><del rend="strikethrough"
         >hills</del></line>
-    <line><restore type="underline" hand="#pbs"><del rend="strikethrough"
-        >mountains</del></restore><anchor xml:id="c57-0096.05"/> of our country. We visited</line>
+    <line><mod><restore type="underline" hand="#pbs"><del rend="strikethrough"
+        >mountains</del></restore></mod><anchor xml:id="c57-0096.05"/> of our country. We visited</line>
     <line>the wondrous cave &amp; the <del rend="strikethrough">the</del> little cabinets</line>
     <line>of natural history where the curiosities</line>
     <line>are disposed in the same manner</line>

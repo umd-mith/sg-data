@@ -61,8 +61,8 @@
     <line>heard &amp; approved my <mod>
         <del rend="strikethrough">oath</del>
         <add place="superlinear">devotion</add>
-      </mod> &#x2013; But the <restore type="smear_strikethrough"><del rend="strikethrough"
-          >furies</del></restore></line>
+      </mod> &#x2013; But the <mod><restore type="smear_strikethrough"><del rend="strikethrough"
+          >furies</del></restore></mod></line>
     <line>possessed me as I concluded it &amp; <mod>
         <del rend="strikethrough">I was</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
