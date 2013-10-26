@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0123" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0123.tif"/>
-  <zone type="pagination" rend="bordered">153</zone>
-  <zone type="library">59</zone>
+  <zone type="pagination" rend="bordered"><line>153</line></zone>
+  <zone type="library"><line>59</line></zone>
   <zone type="main">
     <delSpan spanTo="#c56-0123.01" rend="vertical_line"/>
     <line>I should listen to the d&#xE6;mon &#x2013; my</line>

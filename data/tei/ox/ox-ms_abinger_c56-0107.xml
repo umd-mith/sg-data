@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0107" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0107.tif"/>
-  <zone type="pagination" rend="bordered">137</zone>
-  <zone type="library">51</zone>
+  <zone type="pagination" rend="bordered"><line>137</line></zone>
+  <zone type="library"><line>51</line></zone>
   <zone type="main">
     <line>May this be the last misfortune that</line>
     <line>you will ever suffer. &#x2013; live &#x26; be happy</line>
@@ -37,11 +37,7 @@
     <line>none ever conceived <del rend="strikethrough">of</del> the misery</line>
     <line>that I then suffered.</line>
     
-  <addSpan spanTo="#c56.0107.01" hand="#pbs"/>
-    <line><metamark function="count">20</metamark></line>
-    <line><metamark function="count"><hi rend="underline">37</hi></metamark></line>
-    <line><metamark function="count">57</metamark></line>
-    <anchor xml:id="c56.0107.01"/>
+ 
   </zone>
   
     

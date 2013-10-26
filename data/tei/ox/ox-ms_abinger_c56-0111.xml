@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0111" ulx="0" uly="0" lrx="5364" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0111.tif"/>
-  <zone type="pagination" rend="bordered">141</zone>
-  <zone type="library">53</zone>
+  <zone type="pagination" rend="bordered"><line>141</line></zone>
+  <zone type="library"><line>53</line></zone>
   <zone type="main">
     <line>so beautiful <add place="intralinear">&#x26;</add> heavenly; if I except</line>
     <line>alone some bat, or the<mod>
@@ -30,7 +30,7 @@
       </mod> close over me &#x26;</line>
     <line>my calamities for ever. But I was</line>
     <line>restrained when I thought of the heroic</line>
-    <line><anchor xml:id="c56-0111.01"/>suffering Elizabeth whom I tenderly</line>
+    <line><add place="intralinear">&#x26; </add>suffering Elizabeth whom I tenderly</line>
     <line>loved, and whose existence was bound</line>
     <line>up in mine. And then I thought also</line>
     <line>of my father and surviving brother; <del rend="strikethrough">And</del></line>
@@ -71,9 +71,7 @@
     <line>that all was not over, and that</line>
     <line>he would still commit some signal</line>
   </zone>
-  <zone type="left_margin" corresp="#c56-0111.01">
-    <line><add>&#x26; </add></line>
-  </zone>
+  
   <zone type="left_margin" corresp="#c56-0111.02">
     <line><add hand="#pbs"><del rend="strikethrough">if</del> only &#x2014;</add></line>
   </zone>

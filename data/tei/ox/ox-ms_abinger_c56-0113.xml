@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0113" ulx="0" uly="0" lrx="5428" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0113.tif"/>
-  <zone type="pagination" rend="bordered">143</zone>
-  <zone type="library">54</zone>
+  <zone type="pagination" rend="bordered"><line>143</line></zone>
+  <zone type="library"><line>54</line></zone>
   <zone type="main">
     <line>last saw her<anchor xml:id="c56-0113.02"/><anchor xml:id="c56-0113.03"/><anchor
         xml:id="c56-0113.01"/>

@@ -5,8 +5,8 @@
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://sga.mith.org/ns/1.0"
   xml:id="ox-ms_abinger_c56-0127" ulx="0" uly="0" lrx="5368" lry="7104" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0127.tif"/>
-  <zone type="pagination" rend="bordered">157</zone>
-  <zone type="library">61</zone>
+  <zone type="pagination" rend="bordered"><line>157</line></zone>
+  <zone type="library"><line>61</line></zone>
   <zone type="main">
     <line>love and humanity but am I not alone</line>
     <line>miserably alone &#x2013; <delSpan spanTo="#c56-0127.01" rend="strikethrough"/>None to love
