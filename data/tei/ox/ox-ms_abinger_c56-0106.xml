@@ -34,7 +34,7 @@
         <del rend="strikethrough">which</del>
         <add place="superlinear">&#x26;</add>
       </mod> for a while</line>
-    <line><restore type="smear_strikethrough"><del rend="strikethrough">hi</del></restore>des but
+    <line><mod><restore type="smear_strikethrough"><del rend="strikethrough">hi</del></restore></mod>des but
       cannot <mod>
         <del rend="strikethrough">disturb</del>
         <add place="superlinear" hand="#pbs">destroy</add>

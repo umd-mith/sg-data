@@ -64,7 +64,7 @@
   
   <zone type="left_margin" corresp="#c56-0051.02">
     <addSpan spanTo="#c56-0051.03"/>
-    <line>"<restore type="smear_strikethrough"><del rend="strikethrough">a year</del></restore><del
+    <line>"<mod><restore type="smear_strikethrough"><del rend="strikethrough">a year</del></restore></mod><del
         rend="smear"><add place="superlinear">y<hi rend="sup">r</hi>.</add></del> with</line>
     <line>"out greek &#x2013;I</line>
     <line>"eat heartily</line>
