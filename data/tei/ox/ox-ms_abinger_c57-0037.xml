@@ -126,7 +126,7 @@
 
     <zone type="left_margin" corresp="#c57-0037.02">
         <addSpan hand="#pbs" spanTo="#c57-0037.03"/>
-        <line><add place="sublinear"><metamark function="displacement">^</metamark></add> the
+        <line><metamark function="displacement">^</metamark> the
             views</line>
         <line>of social</line>
         <line>life which</line>
