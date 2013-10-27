@@ -13,7 +13,7 @@
                 <line>intentions in his favour.</line><anchor xml:id="c57-0024.01"/>
                 <line rend="center"><metamark function="separate">______________</metamark></line>
                 <zone type="pagination">59</zone>
-                <zone type="main">
+                
                         <milestone unit="tei:p"/>
                         <line rend="indent1"><del rend="strikethrough">For</del> During the ensueing
                                 days <add place="superlinear">while the</add> preparations
@@ -93,6 +93,6 @@
                         <line>present as the sun already begins to decline I shall only have</line>
                         <line>time to repeat the substance to you</line>
                         <anchor xml:id="c57-0024.03"/>
-                </zone>
+                
         </zone>
 </surface>
