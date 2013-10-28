@@ -30,10 +30,10 @@
       of</line>
     <line>"knowledge."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"And my father, brothers &#x26; Eliza</line>
+    <line rend="indent1">"And my father, brothers &#x26; Eliza</line>
     <line>beth" said I</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="2"/>"Very well &#x26; very happy" replied</line>
+    <line rend="indent1">"Very well &#x26; very happy" replied</line>
     <line>he "only a little uneasy that <del rend="strikethrough">yo</del></line>
     <line>"they hear from you so seldom, &#x26;</line>
     <line>"by the bye, I mean to lecture you</line>
@@ -45,7 +45,7 @@
     <line>"and pale; you appear as if you had</line>
     <line>"been watching for several nights."</line>
     <milestone unit="tei:p"/>
-    <line><space unit="chars" extent="3"/>"You have guessed right" I replied</line>
+    <line rend="indent1">"You have guessed right" I replied</line>
     <line>"I have lately been so engaged in</line>
     <line>"<mod>
         <del rend="strikethrough">several</del>
