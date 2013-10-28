@@ -14,7 +14,7 @@
         <del rend="overwritten">T</del>
         <add place="intralinear">t</add>
       </mod>he monster whom I had created, the</line>
-    <line>miserable dæmon whom I had sent <mod>
+    <line>miserable d&#xE6;mon whom I had sent <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">abroard</add>
       </mod> in<del rend="strikethrough">to</del> the world</line>
