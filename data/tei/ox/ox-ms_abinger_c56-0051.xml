@@ -73,23 +73,6 @@
     <anchor xml:id="c56-0051.03"/>
   </zone>
 
-  <zone type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0051.05"/>
-    <line><metamark function="count"><unclear>4</unclear></metamark></line>
-    <line><metamark function="count">52</metamark></line>
-    <line><metamark function="count"><hi rend="double-underline"><hi rend="underline"
-        >180</hi></hi></metamark></line>
-    <line><metamark function="count">104</metamark></line>
-    <line><metamark function="count">52</metamark></line>
-    <line><metamark function="count"><hi rend="underline">2<mod>
-            <del rend="overwritten">5</del>
-            <add place="intralinear">4</add>
-          </mod></hi></metamark><space unit="chars" extent="5"/><metamark function="count">17</metamark></line>
-    <line><metamark function="count">180</metamark></line>
-    <line><metamark function="count"><del rend="strikethrough">156</del></metamark></line>
-    <anchor xml:id="c56-0051.05"/>
-  </zone>
-
   <zone type="left_margin" corresp="#c56-0051.04">
     <line><add hand="#pbs">have</add></line>
   </zone>
