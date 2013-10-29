@@ -22,7 +22,7 @@
     <line>a portion of mankind.</line>
   
     
-    <addSpan spanTo="#c57-0190.01" hand="library"/>
+    <addSpan spanTo="#c57-0190.01" hand="#library"/>
   <line rend="center">95 haves</line>
     <line rend="center">BCBB, 31 Jan 1995</line>
     <anchor xml:id="c57-0190.01"/>

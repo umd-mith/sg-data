@@ -6,7 +6,7 @@
   xml:id="ox-ms_abinger_c56-0001" ulx="0" uly="0" lrx="5078" lry="7304" partOf="#ox-ms_abinger_c56">
   <graphic url="../../images/ox/ox-ms_abinger_c56-0001.tif"/>
   <zone type="main">
-    <addSpan spanTo="#c56-0001.01" hand="library"/>
+    <addSpan spanTo="#c56-0001.01" hand="#library"/>
     <line rend="indent3"><del rend="strikethrough">A12</del></line>
     <line rend="center">A 11</line>
     <line rend="center"><unclear unit="chars" extent="1"/> Autograph</line>

@@ -15,7 +15,7 @@
     <line>31</line>
   </zone>
   <zone type="main">
-    <line><del rend="strikethrough"><add hand="library">A11</add></del></line>
+    <line><del rend="strikethrough"><add hand="#library">A11</add></del></line>
     <handShift medium="pen" new="#mws"/>
     <line>whilst I destroyed his hopes, I did not satisfy my own</line>
     <line>desires. They were forever ardent and craving; <del rend="strikethrough"

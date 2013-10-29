@@ -7,7 +7,7 @@
   <graphic url="../../images/ox/ox-ms_abinger_c56-0003.tif"/>
   <zone type="library"><line>ii (<unclear unit="chars" extent="2"/>)</line></zone>
   <zone type="main">
-    <addSpan hand="library" spanTo="#c56-0003.01"/>
+    <addSpan hand="#library" spanTo="#c56-0003.01"/>
     <line>The first fragment contains</line>
     <line>pp. 24-97 of the Standard</line>
     <line>Novel edition.</line>
