@@ -55,7 +55,5 @@
     <line>"necessary for a merchant to</line>
     <line>"know nothing except bookeeping</line>
   </zone>
-  <zone type="left_margin">
-    <line><add hand="#pbs"><metamark function="count">52</metamark></add></line>
-  </zone>
+  
 </surface>
