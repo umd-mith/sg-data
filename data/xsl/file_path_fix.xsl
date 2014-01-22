@@ -15,7 +15,7 @@
         </xsl:processing-instruction>
         
         <xsl:copy>
-            <xsl:namespace name="sga">http://sga.mith.org/ns/1.0</xsl:namespace>
+            <xsl:namespace name="sga">http://shelleygodwinarchive.org/ns/1.0</xsl:namespace>
             <xsl:copy-of select="@*| node()"/>
         </xsl:copy>
     </xsl:template>

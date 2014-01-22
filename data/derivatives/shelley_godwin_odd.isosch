@@ -15,9 +15,9 @@
 <!-- namespaces, implicit: -->
 <!-- ********************* -->
 <ns prefix="dcr" uri="http://www.isocat.org/ns/dcr"/>
-   <ns prefix="eip-d1e3137" uri="http://sga.mith.org/ns/1.0"/>
-   <ns prefix="eip-d1e3140" uri="http://sga.mith.org/ns/1.0"/>
-   <ns prefix="eip-d1e3143" uri="http://sga.mith.org/ns/1.0"/>
+   <ns prefix="eip-d1e3137" uri="http://shelleygodwinarchive.org/ns/1.0"/>
+   <ns prefix="eip-d1e3140" uri="http://shelleygodwinarchive.org/ns/1.0"/>
+   <ns prefix="eip-d1e3143" uri="http://shelleygodwinarchive.org/ns/1.0"/>
    <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
 
    <!-- ************ -->

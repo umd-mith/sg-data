@@ -654,7 +654,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    </define>
    <define name="sgaatt.global.attribute.el-target">
       <optional>
-         <attribute name="el-target" ns="http://sga.mith.org/ns/1.0">
+         <attribute name="el-target" ns="http://shelleygodwinarchive.org/ns/1.0">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A convenience attribute for indicating what text-centric element a document-centric element should be transformed to</a:documentation>
             <text/>
          </attribute>
@@ -662,7 +662,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    </define>
    <define name="sgaatt.global.attribute.att-target">
       <optional>
-         <attribute name="att-target" ns="http://sga.mith.org/ns/1.0">
+         <attribute name="att-target" ns="http://shelleygodwinarchive.org/ns/1.0">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A convenience attribute for indicating what attribute should be added in transforming from document- to text-centric markup. By convention the attribute is placed on the element specified in a preceding el-target attribute</a:documentation>
             <text/>
          </attribute>
@@ -670,7 +670,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    </define>
    <define name="sgaatt.global.attribute.att-value">
       <optional>
-         <attribute name="att-value" ns="http://sga.mith.org/ns/1.0">
+         <attribute name="att-value" ns="http://shelleygodwinarchive.org/ns/1.0">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">If an attribute created during a document- to text-centric markup conversion should have a particular value, please indicate</a:documentation>
             <text/>
          </attribute>
