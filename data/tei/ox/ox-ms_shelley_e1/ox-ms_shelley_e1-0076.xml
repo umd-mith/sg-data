@@ -4,7 +4,7 @@
 <!-- editing begun, not yet complete amstauff dmw and sas -->
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://shelleygodwinarchive.org/ns/1.0" ulx="0" uly="0" lrx="5406" lry="7276"
   xml:id="ox-ms_shelley_e1-0076" partOf="#ox-ms_shelley_e1">
-  <graphic url="../../images/ox/ox-ms_shelley_e1-0076.tif"/>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ox-ms_shelley_e1-0076.jp2"/>
   <zone type="main">
     <milestone unit="tei:stage" spanTo="e1-0076.01"/>
     <line rend="indent1">Enter Mercury followed by the Furies</line>

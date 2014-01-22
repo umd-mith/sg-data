@@ -3,7 +3,7 @@
   href="../../../xsl/page-proof.xsl"?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://shelleygodwinarchive.org/ns/1.0" ulx="0" uly="0"
   lrx="5406" lry="7276" xml:id="ox-ms_shelley_e1-0024" partOf="#ox-ms_shelley_e1">
-  <graphic url="../../images/ox/ox-ms_shelley_e1-0024.tif"/>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ox-ms_shelley_e1-0024.jp2"/>
   <zone type="main">
     <line><milestone unit="tei:l" spanTo="#e1-0024.01"/>Threatenedst to muffle round with black
       destruction,</line>

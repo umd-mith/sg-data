@@ -4,7 +4,7 @@
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://shelleygodwinarchive.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0126" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
-  <graphic url="../../images/ox/ox-ms_abinger_c57-0126.tif"/>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ox-ms_abinger_c57-0126.jp2"/>
   <zone type="pagination" rend="bordered"><line>142</line></zone>
   <zone type="main">
     <line>Your family are all perfectly <del rend="strikethrough">well</del> well, <mod

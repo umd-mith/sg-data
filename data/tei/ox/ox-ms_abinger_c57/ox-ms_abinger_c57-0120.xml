@@ -4,7 +4,7 @@
         ?>
 <surface xmlns="http://www.tei-c.org/ns/1.0" xmlns:sga="http://shelleygodwinarchive.org/ns/1.0"
   xml:id="ox-ms_abinger_c57-0120" ulx="0" uly="0" lrx="5138" lry="7032" partOf="#ox-ms_abinger_c57">
-  <graphic url="../../images/ox/ox-ms_abinger_c57-0120.tif"/>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ox-ms_abinger_c57-0120.jp2"/>
   <zone type="pagination" rend="bordered"><line>136</line></zone>
   <zone type="main">
     <line>I was perfectly tranquil as to the consequences of the</line>
