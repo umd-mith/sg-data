@@ -8,7 +8,8 @@
     <fileDesc>
       <titleStmt>
         <title>Shelley Godwin Archive Customization</title>
-        <author>Trevor Muñoz</author>
+        <author xml:id="tmunoz">Trevor Muñoz</author>
+        <author xml:id="rviglian">Raffaele Viglianti</author>
       </titleStmt>
       <publicationStmt>
         <distributor>Shelley Godwin Archive (via website)</distributor>
@@ -17,7 +18,7 @@
         </address>
         <date when="2011-10-17">October 17, 2011</date>
         <availability status="restricted">
-          <p>This work is copyright Trevor Muñoz and Maryland Institute for Technology in the
+          <p>This work is copyright Trevor Muñoz, Raffaele Viglianti, and Maryland Institute for Technology in the
             Humanities and licensed under a <ref
               target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
               Unported License</ref>.</p>
@@ -33,6 +34,7 @@
       <change who="tmunoz" when="2011-10-16">First draft</change>
       <change who="tmunoz" when="2011-11-14">Temporarily removing Genetic Editions stuff</change>
       <change who="tmunoz" when="2011-11-21">Making additional header elements required</change>
+      <change who="rviglian" when="2014-01-21">Restructured to validate master files (metadata + xinlcluded content)</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -45,94 +47,23 @@
         <head>Shelley Godwin ODD</head>
         <p>The prefix in this schema stands for <expan>Shelley Godwin Archive</expan>, the project
           for which this customization was developed.</p>
-        <schemaSpec ident="shelley_godwin_odd" prefix="sga_" start="TEI">
+        <schemaSpec ident="shelley_godwin_odd" prefix="sga" start="TEI">
 
-          <!-- Required modules -->
-          <moduleRef key="tei"/>
+          <xi:include href="shelley-godwin-page.odd" xpointer="modules"/>
+          <xi:include href="shelley-godwin-page.odd" xpointer="mainSpec"/>
+          
+          <specGrpRef target="#modules"/>
           <moduleRef key="core"
-            except="analytic biblStruct binaryObject headItem headLabel label listBibl measure measureGrp meeting monogr postBox postCode series teiCorpus"/>
-          <moduleRef key="header" except="biblFull samplingDecl stdVals"/>
-          <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
-          <moduleRef key="transcr"/>
-
-          <!-- Additional elements -->
-          <elementRef key="persName"/>
-          <elementRef key="placeName"/>
-          
-          <!-- class-level alterations; generally wholesale deletions or additions -->
-          <classSpec  type="model" ident="model.divGenLike" module="tei" mode="delete"/>
-          <classSpec  type="model" ident="model.div1Like" module="tei" mode="delete"/>
-
-          <!-- Modifications to the content model of  teiHeader:
-	           * encodingDesc and revisionDesc now required -->
-          <elementSpec ident="teiHeader" module="header" mode="change">
-            <content>
-              <rng:ref name="fileDesc"/>
-              <rng:ref name="encodingDesc"/>
-              <rng:zeroOrMore>
-                <rng:ref name="profileDesc"/>
-              </rng:zeroOrMore>
-              <rng:ref name="revisionDesc"/>
-            </content>
-          </elementSpec>
-
-          <!-- Modifications to fileDesc:
-                    * editionStmt, seriesStmt are now required
-                    * notesStmt has been removed -->
-          <elementSpec ident="fileDesc" module="header" mode="change">
-            <content>
-              <rng:group>
-                <rng:ref name="titleStmt"/>
-                <rng:ref name="editionStmt"/><!-- TODO: modify the content model of editionStmt -->
-                <rng:optional>
-                  <rng:ref name="extent"/>
-                </rng:optional>
-                <rng:ref name="publicationStmt"/>
-                <rng:ref name="seriesStmt"/><!-- TODO: modify the content model of seriesStmt -->
-              </rng:group>
-              <rng:oneOrMore>
-                <rng:ref name="sourceDesc"/>
-              </rng:oneOrMore>
-            </content>
-          </elementSpec>
-          
-          <elementSpec ident="editionStmt" module="header" mode="change"></elementSpec>
-          
-          <!-- Require use of specialized elements rather than free text in edition description; eliminate biblScope in favor of idno for series -->
-          <elementSpec ident="seriesStmt" module="core" mode="change">
-            <content>
-              <rng:group>
-                <rng:oneOrMore>
-                  <rng:ref name="title"/>
-                </rng:oneOrMore>
-                <rng:zeroOrMore>
-                  <rng:choice>
-                    <rng:ref name="editor"/>
-                    <rng:ref name="respStmt"/>
-                  </rng:choice>
-                </rng:zeroOrMore>
-                <rng:zeroOrMore>
-                    <rng:ref name="idno"/>
-                </rng:zeroOrMore>
-              </rng:group>
-            </content>
-          </elementSpec>
-
-          <!-- for the moment, only simple paragraph description is accepted in encoding description -->
-          <elementSpec ident="encodingDesc" module="header" mode="change">
-            <content>
-              <rng:oneOrMore>
-                <rng:ref name="model.pLike"/>
-              </rng:oneOrMore>
-            </content>
-          </elementSpec>
-          
-          <!-- Miscellaneous element changes; this section will be re-organized later -->
-          <elementSpec ident="title" module="core" mode="change">
-            <attList>
-              <attDef ident="level" mode="change" usage="mwa"/>
-            </attList>  
-          </elementSpec>
+            except="abbr analytic biblScope biblStruct 
+            binaryObject cb choice cit distinct divGen editor email expan gb gloss 
+            head headItem headLabel imprint l label lb listBibl lg measure 
+            meeting mentioned monogr pb postBox postCode publisher 
+            q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig"/>
+          <moduleRef key="header"/>
+          <moduleRef key="textstructure"/>
+          <moduleRef key="msdescription"/>
+          <moduleRef key="namesdates"/>
+          <specGrpRef target="#mainSpec"/>
 
         </schemaSpec>
       </div>
