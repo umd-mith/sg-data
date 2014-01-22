@@ -42,6 +42,7 @@
                 zones</change>
             <change when="2012-03-24" who="tmunoz">Removed about 40 unused elements</change>
             <change when="2012-05-15" who="tmunoz">Added some schematron tests</change>
+            <change when="2014-01-21" who="rviglian">Grouped main specs for inclusion in master ODD. Reintroduced xml:base, removed duplicate @target on metamark</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -334,32 +335,26 @@
                     governed by this model are fragments and are not-intended to stand alone.</p>
                 <schemaSpec ident="shelley-godwin-page" prefix="sga-p" start="surface surfaceGrp">
 
-                    <moduleRef key="tei"/>
-                    <moduleRef key="core"
-                        except="abbr addrLine address analytic author biblScope biblStruct 
-                        binaryObject cb choice cit distinct divGen editor email expan gb gloss 
-                        head headItem headLabel imprint l label lb listBibl lg measure 
-                        meeting mentioned monogr p pb postBox postCode pubPlace publisher 
-                        q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig"/>
-                    <moduleRef key="textstructure"
-                        except="argument back byline TEI div1 div2 div3 div4 div5 div6 div7 docAuthor docDate 
-                        docEdition docImprint docTitle epigraph floatingText front group imprimatur titlePage titlePart"/>
-
-                    <!-- Additional modules -->
-                    <moduleRef key="transcr" except="am ex fw supplied surplus redo undo"/>
-                    <moduleRef key="gaiji"/>
-                    <moduleRef key="linking" except="ab altGrp timeline"/>
-                    <!-- included principally for the att.linking class -->
-                    <moduleRef key="figures" include="figure figDesc"/>
-
-                    <!-- Some specific elements to include-->
-                    <elementRef key="c"/>
-
-                    <!-- Class-level modifications -->
+                    <specGrp xml:id="modules">
+                        <moduleRef key="tei"/>
+                        
+                        <!-- Additional modules -->
+                        <moduleRef key="transcr" except="am ex fw supplied surplus redo undo"/>
+                        <moduleRef key="gaiji"/>
+                        <moduleRef key="linking" except="ab altGrp timeline"/>
+                        <!-- included principally for the att.linking class -->
+                        <moduleRef key="figures" include="figure figDesc"/>
+                        
+                        <!-- Some specific elements to include-->
+                        <elementRef key="c"/>
+                    </specGrp>
+                    
+                    <specGrp xml:id="mainSpec">
+                        <!-- Class-level modifications -->
                     <classSpec ident="att.global" type="atts" mode="change">
                         <attList>
                             <attDef ident="xml:lang" mode="delete"/>
-                            <attDef ident="xml:base" mode="delete"/>
+                            <!--<attDef ident="xml:base" mode="delete"/>-->
                             <attDef ident="xml:space" mode="delete"/>
                             <attDef ident="rendition" mode="delete"/>
                             <attDef ident="el-target" mode="add" ns="http://sga.mith.org/ns/1.0">
@@ -686,13 +681,13 @@
                                     <valItem ident="trasnpose"/>
                                 </valList>
                             </attDef>
-                            <attDef ident="target">
+                            <!--<attDef ident="target">
                                 <desc>identifies one or more elements to which the function
                                     indicated by the metamark applies. </desc>
                                 <datatype minOccurs="1" maxOccurs="unbounded">
                                     <rng:ref name="data.pointer"/>
                                 </datatype>
-                            </attDef>
+                            </attDef>-->
                         </attList>
                         <exemplum xml:lang="no"><egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <line><seg xml:id="tp-ib01">bör</seg><metamark rend="underline"
@@ -803,7 +798,20 @@
                                 </valList>
                             </attDef>
                         </attList>
-                    </elementSpec>
+                    </elementSpec>                
+                    </specGrp>
+                    
+                    <specGrpRef target="#modules"/>
+                    <moduleRef key="core"
+                        except="abbr addrLine address analytic author biblScope biblStruct 
+                        binaryObject cb choice cit distinct divGen editor email expan gb gloss 
+                        head headItem headLabel imprint l label lb listBibl lg measure 
+                        meeting mentioned monogr p pb postBox postCode pubPlace publisher 
+                        q quote said series soCalled sp street teiCorpus textLang time sic corr reg orig"/>
+                    <moduleRef key="textstructure"
+                        except="argument back byline TEI div1 div2 div3 div4 div5 div6 div7 docAuthor docDate 
+                        docEdition docImprint docTitle epigraph floatingText front group imprimatur titlePage titlePart"/>
+                    <specGrpRef target="#mainSpec"/>
 
                 </schemaSpec>
             </div>
