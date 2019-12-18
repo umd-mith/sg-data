@@ -1,5 +1,5 @@
-Shelley-Godwin Archive
-======================
+# OLD DATA REPOSITORY. USE https://github.com/umd-mith/sga
+## Shelley-Godwin Archive
 
 Add project description here.
 
